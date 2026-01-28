@@ -1,0 +1,95 @@
+.footr_socal_fb {
+    background-image: url('../../images/modules/footer/fb.png')!important;
+}
+
+.footr_socal_fb.svg-fix {
+    background-image: url('../../images/modules/footer/fb.svg')!important;        
+}
+
+.footr_socal_rss {
+    background-image: url('../../images/modules/footer/rss.png')!important;
+}
+
+.footr_socal_rss.svg-fix {
+    background-image: url('../../images/modules/footer/rss.svg')!important;        
+}
+
+.footr_socal_li {
+    background-image: url('../../images/modules/footer/li.png')!important;
+}
+
+.footr_socal_li.svg-fix {
+    background-image: url('../../images/modules/footer/li.svg')!important;        
+}
+
+.footr_socal_tw {
+    background-image: url('../../images/modules/footer/twx.png')!important;
+}
+
+.footr_socal_tw.svg-fix {
+    background-image: url('../../images/modules/footer/twx.svg')!important;        
+}
+
+.footr_socal_yt {
+    background-image: url('../../images/modules/footer/yt.png')!important;
+}
+
+.footr_socal_yt.svg-fix {
+    background-image: url('../../images/modules/footer/yt.svg')!important;        
+}
+
+.footr_socal_dr {
+    background-image: url('../../images/modules/footer/dr.png')!important;
+}
+
+.footr_socal_dr.svg-fix {
+    background-image: url('../../images/modules/footer/dr.svg')!important;        
+}
+
+.footr_socal_fl {
+    background-image: url('../../images/modules/footer/fl.png')!important;
+}
+
+.footr_socal_fl.svg-fix {
+    background-image: url('../../images/modules/footer/fl.svg')!important;        
+}     
+
+.footr_socal_in {
+    background-image: url('../../images/modules/footer/in.png')!important;
+}
+
+.footr_socal_in.svg-fix {
+    background-image: url('../../images/modules/footer/in.svg')!important;        
+}
+
+.footr_socal_tt {
+    background-image: url('../../images/modules/footer/tt.png')!important;
+}
+
+.footr_socal_tt.svg-fix {
+    background-image: url('../../images/modules/footer/tt.svg')!important;        
+}
+
+.footr_socal_apple {
+    background-image: url('../../images/modules/footer/app.png')!important;
+}
+
+.footr_socal_apple.svg-fix {
+    background-image: url('../../images/modules/footer/app.svg')!important;        
+}
+
+.footr_socal_android {
+    background-image: url('../../images/modules/footer/andr.png')!important;
+}
+
+.footr_socal_android.svg-fix {
+    background-image: url('../../images/modules/footer/andr.svg')!important;        
+}
+
+.footr_socal_windows {
+    background-image: url('../../images/modules/footer/win.png')!important;
+}
+
+.footr_socal_windows.svg-fix {
+    background-image: url('../../images/modules/footer/win.svg')!important;        
+}

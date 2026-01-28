@@ -1,0 +1,13 @@
+var A_TCALCONF = {
+    'cssprefix'  : 'tcal',
+    'months'     : ['Janvāris', 'Februāris', 'Marts', 'Aprīlis', 'Maijs', 'Jūnijs', 'Jūlijs', 'Augusts', 'Septembris', 'Oktobris', 'Novembris', 'Decembris'],
+    'weekdays'   : ['Sv', 'Pm', 'Ot', 'Tr', 'Ce', 'Pi', 'Se'],
+    'longwdays'  : ['Svētdiena', 'Pirmdiena', 'Otrdiena', 'Trešdiena', 'Ceturtdiena', 'Piektdiena', 'Svētdiena'],
+    'yearscroll' : true, // show year scroller
+    'weekstart'  : 1, // first day of week: 0-Su or 1-Mo
+    'prevyear'   : 'Iepriekšējais gads',
+    'nextyear'   : 'Nākamais gads',
+    'prevmonth'  : 'Iepriekšējais mēnesis',
+    'nextmonth'  : 'Nākamais mēnesis',
+    'format'     : 'd.m.Y' // 'd-m-Y', Y-m-d', 'l, F jS Y'  
+};

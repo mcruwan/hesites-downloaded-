@@ -1,0 +1,65 @@
+var navigationText = function () {
+    if(document.querySelector('.sticky-desktop-nav')) {
+        var navItems = document.querySelectorAll('.sticky-desktop-nav .nav-list li a');
+        var textBlocks = document.querySelectorAll('#brxe-zoeijf #brxe-zwayxv > div, #brxe-zoeijf #brxe-zwayxv > section');
+
+        if (navItems.length > 0 && textBlocks.length > 0) {
+
+            var calculateOffset = function () {
+                var vh = window.innerHeight;
+                var isDesktop = window.matchMedia('(min-width: 1025px)').matches;
+                return isDesktop ? Math.round(vh * 0.30) : Math.round(vh * 0.1);
+            };
+
+            var offset = calculateOffset();
+
+            var setActiveNavItem = function (id) {
+                navItems.forEach(function (item) {
+                    item.closest('li').classList.remove('active');
+                    if (item.getAttribute('href') === ('#' + id)) {
+                        item.closest('li').classList.add('active');
+                    }
+                });
+            };
+
+            var handleIntersection = function (entries) {
+                entries.forEach(function (entry) {
+                    if (entry.isIntersecting) {
+                        setActiveNavItem(entry.target.getAttribute('id'));
+                    }
+                });
+            };
+
+            var observerOptions = {
+                root: null,
+                rootMargin: '-' + offset + 'px 0px -75% 0px',
+                threshold: 0
+            };
+
+            var observer = new IntersectionObserver(handleIntersection, observerOptions);
+
+            if (navItems.length > 0 && textBlocks.length > 0) {
+                textBlocks.forEach(function (block) {
+                    observer.observe(block);
+                });
+
+                window.addEventListener('resize', function () {
+                    offset = calculateOffset();
+                    observer.disconnect();
+                    observer = new IntersectionObserver(handleIntersection, {
+                        root: observerOptions.root,
+                        rootMargin: '-' + offset + 'px 0px -75% 0px',
+                        threshold: observerOptions.threshold
+                    });
+                    textBlocks.forEach(function (block) {
+                        observer.observe(block);
+                    });
+                });
+            }
+        }
+    }
+};
+
+document.addEventListener('DOMContentLoaded', function () {
+    navigationText()
+}, false);

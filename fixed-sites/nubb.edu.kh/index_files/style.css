@@ -1,0 +1,12 @@
+/*
+THEME NAME: UBB Website
+THEME URI: http://bwawwp.com/wp-content/themes/memberlite-child/
+DESCRIPTION: UBB Website Theme by Mao Akana
+VERSION: 1.0.17
+AUTHOR: Mao Akana
+AUTHOR Uri: mao.akana@gmail.com
+TAGS: memberlite, child, tag
+TEMPLATE: memberlite
+*/
+@import url("../memberlite/style.css");
+@import url("./css/custom.css");

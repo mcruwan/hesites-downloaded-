@@ -1,0 +1,205 @@
+jQuery(function($){
+
+	//события срабатывает при загрузке страницы
+	$( document ).ready(function() {
+		//отправка формы данных критериев отбора специальностей
+		$('#filter-specialty').submit();
+		//отправка формы данных критериев отбора новостей
+		$('#filter-runews').submit();
+		//отправка формы данных критериев отбора данных сотрудников
+		$('#filter-personal-file').submit();
+
+	});
+
+	//события срабатывает при изменений значений на форме критериев отбора специальностей
+	$('#filter-specialty input[type="radio"], #filter-specialty select').change(function () {	
+		//отправка формы данных критериев отбора специальностей
+		$('#filter-specialty').submit();
+	});
+
+	$('#filter-specialty').submit(function(e){
+
+		e.preventDefault();
+
+		var filter = $('#filter-specialty');
+		$.ajax({
+			type: filter.attr('method'), // POST
+			dataType: 'html',
+			url: filter.attr('action'),
+			data: filter.serialize(), // form data
+			beforeSend: function( xhr ){
+				//filter.find('button').text('Processing...'); // changing the button label
+				//console.log('Processing...');
+			},
+			success: function( data ){
+				$('#specialty-item__filtered').html(data); // insert data
+				
+				/*$('.ajax-result').remove();
+				//Вставляем данные в нужное место шаблона сайта
+				$('.main').append(data);*/
+			},
+			error:function( error ){
+				//filter.find('button').text('Apply filter'); // changing the button label back
+				//console.log( error );
+			}
+		});
+
+	});
+
+
+	//события срабатывает при изменений значений на форме критериев отбора новостей (на-русском)
+	$('#filter-runews input[type="radio"]').change(function () {
+		//отправка формы данных критериев отбора специальностей
+		$('#filter-runews').submit();
+	});
+
+	$('#filter-runews').submit(function(e){
+
+		e.preventDefault();
+
+		var filter = $('#filter-runews');
+		$.ajax({
+			type: filter.attr('method'), // POST
+			dataType: 'html',
+			url: filter.attr('action'),
+			data: filter.serialize(), // form data
+			beforeSend: function( xhr ){
+				//console.log('Processing...');
+			},
+			success: function( data ){
+				$('#runews__filtered').html(data); // insert data
+			},
+			error:function( error ){
+				//console.log( error );
+			}
+		});
+
+	});	
+
+
+
+
+	//события срабатывает при изменений значений на форме критериев отбора сотрудников
+	$('#filter-collaborator select').change(function () {	
+		//отправка формы данных критериев отбора сотрудников
+		$('#filter-collaborator').submit();
+	});
+
+	$('#filter-collaborator').submit(function(e){
+
+		e.preventDefault();
+
+		var filter = $('#filter-collaborator');
+		$.ajax({
+			type: filter.attr('method'), // POST
+			dataType: 'html',
+			url: filter.attr('action'),
+			data: filter.serialize(), // form data
+			beforeSend: function( xhr ){
+				//filter.find('button').text('Processing...'); // changing the button label
+				//console.log('Processing...');
+			},
+			success: function( data ){
+				$('#collaborator-item__filtered').html(data); // insert data
+				
+				/*$('.ajax-result').remove();
+				//Вставляем данные в нужное место шаблона сайта
+				$('.main').append(data);*/
+			},
+			error:function( error ){
+				//filter.find('button').text('Apply filter'); // changing the button label back
+				//console.log( error );
+			}
+		});
+
+	});	
+
+/***************************/
+/** ПЕРСОНАЛЬНЫЕ СТРАНИЦЫ **/
+/***************************/
+
+	// определяем в переменные кнопку #loadmore a
+	var btnLoadmore = $( '#loadmore a' )
+
+	//события срабатывает при изменений значений на форме критериев отбора личных дел сотрудников
+	$('#filter-personal-file select').change(function () {	
+		//отправка формы данных критериев отбора сотрудников
+		$('#filter-personal-file').submit();
+	});
+
+	$('#filter-personal-file').submit(function(e){
+
+		e.preventDefault();
+
+		let subdiv_id = $( '#subdivision option:selected' ).val();		
+
+		var filter = $('#filter-personal-file');
+		$.ajax({
+			type: filter.attr('method'), // POST
+			dataType: 'html',
+			url: filter.attr('action'),
+			data: filter.serialize(), // form data
+			beforeSend: function( xhr ){
+				//filter.find('button').text('Processing...'); // changing the button label
+				//console.log('Processing...');
+			},
+			success: function( data ){
+				$('#personal-file__filtered').html(data); // insert data
+				personalfile_pages.current = 1;
+				//console.log(personalfile_pages.max);
+
+				// если последняя страница, то удаляем кнопку
+				if( personalfile_pages.current == personalfile_pages.max ) {
+					$( '#loadmore' ).hide();
+				} else {
+					$( '#loadmore' ).show();
+				}		
+
+			},
+			error:function( error ){
+				//filter.find('button').text('Apply filter'); // changing the button label back
+				//console.log( error );
+			}
+		});
+
+	});	
+
+
+	btnLoadmore.click( function( event ) {
+ 
+		event.preventDefault(); // предотвращаем клик по ссылке
+
+		let subdiv_id = $("#subdivision option:selected").val();
+		let current_page = Number(personalfile_pages.current);
+ 
+		$.ajax({
+			type : 'POST',
+			url : MyAjax.ajaxurl, // получаем из wp_localize_script()
+			data : {
+				paged : current_page,
+				subdiv_id : subdiv_id,
+				action : 'loadmore' // экшен для wp_ajax_ и wp_ajax_nopriv_
+			},
+			beforeSend : function( xhr ) {
+				btnLoadmore.text( 'Загружаем...' );
+			},
+			success : function( data ){
+ 
+				$('#personal-file__filtered').append( data );
+				btnLoadmore.text( 'Загрузить ещё' );
+
+				personalfile_pages.current = Number(personalfile_pages.current) + 1;
+				
+				// если последняя страница, то удаляем кнопку
+				if( personalfile_pages.current == personalfile_pages.max ) {
+					$( '#loadmore' ).hide();
+				}
+				
+ 
+			}
+ 
+		});
+ 
+	} );
+	
+});

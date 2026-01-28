@@ -1,0 +1,124 @@
+// JavaScript Document
+
+
+//Validate
+function validate_el_appl_form()
+{
+	var errors = 0;
+	var emailPattern = /^[a-zA-Z0-9._]+[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z]{2,4}$/;
+	
+	$('input[type="text"]').removeClass('error'); 
+	$('small').hide();
+	
+	var email = $('input[name="email"]');
+	var name = $('input[name="name"]');
+	var address = $('input[name="address"]');
+	var telephone = $('input[name="telephone"]');
+	
+	//Bachelor
+	var evaluation_bul_lang = $('input#evaluation_bul_lang_input');
+	var evaluation_op_subj = $('input#evaluation_op_subj_input');
+	var optional_subject = $('input[name="optional_subject"]');
+	
+	//Master
+	var average_grade = $('input[name="average_grade"]');
+	var average_grade_exam = $('input[name="average_grade_exam"]');
+	
+	//Action
+	var action = $('select[name="degree"]').val();
+	
+	if ( email.val() == '' || !emailPattern.test(email.val()) )
+	{
+		email.addClass('error');
+		$('small#email').show();
+		errors++;
+	}
+	
+	if ( name.val() == '' )
+	{
+		name.addClass('error');
+		$('small#name').show();
+		errors++;
+	}
+	
+	if ( address.val() == '' )
+	{
+		address.addClass('error');
+		$('small#address').show();
+		errors++;
+	}
+	
+	if ( telephone.val() == '' )
+	{
+		telephone.addClass('error');
+		$('small#telephone').show();
+		errors++;
+	}
+	
+	if ( action == 'bachelor' )
+	{
+		/*if ( evaluation_bul_lang.val() == '' )
+		{
+			evaluation_bul_lang.addClass('error');
+			$('small#evaluation_bul_lang').show();
+			errors++;
+		}*/
+		
+		if ( evaluation_op_subj.val() == '' )
+		{
+			evaluation_op_subj.addClass('error');
+			$('small#evaluation_op_subj').show();
+			errors++;
+		}
+		
+		if ( optional_subject.val() == '' )
+		{
+			optional_subject.addClass('error');
+			$('small#optional_subject').show();
+			errors++;
+		}
+	}
+	else if ( action == 'master' )
+	{
+		if ( average_grade.val() == '' )
+		{
+			average_grade.addClass('error');
+			$('small#average_grade').show();
+			errors++;
+		}
+		
+		if ( average_grade_exam.val() == '' )
+		{
+			average_grade_exam.addClass('error');
+			$('small#average_grade_exam').show();
+			errors++;
+		}
+	} else errors++;
+
+	
+	
+	if ( errors ) {
+		return false;
+	} else {
+		//Clear empty file inputs
+		$('input[name^="diploma"]').each(function(){
+			if( $(this).val() == "" ) {
+				$(this).remove();
+			}
+		});
+	}
+		
+}
+
+var count = 0;
+var max_count = 5;
+
+function add_files() 
+{	
+	$('input[name^=diploma]:last').after('<br /><input name="diploma[]" type="file" value="" />');
+	count++;
+
+	if( count == max_count ) {
+		$('#add_file').remove();
+	}
+}

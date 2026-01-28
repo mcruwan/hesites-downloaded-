@@ -1,0 +1,37 @@
+ .general-content .img-left .caption, .general-content .img-right .caption, .general-content .img-center .caption {display: block; width: 100%;
+    padding: .75rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: .75rem;
+    letter-spacing: .05rem;
+    font-weight: 700;
+  background-color: rgba(231, 127, 130, .1);}
+
+.general-content .img-right, .general-content .img-left {
+margin-bottom: 2rem;
+}
+
+  .general-content .img-center .caption {
+    max-width: 100%;
+    margin: 0 auto 2rem;
+}
+
+.inner--left .inner__sidebar .inner__list a, .program-builder .inner__sidebar .inner__list a {
+    padding-right: 1.5rem;
+  }
+
+@media (max-width: 1200px) {
+    .header .navbar-secondary .navbar-nav>li.nav-item.dropdown .megamenu.show .submenu {
+        display: block;
+    }
+    .statistics-ct__col {
+        width: 100%;
+    }
+    .tabs__icon {
+ 	    flex-shrink: 0; 
+    }
+}
+
+
+
+

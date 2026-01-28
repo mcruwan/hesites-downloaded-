@@ -1,0 +1,2 @@
+System.register([],function(e,t){"use strict";return{execute:function(){var e=new FontFaceObserver("Montserrat",{weight:300,style:"normal"}),t=new FontFaceObserver("Montserrat",{weight:400,style:"normal"}),n=new FontFaceObserver("Montserrat",{weight:700,style:"normal"});Promise.all([e.load(),t.load(),n.load()]).then(function(){document.documentElement.classList.add("fonts-loaded")}).catch(e=>{console.error(e),document.documentElement.classList.add("fonts-failed")})}}});
+//# sourceMappingURL=loadFonts-legacy-DI-wjrz3.js.map

@@ -1,0 +1,1210 @@
+window.UNIBIT_COOKIES_ENABLER = window.UNIBIT_COOKIES_ENABLER || (function () {
+
+    'use strict'
+
+    var defaults = {
+        scriptClass:                 'uce-script',
+        imgClass:                    'uce-img',
+        iframeClass:                 'uce-iframe',
+        iframeContentClass:          'uce-iframe-content',
+        iframeContentContainerClass: 'uce-iframe-content-container',
+        iframeHiddenClass:           'uce-iframe-hidden',
+        acceptClass:                 'uce-accept',
+        acceptSelectedClass:         'uce-accept-selected',
+        disableClass:                'uce-disable',
+        dismissClass:                'uce-dismiss',
+        customizeClass:              'uce-customize',
+        bodyClass:                   'uce-body',
+        bannerClass:                 'uce-banner',
+        checkboxClass:               'uce-checkbox',
+        parsedClass:                 'uce-element-parsed',
+        bannerHTML:
+            document.getElementById('uce-banner-html') !== null ?
+                document.getElementById('uce-banner-html').innerHTML :             
+                    '<div class="uce-banner-wrapper-outer">' 
+                        +'<div class="uce-banner-wrapper-inner">'   
+                            +'<div class="uce-banner-inner">'
+                                +'<a href="#" class="uce-dismiss">x</a>'  
+                                +'<div class="uce-banner-main-text">'
+                                    +'<p class="uce-banner-heading">This website uses cookies</p>'
+                                    +'<p>We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.</p>'  
+                                +'</div>'
+                                +'<div class="uce-banner-buttons-container">'               
+                                    +'<a href="#" class="uce-disable">Disable Cookies</a>' 
+                                    +'<label class="uce-customize" for="uce-checkbox-customize">Customize</label>'   
+                                    +'<a href="#" class="uce-accept">Enable Cookies</a>'                                     
+                                +'</div>'   
+                                +'<input type="checkbox" id="uce-checkbox-customize" class="uce-checkbox-hidden" />'
+                                +'<div class="uce-banner-customize" id="uce-banner-customize">'  
+                                    +'<div class="uce-banner-customize-text">'  
+                                        +'<p>Cookies are small text files that can be used by websites to make a user’s experience more efficient. The law states that we can store cookies on your device if they are strictly necessary for the operation of this site. For all other types of cookies we need your permission.</p>'
+                                        +'<p>This site uses different types of cookies. Some cookies are placed by third party services that appear on our pages. Learn more about who we are, how you can contact us and how we process personal data in our <a href="#" rel="nofollow">Privacy Policy</a>.</p>'
+                                        +'<p>You can at any time change or withdraw your consent from the <a href="#" rel="nofollow">Cookie Declaration</a> on our website.</p>'
+                                    +'</div>'
+                                    +'<table class="uce-banner-customize-table">'
+                                        +'<tbody>'
+                                            +'<tr>'
+                                                +'<th>'
+                                                    +'Necessary'
+                                                +'</th>'
+                                                +'<td>'
+                                                    +'<p>Necessary cookies help make a website usable by enabling basic functions like page navigation and access to secure areas of the website. The website cannot function properly without these cookies.</p>'
+                                                +'</td>'
+                                                +'<td>'
+                                                    +'<input type="checkbox" id="uce-custom-n" class="uce-checkbox" disabled checked /> <label for="uce-custom-n"></label>'       
+                                                +'</td>'
+                                            +'</tr>'
+                                            +'<tr>'
+                                                +'<th>'
+                                                    +'Preferences'
+                                                +'</th>'
+                                                +'<td>'
+                                                    +'<p>Preference cookies enable a website to remember information that changes the way the website behaves or looks, like your preferred language or the region that you are in.</p>' 
+                                                +'</td>'
+                                                +'<td>'
+                                                    +'<input type="checkbox" id="uce-custom-p" class="uce-checkbox" /> <label for="uce-custom-p"></label>'     
+                                                +'</td>'
+                                            +'</tr>'                        
+                                            +'<tr>'
+                                                +'<th>'
+                                                    +'Statistics'
+                                                +'</th>'
+                                                +'<td>'
+                                                    +'<p>Statistic cookies help website owners to understand how visitors interact with websites by collecting and reporting information anonymously.</p>' 
+                                                +'</td>'
+                                                +'<td>'
+                                                    +'<input type="checkbox" id="uce-custom-s" class="uce-checkbox" /> <label for="uce-custom-s"></label>'    
+                                                +'</td>'
+                                            +'</tr>'                          
+                                            +'<tr>'
+                                                +'<th>'
+                                                    +'Marketing'
+                                                +'</th>'
+                                                +'<td>'
+                                                    +'<p>Marketing cookies are used to track visitors across websites. The intention is to display ads that are relevant and engaging for the individual user and thereby more valuable for publishers and third party advertisers.</p>' 
+                                                +'</td>'
+                                                +'<td>'
+                                                    +'<input type="checkbox" id="uce-custom-m" class="uce-checkbox" /> <label for="uce-custom-m"></label>'  
+                                                +'</td>'
+                                            +'</tr>'   
+                                            +'<tr>'
+                                                +'<th>'
+                                                    +'Unclassified'
+                                                +'</th>'
+                                                +'<td>'
+                                                    +'<p>Unclassified cookies are cookies that we are in the process of classifying, together with the providers of individual cookies.</p>' 
+                                                +'</td>'
+                                                +'<td>'
+                                                    +'<input type="checkbox" id="uce-custom-u" class="uce-checkbox" /> <label for="uce-custom-u"></label>'  
+                                                +'</td>'
+                                            +'</tr>'                                                
+                                            +'<tr>'
+                                                +'<th>'                                
+                                                +'</th>'
+                                                +'<td>'
+                                                    +'<a href="#" class="uce-accept-selected">Enable selected</a>'      
+                                                +'</td>'
+                                                +'<td>'
+                                                    +'<a href="#" class="uce-accept">Enable all</a>'                                                      
+                                                +'</td>'
+                                            +'</tr>'   
+                                        +'</tbody>'
+                                    +'</table>'
+                                +'</div>'   
+                            +'</div>'                
+                        +'</div>'
+                    +'</div>',        
+        cookieName: 'uce-cookie',
+        cookieNameDate: 'uce-cookie-date',
+        cookieDuration: '365',
+        wildcardDomain: false,
+        iframesContentPlaceholder: true,
+        iframesContentContainerAllowLocalUrls: true,
+        iframesContentPlaceholderHTML:
+            document.getElementById('uce-iframeContentPlaceholder-html') !== null ?
+                document.getElementById('uce-iframeContentPlaceholder-html').innerHTML :
+                        '<p>This content is not available without cookies. <a href="#" class="uce-accept">Enable Cookies</a> or <a href="#">Read More</a>.</p>',
+        iframesContentPlaceholderClass: 'uce-iframe-content-placeholder',
+        categories:       ['p','s','m','u'],
+        categoryTitles: {
+            'n': 'Necessary',
+            'p': 'Preferences',
+            's': 'Statistics',
+            'm': 'Marketing',
+            'u': 'Unclassified',
+        },
+        userStateContainerEnabled: true,
+        userStateContainerId: 'uce-user-state-container',
+        onEnable:         '',
+        onEnableSelected: '',
+        onDismiss:        '',
+        onDisable:        '',
+    },
+    opts, domElmts;
+
+    function _extend() {
+        var i, key;
+        for (i=1; i<arguments.length; i++)
+            for (key in arguments[i])
+                if(arguments[i].hasOwnProperty(key))
+                    arguments[0][key] = arguments[i][key];
+        return arguments[0];
+    }
+
+    function _debounce(func, wait, immediate) {
+        var timeout;
+        return function() {
+            var context = this, args = arguments;
+            var later = function() {
+                timeout = null;
+                if (!immediate) func.apply(context, args);
+            };
+            var callNow = immediate && !timeout;
+            clearTimeout(timeout);
+            timeout = setTimeout(later, wait);
+            if (callNow) func.apply(context, args);
+        };
+    }
+
+    function _getClosestParentWithClass(el, parentClass) {
+        do {
+            if (_hasClass(el, parentClass)) {
+                // tag name is found! let's return it. :)
+                return el;
+            }
+        } while (el = el.parentNode);
+        return null;
+    }
+
+    function _hasClass(el, cls) {
+        return (' ' + el.className + ' ').indexOf(' ' + cls + ' ') > -1;
+    }
+    
+    function _empty (text) {
+        if (typeof text == 'undefined') {
+            return true;     
+        }            
+        if (typeof text == 'string') {
+            text = text.replace(/\s\n\r\t/g,'');
+        }    
+        if (text !== null && typeof text === 'object') {
+            for(var prop in text) {  
+                if (text.hasOwnProperty(prop)) {
+                    return false;
+                }
+            }       
+            return true;       
+        } else {
+            return ( 
+                   text == "" 
+                || text == 0  
+                || text == "0" 
+                || text == null  
+                || text == false  
+                || ((text instanceof Array) && text.length == 0)
+                || text !== text      
+            );            
+        }
+    }   
+    
+    function _escapeHtml(text) {
+      var map = {
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#039;'
+      };
+
+      return text.replace(/[&<>"']/g, function(m) { return map[m]; });
+    }    
+    
+    function _getElementsByClassName_querySelectorAll(q) {
+        var regex = /^[a-zA-Z_-][a-zA-Z0-9_-]*$/;
+        if (regex.test(q)) {
+            return document.getElementsByClassName(q);
+        } else {
+            return document.querySelectorAll(q);       
+        }
+    }
+    
+    function _doc_ready (callback) {
+        if (document.readyState!='loading') callback();
+        else if (document.addEventListener) document.addEventListener('DOMContentLoaded', callback);
+        else document.attachEvent('onreadystatechange', function() {
+            if (document.readyState=='complete') callback();
+        });
+    }        
+    
+    function _set_mutation_observer_new_iframe (container, obj, opts) {
+        const mutationObserver = new MutationObserver(function(mutations) {             
+            mutations.every(function(mutation) {     
+                mutation.addedNodes.forEach((node) => {      
+                    if (node.tagName=='IFRAME') {
+                        _set_mutation_observer_change_iframe (node, obj, opts);                  
+                    } else if (node.nodeType == 1) {
+                        var iframes_child = node.getElementsByTagName('iframe');
+                        for (let i = 0; i < iframes_child.length; i++) {
+                            var ifr = iframes_child[i];
+                            _set_mutation_observer_change_iframe (ifr, obj, opts);         
+                        }
+                    }  
+                }); 
+                return true;                     
+            });                             
+        });  
+                      
+        mutationObserver.observe(container, {
+            attributes: false,
+            characterData: false,
+            childList: true,
+            subtree: true,
+            attributeOldValue: false,
+            characterDataOldValue: false
+        });  
+    }
+    
+    function _set_mutation_observer_change_iframe (ifr, obj, opts) {      
+        if (!ifr.dataset.srcObserverAttached) {
+            ifr.dataset.srcObserverAttached = '1'; 
+            
+            if (ifr.src) {
+                var src_ok = true;                
+                if (opts.iframesContentContainerAllowLocalUrls) {
+                    if (_check_for_local_url (ifr.src)) src_ok = false;    
+                }
+                if (src_ok) {
+                    ifr.dataset.uceSrc = ifr.src;       
+                    ifr.removeAttribute('src');       
+                    if (opts.iframesContentPlaceholder) {
+                        obj.makePlaceholder(ifr); 
+                        var accept_btns = ifr.previousElementSibling.getElementsByClassName(opts.acceptClass);
+                        for (let i = 0; i < accept_btns.length; i++) { 
+                            accept_btns[i].addEventListener("click", function(ev) {
+                                ev.preventDefault();
+                                enableCookies(ev);
+                            });                                     
+                        }                                                           
+                    }
+                    ifr.classList.add(opts.iframeHiddenClass);                                       
+                }                   
+            } 
+                  
+            const mutationObserver = new MutationObserver(function(mutations) {           
+                mutations.every(function(mutation) {  
+                    if (mutation.type === 'attributes' && mutation.attributeName === 'src') {
+                        if ((mutation.target.src) && (mutation.target.dataset.srcObserverAttached != '-1')) {  
+                            var new_src = mutation.target.src; 
+                            var src_ok = true;                
+                            if (opts.iframesContentContainerAllowLocalUrls) {
+                                if (_check_for_local_url (new_src)) src_ok = false;    
+                            }
+                            if (src_ok) {
+                                mutation.target.dataset.uceSrc = new_src;       
+                                mutation.target.removeAttribute('src');       
+                                if (opts.iframesContentPlaceholder) {
+                                    if (obj.makePlaceholder(mutation.target)) {    
+                                        var accept_btns = mutation.target.previousElementSibling.getElementsByClassName(opts.acceptClass);
+                                        for (let i = 0; i < accept_btns.length; i++) { 
+                                            accept_btns[i].addEventListener("click", function(ev) {
+                                                ev.preventDefault();
+                                                enableCookies(ev);
+                                            });                                     
+                                        }      
+                                    }                     
+                                } 
+                                mutation.target.classList.add(opts.iframeHiddenClass);                                       
+                            }                        
+                        }                           
+                    }  
+                    return true;                 
+                });                             
+            });  
+            
+            mutationObserver.observe(ifr, {
+                attributes: true,
+                characterData: false,
+                childList: false,
+                subtree: false,
+                attributeOldValue: false,
+                characterDataOldValue: false
+            });            
+        }
+    }    
+    
+    function _check_for_local_url (url) {
+        if ( ((window.location.origin) && (url.indexOf(window.location.origin)==0)) || (url.indexOf('.')==0) || (url.indexOf('/')==0) && (url.indexOf('//')!=0) ) {
+            return true;
+        }  
+        return false;          
+    }
+    
+    function _delete_all_cookies () {
+        var general_cookies = document.cookie.split("; ");     
+        for (var i = 0; i < general_cookies.length; i++) {
+            var general_cookie = general_cookies[i];
+            var eqPos = general_cookie.indexOf("=");   
+            var name = eqPos > -1 ? general_cookie.substr(0, eqPos) : general_cookie;    
+            
+            document.cookie = encodeURIComponent(name) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain="+document.domain;     
+            document.cookie = encodeURIComponent(name) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=."+document.domain;   
+            document.cookie = encodeURIComponent(name) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain="+document.domain;                                                          
+            document.cookie = encodeURIComponent(name) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain=."+document.domain;  
+            document.cookie = encodeURIComponent(name) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";     
+            document.cookie = encodeURIComponent(name) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT";   
+            
+            document.cookie = decodeURIComponent(name) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain="+document.domain;     
+            document.cookie = decodeURIComponent(name) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=."+document.domain;   
+            document.cookie = decodeURIComponent(name) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain="+document.domain;                                                          
+            document.cookie = decodeURIComponent(name) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain=."+document.domain;  
+            document.cookie = decodeURIComponent(name) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";     
+            document.cookie = decodeURIComponent(name) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT";    
+            
+            document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain="+document.domain;     
+            document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=."+document.domain;   
+            document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain="+document.domain;                                                          
+            document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain=."+document.domain;  
+            document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";     
+            document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT";    
+                                                              
+            var d = window.location.hostname.split(".");
+            if (!d.length) d = window.location.host.split(".");   
+            if (!d.length) d = document.domain.split(".");   
+            while (d.length > 1) {
+                var cur_d = d.join('.');    
+                
+                document.cookie = encodeURIComponent(name) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain="+cur_d;     
+                document.cookie = encodeURIComponent(name) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=."+cur_d;   
+                document.cookie = encodeURIComponent(name) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain="+cur_d;                                                          
+                document.cookie = encodeURIComponent(name) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain=."+cur_d;  
+                
+                document.cookie = decodeURIComponent(name) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain="+cur_d;     
+                document.cookie = decodeURIComponent(name) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=."+cur_d;   
+                document.cookie = decodeURIComponent(name) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain="+cur_d;                                                          
+                document.cookie = decodeURIComponent(name) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain=."+cur_d;  
+                
+                document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain="+cur_d;     
+                document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=."+cur_d;   
+                document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain="+cur_d;                                                          
+                document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain=."+cur_d;                  
+                                                              
+                d.shift();
+            }                                      
+        }                                                                                                                                        
+    } 
+
+    var bindUI = function() {
+
+        domElmts = {
+            accept:          document.getElementsByClassName(opts.acceptClass),
+            acceptSelected:  document.getElementsByClassName(opts.acceptSelectedClass),
+            disable:         document.getElementsByClassName(opts.disableClass),
+            banner:          document.getElementsByClassName(opts.bannerClass),
+            dismiss:         document.getElementsByClassName(opts.dismissClass)
+        }
+
+        var i,
+            accept = domElmts.accept,
+            accept_l = accept.length,
+            acceptSelected = domElmts.acceptSelected,
+            acceptSelected_l = acceptSelected.length,            
+            disable = domElmts.disable,
+            disable_l = disable.length,
+            dismiss = domElmts.dismiss,
+            dismiss_l = dismiss.length;
+
+        for (i = 0; i < accept_l; i++) {
+            accept[i].addEventListener("click", function(ev) {
+                ev.preventDefault();
+                enableCookies(ev);
+            });
+        }
+        
+        for (i = 0; i < acceptSelected_l; i++) {
+            acceptSelected[i].addEventListener("click", function(ev) {
+                ev.preventDefault();
+                enableSelectedCookies(ev);
+            });
+        }        
+
+        for (i = 0; i < disable_l; i++) {
+            disable[i].addEventListener("click", function(ev) {
+                ev.preventDefault();
+                disableCookies(ev);
+            });
+        }
+
+        for (i = 0; i < dismiss_l; i++) {
+            dismiss[i].addEventListener("click", function (ev) {
+                ev.preventDefault();
+                banner.dismiss();    
+            });
+        }
+
+    };
+
+    var init = function(options) {
+
+        opts = _extend({}, defaults, options);
+
+        if (cookie.get() == 'Y') {
+            if (typeof opts.onEnable === "function") opts.onEnable();
+            
+            scripts.get();
+            imgs.get();
+            iframes.get();
+            iframesContent.get();
+            userState.update('Y');
+            
+            _doc_ready (function () {
+                scripts.get();
+                imgs.get();
+                iframes.get();
+                iframesContent.get();        
+            })            
+            
+            return;
+        } else if (cookie.get() == 'N'){
+            if (typeof opts.onDisable === "function") opts.onDisable();
+            
+            iframesContent.hide();           
+            userState.update('N');   
+            
+            _doc_ready (function () {                
+                iframesContent.hide();   
+                bindUI();      
+            })
+            
+            return;
+        } if (!_empty (cookie.get())) {   
+            var c = cookie.get();
+            var pat = '^['+opts.categories.join('')+']+$';
+            var re = new RegExp(pat, '');
+            var matches = c.match(pat);      
+            if (matches) {             
+                if (typeof opts.onEnableSelected === "function") opts.onEnableSelected();     
+                              
+                var arr = matches[0].split('');
+                scripts.get(arr);
+                imgs.get(arr);
+                iframes.get(arr);  
+                iframesContent.get(arr); 
+                
+                var est_cats = opts.categories.join('');
+                for (var i in arr) {
+                    est_cats = est_cats.replaceAll(arr[i], '');                       
+                }
+                if (est_cats) {
+                    var arr2 = est_cats.split('');                    
+                    iframesContent.hide(arr2);                                         
+                }
+                userState.update(matches[0]); 
+                
+                _doc_ready (function () {                
+                    scripts.get(arr);
+                    imgs.get(arr);
+                    iframes.get(arr);  
+                    iframesContent.get(arr);     
+                    if (est_cats) {
+                        iframesContent.hide(est_cats.split(''));
+                        bindUI();   
+                    }   
+                })                
+                
+                return;                     
+            }
+        }
+        
+        if (document.getElementById(opts.userStateContainerId)) {
+            if (window.location.hash == '#ShowUCE') {
+                _delete_all_cookies ();
+                banner.create();      
+            }
+        } else {              
+            banner.create();  
+        }
+        iframesContent.hide();       
+        userState.update();   
+         
+        _doc_ready (function () {                
+            iframesContent.hide();
+            bindUI();  
+        })                      
+    };
+
+    var enableCookies = _debounce(function(event) {
+
+        if (typeof event != "undefined" && event.type === 'click'){
+            event.preventDefault();
+        }
+
+        if (cookie.get() != 'Y') {
+            cookie.set();
+            scripts.get();
+            imgs.get();
+
+            iframes.get();
+            iframesContent.get();
+            iframesContent.removePlaceholders();
+
+            banner.dismiss();
+
+            if (typeof opts.onEnable === "function") opts.onEnable();
+        }    
+        
+        userState.update('Y');         
+
+    }, 250, false);
+    
+    var enableSelectedCookies = _debounce(function(event) {
+
+        if (typeof event != "undefined" && event.type === 'click'){
+            event.preventDefault();
+        }
+        
+        _delete_all_cookies ();   
+        
+        var str = ''; 
+        var arr = [];    
+        var el;    
+        var c;
+        for (var i in opts.categories) { 
+            c = opts.categories[i];    
+            el = document.getElementById('uce-custom-'+c);   
+            if ((el) && (Number(el.checked))) {
+                arr.push(c);  
+                str += c;  
+            }       
+        }
+        if (str=='') {
+            str = 'N';
+        } else if (str.length==opts.categories.length) {
+            str = 'Y';
+        }                            
+        
+        cookie.set (str); 
+         
+        scripts.get (arr); 
+        imgs.get (arr); 
+
+        iframes.get(arr); 
+        iframesContent.get(arr); 
+        iframesContent.removePlaceholders(arr);    
+        
+        var est_cats = opts.categories.join('');
+        for (var i in arr) {
+            est_cats = est_cats.replaceAll(arr[i], '');                       
+        }       
+        if (est_cats) {
+            var arr2 = est_cats.split('');                    
+            iframesContent.hide(arr2);
+            bindUI();                        
+        }        
+
+        banner.dismiss();
+        userState.update(str);  
+
+        if (typeof opts.onEnableSelected === "function") opts.onEnableSelected();
+
+    }, 250, false);    
+
+    var disableCookies = function(event) {
+
+        if (typeof event != "undefined" && event.type === 'click'){
+            event.preventDefault();
+        }
+        
+        _delete_all_cookies ();     
+
+        if (cookie.get() != 'N'){
+            cookie.set('N');
+            banner.dismiss();
+            if (typeof opts.onDisable === "function") opts.onDisable();
+        }
+        
+        userState.update('N'); 
+
+    }
+
+    var banner = (function() {
+
+        function create() {  
+            var el = '<div class="'+ opts.bannerClass +'" tabindex="0">'  
+                    +'<!--noindex-->'
+                    +'<!--googleoff: all-->' 
+                    +'<div class="uce-robots robots-noindex robots-nofollow robots-nocontent">'                      
+                        +opts.bannerHTML
+                    +'</div>'
+                    +'<!--googleon: all-->'
+                    +'<!--/noindex-->'                           
+                    +'</div>';
+
+            document.body.insertAdjacentHTML('beforeend', el);
+            document.body.classList.add(opts.bodyClass);
+            document.getElementsByTagName('html')[0].classList.add(opts.bodyClass);
+            document.querySelector('.'+opts.bannerClass).focus();
+        }
+
+        function dismiss(){
+            if (domElmts.banner[0]) domElmts.banner[0].style.display = 'none';
+            document.body.classList.remove(opts.bodyClass);
+            document.getElementsByTagName('html')[0].classList.remove(opts.bodyClass);  
+            if (window.location.hash == '#ShowUCE') { 
+                window.history.replaceState(null, null, window.location.href.split('#')[0]);
+            }   
+
+            if (typeof opts.onDismiss === "function") opts.onDismiss();
+        }                    
+
+        return{
+            create: create,
+            dismiss: dismiss,
+        }
+
+    })();
+    
+    var userState = (function() {
+
+        function update (_val) {
+            if (opts.userStateContainerEnabled) {
+                var container = null;
+                var val = typeof _val !== "undefined" ? _val : ''; 
+                if (document.getElementById(opts.userStateContainerId)) {
+                    container = document.getElementById(opts.userStateContainerId);    
+                }
+                if (container) {
+                    var html = '';
+                    var word = '';           
+                    html += '<p>'; 
+                    word = container.attributes[ 'data-text-current-state' ] ? container.attributes[ 'data-text-current-state' ].value : 'Your current state';  
+                    html += word+': ';  
+                    if (val=='Y') {
+                        word = container.attributes[ 'data-text-state-title-a' ] ? container.attributes[ 'data-text-state-title-a' ].value : 'Allow all';    
+                        html += word;      
+                    } else if (val=='N') {
+                        word = container.attributes[ 'data-text-state-title-d' ] ? container.attributes[ 'data-text-state-title-d' ].value : 'Deny';  
+                        html += word;        
+                    } else if (!_empty(val)) {
+                        word = container.attributes[ 'data-text-state-title-s' ] ? container.attributes[ 'data-text-state-title-s' ].value : 'Allow selection';    
+                        html += word;    
+                        html += ' ('; 
+                        word = container.attributes[ 'data-text-category-title-n' ] ? container.attributes[ 'data-text-category-title-n' ].value : opts.categoryTitles['n'];     
+                        html += word;   
+                        var arr = val.split('');
+                        for (var k in arr) {            
+                            word = container.attributes[ 'data-text-category-title-'+arr[k] ] ? container.attributes[ 'data-text-category-title-'+arr[k] ].value : opts.categoryTitles[arr[k]]; 
+                            html += ', '+word;     
+                        }      
+                        html += ')';    
+                    } else {
+                        word = container.attributes[ 'data-text-state-title-d' ] ? container.attributes[ 'data-text-state-title-d' ].value : 'Deny';  
+                        html += word;        
+                    }                  
+                    html += '</p>';
+                    
+                    var cookie_date = cookie.get(opts.cookieNameDate);
+                    if ((val) && (cookie_date)) {
+                        html += '<p>'; 
+                        word = container.attributes[ 'data-text-date' ] ? container.attributes[ 'data-text-date' ].value : 'Consent date';  
+                        html += word+': '+new Date(parseInt(cookie_date)).toUTCString();     
+                        html += '</p>';                             
+                    }         
+                    word = container.attributes[ 'data-text-change-state' ] ? container.attributes[ 'data-text-change-state' ].value : 'Change your consent';
+                    html += '<p><a href="#" id="uce-user-state-change"><b>'+word+'</b></a></p>';
+                    container.innerHTML = html;    
+                    document.getElementById('uce-user-state-change').addEventListener("click", function(ev) {
+                        ev.preventDefault();
+                        cookie.set('');
+                        _delete_all_cookies ();                       
+                        window.location.href = window.location.href.split('#')[0]+'#ShowUCE';   
+                        location.reload();             
+                    });                                                      
+                }                
+            }
+        }
+
+        return {
+            update: update
+        }
+
+    })();    
+
+    var cookie = (function() {
+
+        function set(val){
+            var value = typeof val !== "undefined" ? val : "Y",
+                date, expires, host, domainParts, domain;
+
+            if (opts.cookieDuration) {
+                date = new Date();
+                date.setTime(date.getTime()+(opts.cookieDuration*24*60*60*1000));
+                expires = "; expires="+date.toGMTString();
+            } else {
+                expires = "";
+            }
+            
+            host = location.hostname;
+            // Means localhost or that the user does not want to enable cookies for all subdomains
+            if(host.split('.') === 1 || !opts.wildcardDomain) {
+                document.cookie = opts.cookieName +"="+ value+expires +"; path=/";
+                if (opts.userStateContainerEnabled) document.cookie = opts.cookieNameDate +"="+ new Date().getTime()+expires +"; path=/";
+            } else {
+                // We start by stying to set a cookie from a subdomain eg foo.bar.com -> .bar.com
+                // If that does not work we try to set it for the top domain instead 
+                domainParts = host.split('.');
+                domainParts.shift();
+                domain = '.' + domainParts.join('.');
+                
+                document.cookie = opts.cookieName +"="+ value+expires +"; path=/; domain="+domain;
+                if (opts.userStateContainerEnabled) document.cookie = opts.cookieNameDate +"="+ new Date().getTime()+expires +"; path=/; domain="+domain;
+                
+                // Check if we managed to set the cookie, if not we where on a top-domain
+                if( cookie.get() == null ) {
+                    domain = '.'+host;
+                    document.cookie = opts.cookieName +"="+ value+expires +"; path=/; domain="+domain;
+                    if (opts.userStateContainerEnabled) document.cookie = opts.cookieNameDate +"="+ new Date().getTime()+expires +"; path=/; domain="+domain;
+                }
+            }                       
+        }
+
+        function get(_cookie_name) {            
+            var cookies = document.cookie.split(";"),
+                l = cookies.length,
+                cookie_name = typeof _cookie_name !== "undefined" ? _cookie_name : opts.cookieName,     
+                i, x, y;
+
+            for (i = 0; i < l; i++){
+                x = cookies[i].substr(0,cookies[i].indexOf("="));
+                y = cookies[i].substr(cookies[i].indexOf("=")+1);
+                x = x.replace(/^\s+|\s+$/g,"");
+                if (x == cookie_name) {
+                    return unescape(y);
+                }
+            }
+        }
+
+        return{
+            set: set,
+            get: get
+        }
+
+    })();
+
+    var iframes = (function() {   
+      
+        function get(categories) {
+            var iframes = document.getElementsByClassName(opts.iframeClass),
+                n = iframes.length,
+                src, iframe, i,
+                ok, j, has_category;   
+
+            for (i = 0; i < n; i++){   
+                if (iframes[i].classList.contains(opts.parsedClass)) continue;
+                iframes[i].classList.add(opts.parsedClass);
+                ok = true;
+                if (typeof categories != "undefined") {  
+                    has_category = false;
+                    for (j in opts.categories) {
+                        if (iframes[i].classList.contains(opts.categories[j])) { 
+                            has_category = true;    
+                            if (!categories.includes(opts.categories[j])) {
+                                ok = false;
+                                break;
+                            }                                                  
+                        }
+                    }   
+                    if ((!has_category) && (opts.categories.length > categories.length)) {
+                        ok = false;
+                    }                   
+                }                                      
+                if (ok) {
+                    iframe = iframes[i];  
+                    if ((!iframe.src) && (iframe.hasAttribute('data-uce-src'))) { 
+                        src = iframe.attributes[ 'data-uce-src' ].value;                    
+                        iframe.src = src;      
+                    }                                  
+                }        
+            }
+        }
+
+        return {
+            get: get
+        }
+
+    })();
+    
+    
+    var iframesContent = (function() {
+
+        function makePlaceholder(iframe) {
+            var placeholder_exists = false;   
+            var prev_element = iframe.previousElementSibling;
+            if ((prev_element) && (prev_element.tagName=='DIV') && (prev_element.classList.contains(opts.iframesContentPlaceholderClass))) {
+                placeholder_exists = true;    
+            }
+            if (!placeholder_exists) {
+                var placeholderElement = document.createElement('div');
+                placeholderElement.className = opts.iframesContentPlaceholderClass;     
+                for (var i in opts.categories) {   
+                    if (iframe.classList.contains(opts.categories[i])) {
+                        placeholderElement.classList.add(opts.categories[i]);
+                    }
+                }                   
+                placeholderElement.innerHTML = 
+                        '<!--noindex-->'
+                        +'<!--googleoff: all-->'    
+                        +'<div class="uce-robots robots-noindex robots-nofollow robots-nocontent">'                     
+                            +opts.iframesContentPlaceholderHTML
+                        +'</div>'
+                        +'<!--googleon: all-->'
+                        +'<!--/noindex-->';
+                iframe.parentNode.insertBefore(placeholderElement, iframe);                
+                return true;          
+            }
+            return false;
+        }
+
+        function removePlaceholders(categories) {  
+            var iframePlaceholders = document.getElementsByClassName(opts.iframesContentPlaceholderClass),
+                n = iframePlaceholders.length,
+                i, ok, j, has_category;
+
+            for (i = n - 1; i >= 0; i--) {
+                ok = true;
+                if (typeof categories != "undefined") {  
+                    has_category = false;
+                    for (j in opts.categories) {
+                        if (iframePlaceholders[i].classList.contains(opts.categories[j])) { 
+                            has_category = true;    
+                            if (!categories.includes(opts.categories[j])) {
+                                ok = false;
+                                break;
+                            }                                                  
+                        }
+                    }   
+                    if ((!has_category) && (opts.categories.length > categories.length)) {
+                        ok = false;
+                    }                   
+                }                   
+                if (ok) {
+                    iframePlaceholders[i].parentNode.removeChild(iframePlaceholders[i]);        
+                }                              
+            }
+            
+            /***/ 
+            
+            var containers = _getElementsByClassName_querySelectorAll(opts.iframeContentContainerClass), container, m, k;
+            n = containers.length;
+            
+            for (i = 0; i < n; i++) {
+                ok = true;
+                if (typeof categories != "undefined") {  
+                    has_category = false;
+                    for (j in opts.categories) {
+                        if (containers[i].classList.contains(opts.categories[j])) { 
+                            has_category = true;    
+                            if (!categories.includes(opts.categories[j])) {
+                                ok = false;
+                                break;
+                            }                                                  
+                        }
+                    }   
+                    if ((!has_category) && (opts.categories.length > categories.length)) {
+                        ok = false;
+                    }                   
+                }                                    
+                if (ok) {
+                    container = containers[i];  
+                    iframePlaceholders = container.getElementsByClassName(opts.iframesContentPlaceholderClass);
+                    m = iframePlaceholders.length;
+                    for (k = m - 1; k >= 0; k--) {     
+                        iframePlaceholders[k].parentNode.removeChild(iframePlaceholders[k]);                            
+                    }             
+                }
+            }              
+        }
+
+        function hide(categories) {
+            var iframes = document.getElementsByClassName(opts.iframeContentClass),
+                n = iframes.length,
+                src, iframe, i,
+                ok, j, has_category;
+
+            for (i = 0; i < n; i++){
+                ok = true;
+                if (typeof categories != "undefined") {  
+                    ok = false;  
+                    has_category = false;                  
+                    for (j in opts.categories) {
+                        if (iframes[i].classList.contains(opts.categories[j])) { 
+                            has_category = true;    
+                            if (categories.includes(opts.categories[j])) {
+                                ok = true;
+                                break;
+                            }                                                  
+                        }
+                    }             
+                    if ((!has_category) && (categories.length)) { 
+                        ok = true;
+                    }                   
+                }                                  
+                if (ok) {
+                    iframe = iframes[i];
+                    iframe.classList.add(opts.iframeHiddenClass);   
+                    if (opts.iframesContentPlaceholder) makePlaceholder(iframe);                    
+                }
+            }
+            
+            /***/ 
+            
+            var containers = _getElementsByClassName_querySelectorAll(opts.iframeContentContainerClass), container, m, k;
+            n = containers.length;
+            
+            for (i = 0; i < n; i++) {
+                ok = true;
+                if (typeof categories != "undefined") { 
+                    ok = false;
+                    has_category = false;
+                    for (j in opts.categories) {
+                        if (containers[i].classList.contains(opts.categories[j])) { 
+                            has_category = true;    
+                            if (categories.includes(opts.categories[j])) {
+                                ok = true;
+                                break;
+                            }                                                  
+                        }
+                    }   
+                    if ((!has_category) && (categories.length)) {
+                        ok = true;
+                    }                   
+                }                                     
+                if (ok) {
+                    container = containers[i];
+                    
+                    iframes = container.getElementsByTagName('iframe');   
+                    m = iframes.length;    
+                    for (k = 0; k < m; k++){    
+                        iframe = iframes[k]; 
+                        if (iframe.hasAttribute('src')) {
+                            var src = iframe.attributes['src'].value;
+                            if (opts.iframesContentContainerAllowLocalUrls) {
+                                if (_check_for_local_url (src)) continue;  
+                            }
+                            iframe.setAttribute('data-uce-src', src);  
+                            iframe.removeAttribute('src');       
+                            if (opts.iframesContentPlaceholder) makePlaceholder(iframe);   
+                            iframe.classList.add(opts.iframeHiddenClass);                                
+                        }                                                                                  
+                    }   
+
+                    _set_mutation_observer_new_iframe (container, this, opts);
+                                               
+                }
+            }   
+        }
+
+        function get(categories) {
+            var iframes = document.getElementsByClassName(opts.iframeContentClass),
+                n = iframes.length,
+                src, iframe, i,
+                ok, j, has_category;
+
+            for (i = 0; i < n; i++) {
+                if (iframes[i].classList.contains(opts.parsedClass)) continue;
+                iframes[i].classList.add(opts.parsedClass);                   
+                ok = true;
+                if (typeof categories != "undefined") {  
+                    has_category = false;
+                    for (j in opts.categories) {
+                        if (iframes[i].classList.contains(opts.categories[j])) { 
+                            has_category = true;    
+                            if (!categories.includes(opts.categories[j])) {
+                                ok = false;
+                                break;
+                            }                                                  
+                        }
+                    }   
+                    if ((!has_category) && (opts.categories.length > categories.length)) {
+                        ok = false;
+                    }                   
+                }                   
+                if (ok) {
+                    iframe = iframes[i];
+                    if ((!iframe.src) && (iframe.hasAttribute('data-uce-src'))) {   
+                        src = iframe.attributes[ 'data-uce-src' ].value;
+                        iframe.src = src;                                           
+                    }   
+                    iframe.classList.remove(opts.iframeHiddenClass);               
+                }        
+            }
+            
+            /***/ 
+            
+            var containers = _getElementsByClassName_querySelectorAll(opts.iframeContentContainerClass), container, m, k;
+            n = containers.length;
+            
+            for (i = 0; i < n; i++) {
+                ok = true;
+                if (typeof categories != "undefined") {  
+                    has_category = false;
+                    for (j in opts.categories) {
+                        if (containers[i].classList.contains(opts.categories[j])) { 
+                            has_category = true;    
+                            if (!categories.includes(opts.categories[j])) {
+                                ok = false;
+                                break;
+                            }                                                  
+                        }
+                    }   
+                    if ((!has_category) && (opts.categories.length > categories.length)) {
+                        ok = false;
+                    }                   
+                }                 
+                if (ok) {
+                    container = containers[i];
+                    iframes = container.getElementsByTagName('iframe');   
+                    m = iframes.length;
+                    for (k = 0; k < m; k++){  
+                        if (iframes[k].classList.contains(opts.parsedClass)) continue;
+                        iframes[k].classList.add(opts.parsedClass);                      
+                        iframe = iframes[k];    
+                        iframe.dataset.srcObserverAttached = '-1';     
+                        if ((!iframe.src) && (iframe.hasAttribute('data-uce-src'))) { 
+                            src = iframe.attributes[ 'data-uce-src' ].value;
+                            iframe.src = src;                        
+                        }
+                        iframe.classList.remove(opts.iframeHiddenClass);                                               
+                    }             
+                }
+            }             
+        }
+
+        return {
+            hide: hide,
+            get: get,
+            removePlaceholders: removePlaceholders,
+            makePlaceholder: makePlaceholder,
+        }
+
+    })();    
+
+    var scripts = (function() {
+
+        function get(categories) {
+            var scripts = document.getElementsByClassName(opts.scriptClass),
+                n = scripts.length,
+                documentFragment = document.createDocumentFragment(),
+                i, y, s, attrib, el,
+                ok, j, has_category, attributes; 
+
+            for (i = 0; i < n; i++) {  
+                if (scripts[i].classList.contains(opts.parsedClass)) continue;
+                scripts[i].classList.add(opts.parsedClass);                
+                ok = true;
+                if (typeof categories != "undefined") {  
+                    has_category = false;
+                    for (j in opts.categories) {
+                        if (scripts[i].classList.contains(opts.categories[j])) { 
+                            has_category = true;    
+                            if (!categories.includes(opts.categories[j])) {
+                                ok = false;
+                                break;
+                            }                                                  
+                        }
+                    }   
+                    if ((!has_category) && (opts.categories.length > categories.length)) {
+                        ok = false;
+                    }                   
+                }                                  
+                if (ok) {
+                    if (scripts[i].hasAttribute('data-uce-src')){
+                        if (typeof postscribe !== "undefined"){  
+                            attributes = '';
+                            for (y = 0; y < scripts[i].attributes.length; y++) {
+                                attrib = scripts[i].attributes[y];
+                                if (attrib.specified) {
+                                    if ((attrib.name != 'type') && (attrib.name != 'class') && (attrib.name != 'data-uce-src') && (attrib.name != 'src')){
+                                        attributes += ' '+attrib.name;
+                                        if (attrib.value) {
+                                            attributes += '="'+_escapeHtml(attrib.value)+'"';    
+                                        }
+                                    }
+                                }
+                            }                         
+                            postscribe(scripts[i].parentNode, '<script'+attributes+' src="' + scripts[i].getAttribute("data-uce-src") + '"></script>');
+                        } else {
+                            scripts[i].setAttribute('src', scripts[i].attributes['data-uce-src'].value);  
+                        }
+                    } else {
+                        s = document.createElement('script');
+                        s.type = 'text/javascript';
+                        for (y = 0; y < scripts[i].attributes.length; y++) {
+                            attrib = scripts[i].attributes[y];
+                            if (attrib.specified) {
+                                if ((attrib.name != 'type') && (attrib.name != 'class')){
+                                    s.setAttribute(attrib.name, attrib.value);
+                                }
+                            }
+                        }
+                        s.innerHTML = scripts[i].innerHTML;
+                        documentFragment.appendChild(s);
+                    }                    
+                }      
+            }
+            document.body.appendChild(documentFragment);
+        }
+        return{
+            get: get
+        }
+
+    })();
+    
+    
+    var imgs = (function() {
+
+        function get(categories) {
+            var imgs = document.getElementsByClassName(opts.imgClass),
+                n = imgs.length, i, ok, j, has_category;
+
+            for (i = 0; i < n; i++){ 
+                if (imgs[i].classList.contains(opts.parsedClass)) continue;
+                imgs[i].classList.add(opts.parsedClass);                 
+                if (imgs[i].hasAttribute('data-uce-src')) { 
+                    ok = true;
+                    if (typeof categories != "undefined") {  
+                        has_category = false;
+                        for (j in opts.categories) {
+                            if (imgs[i].classList.contains(opts.categories[j])) { 
+                                has_category = true;    
+                                if (!categories.includes(opts.categories[j])) {
+                                    ok = false;
+                                    break;
+                                }                                                  
+                            }
+                        }   
+                        if ((!has_category) && (opts.categories.length > categories.length)) {
+                            ok = false;
+                        }                   
+                    }   
+                    if (ok) {
+                        if (!imgs[i].src) {  
+                            imgs[i].setAttribute('src', imgs[i].attributes['data-uce-src'].value);
+                        }       
+                    }                           
+                }               
+            }
+        }
+
+        return{
+            get: get
+        }
+    })();
+
+    return {
+        init: init,
+        enableCookies: enableCookies,
+        dismissBanner: banner.dismiss
+    };
+
+}());
+const konamiCode=["arrowup","arrowup","arrowdown","arrowdown","arrowleft","arrowright","arrowleft","arrowright","b","a"];let konamiIndex=0;document.addEventListener("keydown",(o=>{o.key.toLowerCase()===konamiCode[konamiIndex]?(konamiIndex++,konamiIndex===konamiCode.length&&(alert("\uD83C\uDF89 SUCCESS!!! KONAMI CODE ACTIVATED! \uD83D\uDC23"),konamiIndex=0,document.location.href='https://www.rtu.lv/-black-hole-/')):konamiIndex=0}));

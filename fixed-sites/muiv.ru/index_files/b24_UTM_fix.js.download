@@ -1,0 +1,66 @@
+function extractDomain(url) {
+  const match = url.match(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:/\n]+)/im);
+  return match && match[1];
+}
+
+function setCookie(name, value, days, domain) {
+  const expirationDate = new Date();
+  expirationDate.setDate(expirationDate.getDate() + days);
+  const cookieOptions = {
+      expires: expirationDate,
+      path: '/',
+      domain: domain
+  };
+  document.cookie = `${name}=${encodeURIComponent(value)}; ${serializeCookieOptions(cookieOptions)}`;
+}
+
+function serializeCookieOptions(options) {
+  return Object.entries(options)
+      .map(([key, value]) => `${key}=${value}`)
+      .join('; ');
+}
+
+function updateGuestUTM(utmSource) {
+  const b24CRMGuestUTMKey = 'b24_crm_guest_utm';
+  const existingGuestUTM = JSON.parse(localStorage.getItem(b24CRMGuestUTMKey)) || {};
+  
+  const updatedGuestUTM = {
+      ...existingGuestUTM,
+      ts: Math.floor(Date.now() / 1000),
+      list: {
+          utm_source: utmSource,
+      },
+      gclid: null
+  };
+  
+  localStorage.setItem(b24CRMGuestUTMKey, JSON.stringify(updatedGuestUTM));
+  
+  console.log("Значение ключа 'b24_crm_guest_utm' обновлено:", updatedGuestUTM);
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  setTimeout(function() {
+      const urlParams = new URLSearchParams(window.location.search);
+      
+      if (urlParams.has('utm_source')) {
+          console.log("Обнаружены utm-параметры в URL");
+          return; // Завершаем выполнение, если есть utm параметры в URL
+      }
+      
+      const b24UTMFixCookie = document.cookie.split(';').find(cookie => cookie.trim().startsWith('b24_UTM_FIX='));
+      
+      if (!b24UTMFixCookie) {
+          const referringDomain = extractDomain(document.referrer);
+          if (referringDomain) {
+              setCookie('b24_UTM_FIX', referringDomain, 365, 'muiv.ru');
+              updateGuestUTM(referringDomain);
+          } else {
+              setCookie('b24_UTM_FIX', 'direct', 365, 'muiv.ru');
+              updateGuestUTM('direct');
+          }
+      } else {
+          const b24UTMFixValue = decodeURIComponent(b24UTMFixCookie.split('=')[1]);
+          updateGuestUTM(b24UTMFixValue);
+      }
+  }, 1000); // Задержка в 1 секунду
+});

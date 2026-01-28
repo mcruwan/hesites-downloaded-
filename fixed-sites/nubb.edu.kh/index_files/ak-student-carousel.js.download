@@ -1,0 +1,16 @@
+$ = jQuery;
+
+$(document).ready(function () {
+  $("#ak-student-carousel").slick({
+    dots: false,
+    arrows: false,
+    autoplay: true,
+  });
+
+  $(".student-carousel-prev-button").click(() => {
+    $("#ak-student-carousel").slick("slickPrev");
+  });
+  $(".student-carousel-next-button").click(() => {
+    $("#ak-student-carousel").slick("slickNext");
+  });
+});

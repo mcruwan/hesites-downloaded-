@@ -1,0 +1,96 @@
+const burger = document.querySelector('.navigation-menu__hamburger-btn');
+const burger_popup = document.querySelector('.burger-menu-overlay');
+const burger_close_btn = document.querySelector('.burger-menu-overlay__close-btn');
+const mobile_menu = document.querySelector('#mobile-menu');
+
+const header_burger = document.querySelector('.section-header__burger');
+
+//обработчик нажатия на бургер-кнопку десктопного меню
+burger.addEventListener('click', function(){
+  burger_popup.classList.toggle('burger-menu-overlay--active');
+  burger_close_btn.classList.toggle('is-active');
+})
+
+//обработчик нажатия на бургер-кнопку мобильного меню
+header_burger.addEventListener('click', function(){
+  //console.log('header_burger click-click!');
+  burger_popup.classList.toggle('burger-menu-overlay--active');
+  burger_close_btn.classList.toggle('is-active');
+})
+
+
+function setBurgerCloseBtnActive(){
+  if (burger_close_btn.classList.contains('is-active')) {
+    burger_close_btn.classList.remove('is-active');
+  }
+}
+
+function removeBurgerPopupActive(){
+  if (burger_popup.classList.contains('burger-menu-overlay--active')) {
+    burger_popup.classList.remove('burger-menu-overlay--active');
+  }
+}
+
+burger_close_btn.addEventListener('click', function(){
+  setBurgerCloseBtnActive();
+  setTimeout(removeBurgerPopupActive, 300); 
+})
+
+const search_btn = document.querySelector('.navigation-menu__btn-search');
+const search_popup = document.querySelector('.search-overlay');
+const search_close_btn = document.querySelector('.search-overlay__close-btn');
+
+const search_header_btn = document.querySelector('.section-header__search');
+
+//обработчик нажатия на кнопку поиска декстопного меню
+search_btn.addEventListener('click', function(){
+  search_popup.classList.toggle('search-overlay--active');
+  search_close_btn.classList.toggle('is-active');
+})
+
+//обработчик нажатия на кнопку поиска мобильного меню
+search_header_btn.addEventListener('click', function(){
+  //console.log('search_header click-click!');
+  search_popup.classList.toggle('search-overlay--active');
+  search_close_btn.classList.toggle('is-active');
+})
+
+
+function setSearchCloseBtnActive(){
+  if (search_close_btn.classList.contains('is-active')) {
+    search_close_btn.classList.remove('is-active');
+  }
+}
+
+function removeSearchPopupActive(){
+  if (search_popup.classList.contains('search-overlay--active')) {
+    search_popup.classList.remove('search-overlay--active');
+    document.querySelector('.search-term').value = "";
+  }
+}
+
+search_close_btn.addEventListener('click', function(){
+  setSearchCloseBtnActive();
+  setTimeout(removeSearchPopupActive, 300); 
+})
+
+function openNewsTab(evt, tabName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Получите все элементы с class="tabcontent" и спрячьте их
+  tabcontent = document.getElementsByClassName("tabNewsContent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Получите все элементы с class="tablinks" и удалите класс "active"
+  tablinks = document.getElementsByClassName("tabNewsLinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Показать текущую вкладку и добавить класс "active" к кнопке, открывшей вкладку
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}

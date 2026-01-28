@@ -1,0 +1,35 @@
+const news_section = function() {
+    if(document.querySelectorAll('.news-section')) {
+        document.querySelectorAll('.news-section').forEach(function(newsSection){
+            if(newsSection.querySelector('.posts-card-slider')) {
+                let newsSectionSlider = new Swiper(newsSection.querySelector('.posts-card-slider'), {
+                    loop: true,
+                    speed: 800,
+                    spaceBetween: 20,
+                    pagination: {
+                        el: newsSection.querySelector('.posts-card-slider-pagination'),
+                        clickable: true,
+                    },
+                    breakpoints: {
+                        200: {
+                            slidesPerView: 1,
+                        },
+                        480: {
+                            slidesPerView: 2,
+                        },
+                        768: {
+                            slidesPerView: 3,
+                        },
+                        1024: {
+                            slidesPerView: 4,
+                        },
+                    },
+                })
+            }
+        });
+    }
+}
+
+document.addEventListener('DOMContentLoaded', function(){
+    news_section();
+}, false);

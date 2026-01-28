@@ -1,0 +1,467 @@
+// handle nav search
+const otherNavItem = document.querySelectorAll(
+  "#bottom-nav .navbar-nav .nav-item:not(.nav-search-icon)"
+);
+const navSearchs = document.querySelectorAll(".nav-search");
+const navSearchInputs = document.querySelectorAll(".nav-search-input");
+const navSearchIcons = document.querySelectorAll(".nav-search-icon");
+const clearSearchIcons = document.querySelectorAll(".clear-search-icon");
+
+navSearchIcons.forEach((searchIcon, index) => {
+  searchIcon.addEventListener("click", (e) => {
+    e.preventDefault();
+
+    // handle web
+    if (index === 1) {
+      otherNavItem.forEach((navItem) => {
+        navItem.classList.add("d-none");
+      });
+    }
+    navSearchs[index].classList.remove("d-none");
+    navSearchInputs[index].style.width = "0";
+    requestAnimationFrame(() => {
+      navSearchInputs[index].style.width = "100%";
+      navSearchInputs[index].focus();
+    });
+  });
+});
+// reset state
+clearSearchIcons.forEach((clearIcon, index) => {
+  clearIcon.addEventListener("click", () => {
+    if (index === 1) {
+      otherNavItem.forEach((navItem) => {
+        navItem.classList.remove("d-none");
+      });
+    }
+    navSearchs[index].classList.add("d-none");
+  });
+});
+
+function closeSearch() {
+  navSearchs.forEach((search, index) => {
+    if (!search.classList.contains("d-none")) {
+      search.classList.add("d-none");
+      if (index === 1) {
+        otherNavItem.forEach((navItem) => {
+          navItem.classList.remove("d-none");
+        });
+      }
+    }
+  });
+}
+
+// responsive
+// handle top nav mobile
+const topNav = document.querySelector(".top-nav-container");
+const bottomNav = document.getElementById("bottom-nav");
+const botNav = document.querySelector(".bot-nav-container");
+
+const kvttDropdown = document.getElementById("kvtt-dropdown");
+const topNavItems = document.querySelectorAll(
+  ".top-left-nav .nav-item:has(>.dropdown-menu)"
+);
+
+const kvttDropdownMenu = document.querySelector(".kvtt-dropdown-menu");
+const kvttDropdownMenuChildren = kvttDropdownMenu.querySelectorAll(".nav-item");
+
+const botNavItems = document.querySelectorAll(".bot-nav .nav-item");
+
+const TOP_NAV_BREAKPOINT = 1400;
+const BOT_NAV_BREAKPOINT = 1200;
+let lastStage = null;
+let shouldTopNavShrink = false;
+let shouldBotNavShrink = false;
+
+function onInitAndResize() {
+  const { innerWidth } = window;
+  const checkShouldTopNavShrink = innerWidth < TOP_NAV_BREAKPOINT;
+  const checkShouldBotNavShrink = innerWidth < BOT_NAV_BREAKPOINT;
+
+  if (checkShouldBotNavShrink !== shouldBotNavShrink) {
+    shouldBotNavShrink = checkShouldBotNavShrink;
+    botNavItems.forEach((navItem) => {
+      if (navItem.classList.contains("dropdown")) {
+        const dropdownChildItem = navItem.querySelector(".dropdown-menu");
+        navItem.classList.toggle("click-dropdown", shouldBotNavShrink);
+        dropdownChildItem.classList.toggle(
+          "dropdown-click-menu",
+          shouldBotNavShrink
+        );
+      }
+    });
+    closeSearch();
+    topNavItems.forEach((navItem) => {
+      const topNavItemDropdownMenu = navItem.querySelector(".dropdown-menu");
+      navItem.classList.toggle("click-dropdown", shouldBotNavShrink);
+      topNavItemDropdownMenu.classList.toggle(
+        "dropdown-click-menu",
+        shouldBotNavShrink
+      );
+    });
+    if (shouldBotNavShrink) {
+      bottomNav.appendChild(topNav);
+      kvttDropdown.dataset.bsAutoClose = "outside";
+    } else {
+      document.body.prepend(topNav);
+      kvttDropdown.dataset.bsAutoClose = "";
+    }
+  }
+
+  if (checkShouldTopNavShrink !== shouldTopNavShrink) {
+    shouldTopNavShrink = checkShouldTopNavShrink;
+    kvttDropdownMenu.classList.toggle("dropdown-menu", shouldTopNavShrink);
+    if (!shouldBotNavShrink) {
+      kvttDropdownMenuChildren.forEach((child) => {
+        child.classList.toggle("dropdown-item", shouldTopNavShrink);
+        child.classList.replace(
+          shouldTopNavShrink ? "dropdown" : "dropend",
+          shouldTopNavShrink ? "dropend" : "dropdown"
+        );
+      });
+    }
+  }
+
+  const currentStage =
+    innerWidth < BOT_NAV_BREAKPOINT
+      ? "small"
+      : innerWidth < TOP_NAV_BREAKPOINT
+      ? "medium"
+      : "large";
+
+  if (currentStage !== lastStage) {
+    lastStage = currentStage;
+    updateEventDropList();
+  }
+}
+
+function updateEventDropList() {
+  const dropList = document.querySelectorAll(
+    ".top-nav-container .dropdown:not(.click-dropdown), .top-nav-container .dropend, " +
+      ".bot-nav-container .dropdown:not(.click-dropdown), .bot-nav-container .dropend"
+  );
+  const clickDropList = document.querySelectorAll(".click-dropdown");
+
+  [...clickDropList, ...dropList].forEach((dropdown) => {
+    dropdown.removeEventListener("mouseenter", onMountEnterDropdown);
+    dropdown.removeEventListener("mouseleave", onMountLeaveDropdown);
+    dropdown.removeEventListener("click", onClickDropdown);
+  });
+
+  clickDropList.forEach((dropdown) =>
+    dropdown.addEventListener("click", onClickDropdown)
+  );
+  dropList.forEach((dropdown) => {
+    dropdown.addEventListener("mouseenter", onMountEnterDropdown);
+    dropdown.addEventListener("mouseleave", onMountLeaveDropdown);
+  });
+
+  // Initialize multi-level submenu
+  initMultiLevelMenu();
+}
+
+// onInit
+onInitAndResize();
+window.addEventListener("resize", onInitAndResize);
+
+function onClickDropdown() {
+  const menu = this.querySelector(".dropdown-menu");
+  const toggle = this.querySelector(".dropdown-toggle");
+  const isOpen = menu.classList.contains("show");
+  const chevronIcon = toggle ? toggle.querySelector(".chevron-icon") : null;
+
+  menu.style.maxHeight = isOpen ? menu.scrollHeight + "px" : "0";
+  setTimeout(() => {
+    menu.style.padding = isOpen ? "0.5rem 0" : "0";
+  }, 100);
+
+  // Update chevron icon when dropdown toggles (for click-based dropdowns)
+  if (chevronIcon && toggle) {
+    // Use setTimeout to ensure Bootstrap has updated the classes
+    setTimeout(() => {
+      const isNowOpen = toggle.classList.contains("show");
+      if (isNowOpen) {
+        chevronIcon.classList.remove("chevron-right");
+        chevronIcon.classList.add("chevron-down");
+      } else {
+        chevronIcon.classList.remove("chevron-down");
+        chevronIcon.classList.add("chevron-right");
+      }
+    }, 10);
+  }
+}
+
+function onMountEnterDropdown() {
+  const menu = this.querySelector(".dropdown-menu");
+  const chevronIcon = this.querySelector(".chevron-icon");
+  menu.style.padding = "0.5rem 0";
+  menu.style.maxHeight = menu.scrollHeight + "px";
+  
+  // Update chevron icon on hover (for desktop)
+  if (chevronIcon) {
+    chevronIcon.classList.remove("chevron-right");
+    chevronIcon.classList.add("chevron-down");
+  }
+}
+
+function onMountLeaveDropdown() {
+  const menu = this.querySelector(".dropdown-menu");
+  const chevronIcon = this.querySelector(".chevron-icon");
+  menu.style.maxHeight = "0";
+  setTimeout(() => {
+    menu.style.padding = "0";
+  }, 100);
+  
+  // Update chevron icon on leave (for desktop)
+  if (chevronIcon) {
+    chevronIcon.classList.remove("chevron-down");
+    chevronIcon.classList.add("chevron-right");
+  }
+}
+
+function handleClickOutside(event) {
+  const inputSearch = document.querySelector(".nav-search:not(.d-none)"); // Element to check
+
+  const clickedInsideExcluded = [...navSearchIcons].some((exclude) =>
+    exclude.contains(event.target)
+  );
+
+  if (
+    inputSearch &&
+    !inputSearch.contains(event.target) &&
+    !clickedInsideExcluded
+  ) {
+    closeSearch();
+  }
+}
+
+document.addEventListener("click", handleClickOutside);
+
+// Helper: position a root submenu (level 2 list under level 1) so it stays in viewport
+function positionRootSubmenu(submenu) {
+  if (!submenu) return;
+
+  // Giữ top theo CSS, chỉ chỉnh ngang
+  submenu.style.left = "-1rem";
+  submenu.style.right = "auto";
+
+  const rect = submenu.getBoundingClientRect();
+  const viewportWidth =
+    window.innerWidth || document.documentElement.clientWidth;
+
+  // Nếu tràn khỏi mép phải màn hình, canh về bên phải của viewport
+  if (rect.right > viewportWidth) {
+    submenu.style.left = "auto";
+    submenu.style.right = "-1rem";
+  }
+}
+
+// Helper: position a flyout submenu (level 3) so it stays in viewport horizontally
+function positionSubmenu(submenu) {
+  if (!submenu) return;
+
+  // Default: open to the right
+  submenu.style.left = "100%";
+  submenu.style.right = "auto";
+
+  const rect = submenu.getBoundingClientRect();
+  const viewportWidth =
+    window.innerWidth || document.documentElement.clientWidth;
+
+  // If overflowing to the right, open to the left instead
+  if (rect.right > viewportWidth) {
+    submenu.style.left = "auto";
+    submenu.style.right = "100%";
+  }
+}
+
+// Handle multi-level submenu toggle
+function initMultiLevelMenu() {
+  const isMobile = window.innerWidth < 1200;
+  
+  // Level 1: Hover behavior on desktop, click on mobile
+  const level1Parents = document.querySelectorAll(
+    ".bot-nav-container .submenu-parent[data-level='1']"
+  );
+
+  level1Parents.forEach((parent) => {
+    const toggle = parent.querySelector(".submenu-toggle");
+    const submenu = parent.querySelector(".main-submenu");
+    
+    if (!toggle || !submenu) return;
+
+    // Store handlers to remove them later
+    if (!parent._level1Handlers) {
+      parent._level1Handlers = {};
+    }
+
+    // Remove existing event listeners
+    if (parent._level1Handlers.clickHandler) {
+      toggle.removeEventListener("click", parent._level1Handlers.clickHandler);
+      parent._level1Handlers.clickHandler = null;
+    }
+    if (parent._level1Handlers.mouseenterHandler) {
+      parent.removeEventListener("mouseenter", parent._level1Handlers.mouseenterHandler);
+      parent._level1Handlers.mouseenterHandler = null;
+    }
+    if (parent._level1Handlers.mouseleaveHandler) {
+      parent.removeEventListener("mouseleave", parent._level1Handlers.mouseleaveHandler);
+      parent._level1Handlers.mouseleaveHandler = null;
+    }
+
+    if (isMobile) {
+      // Mobile: Click behavior
+      const clickHandler = function(e) {
+        e.preventDefault();
+        const isOpen = submenu.style.display !== "none" && submenu.style.display !== "";
+
+        if (isOpen) {
+          submenu.style.display = "none";
+          submenu.style.maxHeight = "0";
+          toggle.classList.remove("active");
+        } else {
+          submenu.style.display = "block";
+          submenu.style.maxHeight = submenu.scrollHeight + "px";
+          toggle.classList.add("active");
+        }
+      };
+      toggle.addEventListener("click", clickHandler);
+      parent._level1Handlers.clickHandler = clickHandler;
+    } else {
+      // Desktop: Hover behavior only
+      const mouseenterHandler = function() {
+        submenu.style.display = "block";
+        submenu.style.maxHeight = submenu.scrollHeight + "px";
+        // Điều chỉnh vị trí ngang để không tràn màn hình
+        positionRootSubmenu(submenu);
+      };
+      const mouseleaveHandler = function() {
+        submenu.style.display = "none";
+        submenu.style.maxHeight = "0";
+      };
+      parent.addEventListener("mouseenter", mouseenterHandler);
+      parent.addEventListener("mouseleave", mouseleaveHandler);
+      parent._level1Handlers.mouseenterHandler = mouseenterHandler;
+      parent._level1Handlers.mouseleaveHandler = mouseleaveHandler;
+    }
+  });
+
+  // Level 2+: Hover on desktop, click on mobile/tablet
+  const level2PlusItems = document.querySelectorAll(
+    ".bot-nav-container .submenu-item[data-level]:not([data-level='1'])"
+  );
+
+  level2PlusItems.forEach((item) => {
+    const toggle = item.querySelector(".submenu-toggle");
+    const submenu = item.querySelector(".sub-level");
+    const chevronIcon = toggle ? toggle.querySelector(".chevron-icon") : null;
+
+    if (!toggle || !submenu) return;
+
+    // Helper to close all other level 3 submenus
+    const closeOtherLevel3 = () => {
+      const allSubmenus = document.querySelectorAll(
+        ".bot-nav-container .submenu-item[data-level]:not([data-level='1']) .sub-level"
+      );
+      allSubmenus.forEach((otherSubmenu) => {
+        if (otherSubmenu === submenu) return;
+        otherSubmenu.style.display = "none";
+        otherSubmenu.style.maxHeight = "0";
+        const parentToggle = otherSubmenu.previousElementSibling;
+        if (parentToggle && parentToggle.classList.contains("submenu-toggle")) {
+          parentToggle.classList.remove("active");
+          const otherChevron = parentToggle.querySelector(".chevron-icon");
+          if (otherChevron) {
+            otherChevron.classList.remove("chevron-down");
+            otherChevron.classList.add("chevron-right");
+          }
+        }
+      });
+    };
+
+    if (isMobile) {
+      // Mobile: click behavior
+      if (toggle.dataset.clickInitialized === "true") return;
+      toggle.dataset.clickInitialized = "true";
+
+      toggle.addEventListener("click", function (e) {
+        e.preventDefault();
+        const isOpen = submenu.style.display !== "none" && submenu.style.display !== "";
+
+        if (isOpen) {
+          submenu.style.display = "none";
+          submenu.style.maxHeight = "0";
+          toggle.classList.remove("active");
+          if (chevronIcon) {
+            chevronIcon.classList.remove("chevron-down");
+            chevronIcon.classList.add("chevron-right");
+          }
+        } else {
+          closeOtherLevel3();
+          submenu.style.display = "block";
+          submenu.style.maxHeight = submenu.scrollHeight + "px";
+          toggle.classList.add("active");
+          if (chevronIcon) {
+            chevronIcon.classList.remove("chevron-right");
+            chevronIcon.classList.add("chevron-down");
+          }
+        }
+      });
+    } else {
+      // Desktop: hover behavior
+      if (item.dataset.hoverInitialized === "true") return;
+      item.dataset.hoverInitialized = "true";
+
+      item.addEventListener("mouseenter", function () {
+        closeOtherLevel3();
+        submenu.style.display = "block";
+        submenu.style.maxHeight = submenu.scrollHeight + "px";
+        // Adjust horizontal position so submenu stays in viewport
+        positionSubmenu(submenu);
+        toggle.classList.add("active");
+        if (chevronIcon) {
+          chevronIcon.classList.remove("chevron-right");
+          chevronIcon.classList.add("chevron-down");
+        }
+      });
+
+      item.addEventListener("mouseleave", function () {
+        submenu.style.display = "none";
+        submenu.style.maxHeight = "0";
+        toggle.classList.remove("active");
+        if (chevronIcon) {
+          chevronIcon.classList.remove("chevron-down");
+          chevronIcon.classList.add("chevron-right");
+        }
+      });
+    }
+  });
+}
+
+// Initialize multi-level menu on page load
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initMultiLevelMenu);
+} else {
+  initMultiLevelMenu();
+}
+
+function updateNavbar() {
+  const isLargeScreen = window.innerWidth >= BOT_NAV_BREAKPOINT;
+
+  if (isLargeScreen) {
+    if (window.scrollY >= 47.5) {
+      botNav.classList.add("fixed-top");
+      document.body.style.marginTop = "47.5px";
+    } else {
+      botNav.classList.remove("fixed-top");
+      document.body.style.marginTop = "0";
+    }
+  } else {
+    botNav.classList.add("fixed-top");
+    document.body.style.marginTop = "72px";
+  }
+}
+
+updateNavbar();
+document.addEventListener("scroll", updateNavbar);
+
+window.addEventListener("resize", updateNavbar);

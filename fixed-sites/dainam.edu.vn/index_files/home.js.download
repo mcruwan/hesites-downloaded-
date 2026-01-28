@@ -1,0 +1,695 @@
+// inject new event
+// fetch("components/new-event/new-event.html")
+//   .then((res) => res.text())
+//   .then((component) => {
+//     document
+//       .querySelector(".feelings")
+//       .insertAdjacentHTML("afterend", component);
+//   });
+
+let videosLoaded = false;
+let videoLoadPromises = [];
+let swiperInstance = null;
+let isFirstVideoLoad = true;
+let firstVideoFound = false;
+
+// setup swiper
+const bannerSwiper = new Swiper(".banner-swiper", {
+  loop: true,
+  preloadImages: false,
+  watchSlidesVisibility: true,
+  watchSlidesProgress: true,
+  slidesPerView: 1,
+  slidesPerGroup: 1,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  autoplay: false, // Disable initial autoplay
+  on: {
+    beforeInit: function() {
+      swiperInstance = this;
+      // Set swiper-slide-index for all slides before initialization
+      this.slides.forEach((slide, index) => {
+        slide.setAttribute('data-swiper-slide-index', index.toString());
+      });
+    },
+    init: function() {
+      this.slides.forEach((slide, index) => {
+        if (!slide.hasAttribute('data-swiper-slide-index')) {
+          slide.setAttribute('data-swiper-slide-index', index.toString());
+        }
+      });
+
+      // Only load videos if not already loaded
+      if (!videosLoaded && videoLoadPromises.length === 0) {
+        // Find first video slide and check if it's the first slide
+        const firstSlide = this.slides[0];
+        const firstSlideHasVideo = firstSlide && firstSlide.querySelector('video');
+        firstVideoFound = firstSlideHasVideo;
+
+        // Load all video metadata first
+        this.slides.forEach((slide, index) => {
+          const video = slide.querySelector('video');
+          if (video) {
+            const loadPromise = new Promise((resolve) => {
+              // Set a default duration in case FFMPEG fails
+              slide.dataset.videoDuration = SLIDE_DELAY;
+              
+              if (video.readyState >= 2) { // HAVE_CURRENT_DATA
+                if (!isNaN(video.duration) && video.duration > 0) {
+                  slide.dataset.videoDuration = video.duration * 1000;
+                }
+                resolve();
+              } else {
+                const handleLoadedMetadata = () => {
+                  if (!isNaN(video.duration) && video.duration > 0) {
+                    slide.dataset.videoDuration = video.duration * 1000;
+                  }
+                  video.removeEventListener('loadedmetadata', handleLoadedMetadata);
+                  resolve();
+                };
+                video.addEventListener('loadedmetadata', handleLoadedMetadata);
+                video.load();
+              }
+            });
+            videoLoadPromises.push(loadPromise);
+          }
+        });
+
+        // Start autoplay after all videos are loaded
+        Promise.all(videoLoadPromises).then(() => {
+          videosLoaded = true;
+
+          // Special handling for first video on first load
+          if (isFirstVideoLoad && firstVideoFound) {
+            const firstVideo = firstSlide.querySelector('video');
+            
+            if (firstVideo) {
+              const eventSwiperBorderBottom = document.querySelector('.swiper-border-bottom');
+              let startTime = null;
+              let firstVideoInterval = null;
+
+              const updateFirstVideoProgress = () => {
+                if (!startTime) {
+                  startTime = Date.now();
+                }
+                const elapsed = Date.now() - startTime;
+                const duration = firstVideo.duration * 1000;
+                const progress = Math.min(elapsed / duration, 1);
+
+                if (eventSwiperBorderBottom) {
+                  eventSwiperBorderBottom.style.width = progress * 100 + "%";
+                }
+
+                if (progress >= 1) {
+                  clearInterval(firstVideoInterval);
+                  isFirstVideoLoad = false;
+                  
+                  // Stop the first video
+                  firstVideo.pause();
+                  firstVideo.currentTime = 0;
+                  
+                  // Move to next slide
+                  this.slideNext();
+                  
+                  // Start normal autoplay after first video
+                  if (!(typeof isEditMode !== "undefined" && isEditMode)) {
+                    this.params.autoplay = {
+                      delay: this.getCurrentSlideDelay(),
+                      disableOnInteraction: false,
+                      waitForTransition: true
+                    };
+                    this.autoplay.start();
+                  }
+                }
+              };
+
+              // Start first video
+              firstVideo.currentTime = 0;
+              firstVideo.play().then(() => {
+                firstVideoInterval = setInterval(updateFirstVideoProgress, 16);
+              }).catch(error => {
+                isFirstVideoLoad = false;
+                // Start normal autoplay if first video fails
+                if (!(typeof isEditMode !== "undefined" && isEditMode)) {
+                  this.params.autoplay = {
+                    delay: this.getCurrentSlideDelay(),
+                    disableOnInteraction: false,
+                    waitForTransition: true
+                  };
+                  this.autoplay.start();
+                }
+              });
+
+              // Handle first video end
+              firstVideo.addEventListener('ended', () => {
+                clearInterval(firstVideoInterval);
+                isFirstVideoLoad = false;
+                
+                // Move to next slide
+                this.slideNext();
+                
+                // Start normal autoplay after first video
+                if (!(typeof isEditMode !== "undefined" && isEditMode)) {
+                  this.params.autoplay = {
+                    delay: this.getCurrentSlideDelay(),
+                    disableOnInteraction: false,
+                    waitForTransition: true
+                  };
+                  this.autoplay.start();
+                }
+              }, { once: true });
+
+              // Also handle video timeupdate to ensure smooth transition
+              firstVideo.addEventListener('timeupdate', () => {
+                if (firstVideo.currentTime >= firstVideo.duration - 0.1) {
+                  clearInterval(firstVideoInterval);
+                  isFirstVideoLoad = false;
+                  this.slideNext();
+                  
+                  // Start normal autoplay after first video
+                  if (!(typeof isEditMode !== "undefined" && isEditMode)) {
+                    this.params.autoplay = {
+                      delay: this.getCurrentSlideDelay(),
+                      disableOnInteraction: false,
+                      waitForTransition: true
+                    };
+                    this.autoplay.start();
+                  }
+                }
+              }, { once: true });
+
+              return; // Skip normal autoplay setup for first load
+            }
+          }
+
+          // Normal autoplay setup for non-first load or when first slide is not video
+          if (!(typeof isEditMode !== "undefined" && isEditMode)) {
+            this.params.autoplay = {
+              delay: this.getCurrentSlideDelay(),
+              disableOnInteraction: false,
+              waitForTransition: true
+            };
+            this.autoplay.start();
+          }
+        }).catch(error => {
+          console.error('Error loading videos:', error);
+        });
+      }
+    },
+    slideChange: function() {
+      if (!(typeof isEditMode !== "undefined" && isEditMode)) {
+        if (isFirstVideoLoad && firstVideoFound) return;
+
+        if (!videosLoaded) {
+          const swiper = this;
+          Promise.all(videoLoadPromises).then(() => {
+            videosLoaded = true;
+            if (swiper && typeof swiper.slideChange === 'function') {
+              swiper.slideChange();
+            }
+          });
+          return;
+        }
+
+        // Stop and reset previous video if exists
+        const prevSlide = this.slides[this.previousIndex];
+        const stopPreviousVideo = () => {
+          if (prevSlide) {
+            const prevVideo = prevSlide.querySelector('video');
+            if (prevVideo) {
+              return new Promise((resolve) => {
+                prevVideo.pause();
+                prevVideo.currentTime = 0;
+                prevVideo.removeEventListener('timeupdate', prevVideo._handleTimeUpdate);
+                delete prevVideo._handleTimeUpdate;
+                
+                // Wait for video to actually pause
+                const handlePause = () => {
+                  prevVideo.removeEventListener('pause', handlePause);
+                  resolve();
+                };
+                prevVideo.addEventListener('pause', handlePause);
+              });
+            }
+          }
+          return Promise.resolve();
+        };
+
+        const realIndex = this.realIndex;
+        
+        // Find active slide using realIndex
+        const activeSlide = this.slides ? this.slides.find(slide => 
+          slide.getAttribute('data-swiper-slide-index') === realIndex.toString()
+        ) : null;
+
+        // Check if current slide has video
+        const hasVideo = activeSlide && activeSlide.querySelector('video');
+        
+        // Always stop autoplay before changing settings
+        this.autoplay.stop();
+
+        if (!activeSlide) {
+          // If no active slide found, use default delay
+          this.params.autoplay.delay = SLIDE_DELAY;
+          this.autoplay.start();
+          return;
+        }
+
+        if (hasVideo) {
+          // If current slide has video, use its duration
+          const video = activeSlide.querySelector('video');
+          if (!isNaN(video.duration)) {
+            // Wait for previous video to stop before starting new one
+            stopPreviousVideo().then(() => {
+              video.currentTime = 0;
+              
+              let lastTime = 0;
+              const eventSwiperBorderBottom = document.querySelector('.swiper-border-bottom');
+              
+              const updateProgress = (timestamp) => {
+                if (!lastTime) lastTime = timestamp;
+                const elapsed = timestamp - lastTime;
+                
+                if (elapsed >= 16) {
+                  const progress = video.currentTime / video.duration;
+                  if (eventSwiperBorderBottom) {
+                    eventSwiperBorderBottom.style.width = progress * 100 + "%";
+                  }
+                  lastTime = timestamp;
+                }
+                
+                if (video.duration - video.currentTime <= 0.1) {
+                  video.removeEventListener('timeupdate', video._handleTimeUpdate);
+                  this.slideNext();
+                  return;
+                }
+                
+                requestAnimationFrame(updateProgress);
+              };
+
+              const handleTimeUpdate = () => {
+                requestAnimationFrame(updateProgress);
+              };
+              
+              // Store the handler reference on the video element for cleanup
+              video._handleTimeUpdate = handleTimeUpdate;
+              video.addEventListener('timeupdate', handleTimeUpdate);
+              
+              // Add a small delay before playing to ensure clean state
+              setTimeout(() => {
+                video.play().catch(error => {
+                  // If autoplay fails, use default delay
+                  this.params.autoplay.delay = SLIDE_DELAY;
+                  this.autoplay.start();
+                });
+              }, 50);
+            });
+          } else {
+            // If video duration is NaN, use default delay
+            this.params.autoplay.delay = SLIDE_DELAY;
+            this.autoplay.start();
+          }
+        } else {
+          // If current slide has no video, always use default delay
+          this.params.autoplay.delay = SLIDE_DELAY;
+          this.autoplay.start();
+        }
+      }
+    },
+    autoplayTimeLeft(s, time, progress) {
+      if (!(typeof isEditMode !== "undefined" && isEditMode)) {
+        const activeSlide = this.slides[this.activeIndex];
+        if (!activeSlide) return;
+        
+        const video = activeSlide.querySelector('video');
+        if (!video) {
+          const eventSwiperBorderBottom = document.querySelector('.swiper-border-bottom');
+          if (eventSwiperBorderBottom) {
+            eventSwiperBorderBottom.style.width = (1 - progress) * 100 + "%";
+          }
+        }
+      }
+    }
+  }
+});
+
+// Helper function to get current slide delay
+Swiper.prototype.getCurrentSlideDelay = function() {
+  const realIndex = this.realIndex;
+  const activeSlide = this.slides.find(slide => slide.dataset.swiperSlideIndex === realIndex.toString());
+  
+  if (!activeSlide) return SLIDE_DELAY;
+  
+  const video = activeSlide.querySelector('video');
+  if (!video) return SLIDE_DELAY;
+  
+  // Try to get duration from dataset first
+  const duration = parseFloat(activeSlide.dataset.videoDuration);
+  if (!isNaN(duration) && duration > 0) {
+    return duration;
+  }
+  
+  // If video is loaded and has valid duration, use it
+  if (video.readyState >= 2 && !isNaN(video.duration) && video.duration > 0) {
+    return video.duration * 1000;
+  }
+  
+  // Fallback to default delay if we can't get valid duration
+  console.warn('Could not get valid video duration, using default delay');
+  return SLIDE_DELAY;
+};
+
+let reasonSwiper;
+const reasonSwiperContainer = document.querySelector(".reason-swiper");
+const reasonSwiperWrapper =
+  reasonSwiperContainer?.querySelector(".swiper-wrapper");
+
+function initReasonSwiper() {
+  const isEnableSwiper = window.innerWidth >= 768;
+
+  reasonSwiperContainer?.classList.toggle("swiper", isEnableSwiper);
+  reasonSwiperWrapper?.classList.toggle("overflow-x-auto", !isEnableSwiper);
+  if (isEnableSwiper) {
+    reasonSwiper = new Swiper(".reason-swiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      slidesPerView: 4,
+      breakpoints: {
+        0: {
+          enabled: false,
+          spaceBetween: 0,
+        },
+        768: {
+          slidesPerView: 2,
+          enabled: true,
+          spaceBetween: 25,
+        },
+        992: {
+          slidesPerView: 3,
+          enabled: true,
+          spaceBetween: 25,
+        },
+        1200: {
+          slidesPerView: 4,
+          enabled: true,
+          spaceBetween: 25,
+        },
+      },
+      spaceBetween: 28,
+    });
+  } else if (reasonSwiper) {
+    reasonSwiper.destroy(true, true);
+    reasonSwiper = null;
+  }
+}
+
+initReasonSwiper();
+window.addEventListener("resize", initReasonSwiper);
+
+// const swiperWrapper = document.querySelector(".partner-swiper .swiper-wrapper");
+// let partnerImgLayout1 = "";
+// if (swiperWrapper){
+//   partnerImgLayout1 = swiperWrapper.innerHTML;
+// }
+// let partnerImgLayout2 = "";
+// let partnerSwiper;
+
+// function createGroupedSlides() {
+//   let originalSlides = [];
+//   if (swiperWrapper){
+//     originalSlides = Array.from(swiperWrapper.children).map(
+//       (slide) => slide.querySelector("img").src
+//     );
+//   }
+//   let groupedHTML = "";
+
+//   for (let i = 0; i < originalSlides.length; i += 4) {
+//     groupedHTML += `<div class="swiper-slide">`;
+//     for (let j = i; j < i + 4 && j < originalSlides.length; j++) {
+//       groupedHTML += `<img src="${originalSlides[j]}" alt="Partner logo" loading="lazy" />`;
+//     }
+//     groupedHTML += `</div>`;
+//   }
+
+//   return groupedHTML;
+// }
+
+// function updatePartnerSwiperStructure() {
+//   if (window.innerWidth < 992) {
+//     if (partnerImgLayout2 === "") {
+//       partnerImgLayout2 = createGroupedSlides();
+//     }
+//     if (swiperWrapper && swiperWrapper.innerHTML !== partnerImgLayout2) {
+//       swiperWrapper.innerHTML = partnerImgLayout2;
+//       initSwiper();
+//     }
+//   } else if (swiperWrapper && swiperWrapper.innerHTML !== partnerImgLayout1) {
+//     swiperWrapper.innerHTML = partnerImgLayout1;
+//     initSwiper();
+//   }
+//   if (!partnerSwiper) initSwiper();
+// }
+
+// function initSwiper() {
+//   if (partnerSwiper) {
+//     partnerSwiper.destroy(true, true);
+//   }
+//   partnerSwiper = new Swiper(".partner-swiper", {
+//     pagination: {
+//       el: ".swiper-pagination",
+//       clickable: true,
+//     },
+//     slidesPerView: 1,
+//     breakpoints: {
+//       992: {
+//         slidesPerView: 4,
+//       },
+//       1200: {
+//         slidesPerView: 5,
+//       },
+//     },
+//     spaceBetween: 25,
+//   });
+// }
+
+// updatePartnerSwiperStructure();
+// window.addEventListener("resize", updatePartnerSwiperStructure);
+
+// reason video
+// let reasonVideo = document.getElementById("reason-video");
+// const playButton = document.getElementById("reason-play-button");
+
+// playButton.addEventListener("click", () => {
+//   reasonVideo.play();
+//   playButton.classList.add("d-none");
+//   reasonVideo.setAttribute("controls", true);
+// });
+// reasonVideo.addEventListener("pause", () => {
+//   playButton.classList.remove("d-none");
+//   reasonVideo.setAttribute("controls", false);
+// });
+// reasonVideo.addEventListener("play", () => {
+//   playButton.classList.add("d-none");
+// });
+// reasonVideo.addEventListener("click", () => {
+//   if (reasonVideo.paused) {
+//     reasonVideo.play();
+//   } else {
+//     reasonVideo.pause();
+//   }
+// });
+
+// student life
+const studentImgRow2 = document.querySelector(".student-img-row-2");
+const studentShowMore = document.querySelector(
+  ".student-life .see-more-container"
+);
+studentShowMore?.addEventListener("click", function () {
+  studentImgRow2.classList.remove("d-none");
+  this.classList.add("d-none");
+});
+
+// animate number
+// const DURATION = 1200;
+function animateNumber(element, target) {
+  let startTime = null;
+  const match = target.match(/^(\d+)(\D*)$/); // Tách số & chữ
+
+  if (!match) return; // Nếu target không hợp lệ thì bỏ qua
+  
+  const numericPart = parseInt(match[1]); // Lấy phần số
+  const textPart = match[2] || ""; // Giữ nguyên phần chữ
+
+  function step(timestamp) {
+    if (!startTime) startTime = timestamp;
+    const progress = Math.min((timestamp - startTime) / 1200, 1);
+    element.textContent = Math.floor(progress * numericPart).toLocaleString("vi-VN") + textPart;
+    if (progress < 1) {
+      requestAnimationFrame(step);
+    } else {
+      element.textContent = numericPart.toLocaleString("vi-VN") + textPart;
+    }
+  }
+
+  requestAnimationFrame(step);
+}
+
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const numberElement = entry.target;
+        const target = numberElement.dataset.numberTarget.trim();
+        animateNumber(numberElement, target);
+        observer.unobserve(numberElement);
+      }
+    });
+  },
+  { threshold: 0.5 }
+);
+
+document
+  .querySelectorAll("[data-number-target]")
+  .forEach((num) => observer.observe(num));
+
+
+// Partner logo marquee
+function setupPartnerMarquee() {
+  const container = document.querySelector(".partner-logo-container");
+  if (container){
+    let marquee = new Marquee(container, {
+      minImagesPerRow: 10,
+      maxRows: () => (window.innerWidth < 768 ? 2 : 3), // Responsive rows
+    });
+  
+    // Track screen size to rebuild marquee when crossing breakpoints
+    let isMobile = window.innerWidth < 768;
+    let resizeTimeout;
+  
+    // Add resize listener to handle responsive changes with throttling
+    window.addEventListener("resize", () => {
+      // Clear previous timeout
+      if (resizeTimeout) {
+        clearTimeout(resizeTimeout);
+      }
+  
+      // Set a timeout to avoid multiple rebuilds during resize
+      resizeTimeout = setTimeout(() => {
+        const wasMobile = isMobile;
+        isMobile = window.innerWidth < 768;
+  
+        // Only rebuild marquee when crossing the breakpoint
+        if (wasMobile !== isMobile) {
+          // Remove loaded class before rebuilding
+          container.classList.remove("loaded");
+  
+          marquee = new Marquee(container, {
+            minImagesPerRow: 10,
+            maxRows: () => (window.innerWidth < 768 ? 2 : 3),
+          });
+        }
+      }, 50);
+    });
+  }
+}
+
+// Initialize partner marquee when DOM is ready
+document.addEventListener("DOMContentLoaded", setupPartnerMarquee);
+
+
+// Student Life Image Popup
+// Use the popup elements from the HTML
+const popupOverlay = document.querySelector(".student-img-popup-overlay");
+const popupImg = popupOverlay.querySelector(".student-img-popup-img");
+const closeBtn = popupOverlay.querySelector(".student-img-popup-close");
+const prevBtn = popupOverlay.querySelector(".student-img-popup-prev");
+const nextBtn = popupOverlay.querySelector(".student-img-popup-next");
+
+// Gather all images in .student-life section
+const studentImgs = Array.from(document.querySelectorAll(".student-life img"));
+let currentIndex = 0;
+
+// Ensure popup is hidden initially
+popupOverlay.classList.remove("active");
+popupOverlay.style.display = ""; // Remove inline style if present
+
+// Show popup on image click
+studentImgs.forEach((img, idx) => {
+  img.style.cursor = "pointer";
+  img.addEventListener("click", function () {
+    currentIndex = idx;
+    showImageByIndex(currentIndex);
+    popupOverlay.classList.add("active");
+    document.body.classList.add("student-img-popup-open");
+  });
+});
+
+function showImageByIndex(idx) {
+  if (idx < 0) idx = studentImgs.length - 1;
+  if (idx >= studentImgs.length) idx = 0;
+  currentIndex = idx;
+  popupImg.src = studentImgs[currentIndex].src;
+}
+
+// Next/Prev button handlers
+prevBtn.addEventListener("click", function (e) {
+  e.stopPropagation();
+  showImageByIndex(currentIndex - 1);
+});
+nextBtn.addEventListener("click", function (e) {
+  e.stopPropagation();
+  showImageByIndex(currentIndex + 1);
+});
+
+// Close popup on overlay or button click
+function closePopup() {
+  popupOverlay.classList.remove("active");
+  document.body.classList.remove("student-img-popup-open");
+  setTimeout(() => {
+    if (!popupOverlay.classList.contains("active")) {
+      popupImg.src = "";
+    }
+  }, 300);
+}
+closeBtn.addEventListener("click", closePopup);
+popupOverlay.addEventListener("click", function (e) {
+  if (e.target === popupOverlay) closePopup();
+});
+// Optional: close on ESC key
+document.addEventListener("keydown", function (e) {
+  if (e.key === "Escape" && popupOverlay.classList.contains("active")) {
+    closePopup();
+  }
+  // Left/Right arrow navigation
+  if (popupOverlay.classList.contains("active")) {
+    if (e.key === "ArrowLeft") {
+      showImageByIndex(currentIndex - 1);
+    } else if (e.key === "ArrowRight") {
+      showImageByIndex(currentIndex + 1);
+    }
+  }
+});
+
+// --- Next/Prev button hover effect for icon swap ---
+function setNavBtnHover(btn, isPrev) {
+  const img = btn.querySelector("img");
+  const defaultSrc = isPrev
+    ? "/img/icon/next-page.svg"
+    : "/img/icon/next-page.svg";
+  const hoverSrc = "/img/icon/next-hover-btn.svg";
+  btn.addEventListener("mouseenter", function () {
+    img.src = hoverSrc;
+    if (isPrev) img.style.transform = "rotate(180deg)";
+  });
+  btn.addEventListener("mouseleave", function () {
+    img.src = defaultSrc;
+    if (isPrev) img.style.transform = "rotate(180deg)";
+    else img.style.transform = "";
+  });
+}
+setNavBtnHover(prevBtn, true);
+setNavBtnHover(nextBtn, false);

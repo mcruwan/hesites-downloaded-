@@ -1,0 +1,44 @@
+document.addEventListener('DOMContentLoaded', function() {
+  if (document.querySelector(".events-more__box")) {
+    const swiper = new Swiper(".events-more__box", {
+      //cssMode: true,
+      slidesPerView: 1.16,
+      spaceBetween: 10,
+      slidesOffsetBefore: 10,
+      slidesOffsetAfter: 10,
+      breakpoints: {
+        576: {
+          spaceBetween: 30,
+        },
+        992: {
+          slidesOffsetBefore: 0,
+          slidesOffsetAfter: 0,
+          // slidesPerView: 2,
+          // spaceBetween: 30,
+        },
+        1280: {
+          slidesOffsetBefore: 0,
+          slidesOffsetAfter: 0,
+          slidesPerView: 3,
+          //spaceBetween: 30,
+        },
+        1400: {
+          slidesOffsetBefore: 0,
+          slidesOffsetAfter: 0,
+          slidesPerView: 3,
+          //spaceBetween: 50
+        },
+      },
+      keyboard: {
+        enabled: true,
+        onlyInViewport: true, // Работает только когда слайдер в видимой части экрана
+        pageUpDown: false, // Если true — будет реагировать и на PageUp/PageDown
+      },
+      navigation: {
+        nextEl: ".events-more__button-next",
+        prevEl: ".events-more__button-prev",
+      },
+
+    });
+  }
+});

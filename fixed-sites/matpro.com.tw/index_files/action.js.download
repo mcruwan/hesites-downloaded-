@@ -1,0 +1,165 @@
+var mainBody = $("html > body");
+
+(function(l){var i,s={touchend:function(){}};for(i in s)l.addEventListener(i,s)})(document);/*sticky hover fix in iOS*/
+
+function Screen() {
+	LockBody.Open();
+    jQuery.fancybox({
+        "modal" : true,
+		"padding" : 10, 
+		"minHeight": 1,
+		"minWidth": 1,
+		"scrolling": "no",
+        "content" : '<div id="loading-box" style="font-size:24px;line-height:24px;white-space:nowrap;padding:0 10px;"> <i class="fa fa-refresh fa-spin"></i> </div>',
+	});
+}
+	
+/*//////////////////////Email Format/////////////////////////////////////////////////////////*/
+function validEmail(v) {	
+	var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+  	return regex.test(v);
+};
+
+/*//////////////////////Verification Code/////////////////////////////////////////////////////////*/
+function randomString() {
+	var chars = "0123456789abcdefghik";
+	var string_length = 5;
+	var randomstring = '';
+	for (var i=0; i<string_length; i++) {
+		var rnum = Math.floor(Math.random() * chars.length);
+		randomstring += chars.substring(rnum,rnum+1);
+	}
+	return randomstring;
+}
+var nowcodeis = randomString();
+function CodeImg(var1, var2, var3, var4){
+	$(var1).after('<img id="codeimg" onclick="chgcode();" src="/plugins/captcha/loadcode.php?codes='+nowcodeis+'" style="float: '+var2+';width: '+var3+';height: '+var4+';"/>');
+}
+function chgcode(){
+	nowcodeis = randomString();
+    document.getElementById('codeimg').src="/plugins/captcha/loadcode.php?codes="+nowcodeis;
+}
+/*//////////////////////Verification Code/////////////////////////////////////////////////////////*/
+
+function ScrollTo(mark, backto){
+	backto = backto || 0;
+    $('html, html > body').stop().animate({scrollTop: $(mark).offset().top - backto}, 1000);
+}
+/*function chkScroll(){
+	var theitem = $('.button-back-top');	
+	if($(window).scrollTop() > 60)theitem.slideDown("fast");
+	else theitem.stop().slideUp("fast");
+}*/
+var LockBody = (function(bodyClass) {
+	var scrollTop;
+	return {
+		Open: function() {
+			scrollTop = document.scrollingElement.scrollTop;
+			document.body.classList.add(bodyClass);
+			document.scrollingElement.scrollTop = 0;
+			document.body.style.top = -scrollTop + 'px';
+		},
+		Close: function() {
+			document.body.classList.remove(bodyClass);
+			document.scrollingElement.scrollTop = scrollTop;
+		}
+	};
+})('lock');
+
+$(document).ready(function() {	
+	if(typeof(Worker) === "undefined"){
+		document.body.innerHTML="您的瀏覽器無法支援此網站,建議更新您的瀏覽器";
+		alert("您的瀏覽器無法支援此網站,建議更新您的瀏覽器");
+		return false;
+	}
+	
+	/*var scroll_position = 0;
+	var ticking = false;	
+	window.requestAnimationFrame = 
+	window.requestAnimationFrame ||
+	window.mozRequestAnimationFrame ||
+	window.webkitRequestAnimationFrame || 
+	window.oRequestAnimationFrame;	
+	window.addEventListener("scroll", function(e) {
+		scroll_position = !window.scrollY?$(window).scrollTop():window.scrollY;
+		if (!ticking) {
+			window.requestAnimationFrame(function() {
+				chkScroll(scroll_position);
+				ticking = false;
+			});
+		}
+		ticking = true;
+	});*/
+});
+
+$(window).on("load", function (e) {
+	$("head").append(		
+		"<link rel='stylesheet' type='text/css' href='/plugins/fancybox/source/jquery.fancybox.css' />"+
+		"<link rel='stylesheet' type='text/css' href='/plugins/fancybox/source/helpers/jquery.fancybox-buttons.css' />"+
+		"<link rel='stylesheet' type='text/css' href='/plugins/font-awesome/css/font-awesome.css' />"+
+		"<link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans&display=swap' />"		
+	);
+	
+	$(document).on('click', '.layout-full.top .menu .lang .switch', function(event){		
+		$(".layout-full.top .menu .lang .ulbox").toggleClass("active");
+	});	
+	
+	$(document).on('click', '.nav-switch', function(event){		
+		var	classa = "nav-on";
+		if (mainBody.hasClass(classa)) {
+			mainBody.stop().removeClass(classa);
+			LockBody.Close();
+		}
+		else{
+			LockBody.Open();
+			mainBody.stop().addClass(classa);
+		}
+	});	
+	
+	$(".fancybox-thumbs")
+		.attr("rel", "gallery")
+		.fancybox({
+			arrows: false
+		});
+	
+	/*$.getScript("/plugins/jquery.masonry.min.js", function() {
+		$("#masonry, .masonry").masonry({
+			singleMode: true,
+			columnWidth: '.base',
+			itemSelector: "#masonry > *, .masonry > *"
+		});
+	});	*/
+});
+
+/*last load*/
+window.onload = function(){	
+	$('img').not('#codeimg, .noauto').each(function(){
+	 	$(this).css('height', 'auto');
+	});
+	
+	$.getScript("/plugins/scrollreveal.min.js", function() {
+		window.sr = new ScrollReveal({
+			mobile:false,
+			scale: 1,
+			viewFactor: 0.1,
+			duration: 1000
+		});		
+		sr.reveal(".scrollin", 50);
+		sr.reveal(".scrollin-op", {
+			scale: 0.99
+		});
+		sr.reveal(".scrollin-top", {
+			origin: "top"
+		}, 50);
+		sr.reveal('.scrollin-l', {		
+			origin: 'left'
+		}, 50);	
+		sr.reveal('.scrollin-r', {		
+			origin: 'right'
+		}, 50);	
+		sr.reveal('.zoom-out', {		
+			scale: 1.1,
+			duration: 1500
+		}, 50);			
+	});	
+}

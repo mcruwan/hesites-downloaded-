@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  color: #555;
+}
+
+pre {
+  margin: 0 !important;
+  display: inline-block;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+  background: none;
+}
+
+input[disabled],
+button[disabled] {
+  background-color: #eee;
+}
+
+input,
+select {
+  border: 1px solid #ccc;
+  width: 250px;
+}
+
+::placeholder,
+:-ms-input-placeholder {
+  color: #bbb;
+}
