@@ -1,0 +1,20 @@
+const heroSliderBlock = function () {
+    if (document.querySelectorAll('section.hero-slider-section')) {
+        const sections = document.querySelectorAll('section.hero-slider-section');
+        for (const section of sections) {
+            const sliderEl = section.querySelector('.hero-slider');
+            let slider = new Swiper(sliderEl, {
+                loop: true,
+                autoplay: {
+                    delay: 7000,
+                },
+                speed: 1500,
+            });
+        };
+    }
+};
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    heroSliderBlock()
+}, false);

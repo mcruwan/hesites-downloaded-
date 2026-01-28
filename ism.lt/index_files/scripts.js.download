@@ -1,0 +1,199 @@
+document.addEventListener('DOMContentLoaded', (event) => {
+  // Function to handle smooth scrolling
+  function smoothScrollTo(element) {
+    window.scrollTo({
+      'behavior': 'smooth',
+      'top': element.offsetTop
+    });
+  }
+
+  // Add click event listener to all anchor links with href starting with "#"
+  document.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault(); // Prevent default anchor click behavior
+      const hash = this.getAttribute('href');
+      // Check if the hash is not just "#" (which might be used as a placeholder)
+      if (hash !== '#' && hash.startsWith('#')) {
+        const targetId = hash.substring(1);
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+          smoothScrollTo(targetElement);
+        }
+      }
+    });
+  });
+});
+
+document.addEventListener('DOMContentLoaded', (event) => {
+
+					const scrLock = Array.from(document.querySelectorAll('.scroll-lock'))
+					const scrUnlock = Array.from(document.querySelectorAll('.scroll-unlock'))
+
+					scrLock.forEach(el => {
+					el.addEventListener('click', () => {
+					document.querySelector('body').classList.add('body-scroll-lock')
+							});
+						})
+
+					scrUnlock.forEach(el => {
+					el.addEventListener('click', () => {
+					document.querySelector('body').classList.remove('body-scroll-lock')
+							});
+						})
+					});
+					
+
+document.addEventListener('DOMContentLoaded', function() {
+    var swiper = new Swiper('.swiper-container-banner', {
+        slidesPerView: 1,
+        loop: true,
+		spaceBetween: 500,
+        pagination: {
+        el: '.swiper-pagination', // This is the selector for the pagination container
+        clickable: true, // This makes the pagination indicators clickable.
+         },
+        autoplay: {
+            delay: 5000,
+        },
+
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    new Swiper('.swiper-container-img-large', {
+        slidesPerView: 1,
+        loop: true,
+        autoplay: {
+        	delay: 5000,
+        },
+        // Explicitly disable navigation and pagination as they are not needed
+        navigation: false,
+        pagination: {
+        el: '.swiper-pagination', // This is the selector for the pagination container
+        clickable: true, // This makes the pagination indicators clickable.
+         },
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  var swiperTwoCols = new Swiper('.swiper-container-two-col', {
+    slidesPerView: 1,
+    spaceBetween: 500,
+    loop: true, // Optional: if you want the slides to loop
+    pagination: {
+    el: '.swiper-pagination', // This is the selector for the pagination container
+    clickable: true, // This makes the pagination indicators clickable.
+    },
+    autoplay: {
+      	delay: 5000,
+    },
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    var swiperSubGallerySlider = new Swiper('.swiper-container-sub-slider', {
+        slidesPerView: 2,
+        loop: true,
+        pagination: {
+        el: '.swiper-pagination', // This is the selector for the pagination container
+         clickable: true, // This makes the pagination indicators clickable.
+         },
+		spaceBetween: 10,
+                breakpoints: {
+                    // when window width is >= 320px
+                    320: {
+                        slidesPerView: 1,
+                        spaceBetween: 10
+                    },
+                    // when window width is >= 640px
+                    640: {
+                        slidesPerView: 2,
+                        spaceBetween: 10
+                    },
+                    // when window width is >= 768px
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 10
+                    },
+                    // when window width is >= 1024px
+                    1024: {
+                        slidesPerView: 2,
+                        spaceBetween: 10
+                    },
+                },
+
+    });
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    var swiper = new Swiper('.sub-testimonial-swiper-container', {
+        slidesPerView: 3,
+        spaceBetween: 20,
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        		spaceBetween: 20,
+                breakpoints: {
+                    // when window width is >= 320px
+                    320: {
+                        slidesPerView: 1,
+                        spaceBetween: 20
+                    },
+                    // when window width is >= 640px
+                    640: {
+                        slidesPerView: 2,
+                        spaceBetween: 10
+                    },
+                    // when window width is >= 768px
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 20
+                    },
+                    // when window width is >= 1024px
+                    1024: {
+                        slidesPerView: 2,
+                        spaceBetween: 20
+                    },
+                },
+    });
+
+});
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 3,
+        spaceBetween: 20,
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        		spaceBetween: 20,
+                breakpoints: {
+                    // when window width is >= 320px
+                    320: {
+                        slidesPerView: 1,
+                        spaceBetween: 20
+                    },
+                    // when window width is >= 640px
+                    640: {
+                        slidesPerView: 2,
+                        spaceBetween: 10
+                    },
+                    // when window width is >= 768px
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 20
+                    },
+                    // when window width is >= 1024px
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 20
+                    },
+                },
+    });
+});

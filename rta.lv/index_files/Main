@@ -1,0 +1,22 @@
+        if (window.location.hash) {
+            if (window.location.hash.match(/#{2,}/)) { 
+                window.location.hash = window.location.hash.replace (/#{2,}/g, '#');
+            }    
+        }        
+                function unibit_ready (callback) {
+            if (document.readyState!='loading') callback();
+            else if (document.addEventListener) document.addEventListener('DOMContentLoaded', callback);
+            else document.attachEvent('onreadystatechange', function() {
+                if (document.readyState=='complete') callback();
+            });
+        }                
+        var js_config_ajax_url = '/lv/ajax';
+                    unibit_ready (function() {
+                var time_fix_2_el = document.getElementsByClassName('time_fix_frontend_2');
+                if (time_fix_2_el.length) {
+                    for (i in time_fix_2_el) {
+                        time_fix_2_el[i].value = '1d83a3404c9180c6f8069a1afe3f0639';       
+                    }
+                }
+            });     
+            

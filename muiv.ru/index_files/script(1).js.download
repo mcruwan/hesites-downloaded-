@@ -1,0 +1,42 @@
+'use strict';
+
+document.addEventListener('DOMContentLoaded', function() {
+  if (document.querySelector(".slider-homepage")) {
+    const swiper = new Swiper(".slider-homepage", {
+      // Опции Swiper
+      speed: 400,
+      spaceBetween: 100,
+      grabCursor: true,
+      keyboard: {
+        enabled: true,
+      },
+      autoplay: {
+        delay: 3000, // Задержка между переключениями слайдов (в миллисекундах)
+        disableOnInteraction: true, // Не останавливать автопроигрывание при взаимодействии с пользователем
+        pauseOnMouseEnter: true,
+      },
+      //mousewheel: true,
+      navigation: {
+        nextEl: ".slider-homepage-btnNext",
+        prevEl: ".slider-homepage-btnPrev",
+      },
+      pagination: {
+        el: ".slider-pagination-homepage",
+        bulletClass: "slider-pagination-bullet",
+        bulletActiveClass: "slider-pagination-bullet-active",
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + " " + '"></span>';
+        },
+      },
+      // другие настройки
+    });
+
+    // Установка градиентной пагинации для слайдера
+    const bullets = document.querySelectorAll(".slider-pagination-bullet");
+    bullets.forEach((bulletItem, i) => {
+      const opacity = 0.1 + (0.7 / (bullets.length - 1)) * i;
+      bulletItem.style.backgroundColor = `rgba(160, 179, 198, ${opacity})`;
+    });
+  }
+});

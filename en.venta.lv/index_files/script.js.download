@@ -1,0 +1,3468 @@
+(async () => {
+  try {
+    function generateCookies(cookieList = []) {
+      const supportedLocales = [
+        "en-GB", "pt-PT", "fr-FR", "it-IT", "nl-NL", "de-DE", "es-ES",
+        "bg-BG", "cs-CZ", "da-DK", "el-GR", "et-EE", "fi-FI", "ga-IE",
+        "hr-HR", "hu-HU", "lb-LU", "lt-LT", "lv-LV", "mt-MT", "pl-PL",
+        "ro-RO", "sk-SK", "sl-SI", "sv-SE"
+      ];
+
+      return Array.isArray(cookieList)
+        ? cookieList.map(cookie => ({
+            cookieID: cookie.cookieID || "",
+            domain: cookie.domain || "",
+            duration: cookie.duration || "",
+            locale: Object.fromEntries(
+              supportedLocales.map(lang => [lang, cookie.locale?.[lang] || ""])
+            ),
+          }))
+        : [];
+    }
+
+    function createConfig() {
+      const config = {
+        backupNodes: [],
+        categories: [
+          {
+            slug: "necessary",
+            isNecessary: true,
+            defaultConsent: {
+              gdpr: true,
+            },
+            cookies: generateCookies([{"cookieID":"PHPSESSID","domain":"itserviss.venta.lv","duration":"Session","description":"This cookie is set to manage user session state across page requests.","locale":{"fi-FI":"Tämä eväste on asetettu hallitsemaan käyttäjän istunnon tilaa sivupyyntöjen yli.","hr-HR":"Ovaj kolačić postavljen je za upravljanje stanjem sesije korisnika preko zahtjeva za stranicama.","lv-LV":"Šis sīkfails ir iestatīts, lai pārvaldītu lietotāja sesijas stāvokli lapas pieprasījumos.","lt-LT":"Šis slapukas nustatytas valdyti vartotojo sesijos būseną puslapių užklausose.","sl-SI":"Ta piškotek je nastavljen za upravljanje stanja seje uporabnika čez zahteve strani.","el-GR":"Αυτό το cookie έχει ρυθμιστεί για να διαχειρίζεται την κατάσταση συνεδρίας του χρήστη σε αιτήσεις σελίδων.","nl-NL":"Deze cookie wordt ingesteld om de gebruikerssessiestatus over paginaverzoeken te beheren.","bg-BG":"Този бисквитка се задава за управление на състоянието на сесията на потребителя през заявките на страницата.","cs-CZ":"Tento cookie je nastaven pro správu stavu uživatelské relace napříč požadavky na stránky.","lb-LU":"Dësen Cookie ass gesat fir de Sessiounszoustand vum Benotzer iwwer Säitenubedengungen ze managen.","de-DE":"Dieser Cookie wird gesetzt, um den Sitzungsstatus des Benutzers über Seitenanforderungen hinweg zu verwalten.","hu-HU":"Ez a süti a felhasználói munkamenet állapotának kezelésére van beállítva az oldalkérések során.","sk-SK":"Tento cookie je nastavený na správu stavu relácie používateľa na stránkach požiadaviek.","es-ES":"Esta cookie se establece para gestionar el estado de sesión del usuario a través de las solicitudes de página.","it-IT":"Questo cookie è impostato per gestire lo stato della sessione dell'utente attraverso le richieste di pagina.","pl-PL":"To ciasteczko jest ustawione do zarządzania stanem sesji użytkownika na przestrzeni żądań strony.","pt-PT":"Este cookie é configurado para gerir o estado da sessão do utilizador em pedidos de página.","ro-RO":"Acest cookie este setat pentru a gestiona starea sesiunii utilizatorului pe parcursul solicitărilor de pagină.","sv-SE":"Denna kaka är inställd för att hantera användarsessionens tillstånd över sidförfrågningar.","ga-IE":"Socraítear an fianán seo chun stádas seisiún úsáideora a bhainistiú thar iarratais leathanach.","mt-MT":"Dan il-cookie huwa issettjat biex jimmaniġġja l-istat tas-sessjoni tal-utent fuq talbiet tal-paġna.","da-DK":"Denne cookie er sat til at håndtere bruger sessionstilstand på tværs af sidespørgsmål.","et-EE":"See küpsis on seatud kasutaja sessiooni oleku haldamiseks lehepäringute kaudu.","fr-FR":"Ce cookie est défini pour gérer l'état de la session utilisateur à travers les demandes de page.","en-GB":"This cookie is set to manage user session state across page requests."}},{"cookieID":"_GRECAPTCHA","domain":"www.google.com","duration":"in about 1 month","description":"This cookie is set by Google reCAPTCHA to ensure the visitor is a human and not a bot.","locale":{"fi-FI":"Tämä eväste on asetettu Google reCAPTCHA:n toimesta varmistamaan, että vierailija on ihminen eikä botti.","hr-HR":"Ovaj kolačić postavlja Google reCAPTCHA kako bi se osiguralo da je posjetitelj čovjek, a ne bot.","lv-LV":"Šis sīkfails tiek iestatīts ar Google reCAPTCHA, lai nodrošinātu, ka apmeklētājs ir cilvēks, nevis bots.","lt-LT":"Šis slapukas nustatomas „Google reCAPTCHA“, siekiant užtikrinti, kad lankytojas yra žmogus, o ne robotas.","sl-SI":"Ta piškotek nastavi Google reCAPTCHA za zagotovitev, da je obiskovalec človek in ne bot.","el-GR":"Αυτό το cookie έχει οριστεί από το Google reCAPTCHA για να διασφαλίσει ότι ο επισκέπτης είναι άνθρωπος και όχι bot.","nl-NL":"Deze cookie wordt door Google reCAPTCHA ingesteld om te verzekeren dat de bezoeker een mens is en geen bot.","bg-BG":"Този бисквитка е зададен от Google reCAPTCHA за да се гарантира, че посетителят е човек, а не бот.","cs-CZ":"Tento cookie je nastaven Google reCAPTCHA k zajištění, že návštěvník je člověk a ne bot.","lb-LU":"Dësen Cookie gëtt vun Google reCAPTCHA gesat fir ze garantéieren, dass de Besucher e Mënsch ass an kee Bot.","de-DE":"Dieses Cookie wird von Google reCAPTCHA gesetzt, um sicherzustellen, dass der Besucher ein Mensch und kein Bot ist.","hu-HU":"Ezt a sütit a Google reCAPTCHA állítja be annak biztosítása érdekében, hogy a látogató ember és nem bot.","sk-SK":"Tento cookie je nastavený Google reCAPTCHA na overenie, či je návštevník človek alebo bot.","es-ES":"Esta cookie es establecida por Google reCAPTCHA para asegurar que el visitante es un humano y no un bot.","it-IT":"Questo cookie è impostato da Google reCAPTCHA per assicurarsi che il visitatore sia un umano e non un bot.","pl-PL":"To ciasteczko jest ustawiane przez Google reCAPTCHA, aby zapewnić, że odwiedzający jest człowiekiem, a nie botem.","pt-PT":"Este cookie é definido pelo Google reCAPTCHA para garantir que o visitante é um humano e não um robô.","ro-RO":"Acest cookie este setat de Google reCAPTCHA pentru a asigura că vizitatorul este un om și nu un bot.","sv-SE":"Denna cookie sätts av Google reCAPTCHA för att säkerställa att besökaren är en människa och inte en bot.","ga-IE":"Socraítear an fianán seo ag Google reCAPTCHA chun a chinntiú go bhfuil an cuairteoir ina dhuine agus ní bot.","mt-MT":"Dan il-cookie huwa stabbilit minn Google reCAPTCHA biex jiżgura li l-viżitatur huwa bniedem u mhux bot.","da-DK":"Denne cookie er sat af Google reCAPTCHA for at sikre, at besøgende er et menneske og ikke en bot.","et-EE":"See küpsis on seatud Google reCAPTCHA poolt, et tagada külastaja on inimene, mitte bot.","fr-FR":"Ce cookie est défini par Google reCAPTCHA pour s'assurer que le visiteur est un humain et non un robot.","en-GB":"This cookie is set by Google reCAPTCHA to ensure the visitor is a human and not a bot."}},{"cookieID":"cookiepal-consent","domain":".venta.lv","duration":"in 7 months","description":"This cookie is set to store the user's consent state for cookies on the current domain.","locale":{"fi-FI":"Tämä eväste on asetettu tallentamaan käyttäjän suostumustila evästeille nykyisessä domainissa.","hr-HR":"Ovaj kolačić postavljen je za pohranu stanja pristanka korisnika za kolačiće na trenutnoj domeni.","lv-LV":"Šis sīkfails ir iestatīts, lai saglabātu lietotāja piekrišanas stāvokli sīkfailiem pašreizējā domēnā.","lt-LT":"Šis slapukas nustatytas norint išsaugoti vartotojo sutikimo būklę dėl slapukų dabartiniame domene.","sl-SI":"Ta piškotek je nastavljen za shranjevanje uporabnikovega soglasnega stanja za piškotke na trenutni domeni.","el-GR":"Αυτό το cookie έχει ρυθμιστεί για να αποθηκεύει την κατάσταση συγκατάθεσης του χρήστη για τα cookies στον τρέχοντα τομέα.","nl-NL":"Deze cookie wordt ingesteld om de toestemmingsstatus van de gebruiker voor cookies op het huidige domein op te slaan.","bg-BG":"Този бисквитка се задава за съхранение на състоянието на съгласие на потребителя за бисквитки в текущия домейн.","cs-CZ":"Tento cookie je nastaven na ukládání stavu souhlasu uživatele s cookies na aktuálním doméně.","lb-LU":"Dësen Cookie ass gesat fir de Zustimmungsstatus vum Benotzer fir Cookies op der aktueller Domain ze späicheren.","de-DE":"Dieses Cookie wird gesetzt, um den Zustimmungsstatus des Benutzers für Cookies auf der aktuellen Domain zu speichern.","hu-HU":"Ez a süti arra van beállítva, hogy tárolja a felhasználó hozzájárulásának állapotát a jelenlegi tartományon lévő sütikhez.","sk-SK":"Tento cookie je nastavený na uchovanie stavu súhlasu používateľa s cookies na aktuálnej doméne.","es-ES":"Esta cookie se establece para almacenar el estado de consentimiento del usuario para las cookies en el dominio actual.","it-IT":"Questo cookie è impostato per memorizzare lo stato di consenso dell'utente per i cookie sul dominio corrente.","pl-PL":"To ciasteczko jest ustawione w celu przechowywania stanu zgody użytkownika na ciasteczka w bieżącej domenie.","pt-PT":"Este cookie é definido para armazenar o estado de consentimento do usuário para cookies no domínio atual.","ro-RO":"Acest cookie este setat pentru a stoca starea de consimțământ a utilizatorului pentru cookie-uri pe domeniul curent.","sv-SE":"Denna cookie är inställd för att lagra användarens samtyckesstatus för cookies på den aktuella domänen.","ga-IE":"Socraítear an fianán seo chun stádas toilithe an úsáideora do fianáin ar an réimse reatha a stóráil.","mt-MT":"Dan il-cookie huwa stabbilit biex jaħżen l-istat tal-kunsens tal-utent għal cookies fid-dominju attwali.","da-DK":"Denne cookie er indstillet til at gemme brugerens samtykkestatus for cookies på det aktuelle domæne.","et-EE":"See küpsis on määratud salvestama kasutaja nõusoleku olekut küpsiste jaoks praegusel domeenil.","fr-FR":"Ce cookie est défini pour stocker l'état de consentement de l'utilisateur pour les cookies sur le domaine actuel.","en-GB":"This cookie is set to store the user's consent state for cookies on the current domain."}}]),
+          },
+          {
+            slug: "functional",
+            isNecessary: false,
+            defaultConsent: {
+              gdpr: false,
+            },
+            cookies: generateCookies([{"cookieID":"dm_timezone_offset","domain":"www.venta.lv","duration":"4 months ago","description":"This cookie is set to adjust the website content based on the user's timezone.","locale":{"fi-FI":"Tämä eväste on asetettu säätämään verkkosivuston sisältöä käyttäjän aikavyöhykkeen mukaan.","hr-HR":"Ovaj kolačić postavljen je za prilagodbu sadržaja web stranice na temelju vremenske zone korisnika.","lv-LV":"Šis sīkfails ir iestatīts, lai pielāgotu vietnes saturu lietotāja laika zonai.","lt-LT":"Šis slapukas nustatytas tam, kad svetainės turinį pritaikytų pagal vartotojo laiko juostą.","sl-SI":"Ta piškotek je nastavljen za prilagoditev vsebine spletnega mesta na podlagi časovnega pasu uporabnika.","el-GR":"Αυτό το cookie έχει ρυθμιστεί για να προσαρμόζει το περιεχόμενο του ιστότοπου με βάση τη ζώνη ώρας του χρήστη.","nl-NL":"Deze cookie wordt ingesteld om de inhoud van de website aan te passen op basis van de tijdzone van de gebruiker.","bg-BG":"Този бисквитка се задава за да коригира съдържанието на уебсайта в зависимост от часовата зона на потребителя.","cs-CZ":"Tento cookie je nastaven tak, aby upravoval obsah webu podle časového pásma uživatele.","lb-LU":"Dësen Cookie ass gesat fir den Inhalt vun der Websäit un d'Zäitzon vum Benotzer unzepassen.","de-DE":"Dieses Cookie wird gesetzt, um den Inhalt der Website basierend auf der Zeitzone des Benutzers anzupassen.","hu-HU":"Ez a süti a felhasználó időzónája alapján állítja be a weboldal tartalmát.","sk-SK":"Tento cookie je nastavený na úpravu obsahu webovej stránky na základe časového pásma používateľa.","es-ES":"Esta cookie se establece para ajustar el contenido del sitio web según la zona horaria del usuario.","it-IT":"Questo cookie è impostato per adattare il contenuto del sito web in base al fuso orario dell'utente.","pl-PL":"To ciasteczko jest ustawione, aby dostosować zawartość strony internetowej do strefy czasowej użytkownika.","pt-PT":"Este cookie é definido para ajustar o conteúdo do site com base no fuso horário do usuário.","ro-RO":"Acest cookie este setat pentru a ajusta conținutul site-ului web în funcție de fusul orar al utilizatorului.","sv-SE":"Denna cookie är inställd för att justera webbplatsens innehåll baserat på användarens tidszon.","ga-IE":"Socraítear an fianán seo chun ábhar an láithreáin ghréasáin a choigeartú bunaithe ar chrios ama an úsáideora.","mt-MT":"Dan il-cookie huwa stabbilit biex jaġġusta l-kontenut tas-sit web ibbażat fuq iż-żona tal-ħin tal-utent.","da-DK":"Denne cookie er indstillet til at justere websitets indhold baseret på brugerens tidszone.","et-EE":"See küpsis on määratud veebilehe sisu kohandama kasutaja ajavööndi alusel.","fr-FR":"Ce cookie est configuré pour ajuster le contenu du site Web en fonction du fuseau horaire de l'utilisateur.","en-GB":"This cookie is set to adjust the website content based on the user's timezone."}}]),
+          },
+          {
+            slug: "analytics",
+            isNecessary: false,
+            defaultConsent: {
+              gdpr: false,
+            },
+            cookies: generateCookies([{"cookieID":"_ga","domain":".venta.lv","duration":"in 9 months","description":"This cookie is set by Google Analytics to calculate visitor, session, campaign data and keep track of site usage for the site's analytics report.","locale":{"fi-FI":"Google Analytics asettaa tämän evästeen vierailijoiden, istuntojen, kampanjatietojen laskemiseksi ja sivuston käytön seuraamiseksi sivuston analytiikkaraporttia varten.","hr-HR":"Ovaj kolačić postavlja Google Analytics kako bi izračunao podatke o posjetiteljima, sjednicama, kampanjama i pratio korištenje web stranice za izvješće analize web stranice.","lv-LV":"Šis sīkfails tiek iestatīts ar Google Analytics, lai aprēķinātu apmeklētāju, sesiju, kampaņas datus un sekotu līdzi vietnes lietošanai vietnes analītiskajam pārskatam.","lt-LT":"„Google Analytics“ nustato šį slapuką, kad apskaičiuotų lankytojų, sesijų, kampanijų duomenis ir stebėtų svetainės naudojimą svetainės analizės ataskaitai.","sl-SI":"Ta piškotek je nastavljen s strani Google Analytics za izračun podatkov o obiskovalcih, sejah, podatkih o kampanji in sledenje uporabe spletnega mesta za analitično poročilo spletnega mesta.","el-GR":"Αυτό το cookie ορίζεται από το Google Analytics για να υπολογίζει δεδομένα επισκεπτών, συνεδρίας, εκστρατείας και να παρακολουθεί τη χρήση του site για την αναλυτική αναφορά του site.","nl-NL":"Deze cookie wordt ingesteld door Google Analytics om bezoekers-, sessie-, campagnegegevens te berekenen en het gebruik van de site bij te houden voor het analyserapport van de site.","bg-BG":"Този бисквитка е зададен от Google Analytics за изчисляване на данни за посетители, сесии, кампании и проследяване на използването на сайта за аналитичния доклад на сайта.","cs-CZ":"Tento cookie je nastaven Google Analytics pro výpočet dat o návštěvnících, sezeních, kampaních a sledování používání webu pro analytickou zprávu webu.","lb-LU":"Dësen Cookie gëtt vu Google Analytics gesat fir Visiteur-, Sessioun-, Campagnedaten ze berechnen an d'Benotzung vun der Websäit fir den Analysebericht vun der Websäit ze verfollegen.","de-DE":"Dieser Cookie wird von Google Analytics gesetzt, um Besucher-, Sitzungs- und Kampagnendaten zu berechnen und die Nutzung der Website für den Analysebericht der Website zu verfolgen.","hu-HU":"Ezt a sütit a Google Analytics állítja be a látogatók, munkamenetek, kampányadatok számításához és a webhely használatának nyomon követéséhez a webhely elemzési jelentéséhez.","sk-SK":"Tento cookie je nastavený Google Analytics na výpočet údajov o návštevníkoch, reláciách, kampaniach a sledovanie používania webu pre analytickú správu webu.","es-ES":"Esta cookie es establecida por Google Analytics para calcular datos de visitantes, sesiones, campañas y seguir el uso del sitio para el informe de análisis del sitio.","it-IT":"Questo cookie è impostato da Google Analytics per calcolare i dati di visitatori, sessioni, campagne e tenere traccia dell'uso del sito per il rapporto di analisi del sito.","pl-PL":"Ten plik cookie jest ustawiany przez Google Analytics, aby obliczać dane dotyczące odwiedzających, sesji, danych kampanii oraz śledzić korzystanie z witryny dla raportu analitycznego witryny.","pt-PT":"Este cookie é definido pelo Google Analytics para calcular dados de visitantes, sessões, campanhas e acompanhar o uso do site para o relatório de análise do site.","ro-RO":"Acest cookie este setat de Google Analytics pentru a calcula datele vizitatorilor, sesiunilor, campaniilor și pentru a urmări utilizarea site-ului pentru raportul de analiză al site-ului.","sv-SE":"Denna cookie är inställd av Google Analytics för att beräkna besöks-, session-, kampanjdata och följa användningen av webbplatsen för webbplatsens analytiska rapport.","ga-IE":"Socraítear an fianán seo le Google Analytics chun sonraí cuairteoirí, seisiún, feachtais a ríomh agus chun súil a choinneáil ar úsáid an tsuímh don tuarascáil anailíse don suíomh.","mt-MT":"Dan il-cookie huwa stabbilit minn Google Analytics biex jikkalkula data dwar viżitaturi, sessjonijiet, kampanji u jsegwi l-użu tas-sit għar-rapport analitiku tas-sit.","da-DK":"Denne cookie er sat af Google Analytics for at beregne besøgs-, session-, kampagnedata og holde styr på brugen af ​​webstedet til webstedets analyserapport.","et-EE":"Google Analytics seab selle küpsise, et arvutada külastajate, sessioonide, kampaaniaandmeid ja jälgida saidi kasutamist saidi analüütikaraporti jaoks.","fr-FR":"Ce cookie est défini par Google Analytics pour calculer les données de visiteurs, de sessions, de campagnes et suivre l'utilisation du site pour le rapport d'analyse du site.","en-GB":"This cookie is set by Google Analytics to calculate visitor, session, campaign data and keep track of site usage for the site's analytics report."}},{"cookieID":"_ga_BERWL247Z0","domain":".venta.lv","duration":"in 9 months","description":"This cookie is set by Google Analytics for tracking user behavior and measuring site performance.","locale":{"fi-FI":"Tämä eväste on asetettu Google Analyticsin toimesta käyttäjän käyttäytymisen seuraamiseksi ja sivuston suorituskyvyn mittaamiseksi.","hr-HR":"Ovaj kolačić postavlja Google Analytics za praćenje ponašanja korisnika i mjerenje učinkovitosti stranice.","lv-LV":"Šo sīkdatni iestata Google Analytics, lai izsekotu lietotāja uzvedību un mērītu vietnes veiktspēju.","lt-LT":"„Google Analytics“ nustato šį slapuką norėdama sekti vartotojo elgseną ir matuoti svetainės našumą.","sl-SI":"Ta piškotek nastavi Google Analytics za sledenje vedenja uporabnikov in merjenje zmogljivosti spletnega mesta.","el-GR":"Αυτό το cookie ορίζεται από το Google Analytics για την παρακολούθηση της συμπεριφοράς των χρηστών και τη μέτρηση της απόδοσης του ιστότοπου.","nl-NL":"Deze cookie wordt door Google Analytics ingesteld om gebruikersgedrag te volgen en de prestaties van de site te meten.","bg-BG":"Този бисквитка е зададен от Google Analytics за проследяване на поведението на потребителите и измерване на производителността на сайта.","cs-CZ":"Tento cookie je nastaven Google Analytics pro sledování chování uživatele a měření výkonu webu.","lb-LU":"Dësen Cookie gëtt vu Google Analytics gesat fir Benotzerverhalen ze verfollegen an d'Leeschtung vun der Säit ze moossen.","de-DE":"Dieser Cookie wird von Google Analytics gesetzt, um das Verhalten der Nutzer zu verfolgen und die Leistung der Website zu messen.","hu-HU":"Ezt a sütit a Google Analytics állítja be a felhasználói magatartás nyomon követésére és az oldal teljesítményének mérésére.","sk-SK":"Tento cookie je nastavený Google Analytics na sledovanie správania používateľov a meranie výkonu webu.","es-ES":"Esta cookie es establecida por Google Analytics para rastrear el comportamiento del usuario y medir el rendimiento del sitio.","it-IT":"Questo cookie è impostato da Google Analytics per tracciare il comportamento degli utenti e misurare le prestazioni del sito.","pl-PL":"To ciasteczko jest ustawiane przez Google Analytics w celu śledzenia zachowań użytkowników i mierzenia wydajności strony.","pt-PT":"Este cookie é definido pelo Google Analytics para rastrear o comportamento do usuário e medir o desempenho do site.","ro-RO":"Acest cookie este setat de Google Analytics pentru a urmări comportamentul utilizatorilor și a măsura performanța site-ului.","sv-SE":"Denna cookie är inställd av Google Analytics för att spåra användarbeteende och mäta webbplatsens prestanda.","ga-IE":"Socraítear an fianán seo ag Google Analytics chun iompar úsáideoirí a rianú agus feidhmíocht an tsuímh a thomhas.","mt-MT":"Dan il-cookie huwa stabbilit minn Google Analytics biex isegwi l-imġiba tal-utent u jkejjel il-prestazzjoni tas-sit.","da-DK":"Denne cookie sættes af Google Analytics til at spore brugeradfærd og måle webstedets ydeevne.","et-EE":"See küpsis on seatud Google Analytics'i poolt kasutaja käitumise jälgimiseks ja saidi jõudluse mõõtmiseks.","fr-FR":"Ce cookie est défini par Google Analytics pour suivre le comportement des utilisateurs et mesurer les performances du site.","en-GB":"This cookie is set by Google Analytics for tracking user behavior and measuring site performance."}},{"cookieID":"_gcl_au","domain":".venta.lv","duration":"about 2 months ago","description":"This cookie is set by Google Analytics to understand user interaction with the website.","locale":{"fi-FI":"Tämä eväste asetetaan Google Analyticsin toimesta ymmärtääkseen käyttäjän vuorovaikutusta verkkosivuston kanssa.","hr-HR":"Ovaj kolačić postavlja Google Analytics kako bi razumio interakciju korisnika s web stranicom.","lv-LV":"Šis sīkfails tiek iestatīts ar Google Analytics, lai saprastu lietotāja mijiedarbību ar vietni.","lt-LT":"Šis slapukas nustatomas „Google Analytics“, kad suprastų naudotojo sąveiką su svetaine.","sl-SI":"Ta piškotek je nastavljen s strani Google Analytics za razumevanje interakcije uporabnika z spletnim mestom.","el-GR":"Αυτό το cookie ορίζεται από το Google Analytics για να κατανοήσει την αλληλεπίδραση του χρήστη με την ιστοσελίδα.","nl-NL":"Deze cookie wordt ingesteld door Google Analytics om de interactie van de gebruiker met de website te begrijpen.","bg-BG":"Този бисквитка е зададен от Google Analytics за разбиране на взаимодействието на потребителя с уебсайта.","cs-CZ":"Tento cookie je nastaven Google Analytics pro pochopení interakce uživatele s webovou stránkou.","lb-LU":"Dësen Cookie gëtt vu Google Analytics gesat fir d'Interaktioun vum Benotzer mat der Websäit ze verstoen.","de-DE":"Dieser Cookie wird von Google Analytics gesetzt, um die Interaktion des Benutzers mit der Website zu verstehen.","hu-HU":"Ezt a sütit a Google Analytics állítja be a felhasználó weboldallal való interakciójának megértése érdekében.","sk-SK":"Tento cookie je nastavený Google Analytics na pochopenie interakcie používateľa s webovou stránkou.","es-ES":"Esta cookie es establecida por Google Analytics para entender la interacción del usuario con el sitio web.","it-IT":"Questo cookie è impostato da Google Analytics per comprendere l'interazione dell'utente con il sito web.","pl-PL":"Ten plik cookie jest ustawiany przez Google Analytics, aby zrozumieć interakcję użytkownika ze stroną internetową.","pt-PT":"Este cookie é definido pelo Google Analytics para entender a interação do usuário com o site.","ro-RO":"Acest cookie este setat de Google Analytics pentru a înțelege interacțiunea utilizatorului cu site-ul web.","sv-SE":"Denna cookie är inställd av Google Analytics för att förstå användarens interaktion med webbplatsen.","ga-IE":"Socraítear an fianán seo le Google Analytics chun idirghníomhaíocht an úsáideora leis an suíomh Gréasáin a thuiscint.","mt-MT":"Dan il-cookie huwa stabbilit minn Google Analytics biex jifhem l-interazzjoni tal-utent mas-sit.","da-DK":"Denne cookie er sat af Google Analytics for at forstå brugerens interaktion med websitet.","et-EE":"See küpsis on seatud Google Analytics poolt, et mõista kasutaja suhtlust veebisaidiga.","fr-FR":"Ce cookie est défini par Google Analytics pour comprendre l'interaction de l'utilisateur avec le site web.","en-GB":"This cookie is set by Google Analytics to understand user interaction with the website."}},{"cookieID":"_sp_id.c6bf","domain":"en.venta.lv","duration":"in 9 months","description":"This cookie is set by Snowplow Analytics to track user behavior and measure site performance.","locale":{"fi-FI":"Tämän evästeen asettaa Snowplow Analytics käyttäjän käyttäytymisen seuraamiseksi ja sivuston suorituskyvyn mittaamiseksi.","hr-HR":"Ovaj kolačić postavlja Snowplow Analytics za praćenje ponašanja korisnika i mjerenje učinkovitosti stranice.","lv-LV":"Šo sīkdatni iestata Snowplow Analytics, lai izsekotu lietotāja uzvedību un mērītu vietnes veiktspēju.","lt-LT":"Šį slapuką nustato „Snowplow Analytics“, kad stebėtų vartotojo elgseną ir matuotų svetainės našumą.","sl-SI":"Ta piškotek nastavi Snowplow Analytics za sledenje vedenja uporabnika in merjenje uspešnosti spletnega mesta.","el-GR":"Αυτό το cookie ορίζεται από το Snowplow Analytics για να παρακολουθεί τη συμπεριφορά των χρηστών και να μετρά την απόδοση του ιστότοπου.","nl-NL":"Deze cookie wordt ingesteld door Snowplow Analytics om gebruikersgedrag te volgen en de prestaties van de site te meten.","bg-BG":"Този бисквитка се задава от Snowplow Analytics за проследяване на поведението на потребителите и измерване на производителността на сайта.","cs-CZ":"Tento cookie je nastaven analytickým nástrojem Snowplow Analytics za účelem sledování chování uživatele a měření výkonnosti webu.","lb-LU":"Dësen Cookie gëtt vu Snowplow Analytics gesat fir d'Benotzerverhalen ze verfollegen an d'Leeschtung vun der Säit ze moossen.","de-DE":"Dieses Cookie wird von Snowplow Analytics gesetzt, um das Benutzerverhalten zu verfolgen und die Leistung der Website zu messen.","hu-HU":"Ezt a sütit a Snowplow Analytics állítja be a felhasználói magatartás nyomon követésére és az oldal teljesítményének mérésére.","sk-SK":"Tento cookie nastavuje Snowplow Analytics na sledovanie správania používateľa a meranie výkonu stránky.","es-ES":"Esta cookie es establecida por Snowplow Analytics para rastrear el comportamiento del usuario y medir el rendimiento del sitio.","it-IT":"Questo cookie è impostato da Snowplow Analytics per tracciare il comportamento dell'utente e misurare le prestazioni del sito.","pl-PL":"To ciasteczko jest ustawiane przez Snowplow Analytics w celu śledzenia zachowań użytkowników i mierzenia wydajności strony.","pt-PT":"Este cookie é definido pela Snowplow Analytics para rastrear o comportamento do usuário e medir o desempenho do site.","ro-RO":"Acest cookie este setat de Snowplow Analytics pentru a urmări comportamentul utilizatorului și a măsura performanța site-ului.","sv-SE":"Denna cookie sätts av Snowplow Analytics för att spåra användarbeteende och mäta webbplatsens prestanda.","ga-IE":"Socraítear an fianán seo ag Snowplow Analytics chun iompar úsáideora a rianú agus feidhmíocht an tsuímh a thomhas.","mt-MT":"Dan il-cookie huwa stabbilit minn Snowplow Analytics biex isegwi l-imġiba tal-utent u jkejjel il-prestazzjoni tas-sit.","da-DK":"Denne cookie sættes af Snowplow Analytics for at spore brugeradfærd og måle webstedets præstation.","et-EE":"See küpsis on seatud Snowplow Analytics poolt kasutaja käitumise jälgimiseks ja saidi jõudluse mõõtmiseks.","fr-FR":"Ce cookie est défini par Snowplow Analytics pour suivre le comportement de l'utilisateur et mesurer la performance du site.","en-GB":"This cookie is set by Snowplow Analytics to track user behavior and measure site performance."}},{"cookieID":"_sp_id.e27d","domain":"www.venta.lv","duration":"in 9 months","description":"This cookie is set to track user behavior over time to improve the service's usability.","locale":{"fi-FI":"Tämä eväste on asetettu seuraamaan käyttäjän käyttäytymistä ajan myötä palvelun käytettävyyden parantamiseksi.","hr-HR":"Ovaj kolačić postavljen je za praćenje ponašanja korisnika tijekom vremena kako bi se poboljšala upotrebljivost usluge.","lv-LV":"Šis sīkfailis ir iestatīts, lai sekotu lietotāja uzvedībai laika gaitā, lai uzlabotu pakalpojuma lietošanas ērtumu.","lt-LT":"Šis slapukas nustatytas stebėti vartotojo elgseną laikui bėgant, siekiant pagerinti paslaugos naudojamumą.","sl-SI":"Ta piškotek je nastavljen za sledenje obnašanja uporabnika skozi čas, da izboljša uporabnost storitve.","el-GR":"Αυτό το cookie έχει ρυθμιστεί για να παρακολουθεί τη συμπεριφορά των χρηστών με την πάροδο του χρόνου για να βελτιώσει τη χρηστικότητα της υπηρεσίας.","nl-NL":"Deze cookie is ingesteld om het gedrag van gebruikers over tijd te volgen om de bruikbaarheid van de dienst te verbeteren.","bg-BG":"Този бисквитка се задава за проследяване на поведението на потребителя с течение на времето, за да се подобри удобството на услугата.","cs-CZ":"Tento cookie je nastaven na sledování chování uživatele v čase za účelem zlepšení použitelnosti služby.","lb-LU":"Dësen Cookie ass gesat fir d'Benotzerverhalen iwwer Zäit ze verfollegen fir d'Benotzbarkeet vum Service ze verbesseren.","de-DE":"Dieses Cookie wird gesetzt, um das Benutzerverhalten im Laufe der Zeit zu verfolgen, um die Benutzerfreundlichkeit des Dienstes zu verbessern.","hu-HU":"Ez a süti arra van beállítva, hogy nyomon kövesse a felhasználó viselkedését az idő múlásával a szolgáltatás használhatóságának javítása érdekében.","sk-SK":"Tento cookie je nastavený na sledovanie správania používateľa v čase za účelom zlepšenia použiteľnosti služby.","es-ES":"Esta cookie se establece para rastrear el comportamiento del usuario a lo largo del tiempo para mejorar la usabilidad del servicio.","it-IT":"Questo cookie è impostato per tracciare il comportamento dell'utente nel tempo per migliorare l'usabilità del servizio.","pl-PL":"To ciasteczko jest ustawione, aby śledzić zachowanie użytkownika w czasie, w celu poprawy użyteczności serwisu.","pt-PT":"Este cookie é definido para rastrear o comportamento do usuário ao longo do tempo para melhorar a usabilidade do serviço.","ro-RO":"Acest cookie este setat pentru a urmări comportamentul utilizatorului în timp, pentru a îmbunătăți utilizabilitatea serviciului.","sv-SE":"Denna cookie är inställd på att spåra användarbeteende över tid för att förbättra tjänstens användbarhet.","ga-IE":"Socraítear an fianán seo chun iompar an úsáideora a rianú thar am chun inúsáidteacht an tseirbhís a fheabhsú.","mt-MT":"Dan il-cookie huwa stabbilit biex isegwi l-imġiba tal-utent matul iż-żmien biex itejjeb l-użabilità tas-servizz.","da-DK":"Denne cookie er sat til at spore brugeradfærd over tid for at forbedre tjenestens brugervenlighed.","et-EE":"See küpsis on seatud jälgima kasutaja käitumist aja jooksul, et parandada teenuse kasutatavust.","fr-FR":"Ce cookie est défini pour suivre le comportement de l'utilisateur au fil du temps afin d'améliorer l'utilisabilité du service.","en-GB":"This cookie is set to track user behavior over time to improve the service's usability."}},{"cookieID":"_sp_ses.c6bf","domain":"en.venta.lv","duration":"5 months ago","description":"This cookie is set by Snowplow Analytics to track the session of a user for analytical purposes.","locale":{"fi-FI":"Tämän evästeen asettaa Snowplow Analytics käyttäjän istunnon seuraamiseksi analytiikkatarkoituksessa.","hr-HR":"Ovaj kolačić postavlja Snowplow Analytics za praćenje sesije korisnika u analitičke svrhe.","lv-LV":"Šo sīkdatni iestata Snowplow Analytics, lai izsekotu lietotāja sesiju analītiskiem nolūkiem.","lt-LT":"„Snowplow Analytics“ nustato šį slapuką, kad galėtų stebėti vartotojo sesiją analitiniams tikslams.","sl-SI":"Ta piškotek nastavi Snowplow Analytics za sledenje seje uporabnika za analitične namene.","el-GR":"Αυτό το cookie ορίζεται από το Snowplow Analytics για να παρακολουθεί τη συνεδρία ενός χρήστη για αναλυτικούς σκοπούς.","nl-NL":"Deze cookie wordt ingesteld door Snowplow Analytics om de sessie van een gebruiker voor analytische doeleinden te volgen.","bg-BG":"Този бисквитка се задава от Snowplow Analytics за проследяване на сесията на потребителя за аналитични цели.","cs-CZ":"Tento cookie je nastaven analytickým nástrojem Snowplow Analytics za účelem sledování sezení uživatele pro analytické účely.","lb-LU":"Dësen Cookie gëtt vu Snowplow Analytics gesat fir d'Sessioun vun engem Benotzer fir analytesch Zwecker ze verfollegen.","de-DE":"Dieses Cookie wird von Snowplow Analytics gesetzt, um die Sitzung eines Benutzers zu analytischen Zwecken zu verfolgen.","hu-HU":"Ezt a sütit a Snowplow Analytics állítja be egy felhasználó munkamenetének nyomon követésére elemzési célokra.","sk-SK":"Tento cookie nastavuje Snowplow Analytics na sledovanie relácie používateľa pre analytické účely.","es-ES":"Esta cookie es establecida por Snowplow Analytics para rastrear la sesión de un usuario con fines analíticos.","it-IT":"Questo cookie è impostato da Snowplow Analytics per tracciare la sessione di un utente a scopi analitici.","pl-PL":"To ciasteczko jest ustawiane przez Snowplow Analytics w celu śledzenia sesji użytkownika dla celów analitycznych.","pt-PT":"Este cookie é definido pela Snowplow Analytics para rastrear a sessão de um usuário para fins analíticos.","ro-RO":"Acest cookie este setat de Snowplow Analytics pentru a urmări sesiunea unui utilizator în scopuri analitice.","sv-SE":"Denna cookie sätts av Snowplow Analytics för att spåra en användares session för analytiska syften.","ga-IE":"Socraítear an fianán seo ag Snowplow Analytics chun seisiún úsáideora a rianú chun críocha anailíseacha.","mt-MT":"Dan il-cookie huwa stabbilit minn Snowplow Analytics biex isegwi s-sessjoni ta' utent għal skopijiet analitiċi.","da-DK":"Denne cookie sættes af Snowplow Analytics for at spore en brugers session til analytiske formål.","et-EE":"See küpsis on seatud Snowplow Analytics poolt kasutaja seansi jälgimiseks analüütilistel eesmärkidel.","fr-FR":"Ce cookie est défini par Snowplow Analytics pour suivre la session d'un utilisateur à des fins analytiques.","en-GB":"This cookie is set by Snowplow Analytics to track the session of a user for analytical purposes."}},{"cookieID":"_sp_ses.e27d","domain":"www.venta.lv","duration":"5 months ago","description":"This cookie is set to identify a user's session and provide data on their engagement during that session.","locale":{"fi-FI":"Tämä eväste on asetettu tunnistamaan käyttäjän istunto ja tarjoamaan tietoja heidän osallistumisestaan kyseisen istunnon aikana.","hr-HR":"Ovaj kolačić postavljen je za identifikaciju sesije korisnika i pružanje podataka o njihovom angažmanu tijekom te sesije.","lv-LV":"Šis sīkfailis ir iestatīts, lai identificētu lietotāja sesiju un sniegtu datus par viņu iesaisti šajā sesijā.","lt-LT":"Šis slapukas nustatytas identifikuoti vartotojo sesiją ir pateikti duomenis apie jų įsitraukimą per tą sesiją.","sl-SI":"Ta piškotek je nastavljen za identifikacijo uporabnikove seje in zagotavljanje podatkov o njihovi angažiranosti med to sejo.","el-GR":"Αυτό το cookie έχει ρυθμιστεί για να αναγνωρίζει μια συνεδρία χρήστη και να παρέχει δεδομένα για την εμπλοκή τους κατά τη διάρκεια εκείνης της συνεδρίας.","nl-NL":"Deze cookie is ingesteld om een gebruikerssessie te identificeren en gegevens te verstrekken over hun betrokkenheid tijdens die sessie.","bg-BG":"Този бисквитка е зададен за идентифициране на потребителска сесия и предоставяне на данни за ангажираността им по време на тази сесия.","cs-CZ":"Tento cookie je nastaven pro identifikaci uživatelské relace a poskytování údajů o jejich zapojení během této relace.","lb-LU":"Dësen Cookie ass gesat fir eng Benotzersessioun z'identifizéieren an Daten iwwer hir Engagement während där Sessioun ze liwweren.","de-DE":"Dieses Cookie wird gesetzt, um eine Benutzersitzung zu identifizieren und Daten über deren Engagement während dieser Sitzung bereitzustellen.","hu-HU":"Ez a süti arra van beállítva, hogy azonosítsa a felhasználó munkamenetét és adatokat szolgáltasson az érintettségükről az adott munkamenet alatt.","sk-SK":"Tento cookie je nastavený na identifikáciu používateľskej relácie a poskytovanie údajov o ich zapojení počas tejto relácie.","es-ES":"Esta cookie se establece para identificar una sesión de usuario y proporcionar datos sobre su participación durante esa sesión.","it-IT":"Questo cookie è impostato per identificare una sessione utente e fornire dati sul loro coinvolgimento durante quella sessione.","pl-PL":"To ciasteczko jest ustawione, aby identyfikować sesję użytkownika i dostarczać dane na temat ich zaangażowania podczas tej sesji.","pt-PT":"Este cookie é definido para identificar uma sessão de usuário e fornecer dados sobre seu engajamento durante essa sessão.","ro-RO":"Acest cookie este setat pentru a identifica o sesiune a utilizatorului și a furniza date despre angajamentul acestuia în timpul acelei sesiuni.","sv-SE":"Denna cookie är inställd på att identifiera en användarsession och tillhandahålla data om deras engagemang under den sessionen.","ga-IE":"Socraítear an fianán seo chun seisiún úsáideora a aithint agus sonraí a sholáthar maidir lena rannpháirtíocht le linn an tseisiúin sin.","mt-MT":"Dan il-cookie huwa stabbilit biex jidentifika sessjoni ta' utent u jipprovdi data dwar l-impenn tagħhom matul dik is-sessjoni.","da-DK":"Denne cookie er sat til at identificere en brugersession og give data om deres engagement i løbet af den session.","et-EE":"See küpsis on määratud kasutaja sessiooni tuvastamiseks ja nende kaasatuse andmete esitamiseks selle sessiooni ajal.","fr-FR":"Ce cookie est défini pour identifier une session d'utilisateur et fournir des données sur son engagement pendant cette session.","en-GB":"This cookie is set to identify a user's session and provide data on their engagement during that session."}}]),
+
+         },
+          {
+            slug: "performance",
+            isNecessary: false,
+            defaultConsent: {
+              gdpr: false,
+            },
+            cookies: generateCookies([{"cookieID":"dm_last_page_view","domain":"www.venta.lv","duration":"in 7 months","description":"This cookie is set to record the last page viewed by the user for performance analysis.","locale":{"fi-FI":"Tämä eväste on asetettu tallentamaan käyttäjän viimeksi katsoma sivu suorituskyvyn analysointia varten.","hr-HR":"Ovaj kolačić postavljen je za bilježenje posljednje stranice koju je korisnik pregledao za analizu učinkovitosti.","lv-LV":"Šis sīkfaila ir iestatīts, lai reģistrētu lietotāja pēdējo apskatīto lapu veiktspējas analīzei.","lt-LT":"Šis slapukas nustatomas norint įrašyti paskutinį vartotojo peržiūrėtą puslapį našumo analizei.","sl-SI":"Ta piškotek je nastavljen za beleženje zadnje strani, ki jo je uporabnik ogledal za analizo zmogljivosti.","el-GR":"Αυτό το cookie έχει ρυθμιστεί για να καταγράφει την τελευταία σελίδα που είδε ο χρήστης για ανάλυση απόδοσης.","nl-NL":"Deze cookie wordt ingesteld om de laatst bekeken pagina door de gebruiker vast te leggen voor prestatieanalyse.","bg-BG":"Този бисквитка се задава за записване на последната страница, видяна от потребителя, за анализ на производителността.","cs-CZ":"Tento cookie je nastaven pro zaznamenání poslední stránky zobrazené uživatelem pro analýzu výkonu.","lb-LU":"Dësen Cookie ass gesat fir déi lescht Säit opzehuelen, déi vum Benotzer gekuckt gouf fir d'Leeschtungsanalyse.","de-DE":"Dieser Cookie wird gesetzt, um die zuletzt vom Benutzer angesehene Seite für die Leistungsanalyse aufzuzeichnen.","hu-HU":"Ez a süti arra van beállítva, hogy rögzítse a felhasználó által utoljára megtekintett oldalt a teljesítményelemzés céljából.","sk-SK":"Tento cookie je nastavený na zaznamenanie poslednej stránky zobrazené používateľom pre analýzu výkonu.","es-ES":"Esta cookie se establece para registrar la última página vista por el usuario para análisis de rendimiento.","it-IT":"Questo cookie è impostato per registrare l'ultima pagina visualizzata dall'utente per l'analisi delle prestazioni.","pl-PL":"To ciasteczko jest ustawione w celu rejestrowania ostatniej strony wyświetlanej przez użytkownika dla analizy wydajności.","pt-PT":"Este cookie é definido para registar a última página visualizada pelo utilizador para análise de desempenho.","ro-RO":"Acest cookie este setat pentru a înregistra ultima pagină vizualizată de utilizator pentru analiza performanței.","sv-SE":"Denna cookie är inställd på att registrera den senaste sidan som användaren tittade på för prestandaanalys.","ga-IE":"Socraítear an fianán seo chun an leathanach deireanach amharc ag an úsáideoir a thaifeadadh don anailís feidhmíochta.","mt-MT":"Dan il-cookie huwa stabbilit biex jirreġistra l-aħħar paġna meqjusa mill-utent għall-analiżi tal-prestazzjoni.","da-DK":"Denne cookie er sat til at registrere den sidste side set af brugeren til ydelsesanalyse.","et-EE":"See küpsis on määratud salvestama kasutaja poolt viimati vaadatud lehte jõudlusanalüüsi jaoks.","fr-FR":"Ce cookie est défini pour enregistrer la dernière page vue par l'utilisateur pour l'analyse de performance.","en-GB":"This cookie is set to record the last page viewed by the user for performance analysis."}},{"cookieID":"dm_last_visit","domain":"www.venta.lv","duration":"in 7 months","description":"This cookie is set to determine the timing of the user's last visit for performance tracking.","locale":{"fi-FI":"Tämä eväste on asetettu määrittämään käyttäjän viimeisen vierailun ajankohta suorituskyvyn seurantaa varten.","hr-HR":"Ovaj kolačić postavljen je kako bi odredio vrijeme posljednjeg posjeta korisnika za praćenje učinkovitosti.","lv-LV":"Šis sīkfaila tiek iestatīts, lai noteiktu lietotāja pēdējās apmeklējuma laiku veiktspējas izsekošanai.","lt-LT":"Šis slapukas nustatomas siekiant nustatyti vartotojo paskutinio apsilankymo laiką našumo stebėjimui.","sl-SI":"Ta piškotek je nastavljen za določanje časa zadnjega obiska uporabnika za sledenje zmogljivosti.","el-GR":"Αυτό το cookie έχει ρυθμιστεί για να καθορίσει τον χρόνο της τελευταίας επίσκεψης του χρήστη για την παρακολούθηση απόδοσης.","nl-NL":"Deze cookie wordt ingesteld om het tijdstip van het laatste bezoek van de gebruiker te bepalen voor prestatievolging.","bg-BG":"Този бисквитка се задава за определяне времето на последното посещение на потребителя за проследяване на производителността.","cs-CZ":"Tento cookie je nastaven pro určení času poslední návštěvy uživatele pro sledování výkonu.","lb-LU":"Dësen Cookie ass gesat fir de Moment vum leschte Besuch vum Benotzer ze bestëmmen fir d'Leeschtungsverfollegung.","de-DE":"Dieser Cookie wird gesetzt, um den Zeitpunkt des letzten Besuchs des Benutzers zur Leistungsverfolgung zu bestimmen.","hu-HU":"Ez a süti a felhasználó utolsó látogatásának időpontjának meghatározására van beállítva a teljesítménykövetés céljából.","sk-SK":"Tento cookie je nastavený na určenie času poslednej návštevy používateľa pre sledovanie výkonu.","es-ES":"Esta cookie se establece para determinar el momento de la última visita del usuario para el seguimiento del rendimiento.","it-IT":"Questo cookie è impostato per determinare il momento dell'ultima visita dell'utente per il tracciamento delle prestazioni.","pl-PL":"To ciasteczko jest ustawione w celu określenia czasu ostatniej wizyty użytkownika dla śledzenia wydajności.","pt-PT":"Este cookie é definido para determinar o momento da última visita do utilizador para o acompanhamento de desempenho.","ro-RO":"Acest cookie este setat pentru a determina momentul ultimei vizite a utilizatorului pentru urmărirea performanței.","sv-SE":"Denna cookie är inställd på att bestämma tidpunkten för användarens senaste besök för prestandaspårning.","ga-IE":"Socraítear an fianán seo chun am an chuairt deireanaigh ag an úsáideoir a chinneadh don rianú feidhmíochta.","mt-MT":"Dan il-cookie huwa stabbilit biex jiddetermina l-ħin tal-aħħar żjara tal-utent għall-intraċċar tal-prestazzjoni.","da-DK":"Denne cookie er sat til at bestemme tidspunktet for brugerens sidste besøg til præstationsopfølgning.","et-EE":"See küpsis on määratud kindlaks tegema kasutaja viimase külastuse aega jõudluse jälgimiseks.","fr-FR":"Ce cookie est défini pour déterminer le moment de la dernière visite de l'utilisateur pour le suivi de performance.","en-GB":"This cookie is set to determine the timing of the user's last visit for performance tracking."}},{"cookieID":"dm_this_page_view","domain":"www.venta.lv","duration":"in 7 months","description":"This cookie is set to track the current page view timestamp for performance analysis.","locale":{"fi-FI":"Tämä eväste on asetettu seuraamaan nykyisen sivun katselun aikaleimaa suorituskyvyn analysointia varten.","hr-HR":"Ovaj kolačić postavljen je za praćenje vremenske oznake trenutnog pregleda stranice za analizu učinkovitosti.","lv-LV":"Šis sīkfails ir iestatīts, lai izsekotu pašreizējās lapas skatījuma laikspiedolu veiktspējas analīzei.","lt-LT":"Šis slapukas nustatytas stebėti dabartinio puslapio peržiūros laiko žymą našumo analizei.","sl-SI":"Ta piškotek je nastavljen za sledenje časovnega žiga trenutnega ogleda strani za analizo zmogljivosti.","el-GR":"Αυτό το cookie έχει ρυθμιστεί για να παρακολουθεί τη σφραγίδα χρόνου της τρέχουσας προβολής σελίδας για ανάλυση απόδοσης.","nl-NL":"Deze cookie wordt ingesteld om de tijdstempel van de huidige paginaweergave bij te houden voor prestatieanalyse.","bg-BG":"Този бисквитка се задава за проследяване на времевия отпечатък на текущия изглед на страницата за анализ на производителността.","cs-CZ":"Tento cookie je nastaven pro sledování časového razítka aktuálního zobrazení stránky pro analýzu výkonu.","lb-LU":"Dësen Cookie ass gesat fir de Timestamp vun der aktueller Säitenopfaassung fir Leeschtungsanalyse ze verfollegen.","de-DE":"Dieses Cookie wird gesetzt, um den Zeitstempel der aktuellen Seitenansicht für die Leistungsanalyse zu verfolgen.","hu-HU":"Ez a süti az aktuális oldalmegtekintés időbélyegének követésére van beállítva a teljesítményelemzés céljából.","sk-SK":"Tento cookie je nastavený na sledovanie časovej pečiatky aktuálneho zobrazenia stránky pre analýzu výkonnosti.","es-ES":"Esta cookie se establece para rastrear el sello de tiempo de la vista de página actual para análisis de rendimiento.","it-IT":"Questo cookie è impostato per tracciare il timestamp della visualizzazione della pagina corrente per l'analisi delle prestazioni.","pl-PL":"To ciasteczko jest ustawione do śledzenia znacznika czasu bieżącego wyświetlenia strony dla analizy wydajności.","pt-PT":"Este cookie é definido para rastrear o carimbo de data/hora da visualização atual da página para análise de desempenho.","ro-RO":"Acest cookie este setat pentru a urmări marca temporală a vizualizării paginii curente pentru analiza performanței.","sv-SE":"Denna cookie är inställd för att spåra tidsstämpeln för nuvarande sidvisning för prestandaanalys.","ga-IE":"Socraítear an fianán seo chun stampa ama amharc reatha an leathanaigh a rianú le haghaidh anailís feidhmíochta.","mt-MT":"Dan il-cookie huwa stabbilit biex isegwi l-marka tal-ħin tal-wiri tal-paġna attwali għall-analiżi tal-prestazzjoni.","da-DK":"Denne cookie er sat til at spore det aktuelle sidvisningstidsstempel for ydelsesanalyse.","et-EE":"See küpsis on määratud jälgima praeguse lehevaate ajatempli jõudlusanalüüsi jaoks.","fr-FR":"Ce cookie est défini pour suivre le timestamp de vue de la page actuelle pour l'analyse de performance.","en-GB":"This cookie is set to track the current page view timestamp for performance analysis."}},{"cookieID":"dm_total_visits","domain":"www.venta.lv","duration":"in 7 months","description":"This cookie is set to count the total number of visits by a single user to optimize user experience.","locale":{"fi-FI":"Tämä eväste on asetettu laskemaan yksittäisen käyttäjän vierailujen kokonaismäärää käyttökokemuksen optimoimiseksi.","hr-HR":"Ovaj kolačić postavljen je za brojanje ukupnog broja posjeta od strane jednog korisnika kako bi se optimiziralo korisničko iskustvo.","lv-LV":"Šis sīkfails ir iestatīts, lai skaitītu viena lietotāja kopējo apmeklējumu skaitu, lai optimizētu lietotāja pieredzi.","lt-LT":"Šis slapukas nustatytas skaičiuoti vieno vartotojo apsilankymų bendrą skaičių, siekiant optimizuoti vartotojo patirtį.","sl-SI":"Ta piškotek je nastavljen za štetje skupnega števila obiskov posameznega uporabnika za optimizacijo uporabniške izkušnje.","el-GR":"Αυτό το cookie έχει ρυθμιστεί για να καταμετρά το συνολικό αριθμό επισκέψεων από έναν μόνο χρήστη προκειμένου να βελτιστοποιήσει την εμπειρία χρήστη.","nl-NL":"Deze cookie is ingesteld om het totaal aantal bezoeken door een enkele gebruiker te tellen om de gebruikerservaring te optimaliseren.","bg-BG":"Този бисквитка е зададен да брои общия брой на посещенията от един потребител за оптимизиране на потребителското изживяване.","cs-CZ":"Tento cookie je nastaven na počítání celkového počtu návštěv jedním uživatelem pro optimalizaci uživatelského zážitku.","lb-LU":"Dësen Cookie ass gesat fir d'Gesamtzuel vun de Visiten vun engem eenzele Benotzer ze zielen, fir d'Benotzererfarung ze optimiséieren.","de-DE":"Dieses Cookie wird gesetzt, um die Gesamtzahl der Besuche eines einzelnen Benutzers zu zählen, um die Benutzererfahrung zu optimieren.","hu-HU":"Ez a süti az egyes felhasználók általi összes látogatás számolására van beállítva, hogy optimalizálja a felhasználói élményt.","sk-SK":"Tento cookie je nastavený na počítanie celkového počtu návštev jedným používateľom na optimalizáciu používateľského zážitku.","es-ES":"Esta cookie se establece para contar el número total de visitas de un solo usuario para optimizar la experiencia del usuario.","it-IT":"Questo cookie è impostato per contare il numero totale di visite effettuate da un singolo utente per ottimizzare l'esperienza utente.","pl-PL":"To ciasteczko jest ustawione, aby liczyć całkowitą liczbę wizyt pojedynczego użytkownika w celu optymalizacji doświadczenia użytkownika.","pt-PT":"Este cookie é definido para contar o número total de visitas por um único usuário para otimizar a experiência do usuário.","ro-RO":"Acest cookie este setat pentru a număra numărul total de vizite făcute de un singur utilizator pentru a optimiza experiența utilizatorului.","sv-SE":"Denna cookie är inställd på att räkna det totala antalet besök av en enskild användare för att optimera användarupplevelsen.","ga-IE":"Socraítear an fianán seo chun líon iomlán na gcuairteanna ó úsáideoir aonair a chomhaireamh chun eispéireas an úsáideora a bharrfheabhsú.","mt-MT":"Dan il-cookie huwa stabbilit biex jgħodd in-numru totali ta' żjarat minn utent wieħed biex jottimizza l-esperjenza tal-utent.","da-DK":"Denne cookie er sat til at tælle det samlede antal besøg af en enkelt bruger for at optimere brugeroplevelsen.","et-EE":"See küpsis on seatud loendama ühe kasutaja poolt tehtud külastuste koguarvu, et optimeerida kasutajakogemust.","fr-FR":"Ce cookie est défini pour compter le nombre total de visites par un seul utilisateur afin d'optimiser l'expérience utilisateur.","en-GB":"This cookie is set to count the total number of visits by a single user to optimize user experience."}}]),
+          },
+          {
+            slug: "advertisement",
+            isNecessary: false,
+            defaultConsent: {
+              gdpr: false,
+            },
+            cookies: generateCookies([{"cookieID":"_fbp","domain":".venta.lv","duration":"about 2 months ago","description":"This cookie is set by Facebook to deliver advertisement when they are on Facebook or a digital platform powered by Facebook advertising after visiting this website.","locale":{"fi-FI":"Tämä eväste asetetaan Facebookin toimesta toimittamaan mainontaa, kun käyttäjät ovat Facebookissa tai digitaalisella alustalla, jota Facebook-mainonta tukee tämän verkkosivuston vierailun jälkeen.","hr-HR":"Ovaj kolačić postavlja Facebook za dostavu oglasa kada su na Facebooku ili na digitalnoj platformi koju pokreće Facebook oglašavanje nakon posjeta ovoj web stranici.","lv-LV":"Šo sīkdatni iestata Facebook, lai piegādātu reklāmu, kad tie atrodas Facebook vai digitālā platformā, ko darbina Facebook reklāma pēc šīs tīmekļa vietnes apmeklējuma.","lt-LT":"„Facebook“ nustato šį slapuką, kad po apsilankymo šioje svetainėje būtų galima rodyti reklamas „Facebook“ arba skaitmeninėje platformoje, veikiamoje „Facebook“ reklamos.","sl-SI":"Ta piškotek nastavi Facebook za dostavo oglasov, ko so na Facebooku ali na digitalni platformi, ki jo poganja Facebook oglaševanje po obisku te spletne strani.","el-GR":"Αυτό το cookie ορίζεται από το Facebook για να παρέχει διαφήμιση όταν βρίσκονται στο Facebook ή σε μια ψηφιακή πλατφόρμα που τροφοδοτείται από διαφήμιση του Facebook μετά την επίσκεψη σε αυτόν τον ιστότοπο.","nl-NL":"Deze cookie wordt door Facebook ingesteld om advertenties te leveren wanneer ze op Facebook zijn of op een digitaal platform dat wordt aangedreven door Facebook-advertenties nadat ze deze website hebben bezocht.","bg-BG":"Този бисквитка се задава от Facebook за доставяне на реклама, когато са във Facebook или на цифрова платформа, задвижвана от реклама във Facebook, след посещение на този уебсайт.","cs-CZ":"Tento cookie je nastaven Facebookem pro doručování reklamy, když jsou na Facebooku nebo na digitální platformě poháněné reklamou na Facebooku po navštívení této webové stránky.","lb-LU":"Dësen Cookie gëtt vu Facebook gesat fir Reklammen ze liwweren, wann se op Facebook oder enger digitaler Plattform mat Facebook-Reklammen sinn, nodeems se dës Websäit besicht hunn.","de-DE":"Dieses Cookie wird von Facebook gesetzt, um Werbung zu liefern, wenn sie auf Facebook oder einer digitalen Plattform mit Facebook-Werbung sind, nachdem sie diese Webseite besucht haben.","hu-HU":"Ezt a sütit a Facebook állítja be hirdetések szállításához, amikor a felhasználók a Facebookon vagy egy, a Facebook hirdetéseivel működtetett digitális platformon vannak, miután meglátogatták ezt a weboldalt.","sk-SK":"Tento cookie je nastavený spoločnosťou Facebook na doručenie reklamy, keď sú na Facebooku alebo na digitálnej platforme poháňanej reklamou na Facebooku po návšteve tejto webovej stránky.","es-ES":"Esta cookie es establecida por Facebook para entregar publicidad cuando están en Facebook o en una plataforma digital impulsada por publicidad de Facebook después de visitar este sitio web.","it-IT":"Questo cookie è impostato da Facebook per erogare pubblicità quando si trovano su Facebook o su una piattaforma digitale alimentata dalla pubblicità di Facebook dopo aver visitato questo sito web.","pl-PL":"To ciasteczko jest ustawiane przez Facebooka w celu dostarczania reklam, gdy użytkownik znajduje się na Facebooku lub na platformie cyfrowej napędzanej przez reklamy Facebooka po odwiedzeniu tej strony internetowej.","pt-PT":"Este cookie é definido pelo Facebook para entregar publicidade quando estão no Facebook ou numa plataforma digital alimentada por publicidade do Facebook após visitar este site.","ro-RO":"Acest cookie este setat de Facebook pentru a livra publicitate când sunt pe Facebook sau pe o platformă digitală alimentată de publicitatea Facebook după vizitarea acestui site web.","sv-SE":"Denna cookie är inställd av Facebook för att leverera annonser när de är på Facebook eller en digital plattform som drivs av Facebook-annonsering efter att ha besökt denna webbplats.","ga-IE":"Socraítear an fianán seo ag Facebook chun fógraíocht a sheachadadh nuair a bhíonn siad ar Facebook nó ar ardán digiteach atá cumhachtaithe ag fógraíocht Facebook tar éis cuairt a thabhairt ar an suíomh gréasáin seo.","mt-MT":"Dan il-cookie huwa stabbilit minn Facebook biex iwassal reklamar meta jkunu fuq Facebook jew fuq pjattaforma diġitali mħaddma mir-reklamar ta' Facebook wara li żaru dan is-sit web.","da-DK":"Denne cookie sættes af Facebook for at levere annoncering, når de er på Facebook eller en digital platform drevet af Facebook-reklame efter at have besøgt dette websted.","et-EE":"See küpsis on seatud Facebooki poolt, et pakkuda reklaami, kui nad viibivad Facebookis või digitaalsel platvormil, mida toidab Facebooki reklaam pärast selle veebisaidi külastamist.","fr-FR":"Ce cookie est défini par Facebook pour diffuser des publicités lorsqu'ils sont sur Facebook ou une plateforme numérique propulsée par la publicité Facebook après avoir visité ce site web.","en-GB":"This cookie is set by Facebook to deliver advertisement when they are on Facebook or a digital platform powered by Facebook advertising after visiting this website."}},{"cookieID":"test_cookie","domain":".doubleclick.net","duration":"5 months ago","description":"This cookie is set by DoubleClick (Google) to check if the user's browser supports cookies.","locale":{"fi-FI":"Tämä eväste asetetaan DoubleClickin (Google) toimesta tarkistamaan, tukeeko käyttäjän selain evästeitä.","hr-HR":"Ovaj kolačić postavlja DoubleClick (Google) kako bi provjerio podržava li preglednik korisnika kolačiće.","lv-LV":"Šo sīkdatni iestata DoubleClick (Google), lai pārbaudītu, vai lietotāja pārlūkprogramma atbalsta sīkdatnes.","lt-LT":"Šis slapukas nustatomas DoubleClick (Google) siekiant patikrinti, ar naudotojo naršyklė palaiko slapukus.","sl-SI":"Ta piškotek nastavi DoubleClick (Google) za preverjanje, ali brskalnik uporabnika podpira piškotke.","el-GR":"Αυτό το cookie τίθεται από το DoubleClick (Google) για να ελέγξει αν ο περιηγητής του χρήστη υποστηρίζει τα cookies.","nl-NL":"Deze cookie wordt geplaatst door DoubleClick (Google) om te controleren of de browser van de gebruiker cookies ondersteunt.","bg-BG":"Този бисквитка е зададен от DoubleClick (Google) за да провери дали браузърът на потребителя поддържа бисквитки.","cs-CZ":"Tento cookie je nastaven společností DoubleClick (Google) za účelem ověření, zda prohlížeč uživatele podporuje cookies.","lb-LU":"Dësen Cookie gëtt vun DoubleClick (Google) gesat fir ze kontrolléieren, ob de Browser vum Benotzer Cookies ënnerstëtzt.","de-DE":"Dieses Cookie wird von DoubleClick (Google) gesetzt, um zu überprüfen, ob der Browser des Benutzers Cookies unterstützt.","hu-HU":"Ezt a sütit a DoubleClick (Google) állítja be annak ellenőrzésére, hogy a felhasználó böngészője támogatja-e a sütiket.","sk-SK":"Tento cookie je nastavený spoločnosťou DoubleClick (Google) na overenie, či prehliadač používateľa podporuje cookies.","es-ES":"Esta cookie es establecida por DoubleClick (Google) para comprobar si el navegador del usuario admite cookies.","it-IT":"Questo cookie è impostato da DoubleClick (Google) per verificare se il browser dell'utente supporta i cookie.","pl-PL":"Ten plik cookie jest ustawiany przez DoubleClick (Google) w celu sprawdzenia, czy przeglądarka użytkownika obsługuje pliki cookie.","pt-PT":"Este cookie é definido pelo DoubleClick (Google) para verificar se o navegador do usuário suporta cookies.","ro-RO":"Acest cookie este setat de DoubleClick (Google) pentru a verifica dacă browserul utilizatorului suportă cookie-uri.","sv-SE":"Denna cookie sätts av DoubleClick (Google) för att kontrollera om användarens webbläsare stöder cookies.","ga-IE":"Socraítear an fianán seo ag DoubleClick (Google) chun seiceáil an dtacaíonn brabhsálaí an úsáideora le fianáin.","mt-MT":"Dan il-cookie huwa stabbilit minn DoubleClick (Google) biex jiċċekkja jekk il-browser tal-utent jappoġġjax cookies.","da-DK":"Denne cookie er sat af DoubleClick (Google) for at tjekke, om brugerens browser understøtter cookies.","et-EE":"See küpsis on seatud DoubleClick'i (Google) poolt, et kontrollida, kas kasutaja brauser toetab küpsiseid.","fr-FR":"Ce cookie est défini par DoubleClick (Google) pour vérifier si le navigateur de l'utilisateur prend en charge les cookies.","en-GB":"This cookie is set by DoubleClick (Google) to check if the user's browser supports cookies."}}]),
+          },
+          {
+            slug: "other",
+            isNecessary: false,
+            defaultConsent: {
+              gdpr: false,
+            },
+            cookies: generateCookies([]),
+          },
+          {
+            slug: 'excluded',
+            isNecessary: false,
+            defaultConsent: {
+              gdpr: false,
+            },
+            cookies: generateCookies([]),
+          },
+        ],
+	      activeLaw : "gdpr",
+        urlsToBeBlocked: [{url: 'https://www.googletagmanager.com/gtag/js?id=AW-749204684',categories: ['analytics']},{url: 'https://www.googletagmanager.com/gtag/js?id=G-BERWL247Z0&amp;cx=c&amp;gtm=45He5881h1v830169405za200&amp;tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105033763~105033765~105103161~105103163~105231383~105231385',categories: ['analytics']},{url: 'https://www.googletagmanager.com/gtag/js?id=G-BERWL247Z0&amp;cx=c&amp;gtm=45He5881v830169405za200&amp;tag_exp=101509157~102015666~103116026~103200004~103233427~104684208~104684211~105033766~105033768~105103161~105103163~105231383~105231385',categories: ['analytics']},{url: 'https://www.googletagmanager.com/gtag/js?id=G-BERWL247Z0&amp;cx=c&amp;gtm=45He5881v830169405za200&amp;tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~104782879~105033763~105033765~105103161~105103163~105231383~105231385',categories: ['analytics']},{url: 'https://www.googletagmanager.com/gtag/js?id=G-BERWL247Z0&amp;cx=c&amp;gtm=45He5881v830169405za200&amp;tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105033763~105033765~105103161~105103163~105231383~105231385',categories: ['analytics']},{url: 'https://www.googletagmanager.com/gtag/js?id=G-BERWL247Z0&amp;cx=c&amp;gtm=45He5881v830169405za200&amp;tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105033766~105033768~105103161~105103163~105231383~105231385',categories: ['analytics']},{url: 'https://www.googletagmanager.com/gtm.js?id=GTM-K938RKN',categories: ['analytics']},{url: 'https://d32hwlnfiv2gyn.cloudfront.net/sp-2.0.0-dm-0.1.min.js',categories: ['performance']},{url: 'https://static.cdn-website.com/mnlt/production/5702/_dm/s/rt/dist/scripts/d-js-one-runtime-unified-desktop.min.js',categories: ['necessary']},{url: 'https://static.cdn-website.com/mnlt/production/5703/_dm/s/rt/dist/scripts/d-js-one-runtime-unified-desktop.min.js',categories: ['necessary']}],
+        rootDomain: 'venta.lv',
+        orgId: '07c13e44-bf11-477c-9b73-21ceb8fa48bd',
+        cloudfrontDomain: 'cdn.cookiepal.io',
+        userConsents: new Map(),
+        gcmStatus: true,
+        gcmDebugMode: false,
+        showGooglePrivacyLink: true,
+        consent: false,
+        geoTargetConfig: ["all","eu"],
+        setDefaultCommandGCM: (data) => {
+           window.dataLayer = window.dataLayer || [];
+           function gtag() {
+              dataLayer.push(arguments);
+           }
+           gtag("consent", "default", data);
+        },
+        integrations: {
+          kochava: JSON.parse('{"enabled":false,"keys":{}}'),
+          airbridge: JSON.parse('{"enabled":false,"keys":{}}'),
+          appsflyer: JSON.parse('{"enabled":false,"keys":{}}'),
+        },
+        ui: {
+          bannerIsInstalled: false,
+          bannerDisplayState: false,
+          cookiePolicyLink: 'https://www.venta.lv/cookie-policy',
+          colors : {
+            titleColor: '#007b4d',
+            descriptionColor: '#464f4d',
+            btnColor: '#007b4d',
+            backgroundColor: '#FFFFFF',
+            lighterBackgroundColor: '#ffffff',
+            v2BtnColorsEnabled: false,
+            btnTheme: 'highlighted', // highlighted | transparent
+          },
+          positions: {
+            bannerTypePosition: 'bottomLeft',
+            bannerPreferencesPosition: 'left',
+            fabPosition: 'left',
+          },
+          images : {
+            logoBtnSrc : 'https://cdn.cookiepal.io/client_data/e51b9449-92db-41a7-8382-0c2d29a82245/assets/revisit.svg',
+            closeBtnSrc : 'https://cdn.cookiepal.io/assets/close.svg',
+            externalLinkSrc:
+              "https://cdn.cookiepal.io/assets/external-link.svg",
+          },
+          defaultLanguage: 'lv-LV',
+        },
+        tcf: {
+          cmpId: 000,
+          tcfEnabled: false,
+          acModeEnabled: false,
+          googleAdvertiserModeEnabled: false,
+          model: undefined,
+          tcString: "",
+        },
+	      shopifyEnabled: false,
+	      wordpressEnabled: false,
+        removePoweredBy: false,
+        debugMode: true,
+      };
+      return config;
+    }
+
+    async function getUtils(instance) {
+
+      async function handleKochava(consentGiven) {
+        const kochava = instance.integrations?.kochava || {};
+        const appGuid = kochava.keys?.appGuid || '';
+        if (!kochava.enabled || !appGuid) return;
+
+        const kochavaLib = await import('https://cdn.cookiepal.io/lib/kochava/index.min.js');
+
+        if (consentGiven) {
+          kochavaLib.default(appGuid);
+        } else if (window.kochava) {
+          kochavaLib.stopKochava?.();
+        }
+      }
+
+      async function handleAirbridge(consentGiven) {
+        if (!consentGiven) return;
+        const airbridge = instance.integrations?.airbridge || {};
+        const appName = airbridge.keys?.appName || '';
+        const appWebToken = airbridge.keys?.webToken || '';
+        if (!airbridge.enabled || !appName || !appWebToken) return;
+
+        if (handleAirbridge.loaded) return;
+        handleAirbridge.loaded = true;
+
+        const { default: initAirbridge } = await import('https://cdn.cookiepal.io/lib/airbridge/index.min.js');
+        initAirbridge(appName, appWebToken);
+      }
+
+      async function handleAppsFlyer(consentGiven) {
+        if (!consentGiven) return;
+        const appsflyer = instance.integrations?.appsflyer || {};
+        const devKey = appsflyer.keys?.devKey || '';
+        if (!appsflyer.enabled || !devKey) return;
+
+        const { default: initAppsFlyer } = await import('https://cdn.cookiepal.io/lib/appsFlyer/index.min.js');
+        initAppsFlyer(devKey);
+      }
+
+      async function handleFirebase(consentGiven) {
+        if (!consentGiven) {
+          // If GA4 was loaded before user said no, revoke consent
+          if (window.firebase?.analytics?.setConsent) {
+            window.firebase.analytics().setConsent({ analytics_storage: 'denied' });
+          }
+          return;
+        }
+
+        /* The site owner is expected to have already embedded the regular
+          Firebase v9+ SDK snippet OR to load it via GTM.  
+          If it isn’t there yet we do *not* inject it */
+        function trySetConsent(retries = 10) {
+          const analytics = window.firebase?.analytics;
+          if (analytics && typeof analytics === 'function') {
+            analytics().setConsent({ analytics_storage: 'granted' });
+            analytics().logEvent('page_view', { page_location: location.href });
+            return;
+          }
+          if (retries) setTimeout(() => trySetConsent(retries - 1), 200);
+        }
+
+        trySetConsent();
+      }
+
+      async function handleVendors() {
+        const analyticsAllowed = getUserConsents('analytics') === 'yes';
+        await Promise.all([
+          handleKochava(analyticsAllowed),
+          handleAppsFlyer(analyticsAllowed),
+          handleAirbridge(analyticsAllowed),
+          handleFirebase(analyticsAllowed),
+        ]);
+      }
+
+      let cmpModules = {};
+      let shopifyModule = {};
+      const { orgId, rootDomain, cloudfrontDomain, ui, showGooglePrivacyLink, tcf , shopifyEnabled, removePoweredBy, geoTargetConfig, wordpressEnabled, gcmStatus } = instance;
+      const { colors , images, cookiePolicyLink, positions } = ui
+      const { logoBtnSrc, closeBtnSrc, externalLinkSrc } = images;
+      const {
+        titleColor,
+        descriptionColor,
+        btnColor,
+        backgroundColor,
+        lighterBackgroundColor,
+        v2BtnColorsEnabled,
+        btnTheme
+      } = colors;
+      const { bannerTypePosition, bannerPreferencesPosition, fabPosition } = positions
+      const { tcfEnabled, acModeEnabled, googleAdvertiserModeEnabled } = tcf;
+
+      if (tcfEnabled) {
+        // Load your bundled TCF script
+        await import(`https://${cloudfrontDomain}/lib/tcf/index.min.js`)
+
+        // Pull from global namespace
+        const { CmpApi, GVL, TCModel, TCString, CMPStub } = window.__TCFAPI_BUNDLE__;
+
+        cmpModules.CmpApi = CmpApi;
+        cmpModules.GVL = GVL;
+        cmpModules.TCModel = TCModel;
+        cmpModules.TCString = TCString;
+        cmpModules.CMPStub = CMPStub;
+      }
+
+      const initCmpStub = () => {
+        if (!tcfEnabled) return;
+        cmpModules.CMPStub();
+      };
+
+      if (shopifyEnabled) {
+        const shopifyApi = (await import(`https://${cloudfrontDomain}/lib/shopify/index.min.js`)).default;
+        shopifyModule.init = shopifyApi;
+      }
+
+      const initShopifyScript = () => {
+        if (!shopifyEnabled) return;
+        shopifyModule.init();
+      }
+
+      const setGcmDefaultCommand = () => {
+        // the default command has already been set somewhere
+        const hasAlreadyExecuted = window.google_tag_data?.ics?.usedDefault;
+        const isGTM = instance.source === 'gtm';
+        // legacy banners used to implement the custom script manually
+        const isCustomScript = window.cookiepal.customScript;
+
+        if (!gcmStatus || isCustomScript || isGTM || hasAlreadyExecuted) return;
+  
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("consent", "default", {
+            ad_storage: "denied",
+            ad_user_data: "denied", 
+            ad_personalization: "denied",
+            analytics_storage: "denied",
+            functionality_storage: "denied",
+            personalization_storage: "denied",
+            security_storage: "granted",
+            wait_for_update: 2000,
+        });
+        gtag("set", "ads_data_redaction", true);
+        gtag("set", "url_passthrough", true);
+      }
+
+      const initWpBridge = async () => {
+        if (instance.source !== 'wordpress' && !wordpressEnabled) return;
+        const wpBridge = (await import("https://cdn.cookiepal.io/lib/wordpress/index.min.js")).default;
+        wpBridge();
+      };
+
+      const checkDomain = () => {
+        try {
+          const registered = 'venta.lv'.replace(/^www\./, "");
+          const domains = window.location.hostname
+            .replace(/^www\./, "")
+            .split(".");
+          // Check subdomains
+          for (let index = 0; index < domains.length; index += 1) {
+            const domain = domains.slice(index).join(".");
+            if (domain === registered) return true;
+          }
+          return false;
+        } catch (error) {
+          return false;
+        }
+      };
+
+      const escapeRegex = (literal) => {
+        return literal.replace(/[.*+?^${}()[\]\\]/g, "\\$&");
+      };
+
+      const startsWith = (source, search) => {
+        return source.slice(0, search.length) === search;
+      };
+
+      const getKeyToReset = (objectData, keyToSearch) => {
+        if (keyToSearch.includes("*"))
+          keyToSearch = keyToSearch.replace("*", ".+");
+        keyToSearch = `^${keyToSearch}$`;
+        const dataToReset = Object.keys(objectData).find((key) =>
+          new RegExp(keyToSearch).test(key),
+        );
+        return dataToReset;
+      };
+
+      function wait(ms) {
+        return new Promise((resolve) => setTimeout(resolve, ms));
+      }
+
+      const replaceContent = (source, target, replacer) => {
+        return source.replace(new RegExp(escapeRegex(target), "g"), replacer);
+      };
+
+      // Cookie related
+      const createCookie = (name, value, days = 0, domain = rootDomain) => {
+        const date = new Date();
+        const toSetTime = days === 0 ? 0 : date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+        document.cookie = `${name}=${value}; expires=${new Date(
+          toSetTime,
+        ).toUTCString()}; path=/;domain=${domain}; SameSite=Strict; secure`;
+      };
+
+      const getCookies = () => {
+        const cookieMap = {};
+        try {
+          document.cookie.split(";").forEach((cookie) => {
+            const [key, value] = cookie.split("=");
+            if (!key) return;
+            cookieMap[key.trim()] = value;
+          });
+        } catch (error) {
+          console.error(error);
+        }
+        return cookieMap;
+      };
+
+      const getTcfCurrentData = (currentCookies) => {
+        const consent = currentCookies["euconsent"] || "";
+        instance.tcf.previousTcString = consent.split(",")[0] || "";
+        if (acModeEnabled) {
+          instance.tcf.previousAcString = decodeAcString(
+            consent.split(",")[1] || "",
+          );
+        }
+      };
+
+      const getCookiePalConsentMap = (currentCookies) => {
+        return (currentCookies["cookiepal-consent"] || "")
+          .split(",")
+          .reduce((prev, curr) => {
+            if (!curr) return prev;
+            const [key, value] = curr.split(":");
+            prev[key] = value;
+            return prev;
+          }, {});
+      };
+
+      const setConfigCookie = (key, value) => {
+        instance.userConsents.set(key, value);
+        const cookieStringArray = Array.from(
+          instance.userConsents.entries(),
+        ).map(([newKey, newValue]) => `${newKey}:${newValue}`);
+        createCookie("cookiepal-consent", cookieStringArray.join(","), 365);
+      };
+
+      const removeCookies = (category) => {
+        if(category.slug === 'excluded') return;
+
+        try {
+          const categoryCookies = category?.cookies || [];
+          if (!categoryCookies.length) return;
+          const currentCookieMap = getCookies();
+
+          categoryCookies.forEach((cookie) => {
+            const { cookieID, domain } = cookie;
+
+            // Remove cookies on third-party, empty, web domains
+            const cookieToReset = getKeyToReset(currentCookieMap, cookieID);
+            if (cookieToReset) {
+              [domain, "", window.location.host].forEach((cookieDomain) => {
+                createCookie(cookieToReset, "", 0, cookieDomain);
+              });
+              delete currentCookieMap[cookieToReset];
+            }
+            // Search for cookies located in local/session storage
+            const localDataToReset = getKeyToReset(localStorage, cookieID);
+            if (localDataToReset) localStorage.removeItem(localDataToReset);
+            const sessionDataToReset = getKeyToReset(
+              sessionStorage,
+              cookieID,
+            );
+            if (sessionDataToReset) sessionStorage.removeItem(sessionDataToReset);
+          });
+        } catch (error) {
+          console.error(error);
+        }
+      };
+
+      const removeNonConsentCookies = () => {
+        instance.categories.forEach((category) => {
+          if (getUserConsents(category.slug) !== "yes") {
+            removeCookies(category);
+          }
+        });
+      };
+
+      // API Related
+      const apiInstance = (url, method = "GET", data = null) => {
+        let body = null;
+        const headers = {};
+
+        if (method === "POST" && data) {
+          body = JSON.stringify(data);
+          headers["Content-Type"] = "application/json";
+        }
+
+        return fetch(url, {
+          method,
+          headers,
+          body,
+        });
+      };
+
+      const availableLanguages = JSON.parse(`["en-GB","lv-LV"]`);
+      const userLanguage = window.navigator.language;
+      const userLanguagePrefix = userLanguage.split("-")[0];
+      const selectedLanguage =
+        availableLanguages.find((lang) => lang.startsWith(userLanguagePrefix)) || ui.defaultLanguage;
+
+      const isCrawling = () => {
+        const currentUrl = window.location.href;
+        // ?crawl=true is the old approach with intention of removal
+        return currentUrl.includes("cookiepal-crawl=true") || currentUrl.includes("crawl=true");
+      };
+
+      const isVerifyInstallation = () => {
+        const currentUrl = window.location.href;
+        return currentUrl.includes("?cookiepal-verify-installation=true");
+      };
+
+      const applyGeoFilter = () => {
+        const verifyInstallation = isVerifyInstallation();
+        if (verifyInstallation) {
+          console.log("Verifying installation - Geo filter should be disabled");
+          return false;
+        }
+
+        const selectedCountries = !geoTargetConfig.length
+          ? ["all"]
+          : geoTargetConfig;
+
+        const countryLocale = {
+          EU: [
+            "bg-BG", // Bulgaria
+            "cs-CZ", // Czechia
+            "da-DK", // Denmark
+            "de-AT", // Austria
+            "de-DE", // Germany
+            "el-GR", // Greece
+            "en-IE", // Ireland
+            "en-MT", // Malta
+            "en-GB", // United Kingdom
+            "es-ES", // Spain
+            "et-EE", // Estonia
+            "fi-FI", // Finland
+            "fr-BE", // Belgium (French)
+            "fr-FR", // France
+            "hr-HR", // Croatia
+            "hu-HU", // Hungary
+            "it-IT", // Italy
+            "lt-LT", // Lithuania
+            "lv-LV", // Latvia
+            "mt-MT", // Malta
+            "nl-BE", // Belgium (Dutch)
+            "nl-NL", // Netherlands
+            "pl-PL", // Poland
+            "pt-PT", // Portugal
+            "ro-RO", // Romania
+            "sk-SK", // Slovakia
+            "sl-SI", // Slovenia
+            "sv-SE", // Sweden
+          ],
+          US: ["en-US"],
+          CA: ["en-CA", "fr-CA"],
+        };
+
+        if (selectedCountries.includes("all")) return false;
+
+        const allowedCountries = selectedCountries
+          .map((geoCountry) => countryLocale[geoCountry.toUpperCase()])
+          .flat();
+
+        if (userLanguage.includes("-")) {
+          return !allowedCountries.includes(userLanguage);
+        }
+
+        return !allowedCountries.some((lang) =>
+          lang.startsWith(userLanguage + "-")
+        );
+      };  
+
+      const languagePath = tcfEnabled ? `/lib/tcf/languages` : `/client_data/e51b9449-92db-41a7-8382-0c2d29a82245/languages`;
+      const responseLanguage = await apiInstance(
+        `https://${cloudfrontDomain}${languagePath}/${selectedLanguage}.json`,
+        "GET"
+      );
+
+      const contentLanguage = JSON.parse(await responseLanguage.text());
+      const bannerContent = contentLanguage.banner;
+      const modalContent = contentLanguage.modal;
+      const overlayContent = contentLanguage.overlay;
+
+      // translations
+      const t = {
+        cookieNotice: {
+          title: bannerContent.title,
+          message: bannerContent.description,
+          acceptBtn: bannerContent.buttons.accept.text,
+          rejectBtn: bannerContent.buttons.reject.text,
+          customiseBtn: bannerContent.buttons.customize.text,
+          partnersText: bannerContent.partnersText || "",
+          cookieLink: {
+            takeLook: bannerContent.cookieLink.takeLook,
+            cookieLinkText: bannerContent.cookieLink.cookieLinkText,
+            page: bannerContent.cookieLink.page,
+          },
+        },
+        preferenceCentre: {
+          title: modalContent.header.title,
+          tcfPreamble: {
+            content: modalContent.header.tcfModalPreamble?.content,
+            button: {
+              text: modalContent.header.tcfModalPreamble?.button.text,
+              ariaLabel: modalContent.header.tcfModalPreamble?.button.ariaLabel,
+            },
+          },
+          common: {
+            legitimateInterest: modalContent.body.common?.legitimateInterest,
+            consent: modalContent.body.common?.consent,
+            purpose: modalContent.body.common?.purpose,
+            feature: modalContent.body.common?.feature,
+            specialPurpose: modalContent.body.common?.specialPurpose,
+            specialFeature: modalContent.body.common?.specialFeature,
+            dataCategories: modalContent.body.common?.dataCategories,
+            cookie: modalContent.body.common?.cookie,
+            cookieAndOthers: modalContent.body.common?.cookieAndOthers,
+            noCookie: modalContent.body.common?.noCookie,
+            duration: modalContent.body.common?.duration,
+            description: modalContent.body.common?.description,
+            type: modalContent.body.common?.type,
+            name: modalContent.body.common?.name,
+            domain: modalContent.body.common?.domain,
+          },
+          tcfTabs: {
+            cookiesAndCategories: modalContent.header.tcfTabs?.cookiesAndCategories,
+            purposesAndFeatures: modalContent.header.tcfTabs?.purposesAndFeatures,
+            vendors: modalContent.header.tcfTabs?.vendors,
+          },
+          privacyOverview: modalContent.body.description.replace(/\n/g, "<br />"),
+          savePreferencesBtn: modalContent.footer.buttons.savePreferences.text,
+          googleText: modalContent.body.googleLink.googleText,
+          googleTextLink: modalContent.body.googleLink.googleTextLink,
+          categories: {
+            necessary: {
+              title: modalContent.body.categories.necessary.title,
+              description: modalContent.body.categories.necessary.description,
+              toggle: modalContent.body.categories.necessary.toggle,
+            },
+            advertisement: {
+              title: modalContent.body.categories.advertisement.title,
+              description: modalContent.body.categories.advertisement.description,
+            },
+            analytics: {
+              title: modalContent.body.categories.analytics.title,
+              description: modalContent.body.categories.analytics.description,
+            },
+            performance: {
+              title: modalContent.body.categories.performance.title,
+              description: modalContent.body.categories.performance.description,
+            },
+            other: {
+              title: modalContent.body.categories.other.title,
+              description: modalContent.body.categories.other.description,
+            },
+            functional: {
+              title: modalContent.body.categories.functional.title,
+              description: modalContent.body.categories.functional.description,
+            },
+          },
+          purposesAndFeaturesTab: {
+            illustrationTitle: modalContent.body.purposesAndFeaturesTab?.illustrationTitle,
+            vendorsMessage: {
+              onlyConsent: modalContent.body.purposesAndFeaturesTab?.vendorsMessage?.onlyConsent,
+              withLegitimateInterest:
+                modalContent.body.purposesAndFeaturesTab?.vendorsMessage?.withLegitimateInterest,
+            },
+          },
+          vendorsTab: {
+            titles: {
+              thirdPartyVendors: modalContent.body.vendorsTab?.titles.thirdPartyVendors,
+              googleAdTechProviders: modalContent.body.vendorsTab?.titles.googleAdTechProviders,
+            },
+            privacyPolicy: modalContent.body.vendorsTab?.privacyPolicy,
+            legitimateInterestClaim: modalContent.body.vendorsTab?.legitimateInterestClaim,
+            dataRetentionPeriod: modalContent.body.vendorsTab?.dataRetentionPeriod,
+            deviceStorageDisclosure: modalContent.body.vendorsTab?.deviceStorageDisclosure,
+            deviceStorageDisclosureTrackingMethod:
+              modalContent.body.vendorsTab?.deviceStorageDisclosureTrackingMethod,
+            maximumCookieDuration: modalContent.body.vendorsTab?.maximumCookieDuration,
+            cookieLifetimeRefreshed: modalContent.body.vendorsTab?.cookieLifetimeRefreshed,
+            cookieLifetimeNotRefreshed: modalContent.body.vendorsTab?.cookieLifetimeNotRefreshed,
+            showMore: modalContent.body.vendorsTab?.showMore,
+          },
+          poweredBy: {
+            text: modalContent.footer.poweredBy.text,
+            logoAltText: modalContent.footer.poweredBy.logoAltText,
+          },
+        },
+        overlay: {
+          revisit: {
+            buttonAltText: overlayContent.revisitWrapper.buttonRevisit.altText,
+            tooltip: overlayContent.revisitWrapper.tooltip,
+          },
+        },
+      };
+      
+      const PoweredByCookiepal = shopifyEnabled || removePoweredBy ? '' :  `<div class="cookiepal-powered-footer-wrapper" data-cookiepal-tag="footer-cookiepal">
+        <a href="https://cookiepal.io/" target="_blank"
+          ><p>${t.preferenceCentre.poweredBy.text}</p>
+          <img
+            alt="${t.preferenceCentre.poweredBy.logoAltText}"
+            src="https://cookiepal-assets.s3.amazonaws.com/CookiePalLogoBannerVariation.svg"
+        /></a>
+      </div>`; 
+
+      const sendPageViewLog = async () => {
+        try {
+          navigator.sendBeacon(
+            `https://${cloudfrontDomain}/api/logs/${orgId}/venta.lv`,
+          );
+        } catch (err) {
+          console.error(err);
+        }
+      };
+
+      const saveConsentLog = async ({ consentId }) => {
+        try {
+          const logData = instance.categories
+            .map(({ cookies, slug }) => {
+              // map cookies to only save the language consented to
+              const mappedCookies = cookies.map((cookie) => ({
+                ...cookie,
+                locale: cookie.locale[selectedLanguage],
+              }));
+              return {
+                name: slug,
+                status: getUserConsents(slug) || "no",
+                cookies: mappedCookies,
+              };
+            })
+            .concat([
+              {
+                name: "consent",
+                status: getUserConsents("consent") || "no",
+              },
+            ]);
+
+          const consentData = {
+            consentId,
+            orgName: orgId,
+            domain: 'venta.lv',
+            logData,
+          };
+
+          await apiInstance(
+            `https://${cloudfrontDomain}/api/consent`,
+            "POST",
+            consentData,
+          );
+        } catch (err) {
+          console.error(err);
+        }
+      };
+
+      // Consent related
+      const getUserConsents = (key) => {
+        return instance.userConsents.get(key) || "";
+      };
+
+      const setUserConsents = () => {
+        const cookies = getCookies();
+        const cookiePalConsentMap = getCookiePalConsentMap(cookies);
+        getTcfCurrentData(cookies);
+        const categoriesMapped = instance.categories.map(({ slug }) => slug);
+        ["consentid", "consent", "action"]
+          .concat(categoriesMapped)
+          .map((item) =>
+            instance.userConsents.set(item, cookiePalConsentMap[item] || ""),
+          );
+      };
+
+      // Categories
+      const isCategoryBlocked = (category) => {
+        const cookieValue = getUserConsents(category);
+        return (
+          cookieValue === "no" ||
+          (!cookieValue &&
+            instance.categories.some(
+              (cat) => cat.slug === category && !cat.isNecessary,
+            ))
+        );
+      };
+
+      const shouldBlockProvider = (formattedRE) => {
+        const provider = instance.urlsToBeBlocked
+          .filter((c) => c.categories[0] !== 'excluded')
+          .find(({ url }) => new RegExp(escapeRegex(url)).test(formattedRE));
+
+        return (provider && provider.categories.some((category) => isCategoryBlocked(category)));
+      };
+
+      const shouldChangeType = (element, src) => {
+        return shouldBlockProvider(src ?? element.src);
+      };
+
+      const generateRandomId = (length, allChars = true) => {
+        const chars = allChars
+          ? "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+          : "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+        let response = "";
+        for (let i = 0; i < length; i += 1) {
+          const randomIndex = Math.floor(Math.random() * chars.length);
+          response += chars[randomIndex];
+        }
+        return allChars ? response : btoa(response).replace(/=+$/, "");
+      };
+
+
+      function setSource() {
+        const scripts = document.querySelectorAll('script');
+
+        for (let i = 0; i < scripts.length; i++) {
+          const scriptSrc = scripts[i].src;
+
+          if (scriptSrc.includes(`https://${cloudfrontDomain}/client_data/`)) {
+            const urlParams = new URLSearchParams(new URL(scriptSrc).search);
+            const source = urlParams.get('source') || 'inline';
+            instance.source = source;
+            break; 
+          }
+        }
+      }
+
+      const createConsentId = () => {
+        const currentConsentId = getUserConsents("consentid");
+        if (currentConsentId) {
+          instance.consentId = currentConsentId;
+          return;
+        }
+        const consentId = generateRandomId(32);
+        setConfigCookie("consentid", consentId);
+        instance.resetConsentId = true;
+        instance.consentId = consentId;
+      };
+
+      const startMutation = (mutations) => {
+        mutations.forEach((mutation) => {
+          const { addedNodes } = mutation;
+          addedNodes.forEach((node) => {
+            if (
+              !node.src ||
+              !node.nodeName ||
+              !["script"].includes(node.nodeName.toLowerCase())
+            )
+              return;
+
+            try {
+              const shouldProviderBeBlocked = shouldBlockProvider(node.src);
+
+              if (!shouldProviderBeBlocked) return;
+
+              const uniqueID = generateRandomId(8, false);
+
+              node.type = "javascript/blocked";
+
+              // Block scripts on Firefox
+              const scriptEventListener = (event) => {
+                event.preventDefault();
+                node.removeEventListener("beforescriptexecute", scriptEventListener);
+              };
+
+              node.addEventListener("beforescriptexecute", scriptEventListener);
+
+              const position =
+                document.head.compareDocumentPosition(node) &
+                Node.DOCUMENT_POSITION_CONTAINED_BY
+                  ? "head"
+                  : "body";
+              node.remove();
+
+              instance.backupNodes.push({
+                position,
+                node: node.cloneNode(),
+                uniqueID,
+              });
+            } catch (error) {
+              console.error(error);
+            }
+          });
+        });
+      };
+
+      const startBlocker = (fromBfCache) => {
+        try {
+          // 1) Store the real native method on `instance` (or a local variable).
+          //    Make sure we only do this once:
+          if (!instance.originalCreateElement) {
+            instance.originalCreateElement = Document.prototype.createElement;
+          }
+
+          // 2) Check if we've already patched createElement to avoid re-patching.
+          if (fromBfCache || document.__cookiePalPatched) return;
+
+          Document.prototype.createElement = function (...args) {
+            // Call the *native* createElement:
+            const createdElement = instance.originalCreateElement.apply(this, args);
+
+            // If it's not a <script>, no need to do anything special:
+            if (createdElement.nodeName.toLowerCase() !== "script") {
+              return createdElement;
+            }
+
+            // We'll preserve your "shouldChangeType" logic as-is:
+            const originalSetAttribute = createdElement.setAttribute.bind(createdElement);
+
+            Object.defineProperties(createdElement, {
+              src: {
+                get() {
+                  return createdElement.getAttribute("src") || "";
+                },
+                set(value) {
+                  if (shouldChangeType(createdElement, value)) {
+                    originalSetAttribute("type", "javascript/blocked");
+                  }
+                  originalSetAttribute("src", value);
+                },
+                configurable: true,
+              },
+              type: {
+                get() {
+                  return createdElement.getAttribute("type");
+                },
+                set(value) {
+                  value = shouldChangeType(createdElement) ? "javascript/blocked" : value;
+                  originalSetAttribute("type", value);
+                },
+                configurable: true,
+              },
+            });
+
+            createdElement.setAttribute = (name, value) => {
+              if (name === "type" || name === "src") {
+                // Reassigning directly triggers those getters/setters above:
+                createdElement[name] = value;
+              } else {
+                originalSetAttribute(name, value);
+              }
+            };
+
+            return createdElement;
+          };
+
+          // Mark that we've patched so we won't do it again
+          document.__cookiePalPatched = true;
+        } catch (error) {
+          console.error(error);
+        }
+
+        instance.observer = new MutationObserver(startMutation);
+        instance.observer.observe(document.documentElement, {
+          childList: true,
+          subtree: true,
+        });
+      };
+
+      // Scripts related
+
+      const unblockScripts = () => {
+        const consent = getUserConsents("consent");
+        if (
+          (!consent || consent !== "yes") &&
+          instance.categories.every((cat) => cat.isNecessary || getUserConsents(cat.slug) === "no")
+        ) return;
+
+        instance.backupNodes = instance.backupNodes.filter(
+          ({ position, node }) => {
+            try {
+              if (shouldBlockProvider(node.src)) return true;
+
+              if (node.nodeName.toLowerCase() === "script") {
+                const scriptNode = document.createElement("script");
+                scriptNode.src = node.src;
+                scriptNode.type = "text/javascript";
+                document[position].appendChild(scriptNode);
+              }
+              return false;
+            } catch (error) {
+              console.error(error);
+              return false;
+            }
+          },
+        );
+      };
+
+
+      function triggerEvent(eventName, eventData) {
+        var customEvent = new CustomEvent(eventName, { detail: eventData });
+        document.dispatchEvent(customEvent);
+      }
+
+      // GTM
+      function pushArgsToDataLayer() {
+        if (arguments[0] && typeof arguments[0] === "object")
+          window.dataLayer.push(arguments[0]);
+        else window.dataLayer.push(arguments);
+      }
+
+      const getConsentStatusForCategory = (category) => {
+        return isCategoryBlocked(category) ? "denied" : "granted";
+      };
+
+      const debugGCM = () => {
+        if (!instance.gcmDebugMode) return;
+        try {
+          const getConsentStatus = (status) => {
+            if (status === undefined) return "missing";
+            return status ? "granted" : "denied";
+          };
+          console.log("Google Consent Mode : Debugging :\n");
+
+          if (window.google_tag_data?.ics?.entries) {
+            let logMessage = "";
+            const consentEntries = window.google_tag_data.ics.entries;
+            let hasMissingDefaults = false;
+
+            for (const entryKey in consentEntries) {
+              const entry = consentEntries[entryKey];
+              const defaultStatus = getConsentStatus(entry.default);
+              const updateStatus = getConsentStatus(entry.update);
+
+              logMessage += `\n\t${entryKey}:\n\t\tDefault: ${defaultStatus}\n\t\tUpdate: ${updateStatus}\n\n`;
+
+              if (defaultStatus === "missing") {
+                hasMissingDefaults = true;
+              }
+            }
+            if (hasMissingDefaults) {
+              logMessage +=
+                "\n\tWarning: Some categories are missing a default value.\n";
+            } else if (window.google_tag_data.ics.wasSetLate) {
+              logMessage +=
+                "\n\tWarning: A tag read consent before a default was set.\n";
+            } else {
+              logMessage += "\n\tConsent mode states were set correctly.";
+            }
+            console.log(logMessage);
+          } else {
+            console.log("\n\tNo Consent Mode data found");
+          }
+        } catch (error) {
+          console.log("\n\nWarning: Error detecting consent mode status");
+        }
+      };
+
+      const updateGCMStatus = async (onlyStart = false) => {
+        await wait(0)
+        const gcmStatus = instance.gcmStatus;
+        if (!gcmStatus) return;
+        if (!window.dataLayer || !Array.isArray(window.dataLayer)) return;
+
+        if (onlyStart) {
+          pushArgsToDataLayer("set", "developer_id.dMDc2ZT", true)
+        }
+
+        const functionalConsent = getConsentStatusForCategory("functional");
+        const advertisementConsent =
+          getConsentStatusForCategory("advertisement");
+        const analyticsConsent = getConsentStatusForCategory("analytics");
+
+        pushArgsToDataLayer("consent", "update", {
+          ad_user_data: advertisementConsent,
+          ad_personalization: advertisementConsent,
+          ad_storage: advertisementConsent,
+          analytics_storage: analyticsConsent,
+          functionality_storage: functionalConsent,
+          personalization_storage: functionalConsent,
+          security_storage: "granted",
+        });
+
+        pushArgsToDataLayer({
+          event: "cookie_consent_update",
+        });
+
+        debugGCM();
+      };
+
+      // UI Related
+      const findElement = (selector, forParent) => {
+        let createdSelector = selector;
+        if (startsWith(selector, "=")) {
+          createdSelector = `[data-cookiepal-tag="${selector.substring(1)}"]`;
+        }
+        const element = document.querySelector(createdSelector);
+        if (!element || (forParent && !element.parentElement)) return null;
+        return forParent ? element.parentElement : element;
+      };
+
+      const classAction = ({
+        action,
+        selector,
+        className,
+        forParent = true,
+      }) => {
+        const item = findElement(selector, forParent);
+        return item && item.classList[action](className);
+      };
+
+      function classAdd(args) {
+        return classAction({ action: "add", ...args });
+      }
+
+      function classRemove(args) {
+        return classAction({
+          action: "remove",
+          ...args,
+        });
+      }
+
+      function classHas(args) {
+        return classAction({
+          action: "contains",
+          ...args,
+        });
+      }
+
+      function classToggle(args) {
+        return classAction({
+          action: "toggle",
+          ...args,
+        });
+      }
+
+      const isCategoryChecked = (id) => {
+        if (!id) return false;
+        return ["cookiepalSwitch"].some((key) => {
+          const checkBox = findElement(`#${key}${id}`);
+          return checkBox && checkBox.checked;
+        });
+      };
+
+      const attachListener = (selector, fn) => {
+        const item = findElement(selector);
+        if (!item) return;
+        item.addEventListener("click", fn);
+      };
+
+      const togglePreferences = (show = true, fromBtnHandler = false) => {
+        let fnToCall = classAdd;
+        let popupFnToCall = classRemove;
+        if (!show) {
+          fnToCall = classRemove;
+          popupFnToCall = classAdd;
+        }
+
+        const actionState = getUserConsents("action");
+
+        if (actionState && !show) {
+          document.body.style.overflow = "";
+
+          fnToCall({
+            selector: "=detail",
+            className: `cookiepal-modal-open-${bannerPreferencesPosition}`,
+          });
+
+          popupFnToCall({
+            selector: ".cookiepal-overlay",
+            className: "cookiepal-hide",
+            forParent: false,
+          });
+
+          return;
+        }
+
+                  popupFnToCall({
+            selector: ".cookiepal-overlay",
+            className: "cookiepal-hide",
+            forParent: false,
+          });
+          document.body.style.overflow = show ? "hidden" : "";
+        
+        fnToCall({
+          selector: "=detail",
+          className: `cookiepal-modal-open-${bannerPreferencesPosition}`,
+        });
+      };
+
+      const blockPageUntilConsent = () => {
+        classRemove({
+          selector: ".cookiepal-overlay",
+          className: "cookiepal-hide",
+          forParent: false,
+        })
+
+        document.body.style.overflow = "hidden";
+      }
+
+      const toggleRevisitBtn = (show = true) => {
+        if (show) instance.ui.bannerDisplayState = "revisit";
+        const fnToCall = show ? classRemove : classAdd;
+        fnToCall({
+          selector: "=revisit-consent",
+          className: "cookiepal-revisit-hide",
+          forParent: false,
+        });
+      };
+
+      const toggleAriaExpand = (selector, forceDefault = null) => {
+        const element = findElement(selector);
+
+        if (!element) return;
+        if (forceDefault)
+          return element.setAttribute("aria-expanded", forceDefault);
+        const toggleFinalValue =
+          element.getAttribute("aria-expanded") === "true" ? "false" : "true";
+        element.setAttribute("aria-expanded", toggleFinalValue);
+      };
+
+      const toggleBannerDisplay = (show = true) => {
+        if (show) instance.ui.bannerDisplayState = "banner";
+        const fnToCall = show ? classRemove : classAdd;
+        fnToCall({
+          selector: "=notice",
+          className: "cookiepal-hide",
+        });
+      };
+
+      const setCheckBoxInfo = (
+        boxElem,
+        { checked, disabled, addListeners },
+        { activeColor, inactiveColor },
+      ) => {
+        if (!boxElem) return;
+        boxElem.checked = checked;
+        boxElem.disabled = disabled;
+        boxElem.style.backgroundColor = checked ? activeColor : inactiveColor;
+
+        if (!addListeners) return;
+        boxElem.addEventListener("change", ({ currentTarget: elem }) => {
+          const isChecked = elem.checked;
+          elem.style.backgroundColor = isChecked ? activeColor : inactiveColor;
+        });
+      };
+
+      const setCategoryListeners = () => {
+        const categoryNames = instance.categories.map(({ slug }) => slug);
+
+        categoryNames.map((category) => {
+          if(category.slug === 'excluded') return;
+
+          const selector = `#cookiepalDetailCategory${category}`;
+          const accordionButtonSelector = `${selector}  .cookiepal-accordion-btn`;
+
+          attachListener(selector, ({ target: { id } }) => {
+            if (
+              id === `cookiepalSwitch${category}` ||
+              !classToggle({
+                selector,
+                className: "cookiepal-accordion-active",
+                forParent: false,
+              })
+            ) {
+              return toggleAriaExpand(accordionButtonSelector, "false");
+            }
+
+            toggleAriaExpand(accordionButtonSelector, "true");
+
+            categoryNames
+              .filter((categoryName) => categoryName !== category)
+              .map((filteredName) => {
+                classRemove({
+                  selector: `#cookiepalDetailCategory${filteredName}`,
+                  className: "cookiepal-accordion-active",
+                  forParent: false,
+                });
+
+                toggleAriaExpand(
+                  `#cookiepalDetailCategory${filteredName} .cookiepal-accordion-btn`,
+                  "false",
+                );
+              });
+          });
+        });
+      };
+
+      const setCategorySelections = (listeners = true) => {
+        const togglerSwitch = {
+          status: true,
+          styles: {
+            activeColor: btnColor,
+            inactiveColor: "#D0D5D2",
+          },
+        };
+
+        const activeLaw = "gdpr";
+
+        instance.categories.forEach((category) => {
+          if (category.slug === 'excluded') return;
+
+          const cookieValue = getUserConsents(category.slug);
+
+          const checked =
+            cookieValue === "yes" ||
+            (!cookieValue && category.defaultConsent[activeLaw]);
+
+          ["cookiepalSwitch"].forEach((key) => {
+            setCheckBoxInfo(
+              findElement(`#${key}${category.slug}`),
+              {
+                checked,
+                disabled: category.isNecessary,
+                addListeners: listeners,
+              },
+              togglerSwitch.styles,
+            );
+          });
+        });
+      };
+
+      const populateCategories = () => {
+        instance.categories.forEach((c) => {
+          if (c.slug === 'excluded') return;
+
+          const translationTextsMap = {
+            duration: {
+              "pt-PT": "Duração",
+              "fr-FR": "Durée",
+              "it-IT": "Durata",
+              "nl-NL": "Duur",
+              "de-DE": "Dauer",
+              "es-ES": "Duración",
+              "en-GB": "Duration",
+              "bg-BG": "Продължителност",
+              "cs-CZ": "Doba trvání",
+              "da-DK": "Varighed",
+              "el-GR": "Διάρκεια",
+              "et-EE": "Kestus",
+              "fi-FI": "Kesto",
+              "ga-IE": "Tréimhse",
+              "hr-HR": "Trajanje",
+              "hu-HU": "Időtartam",
+              "lb-LU": "Dauer",
+              "lt-LT": "Trukmė",
+              "lv-LV": "Ilgums",
+              "mt-MT": "Durata",
+              "pl-PL": "Czas trwania",
+              "ro-RO": "Durata",
+              "sk-SK": "Trvanie",
+              "sl-SI": "Trajanje",
+              "sv-SE": "Varaktighet"
+            },
+            description: {
+              "pt-PT": "Descrição",
+              "fr-FR": "Description",
+              "it-IT": "Descrizione",
+              "nl-NL": "Beschrijving",
+              "de-DE": "Beschreibung",
+              "es-ES": "Descripción",
+              "en-GB": "Description",
+              "bg-BG": "Описание",
+              "cs-CZ": "Popis",
+              "da-DK": "Beskrivelse",
+              "el-GR": "Περιγραφή",
+              "et-EE": "Kirjeldus",
+              "fi-FI": "Kuvaus",
+              "ga-IE": "Cur síos",
+              "hr-HR": "Opis",
+              "hu-HU": "Leírás",
+              "lb-LU": "Beschreiwung",
+              "lt-LT": "Aprašymas",
+              "lv-LV": "Apraksts",
+              "mt-MT": "Deskrizzjoni",
+              "pl-PL": "Opis",
+              "ro-RO": "Descriere",
+              "sk-SK": "Popis",
+              "sl-SI": "Opis",
+              "sv-SE": "Beskrivning"
+            },
+            noCookies: {
+              "pt-PT": "Sem cookies para exibir.",
+              "fr-FR": "Aucun cookie à afficher.",
+              "it-IT": "Nessun cookie da visualizzare.",
+              "nl-NL": "Geen cookies om weer te geven.",
+              "de-DE": "Keine Cookies zum Anzeigen.",
+              "es-ES": "No hay cookies para mostrar.",
+              "en-GB": "No cookies to display.",
+              "bg-BG": "Няма бисквитки за показване.",
+              "cs-CZ": "Žádné cookies k zobrazení.",
+              "da-DK": "Ingen cookies at vise.",
+              "el-GR": "Δεν υπάρχουν cookies για εμφάνιση.",
+              "et-EE": "Ei ole küpsiseid kuvamiseks.",
+              "fi-FI": "Ei evästeitä näytettäväksi.",
+              "ga-IE": "Níl fianáin le taispeáint.",
+              "hr-HR": "Nema kolačića za prikazivanje.",
+              "hu-HU": "Nincs cookie a megjelenítéshez.",
+              "lb-LU": "Keng Cookies ze weisen.",
+              "lt-LT": "Nėra slapukų rodyti.",
+              "lv-LV": "Nav sīkdatņu, ko attēlot.",
+              "mt-MT": "M'hemmx cookies li turi jiġu wrejna.",
+              "pl-PL": "Brak ciasteczek do wyświetlenia.",
+              "ro-RO": "Nu sunt cookies de afișat.",
+              "sk-SK": "Žiadne cookies na zobrazenie.",
+              "sl-SI": "Ni piškotkov za prikazati.",
+              "sv-SE": "Inga cookies att visa."
+            }
+          }
+
+          const durationText = translationTextsMap.duration[selectedLanguage];
+          const descriptionText = translationTextsMap.description[selectedLanguage];
+          const noCookiesText = translationTextsMap.noCookies[selectedLanguage];
+
+
+          let tableContent = c.cookies.reduce((acc, cur) => {
+          const localeValue = cur?.locale?.[selectedLanguage] || ''; 
+            const element = `<ul class=cookiepal-cookie-des-table><li><div>Cookie</div><div>${cur.cookieID}</div><li><div>${durationText}</div><div>${cur.duration}</div><li><div>${descriptionText}</div><div><p>${localeValue}</div></ul>`;
+            return element + acc;
+          }, "");
+
+          if (!tableContent) {
+            tableContent = `<p class="cookiepal-empty-cookies-text">${noCookiesText}</p>`;
+          }
+
+          document
+            .querySelector(
+              `#cookiepalDetailCategory${c.slug} [data-cookiepal-tag="audit-table"]`,
+            )
+            .insertAdjacentHTML("beforeend", tableContent);
+        });
+      };
+
+      const acceptCookies = async (choice = "all") => {
+        const activeLaw = "gdpr";
+
+      const responseCategories = {
+        accepted: [],
+        rejected: [],
+      };
+
+        setConfigCookie("action", "yes");
+        const consent = choice === "reject" ? "no" : "yes";
+        setConfigCookie("consent", consent);
+
+        instance.categories
+          .filter((c) => c.slug !== 'excluded')
+          .forEach((category) => {
+            const valueToSet =
+              activeLaw === "gdpr" &&
+              !category.isNecessary &&
+              (choice === "reject" ||
+                (choice === "custom" && !isCategoryChecked(category.slug)))
+                ? "no"
+                : "yes";
+
+            setConfigCookie(`${category.slug}`, valueToSet);
+
+            if (valueToSet === "no") {
+              responseCategories.rejected.push(category.slug);
+              removeCookies(category);
+            } else {
+              responseCategories.accepted.push(category.slug);
+            }
+          });
+        setIABConsent(choice);
+        setCategorySelections(false);
+        unblockScripts();
+	      triggerEvent('cookiepal_consent_update',responseCategories)
+        await updateGCMStatus(false);
+
+        await handleVendors();
+
+        if(isCrawling()) return;
+
+        await saveConsentLog({ consentId: instance.consentId });
+      };
+
+      // Tcf
+      function setIABGoogleState(googleVendorsConsents) {
+        if (!tcfEnabled) return;
+        instance.tcf.addtlConsent = `1~${googleVendorsConsents.join(".")}`;
+      }
+
+      function setIABConsent(choice = "all") {
+        if (!tcfEnabled) return;
+        if (choice === "all") {
+          instance.tcf.model.purposeLegitimateInterests.set([
+            2, 7, 8, 9, 10, 11,
+          ]);
+          instance.tcf.model.setAllPurposeConsents();
+          instance.tcf.model.setAllSpecialFeatureOptins();
+          instance.tcf.model.setAllVendorLegitimateInterests();
+          instance.tcf.model.setAllVendorConsents();
+          if (acModeEnabled)
+            setIABGoogleState(
+              Array.from(instance.tcf.model.gvl.googleVendorIds),
+            );
+        } else {
+          instance.tcf.model.unsetAll();
+          if (acModeEnabled) setIABGoogleState([]);
+          if (choice === "custom") {
+            const [
+              purposeList,
+              purposeLegitimateInterestList,
+              specialFeaturesList,
+              vendorConsentList,
+              vendorLegitimateInterestList,
+              googleVendorList,
+            ] = getIABUIChoices();
+
+            instance.tcf.model.purposeLegitimateInterests.set(
+              purposeLegitimateInterestList,
+            );
+            instance.tcf.model.purposeConsents.set(purposeList);
+            instance.tcf.model.specialFeatureOptins.set(specialFeaturesList);
+            instance.tcf.model.vendorConsents.set(vendorConsentList);
+            instance.tcf.model.vendorLegitimateInterests.set(
+              vendorLegitimateInterestList,
+            );
+            if (acModeEnabled) setIABGoogleState(googleVendorList);
+          }
+        }
+        populateTabSelectionsIntoUI();
+        const euConsentCookie = acModeEnabled
+          ? `${tcStringUtils().encodeTcString()},${encodeAcString(instance.tcf.addtlConsent ?? "")}`
+          : tcStringUtils().encodeTcString();
+        createCookie("euconsent", euConsentCookie, 365);
+      }
+
+      const tcStringUtils = () => {
+        const decodeTcString = (encodedTcString) => cmpModules.TCString.decode(encodedTcString);
+        const encodeTcString = () => cmpModules.TCString.encode(instance.tcf.model);
+        return {
+          decodeTcString,
+          encodeTcString,
+        };
+      };
+
+      function replaceAllWithPattern(string, regex, callback) {
+        return string.replace(regex, callback);
+      }
+
+      // Ac Mode Related
+      const acModeMap = new Map([
+        [".1.", "k"],
+        [".2.", "l"],
+        [".3.", "m"],
+        [".4.", "n"],
+        [".5.", "o"],
+        [".6.", "p"],
+        [".7.", "q"],
+        [".8.", "r"],
+        [".9.", "s"],
+        [".10.", "t"],
+        [".11.", "u"],
+        ["00", "v"],
+        ["k1", "a"],
+        ["k2", "b"],
+        ["k3", "c"],
+        ["k4", "d"],
+        ["k5", "e"],
+        ["v.", "f"],
+        ["12", "w"],
+        ["13", "x"],
+        ["14", "y"],
+        ["15", "z"],
+      ]);
+
+      const encodeAcString = (acString) => {
+        let sections = acString.split("~");
+        if (!sections[1] || acString.length < 1200) return acString;
+        const atpList = sections[1].split(".");
+        // Convert each ATP ID by subtracting the previous one (except the first).
+        sections[1] = atpList.reduce((encodedList, currentId, index) => {
+          if (index > 0) {
+            encodedList = `${encodedList}.${Number(currentId) - Number(atpList[index - 1])}`;
+          }
+          return encodedList;
+        }, atpList[0]);
+
+        // Apply character replacements based on a predefined map.
+        sections[1] = Array.from(acModeMap.entries()).reduce(
+          (encodedString, [originalChar, replacementChar]) => {
+            return encodedString.split(originalChar).join(replacementChar);
+          },
+          sections[1],
+        );
+
+        // Replace sequences of 'f' with a pattern based on a custom function.
+        sections[1] = `_${replaceAllWithPattern(
+          sections[1],
+          /(f[0-9]){3,}/g,
+          (match) => replaceContent(`G${match}g`, "f", ""),
+        )}`;
+
+        // Rejoin the sections with the '~' delimiter and return the result.
+        return sections.join("~");
+      };
+
+      const decodeAcString = (acString) => {
+        const sections = acString.split("~");
+        if (!sections[1] || sections[1][0] !== "_") return acString;
+        // Remove the leading "_" and replace the encoded sequences.
+        sections[1] = replaceAllWithPattern(
+          sections[1].slice(1),
+          /G([0-9]+)g/g,
+          (match) => replaceContent(match.slice(1, -1), "", "f").slice(0, -1),
+        );
+        const reversedMap = new Map(
+          Array.from(acModeMap, (pair) => pair.reverse()).reverse(),
+        );
+        // Replace the characters in the string according to the reversed map.
+        sections[1] = Array.from(reversedMap.entries()).reduce(
+          (decodedString, [originalChar, replacementChar]) => {
+            return decodedString.split(originalChar).join(replacementChar);
+          },
+          sections[1],
+        );
+
+        // Recalculate the ATP IDs by reversing the delta encoding.
+        const atpList = sections[1].split(".");
+        sections[1] = atpList.reduce((decodedList, currentId, index) => {
+          if (index > 0) {
+            decodedList = `${decodedList}.${Number(decodedList.split(".").pop()) + Number(currentId)}`;
+          }
+          return decodedList;
+        }, atpList[0]);
+
+        // Rejoin the sections with the "~" delimiter and return the result.
+        return sections.join("~");
+      };
+
+      const createTcModel = (gvl) => {
+        const tcModel = new cmpModules.TCModel(gvl);
+        tcModel.purposeLegitimateInterests.set([2, 7, 8, 9, 10, 11]);
+        tcModel.setAllVendorLegitimateInterests();
+        return tcModel;
+      };
+
+      const validateTcModel = (currentTcString, gvl) => {
+        const tcModel = tcStringUtils().decodeTcString(currentTcString);
+        // Invalidate tc strings with that have old policy versions
+        if (tcModel.policyVersion < gvl.policyVersion) {
+          const newTcModel = createTcModel(gvl);
+          createCookie("euconsent", "", 0);
+          setConfigCookie("action", "");
+          return { tcModel: newTcModel, outdated: true };
+        }
+        return { tcModel, outdated: false };
+      };
+
+      const initTcModel = (gvl) => {
+        const settings = {
+          cmpId: instance.tcf.cmpId,
+          cmpVersion: 1,
+          isServiceSpecific: true,
+        };
+        const currentTcString = instance.tcf.previousTcString;
+        const currentAcString = instance.tcf.previousAcString;
+
+        let tcModel = null;
+
+        if (currentTcString) {
+          const { tcModel: tcModelReturned, outdated } = validateTcModel(
+            currentTcString,
+            gvl,
+          );
+          tcModel = tcModelReturned;
+          if (!outdated) tcModel.gvl = gvl;
+        } else {
+          tcModel = createTcModel(gvl);
+        }
+
+        if (currentTcString && currentAcString && acModeEnabled) {
+          instance.tcf.addtlConsent = currentAcString;
+        }
+
+        tcModel.cmpId = settings.cmpId;
+        tcModel.cmpVersion = settings.cmpVersion;
+        tcModel.isServiceSpecific = settings.isServiceSpecific;
+        instance.tcf.model = tcModel;
+      };
+
+      const initGvl = async () => {
+        if (!tcfEnabled) return;
+        
+        // loads GVL file from CDN
+        const gvlUrl = `https://${cloudfrontDomain}/lib/tcf/gvl/${selectedLanguage}.json`;
+        const response = await fetch(gvlUrl);
+        const gvlJson = await response.json();
+
+        // manually get google vendors as they are not parsed by the GVL class
+        const googleVendors = gvlJson.googleVendors || [];
+        // load GVL class
+        const gvl = new cmpModules.GVL(gvlJson);
+
+        // set google vendors
+        gvl.googleVendors = googleVendors;
+        return gvl;
+      };
+
+      const setupTcf = async () => {
+        if (!tcfEnabled) return;
+        const gvl = await initGvl();
+        initTcModel(gvl);
+      };
+
+      const initCmpAPI = () => {
+        if (!tcfEnabled) return;
+        const cmpApi = new cmpModules.CmpApi(instance.tcf.cmpId, 1, true, {
+          getTCData: (next, tcData, status) => {
+            /* getTcData command is also called on removeListener event */
+            if (typeof tcData !== "boolean") {
+              // Enable consent mode integration
+              if (googleAdvertiserModeEnabled)
+                tcData.enableAdvertiserConsentMode = true;
+
+              if (acModeEnabled)
+                tcData.addtlConsent = instance.tcf.addtlConsent;
+            }
+            next(tcData, status);
+          },
+        });
+
+        instance.tcf.api = cmpApi;
+      };
+
+      const updateIABStubStatus = ({ showUI = true, disabled }) => {
+        if (!tcfEnabled) return;
+        instance.tcf.api.update(
+          disabled ? "" : tcStringUtils().encodeTcString(),
+          showUI,
+        );
+      };
+
+      const getLengthFromObj = (obj) => {
+        return Object.values(obj).length;
+      };
+
+      function replaceAndGenerateText(content) {
+        const replaceKey = (key, value = null, treatment = 1) => {
+          const processedKey =
+            treatment === 1 || value === null ? `[${key}]` : key;
+          content = replaceContent(content, processedKey, value);
+        };
+        const getHTML = () => content;
+        return {
+          replaceKey,
+          getHTML,
+        };
+      }
+
+      const getTcModelDataForUI = (type, purpose) => {
+        const LEGITIMATE_INTERESTS = [2, 7, 8, 9, 10, 11];
+        const { id, name, description, illustrations } = purpose;
+        const shouldToggle = !["special_purposes", "features"].some(
+          (item) => item === type,
+        );
+        const isNotSpecialFeature = type !== "special_features";
+        const hasConsentToggle = shouldToggle;
+        const hasLegIntToggle =
+          shouldToggle &&
+          isNotSpecialFeature &&
+          LEGITIMATE_INTERESTS.includes(id);
+
+        let count;
+
+        switch (type) {
+          case "purposes":
+            count =
+              getLengthFromObj(
+                instance.tcf.model.gvl.getVendorsWithConsentPurpose(id),
+              ) +
+              getLengthFromObj(
+                instance.tcf.model.gvl.getVendorsWithLegIntPurpose(id),
+              );
+            break;
+          case "special_purposes":
+            count = getLengthFromObj(
+              instance.tcf.model.gvl.getVendorsWithSpecialPurpose(id),
+            );
+            break;
+          case "features":
+            count = getLengthFromObj(
+              instance.tcf.model.gvl.getVendorsWithFeature(id),
+            );
+            break;
+          case "special_features":
+            count = getLengthFromObj(
+              instance.tcf.model.gvl.getVendorsWithSpecialFeature(id),
+            );
+            break;
+
+          default:
+            count = 0;
+        }
+
+        return {
+          id,
+          name,
+          userFriendlyText: description,
+          illustrations,
+          hasLegIntToggle,
+          hasConsentToggle,
+          seekCount: count,
+        };
+      };
+
+      const populatePurposeFeatureTab = () => {
+        const purposes = Object.values(instance.tcf.model.gvl.purposes);
+        const specialPurposes = Object.values(
+          instance.tcf.model.gvl.specialPurposes,
+        );
+        const features = Object.values(instance.tcf.model.gvl.features);
+        const specialFeatures = Object.values(
+          instance.tcf.model.gvl.specialFeatures,
+        );
+
+        instance.tcf.purposeFeaturesTabs = [
+          {
+            id: 1,
+            name: t.preferenceCentre.common.purpose,
+            type: "purposes",
+            shouldToggle: true,
+            data: purposes.map((purpose) =>
+              getTcModelDataForUI("purposes", purpose),
+            ),
+          },
+          {
+            id: 2,
+            name: t.preferenceCentre.common.specialPurpose,
+            type: "special_purposes",
+            shouldToggle: false,
+            data: specialPurposes.map((specialPurpose) =>
+              getTcModelDataForUI("special_purposes", specialPurpose),
+            ),
+          },
+          {
+            id: 3,
+            name: t.preferenceCentre.common.feature,
+            type: "features",
+            shouldToggle: false,
+            data: features.map((feature) =>
+              getTcModelDataForUI("features", feature),
+            ),
+          },
+          {
+            id: 4,
+            name: t.preferenceCentre.common.specialFeature,
+            type: "special_features",
+            shouldToggle: true,
+            data: specialFeatures.map((specialFeature) =>
+              getTcModelDataForUI("special_features", specialFeature),
+            ),
+          },
+        ];
+      };
+
+      function getVendorData(list, filter, dataRetention) {
+        return Object.values(list)
+          .filter((purpose) => filter.includes(purpose.id))
+          .map((purpose) => {
+            const response = {
+              name: purpose.name,
+            };
+            if (dataRetention)
+              response[dataRetention] = dataRetention.purposes[purpose.id] || 0;
+            return response;
+          });
+      }
+
+      function populateThirdPartyListsTab() {
+        const vendors = Object.values(instance.tcf.model.gvl.vendors);
+        const googleVendors = acModeEnabled
+          ? Object.values(instance.tcf.model.gvl.googleVendors)
+          : [];
+
+        instance.tcf.thirdPartyListsTab = [
+          {
+            id: 1,
+            name: t.preferenceCentre.vendorsTab.titles.thirdPartyVendors,
+            type: "third_party",
+            shouldToggle: true,
+            data: vendors.map((vendor) => ({
+              id: vendor.id,
+              name: vendor.name,
+              privacyLink: vendor.urls[0].privacy,
+              legitimateInterestLink: vendor.urls[0].legIntClaim,
+              hasConsentToggle: !!vendor.purposes.length,
+              hasLegIntToggle: !!vendor.legIntPurposes.length,
+              totalRetentionPeriod: vendor.dataRetention.stdRetention || 0,
+              dataCategories: getVendorData(
+                instance.tcf.model.gvl.dataCategories,
+                vendor.dataDeclaration || [],
+              ),
+              purposesForConsent: getVendorData(
+                instance.tcf.model.gvl.purposes,
+                vendor.purposes,
+                vendor.dataRetention,
+              ),
+              purposesForLegitimateInterest: getVendorData(
+                instance.tcf.model.gvl.purposes,
+                vendor.legIntPurposes,
+                vendor.dataRetention,
+              ),
+              specialPurposes: getVendorData(
+                instance.tcf.model.gvl.specialPurposes,
+                vendor.specialPurposes,
+              ),
+              features: getVendorData(
+                instance.tcf.model.gvl.features,
+                vendor.features,
+              ),
+              specialFeatures: getVendorData(
+                instance.tcf.model.gvl.specialFeatures,
+                vendor.specialFeatures,
+              ),
+              deviceDisclosureURL: vendor.deviceStorageDisclosureUrl,
+              cookieStorageMethod:
+                vendor.usesNonCookieAccess && vendor.usesCookies
+                  ? "others"
+                  : "cookie",
+              maximumCookieDuration:
+                vendor.cookieMaxAgeSeconds / (60 * 60 * 24),
+              isCookieRefreshed: vendor.cookieRefresh,
+            })),
+            isGoogleVendor: false,
+          },
+        ];
+
+        if (acModeEnabled)
+          instance.tcf.thirdPartyListsTab.push({
+            id: 2,
+            name: t.preferenceCentre.vendorsTab.titles.googleAdTechProviders,
+            type: "google_ad",
+            shouldToggle: true,
+            data: googleVendors.map((vendor) => ({
+              id: vendor.id,
+              name: vendor.name,
+              privacyLink: vendor.privacy,
+              legitimateInterestLink: "",
+              hasConsentToggle: true,
+              hasLegIntToggle: false,
+              totalRetentionPeriod: 0,
+              dataCategories: [],
+              purposesForConsent: [],
+              purposesForLegitimateInterest: [],
+              specialPurposes: [],
+              features: [],
+              specialFeatures: [],
+              deviceDisclosureURL: "",
+              cookieStorageMethod: "",
+              maximumCookieDuration: 0,
+              isCookieRefreshed: false,
+            })),
+            isGoogleVendor: true,
+          });
+      }
+
+      function cleanActiveClasses(
+        list,
+        keyPrefix,
+        selectedItemID,
+        accordionClass = ".cookiepal-accordion-btn",
+      ) {
+        const itemIDsWithClass = [];
+        const activeClass = "cookiepal-accordion-active";
+        list.forEach((currItem) => {
+          if (currItem.id === selectedItemID) return;
+          const currentItemID = `${keyPrefix}${currItem.id}`;
+          if (
+            classHas({
+              selector: currentItemID,
+              className: activeClass,
+              forParent: false,
+            })
+          ) {
+            itemIDsWithClass.push(currentItemID);
+          }
+        });
+        itemIDsWithClass.forEach((currItemID) => {
+          classRemove({
+            selector: currItemID,
+            className: activeClass,
+            forParent: false,
+          });
+          toggleAriaExpand(`${currItemID} ${accordionClass}`, "false");
+        });
+      }
+
+      const setIABDropdownListeners = (list, keySelected, keySelectedClass) => {
+        list.forEach((item) => {
+          const keySelectedId = `${keySelected}${item.id}`;
+          const selector = `${keySelectedId} > ${keySelectedClass}`;
+          attachListener(selector, () => {
+            const buttonSelector = `${keySelectedId} .cookiepal-accordion-btn`;
+            // Check for active classes
+            const activeClass = "cookiepal-accordion-active";
+            if (
+              !classToggle({
+                selector,
+                className: activeClass,
+              })
+            ) {
+              toggleAriaExpand(buttonSelector, "false");
+            }
+            toggleAriaExpand(buttonSelector, "true");
+            cleanActiveClasses(list, keySelected, item.id);
+          });
+
+          if (item.data.length) {
+            const keySelectedIdItem = `${keySelectedId}Item`;
+            attachListener(
+              `${keySelectedId} > .cookiepal-accordion-body`,
+              ({ target }) => {
+                const sectionOfAction = item.data.find((item) => {
+                  const parentElement = document.querySelector(
+                    `${keySelectedIdItem}${item.id} > .cookiepal-child-accordion-item`,
+                  );
+                  return parentElement.contains(target);
+                });
+                if (!sectionOfAction) return;
+                const keySelectedIdSubSection = `${keySelectedIdItem}${sectionOfAction.id}`;
+                const accordionButtonSelectorSub = `${keySelectedIdSubSection} .cookiepal-child-accordion-btn`;
+                if (
+                  !classToggle({
+                    selector: `${keySelectedIdSubSection} > .cookiepal-child-accordion-item`,
+                    className: "cookiepal-accordion-active",
+                  })
+                )
+                  return toggleAriaExpand(accordionButtonSelectorSub, "false");
+
+                toggleAriaExpand(accordionButtonSelectorSub, "true");
+
+                cleanActiveClasses(
+                  item.data,
+                  keySelectedIdItem,
+                  sectionOfAction.id,
+                  ".cookiepal-child-accordion-btn",
+                );
+              },
+            );
+          }
+        });
+      };
+
+      const createPurposeFeatureSection = () => {
+        const iabFeaturePurposeIdPattern = "cookiepalIABPurposeFeatureSection";
+        let sectionHTML = "";
+
+        instance.tcf.purposeFeaturesTabs.forEach((purposeFeatureTab) => {
+          const { id: purposeFeatureId, name, shouldToggle, data } = purposeFeatureTab;
+          let itemsHTML = "";
+
+          data.forEach((purposeFeatureItem) => {
+            const {
+              id,
+              name,
+              userFriendlyText,
+              illustrations,
+              hasLegIntToggle,
+              hasConsentToggle,
+              seekCount,
+            } = purposeFeatureItem;
+            const purposeFeatureItemID = `${iabFeaturePurposeIdPattern}${purposeFeatureId}Item${id}`;
+
+            const purposeFeatureItemIllustrationElement = illustrations.length 
+              ? `
+                <div class=cookiepal-iab-illustrations>
+                  <p class=cookiepal-iab-illustrations-title>${t.preferenceCentre.purposesAndFeaturesTab.illustrationTitle}</p>
+                  <ul class=cookiepal-iab-illustrations-des>
+                    ${illustrations.map(illustration => `<li>${illustration}</li>`).join("")}
+                  </ul>
+                </div>` 
+              : '';
+
+            const itemVendorCountElement = `
+            <p class="cookiepal-iab-vendors-count-wrapper">
+              ${hasLegIntToggle
+                  ? t.preferenceCentre.purposesAndFeaturesTab.vendorsMessage.withLegitimateInterest
+                  : t.preferenceCentre.purposesAndFeaturesTab.vendorsMessage.onlyConsent
+              } ${seekCount}
+            </p>`;
+
+            const purposeFeatureItemLegIntToggleElement = `
+            <div class=cookiepal-legitimate-switch-wrapper style="color: ${descriptionColor}">
+              <div class=cookiepal-switch-label>${t.preferenceCentre.common.legitimateInterest}</div>
+              <div class=cookiepal-switch-sm>
+                <input id=${purposeFeatureItemID}ToggleLegitimate type=checkbox>
+              </div>
+            </div>`;
+
+            const purposeFeatureItemConsentToggleElement = `
+            <div class=cookiepal-consent-switch-wrapper style="color :${descriptionColor}">
+              <div class=cookiepal-switch-label>${t.preferenceCentre.common.consent}</div>
+              <div class=cookiepal-switch-sm><input id=${purposeFeatureItemID}ToggleConsent type=checkbox></div>
+            </div>`;
+
+            // append final item
+            itemsHTML += `
+              <div class=cookiepal-child-accordion id="${purposeFeatureItemID}">
+                <div class=cookiepal-child-accordion-item>
+                    <div class=cookiepal-child-accordion-chevron><i class=cookiepal-chevron-right></i></div>
+                    <div class=cookiepal-child-accordion-header-wrapper>
+                      <button aria-expanded=false class=cookiepal-child-accordion-btn>${name}</button>
+                      <div class=cookiepal-switch-wrapper>
+                        ${hasLegIntToggle
+                          ? purposeFeatureItemLegIntToggleElement
+                          : ""} 
+                        ${hasConsentToggle
+                          ? purposeFeatureItemConsentToggleElement
+                          : ""}
+                      </div>
+                    </div>
+                </div>
+                <div class=cookiepal-child-accordion-body>
+                    <div class=cookiepal-iab-ad-settings-details>
+                      <p class=cookiepal-iab-ad-settings-details-des>${userFriendlyText}</p>
+                      ${purposeFeatureItemIllustrationElement} ${itemVendorCountElement}
+                    </div>
+                </div>
+              </div>
+            `;
+          });
+
+          const purposeFeatureSectionID = `${iabFeaturePurposeIdPattern}${purposeFeatureId}` 
+          sectionHTML += `
+            <div class=cookiepal-accordion id="${purposeFeatureSectionID}">
+              <div class=cookiepal-accordion-iab-item>
+                  <div class=cookiepal-accordion-chevron><i class=cookiepal-chevron-right></i></div>
+                  <div class=cookiepal-accordion-header-wrapper>
+                    <div class=cookiepal-accordion-header>
+                      <button aria-expanded=false class=cookiepal-accordion-btn>
+                        ${name} (${purposeFeatureTab.data.length})
+                      </button> 
+                      ${shouldToggle 
+                        ? `<div class=cookiepal-switch>
+                            <input id="${purposeFeatureSectionID}Toggle" type=checkbox>
+                          </div>` 
+                        : ""}
+                    </div>
+                  </div>
+              </div>
+              <div class=cookiepal-accordion-body>${itemsHTML}</div>
+            </div>
+          `;
+        });
+
+        return sectionHTML;
+      };
+
+      const createPurposeListElement = ({ list, title }) => list.length > 0 ? `
+        <div class="cookiepal-vendor-purposes-section">
+          <p class="cookiepal-vendor-purposes-title">Purposes (${title})</p>
+          <ul class="cookiepal-vendor-purposes-list">
+              ${list.map((purpose) => {
+                const hasDataRetention = purpose.dataRetention > 0;
+                const retentionMessage = hasDataRetention
+                  ? `
+                    <span class="cookiepal-vendor-data-retention-value">
+                      Data Retention Period:&nbsp;${purpose.dataRetention}&nbsp;days
+                    </span>`
+                  : "";
+
+                return `<li>${purpose.name}${retentionMessage ? ` (${retentionMessage})` : ""}</li>`;
+              }).join("")
+            }
+          </ul>
+        </div>
+      ` : "";
+
+      // Special Purposes, Features, Special Features, Data categories
+      const createVendorListElement = ({ title, items, classType }) => {
+        if (!items.length) return "";
+        const listEl = items.map((item) => `<li>${item.name}</li>`).join("");
+        return `
+          <div class="cookiepal-vendor-${classType}-section">
+            <p class="cookiepal-vendor-${classType}-title">${title}</p>
+            <ul class="cookiepal-vendor-${classType}-list">
+              ${listEl}
+            </ul> 
+          </div>`;
+      };
+
+      const createVendorSectionItemElement = ({ item, vendorItemID, isGoogleVendor }) => {
+        const vendorItemConsentToggle = `
+          <div class="cookiepal-consent-switch-wrapper">
+            <div class="cookiepal-switch-label" style="color: ${descriptionColor}">
+              ${t.preferenceCentre.common.consent}
+            </div>
+            <div class="cookiepal-switch-sm">
+              <input type="checkbox" id="${vendorItemID}ToggleConsent" />
+            </div>
+          </div>`;
+
+        const vendorItemLegIntToggle = `
+          <div class="cookiepal-legitimate-switch-wrapper">
+            <div class="cookiepal-switch-label" style="color : ${descriptionColor}">
+              ${t.preferenceCentre.common.legitimateInterest}
+            </div>
+            <div class="cookiepal-switch-sm">
+              <input type="checkbox" id="${vendorItemID}ToggleLegitimate"/>
+            </div>
+          </div>`;
+
+        const vendorItemPolicyLinkElement = `
+          <p class="cookiepal-vendor-legitimate-link">
+            <span class="cookiepal-vendor-legitimate-link-title">
+              ${t.preferenceCentre.vendorsTab.privacyPolicy}:
+            </span>
+            &nbsp; <a href="${item.privacyLink}" target="_blank" rel="noopener noreferrer">
+            ${item.privacyLink} 
+            <img class="external-link-img" src="${externalLinkSrc}" alt="external link"/>
+            </a>
+          </p>`;
+
+        const vendorItemLegIntLinkElement = item.legitimateInterestLink
+          ? `
+          <p class="cookiepal-vendor-legitimate-link">
+            <span class="cookiepal-vendor-legitimate-link-title">
+              ${t.preferenceCentre.vendorsTab.legitimateInterestClaim}:
+            </span>&nbsp;
+            <a href="${item.legitimateInterestLink}" target="_blank" rel="noopener noreferrer">
+              ${item.legitimateInterestLink}
+              <img class="external-link-img" src="${externalLinkSrc}" alt="external link"/>
+            </a>
+          </p>`
+          : "";
+
+        const vendorItemDataRetentionElement = item.totalRetentionPeriod
+          ? `
+          <p class="cookiepal-vendor-data-retention-section">
+            <span class="cookiepal-vendor-data-retention-value">
+              ${t.preferenceCentre.vendorsTab.dataRetentionPeriod.replace(
+                "||DATA_RETENTION_PERIOD||",
+                item.totalRetentionPeriod
+              )}
+            </span>
+          </p>`
+          : "";
+
+        const purposeConsentListElement = createPurposeListElement({
+          title: t.preferenceCentre.common.consent,
+          list: item.purposesForConsent,
+        });
+
+        const purposeLegitimateIntListElement = createPurposeListElement({
+          title: t.preferenceCentre.common.legitimateInterest,
+          list: item.purposesForLegitimateInterest,
+        });
+
+        const specialPurposeList = createVendorListElement({
+          title: t.preferenceCentre.common.specialPurpose,
+          items: item.specialPurposes,
+          classType: "special-purposes",
+        });
+
+        const featuresList = createVendorListElement({
+          title: t.preferenceCentre.common.feature,
+          items: item.features,
+          classType: "features",
+        });
+
+        const specialFeaturesList = createVendorListElement({
+          title: t.preferenceCentre.common.specialFeature,
+          items: item.specialFeatures,
+          classType: "special-features",
+        });
+
+        const dataCategoriesList = createVendorListElement({
+          title: t.preferenceCentre.common.dataCategories,
+          items: item.dataCategories,
+          classType: "categories",
+        });
+
+        const vendorItemDeviceOverview = !isGoogleVendor
+          ? `
+          <div class="cookiepal-vendor-storage-overview-section">
+            <p class="cookiepal-vendor-storage-overview-title">
+              ${t.preferenceCentre.vendorsTab.deviceStorageDisclosure}
+            </p>
+            <ul class="cookiepal-vendor-storage-overview-list">
+                <li>
+                  ${t.preferenceCentre.vendorsTab.deviceStorageDisclosureTrackingMethod}:&nbsp;
+                  ${
+                    item.cookieStorageMethod === "cookie"
+                      ? t.preferenceCentre.common.cookie
+                      : t.preferenceCentre.common.cookieAndOthers
+                  }
+              </li>
+                <li>${t.preferenceCentre.vendorsTab.maximumCookieDuration.replace(
+                  "||DURATION_DAYS||",
+                  item.maximumCookieDuration
+                )}</li>
+                <li>${
+                  item.isCookieRefreshed
+                    ? t.preferenceCentre.vendorsTab.cookieLifetimeRefreshed
+                    : t.preferenceCentre.vendorsTab.cookieLifetimeNotRefreshed
+                }</li>
+            </ul>
+          </div>`
+          : "";
+
+        const vendorItemShowMoreBtn = !isGoogleVendor
+          ? `
+          <button class="cookiepal-show-table-btn" id="${vendorItemID}DisclosureControl">
+            ${t.preferenceCentre.vendorsTab.showMore}
+          </button>`
+          : "";
+
+        return `
+          <div class="cookiepal-child-accordion" id="${vendorItemID}">
+            <div class="cookiepal-child-accordion-item">
+                <div class="cookiepal-child-accordion-chevron"><i class="cookiepal-chevron-right"></i></div>
+                <div class="cookiepal-child-accordion-header-wrapper">
+                  <button aria-expanded="false" class="cookiepal-child-accordion-btn">
+                    ${item.name}
+                  </button>
+                  <div class="cookiepal-switch-wrapper">
+                    ${item.hasLegIntToggle ? vendorItemLegIntToggle : ""} 
+                    ${item.hasConsentToggle ? vendorItemConsentToggle : ""}
+                  </div>
+                </div>
+            </div>
+            <div class=cookiepal-child-accordion-body>
+                <div class=cookiepal-iab-ad-settings-details>
+                  <div class=cookiepal-vendor-wrapper>
+                    ${vendorItemPolicyLinkElement} 
+                    ${vendorItemLegIntLinkElement}
+                    ${vendorItemDataRetentionElement}
+                    ${purposeConsentListElement}${purposeLegitimateIntListElement} 
+                    ${specialPurposeList} 
+                    ${featuresList} 
+                    ${specialFeaturesList} 
+                    ${dataCategoriesList} 
+                    ${vendorItemDeviceOverview}
+                    ${vendorItemShowMoreBtn}
+                  </div>
+                </div>
+            </div>
+          </div>
+        `;
+      };
+
+      const createVendorsSection = () => {
+        let sectionHtml = ``;
+        const iabVendorIdPattern = "cookiepalIABVendorSection";
+        instance.tcf.thirdPartyListsTab.forEach((sectionItem) => {
+          const { id: vendorId, name, data, isGoogleVendor } = sectionItem;
+
+          const itemsHtml = data.reduce((html, item) => {
+            const vendorItemID = `${iabVendorIdPattern}${vendorId}Item${item.id}`;
+            return html + createVendorSectionItemElement({ vendorItemID, isGoogleVendor, item });
+          }, '');
+
+          const vendorSectionID = `${iabVendorIdPattern}${vendorId}`;
+
+          const vendorSectionToggle = `
+            <div class="cookiepal-switch"> 
+              <input type="checkbox" id="${vendorSectionID}Toggle"/>
+            </div>`;
+
+          const vendorSectionHTML = `
+            <div class="cookiepal-accordion" id="${vendorSectionID}">
+              <div class="cookiepal-accordion-iab-item">
+                <div class="cookiepal-accordion-chevron">
+                  <i class="cookiepal-chevron-right"></i>
+                </div>
+
+                <div class="cookiepal-accordion-header-wrapper">
+                  <div class="cookiepal-accordion-header">
+                    <button class="cookiepal-accordion-btn" aria-expanded="false"> 
+                      ${name} (${data.length}) 
+                    </button> 
+                    
+                    ${vendorSectionToggle} 
+                  </div>
+                </div>
+              </div>
+              <div class="cookiepal-accordion-body">${itemsHtml}</div>
+            </div>`;
+
+          sectionHtml += vendorSectionHTML;
+        });
+
+        return sectionHtml;
+      };
+
+      function openIABThirdPartyList(key) {
+        findElement("#cookiepalIABTabVendor").click();
+
+        if (!key)
+          return instance.tcf.thirdPartyListsTab.forEach((item) =>
+            classRemove({
+              selector: `#cookiepalIABVendorSection${item.id}`,
+              className: "cookiepal-accordion-active",
+              forParent: false,
+            }),
+          );
+        if (
+          classHas({
+            selector: `#cookiepalIABVendorSection${key}`,
+            className: "cookiepal-accordion-active",
+            forParent: false,
+          })
+        )
+          return;
+        findElement(
+          `#cookiepalIABVendorSection${key} > .cookiepal-accordion-iab-item`,
+        ).click();
+      }
+
+      const attachIABPreferenceButton = () => {
+        attachListener("#cookiepalIABPreferenceButton", () =>
+          openIABThirdPartyList(1),
+        );
+      };
+
+      const attachIABGoogleAcModeButton = () => {
+        attachListener("#cookiepalIABGACMPreferenceButton", () =>
+          openIABThirdPartyList(2),
+        );
+      };
+
+      const constructTcfUI = () => {
+        if(!tcfEnabled) return {};
+        populatePurposeFeatureTab();
+        populateThirdPartyListsTab();
+        const purposeFeatureSectionHtml = createPurposeFeatureSection();
+        const vendorSectionHtml = createVendorsSection();
+        return {
+          purposeFeatureSectionHtml,
+          vendorSectionHtml,
+        };
+      };
+
+      const attachIABTabListeners = () => {
+        const tabNames = ["Cookie", "Purpose", "Vendor"];
+        tabNames.forEach((tab) => {
+          const tabSelector = `#cookiepalIABTab${tab}`;
+          attachListener(tabSelector, () => {
+            if (
+              classHas({
+                selector: tabSelector,
+                className: "cookiepal-iab-nav-item-active",
+                forParent: false,
+              })
+            ) {
+              return;
+            }
+
+            classToggle({
+              selector: tabSelector,
+              className: "cookiepal-iab-nav-item-active",
+              forParent: false,
+            });
+
+            classToggle({
+              selector: `#cookiepalIABSection${tab}`,
+              className: "cookiepal-hide-ad-settings",
+              forParent: false,
+            });
+
+            tabNames
+              .filter((tabName) => tabName !== tab)
+              .forEach((filteredName) => {
+                classRemove({
+                  selector: `#cookiepalIABTab${filteredName}`,
+                  className: "cookiepal-iab-nav-item-active",
+                  forParent: false,
+                });
+                classAdd({
+                  selector: `#cookiepalIABSection${filteredName}`,
+                  className: "cookiepal-hide-ad-settings",
+                  forParent: false,
+                });
+              });
+          });
+        });
+      };
+
+      function setToggleElementChecked(key, value = true) {
+        const element = findElement(key);
+        if (!element) return;
+        element.checked = value;
+        element.dispatchEvent(new Event("change"));
+      }
+
+      function setToggleListener(key, parentToggle) {
+        const toggleElement = findElement(key);
+
+        if (!toggleElement) return;
+
+        const togglerSwitch = {
+          styles: {
+            activeColor: btnColor,
+            inactiveColor: "#D0D5D2",
+          },
+        };
+
+        setCheckBoxInfo(
+          toggleElement,
+          {
+            checked: toggleElement.checked,
+            addListeners: true,
+          },
+          togglerSwitch.styles,
+        );
+
+        attachListener(key, () => {
+          setToggleElementChecked(parentToggle, false);
+        });
+      }
+
+      function attachIABToggleListeners(list, key, allowedItems) {
+        const togglerSwitch = {
+          styles: {
+            activeColor: btnColor,
+            inactiveColor: "#D0D5D2",
+          },
+        };
+        list.forEach((section) => {
+          if (!allowedItems.includes(section.id)) return;
+          const sectionKey = `${key}${section.id}`;
+          const currentElement = findElement(`${sectionKey}Toggle`);
+
+          setCheckBoxInfo(
+            currentElement,
+            {
+              checked: currentElement.checked,
+              addListeners: true,
+            },
+            togglerSwitch.styles,
+          );
+
+          attachListener(`${sectionKey}Toggle`, () => {
+            section.data.forEach((item) => {
+              const itemKey = `${sectionKey}Item${item.id}`;
+              ["ToggleConsent", "ToggleLegitimate"].forEach((fieldName) =>
+                setToggleElementChecked(
+                  `${itemKey}${fieldName}`,
+                  currentElement.checked,
+                ),
+              );
+            });
+          });
+        });
+      }
+
+      function attachIABSectionClearToggleListeners(list, key, allowedItems) {
+        list.forEach((section) => {
+          if (!allowedItems.includes(section.id)) return;
+          const sectionKey = `${key}${section.id}`;
+          section.data.forEach((item) => {
+            const itemKey = `${sectionKey}Item${item.id}`;
+            ["ToggleConsent", "ToggleLegitimate"].forEach((fieldName) =>
+              setToggleListener(
+                `${itemKey}${fieldName}`,
+                `${sectionKey}Toggle`,
+              ),
+            );
+          });
+        });
+      }
+
+      const categorize = (source, target) => {
+        source.forEach((hasConsent, id) => {
+          target[hasConsent ? "allowed" : "rejected"].push(id);
+        });
+      };
+
+      const getUserVendors = () => {
+        const response = {
+          consent: {
+            allowed: [],
+            rejected: [],
+          },
+          legitimateInterest: {
+            allowed: [],
+            rejected: [],
+          },
+          allSectionIsChecked: false,
+        };
+
+        categorize(instance.tcf.model.vendorConsents, response.consent);
+        categorize(
+          instance.tcf.model.vendorLegitimateInterests,
+          response.legitimateInterest,
+        );
+
+        const vendorsWithPurpose = [];
+        const vendorsWithLegIntPurposes = [];
+
+        for (const vendor of Object.values(instance.tcf.model.gvl.vendors)) {
+          if (vendor.purposes.length !== 0) vendorsWithPurpose.push(vendor.id);
+          if (vendor.legIntPurposes.length !== 0)
+            vendorsWithLegIntPurposes.push(vendor.id);
+        }
+
+        response.allSectionIsChecked =
+          response.consent.allowed.length >= vendorsWithPurpose.length &&
+          response.legitimateInterest.allowed.length >=
+            vendorsWithLegIntPurposes.length;
+        return response;
+      };
+
+      const getUserConsentLegIntPurposes = () => {
+        const response = {
+          consent: {
+            allowed: [],
+            rejected: [],
+          },
+          legitimateInterest: {
+            allowed: [],
+            rejected: [],
+          },
+          allSectionIsChecked: false,
+        };
+
+        categorize(instance.tcf.model.purposeConsents, response.consent);
+        categorize(
+          instance.tcf.model.purposeLegitimateInterests,
+          response.legitimateInterest,
+        );
+
+        response.allSectionIsChecked =
+          response.consent.allowed.length ===
+          getLengthFromObj(instance.tcf.model.gvl.purposes);
+
+        return response;
+      };
+
+      const getUserConsentLegIntFeatures = () => {
+        const response = {
+          consent: {
+            allowed: [],
+            rejected: [],
+          },
+          allSectionIsChecked: false,
+        };
+
+        categorize(instance.tcf.model.specialFeatureOptins, response.consent);
+        response.allSectionIsChecked = response.consent.allowed.length === getLengthFromObj(instance.tcf.model.gvl.specialFeatures);
+
+        return response;
+      };
+
+      const getUserGoogleVendors = () => {
+        const response = {
+          consent: {
+            allowed: [],
+            rejected: [],
+          },
+          allSectionIsChecked: false,
+        };
+
+        const allowedGoogleVendors = {};
+
+        /* Get vendors allowed if ac string exists */
+        if (instance.tcf.addtlConsent) {
+          instance.tcf.addtlConsent
+            .split("~")[1]
+            .split(".")
+            .forEach((vendorId) => (allowedGoogleVendors[vendorId] = true));
+        }
+
+        Object.keys(instance.tcf.model.gvl.googleVendors).forEach((vendor) => {
+          allowedGoogleVendors[vendor]
+            ? response.consent.allowed.push(vendor)
+            : response.consent.rejected.push(vendor);
+        });
+
+        response.allSectionIsChecked =
+          response.consent.allowed.length ===
+          getLengthFromObj(instance.tcf.model.gvl.googleVendors);
+
+        return response;
+      };
+
+      const populateTabSelectionsIntoUI = () => {
+        const purposeData = getUserConsentLegIntPurposes();
+        const featureData = getUserConsentLegIntFeatures();
+        const vendorData = getUserVendors();
+
+        if (acModeEnabled) {
+          const googleVendorData = getUserGoogleVendors();
+          setToggleForList("cookiepalIABVendorSection2", googleVendorData);
+        }
+
+        setToggleForList("cookiepalIABVendorSection1", vendorData);
+        setToggleForList(`cookiepalIABPurposeFeatureSection1`, purposeData);
+        setToggleForList(`cookiepalIABPurposeFeatureSection4`, featureData);
+      };
+
+      function setToggleForListItem(listGroup, key, suffix) {
+        if (!listGroup) return;
+
+        for (const item of listGroup.allowed)
+          setToggleElementChecked(`#${key}Item${item}${suffix}`);
+
+        for (const item of listGroup.rejected)
+          setToggleElementChecked(`#${key}Item${item}${suffix}`, false);
+      }
+
+      function setToggleForList(key, { consent, legitimateInterest, allSectionIsChecked }) {
+        setToggleElementChecked(`#${key}Toggle`, allSectionIsChecked);
+        setToggleForListItem(consent, key, "ToggleConsent");
+        setToggleForListItem(legitimateInterest, key, "ToggleLegitimate");
+      }
+
+      const attachIABSectionListeners = (
+        list,
+        key,
+        allowedItems,
+        toggleClass,
+      ) => {
+        attachIABToggleListeners(list, key, allowedItems, toggleClass);
+        attachIABSectionClearToggleListeners(
+          list,
+          key,
+          allowedItems,
+          toggleClass,
+        );
+        setIABDropdownListeners(list, key, toggleClass);
+      };
+
+      const getShowMoreHtmlItems = () => {
+        const storageDisclosureItem = `<div class="cookiepal-vendor-storage-disclosure-section" id="[ITEM_ID]Disclosure"> <p class="cookiepal-vendor-storage-disclosure-title">Device Storage Disclosure</p><div class="cookiepal-audit-table cookiepal-vendor-audit-table" style="background-color: ${backgroundColor};">[CONTENT]</div></div>`;
+        const auditTable = `<ul class=cookiepal-cookie-des-table>[CONTENT_TABLE]</ul>`;
+        const loaderItem = `<p class="cookiepal-loader" id="[SHOW_MORE_ITEM_ID]Loader">Loading...</p>`;
+        const loaderError = `<p class="cookiepal-error-msg" id="[SHOW_MORE_ITEM_ID]LoadError">Something went wrong!</p>`;
+
+        return {
+          storageDisclosureItem,
+          auditTable,
+          loaderItem,
+          loaderError,
+        };
+      };
+
+      function setContentReplacingElement(element, template, key) {
+        const content = template.replace("[SHOW_MORE_ITEM_ID]", key);
+        element.insertAdjacentHTML("afterEnd", content);
+        element.remove();
+      }
+
+      const showMoreListener = (
+        url,
+        tabId,
+        itemId,
+        vendorItemTableLoader,
+        vendorItemTableLoadError,
+        vendorItemStorageDisclosure,
+        vendorAuditTable,
+      ) => {
+        const key = `cookiepalIABVendorSection${tabId}Item${itemId}`;
+        return async ({ target }) => {
+          setContentReplacingElement(target, vendorItemTableLoader, key);
+          const loaderElement = findElement(`#${key}Loader`);
+
+          try {
+            const response = await apiInstance(url);
+            const parsedResponse = await response.json();
+            if (
+              !parsedResponse ||
+              !parsedResponse.disclosures ||
+              !parsedResponse.disclosures.length
+            )
+              throw new Error(`Invalid disclosures`);
+            const disclosedItems = parsedResponse.disclosures.map(
+              (disclosure) => ({
+                name: disclosure.identifier,
+                type: disclosure.type,
+                duration: disclosure.maxAgeSeconds
+                  ? Math.round(disclosure.maxAgeSeconds / (60 * 60 * 24))
+                  : 0,
+                domain: disclosure.domains || [],
+                purpose: (disclosure.purposes || []).map(
+                  (id) => instance.tcf.model.gvl.purposes[id].name,
+                ),
+              }),
+            );
+
+            const { replaceKey, getHTML } = replaceAndGenerateText(
+              vendorItemStorageDisclosure,
+            );
+
+            const contentToInsert = disclosedItems.map((disclosure) => {
+              const tableItemContent = [
+                { title: t.preferenceCentre.common.name, key: "name" },
+                { title: t.preferenceCentre.common.type, key: "type" },
+                { title: t.preferenceCentre.common.duration, key: "duration" },
+                { title: t.preferenceCentre.common.domain, key: "domain" },
+                { title: t.preferenceCentre.common.purpose, key: "purpose" },
+              ].map((header) =>
+                `<li><div>${header.title}</div><div>${
+                  header.key === "purpose"
+                    ? `<ul class="cookiepal-purposes-list">${disclosure.purpose
+                        .map((purpose) => `<li>${purpose}</li>`)
+                        .join("")}</ul>`
+                    : header.key === "domain"
+                      ? disclosure.domain.join(",")
+                      : disclosure[header.key]
+                }</div></li>`).join("");
+
+              return vendorAuditTable.replace(
+                "[CONTENT_TABLE]",
+                tableItemContent,
+              );
+            });
+            replaceKey("CONTENT", contentToInsert.join(""));
+            setContentReplacingElement(loaderElement, getHTML(), key);
+          } catch (error) {
+            console.log(error);
+            setContentReplacingElement(
+              loaderElement,
+              vendorItemTableLoadError,
+              key,
+            );
+          }
+        };
+      };
+
+      const attachIABVendorShowMore = () => {
+        const { storageDisclosureItem, auditTable, loaderItem, loaderError } =
+          getShowMoreHtmlItems();
+
+        instance.tcf.thirdPartyListsTab.forEach((thirdPartyItem) => {
+          const { id: thirdPartyItemId } = thirdPartyItem;
+          thirdPartyItem.data.forEach((item) => {
+            const { deviceDisclosureURL, id: itemId } = item;
+            const selector = `#cookiepalIABVendorSection${thirdPartyItemId}Item${itemId}DisclosureControl`;
+
+            attachListener(
+              selector,
+              showMoreListener(
+                deviceDisclosureURL,
+                thirdPartyItemId,
+                itemId,
+                loaderItem,
+                loaderError,
+                storageDisclosureItem,
+                auditTable,
+              ),
+            );
+          });
+        });
+      };
+
+      const attachIABNoticeButton = () => {
+        attachListener("#cookiepalIABNoticeButton", () => {
+          toggleBannerDisplay(false);
+          togglePreferences();
+          openIABThirdPartyList(1);
+        });
+      };
+
+      const registerTcfListeners = () => {
+        populateTabSelectionsIntoUI();
+        attachIABTabListeners();
+        attachIABSectionListeners(
+          instance.tcf.purposeFeaturesTabs,
+          "#cookiepalIABPurposeFeatureSection",
+          [1, 4],
+          ".cookiepal-accordion-iab-item",
+        );
+        const iabVendorsToBeActivated = acModeEnabled ? [1, 2] : [1];
+
+        attachIABSectionListeners(
+          instance.tcf.thirdPartyListsTab,
+          "#cookiepalIABVendorSection",
+          iabVendorsToBeActivated,
+          ".cookiepal-accordion-iab-item",
+        );
+        attachIABVendorShowMore();
+        attachIABPreferenceButton();
+        attachIABNoticeButton();
+
+        if (acModeEnabled) attachIABGoogleAcModeButton();
+      };
+
+      /* Banner is being displayed again when user wants to update their preferences */
+      const openPreferences = () => {
+        updateIABStubStatus({
+          showUI: true,
+          disabled: false,
+        });
+        toggleBannerDisplay(false);
+        toggleRevisitBtn(false);
+        togglePreferences();
+      };
+      instance.api.openPreferences = openPreferences;
+
+      /* Banner will show revisit button or the initial layer depending on banner display-state */
+      const closePreferences = () => {
+        togglePreferences(false);
+        if (instance.ui.bannerDisplayState !== "revisit") {
+          updateIABStubStatus({
+            showUI: true,
+            disabled: false,
+          });
+          toggleBannerDisplay();
+          return;
+        }
+        updateIABStubStatus({
+          showUI: false,
+          disabled: false,
+        });
+        toggleRevisitBtn();
+      };
+      instance.api.closePreferences = closePreferences;
+
+      /* Banner will show second-layer (preferences) - Only when first layer is available */
+      const settingsHandler = () => {
+        toggleBannerDisplay(false);
+        togglePreferences();
+      };
+
+      /* Loaded at banner start */
+      const bannerHandler = (choice = "custom") => {
+        return async () => {
+          updateIABStubStatus({
+            showUI: false,
+            disabled: false,
+          });
+          toggleBannerDisplay(false);
+          togglePreferences(false, true);
+          toggleRevisitBtn();
+          await acceptCookies(choice);
+        };
+      };
+
+      function getChoicesForSection(key, list, sectionID) {
+        const legitimateItems = [];
+        const consentedItems = [];
+        list.forEach((item) => {
+          const consentToggleElement = findElement(
+            `#${key}${sectionID}Item${item.id}ToggleConsent`,
+          );
+          if (consentToggleElement && consentToggleElement.checked)
+            consentedItems.push(item.id);
+          const legitimateToggleElement = findElement(
+            `#${key}${sectionID}Item${item.id}ToggleLegitimate`,
+          );
+          if (legitimateToggleElement && legitimateToggleElement.checked)
+            legitimateItems.push(item.id);
+        });
+        return [consentedItems, legitimateItems];
+      }
+
+      function getIABUIChoices() {
+        const [purposeList, purposeLegitimateInterestList] =
+          getChoicesForSection(
+            "cookiepalIABPurposeFeatureSection",
+            instance.tcf.purposeFeaturesTabs[0].data,
+            1,
+          );
+
+        const [specialFeaturesList] = getChoicesForSection(
+          "cookiepalIABPurposeFeatureSection",
+          instance.tcf.purposeFeaturesTabs[3].data,
+          4,
+        );
+
+        const [vendorConsentList, vendorLegitimateInterestList] =
+          getChoicesForSection(
+            "cookiepalIABVendorSection",
+            instance.tcf.thirdPartyListsTab[0].data,
+            1,
+          );
+
+        const [googleVendorList] = getChoicesForSection(
+          "cookiepalIABVendorSection",
+          instance.tcf.thirdPartyListsTab[1].data,
+          2,
+        );
+
+        return [
+          purposeList,
+          purposeLegitimateInterestList,
+          specialFeaturesList,
+          vendorConsentList,
+          vendorLegitimateInterestList,
+          googleVendorList,
+        ];
+      }
+
+      const registerListeners = () => {
+        ["=accept-button", "=detail-accept-button"].map((key) =>
+          attachListener(key, bannerHandler("all")),
+        );
+        ["=reject-button", "=detail-reject-button"].map((key) =>
+          attachListener(key, bannerHandler("reject")),
+        );
+        ["=detail-save-button", "=de tail-category-preview-save-button"].map(
+          (key) => attachListener(key, bannerHandler()),
+        );
+        ["=settings-button", "=donotsell-button"].map((key) =>
+          attachListener(key, settingsHandler),
+        );
+        ["=optout-cancel-button", "=detail-close", "=optout-close"].map((key) =>
+          attachListener(key, closePreferences),
+        );
+        attachListener("=revisit-consent", openPreferences);
+      };
+
+      const shouldIncludePolicyLink = () => {
+        if (!cookiePolicyLink) return '';
+        return `<p>[COOKIE_NOTICE_COOKIE_LINK_TAKE_LOOK] <a class=cookiepal-cookie-policy-link href="${cookiePolicyLink}" style="color: [BTN_COLOR];" target=_blank>[COOKIE_NOTICE_COOKIE_LINK_TEXT]</a>[COOKIE_NOTICE_COOKIE_LINK_PAGE]</p>`;
+      }
+
+      const shouldIncludeGooglePolicyLink = () => {
+        if (!showGooglePrivacyLink) return '';
+        return `<div class="cookiepal-dma-content-wrapper data-cookiepal-tag="detail-dma-description" style="color: [DESCRIPTION_COLOR];"><p>[PREFERENCE_CENTRE_GOOGLE_TEXT] &nbsp;<a href="https://business.safety.google/privacy" class="cookiepal-policy" aria-label="[PREFERENCE_CENTRE_GOOGLE_TEXT_LINK]" target="_blank" rel="noopener" style="color: [BTN_COLOR]; border-color: transparent; background-color: transparent;" data-cookiepal-tag="detail-dma-button">[PREFERENCE_CENTRE_GOOGLE_TEXT_LINK]</a></p></div>`;
+      }
+
+      const renderAcMode = () => {
+        if (!acModeEnabled) return '';
+        return ' & <button aria-label="Google Ad Tech Provider"class=cookiepal-iab-dec-btn id=cookiepalIABGACMPreferenceButton>Google Ad Tech Provider</button>';
+      }
+
+      const renderPartnersButton = () => {
+        if (!tcfEnabled) return '';
+
+        const tplist = instance.tcf.thirdPartyListsTab;
+
+        const vendorsCount = acModeEnabled
+          ? tplist[0].data.length + tplist[1].data.length
+          : tplist[0].data.length;
+
+        const btn = document.createElement('button');
+        btn.className = 'cookiepal-iab-dec-btn';
+        btn.id = 'cookiepalIABNoticeButton';
+        // TODO: translate later
+        btn.setAttribute('aria-label', `our ${vendorsCount} partners`);
+        btn.textContent = t.cookieNotice.partnersText.replace("||VENDORS_COUNT||", vendorsCount);
+
+        return btn.outerHTML;
+      }
+
+      const renderTCFModalPreamble = () => {
+        let tcfPreambleContent = t.preferenceCentre.tcfPreamble.content;
+
+        if (!tcfPreambleContent) return '';
+
+        const btn = document.createElement('button');
+        btn.className = 'cookiepal-iab-dec-btn';
+        btn.id = 'cookiepalIABPreferenceButton';
+        btn.setAttribute('aria-label', t.preferenceCentre.tcfPreamble.button.ariaLabel);
+        btn.textContent = t.preferenceCentre.tcfPreamble.button.text;
+
+        tcfPreambleContent = tcfPreambleContent.replace("||TCF_MODAL_PREAMBLE_BTN||", btn.outerHTML);
+        tcfPreambleContent = tcfPreambleContent.replace("||AC_MODE||", renderAcMode());
+
+        return tcfPreambleContent;
+      }
+
+      const renderTCFTabs = () => {
+        const { cookiesAndCategories, purposesAndFeatures, vendors } = t.preferenceCentre.tcfTabs;
+        
+        const tabs = [
+          {
+            id: 'cookiepalIABTabCookie',
+            label: '[cookiepal_iab_nav_item_cookie_categories]',
+            text: cookiesAndCategories,
+            active: true
+          },
+          {
+            id: 'cookiepalIABTabPurpose',
+            label: '[cookiepal_iab_nav_item_purposes_n_features]',
+            text: purposesAndFeatures
+          },
+          {
+            id: 'cookiepalIABTabVendor',
+            label: '[cookiepal_iab_nav_item_vendors]',
+            text: vendors
+          }
+        ];
+
+        const tabItems = tabs.map(tab => `
+          <li class="cookiepal-iab-nav-item${tab.active ? ' cookiepal-iab-nav-item-active' : ''}" id="${tab.id}">
+            <button aria-label="${tab.label}" class="cookiepal-iab-nav-btn">
+              ${tab.text}
+            </button>
+          </li>
+        `).join('');
+
+        return `<ul class="cookiepal-iab-navbar">${tabItems}</ul>`;
+      };
+
+      const getBannerPosition = () =>
+        bannerPreferencesPosition === 'center'
+          ? 'top: 50%;'
+          : bannerPreferencesPosition === 'left'
+          ? 'top: -100%; left: -160%;'
+          : bannerPreferencesPosition === 'right'
+          ? 'top: -100%; right: -160%;'
+          : '';
+
+      const constructCss = async () => {
+        const response = await apiInstance(
+          `https://${cloudfrontDomain}/resources/styles.html`,
+          "GET",
+        );
+        const htmlContent = await response.text();
+        const howShouldRenderBannerPosition = getBannerPosition();
+        // V2 BUTTON COLORS
+        const rejectBtnColor = v2BtnColorsEnabled && btnTheme === "highlighted" ? "#ffffff" : btnColor;
+        const rejectBtnBgColor = v2BtnColorsEnabled && btnTheme === "highlighted" ? btnColor : backgroundColor;
+        const rejectBtnOrder = v2BtnColorsEnabled ? "order: 1 !important;" : "";
+        const rejectBtnStyle = `color: ${rejectBtnColor} !important; background-color: ${rejectBtnBgColor} !important; border-color: ${btnColor} !important; ${rejectBtnOrder}`;
+
+        const acceptBtnColor = v2BtnColorsEnabled && btnTheme === "transparent" ? btnColor : "#ffffff";
+        const acceptBtnBgColor = v2BtnColorsEnabled && btnTheme === "transparent" ? backgroundColor : btnColor;
+        const acceptBtnOrder = v2BtnColorsEnabled ? "order: 2 !important;" : "";
+        const acceptBtnStyle = `color: ${acceptBtnColor} !important; background-color: ${acceptBtnBgColor} !important; border-color: ${btnColor} !important; ${acceptBtnOrder}`;
+
+        const replacements = {
+          "[DESCRIPTION_COLOR]": descriptionColor,
+          "[BTN_COLOR]": btnColor,
+          "[TITLE_COLOR]": titleColor,
+          "[BACKGROUND_COLOR]": backgroundColor,
+          "[LIGHTER_BACKGROUND_COLOR]": lighterBackgroundColor,
+          "[BANNER_TYPE_POSITION]" : bannerTypePosition,
+          "[BANNER_PREFERENCES_POSITION]" : bannerPreferencesPosition,
+          "[BANNER_FAB_POSITION]" : fabPosition,
+          "[HOW_BANNER_SHOULD_BE_PLACED]" : howShouldRenderBannerPosition,
+          "[COOKIEPAL_BTN_REJECT_STYLE]": rejectBtnStyle,
+          "[COOKIEPAL_BTN_ACCEPT_STYLE]": acceptBtnStyle,
+          "[COOKIEPAL_BTN_PREFERENCES_ORDER]": v2BtnColorsEnabled ? "order: 0 !important;" : "", // TODO: remove it later
+        };
+
+        let htmlReplaced = htmlContent;
+
+        for (const [placeholder, value] of Object.entries(replacements)) {
+          htmlReplaced = replaceContent(htmlReplaced, placeholder, value);
+        }
+        return htmlReplaced;
+      }
+
+      const constructHtml = (baseHTMLContent) => {
+        // TCF variables (will only contain values ​​when tcf is enabled)
+        const { purposeFeatureSectionHtml, vendorSectionHtml } = constructTcfUI();
+        
+        const partnersButton = renderPartnersButton();
+        const tcfModalPreamble = renderTCFModalPreamble();
+        const tcfTabs = renderTCFTabs();
+
+        // Non TCF replacements
+        const cookiePolicyLink = shouldIncludePolicyLink();
+        const googlePolicyLink = shouldIncludeGooglePolicyLink();
+
+        // replacements
+        const replacements = {
+          // TCF specific replacements
+          "[TCF_MODAL_PREAMBLE]": tcfModalPreamble,
+          "[TCF_TABS]": tcfTabs,
+          "[PARTNERS_BUTTON]": partnersButton,
+          "[VENDOR_SECTION_HTML]": vendorSectionHtml,
+          "[PURPOSE_FEATURE_SECTION_HTML]": purposeFeatureSectionHtml,
+          // other replacements
+          "[SHOULD_RENDER_COOKIE_POLICY_LINK]": cookiePolicyLink,
+          "[SHOULD_RENDER_GOOGLE_POLICY_LINK]": googlePolicyLink,
+          "[TITLE_COLOR]": titleColor,
+          "[DESCRIPTION_COLOR]": descriptionColor,
+          "[BTN_COLOR]": btnColor,
+          "[BACKGROUND_COLOR]": backgroundColor,
+          "[LIGHTER_BACKGROUND_COLOR]": lighterBackgroundColor,
+          "[BANNER_TYPE_POSITION]": bannerTypePosition,
+          "[BANNER_PREFERENCES_POSITION]": bannerPreferencesPosition,
+          "[CLOSE_BTN_SRC]": closeBtnSrc,
+          "[LOGO_BTN_SRC]": logoBtnSrc,
+          "[BANNER_FAB_POSITION]": fabPosition,
+          "[POWERED_BY_COOKIEPAL_HTML]": PoweredByCookiepal,
+          // cookie notice replacements
+          "[COOKIE_NOTICE_TITLE]": t.cookieNotice.title,
+          "[COOKIE_NOTICE_MESSAGE]": t.cookieNotice.message,
+          "[COOKIE_NOTICE_ACCEPT_BTN]": t.cookieNotice.acceptBtn, // todo: remove later
+          "[COOKIE_NOTICE_ACCEPT_BTN_TEXT]": t.cookieNotice.acceptBtn,
+          "[COOKIE_NOTICE_REJECT_BTN]": t.cookieNotice.rejectBtn,// todo: remove later
+          "[COOKIE_NOTICE_REJECT_BTN_TEXT]": t.cookieNotice.rejectBtn, 
+          "[COOKIE_NOTICE_CUSTOMISE_BTN]": t.cookieNotice.customiseBtn, // todo: remove later
+          "[COOKIE_NOTICE_CUSTOMIZE_BTN_TEXT]": t.cookieNotice.customiseBtn,
+          "[COOKIE_NOTICE_COOKIE_LINK_TAKE_LOOK]": t.cookieNotice.cookieLink.takeLook,
+          "[COOKIE_NOTICE_COOKIE_LINK_TEXT]": t.cookieNotice.cookieLink.cookieLinkText,
+          // workaround for when it's just a period and not including it in the link
+          "[COOKIE_NOTICE_COOKIE_LINK_PAGE]": t.cookieNotice.cookieLink.page === "." ? "." : ` ${t.cookieNotice.cookieLink.page}`,
+          // preference centre replacements
+          "[PREFERENCE_CENTRE_TITLE]": t.preferenceCentre.title,
+          "[PREFERENCE_CENTRE_PRIVACY_OVERVIEW]": t.preferenceCentre.privacyOverview,
+          "[PREFERENCE_CENTRE_SAVE_PREFERENCES_BTN]": t.preferenceCentre.savePreferencesBtn, // todo: remove later
+          "[PREFERENCE_CENTRE_SAVE_PREFERENCES_BTN_TEXT]": t.preferenceCentre.savePreferencesBtn,
+          "[PREFERENCE_CENTRE_CATEGORIES_NECESSARY_TITLE]":
+            t.preferenceCentre.categories.necessary.title,
+          "[PREFERENCE_CENTRE_CATEGORIES_NECESSARY_DESCRIPTION]":
+            t.preferenceCentre.categories.necessary.description,
+          "[PREFERENCE_CENTRE_CATEGORIES_NECESSARY_TOGGLE]":
+            t.preferenceCentre.categories.necessary.toggle,
+          "[PREFERENCE_CENTRE_CATEGORIES_ADVERTISEMENT_TITLE]":
+            t.preferenceCentre.categories.advertisement.title,
+          "[PREFERENCE_CENTRE_CATEGORIES_ADVERTISEMENT_DESCRIPTION]":
+            t.preferenceCentre.categories.advertisement.description,
+          "[PREFERENCE_CENTRE_CATEGORIES_ANALYTICS_TITLE]":
+            t.preferenceCentre.categories.analytics.title,
+          "[PREFERENCE_CENTRE_CATEGORIES_ANALYTICS_DESCRIPTION]":
+            t.preferenceCentre.categories.analytics.description,
+          "[PREFERENCE_CENTRE_CATEGORIES_PERFORMANCE_TITLE]":
+            t.preferenceCentre.categories.performance.title,
+          "[PREFERENCE_CENTRE_CATEGORIES_PERFORMANCE_DESCRIPTION]":
+            t.preferenceCentre.categories.performance.description,
+          "[PREFERENCE_CENTRE_CATEGORIES_OTHER_TITLE]": t.preferenceCentre.categories.other.title,
+          "[PREFERENCE_CENTRE_CATEGORIES_OTHER_DESCRIPTION]":
+            t.preferenceCentre.categories.other.description,
+          "[PREFERENCE_CENTRE_CATEGORIES_FUNCTIONAL_TITLE]":
+            t.preferenceCentre.categories.functional.title,
+          "[PREFERENCE_CENTRE_CATEGORIES_FUNCTIONAL_DESCRIPTION]":
+            t.preferenceCentre.categories.functional.description,
+          "[PREFERENCE_CENTRE_POWERED_BY]": t.preferenceCentre.poweredBy.text,
+          "[PREFERENCE_CENTRE_CATEGORIES_POWERED_BY_LOGO_ALT]":
+            t.preferenceCentre.poweredBy.logoAltText,
+          "[PREFERENCE_CENTRE_GOOGLE_TEXT]": t.preferenceCentre.googleText,
+          "[PREFERENCE_CENTRE_GOOGLE_TEXT_LINK]": t.preferenceCentre.googleTextLink,
+          // overlay replacements
+          "[OVERLAY_REVISIT_BUTTON_ALT_TEXT]": t.overlay.revisit.buttonAltText,
+          "[OVERLAY_REVISIT_TOOLTIP]": t.overlay.revisit.tooltip,
+        };
+
+        let htmlReplaced = baseHTMLContent;
+        for (const [placeholder, value] of Object.entries(replacements)) {
+          htmlReplaced = replaceContent(htmlReplaced, placeholder, value);
+        }
+        return htmlReplaced;
+      };
+
+      const getBaseHTML = async () => {
+        const url = tcfEnabled
+          ? `https://${cloudfrontDomain}/resources/body_tcf.html`
+          : `https://${cloudfrontDomain}/resources/body.html`;
+        const response = await apiInstance(url, "GET");
+        const htmlContent = await response.text();
+        return htmlContent;
+      };
+
+      const addBannerToUI = async () => {
+        const css = await constructCss();
+        const baseHtml = await getBaseHTML();
+        const html = constructHtml(baseHtml);
+        document.head.insertAdjacentHTML("beforeend", css);
+        document.body.insertAdjacentHTML("afterbegin", html);
+
+        registerListeners();
+        if (tcfEnabled) registerTcfListeners();
+        setCategorySelections();
+        setCategoryListeners();
+        instance.ui.bannerIsInstalled = true;
+      };
+
+      const removeBanner = () => {
+        const cookiePalOverlay = document.querySelector(".cookiepal-overlay");
+        const revisitBtn = document.querySelector(".cookiepal-btn-revisit-wrapper");
+        const banner = document.querySelector(".cookie-banner");
+        const preferenceCenter = document.querySelector(".cookiepal-modal");
+
+        if (cookiePalOverlay) cookiePalOverlay.remove();
+        if (revisitBtn) revisitBtn.remove();
+        if (banner) banner.remove();
+        if (preferenceCenter) preferenceCenter.remove();
+        instance.ui.bannerIsInstalled = false;
+        instance.loaded = false;
+      };
+
+      const initialState = async () => {
+        const responseCategories = { accepted: [], rejected: [] };
+        const activeLaw = "gdpr";
+        setConfigCookie("consent", "no");
+        instance.categories.forEach((category) => {
+          let valueToSet = "yes";
+          if (!category.isNecessary && !category.defaultConsent[activeLaw]) {
+            valueToSet = "no";
+          }
+          if (valueToSet === "no") {
+            responseCategories.rejected.push(category.slug);
+          } else {
+            responseCategories.accepted.push(category.slug);
+          }
+          setConfigCookie(`${category.slug}`, valueToSet);
+        });
+        await updateGCMStatus(true);
+      };
+
+      const getCurrentConsentState = () => {
+        const consentState = {
+          activeLaw: instance.activeLaw ?? "",
+          categories: {},
+          consentId: getUserConsents("consentid") ?? "",
+          language: instance.ui.defaultLanguage ?? "",
+        };
+
+        instance.categories.forEach((category) => {
+          consentState.categories[category.slug] = getUserConsents(category.slug) === "yes";
+        });
+
+        return consentState;
+      }
+
+      instance.api.getCurrentConsentState = getCurrentConsentState;
+      // It is being used in other scripts (shopify and wordpress). TODO: replace with getCurrentConsentState
+      window.getCookiepalConsent = getCurrentConsentState;
+
+      const setupBanner = async () => {
+        await addBannerToUI();
+        const actionState = getUserConsents("action");
+        updateIABStubStatus({
+          showUI: true,
+          disabled: !actionState,
+        });
+
+        if (!actionState) {
+          await initialState();
+                    return toggleBannerDisplay();
+        }
+
+        await updateGCMStatus(true);
+	      triggerEvent('cookiepal_consent_update');
+        return toggleRevisitBtn();
+      };
+
+      const startBanner = async (event) => {
+        try {
+          if (event) window.removeEventListener("load", startBanner);
+          if (tcfEnabled) {
+            initCmpAPI();
+            await setupTcf();
+          }
+          await setupBanner();
+          populateCategories();
+          await wait(250);
+          removeNonConsentCookies();
+        } catch (error) {
+          console.error(error);
+        }
+      };
+
+      const isBannerStarted = () => instance.loaded;
+
+      const setBannerInitialized = () => instance.loaded = true;
+
+      return {
+        initCmpStub,
+        checkDomain,
+        isCrawling,
+        isVerifyInstallation,
+        setUserConsents,
+        sendPageViewLog,
+        saveConsentLog,
+        createConsentId,
+        startBlocker,
+        startBanner,
+        acceptCookies,
+        setSource,
+        initShopifyScript,
+        setGcmDefaultCommand,
+        initWpBridge,
+        setBannerInitialized,
+        isBannerStarted,
+        applyGeoFilter,
+        removeBanner,
+        triggerEvent,
+        handleVendors,
+      };
+    }
+    
+    // Debounce utility
+    const debounce = (fn, delay) => {
+      let timeoutId;
+      return (...args) => {
+        if (timeoutId) clearTimeout(timeoutId);
+        timeoutId = setTimeout(() => fn.apply(null, args), delay);
+      };
+    };
+
+    // Core reinitialization function
+    async function reinitializeCookieLogic(fromBfCache = false) {
+      try {
+        if (window.cookiepal?.scriptInitialized) return;
+        // Initialization of script
+        window.cookiepal ??= { scriptInitialized: true };
+        window.cookiepal.api ??= {};
+        const cookiepalIns = window.cookiepal;
+		
+        // Merge config to instance
+        const config = createConfig();
+        Object.assign(cookiepalIns, config);
+
+        if (cookiepalIns.debugMode) {
+          console.log("Reinitializing cookie logic", fromBfCache ? "(from bfcache)" : "");
+        }
+
+        if (fromBfCache) {
+          if (cookiepalIns.debugMode) console.log("Getting cookies from bfcache");
+          // Force a fresh read of cookies when coming from bfcache
+          const freshCookies = document.cookie;
+          if (cookiepalIns.debugMode) console.log("Fresh cookies:", freshCookies);
+          document.cookie = freshCookies;
+        }
+
+        const utils = await getUtils(cookiepalIns);
+        const {
+          initShopifyScript,
+          setGcmDefaultCommand,
+          initWpBridge,
+          initCmpStub,
+          setSource,
+          checkDomain,
+          setUserConsents,
+          createConsentId,
+          sendPageViewLog,
+          startBlocker,
+          startBanner,
+          isCrawling,
+          acceptCookies,
+          setBannerInitialized,
+          isBannerStarted,
+          applyGeoFilter,
+          removeBanner,
+          triggerEvent,
+          handleVendors,
+        } = utils;
+
+        if (fromBfCache) {
+          if (cookiepalIns.debugMode) console.log("Removing banner from bfcache");
+          removeBanner();
+        }
+
+        const bannerStarted = isBannerStarted();
+        if (bannerStarted) {
+          console.log("Banner already started");
+          return;
+        }
+
+        const isDomainAllowed = checkDomain();
+        if (!isDomainAllowed) {
+          if (cookiepalIns.debugMode) console.log("Domain not allowed");
+          return;
+        }
+
+        const crawling = isCrawling();
+        const shouldApplyGeoFilter = applyGeoFilter();
+        if (shouldApplyGeoFilter && !crawling) {
+          if (cookiepalIns.debugMode) console.log("Geo filter should be applied");
+          return;
+        }
+  
+        setGcmDefaultCommand();
+        setSource();
+        initShopifyScript();
+        await initWpBridge();
+        initCmpStub();
+        setUserConsents();
+        createConsentId();
+        await handleVendors();
+        startBlocker(fromBfCache);
+
+        if (crawling) {
+          console.log("crawl activated");
+          await acceptCookies("all");
+        } else {
+          await sendPageViewLog();
+        }
+
+        if (document.readyState === "complete") {
+          if (cookiepalIns.debugMode) console.log("Starting banner");
+          await startBanner();
+          setBannerInitialized();
+          triggerEvent('cookiepal_banner_load');
+        }
+
+        if (cookiepalIns.debugMode) console.log("Cookie banner reinitialization completed");
+      } catch (error) {
+        console.error("Error during cookie reinitialization:", error);
+      }
+    }
+
+    const debouncedReinitialize = debounce(reinitializeCookieLogic, 1000);
+
+    // Add navigation handlers
+    window.addEventListener("load", () => debouncedReinitialize(false));
+
+    // Ensures 'startBanner' is executed if the banner is loaded after the load event
+    if (document.readyState === "complete") {
+      const cameFromBFCache = performance.getEntriesByType("navigation")[0]?.type === "back_forward";
+      debouncedReinitialize(cameFromBFCache);
+    }
+
+    window.addEventListener("popstate", () => debouncedReinitialize(false));
+    window.addEventListener("pageshow", function (event) {
+      if (event.persisted) {
+        debouncedReinitialize(true);
+      }
+    });
+
+    // Handle programmatic history changes
+    const originalPushState = history.pushState;
+    const originalReplaceState = history.replaceState;
+
+    history.pushState = function () {
+      originalPushState.apply(this, arguments);
+      debouncedReinitialize(false);
+    };
+
+    history.replaceState = function () {
+      originalReplaceState.apply(this, arguments);
+      debouncedReinitialize(false);
+    };
+  } catch (error) {
+    console.log(error);
+  }
+})();

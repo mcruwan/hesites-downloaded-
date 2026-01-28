@@ -1,0 +1,188 @@
+/* News section */
+.news-section {
+    padding-top: var(--space-xl);
+    padding-bottom: var(--space-xl);
+    padding-block: var(--section-space-m);
+    padding-inline: var(--section-padding-x);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.news-section.npb {
+    padding-bottom: 0px;
+}
+.news-section .container {
+    width: 1440px;
+    max-width: 100%;
+}
+.news-section-title {
+    font-family: "Suisse Int’l";
+    color: #001A52;
+    position: relative;
+    padding-left: 2rem;
+    font-weight: 600;
+    font-size: clamp(1.3rem, calc(0vw + 1.3rem), 1.3rem);
+    letter-spacing: 0.26px;
+    line-height: 1.2;
+    max-inline-size: 100%;
+    position: relative;
+}
+.news-section-title::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 4px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #001A52;
+}
+.posts-cards-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.posts-cards-grid .posts-card {
+    width: calc(25% - 15px);
+}
+@media (max-width: 1023px) {
+    .posts-cards-grid .posts-card {
+        width: calc(33.333% - 13.333px);
+    }
+}
+@media (max-width: 767px) {
+    .posts-cards-grid .posts-card {
+        width: calc(50% - 10px);
+    }
+}
+@media (max-width: 479px) {
+    .posts-cards-grid .posts-card {
+        width: 100%;
+    }
+}
+.news-section .posts-card-slider {
+
+}
+.news-section .posts-cards {
+    margin-top: 5rem;
+    margin-bottom: clamp(2.4rem, calc(0.53571429vw + 2.22857143rem), 3rem);
+}
+.posts-cards .posts-card {
+    padding-left: 20px;
+    border-left: 1px solid #001A52;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.posts-cards .posts-card .card-term-name:hover,
+.posts-cards .posts-card .card-title:hover {
+    color: #00C2E4;
+}
+.posts-cards .posts-card .card-img-block:hover img {
+    transform: scale(1.05);
+}
+.posts-cards .posts-card .card-term-name, .posts-cards .posts-card .card-term-name a {
+    color: #001A52;
+    font-weight: 400;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    text-underline-offset: 0;
+    font-size: clamp(1.2rem, calc(0.17857143vw + 1.14285714rem), 1.4rem);
+    margin-bottom: 16px;
+    transition: all 0.3s linear;
+}
+.posts-cards .posts-card .card-title, .posts-cards .posts-card .card-title a {
+    font-family: "HW Cigars";
+    font-size: clamp(1.7rem, calc(0.625vw + 1.5rem), 2.4rem);
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: clamp(3.1992rem, calc(1.16142857vw + 2.82754286rem), 4.5rem);
+    color: #001A52;
+    transition: all 0.3s linear;
+}
+.posts-cards .posts-card .card-date, .posts-cards .posts-card .card-date a {
+    font-family: "Suisse Int’l";
+    color: #001A52;
+    font-size: clamp(1.2rem, calc(0.17857143vw + 1.14285714rem), 1.4rem);
+    line-height: 1.5;
+    max-inline-size: 100%;
+    margin-bottom: clamp(1.6rem, calc(0.35714286vw + 1.48571429rem), 2rem);
+}
+.posts-cards .posts-card .card-img-block {
+    position: relative;
+    margin-top: auto;
+    border-radius: 0.8rem;
+    overflow: hidden;
+}
+.posts-cards .posts-card .card-img-block::before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: calc((1 / 1) * 100%);
+}
+.posts-cards .posts-card .card-img-block img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0.8rem;
+    overflow: hidden;
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+}
+.posts-card-slider-pagination-holder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.posts-card-slider-pagination-holder .posts-card-slider-pagination {
+    width: auto;
+}
+
+.link-with-icon {
+    display: inline-flex;
+    align-items: center;
+}
+.link-with-icon:hover .icon path {
+    stroke: #FFF;
+}
+.link-with-icon:hover .icon circle {
+    stroke: #001A52;
+    fill: #001A52;
+}
+.link-with-icon .icon {
+    width: 38px;
+    height: 38px;
+    margin-right: 20px;
+    display: block;
+}
+.link-with-icon .icon svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.link-with-icon .icon path,
+.link-with-icon .icon circle {
+    transition: all 0.3s linear;
+}
+.link-with-icon .text {
+    font-family: "Suisse Int’l";
+    font-size: clamp(1.7rem, calc(0.625vw + 1.5rem), 2.4rem);
+    font-weight: 400;
+    line-height: 1.1;
+    transition: 0.5s;
+    transition-timing-function: ease;
+    color: #001A52;
+    display: block;
+}

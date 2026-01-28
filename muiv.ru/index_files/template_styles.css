@@ -1,0 +1,139 @@
+/*Кастомизация стандартной формы CRM Bitrix*/
+.b24-form-content > form > div:first-child {
+  margin-bottom: 10px !important;
+}
+.b24-form-content > form > div:nth-child(2) {
+  margin-bottom: 10px !important;
+}
+.vdpInnerWrap {
+  background: white !important;
+}
+.b24-form-field {
+  margin-bottom: 5px !important;
+}
+.b24-form-control {
+  padding-left: 24px !important;
+}
+.b24-form-control-label {
+  padding-left: 24px !important;
+}
+.b24-form-control-select-label, .b24-form-control-label {
+  font-family: 'Proxima Nova', Arial, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  opacity: 1 !important;
+}
+.b24-form-control-desc, .b24-form-field-agreement-link {
+  font-family: 'Proxima Nova', Arial, sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  opacity: 1 !important;
+  color: #4F6A84 !important;
+}
+.b24-form-btn {
+  border-radius: 10px !important;
+}
+.b24-form-btn:hover {
+  background-color: #9B0123 !important;
+}
+.b24-form-sign {
+  display: none !important;
+}
+.b24-form td {
+  padding: 5px !important;
+}
+.vdpComponent {
+  font-size: 20px !important;
+}
+
+/*Фикс CoMagic при включении версии для слабовидящих Bvi*/
+.comagic-o-rack {
+  /*display: none !important;*/
+  opacity: 0 !important;
+}
+
+/*Скрытие заглушки для паука рособра*/
+.invisibleForSpider {
+  display: block;
+  position: relative;
+  width: 3px !important;
+  height: 3px !important;
+  overflow: hidden !important;
+  z-index: -999999;
+  padding-top: 5px !important;
+}
+.invisibleForSpider table {
+  border-top-color: #fff !important;
+}
+
+/*Стилизация календаря событий НАУКА*/
+#events_block_msu {
+  min-width: unset !important;
+}
+
+/*Доп. стилизация для галереи в новостях*/
+.news-gallery-item {
+  border: 0 !important;
+}
+
+.news-gallery-mask {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.news-gallery-mask:hover {
+  background: rgba(0, 0, 0, 0.1) !important;
+}
+
+/*Доп. стили для раздела "Сведения об образовательной организации"*/
+.table-rucovodstvo {
+  margin-bottom: 100px;
+}
+
+/*Встраивание видео*/
+.video-1 {
+  float:left;
+  margin: 0 30px 30px 0;
+  max-width: 100%;
+}
+@media screen and (max-width: 700px) {
+  .video-1 {
+    width: 100%;
+    height: 280px;
+  }
+}
+.video-left {
+  float: left;
+  margin: 0 30px 30px 0;
+  max-width: 100%;
+}
+@media screen and (max-width: 700px) {
+  .video-left {
+    width: 100%;
+    height: 280px;
+    margin: 0;
+  }
+}
+.video-right {
+  float: right;
+  margin: 0 0 30px 30px;
+  max-width: 100%;
+}
+@media screen and (max-width: 700px) {
+  .video-right {
+    width: 100%;
+    height: 280px;
+    margin: 0;
+  }
+}
+
+.banner-credit {
+	width: 100%;
+	display: block;
+	margin-bottom: 50px;
+}

@@ -1,0 +1,626 @@
+:root {
+  --bs-link-color-rgb: 13,110,253;
+}
+
+body{
+  width: 100vw;
+}
+
+.text-base{
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* look up page */
+ul li a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.event-main-content.content a,
+.content.new-content a{
+  color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1)) !important;
+  text-decoration: underline !important;
+}
+
+.event-main-content.content tbody,
+.event-main-content.content td,
+.event-main-content.content th,
+.event-main-content.content thead,
+.event-main-content.content tr,
+.content.new-content tbody,
+.content.new-content td,
+.content.new-content th,
+.content.new-content thead,
+.content.new-content tr{
+  border-width: 1px;
+}
+
+table {
+  max-width: 100% !important;
+}
+
+.lookup-form-container{
+  height: 348px;
+}
+
+.lookup-form-title{
+  min-height: 170px;
+}
+
+@media (min-width: 992px){
+  .lookup-form-container{
+    height: 222px;
+  }
+
+  .lookup-form-title{
+    min-height: 230px;
+  }
+}
+
+#brick-container .pimcore_area_content:last-child > section > div {
+  padding-bottom: 1.5rem !important;
+}
+
+.rt-3-2{
+  aspect-ratio: 3/2 !important;
+}
+
+.rt-1-1{
+  aspect-ratio: 1/1 !important;
+}
+
+/* home page */
+.asset-input.video-input video.pimcore_video{
+  height: 100% !important;
+  object-fit: cover;
+}
+
+.slide-link-input{
+  width: 75% !important;
+}
+
+.specialization{
+  min-height: 350px;
+}
+
+.specialization-button{
+  border: none;
+  background: none;
+  font-size: 1.3705rem;
+  text-align: start;
+  padding-left: 0;
+}
+
+.specialization-title{
+  font-size: 1.48rem;
+}
+
+.swiper-container:not(.editmode) .swiper.banner-swiper,
+.swiper-container:not(.editmode) {
+  height: 470px;
+}
+
+.language-flag-img{
+  width: 26px;
+  height: 16px;
+}
+
+@media (min-width: 1200px) {
+  .top-nav-container{
+    height: 47.5px;
+  }
+
+  .bot-nav-container{
+    height: 72.5px;
+  }
+
+  .specialization-title{
+    font-size: 1.625rem;
+  }
+
+  .swiper-container:not(.editmode) .swiper.banner-swiper,
+  .swiper-container:not(.editmode) {
+    height: calc(100vh - 120px);
+  }
+
+}
+
+.nav-search-icon.d-xl-none{
+  width: 58px;
+}
+
+.nav-search-icon.d-xl-none img{
+  width: 26px;
+}
+
+.student-life .zoom-105{
+  height: 100%;
+}
+
+.program-banner {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+footer.footer{
+  min-height: 615px;
+}
+
+.footer-logo{
+  width: 255px;
+  height: 64px;
+}
+
+@media (min-width: 1400px){
+  .viewmode.reason-swiper{
+    padding-bottom: 390px !important;
+  }
+}
+
+.reason_image{
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+}
+
+/* feelings */
+.feelings{
+  min-height: 350px;
+}
+
+.feeling-person-img {
+  clip-path: circle(50%);
+  object-fit: cover;
+  cursor: pointer;
+  height: 48px;
+}
+
+.feeling-person-img.active {
+  height: 72px;
+}
+
+.fw-extra{
+  position: relative;
+  /* z-index: 9; */
+}
+
+/* trang chi tiet khoa */
+.quote-ts-img{
+  object-fit: cover !important;
+}
+
+.partner-swiper .swiper-pagination{
+  bottom: -1rem !important;
+}
+
+
+.partner-swiper .swiper-slide img{
+  max-height: 70%;
+}
+
+@media (max-width: 991.98px){
+  .partner-swiper .swiper-slide img{
+    max-height: unset;
+    margin-bottom: 8px;
+  }
+}
+
+@media (min-width: 992px){
+  .partner-swiper img{
+    width: auto !important;
+  }
+}
+
+.new-banner{
+  aspect-ratio: 3/2;
+  object-fit: cover;
+}
+
+.key-features-img{
+  width: 100%;
+  aspect-ratio: 3/2;
+}
+
+
+.khoa-banner-img{
+  width: 100%;
+}
+
+/* trang chi tiet nganh */
+.major-curriculum-img,
+.major-admission-img{
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+.ability-content-right{
+  width: 100%;
+}
+
+.ability-img{
+  object-fit: cover;
+}
+
+.study-overview-right img{
+  width: 100%;
+}
+
+@media (min-width: 992px){
+  .study-overview-right img{
+    width: 372px;
+    height: 440px;
+    object-fit: cover;
+  }
+}
+
+/* trang chi tiet tin tuc */
+.content.new-content img{
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+/* trang chi tiet su kien */
+@media (max-width: 768px) {
+  .event-info-container{
+    align-items: start !important;
+  }
+}
+
+/* error modal */
+.modal.fade.show{
+  display: flex !important;
+  align-items: center !important;
+}
+
+.modal-content{
+  background-color: white !important;
+  padding-top: 3rem !important;
+}
+
+
+#errorModal .modal-dialog .modal-content{
+  width: 357px;
+  height: 200px;
+}
+
+.modal-content-wrapper p {
+  text-align: center;
+  font-size: 14px;
+}
+
+.fcc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-close{
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  border: none;
+  background: unset;
+  cursor: pointer;
+}
+
+.admission-application-img picture,
+.admission-application-img img
+{
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  max-height: 70vh;
+  height: unset;
+  border-radius: 1rem;
+}
+
+.notice-item-img-container img {
+  aspect-ratio: 3/2;
+  object-fit: cover;
+}
+
+@media (min-width: 1200px) {
+  .university-title br{
+    display: none !important;
+  }
+
+}
+
+.pimcore_editable_link_text{
+  display: none !important;
+}
+
+
+/* detail event page */
+.detail-event-banner{
+  max-width: 276px;
+}
+
+.btn-update-key{
+  height: 28px;
+  font-size: 14px;
+  padding: 0 14px;
+  white-space: nowrap;
+  color: white;
+}
+
+/* new & event page  */
+.event-content{
+  min-height: 260px;
+}
+
+/* dropdown */
+.dropdown-toggle::after {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navbar.bot-nav{
+    min-height: 72px;
+  }
+}
+
+
+
+/* partner */
+.partner-swiper{
+  padding-bottom: 4rem;
+}
+
+.deparment_partner-slide{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.deparment_partner-slide img,
+.partner-slide img{
+  max-width: 100%;
+  /* max-height: 90px; */
+  width: auto;
+}
+
+/* modal */
+#successModal .modal-dialog .modal-content{
+  max-width: 357px;
+}
+
+.modal-title {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* new event */
+.new-event-item img{
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+/* banner */
+.pimcore_editable_image{
+  width: 100% !important;
+  height: 100% !important;
+  aspect-ratio: 16 / 9;
+}
+
+.student-life .pimcore_editable_image{
+  width: 300px !important;
+  height: 200px !important;
+}
+
+.reason-swiper-slide .pimcore_editable_image{
+  height: unset !important;
+}
+
+.pimcore_editable_image img{
+  width: 100%;
+  /* height: auto; */
+  height: 100%;
+  object-fit: cover;
+}
+
+.pimcore_editable.pimcore_editable_image.pimcore_editable_image_empty {
+  background: url(/bundles/pimcoreadmin/img/flat-color-icons/drop-target-upload.svg) center center / 80px no-repeat var(--background-blue) !important;
+}
+
+.pimcore_editable_image_alt .x-form-text-default {
+  background-color: var(--background-blue);
+}
+
+.pimcore_editable_video,
+.pimcore_editable_video_empty{
+  height: 100% !important;
+}
+
+/* home banner swipe */
+.swiper-slide picture{
+  width: 100%;
+}
+
+.swiper-slide picture img{
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+} 
+
+
+.reason-video-container.editmode .pimcore_editable_video_empty{
+  height: 350px !important;
+}
+
+.pimcore_editable .pimcore_editable_video .pimcore_editable_video_empty {
+  background-color: var(--background-blue) !important;
+} 
+
+.pimcore_editable_video iframe {
+  width: 100% !important;
+  height: 100% !important;
+  left: 0;
+}
+
+.alert.select-slide{
+  margin: 1rem 0 0;
+}
+
+.editmode.mobile-select {
+  max-width: 390px;
+  overflow: hidden;
+}
+
+.d-md-none .banner-swiper .swiper-wrapper,
+.editmode .banner-swiper .swiper-wrapper {
+  width: 100%;
+  max-height: 100vh;
+}
+
+.editmode .banner-swiper.desktop{
+  height: calc(100vh + 123px);
+}
+
+/* .editmode .banner-swiper.desktop .x-form-trigger-wrap{
+  width: 100vw
+} */
+
+.editmode.mobile-select .banner-swiper .swiper-wrapper {
+  height: 613px;
+}
+
+.desktop-select.editmode.banner-swiper .swiper-slide img{
+  height: 100%;
+}
+
+/* bullet swiper */
+.editmode .banner-swiper .swiper-pagination .swiper-pagination-bullet,
+.d-md-none .banner-swiper .swiper-pagination-bullet {
+  /* width: 10px;
+  height: 10px;
+  margin: 7.5px !important; */
+}
+
+/* teachers */
+.teacher_description{
+  max-width: 1000px;
+}
+
+.teacher-item {
+  max-width: 336px;
+}
+
+/* new event slide */
+.event-slide-img-container{
+  min-height: 600px;
+}
+
+/* newest new */
+.new-banner-wrapper img,
+.event-item div.col-4 div.overflow-hidden img{
+  aspect-ratio: 3/2;
+  object-fit: cover;
+}
+
+/* new menu */
+.menu-item.menu-parent-item{
+  font-weight: 800;
+}
+
+.color-secondary .menu-item{
+  color: var(--secondary-color)!important;
+}
+
+#new-see-all-mobile{
+  z-index: 99;
+}
+
+/* detail new */
+.new-detail-content{
+  margin: 1rem 1rem 1rem 0;
+}
+
+.event-main-content{
+  overflow: hidden;
+}
+
+.event-main-content img {
+  max-width: 100%;
+  height: auto !important;
+}
+
+/* reason */
+.reason-video-container{
+  overflow: hidden;
+}
+
+.reason-video-container video{
+  max-height: unset !important;
+  width: 100%;
+}
+
+/* register form */
+.register-form .dropdown-menu {
+  max-height: 400px !important;
+  overflow-y: auto !important;
+  left: 0 !important;
+  z-index: 999;
+}
+
+.register-form .click-dropdown{
+  z-index: unset !important;
+}
+
+
+
+/* lookup page */
+@media (max-width: 992px){
+  .container.lookup-container{
+    height: 750px !important;
+  }
+}
+
+
+@media (min-width: 991.98px){
+  .btn.lookup-btn{
+    height: 64px;
+  }
+}
+
+
+/* custom lib */
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+.rounded {
+  border-radius: 8px !important;
+}
+
+.input-group {
+  display: flex !important;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.btn-primary {
+  background-color: #007bff !important;
+  border-color: #007bff !important;
+}
+
+.w-auto {
+  width: auto !important;
+}
+
+.alert.alert-secondary{
+  background-color: #f8f9fa !important;
+  border: 1px solid #ccc !important;
+}
+
+.editmode-label{
+  margin-right: 0.5rem;
+}
+
+

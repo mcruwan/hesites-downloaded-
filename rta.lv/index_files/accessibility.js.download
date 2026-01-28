@@ -1,0 +1,649 @@
+window.UNIBIT_ACCESSIBILITY = window.UNIBIT_ACCESSIBILITY || (function () {
+
+    'use strict'
+    
+    var 
+    trans = {
+        accessibility: 'Accessibility',
+        font_size: 'Font-size',
+        contrast: 'Contrast',
+        ok: 'Save',
+        reset: 'Reset',
+        read_more: 'Read more',
+        read_more_url: '#',
+        skip_to_content: 'Skip to Content',
+    },
+    defaults = {
+        cookieName: 'unibit-accessibility',
+        cookieDuration: '365',   
+        wildcardDomain: false,   
+        zoomList: ['','150','200'],        
+        contrastList: ['','a','b','c'],
+        zoomClass: 'unibit-accessibility-zoom-',
+        contrastClass: 'unibit-accessibility-contrast-',
+        zoomClassParsed: 'unibit-accessibility-zoomed',
+        zoomClassParsedNode: 'unibit-accessibility-zoomed-el',
+        zoomClassProcess: 'unibit-accessibility-zoom-process',
+        tabPressDetectedClass: 'unibit-tab-press-detected',
+        zoomProperty: '--unibit-accessibility-fs',
+        zoomExcludeNodesQuerySelector: '.unibit-accessibility-banner, .unibit-accessibility-banner-skip',
+        zoomExcludeMutationsQuerySelector: '',
+        enableHide: true,        
+        settings: {
+            'zoom': '',
+            'contrast': '',
+        },  
+        bannerHTML: '',  
+        skipToContent: true,                 
+        skipToContentUrl: '#base-block-main',                 
+        skipToContentHTML: '',  
+        RoleClickFixSelector: 'div.button, div.collapse-panel h6, #refresh_captcha, #mobile_menu_button, label.uce-customize, input.uce-checkbox + label, .unibit_modal_close, .unibit_slideshow_button, .unibit_slideshow_step, .unibit_slideshow_go_down', //empty for disabled                             
+    },   
+    settings = {
+        'zoom': '',
+        'contrast': '',
+    },      
+    opts, mutationObserver, mutationObserverGlob, mutationHandler, hidden, tab_press_detected;
+  
+    function _extend() {
+        var i, key;
+        for (i=1; i<arguments.length; i++)
+            for (key in arguments[i])
+                if(arguments[i].hasOwnProperty(key))
+                    arguments[0][key] = arguments[i][key];
+        return arguments[0];
+    }
+
+    function _hasClass(el, cls) {
+        return (' ' + el.className + ' ').indexOf(' ' + cls + ' ') > -1;
+    }
+    
+    function _empty (text) {
+        if (typeof text == 'undefined') {
+            return true;     
+        }            
+        if (typeof text == 'string') {
+            text = text.replace(/\s\n\r\t/g,'');
+        }    
+        if (text !== null && typeof text === 'object') {
+            for(var prop in text) {  
+                if (text.hasOwnProperty(prop)) {
+                    return false;
+                }
+            }       
+            return true;       
+        } else {
+            return ( 
+                   text == "" 
+                || text == 0  
+                || text == "0" 
+                || text == null  
+                || text == false  
+                || ((text instanceof Array) && text.length == 0)
+                || text !== text      
+            );            
+        }
+    }    
+
+    var init = function (options, translation) {
+
+        opts = _extend({}, defaults, options);
+        if (typeof translation != 'undefined') {
+            trans = _extend({}, trans, translation);     
+        }             
+               
+        banner.create();  
+        
+        bindUI(); 
+        
+        var cookies_settings = cookie.get();        
+        var settings_tmp = _extend ({}, opts.settings, cookies_settings);        
+        if ((!_empty (settings_tmp.zoom)) && (opts.zoomList.includes(settings_tmp.zoom))) {
+            settings.zoom = settings_tmp.zoom;    
+        }
+        if ((!_empty (settings_tmp.contrast)) && (opts.contrastList.includes(settings_tmp.contrast))) {
+            settings.contrast = settings_tmp.contrast;    
+        } 
+        
+        if (!_empty (settings.zoom)) {
+            document.querySelector(".unibit-accessibility-banner-btn-zoom[data-val='"+settings.zoom+"']").click();     
+        }   
+        
+        if (!_empty (settings.contrast)) {
+            document.querySelector(".unibit-accessibility-banner-btn-contrast[data-val='"+settings.contrast+"']").click();     
+        }   
+        
+        if (!_empty (opts.enableHide)) {           
+            window.onscroll = function () {
+                if (window.pageYOffset > window.innerHeight / 2) {  
+                    if (!hidden) {
+                        document.getElementById('unibit-accessibility-banner').classList.add('unibit-accessibility-banner-hidden');  
+                        hidden = true;     
+                    }              
+                } else {
+                    if (hidden) {
+                        document.getElementById('unibit-accessibility-banner').classList.remove('unibit-accessibility-banner-hidden');      
+                        hidden = false;    
+                    }            
+                }                 
+            };
+        }                              
+              
+    };
+    
+    var bindUI = function() {
+        var zoom_btns = document.getElementsByClassName('unibit-accessibility-banner-btn-zoom');
+        var contrast_btns = document.getElementsByClassName('unibit-accessibility-banner-btn-contrast');   
+        var ok_btns = document.getElementsByClassName('unibit-accessibility-banner-btn-ok');
+        var reset_btns = document.getElementsByClassName('unibit-accessibility-banner-btn-footer-reset');
+        var readmore_btns = document.getElementsByClassName('unibit-accessibility-banner-btn-footer-readmore');
+        var i;
+        
+        for (i = 0; i < zoom_btns.length; i++) {
+            zoom_btns[i].addEventListener("click", function(ev) {
+                ev.preventDefault();
+                zoomClick(ev);
+            });
+        }  
+        
+        for (i = 0; i < contrast_btns.length; i++) {
+            contrast_btns[i].addEventListener("click", function(ev) {
+                ev.preventDefault();
+                contrastClick(ev);
+            });
+        }   
+        
+        for (i = 0; i < ok_btns.length; i++) {
+            ok_btns[i].addEventListener("click", function(ev) {
+                ev.preventDefault();
+                okClick(ev);
+            });
+        }          
+        
+        for (i = 0; i < reset_btns.length; i++) {
+            reset_btns[i].addEventListener("click", function(ev) {
+                ev.preventDefault();
+                resetClick(ev);
+            });
+        }     
+        
+        for (i = 0; i < readmore_btns.length; i++) {
+            readmore_btns[i].addEventListener("click", function(ev) {
+                ev.preventDefault();
+                readmoreClick(ev);
+            });
+        }    
+        
+        document.addEventListener('keydown', function(e) {
+            if ((e.key === 'Tab' || e.keyCode === 9) && !tab_press_detected) { 
+                document.body.classList.add(opts.tabPressDetectedClass);
+                tab_press_detected = true;
+
+                if (opts.RoleClickFixSelector) {
+                    var RoleClickFix = document.querySelectorAll(opts.RoleClickFixSelector);
+                    for (i = 0; i < RoleClickFix.length; i++) {
+                        RoleClickFix[i].setAttribute("role","button");
+                        RoleClickFix[i].setAttribute("tabindex","0");
+                    }
+                    
+                    RoleClickFix = document.querySelectorAll('[role="button"][tabindex="0"]:not([data-unibit-role-done])');   
+                    for (i = 0; i < RoleClickFix.length; i++) { 
+                        RoleClickFix[i].setAttribute("data-unibit-role-done","1");
+                        RoleClickFix[i].addEventListener("keydown", function(event) {
+                            if (event.key === "Enter" || event.keyCode === 13) {
+                                const rect = event.target.getBoundingClientRect();  
+                                event.target.click();                       
+                                //event.target.dispatchEvent(new Event('mouseclick', { 'view': window, 'bubbles': true, 'cancelable': true, 'clientX': rect.left + 1, 'clientY': rect.top + 1 }));  
+                                event.target.dispatchEvent(new Event('mousemove', { 'view': window, 'bubbles': true, 'cancelable': true, 'clientX': rect.left + 1, 'clientY': rect.top + 1 }));  
+                                event.target.dispatchEvent(new Event('mouseover', { 'view': window, 'bubbles': true, 'cancelable': true, 'clientX': rect.left + 1, 'clientY': rect.top + 1 }));    
+                                event.target.dispatchEvent(new Event('mouseenter', { 'view': window, 'bubbles': true, 'cancelable': true, 'clientX': rect.left + 1, 'clientY': rect.top + 1 }));                             
+                                event.target.classList.add('hover');    
+                            } else if (event.key === "Escape" || event.keyCode === 27) {  
+                                const rect = event.target.getBoundingClientRect();  
+                                event.target.dispatchEvent(new Event('mouseout', { 'view': window, 'bubbles': true, 'cancelable': true, 'clientX': rect.left - 1, 'clientY': rect.top - 1 }));
+                                event.target.classList.remove('hover');   
+                                
+                                var fake_el = document.elementFromPoint(0, 0);                         
+                                if (fake_el && getComputedStyle(fake_el).getPropertyValue('position')=='fixed' && parseInt(getComputedStyle(fake_el).getPropertyValue('left'))==0 && parseInt(getComputedStyle(fake_el).getPropertyValue('top'))==0 && parseInt(getComputedStyle(fake_el).getPropertyValue('width'))==document.documentElement.clientWidth && parseInt(getComputedStyle(fake_el).getPropertyValue('height'))==document.documentElement.clientHeight) {
+                                    fake_el.click();                                 
+                                } else {
+                                    fake_el = document.elementFromPoint(document.documentElement.clientWidth-1, document.documentElement.clientHeight-1);   
+                                    if (fake_el && getComputedStyle(fake_el).getPropertyValue('position')=='fixed' && parseInt(getComputedStyle(fake_el).getPropertyValue('left'))==0 && parseInt(getComputedStyle(fake_el).getPropertyValue('top'))==0 && parseInt(getComputedStyle(fake_el).getPropertyValue('width'))==document.documentElement.clientWidth && parseInt(getComputedStyle(fake_el).getPropertyValue('height'))==document.documentElement.clientHeight) {
+                                        fake_el.click();   
+                                    } else {
+                                        fake_el = document.elementFromPoint(Math.floor(document.documentElement.clientWidth/2), Math.floor(document.documentElement.clientHeight/2)); 
+                                        if (fake_el && getComputedStyle(fake_el).getPropertyValue('position')=='fixed' && parseInt(getComputedStyle(fake_el).getPropertyValue('left'))==0 && parseInt(getComputedStyle(fake_el).getPropertyValue('top'))==0 && parseInt(getComputedStyle(fake_el).getPropertyValue('width'))==document.documentElement.clientWidth && parseInt(getComputedStyle(fake_el).getPropertyValue('height'))==document.documentElement.clientHeight) {
+                                            fake_el.click();   
+                                        }                                         
+                                    }
+                                } 
+                                                              
+                            }
+                        }); 
+                    }
+                }   
+                
+                if ((typeof navigator !== "undefined") && (typeof navigator.userAgentData !== "undefined") && (typeof navigator.userAgentData.platform !== "undefined")) { //chronium   
+                    var outline_fix_elements = document.querySelectorAll('a > *');   
+                    for (i = 0; i < outline_fix_elements.length; i++) { 
+                        if (getComputedStyle(outline_fix_elements[i]).getPropertyValue('display')=='block') {
+                            outline_fix_elements[i].classList.add('unibit-accessibility-outline-fix');     
+                        }
+                    }      
+                }
+                
+                if (true) {
+                    mutationObserverGlob = new MutationObserver(function(mutations) {  
+                        mutations.every(function(mutation) {  
+                            if (mutation.type == "childList" && mutation.addedNodes && mutation.addedNodes.length) {
+                                for (const added_node of mutation.addedNodes) {
+                                    if (added_node && added_node.nodeType!=3 && added_node.parentNode && !added_node.parentNode.matches("body, head, html")) {
+                                        if (opts.RoleClickFixSelector) {
+                                            var RoleClickFixMut = added_node.parentNode.querySelectorAll(opts.RoleClickFixSelector);
+                                            for (i = 0; i < RoleClickFixMut.length; i++) {
+                                                RoleClickFixMut[i].setAttribute("role","button");
+                                                RoleClickFixMut[i].setAttribute("tabindex","0");
+                                            }     
+                                            
+                                            RoleClickFixMut = added_node.parentNode.querySelectorAll('[role="button"][tabindex="0"]:not([data-unibit-role-done])');   
+                                            for (i = 0; i < RoleClickFixMut.length; i++) { 
+                                                RoleClickFixMut[i].setAttribute("data-unibit-role-done","1");     
+                                                RoleClickFixMut[i].addEventListener("keydown", function(event) {
+                                                    if (event.key === "Enter" || event.keyCode === 13) {
+                                                        const rect = event.target.getBoundingClientRect();  
+                                                        event.target.click();                       
+                                                        //event.target.dispatchEvent(new Event('mouseclick', { 'view': window, 'bubbles': true, 'cancelable': true, 'clientX': rect.left + 1, 'clientY': rect.top + 1 }));  
+                                                        event.target.dispatchEvent(new Event('mousemove', { 'view': window, 'bubbles': true, 'cancelable': true, 'clientX': rect.left + 1, 'clientY': rect.top + 1 }));  
+                                                        event.target.dispatchEvent(new Event('mouseover', { 'view': window, 'bubbles': true, 'cancelable': true, 'clientX': rect.left + 1, 'clientY': rect.top + 1 }));    
+                                                        event.target.dispatchEvent(new Event('mouseenter', { 'view': window, 'bubbles': true, 'cancelable': true, 'clientX': rect.left + 1, 'clientY': rect.top + 1 }));                             
+                                                        event.target.classList.add('hover');    
+                                                    } else if (event.key === "Escape" || event.keyCode === 27) {  
+                                                        const rect = event.target.getBoundingClientRect();  
+                                                        event.target.dispatchEvent(new Event('mouseout', { 'view': window, 'bubbles': true, 'cancelable': true, 'clientX': rect.left - 1, 'clientY': rect.top - 1 }));   
+                                                        document.elementFromPoint(0, 0).click();  
+                                                        event.target.classList.remove('hover');      
+                                                        
+                                                        var fake_el = document.elementFromPoint(0, 0);                         
+                                                        if (fake_el && getComputedStyle(fake_el).getPropertyValue('position')=='fixed' && parseInt(getComputedStyle(fake_el).getPropertyValue('left'))==0 && parseInt(getComputedStyle(fake_el).getPropertyValue('top'))==0 && parseInt(getComputedStyle(fake_el).getPropertyValue('width'))==document.documentElement.clientWidth && parseInt(getComputedStyle(fake_el).getPropertyValue('height'))==document.documentElement.clientHeight) {
+                                                            fake_el.click();                                 
+                                                        } else {
+                                                            fake_el = document.elementFromPoint(document.documentElement.clientWidth-1, document.documentElement.clientHeight-1);   
+                                                            if (fake_el && getComputedStyle(fake_el).getPropertyValue('position')=='fixed' && parseInt(getComputedStyle(fake_el).getPropertyValue('left'))==0 && parseInt(getComputedStyle(fake_el).getPropertyValue('top'))==0 && parseInt(getComputedStyle(fake_el).getPropertyValue('width'))==document.documentElement.clientWidth && parseInt(getComputedStyle(fake_el).getPropertyValue('height'))==document.documentElement.clientHeight) {
+                                                                fake_el.click();   
+                                                            } else {
+                                                                fake_el = document.elementFromPoint(Math.floor(document.documentElement.clientWidth/2), Math.floor(document.documentElement.clientHeight/2)); 
+                                                                if (fake_el && getComputedStyle(fake_el).getPropertyValue('position')=='fixed' && parseInt(getComputedStyle(fake_el).getPropertyValue('left'))==0 && parseInt(getComputedStyle(fake_el).getPropertyValue('top'))==0 && parseInt(getComputedStyle(fake_el).getPropertyValue('width'))==document.documentElement.clientWidth && parseInt(getComputedStyle(fake_el).getPropertyValue('height'))==document.documentElement.clientHeight) {
+                                                                    fake_el.click();   
+                                                                }                                         
+                                                            }
+                                                        }                                                     
+                                                        
+                                                    }
+                                                }); 
+                                            }                         
+                                        }    
+                                        
+                                        if ((typeof navigator !== "undefined") && (typeof navigator.userAgentData !== "undefined") && (typeof navigator.userAgentData.platform !== "undefined")) { //chronium   
+                                            var outline_fix_elements_mut = added_node.parentNode.querySelectorAll('a > *');   
+                                            for (i = 0; i < outline_fix_elements_mut.length; i++) { 
+                                                if (getComputedStyle(outline_fix_elements_mut[i]).getPropertyValue('display')=='block') {
+                                                    outline_fix_elements_mut[i].classList.add('unibit-accessibility-outline-fix');     
+                                                }
+                                            }      
+                                        }                              
+                                    }                        
+                                }
+                                
+                            }                            
+                        });            
+                    });  
+                    
+                    mutationObserverGlob.observe(document.body, {
+                        attributes: false,
+                        characterData: false,
+                        childList: true,
+                        subtree: true,
+                        attributeOldValue: false,
+                        characterDataOldValue: false
+                    });                   
+                }                
+                
+            }
+        });     
+
+    };    
+    
+    var zoomClick = function(ev) {
+        var v = ev.target.getAttribute("data-val");
+        var zoom_btns = document.getElementsByClassName('unibit-accessibility-banner-btn-zoom');      
+        var i, j;
+        
+        for (i = 0; i < zoom_btns.length; i++) {
+            zoom_btns[i].classList.remove('unibit-accessibility-banner-btn-active');     
+        }                   
+        ev.target.classList.add('unibit-accessibility-banner-btn-active');   
+         
+        settings.zoom = v;    
+              
+        for (i = 0; i < opts.zoomList.length; i++) {
+            document.body.classList.remove(''+opts.zoomClass+opts.zoomList[i]);      
+        }                
+        
+        if (!_empty (settings.zoom)) {            
+            document.body.classList.add(''+opts.zoomClassProcess);  
+            document.body.classList.remove(''+opts.zoomClassParsed);  
+            
+            var elms = document.body.getElementsByTagName('*');   
+            var fs = '';
+            var fs_num = 0;
+            var cur_el = null;
+            var parents = [];  
+            var parent_match = false;
+            for (i = 0; i < elms.length; i++) {  
+                elms[i].classList.remove(''+opts.zoomClassParsedNode); 
+                elms[i].style.removeProperty(''+opts.zoomProperty); 
+                                
+                cur_el = elms[i];
+                parents = [];
+                parent_match = false;
+                while (cur_el) {
+                    parents.unshift(cur_el);
+                    cur_el = cur_el.parentNode;
+                }               
+                for (j = 3; j < parents.length; j++) {   
+                    if (parents[j].matches(''+opts.zoomExcludeNodesQuerySelector)) {
+                        parent_match = true;
+                        break;
+                    }        
+                }
+                
+                if (!parent_match) {
+                    fs = getComputedStyle(elms[i]).getPropertyValue('font-size');
+                    fs_num = parseFloat(fs);
+                    if (!_empty (fs_num)) {
+                        elms[i].style.setProperty(''+opts.zoomProperty, fs);     
+                        elms[i].classList.add(''+opts.zoomClassParsedNode);    
+                    }                     
+                }                    
+            }
+            
+            document.body.classList.add(''+opts.zoomClassParsed);                                   
+            document.body.classList.add(''+opts.zoomClass+settings.zoom);    
+            document.body.classList.remove(''+opts.zoomClassProcess);    
+            
+            mutationObserver = new MutationObserver(function(mutations) {                
+                var h_ok = true;
+                if (!_empty (opts.zoomExcludeMutationsQuerySelector)) {
+                    h_ok = false;   
+                    mutations.every(function(mutation) {
+                        if ((!mutation.target.matches(''+opts.zoomExcludeMutationsQuerySelector)) && ((!mutation.nextSibling) || (mutation.nextSibling.nodeType==3) || (!mutation.nextSibling.matches(''+opts.zoomExcludeMutationsQuerySelector))) && ((!mutation.previousSibling) || (mutation.previousSibling.nodeType==3) || (!mutation.previousSibling.matches(''+opts.zoomExcludeMutationsQuerySelector)))) {                                                                         
+                            h_ok = true;
+                            return false;
+                        } else {                                                                              
+                            return true;  
+                        }                        
+                    });                    
+                }
+                
+                if (h_ok) {
+                    if (mutationHandler) {
+                        clearTimeout(mutationHandler);    
+                        mutationHandler = null;
+                    }
+                    mutationHandler = setTimeout(function (){
+                        document.querySelector(".unibit-accessibility-banner-btn-zoom[data-val='"+settings.zoom+"']").click();     
+                    }, 100);                      
+                }               
+            });  
+            
+            mutationObserver.observe(document.body, {
+                attributes: false,
+                characterData: false,
+                childList: true,
+                subtree: true,
+                attributeOldValue: false,
+                characterDataOldValue: false
+            });                                      
+                        
+        } else {
+            document.body.classList.remove(''+opts.zoomClassParsed);   
+            if (mutationObserver) {
+                mutationObserver.disconnect();
+                mutationObserver = null;
+            }      
+        }
+        
+        window.dispatchEvent(new Event('resize'));   
+        
+        cookie.set();
+             
+    };   
+    
+    var contrastClick = function(ev) {
+        var v = ev.target.getAttribute("data-val");
+        var contrast_btns = document.getElementsByClassName('unibit-accessibility-banner-btn-contrast');      
+        var i;
+        
+        for (i = 0; i < contrast_btns.length; i++) {
+            contrast_btns[i].classList.remove('unibit-accessibility-banner-btn-active');     
+        }                   
+        ev.target.classList.add('unibit-accessibility-banner-btn-active');   
+         
+        settings.contrast = v;    
+              
+        for (i = 0; i < opts.contrastList.length; i++) {
+            document.body.classList.remove(''+opts.contrastClass+opts.contrastList[i]);      
+        }                
+        if (!_empty (settings.contrast)) {
+            document.body.classList.add(''+opts.contrastClass+settings.contrast);             
+        }
+        
+        window.dispatchEvent(new Event('resize'));   
+        
+        cookie.set();
+             
+    };  
+    
+    var okClick = function(ev) {     
+        document.getElementById('unibit-accessibility-banner-button').click();             
+    };       
+    
+    var resetClick = function(ev) {
+        var zoom_btns = document.getElementsByClassName('unibit-accessibility-banner-btn-zoom');   
+        var contrast_btns = document.getElementsByClassName('unibit-accessibility-banner-btn-contrast');      
+        var i;
+        
+        for (i = 0; i < zoom_btns.length; i++) {
+            zoom_btns[i].classList.remove('unibit-accessibility-banner-btn-active');     
+        }                  
+        for (i = 0; i < contrast_btns.length; i++) {
+            contrast_btns[i].classList.remove('unibit-accessibility-banner-btn-active');     
+        }    
+        zoom_btns[0].classList.add('unibit-accessibility-banner-btn-active');                     
+        contrast_btns[0].classList.add('unibit-accessibility-banner-btn-active');                     
+         
+        settings.zoom = '';    
+        settings.contrast = '';    
+            
+        for (i = 0; i < opts.zoomList.length; i++) {
+            document.body.classList.remove(''+opts.zoomClass+opts.zoomList[i]);      
+        }                
+        for (i = 0; i < opts.contrastList.length; i++) {
+            document.body.classList.remove(''+opts.contrastClass+opts.contrastList[i]);      
+        }     
+        document.body.classList.remove(''+opts.zoomClassParsed);     
+        
+        window.dispatchEvent(new Event('resize'));             
+        
+        cookie.set();
+        
+        document.getElementById('unibit-accessibility-banner-button').click();
+             
+    };     
+    
+    var readmoreClick = function(ev) {
+        var url = ev.target.getAttribute("data-url");     
+        document.location.href = url;     
+    };            
+
+    var banner = (function() {
+
+        function create() {
+            var bannerHTML = opts.bannerHTML;
+            if (_empty (bannerHTML)) {
+                bannerHTML = 
+                    document.getElementById('unibit-accessibility-banner-html') !== null ?
+                        document.getElementById('unibit-accessibility-banner-html').innerHTML :             
+                            '<div class="unibit-accessibility-banner-wrapper-outer">' 
+                                +'<div class="unibit-accessibility-banner-wrapper-inner">'   
+                                    +'<div class="unibit-accessibility-banner-inner">'
+                                        +'<label for="unibit-accessibility-checkbox-settings" class="unibit-accessibility-banner-button" id="unibit-accessibility-banner-button" role="button" tabindex="0">'+trans.accessibility+'</label>'
+                                        +'<input type="checkbox" id="unibit-accessibility-checkbox-settings" class="unibit-accessibility-input-hidden" />'  
+                                        +'<div id="unibit-accessibility-banner-settings" class="unibit-accessibility-banner-settings">' 
+                                            +'<div class="unibit-accessibility-banner-h">'  
+                                                +trans.font_size
+                                            +'</div>' 
+                                            +'<div class="unibit-accessibility-banner-btns">'  
+                                                +'<div class="unibit-accessibility-banner-btn unibit-accessibility-banner-btn-zoom unibit-accessibility-banner-btn-zoom- unibit-accessibility-banner-btn-active" data-val="" role="button" tabindex="0">100%</div>' 
+                                                +'<div class="unibit-accessibility-banner-btn unibit-accessibility-banner-btn-zoom unibit-accessibility-banner-btn-zoom-150" data-val="150" role="button" tabindex="0">150%</div>' 
+                                                +'<div class="unibit-accessibility-banner-btn unibit-accessibility-banner-btn-zoom unibit-accessibility-banner-btn-zoom-200" data-val="200" role="button" tabindex="0">200%</div>' 
+                                            +'</div>'  
+                                            +'<div class="unibit-accessibility-banner-h">'  
+                                                +trans.contrast   
+                                            +'</div>' 
+                                            +'<div class="unibit-accessibility-banner-btns">'  
+                                                +'<div class="unibit-accessibility-banner-btn unibit-accessibility-banner-btn-contrast unibit-accessibility-banner-btn-contrast- unibit-accessibility-banner-btn-active" data-val="" role="button" tabindex="0"></div>' 
+                                                +'<div class="unibit-accessibility-banner-btn unibit-accessibility-banner-btn-contrast unibit-accessibility-banner-btn-contrast-a" data-val="a" role="button" tabindex="0"></div>' 
+                                                +'<div class="unibit-accessibility-banner-btn unibit-accessibility-banner-btn-contrast unibit-accessibility-banner-btn-contrast-b" data-val="b" role="button" tabindex="0"></div>' 
+                                                +'<div class="unibit-accessibility-banner-btn unibit-accessibility-banner-btn-contrast unibit-accessibility-banner-btn-contrast-c" data-val="c" role="button" tabindex="0"></div>' 
+                                            +'</div>'   
+                                            +'<div class="unibit-accessibility-banner-btns-ok">'  
+                                                +'<div class="unibit-accessibility-banner-btn-ok" role="button" tabindex="0">'+trans.ok+'</div>' 
+                                            +'</div>'                                                    
+                                            +'<div class="unibit-accessibility-banner-btns-footer">'  
+                                                +'<div class="unibit-accessibility-banner-btn-footer unibit-accessibility-banner-btn-footer-reset" role="button" tabindex="0">'+trans.reset+'</div>' 
+                                                +'<div class="unibit-accessibility-banner-btn-footer unibit-accessibility-banner-btn-footer-readmore" data-url="'+trans.read_more_url+'" role="button" tabindex="0">'+trans.read_more+'</div>' 
+                                            +'</div>'                                                                                  
+                                        +'</div>'    
+                                    +'</div>'                
+                                +'</div>'
+                            +'</div>';                     
+            }
+                                  
+            var el = '<div class="unibit-accessibility-banner" id="unibit-accessibility-banner">'  
+                    +'<!--noindex-->'
+                    +'<!--googleoff: all-->' 
+                    +'<div class="unibit-accessibility-robots robots-noindex robots-nofollow robots-nocontent">'                      
+                        +bannerHTML
+                    +'</div>'
+                    +'<!--googleon: all-->'
+                    +'<!--/noindex-->'                           
+                    +'</div>';
+
+            document.body.insertAdjacentHTML('afterbegin', el);
+            
+            if (opts.skipToContent) {
+                var skipToContentHTML = opts.skipToContentHTML;
+                if (_empty (skipToContentHTML)) {
+                    skipToContentHTML = 
+                        document.getElementById('unibit-accessibility-skip-to-content-html') !== null ?
+                            document.getElementById('unibit-accessibility-skip-to-content-html').innerHTML :             
+                                '<div class="unibit-accessibility-banner-skip-wrapper-outer">' 
+                                    +'<div class="unibit-accessibility-banner-skip-wrapper-inner">'   
+                                        +'<div class="unibit-accessibility-banner-skip-inner">'
+                                            +'<div class="unibit-accessibility-banner-skip-t">'  
+                                                +trans.skip_to_content
+                                            +'</div>'  
+                                        +'</div>'                
+                                    +'</div>'
+                                +'</div>';                     
+                }
+                                      
+                var el = '<a href="'+opts.skipToContentUrl+'" class="unibit-accessibility-banner-skip" id="unibit-accessibility-banner-skip">'  
+                        +'<!--noindex-->'
+                        +'<!--googleoff: all-->' 
+                        +'<div class="unibit-accessibility-robots robots-noindex robots-nofollow robots-nocontent">'                      
+                            +skipToContentHTML
+                        +'</div>'
+                        +'<!--googleon: all-->'
+                        +'<!--/noindex-->'                           
+                        +'</a>';
+
+                document.body.insertAdjacentHTML('afterbegin', el);                    
+            } 
+
+        }              
+
+        return {
+            create: create,
+        }
+
+    })();     
+
+    var cookie = (function() {
+
+        function set () {
+            var value = JSON.stringify(settings),
+                date, expires, host, domainParts, domain;
+
+            if (opts.cookieDuration) {
+                date = new Date();
+                date.setTime(date.getTime()+(opts.cookieDuration*24*60*60*1000));
+                expires = "; expires="+date.toGMTString();
+            } else {
+                expires = "";
+            }
+            
+            host = location.hostname;
+            // Means localhost or that the user does not want to enable cookies for all subdomains
+            if(host.split('.') === 1 || !opts.wildcardDomain) {
+                document.cookie = opts.cookieName +"="+ value+expires +"; path=/";
+            } else {
+                // We start by stying to set a cookie from a subdomain eg foo.bar.com -> .bar.com
+                // If that does not work we try to set it for the top domain instead 
+                domainParts = host.split('.');
+                domainParts.shift();
+                domain = '.' + domainParts.join('.');
+                
+                document.cookie = opts.cookieName +"="+ value+expires +"; path=/; domain="+domain;
+                
+                // Check if we managed to set the cookie, if not we where on a top-domain
+                if (cookie.get() == null) {
+                    domain = '.'+host;
+                    document.cookie = opts.cookieName +"="+ value+expires +"; path=/; domain="+domain;
+                }
+            }                       
+        }
+
+        function get () {            
+            var cookies = document.cookie.split(";"),
+                l = cookies.length,
+                cookie_name = opts.cookieName,     
+                i, x, y, v;
+
+            for (i = 0; i < l; i++){
+                x = cookies[i].substr(0,cookies[i].indexOf("="));
+                y = cookies[i].substr(cookies[i].indexOf("=")+1);
+                x = x.replace(/^\s+|\s+$/g,"");
+                if (x == cookie_name) {
+                    v = JSON.parse(unescape(y));
+                    if (!_empty (v)) {
+                        return v;
+                    }
+                    return {};
+                }
+            }
+        }
+
+        return {
+            set: set,
+            get: get
+        }
+
+    })();
+
+    return {
+        init: init,
+    };    
+
+}());

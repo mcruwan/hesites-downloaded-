@@ -1,0 +1,72 @@
+ /* Cookie Personalization */
+  function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires="+d.toUTCString();
+    document.cookie = cname + "=" + cvalue + "; " + expires + ";" + "path=/";
+  }
+  function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0; i<ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0)===' ') c = c.substring(1);
+      if (c.indexOf(name) !== -1) return c.substring(name.length, c.length);
+    }
+    return "";
+  }
+  /* ./cookie functions */
+
+  // Handle the form submission
+  var searchForm = document.querySelector('.home-course-search');
+  if (searchForm) {
+    searchForm.addEventListener('submit', function() {
+      setCookie('courseType', "", 7);  // Clear the cookie
+      var searchParameter = document.querySelector('.home-course-search input[name="courseType"]:checked').value;
+      setCookie('courseType', searchParameter, 7);  // Set the cookie with the selected value
+    });
+  }
+
+  // Get the cookie value
+  var cookieValue = getCookie('courseType');
+  if (cookieValue) {
+    var inputElement = document.querySelector("input[name='courseType'][value='" + cookieValue + "']");
+    if (inputElement) {
+      inputElement.checked = true;  // Set the checkbox as checked
+    }
+  }
+
+  // Hide elements with class 'el-disabled' and show the ones based on the cookie value
+  document.querySelectorAll('.el-disabled').forEach(function(element) {
+    element.style.display = 'none';  // Hide elements
+  });
+
+  // Show elements based on cookie value
+  var level = getCookie("courseType");
+  if (!level) {
+    document.querySelectorAll('.Default').forEach(function(element) {
+      element.style.display = 'block';  // Show Default elements if no courseType cookie
+    });
+  } else if (level !== '') {
+    var elements = document.querySelectorAll('.' + cookieValue);
+
+    if (elements.length > 0) {
+      // If elements exist with the class of cookieValue, show them
+      elements.forEach(function(element) {
+        element.style.display = 'block';
+      });
+    } else {
+      // If no elements with the class of cookieValue, show Default elements
+      document.querySelectorAll('.Default').forEach(function(element) {
+        element.style.display = 'block';  // Show Default elements
+      });
+    }
+  }
+
+
+
+
+
+
+
+

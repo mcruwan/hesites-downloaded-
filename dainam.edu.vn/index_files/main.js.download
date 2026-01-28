@@ -1,0 +1,190 @@
+function markCurrentPage(){
+    let parts = window.location.pathname.split("/");
+    let currentNavUrl = parts.slice(0, 3).join("/");
+
+    if (typeof isEditMode !== "undefined" && isEditMode ){
+      currentNavUrl = parts.slice(0, 4).join("/");
+    }
+
+    let links = document.querySelectorAll(".main-nav > li > a");
+    links.forEach(link => {
+      let linkHref = link.getAttribute("href");
+      if (currentNavUrl === linkHref){
+        link.parentElement.setAttribute("selected", "selected");
+      }
+  });
+}
+  
+markCurrentPage();
+
+function redirectWithLanguage(defaultLang = "vi") {
+  const validLanguages = ["vi", "en"];
+  const currentUrl = new URL(window.location.href);
+
+  if (currentUrl.searchParams.get("pimcore_preview") === "true") {
+    return;
+  }
+
+  const domain = currentUrl.origin;
+  const pathSegments = currentUrl.pathname.split('/').filter(segment => segment !== "");
+
+  if (!validLanguages.includes(pathSegments[0])) {
+    // Wait for document to be ready and add a small delay
+    if (document.readyState === 'complete') {
+      setTimeout(() => {
+        pathSegments.unshift(defaultLang);
+        const newPath = pathSegments.join('/');
+        window.location.href = `${domain}/${newPath}`;
+      }, 100);
+    } else {
+      // If document is not ready, wait for it
+      window.addEventListener('load', () => {
+        setTimeout(() => {
+          pathSegments.unshift(defaultLang);
+          const newPath = pathSegments.join('/');
+          window.location.href = `${domain}/${newPath}`;
+        }, 100);
+      });
+    }
+  }
+}
+
+if (!isEditMode){
+  //redirectWithLanguage();
+}
+
+
+// feelings
+const images = document.querySelectorAll('.feeling-person-img');
+function updateFeelingPerson() {
+  if (images.length > 0) {
+    images.forEach(image => {
+      image.addEventListener('click', function() {
+        images.forEach(img => img.classList.remove('active'));
+        image.classList.add('active');
+
+        const content = image.getAttribute('data-content');
+        const fullname = image.getAttribute('data-fullname');
+        const position = image.getAttribute('data-position');
+        
+        document.getElementById('commentContent').textContent = '"' + content + '"';
+        document.getElementById('commentFullname').textContent = fullname;
+        document.getElementById('commentClass').textContent = position;
+      });
+    });
+
+    const firstImage = images[0];
+    const firstContent = firstImage.getAttribute('data-content');
+    const firstFullname = firstImage.getAttribute('data-fullname');
+    const firstPosition = firstImage.getAttribute('data-position');
+    
+    document.getElementById('commentContent').textContent = '"' + firstContent + '"';
+    document.getElementById('commentFullname').textContent = firstFullname;
+    document.getElementById('commentClass').textContent = firstPosition;
+
+    firstImage.classList.add('active');
+  }
+}
+updateFeelingPerson();
+
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  let desktopSlideImages = document.querySelectorAll(".desktop-swipe-slide picture img");
+  let mobileSlideImages = document.querySelectorAll(".mobile-swipe-slide picture img");
+  let lazyMobileImages = document.querySelectorAll(".lazy-on-mobile");
+
+  if (window.matchMedia("(max-width: 768px)").matches) {
+    mobileSlideImages.forEach((img, index) => {
+      if (index < 1) {
+          img.removeAttribute("loading");
+      }
+    });
+
+    lazyMobileImages.forEach((img, index) => {
+      img.setAttribute("loading", "lazy")
+    })
+  }else{
+    desktopSlideImages.forEach((img, index) => {
+      if (index < 1) {
+          img.removeAttribute("loading");
+      }
+    });
+  }
+});
+
+
+
+// reason video
+const reasonVideo = document.querySelector(".reason-video-container video");
+const playButton = document.getElementById("reason-play-button");
+
+if (!reasonVideo){
+  playButton?.classList.add("d-none");
+}
+
+playButton?.addEventListener("click", () => {
+  reasonVideo.play();
+  playButton?.classList.add("d-none");
+  reasonVideo.setAttribute("controls", true);
+});
+reasonVideo?.addEventListener("pause", () => {
+  playButton?.classList.remove("d-none");
+  reasonVideo.setAttribute("controls", false);
+});
+reasonVideo?.addEventListener("play", () => {
+  playButton?.classList.add("d-none");
+});
+reasonVideo?.addEventListener("click", (e) => {
+  e.preventDefault();
+  if (reasonVideo.paused) {
+    reasonVideo.play();
+  } else {
+    reasonVideo.pause();
+  }
+});
+
+// handle search 
+function getSearchValue() {
+  let searchInputs = document.querySelectorAll(".search-input");
+  for (let input of searchInputs) {
+      if (input.value.trim() !== "") {
+          return input.value.trim();
+      }
+  }
+  return "";
+}
+
+function redirectToSearch() {
+  let searchValue = getSearchValue();
+  if (searchValue) {
+      const validLanguages = ["vi", "en"];
+      let currentLanguage = validLanguages[0];
+      let currentUrl = new URL(window.location.href);
+      let pathSegments = currentUrl.pathname.split('/').filter(segment => segment !== "");
+
+      if (validLanguages.includes(pathSegments[0])) {
+        currentLanguage = pathSegments[0];
+      }
+
+      if (currentLanguage == "vi"){
+        window.location.href = `/vi/ket-qua-tim-kiem?search=${encodeURIComponent(searchValue)}`;
+      }else{
+        window.location.href = `/en/search-result?search=${encodeURIComponent(searchValue)}`;
+      }
+  }
+}
+
+document.querySelectorAll("img[alt='Search icon']").forEach((icon) => {
+  icon.addEventListener("click", redirectToSearch);
+});
+
+// Xử lý khi nhấn Enter trong ô input
+document.querySelectorAll(".search-input").forEach((input) => {
+  input.addEventListener("keydown", function (event) {
+      if (event.key === "Enter") {
+          event.preventDefault(); // Ngăn chặn hành vi mặc định
+          redirectToSearch();
+      }
+  });
+});

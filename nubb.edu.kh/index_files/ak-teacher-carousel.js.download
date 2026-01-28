@@ -1,0 +1,20 @@
+$ = jQuery;
+
+$(document).ready(function () {
+  $("#ak-teacher-carousel").slick({
+    dots: false,
+    arrows: false,
+    centerMode: true,
+    infinite: true,
+    variableWidth: true,
+    autoplay: true,
+    rtl: true,
+  });
+
+  $(".teacher-carousel-prev-button").click(() => {
+    $("#ak-teacher-carousel").slick("slickPrev");
+  });
+  $(".teacher-carousel-next-button").click(() => {
+    $("#ak-teacher-carousel").slick("slickNext");
+  });
+});

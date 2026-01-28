@@ -1,0 +1,80 @@
+document.addEventListener('DOMContentLoaded', function () {
+
+
+    document.addEventListener('click', function (e) {
+        if (e.target.closest('a.bachelor-master-apply')) {
+            e.preventDefault();
+            var element = e.target.closest('a.bachelor-master-apply');
+            var eventStr = 'bakalauras_magistras_aplikuoti_click';
+            call_gtag_link(element, eventStr);
+        } else if (e.target.closest('a.doctoral-apply')) {
+            e.preventDefault();
+            var element = e.target.closest('a.doctoral-apply');
+            var eventStr = 'doktorantura_aplikuoti_click';
+            call_gtag_link(element, eventStr);
+        } else if (e.target.closest('a.registration-for-students')) {
+            e.preventDefault();
+            var element = e.target.closest('a.registration-for-students');
+            var eventStr = 'moksleiviams_registracija_click';
+            call_gtag_link(element, eventStr);
+        } else if (e.target.closest('a.apply-ism-register')) {
+            e.preventDefault();
+            var element = e.target.closest('a.apply-ism-register');
+            var eventStr = 'apply.ism.lt_registracija_click';
+            call_gtag_link(element, eventStr);
+        } else if (e.target.closest('a[href^="mailto:"]')) {
+            if (typeof gtag !== "undefined") {
+                if ((location.host !== 'ism.local') && (location.host !== 'ism.stillnot.live')) {
+                    gtag('event', 'email_click', {
+                        'element_link': e.target.closest('a[href^="mailto:"]').getAttribute('href'),
+                        'element_type': 'email_click',
+                        'window_location': window.location.href,
+                        'send_to': 'G-YKT41PGTWB'
+                    });
+                }
+            }
+        } else if (e.target.closest('a[href^="tel:"]')) {
+            if (typeof gtag !== "undefined") {
+                if ((location.host !== 'ism.local') && (location.host !== 'ism.stillnot.live')) {
+                    gtag('event', 'tel_click', {
+                        'element_link': e.target.closest('a[href^="tel:"]').getAttribute('href'),
+                        'element_type': 'tel_click',
+                        'window_location': window.location.href,
+                        'send_to': 'G-YKT41PGTWB'
+                    });
+                }
+            }
+        }
+    });
+
+    function call_gtag_link(element, eventStr) {
+        var elementBtnHref = element.getAttribute('href');
+        var targetTo = '_self';
+        if (element.hasAttribute('target')) {
+            targetTo = element.getAttribute('target');
+        }
+        if (typeof gtag !== "undefined") {
+            if ((location.host !== 'ism.local') && (location.host !== 'ism.stillnot.live')) {
+                gtag('event', eventStr, {
+                    'element_link': elementBtnHref,
+                    'element_type': eventStr,
+                    'window_location': window.location.href,
+                    'send_to': 'G-YKT41PGTWB'
+                });
+            }
+        }
+
+        window.open(elementBtnHref, targetTo);
+    }
+    if(document.body.classList.contains('postid-7906')) {
+        setTimeout(function(){
+            if (typeof gtag !== "undefined") {
+                gtag("get", 'G-YKT41PGTWB', "client_id", (v) => window.dataLayer.push({'client_id': v}));
+                gtag("get", 'G-YKT41PGTWB', "session_id", (v) => window.dataLayer.push({'session_id': v}));
+            }
+        }, 1000);
+
+    }
+
+
+}, false);

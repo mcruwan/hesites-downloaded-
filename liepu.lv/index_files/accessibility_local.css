@@ -1,0 +1,1915 @@
+body label.unibit-accessibility-banner-button {
+    background-color: #015551; 
+    color: #ffffff;
+    border-color: #015551;             
+    background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI3LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA1MCA1MCIgd2lkdGg9IjUwIiBoZWlnaHQ9IjUwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MCA1MDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOiNGRkZGRkY7fQo8L3N0eWxlPgo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMjUsMC41YzEzLjUsMCwyNC41LDExLDI0LjUsMjQuNWMwLDEzLjUtMTEsMjQuNS0yNC41LDI0LjVjLTEzLjUsMC0yNC41LTExLTI0LjUtMjQuNWMwLTYuNSwyLjYtMTIuNyw3LjItMTcuMwoJQzEyLjMsMy4xLDE4LjUsMC41LDI1LDAuNXogTTI0LjgsMzAuMWwtMy42LDkuOWMtMC4yLDAuNS0wLjUsMC45LTEsMS4xYy0xLDAuNS0yLjIsMC0yLjYtMWMtMC4yLTAuNS0wLjItMS0wLjEtMS41bDIuNS02LjkKCWMwLjItMC41LDAuNC0xLjEsMC41LTEuNmMwLjEtMC42LDAuMi0xLjEsMC4yLTEuN2MwLjEtMSwwLjItMi4xLDAuMi0zLjFjMC4xLTEsMC4xLTIuMSwwLjEtMi45YzAtMS0wLjItMS4xLTEuMS0xLjNsLTAuMiwwCglsLTcuMi0xLjRjLTAuNS0wLjEtMS0wLjQtMS4zLTAuOGMtMC42LTAuOS0wLjQtMi4xLDAuNS0yLjhjMC40LTAuMywxLTAuNCwxLjUtMC4zbDcuNywxLjRjMC4zLDAsMC42LDAuMSwwLjksMC4xCgljMC45LDAuMSwxLjksMC4yLDIuOSwwLjJjMS4yLDAsMi40LTAuMSwzLjYtMC4zYzAuNCwwLDAuNy0wLjEsMS0wLjFsNy4zLTEuNGMwLjUtMC4xLDEuMSwwLDEuNSwwLjNjMC45LDAuNiwxLjIsMS45LDAuNSwyLjgKCWMwLDAsMCwwLDAsMGMtMC4zLDAuNC0wLjgsMC43LTEuMywwLjhMMzAuNSwyMWMtMC4yLDAuMS0wLjQsMC4xLTAuNiwwLjFjLTAuNywwLjEtMS4xLDAuMi0xLDEuMmMwLDAuOCwwLjEsMS43LDAuMiwyLjYKCWMwLjEsMS4xLDAuMywyLjMsMC41LDMuM2MwLjEsMC43LDAuMiwxLjMsMC40LDEuOHMwLjMsMS4xLDAuNiwxLjhsMi40LDYuN2MwLjQsMS0wLjIsMi4yLTEuMiwyLjZjLTAuNSwwLjItMSwwLjItMS41LTAuMQoJYy0wLjUtMC4yLTAuOS0wLjYtMS0xLjFsLTMuNi05LjhsLTAuNC0wLjdMMjQuOCwzMC4xTDI0LjgsMzAuMXogTTI1LDguN2MxLjksMCwzLjUsMS42LDMuNSwzLjVjMCwxLjktMS42LDMuNS0zLjUsMy41CgljLTEuOSwwLTMuNS0xLjYtMy41LTMuNWMwLTAuOSwwLjQtMS44LDEtMi41QzIzLjIsOS4xLDI0LjEsOC43LDI1LDguN3ogTTM5LjUsMTAuNWMtOC04LTIxLTgtMjksMHMtOCwyMSwwLDI5czIxLDgsMjksMAoJYzMuOS0zLjgsNi05LjEsNi0xNC41QzQ1LjUsMTkuNiw0My4zLDE0LjMsMzkuNSwxMC41eiIvPgo8L3N2Zz4K");
+    background-size: 30px;
+    background-position: 3px center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+body.unibit-accessibility-contrast-a label.unibit-accessibility-banner-button {           
+    background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI3LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA1MCA1MCIgd2lkdGg9IjUwIiBoZWlnaHQ9IjUwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MCA1MDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOiNGRkZGRkY7fQo8L3N0eWxlPgo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMjUsMC41YzEzLjUsMCwyNC41LDExLDI0LjUsMjQuNWMwLDEzLjUtMTEsMjQuNS0yNC41LDI0LjVjLTEzLjUsMC0yNC41LTExLTI0LjUtMjQuNWMwLTYuNSwyLjYtMTIuNyw3LjItMTcuMwoJQzEyLjMsMy4xLDE4LjUsMC41LDI1LDAuNXogTTI0LjgsMzAuMWwtMy42LDkuOWMtMC4yLDAuNS0wLjUsMC45LTEsMS4xYy0xLDAuNS0yLjIsMC0yLjYtMWMtMC4yLTAuNS0wLjItMS0wLjEtMS41bDIuNS02LjkKCWMwLjItMC41LDAuNC0xLjEsMC41LTEuNmMwLjEtMC42LDAuMi0xLjEsMC4yLTEuN2MwLjEtMSwwLjItMi4xLDAuMi0zLjFjMC4xLTEsMC4xLTIuMSwwLjEtMi45YzAtMS0wLjItMS4xLTEuMS0xLjNsLTAuMiwwCglsLTcuMi0xLjRjLTAuNS0wLjEtMS0wLjQtMS4zLTAuOGMtMC42LTAuOS0wLjQtMi4xLDAuNS0yLjhjMC40LTAuMywxLTAuNCwxLjUtMC4zbDcuNywxLjRjMC4zLDAsMC42LDAuMSwwLjksMC4xCgljMC45LDAuMSwxLjksMC4yLDIuOSwwLjJjMS4yLDAsMi40LTAuMSwzLjYtMC4zYzAuNCwwLDAuNy0wLjEsMS0wLjFsNy4zLTEuNGMwLjUtMC4xLDEuMSwwLDEuNSwwLjNjMC45LDAuNiwxLjIsMS45LDAuNSwyLjgKCWMwLDAsMCwwLDAsMGMtMC4zLDAuNC0wLjgsMC43LTEuMywwLjhMMzAuNSwyMWMtMC4yLDAuMS0wLjQsMC4xLTAuNiwwLjFjLTAuNywwLjEtMS4xLDAuMi0xLDEuMmMwLDAuOCwwLjEsMS43LDAuMiwyLjYKCWMwLjEsMS4xLDAuMywyLjMsMC41LDMuM2MwLjEsMC43LDAuMiwxLjMsMC40LDEuOHMwLjMsMS4xLDAuNiwxLjhsMi40LDYuN2MwLjQsMS0wLjIsMi4yLTEuMiwyLjZjLTAuNSwwLjItMSwwLjItMS41LTAuMQoJYy0wLjUtMC4yLTAuOS0wLjYtMS0xLjFsLTMuNi05LjhsLTAuNC0wLjdMMjQuOCwzMC4xTDI0LjgsMzAuMXogTTI1LDguN2MxLjksMCwzLjUsMS42LDMuNSwzLjVjMCwxLjktMS42LDMuNS0zLjUsMy41CgljLTEuOSwwLTMuNS0xLjYtMy41LTMuNWMwLTAuOSwwLjQtMS44LDEtMi41QzIzLjIsOS4xLDI0LjEsOC43LDI1LDguN3ogTTM5LjUsMTAuNWMtOC04LTIxLTgtMjksMHMtOCwyMSwwLDI5czIxLDgsMjksMAoJYzMuOS0zLjgsNi05LjEsNi0xNC41QzQ1LjUsMTkuNiw0My4zLDE0LjMsMzkuNSwxMC41eiIvPgo8L3N2Zz4K");
+}
+
+body.unibit-accessibility-contrast-b label.unibit-accessibility-banner-button {           
+    background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI3LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA1MCA1MCIgd2lkdGg9IjUwIiBoZWlnaHQ9IjUwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MCA1MDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOiMwMDAwMDA7fQo8L3N0eWxlPgo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMjUsMC41YzEzLjUsMCwyNC41LDExLDI0LjUsMjQuNWMwLDEzLjUtMTEsMjQuNS0yNC41LDI0LjVjLTEzLjUsMC0yNC41LTExLTI0LjUtMjQuNWMwLTYuNSwyLjYtMTIuNyw3LjItMTcuMwoJQzEyLjMsMy4xLDE4LjUsMC41LDI1LDAuNXogTTI0LjgsMzAuMWwtMy42LDkuOWMtMC4yLDAuNS0wLjUsMC45LTEsMS4xYy0xLDAuNS0yLjIsMC0yLjYtMWMtMC4yLTAuNS0wLjItMS0wLjEtMS41bDIuNS02LjkKCWMwLjItMC41LDAuNC0xLjEsMC41LTEuNmMwLjEtMC42LDAuMi0xLjEsMC4yLTEuN2MwLjEtMSwwLjItMi4xLDAuMi0zLjFjMC4xLTEsMC4xLTIuMSwwLjEtMi45YzAtMS0wLjItMS4xLTEuMS0xLjNsLTAuMiwwCglsLTcuMi0xLjRjLTAuNS0wLjEtMS0wLjQtMS4zLTAuOGMtMC42LTAuOS0wLjQtMi4xLDAuNS0yLjhjMC40LTAuMywxLTAuNCwxLjUtMC4zbDcuNywxLjRjMC4zLDAsMC42LDAuMSwwLjksMC4xCgljMC45LDAuMSwxLjksMC4yLDIuOSwwLjJjMS4yLDAsMi40LTAuMSwzLjYtMC4zYzAuNCwwLDAuNy0wLjEsMS0wLjFsNy4zLTEuNGMwLjUtMC4xLDEuMSwwLDEuNSwwLjNjMC45LDAuNiwxLjIsMS45LDAuNSwyLjgKCWMwLDAsMCwwLDAsMGMtMC4zLDAuNC0wLjgsMC43LTEuMywwLjhMMzAuNSwyMWMtMC4yLDAuMS0wLjQsMC4xLTAuNiwwLjFjLTAuNywwLjEtMS4xLDAuMi0xLDEuMmMwLDAuOCwwLjEsMS43LDAuMiwyLjYKCWMwLjEsMS4xLDAuMywyLjMsMC41LDMuM2MwLjEsMC43LDAuMiwxLjMsMC40LDEuOHMwLjMsMS4xLDAuNiwxLjhsMi40LDYuN2MwLjQsMS0wLjIsMi4yLTEuMiwyLjZjLTAuNSwwLjItMSwwLjItMS41LTAuMQoJYy0wLjUtMC4yLTAuOS0wLjYtMS0xLjFsLTMuNi05LjhsLTAuNC0wLjdMMjQuOCwzMC4xTDI0LjgsMzAuMXogTTI1LDguN2MxLjksMCwzLjUsMS42LDMuNSwzLjVjMCwxLjktMS42LDMuNS0zLjUsMy41CgljLTEuOSwwLTMuNS0xLjYtMy41LTMuNWMwLTAuOSwwLjQtMS44LDEtMi41QzIzLjIsOS4xLDI0LjEsOC43LDI1LDguN3ogTTM5LjUsMTAuNWMtOC04LTIxLTgtMjksMHMtOCwyMSwwLDI5czIxLDgsMjksMAoJYzMuOS0zLjgsNi05LjEsNi0xNC41QzQ1LjUsMTkuNiw0My4zLDE0LjMsMzkuNSwxMC41eiIvPgo8L3N2Zz4K");
+}
+
+body.unibit-accessibility-contrast-c label.unibit-accessibility-banner-button {           
+    background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI3LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA1MCA1MCIgd2lkdGg9IjUwIiBoZWlnaHQ9IjUwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MCA1MDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOiNmZmY4NmU7fQo8L3N0eWxlPgo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMjUsMC41YzEzLjUsMCwyNC41LDExLDI0LjUsMjQuNWMwLDEzLjUtMTEsMjQuNS0yNC41LDI0LjVjLTEzLjUsMC0yNC41LTExLTI0LjUtMjQuNWMwLTYuNSwyLjYtMTIuNyw3LjItMTcuMwoJQzEyLjMsMy4xLDE4LjUsMC41LDI1LDAuNXogTTI0LjgsMzAuMWwtMy42LDkuOWMtMC4yLDAuNS0wLjUsMC45LTEsMS4xYy0xLDAuNS0yLjIsMC0yLjYtMWMtMC4yLTAuNS0wLjItMS0wLjEtMS41bDIuNS02LjkKCWMwLjItMC41LDAuNC0xLjEsMC41LTEuNmMwLjEtMC42LDAuMi0xLjEsMC4yLTEuN2MwLjEtMSwwLjItMi4xLDAuMi0zLjFjMC4xLTEsMC4xLTIuMSwwLjEtMi45YzAtMS0wLjItMS4xLTEuMS0xLjNsLTAuMiwwCglsLTcuMi0xLjRjLTAuNS0wLjEtMS0wLjQtMS4zLTAuOGMtMC42LTAuOS0wLjQtMi4xLDAuNS0yLjhjMC40LTAuMywxLTAuNCwxLjUtMC4zbDcuNywxLjRjMC4zLDAsMC42LDAuMSwwLjksMC4xCgljMC45LDAuMSwxLjksMC4yLDIuOSwwLjJjMS4yLDAsMi40LTAuMSwzLjYtMC4zYzAuNCwwLDAuNy0wLjEsMS0wLjFsNy4zLTEuNGMwLjUtMC4xLDEuMSwwLDEuNSwwLjNjMC45LDAuNiwxLjIsMS45LDAuNSwyLjgKCWMwLDAsMCwwLDAsMGMtMC4zLDAuNC0wLjgsMC43LTEuMywwLjhMMzAuNSwyMWMtMC4yLDAuMS0wLjQsMC4xLTAuNiwwLjFjLTAuNywwLjEtMS4xLDAuMi0xLDEuMmMwLDAuOCwwLjEsMS43LDAuMiwyLjYKCWMwLjEsMS4xLDAuMywyLjMsMC41LDMuM2MwLjEsMC43LDAuMiwxLjMsMC40LDEuOHMwLjMsMS4xLDAuNiwxLjhsMi40LDYuN2MwLjQsMS0wLjIsMi4yLTEuMiwyLjZjLTAuNSwwLjItMSwwLjItMS41LTAuMQoJYy0wLjUtMC4yLTAuOS0wLjYtMS0xLjFsLTMuNi05LjhsLTAuNC0wLjdMMjQuOCwzMC4xTDI0LjgsMzAuMXogTTI1LDguN2MxLjksMCwzLjUsMS42LDMuNSwzLjVjMCwxLjktMS42LDMuNS0zLjUsMy41CgljLTEuOSwwLTMuNS0xLjYtMy41LTMuNWMwLTAuOSwwLjQtMS44LDEtMi41QzIzLjIsOS4xLDI0LjEsOC43LDI1LDguN3ogTTM5LjUsMTAuNWMtOC04LTIxLTgtMjksMHMtOCwyMSwwLDI5czIxLDgsMjksMAoJYzMuOS0zLjgsNi05LjEsNi0xNC41QzQ1LjUsMTkuNiw0My4zLDE0LjMsMzkuNSwxMC41eiIvPgo8L3N2Zz4K");
+}
+
+body label.unibit-accessibility-banner-button:hover {
+    background-color: #008680; 
+    border-color: #008680;    
+}
+
+body div.unibit-accessibility-banner-skip-t {
+    background-color: #015551; 
+    color: #ffffff;
+    border-color: #015551;             
+    background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDUwIDUwIiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUwIDUwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8ZyBpZD0ic3ZnOCIgeG1sbnM6Y2M9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL25zIyIgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPg0KPC9nPg0KPGcgaWQ9IkxheWVyXzIiPg0KCTxnPg0KCQk8cGF0aCBzdHlsZT0iZmlsbDojZmZmZmZmIiBkPSJNMTkuNSwyN0gyNGMwLjQsMCwwLjgsMC4zLDAuOCwwLjh2MS42YzAsMC40LDAuMiwwLjYsMC40LDAuNmMwLjEsMCwwLjMtMC4xLDAuNC0wLjJsNS41LTQuMmMwLjItMC4yLDAuMy0wLjQsMC4zLTAuNg0KCQkJYzAtMC4yLTAuMS0wLjQtMC4zLTAuNmwtNS41LTQuMmMtMC4xLTAuMS0wLjMtMC4yLTAuNC0wLjJjLTAuMiwwLTAuNCwwLjItMC40LDAuNnYxLjZjMCwwLjQtMC4zLDAuOC0wLjgsMC44aC00LjUNCgkJCWMtMC41LDAtMSwwLjQtMSwxVjI2QzE4LjYsMjYuNiwxOSwyNywxOS41LDI3eiIvPg0KCQk8cGF0aCBzdHlsZT0iZmlsbDojZmZmZmZmIiBkPSJNMjUsOS42QzE2LjUsOS42LDkuNiwxNi41LDkuNiwyNVMxNi41LDQwLjQsMjUsNDAuNFM0MC40LDMzLjUsNDAuNCwyNVMzMy41LDkuNiwyNSw5LjZ6IE0yNSwxMy42DQoJCQljNi4zLDAsMTEuNCw1LjEsMTEuNCwxMS40UzMxLjMsMzYuNCwyNSwzNi40UzEzLjYsMzEuMywxMy42LDI1UzE4LjcsMTMuNiwyNSwxMy42eiIvPg0KCTwvZz4NCjwvZz4NCjwvc3ZnPg0K");
+}
+
+body div.unibit-accessibility-banner-skip-t:hover {
+    background-color: #008680; 
+    border-color: #008680;    
+}
+
+body.unibit-accessibility-contrast-a .news_img_container img {
+    background-color: #ffffff;
+}
+
+body.unibit-accessibility-contrast-b .news_img_container img {
+    background-color: #000000;
+    background-color: #fff86e; 
+}
+
+body.unibit-accessibility-contrast-c .news_img_container img {
+    background-color: #fff86e; 
+}   
+
+body.unibit-accessibility-contrast-a .texts.uce-iframe-content-container p, body.unibit-accessibility-contrast-a .texts.uce-iframe-content-container span:not(.highlight),
+body.unibit-accessibility-contrast-a .texts .uce-iframe-content-container p, body.unibit-accessibility-contrast-a .texts .uce-iframe-content-container span:not(.highlight),
+body.unibit-accessibility-contrast-a .uce-iframe-content-container .texts p, body.unibit-accessibility-contrast-a .uce-iframe-content-container .texts span:not(.highlight),
+body.unibit-accessibility-contrast-a .texts.highlight_contents p, body.unibit-accessibility-contrast-a .texts.highlight_contents span:not(.highlight),
+body.unibit-accessibility-contrast-a .texts .highlight_contents p, body.unibit-accessibility-contrast-a .texts .highlight_contents span:not(.highlight),
+body.unibit-accessibility-contrast-a .highlight_contents .texts p, body.unibit-accessibility-contrast-a .highlight_contents .texts span:not(.highlight) { 
+    background-color: #000000!important;
+    color: #ffffff!important;
+    border-color: #ffffff!important;
+}
+
+body.unibit-accessibility-contrast-b .texts.uce-iframe-content-container p, body.unibit-accessibility-contrast-b .texts.uce-iframe-content-container span:not(.highlight),
+body.unibit-accessibility-contrast-b .texts .uce-iframe-content-container p, body.unibit-accessibility-contrast-b .texts .uce-iframe-content-container span:not(.highlight),
+body.unibit-accessibility-contrast-b .uce-iframe-content-container .texts p, body.unibit-accessibility-contrast-b .uce-iframe-content-container .texts span:not(.highlight),
+body.unibit-accessibility-contrast-b .texts.highlight_contents p, body.unibit-accessibility-contrast-b .texts.highlight_contents span:not(.highlight),
+body.unibit-accessibility-contrast-b .texts .highlight_contents p, body.unibit-accessibility-contrast-b .texts .highlight_contents span:not(.highlight),
+body.unibit-accessibility-contrast-b .highlight_contents .texts p, body.unibit-accessibility-contrast-b .highlight_contents .texts span:not(.highlight) { 
+    background-color: #fff86e!important;
+    color: #000000!important;
+    border-color: #000000!important;
+}
+
+body.unibit-accessibility-contrast-c .texts.uce-iframe-content-container p, body.unibit-accessibility-contrast-c .texts.uce-iframe-content-container span:not(.highlight),
+body.unibit-accessibility-contrast-c .texts .uce-iframe-content-container p, body.unibit-accessibility-contrast-c .texts .uce-iframe-content-container span:not(.highlight),
+body.unibit-accessibility-contrast-c .uce-iframe-content-container .texts p, body.unibit-accessibility-contrast-c .uce-iframe-content-container .texts span:not(.highlight),
+body.unibit-accessibility-contrast-c .texts.highlight_contents p, body.unibit-accessibility-contrast-c .texts.highlight_contents span:not(.highlight),
+body.unibit-accessibility-contrast-c .texts .highlight_contents p, body.unibit-accessibility-contrast-c .texts .highlight_contents span:not(.highlight),
+body.unibit-accessibility-contrast-c .highlight_contents .texts p, body.unibit-accessibility-contrast-c .highlight_contents .texts span:not(.highlight) {     
+    background-color: #000000!important;
+    color: #fff86e!important;    
+    border-color: #fff86e!important;    
+}
+
+body.unibit-accessibility-contrast-a hr {
+  color: #ffffff!important;
+  background-color: #ffffff!important;
+}    
+
+body.unibit-accessibility-contrast-b hr {
+  color: #000000!important;
+  background-color: #000000!important;
+}   
+
+body.unibit-accessibility-contrast-c hr {
+  color: #fff86e!important;
+  background-color: #fff86e!important;
+}       
+
+body.unibit-accessibility-contrast-a input[type=text]::placeholder, body.unibit-accessibility-contrast-a textarea::placeholder {
+    color: #ffffff!important;
+    opacity: 1!important;     
+}
+body.unibit-accessibility-contrast-a input[type=text]:-ms-input-placeholder, body.unibit-accessibility-contrast-a textarea:-ms-input-placeholder {
+    color: #ffffff!important;         
+}
+body.unibit-accessibility-contrast-a input[type=text]::-ms-input-placeholder, body.unibit-accessibility-contrast-a textarea::-ms-input-placeholder {
+    color: #ffffff!important;         
+}
+body.unibit-accessibility-contrast-b input[type=text]::placeholder, body.unibit-accessibility-contrast-b textarea::placeholder {
+    color: #000000!important;
+    opacity: 1!important;     
+}
+body.unibit-accessibility-contrast-b input[type=text]:-ms-input-placeholder, body.unibit-accessibility-contrast-b textarea:-ms-input-placeholder {
+    color: #000000!important;         
+}
+body.unibit-accessibility-contrast-b input[type=text]::-ms-input-placeholder, body.unibit-accessibility-contrast-b textarea::-ms-input-placeholder {
+    color: #000000!important;         
+}
+body.unibit-accessibility-contrast-c input[type=text]::placeholder, body.unibit-accessibility-contrast-c textarea::placeholder {
+    color: #fff86e!important;
+    opacity: 1!important;     
+}
+body.unibit-accessibility-contrast-c input[type=text]:-ms-input-placeholder, body.unibit-accessibility-contrast-c textarea:-ms-input-placeholder {
+    color: #fff86e!important;         
+}
+body.unibit-accessibility-contrast-c input[type=text]::-ms-input-placeholder, body.unibit-accessibility-contrast-c textarea::-ms-input-placeholder {
+    color: #fff86e!important;         
+}                   
+
+body.unibit-accessibility-contrast-a #google_map_content, body.unibit-accessibility-contrast-b #google_map_content, body.unibit-accessibility-contrast-c #google_map_content {
+    color: #000000!important;       
+}                                                       
+                                                                                                                                                                                                                                 
+body.unibit-accessibility-contrast-a a, 
+body.unibit-accessibility-contrast-a .fancybox-caption, 
+body.unibit-accessibility-contrast-a .unibit_check_error_mes, 
+body.unibit-accessibility-contrast-a .unibit_page_nav_dots, 
+body.unibit-accessibility-contrast-a .uce-banner div.uce-banner-inner .uce-banner-buttons-container a.uce-disable, body.unibit-accessibility-contrast-a .uce-banner div.uce-banner-inner .uce-banner-customize#uce-banner-customize a.uce-accept-selected,
+body.unibit-accessibility-contrast-a div.uce-banner-inner label.uce-customize, body.unibit-accessibility-contrast-a div.uce-banner-inner a.uce-accept, body.unibit-accessibility-contrast-a div.uce-banner-inner a.uce-accept-selected,      
+body.unibit-accessibility-contrast-a .uce-banner .uce-banner-inner p, body.unibit-accessibility-contrast-a .uce-banner .uce-banner-inner a,     
+body.unibit-accessibility-contrast-a #uce-user-state-container p, body.unibit-accessibility-contrast-a #uce-user-state-container a, body.unibit-accessibility-contrast-a .uce-banner-main-text p, body.unibit-accessibility-contrast-a .uce-banner-main-text a, body.unibit-accessibility-contrast-a .uce-banner-customize-text p, body.unibit-accessibility-contrast-a .uce-banner-customize-text a,       
+body.unibit-accessibility-contrast-a .h1, body.unibit-accessibility-contrast-a h1, body.unibit-accessibility-contrast-a .h2, body.unibit-accessibility-contrast-a h2, body.unibit-accessibility-contrast-a .h3, body.unibit-accessibility-contrast-a h3, body.unibit-accessibility-contrast-a .h4, body.unibit-accessibility-contrast-a h4, body.unibit-accessibility-contrast-a .h5, body.unibit-accessibility-contrast-a h5, body.unibit-accessibility-contrast-a .h6, body.unibit-accessibility-contrast-a h6 {
+    color: #ffffff!important;  
+}
+
+body.unibit-accessibility-contrast-b a,    
+body.unibit-accessibility-contrast-b .unibit_check_error_mes,    
+body.unibit-accessibility-contrast-b .unibit_page_nav_dots,    
+body.unibit-accessibility-contrast-b .uce-banner div.uce-banner-inner .uce-banner-buttons-container a.uce-disable, body.unibit-accessibility-contrast-b .uce-banner div.uce-banner-inner .uce-banner-customize#uce-banner-customize a.uce-accept-selected,   
+body.unibit-accessibility-contrast-b div.uce-banner-inner label.uce-customize, body.unibit-accessibility-contrast-b div.uce-banner-inner a.uce-accept, body.unibit-accessibility-contrast-b div.uce-banner-inner a.uce-accept-selected, 
+body.unibit-accessibility-contrast-b .uce-banner .uce-banner-inner p, body.unibit-accessibility-contrast-b .uce-banner .uce-banner-inner a,    
+body.unibit-accessibility-contrast-b #uce-user-state-container p, body.unibit-accessibility-contrast-b #uce-user-state-container a, body.unibit-accessibility-contrast-b .uce-banner-main-text p, body.unibit-accessibility-contrast-b .uce-banner-main-text a, body.unibit-accessibility-contrast-b .uce-banner-customize-text p, body.unibit-accessibility-contrast-b .uce-banner-customize-text a,        
+body.unibit-accessibility-contrast-b .h1, body.unibit-accessibility-contrast-b h1, body.unibit-accessibility-contrast-b .h2, body.unibit-accessibility-contrast-b h2, body.unibit-accessibility-contrast-b .h3, body.unibit-accessibility-contrast-b h3, body.unibit-accessibility-contrast-b .h4, body.unibit-accessibility-contrast-b h4, body.unibit-accessibility-contrast-b .h5, body.unibit-accessibility-contrast-b h5, body.unibit-accessibility-contrast-b .h6, body.unibit-accessibility-contrast-b h6 {
+    color: #000000!important;  
+}
+
+body.unibit-accessibility-contrast-c a,   
+body.unibit-accessibility-contrast-c .fancybox-caption, body.unibit-accessibility-contrast-b .fancybox-caption,         
+body.unibit-accessibility-contrast-c .unibit_check_error_mes,    
+body.unibit-accessibility-contrast-c .unibit_page_nav_dots,    
+body.unibit-accessibility-contrast-c .uce-banner div.uce-banner-inner .uce-banner-buttons-container a.uce-disable, body.unibit-accessibility-contrast-c .uce-banner div.uce-banner-inner .uce-banner-customize#uce-banner-customize a.uce-accept-selected,   
+body.unibit-accessibility-contrast-c div.uce-banner-inner label.uce-customize, body.unibit-accessibility-contrast-c div.uce-banner-inner a.uce-accept, body.unibit-accessibility-contrast-c div.uce-banner-inner a.uce-accept-selected, 
+body.unibit-accessibility-contrast-c .uce-banner .uce-banner-inner p, body.unibit-accessibility-contrast-c .uce-banner .uce-banner-inner a,    
+body.unibit-accessibility-contrast-c #uce-user-state-container p, body.unibit-accessibility-contrast-c #uce-user-state-container a, body.unibit-accessibility-contrast-c .uce-banner-main-text p, body.unibit-accessibility-contrast-c .uce-banner-main-text a, body.unibit-accessibility-contrast-c .uce-banner-customize-text p, body.unibit-accessibility-contrast-c .uce-banner-customize-text a,      
+body.unibit-accessibility-contrast-c .h1, body.unibit-accessibility-contrast-c h1, body.unibit-accessibility-contrast-c .h2, body.unibit-accessibility-contrast-c h2, body.unibit-accessibility-contrast-c .h3, body.unibit-accessibility-contrast-c h3, body.unibit-accessibility-contrast-c .h4, body.unibit-accessibility-contrast-c h4, body.unibit-accessibility-contrast-c .h5, body.unibit-accessibility-contrast-c h5, body.unibit-accessibility-contrast-c .h6, body.unibit-accessibility-contrast-c h6 {
+    color: #fff86e!important;  
+}
+
+body.unibit-accessibility-contrast-a .fancybox-thumbs {
+    background-color: #000000!important;       
+}
+
+body.unibit-accessibility-contrast-b .fancybox-thumbs {
+    background-color: #fff86e!important;       
+}
+
+body.unibit-accessibility-contrast-c .fancybox-thumbs {
+    background-color: #000000!important;       
+}
+
+body.unibit-accessibility-contrast-a .fancybox-progress {
+    background-color: #ffffff!important;       
+}
+/*
+body.unibit-accessibility-contrast-b .xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
+    background-color: #000000!important;       
+}
+*/
+body.unibit-accessibility-contrast-c .fancybox-progress, body.unibit-accessibility-contrast-b .fancybox-progress {
+    background-color: #fff86e!important;       
+}
+
+body.unibit-accessibility-contrast-a .unibit_page_nav li:after,   
+body.unibit-accessibility-contrast-a .fancybox-thumbs__list a::before {
+    border-color: #ffffff!important;       
+}
+
+body.unibit-accessibility-contrast-b .unibit_page_nav li:after,   
+body.unibit-accessibility-contrast-b .fancybox-thumbs__list a::before {
+    border-color: #000000!important;       
+}
+
+body.unibit-accessibility-contrast-c .unibit_page_nav li:after,    
+body.unibit-accessibility-contrast-c .fancybox-thumbs__list a::before {
+    border-color: #fff86e!important;       
+}
+
+body.unibit-accessibility-contrast-a input, body.unibit-accessibility-contrast-a select, body.unibit-accessibility-contrast-a textarea, body.unibit-accessibility-contrast-a div.button,   
+body.unibit-accessibility-contrast-a .unibit_modal, 
+body.unibit-accessibility-contrast-a blockquote, 
+body.unibit-accessibility-contrast-a .unibit_page_nav li a,    
+body.unibit-accessibility-contrast-a #unibit_chat_texts, 
+body.unibit-accessibility-contrast-a .unibit_admin_bottom_container, 
+body.unibit-accessibility-contrast-a table td, body.unibit-accessibility-contrast-a div.texts table td, 
+body.unibit-accessibility-contrast-a #uce-user-state-container,
+body.unibit-accessibility-contrast-a a.uce-accept,        
+body.unibit-accessibility-contrast-a .uce-banner-inner { 
+    background-color: #000000!important;
+    color: #ffffff!important;
+    border-color: #ffffff!important;
+}
+
+body.unibit-accessibility-contrast-b input, body.unibit-accessibility-contrast-b select, body.unibit-accessibility-contrast-b textarea, body.unibit-accessibility-contrast-b div.button,    
+body.unibit-accessibility-contrast-b .unibit_modal,   
+body.unibit-accessibility-contrast-b blockquote,   
+body.unibit-accessibility-contrast-b .unibit_page_nav li a, 
+body.unibit-accessibility-contrast-b #unibit_chat_texts,  
+body.unibit-accessibility-contrast-b .unibit_admin_bottom_container,  
+body.unibit-accessibility-contrast-b table td, body.unibit-accessibility-contrast-b div.texts table td,    
+body.unibit-accessibility-contrast-b a.uce-accept,   
+body.unibit-accessibility-contrast-b #uce-user-state-container, 
+body.unibit-accessibility-contrast-b .uce-banner-inner { 
+    background-color: #fff86e!important;
+    color: #000000!important;
+    border-color: #000000!important;
+}
+
+body.unibit-accessibility-contrast-c input, body.unibit-accessibility-contrast-c select, body.unibit-accessibility-contrast-c textarea, body.unibit-accessibility-contrast-c div.button,    
+body.unibit-accessibility-contrast-c .unibit_modal,   
+body.unibit-accessibility-contrast-c blockquote,   
+body.unibit-accessibility-contrast-c .unibit_page_nav li a, 
+body.unibit-accessibility-contrast-c #unibit_chat_texts,  
+body.unibit-accessibility-contrast-c .unibit_admin_bottom_container,  
+body.unibit-accessibility-contrast-c table td, body.unibit-accessibility-contrast-c div.texts table td, 
+body.unibit-accessibility-contrast-c a.uce-accept,   
+body.unibit-accessibility-contrast-c #uce-user-state-container, 
+body.unibit-accessibility-contrast-c .uce-banner-inner { 
+    background-color: #000000!important;
+    color: #fff86e!important;    
+    border-color: #fff86e!important;    
+}
+
+body.unibit-accessibility-contrast-a #unibit_chat_header_container, body.unibit-accessibility-contrast-a .unibit_chat_header_button, body.unibit-accessibility-contrast-a .unibit_chat_message, body.unibit-accessibility-contrast-a #unibit_chat_input_container, body.unibit-accessibility-contrast-a .unibit_chat_author, body.unibit-accessibility-contrast-a .unibit_chat_message_time, body.unibit-accessibility-contrast-a .unibit_chat_message_text,                          
+body.unibit-accessibility-contrast-a table th, body.unibit-accessibility-contrast-a div.texts table th,  
+body.unibit-accessibility-contrast-a table th a, body.unibit-accessibility-contrast-a div.texts table th a,  
+body.unibit-accessibility-contrast-a .unibit_modal_header,   
+body.unibit-accessibility-contrast-a .unibit_modal_header a,   
+body.unibit-accessibility-contrast-a .unibit_page_nav li.active a, body.unibit-accessibility-contrast-a .unibit_page_nav li:hover a,                                                                                                                                                                                                               
+body.unibit-accessibility-contrast-a .highlight,         
+body.unibit-accessibility-contrast-a .green_bg,         
+body.unibit-accessibility-contrast-a .uc_hint, body.unibit-accessibility-contrast-a .uc_today_td, body.unibit-accessibility-contrast-a .uc_today_td a, body.unibit-accessibility-contrast-a .uc_selected_td, body.unibit-accessibility-contrast-a .uc_selected_td a,                                                                                                                                                                                                                                                                                                                                                                                                     
+body.unibit-accessibility-contrast-a .ask_question {
+    background-color: #ffffff!important;
+    color: #000000!important;
+    border-color: #000000!important;    
+}
+
+body.unibit-accessibility-contrast-b #unibit_chat_header_container, body.unibit-accessibility-contrast-b .unibit_chat_header_button, body.unibit-accessibility-contrast-b .unibit_chat_message, body.unibit-accessibility-contrast-b #unibit_chat_input_container, body.unibit-accessibility-contrast-b .unibit_chat_author, body.unibit-accessibility-contrast-b .unibit_chat_message_time, body.unibit-accessibility-contrast-b .unibit_chat_message_text,          
+body.unibit-accessibility-contrast-b table th, body.unibit-accessibility-contrast-b div.texts table th,
+body.unibit-accessibility-contrast-b table th a, body.unibit-accessibility-contrast-b div.texts table th a,
+body.unibit-accessibility-contrast-b .unibit_modal_header,  
+body.unibit-accessibility-contrast-b .unibit_modal_header a,  
+body.unibit-accessibility-contrast-b .unibit_page_nav li.active a, body.unibit-accessibility-contrast-b .unibit_page_nav li:hover a,        
+body.unibit-accessibility-contrast-b .highlight,  
+body.unibit-accessibility-contrast-b .green_bg,  
+body.unibit-accessibility-contrast-b .uc_hint, body.unibit-accessibility-contrast-b .uc_today_td, body.unibit-accessibility-contrast-b .uc_today_td a, body.unibit-accessibility-contrast-b .uc_selected_td, body.unibit-accessibility-contrast-b .uc_selected_td a,      
+body.unibit-accessibility-contrast-b .ask_question {
+    background-color: #000000!important;
+    color: #fff86e!important;
+    border-color: #fff86e!important;
+}
+
+body.unibit-accessibility-contrast-c #unibit_chat_header_container, body.unibit-accessibility-contrast-c .unibit_chat_header_button, body.unibit-accessibility-contrast-c .unibit_chat_message, body.unibit-accessibility-contrast-c #unibit_chat_input_container, body.unibit-accessibility-contrast-c .unibit_chat_author, body.unibit-accessibility-contrast-c .unibit_chat_message_time, body.unibit-accessibility-contrast-c .unibit_chat_message_text,         
+body.unibit-accessibility-contrast-c table th, body.unibit-accessibility-contrast-c div.texts table th,     
+body.unibit-accessibility-contrast-c table th a, body.unibit-accessibility-contrast-c div.texts table th a,     
+body.unibit-accessibility-contrast-c .unibit_modal_header,     
+body.unibit-accessibility-contrast-c .unibit_modal_header a,     
+body.unibit-accessibility-contrast-c .unibit_page_nav li.active a, body.unibit-accessibility-contrast-c .unibit_page_nav li:hover a,         
+body.unibit-accessibility-contrast-c .highlight,     
+body.unibit-accessibility-contrast-c .green_bg,     
+body.unibit-accessibility-contrast-c .uc_hint, body.unibit-accessibility-contrast-c .uc_today_td, body.unibit-accessibility-contrast-c .uc_today_td a, body.unibit-accessibility-contrast-c .uc_selected_td, body.unibit-accessibility-contrast-c .uc_selected_td a,   
+body.unibit-accessibility-contrast-c .ask_question {
+    background-color: #fff86e!important;
+    color: #000000!important;    
+    border-color: #000000!important;   
+}
+
+@media (max-width: 650px) {  
+    body.unibit-accessibility-contrast-a table.unibit_responsive_table td:before  {
+        background-color: #ffffff!important;
+        color: #000000!important;
+        border-color: #000000!important;    
+    }
+    
+    body.unibit-accessibility-contrast-b table.unibit_responsive_table td:before  {
+        background-color: #000000!important;
+        color: #fff86e!important;
+        border-color: #fff86e!important;   
+    }
+    
+    body.unibit-accessibility-contrast-c table.unibit_responsive_table td:before  {
+        background-color: #fff86e!important;
+        color: #000000!important;    
+        border-color: #000000!important;   
+    }        
+}
+                                      
+body.unibit-accessibility-contrast-a .unibit_modal, body.unibit-accessibility-contrast-b .unibit_modal, body.unibit-accessibility-contrast-c .unibit_modal,
+body.unibit-accessibility-contrast-a .uce-banner-inner, body.unibit-accessibility-contrast-b .uce-banner-inner, body.unibit-accessibility-contrast-c .uce-banner-inner,
+body.unibit-accessibility-contrast-a .uce-banner-buttons-container a.uce-accept, body.unibit-accessibility-contrast-b .uce-banner-buttons-container a.uce-accept, body.unibit-accessibility-contrast-c .uce-banner-buttons-container a.uce-accept {
+    border: 1px solid;    
+}
+
+body.unibit-accessibility-contrast-a .fancybox-inner svg,   
+body.unibit-accessibility-contrast-a .unibit_modal_close,
+body.unibit-accessibility-contrast-a .unibit_check_error_mes,
+body.unibit-accessibility-contrast-a #webchat .webchat__send-icon,
+body.unibit-accessibility-contrast-a div.texts a.auto_icon:before, body.unibit-accessibility-contrast-a div.texts a.auto_icon:after,
+body.unibit-accessibility-contrast-a div.texts a.auto-icon:before, body.unibit-accessibility-contrast-a div.texts a.auto-icon:after,
+body.unibit-accessibility-contrast-a .unibit_hoverable, body.unibit-accessibility-contrast-a .unibit_hoverable:before, body.unibit-accessibility-contrast-a .unibit_hoverable:after,
+body.unibit-accessibility-contrast-a .unibit_hoverable_double, body.unibit-accessibility-contrast-a .unibit_hoverable_double:before, body.unibit-accessibility-contrast-a .unibit_hoverable_double:after {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+body.unibit-accessibility-contrast-b .unibit_check_error_mes,    
+body.unibit-accessibility-contrast-b #webchat .webchat__send-icon,
+body.unibit-accessibility-contrast-b div.texts a.auto_icon:before, body.unibit-accessibility-contrast-b div.texts a.auto_icon:after,
+body.unibit-accessibility-contrast-b div.texts a.auto-icon:before, body.unibit-accessibility-contrast-b div.texts a.auto-icon:after,
+body.unibit-accessibility-contrast-b .unibit_hoverable, body.unibit-accessibility-contrast-b .unibit_hoverable:before, body.unibit-accessibility-contrast-a .unibit_hoverable:after,
+body.unibit-accessibility-contrast-b .unibit_hoverable_double, body.unibit-accessibility-contrast-b .unibit_hoverable_double:before, body.unibit-accessibility-contrast-a .unibit_hoverable_double:after {
+    filter: brightness(0) saturate(100%);
+}
+
+body.unibit-accessibility-contrast-c .fancybox-inner svg, body.unibit-accessibility-contrast-b .fancybox-inner svg,     
+body.unibit-accessibility-contrast-c .unibit_modal_close, body.unibit-accessibility-contrast-b .unibit_modal_close,        
+body.unibit-accessibility-contrast-c .unibit_check_error_mes,
+body.unibit-accessibility-contrast-c #webchat .webchat__send-icon,    
+body.unibit-accessibility-contrast-c div.texts a.auto_icon:before, body.unibit-accessibility-contrast-c div.texts a.auto_icon:after,
+body.unibit-accessibility-contrast-c div.texts a.auto-icon:before, body.unibit-accessibility-contrast-c div.texts a.auto-icon:after,
+body.unibit-accessibility-contrast-c .unibit_hoverable, body.unibit-accessibility-contrast-c .unibit_hoverable:before, body.unibit-accessibility-contrast-a .unibit_hoverable:after,
+body.unibit-accessibility-contrast-c .unibit_hoverable_double, body.unibit-accessibility-contrast-c .unibit_hoverable_double:before, body.unibit-accessibility-contrast-a .unibit_hoverable_double:after {
+    filter: brightness(0) saturate(100%) invert(88%) sepia(83%) saturate(415%) hue-rotate(336deg) brightness(105%) contrast(101%);
+}  
+
+@media (max-width: 800px) {   
+    body.unibit-accessibility-contrast-a .unibit_modal_close {
+        filter: brightness(0) saturate(100%);     
+    }
+    body.unibit-accessibility-contrast-b .unibit_modal_close {
+        
+    }
+    body.unibit-accessibility-contrast-c .unibit_modal_close {
+        filter: brightness(0) saturate(100%);      
+    }        
+}   
+
+body.unibit-accessibility-contrast-a .select2-container .select2-choice, 
+body.unibit-accessibility-contrast-a .select2-container-multi .select2-choices {
+    background-image: none!important;
+    border-color: #ffffff!important;
+    background-color: #000000!important;
+}                           
+body.unibit-accessibility-contrast-a .select2-container .select2-choice .select2-chosen {
+    color: #ffffff!important;
+}
+body.unibit-accessibility-contrast-a .select2-container .select2-choice .select2-arrow {
+    background-image: none!important;   
+    background-color: #ffffff!important; 
+    border-color: #ffffff!important;          
+}
+body.unibit-accessibility-contrast-a .select2-container .select2-choice .select2-arrow b,
+body.unibit-accessibility-contrast-a .select2-search-choice-close {
+    background-image: url('/images/accessibility/_select2_b.png'); 
+}
+body.unibit-accessibility-contrast-a .select2-container-multi .select2-choices .select2-search-choice,
+body.unibit-accessibility-contrast-a .select2-results,
+body.unibit-accessibility-contrast-a .select2-no-results,
+body.unibit-accessibility-contrast-a .select2-searching,
+body.unibit-accessibility-contrast-a .select2-drop {
+    background-image: none!important;  
+    background-color: #ffffff!important; 
+    border-color: #ffffff!important;         
+    color: #000000!important;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;         
+}
+body.unibit-accessibility-contrast-a .select2-search input:not(.select2-active) {
+    background-image: url('/images/accessibility/_select2_b.png');        
+}    
+body.unibit-accessibility-contrast-a .select2-search input.select2-input,
+body.unibit-accessibility-contrast-a .select2-choices .select2-search-field input.select2-input {
+    background-color: #000000!important;  
+    color: #ffffff!important;      
+}
+body.unibit-accessibility-contrast-a .select2-search input.select2-input.select2-active {
+    background-image: url('/application/core/third_party/select2/select2-spinner.gif');
+    background-repeat: no-repeat;
+}
+body.unibit-accessibility-contrast-a .select2-results .select2-highlighted {
+    color: #ffffff!important;         
+    background-color: #000000!important;         
+}    
+
+body.unibit-accessibility-contrast-b .select2-container .select2-choice, 
+body.unibit-accessibility-contrast-b .select2-container-multi .select2-choices {
+    background-image: none!important;
+    border-color: #000000!important;
+    background-color: #fff86e!important;
+}                           
+body.unibit-accessibility-contrast-b .select2-container .select2-choice .select2-chosen {
+    color: #000000!important;
+}
+body.unibit-accessibility-contrast-b .select2-container .select2-choice .select2-arrow {
+    background-image: none!important;   
+    background-color: #000000!important; 
+    border-color: #000000!important;          
+}
+body.unibit-accessibility-contrast-b .select2-container .select2-choice .select2-arrow b,
+body.unibit-accessibility-contrast-b .select2-search-choice-close {
+    background-image: url('/images/accessibility/_select2_y.png'); 
+}
+body.unibit-accessibility-contrast-b .select2-container-multi .select2-choices .select2-search-choice,
+body.unibit-accessibility-contrast-b .select2-results,
+body.unibit-accessibility-contrast-b .select2-no-results,
+body.unibit-accessibility-contrast-b .select2-searching,
+body.unibit-accessibility-contrast-b .select2-drop {
+    background-image: none!important;  
+    background-color: #000000!important; 
+    border-color: #000000!important;         
+    color: #fff86e!important;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;         
+}
+body.unibit-accessibility-contrast-b .select2-search input:not(.select2-active) {
+    background-image: url('/images/accessibility/_select2_b.png');        
+}    
+body.unibit-accessibility-contrast-b .select2-search input.select2-input,
+body.unibit-accessibility-contrast-b .select2-choices .select2-search-field input.select2-input {
+    background-color: #fff86e!important;  
+    color: #000000!important;      
+}
+body.unibit-accessibility-contrast-b .select2-search input.select2-input.select2-active {
+    background-image: url('/application/core/third_party/select2/select2-spinner.gif');
+    background-repeat: no-repeat;
+}
+body.unibit-accessibility-contrast-b .select2-results .select2-highlighted {
+    color: #000000!important;         
+    background-color: #fff86e!important;         
+}
+
+body.unibit-accessibility-contrast-c .select2-container .select2-choice, 
+body.unibit-accessibility-contrast-c .select2-container-multi .select2-choices {
+    background-image: none!important;
+    border-color: #fff86e!important;
+    background-color: #000000!important;
+}                           
+body.unibit-accessibility-contrast-c .select2-container .select2-choice .select2-chosen {
+    color: #fff86e!important;
+}
+body.unibit-accessibility-contrast-c .select2-container .select2-choice .select2-arrow {
+    background-image: none!important;   
+    background-color: #fff86e!important; 
+    border-color: #fff86e!important;          
+}
+body.unibit-accessibility-contrast-c .select2-container .select2-choice .select2-arrow b,
+body.unibit-accessibility-contrast-c .select2-search-choice-close {
+    background-image: url('/images/accessibility/_select2_b.png'); 
+}
+body.unibit-accessibility-contrast-c .select2-container-multi .select2-choices .select2-search-choice,
+body.unibit-accessibility-contrast-c .select2-results,
+body.unibit-accessibility-contrast-c .select2-no-results,
+body.unibit-accessibility-contrast-c .select2-searching,
+body.unibit-accessibility-contrast-c .select2-drop {
+    background-image: none!important;  
+    background-color: #fff86e!important; 
+    border-color: #fff86e!important;         
+    color: #000000!important;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;         
+}
+body.unibit-accessibility-contrast-c .select2-search input:not(.select2-active) {
+    background-image: url('/images/accessibility/_select2_b.png');        
+}    
+body.unibit-accessibility-contrast-c .select2-search input.select2-input,
+body.unibit-accessibility-contrast-c .select2-choices .select2-search-field input.select2-input {
+    background-color: #000000!important;  
+    color: #fff86e!important;      
+}
+body.unibit-accessibility-contrast-c .select2-search input.select2-input.select2-active {
+    background-image: url('/application/core/third_party/select2/select2-spinner.gif');
+    background-repeat: no-repeat;
+}
+body.unibit-accessibility-contrast-c .select2-results .select2-highlighted {
+    color: #fff86e!important;         
+    background-color: #000000!important;         
+}    
+
+body.unibit-accessibility-contrast-a .qtip-bootstrap {
+    background-color: #000000!important;
+    color: #ffffff!important;
+    border-color: #ffffff!important;    
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    box-shadow: none!important;            
+}
+body.unibit-accessibility-contrast-a .qtip-bootstrap .qtip-titlebar {
+    background-color: #ffffff!important;
+    color: #000000!important;
+    border-color: #000000!important;      
+}
+body.unibit-accessibility-contrast-a .qtip-content span {
+    color: #ffffff!important;            
+}
+
+body.unibit-accessibility-contrast-a .fc-content, body.unibit-accessibility-contrast-a a.fc-event, body.unibit-accessibility-contrast-a .fc-event-dot {
+    background-color: #ffffff!important;
+    color: #000000!important;
+    border-color: #000000!important;    
+}
+body.unibit-accessibility-contrast-a .fc table, body.unibit-accessibility-contrast-a .fc table, body.unibit-accessibility-contrast-a .fc table tbody, body.unibit-accessibility-contrast-a .fc table td, body.unibit-accessibility-contrast-a .fc table tr,
+body.unibit-accessibility-contrast-a .fc-unthemed .fc-content, body.unibit-accessibility-contrast-a .fc-unthemed .fc-divider, body.unibit-accessibility-contrast-a .fc-unthemed .fc-list-heading td, body.unibit-accessibility-contrast-a .fc-unthemed .fc-list-view, body.unibit-accessibility-contrast-a .fc-unthemed .fc-popover, body.unibit-accessibility-contrast-a .fc-unthemed .fc-row, body.unibit-accessibility-contrast-a .fc-unthemed tbody, body.unibit-accessibility-contrast-a .fc-unthemed td, body.unibit-accessibility-contrast-a .fc-unthemed th, body.unibit-accessibility-contrast-a .fc-unthemed thead {
+    border-color: #ffffff!important;          
+}
+body.unibit-accessibility-contrast-a .fc-button {
+    background-color: #ffffff!important;
+    border-color: #000000!important;
+    color: #000000!important;    
+    background-image: none!important;     
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    box-shadow: none!important;        
+}
+
+body.unibit-accessibility-contrast-b .qtip-bootstrap {
+    background-color: #fff86e!important;
+    color: #000000!important;
+    border-color: #000000!important;    
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    box-shadow: none!important;            
+}
+body.unibit-accessibility-contrast-b .qtip-bootstrap .qtip-titlebar {
+    background-color: #000000!important;
+    color: #fff86e!important;
+    border-color: #fff86e!important;      
+}
+body.unibit-accessibility-contrast-b .qtip-content span {
+    color: #000000!important;            
+}
+
+body.unibit-accessibility-contrast-b .fc-content, body.unibit-accessibility-contrast-b a.fc-event, body.unibit-accessibility-contrast-b .fc-event-dot {
+    background-color: #000000!important;
+    color: #fff86e!important;
+    border-color: #fff86e!important;    
+}
+body.unibit-accessibility-contrast-b .fc table, body.unibit-accessibility-contrast-b .fc table, body.unibit-accessibility-contrast-b .fc table tbody, body.unibit-accessibility-contrast-b .fc table td, body.unibit-accessibility-contrast-b .fc table tr,
+body.unibit-accessibility-contrast-b .fc-unthemed .fc-content, body.unibit-accessibility-contrast-b .fc-unthemed .fc-divider, body.unibit-accessibility-contrast-b .fc-unthemed .fc-list-heading td, body.unibit-accessibility-contrast-b .fc-unthemed .fc-list-view, body.unibit-accessibility-contrast-b .fc-unthemed .fc-popover, body.unibit-accessibility-contrast-b .fc-unthemed .fc-row, body.unibit-accessibility-contrast-b .fc-unthemed tbody, body.unibit-accessibility-contrast-b .fc-unthemed td, body.unibit-accessibility-contrast-b .fc-unthemed th, body.unibit-accessibility-contrast-b .fc-unthemed thead {
+    border-color: #000000!important;          
+}
+body.unibit-accessibility-contrast-b .fc-button {
+    background-color: #000000!important;
+    border-color: #fff86e!important;
+    color: #fff86e!important;    
+    background-image: none!important;     
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    box-shadow: none!important;        
+}
+
+body.unibit-accessibility-contrast-c .qtip-bootstrap {
+    background-color: #000000!important;
+    color: #fff86e!important;
+    border-color: #fff86e!important;    
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    box-shadow: none!important;            
+}
+body.unibit-accessibility-contrast-c .qtip-bootstrap .qtip-titlebar {
+    background-color: #fff86e!important;
+    color: #000000!important;
+    border-color: #000000!important;      
+}
+body.unibit-accessibility-contrast-c .qtip-content span {
+    color: #fff86e!important;            
+}
+
+body.unibit-accessibility-contrast-c .fc-content, body.unibit-accessibility-contrast-c a.fc-event, body.unibit-accessibility-contrast-c .fc-event-dot {
+    background-color: #fff86e!important;
+    color: #000000!important;
+    border-color: #000000!important;    
+}
+body.unibit-accessibility-contrast-c .fc table, body.unibit-accessibility-contrast-c .fc table, body.unibit-accessibility-contrast-c .fc table tbody, body.unibit-accessibility-contrast-c .fc table td, body.unibit-accessibility-contrast-c .fc table tr,
+body.unibit-accessibility-contrast-c .fc-unthemed .fc-content, body.unibit-accessibility-contrast-c .fc-unthemed .fc-divider, body.unibit-accessibility-contrast-c .fc-unthemed .fc-list-heading td, body.unibit-accessibility-contrast-c .fc-unthemed .fc-list-view, body.unibit-accessibility-contrast-c .fc-unthemed .fc-popover, body.unibit-accessibility-contrast-c .fc-unthemed .fc-row, body.unibit-accessibility-contrast-c .fc-unthemed tbody, body.unibit-accessibility-contrast-c .fc-unthemed td, body.unibit-accessibility-contrast-c .fc-unthemed th, body.unibit-accessibility-contrast-c .fc-unthemed thead {
+    border-color: #fff86e!important;          
+}
+body.unibit-accessibility-contrast-c .fc-button {
+    background-color: #fff86e!important;
+    border-color: #000000!important;
+    color: #000000!important;    
+    background-image: none!important;     
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    box-shadow: none!important;        
+}
+
+body.unibit-accessibility-contrast-a .fc-event .fc-bg,
+body.unibit-accessibility-contrast-b .fc-event .fc-bg,
+body.unibit-accessibility-contrast-c .fc-event .fc-bg {
+    opacity: .0!important;
+}
+body.unibit-accessibility-contrast-a .fc-state-active, body.unibit-accessibility-contrast-a .fc-state-disabled,
+body.unibit-accessibility-contrast-b .fc-state-active, body.unibit-accessibility-contrast-b .fc-state-disabled,
+body.unibit-accessibility-contrast-c .fc-state-active, body.unibit-accessibility-contrast-c .fc-state-disabled {
+    opacity: .5!important;
+}
+
+body.unibit-accessibility-contrast-a .unibit_select_top {
+    border-color: #ffffff!important;
+    color: #ffffff!important;
+    background-color: #000000!important;        
+}
+body.unibit-accessibility-contrast-a .unibit_select_top {
+    background-image: url('/images/accessibility/select_w.svg');   
+}
+body.unibit-accessibility-contrast-a .unibit_select_options {
+    border-color: #ffffff!important;
+    color: #000000!important;
+    background-color: #ffffff!important;         
+}
+body.unibit-accessibility-contrast-a .unibit_option:hover, body.unibit-accessibility-contrast-a .unibit_option_current {
+    border-color: #ffffff!important;
+    color: #ffffff!important;
+    background-color: #000000!important;         
+}
+
+body.unibit-accessibility-contrast-b .unibit_select_top {
+    border-color: #000000!important;
+    color: #000000!important;
+    background-color: #fff86e!important;        
+}
+body.unibit-accessibility-contrast-b .unibit_select_top {
+    background-image: url('/images/accessibility/select_b.svg');   
+}
+body.unibit-accessibility-contrast-b .unibit_select_options {
+    border-color: #fff86e!important;
+    color: #fff86e!important;
+    background-color: #000000!important;         
+}
+body.unibit-accessibility-contrast-b .unibit_option:hover, body.unibit-accessibility-contrast-b .unibit_option_current {
+    border-color: #000000!important;
+    color: #000000!important;
+    background-color: #fff86e!important;         
+}
+
+body.unibit-accessibility-contrast-c .unibit_select_top {
+    border-color: #fff86e!important;
+    color: #fff86e!important;
+    background-color: #000000!important;        
+}
+body.unibit-accessibility-contrast-c .unibit_select_top {
+    background-image: url('/images/accessibility/select_y.svg');   
+}
+body.unibit-accessibility-contrast-c .unibit_select_options {
+    border-color: #fff86e!important;
+    color: #000000!important;
+    background-color: #fff86e!important;         
+}
+body.unibit-accessibility-contrast-c .unibit_option:hover, body.unibit-accessibility-contrast-c .unibit_option_current {
+    border-color: #fff86e!important;
+    color: #fff86e!important;
+    background-color: #000000!important;         
+}
+
+body.unibit-accessibility-contrast-a > .unibit_slideshow_container .unibit_slideshow_button {
+    background-color: #ffffff!important;
+    color: #000000!important;
+    border-color: #000000!important;
+    border: 1px solid;
+}     
+body.unibit-accessibility-contrast-a > .unibit_slideshow_container .unibit_slideshow_button.current, body.unibit-accessibility-contrast-a > .unibit_slideshow_container .unibit_slideshow_button.current:hover {
+    background-color: #000000!important;
+    color: #ffffff!important;
+    border-color: #ffffff!important;    
+}
+body.unibit-accessibility-contrast-a .unibit_slideshow_step, body.unibit-accessibility-contrast-a .unibit_slideshow_sound {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);                
+}
+body.unibit-accessibility-contrast-a .slideshow_load_line {
+    background-color: #ffffff!important;       
+}       
+       
+body.unibit-accessibility-contrast-b > .unibit_slideshow_container .unibit_slideshow_button {
+    background-color: #fff86e!important;
+    color: #000000!important;
+    border-color: #000000!important;
+    border: 1px solid;
+}     
+body.unibit-accessibility-contrast-b > .unibit_slideshow_container .unibit_slideshow_button.current, body.unibit-accessibility-contrast-b > .unibit_slideshow_container .unibit_slideshow_button.current:hover {
+    background-color: #000000!important;
+    color: #fff86e!important;
+    border-color: #fff86e!important;    
+}
+body.unibit-accessibility-contrast-b .unibit_slideshow_step, body.unibit-accessibility-contrast-b .unibit_slideshow_sound {
+    filter: brightness(0) saturate(100%) invert(88%) sepia(83%) saturate(415%) hue-rotate(336deg) brightness(105%) contrast(101%);        
+}
+body.unibit-accessibility-contrast-b .slideshow_load_line {
+    background-color: #fff86e!important;       
+}
+
+body.unibit-accessibility-contrast-c > .unibit_slideshow_container .unibit_slideshow_button {
+    background-color: #fff86e!important;
+    color: #000000!important;
+    border-color: #000000!important;
+    border: 1px solid;
+}     
+body.unibit-accessibility-contrast-c > .unibit_slideshow_container .unibit_slideshow_button.current, body.unibit-accessibility-contrast-c > .unibit_slideshow_container .unibit_slideshow_button.current:hover {
+    background-color: #000000!important;
+    color: #fff86e!important;
+    border-color: #fff86e!important;    
+}
+body.unibit-accessibility-contrast-c .unibit_slideshow_step, body.unibit-accessibility-contrast-c .unibit_slideshow_sound {
+    filter: brightness(0) saturate(100%) invert(88%) sepia(83%) saturate(415%) hue-rotate(336deg) brightness(105%) contrast(101%);        
+}
+body.unibit-accessibility-contrast-c .slideshow_load_line {
+    background-color: #fff86e!important;       
+}
+
+body.unibit-accessibility-contrast-a .collapse-panel h6 {
+    background-color: #ffffff!important;
+    color: #000000!important;
+    border-color: #000000!important;  
+    filter: none!important;      
+}
+
+body.unibit-accessibility-contrast-a .collapse-panel h6:after {
+    background-color: transparent!important;   
+    filter: brightness(0) saturate(100%);  
+}
+
+body.unibit-accessibility-contrast-a .collapse-panel h6 a {
+    color: #000000!important;    
+    filter: none!important;    
+}
+
+body.unibit-accessibility-contrast-b .collapse-panel h6 {
+    background-color: #000000!important;
+    color: #fff86e!important;
+    border-color: #fff86e!important;
+    filter: none!important;    
+}
+
+body.unibit-accessibility-contrast-b .collapse-panel h6:after {
+    background-color: transparent!important;   
+    filter: brightness(0) saturate(100%) invert(88%) sepia(83%) saturate(415%) hue-rotate(336deg) brightness(105%) contrast(101%);
+}
+
+body.unibit-accessibility-contrast-b .collapse-panel h6 a {
+    color: #fff86e!important;    
+    filter: none!important;    
+}
+
+body.unibit-accessibility-contrast-c .collapse-panel h6 {
+    background-color: #fff86e!important;
+    color: #000000!important;    
+    border-color: #000000!important;   
+    filter: none!important;
+}
+
+body.unibit-accessibility-contrast-c .collapse-panel h6:after {
+    background-color: transparent!important;   
+    filter: brightness(0) saturate(100%);
+}
+
+body.unibit-accessibility-contrast-c .collapse-panel h6 a {
+    color: #000000!important;    
+    filter: none!important;    
+}
+
+body.unibit-accessibility-contrast-a .collapse-panel .panel-content-inner,       
+body.unibit-accessibility-contrast-a .collapse-panel h6:before {
+    background-color: #000000!important;
+    color: #ffffff!important;    
+    border-color: #ffffff!important; 
+    border: 1px solid;    
+    filter: none!important;
+}
+   
+body.unibit-accessibility-contrast-b .collapse-panel .panel-content-inner,       
+body.unibit-accessibility-contrast-b .collapse-panel h6:before {
+    background-color: #fff86e!important;
+    color: #000000!important;    
+    border-color: #000000!important; 
+    border: 1px solid;    
+    filter: none!important;
+}
+   
+body.unibit-accessibility-contrast-c .collapse-panel .panel-content-inner,    
+body.unibit-accessibility-contrast-c .collapse-panel h6:before {
+    background-color: #000000!important;
+    color: #fff86e!important;    
+    border-color: #fff86e!important; 
+    border: 1px solid;    
+    filter: none!important;
+}
+
+body.unibit-accessibility-contrast-a .collapse-panel h6 span.highlight {
+    background-color: #000000!important;          
+    color: #ffffff!important;    
+    border-color: #ffffff!important;  
+}
+
+body.unibit-accessibility-contrast-b .collapse-panel h6 span.highlight {
+    background-color: #fff86e!important;          
+    color: #000000!important;    
+    border-color: #000000!important;  
+}
+
+body.unibit-accessibility-contrast-c .collapse-panel h6 span.highlight {
+    background-color: #000000!important;          
+    color: #fff86e!important;    
+    border-color: #fff86e!important;  
+} 
+
+body.unibit-accessibility-contrast-a .header,      
+body.unibit-accessibility-contrast-a .land_menu,      
+body.unibit-accessibility-contrast-a .land_mobile_dropdown,      
+body.unibit-accessibility-contrast-a .land_block,      
+body.unibit-accessibility-contrast-a .land_top_line_mobile,      
+body.unibit-accessibility-contrast-a .land_event_dat_big,      
+body.unibit-accessibility-contrast-a .webchat-message-groups .webchat-message-content .hero button.ac-pushButton,      
+body.unibit-accessibility-contrast-a .webchat-message-groups,      
+body.unibit-accessibility-contrast-a .webchat-console,      
+body.unibit-accessibility-contrast-a .webchat-chatview-panel,      
+body.unibit-accessibility-contrast-a .poweredby,      
+body.unibit-accessibility-contrast-a #webchat-app-bot,   
+body.unibit-accessibility-contrast-a #webchat .wchat__chat, 
+body.unibit-accessibility-contrast-a #webchat .powered-by, 
+body.unibit-accessibility-contrast-a #webchat .webchat__send-box__main,  
+body.unibit-accessibility-contrast-a #webchat .ac-pushButton,  
+body.unibit-accessibility-contrast-a #webchat .webchat__basic-transcript__transcript,  
+body.unibit-accessibility-contrast-a #webchat .react-confirm-alert-body,  
+body.unibit-accessibility-contrast-a #webchat .webchat__stacked-layout__status, body.unibit-accessibility-contrast-a #webchat .webchat__stacked-layout__status span,      
+body.unibit-accessibility-contrast-a .ss_book_branch_type,      
+body.unibit-accessibility-contrast-a .fund_partner_branch_type,      
+body.unibit-accessibility-contrast-a .db_catalog_branch_type,      
+body.unibit-accessibility-contrast-a .similar_study_program_group,      
+body.unibit-accessibility-contrast-a .sitemap_part, 
+body.unibit-accessibility-contrast-a .img_container_journal, 
+body.unibit-accessibility-contrast-a .active_submenu_container, 
+body.unibit-accessibility-contrast-a .mobile_dropdown_container, body.unibit-accessibility-contrast-a .mobile_dropdown_container .menu_item > a > div,
+body.unibit-accessibility-contrast-a .mobile_dropdown_container, body.unibit-accessibility-contrast-a .mobile_dropdown_container .mobile_submenu_list > li > a > div,
+body.unibit-accessibility-contrast-a .other_news, body.unibit-accessibility-contrast-a .other_news li, 
+body.unibit-accessibility-contrast-a .side_element_container, 
+body.unibit-accessibility-contrast-a .side_element_info_container, 
+body.unibit-accessibility-contrast-a .side_menu li a > div, 
+body.unibit-accessibility-contrast-a .blog_list_container, 
+body.unibit-accessibility-contrast-a .news_container, 
+body.unibit-accessibility-contrast-a .news_img_container, 
+body.unibit-accessibility-contrast-a .shre_container_new, 
+body.unibit-accessibility-contrast-a .grey_bg, 
+body.unibit-accessibility-contrast-a .white_bg,
+body.unibit-accessibility-contrast-a .land_ratings_container { 
+    background-color: #000000!important;
+    color: #ffffff!important;
+    border-color: #ffffff!important;
+}
+
+body.unibit-accessibility-contrast-b .header, 
+body.unibit-accessibility-contrast-b .land_menu, 
+body.unibit-accessibility-contrast-b .land_mobile_dropdown, 
+body.unibit-accessibility-contrast-b .land_block, 
+body.unibit-accessibility-contrast-b .land_top_line_mobile, 
+body.unibit-accessibility-contrast-b .land_event_dat_big, 
+body.unibit-accessibility-contrast-b .webchat-message-groups .webchat-message-content .hero button.ac-pushButton, 
+body.unibit-accessibility-contrast-b .webchat-message-groups, 
+body.unibit-accessibility-contrast-b .webchat-console, 
+body.unibit-accessibility-contrast-b .webchat-chatview-panel, 
+body.unibit-accessibility-contrast-b .poweredby, 
+body.unibit-accessibility-contrast-b #webchat-app-bot, 
+body.unibit-accessibility-contrast-b #webchat .wchat__chat, 
+body.unibit-accessibility-contrast-b #webchat .powered-by, 
+body.unibit-accessibility-contrast-b #webchat .webchat__send-box__main, 
+body.unibit-accessibility-contrast-b #webchat .ac-pushButton,  
+body.unibit-accessibility-contrast-b #webchat .webchat__basic-transcript__transcript,  
+body.unibit-accessibility-contrast-b #webchat .react-confirm-alert-body,    
+body.unibit-accessibility-contrast-b #webchat .webchat__stacked-layout__status, body.unibit-accessibility-contrast-b #webchat .webchat__stacked-layout__status span,      
+body.unibit-accessibility-contrast-b .ss_book_branch_type, 
+body.unibit-accessibility-contrast-b .fund_partner_branch_type, 
+body.unibit-accessibility-contrast-b .db_catalog_branch_type, 
+body.unibit-accessibility-contrast-b .similar_study_program_group, 
+body.unibit-accessibility-contrast-b .sitemap_part, 
+body.unibit-accessibility-contrast-b .img_container_journal, 
+body.unibit-accessibility-contrast-b .active_submenu_container, 
+body.unibit-accessibility-contrast-b .mobile_dropdown_container, body.unibit-accessibility-contrast-b .mobile_dropdown_container .menu_item > a > div,  
+body.unibit-accessibility-contrast-b .mobile_dropdown_container, body.unibit-accessibility-contrast-b .mobile_dropdown_container .mobile_submenu_list > li > a > div,  
+body.unibit-accessibility-contrast-b .other_news, body.unibit-accessibility-contrast-b .other_news li, 
+body.unibit-accessibility-contrast-b .side_element_container, 
+body.unibit-accessibility-contrast-b .side_element_info_container, 
+body.unibit-accessibility-contrast-b .side_menu li a > div,  
+body.unibit-accessibility-contrast-b .blog_list_container, 
+body.unibit-accessibility-contrast-b .news_container, 
+body.unibit-accessibility-contrast-b .news_img_container, 
+body.unibit-accessibility-contrast-b .shre_container_new, 
+body.unibit-accessibility-contrast-b .grey_bg, 
+body.unibit-accessibility-contrast-b .white_bg,
+body.unibit-accessibility-contrast-b .land_ratings_container { 
+    background-color: #fff86e!important;
+    color: #000000!important;
+    border-color: #000000!important;
+}
+
+body.unibit-accessibility-contrast-c .header, 
+body.unibit-accessibility-contrast-c .land_menu, 
+body.unibit-accessibility-contrast-c .land_mobile_dropdown, 
+body.unibit-accessibility-contrast-c .land_block, 
+body.unibit-accessibility-contrast-c .land_top_line_mobile, 
+body.unibit-accessibility-contrast-c .land_event_dat_big, 
+body.unibit-accessibility-contrast-c .webchat-message-groups .webchat-message-content .hero button.ac-pushButton,    
+body.unibit-accessibility-contrast-c .webchat-message-groups, 
+body.unibit-accessibility-contrast-c .webchat-console, 
+body.unibit-accessibility-contrast-c .webchat-chatview-panel, 
+body.unibit-accessibility-contrast-c .poweredby, 
+body.unibit-accessibility-contrast-c #webchat-app-bot, 
+body.unibit-accessibility-contrast-c #webchat .wchat__chat, 
+body.unibit-accessibility-contrast-c #webchat .powered-by, 
+body.unibit-accessibility-contrast-c #webchat .webchat__send-box__main, 
+body.unibit-accessibility-contrast-c #webchat .ac-pushButton,  
+body.unibit-accessibility-contrast-c #webchat .webchat__basic-transcript__transcript,  
+body.unibit-accessibility-contrast-c #webchat .react-confirm-alert-body,    
+body.unibit-accessibility-contrast-c #webchat .webchat__stacked-layout__status, body.unibit-accessibility-contrast-c #webchat .webchat__stacked-layout__status span,      
+body.unibit-accessibility-contrast-c .ss_book_branch_type, 
+body.unibit-accessibility-contrast-c .fund_partner_branch_type, 
+body.unibit-accessibility-contrast-c .db_catalog_branch_type, 
+body.unibit-accessibility-contrast-c .similar_study_program_group, 
+body.unibit-accessibility-contrast-c .sitemap_part, 
+body.unibit-accessibility-contrast-c .img_container_journal, 
+body.unibit-accessibility-contrast-c .active_submenu_container, 
+body.unibit-accessibility-contrast-c .mobile_dropdown_container, body.unibit-accessibility-contrast-c .mobile_dropdown_container .menu_item > a > div,   
+body.unibit-accessibility-contrast-c .mobile_dropdown_container, body.unibit-accessibility-contrast-c .mobile_dropdown_container .mobile_submenu_list > li > a > div,   
+body.unibit-accessibility-contrast-c .other_news, body.unibit-accessibility-contrast-c .other_news li,  
+body.unibit-accessibility-contrast-c .side_element_container, 
+body.unibit-accessibility-contrast-c .side_element_info_container, 
+body.unibit-accessibility-contrast-c .side_menu li a > div,  
+body.unibit-accessibility-contrast-c .blog_list_container, 
+body.unibit-accessibility-contrast-c .news_container, 
+body.unibit-accessibility-contrast-c .news_img_container, 
+body.unibit-accessibility-contrast-c .shre_container_new, 
+body.unibit-accessibility-contrast-c .grey_bg, 
+body.unibit-accessibility-contrast-c .white_bg,
+body.unibit-accessibility-contrast-c .land_ratings_container { 
+    background-color: #000000!important;
+    color: #fff86e!important;    
+    border-color: #fff86e!important;    
+}
+
+body.unibit-accessibility-contrast-a .tags_header,
+body.unibit-accessibility-contrast-a .news_bottom_container,
+body.unibit-accessibility-contrast-a .back,
+body.unibit-accessibility-contrast-a .cur_blog_cat_x,
+body.unibit-accessibility-contrast-a .course_title2_container,
+body.unibit-accessibility-contrast-a .news_meta_container,
+body.unibit-accessibility-contrast-a .news_bottom_date,
+body.unibit-accessibility-contrast-a .news_bottom_place,
+body.unibit-accessibility-contrast-a .blog_meta_date,
+body.unibit-accessibility-contrast-a .footer_copyright_container,
+body.unibit-accessibility-contrast-a .side_meta,
+body.unibit-accessibility-contrast-a .list_note,
+body.unibit-accessibility-contrast-a .unibit_modal_dep_t,
+body.unibit-accessibility-contrast-a .land_block p,
+body.unibit-accessibility-contrast-a .land_why_rtu_txt_middle,
+body.unibit-accessibility-contrast-a .land_mobile_langs_container .land_langs div,
+body.unibit-accessibility-contrast-a .menu_item > a > div,
+body.unibit-accessibility-contrast-a .mobile_submenu_list > li > a > div,
+body.unibit-accessibility-contrast-a .land_menu li > a > div,
+body.unibit-accessibility-contrast-a .shre_container_new {
+    color: #ffffff!important;  
+}
+
+body.unibit-accessibility-contrast-b .tags_header,
+body.unibit-accessibility-contrast-b .news_bottom_container,
+body.unibit-accessibility-contrast-b .back,
+body.unibit-accessibility-contrast-b .cur_blog_cat_x,
+body.unibit-accessibility-contrast-b .course_title2_container,
+body.unibit-accessibility-contrast-b .news_meta_container,
+body.unibit-accessibility-contrast-b .news_bottom_date,
+body.unibit-accessibility-contrast-b .news_bottom_place,
+body.unibit-accessibility-contrast-b .blog_meta_date,
+body.unibit-accessibility-contrast-b .footer_copyright_container,
+body.unibit-accessibility-contrast-b .side_meta,
+body.unibit-accessibility-contrast-b .list_note,
+body.unibit-accessibility-contrast-b .unibit_modal_dep_t,
+body.unibit-accessibility-contrast-b .land_block p,
+body.unibit-accessibility-contrast-b .land_why_rtu_txt_middle,
+body.unibit-accessibility-contrast-b .land_mobile_langs_container .land_langs div,
+body.unibit-accessibility-contrast-b .menu_item > a > div,
+body.unibit-accessibility-contrast-b .mobile_submenu_list > li > a > div,
+body.unibit-accessibility-contrast-b .land_menu li > a > div,
+body.unibit-accessibility-contrast-b .shre_container_new {
+    color: #000000!important;  
+}
+
+body.unibit-accessibility-contrast-c .tags_header,
+body.unibit-accessibility-contrast-c .news_bottom_container,
+body.unibit-accessibility-contrast-c .back,
+body.unibit-accessibility-contrast-c .cur_blog_cat_x,
+body.unibit-accessibility-contrast-c .course_title2_container,
+body.unibit-accessibility-contrast-c .news_meta_container,
+body.unibit-accessibility-contrast-c .news_bottom_date,
+body.unibit-accessibility-contrast-c .news_bottom_place,
+body.unibit-accessibility-contrast-c .blog_meta_date,
+body.unibit-accessibility-contrast-c .footer_copyright_container,
+body.unibit-accessibility-contrast-c .side_meta,
+body.unibit-accessibility-contrast-c .list_note,
+body.unibit-accessibility-contrast-c .unibit_modal_dep_t,
+body.unibit-accessibility-contrast-c .land_block p,
+body.unibit-accessibility-contrast-c .land_why_rtu_txt_middle,
+body.unibit-accessibility-contrast-c .land_mobile_langs_container .land_langs div,
+body.unibit-accessibility-contrast-c .menu_item > a > div,
+body.unibit-accessibility-contrast-c .mobile_submenu_list > li > a > div,
+body.unibit-accessibility-contrast-c .land_menu li > a > div,
+body.unibit-accessibility-contrast-c .shre_container_new {
+    color: #fff86e!important;  
+}   
+
+body.unibit-accessibility-contrast-a .new_footr_socals_header,  
+body.unibit-accessibility-contrast-a .land_event_dat_small,  
+body.unibit-accessibility-contrast-a .land_apply_block p, body.unibit-accessibility-contrast-a .land_apply_block h3, body.unibit-accessibility-contrast-a .land_apply_block a,   
+body.unibit-accessibility-contrast-a .land_event_block p, body.unibit-accessibility-contrast-a .land_event_block h3, body.unibit-accessibility-contrast-a .land_event_block a,   
+body.unibit-accessibility-contrast-a .land_work_item a,   
+body.unibit-accessibility-contrast-a .land_footer_bottom a,   
+body.unibit-accessibility-contrast-a .land_footer a,   
+body.unibit-accessibility-contrast-a .land_scroll_menu_container .land_menu li > a > div,       
+body.unibit-accessibility-contrast-a .footer_heading, body.unibit-accessibility-contrast-a .footer_heading a, 
+body.unibit-accessibility-contrast-a .new_footer_item_list, body.unibit-accessibility-contrast-a .new_footer_item_list a, 
+body.unibit-accessibility-contrast-a .new_footer_item, body.unibit-accessibility-contrast-a .new_footer_item a {
+    color: #000000!important;  
+}
+
+body.unibit-accessibility-contrast-b .new_footr_socals_header, 
+body.unibit-accessibility-contrast-b .land_event_dat_small, 
+body.unibit-accessibility-contrast-b .land_apply_block p, body.unibit-accessibility-contrast-b .land_apply_block h3, body.unibit-accessibility-contrast-b .land_apply_block a,   
+body.unibit-accessibility-contrast-b .land_event_block p, body.unibit-accessibility-contrast-b .land_event_block h3, body.unibit-accessibility-contrast-b .land_event_block a,   
+body.unibit-accessibility-contrast-b .land_work_item a,  
+body.unibit-accessibility-contrast-b .land_footer_bottom a,  
+body.unibit-accessibility-contrast-b .land_footer a,  
+body.unibit-accessibility-contrast-b .land_scroll_menu_container .land_menu li > a > div, 
+body.unibit-accessibility-contrast-b .footer_heading, body.unibit-accessibility-contrast-b .footer_heading a,  
+body.unibit-accessibility-contrast-b .new_footer_item_list, body.unibit-accessibility-contrast-b .new_footer_item_list a,  
+body.unibit-accessibility-contrast-b .new_footer_item, body.unibit-accessibility-contrast-b .new_footer_item a {
+    color: #fff86e!important;  
+}
+
+body.unibit-accessibility-contrast-c .new_footr_socals_header,         
+body.unibit-accessibility-contrast-c .land_event_dat_small,         
+body.unibit-accessibility-contrast-c .land_apply_block p, body.unibit-accessibility-contrast-c .land_apply_block h3, body.unibit-accessibility-contrast-c .land_apply_block a,       
+body.unibit-accessibility-contrast-c .land_event_block p, body.unibit-accessibility-contrast-c .land_event_block h3, body.unibit-accessibility-contrast-c .land_event_block a,       
+body.unibit-accessibility-contrast-c .land_work_item a,   
+body.unibit-accessibility-contrast-c .land_footer_bottom a,   
+body.unibit-accessibility-contrast-c .land_footer a,   
+body.unibit-accessibility-contrast-c .land_scroll_menu_container .land_menu li > a > div,     
+body.unibit-accessibility-contrast-c .footer_heading, body.unibit-accessibility-contrast-c .footer_heading a,   
+body.unibit-accessibility-contrast-c .new_footer_item_list, body.unibit-accessibility-contrast-c .new_footer_item_list a,   
+body.unibit-accessibility-contrast-c .new_footer_item, body.unibit-accessibility-contrast-c .new_footer_item a {
+    color: #000000!important;  
+}   
+
+body.unibit-accessibility-contrast-a .h1:after, body.unibit-accessibility-contrast-a h1:after, body.unibit-accessibility-contrast-a .h2:after, body.unibit-accessibility-contrast-a h2:after, body.unibit-accessibility-contrast-a .h3:after, body.unibit-accessibility-contrast-a h3:after, body.unibit-accessibility-contrast-a .h4:after, body.unibit-accessibility-contrast-a h4:after, body.unibit-accessibility-contrast-a .h5:after, body.unibit-accessibility-contrast-a h5:after, body.unibit-accessibility-contrast-a .h6:after, body.unibit-accessibility-contrast-a h6:after {
+    background-color: #ffffff!important;       
+}
+
+body.unibit-accessibility-contrast-b .h1:after, body.unibit-accessibility-contrast-b h1:after, body.unibit-accessibility-contrast-b .h2:after, body.unibit-accessibility-contrast-b h2:after, body.unibit-accessibility-contrast-b .h3:after, body.unibit-accessibility-contrast-b h3:after, body.unibit-accessibility-contrast-b .h4:after, body.unibit-accessibility-contrast-b h4:after, body.unibit-accessibility-contrast-b .h5:after, body.unibit-accessibility-contrast-b h5:after, body.unibit-accessibility-contrast-b .h6:after, body.unibit-accessibility-contrast-b h6:after {
+    background-color: #000000!important;       
+}
+
+body.unibit-accessibility-contrast-c .h1:after, body.unibit-accessibility-contrast-c h1:after, body.unibit-accessibility-contrast-c .h2:after, body.unibit-accessibility-contrast-c h2:after, body.unibit-accessibility-contrast-c .h3:after, body.unibit-accessibility-contrast-c h3:after, body.unibit-accessibility-contrast-c .h4:after, body.unibit-accessibility-contrast-c h4:after, body.unibit-accessibility-contrast-c .h5:after, body.unibit-accessibility-contrast-c h5:after, body.unibit-accessibility-contrast-c .h6:after, body.unibit-accessibility-contrast-c h6:after {
+    background-color: #fff86e!important;       
+}
+
+body.unibit-accessibility-contrast-a .logo_top_icon,
+body.unibit-accessibility-contrast-a .sport_icon,
+body.unibit-accessibility-contrast-a .land_logo,
+body.unibit-accessibility-contrast-a .land_mob_logo,
+body.unibit-accessibility-contrast-a .land_mobile_dropdown_logo,
+body.unibit-accessibility-contrast-a .land_read_more:after,
+body.unibit-accessibility-contrast-a .land_mobile_menu_s_container .land_menu_line_top_s,
+body.unibit-accessibility-contrast-a .unibit_modal_land_map_a a, body.unibit-accessibility-contrast-a .unibit_modal_land_map_ph a, body.unibit-accessibility-contrast-a .unibit_modal_land_map_ph_2 a, body.unibit-accessibility-contrast-a .unibit_modal_land_map_e a, body.unibit-accessibility-contrast-a .unibit_modal_land_map_w a, 
+body.unibit-accessibility-contrast-a .unibit_modal_land_dep_info_a a, body.unibit-accessibility-contrast-a .unibit_modal_land_dep_info_ph a, body.unibit-accessibility-contrast-a .unibit_modal_land_dep_info_ph_2 a, body.unibit-accessibility-contrast-a .unibit_modal_land_dep_info_e a, body.unibit-accessibility-contrast-a .unibit_modal_land_dep_info_w a, body.unibit-accessibility-contrast-a .unibit_modal_land_dep_info_progs_heading, body.unibit-accessibility-contrast-a .unibit_modal_land_dep_info_progs a,     
+body.unibit-accessibility-contrast-a img[src="/images/ranks/eut_logo_hor.svg"],
+body.unibit-accessibility-contrast-a img[src="/images/eis_logo.svg"],
+body.unibit-accessibility-contrast-a .mobile_dropdown_container .menu_item > a > div,  
+body.unibit-accessibility-contrast-a .mobile_dropdown_container .mobile_submenu_list > li > a > div,  
+body.unibit-accessibility-contrast-a .logo_download_icon,
+body.unibit-accessibility-contrast-a .icon,
+body.unibit-accessibility-contrast-a .blog_meta_date,
+body.unibit-accessibility-contrast-a #search_icon,
+body.unibit-accessibility-contrast-a img#refresh_captcha,
+body.unibit-accessibility-contrast-a .logo_download_container_all img,
+body.unibit-accessibility-contrast-a .side_submenu_shower,  
+body.unibit-accessibility-contrast-a .socal_new,
+body.unibit-accessibility-contrast-a .rank_2025, body.unibit-accessibility-contrast-a .rank_img_2025 {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+            
+body.unibit-accessibility-contrast-b .logo_top_icon,
+body.unibit-accessibility-contrast-b .sport_icon,
+body.unibit-accessibility-contrast-b .land_logo,
+body.unibit-accessibility-contrast-b .land_mob_logo,
+body.unibit-accessibility-contrast-b .land_mobile_dropdown_logo,
+body.unibit-accessibility-contrast-b .land_read_more:after,
+body.unibit-accessibility-contrast-b .land_mobile_menu_s_container .land_menu_line_top_s,
+body.unibit-accessibility-contrast-b .unibit_modal_land_map_a a, body.unibit-accessibility-contrast-b .unibit_modal_land_map_ph a, body.unibit-accessibility-contrast-b .unibit_modal_land_map_ph_2 a, body.unibit-accessibility-contrast-b .unibit_modal_land_map_e a, body.unibit-accessibility-contrast-b .unibit_modal_land_map_w a, 
+body.unibit-accessibility-contrast-b .unibit_modal_land_dep_info_a a, body.unibit-accessibility-contrast-b .unibit_modal_land_dep_info_ph a, body.unibit-accessibility-contrast-b .unibit_modal_land_dep_info_ph_2 a, body.unibit-accessibility-contrast-b .unibit_modal_land_dep_info_e a, body.unibit-accessibility-contrast-b .unibit_modal_land_dep_info_w a, body.unibit-accessibility-contrast-b .unibit_modal_land_dep_info_progs_heading, body.unibit-accessibility-contrast-b .unibit_modal_land_dep_info_progs a,   
+body.unibit-accessibility-contrast-b img[src="/images/ranks/eut_logo_hor.svg"],   
+body.unibit-accessibility-contrast-b img[src="/images/eis_logo.svg"],   
+body.unibit-accessibility-contrast-b .mobile_dropdown_container .menu_item > a > div,  
+body.unibit-accessibility-contrast-b .mobile_dropdown_container .mobile_submenu_list > li > a > div,  
+body.unibit-accessibility-contrast-b .logo_download_icon,
+body.unibit-accessibility-contrast-b .icon,
+body.unibit-accessibility-contrast-b .blog_meta_date,
+body.unibit-accessibility-contrast-b #search_icon,
+body.unibit-accessibility-contrast-b img#refresh_captcha,
+body.unibit-accessibility-contrast-b .logo_download_container_all img,
+body.unibit-accessibility-contrast-b .side_submenu_shower,  
+body.unibit-accessibility-contrast-b .socal_new,
+body.unibit-accessibility-contrast-b .rank_2025, body.unibit-accessibility-contrast-b .rank_img_2025 {
+    filter: brightness(0) saturate(100%);       
+}
+
+body.unibit-accessibility-contrast-c .logo_top_icon,
+body.unibit-accessibility-contrast-c .sport_icon,
+body.unibit-accessibility-contrast-c .land_logo,
+body.unibit-accessibility-contrast-c .land_mob_logo,
+body.unibit-accessibility-contrast-c .land_mobile_dropdown_logo,
+body.unibit-accessibility-contrast-c .land_read_more:after,
+body.unibit-accessibility-contrast-c .land_mobile_menu_s_container .land_menu_line_top_s,
+body.unibit-accessibility-contrast-c .unibit_modal_land_map_a a, body.unibit-accessibility-contrast-c .unibit_modal_land_map_ph a, body.unibit-accessibility-contrast-c .unibit_modal_land_map_ph_2 a, body.unibit-accessibility-contrast-c .unibit_modal_land_map_e a, body.unibit-accessibility-contrast-c .unibit_modal_land_map_w a, 
+body.unibit-accessibility-contrast-c .unibit_modal_land_dep_info_a a, body.unibit-accessibility-contrast-c .unibit_modal_land_dep_info_ph a, body.unibit-accessibility-contrast-c .unibit_modal_land_dep_info_ph_2 a, body.unibit-accessibility-contrast-c .unibit_modal_land_dep_info_e a, body.unibit-accessibility-contrast-c .unibit_modal_land_dep_info_w a, body.unibit-accessibility-contrast-c .unibit_modal_land_dep_info_progs_heading, body.unibit-accessibility-contrast-c .unibit_modal_land_dep_info_progs a,    
+body.unibit-accessibility-contrast-c img[src="/images/ranks/eut_logo_hor.svg"],   
+body.unibit-accessibility-contrast-c img[src="/images/eis_logo.svg"],   
+body.unibit-accessibility-contrast-c .mobile_dropdown_container .menu_item > a > div,  
+body.unibit-accessibility-contrast-c .mobile_dropdown_container .mobile_submenu_list > li > a > div,  
+body.unibit-accessibility-contrast-c .logo_download_icon,
+body.unibit-accessibility-contrast-c .icon,
+body.unibit-accessibility-contrast-c .blog_meta_date,
+body.unibit-accessibility-contrast-c #search_icon,
+body.unibit-accessibility-contrast-c img#refresh_captcha,
+body.unibit-accessibility-contrast-c .logo_download_container_all img,
+body.unibit-accessibility-contrast-c .side_submenu_shower,   
+body.unibit-accessibility-contrast-c .socal_new,
+body.unibit-accessibility-contrast-c .rank_2025, body.unibit-accessibility-contrast-c .rank_img_2025 {
+    filter: brightness(0) saturate(100%) invert(88%) sepia(83%) saturate(415%) hue-rotate(336deg) brightness(105%) contrast(101%);       
+}
+
+body.unibit-accessibility-contrast-a .land_event_dat_big:after {
+    border-color: #ffffff;    
+}
+
+body.unibit-accessibility-contrast-b .land_event_dat_big:after {
+    border-color: #000000;         
+}
+
+body.unibit-accessibility-contrast-c .land_event_dat_big:after {
+    border-color: #fff86e;     
+}
+
+body.unibit-accessibility-contrast-a .new_footer_bottom, body.unibit-accessibility-contrast-b .new_footer_bottom, body.unibit-accessibility-contrast-c .new_footer_bottom {
+    border-top: 1px solid;   
+}
+
+body.unibit-accessibility-contrast-a .land_block, body.unibit-accessibility-contrast-b .land_block, body.unibit-accessibility-contrast-c .land_block {
+    border-bottom: 1px solid;   
+}
+
+body.unibit-accessibility-contrast-a .breadcrumbs_container, body.unibit-accessibility-contrast-b .breadcrumbs_container, body.unibit-accessibility-contrast-c .breadcrumbs_container,
+body.unibit-accessibility-contrast-a .land_block, body.unibit-accessibility-contrast-b .land_block, body.unibit-accessibility-contrast-c .land_block,
+body.unibit-accessibility-contrast-a .land_addon_events_container, body.unibit-accessibility-contrast-b .land_addon_events_container, body.unibit-accessibility-contrast-c .land_addon_events_container,
+body.unibit-accessibility-contrast-a .land_dep::before, body.unibit-accessibility-contrast-b .land_dep::before, body.unibit-accessibility-contrast-c .land_dep::before,
+body.unibit-accessibility-contrast-a .land_menu_line_bottom, body.unibit-accessibility-contrast-b .land_menu_line_bottom, body.unibit-accessibility-contrast-c .land_menu_line_bottom,
+body.unibit-accessibility-contrast-a .land_mobile_dropdown, body.unibit-accessibility-contrast-b .land_mobile_dropdown, body.unibit-accessibility-contrast-c .land_mobile_dropdown,
+body.unibit-accessibility-contrast-a h2.land_h2, body.unibit-accessibility-contrast-b h2.land_h2, body.unibit-accessibility-contrast-c h2.land_h2,
+body.unibit-accessibility-contrast-a .mobile_dropdown_container, body.unibit-accessibility-contrast-b .mobile_dropdown_container, body.unibit-accessibility-contrast-c .mobile_dropdown_container,
+body.unibit-accessibility-contrast-a .new_footer_bg, body.unibit-accessibility-contrast-b .new_footer_bg, body.unibit-accessibility-contrast-c .new_footer_bg {
+    background-image: none!important;
+}
+
+body.unibit-accessibility-contrast-a .footr_socal, body.unibit-accessibility-contrast-b .footr_socal, body.unibit-accessibility-contrast-c .footr_socal {
+    background-position: top!important;
+}
+
+body.unibit-accessibility-contrast-a .news_container, body.unibit-accessibility-contrast-b .news_container, body.unibit-accessibility-contrast-c .news_container,
+body.unibit-accessibility-contrast-a .land_apply_block, body.unibit-accessibility-contrast-b .land_apply_block, body.unibit-accessibility-contrast-c .land_apply_block,
+body.unibit-accessibility-contrast-a .land_work_item, body.unibit-accessibility-contrast-b .land_work_item, body.unibit-accessibility-contrast-c .land_work_item,
+body.unibit-accessibility-contrast-a .land_event_block, body.unibit-accessibility-contrast-b .land_event_block, body.unibit-accessibility-contrast-c .land_event_block,
+body.unibit-accessibility-contrast-a .mobile_menu_button, body.unibit-accessibility-contrast-b .mobile_menu_button, body.unibit-accessibility-contrast-c .mobile_menu_button,
+body.unibit-accessibility-contrast-a .suggestions_container, body.unibit-accessibility-contrast-b .suggestions_container, body.unibit-accessibility-contrast-c .suggestions_container,
+body.unibit-accessibility-contrast-a .shadow, body.unibit-accessibility-contrast-b .shadow, body.unibit-accessibility-contrast-c .shadow,
+body.unibit-accessibility-contrast-a .small_shadow, body.unibit-accessibility-contrast-b .small_shadow, body.unibit-accessibility-contrast-c .small_shadow,
+body.unibit-accessibility-contrast-a input, body.unibit-accessibility-contrast-b input, body.unibit-accessibility-contrast-c input,
+body.unibit-accessibility-contrast-a .webchat-app-bot-intro, body.unibit-accessibility-contrast-b .webchat-app-bot-intro, body.unibit-accessibility-contrast-c .webchat-app-bot-intro,
+body.unibit-accessibility-contrast-a .wchat__maximize-header, body.unibit-accessibility-contrast-b .wchat__maximize-header, body.unibit-accessibility-contrast-c .wchat__maximize-header,
+body.unibit-accessibility-contrast-a .wchat__avatar, body.unibit-accessibility-contrast-b .wchat__avatar, body.unibit-accessibility-contrast-c .wchat__avatar,
+body.unibit-accessibility-contrast-a  #webchat .avatar, body.unibit-accessibility-contrast-b #webchat .avatar, body.unibit-accessibility-contrast-c #webchat .avatar,
+body.unibit-accessibility-contrast-a .wchat__maximize, body.unibit-accessibility-contrast-b .wchat__maximize, body.unibit-accessibility-contrast-c .wchat__maximize,
+body.unibit-accessibility-contrast-a .webchat-chatview-panel, body.unibit-accessibility-contrast-b .webchat-chatview-panel, body.unibit-accessibility-contrast-c .webchat-chatview-panel,
+body.unibit-accessibility-contrast-a input.small_button, body.unibit-accessibility-contrast-b input.small_button, body.unibit-accessibility-contrast-c input.small_button {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}                                         
+
+body.unibit-accessibility-contrast-a .news_meta_container.news_meta_container_blank, body.unibit-accessibility-contrast-b .news_meta_container.news_meta_container_blank, body.unibit-accessibility-contrast-c .news_meta_container.news_meta_container_blank {
+    color: transparent!important;
+}
+
+body.unibit-accessibility-contrast-a .side_menu .side_submenu_shower, body.unibit-accessibility-contrast-b .side_menu .side_submenu_shower, body.unibit-accessibility-contrast-c .side_menu .side_submenu_shower,
+body.unibit-accessibility-contrast-a .mobile_dropdown_container .menu_item > a > div, body.unibit-accessibility-contrast-b .mobile_dropdown_container .menu_item > a > div, body.unibit-accessibility-contrast-c .mobile_dropdown_container .menu_item > a > div,
+body.unibit-accessibility-contrast-a .mobile_dropdown_container .mobile_submenu_list > li > a > div, body.unibit-accessibility-contrast-b .mobile_dropdown_container .mobile_submenu_list > li > a > div, body.unibit-accessibility-contrast-c .mobile_dropdown_container .mobile_submenu_list > li > a > div {
+    background-color: transparent!important;
+}
+
+body.unibit-accessibility-contrast-a .sport_icon, body.unibit-accessibility-contrast-b .sport_icon, body.unibit-accessibility-contrast-c .sport_icon {
+    opacity: .5!important;    
+}
+
+body.unibit-accessibility-contrast-a .slideshow_load_line, body.unibit-accessibility-contrast-b .slideshow_load_line, body.unibit-accessibility-contrast-c .slideshow_load_line {
+    transition-property: width!important;
+}
+
+body.unibit-accessibility-contrast-a .sport_icon.sport_icon_state_active, body.unibit-accessibility-contrast-b .sport_icon.sport_icon_state_active, body.unibit-accessibility-contrast-c .sport_icon.sport_icon_state_active{
+    opacity: 1!important;    
+}
+
+body.unibit-accessibility-contrast-a .webchat-app-bot-intro, body.unibit-accessibility-contrast-b .webchat-app-bot-intro, body.unibit-accessibility-contrast-c .webchat-app-bot-intro,
+body.unibit-accessibility-contrast-a .wchat__maximize-header, body.unibit-accessibility-contrast-b .wchat__maximize-header, body.unibit-accessibility-contrast-c .wchat__maximize-header,
+body.unibit-accessibility-contrast-a .wchat__header, body.unibit-accessibility-contrast-b .wchat__header, body.unibit-accessibility-contrast-c .wchat__header,
+body.unibit-accessibility-contrast-a .wchat__container, body.unibit-accessibility-contrast-b .wchat__container, body.unibit-accessibility-contrast-c .wchat__container,
+body.unibit-accessibility-contrast-a .webchat-chatview-panel, body.unibit-accessibility-contrast-b .webchat-chatview-panel, body.unibit-accessibility-contrast-c .webchat-chatview-panel {
+    border: 1px solid;   
+}
+
+body.unibit-accessibility-contrast-a .webchat-chatview-panel, body.unibit-accessibility-contrast-b .webchat-chatview-panel, body.unibit-accessibility-contrast-c .webchat-chatview-panel {
+    border-radius: .6rem .6rem 0 0;
+}
+body.unibit-accessibility-contrast-a #webchat .powered-by, body.unibit-accessibility-contrast-b #webchat .powered-by, body.unibit-accessibility-contrast-c #webchat .powered-by {
+    border-radius: 10px;    
+}
+
+body.unibit-accessibility-contrast-a .unibit_modal_container.land_modal_container .unibit_modal_close, body.unibit-accessibility-contrast-b .unibit_modal_container.land_modal_container .unibit_modal_close, body.unibit-accessibility-contrast-c .unibit_modal_container.land_modal_container .unibit_modal_close,
+body.unibit-accessibility-contrast-a .land_slideshow .unibit_slideshow_step, body.unibit-accessibility-contrast-b .land_slideshow .unibit_slideshow_step, body.unibit-accessibility-contrast-c .land_slideshow .unibit_slideshow_step {
+    filter: none!important;    
+}
+                                  
+body.unibit-accessibility-contrast-a .breadcrumbs_container, body.unibit-accessibility-contrast-a .breadcrumbs_container a, body.unibit-accessibility-contrast-a .breadcrumbs_container a:before,   
+body.unibit-accessibility-contrast-a .top_line, body.unibit-accessibility-contrast-a .top_line ul li a,    
+body.unibit-accessibility-contrast-a .hot_links, 
+body.unibit-accessibility-contrast-a .land_dep, 
+body.unibit-accessibility-contrast-a .land_archive_block, 
+body.unibit-accessibility-contrast-a .land_apply_block, 
+body.unibit-accessibility-contrast-a .land_event_block, 
+body.unibit-accessibility-contrast-a .land_footer, 
+body.unibit-accessibility-contrast-a .land_footer_bottom, 
+body.unibit-accessibility-contrast-a .land_work_item, body.unibit-accessibility-contrast-a .land_work_item_contents,  
+body.unibit-accessibility-contrast-a a.land_button, body.unibit-accessibility-contrast-a a.land_button:hover,   
+body.unibit-accessibility-contrast-a .land_scroll_menu_inside, 
+body.unibit-accessibility-contrast-a .land_scroll_menu_container .land_menu, 
+body.unibit-accessibility-contrast-a .land_menu_line_top, body.unibit-accessibility-contrast-a .land_menu_line_top a,  
+body.unibit-accessibility-contrast-a .webchat-app-bot-intro, 
+body.unibit-accessibility-contrast-a .webchat-header, 
+body.unibit-accessibility-contrast-a .webchat-send, 
+body.unibit-accessibility-contrast-a .webchat-message-content, 
+body.unibit-accessibility-contrast-a .webchat-message-groups .webchat-message-content .hero button.ac-pushButton:hover, body.unibit-accessibility-contrast-a .webchat-message-groups .webchat-message-content .hero button.ac-pushButton:active,      
+body.unibit-accessibility-contrast-a #webchat .wchat__maximize-header,  
+body.unibit-accessibility-contrast-a #webchat .wchat__title,  
+body.unibit-accessibility-contrast-a #webchat .wchat__header,  
+body.unibit-accessibility-contrast-a #webchat .webchat__bubble__content,  
+body.unibit-accessibility-contrast-a #webchat .ac-container,  
+body.unibit-accessibility-contrast-a #webchat .ac-textBlock,  
+body.unibit-accessibility-contrast-a #webchat .webchat__bubble__content a,  
+body.unibit-accessibility-contrast-a #webchat .react-confirm-alert-button-group button,  
+body.unibit-accessibility-contrast-a .secondary_menu li:hover a div, body.unibit-accessibility-contrast-a .secondary_menu li.current_sec_menu_item a div, 
+body.unibit-accessibility-contrast-a .mobile_menu_button, 
+body.unibit-accessibility-contrast-a .module_header_container, body.unibit-accessibility-contrast-a .module_header_container h6,
+body.unibit-accessibility-contrast-a #header_shower, 
+body.unibit-accessibility-contrast-a #header_hider, 
+body.unibit-accessibility-contrast-a .main_menu_dropdown_container_bg, 
+body.unibit-accessibility-contrast-a .faculty_link, 
+body.unibit-accessibility-contrast-a .home_hot_link,    
+body.unibit-accessibility-contrast-a .tab_main_img, 
+body.unibit-accessibility-contrast-a .course_title_container, 
+body.unibit-accessibility-contrast-a .side_submenu_shower,  
+body.unibit-accessibility-contrast-a .side_menu li a > div:before,
+body.unibit-accessibility-contrast-a .side_element_container h3, body.unibit-accessibility-contrast-a .side_element_container h3.bright, 
+body.unibit-accessibility-contrast-a .new_footer, 
+body.unibit-accessibility-contrast-a .dropdown_menu li a, body.unibit-accessibility-contrast-a .dropdown_menu li.end_group,
+body.unibit-accessibility-contrast-a .faculty_logo_icon, 
+body.unibit-accessibility-contrast-a .sport_apply_link,  
+body.unibit-accessibility-contrast-a .land_study_programmes_tall .land_study_programmes_item,  
+body.unibit-accessibility-contrast-a .land_study_programmes_tall .land_study_programmes_item .land_study_programmes_item_h_1,  
+body.unibit-accessibility-contrast-a .land_study_programmes_tall .land_study_programmes_item .land_study_programmes_item_h_2,  
+body.unibit-accessibility-contrast-a .land_study_programmes_tall .land_study_programmes_item .land_study_programmes_item_t,  
+body.unibit-accessibility-contrast-a .suggestions_container, body.unibit-accessibility-contrast-a .suggestions_container ul li,  
+body.unibit-accessibility-contrast-a .news_img_bottom_text {
+    background-color: #ffffff!important;
+    color: #000000!important;
+    border-color: #000000!important;    
+}                                                                         
+  
+body.unibit-accessibility-contrast-b .breadcrumbs_container, body.unibit-accessibility-contrast-b .breadcrumbs_container a, body.unibit-accessibility-contrast-b .breadcrumbs_container a:before,   
+body.unibit-accessibility-contrast-b .top_line, body.unibit-accessibility-contrast-b .top_line ul li a,      
+body.unibit-accessibility-contrast-b .hot_links, 
+body.unibit-accessibility-contrast-b .land_dep, 
+body.unibit-accessibility-contrast-b .land_archive_block, 
+body.unibit-accessibility-contrast-b .land_apply_block, 
+body.unibit-accessibility-contrast-b .land_event_block, 
+body.unibit-accessibility-contrast-b .land_footer, 
+body.unibit-accessibility-contrast-b .land_footer_bottom, 
+body.unibit-accessibility-contrast-b .land_work_item, body.unibit-accessibility-contrast-b .land_work_item_contents,      
+body.unibit-accessibility-contrast-b a.land_button, body.unibit-accessibility-contrast-b a.land_button:hover,   
+body.unibit-accessibility-contrast-b .land_scroll_menu_inside, 
+body.unibit-accessibility-contrast-b .land_scroll_menu_container .land_menu, 
+body.unibit-accessibility-contrast-b .land_menu_line_top, body.unibit-accessibility-contrast-b .land_menu_line_top a,  
+body.unibit-accessibility-contrast-b .webchat-app-bot-intro, 
+body.unibit-accessibility-contrast-b .webchat-header, 
+body.unibit-accessibility-contrast-b .webchat-send, 
+body.unibit-accessibility-contrast-b .webchat-message-content, 
+body.unibit-accessibility-contrast-b .webchat-message-groups .webchat-message-content .hero button.ac-pushButton:hover, body.unibit-accessibility-contrast-b .webchat-message-groups .webchat-message-content .hero button.ac-pushButton:active,   
+body.unibit-accessibility-contrast-b #webchat .wchat__maximize-header,  
+body.unibit-accessibility-contrast-b #webchat .wchat__title,  
+body.unibit-accessibility-contrast-b #webchat .wchat__header,  
+body.unibit-accessibility-contrast-b #webchat .webchat__bubble__content,  
+body.unibit-accessibility-contrast-b #webchat .ac-container,  
+body.unibit-accessibility-contrast-b #webchat .ac-textBlock,  
+body.unibit-accessibility-contrast-b #webchat .webchat__bubble__content a,  
+body.unibit-accessibility-contrast-b #webchat .react-confirm-alert-button-group button,  
+body.unibit-accessibility-contrast-b .secondary_menu li:hover a div, body.unibit-accessibility-contrast-b .secondary_menu li.current_sec_menu_item a div, 
+body.unibit-accessibility-contrast-b .mobile_menu_button, 
+body.unibit-accessibility-contrast-b .module_header_container, body.unibit-accessibility-contrast-b .module_header_container h6,  
+body.unibit-accessibility-contrast-b #header_shower, 
+body.unibit-accessibility-contrast-b #header_hider, 
+body.unibit-accessibility-contrast-b .main_menu_dropdown_container_bg, 
+body.unibit-accessibility-contrast-b .faculty_link, 
+body.unibit-accessibility-contrast-b .home_hot_link,  
+body.unibit-accessibility-contrast-b .tab_main_img, 
+body.unibit-accessibility-contrast-b .course_title_container, 
+body.unibit-accessibility-contrast-b .side_submenu_shower,  
+body.unibit-accessibility-contrast-b .side_menu li a > div:before,  
+body.unibit-accessibility-contrast-b .side_element_container h3, body.unibit-accessibility-contrast-b .side_element_container h3.bright, 
+body.unibit-accessibility-contrast-b .new_footer, 
+body.unibit-accessibility-contrast-b .dropdown_menu li a, body.unibit-accessibility-contrast-b .dropdown_menu li.end_group,        
+body.unibit-accessibility-contrast-b .faculty_logo_icon, 
+body.unibit-accessibility-contrast-b .sport_apply_link,  
+body.unibit-accessibility-contrast-b .land_study_programmes_tall .land_study_programmes_item,  
+body.unibit-accessibility-contrast-b .land_study_programmes_tall .land_study_programmes_item .land_study_programmes_item_h_1,  
+body.unibit-accessibility-contrast-b .land_study_programmes_tall .land_study_programmes_item .land_study_programmes_item_h_2,  
+body.unibit-accessibility-contrast-b .land_study_programmes_tall .land_study_programmes_item .land_study_programmes_item_t, 
+body.unibit-accessibility-contrast-b .suggestions_container, body.unibit-accessibility-contrast-b .suggestions_container ul li,  
+body.unibit-accessibility-contrast-b .news_img_bottom_text {
+    background-color: #000000!important;
+    color: #fff86e!important;
+    border-color: #fff86e!important;
+}
+ 
+body.unibit-accessibility-contrast-c .breadcrumbs_container, body.unibit-accessibility-contrast-c .breadcrumbs_container a, body.unibit-accessibility-contrast-c .breadcrumbs_container a:before,   
+body.unibit-accessibility-contrast-c .top_line, body.unibit-accessibility-contrast-c .top_line ul li a,      
+body.unibit-accessibility-contrast-c .hot_links, 
+body.unibit-accessibility-contrast-c .land_dep, 
+body.unibit-accessibility-contrast-c .land_archive_block, 
+body.unibit-accessibility-contrast-c .land_apply_block, 
+body.unibit-accessibility-contrast-c .land_event_block, 
+body.unibit-accessibility-contrast-c .land_footer, 
+body.unibit-accessibility-contrast-c .land_footer_bottom, 
+body.unibit-accessibility-contrast-c .land_work_item, body.unibit-accessibility-contrast-c .land_work_item_contents,      
+body.unibit-accessibility-contrast-c a.land_button, body.unibit-accessibility-contrast-c a.land_button:hover,   
+body.unibit-accessibility-contrast-c .land_scroll_menu_inside, 
+body.unibit-accessibility-contrast-c .land_scroll_menu_container .land_menu, 
+body.unibit-accessibility-contrast-c .land_menu_line_top, body.unibit-accessibility-contrast-c .land_menu_line_top a, 
+body.unibit-accessibility-contrast-c .webchat-app-bot-intro, 
+body.unibit-accessibility-contrast-c .webchat-header, 
+body.unibit-accessibility-contrast-c .webchat-send, 
+body.unibit-accessibility-contrast-c .webchat-message-content, 
+body.unibit-accessibility-contrast-c .webchat-message-groups .webchat-message-content .hero button.ac-pushButton:hover, body.unibit-accessibility-contrast-c .webchat-message-groups .webchat-message-content .hero button.ac-pushButton:active,   
+body.unibit-accessibility-contrast-c #webchat .wchat__maximize-header,  
+body.unibit-accessibility-contrast-c #webchat .wchat__title,  
+body.unibit-accessibility-contrast-c #webchat .wchat__header,  
+body.unibit-accessibility-contrast-c #webchat .webchat__bubble__content,  
+body.unibit-accessibility-contrast-c #webchat .ac-container,  
+body.unibit-accessibility-contrast-c #webchat .ac-textBlock,  
+body.unibit-accessibility-contrast-c #webchat .webchat__bubble__content a,   
+body.unibit-accessibility-contrast-c #webchat .react-confirm-alert-button-group button, 
+body.unibit-accessibility-contrast-c .secondary_menu li:hover a div, body.unibit-accessibility-contrast-c .secondary_menu li.current_sec_menu_item a div, 
+body.unibit-accessibility-contrast-c .mobile_menu_button, 
+body.unibit-accessibility-contrast-c .module_header_container, body.unibit-accessibility-contrast-c .module_header_container h6,   
+body.unibit-accessibility-contrast-c #header_shower, 
+body.unibit-accessibility-contrast-c #header_hider, 
+body.unibit-accessibility-contrast-c .main_menu_dropdown_container_bg, 
+body.unibit-accessibility-contrast-c .faculty_link, 
+body.unibit-accessibility-contrast-c .home_hot_link, 
+body.unibit-accessibility-contrast-c .tab_main_img, 
+body.unibit-accessibility-contrast-c .course_title_container, 
+body.unibit-accessibility-contrast-c .side_submenu_shower,  
+body.unibit-accessibility-contrast-c .side_menu li a > div:before,  
+body.unibit-accessibility-contrast-c .side_element_container h3, body.unibit-accessibility-contrast-c .side_element_container h3.bright, 
+body.unibit-accessibility-contrast-c .new_footer, 
+body.unibit-accessibility-contrast-c .dropdown_menu li a, body.unibit-accessibility-contrast-c .dropdown_menu li.end_group,         
+body.unibit-accessibility-contrast-c .faculty_logo_icon, 
+body.unibit-accessibility-contrast-c .sport_apply_link,  
+body.unibit-accessibility-contrast-c .land_study_programmes_tall .land_study_programmes_item,  
+body.unibit-accessibility-contrast-c .land_study_programmes_tall .land_study_programmes_item .land_study_programmes_item_h_1,  
+body.unibit-accessibility-contrast-c .land_study_programmes_tall .land_study_programmes_item .land_study_programmes_item_h_2,  
+body.unibit-accessibility-contrast-c .land_study_programmes_tall .land_study_programmes_item .land_study_programmes_item_t, 
+body.unibit-accessibility-contrast-c .suggestions_container, body.unibit-accessibility-contrast-c .suggestions_container ul li, 
+body.unibit-accessibility-contrast-c .news_img_bottom_text {
+    background-color: #fff86e!important;
+    color: #000000!important;    
+    border-color: #000000!important;   
+}
+
+body.unibit-accessibility-contrast-a .footr_socal,     
+body.unibit-accessibility-contrast-a .land_scroll_logo,     
+body.unibit-accessibility-contrast-a .land_menu_line_top_s,     
+body.unibit-accessibility-contrast-a #webchat-app-bot .minimize,     
+body.unibit-accessibility-contrast-a .webchat-send svg,  
+body.unibit-accessibility-contrast-a #webchat .wchat__minimize,       
+body.unibit-accessibility-contrast-a #webchat .wchat__close,       
+body.unibit-accessibility-contrast-a .tab_main_img_h:before,     
+body.unibit-accessibility-contrast-a .new_footer_phone,     
+body.unibit-accessibility-contrast-a .new_footer_email,     
+body.unibit-accessibility-contrast-a #show_header,
+body.unibit-accessibility-contrast-a #hide_header,
+body.unibit-accessibility-contrast-a .dropdown_arrow,
+body.unibit-accessibility-contrast-a .land_event_dat_small,
+body.unibit-accessibility-contrast-a .land_footer_logo,                                                                                                    
+body.unibit-accessibility-contrast-a .land_apply_block .land_read_more:after, body.unibit-accessibility-contrast-a .land_work_item .land_read_more:after, body.unibit-accessibility-contrast-a .land_event_block .land_read_more:after,  
+body.unibit-accessibility-contrast-a .top_line ul li a.hot_links_a,
+body.unibit-accessibility-contrast-a .breadcrumbs li:before {
+    filter: brightness(0) saturate(100%);   
+    color: #000000!important;   
+    background-color: transparent!important;
+}
+
+body.unibit-accessibility-contrast-b .footr_socal,
+body.unibit-accessibility-contrast-b .land_scroll_logo,
+body.unibit-accessibility-contrast-b .land_menu_line_top_s,
+body.unibit-accessibility-contrast-b #webchat-app-bot .minimize,
+body.unibit-accessibility-contrast-b .webchat-send svg, 
+body.unibit-accessibility-contrast-b #webchat .wchat__minimize,       
+body.unibit-accessibility-contrast-b #webchat .wchat__close,    
+body.unibit-accessibility-contrast-b .tab_main_img_h:before,
+body.unibit-accessibility-contrast-b .new_footer_phone,
+body.unibit-accessibility-contrast-b .new_footer_email,
+body.unibit-accessibility-contrast-b #show_header,
+body.unibit-accessibility-contrast-b #hide_header,
+body.unibit-accessibility-contrast-b .dropdown_arrow,
+body.unibit-accessibility-contrast-b .land_event_dat_small,
+body.unibit-accessibility-contrast-b .land_footer_logo,
+body.unibit-accessibility-contrast-b .land_apply_block .land_read_more:after, body.unibit-accessibility-contrast-b .land_work_item .land_read_more:after, body.unibit-accessibility-contrast-b .land_event_block .land_read_more:after, 
+body.unibit-accessibility-contrast-b .top_line ul li a.hot_links_a,
+body.unibit-accessibility-contrast-b .breadcrumbs li:before {
+    filter: brightness(0) saturate(100%) invert(88%) sepia(83%) saturate(415%) hue-rotate(336deg) brightness(105%) contrast(101%);        
+    color: #fff86e!important;   
+    background-color: transparent!important;    
+}
+
+body.unibit-accessibility-contrast-c .footr_socal,
+body.unibit-accessibility-contrast-c .land_scroll_logo,
+body.unibit-accessibility-contrast-c .land_menu_line_top_s,
+body.unibit-accessibility-contrast-c #webchat-app-bot .minimize,
+body.unibit-accessibility-contrast-c .webchat-send svg, 
+body.unibit-accessibility-contrast-c #webchat .wchat__minimize,       
+body.unibit-accessibility-contrast-c #webchat .wchat__close,    
+body.unibit-accessibility-contrast-c .tab_main_img_h:before,
+body.unibit-accessibility-contrast-c .new_footer_phone,
+body.unibit-accessibility-contrast-c .new_footer_email,
+body.unibit-accessibility-contrast-c #show_header,
+body.unibit-accessibility-contrast-c #hide_header,
+body.unibit-accessibility-contrast-c .dropdown_arrow,
+body.unibit-accessibility-contrast-c .land_event_dat_small,
+body.unibit-accessibility-contrast-c .land_footer_logo,
+body.unibit-accessibility-contrast-c .land_apply_block .land_read_more:after, body.unibit-accessibility-contrast-c .land_work_item .land_read_more:after, body.unibit-accessibility-contrast-c .land_event_block .land_read_more:after, 
+body.unibit-accessibility-contrast-c .top_line ul li a.hot_links_a,
+body.unibit-accessibility-contrast-c .breadcrumbs li:before {
+    filter: brightness(0) saturate(100%);       
+    color: #000000!important;  
+    background-color: transparent!important;     
+}     
+
+body.unibit-accessibility-contrast-a .mobile_menu_button {
+    background-image: url('/images/accessibility/mobile_button_b.svg')!important;    
+}
+body.unibit-accessibility-contrast-b .mobile_menu_button {
+    background-image: url('/images/accessibility/mobile_button_y.svg')!important;    
+}
+body.unibit-accessibility-contrast-c .mobile_menu_button {
+    background-image: url('/images/accessibility/mobile_button_b.svg')!important;    
+}
+
+body.unibit-accessibility-contrast-a .mobile_search_input_container {
+    background-image: url('/images/accessibility/search_mobile_w.svg')!important;    
+}
+body.unibit-accessibility-contrast-b .mobile_search_input_container {
+    background-image: url('/images/accessibility/search_mobile_b.svg')!important;    
+}
+body.unibit-accessibility-contrast-c .mobile_search_input_container {
+    background-image: url('/images/accessibility/search_mobile_y.svg')!important;    
+}
+
+body.unibit-accessibility-contrast-a .page_up {
+    background-image: url('/images/accessibility/go_to_top_w.svg')!important;    
+}
+body.unibit-accessibility-contrast-b .page_up {
+    background-image: url('/images/accessibility/go_to_top_by.svg')!important;    
+}
+body.unibit-accessibility-contrast-c .page_up {
+    background-image: url('/images/accessibility/go_to_top_yb.svg')!important;    
+}
+
+body.unibit-accessibility-contrast-a .unibit_slideshow_go_down {
+    background-image: url('/images/accessibility/go_down_w.svg')!important;    
+}
+body.unibit-accessibility-contrast-b .unibit_slideshow_go_down {
+    background-image: url('/images/accessibility/go_down_by.svg')!important;    
+}
+body.unibit-accessibility-contrast-c .unibit_slideshow_go_down {
+    background-image: url('/images/accessibility/go_down_yb.svg')!important;    
+}
+
+body.unibit-accessibility-contrast-a .active_submenu_icon {
+    background-image: url('/images/accessibility/mobile_menu_w.svg')!important;    
+    border: 1px solid #000!important;
+    border-radius: 50%!important;    
+}
+body.unibit-accessibility-contrast-b .active_submenu_icon {
+    background-image: url('/images/accessibility/mobile_menu_b.svg')!important;    
+    border: 1px solid #fff86e!important;
+    border-radius: 50%!important;    
+}
+body.unibit-accessibility-contrast-c .active_submenu_icon {
+    background-image: url('/images/accessibility/mobile_menu_y.svg')!important;    
+    border: 1px solid #000!important;
+    border-radius: 50%!important;    
+}
+
+body.unibit-accessibility-contrast-a h2, body.unibit-accessibility-contrast-a .h2 {
+    background-image: url('/images/accessibility/h_line_w.png')!important;       
+}
+body.unibit-accessibility-contrast-b h2, body.unibit-accessibility-contrast-b .h2 {
+    background-image: url('/images/accessibility/h_line_b.png')!important;         
+}
+body.unibit-accessibility-contrast-c h2, body.unibit-accessibility-contrast-c .h2 {
+    background-image: url('/images/accessibility/h_line_y.png')!important;       
+}
+
+body.unibit-accessibility-contrast-a .back:before {
+    background-image: url('/images/accessibility/back_w.svg')!important;    
+    border: 1px solid #000!important;
+    border-radius: 50%!important;    
+}
+body.unibit-accessibility-contrast-b .back:before {
+    background-image: url('/images/accessibility/back_b.svg')!important;    
+    border: 1px solid #fff86e!important;
+    border-radius: 50%!important;    
+}
+body.unibit-accessibility-contrast-c .back:before {
+    background-image: url('/images/accessibility/back_y.svg')!important;    
+    border: 1px solid #000!important;
+    border-radius: 50%!important;    
+}
+
+body.unibit-accessibility-contrast-a .texts ul li, body.unibit-accessibility-contrast-a .texts ul ul li, body.unibit-accessibility-contrast-a .texts ul ul ul li {
+    list-style-image: url('/images/accessibility/arrow_bullet_w.svg')!important;    
+}
+
+body.unibit-accessibility-contrast-b .texts ul li, body.unibit-accessibility-contrast-b .texts ul ul li, body.unibit-accessibility-contrast-b .texts ul ul ul li {
+    list-style-image: url('/images/accessibility/arrow_bullet_b.svg')!important;    
+}
+
+body.unibit-accessibility-contrast-c .texts ul li, body.unibit-accessibility-contrast-c .texts ul ul li, body.unibit-accessibility-contrast-c .texts ul ul ul li {
+    list-style-image: url('/images/accessibility/arrow_bullet_y.svg')!important;    
+}
+
+body.unibit-accessibility-contrast-a .texts table a.current_order.order_desc {
+    background-image: url('/images/accessibility/arrow_down_b.svg');
+}
+body.unibit-accessibility-contrast-a .texts table a.current_order.order_asc {
+    background-image: url('/images/accessibility/arrow_up_b.svg');
+}
+body.unibit-accessibility-contrast-b .texts table a.current_order.order_desc {
+    background-image: url('/images/accessibility/arrow_down_y.svg');
+}
+body.unibit-accessibility-contrast-b .texts table a.current_order.order_asc {
+    background-image: url('/images/accessibility/arrow_up_y.svg');
+}
+body.unibit-accessibility-contrast-c .texts table a.current_order.order_desc {
+    background-image: url('/images/accessibility/arrow_down_b.svg');
+}
+body.unibit-accessibility-contrast-c .texts table a.current_order.order_asc {
+    background-image: url('/images/accessibility/arrow_up_b.svg');
+}
+
+body.unibit-accessibility-contrast-a .unibit_gen_checkbox {
+    background-image: url('/images/accessibility/checkbox_w.svg')!important;    
+}
+body.unibit-accessibility-contrast-b .unibit_gen_checkbox {
+    background-image: url('/images/accessibility/checkbox_y.svg')!important;    
+}
+body.unibit-accessibility-contrast-c .unibit_gen_checkbox {
+    background-image: url('/images/accessibility/checkbox_b.svg')!important;    
+}
+
+body.unibit-accessibility-contrast-a #webchat-app-bot .avatar {
+    background-image: url('/images/accessibility/leo_w.svg')!important;    
+}
+body.unibit-accessibility-contrast-b #webchat-app-bot .avatar {
+    background-image: url('/images/accessibility/leo_y.svg')!important;    
+}
+body.unibit-accessibility-contrast-c #webchat-app-bot .avatar {
+    background-image: url('/images/accessibility/leo_y.svg')!important;    
+}
+
+body.unibit-accessibility-contrast-a .unibit_modal_container.land_modal_container .unibit_modal_close {
+    background-image: url('/images/accessibility/landing/close_modal_b.svg')!important;    
+}
+body.unibit-accessibility-contrast-b .unibit_modal_container.land_modal_container .unibit_modal_close {
+    background-image: url('/images/accessibility/landing/close_modal_y.svg')!important;    
+}
+body.unibit-accessibility-contrast-c .unibit_modal_container.land_modal_container .unibit_modal_close {
+    background-image: url('/images/accessibility/landing/close_modal_y.svg')!important;    
+}                                              
+
+body.unibit-accessibility-contrast-a .land_mobile_menu_button {
+    background-image: url('/images/accessibility/landing/mob_menu_w.svg')!important;    
+}
+body.unibit-accessibility-contrast-b .land_mobile_menu_button {
+    background-image: url('/images/accessibility/landing/mob_menu_b.svg')!important;    
+}
+body.unibit-accessibility-contrast-c .land_mobile_menu_button {
+    background-image: url('/images/accessibility/landing/mob_menu_y.svg')!important;    
+}
+
+body.unibit-accessibility-contrast-a .land_dep_hover::before {
+    background-image: url('/images/accessibility/landing/vid_w.svg')!important;    
+}
+body.unibit-accessibility-contrast-b .land_dep_hover::before {
+    background-image: url('/images/accessibility/landing/vid_b.svg')!important;    
+}
+body.unibit-accessibility-contrast-c .land_dep_hover::before {
+    background-image: url('/images/accessibility/landing/vid_y.svg')!important;    
+}
+
+body.unibit-accessibility-contrast-a .land_my_slick_container .slick-arrow.slick-prev,
+body.unibit-accessibility-contrast-a .land_slideshow .unibit_slideshow_container .unibit_slideshow_left {
+    background-image: url('/images/accessibility/landing/arrow_left_w.svg')!important;    
+}
+body.unibit-accessibility-contrast-b .land_my_slick_container .slick-arrow.slick-prev {
+    background-image: url('/images/accessibility/landing/arrow_left_b.svg')!important;    
+}
+body.unibit-accessibility-contrast-c .land_my_slick_container .slick-arrow.slick-prev,
+body.unibit-accessibility-contrast-b .land_slideshow .unibit_slideshow_container .unibit_slideshow_left,
+body.unibit-accessibility-contrast-c .land_slideshow .unibit_slideshow_container .unibit_slideshow_left {
+    background-image: url('/images/accessibility/landing/arrow_left_y.svg')!important;    
+}                                                                                                  
+
+body.unibit-accessibility-contrast-a .land_my_slick_container .slick-arrow.slick-next,
+body.unibit-accessibility-contrast-a .land_slideshow .unibit_slideshow_container .unibit_slideshow_right {
+    background-image: url('/images/accessibility/landing/arrow_right_w.svg')!important;    
+}
+body.unibit-accessibility-contrast-b .land_my_slick_container .slick-arrow.slick-next {
+    background-image: url('/images/accessibility/landing/arrow_right_b.svg')!important;    
+}
+body.unibit-accessibility-contrast-c .land_my_slick_container .slick-arrow.slick-next,
+body.unibit-accessibility-contrast-b .land_slideshow .unibit_slideshow_container .unibit_slideshow_right,
+body.unibit-accessibility-contrast-c .land_slideshow .unibit_slideshow_container .unibit_slideshow_right {
+    background-image: url('/images/accessibility/landing/arrow_right_y.svg')!important;    
+} 
+
+body.unibit-accessibility-contrast-a .land_block.land_block_green.land_tour_block {
+    background-image: url('/images/accessibility/landing/360_w.svg')!important;    
+}
+body.unibit-accessibility-contrast-b .land_block.land_block_green.land_tour_block {
+    background-image: url('/images/accessibility/landing/360_b.svg')!important;    
+}
+body.unibit-accessibility-contrast-c .land_block.land_block_green.land_tour_block {
+    background-image: url('/images/accessibility/landing/360_y.svg')!important;    
+}
+
+body.unibit-accessibility-contrast-a .rank.rank_impact {
+    background-image: url('/images/accessibility/ranks/the-logo-w.svg')!important;    
+}
+body.unibit-accessibility-contrast-b .rank.rank_impact {
+    background-image: url('/images/accessibility/ranks/the-logo-by.svg')!important;    
+}
+body.unibit-accessibility-contrast-c .rank.rank_impact {
+    background-image: url('/images/accessibility/ranks/the-logo-y.svg')!important;    
+}
+body.unibit-accessibility-contrast-a .rank.rank_multirank {
+    background-image: url('/images/accessibility/ranks/multirank-logo-w.svg')!important;    
+}
+body.unibit-accessibility-contrast-b .rank.rank_multirank {
+    background-image: url('/images/accessibility/ranks/multirank-logo-by.svg')!important;    
+}
+body.unibit-accessibility-contrast-c .rank.rank_multirank {
+    background-image: url('/images/accessibility/ranks/multirank-logo-y.svg')!important;    
+}
+body.unibit-accessibility-contrast-a .rank.rank_qs_stars_2019 {
+    background-image: url('/images/accessibility/ranks/qs-stars-logo-w.svg')!important;    
+}
+body.unibit-accessibility-contrast-b .rank.rank_qs_stars_2019 {
+    background-image: url('/images/accessibility/ranks/qs-stars-logo-by.svg')!important;    
+}
+body.unibit-accessibility-contrast-c .rank.rank_qs_stars_2019 {
+    background-image: url('/images/accessibility/ranks/qs-stars-logo-y.svg')!important;    
+}
+body.unibit-accessibility-contrast-a .rank.rank_wur_2020 {
+    background-image: url('/images/accessibility/ranks/the-wur-logo-w.svg')!important;    
+}
+body.unibit-accessibility-contrast-b .rank.rank_wur_2020 {
+    background-image: url('/images/accessibility/ranks/the-wur-logo-by.svg')!important;    
+}
+body.unibit-accessibility-contrast-c .rank.rank_wur_2020 {
+    background-image: url('/images/accessibility/ranks/the-wur-logo-y.svg')!important;    
+}                                            
+body.unibit-accessibility-contrast-a .rank.rank_eduniversal {
+    background-image: url('/images/accessibility/ranks/eduniversal-logo-w.svg')!important;    
+}
+body.unibit-accessibility-contrast-b .rank.rank_eduniversal {
+    background-image: url('/images/accessibility/ranks/eduniversal-logo-by.svg')!important;    
+}
+body.unibit-accessibility-contrast-c .rank.rank_eduniversal {
+    background-image: url('/images/accessibility/ranks/eduniversal-logo-y.svg')!important;    
+}   
+body.unibit-accessibility-contrast-a .rank.rank_ranked_2021 {
+    background-image: url('/images/accessibility/ranks/ranked-logo-w.svg')!important;    
+}
+body.unibit-accessibility-contrast-b .rank.rank_ranked_2021 {
+    background-image: url('/images/accessibility/ranks/ranked-logo-b.svg')!important;    
+}
+body.unibit-accessibility-contrast-c .rank.rank_ranked_2021 {
+    background-image: url('/images/accessibility/ranks/ranked-logo-y.svg')!important;    
+}  
+body.unibit-accessibility-contrast-a .rank.rank_green_metric {
+    background-image: url('/images/accessibility/ranks/green-metric-logo-w.svg')!important;    
+}
+body.unibit-accessibility-contrast-b .rank.rank_green_metric {
+    background-image: url('/images/accessibility/ranks/green-metric-logo-by.svg')!important;    
+}
+body.unibit-accessibility-contrast-c .rank.rank_green_metric {
+    background-image: url('/images/accessibility/ranks/green-metric-logo-y.svg')!important;    
+}  
+
+body.unibit-accessibility-contrast-a .tabs_container .tab, body.unibit-accessibility-contrast-a .tabs_container .tab.tab_active, body.unibit-accessibility-contrast-a .tabs_container .tab:hover {
+    color: #000000!important;
+    background-color: #ffffff!important;
+    border: 1px solid #000000!important;   
+}  
+
+body.unibit-accessibility-contrast-b .tabs_container .tab, body.unibit-accessibility-contrast-b .tabs_container .tab.tab_active, body.unibit-accessibility-contrast-b .tabs_container .tab:hover {
+    color: #fff86e!important;
+    background-color: #000000!important;
+    border: 1px solid #fff86e!important;   
+}    
+
+body.unibit-accessibility-contrast-c .tabs_container .tab, body.unibit-accessibility-contrast-c .tabs_container .tab.tab_active, body.unibit-accessibility-contrast-c .tabs_container .tab:hover {
+    color: #000000!important;
+    background-color: #fff86e!important;
+    border: 1px solid #000000!important;   
+}   
+
+body.unibit-accessibility-contrast-a .tabs_container .tab.cat_disabled {
+    color: #ffffff!important;
+    background-color: #000000!important;
+    border: 1px solid #ffffff!important;   
+}  
+
+body.unibit-accessibility-contrast-b .tabs_container .tab.cat_disabled {
+    color: #000000!important;
+    background-color: #fff86e!important;
+    border: 1px solid #000000!important;   
+}  
+
+body.unibit-accessibility-contrast-c .tabs_container .tab.cat_disabled {
+    color: #fff86e!important;
+    background-color: #000000!important;
+    border: 1px solid #fff86e!important;   
+}  
+
+body.unibit-accessibility-contrast-a .tabs_container .tab::before, body.unibit-accessibility-contrast-a .tabs_container .tab::after {
+    filter: brightness(0) saturate(100%);     
+}
+
+body.unibit-accessibility-contrast-b .tabs_container .tab::before, body.unibit-accessibility-contrast-b .tabs_container .tab::after {
+    filter: brightness(0) saturate(100%) invert(88%) sepia(83%) saturate(415%) hue-rotate(336deg) brightness(105%) contrast(101%);     
+}
+
+body.unibit-accessibility-contrast-c .tabs_container .tab::before, body.unibit-accessibility-contrast-c .tabs_container .tab::after {
+    filter: brightness(0) saturate(100%);         
+}
+
+body.unibit-accessibility-contrast-a .tabs_container .tab.cat_disabled::before, body.unibit-accessibility-contrast-a .tabs_container .tab.cat_disabled::after {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);      
+}
+
+body.unibit-accessibility-contrast-b .tabs_container .tab.cat_disabled::before, body.unibit-accessibility-contrast-b .tabs_container .tab.cat_disabled::after {
+    filter: brightness(0) saturate(100%);      
+}
+
+body.unibit-accessibility-contrast-c .tabs_container .tab.cat_disabled::before, body.unibit-accessibility-contrast-c .tabs_container .tab.cat_disabled::after {
+    filter: brightness(0) saturate(100%) invert(88%) sepia(83%) saturate(415%) hue-rotate(336deg) brightness(105%) contrast(101%);       
+}
+
+body.unibit-accessibility-contrast-a .tabs_container .tab.cat_disabled::after, body.unibit-accessibility-contrast-b .tabs_container .tab.cat_disabled::after, body.unibit-accessibility-contrast-c .tabs_container .tab.cat_disabled::after {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -o-opacity: 0;
+    -webkit-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;    
+}
+
+body.unibit-accessibility-contrast-a .tabs_container .tab.tab_main.cat_sdgs_main {
+    background-image: url('/images/accessibility/sdgs_main_b.png')!important;    
+}
+
+body.unibit-accessibility-contrast-b .tabs_container .tab.tab_main.cat_sdgs_main {
+    background-image: url('/images/accessibility/sdgs_main_y.png')!important;    
+}
+
+body.unibit-accessibility-contrast-c .tabs_container .tab.tab_main.cat_sdgs_main {
+    background-image: url('/images/accessibility/sdgs_main_b.png')!important;    
+}
+
+body.unibit-accessibility-contrast-a .land_my_slick_container .slick-dots button {
+    background-color: #000000!important;    
+    border-color: #ffffff;
+}
+
+body.unibit-accessibility-contrast-a .land_my_slick_container .slick-dots .slick-active button {
+    background-color: #ffffff!important;    
+    border-color: #ffffff;
+}
+
+body.unibit-accessibility-contrast-b .land_my_slick_container .slick-dots button {
+    background-color: #fff86e!important;    
+    border-color: #000000;
+}
+
+body.unibit-accessibility-contrast-b .land_my_slick_container .slick-dots .slick-active button {
+    background-color: #000000!important;    
+    border-color: #000000;
+}
+
+body.unibit-accessibility-contrast-c .land_my_slick_container .slick-dots button {
+    background-color: #000000!important;    
+    border-color: #fff86e;
+}
+
+body.unibit-accessibility-contrast-c .land_my_slick_container .slick-dots .slick-active button {
+    background-color: #fff86e!important;    
+    border-color: #fff86e;
+}
+
+body.unibit-accessibility-contrast-a  .land_block_green .land_my_slick_container .slick-dots .slick-active::before,
+body.unibit-accessibility-contrast-b  .land_block_green .land_my_slick_container .slick-dots .slick-active::before,
+body.unibit-accessibility-contrast-c  .land_block_green .land_my_slick_container .slick-dots .slick-active::before {
+    display: none!important;    
+}
+
+body.unibit-accessibility-zoomed.unibit-accessibility-zoom-150 .breadcrumbs li a {  
+    font-size: 15px!important;
+}
+
+body.unibit-accessibility-zoomed.unibit-accessibility-zoom-200 .breadcrumbs li a {  
+    font-size: 16px!important;    
+}
+
+body.unibit-accessibility-zoomed.unibit-accessibility-zoom-150 .land_read_more {  
+    font-size: 17px!important;
+}
+
+body.unibit-accessibility-zoomed.unibit-accessibility-zoom-200 .land_read_more {  
+    font-size: 18px!important;    
+}
+
+body.unibit-accessibility-zoomed.unibit-accessibility-zoom-150 .land_button {  
+    font-size: 15px!important;
+}
+
+body.unibit-accessibility-zoomed.unibit-accessibility-zoom-200 .land_button {  
+    font-size: 16px!important;    
+}
+
+body .unibit_slideshow_buttons_container {
+    bottom: 37.5px;
+}
+/*
+body .new_footer_bottom {
+    padding-bottom: 25px;
+}
+*/

@@ -1,0 +1,446 @@
+'use strict';
+document.addEventListener('DOMContentLoaded', () => {
+    initSearchMenu();
+    initFooterMenu();
+  });
+
+const initSearchMenu = () => {
+  const searchButton = document.getElementById('search-button');
+  const hideableElement = document.querySelector('.hideable-element');
+  const searchInputWrapper = document.querySelector('.mobileMenu-search');
+
+  if (searchButton && hideableElement && searchInputWrapper) {
+      searchButton.addEventListener('click', event => {
+      hideableElement.style.display = 'none';
+      searchInputWrapper.style.width = '100%';
+      event.preventDefault();
+      });
+
+      document.addEventListener('click', event => {
+      const isClickInside = searchInputWrapper.contains(event.target) || searchButton.contains(event.target);
+      if (!isClickInside) {
+          hideableElement.style.display = 'block';
+          searchInputWrapper.style.width = '0';
+      }
+      });
+  }
+};
+
+// Мобильное меню 2 ур
+document.addEventListener('DOMContentLoaded', function() {
+  const navbarToggler = document.querySelector('.navbar-toggler');
+  const navbarCollapse = document.querySelector('.navbar-collapse');
+
+  // Функция для установки или сброса состояния коллапса в зависимости от ширины экрана
+  function manageCollapseOnResize() {
+    if (window.innerWidth >= 1200) {
+      // Раскрываем меню, если ширина экрана больше или равна 1200px
+      navbarCollapse.classList.add('show');
+      navbarToggler.setAttribute('aria-expanded', 'true');
+      navbarToggler.classList.remove('collapsed');
+    } else {
+      // Скрываем меню, если ширина экрана меньше 1200px
+      navbarCollapse.classList.remove('show');
+      navbarToggler.setAttribute('aria-expanded', 'false');
+      navbarToggler.classList.add('collapsed');
+    }
+  }
+
+  // Добавляем обработчик событий при изменении размера окна
+  window.addEventListener('resize', manageCollapseOnResize);
+
+  // Вызываем функцию при первоначальной загрузке страницы для установки правильного состояния коллапса
+  manageCollapseOnResize();
+});
+
+
+// Меню в футере - аккордеон
+const initFooterMenu = () => {
+  const btnAccordionF = document.querySelectorAll('.footer-accordion-btn');
+
+  if (!btnAccordionF.length) return;
+
+  const toggleAccordion = (e) => {
+    const isMobile = window.innerWidth <= 575;
+    const parentBox = e.currentTarget.closest('.footer_box_menu');
+    if (!parentBox || !isMobile) return;
+
+    parentBox.classList.toggle('expanded');
+    const arrow = e.currentTarget.querySelector('.footer-accordion-arrow');
+    arrow.style.transition = 'transform 0.3s ease-in-out';
+    arrow.style.transform = arrow.style.transform === 'rotate(180deg)' ? 'rotate(0deg)' : 'rotate(180deg)';
+  };
+
+  btnAccordionF.forEach(button => button.addEventListener('click', toggleAccordion));
+
+  let resizeTimer;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+      if (window.innerWidth > 575) {
+        btnAccordionF.forEach(footerTitle => {
+          const parentBox = footerTitle.closest('.footer_box_menu');
+          if (parentBox) parentBox.classList.remove('expanded');
+        });
+      }
+    }, 250); // Задержка debounce 250 мс
+  });
+};
+
+
+
+// Инициализация слайдера card-list-104
+document.addEventListener('DOMContentLoaded', function() {
+  if (document.querySelector(".card-list-104__box")) {
+    const swiper = new Swiper(".card-list-104__box", {
+      cssMode: true,
+      //slidesPerView: 1.2,
+      //spaceBetween: 10,
+      breakpoints: {
+        576: {
+          spaceBetween: 30,
+        },
+        992: {
+          //slidesPerView: 3,
+        },
+        1400: {
+          //slidesPerView: 4,
+        },
+      },
+      navigation: {
+        nextEl: ".card-list-104__button-next",
+        prevEl: ".card-list-104__button-prev",
+      },
+
+    });
+  }
+});
+
+
+// Дни открытых дверей
+document.addEventListener('DOMContentLoaded', function() {
+  if (document.querySelector(".card-list-110swiper")) {
+    const swiper = new Swiper(".card-list-110swiper", {
+      // Опции Swiper
+      slidesPerView: "1.1",
+      spaceBetween: 10,
+      breakpoints: {
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+        },
+        1200: {
+          slidesPerView: 3,
+        },
+      },
+      navigation: {
+        nextEl: ".card-list-110__next",
+        prevEl: ".card-list-110__prev",
+      },
+      // другие настройки
+    });
+  }
+});
+
+
+// Инициализация слайдера card-list-114
+document.addEventListener('DOMContentLoaded', function() {
+  if (document.querySelector(".card-list-114")) {
+    const swiper = new Swiper(".card-list-114", {
+      slidesPerView: 1.2,
+      spaceBetween: 10,
+      breakpoints: {
+        576: {
+          slidesPerView: 2.2,
+          spaceBetween: 30,
+        },
+        992: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+        1200: {
+          slidesPerView: 4,
+          spaceBetween: 30,
+        },
+        1400: {
+          slidesPerView: 5,
+          spaceBetween: 30,
+        },
+      },
+      pagination: {
+        el: ".card-list-114__pagination",
+        clickable: true,
+      },
+      // navigation: {
+      //   nextEl: ".swiper-button-next",
+      //   prevEl: ".swiper-button-prev",
+      // },
+      // другие настройки
+    });
+  }
+});
+
+
+// Инициализация слайдера card-list-134
+document.addEventListener('DOMContentLoaded', function() {
+  if (document.querySelector(".card-list-134-swiper")) {
+    const swiper = new Swiper(".card-list-134-swiper", {
+      // Опции Swiper
+      slidesPerView: 1.01,
+      spaceBetween: 30,
+      navigation: {
+        nextEl: ".card-list-134__next",
+        prevEl: ".card-list-134__prev",
+      },
+      autoplay: {
+        delay: 3000,
+      },
+    });
+  }
+});
+
+
+// career-stories
+document.addEventListener('DOMContentLoaded', function() {
+  if (document.querySelector(".career-stories__slider")) {
+    const swiper = new Swiper(".career-stories__slider", {
+      // Опции Swiper
+      slidesPerView: 1.1,
+      spaceBetween: 10,
+      grabCursor: true,
+      breakpoints: {
+        768: {
+          slidesPerView: 1
+        }
+      },
+      autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: ".career-stories__next",
+        prevEl: ".career-stories__prev",
+      },
+      // другие настройки
+    });
+  }
+});
+
+
+// Последние новости
+(function() {
+  document.addEventListener('DOMContentLoaded', function() {
+    if (document.querySelector(".swiper-last-news")) {
+      const swiper = new Swiper(".swiper-last-news", {
+        slidesPerView: 1.25,
+        //freeMode: true,
+        spaceBetween: 10,
+        breakpoints: {
+          576: {
+            slidesPerView: "auto",
+            spaceBetween: 30,
+          },
+        },
+        centerInsufficientSlides: true,
+        rewind: true,
+        preventClicks: true,
+        // pagination: {
+        //   el: ".swiper-pagination",
+        //   clickable: true,
+        // },
+        navigation: {
+          nextEl: '.last-news_button-next',
+          prevEl: '.last-news_button-prev',
+        },
+      });
+    }
+  });
+})();
+
+(function() {
+  // Привязка Fancybox к элементам с data-fancybox="m-gallery"
+  Fancybox.bind('[data-fancybox="m-gallery"]', {
+      // Здесь можно указать настройки Fancybox, если это необходимо
+  });
+})();
+
+
+// Offcanvas search top
+document.addEventListener('shown.bs.offcanvas', function (event) {
+  if (event.target.id === 'searchTop') {
+    const inputElement = document.getElementById('searchTopInput');
+    if (inputElement) {
+      inputElement.focus();
+    }
+  }
+});
+
+
+// Инициализация slider 2
+document.addEventListener('DOMContentLoaded', function() {
+  if (document.querySelector(".slider-2")) {
+    const swiper = new Swiper(".slider-2", {
+      // Опции Swiper
+      slidesPerView: 1,
+      spaceBetween: 50,
+      navigation: {
+        nextEl: ".slider-2__next",
+        prevEl: ".slider-2__prev",
+      },
+      // другие настройки
+    });
+  }
+});
+
+
+// Слайдер на главной
+// Скрипт перемещен в шаблон компонента
+
+// document.addEventListener('DOMContentLoaded', function() {
+//   if (document.querySelector(".slider-homepage")) {
+//     const swiper = new Swiper(".slider-homepage", {
+//       // Опции Swiper
+//       speed: 400,
+//       spaceBetween: 100,
+//       grabCursor: true,
+//       keyboard: {
+//         enabled: true,
+//       },
+//       //mousewheel: true,
+//       navigation: {
+//         nextEl: ".slider-homepage-btnNext",
+//         prevEl: ".slider-homepage-btnPrev",
+//       },
+//       pagination: {
+//         el: ".slider-pagination-homepage",
+//         bulletClass: "slider-pagination-bullet",
+//         bulletActiveClass: "slider-pagination-bullet-active",
+//         clickable: true,
+//         renderBullet: function (index, className) {
+//           return '<span class="' + className + " " + '"></span>';
+//         },
+//       },
+//       // другие настройки
+//     });
+//
+//     // Установка градиентной пагинации для слайдера
+//     const bullets = document.querySelectorAll(".slider-pagination-bullet");
+//     bullets.forEach((bulletItem, i) => {
+//       const opacity = 0.1 + (0.7 / (bullets.length - 1)) * i;
+//       bulletItem.style.backgroundColor = `rgba(160, 179, 198, ${opacity})`;
+//     });
+//   }
+// });
+
+
+// Превью видео на главной
+(function() {
+  // Получаем элемент видео.
+  const videoHomepage = document.getElementById("videoHomepage-homepage");
+
+  if(videoHomepage) {
+      // Добавляем обработчик события 'play' для установки controls в true.
+      videoHomepage.addEventListener('play', function() {
+          this.controls = true;
+      });
+
+      // Добавляем обработчик события 'loadeddata' для установки controls в false.
+      videoHomepage.addEventListener('loadeddata', function() {
+          this.controls = false;
+      });
+
+      // Добавляем обработчик события 'click' для управления воспроизведением видео.
+      videoHomepage.addEventListener('click', function() {
+          if (this.paused) {
+              this.play();
+          } else {
+              this.pause();
+          }
+      });
+
+      // Добавляем обработчик события 'pause' для установки controls в false.
+      videoHomepage.addEventListener('pause', function() {
+          this.controls = false;
+      });
+  }
+})();
+
+
+
+// const videoHomepage = document.getElementById("videoHomepage-homepage");
+// if(videoHomepage) {
+//     videoHomepage.onplay = () => {
+//         videoHomepage.controls = true;
+//     };
+//     videoHomepage.onloadeddata = () => {
+//         videoHomepage.controls = false;
+//     };
+//     videoHomepage.onclick = () => {
+//         if (videoHomepage.paused) {
+//             videoHomepage.play();
+//         } else {
+//             videoHomepage.pause();
+//         }
+//     };
+// }
+
+
+// Инициализация слайдера с видео
+document.addEventListener('DOMContentLoaded', function() {
+  if (document.querySelector(".swiper-video-list")) {
+    const swiper = new Swiper(".swiper-video-list", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      grabCursor: true,
+      mousewheel: true,
+      keyboard: {
+        enabled: true,
+      },
+      breakpoints: {
+        992: {
+          slidesPerView: 2,
+        },
+        1200: {
+          slidesPerView: 3,
+          spaceBetween: 30
+        }
+      },
+      navigation: {
+        nextEl: ".video-list-btnNext",
+        prevEl: ".video-list-btnPrev",
+      },
+      pagination: {
+        el: ".video-list-pagination",
+        bulletClass: "slider-pagination-bullet",
+        bulletActiveClass: "slider-pagination-bullet-active",
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + " " + '"></span>';
+        },
+      },
+      // другие настройки
+    });
+  }
+});
+
+// Кнопка "Наверх"
+const initScrollButton = () => {
+  const toTopButton = document.querySelector('.next-top');
+  function toggleButtonVisibility() {
+    if (window.scrollY < window.innerHeight) {
+      toTopButton.style.display = 'none';
+    } else {
+      toTopButton.style.display = 'flex';
+    }
+  }
+  toTopButton.addEventListener('click', (e) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+  window.addEventListener('scroll', toggleButtonVisibility);
+  toggleButtonVisibility();
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+  initScrollButton();
+});
