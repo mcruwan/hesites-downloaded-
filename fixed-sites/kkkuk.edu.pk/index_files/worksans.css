@@ -1,0 +1,5 @@
+/* Work Sans Font - Fallback to system fonts */
+.work-sans {
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+}

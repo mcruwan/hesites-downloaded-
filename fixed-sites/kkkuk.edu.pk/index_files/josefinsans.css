@@ -1,0 +1,5 @@
+/* Josefin Sans Font - Fallback to system fonts */
+.josefin-sans {
+    font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}

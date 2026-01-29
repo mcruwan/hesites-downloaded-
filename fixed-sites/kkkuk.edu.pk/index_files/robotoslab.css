@@ -1,0 +1,5 @@
+/* Roboto Slab Font - Fallback to system fonts */
+h1, h2, h3, h4, h5, h6, .elementor-heading-title {
+    font-family: "Roboto Slab", Georgia, serif;
+    font-family: Georgia, "Times New Roman", serif;
+}
