@@ -1,0 +1,2375 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="Институт пограничной службы, пограничники, пограничные войска, органы пограничной службы, ПВ, афганистан, граница, курсанты, армия" />
+<meta name="description" content="Государственное учреждение образования «Институт пограничной службы Республики Беларусь»  образовано в соответствии с Указом Президента Республики Беларусь от 5 мая 2010 года № 237. С 1 июля 2010 года Институт начал свою работу и стал правопреемником пограничного факультета учреждения образования «Военная академия Республики Беларусь»." />
+<script data-skip-moving="true">(function(w, d, n) {var cl = "bx-core";var ht = d.documentElement;var htc = ht ? ht.className : undefined;if (htc === undefined || htc.indexOf(cl) !== -1){return;}var ua = n.userAgent;if (/(iPad;)|(iPhone;)/i.test(ua)){cl += " bx-ios";}else if (/Windows/i.test(ua)){cl += ' bx-win';}else if (/Macintosh/i.test(ua)){cl += " bx-mac";}else if (/Linux/i.test(ua) && !/Android/i.test(ua)){cl += " bx-linux";}else if (/Android/i.test(ua)){cl += " bx-android";}cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");cl += w.devicePixelRatio && w.devicePixelRatio >= 2? " bx-retina": " bx-no-retina";if (/AppleWebKit/.test(ua)){cl += " bx-chrome";}else if (/Opera/.test(ua)){cl += " bx-opera";}else if (/Firefox/.test(ua)){cl += " bx-firefox";}ht.className = htc ? htc + " " + cl : cl;})(window, document, navigator);</script>
+
+
+<link href="/bitrix/css/main/bootstrap.min.css?1651131065121326" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/css/main/font-awesome.min.css?165113106523748" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/cache/css/s1/institut/page_21094ff0ef28459276bce74ef4567fb0/page_21094ff0ef28459276bce74ef4567fb0_v1.css?176917043311691" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/cache/css/s1/institut/template_da6cde24b6312a9889c7bb84076b4fc7/template_da6cde24b6312a9889c7bb84076b4fc7_v1.css?1769170433692614" type="text/css" rel="stylesheet" data-template-style="true"/>
+
+
+
+
+
+
+
+<!-- dev2fun module opengraph -->
+<meta property="og:title" content="Институт пограничной службы Республики Беларусь"/>
+<meta property="og:description" content="Государственное учреждение образования &laquo;Институт пограничной службы Республики Беларусь&raquo;образовано в соответствии с Указом Президента Республики Беларусь от 5..."/>
+<meta property="og:url" content="https://ips.gpk.gov.by/index.php"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Институт пограничной службы Республики Беларусь"/>
+<meta property="og:image" content="https://ips.gpk.gov.by/upload/dev2fun_opengraph/f99/f99185529337d10083eda401be4e8f07.jpg"/>
+<meta property="og:image:type" content="image/jpeg"/>
+<meta property="og:image:width" content="800"/>
+<meta property="og:image:height" content="533"/>
+<!-- /dev2fun module opengraph -->
+
+
+
+		<title>Институт пограничной службы Республики Беларусь</title>
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+			
+		<link rel="shortcut icon" href="/local/templates/institut/img/favicon/favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon" href="/local/templates/institut/img/favicon/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/local/templates/institut/img/favicon/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/local/templates/institut/img/favicon/apple-touch-icon-114x114.png">
+
+				<meta name="yandex-verification" content="674db7a535f59f8d" />
+		<meta name="google-site-verification" content="hMualrUQiEQXAYcbWh9fclotq-bgjs1T7azPT6xvuYc" />
+			</head>
+	<body>
+		<div id="my-page">
+<!-- bitrix admin panel -->
+		<div id="panel">
+					</div>
+<!-- /bitrix admin panel -->
+<!-- mobile menu -->
+<!--            <div id="snow" class="mobile_menu">-->
+		<div id="snow" class="mobile_menu">
+			<b>Меню</b>
+			<div class="menu-right"> 
+				<a href="#my-menu" class="toggle-mnu"><span></span></a>
+			</div>
+		</div>
+<!-- /mobile menu -->
+<!-- header -->
+		<header class="page" id="my-header">
+<!--            <div id="snow" class="top_line">-->
+			<div id="snow" class="top_line">
+		        <div class="container">
+		          <div class="hamburger_container">
+		            <ul class="gpk_menu"><a class="togle_menu waves-effect waves-light">
+		                <div class="hamburger" id="hamburger"><span class="line"></span><span class="line"></span><span class="line"></span></div>
+		                <p class="togle_menu_title">Разделы портала</p></a></ul>
+		          </div>
+
+		          <div class="contact float_right"><a class="waves-effect waves-light" href="tel:017281-70-96"><i class="fa fa-phone-square" style="font-size: 1.3rem; margin-right: 5px;" aria-hidden="true"> </i>
+		              <p class="contact_data">(017) 356-70-96</p></a><a class="waves-effect waves-light" href="mailto:ips@ops.gov.by"><i class="fa fa-envelope" style="font-size: 1.3rem; margin-right: 5px;" aria-hidden="true"> </i>
+		              <p class="contact_data">ips@ops.gov.by</p></a>
+                  </div>
+		        </div>
+		    </div>
+			<div class="container gpk_menu_wrapper">
+		        <div class="gpk_menu_razdel">
+		          <div id="razdel" style="display: none;">
+		            <ul>
+				        <li><a href="http://gpk.gov.by/" target="_self"><img src="/local/templates/institut/img/menu/gpk.png" alt="Государственный пограничный комитет"><p>Государственный пограничный комитет</p></a></li>
+<li>
+		                	<a href="http://100.gpk.gov.by/" target="_self">
+		                		<img src="/local/templates/institut/img/menu/100.png" alt="100 лет на охране Государственной границы">
+		                		<p>100 лет на охране Государственной границы</p>
+		                	</a>
+		                </li>
+				        <li><a href="http://hospital.gpk.gov.by/" target="_self"><img src="/local/templates/institut/img/menu/postavy.png" alt="Военный госпиталь органов пограничной службы"><p>Военный госпиталь органов пограничной службы</p></a></li>
+				    </ul>
+
+				    <ul>
+				        <li><a href="http://gpk.gov.by/study/" target="_self"><img src="/local/templates/institut/img/menu/kak_stat.png" alt="Как стать пограничником"><p>Как стать пограничником</p></a></li>
+				        <li><a href="http://tops.gpk.gov.by/" target="_self"><img src="/local/templates/institut/img/menu/territorialnye_organy.png" alt="Территориальные органы пограничной службы"><p>Территориальные органы пограничной службы</p></a></li>
+				        <li><a href="http://bsv.gpk.gov.by/" target="_self"><img src="/local/templates/institut/img/menu/veteran.png" alt="Белорусский союз ветеранов"><p>Белорусский союз ветеранов</p></a></li>
+				    </ul>
+
+
+		          </div>
+		        </div>
+		    </div>
+			<div class="container">
+		        <div class="row header_info">
+		          <div class="col-md-2 col-sm-2 logo_wrapper"><a class="logo_header" href="/"><img src="/local/templates/institut/img/ips.png"></a></div>
+		          <div class="col-md-7 col-sm-7">
+		            <h1 class="logo_title">Институт пограничной службы <br> Республики Беларусь</h1>
+		          </div>
+		          <div class="col-md-3 col-sm-3">
+		            <!--<div class="social_button_wrapper">-->
+		            	
+
+<div class="social_button_wrapper">
+			<a href="https://vk.com/ips_rb" class="social_button" target="_blank"><i class="fa-brands fa-vk"></i></a>
+		
+			<a href="https://t.me/ips_rb" class="social_button" target="_blank"><i class="fa fa-paper-plane"></i></a>
+		
+			<a href="https://www.facebook.com/ipsRbBy/" class="social_button" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+		
+			<a href="https://www.youtube.com/IpsRB" class="social_button" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+		
+			<a href="https://ok.ru/ipsrb" class="social_button" target="_blank"><i class="fa-brands fa-odnoklassniki" aria-hidden="true"></i></a>
+		
+			<a href="https://www.tiktok.com/@ipsrb" class="social_button" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+		
+			<a href="https://www.instagram.com/ipsrb" class="social_button" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+		
+			<a href="https://twitter.com/Ipsrbby" class="social_button" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+		
+</div>
+
+		            <!--</div>-->
+		            <div class="search-form">
+	<form action="/search/index.php" name="search" action="#" method="get" class="form-inline form-search">
+		<div class="input-group">
+
+
+			<input class="form-control" name="q"  id="searchInput" type="text" name="search" placeholder="Поиск по сайту"/> 
+
+			<div class="input-group-btn">
+				<button name="s" type="submit" class="btn btn-primary"><i class="fa fa-search" aria-hidden="true"></i>
+			</button>
+			</div>  
+		</div>
+	</form>
+</div>
+
+<!--
+<div class="search-form search-form-sm visible-sm">
+	<form action="/search/index.php" name="search" action="#" method="get" class="form-inline form-search pull-right">
+		<div class="input-group">
+			<label class="sr-only" for="searchInput">Поиск</label>
+							<input class="form-control" name="q"  id="searchInput" type="text" name="search" placeholder="Поиск"/>
+						
+			<div class="input-group-btn">
+				<button name="s" type="submit" class="btn btn-primary">Поиск</button>
+			</div>
+		</div>
+	</form>
+</div> -->
+		          </div>
+		        </div>
+		        <nav class="navbar navbar-default" role="navigation">
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+
+
+
+
+<li><a href="/" class="active">Главная</a></li>
+
+
+
+
+
+
+
+
+<li class="dropdown">
+
+<a href="/uchebnoe-zavedenie/"
+
+class="dropdown-toggle"
+
+
+
+role="button"
+
+aria-expanded="false">
+
+Учебное заведение
+<span class="caret"></span>
+
+</a>
+
+
+<ul class="dropdown-menu" role="menu">
+
+
+
+
+
+
+
+<li><a href="/uchebnoe-zavedenie/istoriya-instituta/">История Института</a></li>
+
+
+
+
+
+
+
+
+<li><a href="/uchebnoe-zavedenie/rukovodstvo-instituta/">Руководство Института</a></li>
+
+
+
+
+
+
+
+
+<li><a href="/uchebnoe-zavedenie/missiya-i-politika-instituta/">Миссия и Политика Института</a></li>
+
+
+
+
+
+
+
+
+<li><a href="/uchebnoe-zavedenie/eumk">ЭУМК</a></li>
+
+
+
+
+
+
+
+
+<li><a href="/uchebnoe-zavedenie/struktura-instituta">Структура Института</a></li>
+
+
+
+
+
+
+
+
+<li><a href="/uchebnoe-zavedenie/vakansii/">Вакансии</a></li>
+
+
+
+
+
+
+
+
+<li><a href="/uchebnoe-zavedenie/mezhdunarodnoe-sotrudnichestvo/">Сотрудничество</a></li>
+
+
+
+
+
+
+
+
+<li><a href="/uchebnoe-zavedenie/kontakty/">Контакты</a></li>
+
+
+
+
+
+
+
+
+<li><a href="/uchebnoe-zavedenie/prezentatsiya-instituta/">Презентация Института</a></li>
+
+
+
+
+
+</ul></li>
+
+
+<li class="dropdown">
+
+<a href="/obrazovanie/"
+
+class="dropdown-toggle"
+
+
+
+role="button"
+
+aria-expanded="false">
+
+Образование
+<span class="caret"></span>
+
+</a>
+
+
+<ul class="dropdown-menu" role="menu">
+
+
+
+
+
+
+
+<li><a href="/obrazovanie/abiturientu/">Абитуриенту</a></li>
+
+
+
+
+
+
+
+
+<li><a href="/obrazovanie/magistratura/">Магистратура</a></li>
+
+
+
+
+
+
+
+
+<li><a href="/obrazovanie/adyunktura/">Адъюнктура</a></li>
+
+
+
+
+
+</ul></li>
+
+
+<li class="dropdown">
+
+<a href="/nauchnaya-deyatelnost/"
+
+class="dropdown-toggle"
+
+
+
+role="button"
+
+aria-expanded="false">
+
+Научная деятельность
+<span class="caret"></span>
+
+</a>
+
+
+<ul class="dropdown-menu" role="menu">
+
+
+
+
+
+
+
+<li><a href="/nauchnaya-deyatelnost/konferentsii-seminary/">Конференции, семинары</a></li>
+
+
+
+
+
+
+
+
+<li><a href="/nauchnaya-deyatelnost/nauchnye-shkoly/">Научные школы</a></li>
+
+
+
+
+
+
+
+
+<li><a href="/nauchnaya-deyatelnost/podgotovka-nauchnykh-rabotnikov-vysshey-kvalifikatsii/">Подготовка научных работников высшей квалификации</a></li>
+
+
+
+
+
+
+
+
+<li><a href="/nauchnaya-deyatelnost/nauchnoe-obshchestvo-slushateley-i-kursantov/">Научное общество слушателей и курсантов</a></li>
+
+
+
+
+
+
+
+
+<li><a href="/nauchnaya-deyatelnost/nauchnye-izdaniya/">Научные издания</a></li>
+
+
+
+
+
+
+
+
+<li><a href="/nauchnaya-deyatelnost/obyavleniya/index.php">Объявления</a></li>
+
+
+
+
+
+</ul></li>
+
+
+<li><a href="/news/" class="root-item">Новости</a></li>
+
+
+
+
+
+    <li class="dropdown">
+        <a href="/" class="dropdown-toggle" role="button" aria-expanded="false">
+            <i style="font-size: 1.3em" class="fa fa-globe"></i>
+            <span>РУС</span>
+            <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="/by/">БЕЛ</a></li>
+                    </ul></li>
+    <li>
+   <li class="dropdown">
+       <a href="/" class="dropdown-toggle" role="button" aria-expanded="false">
+           <i style="font-size: 1.3em" class="fa fa-eye"></i>
+           <span class="caret"></span>
+       </a>
+       <ul class="dropdown-menu" role="menu">
+           <li><a href="/?special=Y">Версия для слабовидящих</a></li>
+       </ul></li>
+   <li>
+
+					</div>
+				</nav>
+					    	</div>
+		</header>
+<!-- /header -->
+		<div class="container" id="my-content">	
+			            <!--                 <div class="banner_company">
+                    <a href="/priyomnaya-kampaniya/" target="_blank">
+                        <picture>
+                            <source media="(max-width: 767px)" srcset="/upload/companiya2020/banner_mobile.jpg">
+                            <source media="(min-width: 768px)" srcset="/upload/companiya2020/banner_desctop.jpg">
+                            <img src="/upload/companiya2020/banner_desctop.jpg" alt="Приёмная компания онлайн">
+                        </picture>
+                    </a>
+                </div>
+             -->
+
+
+				<style>@media (max-width: 751px){
+        #logo-mobile{
+            display: block;
+        }
+        #logo-desk{
+            display: none;
+        }
+    }
+    @media (min-width: 752px){
+        #logo-mobile{
+            display: none;
+        }
+        #logo-desk{
+            display: block;
+        }
+    }
+</style>
+
+
+<div class="metro_title_container">
+	<div class="metro_title waves-effect">
+		<a href="/obrazovanie/abiturientu/" class="flip-container" ontouchstart="this.classList.toggle('hover');">
+		 <div class="flipper">
+		  <div class="front">
+		  	<div class="ico">
+		  		<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.001 512.001"  xml:space="preserve">
+		  			<path d="M481.999,273.586v-47.58c0-8.284-6.716-15-15-15c-30.988,0-59.878,2.615-87.173,7.955
+						c-15.911-15.365-35.308-26.513-56.313-32.606c22.904-19.277,37.486-48.14,37.486-80.349c0-58.449-47.103-106-105-106
+						c-57.897,0-105,47.551-105,106c0,32.209,14.582,61.072,37.487,80.348c-21.005,6.094-40.402,17.242-56.313,32.606
+						c-27.295-5.339-56.185-7.955-87.173-7.955c-8.284,0-15,6.716-15,15v47.58c-17.459,6.192-30,22.865-30,42.42v30
+						c0,19.555,12.541,36.228,30,42.42v47.58c0,8.284,6.716,15,15,15c78.429,0,142.832,18.583,202.68,58.481
+						c5.015,3.342,11.621,3.35,16.641,0c59.848-39.898,124.25-58.481,202.68-58.481c8.284,0,15-6.716,15-15v-47.58
+						c17.459-6.192,30-22.865,30-42.42v-30C511.999,296.451,499.458,279.778,481.999,273.586z M180.999,106.006
+						c0-41.907,33.645-76,75-76s75,34.093,75,76c0,41.355-33.645,75-75,75C214.644,181.006,180.999,147.361,180.999,106.006z
+						 M44.999,361.006c-8.271,0-15-6.729-15-15v-30c0-8.271,6.729-15,15-15s15,6.729,15,15v30
+						C59.999,354.277,53.27,361.006,44.999,361.006z M240.999,470.091c-54.453-31.141-112.886-46.88-181-48.869v-32.796
+						c17.459-6.192,30-22.865,30-42.42v-30c0-19.555-12.541-36.228-30-42.42v-32.368c70.481,2.023,127.134,18.62,181,52.916V470.091z
+						 M255.999,268.145c-27.686-17.469-56.504-30.77-87.268-40.117c16.904-10.986,36.803-17.022,57.268-17.022h60
+						c20.465,0,40.364,6.036,57.268,17.022C312.503,237.375,283.684,250.676,255.999,268.145z M451.999,421.222
+						c-68.113,1.989-126.548,17.732-181,48.871V294.146c53.867-34.299,110.516-50.906,181-52.928v32.368
+						c-17.459,6.192-30,22.865-30,42.42v30c0,19.555,12.541,36.228,30,42.42V421.222z M481.999,346.006c0,8.271-6.729,15-15,15
+						s-15-6.729-15-15v-30c0-8.271,6.729-15,15-15s15,6.729,15,15V346.006z"/>	
+		  		</svg>
+
+		  	</div>
+		    <p class="flipper_description">Абитуриенту</p>
+		  </div>
+		  <div class="back">
+			<div class="ico">
+		  		<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.001 512.001"  xml:space="preserve">
+		  			<path d="M481.999,273.586v-47.58c0-8.284-6.716-15-15-15c-30.988,0-59.878,2.615-87.173,7.955
+						c-15.911-15.365-35.308-26.513-56.313-32.606c22.904-19.277,37.486-48.14,37.486-80.349c0-58.449-47.103-106-105-106
+						c-57.897,0-105,47.551-105,106c0,32.209,14.582,61.072,37.487,80.348c-21.005,6.094-40.402,17.242-56.313,32.606
+						c-27.295-5.339-56.185-7.955-87.173-7.955c-8.284,0-15,6.716-15,15v47.58c-17.459,6.192-30,22.865-30,42.42v30
+						c0,19.555,12.541,36.228,30,42.42v47.58c0,8.284,6.716,15,15,15c78.429,0,142.832,18.583,202.68,58.481
+						c5.015,3.342,11.621,3.35,16.641,0c59.848-39.898,124.25-58.481,202.68-58.481c8.284,0,15-6.716,15-15v-47.58
+						c17.459-6.192,30-22.865,30-42.42v-30C511.999,296.451,499.458,279.778,481.999,273.586z M180.999,106.006
+						c0-41.907,33.645-76,75-76s75,34.093,75,76c0,41.355-33.645,75-75,75C214.644,181.006,180.999,147.361,180.999,106.006z
+						 M44.999,361.006c-8.271,0-15-6.729-15-15v-30c0-8.271,6.729-15,15-15s15,6.729,15,15v30
+						C59.999,354.277,53.27,361.006,44.999,361.006z M240.999,470.091c-54.453-31.141-112.886-46.88-181-48.869v-32.796
+						c17.459-6.192,30-22.865,30-42.42v-30c0-19.555-12.541-36.228-30-42.42v-32.368c70.481,2.023,127.134,18.62,181,52.916V470.091z
+						 M255.999,268.145c-27.686-17.469-56.504-30.77-87.268-40.117c16.904-10.986,36.803-17.022,57.268-17.022h60
+						c20.465,0,40.364,6.036,57.268,17.022C312.503,237.375,283.684,250.676,255.999,268.145z M451.999,421.222
+						c-68.113,1.989-126.548,17.732-181,48.871V294.146c53.867-34.299,110.516-50.906,181-52.928v32.368
+						c-17.459,6.192-30,22.865-30,42.42v30c0,19.555,12.541,36.228,30,42.42V421.222z M481.999,346.006c0,8.271-6.729,15-15,15
+						s-15-6.729-15-15v-30c0-8.271,6.729-15,15-15s15,6.729,15,15V346.006z"/>	
+		  		</svg>
+		  	</div>
+		    <p class="flipper_description">Абитуриенту<br><span>Информация о поступлении в Институт</span></p>
+		  </div>
+		 </div>
+		</a>
+	</div>
+
+	<div class="metro_title waves-effect">
+		<a href="/obrazovanie/magistratura/" class="flip-container" ontouchstart="this.classList.toggle('hover');">
+		 <div class="flipper">
+		  <div class="front">
+		  	<div class="ico">
+		  		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" xml:space="preserve">
+
+					<path d="M62.9994125,39.4741516h-1.9568176c-2.3530006-5.0440025-2.3532982-9.9673023,0-15.0459023h1.9568176
+					c0.5526848,0,1-0.4477997,1-1c0-0.5522995-0.4473152-1-1-1H25.8977966v-0.7432003h31.9053001c0.5527,0,1-0.4476986,1-1
+					c0-0.5521984-0.4473-1-1-1h-1.9568024c-2.3532982-5.0436993-2.3522987-9.9664993,0.0003014-15.0463991h1.956501
+					c0.5527,0,1-0.4477,1-1c0-0.5521998-0.4473-1-1-1H5.2444973c-0.3632998,0-0.6981997,0.1973-0.875,0.5152001
+					C0.7366974,9.70895,0.7522975,15.7949495,4.414412,21.2431507c0.1855855,0.2763996,0.4970856,0.4418983,0.8300853,0.4418983
+					h10.1299143v0.7432003h-4.9336147c-0.3632994,0-0.6981993,0.1972008-0.875,0.5151005
+					C5.9319973,29.4980507,5.9475975,35.58395,9.6106968,41.0322495c0.1856003,0.2763023,0.4971008,0.4419022,0.8301001,0.4419022
+					h52.5586166c0.5526848,0,1-0.4478035,1-1C63.9994125,39.9218483,63.5520973,39.4741516,62.9994125,39.4741516z
+					 M17.3744125,11.6435499h6.5233841v17.3358994l-2.8486004-1.2915001c-0.2636986-0.1191006-0.5625-0.1191006-0.8261986,0
+					l-2.8485851,1.2915001V11.6435499z M5.7874975,19.6850491c-2.875-4.5765991-2.8574002-9.5087986,0.0537-15.0463991h47.8217964
+					c-2.0849991,5.0116997-2.0861969,10.0642004-0.0029984,15.0463991H25.8977966v-8.0414991h16.0458984c0.552803,0,1-0.4476995,1-1
+					c0-0.5522003-0.447197-1-1-1H12.1126976c-0.5528002,0-1,0.4477997-1,1c0,0.5523005,0.4471998,1,1,1h3.261714v8.0414991H5.7874975z
+					 M11.0374975,24.4282494h4.3369141v6.1025009c0,0.3398991,0.1727858,0.6562996,0.4580002,0.8402996
+					c0.2860861,0.1846008,0.6464853,0.2115002,0.9550848,0.0704002l3.8486004-1.7446995l3.8486004,1.7446995
+					c0.1318989,0.0599995,0.2724991,0.0893002,0.4130993,0.0893002c0.1895008,0,0.3780003-0.0536995,0.5419998-0.1597004
+					c0.2852001-0.184,0.4580002-0.5004005,0.4580002-0.8402996v-6.1025009h32.9612007
+					c-2.085701,5.0107002-2.0862007,10.0629997-0.0023994,15.0459023H10.9827976
+					C8.1077976,34.8974495,8.125412,29.9658508,11.0374975,24.4282494z"/>
+					<path d="M54.1919975,44.3154488h1.9567986c0.5527,0,1-0.4477997,1-1c0-0.5522995-0.4473-1-1-1H3.5901973
+					c-0.3632998,0-0.6982,0.1972008-0.875,0.5151024c-3.6346998,6.5546989-3.6190999,12.6405983,0.0449002,18.0888977
+					c0.1866,0.2764015,0.4970999,0.4419022,0.8300998,0.4419022h52.5585976c0.5527,0,1-0.4477997,1-1c0-0.5522995-0.4473-1-1-1
+					h-1.9567986C51.8389969,54.3168488,51.8387947,49.3940506,54.1919975,44.3154488z M4.1321974,59.361351
+					c-2.8759999-4.5767021-2.8583999-9.5088005,0.0546999-15.0459023h47.8215141
+					c-2.0857162,5.0107002-2.0859146,10.0627022-0.0024147,15.0459023H4.1321974z"/>
+				</svg>
+		  	</div>
+		    <p class="flipper_description">Магистратура</p>
+		  </div>
+		  <div class="back">
+			<div class="ico">
+		  		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" xml:space="preserve">
+
+					<path d="M62.9994125,39.4741516h-1.9568176c-2.3530006-5.0440025-2.3532982-9.9673023,0-15.0459023h1.9568176
+					c0.5526848,0,1-0.4477997,1-1c0-0.5522995-0.4473152-1-1-1H25.8977966v-0.7432003h31.9053001c0.5527,0,1-0.4476986,1-1
+					c0-0.5521984-0.4473-1-1-1h-1.9568024c-2.3532982-5.0436993-2.3522987-9.9664993,0.0003014-15.0463991h1.956501
+					c0.5527,0,1-0.4477,1-1c0-0.5521998-0.4473-1-1-1H5.2444973c-0.3632998,0-0.6981997,0.1973-0.875,0.5152001
+					C0.7366974,9.70895,0.7522975,15.7949495,4.414412,21.2431507c0.1855855,0.2763996,0.4970856,0.4418983,0.8300853,0.4418983
+					h10.1299143v0.7432003h-4.9336147c-0.3632994,0-0.6981993,0.1972008-0.875,0.5151005
+					C5.9319973,29.4980507,5.9475975,35.58395,9.6106968,41.0322495c0.1856003,0.2763023,0.4971008,0.4419022,0.8301001,0.4419022
+					h52.5586166c0.5526848,0,1-0.4478035,1-1C63.9994125,39.9218483,63.5520973,39.4741516,62.9994125,39.4741516z
+					 M17.3744125,11.6435499h6.5233841v17.3358994l-2.8486004-1.2915001c-0.2636986-0.1191006-0.5625-0.1191006-0.8261986,0
+					l-2.8485851,1.2915001V11.6435499z M5.7874975,19.6850491c-2.875-4.5765991-2.8574002-9.5087986,0.0537-15.0463991h47.8217964
+					c-2.0849991,5.0116997-2.0861969,10.0642004-0.0029984,15.0463991H25.8977966v-8.0414991h16.0458984c0.552803,0,1-0.4476995,1-1
+					c0-0.5522003-0.447197-1-1-1H12.1126976c-0.5528002,0-1,0.4477997-1,1c0,0.5523005,0.4471998,1,1,1h3.261714v8.0414991H5.7874975z
+					 M11.0374975,24.4282494h4.3369141v6.1025009c0,0.3398991,0.1727858,0.6562996,0.4580002,0.8402996
+					c0.2860861,0.1846008,0.6464853,0.2115002,0.9550848,0.0704002l3.8486004-1.7446995l3.8486004,1.7446995
+					c0.1318989,0.0599995,0.2724991,0.0893002,0.4130993,0.0893002c0.1895008,0,0.3780003-0.0536995,0.5419998-0.1597004
+					c0.2852001-0.184,0.4580002-0.5004005,0.4580002-0.8402996v-6.1025009h32.9612007
+					c-2.085701,5.0107002-2.0862007,10.0629997-0.0023994,15.0459023H10.9827976
+					C8.1077976,34.8974495,8.125412,29.9658508,11.0374975,24.4282494z"/>
+					<path d="M54.1919975,44.3154488h1.9567986c0.5527,0,1-0.4477997,1-1c0-0.5522995-0.4473-1-1-1H3.5901973
+					c-0.3632998,0-0.6982,0.1972008-0.875,0.5151024c-3.6346998,6.5546989-3.6190999,12.6405983,0.0449002,18.0888977
+					c0.1866,0.2764015,0.4970999,0.4419022,0.8300998,0.4419022h52.5585976c0.5527,0,1-0.4477997,1-1c0-0.5522995-0.4473-1-1-1
+					h-1.9567986C51.8389969,54.3168488,51.8387947,49.3940506,54.1919975,44.3154488z M4.1321974,59.361351
+					c-2.8759999-4.5767021-2.8583999-9.5088005,0.0546999-15.0459023h47.8215141
+					c-2.0857162,5.0107002-2.0859146,10.0627022-0.0024147,15.0459023H4.1321974z"/>
+				</svg>
+		  	</div>
+		    <p class="flipper_description">Магистратура<br><span>Углубленное высшее образование Института</span></p>
+		  </div>
+		 </div>
+		</a>
+	</div>
+
+	<div class="metro_title waves-effect">
+		<a href="/obrazovanie/adyunktura/" class="flip-container" ontouchstart="this.classList.toggle('hover');">
+		 <div class="flipper">
+		  <div class="front">
+		  	<div class="ico">
+		  		<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 31.805 31.805" xml:space="preserve">
+						<polygon points="1.229,23.994 1.229,10.481 14.773,10.481 13.973,9.252 0,9.252 0,25.223 10.132,25.223 11.941,23.994 		"/>
+						<polygon points="23.406,23.994 22.807,23.994 23.91,25.223 24.635,25.223 24.635,16.324 23.406,15.891 		"/>
+						<rect x="9.096" y="13.195" width="7.333" height="0.935"/>
+						<rect x="6.367" y="15.592" width="12.794" height="1.031"/>
+						<rect x="6.367" y="17.752" width="12.794" height="1.031"/>
+						<rect x="6.367" y="19.795" width="12.794" height="1.031"/>
+						<path d="M20.707,24.285c0-1.531-1.24-2.77-2.77-2.77c-1.527,0-2.767,1.238-2.767,2.77c0,1.527,1.239,2.767,2.767,2.767
+							C19.467,27.051,20.707,25.812,20.707,24.285z"/>
+						<polygon points="17.939,28.448 20.182,31.283 21.25,28.474 24.23,28.084 21.988,25.25 		"/>
+						<polygon points="10.818,26.525 13.629,27.594 14.018,30.573 16.854,28.332 13.655,24.282 		"/>
+						<polygon points="14.638,0.521 13.793,1.708 16.396,3.563 13.64,7.433 18.366,13.452 25.247,15.702 28.003,11.833 29.27,12.734 
+							27.314,15.479 26.682,15.027 25.027,17.349 26.998,18.752 28.65,16.431 28.229,16.129 30.184,13.387 30.957,13.938 31.805,12.75 
+									"/>
+				</svg>
+		  	</div>
+		    <p class="flipper_description">Адъюнктура</p>
+		  </div>
+		  <div class="back">
+			<div class="ico">
+		  		<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 31.805 31.805" xml:space="preserve">
+						<polygon points="1.229,23.994 1.229,10.481 14.773,10.481 13.973,9.252 0,9.252 0,25.223 10.132,25.223 11.941,23.994 		"/>
+						<polygon points="23.406,23.994 22.807,23.994 23.91,25.223 24.635,25.223 24.635,16.324 23.406,15.891 		"/>
+						<rect x="9.096" y="13.195" width="7.333" height="0.935"/>
+						<rect x="6.367" y="15.592" width="12.794" height="1.031"/>
+						<rect x="6.367" y="17.752" width="12.794" height="1.031"/>
+						<rect x="6.367" y="19.795" width="12.794" height="1.031"/>
+						<path d="M20.707,24.285c0-1.531-1.24-2.77-2.77-2.77c-1.527,0-2.767,1.238-2.767,2.77c0,1.527,1.239,2.767,2.767,2.767
+							C19.467,27.051,20.707,25.812,20.707,24.285z"/>
+						<polygon points="17.939,28.448 20.182,31.283 21.25,28.474 24.23,28.084 21.988,25.25 		"/>
+						<polygon points="10.818,26.525 13.629,27.594 14.018,30.573 16.854,28.332 13.655,24.282 		"/>
+						<polygon points="14.638,0.521 13.793,1.708 16.396,3.563 13.64,7.433 18.366,13.452 25.247,15.702 28.003,11.833 29.27,12.734 
+							27.314,15.479 26.682,15.027 25.027,17.349 26.998,18.752 28.65,16.431 28.229,16.129 30.184,13.387 30.957,13.938 31.805,12.75 
+									"/>
+				</svg>
+		  	</div>
+		    <p class="flipper_description">Адъюнктура<br><span>научно-ориентированное образование Института</span></p>
+		  </div>
+		 </div>
+		</a>
+	</div>
+
+	<div class="metro_title waves-effect">
+		<a href="/uchebnyy-tsentr-smorgon/" class="flip-container" ontouchstart="this.classList.toggle('hover');">
+		 <div class="flipper">
+		  <div class="front">
+		  	<div class="ico">
+		  		<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 198.486 198.486" xml:space="preserve">
+					<path d="M73.714,121.345h50.898v44.167h-8.574v-33.912h-33.75v33.912h-8.574V121.345z M198.486,55.845l-31.833-22.871H99.289H31.924
+						L0.091,55.845h99.198H198.486z M99.163,65.845h99.163v94.667c0,2.762-2.238,5-5,5h-58.714v-44.167h1.873c2.762,0,5-2.238,5-5
+						s-2.238-5-5-5h-10.081c-0.437,0.125-0.889,0.213-1.366,0.213h-51.75c-0.477,0-0.929-0.088-1.366-0.213H61.841c-2.762,0-5,2.238-5,5
+						s2.238,5,5,5h1.873v44.167H5c-2.762,0-5-2.238-5-5V65.845H99.163z M45.413,101.558V81.521h-26.75v20.037H45.413z M18.663,126.225
+						v20.037h26.75v-20.037H18.663z M152.913,126.225v20.037h26.75v-20.037H152.913z M179.663,101.558V81.521h-26.75v20.037H179.663z
+						 M78.288,81.521v20.037h41.75V81.521H78.288z"/>
+
+				</svg>
+		  	</div>
+		    <p class="flipper_description">Учебный центр</p>
+		  </div>
+		  <div class="back">
+			<div class="ico">
+		  		<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 198.486 198.486" xml:space="preserve">
+					<path d="M73.714,121.345h50.898v44.167h-8.574v-33.912h-33.75v33.912h-8.574V121.345z M198.486,55.845l-31.833-22.871H99.289H31.924
+					L0.091,55.845h99.198H198.486z M99.163,65.845h99.163v94.667c0,2.762-2.238,5-5,5h-58.714v-44.167h1.873c2.762,0,5-2.238,5-5
+					s-2.238-5-5-5h-10.081c-0.437,0.125-0.889,0.213-1.366,0.213h-51.75c-0.477,0-0.929-0.088-1.366-0.213H61.841c-2.762,0-5,2.238-5,5
+					s2.238,5,5,5h1.873v44.167H5c-2.762,0-5-2.238-5-5V65.845H99.163z M45.413,101.558V81.521h-26.75v20.037H45.413z M18.663,126.225
+					v20.037h26.75v-20.037H18.663z M152.913,126.225v20.037h26.75v-20.037H152.913z M179.663,101.558V81.521h-26.75v20.037H179.663z
+					 M78.288,81.521v20.037h41.75V81.521H78.288z"/>
+
+				</svg>
+		  	</div>
+		    <p class="flipper_description">Учебный центр<br><span>Информация об учебном центре Института в г. Сморгонь</span></p>
+		  </div>
+		 </div>
+		</a>
+	</div>
+
+	<div class="metro_title waves-effect">
+		<a href="/tsentr-podgotovki-spetsialistov-pk/" class="flip-container" ontouchstart="this.classList.toggle('hover');">
+		 <div class="flipper">
+		  <div class="front">
+		  	<div class="ico">
+		  		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					 viewBox="0 0 512 512"  xml:space="preserve">
+
+							<path d="M151.869,248.197H56.131v47.738h95.738V248.197z M136.131,280.197H71.869v-16.262h64.262V280.197z"/>
+							<path d="M151.869,328.197H56.131v47.738h95.738V328.197z M136.131,360.197H71.869v-16.262h64.262V360.197z"/>
+							<path d="M455.869,328.197h-95.738v47.738h95.738V328.197z M440.131,360.197h-64.262v-16.262h64.262V360.197z"/>
+							<path d="M303.869,248.197h-95.738v47.738h95.738V248.197z M288.131,280.197h-64.262v-16.262h64.262V280.197z"/>
+							<path d="M455.869,248.197h-95.738v47.738h95.738V248.197z M440.131,280.197h-64.262v-16.262h64.262V280.197z"/>
+							<polygon points="207.869,351.934 304.131,351.934 304.131,392.066 319.869,392.066 319.869,336.197 192.131,336.197 
+								192.131,392.066 207.869,392.066 			"/>
+							<rect x="224" y="312.194" width="64" height="15.738"/>
+							<path d="M487.869,440.197v-272h-152V56.066h-15.738v112.131h-296v272H0v15.738h512v-15.738H487.869z M176.131,440.197H39.869
+								v-16.262h136.262V440.197z M200.131,440.197h-8.262v-24.262h8.262V440.197z M296.131,440.197h-80.262v-8.262h80.262V440.197z
+								 M320.131,440.197h-8.262v-24.262h8.262V440.197z M472.131,440.197H335.869v-16.262h136.262V440.197z M472.131,408.197H335.869
+								v-8h-39.738v16h-80.262v-16h-39.738v8H39.869V215.934h432.262V408.197z M472.131,200.197H39.869v-16.262h432.262V200.197z"/>
+							<path d="M376.131,127.934h79.738V80.197h-40v-24H344v15.738h56.131v16.262H344v15.738h32.131V127.934z M391.869,103.934h24v-8
+								h24.262v16.262h-48.262V103.934z"/>
+				</svg>
+		  	</div>
+		    <p class="flipper_description">Центр подготовки специалистов ПК</p>
+		  </div>
+		  <div class="back">
+			<div class="ico">
+		  		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"  xml:space="preserve">
+
+					<path d="M151.869,248.197H56.131v47.738h95.738V248.197z M136.131,280.197H71.869v-16.262h64.262V280.197z"/>
+					<path d="M151.869,328.197H56.131v47.738h95.738V328.197z M136.131,360.197H71.869v-16.262h64.262V360.197z"/>
+					<path d="M455.869,328.197h-95.738v47.738h95.738V328.197z M440.131,360.197h-64.262v-16.262h64.262V360.197z"/>
+					<path d="M303.869,248.197h-95.738v47.738h95.738V248.197z M288.131,280.197h-64.262v-16.262h64.262V280.197z"/>
+					<path d="M455.869,248.197h-95.738v47.738h95.738V248.197z M440.131,280.197h-64.262v-16.262h64.262V280.197z"/>
+					<polygon points="207.869,351.934 304.131,351.934 304.131,392.066 319.869,392.066 319.869,336.197 192.131,336.197 
+						192.131,392.066 207.869,392.066 			"/>
+					<rect x="224" y="312.194" width="64" height="15.738"/>
+					<path d="M487.869,440.197v-272h-152V56.066h-15.738v112.131h-296v272H0v15.738h512v-15.738H487.869z M176.131,440.197H39.869
+						v-16.262h136.262V440.197z M200.131,440.197h-8.262v-24.262h8.262V440.197z M296.131,440.197h-80.262v-8.262h80.262V440.197z
+						 M320.131,440.197h-8.262v-24.262h8.262V440.197z M472.131,440.197H335.869v-16.262h136.262V440.197z M472.131,408.197H335.869
+						v-8h-39.738v16h-80.262v-16h-39.738v8H39.869V215.934h432.262V408.197z M472.131,200.197H39.869v-16.262h432.262V200.197z"/>
+					<path d="M376.131,127.934h79.738V80.197h-40v-24H344v15.738h56.131v16.262H344v15.738h32.131V127.934z M391.869,103.934h24v-8
+						h24.262v16.262h-48.262V103.934z"/>
+				</svg>
+		  	</div>
+		    <p class="flipper_description"><span>Информация о центре подготовки специалистов пограничного контроля г. Брест</span></p>
+		  </div>
+		 </div>
+		</a>
+	</div>
+
+	<div class="metro_title waves-effect">
+		<a href="/rabota-s-grazhdanami/" class="flip-container" ontouchstart="this.classList.toggle('hover');">
+		 <div class="flipper">
+		  <div class="front">
+		  	<div class="ico">
+		  		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+
+					<path d="M404.267,315.41c-10.048-20.949-45.995-50.027-80.725-78.123c-19.371-15.659-37.675-30.464-49.344-42.133
+						c-2.923-2.944-7.296-3.883-11.157-2.496c-7.189,2.603-11.627,4.608-15.125,6.165c-5.333,2.389-7.125,3.2-14.315,3.925
+						c-3.179,0.32-6.037,2.027-7.808,4.672c-15.083,22.549-30.699,20.629-41.131,17.131c-3.328-1.109-3.925-2.539-4.245-3.904
+						c-2.24-9.365,9.003-31.168,23.573-45.739c34.667-34.688,52.544-43.371,90.304-26.496c42.837,19.157,85.76,34.155,86.187,34.304
+						c5.611,1.941,11.648-1.003,13.589-6.571c1.92-5.568-1.003-11.648-6.571-13.589c-0.427-0.149-42.496-14.848-84.48-33.643
+						c-48.917-21.867-75.755-7.467-114.091,30.891c-14.592,14.592-34.411,44.117-29.291,65.771c2.197,9.216,8.683,16.043,18.325,19.221
+						c24.171,7.979,46.229,0.341,62.656-21.461c6.784-1.045,10.475-2.581,16.021-5.077c2.005-0.896,4.352-1.941,7.467-3.2
+						c12.203,11.456,28.672,24.789,46.016,38.805c31.36,25.365,66.923,54.123,74.923,70.763c3.947,8.213-0.299,13.568-3.179,16.021
+						c-4.224,3.627-10.005,4.779-13.141,2.581c-3.456-2.368-7.957-2.517-11.52-0.384c-3.584,2.133-5.589,6.165-5.141,10.304
+						c0.725,6.784-5.483,10.667-8.171,12.011c-6.827,3.456-13.952,2.859-16.619,0.384c-2.987-2.773-7.275-3.584-11.072-2.176
+						c-3.797,1.429-6.443,4.928-6.827,8.981c-0.64,6.997-5.824,13.717-12.587,16.341c-3.264,1.237-8,1.984-12.245-1.899
+						c-2.645-2.389-6.315-3.307-9.749-2.475c-3.477,0.853-6.272,3.371-7.488,6.72c-0.405,1.067-1.323,3.627-11.307,3.627
+						c-7.104,0-19.883-4.8-26.133-8.939c-7.488-4.928-54.443-39.957-94.997-73.92c-5.696-4.8-15.552-15.083-24.256-24.171
+						c-7.723-8.064-14.784-15.381-18.411-18.453c-4.544-3.84-11.264-3.264-15.04,1.259c-3.797,4.501-3.243,11.243,1.259,15.04
+						c3.307,2.795,9.707,9.557,16.768,16.917c9.515,9.941,19.349,20.224,25.963,25.771c39.723,33.259,87.467,69.163,96.981,75.413
+						c7.851,5.163,24.768,12.416,37.867,12.416c10.517,0,18.603-2.411,24.213-7.125c7.509,2.923,16.043,2.944,24.256-0.256
+						c9.707-3.755,17.685-11.328,22.208-20.501c8.405,1.792,18.027,0.533,26.773-3.861c8.555-4.309,14.741-10.901,17.813-18.603
+						c8.491,0.448,17.237-2.56,24.469-8.768C407.979,346.407,411.349,330.109,404.267,315.41z"/>
+
+					<path d="M213.333,138.663h-96c-5.888,0-10.667,4.779-10.667,10.667s4.779,10.667,10.667,10.667h96
+						c5.888,0,10.667-4.779,10.667-10.667S219.221,138.663,213.333,138.663z"/>
+
+					<path d="M435.52,292.711c-3.307-4.885-9.92-6.229-14.805-2.901l-31.189,20.949c-4.885,3.285-6.187,9.92-2.901,14.805
+						c2.069,3.051,5.44,4.715,8.875,4.715c2.027,0,4.096-0.576,5.931-1.813l31.189-20.949
+						C437.504,304.231,438.805,297.597,435.52,292.711z"/>
+
+					<path d="M369.301,343.613c-7.637-6.016-41.792-40.981-62.912-62.997c-4.075-4.267-10.837-4.416-15.083-0.32
+						c-4.267,4.075-4.395,10.837-0.32,15.083c5.483,5.717,53.845,56.128,65.088,65.003c1.941,1.536,4.288,2.283,6.592,2.283
+						c3.136,0,6.272-1.408,8.405-4.075C374.72,353.981,373.931,347.261,369.301,343.613z"/>
+
+					<path d="M326.677,365.01c-12.779-10.219-44.885-44.331-52.139-52.224c-4.011-4.352-10.731-4.608-15.083-0.64
+						c-4.331,3.989-4.629,10.752-0.64,15.083c0.384,0.405,38.699,41.771,54.528,54.443c1.963,1.557,4.331,2.325,6.656,2.325
+						c3.115,0,6.229-1.387,8.341-3.989C332.011,375.399,331.264,368.679,326.677,365.01z"/>
+
+					<path d="M284.224,386.493c-15.211-12.821-46.336-45.952-52.416-52.459c-4.032-4.309-10.795-4.544-15.083-0.512
+						c-4.309,4.032-4.523,10.773-0.512,15.083c8.747,9.365,38.528,40.939,54.251,54.208c2.005,1.685,4.437,2.517,6.869,2.517
+						c3.029,0,6.059-1.301,8.171-3.797C289.301,397.01,288.725,390.29,284.224,386.493z"/>
+
+					<path d="M124.672,120.253C106.389,102.93,33.28,97.319,11.307,96.018c-3.029-0.149-5.824,0.853-7.957,2.88
+						C1.216,100.903,0,103.719,0,106.663v192c0,5.888,4.779,10.667,10.667,10.667h64c4.608,0,8.704-2.965,10.133-7.36
+						c1.557-4.779,38.315-117.589,43.157-173.056C128.235,125.671,127.04,122.471,124.672,120.253z M66.88,287.997H21.333V118.098
+						c34.283,2.709,71.275,8.597,84.715,15.125C100.395,179.943,74.816,262.951,66.88,287.997z"/>
+
+					<path d="M501.333,117.33c-83.755,0-130.219,21.44-132.16,22.336c-2.773,1.301-4.843,3.712-5.696,6.635s-0.427,6.059,1.173,8.661
+						c13.184,21.227,54.464,139.115,62.4,167.872c1.28,4.629,5.483,7.829,10.283,7.829h64c5.888,0,10.667-4.779,10.667-10.667v-192
+						C512,122.087,507.221,117.33,501.333,117.33z M490.667,309.33h-45.355c-10.112-32.939-39.979-118.827-56.64-154.325
+						c16.277-5.525,51.243-15.019,101.995-16.213V309.33z"/>
+
+				</svg>
+		  	</div>
+		    <p class="flipper_description">Работа с гражданами</p>
+		  </div>
+		  <div class="back">
+			<div class="ico">
+		  		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+
+					<path d="M404.267,315.41c-10.048-20.949-45.995-50.027-80.725-78.123c-19.371-15.659-37.675-30.464-49.344-42.133
+						c-2.923-2.944-7.296-3.883-11.157-2.496c-7.189,2.603-11.627,4.608-15.125,6.165c-5.333,2.389-7.125,3.2-14.315,3.925
+						c-3.179,0.32-6.037,2.027-7.808,4.672c-15.083,22.549-30.699,20.629-41.131,17.131c-3.328-1.109-3.925-2.539-4.245-3.904
+						c-2.24-9.365,9.003-31.168,23.573-45.739c34.667-34.688,52.544-43.371,90.304-26.496c42.837,19.157,85.76,34.155,86.187,34.304
+						c5.611,1.941,11.648-1.003,13.589-6.571c1.92-5.568-1.003-11.648-6.571-13.589c-0.427-0.149-42.496-14.848-84.48-33.643
+						c-48.917-21.867-75.755-7.467-114.091,30.891c-14.592,14.592-34.411,44.117-29.291,65.771c2.197,9.216,8.683,16.043,18.325,19.221
+						c24.171,7.979,46.229,0.341,62.656-21.461c6.784-1.045,10.475-2.581,16.021-5.077c2.005-0.896,4.352-1.941,7.467-3.2
+						c12.203,11.456,28.672,24.789,46.016,38.805c31.36,25.365,66.923,54.123,74.923,70.763c3.947,8.213-0.299,13.568-3.179,16.021
+						c-4.224,3.627-10.005,4.779-13.141,2.581c-3.456-2.368-7.957-2.517-11.52-0.384c-3.584,2.133-5.589,6.165-5.141,10.304
+						c0.725,6.784-5.483,10.667-8.171,12.011c-6.827,3.456-13.952,2.859-16.619,0.384c-2.987-2.773-7.275-3.584-11.072-2.176
+						c-3.797,1.429-6.443,4.928-6.827,8.981c-0.64,6.997-5.824,13.717-12.587,16.341c-3.264,1.237-8,1.984-12.245-1.899
+						c-2.645-2.389-6.315-3.307-9.749-2.475c-3.477,0.853-6.272,3.371-7.488,6.72c-0.405,1.067-1.323,3.627-11.307,3.627
+						c-7.104,0-19.883-4.8-26.133-8.939c-7.488-4.928-54.443-39.957-94.997-73.92c-5.696-4.8-15.552-15.083-24.256-24.171
+						c-7.723-8.064-14.784-15.381-18.411-18.453c-4.544-3.84-11.264-3.264-15.04,1.259c-3.797,4.501-3.243,11.243,1.259,15.04
+						c3.307,2.795,9.707,9.557,16.768,16.917c9.515,9.941,19.349,20.224,25.963,25.771c39.723,33.259,87.467,69.163,96.981,75.413
+						c7.851,5.163,24.768,12.416,37.867,12.416c10.517,0,18.603-2.411,24.213-7.125c7.509,2.923,16.043,2.944,24.256-0.256
+						c9.707-3.755,17.685-11.328,22.208-20.501c8.405,1.792,18.027,0.533,26.773-3.861c8.555-4.309,14.741-10.901,17.813-18.603
+						c8.491,0.448,17.237-2.56,24.469-8.768C407.979,346.407,411.349,330.109,404.267,315.41z"/>
+
+					<path d="M213.333,138.663h-96c-5.888,0-10.667,4.779-10.667,10.667s4.779,10.667,10.667,10.667h96
+						c5.888,0,10.667-4.779,10.667-10.667S219.221,138.663,213.333,138.663z"/>
+
+					<path d="M435.52,292.711c-3.307-4.885-9.92-6.229-14.805-2.901l-31.189,20.949c-4.885,3.285-6.187,9.92-2.901,14.805
+						c2.069,3.051,5.44,4.715,8.875,4.715c2.027,0,4.096-0.576,5.931-1.813l31.189-20.949
+						C437.504,304.231,438.805,297.597,435.52,292.711z"/>
+
+					<path d="M369.301,343.613c-7.637-6.016-41.792-40.981-62.912-62.997c-4.075-4.267-10.837-4.416-15.083-0.32
+						c-4.267,4.075-4.395,10.837-0.32,15.083c5.483,5.717,53.845,56.128,65.088,65.003c1.941,1.536,4.288,2.283,6.592,2.283
+						c3.136,0,6.272-1.408,8.405-4.075C374.72,353.981,373.931,347.261,369.301,343.613z"/>
+
+					<path d="M326.677,365.01c-12.779-10.219-44.885-44.331-52.139-52.224c-4.011-4.352-10.731-4.608-15.083-0.64
+						c-4.331,3.989-4.629,10.752-0.64,15.083c0.384,0.405,38.699,41.771,54.528,54.443c1.963,1.557,4.331,2.325,6.656,2.325
+						c3.115,0,6.229-1.387,8.341-3.989C332.011,375.399,331.264,368.679,326.677,365.01z"/>
+
+					<path d="M284.224,386.493c-15.211-12.821-46.336-45.952-52.416-52.459c-4.032-4.309-10.795-4.544-15.083-0.512
+						c-4.309,4.032-4.523,10.773-0.512,15.083c8.747,9.365,38.528,40.939,54.251,54.208c2.005,1.685,4.437,2.517,6.869,2.517
+						c3.029,0,6.059-1.301,8.171-3.797C289.301,397.01,288.725,390.29,284.224,386.493z"/>
+
+					<path d="M124.672,120.253C106.389,102.93,33.28,97.319,11.307,96.018c-3.029-0.149-5.824,0.853-7.957,2.88
+						C1.216,100.903,0,103.719,0,106.663v192c0,5.888,4.779,10.667,10.667,10.667h64c4.608,0,8.704-2.965,10.133-7.36
+						c1.557-4.779,38.315-117.589,43.157-173.056C128.235,125.671,127.04,122.471,124.672,120.253z M66.88,287.997H21.333V118.098
+						c34.283,2.709,71.275,8.597,84.715,15.125C100.395,179.943,74.816,262.951,66.88,287.997z"/>
+
+					<path d="M501.333,117.33c-83.755,0-130.219,21.44-132.16,22.336c-2.773,1.301-4.843,3.712-5.696,6.635s-0.427,6.059,1.173,8.661
+						c13.184,21.227,54.464,139.115,62.4,167.872c1.28,4.629,5.483,7.829,10.283,7.829h64c5.888,0,10.667-4.779,10.667-10.667v-192
+						C512,122.087,507.221,117.33,501.333,117.33z M490.667,309.33h-45.355c-10.112-32.939-39.979-118.827-56.64-154.325
+						c16.277-5.525,51.243-15.019,101.995-16.213V309.33z"/>
+
+				</svg>
+		  	</div>
+		    <p class="flipper_description">Работа с гражданами<br><span>Прием граждан и электронное обращение</span></p>
+		  </div>
+		 </div>
+		</a>
+	</div>
+
+	<div class="metro_title waves-effect">
+		<a href="/organizatsii/" class="flip-container" ontouchstart="this.classList.toggle('hover');">
+		 <div class="flipper">
+		  <div class="front">
+		  	<div class="ico">
+		  		
+			<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+
+					<path d="M461.6,298.912l-70.24-15.168v-20.608c3.68-5.344,7.104-12.192,10.656-19.328c2.656-5.312,6.656-13.28,8.16-15.04
+						c10.624-10.272,23.36-24.48,27.584-43.52c3.712-18.144-1.12-27.488-3.84-31.04c0-14.816,0-36.864-4.544-53.888
+						c-0.608-20.896-4.736-33.216-14.08-42.944C408,48.928,397.44,47.104,388.96,45.632c-2.624-0.448-6.56-1.12-7.968-1.824
+						C366.72,36.128,352.576,32.384,335.296,32c-26.88,1.184-53.984,13.152-72.48,32c-6.176,6.304-6.112,16.448,0.224,22.624
+						c6.272,6.176,16.384,6.112,22.624-0.224c12.768-13.024,32.32-21.6,49.984-22.4c11.104,0.256,20.416,2.72,29.984,7.872
+						c5.76,3.232,12.224,4.352,17.92,5.344c2.688,0.48,7.232,1.248,8.096,1.696c2.304,2.432,5.504,5.76,5.792,24.096
+						c0.032,1.44,0.256,2.912,0.672,4.288c3.808,12.8,3.808,34.176,3.808,46.944c0,5.984,2.208,10.272,3.68,13.152
+						c1.344,2.656,2.272,4.384,0.864,11.232c-2.304,10.368-10.656,19.552-18.688,27.328c-5.152,5.12-9.408,13.664-14.368,23.552
+						c-2.72,5.472-7.296,14.592-9.344,16.768c-3.008,3.008-4.704,7.072-4.704,11.328v39.04c0,7.52,5.248,14.048,12.64,15.648
+						l82.848,17.92C469.664,333.408,480,346.336,480,361.6V384h-83.2c-8.832,0-16,7.168-16,16c0,8.832,7.168,16,16,16H496
+						c8.832,0,16-7.168,16-16v-38.4C512,331.136,491.296,305.376,461.6,298.912z"/>
+
+					<path d="M301.568,363.04l-70.272-15.264V327.04c3.68-5.312,7.104-12.064,10.656-19.136c2.656-5.248,6.656-13.184,8.32-15.072
+						c11.424-11.168,23.584-25.056,27.36-43.392c3.776-18.272-0.992-27.648-3.744-31.328c0-12.864,0-36.32-4.48-53.536
+						c-0.512-20.768-4.576-33.12-14.336-43.744c-7.328-7.936-17.664-9.664-25.952-11.072c-2.688-0.448-6.72-1.12-7.936-1.728
+						C207.2,100.256,192.992,96.448,175.392,96c-35.52,1.344-79.168,23.968-93.792,64.544c-4.16,11.52-4.16,28.736-3.776,48.448
+						l-0.032,7.808c-2.56,5.024-7.328,14.4-3.552,32.64c3.776,18.368,15.936,32.256,27.264,43.328c1.76,1.984,5.824,9.952,8.544,15.232
+						c3.552,7.008,7.008,13.728,10.656,19.04v20.768l-70.272,15.264C21.216,369.408,0,395.712,0,425.6V464c0,8.832,7.168,16,16,16h320
+						c8.832,0,16-7.168,16-16v-38.4C352,395.712,330.784,369.408,301.568,363.04z M320,448H32v-22.4
+						c0-14.944,10.624-28.096,25.216-31.264l82.88-17.984c7.36-1.6,12.608-8.096,12.608-15.648V321.44c0-4.096-1.92-8.384-4.736-11.36
+						c-2.048-2.176-6.656-11.2-9.408-16.608c-5.088-9.888-9.44-18.432-14.624-23.488c-8.352-8.16-16.352-17.088-18.368-27.008
+						c-1.504-7.264-0.608-9.024,0.736-11.648c1.44-2.848,3.648-7.2,3.648-13.216l-0.128-9.76c-0.224-11.232-0.608-30.08,1.856-36.96
+						c9.728-26.976,40.704-42.496,63.904-43.392c11.52,0.288,20.512,2.688,30.08,8c5.824,3.232,12.352,4.32,18.112,5.312
+						c2.944,0.512,7.136,1.216,7.776,1.216c2.528,2.752,5.664,6.176,5.888,24.544c0,1.44,0.224,2.88,0.64,4.288
+						c3.808,12.96,3.808,35.776,3.808,46.72c0,6.016,2.208,10.336,3.648,13.216c1.344,2.656,2.24,4.384,0.736,11.68
+						c-2.016,9.92-10.016,18.816-18.368,27.008c-5.216,5.056-9.536,13.6-14.528,23.488c-2.72,5.408-7.296,14.432-9.312,16.576
+						c-3.072,3.008-4.768,7.104-4.768,11.392v39.264c0,7.52,5.248,14.048,12.608,15.648l82.88,17.984
+						C309.376,397.504,320,410.656,320,425.6V448z"/>
+			</svg>
+
+		  	</div>
+		    <p class="flipper_description">Организации</p>
+		  </div>
+		  <div class="back">
+			<div class="ico">
+		  		
+			<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+
+					<path d="M461.6,298.912l-70.24-15.168v-20.608c3.68-5.344,7.104-12.192,10.656-19.328c2.656-5.312,6.656-13.28,8.16-15.04
+						c10.624-10.272,23.36-24.48,27.584-43.52c3.712-18.144-1.12-27.488-3.84-31.04c0-14.816,0-36.864-4.544-53.888
+						c-0.608-20.896-4.736-33.216-14.08-42.944C408,48.928,397.44,47.104,388.96,45.632c-2.624-0.448-6.56-1.12-7.968-1.824
+						C366.72,36.128,352.576,32.384,335.296,32c-26.88,1.184-53.984,13.152-72.48,32c-6.176,6.304-6.112,16.448,0.224,22.624
+						c6.272,6.176,16.384,6.112,22.624-0.224c12.768-13.024,32.32-21.6,49.984-22.4c11.104,0.256,20.416,2.72,29.984,7.872
+						c5.76,3.232,12.224,4.352,17.92,5.344c2.688,0.48,7.232,1.248,8.096,1.696c2.304,2.432,5.504,5.76,5.792,24.096
+						c0.032,1.44,0.256,2.912,0.672,4.288c3.808,12.8,3.808,34.176,3.808,46.944c0,5.984,2.208,10.272,3.68,13.152
+						c1.344,2.656,2.272,4.384,0.864,11.232c-2.304,10.368-10.656,19.552-18.688,27.328c-5.152,5.12-9.408,13.664-14.368,23.552
+						c-2.72,5.472-7.296,14.592-9.344,16.768c-3.008,3.008-4.704,7.072-4.704,11.328v39.04c0,7.52,5.248,14.048,12.64,15.648
+						l82.848,17.92C469.664,333.408,480,346.336,480,361.6V384h-83.2c-8.832,0-16,7.168-16,16c0,8.832,7.168,16,16,16H496
+						c8.832,0,16-7.168,16-16v-38.4C512,331.136,491.296,305.376,461.6,298.912z"/>
+
+					<path d="M301.568,363.04l-70.272-15.264V327.04c3.68-5.312,7.104-12.064,10.656-19.136c2.656-5.248,6.656-13.184,8.32-15.072
+						c11.424-11.168,23.584-25.056,27.36-43.392c3.776-18.272-0.992-27.648-3.744-31.328c0-12.864,0-36.32-4.48-53.536
+						c-0.512-20.768-4.576-33.12-14.336-43.744c-7.328-7.936-17.664-9.664-25.952-11.072c-2.688-0.448-6.72-1.12-7.936-1.728
+						C207.2,100.256,192.992,96.448,175.392,96c-35.52,1.344-79.168,23.968-93.792,64.544c-4.16,11.52-4.16,28.736-3.776,48.448
+						l-0.032,7.808c-2.56,5.024-7.328,14.4-3.552,32.64c3.776,18.368,15.936,32.256,27.264,43.328c1.76,1.984,5.824,9.952,8.544,15.232
+						c3.552,7.008,7.008,13.728,10.656,19.04v20.768l-70.272,15.264C21.216,369.408,0,395.712,0,425.6V464c0,8.832,7.168,16,16,16h320
+						c8.832,0,16-7.168,16-16v-38.4C352,395.712,330.784,369.408,301.568,363.04z M320,448H32v-22.4
+						c0-14.944,10.624-28.096,25.216-31.264l82.88-17.984c7.36-1.6,12.608-8.096,12.608-15.648V321.44c0-4.096-1.92-8.384-4.736-11.36
+						c-2.048-2.176-6.656-11.2-9.408-16.608c-5.088-9.888-9.44-18.432-14.624-23.488c-8.352-8.16-16.352-17.088-18.368-27.008
+						c-1.504-7.264-0.608-9.024,0.736-11.648c1.44-2.848,3.648-7.2,3.648-13.216l-0.128-9.76c-0.224-11.232-0.608-30.08,1.856-36.96
+						c9.728-26.976,40.704-42.496,63.904-43.392c11.52,0.288,20.512,2.688,30.08,8c5.824,3.232,12.352,4.32,18.112,5.312
+						c2.944,0.512,7.136,1.216,7.776,1.216c2.528,2.752,5.664,6.176,5.888,24.544c0,1.44,0.224,2.88,0.64,4.288
+						c3.808,12.96,3.808,35.776,3.808,46.72c0,6.016,2.208,10.336,3.648,13.216c1.344,2.656,2.24,4.384,0.736,11.68
+						c-2.016,9.92-10.016,18.816-18.368,27.008c-5.216,5.056-9.536,13.6-14.528,23.488c-2.72,5.408-7.296,14.432-9.312,16.576
+						c-3.072,3.008-4.768,7.104-4.768,11.392v39.264c0,7.52,5.248,14.048,12.608,15.648l82.88,17.984
+						C309.376,397.504,320,410.656,320,425.6V448z"/>
+			</svg>
+
+		  	</div>
+		    <p class="flipper_description">Организации<br><span>Общественные организации действующие в Институте</span></p>
+		  </div>
+		 </div>
+		</a>
+	</div>
+
+	<div class="metro_title waves-effect">
+		<a href="/3d/IPS.html" class="flip-container" ontouchstart="this.classList.toggle('hover');">
+		 <div class="flipper">
+		  <div class="front">
+		  	<div class="ico">
+		  		
+				<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 575.256 575.256" xml:space="preserve">
+
+					<path d="M568.891,228.697l-81.481-25.031v-60.698c0-3.452-1.946-6.597-5.043-8.115L262.328,25.965
+						c-0.024-0.012-0.073-0.012-0.171-0.012c-0.416-0.221-2.056-0.979-4.443-0.845c-2.485,0.135-4.296,1.334-4.639,1.604l0,0
+						L96.146,138.61c-2.387,1.701-3.807,4.443-3.807,7.369v78.128l-29.156-3.477c-0.012,0-0.098,0.012-0.257,0.037
+						c-0.379-0.025-1.261-0.062-2.093,0.049c-1.053,0.135-1.958,0.478-2.301,0.612c-0.049,0.012-0.085,0.024-0.085,0.024L5.386,244.854
+						c-3.28,1.444-5.386,4.7-5.386,8.274v151.371c0,3.317,1.812,6.365,4.7,7.932l53.183,29.156c0,0,1.396,0.808,3.072,1.016
+						c1.494,0.195,2.583,0,2.583,0l28.788-4.187V455.1c0,3.317,1.812,6.353,4.7,7.943l156.905,85.986c0,0,1.75,1.016,4.039,1.126
+						c1.75,0.086,3.464-0.551,3.464-0.551v-0.049c0.024,0,0.049,0,0.049,0l220.051-83.66l87.883-33.416
+						c3.513-1.334,5.839-4.699,5.839-8.457v-186.66C575.292,233.373,572.697,229.859,568.891,228.697z M25.251,366.874
+						c0,0.942-0.441,1.836-1.2,2.398c-0.539,0.404-1.175,0.624-1.824,0.624c-0.27,0-0.539-0.036-0.808-0.109l-10.073-2.804
+						c-1.31-0.367-2.215-1.554-2.215-2.913v-28.078c0-0.845,0.355-1.665,0.991-2.24c0.625-0.575,1.469-0.845,2.313-0.759l10.073,0.979
+						c1.542,0.159,2.729,1.444,2.729,2.999v29.902H25.251z M25.251,307.081c0,1.579-1.212,2.877-2.779,3.011l-10.073,0.833
+						c-0.074,0-0.159,0-0.245,0c-0.747,0-1.481-0.27-2.044-0.783c-0.624-0.576-0.979-1.371-0.979-2.229v-28.078
+						c0-1.371,0.93-2.57,2.252-2.913l10.074-2.656c0.906-0.232,1.86-0.037,2.607,0.539c0.747,0.563,1.175,1.444,1.175,2.375v29.902
+						H25.251z M54.701,375.062c0,0.942-0.44,1.823-1.188,2.398c-0.539,0.404-1.175,0.612-1.824,0.612c-0.269,0-0.539-0.037-0.808-0.11
+						l-13.807-3.843c-1.31-0.355-2.215-1.555-2.215-2.901v-32.718c0-0.844,0.354-1.664,0.991-2.239c0.624-0.575,1.469-0.845,2.326-0.759
+						l13.807,1.346c1.555,0.147,2.729,1.444,2.729,2.999v35.215H54.701z M54.701,304.657c0,1.567-1.212,2.877-2.766,3.012l-13.819,1.138
+						c-0.085,0-0.159,0-0.245,0c-0.759,0-1.493-0.281-2.044-0.795c-0.625-0.575-0.979-1.371-0.979-2.228v-32.705
+						c0-1.371,0.931-2.57,2.252-2.925l13.819-3.623c0.906-0.245,1.86-0.049,2.607,0.526c0.735,0.575,1.175,1.456,1.175,2.387V304.657z
+						 M130.283,396.042c0,0.942-0.441,1.836-1.188,2.398c-0.526,0.404-1.175,0.624-1.824,0.624c-0.281,0-0.551-0.036-0.808-0.11
+						l-17.809-4.944c-1.31-0.367-2.216-1.555-2.216-2.901V345.49c0-0.856,0.355-1.665,0.992-2.24c0.624-0.575,1.469-0.844,2.313-0.783
+						l17.809,1.751c1.554,0.146,2.729,1.444,2.729,2.998V396.042z M130.283,298.415c0,1.567-1.2,2.877-2.766,2.999l-17.81,1.469
+						c-0.073,0.013-0.159,0.013-0.245,0.013c-0.759,0-1.493-0.282-2.044-0.796c-0.625-0.575-0.979-1.383-0.979-2.228v-45.618
+						c0-1.371,0.93-2.57,2.252-2.913l17.809-4.688c0.906-0.232,1.873-0.037,2.607,0.539c0.734,0.563,1.175,1.444,1.175,2.375V298.415z
+						 M130.283,200.765c0,1.199-0.698,2.289-1.787,2.766l-17.809,7.882c-0.392,0.172-0.808,0.27-1.224,0.27
+						c-0.575,0-1.15-0.171-1.652-0.49c-0.857-0.563-1.371-1.518-1.371-2.534v-45.618c0-1.041,0.539-2.008,1.42-2.559l17.809-11.089
+						c0.931-0.587,2.105-0.612,3.06-0.085c0.955,0.539,1.555,1.542,1.555,2.644V200.765L130.283,200.765z M174.653,408.367
+						c0,0.942-0.441,1.836-1.188,2.399c-0.526,0.403-1.175,0.624-1.824,0.624c-0.269,0-0.539-0.037-0.808-0.11l-23.856-6.634
+						c-1.31-0.355-2.215-1.555-2.215-2.901v-52.521c0-0.845,0.355-1.665,0.991-2.24c0.625-0.562,1.469-0.832,2.313-0.759l23.868,2.325
+						c1.542,0.159,2.717,1.444,2.717,2.999V408.367z M174.653,294.743c0,1.579-1.2,2.877-2.767,3.011l-23.855,1.971
+						c-0.086,0-0.171,0.013-0.257,0.013c-0.759,0-1.481-0.294-2.044-0.808c-0.624-0.575-0.979-1.371-0.979-2.228v-52.51
+						c0-1.371,0.93-2.57,2.252-2.913L170.858,235c0.906-0.245,1.873-0.049,2.607,0.526c0.747,0.575,1.175,1.456,1.175,2.387v56.83
+						H174.653z M174.653,181.12c0,1.2-0.698,2.289-1.787,2.767l-23.856,10.563c-0.392,0.184-0.808,0.257-1.224,0.257
+						c-0.575,0-1.15-0.171-1.64-0.489c-0.856-0.551-1.371-1.506-1.371-2.534v-52.51c0-1.041,0.539-2.007,1.42-2.558l23.855-14.872
+						c0.93-0.587,2.105-0.612,3.06-0.086c0.955,0.539,1.555,1.542,1.555,2.644v56.818H174.653z M236.391,425.516
+						c0,0.894-0.343,1.75-0.979,2.362c-1.102,1.113-2.583,1.113-3.097,1.113c0,0,0,0-0.012,0c-5.949,0-29.033-8.311-33.587-9.963
+						c-1.199-0.429-1.983-1.566-1.983-2.84v-61.886c0-0.844,0.355-1.664,0.979-2.239c0.636-0.575,1.481-0.845,2.326-0.759l33.623,3.28
+						c1.542,0.159,2.729,1.456,2.729,2.998C236.391,358.244,236.367,422.614,236.391,425.516z M236.391,289.651
+						c0,1.566-1.211,2.877-2.778,2.999l-33.624,2.778c-0.085,0-0.171,0.013-0.245,0.013c-0.759,0-1.493-0.294-2.044-0.809
+						c-0.625-0.575-0.979-1.37-0.979-2.228v-61.885c0-1.359,0.918-2.57,2.252-2.913l33.623-8.837c0.906-0.245,1.861-0.049,2.607,0.526
+						s1.175,1.457,1.175,2.387v67.968H236.391z M236.391,153.776c0,1.199-0.71,2.276-1.799,2.754l-33.623,14.896
+						c-0.392,0.184-0.808,0.257-1.224,0.257c-0.575,0-1.15-0.171-1.652-0.489c-0.857-0.563-1.371-1.506-1.371-2.534v-61.874
+						c0-1.052,0.539-2.02,1.42-2.57l33.624-20.942c0.93-0.587,2.105-0.612,3.06-0.086c0.955,0.539,1.554,1.542,1.554,2.644v67.944
+						H236.391z M370.052,119.908c0-1.016,0.515-1.958,1.359-2.521c0.844-0.563,1.921-0.649,2.852-0.257l35.888,15.52
+						c1.102,0.478,1.823,1.567,1.823,2.778v53.599c0,0.955-0.452,1.86-1.224,2.423c-0.526,0.392-1.15,0.6-1.787,0.6
+						c-0.294,0-0.6-0.049-0.881-0.135l-35.888-11.028c-1.273-0.392-2.13-1.566-2.13-2.876v-58.103H370.052z M370.052,236.078
+						c0-0.894,0.392-1.75,1.077-2.313c0.686-0.575,1.604-0.808,2.473-0.649l35.9,6.536c1.432,0.27,2.472,1.506,2.472,2.962v54.1
+						c0,0.832-0.343,1.641-0.967,2.216c-0.562,0.526-1.297,0.808-2.056,0.808c-0.074,0-0.147-0.013-0.209-0.013l-35.887-2.558
+						c-1.579-0.11-2.804-1.42-2.804-2.999V236.078z M276.624,79.516c0-1.016,0.514-1.958,1.359-2.521
+						c0.844-0.551,1.921-0.649,2.852-0.245l50.98,22.044c1.102,0.478,1.823,1.567,1.823,2.779v63.391c0,0.955-0.452,1.861-1.224,2.424
+						c-0.526,0.392-1.163,0.6-1.787,0.6c-0.294,0-0.6-0.049-0.894-0.135l-50.979-15.667c-1.273-0.379-2.13-1.555-2.13-2.876V79.516
+						L276.624,79.516z M276.624,288.819v-69.768c0-0.894,0.392-1.75,1.077-2.313c0.686-0.575,1.591-0.808,2.473-0.649l50.979,9.291
+						c1.432,0.269,2.484,1.518,2.484,2.974v63.39c0,0.833-0.343,1.628-0.954,2.203c-0.563,0.526-1.31,0.82-2.068,0.82
+						c-0.062,0-0.123,0-0.172-0.012l-50.979-2.913C277.873,291.732,276.624,290.423,276.624,288.819z M376.086,497.475
+						c0,1.261-0.783,2.362-1.945,2.815l-66.721,25.361c-0.343,0.134-0.71,0.195-1.064,0.195c-0.601,0-1.212-0.184-1.714-0.526
+						c-0.82-0.563-1.298-1.493-1.298-2.484V356.764c0-1.592,1.225-2.901,2.815-3.012l66.721-4.517c0.844-0.061,1.652,0.245,2.264,0.809
+						c0.612,0.562,0.955,1.358,0.955,2.203v145.228H376.086z M456.491,466.898c0,1.261-0.771,2.375-1.946,2.815l-44.518,16.928
+						c-0.354,0.135-0.709,0.208-1.076,0.208c-0.601,0-1.2-0.195-1.714-0.538c-0.808-0.563-1.298-1.493-1.298-2.484V349.823
+						c0-1.591,1.225-2.9,2.815-3.011l44.517-3.012c0.845-0.061,1.652,0.233,2.265,0.796c0.612,0.563,0.955,1.371,0.955,2.203V466.898z
+						 M469.355,299.505c0,0.832-0.343,1.628-0.955,2.203c-0.563,0.526-1.31,0.82-2.068,0.82c-0.062,0-0.122,0-0.172,0l-26.634-1.53
+						c-1.591-0.098-2.84-1.408-2.84-3.011V248.22c0-0.894,0.404-1.75,1.077-2.326c0.698-0.575,1.604-0.796,2.484-0.649l26.622,4.859
+						c1.433,0.257,2.485,1.505,2.485,2.962V299.505L469.355,299.505z M469.355,206.652c0,0.955-0.453,1.861-1.225,2.424
+						c-0.526,0.392-1.162,0.6-1.787,0.6c-0.293,0-0.6-0.049-0.894-0.147l-26.622-8.176c-1.272-0.392-2.129-1.567-2.129-2.876v-49.768
+						c0-1.016,0.514-1.958,1.358-2.521s1.922-0.649,2.852-0.245l26.635,11.506c1.102,0.478,1.823,1.566,1.823,2.778v46.426H469.355z
+						 M522.574,382.112c0,1.444-1.027,2.693-2.447,2.962l-19.352,3.733c-0.196,0.037-0.38,0.049-0.563,0.049
+						c-0.697,0-1.383-0.244-1.922-0.697c-0.697-0.563-1.089-1.42-1.089-2.313v-42.191c0-1.591,1.224-2.9,2.815-3.011l19.352-1.31
+						c0.832-0.049,1.652,0.244,2.264,0.808c0.612,0.562,0.955,1.358,0.955,2.203v39.768H522.574z M522.574,302.564
+						c0,0.82-0.342,1.616-0.954,2.191c-0.563,0.526-1.298,0.819-2.068,0.819c-0.062,0-0.11,0-0.172,0l-19.352-1.113
+						c-1.591-0.098-2.839-1.407-2.839-3.011V259.26c0-0.893,0.392-1.738,1.076-2.313c0.686-0.575,1.592-0.808,2.473-0.661l19.34,3.525
+						c1.432,0.257,2.484,1.518,2.484,2.974v39.779H522.574z M555.292,375.797c0,1.444-1.028,2.692-2.448,2.962l-15.483,2.986
+						c-0.195,0.037-0.379,0.049-0.562,0.049c-0.698,0-1.384-0.244-1.922-0.697c-0.698-0.575-1.09-1.42-1.09-2.313v-37.626
+						c0-1.579,1.236-2.889,2.815-2.999l15.472-1.053c0.832-0.061,1.652,0.245,2.265,0.796c0.611,0.575,0.954,1.371,0.954,2.216V375.797
+						L555.292,375.797z M555.292,304.425c0,0.833-0.343,1.628-0.942,2.203c-0.562,0.526-1.297,0.82-2.068,0.82
+						c-0.062,0-0.11,0-0.172-0.012l-15.471-0.882c-1.592-0.086-2.84-1.407-2.84-3.011v-37.136c0-0.881,0.379-1.726,1.053-2.301
+						c0.661-0.575,1.542-0.82,2.411-0.698l15.483,2.338c1.481,0.22,2.559,1.494,2.559,2.987v35.691H555.292z"/>
+
+				</svg>
+		  	</div>
+		    <p class="flipper_description">3D тур по институту</p>
+		  </div>
+		  <div class="back">
+			<div class="ico">
+		  		<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 575.256 575.256" xml:space="preserve">
+
+					<path d="M568.891,228.697l-81.481-25.031v-60.698c0-3.452-1.946-6.597-5.043-8.115L262.328,25.965
+						c-0.024-0.012-0.073-0.012-0.171-0.012c-0.416-0.221-2.056-0.979-4.443-0.845c-2.485,0.135-4.296,1.334-4.639,1.604l0,0
+						L96.146,138.61c-2.387,1.701-3.807,4.443-3.807,7.369v78.128l-29.156-3.477c-0.012,0-0.098,0.012-0.257,0.037
+						c-0.379-0.025-1.261-0.062-2.093,0.049c-1.053,0.135-1.958,0.478-2.301,0.612c-0.049,0.012-0.085,0.024-0.085,0.024L5.386,244.854
+						c-3.28,1.444-5.386,4.7-5.386,8.274v151.371c0,3.317,1.812,6.365,4.7,7.932l53.183,29.156c0,0,1.396,0.808,3.072,1.016
+						c1.494,0.195,2.583,0,2.583,0l28.788-4.187V455.1c0,3.317,1.812,6.353,4.7,7.943l156.905,85.986c0,0,1.75,1.016,4.039,1.126
+						c1.75,0.086,3.464-0.551,3.464-0.551v-0.049c0.024,0,0.049,0,0.049,0l220.051-83.66l87.883-33.416
+						c3.513-1.334,5.839-4.699,5.839-8.457v-186.66C575.292,233.373,572.697,229.859,568.891,228.697z M25.251,366.874
+						c0,0.942-0.441,1.836-1.2,2.398c-0.539,0.404-1.175,0.624-1.824,0.624c-0.27,0-0.539-0.036-0.808-0.109l-10.073-2.804
+						c-1.31-0.367-2.215-1.554-2.215-2.913v-28.078c0-0.845,0.355-1.665,0.991-2.24c0.625-0.575,1.469-0.845,2.313-0.759l10.073,0.979
+						c1.542,0.159,2.729,1.444,2.729,2.999v29.902H25.251z M25.251,307.081c0,1.579-1.212,2.877-2.779,3.011l-10.073,0.833
+						c-0.074,0-0.159,0-0.245,0c-0.747,0-1.481-0.27-2.044-0.783c-0.624-0.576-0.979-1.371-0.979-2.229v-28.078
+						c0-1.371,0.93-2.57,2.252-2.913l10.074-2.656c0.906-0.232,1.86-0.037,2.607,0.539c0.747,0.563,1.175,1.444,1.175,2.375v29.902
+						H25.251z M54.701,375.062c0,0.942-0.44,1.823-1.188,2.398c-0.539,0.404-1.175,0.612-1.824,0.612c-0.269,0-0.539-0.037-0.808-0.11
+						l-13.807-3.843c-1.31-0.355-2.215-1.555-2.215-2.901v-32.718c0-0.844,0.354-1.664,0.991-2.239c0.624-0.575,1.469-0.845,2.326-0.759
+						l13.807,1.346c1.555,0.147,2.729,1.444,2.729,2.999v35.215H54.701z M54.701,304.657c0,1.567-1.212,2.877-2.766,3.012l-13.819,1.138
+						c-0.085,0-0.159,0-0.245,0c-0.759,0-1.493-0.281-2.044-0.795c-0.625-0.575-0.979-1.371-0.979-2.228v-32.705
+						c0-1.371,0.931-2.57,2.252-2.925l13.819-3.623c0.906-0.245,1.86-0.049,2.607,0.526c0.735,0.575,1.175,1.456,1.175,2.387V304.657z
+						 M130.283,396.042c0,0.942-0.441,1.836-1.188,2.398c-0.526,0.404-1.175,0.624-1.824,0.624c-0.281,0-0.551-0.036-0.808-0.11
+						l-17.809-4.944c-1.31-0.367-2.216-1.555-2.216-2.901V345.49c0-0.856,0.355-1.665,0.992-2.24c0.624-0.575,1.469-0.844,2.313-0.783
+						l17.809,1.751c1.554,0.146,2.729,1.444,2.729,2.998V396.042z M130.283,298.415c0,1.567-1.2,2.877-2.766,2.999l-17.81,1.469
+						c-0.073,0.013-0.159,0.013-0.245,0.013c-0.759,0-1.493-0.282-2.044-0.796c-0.625-0.575-0.979-1.383-0.979-2.228v-45.618
+						c0-1.371,0.93-2.57,2.252-2.913l17.809-4.688c0.906-0.232,1.873-0.037,2.607,0.539c0.734,0.563,1.175,1.444,1.175,2.375V298.415z
+						 M130.283,200.765c0,1.199-0.698,2.289-1.787,2.766l-17.809,7.882c-0.392,0.172-0.808,0.27-1.224,0.27
+						c-0.575,0-1.15-0.171-1.652-0.49c-0.857-0.563-1.371-1.518-1.371-2.534v-45.618c0-1.041,0.539-2.008,1.42-2.559l17.809-11.089
+						c0.931-0.587,2.105-0.612,3.06-0.085c0.955,0.539,1.555,1.542,1.555,2.644V200.765L130.283,200.765z M174.653,408.367
+						c0,0.942-0.441,1.836-1.188,2.399c-0.526,0.403-1.175,0.624-1.824,0.624c-0.269,0-0.539-0.037-0.808-0.11l-23.856-6.634
+						c-1.31-0.355-2.215-1.555-2.215-2.901v-52.521c0-0.845,0.355-1.665,0.991-2.24c0.625-0.562,1.469-0.832,2.313-0.759l23.868,2.325
+						c1.542,0.159,2.717,1.444,2.717,2.999V408.367z M174.653,294.743c0,1.579-1.2,2.877-2.767,3.011l-23.855,1.971
+						c-0.086,0-0.171,0.013-0.257,0.013c-0.759,0-1.481-0.294-2.044-0.808c-0.624-0.575-0.979-1.371-0.979-2.228v-52.51
+						c0-1.371,0.93-2.57,2.252-2.913L170.858,235c0.906-0.245,1.873-0.049,2.607,0.526c0.747,0.575,1.175,1.456,1.175,2.387v56.83
+						H174.653z M174.653,181.12c0,1.2-0.698,2.289-1.787,2.767l-23.856,10.563c-0.392,0.184-0.808,0.257-1.224,0.257
+						c-0.575,0-1.15-0.171-1.64-0.489c-0.856-0.551-1.371-1.506-1.371-2.534v-52.51c0-1.041,0.539-2.007,1.42-2.558l23.855-14.872
+						c0.93-0.587,2.105-0.612,3.06-0.086c0.955,0.539,1.555,1.542,1.555,2.644v56.818H174.653z M236.391,425.516
+						c0,0.894-0.343,1.75-0.979,2.362c-1.102,1.113-2.583,1.113-3.097,1.113c0,0,0,0-0.012,0c-5.949,0-29.033-8.311-33.587-9.963
+						c-1.199-0.429-1.983-1.566-1.983-2.84v-61.886c0-0.844,0.355-1.664,0.979-2.239c0.636-0.575,1.481-0.845,2.326-0.759l33.623,3.28
+						c1.542,0.159,2.729,1.456,2.729,2.998C236.391,358.244,236.367,422.614,236.391,425.516z M236.391,289.651
+						c0,1.566-1.211,2.877-2.778,2.999l-33.624,2.778c-0.085,0-0.171,0.013-0.245,0.013c-0.759,0-1.493-0.294-2.044-0.809
+						c-0.625-0.575-0.979-1.37-0.979-2.228v-61.885c0-1.359,0.918-2.57,2.252-2.913l33.623-8.837c0.906-0.245,1.861-0.049,2.607,0.526
+						s1.175,1.457,1.175,2.387v67.968H236.391z M236.391,153.776c0,1.199-0.71,2.276-1.799,2.754l-33.623,14.896
+						c-0.392,0.184-0.808,0.257-1.224,0.257c-0.575,0-1.15-0.171-1.652-0.489c-0.857-0.563-1.371-1.506-1.371-2.534v-61.874
+						c0-1.052,0.539-2.02,1.42-2.57l33.624-20.942c0.93-0.587,2.105-0.612,3.06-0.086c0.955,0.539,1.554,1.542,1.554,2.644v67.944
+						H236.391z M370.052,119.908c0-1.016,0.515-1.958,1.359-2.521c0.844-0.563,1.921-0.649,2.852-0.257l35.888,15.52
+						c1.102,0.478,1.823,1.567,1.823,2.778v53.599c0,0.955-0.452,1.86-1.224,2.423c-0.526,0.392-1.15,0.6-1.787,0.6
+						c-0.294,0-0.6-0.049-0.881-0.135l-35.888-11.028c-1.273-0.392-2.13-1.566-2.13-2.876v-58.103H370.052z M370.052,236.078
+						c0-0.894,0.392-1.75,1.077-2.313c0.686-0.575,1.604-0.808,2.473-0.649l35.9,6.536c1.432,0.27,2.472,1.506,2.472,2.962v54.1
+						c0,0.832-0.343,1.641-0.967,2.216c-0.562,0.526-1.297,0.808-2.056,0.808c-0.074,0-0.147-0.013-0.209-0.013l-35.887-2.558
+						c-1.579-0.11-2.804-1.42-2.804-2.999V236.078z M276.624,79.516c0-1.016,0.514-1.958,1.359-2.521
+						c0.844-0.551,1.921-0.649,2.852-0.245l50.98,22.044c1.102,0.478,1.823,1.567,1.823,2.779v63.391c0,0.955-0.452,1.861-1.224,2.424
+						c-0.526,0.392-1.163,0.6-1.787,0.6c-0.294,0-0.6-0.049-0.894-0.135l-50.979-15.667c-1.273-0.379-2.13-1.555-2.13-2.876V79.516
+						L276.624,79.516z M276.624,288.819v-69.768c0-0.894,0.392-1.75,1.077-2.313c0.686-0.575,1.591-0.808,2.473-0.649l50.979,9.291
+						c1.432,0.269,2.484,1.518,2.484,2.974v63.39c0,0.833-0.343,1.628-0.954,2.203c-0.563,0.526-1.31,0.82-2.068,0.82
+						c-0.062,0-0.123,0-0.172-0.012l-50.979-2.913C277.873,291.732,276.624,290.423,276.624,288.819z M376.086,497.475
+						c0,1.261-0.783,2.362-1.945,2.815l-66.721,25.361c-0.343,0.134-0.71,0.195-1.064,0.195c-0.601,0-1.212-0.184-1.714-0.526
+						c-0.82-0.563-1.298-1.493-1.298-2.484V356.764c0-1.592,1.225-2.901,2.815-3.012l66.721-4.517c0.844-0.061,1.652,0.245,2.264,0.809
+						c0.612,0.562,0.955,1.358,0.955,2.203v145.228H376.086z M456.491,466.898c0,1.261-0.771,2.375-1.946,2.815l-44.518,16.928
+						c-0.354,0.135-0.709,0.208-1.076,0.208c-0.601,0-1.2-0.195-1.714-0.538c-0.808-0.563-1.298-1.493-1.298-2.484V349.823
+						c0-1.591,1.225-2.9,2.815-3.011l44.517-3.012c0.845-0.061,1.652,0.233,2.265,0.796c0.612,0.563,0.955,1.371,0.955,2.203V466.898z
+						 M469.355,299.505c0,0.832-0.343,1.628-0.955,2.203c-0.563,0.526-1.31,0.82-2.068,0.82c-0.062,0-0.122,0-0.172,0l-26.634-1.53
+						c-1.591-0.098-2.84-1.408-2.84-3.011V248.22c0-0.894,0.404-1.75,1.077-2.326c0.698-0.575,1.604-0.796,2.484-0.649l26.622,4.859
+						c1.433,0.257,2.485,1.505,2.485,2.962V299.505L469.355,299.505z M469.355,206.652c0,0.955-0.453,1.861-1.225,2.424
+						c-0.526,0.392-1.162,0.6-1.787,0.6c-0.293,0-0.6-0.049-0.894-0.147l-26.622-8.176c-1.272-0.392-2.129-1.567-2.129-2.876v-49.768
+						c0-1.016,0.514-1.958,1.358-2.521s1.922-0.649,2.852-0.245l26.635,11.506c1.102,0.478,1.823,1.566,1.823,2.778v46.426H469.355z
+						 M522.574,382.112c0,1.444-1.027,2.693-2.447,2.962l-19.352,3.733c-0.196,0.037-0.38,0.049-0.563,0.049
+						c-0.697,0-1.383-0.244-1.922-0.697c-0.697-0.563-1.089-1.42-1.089-2.313v-42.191c0-1.591,1.224-2.9,2.815-3.011l19.352-1.31
+						c0.832-0.049,1.652,0.244,2.264,0.808c0.612,0.562,0.955,1.358,0.955,2.203v39.768H522.574z M522.574,302.564
+						c0,0.82-0.342,1.616-0.954,2.191c-0.563,0.526-1.298,0.819-2.068,0.819c-0.062,0-0.11,0-0.172,0l-19.352-1.113
+						c-1.591-0.098-2.839-1.407-2.839-3.011V259.26c0-0.893,0.392-1.738,1.076-2.313c0.686-0.575,1.592-0.808,2.473-0.661l19.34,3.525
+						c1.432,0.257,2.484,1.518,2.484,2.974v39.779H522.574z M555.292,375.797c0,1.444-1.028,2.692-2.448,2.962l-15.483,2.986
+						c-0.195,0.037-0.379,0.049-0.562,0.049c-0.698,0-1.384-0.244-1.922-0.697c-0.698-0.575-1.09-1.42-1.09-2.313v-37.626
+						c0-1.579,1.236-2.889,2.815-2.999l15.472-1.053c0.832-0.061,1.652,0.245,2.265,0.796c0.611,0.575,0.954,1.371,0.954,2.216V375.797
+						L555.292,375.797z M555.292,304.425c0,0.833-0.343,1.628-0.942,2.203c-0.562,0.526-1.297,0.82-2.068,0.82
+						c-0.062,0-0.11,0-0.172-0.012l-15.471-0.882c-1.592-0.086-2.84-1.407-2.84-3.011v-37.136c0-0.881,0.379-1.726,1.053-2.301
+						c0.661-0.575,1.542-0.82,2.411-0.698l15.483,2.338c1.481,0.22,2.559,1.494,2.559,2.987v35.691H555.292z"/>
+
+				</svg>
+		  	</div>
+		    <p class="flipper_description">3D тур <br><span>по объектам Института</span></p>
+		  </div>
+		 </div>
+		</a>
+	</div>
+
+	<div class="metro_title waves-effect">
+		<a href="/ansambl/" class="flip-container" ontouchstart="this.classList.toggle('hover');">
+		 <div class="flipper">
+		  <div class="front">
+		  	<div class="ico">
+		  		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					 viewBox="0 0 512 512"  xml:space="preserve">
+
+						<path d="M256,0c-72.487,0-131.459,58.973-131.459,131.459v110.703c0,72.487,58.973,131.459,131.459,131.459
+							s131.459-58.973,131.459-131.459V131.459C387.459,58.973,328.487,0,256,0z M345.946,207.568h-34.595
+							c-11.463,0-20.757,9.294-20.757,20.757s9.294,20.757,20.757,20.757h34.303c-3.548,46.372-42.389,83.027-89.654,83.027
+							s-86.106-36.655-89.654-83.027h34.303c11.463,0,20.757-9.294,20.757-20.757s-9.293-20.757-20.757-20.757h-34.595v-41.513h34.595
+							c11.463,0,20.757-9.294,20.757-20.757s-9.293-20.757-20.757-20.757h-34.303c3.548-46.372,42.389-83.027,89.654-83.027
+							s86.106,36.655,89.654,83.027h-34.303c-11.463,0-20.757,9.294-20.757,20.757s9.294,20.757,20.757,20.757h34.595V207.568z"/>
+
+						<path d="M449.73,186.349c-11.463,0-20.757,9.294-20.757,20.757v38.747c0,95.377-77.596,172.973-172.973,172.973
+							S83.027,341.23,83.027,245.853v-38.747c0-11.463-9.294-20.757-20.757-20.757s-20.757,9.293-20.757,20.757v38.747
+							c0,111.266,85.165,203.004,193.73,213.478v31.913c0,11.463,9.294,20.757,20.757,20.757s20.757-9.293,20.757-20.757v-31.911
+							c108.565-10.474,193.73-102.212,193.73-213.478v-38.747C470.487,195.642,461.193,186.349,449.73,186.349z"/>
+					
+				</svg>
+		  	</div>
+		    <p class="flipper_description">Ансамбль</p>
+		  </div>
+		  <div class="back">
+			<div class="ico">
+		  		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+
+						<path d="M256,0c-72.487,0-131.459,58.973-131.459,131.459v110.703c0,72.487,58.973,131.459,131.459,131.459
+							s131.459-58.973,131.459-131.459V131.459C387.459,58.973,328.487,0,256,0z M345.946,207.568h-34.595
+							c-11.463,0-20.757,9.294-20.757,20.757s9.294,20.757,20.757,20.757h34.303c-3.548,46.372-42.389,83.027-89.654,83.027
+							s-86.106-36.655-89.654-83.027h34.303c11.463,0,20.757-9.294,20.757-20.757s-9.293-20.757-20.757-20.757h-34.595v-41.513h34.595
+							c11.463,0,20.757-9.294,20.757-20.757s-9.293-20.757-20.757-20.757h-34.303c3.548-46.372,42.389-83.027,89.654-83.027
+							s86.106,36.655,89.654,83.027h-34.303c-11.463,0-20.757,9.294-20.757,20.757s9.294,20.757,20.757,20.757h34.595V207.568z"/>
+
+						<path d="M449.73,186.349c-11.463,0-20.757,9.294-20.757,20.757v38.747c0,95.377-77.596,172.973-172.973,172.973
+							S83.027,341.23,83.027,245.853v-38.747c0-11.463-9.294-20.757-20.757-20.757s-20.757,9.293-20.757,20.757v38.747
+							c0,111.266,85.165,203.004,193.73,213.478v31.913c0,11.463,9.294,20.757,20.757,20.757s20.757-9.293,20.757-20.757v-31.911
+							c108.565-10.474,193.73-102.212,193.73-213.478v-38.747C470.487,195.642,461.193,186.349,449.73,186.349z"/>
+					
+				</svg>
+		  	</div>
+		    <p class="flipper_description">Ансамбль<br><span>Института пораничной службы</span></p>
+		  </div>
+		 </div>
+		</a>
+	</div>
+
+	<div class="metro_title waves-effect">
+		<a href="/doska-pocheta/" class="flip-container" ontouchstart="this.classList.toggle('hover');">
+		 <div class="flipper">
+		  <div class="front">
+		  	<div class="ico">
+				<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 494.158 494.158" xml:space="preserve">
+
+					<path d="M405.442,452.373l-58.239-165.418c-6.056,1.895-12.316,3.218-18.831,3.218c-3.757,0-7.467-0.327-11.126-0.987
+						c-4.319,13.567-13.049,25.125-24.612,32.975l-26.599,75.509l32.521,92.331c0.889,2.481,3.217,4.151,5.862,4.157
+						c2.618,0.018,4.962-1.619,5.878-4.092l22.006-60.362c0.627-1.75,2.01-3.122,3.757-3.739c1.765-0.621,3.71-0.418,5.298,0.543
+						l54.985,33.263c2.265,1.349,5.121,1.158,7.159-0.503C405.539,457.606,406.312,454.851,405.442,452.373z"/>
+					<path d="M174.833,320.147c-10.659,0-21.237-2.729-30.565-7.891c-0.899-0.498-1.684-1.115-2.549-1.645l-36.314,103.088
+						c-0.871,2.473-0.079,5.233,1.958,6.895c1.138,0.925,2.521,1.397,3.932,1.397c1.11,0,2.215-0.296,3.211-0.899l54.983-33.254
+						c0.996-0.595,2.118-0.899,3.243-0.899c0.689,0,1.379,0.12,2.056,0.353c1.746,0.618,3.146,1.992,3.772,3.742l21.99,60.36
+						c0.898,2.464,3.243,4.094,5.861,4.094c0,0,0.017,0,0.033,0c2.63-0.017,4.957-1.679,5.845-4.157l41.754-118.565
+						c-17.739-0.856-34.241-8.9-45.498-22.353C198.53,316.744,186.892,320.147,174.833,320.147z"/>
+					<path d="M364.172,119.262c-6.629-2.009-11.944-6.951-14.432-13.396c-2.475-6.448-1.85-13.678,1.713-19.603l0.018-0.025
+						c6.795-11.268,5.543-25.628-3.097-35.55c-5.89-6.758-14.289-10.403-22.876-10.403c-4.013,0-8.076,0.796-11.929,2.45
+						c-2.823,1.212-5.827,1.813-8.814,1.813c-3.757,0-7.479-0.939-10.853-2.8c-6.032-3.341-10.209-9.296-11.268-16.119l-0.018-0.023
+						c-2.037-12.995-12.229-23.19-25.222-25.236C255.806,0.12,254.236,0,252.659,0c-11.284,0-21.813,6.316-27.031,16.64
+						c-3.129,6.18-8.928,10.562-15.701,11.879c-1.427,0.282-2.856,0.415-4.285,0.415c-5.366,0-10.596-1.926-14.722-5.514
+						c-5.668-4.934-12.782-7.472-19.94-7.472c-5.378,0-10.784,1.428-15.621,4.342c-11.268,6.783-16.867,20.06-13.869,32.896
+						c1.576,6.726-0.033,13.805-4.381,19.175c-4.27,5.272-10.676,8.314-17.438,8.314c-0.143,0-0.273,0-0.415,0
+						c-0.193,0-0.387-0.006-0.575-0.006c-12.924,0-24.452,8.209-28.676,20.467c-4.268,12.44-0.028,26.214,10.5,34.104l0.033,0.026
+						c5.537,4.14,8.844,10.602,8.958,17.505c0.131,6.903-2.937,13.484-8.332,17.843c-10.243,8.269-13.965,22.186-9.247,34.461
+						c4.513,11.749,15.799,19.423,28.289,19.423c0.558,0,1.139-0.014,1.701-0.048c0.416-0.023,0.814-0.031,1.219-0.031
+						c6.47,0,12.634,2.794,16.901,7.691c4.529,5.208,6.339,12.592,5.02,19.375c-2.511,12.909,3.618,25.64,15.132,32.005
+						c4.592,2.543,9.629,3.778,14.653,3.778c7.529,0,14.995-2.808,20.761-8.218c4.188-3.926,9.662-6.061,15.313-6.061
+						c1.173,0,2.327,0.089,3.5,0.273c6.823,1.067,12.765,5.233,16.1,11.285l0.017,0.022c5.412,9.777,15.667,15.652,26.536,15.652
+						c1.929,0,3.87-0.185,5.811-0.56c12.907-2.53,22.718-13.092,24.294-26.161c0.813-6.869,4.764-12.969,10.67-16.535
+						c3.534-2.125,7.529-3.209,11.564-3.209c2.708,0,5.441,0.498,8.041,1.5l0.028,0.009c3.551,1.366,7.245,2.032,10.904,2.032
+						c8.956,0,17.692-3.989,23.564-11.254c8.287-10.235,9.009-24.627,1.8-35.665c-3.791-5.788-4.69-12.986-2.442-19.519
+						c2.247-6.536,7.387-11.672,13.919-13.911c12.459-4.271,20.727-16.077,20.488-29.234
+						C385.455,134.558,376.755,123.066,364.172,119.262z M237.057,242.328c-50.854,0-92.242-41.372-92.242-92.228
+						c0-50.859,41.389-92.236,92.242-92.236c50.858,0,92.23,41.377,92.23,92.236C329.287,200.956,287.915,242.328,237.057,242.328z"/>
+					<path d="M237.057,90.742c-32.734,0-59.367,26.625-59.367,59.358c0,32.725,26.633,59.35,59.367,59.35s59.35-26.625,59.35-59.35
+						C296.406,117.367,269.791,90.742,237.057,90.742z"/>
+
+					<path d="M284.572,27.417h-3.719v-3.536h3.719V27.417z M281.337,26.934h2.75v-2.569h-2.75V26.934z"/>
+
+				</svg>
+		  	</div>
+		    <p class="flipper_description">Доска почёта</p>
+		  </div>
+		  <div class="back">
+			<div class="ico">
+				<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 494.158 494.158" xml:space="preserve">
+
+					<path d="M405.442,452.373l-58.239-165.418c-6.056,1.895-12.316,3.218-18.831,3.218c-3.757,0-7.467-0.327-11.126-0.987
+						c-4.319,13.567-13.049,25.125-24.612,32.975l-26.599,75.509l32.521,92.331c0.889,2.481,3.217,4.151,5.862,4.157
+						c2.618,0.018,4.962-1.619,5.878-4.092l22.006-60.362c0.627-1.75,2.01-3.122,3.757-3.739c1.765-0.621,3.71-0.418,5.298,0.543
+						l54.985,33.263c2.265,1.349,5.121,1.158,7.159-0.503C405.539,457.606,406.312,454.851,405.442,452.373z"/>
+					<path d="M174.833,320.147c-10.659,0-21.237-2.729-30.565-7.891c-0.899-0.498-1.684-1.115-2.549-1.645l-36.314,103.088
+						c-0.871,2.473-0.079,5.233,1.958,6.895c1.138,0.925,2.521,1.397,3.932,1.397c1.11,0,2.215-0.296,3.211-0.899l54.983-33.254
+						c0.996-0.595,2.118-0.899,3.243-0.899c0.689,0,1.379,0.12,2.056,0.353c1.746,0.618,3.146,1.992,3.772,3.742l21.99,60.36
+						c0.898,2.464,3.243,4.094,5.861,4.094c0,0,0.017,0,0.033,0c2.63-0.017,4.957-1.679,5.845-4.157l41.754-118.565
+						c-17.739-0.856-34.241-8.9-45.498-22.353C198.53,316.744,186.892,320.147,174.833,320.147z"/>
+					<path d="M364.172,119.262c-6.629-2.009-11.944-6.951-14.432-13.396c-2.475-6.448-1.85-13.678,1.713-19.603l0.018-0.025
+						c6.795-11.268,5.543-25.628-3.097-35.55c-5.89-6.758-14.289-10.403-22.876-10.403c-4.013,0-8.076,0.796-11.929,2.45
+						c-2.823,1.212-5.827,1.813-8.814,1.813c-3.757,0-7.479-0.939-10.853-2.8c-6.032-3.341-10.209-9.296-11.268-16.119l-0.018-0.023
+						c-2.037-12.995-12.229-23.19-25.222-25.236C255.806,0.12,254.236,0,252.659,0c-11.284,0-21.813,6.316-27.031,16.64
+						c-3.129,6.18-8.928,10.562-15.701,11.879c-1.427,0.282-2.856,0.415-4.285,0.415c-5.366,0-10.596-1.926-14.722-5.514
+						c-5.668-4.934-12.782-7.472-19.94-7.472c-5.378,0-10.784,1.428-15.621,4.342c-11.268,6.783-16.867,20.06-13.869,32.896
+						c1.576,6.726-0.033,13.805-4.381,19.175c-4.27,5.272-10.676,8.314-17.438,8.314c-0.143,0-0.273,0-0.415,0
+						c-0.193,0-0.387-0.006-0.575-0.006c-12.924,0-24.452,8.209-28.676,20.467c-4.268,12.44-0.028,26.214,10.5,34.104l0.033,0.026
+						c5.537,4.14,8.844,10.602,8.958,17.505c0.131,6.903-2.937,13.484-8.332,17.843c-10.243,8.269-13.965,22.186-9.247,34.461
+						c4.513,11.749,15.799,19.423,28.289,19.423c0.558,0,1.139-0.014,1.701-0.048c0.416-0.023,0.814-0.031,1.219-0.031
+						c6.47,0,12.634,2.794,16.901,7.691c4.529,5.208,6.339,12.592,5.02,19.375c-2.511,12.909,3.618,25.64,15.132,32.005
+						c4.592,2.543,9.629,3.778,14.653,3.778c7.529,0,14.995-2.808,20.761-8.218c4.188-3.926,9.662-6.061,15.313-6.061
+						c1.173,0,2.327,0.089,3.5,0.273c6.823,1.067,12.765,5.233,16.1,11.285l0.017,0.022c5.412,9.777,15.667,15.652,26.536,15.652
+						c1.929,0,3.87-0.185,5.811-0.56c12.907-2.53,22.718-13.092,24.294-26.161c0.813-6.869,4.764-12.969,10.67-16.535
+						c3.534-2.125,7.529-3.209,11.564-3.209c2.708,0,5.441,0.498,8.041,1.5l0.028,0.009c3.551,1.366,7.245,2.032,10.904,2.032
+						c8.956,0,17.692-3.989,23.564-11.254c8.287-10.235,9.009-24.627,1.8-35.665c-3.791-5.788-4.69-12.986-2.442-19.519
+						c2.247-6.536,7.387-11.672,13.919-13.911c12.459-4.271,20.727-16.077,20.488-29.234
+						C385.455,134.558,376.755,123.066,364.172,119.262z M237.057,242.328c-50.854,0-92.242-41.372-92.242-92.228
+						c0-50.859,41.389-92.236,92.242-92.236c50.858,0,92.23,41.377,92.23,92.236C329.287,200.956,287.915,242.328,237.057,242.328z"/>
+					<path d="M237.057,90.742c-32.734,0-59.367,26.625-59.367,59.358c0,32.725,26.633,59.35,59.367,59.35s59.35-26.625,59.35-59.35
+						C296.406,117.367,269.791,90.742,237.057,90.742z"/>
+
+					<path d="M284.572,27.417h-3.719v-3.536h3.719V27.417z M281.337,26.934h2.75v-2.569h-2.75V26.934z"/>
+
+				</svg>
+		  	</div>
+		    <p class="flipper_description">Доска почёта<br><span>Они достигли лучших результатов</span></p>
+		  </div>
+		 </div>
+		</a>
+	</div>
+
+</div>
+ </a>
+<div>
+
+     <a href="/registracia-ips/"><img id="logo-mobile" class="hiden-xs hiden-sm" src="/upload/companiya2022/priem-2022-mob.jpg" width="100%" height="auto" alt="ЭЛЕКТРОННАЯ РЕГИСТРАЦИЯ АБИТУРИЕНТА"></a>
+     <a href="/registracia-ips/"><img id="logo-desk" class="hiden-xs hiden-sm" src="/upload/companiya2022/priem-2022-desk.jpg" width="100%" height="auto" alt="ЭЛЕКТРОННАЯ РЕГИСТРАЦИЯ АБИТУРИЕНТА"></a>
+
+<!-- 	<a href="/priyomnaya-kampaniya/"><img id="logo-mobile" class="hiden-xs hiden-sm" src="/upload/companiya2022/CKA-mob.jpg" width="100%" height="auto" alt="ЦИФРОВОЙ КАБИНЕТ АБИТУРИЕНТА"></a>
+	<a href="/priyomnaya-kampaniya/"><img id="logo-desk" class="hiden-xs hiden-sm" src="/upload/companiya2022/CKA-desktop.jpg" width="100%" height="auto" alt="ЦИФРОВОЙ КАБИНЕТ АБИТУРИЕНТА"></a> -->
+	<p><br></p>
+</div>
+	</div>
+</div>
+
+								   
+					
+
+
+
+			
+			
+
+			
+
+
+<div class="container">
+
+
+    <div class="row">
+    <div class="col-md-9">
+        <div id="comp_769b6c03d12890fa1cd7f968307d2e66">
+	<div class="post_wrapper">
+						
+			<figure class="post" id="bx_3218110189_18668">
+									<div class="post_img_wpapper">
+						<a href="/news/veronika-makoed-golos-molodezhi-vektor-na-budushchee/">
+							<img class="post_img" alt="Вероника Макоед: «Голос молодежи: вектор на будущее»" title="Вероника Макоед: «Голос молодежи: вектор на будущее»" src="/upload/resize_cache/iblock/b7c/apn0uine8uqur2q7goevd7p8aztc7dt3/350_235_238faed7ccd6432488c25d5e2198f3fde/photo_8_2026_01_13_11_48_58.jpg" />							<div class="mask waves-effect waves-light"></div>
+						</a>
+					</div>	
+							
+				<figcaption class="post_content">
+											<small class="post_data">
+							<i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+							<span>13.01.2026</span>
+						</small>
+										<small class="post_data">
+						<i class="fa fa-eye" aria-hidden="true"></i><span>419</span>
+					</small>
+						
+											<small class="post_data green">
+							<i class="fa fa-picture-o" aria-hidden="true"></i><span>8</span>
+						</small>
+					                	<hr class="post_line">
+                    													<a href="/news/veronika-makoed-golos-molodezhi-vektor-na-budushchee/"><h4 class="post_title">Вероника Макоед: «Голос молодежи: вектор на будущее»</h4></a>
+																						<p class="post_description">Встреча делегата VII ВНС Вероники Макоед с военнослужащими учебного центра Института пограничной службы </p>
+					                </figcaption>		
+			</figure>
+						
+			<figure class="post" id="bx_3218110189_18667">
+									<div class="post_img_wpapper">
+						<a href="/news/v-institute-pogranichnoy-sluzhby-dan-start-novomu-uchebnomu-godu/">
+							<img class="post_img" alt="В Институте пограничной службы дан старт новому учебному году" title="В Институте пограничной службы дан старт новому учебному году" src="/upload/resize_cache/iblock/1d8/lwpj1fhokx2z5o96lmbuuif3a9ya5b0u/350_235_238faed7ccd6432488c25d5e2198f3fde/photo_3_2026_01_13_11_39_22.jpg" />							<div class="mask waves-effect waves-light"></div>
+						</a>
+					</div>	
+							
+				<figcaption class="post_content">
+											<small class="post_data">
+							<i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+							<span>12.01.2026</span>
+						</small>
+										<small class="post_data">
+						<i class="fa fa-eye" aria-hidden="true"></i><span>379</span>
+					</small>
+						
+											<small class="post_data green">
+							<i class="fa fa-picture-o" aria-hidden="true"></i><span>26</span>
+						</small>
+					                	<hr class="post_line">
+                    													<a href="/news/v-institute-pogranichnoy-sluzhby-dan-start-novomu-uchebnomu-godu/"><h4 class="post_title">В Институте пограничной службы дан старт новому учебному году</h4></a>
+																						<p class="post_description">Сегодня, 12 января, в Институте пограничной службы Республики Беларусь для постоянного состава начался новый учебный год. </p>
+					                </figcaption>		
+			</figure>
+						
+			<figure class="post" id="bx_3218110189_18666">
+									<div class="post_img_wpapper">
+						<a href="/news/v-institute-pogranichnoy-sluzhby-proshel-prazdnichnyy-novogodniy-utrennik-dlya-detey-sotrudnikov/">
+							<img class="post_img" alt="В Институте пограничной службы прошел праздничный новогодний утренник для детей сотрудников" title="В Институте пограничной службы прошел праздничный новогодний утренник для детей сотрудников" src="/upload/resize_cache/iblock/c9b/332wfqth28tc5xmq7f1a0onjnuy1wqu0/350_235_238faed7ccd6432488c25d5e2198f3fde/photo_6_2025_12_30_10_47_56.jpg" />							<div class="mask waves-effect waves-light"></div>
+						</a>
+					</div>	
+							
+				<figcaption class="post_content">
+											<small class="post_data">
+							<i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+							<span>29.12.2025</span>
+						</small>
+										<small class="post_data">
+						<i class="fa fa-eye" aria-hidden="true"></i><span>713</span>
+					</small>
+						
+											<small class="post_data green">
+							<i class="fa fa-picture-o" aria-hidden="true"></i><span>10</span>
+						</small>
+					                	<hr class="post_line">
+                    													<a href="/news/v-institute-pogranichnoy-sluzhby-proshel-prazdnichnyy-novogodniy-utrennik-dlya-detey-sotrudnikov/"><h4 class="post_title">В Институте пограничной службы прошел праздничный новогодний утренник для детей сотрудников</h4></a>
+																						<p class="post_description">Яркое и долгожданное событие для самых юных членов большой семьи Института пограничной службы состоялось накануне Нового года.</p>
+					                </figcaption>		
+			</figure>
+						
+			<figure class="post" id="bx_3218110189_18457">
+									<div class="post_img_wpapper">
+						<a href="/news/rznpk-aktualnye-problemy-obespecheniya-pogranichnoy-bezopasnosti/">
+							<img class="post_img" alt="РЗНПК «АКТУАЛЬНЫЕ ПРОБЛЕМЫ ОБЕСПЕЧЕНИЯ ПОГРАНИЧНОЙ БЕЗОПАСНОСТИ»" title="РЗНПК «АКТУАЛЬНЫЕ ПРОБЛЕМЫ ОБЕСПЕЧЕНИЯ ПОГРАНИЧНОЙ БЕЗОПАСНОСТИ»" src="/upload/resize_cache/iblock/1dd/buzk0npinsw6qs0aoii3p7ohqlk5eyvx/350_235_238faed7ccd6432488c25d5e2198f3fde/28.11.2025.JPG" />							<div class="mask waves-effect waves-light"></div>
+						</a>
+					</div>	
+							
+				<figcaption class="post_content">
+											<small class="post_data">
+							<i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+							<span>28.10.2025</span>
+						</small>
+										<small class="post_data">
+						<i class="fa fa-eye" aria-hidden="true"></i><span>4434</span>
+					</small>
+						
+					                	<hr class="post_line">
+                    													<a href="/news/rznpk-aktualnye-problemy-obespecheniya-pogranichnoy-bezopasnosti/"><h4 class="post_title">РЗНПК «АКТУАЛЬНЫЕ ПРОБЛЕМЫ ОБЕСПЕЧЕНИЯ ПОГРАНИЧНОЙ БЕЗОПАСНОСТИ»</h4></a>
+																						<p class="post_description">Приглашаем вас принять участие в РЗНПК «АКТУАЛЬНЫЕ ПРОБЛЕМЫ ОБЕСПЕЧЕНИЯ ПОГРАНИЧНОЙ БЕЗОПАСНОСТИ»<br />
+</p>
+					                </figcaption>		
+			</figure>
+						
+			<figure class="post" id="bx_3218110189_18665">
+									<div class="post_img_wpapper">
+						<a href="/news/pobediteli-konkursa-professionalnogo-masterstva/">
+							<img class="post_img" alt="Победители конкурса профессионального мастерства" title="Победители конкурса профессионального мастерства" src="/upload/resize_cache/iblock/b37/czj1w33gsvx7z3gf0024zetdqo90ogop/350_235_238faed7ccd6432488c25d5e2198f3fde/IMG_3642-_-kopiya.JPG" />							<div class="mask waves-effect waves-light"></div>
+						</a>
+					</div>	
+							
+				<figcaption class="post_content">
+											<small class="post_data">
+							<i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+							<span>03.10.2025</span>
+						</small>
+										<small class="post_data">
+						<i class="fa fa-eye" aria-hidden="true"></i><span>2623</span>
+					</small>
+						
+											<small class="post_data green">
+							<i class="fa fa-picture-o" aria-hidden="true"></i><span>20</span>
+						</small>
+					                	<hr class="post_line">
+                    													<a href="/news/pobediteli-konkursa-professionalnogo-masterstva/"><h4 class="post_title">Победители конкурса профессионального мастерства</h4></a>
+																						<p class="post_description">Cегодня в Институте пограничной службы состоялась церемония награждения победителей конкурса профессионального мастерства, а также праздничный концерт, посвященный Дню учителя.</p>
+					                </figcaption>		
+			</figure>
+						
+			<figure class="post" id="bx_3218110189_18382">
+									<div class="post_img_wpapper">
+						<a href="/news/den-otkrytykh-dverey/">
+							<img class="post_img" alt="День открытых дверей" title="День открытых дверей" src="/upload/resize_cache/iblock/0fc/g3cnxkdhx4ag0h9l1suk7xw9eujl0335/350_235_238faed7ccd6432488c25d5e2198f3fde/IPS_RB1.jpg" />							<div class="mask waves-effect waves-light"></div>
+						</a>
+					</div>	
+							
+				<figcaption class="post_content">
+											<small class="post_data">
+							<i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+							<span>08.09.2025</span>
+						</small>
+										<small class="post_data">
+						<i class="fa fa-eye" aria-hidden="true"></i><span>4910</span>
+					</small>
+						
+											<small class="post_data green">
+							<i class="fa fa-picture-o" aria-hidden="true"></i><span>3</span>
+						</small>
+					                	<hr class="post_line">
+                    													<a href="/news/den-otkrytykh-dverey/"><h4 class="post_title">День открытых дверей</h4></a>
+																						<p class="post_description">27 сентября в 11.00 в Институте пограничной службы Республики Беларусь, по адресу: г. Минск, ул. Славинского,4, состоится День открытых дверей.<br />
+</p>
+					                </figcaption>		
+			</figure>
+							
+
+<nav class="pagination-nav">
+   <ul class="pagination">
+                                                   <li class="active"><span>1</span></li>
+                                                            <li><a href="/?PAGEN_1=2" onclick="BX.ajax.insertToNode('/?PAGEN_1=2&amp;bxajaxid=769b6c03d12890fa1cd7f968307d2e66', 'comp_769b6c03d12890fa1cd7f968307d2e66'); return false;"  >2</a></li>
+                                                            <li><a href="/?PAGEN_1=3" onclick="BX.ajax.insertToNode('/?PAGEN_1=3&amp;bxajaxid=769b6c03d12890fa1cd7f968307d2e66', 'comp_769b6c03d12890fa1cd7f968307d2e66'); return false;"  >3</a></li>
+                                                            <li><a href="/?PAGEN_1=4" onclick="BX.ajax.insertToNode('/?PAGEN_1=4&amp;bxajaxid=769b6c03d12890fa1cd7f968307d2e66', 'comp_769b6c03d12890fa1cd7f968307d2e66'); return false;"  >4</a></li>
+                                                            <li><a href="/?PAGEN_1=5" onclick="BX.ajax.insertToNode('/?PAGEN_1=5&amp;bxajaxid=769b6c03d12890fa1cd7f968307d2e66', 'comp_769b6c03d12890fa1cd7f968307d2e66'); return false;"  >5</a></li>
+                                                                                       <li><a href="/?PAGEN_1=47" onclick="BX.ajax.insertToNode('/?PAGEN_1=47&amp;bxajaxid=769b6c03d12890fa1cd7f968307d2e66', 'comp_769b6c03d12890fa1cd7f968307d2e66'); return false;"  >...</a></li>
+                              <li><a href="/?PAGEN_1=88" onclick="BX.ajax.insertToNode('/?PAGEN_1=88&amp;bxajaxid=769b6c03d12890fa1cd7f968307d2e66', 'comp_769b6c03d12890fa1cd7f968307d2e66'); return false;"  >88</a></li>
+                        <li><a href="/?PAGEN_1=2" onclick="BX.ajax.insertToNode('/?PAGEN_1=2&amp;bxajaxid=769b6c03d12890fa1cd7f968307d2e66', 'comp_769b6c03d12890fa1cd7f968307d2e66'); return false;"  class="modern-page-next" >След.</a></li>
+                        </ul>
+</nav>			</div>
+
+	
+
+</div>    </div>
+
+    <div class="col-lg-3 col-md-3">
+        <aside class="sidebar">
+            <section id="fixed">
+                
+
+
+				                
+                
+
+
+
+
+
+
+
+
+                
+                
+		<li class="title-li" style="list-style-type: none; padding: 10px;"><a >Сертификаты</a></li>
+
+		<div class="swiper-container sertificate">
+		        <div class="swiper-wrapper">
+
+											
+					<div class="swiper-slide">
+
+						<a href="/upload/iblock/190/rhao02w5bjndghl9e5fga6433nkx5296/44.png" data-fancybox="gallery">
+
+																										<img
+										src="/upload/iblock/190/rhao02w5bjndghl9e5fga6433nkx5296/44.png"
+										alt="8"
+										title="8"
+										class="img-responsive"
+										>
+																
+						</a>
+					</div>
+
+											
+					<div class="swiper-slide">
+
+						<a href="/upload/iblock/6db/ug8gih8ayguwtuau4ud2az1fl97n2mq3/33.png" data-fancybox="gallery">
+
+																										<img
+										src="/upload/iblock/6db/ug8gih8ayguwtuau4ud2az1fl97n2mq3/33.png"
+										alt="7"
+										title="7"
+										class="img-responsive"
+										>
+																
+						</a>
+					</div>
+
+											
+					<div class="swiper-slide">
+
+						<a href="/upload/iblock/3b9/f8w3ckfke8et539zxtp83vx0xndim9gt/22.png" data-fancybox="gallery">
+
+																										<img
+										src="/upload/iblock/3b9/f8w3ckfke8et539zxtp83vx0xndim9gt/22.png"
+										alt="6"
+										title="6"
+										class="img-responsive"
+										>
+																
+						</a>
+					</div>
+
+											
+					<div class="swiper-slide">
+
+						<a href="/upload/iblock/f47/1tx7putkbvv6525knvfij6sg1ux28bmb/11.png" data-fancybox="gallery">
+
+																										<img
+										src="/upload/iblock/f47/1tx7putkbvv6525knvfij6sg1ux28bmb/11.png"
+										alt="5"
+										title="5"
+										class="img-responsive"
+										>
+																
+						</a>
+					</div>
+
+					
+
+
+				</div>
+		</div>
+
+                <div class="gpk">
+	<ul class="nav nav-pills nav-stacked">
+		<li class="title-li"><a>Новости русская версия</a></li>
+								<li>
+						<a href="https://gpk.gov.by/news/gpk/170689/" class="news-gpk row" target="_blank">
+															<div class="col-md-4 gpk-img">
+										<img
+										class="img-responsive"
+										src="https://gpk.gov.by/upload/iblock/ec2/spoewlcqn3yhosm2vx56vrkndeaqu6fg.JPG"
+										alt="https://gpk.gov.by/upload/iblock/ec2/spoewlcqn3yhosm2vx56vrkndeaqu6fg.JPG"
+										title=""
+										>
+								</div>
+												
+															
+
+								<div class="col-md-8">
+									<p class="gpk-text">На расширенной коллегии подведены итоги работы пог...</p>
+								</div>
+							
+							
+					
+						</a>
+					</li>
+									<li>
+						<a href="https://gpk.gov.by/news/gpk/170660/" class="news-gpk row" target="_blank">
+															<div class="col-md-4 gpk-img">
+										<img
+										class="img-responsive"
+										src="https://gpk.gov.by/upload/sprint.editor/f5c/jaewptvtm5yy2s25imqmvkw3nkbtr6me.jpg"
+										alt="https://gpk.gov.by/upload/sprint.editor/f5c/jaewptvtm5yy2s25imqmvkw3nkbtr6me.jpg"
+										title=""
+										>
+								</div>
+												
+															
+
+								<div class="col-md-8">
+									<p class="gpk-text">С начала года Беларусь посетило около 8 тысяч инос...</p>
+								</div>
+							
+							
+					
+						</a>
+					</li>
+									<li>
+						<a href="https://gpk.gov.by/news/gpk/170598/" class="news-gpk row" target="_blank">
+															<div class="col-md-4 gpk-img">
+										<img
+										class="img-responsive"
+										src="https://gpk.gov.by/upload/iblock/da0/dt1hio7cnuhtx389tp1ocn2kkdozdaz0.JPG"
+										alt="https://gpk.gov.by/upload/iblock/da0/dt1hio7cnuhtx389tp1ocn2kkdozdaz0.JPG"
+										title=""
+										>
+								</div>
+												
+															
+
+								<div class="col-md-8">
+									<p class="gpk-text">В Минске состоялось заседание Государственной погр...</p>
+								</div>
+							
+							
+					
+						</a>
+					</li>
+									<li>
+						<a href="https://gpk.gov.by/news/gpk/170568/" class="news-gpk row" target="_blank">
+															<div class="col-md-4 gpk-img">
+										<img
+										class="img-responsive"
+										src="https://gpk.gov.by/upload/iblock/8a3/381ih6qivnpx6kjn6tpr1zokqkzif4gu.jpg"
+										alt="https://gpk.gov.by/upload/iblock/8a3/381ih6qivnpx6kjn6tpr1zokqkzif4gu.jpg"
+										title=""
+										>
+								</div>
+												
+															
+
+								<div class="col-md-8">
+									<p class="gpk-text">С начала года Беларусь посетило более 5 тысяч инос...</p>
+								</div>
+							
+							
+					
+						</a>
+					</li>
+									<li>
+						<a href="https://gpk.gov.by/news/gpk/170542/" class="news-gpk row" target="_blank">
+															<div class="col-md-4 gpk-img">
+										<img
+										class="img-responsive"
+										src="https://gpk.gov.by/upload/iblock/eca/c9xormqxoiy6s1urg7ear6q2h28vsf5q.jpg"
+										alt="https://gpk.gov.by/upload/iblock/eca/c9xormqxoiy6s1urg7ear6q2h28vsf5q.jpg"
+										title=""
+										>
+								</div>
+												
+															
+
+								<div class="col-md-8">
+									<p class="gpk-text">Молодежь выбирает свой вектор развития!</p>
+								</div>
+							
+							
+					
+						</a>
+					</li>
+							
+		</ul>	
+	</div>
+
+            </section>
+        </aside>
+    </div>
+        <section class="smi-video" style="background-color: #FFF; margin-bottom: 10px;">
+        <div class="row">
+            <div class="col-md-7">
+                <ul class="video_ips">
+<li style="width: 100%; padding: 5px 0 5px 5px; font-size: 15px; text-transform: uppercase; text-align: center; margin-bottom: 15px;">Видеоролики о пограничной службе</li>
+	
+	<li style="display: inline-block; padding-right: 5px;" id="bx_3485106786_722">
+		 
+			<a data-fancybox href="https://www.youtube.com/watch?v=EJgsMXwLBAk&t=7s">
+				<table>
+					<tr>
+						<td style="width: 35%; padding-right: 10px;">
+							<img alt="Боевая подготовка курсантов Института пограничной службы" title="Боевая подготовка курсантов Института пограничной службы" src="/upload/resize_cache/iblock/3ef/100_55_2/44444.JPG" />						</td>
+						<td style="width: 65%;">
+							
+						
+								
+									Боевая подготовка курсантов Института пограничной службы									
+
+						
+														
+						</td>
+					</tr>
+				</table>
+
+			</a>
+		 
+	</li>
+
+	
+	<li style="display: inline-block; padding-right: 5px;" id="bx_3485106786_721">
+		 
+			<a data-fancybox href="https://www.youtube.com/watch?v=9vDHk78o6ug">
+				<table>
+					<tr>
+						<td style="width: 35%; padding-right: 10px;">
+							<img alt="Жизнь и будни Института" title="Жизнь и будни Института" src="/upload/resize_cache/iblock/27a/100_55_2/Snimok.JPG" />						</td>
+						<td style="width: 65%;">
+							
+						
+								
+									Жизнь и будни Института									
+
+						
+														
+						</td>
+					</tr>
+				</table>
+
+			</a>
+		 
+	</li>
+
+	
+	<li style="display: inline-block; padding-right: 5px;" id="bx_3485106786_720">
+		 
+			<a data-fancybox href="https://www.youtube.com/watch?v=uw_KjD_3FgI">
+				<table>
+					<tr>
+						<td style="width: 35%; padding-right: 10px;">
+							<img alt="Рукопашный бой курсантов-пограничников" title="Рукопашный бой курсантов-пограничников" src="/upload/resize_cache/iblock/c82/100_55_2/333333.JPG" />						</td>
+						<td style="width: 65%;">
+							
+						
+								
+									Рукопашный бой курсантов-пограничников									
+
+						
+														
+						</td>
+					</tr>
+				</table>
+
+			</a>
+		 
+	</li>
+
+	
+	<li style="display: inline-block; padding-right: 5px;" id="bx_3485106786_193">
+		 
+			<a data-fancybox href="https://www.youtube.com/watch?v=t4-DhTU-Ivw">
+				<table>
+					<tr>
+						<td style="width: 35%; padding-right: 10px;">
+							<img alt="В Минске состоялся юбилейный выпуск офицеров Института пограничной службы" title="В Минске состоялся юбилейный выпуск офицеров Института пограничной службы" src="/upload/resize_cache/iblock/6bf/100_55_2/6bf72d9ad12bd9b45107ad8908cbbdf2.jpg" />						</td>
+						<td style="width: 65%;">
+							
+						
+								
+									В Минске состоялся юбилейный выпуск офицеров Института пограничной службы									
+
+						
+														
+						</td>
+					</tr>
+				</table>
+
+			</a>
+		 
+	</li>
+
+	
+	<li style="display: inline-block; padding-right: 5px;" id="bx_3485106786_192">
+		 
+			<a data-fancybox href="https://www.youtube.com/watch?v=vwPg4QUaRZg">
+				<table>
+					<tr>
+						<td style="width: 35%; padding-right: 10px;">
+							<img alt="Песочное шоу &quot;Институт пограничной службы&quot;" title="Песочное шоу &quot;Институт пограничной службы&quot;" src="/upload/resize_cache/iblock/4da/100_55_2/4da11bfcce21e401b76a10ab699dfa64.jpg" />						</td>
+						<td style="width: 65%;">
+							
+						
+								
+									Песочное шоу &quot;Институт пограничной службы&quot;									
+
+						
+														
+						</td>
+					</tr>
+				</table>
+
+			</a>
+		 
+	</li>
+
+	
+	<li style="display: inline-block; padding-right: 5px;" id="bx_3485106786_190">
+		 
+			<a data-fancybox href="https://www.youtube.com/watch?v=XflD08XS_5M">
+				<table>
+					<tr>
+						<td style="width: 35%; padding-right: 10px;">
+							<img alt="Спектакль &quot;Дым над черной Ганчей&quot;" title="Спектакль &quot;Дым над черной Ганчей&quot;" src="/upload/resize_cache/iblock/b95/100_55_2/b9527ad7efb29e3961cea8f749c74910.jpg" />						</td>
+						<td style="width: 65%;">
+							
+						
+								
+									Спектакль &quot;Дым над черной Ганчей&quot;									
+
+						
+														
+						</td>
+					</tr>
+				</table>
+
+			</a>
+		 
+	</li>
+
+	
+	<li style="display: inline-block; padding-right: 5px;" id="bx_3485106786_189">
+		 
+			<a data-fancybox href="https://www.youtube.com/watch?v=L-7-GJDv484">
+				<table>
+					<tr>
+						<td style="width: 35%; padding-right: 10px;">
+							<img alt="Боевой расчет 21 июня 2016 года" title="Боевой расчет 21 июня 2016 года" src="/upload/resize_cache/iblock/4e5/100_55_2/4e50fdcceb34b7604212695c83e77aba.jpg" />						</td>
+						<td style="width: 65%;">
+							
+						
+								
+									Боевой расчет 21 июня 2016 года									
+
+						
+														
+						</td>
+					</tr>
+				</table>
+
+			</a>
+		 
+	</li>
+
+	
+	<li style="display: inline-block; padding-right: 5px;" id="bx_3485106786_187">
+		 
+			<a data-fancybox href="https://www.youtube.com/watch?v=i2sXPk5Zu74">
+				<table>
+					<tr>
+						<td style="width: 35%; padding-right: 10px;">
+							<img alt="Сацыяльны вiдэаролiк &quot;Пагранiчная служба Рэспублiкi Беларусь" title="Сацыяльны вiдэаролiк &quot;Пагранiчная служба Рэспублiкi Беларусь" src="/upload/resize_cache/iblock/b61/100_55_2/b6173791ddecda20966625faa81f694f.jpg" />						</td>
+						<td style="width: 65%;">
+							
+						
+								
+									Сацыяльны вiдэаролiк &quot;Пагранiчная служба Рэспублiкi Беларусь									
+
+						
+														
+						</td>
+					</tr>
+				</table>
+
+			</a>
+		 
+	</li>
+
+<div class="clearfix"></div>
+<li style="border-bottom: none; padding-top: 10px;"> 
+	<a style="margin-left: 5px;" href="https://www.youtube.com/channel/UCJUQWK-NB4pincyfdraY2cA/videos?shelf_id=0&sort=dd&view=0" target="_blank">Все видеоролики <i class="fa fa-share" aria-hidden="true"></i></a>
+</li>
+
+</ul>
+            </div>
+
+            <div class="col-md-5">
+                <ul class="video_ips">
+    <li style="width: 100%; padding: 5px 0 5px 5px; font-size: 15px; text-transform: uppercase; text-align: center; margin-bottom: 15px;">Наши фотоальбомы</li>
+                    <li style="display: inline-block; padding-right: 5px;" id="bx_3099439860_18459">
+            <div class="bx-newslist-block">
+                                                            <div class="bx-newslist-img">
+                                                            <a href="/fotogalereya/vypusk-2025/"><img
+                                            src="/upload/iblock/537/j4iwze1hjaobek3t6fywt4ph0vwcoryc/vypusk2025.JPG"
+                                            width="3648"
+                                            height="2432"
+                                            alt="Выпуск 2025"
+                                            title="Выпуск 2025"
+                                    /></a>
+                                                    </div>
+                                                                        <h3 class="bx-newslist-title">
+                                                    <a href="/fotogalereya/vypusk-2025/">Выпуск 2025</a>
+                                            </h3>
+                                                                                <div class="row bx-newslist-date-container">
+                                            <div class="col-xs-5">
+                            <div class="bx-newslist-date"><i class="fa fa-calendar-o"></i> 28.06.2025</div>
+                        </div>
+                                                        </div>
+                <div class="row bx-newslist-more-container">
+                    <div class="col-xs-5">
+                                                    <div class="bx-newslist-more"><a class="btn btn-primary btn-xs" href="/fotogalereya/vypusk-2025/">Подробнее</a></div>
+                                            </div>
+                                    </div>
+            </div>
+        </li>
+                    <li style="display: inline-block; padding-right: 5px;" id="bx_3099439860_18410">
+            <div class="bx-newslist-block">
+                                                            <div class="bx-newslist-img">
+                                                            <a href="/fotogalereya/na-granitse-chudes/"><img
+                                            src="/upload/iblock/b5f/x8ua9a5jv0sh7qwffuael3ddf0rwkn0w/nagranitsechudes.JPG"
+                                            width="1024"
+                                            height="683"
+                                            alt="На границе чудес"
+                                            title="На границе чудес"
+                                    /></a>
+                                                    </div>
+                                                                        <h3 class="bx-newslist-title">
+                                                    <a href="/fotogalereya/na-granitse-chudes/">На границе чудес</a>
+                                            </h3>
+                                                                                <div class="row bx-newslist-date-container">
+                                            <div class="col-xs-5">
+                            <div class="bx-newslist-date"><i class="fa fa-calendar-o"></i> 10.01.2025</div>
+                        </div>
+                                                        </div>
+                <div class="row bx-newslist-more-container">
+                    <div class="col-xs-5">
+                                                    <div class="bx-newslist-more"><a class="btn btn-primary btn-xs" href="/fotogalereya/na-granitse-chudes/">Подробнее</a></div>
+                                            </div>
+                                    </div>
+            </div>
+        </li>
+                    <li style="display: inline-block; padding-right: 5px;" id="bx_3099439860_18367">
+            <div class="bx-newslist-block">
+                                                            <div class="bx-newslist-img">
+                                                            <a href="/fotogalereya/prisyaga-2024/"><img
+                                            src="/upload/iblock/512/0kj9q07k5vmo3r5q5qrws5op15yb5lqr/prisyaga2024.JPG"
+                                            width="1024"
+                                            height="683"
+                                            alt="Присяга 2024"
+                                            title="Присяга 2024"
+                                    /></a>
+                                                    </div>
+                                                                        <h3 class="bx-newslist-title">
+                                                    <a href="/fotogalereya/prisyaga-2024/">Присяга 2024</a>
+                                            </h3>
+                                                                                <div class="row bx-newslist-date-container">
+                                            <div class="col-xs-5">
+                            <div class="bx-newslist-date"><i class="fa fa-calendar-o"></i> 31.08.2024</div>
+                        </div>
+                                                        </div>
+                <div class="row bx-newslist-more-container">
+                    <div class="col-xs-5">
+                                                    <div class="bx-newslist-more"><a class="btn btn-primary btn-xs" href="/fotogalereya/prisyaga-2024/">Подробнее</a></div>
+                                            </div>
+                                    </div>
+            </div>
+        </li>
+                    <li style="display: inline-block; padding-right: 5px;" id="bx_3099439860_18184">
+            <div class="bx-newslist-block">
+                                                            <div class="bx-newslist-img">
+                                                            <a href="/fotogalereya/vypusk-2024/"><img
+                                            src="/upload/iblock/6f7/xlmjyayu2o5sjiwv3z6766ldwo1dnphv/vypusk2024.JPG"
+                                            width="1024"
+                                            height="683"
+                                            alt="Выпуск 2024"
+                                            title="Выпуск 2024"
+                                    /></a>
+                                                    </div>
+                                                                        <h3 class="bx-newslist-title">
+                                                    <a href="/fotogalereya/vypusk-2024/">Выпуск 2024</a>
+                                            </h3>
+                                                    <div class="bx-newslist-content">
+                        Выпуск - 2024                    </div>
+                                                                <div class="row bx-newslist-date-container">
+                                            <div class="col-xs-5">
+                            <div class="bx-newslist-date"><i class="fa fa-calendar-o"></i> 29.06.2024</div>
+                        </div>
+                                                        </div>
+                <div class="row bx-newslist-more-container">
+                    <div class="col-xs-5">
+                                                    <div class="bx-newslist-more"><a class="btn btn-primary btn-xs" href="/fotogalereya/vypusk-2024/">Подробнее</a></div>
+                                            </div>
+                                    </div>
+            </div>
+        </li>
+                    <li style="display: inline-block; padding-right: 5px;" id="bx_3099439860_18156">
+            <div class="bx-newslist-block">
+                                                            <div class="bx-newslist-img">
+                                                            <a href="/fotogalereya/Prisyaga2023/"><img
+                                            src="/upload/iblock/5ba/x2i3209tuy91h9r0o44tzjoasehov5a9/prisyaga2023.png"
+                                            width="200"
+                                            height="133"
+                                            alt="ПРИСЯГА 2023"
+                                            title="ПРИСЯГА 2023"
+                                    /></a>
+                                                    </div>
+                                                                        <h3 class="bx-newslist-title">
+                                                    <a href="/fotogalereya/Prisyaga2023/">ПРИСЯГА 2023</a>
+                                            </h3>
+                                                                                <div class="row bx-newslist-date-container">
+                                            <div class="col-xs-5">
+                            <div class="bx-newslist-date"><i class="fa fa-calendar-o"></i> 26.08.2023</div>
+                        </div>
+                                                        </div>
+                <div class="row bx-newslist-more-container">
+                    <div class="col-xs-5">
+                                                    <div class="bx-newslist-more"><a class="btn btn-primary btn-xs" href="/fotogalereya/Prisyaga2023/">Подробнее</a></div>
+                                            </div>
+                                    </div>
+            </div>
+        </li>
+                    <li style="display: inline-block; padding-right: 5px;" id="bx_3099439860_17731">
+            <div class="bx-newslist-block">
+                                                            <div class="bx-newslist-img">
+                                                            <a href="/fotogalereya/Vipusk2023/"><img
+                                            src="/upload/iblock/5ba/yt0619pkjixd3uwz8eccihzso22fbt2o/vypusk2023.JPG"
+                                            width="1024"
+                                            height="683"
+                                            alt="ВЫПУСК 2023"
+                                            title="ВЫПУСК 2023"
+                                    /></a>
+                                                    </div>
+                                                                        <h3 class="bx-newslist-title">
+                                                    <a href="/fotogalereya/Vipusk2023/">ВЫПУСК 2023</a>
+                                            </h3>
+                                                                                <div class="row bx-newslist-date-container">
+                                            <div class="col-xs-5">
+                            <div class="bx-newslist-date"><i class="fa fa-calendar-o"></i> 24.06.2023</div>
+                        </div>
+                                                        </div>
+                <div class="row bx-newslist-more-container">
+                    <div class="col-xs-5">
+                                                    <div class="bx-newslist-more"><a class="btn btn-primary btn-xs" href="/fotogalereya/Vipusk2023/">Подробнее</a></div>
+                                            </div>
+                                    </div>
+            </div>
+        </li>
+                    <li style="display: inline-block; padding-right: 5px;" id="bx_3099439860_17729">
+            <div class="bx-newslist-block">
+                                                            <div class="bx-newslist-img">
+                                                            <a href="/fotogalereya/pogony-2023/"><img
+                                            src="/upload/iblock/faf/iyv4oouqda1dikkb2x33ksd26n5gmcke/pogony2023.JPG"
+                                            width="3648"
+                                            height="2432"
+                                            alt="ПОГОНЫ 2023"
+                                            title="ПОГОНЫ 2023"
+                                    /></a>
+                                                    </div>
+                                                                        <h3 class="bx-newslist-title">
+                                                    <a href="/fotogalereya/pogony-2023/">ПОГОНЫ 2023</a>
+                                            </h3>
+                                                                                <div class="row bx-newslist-date-container">
+                                            <div class="col-xs-5">
+                            <div class="bx-newslist-date"><i class="fa fa-calendar-o"></i> 23.06.2023</div>
+                        </div>
+                                                        </div>
+                <div class="row bx-newslist-more-container">
+                    <div class="col-xs-5">
+                                                    <div class="bx-newslist-more"><a class="btn btn-primary btn-xs" href="/fotogalereya/pogony-2023/">Подробнее</a></div>
+                                            </div>
+                                    </div>
+            </div>
+        </li>
+                    <li style="display: inline-block; padding-right: 5px;" id="bx_3099439860_17379">
+            <div class="bx-newslist-block">
+                                                            <div class="bx-newslist-img">
+                                                            <a href="/fotogalereya/30let/"><img
+                                            src="/upload/iblock/98c/ve2ogy928i5mohzcodueu8myd98rflnq/30letipsrb.JPG"
+                                            width="1024"
+                                            height="683"
+                                            alt="30 лет ИПС РБ"
+                                            title="30 лет ИПС РБ"
+                                    /></a>
+                                                    </div>
+                                                                        <h3 class="bx-newslist-title">
+                                                    <a href="/fotogalereya/30let/">30 лет ИПС РБ</a>
+                                            </h3>
+                                                                                <div class="row bx-newslist-date-container">
+                                            <div class="col-xs-5">
+                            <div class="bx-newslist-date"><i class="fa fa-calendar-o"></i> 05.05.2023</div>
+                        </div>
+                                                        </div>
+                <div class="row bx-newslist-more-container">
+                    <div class="col-xs-5">
+                                                    <div class="bx-newslist-more"><a class="btn btn-primary btn-xs" href="/fotogalereya/30let/">Подробнее</a></div>
+                                            </div>
+                                    </div>
+            </div>
+        </li>
+        
+    <div class="clearfix"></div>
+    <li style="border-bottom: none; padding-top: 10px;"> 
+        <a style="margin-left: 5px;" href="https://ips.gpk.gov.by/fotogalereya/" 
+            target="_blank">Все фотоальбомы <i class="fa fa-share" aria-hidden="true"></i></a>
+    </li>
+
+<!--<div class="row"></div>-->
+<!--
+	<br />--></ul>
+
+            </div>
+        </div>
+    </section>
+
+
+    <div class="row">
+        <div class="col-md-12">
+            
+
+<div class="swiper-container ban">
+        <div class="swiper-wrapper">
+			
+							
+			<div class="swiper-slide ban_item">
+     
+				<a href="https://www.belarus.by/ru/" id="bx_565502798_18428">
+
+																				<img
+								src="/upload/iblock/7e2/v2nwhfgi5t6o80b6rvq6p9j8ywumi2dy/BEARUS.jpg"
+								alt="Беларусь"
+								title="Беларусь"
+								class="img-responsive"
+								>					
+																		
+				</a>
+			</div>
+
+							
+			<div class="swiper-slide ban_item">
+     
+				<a href="https://studyinby.com/" id="bx_565502798_18427">
+
+																				<img
+								src="/upload/iblock/ee0/ik21qwi2v9t8l0h1152rift0srcuyzdb/STADI.jpg"
+								alt="Studyinby"
+								title="Studyinby"
+								class="img-responsive"
+								>					
+																		
+				</a>
+			</div>
+
+							
+			<div class="swiper-slide ban_item">
+     
+				<a href="https://export.by/" id="bx_565502798_18426">
+
+																				<img
+								src="/upload/iblock/973/cvbed12iy18xdhly05clmpg3mdicx3om/EKSPORT-BAY.jpg"
+								alt="Экспорт"
+								title="Экспорт"
+								class="img-responsive"
+								>					
+																		
+				</a>
+			</div>
+
+							
+			<div class="swiper-slide ban_item">
+     
+				<a href="https://www.pac.by" id="bx_565502798_815">
+
+																				<img
+								src="/upload/iblock/ada/zox32a6612kgmvfqcxv0igrwhnktplbi/auprb.jpg"
+								alt="Академия управления при Президенте Республики Беларусь"
+								title="Академия управления при Президенте Республики Беларусь"
+								class="img-responsive"
+								>					
+																		
+				</a>
+			</div>
+
+							
+			<div class="swiper-slide ban_item">
+     
+				<a href="http://president.gov.by/" id="bx_565502798_241">
+
+																				<img
+								src="/upload/iblock/b39/1v81spwpzigvjduzk394bulu1y0expc3/prb.JPG"
+								alt="сайт Президента"
+								title="сайт Президента"
+								class="img-responsive"
+								>					
+																		
+				</a>
+			</div>
+
+							
+			<div class="swiper-slide ban_item">
+     
+				<a href="http://pravo.by/" id="bx_565502798_240">
+
+																				<img
+								src="/upload/iblock/c4c/kgg90ct23uj84xf6xb4rp2xkiv5uojbd/pravo.jpg"
+								alt="Право"
+								title="Право"
+								class="img-responsive"
+								>					
+																		
+				</a>
+			</div>
+
+							
+			<div class="swiper-slide ban_item">
+     
+				<a href="https://pervadmin.gov.by/" id="bx_565502798_239">
+
+																				<img
+								src="/upload/iblock/c55/59kp0a91bor9yvuq8ou3w0vy1wfyau2x/perv.jpg"
+								alt="Первомайский район"
+								title="Первомайский район"
+								class="img-responsive"
+								>					
+																		
+				</a>
+			</div>
+
+							
+			<div class="swiper-slide ban_item">
+     
+				<a href="https://edu.gov.by" id="bx_565502798_238">
+
+																				<img
+								src="/upload/iblock/0ce/sw2559j9h2ocgvcj5ssgolp359sz4kqy/minobr.jpg"
+								alt="Образование"
+								title="Образование"
+								class="img-responsive"
+								>					
+																		
+				</a>
+			</div>
+
+							
+			<div class="swiper-slide ban_item">
+     
+				<a href="http://mgku.minsk.edu.by/" id="bx_565502798_237">
+
+																				<img
+								src="/upload/iblock/643/s0datl72lbc3cd777etspur20hdnsm9n/mgku.jpg"
+								alt="Кадеты"
+								title="Кадеты"
+								class="img-responsive"
+								>					
+																		
+				</a>
+			</div>
+
+							
+			<div class="swiper-slide ban_item">
+     
+				<a href="http://brsm.by/" id="bx_565502798_235">
+
+																				<img
+								src="/upload/iblock/25b/4yqdr9rocvt1v1kqng9ftkvxpxpg5huh/BRSM.jpg"
+								alt="брсм"
+								title="брсм"
+								class="img-responsive"
+								>					
+																		
+				</a>
+			</div>
+
+							
+			<div class="swiper-slide ban_item">
+     
+				<a href="https://www.abiturient.by/" id="bx_565502798_233">
+
+																				<img
+								src="/upload/iblock/bf6/q39zofi4j3om2t1one6aaayqoz2rgnpo/abitur.JPG"
+								alt="абитуриент"
+								title="абитуриент"
+								class="img-responsive"
+								>					
+																		
+				</a>
+			</div>
+
+			
+
+
+		</div>
+</div>
+
+        </div>
+    </div>
+
+    </div>
+								   
+				
+	</div>
+		
+<!-- footer -->
+		<footer id="sticky_finish">
+
+			<div class="container">
+	<div class="row">
+		 				<div class="col-md-7 col-xs-12">
+					<p>
+						 © 2011-2025 Государственное учреждение образования «Институт пограничной службы Республики Беларусь»
+					</p>
+					<p>
+						 220103, г. Минск, ул. Славинского, 4<br>
+					</p>
+					<p>
+						 Режим работы: пн-пт 8.00 - 17.00, обед 13.00 - 14.00
+					</p>
+					<p>
+ <a href="http://president.gov.by/">
+						Официальный интернет-портал Президента Республики Беларусь </a><br>
+					</p>
+					<p>
+ <a href="http://www.government.by/">
+						Правительство Республики Беларусь </a><br>
+					</p>
+					<p>
+ <a href="http://www.embassybel.ru/">
+						Сайт Посольства Республики Беларусь в Российской Федерации </a><br>
+					</p>
+					<p>
+ <a href="http://pravo.by/">
+						Национальный правовой Интернет-портал Республики Беларусь </a><br>
+					</p>
+					<p>
+ <a href="http://portal.gov.by/">
+						Единый портал электронных услуг </a><br>
+					</p>
+					<p>
+ <a href="https://www.economy.gov.by/ru/admin-procedury-ru">
+						Единый интернет-ресурс административных процедур </a><br>
+					</p>
+					 					<div class="social_button_wrapper_footer">
+						 
+
+<div class="social_button_wrapper">
+			<a href="https://vk.com/ips_rb" class="social_button" target="_blank"><i class="fa-brands fa-vk"></i></a>
+		
+			<a href="https://t.me/ips_rb" class="social_button" target="_blank"><i class="fa fa-paper-plane"></i></a>
+		
+			<a href="https://www.facebook.com/ipsRbBy/" class="social_button" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+		
+			<a href="https://www.youtube.com/IpsRB" class="social_button" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+		
+			<a href="https://ok.ru/ipsrb" class="social_button" target="_blank"><i class="fa-brands fa-odnoklassniki" aria-hidden="true"></i></a>
+		
+			<a href="https://www.tiktok.com/@ipsrb" class="social_button" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+		
+			<a href="https://www.instagram.com/ipsrb" class="social_button" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+		
+			<a href="https://twitter.com/Ipsrbby" class="social_button" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+		
+</div>
+
+					</div>
+				</div>
+				<div class="col-md-5 col-xs-12 iframe_maps">
+					  <iframe src="https://api-maps.yandex.ru/frame/v1/-/CZsbNVmW" width="100%" height="300" frameborder="0"></iframe> 				</div>
+			</div>
+		</div>
+ <br>
+	</div>
+</div>
+ <br>
+		</footer>	
+		<a href="#" class="scrollup">Наверх</a>
+	</div>
+	<script>if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script>(window.BX||top.BX).message({"JS_CORE_LOADING":"Загрузка...","JS_CORE_NO_DATA":"- Нет данных -","JS_CORE_WINDOW_CLOSE":"Закрыть","JS_CORE_WINDOW_EXPAND":"Развернуть","JS_CORE_WINDOW_NARROW":"Свернуть в окно","JS_CORE_WINDOW_SAVE":"Сохранить","JS_CORE_WINDOW_CANCEL":"Отменить","JS_CORE_WINDOW_CONTINUE":"Продолжить","JS_CORE_H":"ч","JS_CORE_M":"м","JS_CORE_S":"с","JSADM_AI_HIDE_EXTRA":"Скрыть лишние","JSADM_AI_ALL_NOTIF":"Показать все","JSADM_AUTH_REQ":"Требуется авторизация!","JS_CORE_WINDOW_AUTH":"Войти","JS_CORE_IMAGE_FULL":"Полный размер"});</script><script src="/bitrix/js/main/core/core.min.js?1769170408242882"></script><script>BX.Runtime.registerExtension({"name":"main.core","namespace":"BX","loaded":true});</script>
+<script>BX.setJSList(["\/bitrix\/js\/main\/core\/core_ajax.js","\/bitrix\/js\/main\/core\/core_promise.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/loadext\/loadext.js","\/bitrix\/js\/main\/loadext\/extension.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/includes\/js\/includes.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/ui\/polyfill\/closest\/js\/closest.js","\/bitrix\/js\/main\/polyfill\/fill\/main.polyfill.fill.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/core\/core.js","\/bitrix\/js\/main\/polyfill\/intersectionobserver\/js\/intersectionobserver.js","\/bitrix\/js\/main\/lazyload\/dist\/lazyload.bundle.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/parambag\/dist\/parambag.bundle.js"]);
+</script>
+<script>(window.BX||top.BX).message({"LANGUAGE_ID":"ru","FORMAT_DATE":"DD.MM.YYYY","FORMAT_DATETIME":"DD.MM.YYYY HH:MI:SS","COOKIE_PREFIX":"IPS_GPK_GOV_BY","SERVER_TZ_OFFSET":"0","UTF_MODE":"Y","SITE_ID":"s1","SITE_DIR":"\/","USER_ID":"","SERVER_TIME":1769647468,"USER_TZ_OFFSET":0,"USER_TZ_AUTO":"Y","bitrix_sessid":"d81e249bf31761854e4b83b513fc54ab"});</script><script src="//yastatic.net/share2/share.js"></script>
+<script>BX.setJSList(["\/local\/templates\/institut\/components\/bitrix\/news.list\/photo_ru\/script.js","\/local\/templates\/institut\/js\/jquery-1.8.3.min.js","\/local\/templates\/institut\/js\/libs.min.js","\/local\/templates\/institut\/js\/main.js","\/local\/templates\/institut\/libs\/jquery-cookies\/cookies.min.js"]);</script>
+<script>BX.setCSSList(["\/bitrix\/components\/bitrix\/system.pagenavigation\/templates\/bootstrap\/style.css","\/local\/templates\/institut\/components\/bitrix\/news.list\/news-list\/style.css","\/local\/templates\/institut\/components\/bitrix\/menu\/rightmenu\/style.css","\/local\/templates\/institut\/components\/bitrix\/news.list\/announce2\/style.css","\/local\/templates\/institut\/components\/bitrix\/news.list\/sertificate\/style.css","\/local\/templates\/institut\/components\/bitrix\/news.list\/video\/style.css","\/local\/templates\/institut\/components\/bitrix\/news.list\/photo_ru\/style.css","\/local\/templates\/institut\/components\/bitrix\/news.list\/photo_ru\/themes\/blue\/style.css","\/local\/templates\/institut\/components\/bitrix\/news.list\/banner_slider\/style.css","\/local\/templates\/institut\/css\/fontawesome6\/css\/all.min.css","\/local\/templates\/institut\/fonts\/fonts.css","\/local\/templates\/institut\/css\/main.css","\/local\/templates\/institut\/css\/custom.css","\/local\/templates\/institut\/components\/bitrix\/menu\/top_menu\/style.css","\/local\/templates\/institut\/components\/bitrix\/breadcrumb\/broadcrumbs\/style.css","\/local\/templates\/institut\/styles.css"]);</script>
+<script  src="/bitrix/cache/js/s1/institut/template_510c2e4191f9d0d173136280707c8850/template_510c2e4191f9d0d173136280707c8850_v1.js?1769170433351043"></script>
+<script  src="/bitrix/cache/js/s1/institut/page_f394614773ad67943a5a1a71d6e27962/page_f394614773ad67943a5a1a71d6e27962_v1.js?17691704333844"></script>
+
+<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		  ga('create', 'UA-24274695-1', 'auto');
+		  ga('send', 'pageview');
+		</script>
+</body>
+</html>

@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="ie ie8" lang="ru-RU"><![endif]-->
+<!--[if IE 9]><html class="ie ie9" lang="ru-RU"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="ru-RU">
+	<!--<![endif]-->
+	<head>
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+		<meta name="cmsmagazine" content="76c5fb8872e8328840d5f6d32da019af">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon-precomposed" href="/local/templates/subdomain/apple-touch-icon.png">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="/local/templates/.default/css/app.min.css?1743065616347192" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/.default/css/libs/bootstrap-datetimepicker.min.css?16267082109696" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/.default/css/libs/magnific-popup.min.css?16267082105198" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/subdomain/template_styles.css?1713294795685" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+
+<script type="text/javascript" src="/bitrix/js/main/core/core.js?1681297739487656"></script>
+
+<script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/core/core_promise.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/loadext/loadext.js','/bitrix/js/main/loadext/extension.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/includes/js/includes.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/ui/polyfill/closest/js/closest.js','/bitrix/js/main/polyfill/fill/main.polyfill.fill.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/core/core.js','/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js','/bitrix/js/main/lazyload/dist/lazyload.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','UTF_MODE':'Y','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1769647463','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'8a9c56d01f819aef5c253a594ae6d236'});</script>
+
+
+<script type="text/javascript" src="/bitrix/js/main/core/core_fx.js?162672210716888"></script>
+<script type="text/javascript" src="/local/modules/db.base/js/script.js"></script>
+
+
+
+<script type="text/javascript" src="/local/modules/db.base/js/db_js_tools.js?16267082061957"></script>
+<script type="text/javascript" src="/local/templates/.default/js/libs/modernizr-custom.min.js?162670820932264"></script>
+<script type="text/javascript" src="/local/templates/.default/js/libs/jquery-1.11.3.min.js?162670820995964"></script>
+<script type="text/javascript" src="/local/templates/.default/js/libs/jquery.touchSwipe.min.js?162670820967916"></script>
+<script type="text/javascript" src="/local/templates/.default/js/libs/jquery.formstyler.min.js?162670820956498"></script>
+<script type="text/javascript" src="/local/templates/.default/js/libs/moment.min.js?1626708209102004"></script>
+<script type="text/javascript" src="/local/templates/.default/js/libs/moment-ru.min.js?16267082096604"></script>
+<script type="text/javascript" src="/local/templates/.default/js/libs/bootstrap-datetimepicker.min.js?1626708209103985"></script>
+<script type="text/javascript" src="/local/templates/.default/js/libs/jquery.magnific-popup.min.js?162670821060407"></script>
+<script type="text/javascript" src="/local/templates/.default/js/script.js?1626708209545"></script>
+<script type="text/javascript" src="/local/templates/.default/js/libs/jquery.carouFredSel-6.2.1.min.js?162670821091090"></script>
+<script type="text/javascript" src="/local/templates/.default/js/app.min.js?162670821040526"></script>
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "373d8e1a2609c9f160f7e337e7547cfb"]); _ba.push(["host", "varb.mil.by"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+		<title>Военная академия Республики Беларусь — Военный информационный портал Министерства обороны Республики Беларусь</title>
+			</head>
+	<body class="ru js-off pm-close inner ">
+				<div id="db" class="g-wrap">
+			<div class="outer-bg pm-content">
+				<div class="g-wrapper">
+					<div class="g-wrapper_i">
+						<header class="g-header">
+                            <!-- mob-->
+							<div class="g-header_mob">
+								<div class="container">
+                                    <div class="header-mob">
+                                        <div class="b-color">
+                                            <div class="b-color__bg"></div>
+                                            <div class="header-mob__inner">
+                                                <div class="logo">
+                                                   <!-- <a href="https://varb.mil.by/"> -->
+                                                   <a href="http://www.mil.by/"> 
+                                                        
+
+
+<span itemscope="" itemtype="http://schema.org/Organization" class="logo__pic">
+    <span> 
+         <a href="https://www.mil.by/ru/"><img src="/local/templates/.default/images/ru_logo.png"
+         alt="Министерство обороны Республики Беларусь"
+         title="Министерство обороны Республики Беларусь"
+         itemprop="logo"></a>
+    </span>
+</span>
+  <a href="https://www.mil.by/ru/"><span class="logo__text">Военный информационный портал</span></a>										            </a>									            </div>
+                                                <div class="hamb pm-opener closed">
+                                                    <button id="seo-hamburger" class="hamb__btn"></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="b-color">
+                                        <div class="b-color__bg b-color__bg--grey"></div>
+                                        <div class="b-color__wrap">
+                                            <div class="header-mob-bot">
+                                                <div class="menu-bot menu-bot--2">
+                                                    <ul class="menu-bot__list list-reset row">
+                                                        <li class="menu-bot__item col-sm-2 col-xs-12"><a href="https://www.mil.by/ru/el_reception/" class="menu-bot__link"><span class="menu-bot__pic"><span class="menu-bot__img"></span></span><span class="menu-bot__text">Электронное обращение</span></a></li>
+                                                    </ul>
+                                                </div>
+                                                                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- top menu-->
+                            <div class="g-header_i">
+                                <div class="container">
+                                    <div class="header-top">
+                                                                                <div class="special-btn">
+                                            <a href="/special/" class="special-btn__link">
+                                                <div class="special-btn__text"><span>Версия для слабовидящих</span>
+                                                    <div class="special-btn__icon"></div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="header-main">
+                                        <div class="b-color">
+                                            <div class="b-color__bg"></div>
+                                            <div class="header-main__inner">
+                                                <div class="logo">
+                                                    <!--<a href="https://varb.mil.by/"> -->
+                                                    <a href="http://www.mil.by/">                                                        
+
+
+<span itemscope="" itemtype="http://schema.org/Organization" class="logo__pic">
+    <span> 
+         <a href="https://www.mil.by/ru/"><img src="/local/templates/.default/images/ru_logo.png"
+         alt="Министерство обороны Республики Беларусь"
+         title="Министерство обороны Республики Беларусь"
+         itemprop="logo"></a>
+    </span>
+</span>
+  <a href="https://www.mil.by/ru/"><span class="logo__text">Военный информационный портал</span></a>                                                    </a>                                                </div>
+                                                
+                   <div class="sl-header">
+    <div class="sl-header__inner"></div>
+    <div class="sl-header__wrap cursor inited-not">
+        <div class="sl-header__slider">
+                <div class="sl-header__slide" id="bx_3218110189_67833">
+                    <div class="sl-header__text"><!-- <span class="sl-header__date">07 июля 12:00</span> -->
+                       <div class="sl-header__info"><a href="/ru/news/76279/">Номер «телефона доверия» Министерства обороны – +375&nbsp;(17)&nbsp;389&nbsp;20&nbsp;20.</a></div>
+                   </div>
+                    <div class="sl-header__pic"></div>
+                </div>
+                                            </div>
+        <div class="sl-header__pager"></div>
+    </div>
+</div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="header-menu">
+                                        <div class="b-color">
+                                            <div class="b-color__bg"></div>
+                                            <div class="header-menu__inner">
+                                                
+<div class="main-menu">
+    <div class="menu-drop">
+        <ul class="main-menu__level-1 list-reset js-menu">
+				                        <li class="main-menu__item-1 ">
+						<a  href="http://www.mil.by/ru/news/" class="main-menu__item-link-1">Новости</a>
+						</li>
+													                        <li class="main-menu__item-1 ">
+						<a  href="http://www.mil.by/ru/forces/" class="main-menu__item-link-1">Вооруженные силы</a>
+						</li>
+													                        <li class="main-menu__item-1 ">
+						<a  href="http://www.mil.by/ru/forces/structure/" class="main-menu__item-link-1">Структура</a>
+						</li>
+													                        <li class="main-menu__item-1 ">
+						<a  href="http://www.mil.by/ru/housing/" class="main-menu__item-link-1">Жилищная политика</a>
+						</li>
+													                        <li class="main-menu__item-1 ">
+						<a  href="http://www.mil.by/ru/education/" class="main-menu__item-link-1">Образование</a>
+						</li>
+													                        <li class="main-menu__item-1 ">
+						<a  href="http://www.mil.by/ru/all_about/" class="main-menu__item-link-1">О военной службе</a>
+						</li>
+									        </ul>
+    </div>
+</div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="b-color">
+                                        <div class="b-color__bg b-color__bg--grey"></div>
+                                        <div class="b-color__wrap">
+                                            <div class="menu-bot">
+                                                <ul class="menu-bot__list list-reset row">
+                <li class="menu-bot__item col-sm-2 col-xs-12">
+                <a  href="http://www.mil.by/ru/forces/office_address/grafik_priema1/" class="menu-bot__link">
+                    <span class="menu-bot__pic">
+                        <span class="menu-bot__img"></span>
+                    </span>
+                    <span class="menu-bot__text">Приемная Министерства</span>
+                </a>
+            </li>
+                    <li class="menu-bot__item col-sm-2 col-xs-12">
+                <a  href="http://www.mil.by/ru/onewindow/" class="menu-bot__link">
+                    <span class="menu-bot__pic">
+                        <span class="menu-bot__img"></span>
+                    </span>
+                    <span class="menu-bot__text">Административные процедуры</span>
+                </a>
+            </li>
+                    <li class="menu-bot__item col-sm-2 col-xs-12">
+                <a  href="http://www.mil.by/ru/el_reception/" class="menu-bot__link">
+                    <span class="menu-bot__pic">
+                        <span class="menu-bot__img"></span>
+                    </span>
+                    <span class="menu-bot__text">Электронное обращение</span>
+                </a>
+            </li>
+                    <li class="menu-bot__item col-sm-2 col-xs-12">
+                <a  href="http://www.mil.by/ru/contacts/contacts/" class="menu-bot__link">
+                    <span class="menu-bot__pic">
+                        <span class="menu-bot__img"></span>
+                    </span>
+                    <span class="menu-bot__text">Контакты министерства</span>
+                </a>
+            </li>
+                    <li class="menu-bot__item col-sm-2 col-xs-12">
+                <a  href="http://www.mil.by/ru/virtual_recruitment/office_address/vv_spisok/" class="menu-bot__link">
+                    <span class="menu-bot__pic">
+                        <span class="menu-bot__img"></span>
+                    </span>
+                    <span class="menu-bot__text">Список военных комиссариатов</span>
+                </a>
+            </li>
+                    <li class="menu-bot__item col-sm-2 col-xs-12">
+                <a  href="http://www.mil.by/ru/forces/office_address/hotphohe/" class="menu-bot__link">
+                    <span class="menu-bot__pic">
+                        <span class="menu-bot__img"></span>
+                    </span>
+                    <span class="menu-bot__text">Прямые телефонные  линии</span>
+                </a>
+            </li>
+        </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </header>
+
+						<div class="g-main">
+							<div class="g-main_i container">
+                                								<div class="row">
+                                    <div class="col-md-9 col-xs-12 clearfix pull-right">
+                                        <div class="breadcrumb"><ol class="list-reset" itemscope="" itemtype="http://www.data-vocabulary.org/Breadcrumb/"><li class="active"><span itemprop="title">Военная академия Республики Беларусь</span></li></ol></div>                                        <h1 class="small" id="title">Военная академия Республики Беларусь</h1>                                                                <main id="workarea" class="">
+                                                                                                    <div class="gray-bg">
+                                        <div class="gray-bg__wrap">
+                                            <br>
+<div>
+</div>
+<div class="pull-left">
+ <img alt="varb" src="/i/education/varb.png">
+</div>
+<div class="caption right">
+ <img alt="akadem" src="/academ1.jpeg" width="250" height="167">
+</div>
+<p>
+	 Учреждение образования <b>«Военная академия Республики Беларусь»</b> создано в&nbsp;соответствии с&nbsp;Указом Президента Республики Беларусь №&nbsp;192 от&nbsp;17&nbsp;мая 1995 года на&nbsp;основе двух училищ&nbsp;— Минского высшего военного инженерного и&nbsp;Минского высшего военного командного.
+</p>
+<p>
+	 История МВВИУ уходит своими корнями в&nbsp;начало 50-х годов, когда в&nbsp;Гомеле было сформировано Гомельское высшее инженерное радиотехническое училище. Занятия в&nbsp;нем начались 4&nbsp;мая 1953&nbsp;года. Спустя год, 9&nbsp;мая, училищу вручается Боевое Знамя, а&nbsp;в&nbsp;августе 1954 года ввуз переводят в&nbsp;Минск. В&nbsp;1968 году в&nbsp;училище радиотехнический профиль меняется на&nbsp;зенитно-ракетный, и&nbsp;до&nbsp;1992 года оно именуется Минским высшим инженерным зенитным ракетным училищем противовоздушной обороны (МВИЗРУ ПВО).
+</p>
+<p>
+	 За&nbsp;время своего существования училище осуществило 39&nbsp;выпусков и&nbsp;подготовило более 14&nbsp;тысяч военных инженеров. Из&nbsp;их&nbsp;числа 360 выпускников получили золотые медали и&nbsp;более тысячи&nbsp;— дипломы с&nbsp;отличием. Через стационарное обучение и&nbsp;курсы усовершенствования офицерского состава прошли более 3&nbsp;тысяч человек из&nbsp;16&nbsp;государств Европы, Азии, Африки.
+</p>
+<p>
+	 Минское высшее военное командное училище стало преемником Минского высшего военно-политического общевойскового училища (МВВПОУ), которое начало отсчет своей истории 10&nbsp;мая 1980&nbsp;года.
+</p>
+<p>
+	 За&nbsp;время своего существования МВВПОУ осуществило 11&nbsp;выпусков и&nbsp;подготовило более 1900&nbsp;офицеров.&nbsp;35&nbsp;по&nbsp;завершении учебы получили золотые медали. Более 150 человек прошли афганскую войну. С&nbsp;1980 по&nbsp;1991 год в&nbsp;Минском военно-политическом училище получили образование 900 человек из&nbsp;21&nbsp;зарубежной страны.
+</p>
+<p>
+	 После того как Беларусь обрела статус самостоятельного государства, МВВПОУ было преобразовано в&nbsp;Минское высшее военное командное училище.
+</p>
+<p>
+	 Слияние некогда двух самостоятельных ввузов в&nbsp;учреждение образования «Военная академия Республики Беларусь» было обусловлено необходимостью полного перехода на&nbsp;самостоятельную подготовку офицерских кадров для всех видов Вооруженных Сил и&nbsp;других силовых структур.
+</p>
+<p>
+	 В&nbsp;настоящее время учреждение образования «Военная академия Республики Беларусь» входит в&nbsp;число крупнейших вузов страны.
+</p>
+<p>
+	 Учреждение образования «Военная академия Республики Беларусь» имеет специальное разрешение (лицензию) №&nbsp;02100/0558534&nbsp;на право осуществления образовательной деятельности.
+</p>
+<p>
+	 Семь факультетов ВВУЗа - общевойсковой, связи и автоматизированных систем управления, противовоздушной обороны, военной разведки, авиационный, внутренних войск, факультет ракетных войск и артиллерии и ракетно-артиллерийского вооружения - практически полностью обеспечивают потребность Вооруженных Сил и других силовых структур в офицерских кадрах.
+</p>
+<p>
+	 Подготовка офицеров с высшим военным специальным образованием для замещения первичных офицерских должностей (с присвоением звания "лейтенант") производится со сроком обучения 4 года. Обучаемые именуются курсантами.
+</p>
+<p>
+	 Занятия с курсантами проводят свыше 700 высококвалифицированных преподавателей, из них 230 с учеными степенями и званиями, в том числе 15 профессоров. Многие носят почетные звания заслуженных деятелей науки и техники, заслуженных работников высшей школы, заслуженных изобретателей и рационализаторов.
+</p>
+<p>
+	 Академия располагает необходимой материально-технической базой. В учебных корпусах размещены лекционные аудитории, классы, специализированные кабинеты, лаборатории, оснащенные новейшей электронно-вычислительной техникой и средствами автоматики.
+</p>
+<p>
+	 Библиотека располагает необходимой технической и другой специальной литературой, учебниками и учебными пособиями, читальными залами для самостоятельной и внеаудиторной работы. В фондах библиотеки имеется большое количество классической и современной художественной литературы.
+</p>
+<p>
+	 В обучении будущих офицеров значительное место занимает общевойсковая и физическая подготовка. Академия оборудована современными учебно-тренировочными комплексами и тренажерами. Хорошая спортивная база способствует работе многих спортивных секций.
+</p>
+<p>
+	 На период обучения курсанты обеспечиваются всеми видами довольствия. Старшекурсники (3-4-й курсы) проживают в благоустроенном общежитии. Два раза в год (зимой и летом) курсантам предоставляется каникулярный отпуск продолжительностью 14 и 30 суток соответственно.
+</p>
+<p>
+	 Желающих поступить в главный военный вуз страны с каждым годом становится все больше. Интерес к военной профессии проявляют и представительницы слабого пола, набор которых осуществляется с 2002 года.
+</p>
+<p>
+	 Происходящие в Вооруженных Силах изменения обусловили совершенствование системы военного образования. В числе ближайших задач - совершенствование нормативно-правовой базы учебно-воспитательного процесса, улучшение качества практической подготовки офицеров, дальнейшее развитие учебно-материальной базы.
+</p>
+ <br>
+ <br>
+<table>
+<tbody>
+<tr>
+	<td width="400" valign="top">
+		<p>
+			 <iframe width="400" height="225" src="https://www.youtube.com/embed/QO_cGz7XS_o?si=jN6yzXMgNfc9xwEO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</p>
+	</td>
+	<td width="400" valign="top">
+		<p>
+			 <iframe width="400" height="225" src="https://www.youtube.com/embed/etxpsJUCP7A?si=flNLFFxyXj0k_XdL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td width="400" valign="top">
+		<p>
+			 <iframe width="400" height="225" src="https://www.youtube.com/embed/GXowN3pJAug?si=yu_ZopwS8o-dHrOZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</p>
+	</td>
+	<td width="400" valign="top">
+		<p>
+			 <iframe width="400" height="225" src="https://www.youtube.com/embed/TPfp2IJCBIo?si=s_y-kEFaRVbQrnJO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</p>
+	</td>
+</tr>
+<tr>
+</tr>
+</tbody>
+</table>                                                                                                                                            </div>
+                                    </div>
+                                                                                                </main>
+                            </div>
+                                                            <aside class="g-sidebar col-md-3 col-xs-12 hide-print">
+                                    <div class="row">
+                                        <div class="hidden-sm col-md-12">
+                                            
+
+
+<nav class="aside-menu-2 hidden-xs hidden-sm">
+    <div id="aside-menu" class="aside-menu-2__level-1">
+
+                            <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a target="_blank" href="/conditions/enrollment/">Информация о зачислении абитуриентов</a>
+                        
+                                             </div>
+                </div>
+                    
+        
+                    </div>                        <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a target="_blank" href="/tour/">Виртуальная экскурсия</a>
+                        
+                                             </div>
+                </div>
+                    
+        
+                    </div>                        <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/information/">Информация</a>
+                        
+                                                <a data-toggle="collapse" href="#aside-menu-2" data-parent="#aside-menu" class="aside-menu-2__open-menu collapsed"></a>
+                                             </div>
+                </div>
+                                            <div id="aside-menu-2" class="aside-menu-2__level-2 collapse">
+                    
+        
+                    
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/information/about/">Об академии</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/information/konkurs/">Обьявления</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/information/ustav/">Устав академии</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/information/directing/">Руководство</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div></div></div>                        <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/nauka/">Научная деятельность</a>
+                        
+                                                <a data-toggle="collapse" href="#aside-menu-7" data-parent="#aside-menu" class="aside-menu-2__open-menu collapsed"></a>
+                                             </div>
+                </div>
+                                            <div id="aside-menu-7" class="aside-menu-2__level-2 collapse">
+                    
+        
+                    
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/nauka/confer/">Конференции</a>
+                        
+                                                <a data-toggle="collapse" href="#aside-menu-8" data-parent="#aside-menu-7" class="aside-menu-2__open-menu collapsed"></a>
+                                             </div>
+                </div>
+                                                        <div id="aside-menu-8" class="aside-menu-2__level-3 collapse">
+                        
+                    
+        
+                        <div class="aside-menu-2__item">
+                    <div class="aside-menu-2__item-wrap">
+                        <div class="aside-menu-2__item-text">
+                                                            <a  href="/nauka/confer/index.php">Международная военно-научная конференция</a>
+                                                     </div>
+                    </div>
+                </div>
+                    </div></div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/nauka/vestnik/">Вестник Военной академии</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/nauka/sbornik/">Сборник научных статей</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/nauka/umk/">Учебно-методический комплекс</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div></div></div>                        <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/mok/">Международная олимпиада курсантов</a>
+                        
+                                             </div>
+                </div>
+                    
+        
+                    </div>                        <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/faculties/">Факультеты</a>
+                        
+                                                <a data-toggle="collapse" href="#aside-menu-14" data-parent="#aside-menu" class="aside-menu-2__open-menu collapsed"></a>
+                                             </div>
+                </div>
+                                            <div id="aside-menu-14" class="aside-menu-2__level-2 collapse">
+                    
+        
+                    
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/faculties/fgh/">Факультет Генерального штаба</a>
+                        
+                                                <a data-toggle="collapse" href="#aside-menu-15" data-parent="#aside-menu-14" class="aside-menu-2__open-menu collapsed"></a>
+                                             </div>
+                </div>
+                                                        <div id="aside-menu-15" class="aside-menu-2__level-3 collapse">
+                        
+                    
+        
+                        <div class="aside-menu-2__item">
+                    <div class="aside-menu-2__item-wrap">
+                        <div class="aside-menu-2__item-text">
+                                                            <a  href="/faculties/fgh/history/">Историческая справка</a>
+                                                     </div>
+                    </div>
+                </div>
+                    
+        
+                        <div class="aside-menu-2__item">
+                    <div class="aside-menu-2__item-wrap">
+                        <div class="aside-menu-2__item-text">
+                                                            <a  href="/faculties/fgh/tasks/">Основные задачи факультета</a>
+                                                     </div>
+                    </div>
+                </div>
+                    
+        
+                        <div class="aside-menu-2__item">
+                    <div class="aside-menu-2__item-wrap">
+                        <div class="aside-menu-2__item-text">
+                                                            <a  href="/faculties/fgh/struct/">Структура</a>
+                                                     </div>
+                    </div>
+                </div>
+                    
+        
+                        <div class="aside-menu-2__item">
+                    <div class="aside-menu-2__item-wrap">
+                        <div class="aside-menu-2__item-text">
+                                                            <a  href="/faculties/fgh/rucovod/">Руководство</a>
+                                                     </div>
+                    </div>
+                </div>
+                    
+        
+                        <div class="aside-menu-2__item">
+                    <div class="aside-menu-2__item-wrap">
+                        <div class="aside-menu-2__item-text">
+                                                            <a  href="/faculties/fgh/priem/">Порядок приема офицеров</a>
+                                                     </div>
+                    </div>
+                </div>
+                    
+        
+                        <div class="aside-menu-2__item">
+                    <div class="aside-menu-2__item-wrap">
+                        <div class="aside-menu-2__item-text">
+                                                            <a  href="/faculties/fgh/simv/">Атрибуты символики</a>
+                                                     </div>
+                    </div>
+                </div>
+                    
+        
+                        <div class="aside-menu-2__item">
+                    <div class="aside-menu-2__item-wrap">
+                        <div class="aside-menu-2__item-text">
+                                                            <a  href="/faculties/fgh/deiat/">Деятельность факультета</a>
+                                                     </div>
+                    </div>
+                </div>
+                    
+        
+                        <div class="aside-menu-2__item">
+                    <div class="aside-menu-2__item-wrap">
+                        <div class="aside-menu-2__item-text">
+                                                            <a  href="/faculties/fgh/contacts/">Контакты</a>
+                                                     </div>
+                    </div>
+                </div>
+                    
+        
+                        <div class="aside-menu-2__item">
+                    <div class="aside-menu-2__item-wrap">
+                        <div class="aside-menu-2__item-text">
+                                                            <a  href="/faculties/fgh/arc/">Архив публикаций</a>
+                                                     </div>
+                    </div>
+                </div>
+                    </div></div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/faculties/ovf/">Общевойсковой факультет</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/faculties/communication/">Факультет связи и автоматизированных систем управления</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/faculties/air_defense/">Факультет противовоздушной обороны</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/faculties/exploration/">Факультет военной разведки</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/faculties/air_force/">Авиационный факультет</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/faculties/internal_forces/">Факультет внутренних войск</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/faculties/rvia/">Факультет ракетных войск и артиллерии и РАВ</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/faculties/pkipk/">Факультет повышения квалификации и переподготовки кадров</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div></div></div>                        <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/conditions/">Абитуриентам</a>
+                        
+                                                <a data-toggle="collapse" href="#aside-menu-33" data-parent="#aside-menu" class="aside-menu-2__open-menu collapsed"></a>
+                                             </div>
+                </div>
+                                            <div id="aside-menu-33" class="aside-menu-2__level-2 collapse">
+                    
+        
+                    
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/conditions/anons/">Объявления</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/conditions/anketa/">Анкета абитуриента</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/conditions/number/">Контрольные цифры приема</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a target="_blank" href="/conditions/pravila_priema1/">Условия приема</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/conditions/pravila_priema2/">Порядок подачи документов</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/conditions/pravila_priema3/">Проведение профессионального отбора</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/conditions/pravila_priema4/">Сроки приема документов и зачисления</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/conditions/pravila_priema5/">Особенности приема</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/conditions/pravila_priema7/">Зачисление абитуриентов</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/conditions/priem/">Информация о ходе приема документов</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/conditions/enrollment/">Информация о зачислении абитуриентов</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/conditions/conkurs/">Информация о проходных баллах</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/conditions/pravila_priema6/">Приложения</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/conditions/kursy/">Подготовительные курсы</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/conditions/voprosiVPK/">Перечень вопросов для собеседования выпускникам военно-патриотических классов</a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div>
+                                <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href=""></a>
+                        
+                                             </div>
+                </div>
+                        
+                    </div></div></div>                        <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/contacts/">Контакты</a>
+                        
+                                             </div>
+                </div>
+                    
+        
+                    </div>                        <div class="aside-menu-2__item panel">
+                <div class="aside-menu-2__item-wrap">
+                    <div class="aside-menu-2__item-text">
+                                                    <a  href="/partners/">Организации-партнеры</a>
+                        
+                                             </div>
+                </div>
+                    
+        
+                        </div>    </div>
+</nav>
+                                        </div>
+                                                                            </div>
+                                </aside>
+                                </div>
+                            <!--кукки-->
+<style>
+.cookie_notice {
+	display: none;
+	position: fixed;
+	z-index: 9999999;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-size: 15px;
+	font-family: Roboto-Regular,Helvetica,Arial,sans-serif; 
+	color: #FFF;
+	background: #354c2b;
+	padding: 10px 20px; 
+	border-top: 4px solid #BFE2FF;
+}
+/* Оформление кнопок */
+.cookie_btn {
+	display: inline-block;
+	margin: 10px 6px 4px 6px;
+	text-decoration: none;
+	position: relative;
+	font-size: 13px;
+	padding: 4px 12px;
+	color: #FFF;
+	font-weight: bold;
+	text-transform: uppercase; 
+	background: #59744e;
+	border: 2px solid #BFE2FF;
+}
+.cookie_btn:hover {
+	color: #FFF;
+}
+.cookie_btn:after,
+.cookie_btn:before {
+	position: absolute;
+	height: 2px;
+	left: 50%;
+	background: #FFF;
+	bottom: -6px;
+	content: "";
+	transition: all 280ms ease-in-out;
+	width: 0;
+}
+.cookie_btn:before {
+	top: -6px;
+}
+.cookie_btn:hover:after,
+.cookie_btn:hover:before {
+	width: 100%;
+	left: 0;
+}
+</style>
+<div class="cookie_notice">
+    Этот сайт использует файлы cookies и сервисы сбора технических данных посетителей (данные об IP-адресе, местоположении и др.) для обеспечения работоспособности и улучшения качества обслуживания. Продолжая использовать наш сайт, вы автоматически соглашаетесь с использованием данных технологий.
+    <div>
+        <a class="cookie_btn" id="cookie_close" href="#close">Согласиться</a>
+		<a class="cookie_btn" href="https://www.mil.by/ru/cookie/index.php">Политика конфиденциальности</a>
+    </div>
+</div>
+
+<script>
+// функция возвращает cookie с именем name, если есть, если нет, то undefined    
+function getCookie(name) {
+    let matches = document.cookie.match(new RegExp(
+    "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+    ));
+    return matches ? decodeURIComponent(matches[1]) : undefined;
+}
+let cookiecook = getCookie("cookiecook"),
+cookiewin = document.getElementsByClassName('cookie_notice')[0];    
+// проверяем, есть ли у нас cookie, с которой мы не показываем окно и если нет, запускаем показ
+if (cookiecook != "no") {
+    // показываем    
+    cookiewin.style.display="block"; 
+    // закрываем по клику
+    document.getElementById("cookie_close").addEventListener("click", function(){
+        cookiewin.style.display="none";    
+        // записываем cookie на 1 день, с которой мы не показываем окно
+        let date = new Date;
+        date.setDate(date.getDate() + 1);    
+        document.cookie = "cookiecook=no; path=/; expires=" + date.toUTCString();               
+    });
+} 
+</script> 
+<!--кукки-->
+                        </div>
+                    </div>
+                </div>
+                <footer class="g-footer hide-print">
+                    <div class="container">
+                        <div class="g-footer_i">
+                            <div class="top-footer js-height">
+                                <div class="top-footer__head">
+                                    <div class="row">
+                                        <div class="col-md-9 col-sm-12 hidden-xs">
+                                            <div class="foot-menu hide-print clearfix">
+                                                <div class="row">
+                                                                                                                                                                                                            </div>
+                                            </div>
+                                        </div>
+                                        <div class="item col-md-3 col-sm-12">
+                                            <div class="top-footer__wrap js-trg">
+                                                
+                                                                                                
+
+
+<div class="class_A1">
+
+    <!--<a href="https://www.facebook.com/mod.mil.by/" class="foot-social__icon" target="_blank">
+        <i class="foot-social__fb"></i> 
+    </a>
+    <a href="https://vk.com/minoborony_by" class="foot-social__icon" target="_blank">
+        <i class="foot-social__vk"></i>
+    </a>
+    <a href="https://x.com/MOD_BY" class="foot-social__icon" target="_blank">
+        <i class="foot-social__twi"></i>
+    </a>
+    <a href="https://www.instagram.com/army__by/" class="foot-social__icon" target="_blank">
+        <i class="foot-social__inst"></i>
+    </a>
+    <a href="https://www.youtube.com/@VoentvBY" class="foot-social__icon" target="_blank">
+        <i class="foot-social__yt"></i>
+    </a>
+    <a href="https://ok.ru/group/56095629705403" class="foot-social__icon" target="_blank">
+    <svg data-name="Слой 1" id="Слой_1" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg"><defs><style>
+      .cls-1 {
+        fill: #7c986e;
+      }
+
+      .cls-2 {
+        fill: #7c986e;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style></defs><title/><path class="cls-1" d="M92,48v.13A44,44,0,1,1,47.87,4H48c1.06,0,2.11,0,3.16.12a42.89,42.89,0,0,1,5.12.67,43.39,43.39,0,0,1,8.1,2.37A44.13,44.13,0,0,1,88.79,31.47a43.22,43.22,0,0,1,2.43,8.24h0a44,44,0,0,1,.67,5.17C92,45.92,92,47,92,48Z"/><path class="cls-2" d="M91,44.5v.12A39.53,39.53,0,1,1,51.38,5h.12c1,0,1.89,0,2.84.11a38.38,38.38,0,0,1,4.59.6,39.33,39.33,0,0,1,5.45,1.45A44.13,44.13,0,0,1,88.79,31.47a38.33,38.33,0,0,1,1.51,5.59h0a39.22,39.22,0,0,1,.6,4.64C91,42.63,91,43.57,91,44.5Z"/><path class="cls-3" d="M74.66,21.93a36.47,36.47,0,0,1,3,3.52"/><path class="cls-3" d="M58,12a38.11,38.11,0,0,1,11.78,5.76"/><g><path class="cls-4" d="M47.87,46.68a9.28,9.28,0,1,1,9.28-9.28A9.29,9.29,0,0,1,47.87,46.68Zm0-14.06a4.78,4.78,0,1,0,4.78,4.78A4.79,4.79,0,0,0,47.87,32.62Z"/><path class="cls-4" d="M60.53,49a2.62,2.62,0,0,0-3.59-.95,17.13,17.13,0,0,1-9,2.72,18.3,18.3,0,0,1-9-2.7,2.63,2.63,0,0,0-2.55,4.59,30,30,0,0,0,4.66,2.13,19.48,19.48,0,0,1,2.11.87l.86.43-6.27,7.58a2.59,2.59,0,0,0,0,3.45A2.5,2.5,0,0,0,41.58,67l6.29-7.6,6.3,7.6a2.5,2.5,0,0,0,3.46.37,2.63,2.63,0,0,0,.28-3.69L51.59,56l.27-.13a13.52,13.52,0,0,1,2-.72,26.2,26.2,0,0,0,5.77-2.57A2.63,2.63,0,0,0,60.8,51,2.57,2.57,0,0,0,60.53,49Z"/></g></svg> -->
+   
+
+   
+<a class="class_A1" href="https://t.me/modmilby" target="blank" ><img src="/upload/socialnetwork/soc/tg_green.png" align="left"   style=".theme-blue:img:src='/upload/socialnetwork/soc/tg_blue.png'"
+onmouseover="this.src='/upload/socialnetwork/soc/tg_yellow.png'" 
+onmouseout="this.src='/upload/socialnetwork/soc/tg_green.png'" /></a>
+<i class="telega"></i>
+
+<a class="class_A1" href="https://www.facebook.com/mod.mil.by/" target="blank" ><img src="/upload/socialnetwork/soc/fb_green.png" align="left"   style=".theme-blue:img:src=""
+onmouseover="this.src='/upload/socialnetwork/soc/fb_yellow.png';" 
+onmouseout="this.src='/upload/socialnetwork/soc//fb_green.png';" /></a>
+
+
+<a class="class_A1" href="https://vk.com/minoborony_by" target="blank" ><img src="/upload/socialnetwork/soc/vk_green.png" align="left"   style=".theme-blue:img:src=""
+onmouseover="this.src='/upload/socialnetwork/soc/vk_yellow.png';" 
+onmouseout="this.src='/upload/socialnetwork/soc/vk_green.png';" /></a>
+<i class="facebook"></i>
+
+<a class="class_A1" href="https://x.com/MOD_BY" target="blank" ><img src="/upload/socialnetwork/soc/x_green.png" align="left"   style=".theme-blue:img:src=""
+onmouseover="this.src='/upload/socialnetwork/soc/x_yellow.png';" 
+onmouseout="this.src='/upload/socialnetwork/soc/x_green.png';" /></a>
+<i class="facebook"></i>
+
+<a class="class_A1" href="https://www.youtube.com/@VoentvBY" target="blank" ><img src="/upload/socialnetwork/soc/youtube_green.png" align="left"   style=".theme-blue:img:src=""
+onmouseover="this.src='/upload/socialnetwork/soc/youtube_yellow.png';" 
+onmouseout="this.src='/upload/socialnetwork/soc/youtube_green.png';" /></a>
+<i class="facebook"></i>
+
+<a class="class_A1" href="https://www.instagram.com/army__by/" target="blank" ><img src="/upload/socialnetwork/soc/insta_green.png" align="left"   style=".theme-blue:img:src=""
+onmouseover="this.src='/upload/socialnetwork/soc/insta_yellow.png';" 
+onmouseout="this.src='/upload/socialnetwork/soc/insta_green.png';" /></a>
+<i class="facebook"></i>
+
+
+<a class="class_A1" href="https://ok.ru/group/56095629705403" target="blank" ><img src="/upload/socialnetwork/soc/ok_green.png" align="left"   style=".theme-blue:img:src=""
+onmouseover="this.src='/upload/socialnetwork/soc/ok_yellow.png';" 
+onmouseout="this.src='/upload/socialnetwork/soc/ok_green.png';" /></a>
+<i class="facebook"></i>
+
+</div>                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="top-footer__foot">
+                                    
+                                </div>
+                            </div>
+                            <div class="footer-small">
+                                <div class="row">
+                                    <div class="col-xs-12 col-md-9">
+                                        <div class="foot-logo clearfix">
+    <div itemscope="" itemtype="http://schema.org/Organization" class="foot-logo__img-wrap"><span><img src="/local/templates/.default/images/tmp/foot-logo.png" alt="Министерство обороны Республики Беларусь" title="Министерство обороны Республики Беларусь" class="foot-logo__img"></span></div>
+    <div class="foot-logo__copyright">© Министерство обороны Республики Беларусь, 2026</div>
+    <div class="foot-logo__company">Военное информационное агентство Вооруженных Сил Республики Беларусь «Ваяр»</div>
+</div>
+
+                                    </div>
+                                    <div class="col-xs-12 col-md-3">
+                                        <div class="studio clearfix">
+                                            <div class="studio-wrap">
+    <div class="studio__img-wrap"><img src="/local/templates/.default/images/studio.svg" alt="Студия Борового" title="Студия Борового" class="studio__img"></div>
+    <div class="studio__text-wrap">
+        <div class="studio__text">Разработка сайта</div>
+        <div class="studio__link"><a href="http://www.db.by/" target="_blank" class="studio__link-text" style="color:#ffffff;">Студия Борового</a></div>
+    </div>
+</div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            <div class="scroll-to-top"><i class="ic2 ic2-scroll-to-top"></i></div>
+        </div>
+    </div>
+    <div class="pm">
+        <div class="pm-backdrop"></div>
+        <div class="pm-wrap">
+            <div class="hamburger-closer">
+                <div class="pm-closer closed"></div>
+            </div>
+            <div class="pm-inner">
+                
+
+
+    <div class="main-menu main-menu--mob">
+        <div id="main-menu-mob" class="main-menu__level-1">
+                                                                                                 <div class="main-menu__item-1 ">
+                            <a href="/conditions/enrollment/" class="main-menu__item-link-1">Информация о зачислении абитуриентов</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-1 ">
+                            <a href="/tour/" class="main-menu__item-link-1">Виртуальная экскурсия</a>
+                        </div>
+                                                                                                         <div class="main-menu__item-1 panel ">
+                    <a href="/information/" class="main-menu__item-link-1">Информация</a>
+                    <a data-toggle="collapse" href="#main-menu-mob-2" data-parent="#main-menu-mob-" class="main-menu__collapse-btn "></a>
+                        <div id="main-menu-mob-2" class="main-menu__submenu-2 collapse ">
+                            <div class="main-menu__level-2 list-reset"  style="    width: 250px;">
+                                                                                                                         <div class="main-menu__item-2 ">
+                            <a href="/information/about/" class="main-menu__item-link-2">Об академии</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/information/konkurs/" class="main-menu__item-link-2">Обьявления</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/information/ustav/" class="main-menu__item-link-2">Устав академии</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/information/directing/" class="main-menu__item-link-2">Руководство</a>
+                        </div>
+                                                                                 </div></div></div>                                                    <div class="main-menu__item-1 panel ">
+                    <a href="/nauka/" class="main-menu__item-link-1">Научная деятельность</a>
+                    <a data-toggle="collapse" href="#main-menu-mob-7" data-parent="#main-menu-mob-" class="main-menu__collapse-btn "></a>
+                        <div id="main-menu-mob-7" class="main-menu__submenu-2 collapse ">
+                            <div class="main-menu__level-2 list-reset"  style="    width: 250px;">
+                                                                                                                         <div class="main-menu__item-2 ">
+                            <a href="/nauka/confer/" class="main-menu__item-link-2">Конференции</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/nauka/vestnik/" class="main-menu__item-link-2">Вестник Военной академии</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/nauka/sbornik/" class="main-menu__item-link-2">Сборник научных статей</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/nauka/umk/" class="main-menu__item-link-2">Учебно-методический комплекс</a>
+                        </div>
+                                                                                 </div></div></div>                                                                                     <div class="main-menu__item-1 ">
+                            <a href="/mok/" class="main-menu__item-link-1">Международная олимпиада курсантов</a>
+                        </div>
+                                                                                                         <div class="main-menu__item-1 panel ">
+                    <a href="/faculties/" class="main-menu__item-link-1">Факультеты</a>
+                    <a data-toggle="collapse" href="#main-menu-mob-13" data-parent="#main-menu-mob-" class="main-menu__collapse-btn "></a>
+                        <div id="main-menu-mob-13" class="main-menu__submenu-2 collapse ">
+                            <div class="main-menu__level-2 list-reset"  style="    width: 250px;">
+                                                                                                                         <div class="main-menu__item-2 ">
+                            <a href="/faculties/fgh/" class="main-menu__item-link-2">Факультет Генерального штаба</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/faculties/ovf/" class="main-menu__item-link-2">Общевойсковой факультет</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/faculties/communication/" class="main-menu__item-link-2">Факультет связи и автоматизированных систем управления</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/faculties/air_defense/" class="main-menu__item-link-2">Факультет противовоздушной обороны</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/faculties/exploration/" class="main-menu__item-link-2">Факультет военной разведки</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/faculties/air_force/" class="main-menu__item-link-2">Авиационный факультет</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/faculties/internal_forces/" class="main-menu__item-link-2">Факультет внутренних войск</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/faculties/rvia/" class="main-menu__item-link-2">Факультет ракетных войск и артиллерии и РАВ</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/faculties/pkipk/" class="main-menu__item-link-2">Факультет повышения квалификации и переподготовки кадров</a>
+                        </div>
+                                                                                 </div></div></div>                                                    <div class="main-menu__item-1 panel ">
+                    <a href="/conditions/" class="main-menu__item-link-1">Абитуриентам</a>
+                    <a data-toggle="collapse" href="#main-menu-mob-23" data-parent="#main-menu-mob-" class="main-menu__collapse-btn "></a>
+                        <div id="main-menu-mob-23" class="main-menu__submenu-2 collapse ">
+                            <div class="main-menu__level-2 list-reset"  style="    width: 250px;">
+                                                                                                                         <div class="main-menu__item-2 ">
+                            <a href="/conditions/anons/" class="main-menu__item-link-2">Объявления</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/conditions/anketa/" class="main-menu__item-link-2">Анкета абитуриента</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/conditions/number/" class="main-menu__item-link-2">Контрольные цифры приема</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/conditions/pravila_priema1/" class="main-menu__item-link-2">Условия приема</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/conditions/pravila_priema2/" class="main-menu__item-link-2">Порядок подачи документов</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/conditions/pravila_priema3/" class="main-menu__item-link-2">Проведение профессионального отбора</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/conditions/pravila_priema4/" class="main-menu__item-link-2">Сроки приема документов и зачисления</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/conditions/pravila_priema5/" class="main-menu__item-link-2">Особенности приема</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/conditions/pravila_priema7/" class="main-menu__item-link-2">Зачисление абитуриентов</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/conditions/priem/" class="main-menu__item-link-2">Информация о ходе приема документов</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/conditions/enrollment/" class="main-menu__item-link-2">Информация о зачислении абитуриентов</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/conditions/conkurs/" class="main-menu__item-link-2">Информация о проходных баллах</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/conditions/pravila_priema6/" class="main-menu__item-link-2">Приложения</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/conditions/kursy/" class="main-menu__item-link-2">Подготовительные курсы</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="/conditions/voprosiVPK/" class="main-menu__item-link-2">Перечень вопросов для собеседования выпускникам военно-патриотических классов</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-2 ">
+                            <a href="" class="main-menu__item-link-2"></a>
+                        </div>
+                                                                                 </div></div></div>                                                                                     <div class="main-menu__item-1 ">
+                            <a href="/contacts/" class="main-menu__item-link-1">Контакты</a>
+                        </div>
+                                                                                                                                          <div class="main-menu__item-1 ">
+                            <a href="/partners/" class="main-menu__item-link-1">Организации-партнеры</a>
+                        </div>
+                                                                 </div>
+    </div>
+                <div class="menu-bot">
+                                    </div>
+                            </div>
+        </div>
+    </div>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112316982-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-112316982-1');
+</script>
+
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter47265441 = new Ya.Metrika({
+                    id:47265441,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/47265441" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->    </body>
+</html>

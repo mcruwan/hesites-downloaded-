@@ -1,0 +1,2682 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+<!DOCTYPE HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+    <title>Белорусский государственный университет информатики и радиоэлектроники</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/online/layouts/489/css/reset.css">
+    <link rel="stylesheet" href="/online/css/default.css"/>
+    <link rel="stylesheet" href="/online/layouts/489/css/style.css">
+    	<meta http-equiv="Content-Type" content="text/html; CHARSET=windows-1251">
+
+
+
+    <meta name="yandex-verification" content="4d5fcde399161d61">
+    <meta name="keywords" content="БГУИР, вуз, минск, беларусь, университет, белорусский государственный университет информатики и радиоэлектроники, информатика, радиоэлектроника, дистанционное образование, высшее образование,факультет, расписание занятий, стоимость обучения, абитуриент, студент, наука, магистратура, аспирантура,  информационные технологии, конференции университета">
+    <meta name="description" content="Официальный сайт Белорусского государственного университета информатики и радиоэлектроники. БГУИР - ведущий вуз Беларуси по подготовке специалистов в области информационных технологий. 
+ ">
+
+
+    
+    <meta property="og:site_name" content="БГУИР">
+    <meta property="og:title" content="Белорусский государственный университет информатики и радиоэлектроники">
+    <meta property="og:url" content="">
+    <meta property="og:description" content="Официальный сайт Белорусского государственного университета информатики и радиоэлектроники. БГУИР - ведущий вуз Беларуси по подготовке специалистов в области информационных технологий. 
+ ">
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="360">
+
+    
+    
+    <meta property="og:image" content="https://www.bsuir.by/m/12_100229_1_152101.jpg" />
+
+
+    <link rel="stylesheet" href="/online/layouts/489/css/dark-theme.css" id="dark-theme-css" disabled>
+    <link rel="stylesheet" href="/online/layouts/489/css/light-theme.css" id="light-theme-css" disabled>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="burger__wrapper" id="burgerWrapper" style="left:-101%">
+            <div class="container">
+                <svg class="burger__closeButton" id="burgerClose">
+                    <use xlink:href="/online/layouts/489/img/sprite.svg#closeButton"></use>
+                </svg>
+                <div class="burger__top">
+
+
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="socialMedia">
+	<a class="socialMedia__link link--instagram" href="https://www.instagram.com/bsuir_official/"><svg><use xlink:href="/online/layouts/489/img/sprite.svg#instagram"></use></svg></a> <a class="socialMedia__link link--vk" href="https://vk.com/bsuir_official"> <svg> <use xlink:href="/online/layouts/489/img/sprite.svg#vk"></use></svg></a> <a class="socialMedia__link link--youtube" href="https://www.youtube.com/user/videostudiabsuir"><svg><use xlink:href="/online/layouts/489/img/sprite.svg#youtube"></use></svg></a> <a class="socialMedia__link link--facebook" href="https://www.facebook.com/bsuir.by/"><svg><use xlink:href="/online/layouts/489/img/sprite.svg#facebook"></use></svg></a> <a class="socialMedia__link link--telegram" href="https://t.me/bsuir_official"><svg><use xlink:href="/online/layouts/489/img/sprite.svg#telegram"></use></svg></a> <a class="socialMedia__link link--tiktok" href="https://www.tiktok.com/@bsuir"><svg><use xlink:href="/online/layouts/489/img/sprite.svg#tiktok"></use></svg></a> <a class="socialMedia__link link--webmail" href="https://webmail.bsuir.by/"><svg><use xlink:href="/online/layouts/489/img/sprite.svg#email"></use></svg></a></p>
+<p>
+	<a class="contactUs" href="mailto:webmaster@bsuir.by"><svg><use xlink:href="/online/layouts/489/img/sprite.svg#webmail"></use></svg><span>Связаться с нами</span></a></p>
+
+
+
+
+
+                    <span class="burger__studyingWeek">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2 учебная неделя</span>
+                </div>
+
+
+
+                <div class="burger__burgerMenu burgerMenu--PC" id="burgerMenuPC">
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul class="burgerMenu__list list--levelOne">
+	<li class="burgerMenu__item item--levelOne">Университет</li>
+	<li class="burgerMenu__item item--levelOne">Образование</li>
+	<li class="burgerMenu__item item--levelOne">Наука</li>
+	<li class="burgerMenu__item item--levelOne">Сотрудничество</li>
+	<li class="burgerMenu__item item--levelOne">Молодёжная политика</li>
+	<li class="burgerMenu__item item--levelOne">Контакты</li>
+</ul>
+
+<ul class="burgerMenu__list d-none list--levelTwo">
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/struktura-universiteta">Структура</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/rektorat">Ректорат</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/bguir-eto">Общая информация </a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/istoriya">История</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/bguir-segodnya">БГУИР сегодня</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/virtualnaya-ekskursiya-po-bguir">Виртуальная экскурсия</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/simvolika">Символика</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/sertifikaty">Сертификаты</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/nravstvennyy-kodeks-bguir">Нравственный кодекс БГУИР</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/pochetnye-doktora">Почетные доктора</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://honours.bsuir.by/">Почетные профессора</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/imi-gorditsya-universitet">Доска почета</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/bguir-v-mezhdunarodnykh-reytingakh">БГУИР в рейтингах</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/fakultety">Факультеты (общая)</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/smk">СМК</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="/ru/dokumenty">Документы</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/prikazy">Приказы</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/stranitsa-yurista">Страница юриста</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/umu-informatsionnaya-baza">Нормативно-правовое обеспечение учебного процесса</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/protivodeystvie-korruptsii">Противодействие коррупции</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/press-sluzhba">Пресс-служба</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="/ru/kontakty-press-sluzhba">Контакты пресс-службы</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/molodezhnoe-televidenie">Молодёжное ТВ</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://impuls.bsuir.by/">Газета &quot;Импульс&quot;</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/smi-o-bguir">СМИ о БГУИР</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/umo">Учебно-методическое объединение</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/obschestvennye-organizatsii">Общественные организации</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="/ru/fotogalereya/2026">Фотогалерея</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/video-bguir">Видео БГУИР</a></li>
+</ul>
+
+<ul class="burgerMenu__list d-none list--levelTwo">
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/dovuzovskaya-podgotovka">Довузовская подготовка</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/spetsialnosti-bguir">Специальности</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/vysshee-obrazovanie">Высшее 1 ступень</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/fkp">ФКП</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/fitu">ФИТУ</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/fre">ФРЭ</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/fksis">ФКСиС</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/fik">ФИБ</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/ief">ИЭФ</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/fdpipo">ФДП и ПО</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/vf">Военный факультет</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/kafedry-bguir">Кафедры</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/raspisaniya">Расписание</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/oplata-obucheniya">Оплата обучения</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="/ru/informatsiya-dlya-vosstanovleniya">Информация для восстановления</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/stipendii-bguir">Стипендии</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/uchebni-otdel/npo-proizvodstvennoy-praktiki-i-diplomnogo-proektirovaniya">Практика</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/raspredelenie-1-stupeni-obrazovaniya">Распределение</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://abitur.bsuir.by/ii-stupen-vysshego-obrazovaniya-magistratura">Магистратура 2 ступень</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/aspirantura-doctorantura">Аспирантура и докторантура</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/dopolnitelnoe-obrazovanie">Дополнительное ИИТ</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/crdo">ЦРДО</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/zakazchikam-kadrov">Заказчикам кадров</a></li>
+</ul>
+
+<ul class="burgerMenu__list d-none list--levelTwo">
+	<li class="burgerMenu__item item--levelTwo"><a href="https://science.bsuir.by/">НИЧ</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://science.bsuir.by/ru/o-nas/administrativnye-podrazdeleniya">Администрация</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://science.bsuir.by/ru/podrazdeleniya">Лаборатории и центры</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/sektor-studencheskoy-nauki">Сектор студенческой науки</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://smu.bsuir.by/">Совет молодых ученых</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/aspirantura-doctorantura">Аспирантура и докторантура</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/sovety-po-zaschite-dissertatsiy-pri-bguir">Совет по защите диссертаций</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/ekspertnye-komissii">Экспертные комиссии</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/nms">Научно-методический совет</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/nauchnye-meropriyatiya">Научные мероприятия</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://doklady.bsuir.by/jour">Журнал &quot;Доклады БГУИР&quot;</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://dt.bsuir.by/">Журнал &quot;Цифровая трансформация&quot;</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/nauchno-tekhnologicheskiy-park-bguir">Научно-технологический парк</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/sovet-universiteta">Совет университета</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/nauchnye-shkoly">Научные школы</a></li>
+</ul>
+
+<ul class="burgerMenu__list d-none list--levelTwo">
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/tsentr-mezhdunarodnogo-sotrudnichestva">Контакты центра</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/inostrannym-grazhdanam">Иностранным гражданам</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/programmy-mobilnosti">Программы мобильности</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="/ru/bguir-v-mezhdunarodnykh-reytingakh">БГУИР в международных рейтингах</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/memorandumy">Межвузовское сотрудничество</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/sayty-partnyory">Сайты партнеры</a></li>
+</ul>
+
+<ul class="burgerMenu__list d-none list--levelTwo">
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/struktura-upravleniya-ivr">Структура управления</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/sobytiya-goda">События года</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/informatsionnye-resursy">Информационные ресурсы</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/npo-ideologicheskoy-raboty">Документация</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/omvr">Методическая и воспитательная работа</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/spps">Социально педагогическая и психологическая служба</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/molodezhnye-obedineniya">Молодежные организации и объединения</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/studencheskaya-zhizn">Студенческая жизнь</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/sotsialnaya-podderzhka">Социальная поддержка</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/fizkultura-i-sport">Спорт</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/tsentr-kulturno-massovoy-raboty">Культурная жизнь</a></li>
+	<li class="burgerMenu__item item--levelThree"><a href="https://www.bsuir.by/ru/trudoustroystvo-molodezhi">Трудоустройство молодежи</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/patrioticheskoe-vospitanie">Патриотическое воспитание</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/sokhranyaya-pamyat-o-proshlom-stroim-buduschee#ad-image-0">Сохраняя память о прошлом - строим будущее</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/bguir-v-dostizhenii-tseley-ustoychivogo-razvitiya">Цели устойчивого развития</a></li>
+</ul>
+
+<ul class="burgerMenu__list d-none list--levelTwo">
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/kontaktnaya-informatsiya">Факультеты и подразделения</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/priem-grazhdan">Приём граждан</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/kontakty-press-sluzhba">Пресс-служба</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/priemnaya-komissiya">Приёмная комиссия</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://science.bsuir.by/ru/o-nas/administrativnye-podrazdeleniya">Подразделения НИЧ</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/tsentr-mezhdunarodnogo-sotrudnichestva">Центр продвижения образовательных услуг</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://iis.bsuir.by/phones">Телефонный справочник</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/elektronnoe-obraschenie">Электронное обращение</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/odno-okno">Одно окно</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/obratnaya-svyaz">Обратная связь</a></li>
+	<li class="burgerMenu__item item--levelTwo"><a href="https://www.bsuir.by/ru/skhema-korpusov">Схема корпусов</a></li>
+</ul>
+
+
+
+                </div>
+
+
+
+                <div class="burger__burgerMenu burgerMenu--Mobile" id="burgerMenuMobile">
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="header__targetMenu targetMenu--left">
+<div class="targetMenu__item">
+<span>Университет</span>
+<ul>
+<li>
+<span>О нас</span>
+</li>
+<li>
+<a href="/ru/rektorat" target="_self">Руководство</a>
+</li>
+<li>
+<a href="/ru/struktura-universiteta" target="_self">Структура</a>
+</li>
+<li>
+<a href="/ru/fakultety" target="_self">Факультеты</a>
+</li>
+<li>
+<a href="https://science.bsuir.by" target="_blank">Научная деятельность</a>
+</li>
+<li>
+<a href="/ru/mezhdunarodnoe-sotrudnichestvo" target="_self">Международное сотрудничество</a>
+</li>
+<li>
+<a href="/ru/molodyozhnaya-politika-i-vospitanie" target="_self">Воспитательная деятельность</a>
+</li>
+<li>
+<span>Услуги</span>
+</li>
+<li>
+<a href="/ru/stoimost-platnykh-uslug" target="_self">Платные услуги</a>
+</li>
+<li>
+<a href="/ru/uslugi-sots" target="_self">Спортзал, бассейн</a>
+</li>
+<li>
+<a href="/ru/sok-braslavskie-ozyora" target="_self">СОК "Браславские озера"</a>
+</li>
+<li>
+<a href="/ru/obosoblennoe-podrazdelenie-bguir-kombinat-pitaniya" target="_self">Комбинат питания</a>
+</li>
+<li>
+<a href="https://cfl.bsuir.by/" target="_blank">Центр языковой подготовки</a>
+</li>
+<li>
+<a href="https://iit.bsuir.by/course" target="_blank">Повышение квалификации</a>
+</li>
+<li>
+<span>Контакты</span>
+</li>
+<li>
+<a href="/ru/kontaktnaya-informatsiya" target="_self">Контактная информация</a>
+</li>
+<li>
+<a href="/ru/priem-grazhdan" target="_self">Приём граждан</a>
+</li>
+<li>
+<a href="/ru/kontakty-press-sluzhba" target="_self">Пресс-служба</a>
+</li>
+<li>
+<a href="/ru/priemnaya-komissiya" target="_self">Приемная кампания</a>
+</li>
+<li>
+<a href="https://science.bsuir.by/ru/o-nas/administrativnye-podrazdeleniya" target="_blank">Подразделения НИЧ</a>
+</li>
+<li>
+<a href="/ru/tsentr-prodvizheniya-obrazovatelnykh-uslug-bguir" target="_self">Центр продвижения образовательных услуг</a>
+</li>
+<li>
+<a href="https://iis.bsuir.by/phones" target="_blank">Телефонный справочник</a>
+</li>
+<li>
+<a href="/ru/elektronnoe-obraschenie" target="_self">Электронное обращение</a>
+</li>
+<li>
+<a href="/ru/odno-okno" target="_self">Одно окно</a>
+</li>
+<li>
+<a href="/ru/obratnaya-svyaz" target="_self">Обратная связь</a>
+</li>
+</ul>
+</div>
+<div class="targetMenu__item">
+<span>Сотрудникам</span>
+<ul>
+<li>
+<span>Преподавательская деятельность</span>
+</li>
+<li>
+<a href="https://iis.bsuir.by/schedule" target="_blank">Расписание</a>
+</li>
+<li>
+<a href="/ru/umu-informatsionnaya-baza" target="_self">Документы УМУ</a>
+</li>
+<li>
+<a href="/ru/kafedry-bguir" target="_self">Кафедры</a>
+</li>
+<li>
+<a href="/ru/fakultety" target="_self">Факультеты</a>
+</li>
+<li>
+<span>Социальные вопросы</span>
+</li>
+<li>
+<a href="https://profkom.bsuir.by/" target="_blank">Профком</a>
+</li>
+<li>
+<a href="https://profkom.bsuir.by/profkom/dokumenty#col-dog" target="_blank">Коллективный договор</a>
+</li>
+<li>
+<a href="/ru/sok-braslavskie-ozyora" target="_self">Летний отдых</a>
+</li>
+<li>
+<a href="/ru/spps" target="_self">Психологическая помощь</a>
+</li>
+<li>
+<a href="/ru/fizkultura-i-sport" target="_self">Спорт</a>
+</li>
+<li>
+<span>Научная деятельность</span>
+</li>
+<li>
+<a href="/ru/aspirantura-doctorantura" target="_self">Аспирантура и докторантура</a>
+</li>
+<li>
+<a href="/ru/sovety-po-zaschite-dissertatsiy-pri-bguir" target="_self">Советы по защите диссертации</a>
+</li>
+<li>
+<a href="/ru/nauchnye-meropriyatiya" target="_self">Научные мероприятия</a>
+</li>
+<li>
+<a href="https://doklady.bsuir.by/jour" target="_blank">Доклады БГУИР</a>
+</li>
+<li>
+<a href="https://dt.bsuir.by/" target="_blank">Цифровая трансформация</a>
+</li>
+<li>
+<a href="https://libeldoc.bsuir.by/" target="_blank">Репозиторий</a>
+</li>
+<li>
+<span>Административная деятельность</span>
+</li>
+<li>
+<a href="/ru/obraztsy-dokumentov-tsentra-kadrovoy-raboty" target="_self">Образцы документов центра кадровой работы</a>
+</li>
+<li>
+<a href="/ru/konkurs-na-zameschenie-dolzhnostey" target="_self">Конкурс на замещение должностей</a>
+</li>
+<li>
+<a href="/ru/povyshenie-kvalifikatsii" target="_self">Повышение квалификации</a>
+</li>
+<li>
+<span>Информация</span>
+</li>
+<li>
+<a href="/ru/smk" target="_self">СМК</a>
+</li>
+<li>
+<a href="/ru/struktura-universiteta/otdel-dok-obespecheniya" target="_self">Делопроизводство БГУИР</a>
+</li>
+<li>
+<a href="/ru/prikazy" target="_self">Приказы</a>
+</li>
+<li>
+<a href="/ru/programmy-mobilnosti" target="_self">Программы мобильности</a>
+</li>
+<li>
+<a href="/ru/odno-okno" target="_self">Одно окно</a>
+</li>
+<li>
+<a href="/ru/informatsiya-o-rabote-s-sistemoy-edinoy-tekhnicheskoy-podderzhki" target="_self">Система единой технической поддержки</a>
+</li>
+<li>
+<a href="https://iis.bsuir.by/phones" target="_blank">Телефонный справочник</a>
+</li>
+<li>
+<a href="/ru/kontaktnaya-informatsiya" target="_self">Контакты</a>
+</li>
+</ul>
+</div>
+<div class="targetMenu__item">
+<span>Студентам</span>
+<ul>
+<li>
+<span>Учёба</span>
+</li>
+<li>
+<a href="https://iis.bsuir.by/schedule" target="_blank">Расписание</a>
+</li>
+<li>
+<a href="https://iis.bsuir.by/list-of-disciplines" target="_blank">Перечень дисциплин</a>
+</li>
+<li>
+<a href="/ru/kafedry-bguir" target="_self">Кафедры</a>
+</li>
+<li>
+<a href="/ru/fakultety" target="_self">Факультеты</a>
+</li>
+<li>
+<a href="https://library.bsuir.by/" target="_blank">Библиотека</a>
+</li>
+<li>
+<a href="https://erud.bsuir.by/" target="_blank">ЭРУД</a>
+</li>
+<li>
+<a href="https://libeldoc.bsuir.by/" target="_blank">Репозиторий</a>
+</li>
+<li>
+<a href="/ru/stipendii-bguir" target="_self">Стипендия</a>
+</li>
+<li>
+<a href="/ru/oplata-obucheniya" target="_self">Оплата обучения</a>
+</li>
+<li>
+<a href="/ru/programmy-mobilnosti" target="_self">Стажировка</a>
+</li>
+<li>
+<a href="/ru/uchebni-otdel/npo-proizvodstvennoy-praktiki-i-diplomnogo-proektirovaniya" target="_self">Практика</a>
+</li>
+<li>
+<a href="https://cfl.bsuir.by/" target="_blank">Центр языковой подготовки</a>
+</li>
+<li>
+<span>Студенческое соуправление</span>
+</li>
+<li>
+<a href="/ru/studsovet" target="_self">Студенческий совет БГУИР</a>
+</li>
+<li>
+<a href="/ru/molodezhnye-obedineniya/studencheskie-sovety-inostrannykh-obuchayuschikhsya" target="_self">Студенческие советы иностранных граждан</a>
+</li>
+<li>
+<a href="/ru/brsm-bguir" target="_self">БРСМ БГУИР</a>
+</li>
+<li>
+<a href="/ru/profkom-studentov" target="_self">Студенческий профком</a>
+</li>
+<li>
+<a href="/ru/molodezhnye-obedineniya/volonterskiy-tsentr-bguir" target="_self">Волонтерский центр</a>
+</li>
+<li>
+<span>Студенческие возможности</span>
+</li>
+<li>
+<a href="/ru/sektor-studencheskoy-nauki" target="_self">Сектор студенческой науки</a>
+</li>
+<li>
+<a href="/ru/molodezhnye-obedineniya" target="_self">Молодежные объединения</a>
+</li>
+<li>
+<a href="/ru/trudoustroystvo-molodezhi" target="_self">Трудоустройство молодежи</a>
+</li>
+<li>
+<a href="/ru/fizkultura-i-sport" target="_self">Спорт</a>
+</li>
+<li>
+<a href="/ru/tsentr-kulturno-massovoy-raboty" target="_self">Культурный центр</a>
+</li>
+<li>
+<a href="https://www.bsuir.by/ru/sok-braslavskie-ozyora" target="_blank">Летний отдых</a>
+</li>
+<li>
+<span>Социальные вопросы</span>
+</li>
+<li>
+<a href="/ru/sotsialnaya-podderzhka" target="_self">Социальная поддержка</a>
+</li>
+<li>
+<a href="/ru/studencheskiy-gorodok" target="_self">Студгородок</a>
+</li>
+<li>
+<a href="/ru/spps" target="_self">СППС</a>
+</li>
+<li>
+<span>Документы</span>
+</li>
+<li>
+<a href="/ru/shablony-zayavleniy" target="_self">Шаблоны заявлений</a>
+</li>
+<li>
+<a href="/ru/prikazy" target="_self">Приказы</a>
+</li>
+<li>
+<a href="/ru/odno-okno" target="_self">Выдача архивных справок</a>
+</li>
+<li>
+<a href="/ru/zakaz-studencheskikh-spravok" target="_self">Заказ студенческих справок</a>
+</li>
+<li>
+<a href="/ru/pravila-vnutrennego-rasporyadka-dlya-obuchayuschikhsya" target="_self">Правила внутреннего распорядка обучающихся</a>
+</li>
+<li>
+<span>Информация</span>
+</li>
+<li>
+<a href="https://iis.bsuir.by/support" target="_blank">Заявка в техподдержку</a>
+</li>
+<li>
+<a href="/ru/informatsiya-o-rabote-s-sistemoy-edinoy-tekhnicheskoy-podderzhki" target="_self">Система единой технической поддержки</a>
+</li>
+<li>
+<a href="https://iis.bsuir.by/phones" target="_blank">Телефонный справочник</a>
+</li>
+<li>
+<a href="/ru/spps" target="_self">Психологическая помощь</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="header__targetMenu targetMenu--right">
+<div class="targetMenu__item">
+<span>Поступающим</span>
+<ul>
+<li>
+<a href="https://abitur.bsuir.by/" target="_blank">Для абитуриентов</a>
+</li>
+<li>
+<a href="/ru/dovuzovskaya-podgotovka" target="_self">Довузовская подготовка</a>
+</li>
+<li>
+<a href="/ru/spetsialnosti-bguir" target="_self">Специальности</a>
+</li>
+<li>
+<a href="https://abitur.bsuir.by/zaochnaya-forma-obucheniya" target="_blank">Заочное обучение</a>
+</li>
+<li>
+<a href="/ru/crdo" target="_self">Дистанционное обучение</a>
+</li>
+<li>
+<a href="https://abitur.bsuir.by/sokraschennaya-forma-obucheniya" target="_blank">Сокращенное обучение</a>
+</li>
+<li>
+<a href="https://abitur.bsuir.by/ii-stupen-vysshego-obrazovaniya-magistratura" target="_blank">Поступление в магистратуру</a>
+</li>
+<li>
+<a href="https://abitur.bsuir.by/vtoroe-vysshee-obrazovanie" target="_blank">Второе высшее</a>
+</li>
+<li>
+<a href="/ru/aspirantura-doctorantura/dlya-postupayuschikh" target="_self">Поступление в аспирантуру</a>
+</li>
+<li>
+<a href="https://iit.bsuir.by/course" target="_blank">Повышение квалификации</a>
+</li>
+<li>
+<a href="/ru/inostrannym-grazhdanam" target="_self">Иностранным гражданам</a>
+</li>
+<li>
+<a href="/ru/inostrannym-grazhdanam/postuplenie-kazakhstan-kyrgyzstan-rossia-tadzhikistan" target="_self">Абитуриентам Казахстана и стран СНГ</a>
+</li>
+</ul>
+</div>
+<div class="targetMenu__item">
+<span>Выпускникам</span>
+<ul>
+<li>
+<a href="/ru/raspredelenie-1-stupeni-obrazovaniya" target="_self">Распределение выпускников</a>
+</li>
+<li>
+<a href="https://abitur.bsuir.by/ii-stupen-vysshego-obrazovaniya-magistratura" target="_blank">Магистратура</a>
+</li>
+<li>
+<a href="/ru/aspirantura-doctorantura/dlya-postupayuschikh" target="_self">Аспирантура и докторантура</a>
+</li>
+<li>
+<a href="https://iit.bsuir.by/course" target="_blank">Повышение квалификации</a>
+</li>
+<li>
+<a href="/ru/dopolnitelnoe-obrazovanie" target="_self">Дополнительное образование</a>
+</li>
+</ul>
+</div>
+<div class="targetMenu__item">
+<span>Войти</span>
+<ul>
+<li>
+<a href="https://iis.bsuir.by/login" target="_blank">Личный кабинет сотрудника</a>
+</li>
+<li>
+<a href="https://iis.bsuir.by/login" target="_blank">Личный кабинет студента</a>
+</li>
+<li>
+<a href="https://lms.bsuir.by/login/index.php" target="_blank">Система электронного обучения</a>
+</li>
+<li>
+<a href="https://webmail.bsuir.by/" target="_blank">Почта</a>
+</li>
+</ul>
+</div>
+</div>
+
+
+
+                </div>
+            </div>
+        </div>
+        <div class="header__wrapper" id="headerWrapper">
+            <div class="container">
+                <div class="forVisuallyImpaired" id="forVisuallyImpaired">
+                    <div class="forVisuallyImpaired__fontSize">
+
+
+
+                        <span>Размер шрифта:</span>
+                        <div class="fontSize__button selected" data-fontSize="var(--base-font-size)" title="Маленький (По умолчанию)">А</div>
+                        <div class="fontSize__button" data-fontSize="var(--medium-font-size)" title="Средний">А</div>
+                        <div class="fontSize__button" data-fontSize="var(--big-font-size)" title="Большой">А</div>
+                    </div>
+                    <div class="forVisuallyImpaired__colorTheme">
+
+
+
+                        <span>Цвет сайта:</span>
+                        <div class="colorTheme__button selected" data-colorTheme="default" title="Стандартный (По умолчанию)"></div>
+                        <div class="colorTheme__button" data-colorTheme="dark" title="Тёмный"></div>
+                        <div class="colorTheme__button" data-colorTheme="light" title="Светлый"></div>
+                    </div>
+                    <div class="forVisuallyImpaired__images">
+
+
+
+                        <span>Изображения:</span>
+                        <div class="images__button selected" id="images__button--colored" title="Цветные (По умолчанию)"></div>
+                        <div class="images__button" id="images__button--blackWhite" title="Чёрно-белые"></div>
+                        <!--<div class="images__button" id="images__button--none" title="Скрытые"></div>-->
+                    </div>
+                    <div class="forVisuallyImpaired__images">
+                        <div id="default-site-button" class="btn btn-secondary"><span>Обычная версия</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="header__controls controls--left">
+
+                    <div class="controls__item item--burgerMenu" id="burgerOpen">
+                        <svg>
+                            <use xlink:href="/online/layouts/489/img/sprite.svg#burger"></use>
+                        </svg>
+                    </div>
+                    <div class="controls__item item--language">
+
+
+
+                        RU <ul><li><a class="lang" href="/en/">ENG</a></li><li><a class="lang" href="https://www.bsuir.by/bel/">BEL</a></li><li><a class="lang" href="/online/layouts/499/inter/index_viet.html">VIE</a></li><li><a class="lang" href="/online/layouts/499/inter/index_uzb.html">UZB</a></li><li><a class="lang" href="/online/layouts/499/inter/index_chin.html">CHI</a></li></ul>
+
+                    </div>
+                    <div class="controls__item item--visuallyImpaired item--PC" id="visuallyImpaired_PC">
+                        <svg>
+                            <use xlink:href="/online/layouts/489/img/sprite.svg#visuallyImpaired"></use>
+                        </svg>
+                    </div>
+                </div>
+                <a href="/" class="header__logoImage">
+
+
+
+                    <img src="/m/12_100229_1_191465.svg" alt="Логотип БГУИР">
+
+
+
+                </a>
+                <div class="header__controls controls--right">
+                    <div class="controls__item item--visuallyImpaired item--Mobile" id="visuallyImpaired_Mobile">
+                        <svg>
+                            <use xlink:href="/online/layouts/489/img/sprite.svg#visuallyImpaired"></use>
+                        </svg>
+                    </div>
+                    <div class="controls__item item--search item--PC" id="item--search--PC">
+                        <svg>
+                            <use xlink:href="/online/layouts/489/img/sprite.svg#search"></use>
+                        </svg>
+                    </div>
+                    <form id="searchFieldPC" class="search-container searchFieldPC d-none" name="frm" action="/online/search/search_g.jsp" method="get" accept-charset="utf-8">
+                        <input type="hidden" name="resID" value="100229">
+                        <input type="hidden" name="lang" value="ru">
+                        <input type="hidden" name="menuItemID" value="-1">
+                        <input type="hidden" name="noshow" value="1">
+                        <input class="searchFieldPC__input" type="text" name="q" placeholder="Поиск" OnClick="this.value=''" OnSelect="this.value=''">
+                        <button class="searchFieldPC__button" type="submit" name="search" aria-label="Search">
+                            <svg>
+                                <use xlink:href="/online/layouts/489/img/sprite.svg#search"></use>
+                            </svg>
+                        </button>
+                    </form>
+                    <div class="controls__item item--search item--Mobile" id="item--search--Mobile">
+                        <svg>
+                            <use xlink:href="/online/layouts/489/img/sprite.svg#search"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="header__targetMenu targetMenu--left">
+<div class="targetMenu__item">
+<span>Университет</span>
+<ul>
+<li>
+<span>О нас</span>
+</li>
+<li>
+<a href="/ru/rektorat" target="_self">Руководство</a>
+</li>
+<li>
+<a href="/ru/struktura-universiteta" target="_self">Структура</a>
+</li>
+<li>
+<a href="/ru/fakultety" target="_self">Факультеты</a>
+</li>
+<li>
+<a href="https://science.bsuir.by" target="_blank">Научная деятельность</a>
+</li>
+<li>
+<a href="/ru/mezhdunarodnoe-sotrudnichestvo" target="_self">Международное сотрудничество</a>
+</li>
+<li>
+<a href="/ru/molodyozhnaya-politika-i-vospitanie" target="_self">Воспитательная деятельность</a>
+</li>
+<li>
+<span>Услуги</span>
+</li>
+<li>
+<a href="/ru/stoimost-platnykh-uslug" target="_self">Платные услуги</a>
+</li>
+<li>
+<a href="/ru/uslugi-sots" target="_self">Спортзал, бассейн</a>
+</li>
+<li>
+<a href="/ru/sok-braslavskie-ozyora" target="_self">СОК "Браславские озера"</a>
+</li>
+<li>
+<a href="/ru/obosoblennoe-podrazdelenie-bguir-kombinat-pitaniya" target="_self">Комбинат питания</a>
+</li>
+<li>
+<a href="https://cfl.bsuir.by/" target="_blank">Центр языковой подготовки</a>
+</li>
+<li>
+<a href="https://iit.bsuir.by/course" target="_blank">Повышение квалификации</a>
+</li>
+<li>
+<span>Контакты</span>
+</li>
+<li>
+<a href="/ru/kontaktnaya-informatsiya" target="_self">Контактная информация</a>
+</li>
+<li>
+<a href="/ru/priem-grazhdan" target="_self">Приём граждан</a>
+</li>
+<li>
+<a href="/ru/kontakty-press-sluzhba" target="_self">Пресс-служба</a>
+</li>
+<li>
+<a href="/ru/priemnaya-komissiya" target="_self">Приемная кампания</a>
+</li>
+<li>
+<a href="https://science.bsuir.by/ru/o-nas/administrativnye-podrazdeleniya" target="_blank">Подразделения НИЧ</a>
+</li>
+<li>
+<a href="/ru/tsentr-prodvizheniya-obrazovatelnykh-uslug-bguir" target="_self">Центр продвижения образовательных услуг</a>
+</li>
+<li>
+<a href="https://iis.bsuir.by/phones" target="_blank">Телефонный справочник</a>
+</li>
+<li>
+<a href="/ru/elektronnoe-obraschenie" target="_self">Электронное обращение</a>
+</li>
+<li>
+<a href="/ru/odno-okno" target="_self">Одно окно</a>
+</li>
+<li>
+<a href="/ru/obratnaya-svyaz" target="_self">Обратная связь</a>
+</li>
+</ul>
+</div>
+<div class="targetMenu__item">
+<span>Сотрудникам</span>
+<ul>
+<li>
+<span>Преподавательская деятельность</span>
+</li>
+<li>
+<a href="https://iis.bsuir.by/schedule" target="_blank">Расписание</a>
+</li>
+<li>
+<a href="/ru/umu-informatsionnaya-baza" target="_self">Документы УМУ</a>
+</li>
+<li>
+<a href="/ru/kafedry-bguir" target="_self">Кафедры</a>
+</li>
+<li>
+<a href="/ru/fakultety" target="_self">Факультеты</a>
+</li>
+<li>
+<span>Социальные вопросы</span>
+</li>
+<li>
+<a href="https://profkom.bsuir.by/" target="_blank">Профком</a>
+</li>
+<li>
+<a href="https://profkom.bsuir.by/profkom/dokumenty#col-dog" target="_blank">Коллективный договор</a>
+</li>
+<li>
+<a href="/ru/sok-braslavskie-ozyora" target="_self">Летний отдых</a>
+</li>
+<li>
+<a href="/ru/spps" target="_self">Психологическая помощь</a>
+</li>
+<li>
+<a href="/ru/fizkultura-i-sport" target="_self">Спорт</a>
+</li>
+<li>
+<span>Научная деятельность</span>
+</li>
+<li>
+<a href="/ru/aspirantura-doctorantura" target="_self">Аспирантура и докторантура</a>
+</li>
+<li>
+<a href="/ru/sovety-po-zaschite-dissertatsiy-pri-bguir" target="_self">Советы по защите диссертации</a>
+</li>
+<li>
+<a href="/ru/nauchnye-meropriyatiya" target="_self">Научные мероприятия</a>
+</li>
+<li>
+<a href="https://doklady.bsuir.by/jour" target="_blank">Доклады БГУИР</a>
+</li>
+<li>
+<a href="https://dt.bsuir.by/" target="_blank">Цифровая трансформация</a>
+</li>
+<li>
+<a href="https://libeldoc.bsuir.by/" target="_blank">Репозиторий</a>
+</li>
+<li>
+<span>Административная деятельность</span>
+</li>
+<li>
+<a href="/ru/obraztsy-dokumentov-tsentra-kadrovoy-raboty" target="_self">Образцы документов центра кадровой работы</a>
+</li>
+<li>
+<a href="/ru/konkurs-na-zameschenie-dolzhnostey" target="_self">Конкурс на замещение должностей</a>
+</li>
+<li>
+<a href="/ru/povyshenie-kvalifikatsii" target="_self">Повышение квалификации</a>
+</li>
+<li>
+<span>Информация</span>
+</li>
+<li>
+<a href="/ru/smk" target="_self">СМК</a>
+</li>
+<li>
+<a href="/ru/struktura-universiteta/otdel-dok-obespecheniya" target="_self">Делопроизводство БГУИР</a>
+</li>
+<li>
+<a href="/ru/prikazy" target="_self">Приказы</a>
+</li>
+<li>
+<a href="/ru/programmy-mobilnosti" target="_self">Программы мобильности</a>
+</li>
+<li>
+<a href="/ru/odno-okno" target="_self">Одно окно</a>
+</li>
+<li>
+<a href="/ru/informatsiya-o-rabote-s-sistemoy-edinoy-tekhnicheskoy-podderzhki" target="_self">Система единой технической поддержки</a>
+</li>
+<li>
+<a href="https://iis.bsuir.by/phones" target="_blank">Телефонный справочник</a>
+</li>
+<li>
+<a href="/ru/kontaktnaya-informatsiya" target="_self">Контакты</a>
+</li>
+</ul>
+</div>
+<div class="targetMenu__item">
+<span>Студентам</span>
+<ul>
+<li>
+<span>Учёба</span>
+</li>
+<li>
+<a href="https://iis.bsuir.by/schedule" target="_blank">Расписание</a>
+</li>
+<li>
+<a href="https://iis.bsuir.by/list-of-disciplines" target="_blank">Перечень дисциплин</a>
+</li>
+<li>
+<a href="/ru/kafedry-bguir" target="_self">Кафедры</a>
+</li>
+<li>
+<a href="/ru/fakultety" target="_self">Факультеты</a>
+</li>
+<li>
+<a href="https://library.bsuir.by/" target="_blank">Библиотека</a>
+</li>
+<li>
+<a href="https://erud.bsuir.by/" target="_blank">ЭРУД</a>
+</li>
+<li>
+<a href="https://libeldoc.bsuir.by/" target="_blank">Репозиторий</a>
+</li>
+<li>
+<a href="/ru/stipendii-bguir" target="_self">Стипендия</a>
+</li>
+<li>
+<a href="/ru/oplata-obucheniya" target="_self">Оплата обучения</a>
+</li>
+<li>
+<a href="/ru/programmy-mobilnosti" target="_self">Стажировка</a>
+</li>
+<li>
+<a href="/ru/uchebni-otdel/npo-proizvodstvennoy-praktiki-i-diplomnogo-proektirovaniya" target="_self">Практика</a>
+</li>
+<li>
+<a href="https://cfl.bsuir.by/" target="_blank">Центр языковой подготовки</a>
+</li>
+<li>
+<span>Студенческое соуправление</span>
+</li>
+<li>
+<a href="/ru/studsovet" target="_self">Студенческий совет БГУИР</a>
+</li>
+<li>
+<a href="/ru/molodezhnye-obedineniya/studencheskie-sovety-inostrannykh-obuchayuschikhsya" target="_self">Студенческие советы иностранных граждан</a>
+</li>
+<li>
+<a href="/ru/brsm-bguir" target="_self">БРСМ БГУИР</a>
+</li>
+<li>
+<a href="/ru/profkom-studentov" target="_self">Студенческий профком</a>
+</li>
+<li>
+<a href="/ru/molodezhnye-obedineniya/volonterskiy-tsentr-bguir" target="_self">Волонтерский центр</a>
+</li>
+<li>
+<span>Студенческие возможности</span>
+</li>
+<li>
+<a href="/ru/sektor-studencheskoy-nauki" target="_self">Сектор студенческой науки</a>
+</li>
+<li>
+<a href="/ru/molodezhnye-obedineniya" target="_self">Молодежные объединения</a>
+</li>
+<li>
+<a href="/ru/trudoustroystvo-molodezhi" target="_self">Трудоустройство молодежи</a>
+</li>
+<li>
+<a href="/ru/fizkultura-i-sport" target="_self">Спорт</a>
+</li>
+<li>
+<a href="/ru/tsentr-kulturno-massovoy-raboty" target="_self">Культурный центр</a>
+</li>
+<li>
+<a href="https://www.bsuir.by/ru/sok-braslavskie-ozyora" target="_blank">Летний отдых</a>
+</li>
+<li>
+<span>Социальные вопросы</span>
+</li>
+<li>
+<a href="/ru/sotsialnaya-podderzhka" target="_self">Социальная поддержка</a>
+</li>
+<li>
+<a href="/ru/studencheskiy-gorodok" target="_self">Студгородок</a>
+</li>
+<li>
+<a href="/ru/spps" target="_self">СППС</a>
+</li>
+<li>
+<span>Документы</span>
+</li>
+<li>
+<a href="/ru/shablony-zayavleniy" target="_self">Шаблоны заявлений</a>
+</li>
+<li>
+<a href="/ru/prikazy" target="_self">Приказы</a>
+</li>
+<li>
+<a href="/ru/odno-okno" target="_self">Выдача архивных справок</a>
+</li>
+<li>
+<a href="/ru/zakaz-studencheskikh-spravok" target="_self">Заказ студенческих справок</a>
+</li>
+<li>
+<a href="/ru/pravila-vnutrennego-rasporyadka-dlya-obuchayuschikhsya" target="_self">Правила внутреннего распорядка обучающихся</a>
+</li>
+<li>
+<span>Информация</span>
+</li>
+<li>
+<a href="https://iis.bsuir.by/support" target="_blank">Заявка в техподдержку</a>
+</li>
+<li>
+<a href="/ru/informatsiya-o-rabote-s-sistemoy-edinoy-tekhnicheskoy-podderzhki" target="_self">Система единой технической поддержки</a>
+</li>
+<li>
+<a href="https://iis.bsuir.by/phones" target="_blank">Телефонный справочник</a>
+</li>
+<li>
+<a href="/ru/spps" target="_self">Психологическая помощь</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="header__targetMenu targetMenu--right">
+<div class="targetMenu__item">
+<span>Поступающим</span>
+<ul>
+<li>
+<a href="https://abitur.bsuir.by/" target="_blank">Для абитуриентов</a>
+</li>
+<li>
+<a href="/ru/dovuzovskaya-podgotovka" target="_self">Довузовская подготовка</a>
+</li>
+<li>
+<a href="/ru/spetsialnosti-bguir" target="_self">Специальности</a>
+</li>
+<li>
+<a href="https://abitur.bsuir.by/zaochnaya-forma-obucheniya" target="_blank">Заочное обучение</a>
+</li>
+<li>
+<a href="/ru/crdo" target="_self">Дистанционное обучение</a>
+</li>
+<li>
+<a href="https://abitur.bsuir.by/sokraschennaya-forma-obucheniya" target="_blank">Сокращенное обучение</a>
+</li>
+<li>
+<a href="https://abitur.bsuir.by/ii-stupen-vysshego-obrazovaniya-magistratura" target="_blank">Поступление в магистратуру</a>
+</li>
+<li>
+<a href="https://abitur.bsuir.by/vtoroe-vysshee-obrazovanie" target="_blank">Второе высшее</a>
+</li>
+<li>
+<a href="/ru/aspirantura-doctorantura/dlya-postupayuschikh" target="_self">Поступление в аспирантуру</a>
+</li>
+<li>
+<a href="https://iit.bsuir.by/course" target="_blank">Повышение квалификации</a>
+</li>
+<li>
+<a href="/ru/inostrannym-grazhdanam" target="_self">Иностранным гражданам</a>
+</li>
+<li>
+<a href="/ru/inostrannym-grazhdanam/postuplenie-kazakhstan-kyrgyzstan-rossia-tadzhikistan" target="_self">Абитуриентам Казахстана и стран СНГ</a>
+</li>
+</ul>
+</div>
+<div class="targetMenu__item">
+<span>Выпускникам</span>
+<ul>
+<li>
+<a href="/ru/raspredelenie-1-stupeni-obrazovaniya" target="_self">Распределение выпускников</a>
+</li>
+<li>
+<a href="https://abitur.bsuir.by/ii-stupen-vysshego-obrazovaniya-magistratura" target="_blank">Магистратура</a>
+</li>
+<li>
+<a href="/ru/aspirantura-doctorantura/dlya-postupayuschikh" target="_self">Аспирантура и докторантура</a>
+</li>
+<li>
+<a href="https://iit.bsuir.by/course" target="_blank">Повышение квалификации</a>
+</li>
+<li>
+<a href="/ru/dopolnitelnoe-obrazovanie" target="_self">Дополнительное образование</a>
+</li>
+</ul>
+</div>
+<div class="targetMenu__item">
+<span>Войти</span>
+<ul>
+<li>
+<a href="https://iis.bsuir.by/login" target="_blank">Личный кабинет сотрудника</a>
+</li>
+<li>
+<a href="https://iis.bsuir.by/login" target="_blank">Личный кабинет студента</a>
+</li>
+<li>
+<a href="https://lms.bsuir.by/login/index.php" target="_blank">Система электронного обучения</a>
+</li>
+<li>
+<a href="https://webmail.bsuir.by/" target="_blank">Почта</a>
+</li>
+</ul>
+</div>
+</div>
+
+
+
+                <form id="searchFieldMobile" class="search-container searchFieldMobile d-none" name="frm" action="/online/search/search_g.jsp" method="get" accept-charset="utf-8">
+                    <input type="hidden" name="resID" value="100229">
+                    <input type="hidden" name="lang" value="ru">
+                    <input type="hidden" name="menuItemID" value="-1">
+                    <input type="hidden" name="noshow" value="1">
+                    <input type="text" class="searchFieldMobile__input" name="q" placeholder="Поиск" OnClick="this.value=''" OnSelect="this.value=''">
+                    <button class="searchFieldMobile__button" type="submit" name="search">
+                        <svg>
+                            <use xlink:href="/online/layouts/489/img/sprite.svg#search"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="header__logoText">
+            <a href="/">БГУИР
+            </a>
+        </div>
+    </header>
+    <main class="main">
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script language="JavaScript1.2" type="text/javascript">
+
+
+function setParameter(str, parameter, value) {
+    i = str.indexOf(parameter);
+    tmp = '';
+    if (i >=0) {
+        tmp = str.replace()
+    }
+}
+
+function getNextPage(i) {
+        var param = /(pagenum=)\d*/;
+        var newparam = 0;
+        if (i > 0) {
+            newparam = 1;
+        }
+        else {
+            newparam = -1;
+        }
+        var tmp = new String(document.location);
+        var loc = tmp.replace(param, "pagenum="+newparam);
+		if (loc == tmp) {
+			loc += "&pagenum="+newparam;
+		}
+        document.location = loc;
+    return false;
+}
+
+</script> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/templates/136033_list/simple-adaptive-slider.css">
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var slider = new ItcSimpleSlider('.itcss', {
+            loop: true,
+            autoplay: true,
+            swipe: true
+        });
+    });
+</script>
+<div class="itcss">
+    <div class="itcss__wrapper">
+        <div class="itcss__items">
+
+
+
+            
+                
+                
+                
+                
+                
+                
+
+
+
+            
+                
+                
+                
+                
+                
+                
+
+
+
+            
+                
+                
+                
+                
+                
+                
+
+
+
+                <div class="itcss__item">
+
+
+
+                    <span class="itcss__image">
+
+
+
+                        <picture>
+                            <source srcset="/m/12_100229_1_191592.webp" media="(max-width: 900px)">
+                            <img src="/m/12_100229_1_191461.webp" alt="tanci" loading="lazy">
+                        </picture>
+
+
+
+                    </span>
+
+
+
+                </div>
+
+
+
+            
+                
+                
+                
+                
+                
+                
+
+
+
+                <div class="itcss__item">
+
+
+
+                    <span class="itcss__image">
+
+
+
+                        <picture>
+                            <source srcset="/m/12_100229_1_200278.webp" media="(max-width: 900px)">
+                            <img src="/m/12_100229_1_200277.webp" alt="выставка" loading="lazy">
+                        </picture>
+
+
+
+                    </span>
+
+
+
+                </div>
+
+
+
+            
+                
+                
+                
+                
+                
+                
+
+
+
+                <div class="itcss__item">
+
+
+
+                    <span class="itcss__image">
+
+
+
+                        <picture>
+                            <source srcset="/m/12_100229_1_200416.webp" media="(max-width: 900px)">
+                            <img src="/m/12_100229_1_200417.webp" alt="Студент года 2025" loading="lazy">
+                        </picture>
+
+
+
+                    </span>
+
+
+
+                </div>
+
+
+
+            
+                
+                
+                
+                
+                
+                
+
+
+
+                <div class="itcss__item">
+
+
+
+                    <span class="itcss__image">
+
+
+
+                        <picture>
+                            <source srcset="/m/12_100229_1_200816.webp" media="(max-width: 900px)">
+                            <img src="/m/12_100229_1_200815.webp" alt="спорт" loading="lazy">
+                        </picture>
+
+
+
+                    </span>
+
+
+
+                </div>
+
+
+
+            
+                
+                
+                
+                
+                
+                
+
+
+
+                <div class="itcss__item">
+
+
+
+                    <span class="itcss__image">
+
+
+
+                        <picture>
+                            <source srcset="/m/12_100229_1_200281.webp" media="(max-width: 900px)">
+                            <img src="/m/12_100229_1_200279.webp" alt="велопробег" loading="lazy">
+                        </picture>
+
+
+
+                    </span>
+
+
+
+                </div>
+
+
+
+            
+        </div>
+    </div>
+    <a class="itcss__control itcss__control_prev" href="#" role="button" data-slide="prev"></a>
+    <a class="itcss__control itcss__control_next" href="#" role="button" data-slide="next"></a>
+</div>
+<script defer src="/templates/136033_list/simple-adaptive-slider.js"></script>
+
+
+
+
+        <div class="container">
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="aboutBsuir">
+<div class="aboutBsuir_first_part">
+<h1>Белорусский государственный университет информатики и радиоэлектроники</h1>
+
+<div class="bsuirStatistic">
+<div class="bsuirStatistic_first">
+<div class="bsuirStatistic_item"><span>10K+</span>
+<p>студентов ежегодно</p>
+</div>
+
+<div class="bsuirStatistic_item"><span>30+</span>
+<p>учебных кафедр</p>
+</div>
+</div>
+
+<div class="bsuirStatistic_second">
+<div class="bsuirStatistic_item"><span>300+</span>
+<p>научных патентов</p>
+</div>
+
+<div class="bsuirStatistic_item"><span>50+</span>
+<p>стран партнеров</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="aboutBsuir_second_part">
+<p class="socialMedia">
+	<a class="socialMedia__link link--instagram" href="https://www.instagram.com/bsuir_official/"><svg><use xlink:href="/online/layouts/489/img/sprite.svg#instagram"></use></svg></a> <a class="socialMedia__link link--vk" href="https://vk.com/bsuir_official"><svg><use xlink:href="/online/layouts/489/img/sprite.svg#vk"></use></svg></a> <a class="socialMedia__link link--youtube" href="https://www.youtube.com/user/videostudiabsuir"><svg><use xlink:href="/online/layouts/489/img/sprite.svg#youtube"></use></svg></a> <a class="socialMedia__link link--facebook" href="https://www.facebook.com/bsuir.by/"><svg><use xlink:href="/online/layouts/489/img/sprite.svg#facebook"></use></svg></a> <a class="socialMedia__link link--telegram" href="https://t.me/bsuir_official"><svg><use xlink:href="/online/layouts/489/img/sprite.svg#telegram"></use></svg></a> <a class="socialMedia__link link--tiktok" href="https://www.tiktok.com/@bsuir"><svg><use xlink:href="/online/layouts/489/img/sprite.svg#tiktok"></use></svg></a></p>
+
+<div class="bsuirStory">60-лет созидательного роста - 88.5 тыс. выпускников - сочетание традиций и инноваций в области высшего технического образования БГУИР является ведущим вузом в отрасли, базовой организацией государств-участников СНГ по высшему образованию в области</div>
+</div>
+</div>
+
+
+
+
+            <div class="newsAndEvents">
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<article class="news">
+<div class="d-flex icon-h2-container">
+<svg>
+<use href="/online/layouts/489/img/sprite.svg#documentFile"></use>
+</svg>
+<h2 id="rubid_102243">Новости</h2>
+</div>
+<div class="news__content">
+<div class="content__item">
+<a class="item__image" href="/ru/news/114524-vstrechu-ot-rozhdestva-do-krescheniya-dlya-inostrannykh-studentov-organizovali-v-bguir"><img loading="lazy" src="/m/12_100229_1_202536.webp" alt="&#1042;&#1089;&#1090;&#1088;&#1077;&#1095;&#1072; &#1076;&#1083;&#1103; &#1080;&#1085;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1085;&#1099;&#1093; &#1089;&#1090;&#1091;&#1076;&#1077;&#1085;&#1090;&#1086;&#1074; &laquo;&#1054;&#1090; &#1056;&#1086;&#1078;&#1076;&#1077;&#1089;&#1090;&#1074;&#1072; &#1076;&#1086; &#1050;&#1088;&#1077;&#1097;&#1077;&#1085;&#1080;&#1103;: &#1087;&#1088;&#1072;&#1079;&#1076;&#1085;&#1080;&#1082;&#1080; &#1080; &#1090;&#1088;&#1072;&#1076;&#1080;&#1094;&#1080;&#1080;&raquo; &#1089;&#1086;&#1089;&#1090;&#1086;&#1103;&#1083;&#1072;&#1089;&#1100; &#1074; &#1041;&#1043;&#1059;&#1048;&#1056;"></a><span class="item__type">&#1054;&#1073;&#1097;&#1077;&#1089;&#1090;&#1074;&#1086;</span><span class="item__date">28.01.2026</span><a class="item__link news__link" href="/ru/news/114524-vstrechu-ot-rozhdestva-do-krescheniya-dlya-inostrannykh-studentov-organizovali-v-bguir">&#1042;&#1089;&#1090;&#1088;&#1077;&#1095;&#1072; &#1076;&#1083;&#1103; &#1080;&#1085;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1085;&#1099;&#1093; &#1089;&#1090;&#1091;&#1076;&#1077;&#1085;&#1090;&#1086;&#1074; &laquo;&#1054;&#1090; &#1056;&#1086;&#1078;&#1076;&#1077;&#1089;&#1090;&#1074;&#1072; &#1076;&#1086; &#1050;&#1088;&#1077;&#1097;&#1077;&#1085;&#1080;&#1103;: &#1087;&#1088;&#1072;&#1079;&#1076;&#1085;&#1080;&#1082;&#1080; &#1080; &#1090;&#1088;&#1072;&#1076;&#1080;&#1094;&#1080;&#1080;&raquo; &#1089;&#1086;&#1089;&#1090;&#1086;&#1103;&#1083;&#1072;&#1089;&#1100; &#1074; &#1041;&#1043;&#1059;&#1048;&#1056;</a>
+</div>
+<div class="content__item">
+<a class="item__image" href="/ru/news/114477-bodrost-i-zdorove--startovala-traditsionnaya-spartakiada-bguir"><img loading="lazy" src="/m/12_100229_1_202492.webp" alt="&#1045;&#1078;&#1077;&#1075;&#1086;&#1076;&#1085;&#1072;&#1103; &#1089;&#1087;&#1072;&#1088;&#1090;&#1072;&#1082;&#1080;&#1072;&#1076;&#1072; &laquo;&#1041;&#1086;&#1076;&#1088;&#1086;&#1089;&#1090;&#1100; &#1080; &#1079;&#1076;&#1086;&#1088;&#1086;&#1074;&#1100;&#1077;&raquo; &#1087;&#1088;&#1086;&#1093;&#1086;&#1076;&#1080;&#1090; &#1074; &#1041;&#1043;&#1059;&#1048;&#1056;"></a><span class="item__type">&#1057;&#1087;&#1086;&#1088;&#1090; &#1080; &#1076;&#1086;&#1089;&#1091;&#1075;</span><span class="item__date">27.01.2026</span><a class="item__link news__link" href="/ru/news/114477-bodrost-i-zdorove--startovala-traditsionnaya-spartakiada-bguir">&#1045;&#1078;&#1077;&#1075;&#1086;&#1076;&#1085;&#1072;&#1103; &#1089;&#1087;&#1072;&#1088;&#1090;&#1072;&#1082;&#1080;&#1072;&#1076;&#1072; &laquo;&#1041;&#1086;&#1076;&#1088;&#1086;&#1089;&#1090;&#1100; &#1080; &#1079;&#1076;&#1086;&#1088;&#1086;&#1074;&#1100;&#1077;&raquo; &#1087;&#1088;&#1086;&#1093;&#1086;&#1076;&#1080;&#1090; &#1074; &#1041;&#1043;&#1059;&#1048;&#1056;</a>
+</div>
+<div class="content__item">
+<a class="item__image" href="/ru/news/114511-mezhvuzovskiy-kruglyy-stol-proshel-v-bguir"><img loading="lazy" src="/m/12_100229_1_202473.webp" alt="&#1052;&#1077;&#1078;&#1074;&#1091;&#1079;&#1086;&#1074;&#1089;&#1082;&#1080;&#1081; &#1082;&#1088;&#1091;&#1075;&#1083;&#1099;&#1081; &#1089;&#1090;&#1086;&#1083; &#1087;&#1088;&#1086;&#1096;&#1077;&#1083; &#1074; &#1041;&#1043;&#1059;&#1048;&#1056;"></a><span class="item__type">&#1054;&#1073;&#1088;&#1072;&#1079;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077;</span><span class="item__date">26.01.2026</span><a class="item__link news__link" href="/ru/news/114511-mezhvuzovskiy-kruglyy-stol-proshel-v-bguir">&#1052;&#1077;&#1078;&#1074;&#1091;&#1079;&#1086;&#1074;&#1089;&#1082;&#1080;&#1081; &#1082;&#1088;&#1091;&#1075;&#1083;&#1099;&#1081; &#1089;&#1090;&#1086;&#1083; &#1087;&#1088;&#1086;&#1096;&#1077;&#1083; &#1074; &#1041;&#1043;&#1059;&#1048;&#1056;</a>
+</div>
+<div class="content__item">
+<a class="item__image" href="/ru/news/114509-itogi-16-go-sezona-proekta-evristika-v-fizike"><img loading="lazy" src="/m/12_100229_1_202463.webp" alt="&#1048;&#1090;&#1086;&#1075;&#1080; 16-&#1075;&#1086; &#1089;&#1077;&#1079;&#1086;&#1085;&#1072; &#1087;&#1088;&#1086;&#1077;&#1082;&#1090;&#1072; &laquo;&#1069;&#1074;&#1088;&#1080;&#1089;&#1090;&#1080;&#1082;&#1072; &#1074; &#1092;&#1080;&#1079;&#1080;&#1082;&#1077;&raquo;"></a><span class="item__type">&#1053;&#1072;&#1091;&#1082;&#1072;</span><span class="item__date">26.01.2026</span><a class="item__link news__link" href="/ru/news/114509-itogi-16-go-sezona-proekta-evristika-v-fizike">&#1048;&#1090;&#1086;&#1075;&#1080; 16-&#1075;&#1086; &#1089;&#1077;&#1079;&#1086;&#1085;&#1072; &#1087;&#1088;&#1086;&#1077;&#1082;&#1090;&#1072; &laquo;&#1069;&#1074;&#1088;&#1080;&#1089;&#1090;&#1080;&#1082;&#1072; &#1074; &#1092;&#1080;&#1079;&#1080;&#1082;&#1077;&raquo;</a>
+</div>
+<div class="content__item">
+<a class="item__image" href="/ru/news/114506-pozdravlenie-rektora-s-dnyom-belorusskoy-nauki"><img loading="lazy" src="/m/12_100229_1_202454.webp" alt="&#1055;&#1086;&#1079;&#1076;&#1088;&#1072;&#1074;&#1083;&#1077;&#1085;&#1080;&#1077; &#1089; &#1044;&#1085;&#1105;&#1084; &#1073;&#1077;&#1083;&#1086;&#1088;&#1091;&#1089;&#1089;&#1082;&#1086;&#1081; &#1085;&#1072;&#1091;&#1082;&#1080; &#1086;&#1090; &#1088;&#1077;&#1082;&#1090;&#1086;&#1088;&#1072; &#1041;&#1043;&#1059;&#1048;&#1056;"></a><span class="item__date">25.01.2026</span><a class="item__link news__link" href="/ru/news/114506-pozdravlenie-rektora-s-dnyom-belorusskoy-nauki">&#1055;&#1086;&#1079;&#1076;&#1088;&#1072;&#1074;&#1083;&#1077;&#1085;&#1080;&#1077; &#1089; &#1044;&#1085;&#1105;&#1084; &#1073;&#1077;&#1083;&#1086;&#1088;&#1091;&#1089;&#1089;&#1082;&#1086;&#1081; &#1085;&#1072;&#1091;&#1082;&#1080; &#1086;&#1090; &#1088;&#1077;&#1082;&#1090;&#1086;&#1088;&#1072; &#1041;&#1043;&#1059;&#1048;&#1056;</a>
+</div>
+<div class="content__item">
+<a class="item__image" href="/ru/news/114502-v-iit-bguir-sostoyalsya-nauchno-prakticheskiy-seminar"><img loading="lazy" src="/m/12_100229_1_202422.webp" alt="&#1042; &#1048;&#1048;&#1058; &#1041;&#1043;&#1059;&#1048;&#1056; &#1089;&#1086;&#1089;&#1090;&#1086;&#1103;&#1083;&#1089;&#1103; &#1085;&#1072;&#1091;&#1095;&#1085;&#1086;-&#1087;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1081; &#1089;&#1077;&#1084;&#1080;&#1085;&#1072;&#1088;"></a><span class="item__type">&#1053;&#1072;&#1091;&#1082;&#1072;</span><span class="item__date">24.01.2026</span><a class="item__link news__link" href="/ru/news/114502-v-iit-bguir-sostoyalsya-nauchno-prakticheskiy-seminar">&#1042; &#1048;&#1048;&#1058; &#1041;&#1043;&#1059;&#1048;&#1056; &#1089;&#1086;&#1089;&#1090;&#1086;&#1103;&#1083;&#1089;&#1103; &#1085;&#1072;&#1091;&#1095;&#1085;&#1086;-&#1087;&#1088;&#1072;&#1082;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1081; &#1089;&#1077;&#1084;&#1080;&#1085;&#1072;&#1088;</a>
+</div>
+</div>
+<a class="showMore" href="/online/tnj2/one_rubric.jsp?resID=100229&amp;lang=ru&amp;tnj_type=2&amp;pid=100229&amp;rid=102243">
+								&#1042;&#1089;&#1077; &#1085;&#1086;&#1074;&#1086;&#1089;&#1090;&#1080;
+								<div class="waves">
+<div class="wave">)</div>
+<div class="wave">)</div>
+<div class="wave">)</div>
+</div>
+</a>
+</article>
+
+
+
+
+
+
+                <article class="events">
+
+
+
+                    <div class="d-flex icon-h2-container">
+                        <svg>
+                            <use xlink:href="/online/layouts/489/img/sprite.svg#dayCalendar"></use>
+                        </svg>
+                        <h2>События</h2>
+                    </div>
+
+
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script language="JavaScript1.2" type="text/javascript">
+
+
+function setParameter(str, parameter, value) {
+    i = str.indexOf(parameter);
+    tmp = '';
+    if (i >=0) {
+        tmp = str.replace()
+    }
+}
+
+function getNextPage(i) {
+        var param = /(pagenum=)\d*/;
+        var newparam = 0;
+        if (i > 0) {
+            newparam = 1;
+        }
+        else {
+            newparam = -1;
+        }
+        var tmp = new String(document.location);
+        var loc = tmp.replace(param, "pagenum="+newparam);
+		if (loc == tmp) {
+			loc += "&pagenum="+newparam;
+		}
+        document.location = loc;
+    return false;
+}
+
+</script> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+
+
+
+<div class="events__content">
+    
+    <div class="events__item">
+        <div class="events__date">
+            <div class="events__month">янв</div>
+            <div class="events__day">28</div>
+        </div>
+        <div>
+            <div><b>Олимпиада БГУИР-ПЕЛЕНГ по инфокоммуникационным и радио-технологиям. Первый (отборочный) этап</b></div>
+            
+            
+            <div>Окончание события: 13 февраля</div>
+            
+        </div>
+    </div>
+    
+    <div class="events__item">
+        <div class="events__date">
+            <div class="events__month">янв</div>
+            <div class="events__day">29</div>
+        </div>
+        <div>
+            <div><b>БГУИР: БОДРОСТЬ И ЗДОРОВЬЕ. Турнир по волейболу</b></div>
+            <div>Начало в 9:00</div>
+            <div>Место проведения: корпус 3, спортзал</div>
+            
+            
+        </div>
+    </div>
+    
+    <div class="events__item">
+        <div class="events__date">
+            <div class="events__month">фев</div>
+            <div class="events__day">21</div>
+        </div>
+        <div>
+            <div><b>Олимпиада БГУИР-ПЕЛЕНГ по инфокоммуникационным и радио-технологиям. Второй (заключительный) этап (собеседование, выполнении тестового задания в лаборатории)</b></div>
+            
+            
+            
+            
+        </div>
+    </div>
+    
+</div>
+
+
+
+
+
+
+                    <a href="kalendar-sobytiy" class="showMore">
+
+
+
+                        Все события
+
+
+
+                        <div class="waves">
+                            <div class="wave">)</div>
+                            <div class="wave">)</div>
+                            <div class="wave">)</div>
+                        </div>
+                    </a>
+
+
+
+                </article>
+
+
+
+            </div>
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<article class="ads">
+<div class="d-flex icon-h2-container">
+<svg>
+<use href="/online/layouts/489/img/sprite.svg#chatMessage"></use>
+</svg>
+<h2 id="rubid_111674">Объявления</h2>
+</div>
+<div class="ads__content">
+<div class="content__item">
+<div class="item__date">23.01.2026</div>
+<a class="item__link" href="/ru/news/114500-kruglyy-stol-etiko-pravovye-aspekty-avtorskogo-prava-v-tsifrovuyu-epokhu">&#1055;&#1088;&#1080;&#1075;&#1083;&#1072;&#1096;&#1072;&#1077;&#1084; &#1085;&#1072; &#1082;&#1088;&#1091;&#1075;&#1083;&#1099;&#1081; &#1089;&#1090;&#1086;&#1083; &laquo;&#1069;&#1090;&#1080;&#1082;&#1086;-&#1087;&#1088;&#1072;&#1074;&#1086;&#1074;&#1099;&#1077; &#1072;&#1089;&#1087;&#1077;&#1082;&#1090;&#1099; &#1072;&#1074;&#1090;&#1086;&#1088;&#1089;&#1082;&#1086;&#1075;&#1086; &#1087;&#1088;&#1072;&#1074;&#1072; &#1074; &#1094;&#1080;&#1092;&#1088;&#1086;&#1074;&#1091;&#1102; &#1101;&#1087;&#1086;&#1093;&#1091;&raquo;</a>
+<div class="item__text truncate_js">26 января в 12.30 (кафедра МПК, ауд. 401-4)</div>
+</div>
+<div class="content__item">
+<div class="item__date">16.01.2026</div>
+<a class="item__link" href="/ru/news/videokonkurs-dlya-molodezhi-v-ramkakh-mezhdunarodnogo-dnya-intellektualnoy-sobstvennosti-2026-goda">&#1042;&#1080;&#1076;&#1077;&#1086;&#1082;&#1086;&#1085;&#1082;&#1091;&#1088;&#1089; &#1076;&#1083;&#1103; &#1084;&#1086;&#1083;&#1086;&#1076;&#1077;&#1078;&#1080; &#1074; &#1088;&#1072;&#1084;&#1082;&#1072;&#1093; &#1052;&#1077;&#1078;&#1076;&#1091;&#1085;&#1072;&#1088;&#1086;&#1076;&#1085;&#1086;&#1075;&#1086; &#1076;&#1085;&#1103; &#1080;&#1085;&#1090;&#1077;&#1083;&#1083;&#1077;&#1082;&#1090;&#1091;&#1072;&#1083;&#1100;&#1085;&#1086;&#1081; &#1089;&#1086;&#1073;&#1089;&#1090;&#1074;&#1077;&#1085;&#1085;&#1086;&#1089;&#1090;&#1080; 2026 &#1075;&#1086;&#1076;&#1072;</a>
+<div class="item__text truncate_js">Крайний срок подачи заявки: 15 марта 2026 года</div>
+</div>
+<div class="content__item">
+<div class="item__date">15.01.2026</div>
+<a class="item__link" href="/ru/news/114466-den-otkrytykh-dverey-v-gu-belisa">&#1044;&#1077;&#1085;&#1100; &#1086;&#1090;&#1082;&#1088;&#1099;&#1090;&#1099;&#1093; &#1076;&#1074;&#1077;&#1088;&#1077;&#1081; &#1074; &#1043;&#1059; &laquo;&#1041;&#1077;&#1083;&#1048;&#1057;&#1040;&raquo;</a>
+<div class="item__text truncate_js">19 января в 15:00 (пр. Победителей, 7)</div>
+</div>
+<div class="content__item">
+<div class="item__date">13.01.2026</div>
+<a class="item__link" href="/ru/news/114458-startuet-iii-shkola-molodogo-uchenogo">&#1057;&#1090;&#1072;&#1088;&#1090;&#1091;&#1077;&#1090; III &#1064;&#1082;&#1086;&#1083;&#1072; &#1084;&#1086;&#1083;&#1086;&#1076;&#1086;&#1075;&#1086; &#1091;&#1095;&#1077;&#1085;&#1086;&#1075;&#1086;</a>
+<div class="item__text truncate_js">Путь в большую науку начинается здесь!</div>
+</div>
+</div>
+<a class="showMore" href="/online/tnj2/one_rubric.jsp?resID=100229&amp;lang=ru&amp;tnj_type=2&amp;pid=100229&amp;rid=111674">
+								&#1042;&#1089;&#1077; &#1086;&#1073;&#1098;&#1103;&#1074;&#1083;&#1077;&#1085;&#1080;&#1103;
+								<div class="waves">
+<div class="wave">)</div>
+<div class="wave">)</div>
+<div class="wave">)</div>
+</div>
+</a>
+</article>
+
+
+
+
+
+
+
+
+
+
+            <article class="bsuirToday">
+
+
+
+                <div class="d-flex icon-h2-container">
+                    <svg>
+                        <use xlink:href="/online/layouts/489//img/sprite.svg#megaphone"></use>
+                    </svg>
+                    <h2>БГУИР сегодня</h2>
+                </div>
+
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script language="JavaScript1.2" type="text/javascript">
+
+
+function setParameter(str, parameter, value) {
+    i = str.indexOf(parameter);
+    tmp = '';
+    if (i >=0) {
+        tmp = str.replace()
+    }
+}
+
+function getNextPage(i) {
+        var param = /(pagenum=)\d*/;
+        var newparam = 0;
+        if (i > 0) {
+            newparam = 1;
+        }
+        else {
+            newparam = -1;
+        }
+        var tmp = new String(document.location);
+        var loc = tmp.replace(param, "pagenum="+newparam);
+		if (loc == tmp) {
+			loc += "&pagenum="+newparam;
+		}
+        document.location = loc;
+    return false;
+}
+
+</script> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/templates/136034_list/simple-adaptive-accordion.css">
+
+<div class="accordionSlider" id="accordionSlider">
+
+
+
+    
+        
+        
+        
+        
+        
+        
+
+
+
+        <div class="accordionSlider__slide slide--selected">
+
+
+
+            <picture>
+                <source srcset="/m/12_100229_1_202044.webp" media="(max-width: 900px)">
+                <img class="slide__image" src="/m/12_100229_1_202045.webp" alt="2026 ГОД БЕЛОРУССКОЙ ЖЕНЩИНЫ" loading="lazy">
+            </picture>
+
+
+
+            <div class="slide__text">2026 ГОД БЕЛОРУССКОЙ ЖЕНЩИНЫ</div>
+
+
+
+            <a href="https://president.gov.by/ru/documents/ukaz-no-1-ot-1-anvara-2026-g" class="slide__link button button--pink">Подробнее</a>
+
+
+
+        </div>
+
+
+
+    
+        
+        
+        
+        
+        
+        
+
+
+
+        <div class="accordionSlider__slide">
+
+
+
+            <img class="slide__image" src="/m/12_100229_1_194702.webp" alt="БГУИР НА ВЫСТАВКАХ 2026" loading="lazy">
+
+
+
+            <div class="slide__text">БГУИР НА ВЫСТАВКАХ 2026</div>
+
+
+
+            <a href="https://science.bsuir.by/ru/vystavki" class="slide__link button button--pink">Подробнее</a>
+
+
+
+        </div>
+
+
+
+    
+        
+        
+        
+        
+        
+        
+
+
+
+        <div class="accordionSlider__slide">
+
+
+
+            <img class="slide__image" src="/m/12_100229_1_192815.webp" alt="ВИРТУАЛЬНЫЕ ЭКСКУРСИИ" loading="lazy">
+
+
+
+            <div class="slide__text">ВИРТУАЛЬНЫЕ ЭКСКУРСИИ</div>
+
+
+
+            <a href="/ru/virtualnaya-ekskursiya-po-bguir" class="slide__link button button--pink">Подробнее</a>
+
+
+
+        </div>
+
+
+
+    
+        
+        
+        
+        
+        
+        
+
+
+
+        <div class="accordionSlider__slide">
+
+
+
+            <picture>
+                <source srcset="/m/12_100229_1_197022.webp" media="(max-width: 900px)">
+                <img class="slide__image" src="/m/12_100229_1_197023.webp" alt="ПЕРЕПОДГОТОВКА В ИИТ БГУИР" loading="lazy">
+            </picture>
+
+
+
+            <div class="slide__text">ПЕРЕПОДГОТОВКА В ИИТ БГУИР</div>
+
+
+
+            <a href="https://iit.bsuir.by/news/252" class="slide__link button button--pink">Подробнее</a>
+
+
+
+        </div>
+
+
+
+    
+        
+        
+        
+        
+        
+        
+
+
+
+        <div class="accordionSlider__slide">
+
+
+
+            <picture>
+                <source srcset="/m/12_100229_1_202101.webp" media="(max-width: 900px)">
+                <img class="slide__image" src="/m/12_100229_1_202102.webp" alt="ГАЛЕРЕЯ ПОЧЁТНЫХ ПРОФЕССОРОВ" loading="lazy">
+            </picture>
+
+
+
+            <div class="slide__text">ГАЛЕРЕЯ ПОЧЁТНЫХ ПРОФЕССОРОВ</div>
+
+
+
+            <a href="https://honours.bsuir.by/" class="slide__link button button--pink">Подробнее</a>
+
+
+
+        </div>
+
+
+
+    
+
+</div>
+<script defer src="/templates/136034_list/simple-adaptive-accordion.js"></script>
+
+
+            </article>
+
+
+
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+
+
+
+            <div class="footer__top">
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="socialMedia">
+	<a class="socialMedia__link link--instagram" href="https://www.instagram.com/bsuir_official/"><svg><use xlink:href="/online/layouts/489/img/sprite.svg#instagram"></use></svg></a> <a class="socialMedia__link link--vk" href="https://vk.com/bsuir_official"> <svg> <use xlink:href="/online/layouts/489/img/sprite.svg#vk"></use></svg></a> <a class="socialMedia__link link--youtube" href="https://www.youtube.com/user/videostudiabsuir"><svg><use xlink:href="/online/layouts/489/img/sprite.svg#youtube"></use></svg></a> <a class="socialMedia__link link--facebook" href="https://www.facebook.com/bsuir.by/"><svg><use xlink:href="/online/layouts/489/img/sprite.svg#facebook"></use></svg></a> <a class="socialMedia__link link--telegram" href="https://t.me/bsuir_official"><svg><use xlink:href="/online/layouts/489/img/sprite.svg#telegram"></use></svg></a> <a class="socialMedia__link link--tiktok" href="https://www.tiktok.com/@bsuir"><svg><use xlink:href="/online/layouts/489/img/sprite.svg#tiktok"></use></svg></a> <a class="socialMedia__link link--webmail" href="https://webmail.bsuir.by/"><svg><use xlink:href="/online/layouts/489/img/sprite.svg#email"></use></svg></a></p>
+<p>
+	<a class="contactUs" href="mailto:webmaster@bsuir.by"><svg><use xlink:href="/online/layouts/489/img/sprite.svg#webmail"></use></svg><span>Связаться с нами</span></a></p>
+
+
+
+            </div>
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div>
+<div class="footer__menu" id="footerMenu">
+<ul class="list--levelOne menu__list">
+	<li class="menu__item item--levelOne"><span>Полезные ресурсы<svg class="svg--arrowDown"> <use xlink:href="/online/layouts/489/img/sprite.svg#arrowDown"></use> </svg></span>
+	<ul class="list--levelTwo menu__list">
+		<li class="menu__item item--levelTwo"><a href="http://president.gov.by/">Президент Республики Беларусь</a></li>
+		<li class="menu__item item--levelTwo"><a href="http://edu.gov.by/">Министерство образования Республики Беларусь</a></li>
+		<li class="menu__item item--levelTwo"><a href="http://abiturient.by/">Республиканский сайт для абитуриентов</a></li>
+		<li class="menu__item item--levelTwo"><a href="https://xn----7sbgfh2alwzdhpc0c.xn--90ais/">Портал рейтинговой оценки качества услуг</a></li>
+		<li class="menu__item item--levelTwo"><a href="http://studyinby.com/">Обучение иностранцев в Беларуси</a></li>
+		<li class="menu__item item--levelTwo"><a href="https://export.by/">Портал информационной поддержки экспорта</a></li>
+		<li class="menu__item item--levelTwo"><a href="https://patriot.rcek.by/">Патриот</a></li>
+		<li class="menu__item item--levelTwo"><a href="https://xn--d1acdremb9i.xn--90ais/">Молодежь Беларуси</a></li>
+		<li class="menu__item item--levelTwo"><a href="http://www.gosstandart.gov.by/">Госстандарт</a></li>
+		<li class="menu__item item--levelTwo"><a href="https://pravo.by/">Национальный правовой интернет-портал</a></li>
+		<li class="menu__item item--levelTwo"><a href="https://t.me/ucheba_by">Поступающим из Российской Федерации</a></li>
+	</ul>
+	</li>
+</ul>
+
+<ul class="list--levelOne menu__list">
+	<li class="menu__item item--levelOne"><span>Подразделения БГУИР<svg class="svg--arrowDown"> <use xlink:href="/online/layouts/489/img/sprite.svg#arrowDown"></use> </svg></span>
+
+	<ul class="list--levelTwo menu__list">
+		<li class="menu__item item--levelTwo"><a href="https://www.bsuir.by/ru/rektorat">Ректорат</a></li>
+		<li class="menu__item item--levelTwo"><a href="https://iit.bsuir.by/">ИИТ БГУИР</a></li>
+		<li class="menu__item item--levelTwo"><a href="https://www.mrk-bsuir.by/ru/">Филиал &quot;Минский радиотехнический колледж&quot;</a></li>
+		<li class="menu__item item--levelTwo"><a href="https://library.bsuir.by/">Библиотека</a></li>
+		<li class="menu__item item--levelTwo"><a href="https://science.bsuir.by/ru/">Научно-исследовательская часть</a></li>
+		<li class="menu__item item--levelTwo"><a href="https://profkom.bsuir.by/">Профком работников БГУИР</a></li>
+		<li class="menu__item item--levelTwo"><a href="https://www.bsuir.by/ru/tsentr-kadrovoy-raboty">Центр кадровой работы</a></li>
+		<li class="menu__item item--levelTwo"><a href="https://smu.bsuir.by/">Совет молодых ученых</a></li>
+		<li class="menu__item item--levelTwo"><a href="https://www.bsuir.by/ru/umo">Учебно-методическое объединение</a></li>
+		<li class="menu__item item--levelTwo"><a href="https://technopark.bsuir.by/">Научно-технологический парк</a></li>
+		<li class="menu__item item--levelTwo"><a href="https://www.bsuir.by/ru/obosoblennoe-podrazdelenie-bguir-kombinat-pitaniya">ОП БГУИР Комбинат питания</a></li>
+		<li class="menu__item item--levelTwo"><a href="https://sportclub.bsuir.by/">Спортклуб</a></li>
+	</ul>
+	</li>
+</ul>
+
+<ul class="list--levelOne menu__list">
+	<li class="menu__item item--levelOne"><span>Тематические сайты<svg class="svg--arrowDown"> <use xlink:href="/online/layouts/489/img/sprite.svg#arrowDown"></use> </svg></span>
+
+	<ul class="list--levelTwo menu__list">
+		<li class="menu__item item--levelTwo"><a href="https://www.bsuir.by/ru/informatsiya-o-rabote-s-sistemoy-edinoy-tekhnicheskoy-podderzhki">Система технической поддержки БГУИР</a></li>
+		<li class="menu__item item--levelTwo"><a href="http://vhdl.bas-net.by/">VHDL - обучающий портал</a></li>
+		<li class="menu__item item--levelTwo"><a href="https://erud.bsuir.by/">ЭРУД (ЭУМКД)</a></li>
+		<li class="menu__item item--levelTwo"><a href="https://smk.bsuir.by/">Оценка удовлетворённости потребителей</a></li>
+		<li class="menu__item item--levelTwo"><a href="https://doklady.bsuir.by/jour">Журнал &quot;Доклады БГУИР&quot;</a></li>
+		<li class="menu__item item--levelTwo"><a href="https://dt.bsuir.by/">Журнал &quot;Цифровая трансформация&quot;</a></li>
+		<li class="menu__item item--levelTwo"><a href="https://impuls.bsuir.by/">Газета &quot;Импульс&quot;</a></li>
+		<li class="menu__item item--levelTwo"><a href="https://honours.bsuir.by/">Галерея почётных профессоров БГУИР</a></li>
+	</ul>
+	</li>
+</ul>
+
+<ul class="list--levelOne menu__list">
+	<li class="menu__item item--levelOne"><span>Конференции и олимпиады<svg class="svg--arrowDown"> <use xlink:href="/online/layouts/489/img/sprite.svg#arrowDown"></use> </svg></span>
+
+	<ul class="list--levelTwo menu__list">
+		<li class="menu__item item--levelTwo"><a href="http://conf.ostis.net/">OSTIS</a></li>
+		<li class="menu__item item--levelTwo"><a href="https://bigdataminsk.bsuir.by/">BIG DATA</a></li>
+		<li class="menu__item item--levelTwo"><a href="https://its.bsuir.by/ru/">ИТС</a></li>
+		<li class="menu__item item--levelTwo">
+		<p><a href="https://iit.bsuir.by/conference/">Непрерывное профессиональное образование лиц с особыми потребностями</a></p>
+		</li>
+	</ul>
+	</li>
+</ul>
+</div>
+
+<div class="footer__bottom">
+<div class="footer__addressAndBuildings">
+<div class="footer__address">Республика Беларусь, Минск<br />
+220013, ул. П. Бровки, 6</div>
+<a class="footer__buildings" href="https://www.bsuir.by/ru/skhema-korpusov"><svg fill="#FFFFFF"> <use xlink:href="/online/layouts/489/img/sprite.svg#mapPin"></use></svg><span>Схема корпусов</span> </a></div>
+
+<div class="footer__logo">
+<div class="footer__logoImage"><img alt="Логотип БГУИР" src="/m/12_127966_1_191465.svg" /></div>
+
+<div class="footer__logoText">Белорусский Государственный<br />
+Университет Информатики и<br />
+Радиоэлектроники</div>
+</div>
+</div>
+</div>
+
+<p>&nbsp;</p>
+
+
+
+
+
+            <div class="footer__copyright">&copy; ЦИИР БГУИР, 2002-2026</div>
+        </div>
+    </footer>
+    <div id="scrollTopButton" class="scrollTopButton" style="opacity: 0; visibility: hidden;">
+        <svg>
+            <use xlink:href="/online/layouts/489/img/sprite.svg#trinagleUp"></use>
+        </svg>
+    </div>
+    <script src="/online/layouts/489/js/burgerPC.js"></script>
+    <script src="/online/layouts/489/js/burgerMobile.js"></script>
+    <script src="/online/layouts/489/js/visuallyImpaired.js"></script>
+    <script src="/online/layouts/489/js/searchFieldPC.js"></script>
+    <script src="/online/layouts/489/js/searchFieldMobile.js"></script>
+    <script src="/online/layouts/489/js/targetMenu.js"></script>
+    <script src="/online/layouts/489/js/footer.js"></script>
+    <script src="/online/layouts/489/js/scrollTopButton.js"></script>
+    <script src="/cms/js/truncate.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            truncate_js();
+            dropdown();
+        })
+    </script>
+
+    <script>
+    function CookiesNotificationClick() {
+        createCookie("CookiesNotification", "true", 365);
+        setCookiesNotification();
+    }
+
+    function createCookie(name, value, days) {
+        var expires;
+
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toGMTString();
+        } else {
+            expires = "";
+        }
+        document.cookie = encodeURIComponent(name) + "=" + encodeURIComponent(value) + expires + "; path=/";
+    }
+
+    function readCookie(name) {
+        var nameEQ = encodeURIComponent(name) + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) === ' ')
+                c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) === 0)
+                return decodeURIComponent(c.substring(nameEQ.length, c.length));
+        }
+        return null;
+    }
+
+    function eraseCookie(name) {
+        createCookie(name, "", -1);
+    }
+
+    function setCookiesNotification() {
+        var cookie = readCookie("CookiesNotification");
+        if (cookie == null) {
+            document.getElementById('CookiesNotification_container').style.display = "block";
+        } else {
+            document.getElementById('CookiesNotification_container').style.display = "none";
+        }
+        //location.reload();
+    }
+
+    window.addEventListener("load", function() {
+        setCookiesNotification();
+    });
+</script>
+
+<div class="CookiesNotification_container" name="CookiesNotification_container" id="CookiesNotification_container" style="display: none;">
+Этот сайт использует cookie для хранения данных. Продолжая использовать сайт, Вы даете согласие на обработку файлов cookie и пользовательских данных в соответствии с  
+<a href="https://iis.bsuir.by/public_iis_files/cookiePolicy.pdf" target="_blank">Политикой обработки файлов cookie</a>
+<button type="button" value="false" name="CookiesNotification" onclick="CookiesNotificationClick()">Принять и закрыть</button>
+</div>
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-M93VPFT');</script>
+    <!-- End Google Tag Manager --><!-- end 19.07.2019 -->
+    <!-- Yandex.Metrika counter  -->
+    <!-- <script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter2111059 = new Ya.Metrika({id:2111059, enableAll: true}); } catch(e) {} }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/2111059" style="position:absolute; left:-9999px;" alt="" /></div></noscript> -->
+    <!-- /Yandex.Metrika counter -->
+</body>
+</html>

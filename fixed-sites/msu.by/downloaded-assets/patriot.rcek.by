@@ -1,0 +1,474 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>rcek</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="https://patriot.rcek.by/wp-content/themes/rcek-portal/assets/img/favicon.ico" rel="icon">
+  <link href="https://patriot.rcek.by/wp-content/themes/rcek-portal/assets/img/favicon.ico" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="https://patriot.rcek.by/wp-content/themes/rcek-portal/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://patriot.rcek.by/wp-content/themes/rcek-portal/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="https://patriot.rcek.by/wp-content/themes/rcek-portal/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="https://patriot.rcek.by/wp-content/themes/rcek-portal/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="https://patriot.rcek.by/wp-content/themes/rcek-portal/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="https://patriot.rcek.by/wp-content/themes/rcek-portal/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="https://patriot.rcek.by/wp-content/themes/rcek-portal/assets/vendor/aos/aos.css" rel="stylesheet">
+  <script src="https://patriot.rcek.by/wp-content/themes/rcek-portal/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="https://patriot.rcek.by/wp-content/themes/rcek-portal/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Template Main CSS File -->
+  <link href="https://patriot.rcek.by/wp-content/themes/rcek-portal/assets/css/style.css" rel="stylesheet">
+  <title>patriot.rcek.by &#8212; patriot.rcek.by</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel="alternate" type="application/rss+xml" title="patriot.rcek.by &raquo; Лента" href="https://patriot.rcek.by/feed/" />
+<link rel="alternate" type="application/rss+xml" title="patriot.rcek.by &raquo; Лента комментариев" href="https://patriot.rcek.by/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://patriot.rcek.by/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpatriot.rcek.by%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://patriot.rcek.by/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpatriot.rcek.by%2F&#038;format=xml" />
+<style id='wp-img-auto-sizes-contain-inline-css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id='wp-block-library-inline-css'>
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=wp-block-library-inline-css */
+</style><style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://patriot.rcek.by/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.4' media='all' />
+<link rel='stylesheet' id='search-filter-plugin-styles-css' href='https://patriot.rcek.by/wp-content/plugins/search-filter-pro/public/assets/css/search-filter.min.css?ver=2.5.19' media='all' />
+<link rel='stylesheet' id='rcek-portal-style-css' href='https://patriot.rcek.by/wp-content/themes/rcek-portal/style.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='ald-styles-css' href='https://patriot.rcek.by/wp-content/plugins/ajax-load-more-anything/assets/styles.min.css?ver=3.3.9' media='all' />
+<script src="https://patriot.rcek.by/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://patriot.rcek.by/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script id="3d-flip-book-client-locale-loader-js-extra">
+var FB3D_CLIENT_LOCALE = {"ajaxurl":"https://patriot.rcek.by/wp-admin/admin-ajax.php","dictionary":{"Table of contents":"Table of contents","Close":"Close","Bookmarks":"Bookmarks","Thumbnails":"Thumbnails","Search":"Search","Share":"Share","Facebook":"Facebook","Twitter":"Twitter","Email":"Email","Play":"Play","Previous page":"Previous page","Next page":"Next page","Zoom in":"Zoom in","Zoom out":"Zoom out","Fit view":"Fit view","Auto play":"Auto play","Full screen":"Full screen","More":"More","Smart pan":"Smart pan","Single page":"Single page","Sounds":"Sounds","Stats":"Stats","Print":"Print","Download":"Download","Goto first page":"Goto first page","Goto last page":"Goto last page"},"images":"https://patriot.rcek.by/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/assets/images/","jsData":{"urls":[],"posts":{"ids_mis":[],"ids":[]},"pages":[],"firstPages":[],"bookCtrlProps":[],"bookTemplates":[]},"key":"3d-flip-book","pdfJS":{"pdfJsLib":"https://patriot.rcek.by/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/assets/js/pdf.min.js?ver=4.3.136","pdfJsWorker":"https://patriot.rcek.by/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/assets/js/pdf.worker.js?ver=4.3.136","stablePdfJsLib":"https://patriot.rcek.by/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/assets/js/stable/pdf.min.js?ver=2.5.207","stablePdfJsWorker":"https://patriot.rcek.by/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/assets/js/stable/pdf.worker.js?ver=2.5.207","pdfJsCMapUrl":"https://patriot.rcek.by/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/assets/cmaps/"},"cacheurl":"https://patriot.rcek.by/wp-content/uploads/3d-flip-book/cache/","pluginsurl":"https://patriot.rcek.by/wp-content/plugins/","pluginurl":"https://patriot.rcek.by/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/","thumbnailSize":{"width":"150","height":"150"},"version":"1.16.17"};
+//# sourceURL=3d-flip-book-client-locale-loader-js-extra
+</script>
+<script src="https://patriot.rcek.by/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/assets/js/client-locale-loader.js?ver=1.16.17" id="3d-flip-book-client-locale-loader-js" async data-wp-strategy="async"></script>
+<script id="wpgmza_data-js-extra">
+var wpgmza_google_api_status = {"message":"Engine is not google-maps","code":"ENGINE_NOT_GOOGLE_MAPS"};
+//# sourceURL=wpgmza_data-js-extra
+</script>
+<script src="https://patriot.rcek.by/wp-content/plugins/wp-google-maps/wpgmza_data.js?ver=6.9" id="wpgmza_data-js"></script>
+<script id="search-filter-plugin-build-js-extra">
+var SF_LDATA = {"ajax_url":"https://patriot.rcek.by/wp-admin/admin-ajax.php","home_url":"https://patriot.rcek.by/","extensions":[]};
+//# sourceURL=search-filter-plugin-build-js-extra
+</script>
+<script src="https://patriot.rcek.by/wp-content/plugins/search-filter-pro/public/assets/js/search-filter-build.min.js?ver=2.5.19" id="search-filter-plugin-build-js"></script>
+<script src="https://patriot.rcek.by/wp-content/plugins/search-filter-pro/public/assets/js/chosen.jquery.min.js?ver=2.5.19" id="search-filter-plugin-chosen-js"></script>
+<link rel="https://api.w.org/" href="https://patriot.rcek.by/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://patriot.rcek.by/wp-json/wp/v2/pages/6" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://patriot.rcek.by/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.9" />
+<link rel="canonical" href="https://patriot.rcek.by/" />
+<link rel='shortlink' href='https://patriot.rcek.by/' />
+<style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><style type="text/css">.colmem{display:none}.btn.loadMoreBtn{color:#333;text-align:center}.btn.loadMoreBtn:hover{text-decoration:none}</style>  <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   var z = null;m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(90060188, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/90060188" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</head>
+<body data-rsssl=1>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container-fluid d-flex align-items-center">
+
+      <h1 class="logo mr-auto"><a href="/">Патриот.by</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!--<a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li><a href="/o-platforme/">О платформе</a></li>
+          <li><a href="/courses/">Афиша событий</a></li>
+          <li class="drop-down"><a href="/konferencz-zal/">Регионы</a>
+          <ul>
+          <li><a href='https://patriot.rcek.by/regionscat/brestskaya-oblast/'>Брестская область</a></li><li><a href='https://patriot.rcek.by/regionscat/vitebskaya-oblast/'>Витебская область</a></li><li><a href='https://patriot.rcek.by/regionscat/gomelskaya-oblast/'>Гомельская область</a></li><li><a href='https://patriot.rcek.by/regionscat/grodnenskaya-oblast/'>Гродненская область</a></li><li><a href='https://patriot.rcek.by/regionscat/minsk/'>Минск</a></li><li><a href='https://patriot.rcek.by/regionscat/minskaya-oblast/'>Минская область</a></li><li><a href='https://patriot.rcek.by/regionscat/mogilevskaya-oblast/'>Могилевская область</a></li>        </ul>
+        </li>
+          
+          <li><a href="/partners/">Партнёры</a></li>
+          <li class="drop-down"><a href="/konferencz-zal/">Конференц-зал</a>
+          <ul>
+            <li><a href="/lectionzal/">Лекционный зал</a></li>
+            <li><a href="/kinozal/">Кинозал</a></li>
+            <li><a href="/dialogovyj-zal/">Диалоговый зал</a></li>
+        </ul>
+        </li>
+          <li class="drop-down"><a href="/biblioteka/">Библиотека</a>
+            <ul>
+              <li><a href="/normdocuments/">Нормативные документы</a></li>
+              <li><a href="/metoddoc/">Методические документы</a></li>
+              <li><a href="/metodmaterialy/">Обучающие материалы</a></li>
+              <li><a href="/fotovideo/">Фото и видео</a></li>
+          </ul>
+          </li>
+        </ul>
+      </nav><!-- .nav-menu -->
+      <a href="/registracziya/" class="get-started-btn">Заявки на мероприятия</a>
+      <a href="/online/" class="get-started-btn">Трансляции</a>
+    </div>
+  </header><!-- End Header --><!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex justify-content-center align-items-center" style="background: url(https://patriot.rcek.by/wp-content/uploads/2022/02/5.jpg);background-position: center;background-repeat:no-repeat;background-size:cover;background-attachment: fixed;">
+    <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Интерактивная платформа </br>патриотического воспитания</h1>
+      <h2>Информационный ресурс системы взаимодействия молодежи Республики Беларусь</h2>
+      <a href="https://patriot.rcek.by/courses/" class="btn-get-started">Перейти к афише событий</a>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+  <!-- ======= Ближайшие события афиша ======= -->
+  <section id="popular-courses" class="courses">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>АФИША</h2>
+        <p>БЛИЖАЙШИЕ СОБЫТИЯ</p>
+      </div>
+
+      <div class="row" data-aos="zoom-in" data-aos-delay="100">
+ <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+<div class="course-item">
+<a href="https://patriot.rcek.by/courses/respublikanskaya-akcziya-vahta-pamyati/">
+<img width="640" height="400" src="https://patriot.rcek.by/wp-content/uploads/2025/04/vahta-pamyati2-640x400.jpg" class="img-fluid" alt="Республиканская акция «Вахта Памяти -2025»" title="Республиканская акция «Вахта Памяти -2025»" decoding="async" fetchpriority="high" srcset="https://patriot.rcek.by/wp-content/uploads/2025/04/vahta-pamyati2-640x400.jpg 640w, https://patriot.rcek.by/wp-content/uploads/2025/04/vahta-pamyati2.jpg 1280w" sizes="(max-width: 640px) 100vw, 640px" /></a>
+<div class="course-content">
+<div class="d-flex justify-content-between align-items-center mb-3">
+<h4>9 апреля 2025 - 11 ноября 2025</h4>
+</div>
+<h3><a href="https://patriot.rcek.by/courses/respublikanskaya-akcziya-vahta-pamyati/">Республиканская акция «Вахта Памяти -2025»</a></h3>
+<div class="trainer d-flex justify-content-between align-items-center">
+<div class="trainer-profile d-flex align-items-center">
+</div>
+</div>
+</div>
+</div>
+</div> <!-- End Course Item-->
+ <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+<div class="course-item">
+<a href="https://patriot.rcek.by/courses/vsebelorusskaya-molodezhnaya-ekspedicziya-marshrutami-pamyati-marshrutami-edinstva-5/">
+<img width="640" height="400" src="https://patriot.rcek.by/wp-content/uploads/2025/02/molodezhnaya-ekspedicziya-640x400.jpeg" class="img-fluid" alt="Всебелорусская молодежная экспедиция «Маршрутами памяти. Маршрутами единства»" title="Всебелорусская молодежная экспедиция «Маршрутами памяти. Маршрутами единства»" decoding="async" srcset="https://patriot.rcek.by/wp-content/uploads/2025/02/molodezhnaya-ekspedicziya-640x400.jpeg 640w, https://patriot.rcek.by/wp-content/uploads/2025/02/molodezhnaya-ekspedicziya.jpeg 1280w" sizes="(max-width: 640px) 100vw, 640px" /></a>
+<div class="course-content">
+<div class="d-flex justify-content-between align-items-center mb-3">
+<h4>11 февраля 2025 - 19 декабря 2025</h4>
+</div>
+<h3><a href="https://patriot.rcek.by/courses/vsebelorusskaya-molodezhnaya-ekspedicziya-marshrutami-pamyati-marshrutami-edinstva-5/">Всебелорусская молодежная экспедиция «Маршрутами памяти. Маршрутами единства»</a></h3>
+<div class="trainer d-flex justify-content-between align-items-center">
+<div class="trainer-profile d-flex align-items-center">
+</div>
+</div>
+</div>
+</div>
+</div> <!-- End Course Item-->
+ <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+<div class="course-item">
+<a href="https://patriot.rcek.by/courses/respublikanskaya-kulturna-asvetniczkaya-akczyya-grani-tvorchasczi/">
+<img width="640" height="400" src="https://patriot.rcek.by/wp-content/uploads/2024/12/afisha-grani-640x400.jpg" class="img-fluid" alt="Рэспубліканская культурна-асветніцкая акцыя «Грані творчасці»" title="Рэспубліканская культурна-асветніцкая акцыя «Грані творчасці»" decoding="async" srcset="https://patriot.rcek.by/wp-content/uploads/2024/12/afisha-grani-640x400.jpg 640w, https://patriot.rcek.by/wp-content/uploads/2024/12/afisha-grani.jpg 1280w" sizes="(max-width: 640px) 100vw, 640px" /></a>
+<div class="course-content">
+<div class="d-flex justify-content-between align-items-center mb-3">
+<h4>20 декабря 2024 - 20 декабря 2025</h4>
+</div>
+<h3><a href="https://patriot.rcek.by/courses/respublikanskaya-kulturna-asvetniczkaya-akczyya-grani-tvorchasczi/">Рэспубліканская культурна-асветніцкая акцыя «Грані творчасці»</a></h3>
+<div class="trainer d-flex justify-content-between align-items-center">
+<div class="trainer-profile d-flex align-items-center">
+</div>
+</div>
+</div>
+</div>
+</div> <!-- End Course Item-->
+ <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+<div class="course-item">
+<a href="https://patriot.rcek.by/courses/respublikanskij-konkurs-turistskih-videorolikov-puteshestvuj-vmeste-s-nami-2/">
+<img width="640" height="400" src="https://patriot.rcek.by/wp-content/uploads/2025/02/konkurs-turistskih-videorolikov-640x400.jpg" class="img-fluid" alt="Республиканский конкурс туристских видеороликов «Путешествуй вместе с нами!»" title="Республиканский конкурс туристских видеороликов «Путешествуй вместе с нами!»" decoding="async" srcset="https://patriot.rcek.by/wp-content/uploads/2025/02/konkurs-turistskih-videorolikov-640x400.jpg 640w, https://patriot.rcek.by/wp-content/uploads/2025/02/konkurs-turistskih-videorolikov.jpg 1280w" sizes="(max-width: 640px) 100vw, 640px" /></a>
+<div class="course-content">
+<div class="d-flex justify-content-between align-items-center mb-3">
+<h4>21 января 2025 - 30 ноября 2025</h4>
+</div>
+<h3><a href="https://patriot.rcek.by/courses/respublikanskij-konkurs-turistskih-videorolikov-puteshestvuj-vmeste-s-nami-2/">Республиканский конкурс туристских видеороликов «Путешествуй вместе с нами!»</a></h3>
+<div class="trainer d-flex justify-content-between align-items-center">
+<div class="trainer-profile d-flex align-items-center">
+</div>
+</div>
+</div>
+</div>
+</div> <!-- End Course Item-->
+        
+        <div class="col-lg-6 mx-auto">
+        <a href="https://patriot.rcek.by/courses/" class="btn-all-course-main">Перейти к афише всех мероприятий</a>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Ближайшие события афиша-->
+<!-- ======= About Section ======= -->
+<section id="about" class="about about-main">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>О НАС</h2>
+          <p>ИНТЕРАКТИВНАЯ ПЛАТФОРМА ПАТРИОТИЧЕСКОГО ВОСПИТАНИЯ </p>
+        </div>
+
+        <div class="row">
+        <div class="col-lg-12 pt-4 pt-lg-0 content">
+                </div>
+        <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100" style="margin-top: auto; margin-bottom: auto;">
+                        </div>
+                    <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100" style="margin-top: auto; margin-bottom: auto;">
+            <img src="https://patriot.rcek.by/wp-content/uploads/2022/04/chitso-kniga-scaled.jpg" class="img-fluid" alt="">
+        </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100" style="margin-top: auto; margin-bottom: auto;">
+            <img src="" class="img-fluid" alt="">
+        </div>
+                    <div class="col-lg-12 pt-4 pt-lg-0 content">
+                <a href="https://patriot.rcek.by/o-platforme/" class="learn-more-btn">Подробнее о платформе</a>
+              </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+ 
+	<section id="trainers" class="trainers partnersmain">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>ПАРТНЁРЫ</h2>
+        <p>НАШИ ПАРТНЁРЫ</p>
+      </div>
+      <div class="row" data-aos="zoom-in" data-aos-delay="100">
+            	                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <a href="https://patriot.rcek.by/partners/vitebskij-oblastnoj-dvorecz-detej-i-molodezhi/">
+            <div class="member">
+              <img src="https://patriot.rcek.by/wp-content/uploads/2021/09/vitebskij.jpg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Витебский областной дворец детей и молодежи <p><br></h4>
+              </div>
+            </div>
+          </a>
+          </div>
+      	                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <a href="https://patriot.rcek.by/partners/minskij-gosudarstvennyj-turistsko-ekologicheskij-czentr-detej-i-molodezhi/">
+            <div class="member">
+              <img src="https://patriot.rcek.by/wp-content/uploads/2021/11/minskmij-gosudarstvennyj-turistsko-ekologicheskij-czentr.jpg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Минский государственный туристско-экологический центр детей и молодежи</h4>
+              </div>
+            </div>
+          </a>
+          </div>
+      	                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <a href="https://patriot.rcek.by/partners/mogilevskij-gosudarstvennyj-oblastnoj-institut-razvitiya-obrazovaniya/">
+            <div class="member">
+              <img src="https://patriot.rcek.by/wp-content/uploads/2021/09/mogilev.jpg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Могилевский государственный областной институт развития образования <p></h4>
+              </div>
+            </div>
+          </a>
+          </div>
+      	                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <a href="https://patriot.rcek.by/partners/minskij-oblastnoj-institut-razvitiya-obrazovaniya/">
+            <div class="member">
+              <img src="https://patriot.rcek.by/wp-content/uploads/2021/09/moiro.jpg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Минский областной институт развития образования <p><p></h4>
+              </div>
+            </div>
+          </a>
+          </div>
+      	      	  		
+        <div class="col-lg-6 mx-auto">
+          <a href="https://patriot.rcek.by/partners/" class="btn-all-course">Посмотреть всех партнёров</a>
+          </div>
+      </div>
+
+    </div>
+  </section><!-- End Trainers Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts section-bg">
+      <div class="container">
+
+        <div class="row counters">
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">329901</span>
+            <p>Новые посетители</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">452</span>
+            <p>Молодежные проекты</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">267</span>
+            <p>Мероприятия для педагогов</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">706214</span>
+            <p>Количество просмотров</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    
+
+  </main><!-- End #main -->
+
+  
+<!-- ======= Footer ======= -->
+<footer id="footer">
+
+<div class="footer-top">
+<div class="container">
+  <div class="row">
+
+	<div class="col-lg-5 col-md-6 footer-contact">
+	  <h3>РЕСПУБЛИКАНСКИЙ ЦЕНТР ЭКОЛОГИИ И КРАЕВЕДЕНИЯ</h3>
+	  <p>220114, Минск, ул. Макаенка, 8<br>
+		<strong>Телефон:</strong> +375 17 215 11 68, +375 17 320 06 33<br>
+		<strong>Email:</strong> patriot@rcek.by<br>
+		<strong>Режим работы:</strong> пн-пт: 9.00-17.30; обед: 13.00-13.30<br>
+	  </p>
+	</div>
+
+	<div class="col-lg-3 col-md-6 footer-links">
+	  <ul>
+	<li><i class="bx bx-chevron-right"></i> <a href="/">Главная</a></li>
+	<li><i class="bx bx-chevron-right"></i> <a href="/o-platforme/">О платформе</a></li>
+	<li><i class="bx bx-chevron-right"></i> <a href="/courses/">Афиша событий</a></li>
+    <li><i class="bx bx-chevron-right"></i> <a href="/region/">Регионы</a></li>
+	<li><i class="bx bx-chevron-right"></i> <a href="/partners/">Партнёры</a></li>
+	<li><i class="bx bx-chevron-right"></i> <a href="/konferencz-zal/">Конференц-зал</a></li>
+	<li><i class="bx bx-chevron-right"></i> <a href="/biblioteka/">Библиотека</a></li>
+	<li><i class="bx bx-chevron-right"></i> <a href="/zayavka-na-razmeshhenie-meropriyatiya/">Заявка на размещение мероприятия</a></li>
+	  </ul>
+	</div>
+
+	<div class="col-lg-4 col-md-6 footer-newsletter">
+	  <p>Подпишитесь на новостную рассылку и будьте в курсе всех важных событий</p>
+      
+<div class="wpcf7 no-js" id="wpcf7-f620-o1" lang="ru-RU" dir="ltr" data-wpcf7-id="620">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/#wpcf7-f620-o1" method="post" class="wpcf7-form init" aria-label="Контактная форма" novalidate="novalidate" data-status="init">
+<fieldset class="hidden-fields-container"><input type="hidden" name="_wpcf7" value="620" /><input type="hidden" name="_wpcf7_version" value="6.1.4" /><input type="hidden" name="_wpcf7_locale" value="ru_RU" /><input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f620-o1" /><input type="hidden" name="_wpcf7_container_post" value="0" /><input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+</fieldset>
+<span class="wpcf7-form-control-wrap" data-name="email-213"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false" placeholder="Ваш Email" value="" type="email" name="email-213" /></span><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="Отправить" /><div class="wpcf7-response-output" aria-hidden="true"></div>
+</form>
+</div>
+	</div>
+
+  </div>
+</div>
+</div>
+
+<div class="container d-md-flex py-4">
+
+<div class="mr-md-auto text-center text-md-left">
+  <div class="copyright">
+  2020-2024  &copy; Интерактивная платформа Патриотического воспитания | <a href="https://cropas.by/dev" rel="noopener" target="_blank">Разработка сайта</a>
+  </div>
+</div>
+<div class="social-links text-center text-md-right pt-3 pt-md-0">
+  <a href="https://www.instagram.com/rcek_belarus/" class="instagram"><i class="bx bxl-instagram"></i></a>
+  <a href="https://www.facebook.com/info.belarus/" class="facebook"><i class="bx bxl-facebook"></i></a>
+  <a href="https://vk.com/rcek_belarus" class="vkontakte"><i class="bx bxl-vk"></i></a>
+  <a href="https://www.youtube.com/channel/UCEDxYIOPYCJykoDx7cckK3Q" class="youtube"><i class="bx bxl-youtube"></i></a>
+</div>
+</div>
+</footer><!-- End Footer -->
+
+<a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+<div id="preloader"></div>
+
+<!-- Vendor JS Files -->
+<script src="https://patriot.rcek.by/wp-content/themes/rcek-portal/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+<script src="https://patriot.rcek.by/wp-content/themes/rcek-portal/assets/vendor/php-email-form/validate.js"></script>
+<script src="https://patriot.rcek.by/wp-content/themes/rcek-portal/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+<script src="https://patriot.rcek.by/wp-content/themes/rcek-portal/assets/vendor/counterup/counterup.min.js"></script>
+<script src="https://patriot.rcek.by/wp-content/themes/rcek-portal/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+<script src="https://patriot.rcek.by/wp-content/themes/rcek-portal/assets/vendor/aos/aos.js"></script>
+
+<!-- Template Main JS File -->
+<script src="https://patriot.rcek.by/wp-content/themes/rcek-portal/assets/js/main.js"></script>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/rcek-portal/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+	<div class="ald_laser_loader">
+		<div class="ald_loader_progress"></div>
+	</div>
+	<script src="https://patriot.rcek.by/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1" id="wp-hooks-js"></script>
+<script src="https://patriot.rcek.by/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script src="https://patriot.rcek.by/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.4" id="swv-js"></script>
+<script id="contact-form-7-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "contact-form-7", {"translation-revision-date":"2025-09-30 08:46:06+0000","generator":"GlotPress\/4.0.3","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);","lang":"ru"},"This contact form is placed in the wrong place.":["\u042d\u0442\u0430 \u043a\u043e\u043d\u0442\u0430\u043a\u0442\u043d\u0430\u044f \u0444\u043e\u0440\u043c\u0430 \u0440\u0430\u0437\u043c\u0435\u0449\u0435\u043d\u0430 \u0432 \u043d\u0435\u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u043e\u043c \u043c\u0435\u0441\u0442\u0435."],"Error:":["\u041e\u0448\u0438\u0431\u043a\u0430:"]}},"comment":{"reference":"includes\/js\/index.js"}} );
+//# sourceURL=contact-form-7-js-translations
+</script>
+<script id="contact-form-7-js-before">
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/patriot.rcek.by\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    }
+};
+//# sourceURL=contact-form-7-js-before
+</script>
+<script src="https://patriot.rcek.by/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.4" id="contact-form-7-js"></script>
+<script src="https://patriot.rcek.by/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script src="https://patriot.rcek.by/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.3" id="jquery-ui-datepicker-js"></script>
+<script id="jquery-ui-datepicker-js-after">
+jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"\u0417\u0430\u043a\u0440\u044b\u0442\u044c","currentText":"\u0421\u0435\u0433\u043e\u0434\u043d\u044f","monthNames":["\u042f\u043d\u0432\u0430\u0440\u044c","\u0424\u0435\u0432\u0440\u0430\u043b\u044c","\u041c\u0430\u0440\u0442","\u0410\u043f\u0440\u0435\u043b\u044c","\u041c\u0430\u0439","\u0418\u044e\u043d\u044c","\u0418\u044e\u043b\u044c","\u0410\u0432\u0433\u0443\u0441\u0442","\u0421\u0435\u043d\u0442\u044f\u0431\u0440\u044c","\u041e\u043a\u0442\u044f\u0431\u0440\u044c","\u041d\u043e\u044f\u0431\u0440\u044c","\u0414\u0435\u043a\u0430\u0431\u0440\u044c"],"monthNamesShort":["\u042f\u043d\u0432","\u0424\u0435\u0432","\u041c\u0430\u0440","\u0410\u043f\u0440","\u041c\u0430\u0439","\u0418\u044e\u043d","\u0418\u044e\u043b","\u0410\u0432\u0433","\u0421\u0435\u043d","\u041e\u043a\u0442","\u041d\u043e\u044f","\u0414\u0435\u043a"],"nextText":"\u0414\u0430\u043b\u0435\u0435","prevText":"\u041d\u0430\u0437\u0430\u0434","dayNames":["\u0412\u043e\u0441\u043a\u0440\u0435\u0441\u0435\u043d\u044c\u0435","\u041f\u043e\u043d\u0435\u0434\u0435\u043b\u044c\u043d\u0438\u043a","\u0412\u0442\u043e\u0440\u043d\u0438\u043a","\u0421\u0440\u0435\u0434\u0430","\u0427\u0435\u0442\u0432\u0435\u0440\u0433","\u041f\u044f\u0442\u043d\u0438\u0446\u0430","\u0421\u0443\u0431\u0431\u043e\u0442\u0430"],"dayNamesShort":["\u0412\u0441","\u041f\u043d","\u0412\u0442","\u0421\u0440","\u0427\u0442","\u041f\u0442","\u0421\u0431"],"dayNamesMin":["\u0412\u0441","\u041f\u043d","\u0412\u0442","\u0421\u0440","\u0427\u0442","\u041f\u0442","\u0421\u0431"],"dateFormat":"dd.mm.yy","firstDay":1,"isRTL":false});});
+//# sourceURL=jquery-ui-datepicker-js-after
+</script>
+<script src="https://patriot.rcek.by/wp-content/themes/rcek-portal/js/navigation.js?ver=1.0.0" id="rcek-portal-navigation-js"></script>
+<script id="ald-scripts-js-extra">
+var ald_params = {"nonce":"e005c137b5","ajaxurl":"https://patriot.rcek.by/wp-admin/admin-ajax.php","ald_pro":"0"};
+//# sourceURL=ald-scripts-js-extra
+</script>
+<script src="https://patriot.rcek.by/wp-content/plugins/ajax-load-more-anything/assets/scripts.js?ver=3.3.9" id="ald-scripts-js"></script>
+<script type="text/javascript">jQuery(document).ready(function($){var loader='<div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>';jQuery(".trainersfilter").append('<a data-glm-button-selector=".trainersfilter"  href="#" class=" btn loadMoreBtn " id="loadMore"><span class="loadMoreBtn-label">Показать еще</span></a>');jQuery(".colmem").slice(0,8).show();jQuery(document).find(".trainersfilter .ald-count").text(jQuery(".colmem:hidden").length);jQuery(".trainersfilter").find(".loadMoreBtn").on('click',function(e){e.preventDefault();jQuery(".colmem:hidden").slice(0,8).slideDown();if(jQuery(".colmem:hidden").length==0){jQuery(this).fadeOut('slow')}jQuery(document).find(".trainersfilter .ald-count").text(jQuery(".colmem:hidden").length)});if(jQuery(".colmem:hidden").length==0){jQuery(".trainersfilter").find(".loadMoreBtn").fadeOut('slow')}var flag=false;var main_xhr;var LoadMorePushAjax=function(url,args){jQuery('.ald_loader_progress').css({"-webkit-transform":"translate3d(-100%, 0px, 0px)","-ms-transform":"translate3d(-100%, 0px, 0px)","transform":"translate3d(-100%, 0px, 0px)",});if(args.data_implement_selectors){var dis=JSON.parse(args.data_implement_selectors)}if(main_xhr&&main_xhr.readyState!=4){main_xhr.abort()}args.target_url=url;main_xhr=jQuery.ajax({url:url,asynch:true,beforeSend:function(){jQuery('.ald_laser_loader').addClass('show');jQuery('.ald_loader_progress').css({"transition-duration":"2000ms","-webkit-transform":"translate3d(-20%, 0px, 0px)","-ms-transform":"translate3d(-20%, 0px, 0px)","transform":"translate3d(-20%, 0px, 0px)",});flag=true},success:function(data){jQuery(document).trigger('ald_ajax_content_ready',[data,args]);if(dis){for(var key in dis){var selector=dis[key].data_selector;var type=dis[key].implement_type;if(selector){var newData=jQuery(selector,data).html();if(type=="insert_before"){jQuery(selector).prepend(newData)}else if(type=="insert_after"){jQuery(selector).append(newData)}else{jQuery(selector).html(newData)}}}}jQuery(document).find('.tf_posts_navigation').removeClass('loading');jQuery('.ald-ajax-btn[data-alm-click-selector]').each(function(){if(jQuery(this).data('alm-click-selector')==args.click_selector){jQuery(this).removeClass('loading')}});jQuery('.ald_loader_progress').css({"transition-duration":"500ms","-webkit-transform":"translate3d(0%, 0px, 0px)","-ms-transform":"translate3d(0%, 0px, 0px)","transform":"translate3d(0%, 0px, 0px)",});setTimeout(function(){jQuery('.ald_laser_loader').removeClass('show');jQuery('.ald_loader_progress').css({"transition-duration":"0ms","-webkit-transform":"translate3d(-100%, 0px, 0px)","-ms-transform":"translate3d(-100%, 0px, 0px)","transform":"translate3d(-100%, 0px, 0px)",})},300);jQuery(document).trigger('ald_ajax_content_loaded',data);jQuery(document).trigger('ald_ajax_content_success',[args]);flag=false}})};jQuery(document).on('click','.btn-all-course',function(e){e.preventDefault();var args=[];args.event_type="selectors_click";args.custom_button_append="";args.button_trigger_selector="";args.button_label="Load More";args.click_selector=".btn-all-course";args.hide_selector_wrapper="no";args.wrapper_to_hide="";args.update_browser_url="no";args.update_page_title="no";args.data_implement_selectors='{"0":{"data_selector":".courses .allcourserow","implement_type":"insert_after"},"QIO":{"data_selector":".courses .all-course-nav","implement_type":"replace_data"},"${j}":{"data_selector":"","implement_type":"replace_data"}}';var targetUrl=(e.target.href)?e.target.href:jQuery(this).context.href;LoadMorePushAjax(targetUrl,args)});jQuery(document).on('click','button.ald-ajax-btn',function(e){if(jQuery(this).data('alm-click-selector')){var selector=jQuery(document).find(jQuery(this).data('alm-click-selector'));if(selector.length){jQuery(this).addClass('loading');selector.trigger('click')}else{jQuery(this).find('.ald-btn-label').text('No New Data Found')}}})});</script>
+</body>
+</html><!-- WP Fastest Cache file was created in 1.180 seconds, on 15.01.2026 @ 11:01 -->

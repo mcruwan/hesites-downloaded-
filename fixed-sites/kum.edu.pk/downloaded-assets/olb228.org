@@ -1,0 +1,378 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    
+<!-- Start Head_Tags_1_olb228_org of olb228.org domain -->
+<title>OLB228: Top 1 Situs Daftar ID Live Casino & Slot Gacor Terbaru</title>
+<meta name="google-site-verification" content="3DOUZKdjQ8cAbDJiEqMv2d81NEIZI_lL_OLCMDrHFvY" />
+<meta name="google-site-verification" content="lVXzu0D77qw-lf5H1WWbyGDld9rgDMXE4rOoQYcj5tQ" />
+<meta name="google-site-verification" content="6fYUbSog6XZtPh8K0ur6bOHXCKWERPQMSogE8KX_E6s" />
+<meta name="description" content="OLB228 adalah top 1 situs daftar akun live casino & slot gacor yang terkreditasi A1 dengan review terbaik saat ini, karena menang berapapun pasti dibayar lunas." />
+<meta name="keywords" content="olb228, judi bola, judi bola olb228, situs judi bola, situs judi bola terbesar, link judi bola, agen judi bola, situs judi bola terpercaya, slot gacor" />
+<meta content="index, follow" name="robots" />
+<meta content="1 days" name="revisit-after" />
+<meta content="general" name="rating" />
+<meta content="id" name="geo.country" />
+<meta content="Indonesia" name="geo.placename" />
+<meta content="all" name="Slurp" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="OLB228: Top 1 Situs Daftar ID Live Casino & Slot Gacor Terbaru" />
+<meta property="og:description" content="OLB228 adalah top 1 situs daftar akun live casino & slot gacor yang terkreditasi A1 dengan review terbaik saat ini, karena menang berapapun pasti dibayar lunas." />
+<meta property="og:url" content="https://slotolb228.com/" />
+<meta property="og:image:width" content="150" />
+<meta property="og:image:height" content="150" />
+<meta property="og:site_name" content="olb228"/>
+<meta property="og:locale" content="id_ID" />
+<meta name="twitter:domain" content="https://slotolb228.com/" />
+<meta name="twitter:title" content="OLB228: Top 1 Situs Daftar ID Live Casino & Slot Gacor Terbaru" />
+<meta name="twitter:description" content="OLB228 adalah top 1 situs daftar akun live casino & slot gacor yang terkreditasi A1 dengan review terbaik saat ini, karena menang berapapun pasti dibayar lunas." />
+<meta name="author" content="olb228" />
+<meta name="publisher" content="olb228" />
+<meta name="designer" content="olb228" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=auto" />
+<link rel="canonical" href="https://olb228.org/" />
+<link rel="amphtml" href="https://orgolb228.pages.dev/" />
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "url": "https://slotolb228.com/",
+    "name": "OLB228: Top 1 Situs Daftar ID Live Casino & Slot Gacor Terbaru",
+    "description": "OLB228 adalah top 1 situs daftar akun live casino & slot gacor yang terkreditasi A1 dengan review terbaik saat ini, karena menang berapapun pasti dibayar lunas."
+}
+</script>
+<!-- End Head_Tags_1_olb228_org of olb228.org domain -->
+
+<!-- Start Head_Tags_1_olb228_org of all domains -->
+
+<!-- End Head_Tags_1_olb228_org of all domains -->
+
+
+
+    <link rel="icon" href="Images/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <link rel="stylesheet" href="Images/theme/v1/css/stylesheets.min.css?v=1.3">
+
+    <script type="text/javascript" src="js/common.js?v=20241218"></script>
+    <script type="text/javascript" src="js/header.js?v=20250106"></script>
+    <script type="text/javascript" src="js/login.js?v=20250303"></script>
+
+    <script language="javascript" type="text/javascript">	       
+        $().ready(function () {
+            $('#btnReg').click(function () {
+                popupRegister('');
+            });
+        });
+    </script>
+
+
+    <script type="text/javascript">
+        function drawTogel(records) {
+            var strTogel = ''
+            for (var i = 0; i < records.length && i < 10; i++) {
+                strTogel += '<li>' +
+                    '<img class="bg-result" src="Images/theme/v1/img/togel-result.png" alt="">' +
+                    '<span class="name-result">' + records[i].Togel + '</span>' +
+                    '<div class="ball-result flex">' +
+                    '<span class="row">' + records[i].Number[0] + '</span>' +
+                    '<span class="row">' + records[i].Number[1] + '</span>' +
+                    '<span class="row">' + records[i].Number[2] + '</span>' +
+                    '<span class="row">' + records[i].Number[3] + '</span>' +
+                    '</div></li>'
+            }
+            $('#divTogel').html(strTogel)
+        }
+        $().ready(function () {
+            fetchTogel(function (records) {
+                drawTogel(records)
+            })
+        })
+    </script>
+    <style type="text/css">
+        .games-in .item-1 a:hover, .games .item-1 a:hover {
+            -webkit-text-fill-color: unset;
+        }
+
+        .games-in .item-1 a, .games .item-1 a {
+            -webkit-text-fill-color: unset;
+        }
+    </style>
+
+    
+    <link rel="stylesheet" href="css/header.submenu.css?v=1762746734915" />
+    <style type="text/css">
+        .sub-menu .gameNav li:hover {
+            background: linear-gradient(0deg, #FBA913 30%, #FDC200 62%);
+        }
+
+        .main_width {
+            width: 1090px;
+            height: 110px;
+            background-color: #1e1e1e;
+            margin: 0
+        }
+
+        .sub-menu {
+            top: 73px;
+            padding-top: 1px;
+            padding-bottom: 23px;
+        }
+
+        .arrow-down {
+            margin-left: 4px;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-top: 8px solid var(--color-secondary);
+            margin-top: 48px;
+        }
+
+        .gameNav li a img {
+            max-width: 100% !important;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="header items m-t-1 m-b-1">
+            <div class="item-4">
+                <div class="logo">
+                    <a href="#">
+                        <img src="Images/logo.png" alt="Logo OLB228">
+                    </a>
+                </div>
+            </div>
+            <div class="item-3">
+                <a id="btnReg" href="#" type="button">
+                    <img src="Images/theme/v1/img/daftar.gif" alt="Daftar OLB228">
+                </a>
+            </div>
+            <form name="form1" method="post" action="Defaults/Default224.aspx" id="form1" class="item-5">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type='text/javascript'>var timerId = null;var today = new Date();var time_start = today.getTime();function countdown(){var time_left =300 - parseInt(((new Date()).getTime() - time_start) / 1000);clearTimeout(timerId);if(time_left > 0){timerId = setTimeout('countdown()', 1000);}else{document.location.href = '//olb228.org/';}}function handleError(){return true;}window.onload=countdown;window.onerror=handleError;</SCRIPT><!-- popup event May 2021 was hidden --><script>
+                        $().ready(function () {
+                            $('body').append(`<a style='z-index: 999999; width: 140px; height: 83px; position: fixed; left:0; top: 0px;' href='#'>
+                                <img width='120px' height='60px' src='css/Banner_ASF.png?v=2'/></a>`);
+                        });
+                    </script><script>localStorage.setItem('cdnImageHost','https://imgshare.porta-assist.com');</script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="5186C34C" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="SEwo8BY9yHAWbq+x03VYZelft8zFMGP5bxyQLJD+1tzJqwhqYQ4+QAQKEHj+ym8mViM8+V1v0gCgR/vRAfRRRNVaQSOarGQJCytelu/2MdxoWeVg/TsBhyv0G5Kwop/80P76A8ir2NWuVKVFCp+e2D8Mz6TNf+epTNWpABvZSm9rUbBF9Dkbmp4rUpcqmfU3x9p2MXAeJftYzhCYgyexjV38BjUXqf8iCbnC9H07k/A=" />
+</div>
+                <div class="items login-area">
+                    <div class="item-6 m-b-half">
+                        <input name="txtUsername" type="text" id="txtUsername" class="username" maxLength="12" placeholder="User Name" tabindex="1" />
+                    </div>
+                    <div class="item-6">
+                        <input name="txtPassword" type="password" id="txtPassword" placeholder="Password" tabindex="2" />
+                    </div>
+                    <div class="item-6 m-b-half">
+                        <div class="input-group">
+                            <input name="txtCode" type="text" id="txtCode" style="border-radius: 5px 0 0 5px;" placeholder="Code" tabindex="3" maxlength="4" />
+                            <span class="input-group-text-r">1993</span>
+                        </div>
+                    </div>
+                    <div class="item-6">
+                        <a href="#">
+                            <input name="btnSignIn" type="button" id="btnSignIn" tabindex="4" class="btn-login" value="LOGIN">
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <ul id="main-menu"
+            tag-parent-sub-menu="a"
+            data-id="main-menu"
+            data-is-guest="true"
+            class="games items"
+            style="position: relative">
+            <li class="item-1"><a href="#gamelist"><img src="Images/theme/v1/img/icon/home.png" alt="">HOME</a></li>
+            <li v-for="(key, index) in Object.keys(menus)" class="item-1">
+                <menu-item style="" class-name="" :is-guest="isGuest" :name="menus[key][0].GameType">
+                    <image-item style="" class-name="hover" :image-data="menus[key][0]" :cache-version="cacheVersion"></image-item>
+                    {{ getGameMenuDisplayNameByLang(menus[key][0]) }}
+                    <down-arrow type="text" :has-sub-game="menus[key][0].HasSubGame" :game-type="menus[key][0].GameType"
+                        :is-guest="isGuest">
+                    </down-arrow>
+                    <submenu class-name="" :submenu-data="menus[key]" :is-guest="isGuest" :cache-version="cacheVersion">
+                    </submenu>
+                </menu-item>
+            </li>
+            <li class="item-1"><a href="https://postimg.cc/crb1nNG8" target="_blank" rel="nofollow noopener"><img src="Images/theme/v1/img/icon/panduan.png" alt="">panduan</a></li>
+            <li class="item-1"><a href="https://pedu.li/dewaqq" target="_blank"><img src="Images/theme/v1/img/icon/judiqiuqiu.png" alt="">judi kiu kiu</a></li>
+        </ul>
+        <div class="marquee-section items m-t-1 m-b-1">
+            <div class="item-2 info"><span>Informasi :</span></div>
+            <div class="item-8 info">
+                <div id="div-marquee" style="width: 708px; height: 26px">
+                    <input id="text-marquee" type="hidden" value="SELAMAT DATANG DI OLB228 SITUS ONLINE LIVE BETTING TERPERCAYA DI INDONESIA DENGAN PERMAINAN FAIR PLAY TERLENGKAP DAN TERBAIK SEPERTI SPORTBOOK / TOGEL / SLOT / CASINO / POKER DAN MASIH BANYAK PERMAINAN LAIN NYA, IKUTI JUGA EVENT DAN UNDIAN MENARIK SETIAP HARINYA! DAFTARKAN DIRI ANDA HANYA DENGAN 1 ID ANDA BISA BERMAIN SEMUA PERMAINAN! LINK ALTERNATIF KAMI : WWW.OLB228.COM / WWW.OLB228JP.INFO / WWW.BOSOLB228.ORG" />
+                    <script type="text/javascript">
+                        initMarquee('#000')
+                    </script>
+                </div>
+            </div>
+            <div class="item-2">
+                <a href="javascript:void(0)" class="livechat" method="chat">
+                    <img src="Images/theme/v1/img/live-chat.gif" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <swiper-container id="swiper-slide" autoplay="true" loop="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+                    </swiper-container>
+                </div>
+            </div>
+        </div>
+        <div class="social items m-t-2">
+            <div class="item-3">
+                <a href="https://wa.me/85589742728" target="_blank">
+                    <img src="Images/theme/v1/img/social/whatsapp.png" alt="">
+                </a>
+            </div>
+            <div class="item-3">
+                <a href="https://promoolb228.com" target="_blank">
+                    <img src="Images/theme/v1/img/social/promosi.png" alt="">
+                </a>
+            </div>
+            <div class="item-3">
+                <a href="https://www.facebook.com/olb228" target="_blank">
+                    <img src="Images/theme/v1/img/social/facebook.png" alt="">
+                </a>
+            </div>
+            <div class="item-3">
+                <a href="https://temanparlay.com/" target="_blank">
+                    <img src="Images/theme/v1/img/prediksi.gif" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="result items m-t-2">
+            <div class="item-12">
+                <img src="Images/theme/v1/img/result-togel.png" alt="">
+            </div>
+            <ul class="m-b-1" id="divTogel">
+            </ul>
+        </div>
+        <div class="banner-bottom items row p-t-1 p-b-1">
+        </div>
+        <img src="Images/theme/v1/img/provider.png" alt="">
+        <div class="site-article">
+            
+<!-- Start WL_Footer_olb228_org of olb228.org domain -->
+<h1 id="olb228-live-casino" style="text-align: center; color: #e4b301;" ><strong>OLB228: Top 1 Situs Daftar ID Live Casino & Slot Gacor Terbaru</strong></h1>
+<table style="margin-left: auto; margin-right: auto; color: white; width: 100%;">
+    <tbody>
+        <tr>
+            <th colspan="3" style="background: #e4b301; font-size: 2em; border-radius: 10px; text-align: center;" id="informasi situs">INFORMASI SITUS</th>
+        </tr>
+        <tr>
+            <td style="border: 2px solid #e4b301; border-radius: 10px; padding: 10px 20px 10px 20px; background: #e4b301">Min. Deposit:</td>
+            <td style="border: 2px solid #e4b301; border-radius: 10px; padding: 10px 20px 10px 20px; background: #e4b301">	💸IDR 25.000</td>
+        </tr>
+        <tr>
+            <td style="border: 2px solid #e4b301; border-radius: 10px; padding: 10px 20px 10px 20px; background: #e4b301">Permainan:</td>
+            <td style="border: 2px solid #e4b301; border-radius: 10px; padding: 10px 20px 10px 20px; background: #e4b301">⚽️Judi Bola Parlay, 🎰Slot Online & 🎲 Live Casino</td>
+        </tr>
+        <tr>
+            <td style="border: 2px solid #e4b301; border-radius: 10px; padding: 10px 20px 10px 20px; background: #e4b301">Rating:</td>
+            <td style="border: 2px solid #e4b301; border-radius: 10px; padding: 10px 20px 10px 20px; background: #e4b301">	⭐⭐⭐⭐⭐ 1,541,168 User</td>
+        </tr>
+        <tr>
+            <td style="border: 2px solid #e4b301; border-radius: 10px; padding: 10px 20px 10px 20px; background: #e4b301">Transaksi:</td>
+            <td style="border: 2px solid #e4b301; border-radius: 10px; padding: 10px 20px 10px 20px; background: #e4b301">✅Bank Lokal & E-Wallet</td>
+        </tr>
+        <tr>
+            <td style="border: 2px solid #e4b301; border-radius: 10px; padding: 10px 20px 10px 20px; background: #e4b301">Live Casino:</td>
+            <td style="border: 2px solid #e4b301; border-radius: 10px; padding: 10px 20px 10px 20px; background: #e4b301">GD88, 855Crown, GameHall, LG88, WM Casino</td>
+        </tr>
+        <tr>
+            <td style="border: 2px solid #e4b301; border-radius: 10px; padding: 10px 20px 10px 20px; background: #e4b301">Slot Gacor:</td>
+            <td style="border: 2px solid #e4b301; border-radius: 10px; padding: 10px 20px 10px 20px; background: #e4b301">Pragmatic, Habenaro, RTG, JDB, MMG</td>
+        </tr>
+    </tbody>
+</table>
+<hr/>
+<!-- End WL_Footer_olb228_org of olb228.org domain -->
+
+<!-- Start WL_Footer_olb228_org of all domains -->
+
+<!-- End WL_Footer_olb228_org of all domains -->
+        </div>
+    </div>
+    <div class="livechat-destop">
+        <a href="javascript:void(0)" class="livechat" method="chat">
+            <img src="Images/theme/v1/img/livechat-desktop.png" alt="">
+        </a>
+    </div>
+    <a style="width: 150px; height: 150px; position: fixed; left: 10px; bottom: 215px;" href="https://rtpolb228.com" target="_blank">
+            <img title="" alt="" width="150" height="150" src="Images/rtp-olb228.gif?v=2" /></a>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <script type="text/javascript">
+        var lhnAccountN = "11332-1";
+        var lhnButtonN = 9688;
+        var lhnChatPosition = 'default';
+        var lhnInviteEnabled = 0;
+        var lhnWindowN = 26362;
+        var lhnDepartmentN = 27395;
+    </script>
+    <script src="https://www.livehelpnow.net/lhn/widgets/chatbutton/lhnchatbutton-current.min.js" type="text/javascript" id="lhnscript"></script>
+    <script>
+        $.ajax({
+            url: "https://209.97.168.204/api/banners",
+            data: {
+                website: "olb228.com",
+                option: ""
+            }
+        }).done(function (data, textStatus, jqXHR) {
+            if (data.meta.code === 200) {
+                var html = "";
+                jQuery.each(data.data, function (i, val) {
+                    html += '<swiper-slide><img class="border-slider" style="display:block;margin:auto;" src="https://209.97.168.204/' + val.image_path + '" alt="' + val.title + '"></swiper-slide>';
+                });
+                $('#swiper-slide').html(html);
+            } else {
+                $('.banner').empty();
+            }
+        });
+
+        $.ajax({
+            url: "https://209.97.168.204/api/banners",
+            data: {
+                website: "olb228.com",
+                type: "banner-bottom"
+            }
+        }).done(function (data, textStatus, jqXHR) {
+            if (data.meta.code === 200) {
+                var html = "";
+                jQuery.each(data.data, function (i, val) {
+                    html += '<div class="item-4"><img src="https://209.97.168.204/' + val.image_path + '" alt="' + val.title + '"></div>';
+                });
+                $('.banner-bottom').html(html);
+            } else {
+                $('.banner-bottom').empty();
+            }
+        });
+
+        $('.livechat').on('click', function (e) {
+            e.preventDefault();
+            OpenLHNChat(); return false;
+        });
+
+    </script>
+    <script src="js/vue3.3.7.global.js" type="text/javascript"></script>
+    <script type="text/javascript">const mountEl = document.querySelector("#main-menu");</script>
+    <script src="js/header.menu.vue.js?v=1762746734915" type="text/javascript"></script>
+    <script type="text/javascript">menu.mount("#main-menu");</script>
+</body>
+</html>

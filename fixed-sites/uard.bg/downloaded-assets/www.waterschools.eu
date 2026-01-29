@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="robots" content="all,follow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+                                <title>Waterschools - Home</title>
+        <link rel="shortcut icon" href="/uploads/favicon/fc2330723377c18df5b2e6ef01f12465-favico.png" type="image/x-icon" >
+        <link rel="stylesheet" href="/assets/59ade0814bd8ca7874f21a31ac167682.css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:400,700|Roboto:400,700&amp;subset=latin-ext" rel="stylesheet">
+    </head>
+    
+    <body>
+                
+        <div id="wrapper">
+        
+            <div id="header" class="home-ctrl">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+
+                            <div id="switch-lang">
+                                <a href="/" class='active'>EU</a>
+                                <a href="/cs" >CZ</a>
+                                <a href="/de" >DE</a>
+                                <a href="/at" >AT</a>
+                                <a href="/it" >IT</a>
+                                <a href="/bg" >BG</a>
+                                <a href="/en" >UK</a>
+                                <a href="/si" >SI</a>
+                            </div>
+                            
+                            <div id="logo">
+                                <a href="/">
+                                    <img src="/images/logo.svg" alt="" />
+                                </a>
+                            </div>
+                            
+                            <span class="clear"></span>
+
+                            <div id="top-menu" class="list-type">
+                                <ul class="level1"><li class="selected"><a href="/"><span>Home</span></a></li><li class=" has_submenu"><a href="/waterschools"><span>Waterschools</span></a><ul class="level2"><li><a href="/become-a-waterschool"><span>Become a Waterschool</span></a></li><li><a href="/map-of-waterschools-in-europe"><span>Map of Waterschools in Europe</span></a></li><li><a href="/frequently-asked-questions"><span>Frequently Asked Questions</span></a></li></ul></li><li class=" has_submenu"><a href="/becoming-a-waterschool"><span>Becoming a Waterschool</span></a><ul class="level2"><li><a href="/why-become-a-waterschool"><span>Why become a Waterschool?</span></a></li><li><a href="/easy-steps-to-become-a-waterschool"><span>Easy steps to become a Waterschool</span></a></li><li><a href="/technical-support-for-waterschools"><span>Technical support for Waterschools</span></a></li><li><a href="/water-and-health-2"><span>Water and health</span></a></li><li><a href="/water-and-the-environment"><span>Water and the environment</span></a></li></ul></li><li class=" has_submenu"><a href="/resources"><span>Resources</span></a><ul class="level2"><li><a href="/why-become-a-waterschool-1"><span>Why become a Waterschool</span></a></li><li><a href="/easy-steps-to-become-a-waterschool-1"><span>Easy steps to become a Waterschool</span></a></li><li><a href="/technical-support-for-waterschools-1"><span>Technical support for Waterschools</span></a></li><li><a href="/water-and-health-3"><span>Water and health</span></a></li><li><a href="/water-and-environment-1"><span>Water and environment</span></a></li><li><a href="/publications"><span>Publications</span></a></li><li><a href="/films"><span>Films</span></a></li><li><a href="/waterschool-and-european-policy-strategies"><span>Waterschool and European Policy Strategies</span></a></li></ul></li><li><a href="/case-studies"><span>Case studies</span></a></li><li class=" has_submenu"><a href="/project"><span>Project </span></a><ul class="level2"><li><a href="/activities-and-results"><span>Activities and results</span></a></li><li><a href="/partners"><span>Partners</span></a></li></ul></li><li><a href="/news"><span>News</span></a></li></ul>                            </div>
+
+                            <div id="nav-icon-wrap">
+                                <i class="nav-icon"><span></span><span></span><span></span></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+                    
+            <div id="content" class="home-ctrl">
+
+                                    <div id="slider">
+    <div class="slider">
+    <div class="loading">
+        <div class="loader white"></div>
+    </div>
+    <ul class="slider_CoC8VvNO">
+                    <li>
+                                
+                <div class="background-image">
+                    <div class="image-tablet" style="background: url('/uploads/fe_slider/kids-1093758_1920_f76d89c4f7cc8ecdfe5f85c09cff243b.jpg') no-repeat top left; background-size: cover;"></div>
+                    <div class="image-desktop" style="background: url('/uploads/fe_slider/kids-1093758_1920_f76d89c4f7cc8ecdfe5f85c09cff243b.jpg') no-repeat top left; background-size: cover;"></div>
+                </div>
+                
+                <div class="slider-inner-content">
+                    
+                    <div class="image">
+                        <img src="/uploads/fe_slider/kids-1093758_1920_f76d89c4f7cc8ecdfe5f85c09cff243b.jpg" />
+                    </div>
+                    
+                    <div class="container">
+                        <div class="row">
+                            <div class="text-block col-xs-12 col-sm-4">
+
+                                <div class="title">Proper hydration is a prerequisite for concentration and performance in school. </div>
+
+                                
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+                    <li>
+                                
+                <div class="background-image">
+                    <div class="image-tablet" style="background: url('/uploads/fe_slider/kloucekk_58a39876b1d49bbf75ed5505dfd6f3d3.jpg') no-repeat top left; background-size: cover;"></div>
+                    <div class="image-desktop" style="background: url('/uploads/fe_slider/kloucekk_58a39876b1d49bbf75ed5505dfd6f3d3.jpg') no-repeat top left; background-size: cover;"></div>
+                </div>
+                
+                <div class="slider-inner-content">
+                    
+                    <div class="image">
+                        <img src="/uploads/fe_slider/kloucekk_58a39876b1d49bbf75ed5505dfd6f3d3.jpg" />
+                    </div>
+                    
+                    <div class="container">
+                        <div class="row">
+                            <div class="text-block col-xs-12 col-sm-4">
+
+                                <div class="title">Drinking water in schools is key to preventing obesity and fillings. </div>
+
+                                
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+                    <li>
+                                
+                <div class="background-image">
+                    <div class="image-tablet" style="background: url('/uploads/fe_slider/plastic-waste-3962409_19201000_60ecfebac60bda9d25498e1476d9aa6e.jpg') no-repeat top left; background-size: cover;"></div>
+                    <div class="image-desktop" style="background: url('/uploads/fe_slider/plastic-waste-3962409_19201000_60ecfebac60bda9d25498e1476d9aa6e.jpg') no-repeat top left; background-size: cover;"></div>
+                </div>
+                
+                <div class="slider-inner-content">
+                    
+                    <div class="image">
+                        <img src="/uploads/fe_slider/plastic-waste-3962409_19201000_60ecfebac60bda9d25498e1476d9aa6e.jpg" />
+                    </div>
+                    
+                    <div class="container">
+                        <div class="row">
+                            <div class="text-block col-xs-12 col-sm-4">
+
+                                <div class="title">Drinking tap water reduces plastic bottle waste. </div>
+
+                                
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            </ul>
+</div></div>
+
+<div id="home-items" class="home-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="home-title">Key benefits of Waterschools</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="list-type block">
+                <ul>
+                                            <li class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="item-inner">
+                                <div class="image">
+                                    <img src="/images/home/home1.jpg" />
+                                    <div class="id">
+                                        <span>1</span>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <span class="title">Water and health</span>
+                                    <p>Water is vital. Water makes up 60 to 70 percent of our weight and is essential for almost every function in our body. Opting for water rather than sweetened drinks hydrates without sugar or calories. There is still a worrying trend in overweight and obesity rates in European children and youth.</p>
+                                    <p><b>Drinking water in schools is key to preventing obesity and fillings.</b></p>
+                                </div>
+                            </div>
+                        </li>
+                                            <li class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="item-inner">
+                                <div class="image">
+                                    <img src="/images/home/home2.jpg" />
+                                    <div class="id">
+                                        <span>2</span>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <span class="title">Water and school performance</span>
+                                    <p>Our brain is strongly influenced by hydration status. Losing as little as 1 to 3 percent of body’s water content can cause cognitive impairment, loss of concentration, tiredness and headaches. Staying hydrated is important for feeling energized and for proper brain performance.</p>
+                                    <p><b>Waterschools promote adequate water-drinking.</b></p>
+                                </div>
+                            </div>
+                        </li>
+                                            <li class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="item-inner">
+                                <div class="image">
+                                    <img src="/images/home/home3.jpg" />
+                                    <div class="id">
+                                        <span>3</span>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <span class="title">Water and the environment</span>
+                                    <p>Plastic waste from bottles has become a massive threat to our environment. Most European regions enjoy good access to high quality drinking water.</p>
+                                    <p><b>Drinking tap water in Waterschool reduces waste of single use plastic bottles and raises awareness for water-quality.</b></p>
+                                </div>
+                            </div>
+                        </li>
+                                    </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="home-youtube" class="home-block">
+    <div class="container">
+        <div class="row">
+            <div id="yt-text" class="col-xs-12 col-sm-5 col-md-7">
+                <div class="image">
+                    <img src="/images/youtube.svg" />
+                </div>
+                <div class="home-title">Follow us at our</div>
+                <a href="https://youtu.be/QSfrMSF9lZs" target="_blank" class="btn btn-danger">Youtube Channel</a>
+            </div>
+            <div id="yt-video" class="col-xs-12 col-sm-7 col-md-5">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QSfrMSF9lZs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="home-text" class="home-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="description"><h1>WATERSCHOOLS</h1>
+
+<h2>Water is vital. If there is no water, there is no life.</h2>
+
+<p>Ample water consumption is absolutely necessary for maintaining optimal health and brain function. People usually meet their fluid needs by drinking when thirsty. But specially in schools, there is always a lot going on. That´s why pupils often forget to drink, even when they feel thirsty.</p>
+
+<p>This is where the Erasmus+ project "WATERSCHOOLS" comes in. Pupils/students should be encouraged to drink enough healthy tap water in their everyday life at school.</p>
+</div>
+            </div>
+        </div>
+    </div>
+</div>                            </div>
+        
+            <div id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="copy col-sm-4 col-xs-12">
+                            <p>&copy; 2026 Waterschools</p>
+                            <p>
+                                Except where otherwise noted, content on this site is licensed under a Creative Commons Attribution 4.0 International license<br />
+                                <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons License</a>
+                            </p>
+                            <img src="/images/cc.png" alt="Creative Commons" width="180" />
+                        </div>
+                        <div class="eu col-sm-4 col-xs-12">
+                            <img src="/images/erasmus-cofounded.png" alt="Co-founded by the Erasmus+ Programme of the European Union" />
+                        </div>
+                        <p class="conditions col-sm-4 col-xs-12">The European Commission support for the production of this publication does not constitute endorsement of the contents which reflects the views only of the authors, and the Commission cannot be held responsi­ble for any use which may be made of the information contained therein.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="sidebar-menu">
+            <ul class="level1"><li class="selected"><a href="/"><span>Home</span></a></li><li class=" has_submenu"><a href="/waterschools"><span>Waterschools</span></a><ul class="level2"><li><a href="/become-a-waterschool"><span>Become a Waterschool</span></a></li><li><a href="/map-of-waterschools-in-europe"><span>Map of Waterschools in Europe</span></a></li><li><a href="/frequently-asked-questions"><span>Frequently Asked Questions</span></a></li></ul></li><li class=" has_submenu"><a href="/becoming-a-waterschool"><span>Becoming a Waterschool</span></a><ul class="level2"><li class=" has_submenu"><a href="/why-become-a-waterschool"><span>Why become a Waterschool?</span></a><ul class="level3"><li class=" has_submenu"><a href="/unit-1-water-and-health"><span>Unit 1: Water and Health</span></a><ul class="level4"><li><a href="/water-and-physical-health"><span>Water and physical health</span></a></li><li><a href="/water-and-reduction-of-obesity"><span>Water and reduction of obesity</span></a></li><li><a href="/water-and-reduction-of-caries"><span>Water and reduction of caries</span></a></li><li><a href="/tips-for-teachers-and-parents"><span>Tips for teachers and parents</span></a></li></ul></li><li class=" has_submenu"><a href="/unit-2-water-and-wellbeing"><span>Unit 2: Water and Wellbeing</span></a><ul class="level4"><li><a href="/water-improves-children-39-s-cognitive-capacity"><span>Water improves children&#39;s cognitive capacity  </span></a></li><li><a href="/water-improves-physical-wellbeing"><span>Water improves physical wellbeing</span></a></li><li><a href="/water-as-an-element-of-relaxation"><span>Water as an element of relaxation</span></a></li></ul></li><li class=" has_submenu"><a href="/unit-3-water-and-environment"><span>Unit 3: Water and Environment</span></a><ul class="level4"><li><a href="/water-footprint-and-water-pollution"><span>Water Footprint and Water Pollution</span></a></li><li><a href="/water-use-in-agriculture"><span>Water use in agriculture</span></a></li><li><a href="/reduction-of-plastic-bottles"><span>Reduction of plastic bottles</span></a></li></ul></li><li class=" has_submenu"><a href="/unit-4-eu-policy"><span>Unit 4: EU Policy</span></a><ul class="level4"><li><a href="/eu-action-plan-on-childhood-obesity"><span>EU Action Plan on Childhood Obesity</span></a></li><li><a href="/eu-drinking-water-directive"><span>EU Drinking Water Directive</span></a></li><li><a href="/sdg-strategies-in-europe"><span>SDG Strategies in Europe</span></a></li><li><a href="/eu-plastic-strategy"><span>EU Plastic Strategy</span></a></li></ul></li><li class=" has_submenu"><a href="/unit-5-water-drinking-in-europe"><span>Unit 5: Water Drinking in Europe</span></a><ul class="level4"><li><a href="/access-to-drinking-water-in-european-countries"><span>Access to drinking water in European countries</span></a></li><li><a href="/drinking-habits-in-european-countries"><span>Drinking habits in European Countries  </span></a></li><li><a href="/drinking-behavior-water-quality-and-access-to-water"><span>Drinking behavior, Water quality and Access to Water</span></a></li></ul></li><li><a href="/summary-3"><span>Summary</span></a></li></ul></li><li class=" has_submenu"><a href="/easy-steps-to-become-a-waterschool"><span>Easy steps to become a Waterschool</span></a><ul class="level3"><li><a href="/unit-1-how-to-ensure-access-to-drinking-water-in-schools"><span>Unit 1: How to ensure access to drinking water in schools</span></a></li><li><a href="/unit-2-quality-checking-water-sources"><span>Unit 2: Quality checking water sources</span></a></li><li><a href="/unit-3-incentives-to-drink-water"><span>Unit 3: Incentives to drink water</span></a></li></ul></li><li class=" has_submenu"><a href="/technical-support-for-waterschools"><span>Technical support for Waterschools</span></a><ul class="level3"><li class=" has_submenu"><a href="/unit-1-definition-and-actors-of-a-water-school"><span>Unit 1: Definition and Actors of a Water school</span></a><ul class="level4"><li><a href="/what-is-a-water-school"><span>What is a water school?</span></a></li><li><a href="/goals-of-a-waterschool"><span>Goals of a Waterschool</span></a></li><li><a href="/actors"><span>Actors</span></a></li></ul></li><li class=" has_submenu"><a href="/unit-2-benefits-of-waterschools"><span>Unit 2: Benefits of Waterschools </span></a><ul class="level4"><li class=" has_submenu"><a href="/the-benefits-of-tap-water-for-health"><span>The benefits of tap water for health</span></a><ul class="level5"><li><a href="/directives"><span>Directives</span></a></li><li><a href="/qualitative-characteristics-of-tap-water"><span>Qualitative characteristics of tap water</span></a></li><li><a href="/conclusions"><span>Conclusions</span></a></li></ul></li><li class=" has_submenu"><a href="/the-benefits-of-tap-water-for-the-environment"><span>The benefits of tap water for the environment</span></a><ul class="level5"><li><a href="/plastic-pollution"><span>Plastic pollution</span></a></li><li><a href="/environmental-impact-of-bottled-water"><span>Environmental impact of bottled water</span></a></li><li><a href="/environmental-impact-of-tap-water"><span>Environmental impact of tap water</span></a></li><li><a href="/conclusions-1"><span>Conclusions</span></a></li></ul></li><li class=" has_submenu"><a href="/the-benefits-of-tap-water-for-learning"><span>The benefits of tap water for learning</span></a><ul class="level5"><li><a href="/effects-of-drinking-water-on-learning"><span>Effects of drinking water on learning</span></a></li><li><a href="/tap-water-aids-learning"><span>Tap water aids learning</span></a></li><li><a href="/conclusions-2"><span>Conclusions</span></a></li></ul></li></ul></li><li class=" has_submenu"><a href="/unit-3-waterschools-is-an-easy-way-follow-it"><span>Unit 3: Waterschools is an easy Way: follow it!</span></a><ul class="level4"><li><a href="/animation-cycle"><span>Animation Cycle</span></a></li><li><a href="/starting-waterschool"><span>Starting WaterSchool</span></a></li><li><a href="/taking-action"><span>Taking action</span></a></li><li><a href="/contracts"><span>Contracts</span></a></li><li><a href="/in-action"><span>In Action</span></a></li></ul></li></ul></li><li class=" has_submenu"><a href="/water-and-health-2"><span>Water and health</span></a><ul class="level3"><li><a href="/unit-1-teachers-resources-pre-school-settings"><span>Unit 1: Teachers resources - pre-school settings</span></a></li><li><a href="/unit-2-teachers-resources-elementary-school"><span>Unit 2: Teachers resources – elementary school</span></a></li><li><a href="/unit-3-teachers-resources-secondary-school"><span>Unit 3: Teachers resources - secondary school </span></a></li><li><a href="/summary-1"><span>Summary</span></a></li></ul></li><li class=" has_submenu"><a href="/water-and-the-environment"><span>Water and the environment</span></a><ul class="level3"><li class=" has_submenu"><a href="/unit-1-teachers-resources-for-preschool-settings"><span>Unit 1: Teachers resources for preschool settings</span></a><ul class="level4"><li><a href="/water-protection-2"><span>Water protection</span></a></li><li><a href="/waste-reduction-2"><span>Waste Reduction </span></a></li><li><a href="/classroom-and-outdoor-water-activities"><span>Classroom and Outdoor Water activities</span></a></li><li><a href="/key-points-for-kindergartens"><span>Key points for kindergartens</span></a></li></ul></li><li class=" has_submenu"><a href="/unit-2-teachers-resources-for-primary-schools"><span>Unit 2: Teachers resources for primary schools</span></a><ul class="level4"><li><a href="/water-protection-1"><span>Water Protection </span></a></li><li><a href="/waste-reduction-1"><span>Waste Reduction </span></a></li><li><a href="/classroom-and-outdoor-activities-1"><span>Classroom and Outdoor activities</span></a></li><li><a href="/key-points-for-primary-schools"><span>Key points for primary schools</span></a></li></ul></li><li class=" has_submenu"><a href="/unit-3-teachers-resources-for-secondary-schools"><span>Unit 3: Teachers resources for secondary schools</span></a><ul class="level4"><li><a href="/water-protection"><span>Water Protection </span></a></li><li><a href="/waste-reduction"><span>Waste Reduction </span></a></li><li><a href="/classroom-and-outdoor-activities"><span>Classroom and Outdoor activities</span></a></li><li><a href="/key-points-for-secondary-schools"><span>Key points for secondary schools</span></a></li></ul></li><li><a href="/summary-2"><span>Summary</span></a></li></ul></li></ul></li><li class=" has_submenu"><a href="/resources"><span>Resources</span></a><ul class="level2"><li><a href="/why-become-a-waterschool-1"><span>Why become a Waterschool</span></a></li><li><a href="/easy-steps-to-become-a-waterschool-1"><span>Easy steps to become a Waterschool</span></a></li><li><a href="/technical-support-for-waterschools-1"><span>Technical support for Waterschools</span></a></li><li><a href="/water-and-health-3"><span>Water and health</span></a></li><li><a href="/water-and-environment-1"><span>Water and environment</span></a></li><li><a href="/publications"><span>Publications</span></a></li><li><a href="/films"><span>Films</span></a></li><li><a href="/waterschool-and-european-policy-strategies"><span>Waterschool and European Policy Strategies</span></a></li></ul></li><li><a href="/case-studies"><span>Case studies</span></a></li><li class=" has_submenu"><a href="/project"><span>Project </span></a><ul class="level2"><li><a href="/activities-and-results"><span>Activities and results</span></a></li><li><a href="/partners"><span>Partners</span></a></li></ul></li><li><a href="/news"><span>News</span></a></li></ul>        </div>
+        
+        <style>
+    #cookies { position: fixed; bottom: 0; width: 100%; background-color: #cccccc; text-align: center; z-index: 10000; }
+    .cookies_text_wrap { width: 100%; }
+    .cookies_text { display: none; width: 800px; margin: 0 auto; padding: 10px 20px; background-color: #cccccc; }
+    .cookies_info {  }
+    .cookies_less { display: none; }
+    .cookies_close { margin: 10px; }
+</style>
+
+<div id='cookies'>
+    <div class="cookies_text_wrap">
+        <div class='cookies_text'><h3>Co jsou cookies?</h3><p>Textové soubory, které internetové stránky ukládají na váš počítač nebo mobilní zařízení v okamžiku, kdy tyto stránky začnete využívat. Stránky si tak na určitou dobu zapamatují úkony, které jste na nich provedli, a preferencí (např. přihlašovací údaje, jazyka, velikost písma a jiné zobrazovací preferencí), takže tyto údaje pak nemusíte zadávat znovu a přeskakovat z jedné stránky na druhou.</p></div>
+    </div>
+    <div class='cookies_info'>
+        <span>By continuing to browse the site, you agree to our use of cookies.</span> 
+        <a href='' class="cookies_more">More information.</a>
+        <a href='' class="cookies_less">Less information.</a>
+        <button class='cookies_close btn btn-info'>Understand.</button>
+        
+    </div>
+</div>
+        <script type="text/javascript" src="/assets/d0d1ec159cbf758c40f75e1fd35234b2.js"></script>
+    
+        <script type="text/javascript">
+            $(document).ready(function() {
+                var slider = $('.slider_CoC8VvNO').bxSlider({"onSliderLoad":function() { $('.slider .loading').hide(); $('.slider ul li').css('visibility', 'visible'); $('.slider').css('height', 'auto'); $(document).trigger('sliderOnLoad'); },"auto":true,"pause":8000,"speed":2000,"controls":false,"pager":true,"mode":"fade","responsive":true});
+            });
+        
+            var more = $('#cookies .cookies_more');
+            var less = $('#cookies .cookies_less');
+            var text_wrap = $('#cookies .cookies_text_wrap');
+            var text = $('#cookies .cookies_text');
+            
+            more.click(function() {
+                height = text.outerHeight();
+                text_wrap.css('height', 0);
+                text_wrap.animate({ height: height }, 450, function() {
+                    text.fadeIn(450)
+                });
+                more.fadeOut(450, function() {
+                    less.fadeIn(450);
+                });
+                
+                
+                return false;
+            });
+            
+            less.click(function() {
+                less.fadeOut(450, function() {
+                    more.fadeIn(450);
+                });
+                text.fadeOut(450, function() {
+                    text_wrap.animate({ height: 0 }, 450);
+                });
+                
+                return false;
+            });
+
+            $('#cookies .cookies_close').click(function() {
+                $('#cookies').animate({height: '0'}, 600, function() {
+                    $(this).hide();
+                });
+                $.cookie('cookiesAgree', 1, { expires: 7*365, path : '/' });
+            });
+        </script>
+    </body>
+</html>

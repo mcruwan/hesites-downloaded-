@@ -1,0 +1,3573 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+
+<meta charset="utf-8">
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2026 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at https://typo3.org/
+-->
+
+
+<link rel="icon" href="/typo3conf/ext/site_package_bauhausmodule/Resources/Public/Icons/Favicon.png" type="image/png">
+<title>Bauhaus4EU: European University Alliance</title>
+<meta name="generator" content="TYPO3 CMS" />
+<meta name="robots" content="INDEX,FOLLOW" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="author" content="Bauhaus Universität Weimar" />
+<meta name="googlebot" content="index,follow,snippet,archive" />
+
+<link href="/typo3conf/ext/map/Resources/Public/Css/Map.css?1765987023" rel="stylesheet" >
+<link rel="stylesheet" href="/typo3temp/assets/css/7015c8c4ac5ff815b57530b221005fc6.css?1757593124" media="all">
+<link rel="stylesheet" href="/typo3conf/ext/site_package_bauhausmodule/Resources/Public/Vendor/bootstrap/css/bootstrap.min.css?1765983706" media="all">
+<link rel="stylesheet" href="/typo3conf/ext/site_package_bauhausmodule/Resources/Public/Fonts/fontawesome/css/font-awesome.min.css?1765983706" media="all">
+<link rel="stylesheet" href="/typo3conf/ext/site_package_bauhausmodule/Resources/Public/Vendor/swiper/css/swiper.min.css?1765983706" media="all">
+<link rel="stylesheet" href="/typo3conf/ext/site_package_bauhausmodule/Resources/Public/Vendor/fancybox/css/jquery.fancybox.min.css?1765983706" media="all">
+<link rel="stylesheet" href="/typo3conf/ext/site_package_bauhausmodule/Resources/Public/CSS/style.css?1766139231" media="all">
+<link rel="stylesheet" href="/typo3conf/ext/teaserboxes/Resources/Public/Css/teaserboxes.css?1765982571" media="all">
+<link rel="stylesheet" href="/typo3temp/assets/css/99a860b28a693f2076258064ad3f8452.css?1757593124" media="all">
+
+
+
+
+<script src="/typo3conf/ext/map/Resources/Public/JavaScript/Vendor/AmCharts/amcharts5/index.js?1765982554"></script>
+<script src="/typo3conf/ext/map/Resources/Public/JavaScript/Vendor/AmCharts/amcharts5/map.js?1765982554"></script>
+<script src="/typo3conf/ext/map/Resources/Public/JavaScript/Vendor/AmCharts/amcharts5/geodata/worldHigh.js?1765982554"></script>
+<script src="/typo3conf/ext/map/Resources/Public/JavaScript/Vendor/AmCharts/amcharts5/themes/Animated.js?1765982554"></script>
+
+
+
+</head>
+<body class="mainpage">
+
+
+
+
+
+
+<!-- HEADER --><header class="header"><div class="row"><div class="container no-border-bottom"><div class="logo-bauhaus4eu"><a href="/" title="Bauhaus4EU: Mainpage"><img src="/typo3conf/ext/site_package_bauhausmodule/Resources/Public/Images/LogoBauhaus4EU.svg" width="244" height="48"   alt="BAUHAUS4EU" ></a></div><nav class="navbar navbar-expand-lg navbar-light"><div class="navbar-toggler-wrap"><button
+                            class="navbar-toggler"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        ><span class="navbar-toggler-icon"></span></button></div><div class="collapse navbar-collapse" id="navbarSupportedContent"><div
+        aria-label="Main navigation"
+        id="navigation-main"
+        class="navigation-main"
+    ><ul role="menubar" class="nav navbar-nav lvl1"><li
+                    class="nav-item dropdown"
+                ><a
+        role="button" 
+        id="nav-link-44"
+        class=" dropdown-toggle" 
+        title="About us"
+        href="/about-us/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+    >
+        
+
+        About us
+    
+        
+    </a><ul role="menu" class="lvl2 dropdown-menu"><li class="parent"><a
+        role="menuitem" 
+        id="nav-link-44"
+        class=" parent-link" 
+        title="About us"
+        href="/about-us/"
+    >
+        
+            GoTo:
+        
+
+        About us
+    
+        
+    </a></li><li
+                                    class=" first"
+                                ><a
+        role="menuitem" 
+        id="nav-link-190"
+        class="" 
+        title="Mission &amp; Goals"
+        href="/about-us/mission-goals/"
+    >
+        
+
+        Mission &amp; Goals
+    
+        
+    </a></li><li
+                                    class=""
+                                ><a
+        role="menuitem" 
+        id="nav-link-41"
+        class="" 
+        title="Member Universities"
+        href="/about-us/member-universities/"
+    >
+        
+
+        Member Universities
+    
+        
+    </a></li><li
+                                    class=""
+                                ><a
+        role="menuitem" 
+        id="nav-link-191"
+        class="" 
+        title="Meet the Team"
+        href="/about-us/meet-the-team/"
+    >
+        
+
+        Meet the Team
+    
+        
+    </a></li><li
+                                    class=""
+                                ><a
+        role="menuitem" 
+        id="nav-link-137"
+        class="" 
+        title="Our Cities"
+        href="/about-us/our-cities/"
+    >
+        
+
+        Our Cities
+    
+        
+    </a></li><li
+                                    class=" last"
+                                ><a
+        role="menuitem" 
+        id="nav-link-179"
+        class="" 
+        title="Our Regions"
+        href="/about-us/our-regions/"
+    >
+        
+
+        Our Regions
+    
+        
+    </a></li></ul></li><li
+                    class="nav-item"
+                ><a
+        role="menuitem" 
+        id="nav-link-178"
+        class="" 
+        title="Courses"
+        href="/courses/" target="_blank"
+    >
+        
+
+        Courses
+    
+        
+    </a></li><li
+                    class="nav-item dropdown"
+                ><a
+        role="button" 
+        id="nav-link-170"
+        class=" dropdown-toggle" 
+        title="For Students"
+        href="/students/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+    >
+        
+
+        For Students
+    
+        
+    </a><ul role="menu" class="lvl2 dropdown-menu"><li class="parent"><a
+        role="menuitem" 
+        id="nav-link-170"
+        class=" parent-link" 
+        title="For Students"
+        href="/students/"
+    >
+        
+            GoTo:
+        
+
+        For Students
+    
+        
+    </a></li><li
+                                    class=" first"
+                                ><a
+        role="menuitem" 
+        id="nav-link-230"
+        class="" 
+        title="Open Calls"
+        href="/students/open-calls-students/"
+    >
+        
+
+        Open Calls
+    
+        
+    </a></li><li
+                                    class=""
+                                ><a
+        role="menuitem" 
+        id="nav-link-184"
+        class="" 
+        title="Joint Degree Programmes"
+        href="/students/joint-degree-programmes/"
+    >
+        
+
+        Joint Degree Programmes
+    
+        
+    </a></li><li
+                                    class=" last"
+                                ><a
+        role="menuitem" 
+        id="nav-link-211"
+        class="" 
+        title="Join in!"
+        href="/students/join-in/"
+    >
+        
+
+        Join in!
+    
+        
+    </a></li></ul></li><li
+                    class="nav-item dropdown"
+                ><a
+        role="button" 
+        id="nav-link-169"
+        class=" dropdown-toggle" 
+        title="For Admin Staff"
+        href="/staff/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+    >
+        
+
+        For Admin Staff
+    
+        
+    </a><ul role="menu" class="lvl2 dropdown-menu"><li class="parent"><a
+        role="menuitem" 
+        id="nav-link-169"
+        class=" parent-link" 
+        title="For Admin Staff"
+        href="/staff/"
+    >
+        
+            GoTo:
+        
+
+        For Admin Staff
+    
+        
+    </a></li><li
+                                    class=" first last"
+                                ><a
+        role="menuitem" 
+        id="nav-link-212"
+        class="" 
+        title="Join in!"
+        href="/staff/join-in/"
+    >
+        
+
+        Join in!
+    
+        
+    </a></li></ul></li><li
+                    class="nav-item dropdown"
+                ><a
+        role="button" 
+        id="nav-link-171"
+        class=" dropdown-toggle" 
+        title="For Academics"
+        href="/academics/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+    >
+        
+
+        For Academics
+    
+        
+    </a><ul role="menu" class="lvl2 dropdown-menu"><li class="parent"><a
+        role="menuitem" 
+        id="nav-link-171"
+        class=" parent-link" 
+        title="For Academics"
+        href="/academics/"
+    >
+        
+            GoTo:
+        
+
+        For Academics
+    
+        
+    </a></li><li
+                                    class=" first"
+                                ><a
+        role="menuitem" 
+        id="nav-link-244"
+        class="" 
+        title="Innovative pedagogies"
+        href="/academics/innovative-pedagogies/"
+    >
+        
+
+        Innovative pedagogies
+    
+        
+    </a></li><li
+                                    class=""
+                                ><a
+        role="menuitem" 
+        id="nav-link-241"
+        class="" 
+        title="Innovative Tools"
+        href="/academics/innovative-tools/"
+    >
+        
+
+        Innovative Tools
+    
+        
+    </a></li><li
+                                    class=""
+                                ><a
+        role="menuitem" 
+        id="nav-link-239"
+        class="" 
+        title="Open Calls"
+        href="/students/open-calls-academics/"
+    >
+        
+
+        Open Calls
+    
+        
+    </a></li><li
+                                    class=""
+                                ><a
+        role="menuitem" 
+        id="nav-link-218"
+        class="" 
+        title="Offer Course"
+        href="/academics/offer-course/"
+    >
+        
+
+        Offer Course
+    
+        
+    </a></li><li
+                                    class=" last"
+                                ><a
+        role="menuitem" 
+        id="nav-link-213"
+        class="" 
+        title="Join in!"
+        href="/students/join-in-2/"
+    >
+        
+
+        Join in!
+    
+        
+    </a></li></ul></li><li
+                    class="nav-item dropdown"
+                ><a
+        role="button" 
+        id="nav-link-172"
+        class=" dropdown-toggle" 
+        title="Regional Engagement"
+        href="/regional-partners/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+    >
+        
+
+        Regional Engagement
+    
+        
+    </a><ul role="menu" class="lvl2 dropdown-menu"><li class="parent"><a
+        role="menuitem" 
+        id="nav-link-172"
+        class=" parent-link" 
+        title="Regional Engagement"
+        href="/regional-partners/"
+    >
+        
+            GoTo:
+        
+
+        Regional Engagement
+    
+        
+    </a></li><li
+                                    class=" first"
+                                ><a
+        role="menuitem" 
+        id="nav-link-242"
+        class="" 
+        title="Innovation Ecosystem"
+        href="/regional-partners/innovation-ecosystem/"
+    >
+        
+
+        Innovation Ecosystem
+    
+        
+    </a></li><li
+                                    class=" last"
+                                ><a
+        role="menuitem" 
+        id="nav-link-243"
+        class="" 
+        title="Entrepreneurship Support"
+        href="/regional-partners/entrepreneurship-support/"
+    >
+        
+
+        Entrepreneurship Support
+    
+        
+    </a></li></ul></li><li
+                    class="nav-item last dropdown"
+                ><a
+        role="button" 
+        id="nav-link-177"
+        class=" dropdown-toggle" 
+        title="News"
+        href="/news/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+    >
+        
+
+        News
+    
+        
+    </a><ul role="menu" class="lvl2 dropdown-menu"><li class="parent"><a
+        role="menuitem" 
+        id="nav-link-177"
+        class=" parent-link" 
+        title="News"
+        href="/news/"
+    >
+        
+            GoTo:
+        
+
+        News
+    
+        
+    </a></li><li
+                                    class=" first"
+                                ><a
+        role="menuitem" 
+        id="nav-link-232"
+        class="" 
+        title="Newsletter"
+        href="/newsletter/"
+    >
+        
+
+        Newsletter
+    
+        
+    </a></li><li
+                                    class=""
+                                ><a
+        role="menuitem" 
+        id="nav-link-210"
+        class="" 
+        title="Events Calendar"
+        href="/activities/events/"
+    >
+        
+
+        Events Calendar
+    
+        
+    </a></li><li
+                                    class=" last"
+                                ><a
+        role="menuitem" 
+        id="nav-link-229"
+        class="" 
+        title="Photo Contest"
+        href="/activities/photo-contest/"
+    >
+        
+
+        Photo Contest
+    
+        
+    </a></li></ul></li></ul></div></div></nav></div><!-- *** NAVBAR END *** --></div></header><!-- SWIPER  --><div id="swiper"><div class="row"><div class="container container-swiper no-border-bottom"><div class="swiper"><div class="swiper-wrapper"><div class="swiper-slide"><div class="swiper-image-wrap"><div
+                                class="swiper-image-blur"
+                                style="background-image: url('/fileadmin/Media/Images/News/1_Slider_Mainpage/2025/251219_Best_Practice_landscape.png');"
+                            ></div><img class="swiper-image" src="/fileadmin/_processed_/5/0/csm_251219_Best_Practice_landscape_fbb3b9ec04.png" width="700" height="394" alt="" /></div><div class="swiper-caption" style=""><span class="claim">
+                BAUHAUS4EU Recognised as a New European Bauhaus Best Practice
+            </span><span class="text">
+                The first year of the European University Alliance BAUHAUS4EU (B4EU) concludes with an encouraging recognition: shortly before the end of the year, BAUHAUS4EU was recognised as a New European Bauhaus best practice for regional transformation in an official European Commission publication.
+            </span><div class="button-wrap"><a href="https://www.bauhaus4.eu/aktuelles/detail/european-commission-names-bauhaus4eu-as-best-practice-example/" class="btn-cta moreLink">
+                    Learn more
+                </a></div></div></div><div class="swiper-slide"><div class="swiper-image-wrap"><div
+                                class="swiper-image-blur"
+                                style="background-image: url('/fileadmin/Media/Images/News/2026/260112_Looking_back_on_first_year.jpg');"
+                            ></div><img class="swiper-image" title="260112_Looking back on first year" alt="alt=&quot;&quot;" src="/fileadmin/_processed_/d/3/csm_260112_Looking_back_on_first_year_5f9feb3e84.jpg" width="700" height="368" /></div><div class="swiper-caption" style=""><span class="claim">
+                Looking Back at the First BAUHAUS4EU Year
+            </span><span class="text">
+                2025 was the year of beginnings, getting-to-knows, launches, and kick-offs. But we did not just start – we progressed! We reached milestones, delivered results, surveys, reports, and created first offers. And to top it off: we organised as well as attended a considerable amount of workshops, conferences, and other events. From the get-go, the spirit of the BAUHAUS4EU Alliance felt very alive.
+            </span><div class="button-wrap"><a href="https://www.bauhaus4.eu/aktuelles/detail/looking-back-at-the-first-bauhaus4eu-year/" class="btn-cta moreLink">
+                    Learn more
+                </a></div></div></div><div class="swiper-slide"><div class="swiper-image-wrap"><div
+                                class="swiper-image-blur"
+                                style="background-image: url('/fileadmin/Media/Images/News/1_Slider_Mainpage/2026/Advisory_Council_Article_H.jpg');"
+                            ></div><img class="swiper-image" src="/fileadmin/_processed_/8/4/csm_Advisory_Council_Article_H_7de16b70d8.jpg" width="700" height="560" alt="" /></div><div class="swiper-caption" style=""><span class="claim">
+                First Meeting with the Alliance Advisory Council
+            </span><span class="text">
+                BAUHAUS4EU has officially introduced the members of its Advisory Council during a joint meeting with the Presidents&#039; Council on 5 December. Composed of high-level experts from across Europe and beyond, the Advisory Council will provide strategic insight and guidance to support the Alliance&#039;s long-term vision and development.
+            </span><div class="button-wrap"><a href="https://www.bauhaus4.eu/aktuelles/detail/bauhaus4eu-presidents-hold-first-meeting-with-the-alliance-advisory-council/" class="btn-cta moreLink">
+                    Learn more
+                </a></div></div></div><div class="swiper-slide"><div class="swiper-image-wrap"><div
+                                class="swiper-image-blur"
+                                style="background-image: url('/fileadmin/Media/Images/Activities/Photo_Contest_2025/B4EU_PC_Newsletter_2.jpg');"
+                            ></div><img class="swiper-image" src="/fileadmin/_processed_/d/d/csm_B4EU_PC_Newsletter_2_bc0c58a6f3.jpg" width="700" height="467" alt="" /></div><div class="swiper-caption" style=""><span class="claim">
+                Four Winners for the 1st BAUHAUS4EU Photo Contest
+            </span><span class="text">
+                Take a look at our winning photos! All four visual stories, in their unique ways, explore the sense of belonging as created not by buildings or schedules alone, but by the ways people share space, support each other, work behind the scenes, and build meaning together. 
+            </span><div class="button-wrap"><a href="https://www.bauhaus4.eu/aktuelles/detail/four-winners-for-the-1st-bauhaus4eu-photo-contest/" class="btn-cta moreLink">
+                    Learn more
+                </a></div></div></div></div><!-- If we need navigation buttons --><button class="btn btn-swiper swiper-button-prev" type="button"></button><button class="btn btn-swiper swiper-button-next" type="button"></button></div><!-- If we need pagination --><div class="swiper-pagination-wrap"><div class="swiper-pagination-inner"><div class="swiper-pagination"></div><button class="swiper-toggle js-swiper-toggle"><span class="sr-only">Stop</span></button></div></div></div></div></div><!-- CONTENT  --><main class="content layout-default" id="content"><div class="row"><div class="container"><div class="content-inner"><div id="c2927" class="frame frame-default frame-type-text frame-layout-0 frame-space-before-large frame-space-after-large"></div><div id="c2918" class="frame frame-default frame-type-teaserboxes_teaserbox frame-layout-0 frame-space-before-large frame-space-after-large"><header><h1 class="ce-headline-center">
+                Find what you need
+            </h1></header><div class="ce-teaserboxes"><ul class="teaserboxes-grid"><li class="teaserbox-item"><a href="/students/" class="teaserbox-link"><div class="teaserbox-icon"><img class="teaserbox-image" alt="alt=&quot;&quot;" src="/fileadmin/_processed_/6/4/csm_Students_1_5ae1740e36.jpg" width="260" height="260" /></div><span class="teaserbox-title">For Students</span></a></li><li class="teaserbox-item"><a href="/staff/" class="teaserbox-link"><div class="teaserbox-icon"><img class="teaserbox-image" alt="alt=&quot;&quot;" src="/fileadmin/_processed_/7/6/csm_Staff_c_Carlos_Santos_0e9a3434d3.jpg" width="260" height="260" /></div><span class="teaserbox-title">For Admin Staff</span></a></li><li class="teaserbox-item"><a href="/academics/" class="teaserbox-link"><div class="teaserbox-icon"><img class="teaserbox-image" alt="alt=&quot;&quot;" src="/fileadmin/_processed_/a/9/csm_Academics_488d676569.jpg" width="260" height="260" /></div><span class="teaserbox-title">For Academics</span></a></li><li class="teaserbox-item"><a href="/regional-partners/" class="teaserbox-link"><div class="teaserbox-icon"><img class="teaserbox-image" alt="alt=&quot;&quot;" src="/fileadmin/_processed_/9/f/csm_Reg_Partners_1326ed2c8c.jpg" width="260" height="260" /></div><span class="teaserbox-title">For Regional Engagement</span></a></li></ul></div></div><div id="c2920" class="frame frame-default frame-type-div frame-layout-0"><hr class="ce-div" /></div><div id="c2474" class="frame frame-default frame-type-textpic frame-layout-0 frame-space-before-extra-large frame-space-after-extra-large"><div class="ce-textpic ce-left ce-intext ce-nowrap"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="image-embed-item" alt="alt=&quot;&quot;" src="/fileadmin/_processed_/7/b/csm_Main_1_49fbb06298.jpg" width="1920" height="1008" loading="lazy" /></figure></div></div></div><div class="ce-bodytext"><h1>Studying all over Europe!</h1><p>Explore Europe, your way! Ten universities, endless possibilities — online or in person.&nbsp;Pick a course and discover how you can make the most of this unique opportunity!&nbsp;Within our Alliance, you can grow your knowledge, skills, and career flexibly to match your needs.</p><p><a href="/about-us/mission-goals/" class="btn-cta">Our mission &amp; goals</a></p></div></div></div><div id="c2915" class="frame frame-default frame-type-list frame-layout-0 frame-space-before-extra-large frame-space-after-extra-large">
+
+<input id="js-map-locations-json" type="hidden" name="" value="[{&quot;name&quot;:&quot;Bauhaus-Universit\u00e4t Weimar&quot;,&quot;city&quot;:&quot;Weimar (Germany)&quot;,&quot;description&quot;:&quot;Entrepreneurship at Bauhaus-Universit\u00e4t Weimar is supported by the startup hub neudeli and the state-wide StarTH network.&quot;,&quot;category&quot;:&quot;Entrepreneurship support&quot;,&quot;latitude&quot;:50.9745848068272,&quot;longitude&quot;:11.329230962706179,&quot;region&quot;:{&quot;name&quot;:&quot;Thuringia&quot;,&quot;regionId&quot;:&quot;DE-TH&quot;,&quot;country&quot;:&quot;Germany&quot;,&quot;countryIso&quot;:&quot;DE&quot;,&quot;mapfile&quot;:&quot;germanyLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;Startup-hub Neudeli \u2013 University startup incubation hub&quot;,&quot;url&quot;:&quot;https:\/\/www.uni-weimar.de\/en\/media\/institutes\/neudeli\/&quot;},{&quot;label&quot;:&quot;StarTH \u2013 Thuringian university entrepreneurship network&quot;,&quot;url&quot;:&quot;https:\/\/hochschul-gruendernetzwerk.de\/&quot;}]},{&quot;name&quot;:&quot;Blekinge Institute of Technology Karlskrona&quot;,&quot;city&quot;:&quot;Karlskrona (Sweden)&quot;,&quot;description&quot;:&quot;Blekinge Institute of Technology, BTH combines cutting-edge expertise in digitalisation and sustainability with a strong anchoring in the needs of society.&quot;,&quot;category&quot;:&quot;Universities&quot;,&quot;latitude&quot;:56.182315627185,&quot;longitude&quot;:15.590848313002,&quot;region&quot;:{&quot;name&quot;:&quot;Blekinge&quot;,&quot;regionId&quot;:&quot;SE-K&quot;,&quot;country&quot;:&quot;Sweden&quot;,&quot;countryIso&quot;:&quot;SE&quot;,&quot;mapfile&quot;:&quot;swedenLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;Website&quot;,&quot;url&quot;:&quot;https:\/\/www.bth.se\/english&quot;}]},{&quot;name&quot;:&quot;Polytechnic University of Castelo Branco&quot;,&quot;city&quot;:&quot;Castelo Branco (Portugal)&quot;,&quot;description&quot;:&quot;The Polytechnic University of Castelo Branco (IPCB) is a dynamic higher education institution offering practice-oriented academic programmes, actively engaged in research, international collaboration, and regional development through strong ties with the local community.&quot;,&quot;category&quot;:&quot;Universities&quot;,&quot;latitude&quot;:39.837240381305,&quot;longitude&quot;:-7.4974505596257,&quot;region&quot;:{&quot;name&quot;:&quot;Centro&quot;,&quot;regionId&quot;:&quot;PT-C&quot;,&quot;country&quot;:&quot;Portugal&quot;,&quot;countryIso&quot;:&quot;PT&quot;,&quot;mapfile&quot;:&quot;portugalRegionsLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;Website&quot;,&quot;url&quot;:&quot;https:\/\/www.ipcb.pt\/&quot;}]},{&quot;name&quot;:&quot;University of Bergamo&quot;,&quot;city&quot;:&quot;Bergamo (Italy)&quot;,&quot;description&quot;:&quot;The University of Bergamo, located in northern Italy, is a city-based university with strong links to local institutions and the entrepreneurial ecosystem, offering a wide range of bachelor\u2019s, master\u2019s, doctoral, and double-degree programmes across economics and law, humanities, and engineering.&quot;,&quot;category&quot;:&quot;Universities&quot;,&quot;latitude&quot;:45.689920391036,&quot;longitude&quot;:9.6610646368271,&quot;region&quot;:{&quot;name&quot;:&quot;Lombardia&quot;,&quot;regionId&quot;:&quot;IT-25&quot;,&quot;country&quot;:&quot;Italy&quot;,&quot;countryIso&quot;:&quot;IT&quot;,&quot;mapfile&quot;:&quot;italyLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;Website&quot;,&quot;url&quot;:&quot;https:\/\/en.unibg.it\/&quot;}]},{&quot;name&quot;:&quot;Universit\u00e9 de Picardie Jules Verne&quot;,&quot;city&quot;:&quot;Amiens (France)&quot;,&quot;description&quot;:&quot;UPJV supports student entrepreneurship through funding schemes, a regional innovation platform in Amiens, and the P\u00c9PITE network.&quot;,&quot;category&quot;:&quot;Entrepreneurship support&quot;,&quot;latitude&quot;:49.89783212803,&quot;longitude&quot;:2.2682001104586,&quot;region&quot;:{&quot;name&quot;:&quot;Hauts-de-France&quot;,&quot;regionId&quot;:&quot;FR-HDF&quot;,&quot;country&quot;:&quot;France&quot;,&quot;countryIso&quot;:&quot;FR&quot;,&quot;mapfile&quot;:&quot;franceLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;UPJV Foundation \u2013 Financial support to mainly student entrepreneurship&amp;innovation projects&quot;,&quot;url&quot;:&quot;https:\/\/www.u-picardie.fr\/entreprises-et-partenaires\/accompagner-fondation-lupjv&quot;},{&quot;label&quot;:&quot;Innov&#039;a \u2013 Collaborative platform in Amiens that supports companies and startups in their innovative projects&quot;,&quot;url&quot;:&quot;https:\/\/www.innov-a.com\/&quot;},{&quot;label&quot;:&quot;P\u00c9PITE A2U \u2013 A regional network designed to promote and support student entrepreneurship&quot;,&quot;url&quot;:&quot;https:\/\/www.pepitea2u.fr\/&quot;}]},{&quot;name&quot;:&quot;POLIS University&quot;,&quot;city&quot;:&quot;Tirana (Albania)&quot;,&quot;description&quot;:&quot;POLIS University is an interdisciplinary university with a strong focus on architecture, urban planning and design, civil engineering, environmental sciences, computer science and entrepreneurship.&quot;,&quot;category&quot;:&quot;Universities&quot;,&quot;latitude&quot;:41.352629015563,&quot;longitude&quot;:19.750462512386,&quot;region&quot;:{&quot;name&quot;:&quot;Tiran\u00eb&quot;,&quot;regionId&quot;:&quot;AL-11&quot;,&quot;country&quot;:&quot;Albania&quot;,&quot;countryIso&quot;:&quot;AL&quot;,&quot;mapfile&quot;:&quot;albaniaLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;Website&quot;,&quot;url&quot;:&quot;https:\/\/universitetipolis.edu.al\/en\/&quot;}]},{&quot;name&quot;:&quot;University of Architecture, Civil Engineering and Geodesy&quot;,&quot;city&quot;:&quot;Sofia (Bulgaria)&quot;,&quot;description&quot;:&quot;Having pioneered technical education in Bulgaria, UACEG seamlessly blends deep-rooted traditions and a drive for innovation and technological advancement.&quot;,&quot;category&quot;:&quot;Universities&quot;,&quot;latitude&quot;:42.739600393333,&quot;longitude&quot;:23.310437954956,&quot;region&quot;:{&quot;name&quot;:&quot;Sofia-Grad&quot;,&quot;regionId&quot;:&quot;BG-22&quot;,&quot;country&quot;:&quot;Bulgaria&quot;,&quot;countryIso&quot;:&quot;BG&quot;,&quot;mapfile&quot;:&quot;bulgariaLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;Website&quot;,&quot;url&quot;:&quot;https:\/\/uacg.bg\/&quot;}]},{&quot;name&quot;:&quot;University of Economics in Katowice&quot;,&quot;city&quot;:&quot;Katowice (Poland)&quot;,&quot;description&quot;:&quot;The University of Economics in Katowice is a major public economic university offering programmes in socio-economic sciences across five faculties, including economics, finance, management, spatial economy, and informatics.&quot;,&quot;category&quot;:&quot;Universities&quot;,&quot;latitude&quot;:50.25856,&quot;longitude&quot;:19.04517,&quot;region&quot;:{&quot;name&quot;:&quot;\u015al\u0105skie&quot;,&quot;regionId&quot;:&quot;PL-24&quot;,&quot;country&quot;:&quot;Poland&quot;,&quot;countryIso&quot;:&quot;PL&quot;,&quot;mapfile&quot;:&quot;polandLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;Website&quot;,&quot;url&quot;:&quot;https:\/\/www.ue.katowice.pl\/en.html&quot;}]},{&quot;name&quot;:&quot;University of Macedonia&quot;,&quot;city&quot;:&quot;Thessaloniki (Greece)&quot;,&quot;description&quot;:&quot;The University of Macedonia is a public university in Thessaloniki specialising in economic and social sciences, offering a wide range of degree programmes and maintaining strong links with public institutions, businesses, and the local community.&quot;,&quot;category&quot;:&quot;Universities&quot;,&quot;latitude&quot;:40.62511058792,&quot;longitude&quot;:22.96010849702,&quot;region&quot;:{&quot;name&quot;:&quot;Central Macedonia&quot;,&quot;regionId&quot;:&quot;GR-B&quot;,&quot;country&quot;:&quot;Greece&quot;,&quot;countryIso&quot;:&quot;GR&quot;,&quot;mapfile&quot;:&quot;greeceLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;Website&quot;,&quot;url&quot;:&quot;https:\/\/www.uom.gr\/&quot;}]},{&quot;name&quot;:&quot;Universit\u00e9 Lumi\u00e8re Lyon 2&quot;,&quot;city&quot;:&quot;Lyon (France)&quot;,&quot;description&quot;:&quot;The Lumi\u00e8re Lyon 2 University focuses on a strong and rigorous vision of higher education and research, driven by a spirit and values that are also its hallmark: humanist, open and committed.&quot;,&quot;category&quot;:&quot;Universities&quot;,&quot;latitude&quot;:45.764649824933,&quot;longitude&quot;:4.8356381836741,&quot;region&quot;:{&quot;name&quot;:&quot;Auvergne-Rh\u00f4ne-Alpes&quot;,&quot;regionId&quot;:&quot;FR-ARA&quot;,&quot;country&quot;:&quot;France&quot;,&quot;countryIso&quot;:&quot;FR&quot;,&quot;mapfile&quot;:&quot;franceLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;Website&quot;,&quot;url&quot;:&quot;https:\/\/welcome.univ-lyon2.fr&quot;}]},{&quot;name&quot;:&quot;Kharkiv National University of Economics&quot;,&quot;city&quot;:&quot;Kharkiv (Ukraine)&quot;,&quot;description&quot;:&quot;Simon Kuznets Kharkiv National University of Economics is a public higher education institution specialising in economics, management, and information technologies, with a strong focus on applied research and socio-economic development.&quot;,&quot;category&quot;:&quot;Universities&quot;,&quot;latitude&quot;:50.014113230276074,&quot;longitude&quot;:36.22436472648764,&quot;region&quot;:{&quot;name&quot;:&quot;Kharkiv&quot;,&quot;regionId&quot;:&quot;UA-63&quot;,&quot;country&quot;:&quot;Ukraine&quot;,&quot;countryIso&quot;:&quot;UA&quot;,&quot;mapfile&quot;:&quot;ukraineLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;Website&quot;,&quot;url&quot;:&quot;https:\/\/hneu.edu.ua\/en&quot;}]},{&quot;name&quot;:&quot;Kharkiv School of Architecture&quot;,&quot;city&quot;:&quot;Lviv&quot;,&quot;description&quot;:&quot;Kharkiv School of Architecture, currently located in Lviv, is an independent higher education institution dedicated to contemporary architectural education, focusing on critical thinking, interdisciplinary practice, and socially engaged design.&quot;,&quot;category&quot;:&quot;Universities&quot;,&quot;latitude&quot;:49,&quot;longitude&quot;:24,&quot;region&quot;:{&quot;name&quot;:&quot;Lviv&quot;,&quot;regionId&quot;:&quot;UA-46&quot;,&quot;country&quot;:&quot;Ukraine&quot;,&quot;countryIso&quot;:&quot;UA&quot;,&quot;mapfile&quot;:&quot;ukraineLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;Website&quot;,&quot;url&quot;:&quot;https:\/\/kharkiv.school\/en\/about-khsa\/&quot;}]},{&quot;name&quot;:&quot;Universit\u00e9 de Picardie Jules Verne&quot;,&quot;city&quot;:&quot;Amiens (France)&quot;,&quot;description&quot;:&quot;The University of Picardie Jules Verne (UPJV) is a multidisciplinary public university with a strong regional presence, offering education and research across a wide range of fields and actively contributing to regional development through innovation- and research-driven initiatives.&quot;,&quot;category&quot;:&quot;Universities&quot;,&quot;latitude&quot;:49.89783212803,&quot;longitude&quot;:2.2682001104586,&quot;region&quot;:{&quot;name&quot;:&quot;Hauts-de-France&quot;,&quot;regionId&quot;:&quot;FR-HDF&quot;,&quot;country&quot;:&quot;France&quot;,&quot;countryIso&quot;:&quot;FR&quot;,&quot;mapfile&quot;:&quot;franceLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;Website&quot;,&quot;url&quot;:&quot;https:\/\/www.u-picardie.fr\/en&quot;}]},{&quot;name&quot;:&quot;Bauhaus-Universit\u00e4t Weimar&quot;,&quot;city&quot;:&quot;Weimar (Germany)&quot;,&quot;description&quot;:&quot;Bauhaus-Universit\u00e4t Weimar is a public university with a distinctive, interdisciplinary profile spanning architecture, urbanism, engineering, art and design, and media, combining project-based education with a strong Bauhaus heritage to address contemporary societal challenges.&quot;,&quot;category&quot;:&quot;Universities&quot;,&quot;latitude&quot;:50.974584806827,&quot;longitude&quot;:11.329230962706,&quot;region&quot;:{&quot;name&quot;:&quot;Thuringia&quot;,&quot;regionId&quot;:&quot;DE-TH&quot;,&quot;country&quot;:&quot;Germany&quot;,&quot;countryIso&quot;:&quot;DE&quot;,&quot;mapfile&quot;:&quot;germanyLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;Website&quot;,&quot;url&quot;:&quot;https:\/\/www.uni-weimar.de\/en\/university\/start\/&quot;}]},{&quot;name&quot;:&quot;Universit\u00e9 Lumi\u00e8re Lyon 2&quot;,&quot;city&quot;:&quot;Lyon (France)&quot;,&quot;description&quot;:&quot;At ULL2, student entrepreneurship is supported through the Lumi\u00e8re Incubator, CELSE (Lyon Saint-\u00c9tienne Entrepreneurship Center), and I-Factory, offering structured pathways from idea development and incubation to startup creation and regional collaboration.&quot;,&quot;category&quot;:&quot;Entrepreneurship support&quot;,&quot;latitude&quot;:45.764649824933,&quot;longitude&quot;:4.8356381836741,&quot;region&quot;:{&quot;name&quot;:&quot;Auvergne-Rh\u00f4ne-Alpes&quot;,&quot;regionId&quot;:&quot;FR-ARA&quot;,&quot;country&quot;:&quot;France&quot;,&quot;countryIso&quot;:&quot;FR&quot;,&quot;mapfile&quot;:&quot;franceLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;Lumi\u00e8re Incubator \u2013 Incubator\/Accelerator&quot;,&quot;url&quot;:&quot;https:\/\/www.univ-lyon2.fr\/formation\/entrepreneuriat&quot;},{&quot;label&quot;:&quot;CELSE (Lyon Saint-\u00c9tienne Entrepreneurship Center) \u2013 Incubator\/Accelerator&quot;,&quot;url&quot;:&quot;https:\/\/centre-entrepreneuriat.universite-lyon.fr\/&quot;},{&quot;label&quot;:&quot;I-Factory \u2013 Innovation Hub&quot;,&quot;url&quot;:&quot;https:\/\/ifactory.universite-lyon.fr\/&quot;}]},{&quot;name&quot;:&quot;POLIS University&quot;,&quot;city&quot;:&quot;Tirana (Albania)&quot;,&quot;description&quot;:&quot;At POLIS University, student entrepreneurship is supported through Tirana Inc., S.E.A.M., Circular City Labs, and the Innovation Factory, linking academic projects with the local innovation ecosystem.&quot;,&quot;category&quot;:&quot;Entrepreneurship support&quot;,&quot;latitude&quot;:41.352629015563,&quot;longitude&quot;:19.750462512386,&quot;region&quot;:{&quot;name&quot;:&quot;Tiran\u00eb&quot;,&quot;regionId&quot;:&quot;AL-11&quot;,&quot;country&quot;:&quot;Albania&quot;,&quot;countryIso&quot;:&quot;AL&quot;,&quot;mapfile&quot;:&quot;albaniaLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;Tirana Inc.&quot;,&quot;url&quot;:&quot;https:\/\/tirana-inc.al\/&quot;},{&quot;label&quot;:&quot;S.E.A.M&quot;,&quot;url&quot;:&quot;https:\/\/euforinnovation.al\/s-e-a-m-incubation-insights\/&quot;},{&quot;label&quot;:&quot;Circular City Labs&quot;,&quot;url&quot;:&quot;https:\/\/ccl-tirana.al\/home&quot;},{&quot;label&quot;:&quot;Innovation Factory&quot;,&quot;url&quot;:&quot;https:\/\/universitetipolis.edu.al\/en\/innovation-factory\/&quot;}]},{&quot;name&quot;:&quot;Blekinge Institute of Technology Karlskrona&quot;,&quot;city&quot;:&quot;Karlskrona (Sweden)&quot;,&quot;description&quot;:&quot;BTH supports entrepreneurship through the Blekinge Business Incubator, BTH Innovation Labs, the Virtual Production Studio Lab, the BTH Innovation Office, and Nyf\u00f6retagarcentrum.&quot;,&quot;category&quot;:&quot;Entrepreneurship support&quot;,&quot;latitude&quot;:56.182315627185,&quot;longitude&quot;:15.590848313002,&quot;region&quot;:{&quot;name&quot;:&quot;Blekinge&quot;,&quot;regionId&quot;:&quot;SE-K&quot;,&quot;country&quot;:&quot;Sweden&quot;,&quot;countryIso&quot;:&quot;SE&quot;,&quot;mapfile&quot;:&quot;swedenLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;Blekinge Business Incubator&quot;,&quot;url&quot;:&quot;https:\/\/b-b-i.se\/&quot;},{&quot;label&quot;:&quot;Virtual Production Studio Lab&quot;,&quot;url&quot;:&quot;https:\/\/www.bth.se\/english\/student\/our-labs\/virtual-production-studio-lab&quot;},{&quot;label&quot;:&quot;BTH Innovation Labs&quot;,&quot;url&quot;:&quot;https:\/\/bthinnovationlabs.com\/&quot;},{&quot;label&quot;:&quot;BTH Innovation office&quot;,&quot;url&quot;:&quot;https:\/\/www.bth.se\/english\/about-bth\/collaboration\/innovation-office&quot;},{&quot;label&quot;:&quot;Nyf\u00f6retagarcentrum&quot;,&quot;url&quot;:&quot;https:\/\/nyforetagarcentrum.se\/&quot;}]},{&quot;name&quot;:&quot;University of Architecture, Civil Engineering and Geodesy&quot;,&quot;city&quot;:&quot;Sofia (Bulgaria)&quot;,&quot;description&quot;:&quot;UACEG currently does not have dedicated structures or programs for entrepreneurship.&quot;,&quot;category&quot;:&quot;Entrepreneurship support&quot;,&quot;latitude&quot;:42.739600393333,&quot;longitude&quot;:23.310437954956,&quot;region&quot;:{&quot;name&quot;:&quot;Sofia-Grad&quot;,&quot;regionId&quot;:&quot;BG-22&quot;,&quot;country&quot;:&quot;Bulgaria&quot;,&quot;countryIso&quot;:&quot;BG&quot;,&quot;mapfile&quot;:&quot;bulgariaLow&quot;},&quot;urls&quot;:[]},{&quot;name&quot;:&quot;University of Economics in Katowice&quot;,&quot;city&quot;:&quot;Katowice (Poland)&quot;,&quot;description&quot;:&quot;Entrepreneurship at UEKAT is supported through research centres, innovation hubs, industrial parks, and regional transition observatories.&quot;,&quot;category&quot;:&quot;Entrepreneurship support&quot;,&quot;latitude&quot;:50.25856,&quot;longitude&quot;:19.04517,&quot;region&quot;:{&quot;name&quot;:&quot;\u015al\u0105skie&quot;,&quot;regionId&quot;:&quot;PL-24&quot;,&quot;country&quot;:&quot;Poland&quot;,&quot;countryIso&quot;:&quot;PL&quot;,&quot;mapfile&quot;:&quot;polandLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;R&amp;D Centre&quot;,&quot;url&quot;:&quot;https:\/\/www.ue.katowice.pl\/jednostki\/centrum-badan-i-rozwoju\/dzial-badan-ekspertyz-i-konsultingu.html&quot;},{&quot;label&quot;:&quot;Rawa.Ink&quot;,&quot;url&quot;:&quot;https:\/\/rawaink.katowice.eu\/&quot;},{&quot;label&quot;:&quot;Euro-Centrum Science and Technology &amp; Industrial Park&quot;,&quot;url&quot;:&quot;http:\/\/www.euro-centrum.com.pl\/&quot;},{&quot;label&quot;:&quot;Katowice Special Economic Zone&quot;,&quot;url&quot;:&quot;https:\/\/www.ksse.pl\/&quot;},{&quot;label&quot;:&quot;Regional observatory of the transition process in Silesia (ROPT)&quot;,&quot;url&quot;:&quot;https:\/\/funduszeue.slaskie.pl\/web\/guest\/w\/regionalne_obserwatorium_procesu_transformacji_2_0_ropt_2_0&quot;},{&quot;label&quot;:&quot;Silesian Network of Regional Specialized Observatories&quot;,&quot;url&quot;:&quot;https:\/\/ris.slaskie.pl\/&quot;},{&quot;label&quot;:&quot;Centre for Economics of Climate Change&quot;,&quot;url&quot;:&quot;https:\/\/cecc.ue.katowice.pl\/&quot;}]},{&quot;name&quot;:&quot;University of Macedonia&quot;,&quot;city&quot;:&quot;Thessaloniki (Greece)&quot;,&quot;description&quot;:&quot;Entrepreneurship at UOM is supported through university-based transfer and incubation structures and regional innovation networks.&quot;,&quot;category&quot;:&quot;Entrepreneurship support&quot;,&quot;latitude&quot;:40.62511058792,&quot;longitude&quot;:22.96010849702,&quot;region&quot;:{&quot;name&quot;:&quot;Central Macedonia&quot;,&quot;regionId&quot;:&quot;GR-B&quot;,&quot;country&quot;:&quot;Greece&quot;,&quot;countryIso&quot;:&quot;GR&quot;,&quot;mapfile&quot;:&quot;greeceLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;UOM Technology Transfer Office (TTO)&quot;,&quot;url&quot;:&quot;https:\/\/www.uom.gr\/en\/grafeio-metaforas-texnologias&quot;},{&quot;label&quot;:&quot;UOM Pre-incubator&quot;,&quot;url&quot;:&quot;https:\/\/www.entrepreneurship.uom.gr\/&quot;},{&quot;label&quot;:&quot;Innovation and Entrepreneurship Unit (MoKE)&quot;,&quot;url&quot;:&quot;https:\/\/www.entrepreneurship.uom.gr\/&quot;},{&quot;label&quot;:&quot;Teen Business School&quot;,&quot;url&quot;:&quot;https:\/\/teenbusinessschool.uom.gr\/&quot;},{&quot;label&quot;:&quot;Entrepreneurship Lab&quot;,&quot;url&quot;:&quot;https:\/\/www.uom.gr\/en\/bso\/entrepreneurship-lab&quot;}]},{&quot;name&quot;:&quot;Polytechnic University of Castelo Branco&quot;,&quot;city&quot;:&quot;Castelo Branco (Portugal)&quot;,&quot;description&quot;:&quot;IPCB supports entrepreneurship through a network of incubators, applied research centres, and regional clusters.&quot;,&quot;category&quot;:&quot;Entrepreneurship support&quot;,&quot;latitude&quot;:39.837240381305,&quot;longitude&quot;:-7.4974505596257,&quot;region&quot;:{&quot;name&quot;:&quot;Centro&quot;,&quot;regionId&quot;:&quot;PT-C&quot;,&quot;country&quot;:&quot;Portugal&quot;,&quot;countryIso&quot;:&quot;PT&quot;,&quot;mapfile&quot;:&quot;portugalRegionsLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;CEDER&quot;,&quot;url&quot;:&quot;https:\/\/www.ipcb.pt\/investigar-e-inovar\/inovacao\/transferencia-de-conhecimento\/&quot;},{&quot;label&quot;:&quot;StartUp.CB&quot;,&quot;url&quot;:&quot;https:\/\/www.ipcb.pt\/investigar-e-inovar\/inovacao\/incubadora-de-empresas\/&quot;},{&quot;label&quot;:&quot;Poliempreende&quot;,&quot;url&quot;:&quot;https:\/\/www.ipcb.pt\/investigar-e-inovar\/inovacao\/poliempreende\/&quot;},{&quot;label&quot;:&quot;CATAA&quot;,&quot;url&quot;:&quot;https:\/\/www.cataa.pt\/&quot;}]},{&quot;name&quot;:&quot;University of Bergamo&quot;,&quot;city&quot;:&quot;Bergamo (Italy)&quot;,&quot;description&quot;:&quot;Entrepreneurship at UNIBG is supported through university-based transfer structures, research centres, and strong partnerships with regional business incubators and foundations.&quot;,&quot;category&quot;:&quot;Entrepreneurship support&quot;,&quot;latitude&quot;:45.689920391036,&quot;longitude&quot;:9.6610646368271,&quot;region&quot;:{&quot;name&quot;:&quot;Lombardia&quot;,&quot;regionId&quot;:&quot;IT-25&quot;,&quot;country&quot;:&quot;Italy&quot;,&quot;countryIso&quot;:&quot;IT&quot;,&quot;mapfile&quot;:&quot;italyLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;Research and Transfer Office&quot;,&quot;url&quot;:&quot;https:\/\/en.unibg.it\/&quot;},{&quot;label&quot;:&quot;Fondazione U4I&quot;,&quot;url&quot;:&quot;https:\/\/u4i.it\/&quot;},{&quot;label&quot;:&quot;CREO - Competencies and Resources for Entrepreneurial Orientation&quot;,&quot;url&quot;:&quot;https:\/\/creo.unibg.it\/en\/home-en\/&quot;},{&quot;label&quot;:&quot;CESC - Center on economic, social, and cooperation dynamics&quot;,&quot;url&quot;:&quot;https:\/\/www.unibg.it\/ateneo\/organizzazione-e-struttura\/centri-ricerca-e-terza-missione&quot;},{&quot;label&quot;:&quot;CYFE - Center for Young and Family Enterprise&quot;,&quot;url&quot;:&quot;https:\/\/www.unibg.it\/ateneo\/organizzazione-e-struttura\/centri-ricerca-e-terza-missione&quot;},{&quot;label&quot;:&quot;HEYE - Centro Higher Education and Youth Employability&quot;,&quot;url&quot;:&quot;https:\/\/www.unibg.it\/ateneo\/organizzazione-e-struttura\/centri-ricerca-e-terza-missione&quot;}]},{&quot;name&quot;:&quot;Bauhaus-Universit\u00e4t Weimar&quot;,&quot;city&quot;:&quot;Weimar (Germany)&quot;,&quot;description&quot;:&quot;Bauhaus-Universit\u00e4t Weimar\u2019s innovation ecosystem is driven by the Research and Transfer Office, the startup hub neudeli, the Bauhaus Mobility Hub (EDIH Thuringia) and the International Heritage Centre.&quot;,&quot;category&quot;:&quot;Innovation Ecosystems&quot;,&quot;latitude&quot;:50.974584806827,&quot;longitude&quot;:11.329230962706,&quot;region&quot;:{&quot;name&quot;:&quot;Thuringia&quot;,&quot;regionId&quot;:&quot;DE-TH&quot;,&quot;country&quot;:&quot;Germany&quot;,&quot;countryIso&quot;:&quot;DE&quot;,&quot;mapfile&quot;:&quot;germanyLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;Startup-hub Neudeli \u2013 University startup incubation hub&quot;,&quot;url&quot;:&quot;https:\/\/www.uni-weimar.de\/en\/media\/institutes\/neudeli\/&quot;},{&quot;label&quot;:&quot;Bauhaus-Uni Research and Transfer Office&quot;,&quot;url&quot;:&quot;https:\/\/www.uni-weimar.de\/en\/university\/research-and-art\/forschungsservice\/&quot;},{&quot;label&quot;:&quot;Bauhaus Mobility Hub \u2013 Regional digital innovation hub EDIH Thuringia&quot;,&quot;url&quot;:&quot;https:\/\/european-digital-innovation-hubs.ec.europa.eu\/edih-catalogue\/edih-thuringia&quot;},{&quot;label&quot;:&quot;International Heritage Centre&quot;,&quot;url&quot;:&quot;https:\/\/www.uni-weimar.de\/en\/university\/structure\/scientific-facilities\/ihz\/&quot;}]},{&quot;name&quot;:&quot;Universit\u00e9 de Picardie Jules Verne&quot;,&quot;city&quot;:&quot;Amiens (France)&quot;,&quot;description&quot;:&quot;UPJV supports innovation through targeted funding for student projects, SATT Nord, the P\u00c9PITE network, and regional platforms and agencies fostering entrepreneurship and technology transfer.&quot;,&quot;category&quot;:&quot;Innovation Ecosystems&quot;,&quot;latitude&quot;:49.89783212803,&quot;longitude&quot;:2.2682001104586,&quot;region&quot;:{&quot;name&quot;:&quot;Hauts-de-France&quot;,&quot;regionId&quot;:&quot;FR-HDF&quot;,&quot;country&quot;:&quot;France&quot;,&quot;countryIso&quot;:&quot;FR&quot;,&quot;mapfile&quot;:&quot;franceLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;UPJV Foundation \u2013 Financial support to mainly student entrepreneurship&amp;innovation projects&quot;,&quot;url&quot;:&quot;https:\/\/www.u-picardie.fr\/entreprises-et-partenaires\/accompagner-fondation-lupjv&quot;},{&quot;label&quot;:&quot;Innov&#039;a \u2013 Collaborative platform in Amiens that supports companies and startups in their innovative projects&quot;,&quot;url&quot;:&quot;https:\/\/www.innov-a.com\/&quot;},{&quot;label&quot;:&quot;P\u00c9PITE A2U \u2013 A regional network designed to promote and support student entrepreneurship&quot;,&quot;url&quot;:&quot;https:\/\/www.pepitea2u.fr\/&quot;},{&quot;label&quot;:&quot;SATT Nord \u2013 Public research technology transfer accelerator&quot;,&quot;url&quot;:&quot;https:\/\/sattnord.fr\/&quot;},{&quot;label&quot;:&quot;Hauts-de-France Innovation D\u00e9veloppement \u2013 Regional innovation and economic development agency&quot;,&quot;url&quot;:&quot;https:\/\/www.hautsdefrance-id.fr\/&quot;}]},{&quot;name&quot;:&quot;Universit\u00e9 Lumi\u00e8re Lyon 2&quot;,&quot;city&quot;:&quot;Lyon (France)&quot;,&quot;description&quot;:&quot;At ULL2, innovation is fostered through the University Foundation, the Science Shop, and the Mus\u00e9e des Moulages, connecting research, society and culture.&quot;,&quot;category&quot;:&quot;Innovation Ecosystems&quot;,&quot;latitude&quot;:45.764649824933,&quot;longitude&quot;:4.8356381836741,&quot;region&quot;:{&quot;name&quot;:&quot;Auvergne-Rh\u00f4ne-Alpes&quot;,&quot;regionId&quot;:&quot;FR-ARA&quot;,&quot;country&quot;:&quot;France&quot;,&quot;countryIso&quot;:&quot;FR&quot;,&quot;mapfile&quot;:&quot;franceLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;Universit\u00e9 Lumi\u00e8re Lyon 2 Foundation&quot;,&quot;url&quot;:&quot;https:\/\/fondation.univ-lyon2.fr\/&quot;},{&quot;label&quot;:&quot;Mus\u00e9e des moulages (Museum of castings)&quot;,&quot;url&quot;:&quot;https:\/\/www.univ-lyon2.fr\/sciences-et-societe\/mumo&quot;},{&quot;label&quot;:&quot;Boutique des Sciences (Science Shop)&quot;,&quot;url&quot;:&quot;https:\/\/www.univ-lyon2.fr\/sciences-et-societe\/boutique-des-sciences&quot;}]},{&quot;name&quot;:&quot;POLIS University&quot;,&quot;city&quot;:&quot;Tirana (Albania)&quot;,&quot;description&quot;:&quot;At POLIS University, innovation is fostered by Tirana Inc., the Innovation Factory, and the Observatory of the Mediterranean Basin, bridging academic research and the local innovation ecosystem.&quot;,&quot;category&quot;:&quot;Innovation Ecosystems&quot;,&quot;latitude&quot;:41.352629015563,&quot;longitude&quot;:19.750462512386,&quot;region&quot;:{&quot;name&quot;:&quot;Tiran\u00eb&quot;,&quot;regionId&quot;:&quot;AL-11&quot;,&quot;country&quot;:&quot;Albania&quot;,&quot;countryIso&quot;:&quot;AL&quot;,&quot;mapfile&quot;:&quot;albaniaLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;Tirana Inc.&quot;,&quot;url&quot;:&quot;https:\/\/tirana-inc.al\/&quot;},{&quot;label&quot;:&quot;Research Unit \u2013 Observatory of Mediterranean Basin&quot;,&quot;url&quot;:&quot;https:\/\/universitetipolis.edu.al\/innovation-factory\/&quot;},{&quot;label&quot;:&quot;Innovation Factory&quot;,&quot;url&quot;:&quot;https:\/\/universitetipolis.edu.al\/en\/innovation-factory\/&quot;}]},{&quot;name&quot;:&quot;Blekinge Institute of Technology Karlskrona&quot;,&quot;city&quot;:&quot;Karlskrona (Sweden)&quot;,&quot;description&quot;:&quot;At BTH innovation is fostered through the Blekinge Business Incubator, BTH Innovation Labs, the Virtual Production Studio Lab, the BTH Innovation Office, and the Nyf\u00f6retagarcentrum.&quot;,&quot;category&quot;:&quot;Innovation Ecosystems&quot;,&quot;latitude&quot;:56.182315627185,&quot;longitude&quot;:15.590848313002,&quot;region&quot;:{&quot;name&quot;:&quot;Blekinge&quot;,&quot;regionId&quot;:&quot;SE-K&quot;,&quot;country&quot;:&quot;Sweden&quot;,&quot;countryIso&quot;:&quot;SE&quot;,&quot;mapfile&quot;:&quot;swedenLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;Blekinge Business Incubator&quot;,&quot;url&quot;:&quot;https:\/\/b-b-i.se\/&quot;},{&quot;label&quot;:&quot;Virtual Production Studio Lab&quot;,&quot;url&quot;:&quot;https:\/\/www.bth.se\/english\/student\/our-labs\/virtual-production-studio-lab&quot;},{&quot;label&quot;:&quot;BTH Innovation Labs&quot;,&quot;url&quot;:&quot;https:\/\/bthinnovationlabs.com\/&quot;},{&quot;label&quot;:&quot;BTH Innovation office&quot;,&quot;url&quot;:&quot;https:\/\/www.bth.se\/english\/about-bth\/collaboration\/innovation-office&quot;},{&quot;label&quot;:&quot;Nyf\u00f6retagarcentrum&quot;,&quot;url&quot;:&quot;https:\/\/nyforetagarcentrum.se\/&quot;}]},{&quot;name&quot;:&quot;University of Architecture, Civil Engineering and Geodesy&quot;,&quot;city&quot;:&quot;Sofia (Bulgaria)&quot;,&quot;description&quot;:&quot;At UACEG, innovation is supported through the Research and Development Centre and the National Center for Seismic Engineering.&quot;,&quot;category&quot;:&quot;Innovation Ecosystems&quot;,&quot;latitude&quot;:42.739600393333,&quot;longitude&quot;:23.310437954956,&quot;region&quot;:{&quot;name&quot;:&quot;Sofia-Grad&quot;,&quot;regionId&quot;:&quot;BG-22&quot;,&quot;country&quot;:&quot;Bulgaria&quot;,&quot;countryIso&quot;:&quot;BG&quot;,&quot;mapfile&quot;:&quot;bulgariaLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;Research and Development Centre (R&amp;D Center)&quot;,&quot;url&quot;:&quot;https:\/\/uacg.bg\/page\/centar-za-naucni-izsledvania-i-proektirane&quot;},{&quot;label&quot;:&quot;National Center for Seismic Engineering (NCSE)&quot;,&quot;url&quot;:&quot;https:\/\/uceb.eu\/index.php\/2019-n-ncse\/&quot;}]},{&quot;name&quot;:&quot;University of Economics in Katowice&quot;,&quot;city&quot;:&quot;Katowice (Poland)&quot;,&quot;description&quot;:&quot;Innovation at UEKAT is fostered through research centres, innovation hubs, industrial parks, and regional transition observatories.&quot;,&quot;category&quot;:&quot;Innovation Ecosystems&quot;,&quot;latitude&quot;:50.25856,&quot;longitude&quot;:19.04517,&quot;region&quot;:{&quot;name&quot;:&quot;\u015al\u0105skie&quot;,&quot;regionId&quot;:&quot;PL-24&quot;,&quot;country&quot;:&quot;Poland&quot;,&quot;countryIso&quot;:&quot;PL&quot;,&quot;mapfile&quot;:&quot;polandLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;R&amp;D Centre&quot;,&quot;url&quot;:&quot;https:\/\/www.ue.katowice.pl\/jednostki\/centrum-badan-i-rozwoju\/dzial-badan-ekspertyz-i-konsultingu.html&quot;},{&quot;label&quot;:&quot;Rawa.Ink&quot;,&quot;url&quot;:&quot;https:\/\/rawaink.katowice.eu\/&quot;},{&quot;label&quot;:&quot;Euro-Centrum Science and Technology &amp; Industrial Park&quot;,&quot;url&quot;:&quot;http:\/\/www.euro-centrum.com.pl\/&quot;},{&quot;label&quot;:&quot;Katowice Special Economic Zone&quot;,&quot;url&quot;:&quot;https:\/\/www.ksse.pl\/&quot;},{&quot;label&quot;:&quot;Regional observatory of the transition process in Silesia (ROPT)&quot;,&quot;url&quot;:&quot;https:\/\/funduszeue.slaskie.pl\/web\/guest\/w\/regionalne_obserwatorium_procesu_transformacji_2_0_ropt_2_0&quot;},{&quot;label&quot;:&quot;Silesian Network of Regional Specialized Observatories&quot;,&quot;url&quot;:&quot;https:\/\/ris.slaskie.pl\/&quot;},{&quot;label&quot;:&quot;Centre for Economics of Climate Change&quot;,&quot;url&quot;:&quot;https:\/\/cecc.ue.katowice.pl\/&quot;}]},{&quot;name&quot;:&quot;University of Macedonia&quot;,&quot;city&quot;:&quot;Thessaloniki (Greece)&quot;,&quot;description&quot;:&quot;Innovation at UOM is fostered through university-based innovation and transfer units.&quot;,&quot;category&quot;:&quot;Innovation Ecosystems&quot;,&quot;latitude&quot;:40.62511058792,&quot;longitude&quot;:22.96010849702,&quot;region&quot;:{&quot;name&quot;:&quot;Central Macedonia&quot;,&quot;regionId&quot;:&quot;GR-B&quot;,&quot;country&quot;:&quot;Greece&quot;,&quot;countryIso&quot;:&quot;GR&quot;,&quot;mapfile&quot;:&quot;greeceLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;UOM Technology Transfer Office (TTO)&quot;,&quot;url&quot;:&quot;https:\/\/www.uom.gr\/en\/grafeio-metaforas-texnologias&quot;},{&quot;label&quot;:&quot;Innovation and Entrepreneurship Unit (MoKE)&quot;,&quot;url&quot;:&quot;https:\/\/www.entrepreneurship.uom.gr\/&quot;}]},{&quot;name&quot;:&quot;Polytechnic University of Castelo Branco&quot;,&quot;city&quot;:&quot;Castelo Branco (Portugal)&quot;,&quot;description&quot;:&quot;IPCB fosters innovation through internal administrative units, innovation hubs and regional innovation agencies.&quot;,&quot;category&quot;:&quot;Innovation Ecosystems&quot;,&quot;latitude&quot;:39.837240381305,&quot;longitude&quot;:-7.4974505596257,&quot;region&quot;:{&quot;name&quot;:&quot;Centro&quot;,&quot;regionId&quot;:&quot;PT-C&quot;,&quot;country&quot;:&quot;Portugal&quot;,&quot;countryIso&quot;:&quot;PT&quot;,&quot;mapfile&quot;:&quot;portugalRegionsLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;CEDER&quot;,&quot;url&quot;:&quot;https:\/\/www.ipcb.pt\/investigar-e-inovar\/inovacao\/transferencia-de-conhecimento\/&quot;},{&quot;label&quot;:&quot;Poliempreende&quot;,&quot;url&quot;:&quot;https:\/\/www.ipcb.pt\/investigar-e-inovar\/inovacao\/poliempreende\/&quot;},{&quot;label&quot;:&quot;CATAA&quot;,&quot;url&quot;:&quot;https:\/\/www.cataa.pt\/&quot;}]},{&quot;name&quot;:&quot;University of Bergamo&quot;,&quot;city&quot;:&quot;Bergamo (Italy)&quot;,&quot;description&quot;:&quot;Innovation at UNIBG is fostered through internal administrative units, foundations, Innovation hubs and research centers.&quot;,&quot;category&quot;:&quot;Innovation Ecosystems&quot;,&quot;latitude&quot;:45.689920391036,&quot;longitude&quot;:9.6610646368271,&quot;region&quot;:{&quot;name&quot;:&quot;Lombardia&quot;,&quot;regionId&quot;:&quot;IT-25&quot;,&quot;country&quot;:&quot;Italy&quot;,&quot;countryIso&quot;:&quot;IT&quot;,&quot;mapfile&quot;:&quot;italyLow&quot;},&quot;urls&quot;:[{&quot;label&quot;:&quot;Research and Transfer Office&quot;,&quot;url&quot;:&quot;https:\/\/en.unibg.it\/&quot;},{&quot;label&quot;:&quot;Fondazione U4I&quot;,&quot;url&quot;:&quot;https:\/\/u4i.it\/&quot;},{&quot;label&quot;:&quot;CREO - Competencies and Resources for Entrepreneurial Orientation&quot;,&quot;url&quot;:&quot;https:\/\/creo.unibg.it\/en\/home-en\/&quot;},{&quot;label&quot;:&quot;CESC - Center on economic, social, and cooperation dynamics&quot;,&quot;url&quot;:&quot;https:\/\/www.unibg.it\/ateneo\/organizzazione-e-struttura\/centri-ricerca-e-terza-missione&quot;},{&quot;label&quot;:&quot;CYFE - Center for Young and Family Enterprise&quot;,&quot;url&quot;:&quot;https:\/\/www.unibg.it\/ateneo\/organizzazione-e-struttura\/centri-ricerca-e-terza-missione&quot;},{&quot;label&quot;:&quot;HEYE - Centro Higher Education and Youth Employability&quot;,&quot;url&quot;:&quot;https:\/\/www.unibg.it\/ateneo\/organizzazione-e-struttura\/centri-ricerca-e-terza-missione&quot;},{&quot;label&quot;:&quot;CHL - Centre for Healthy Longevity&quot;,&quot;url&quot;:&quot;https:\/\/www.unibg.it\/ateneo\/organizzazione-e-struttura\/centri-ricerca-e-terza-missione&quot;},{&quot;label&quot;:&quot;CST - Lelio Pagani Regional Studies Center&quot;,&quot;url&quot;:&quot;https:\/\/www.unibg.it\/ateneo\/organizzazione-e-struttura\/centri-ricerca-e-terza-missione&quot;},{&quot;label&quot;:&quot;ITSM - Iccsai Transport and Sustainable Mobility Center&quot;,&quot;url&quot;:&quot;https:\/\/www.unibg.it\/ateneo\/organizzazione-e-struttura\/centri-ricerca-e-terza-missione&quot;}]}]" />
+
+<div class="interactive-map" aria-hidden="true">
+    <div class="filter-wrap">
+        <button
+            class="btn-filter toggle-filters"
+            type="button"
+            data-toggle="collapse"
+            data-target="#filters-collapse"
+            aria-expanded="false"
+            aria-controls="filters-collapse"
+        >
+            Filter for category:
+        </button>
+        <div class="selected-filter" id="selected-filter-display">
+            <span class="filter-value" id="selected-filter-value" tabindex="0">All</span>
+        </div>
+    </div>
+
+    <div class="collapse" id="filters-collapse">
+        <div id="filters"></div>
+    </div>
+    <div class="app-wrapper">
+        <div id="chartdiv"></div>
+
+        
+            <button
+                class="btn btn-cta show-list"
+                type="button"
+                data-toggle="collapse"
+                data-target="#map-location-list-wrap"
+                aria-expanded="false"
+                aria-controls="map-location-list-wrap"
+            >
+                List of Locations
+            </button>
+
+            
+
+<div id="map-location-list-wrap" class="collapse">
+    <div id="locationsAccordion" class="accordion location-list">
+        
+            <div class="panel panel-default">
+                <div id="heading0">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse0"
+                            aria-expanded="false"
+                            aria-controls="collapse0"
+                        >
+                            
+                                <span class="location-name">Bauhaus-Universität Weimar</span>
+                            
+
+                            
+                                <span class="location-city"> - Weimar (Germany)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse0"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading0"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Entrepreneurship support
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                Entrepreneurship at Bauhaus-Universität Weimar is supported by the startup hub neudeli and the state-wide StarTH network.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Weimar (Germany)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> Germany (DE)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Thuringia (DE-TH)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.uni-weimar.de/en/media/institutes/neudeli/">
+                                                Startup-hub Neudeli – University startup incubation hub
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://hochschul-gruendernetzwerk.de/">
+                                                StarTH – Thuringian university entrepreneurship network
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading1">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse1"
+                            aria-expanded="false"
+                            aria-controls="collapse1"
+                        >
+                            
+                                <span class="location-name">Blekinge Institute of Technology Karlskrona</span>
+                            
+
+                            
+                                <span class="location-city"> - Karlskrona (Sweden)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse1"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading1"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Universities
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                Blekinge Institute of Technology, BTH combines cutting-edge expertise in digitalisation and sustainability with a strong anchoring in the needs of society.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Karlskrona (Sweden)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> Sweden (SE)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Blekinge (SE-K)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.bth.se/english">
+                                                Website
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading2">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse2"
+                            aria-expanded="false"
+                            aria-controls="collapse2"
+                        >
+                            
+                                <span class="location-name">Polytechnic University of Castelo Branco</span>
+                            
+
+                            
+                                <span class="location-city"> - Castelo Branco (Portugal)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse2"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading2"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Universities
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                The Polytechnic University of Castelo Branco (IPCB) is a dynamic higher education institution offering practice-oriented academic programmes, actively engaged in research, international collaboration, and regional development through strong ties with the local community.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Castelo Branco (Portugal)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> Portugal (PT)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Centro (PT-C)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.ipcb.pt/">
+                                                Website
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading3">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse3"
+                            aria-expanded="false"
+                            aria-controls="collapse3"
+                        >
+                            
+                                <span class="location-name">University of Bergamo</span>
+                            
+
+                            
+                                <span class="location-city"> - Bergamo (Italy)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse3"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading3"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Universities
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                The University of Bergamo, located in northern Italy, is a city-based university with strong links to local institutions and the entrepreneurial ecosystem, offering a wide range of bachelor’s, master’s, doctoral, and double-degree programmes across economics and law, humanities, and engineering.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Bergamo (Italy)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> Italy (IT)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Lombardia (IT-25)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://en.unibg.it/">
+                                                Website
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading4">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse4"
+                            aria-expanded="false"
+                            aria-controls="collapse4"
+                        >
+                            
+                                <span class="location-name">Université de Picardie Jules Verne</span>
+                            
+
+                            
+                                <span class="location-city"> - Amiens (France)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse4"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading4"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Entrepreneurship support
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                UPJV supports student entrepreneurship through funding schemes, a regional innovation platform in Amiens, and the PÉPITE network.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Amiens (France)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> France (FR)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Hauts-de-France (FR-HDF)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.u-picardie.fr/entreprises-et-partenaires/accompagner-fondation-lupjv">
+                                                UPJV Foundation – Financial support to mainly student entrepreneurship&amp;innovation projects
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.innov-a.com/">
+                                                Innov&#039;a – Collaborative platform in Amiens that supports companies and startups in their innovative projects
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.pepitea2u.fr/">
+                                                PÉPITE A2U – A regional network designed to promote and support student entrepreneurship
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading5">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse5"
+                            aria-expanded="false"
+                            aria-controls="collapse5"
+                        >
+                            
+                                <span class="location-name">POLIS University</span>
+                            
+
+                            
+                                <span class="location-city"> - Tirana (Albania)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse5"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading5"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Universities
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                POLIS University is an interdisciplinary university with a strong focus on architecture, urban planning and design, civil engineering, environmental sciences, computer science and entrepreneurship.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Tirana (Albania)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> Albania (AL)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Tiranë (AL-11)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://universitetipolis.edu.al/en/">
+                                                Website
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading6">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse6"
+                            aria-expanded="false"
+                            aria-controls="collapse6"
+                        >
+                            
+                                <span class="location-name">University of Architecture, Civil Engineering and Geodesy</span>
+                            
+
+                            
+                                <span class="location-city"> - Sofia (Bulgaria)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse6"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading6"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Universities
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                Having pioneered technical education in Bulgaria, UACEG seamlessly blends deep-rooted traditions and a drive for innovation and technological advancement.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Sofia (Bulgaria)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> Bulgaria (BG)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Sofia-Grad (BG-22)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://uacg.bg/">
+                                                Website
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading7">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse7"
+                            aria-expanded="false"
+                            aria-controls="collapse7"
+                        >
+                            
+                                <span class="location-name">University of Economics in Katowice</span>
+                            
+
+                            
+                                <span class="location-city"> - Katowice (Poland)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse7"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading7"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Universities
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                The University of Economics in Katowice is a major public economic university offering programmes in socio-economic sciences across five faculties, including economics, finance, management, spatial economy, and informatics.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Katowice (Poland)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> Poland (PL)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Śląskie (PL-24)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.ue.katowice.pl/en.html">
+                                                Website
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading8">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse8"
+                            aria-expanded="false"
+                            aria-controls="collapse8"
+                        >
+                            
+                                <span class="location-name">University of Macedonia</span>
+                            
+
+                            
+                                <span class="location-city"> - Thessaloniki (Greece)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse8"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading8"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Universities
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                The University of Macedonia is a public university in Thessaloniki specialising in economic and social sciences, offering a wide range of degree programmes and maintaining strong links with public institutions, businesses, and the local community.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Thessaloniki (Greece)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> Greece (GR)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Central Macedonia (GR-B)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.uom.gr/">
+                                                Website
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading9">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse9"
+                            aria-expanded="false"
+                            aria-controls="collapse9"
+                        >
+                            
+                                <span class="location-name">Université Lumière Lyon 2</span>
+                            
+
+                            
+                                <span class="location-city"> - Lyon (France)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse9"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading9"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Universities
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                The Lumière Lyon 2 University focuses on a strong and rigorous vision of higher education and research, driven by a spirit and values that are also its hallmark: humanist, open and committed.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Lyon (France)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> France (FR)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Auvergne-Rhône-Alpes (FR-ARA)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://welcome.univ-lyon2.fr">
+                                                Website
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading10">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse10"
+                            aria-expanded="false"
+                            aria-controls="collapse10"
+                        >
+                            
+                                <span class="location-name">Kharkiv National University of Economics</span>
+                            
+
+                            
+                                <span class="location-city"> - Kharkiv (Ukraine)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse10"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading10"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Universities
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                Simon Kuznets Kharkiv National University of Economics is a public higher education institution specialising in economics, management, and information technologies, with a strong focus on applied research and socio-economic development.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Kharkiv (Ukraine)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> Ukraine (UA)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Kharkiv (UA-63)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://hneu.edu.ua/en">
+                                                Website
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading11">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse11"
+                            aria-expanded="false"
+                            aria-controls="collapse11"
+                        >
+                            
+                                <span class="location-name">Kharkiv School of Architecture</span>
+                            
+
+                            
+                                <span class="location-city"> - Lviv</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse11"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading11"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Universities
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                Kharkiv School of Architecture, currently located in Lviv, is an independent higher education institution dedicated to contemporary architectural education, focusing on critical thinking, interdisciplinary practice, and socially engaged design.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Lviv
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> Ukraine (UA)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Lviv (UA-46)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://kharkiv.school/en/about-khsa/">
+                                                Website
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading12">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse12"
+                            aria-expanded="false"
+                            aria-controls="collapse12"
+                        >
+                            
+                                <span class="location-name">Université de Picardie Jules Verne</span>
+                            
+
+                            
+                                <span class="location-city"> - Amiens (France)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse12"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading12"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Universities
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                The University of Picardie Jules Verne (UPJV) is a multidisciplinary public university with a strong regional presence, offering education and research across a wide range of fields and actively contributing to regional development through innovation- and research-driven initiatives.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Amiens (France)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> France (FR)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Hauts-de-France (FR-HDF)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.u-picardie.fr/en">
+                                                Website
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading13">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse13"
+                            aria-expanded="false"
+                            aria-controls="collapse13"
+                        >
+                            
+                                <span class="location-name">Bauhaus-Universität Weimar</span>
+                            
+
+                            
+                                <span class="location-city"> - Weimar (Germany)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse13"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading13"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Universities
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                Bauhaus-Universität Weimar is a public university with a distinctive, interdisciplinary profile spanning architecture, urbanism, engineering, art and design, and media, combining project-based education with a strong Bauhaus heritage to address contemporary societal challenges.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Weimar (Germany)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> Germany (DE)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Thuringia (DE-TH)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.uni-weimar.de/en/university/start/">
+                                                Website
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading14">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse14"
+                            aria-expanded="false"
+                            aria-controls="collapse14"
+                        >
+                            
+                                <span class="location-name">Université Lumière Lyon 2</span>
+                            
+
+                            
+                                <span class="location-city"> - Lyon (France)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse14"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading14"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Entrepreneurship support
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                At ULL2, student entrepreneurship is supported through the Lumière Incubator, CELSE (Lyon Saint-Étienne Entrepreneurship Center), and I-Factory, offering structured pathways from idea development and incubation to startup creation and regional collaboration.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Lyon (France)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> France (FR)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Auvergne-Rhône-Alpes (FR-ARA)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.univ-lyon2.fr/formation/entrepreneuriat">
+                                                Lumière Incubator – Incubator/Accelerator
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://centre-entrepreneuriat.universite-lyon.fr/">
+                                                CELSE (Lyon Saint-Étienne Entrepreneurship Center) – Incubator/Accelerator
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://ifactory.universite-lyon.fr/">
+                                                I-Factory – Innovation Hub
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading15">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse15"
+                            aria-expanded="false"
+                            aria-controls="collapse15"
+                        >
+                            
+                                <span class="location-name">POLIS University</span>
+                            
+
+                            
+                                <span class="location-city"> - Tirana (Albania)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse15"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading15"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Entrepreneurship support
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                At POLIS University, student entrepreneurship is supported through Tirana Inc., S.E.A.M., Circular City Labs, and the Innovation Factory, linking academic projects with the local innovation ecosystem.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Tirana (Albania)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> Albania (AL)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Tiranë (AL-11)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://tirana-inc.al/">
+                                                Tirana Inc.
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://euforinnovation.al/s-e-a-m-incubation-insights/">
+                                                S.E.A.M
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://ccl-tirana.al/home">
+                                                Circular City Labs
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://universitetipolis.edu.al/en/innovation-factory/">
+                                                Innovation Factory
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading16">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse16"
+                            aria-expanded="false"
+                            aria-controls="collapse16"
+                        >
+                            
+                                <span class="location-name">Blekinge Institute of Technology Karlskrona</span>
+                            
+
+                            
+                                <span class="location-city"> - Karlskrona (Sweden)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse16"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading16"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Entrepreneurship support
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                BTH supports entrepreneurship through the Blekinge Business Incubator, BTH Innovation Labs, the Virtual Production Studio Lab, the BTH Innovation Office, and Nyföretagarcentrum.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Karlskrona (Sweden)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> Sweden (SE)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Blekinge (SE-K)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://b-b-i.se/">
+                                                Blekinge Business Incubator
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.bth.se/english/student/our-labs/virtual-production-studio-lab">
+                                                Virtual Production Studio Lab
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://bthinnovationlabs.com/">
+                                                BTH Innovation Labs
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.bth.se/english/about-bth/collaboration/innovation-office">
+                                                BTH Innovation office
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://nyforetagarcentrum.se/">
+                                                Nyföretagarcentrum
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading17">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse17"
+                            aria-expanded="false"
+                            aria-controls="collapse17"
+                        >
+                            
+                                <span class="location-name">University of Architecture, Civil Engineering and Geodesy</span>
+                            
+
+                            
+                                <span class="location-city"> - Sofia (Bulgaria)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse17"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading17"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Entrepreneurship support
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                UACEG currently does not have dedicated structures or programs for entrepreneurship.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Sofia (Bulgaria)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> Bulgaria (BG)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Sofia-Grad (BG-22)
+                            </div>
+                        
+
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading18">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse18"
+                            aria-expanded="false"
+                            aria-controls="collapse18"
+                        >
+                            
+                                <span class="location-name">University of Economics in Katowice</span>
+                            
+
+                            
+                                <span class="location-city"> - Katowice (Poland)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse18"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading18"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Entrepreneurship support
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                Entrepreneurship at UEKAT is supported through research centres, innovation hubs, industrial parks, and regional transition observatories.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Katowice (Poland)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> Poland (PL)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Śląskie (PL-24)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.ue.katowice.pl/jednostki/centrum-badan-i-rozwoju/dzial-badan-ekspertyz-i-konsultingu.html">
+                                                R&amp;D Centre
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://rawaink.katowice.eu/">
+                                                Rawa.Ink
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="http://www.euro-centrum.com.pl/">
+                                                Euro-Centrum Science and Technology &amp; Industrial Park
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.ksse.pl/">
+                                                Katowice Special Economic Zone
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://funduszeue.slaskie.pl/web/guest/w/regionalne_obserwatorium_procesu_transformacji_2_0_ropt_2_0">
+                                                Regional observatory of the transition process in Silesia (ROPT)
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://ris.slaskie.pl/">
+                                                Silesian Network of Regional Specialized Observatories
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://cecc.ue.katowice.pl/">
+                                                Centre for Economics of Climate Change
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading19">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse19"
+                            aria-expanded="false"
+                            aria-controls="collapse19"
+                        >
+                            
+                                <span class="location-name">University of Macedonia</span>
+                            
+
+                            
+                                <span class="location-city"> - Thessaloniki (Greece)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse19"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading19"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Entrepreneurship support
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                Entrepreneurship at UOM is supported through university-based transfer and incubation structures and regional innovation networks.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Thessaloniki (Greece)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> Greece (GR)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Central Macedonia (GR-B)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.uom.gr/en/grafeio-metaforas-texnologias">
+                                                UOM Technology Transfer Office (TTO)
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.entrepreneurship.uom.gr/">
+                                                UOM Pre-incubator
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.entrepreneurship.uom.gr/">
+                                                Innovation and Entrepreneurship Unit (MoKE)
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://teenbusinessschool.uom.gr/">
+                                                Teen Business School
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.uom.gr/en/bso/entrepreneurship-lab">
+                                                Entrepreneurship Lab
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading20">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse20"
+                            aria-expanded="false"
+                            aria-controls="collapse20"
+                        >
+                            
+                                <span class="location-name">Polytechnic University of Castelo Branco</span>
+                            
+
+                            
+                                <span class="location-city"> - Castelo Branco (Portugal)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse20"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading20"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Entrepreneurship support
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                IPCB supports entrepreneurship through a network of incubators, applied research centres, and regional clusters.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Castelo Branco (Portugal)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> Portugal (PT)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Centro (PT-C)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.ipcb.pt/investigar-e-inovar/inovacao/transferencia-de-conhecimento/">
+                                                CEDER
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.ipcb.pt/investigar-e-inovar/inovacao/incubadora-de-empresas/">
+                                                StartUp.CB
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.ipcb.pt/investigar-e-inovar/inovacao/poliempreende/">
+                                                Poliempreende
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.cataa.pt/">
+                                                CATAA
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading21">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse21"
+                            aria-expanded="false"
+                            aria-controls="collapse21"
+                        >
+                            
+                                <span class="location-name">University of Bergamo</span>
+                            
+
+                            
+                                <span class="location-city"> - Bergamo (Italy)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse21"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading21"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Entrepreneurship support
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                Entrepreneurship at UNIBG is supported through university-based transfer structures, research centres, and strong partnerships with regional business incubators and foundations.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Bergamo (Italy)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> Italy (IT)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Lombardia (IT-25)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://en.unibg.it/">
+                                                Research and Transfer Office
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://u4i.it/">
+                                                Fondazione U4I
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://creo.unibg.it/en/home-en/">
+                                                CREO - Competencies and Resources for Entrepreneurial Orientation
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.unibg.it/ateneo/organizzazione-e-struttura/centri-ricerca-e-terza-missione">
+                                                CESC - Center on economic, social, and cooperation dynamics
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.unibg.it/ateneo/organizzazione-e-struttura/centri-ricerca-e-terza-missione">
+                                                CYFE - Center for Young and Family Enterprise
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.unibg.it/ateneo/organizzazione-e-struttura/centri-ricerca-e-terza-missione">
+                                                HEYE - Centro Higher Education and Youth Employability
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading22">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse22"
+                            aria-expanded="false"
+                            aria-controls="collapse22"
+                        >
+                            
+                                <span class="location-name">Bauhaus-Universität Weimar</span>
+                            
+
+                            
+                                <span class="location-city"> - Weimar (Germany)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse22"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading22"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Innovation Ecosystems
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                Bauhaus-Universität Weimar’s innovation ecosystem is driven by the Research and Transfer Office, the startup hub neudeli, the Bauhaus Mobility Hub (EDIH Thuringia) and the International Heritage Centre.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Weimar (Germany)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> Germany (DE)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Thuringia (DE-TH)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.uni-weimar.de/en/media/institutes/neudeli/">
+                                                Startup-hub Neudeli – University startup incubation hub
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.uni-weimar.de/en/university/research-and-art/forschungsservice/">
+                                                Bauhaus-Uni Research and Transfer Office
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://european-digital-innovation-hubs.ec.europa.eu/edih-catalogue/edih-thuringia">
+                                                Bauhaus Mobility Hub – Regional digital innovation hub EDIH Thuringia
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.uni-weimar.de/en/university/structure/scientific-facilities/ihz/">
+                                                International Heritage Centre
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading23">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse23"
+                            aria-expanded="false"
+                            aria-controls="collapse23"
+                        >
+                            
+                                <span class="location-name">Université de Picardie Jules Verne</span>
+                            
+
+                            
+                                <span class="location-city"> - Amiens (France)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse23"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading23"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Innovation Ecosystems
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                UPJV supports innovation through targeted funding for student projects, SATT Nord, the PÉPITE network, and regional platforms and agencies fostering entrepreneurship and technology transfer.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Amiens (France)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> France (FR)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Hauts-de-France (FR-HDF)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.u-picardie.fr/entreprises-et-partenaires/accompagner-fondation-lupjv">
+                                                UPJV Foundation – Financial support to mainly student entrepreneurship&amp;innovation projects
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.innov-a.com/">
+                                                Innov&#039;a – Collaborative platform in Amiens that supports companies and startups in their innovative projects
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.pepitea2u.fr/">
+                                                PÉPITE A2U – A regional network designed to promote and support student entrepreneurship
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://sattnord.fr/">
+                                                SATT Nord – Public research technology transfer accelerator
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.hautsdefrance-id.fr/">
+                                                Hauts-de-France Innovation Développement – Regional innovation and economic development agency
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading24">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse24"
+                            aria-expanded="false"
+                            aria-controls="collapse24"
+                        >
+                            
+                                <span class="location-name">Université Lumière Lyon 2</span>
+                            
+
+                            
+                                <span class="location-city"> - Lyon (France)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse24"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading24"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Innovation Ecosystems
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                At ULL2, innovation is fostered through the University Foundation, the Science Shop, and the Musée des Moulages, connecting research, society and culture.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Lyon (France)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> France (FR)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Auvergne-Rhône-Alpes (FR-ARA)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://fondation.univ-lyon2.fr/">
+                                                Université Lumière Lyon 2 Foundation
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.univ-lyon2.fr/sciences-et-societe/mumo">
+                                                Musée des moulages (Museum of castings)
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.univ-lyon2.fr/sciences-et-societe/boutique-des-sciences">
+                                                Boutique des Sciences (Science Shop)
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading25">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse25"
+                            aria-expanded="false"
+                            aria-controls="collapse25"
+                        >
+                            
+                                <span class="location-name">POLIS University</span>
+                            
+
+                            
+                                <span class="location-city"> - Tirana (Albania)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse25"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading25"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Innovation Ecosystems
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                At POLIS University, innovation is fostered by Tirana Inc., the Innovation Factory, and the Observatory of the Mediterranean Basin, bridging academic research and the local innovation ecosystem.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Tirana (Albania)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> Albania (AL)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Tiranë (AL-11)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://tirana-inc.al/">
+                                                Tirana Inc.
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://universitetipolis.edu.al/innovation-factory/">
+                                                Research Unit – Observatory of Mediterranean Basin
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://universitetipolis.edu.al/en/innovation-factory/">
+                                                Innovation Factory
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading26">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse26"
+                            aria-expanded="false"
+                            aria-controls="collapse26"
+                        >
+                            
+                                <span class="location-name">Blekinge Institute of Technology Karlskrona</span>
+                            
+
+                            
+                                <span class="location-city"> - Karlskrona (Sweden)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse26"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading26"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Innovation Ecosystems
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                At BTH innovation is fostered through the Blekinge Business Incubator, BTH Innovation Labs, the Virtual Production Studio Lab, the BTH Innovation Office, and the Nyföretagarcentrum.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Karlskrona (Sweden)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> Sweden (SE)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Blekinge (SE-K)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://b-b-i.se/">
+                                                Blekinge Business Incubator
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.bth.se/english/student/our-labs/virtual-production-studio-lab">
+                                                Virtual Production Studio Lab
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://bthinnovationlabs.com/">
+                                                BTH Innovation Labs
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.bth.se/english/about-bth/collaboration/innovation-office">
+                                                BTH Innovation office
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://nyforetagarcentrum.se/">
+                                                Nyföretagarcentrum
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading27">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse27"
+                            aria-expanded="false"
+                            aria-controls="collapse27"
+                        >
+                            
+                                <span class="location-name">University of Architecture, Civil Engineering and Geodesy</span>
+                            
+
+                            
+                                <span class="location-city"> - Sofia (Bulgaria)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse27"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading27"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Innovation Ecosystems
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                At UACEG, innovation is supported through the Research and Development Centre and the National Center for Seismic Engineering.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Sofia (Bulgaria)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> Bulgaria (BG)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Sofia-Grad (BG-22)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://uacg.bg/page/centar-za-naucni-izsledvania-i-proektirane">
+                                                Research and Development Centre (R&amp;D Center)
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://uceb.eu/index.php/2019-n-ncse/">
+                                                National Center for Seismic Engineering (NCSE)
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading28">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse28"
+                            aria-expanded="false"
+                            aria-controls="collapse28"
+                        >
+                            
+                                <span class="location-name">University of Economics in Katowice</span>
+                            
+
+                            
+                                <span class="location-city"> - Katowice (Poland)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse28"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading28"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Innovation Ecosystems
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                Innovation at UEKAT is fostered through research centres, innovation hubs, industrial parks, and regional transition observatories.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Katowice (Poland)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> Poland (PL)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Śląskie (PL-24)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.ue.katowice.pl/jednostki/centrum-badan-i-rozwoju/dzial-badan-ekspertyz-i-konsultingu.html">
+                                                R&amp;D Centre
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://rawaink.katowice.eu/">
+                                                Rawa.Ink
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="http://www.euro-centrum.com.pl/">
+                                                Euro-Centrum Science and Technology &amp; Industrial Park
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.ksse.pl/">
+                                                Katowice Special Economic Zone
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://funduszeue.slaskie.pl/web/guest/w/regionalne_obserwatorium_procesu_transformacji_2_0_ropt_2_0">
+                                                Regional observatory of the transition process in Silesia (ROPT)
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://ris.slaskie.pl/">
+                                                Silesian Network of Regional Specialized Observatories
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://cecc.ue.katowice.pl/">
+                                                Centre for Economics of Climate Change
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading29">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse29"
+                            aria-expanded="false"
+                            aria-controls="collapse29"
+                        >
+                            
+                                <span class="location-name">University of Macedonia</span>
+                            
+
+                            
+                                <span class="location-city"> - Thessaloniki (Greece)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse29"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading29"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Innovation Ecosystems
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                Innovation at UOM is fostered through university-based innovation and transfer units.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Thessaloniki (Greece)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> Greece (GR)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Central Macedonia (GR-B)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.uom.gr/en/grafeio-metaforas-texnologias">
+                                                UOM Technology Transfer Office (TTO)
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.entrepreneurship.uom.gr/">
+                                                Innovation and Entrepreneurship Unit (MoKE)
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading30">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse30"
+                            aria-expanded="false"
+                            aria-controls="collapse30"
+                        >
+                            
+                                <span class="location-name">Polytechnic University of Castelo Branco</span>
+                            
+
+                            
+                                <span class="location-city"> - Castelo Branco (Portugal)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse30"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading30"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Innovation Ecosystems
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                IPCB fosters innovation through internal administrative units, innovation hubs and regional innovation agencies.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Castelo Branco (Portugal)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> Portugal (PT)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Centro (PT-C)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.ipcb.pt/investigar-e-inovar/inovacao/transferencia-de-conhecimento/">
+                                                CEDER
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.ipcb.pt/investigar-e-inovar/inovacao/poliempreende/">
+                                                Poliempreende
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.cataa.pt/">
+                                                CATAA
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="panel panel-default">
+                <div id="heading31">
+                    <div class="panel-heading">
+                        <button
+                            class="accordion-toggle"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapse31"
+                            aria-expanded="false"
+                            aria-controls="collapse31"
+                        >
+                            
+                                <span class="location-name">University of Bergamo</span>
+                            
+
+                            
+                                <span class="location-city"> - Bergamo (Italy)</span>
+                            
+
+                            <span class="fa fa-angle-down" style="float: right;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    id="collapse31"
+                    class="panel-collapse panel-body collapse"
+                    aria-labelledby="heading31"
+                    data-parent="#locationsAccordion"
+                >
+                    <div class="panel-inner">
+                        
+                            <div class="location-category">
+                                <strong>Category:</strong>
+                                Innovation Ecosystems
+                            </div>
+                        
+
+                        
+                            <div class="location-description">
+                                Innovation at UNIBG is fostered through internal administrative units, foundations, Innovation hubs and research centers.
+                            </div>
+                        
+
+                        
+                            <div class="location-city">
+                                <strong>City:</strong> Bergamo (Italy)
+                            </div>
+                        
+
+                        
+                            <div class="location-country">
+                                <strong>Country:</strong> Italy (IT)
+                            </div>
+                        
+
+                        
+                            <div class="location-region">
+                                <strong>Region:</strong> Lombardia (IT-25)
+                            </div>
+                        
+
+                        
+                            <div class="location-urls">
+                                <strong>Links:</strong>
+                                <ul>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://en.unibg.it/">
+                                                Research and Transfer Office
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://u4i.it/">
+                                                Fondazione U4I
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://creo.unibg.it/en/home-en/">
+                                                CREO - Competencies and Resources for Entrepreneurial Orientation
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.unibg.it/ateneo/organizzazione-e-struttura/centri-ricerca-e-terza-missione">
+                                                CESC - Center on economic, social, and cooperation dynamics
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.unibg.it/ateneo/organizzazione-e-struttura/centri-ricerca-e-terza-missione">
+                                                CYFE - Center for Young and Family Enterprise
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.unibg.it/ateneo/organizzazione-e-struttura/centri-ricerca-e-terza-missione">
+                                                HEYE - Centro Higher Education and Youth Employability
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.unibg.it/ateneo/organizzazione-e-struttura/centri-ricerca-e-terza-missione">
+                                                CHL - Centre for Healthy Longevity
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.unibg.it/ateneo/organizzazione-e-struttura/centri-ricerca-e-terza-missione">
+                                                CST - Lelio Pagani Regional Studies Center
+                                            </a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a target="_blank" href="https://www.unibg.it/ateneo/organizzazione-e-struttura/centri-ricerca-e-terza-missione">
+                                                ITSM - Iccsai Transport and Sustainable Mobility Center
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+</div>
+
+
+
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+</div></div></div></div></main><!-- FOOTER --><footer class="footer" id="footer"><div class="row"><div class="container"><div class="row"><div class="col-md-8 col-sm-12"><ul class="footermenu"><li><a href="/contact/" title="Contact">Contact</a></li><li><a href="/privacy-policy/" title="Privacy Policy">Privacy Policy</a></li><li><a href="/disclaimer/" title="Disclaimer">Disclaimer</a></li><li><a href="/legal-notice/" title="Legal Notice">Legal Notice</a></li><li><a href="/download-area/" title="Download Area">Download Area</a></li></ul></div><div class="col-md-4 col-sm-12"><div class="socialmedia"><a href="https://www.instagram.com/bauhaus4eu/" class="icon icon-instagram" title="Instagram" target="_blank">&nbsp;</a><a href="https://www.linkedin.com/company/bauhaus4eu/" class="icon icon-linkedin" title="LinkedIn" target="_blank">&nbsp;</a></div></div></div></div></div></footer><div class="cofundedbytheeu"><div class="container"><div class="cofundedbytheeu-logo"><img src="/typo3conf/ext/site_package_bauhausmodule/Resources/Public/Images/Co-fundedbytheEU.svg" width="4119" height="919"   alt="Co-founded by the European Union" ></div><div class="cofundedbytheeu-text"><p>The project has received funding from the European Union’s European Universities Initiative<br>
+  “Funded by the European Union. Views and opinions expressed are however those of the
+  author(s) only and do not necessarily reflect those of the European Union or the European
+  Education and Culture Executive Agency (EACEA). Neither the European Union nor the granting
+  authority can be held responsible for them.“</p></div></div></div>
+<script src="/typo3conf/ext/site_package_bauhausmodule/Resources/Public/JavaScript/jquery.min.js?1765983706"></script>
+<script src="/typo3conf/ext/site_package_bauhausmodule/Resources/Public/Vendor/bootstrap/js/bootstrap.min.js?1765983706"></script>
+<script src="/typo3conf/ext/site_package_bauhausmodule/Resources/Public/Vendor/mixitup/dist/mixitup.js?1765983706"></script>
+<script src="/typo3conf/ext/site_package_bauhausmodule/Resources/Public/Vendor/mixitup/dist/mixitup-multifilter.min.js?1765983706"></script>
+<script src="/typo3conf/ext/site_package_bauhausmodule/Resources/Public/Vendor/fancybox/js/jquery.fancybox.min.js?1765983706"></script>
+<script src="/typo3conf/ext/site_package_bauhausmodule/Resources/Public/Vendor/swiper/js/swiper.min.js?1765983706"></script>
+
+<script src="/typo3conf/ext/site_package_bauhausmodule/Resources/Public/JavaScript/script.js?1765983706"></script>
+<script defer="defer" src="/typo3conf/ext/map/Resources/Public/JavaScript/Map.js?1765987023"></script>
+<script defer="defer" src="/typo3conf/ext/map/Resources/Public/JavaScript/Vendor/AmCharts/amcharts5/geodata/CountryZones/Europe/germanyLow.js?1765982554"></script>
+<script defer="defer" src="/typo3conf/ext/map/Resources/Public/JavaScript/Vendor/AmCharts/amcharts5/geodata/CountryZones/Europe/swedenLow.js?1765982554"></script>
+<script defer="defer" src="/typo3conf/ext/map/Resources/Public/JavaScript/Vendor/AmCharts/amcharts5/geodata/CountryZones/Europe/portugalRegionsLow.js?1765982554"></script>
+<script defer="defer" src="/typo3conf/ext/map/Resources/Public/JavaScript/Vendor/AmCharts/amcharts5/geodata/CountryZones/Europe/italyLow.js?1765982554"></script>
+<script defer="defer" src="/typo3conf/ext/map/Resources/Public/JavaScript/Vendor/AmCharts/amcharts5/geodata/CountryZones/Europe/franceLow.js?1765982554"></script>
+<script defer="defer" src="/typo3conf/ext/map/Resources/Public/JavaScript/Vendor/AmCharts/amcharts5/geodata/CountryZones/Europe/albaniaLow.js?1765982554"></script>
+<script defer="defer" src="/typo3conf/ext/map/Resources/Public/JavaScript/Vendor/AmCharts/amcharts5/geodata/CountryZones/Europe/bulgariaLow.js?1765982554"></script>
+<script defer="defer" src="/typo3conf/ext/map/Resources/Public/JavaScript/Vendor/AmCharts/amcharts5/geodata/CountryZones/Europe/polandLow.js?1765982554"></script>
+<script defer="defer" src="/typo3conf/ext/map/Resources/Public/JavaScript/Vendor/AmCharts/amcharts5/geodata/CountryZones/Europe/greeceLow.js?1765982554"></script>
+<script defer="defer" src="/typo3conf/ext/map/Resources/Public/JavaScript/Vendor/AmCharts/amcharts5/geodata/CountryZones/Europe/ukraineLow.js?1765982554"></script>
+
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["disableCookies"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://matomo.uni-weimar.de/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '60']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img referrerpolicy="no-referrer-when-downgrade" src="https://matomo.uni-weimar.de/matomo.php?idsite=60&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->
+
+</body>
+</html>

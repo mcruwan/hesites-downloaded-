@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs" xmlns:fb="http://ogp.me/ns/fb#"> 
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-language" content="cs" />        
+        <meta name="Copyright" content="SusCooks" />
+        <meta name="Author" content="SusCooks (www.suscooks.eu)" />
+        <meta name="robots" content="index, all" />
+        <meta name="Keywords" content="slow food,jídlo,potraviny,gastronomie,strava,ekologie,carlo petrini,biodiverzita,jídlo z blizka,konvivium,terra madre" />
+        <meta name="Description" content="Věříme, že být světovými znamená jíst místní potraviny. Umět si je vychutnat. Pozvat ke stolu rodinu a přátele. A nikam od něj nespěchat." />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        
+        <script type="text/javascript" src="/assets/aea171/jquery.min.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+<title>SusCooks - Training for sustainable cooking</title>
+        
+        <link rel="stylesheet" type="text/css" media="screen,projection" href="/css/main.css?ver=2" />
+        <link rel="stylesheet" media="print" type="text/css" href="/css/print.css" />
+        
+        <script type="text/javascript" src="//use.typekit.net/scu1buz.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    </head>
+
+    <body>
+    
+        <style>
+    #cookies { position: fixed; bottom: 0; width: 100%; background-color: #efefef; text-align: center; z-index: 10000; }
+    .cookies_text_wrap { width: 100%; }
+    .cookies_text { display: none; width: 800px; margin: 0 auto; padding: 10px 20px; background-color: #efefef; }
+    .cookies_info {  }
+    .cookies_less { display: none; }
+    .cookies_close { margin: 10px; }
+</style>
+
+<div id='cookies'>
+    <div class="cookies_text_wrap">
+        <div class='cookies_text'><h3>What are cookies?</h3><p>A cookie is a small text file that a website saves on your computer or mobile device when you visit the site. It enables the website to remember your actions and preferences (such as login, language, font size and other display preferences) over a period of time, so you don’t have to keep re-entering them whenever you come back to the site or browse from one page to another. </p></div>
+    </div>
+    <div class='cookies_info'>
+        <span>This site uses cookies to offer better browsing experience.</span> 
+        <a href='' class="cookies_more">More info</a>
+        <a href='' class="cookies_less">Less info</a>
+        <button class='cookies_close btn btn-info'>I agree</button>
+        
+    </div>
+</div>        
+        <div class="container">
+            <!-- Header -->
+            <div id="header">
+                <a href="/" id="logo"><img src="/images/header/logo_landscape.png" alt="SusCooks logo" /></a>
+                <div id="topmenu">
+                    <ul class="level1"><li><a class="first selected" href="/" ><span>Home</span></a></li><li><a  href="/project" ><span>Project</span></a><ul class="level2"><li><a class="first" href="/project-description" ><span>Project description</span></a></li><li><a  href="/e-learning-course" ><span>E-learning course</span></a></li></ul></li><li><a  href="/partners" ><span>Partners</span></a></li><li><a  href="/aktuality" ><span>News</span></a></li></ul>                    <span class="clear"></span>
+                </div>
+            </div>
+            <!-- Content -->
+            <div id="content">
+                <div id="slider">
+    <img src="/images/cooks.png" alt="cooks" width="960" />
+</div>
+<div id="about">
+    <h1>Cooks Can Change the World</h1>
+    <p>
+        SusCooks project – Development and transfer of training courses and materials for sustainability in professional cooking. 
+    </p>
+    <p>
+        Comprehensive E-learning course “<span class="bold">SusCooks</span>” for professional cooks and managers in catering/gastronomy sector, containing five modules: <span class="bold">Introduction</span>, <span class="bold">Procuring</span>, <span class="bold">Planning</span>, <span class="bold">Preparing</span> and <span class="bold">Promoting</span>.
+    </p>
+</div>
+<div id="video">
+    <iframe width="920" height="518" src="https://www.youtube.com/embed/hBZNqzOBcOM" frameborder="0" allowfullscreen></iframe>
+</div>
+<div id="moodle">
+    <h1>Moodle Courses</h1>
+    <p>Click on the flags below to redirect to Moodle !</p>
+    <div id="flags">
+        <div class="flag" id="CZ">
+            <a href="http://moodle.suscooks.eu/cz" target="_blank"><img src="images/flags/CZ.png" alt="CZ" /></a>
+            <a href="http://moodle.suscooks.eu/cz" target="_blank">Czech Republic</a>
+        </div>
+        <div class="flag" id="DE">
+            <a href="http://moodle.suscooks.eu/de" target="_blank"><img src="images/flags/DE.png" alt="DE" /></a>
+            <a href="http://moodle.suscooks.eu/de" target="_blank">Germany</a>
+        </div>
+        <div class="flag" id="AT">
+            <a href="http://moodle.suscooks.eu/at" target="_blank"><img src="images/flags/AT.png" alt="AT" /></a>
+            <a href="http://moodle.suscooks.eu/at" target="_blank">Austria</a>
+        </div>
+        <div class="flag" id="UK">
+            <a href="http://moodle.suscooks.eu/uk" target="_blank"><img src="images/flags/UK.png" alt="UK" /></a>
+            <a href="http://moodle.suscooks.eu/uk" target="_blank">United Kingdom</a>
+        </div>
+        <div class="flag" id="IT">
+            <a href="http://liberaformazione.it/moodle/" target="_blank"><img src="images/flags/IT.png" alt="IT" /></a>
+            <a href="http://liberaformazione.it/moodle/" target="_blank">Italy</a>
+        </div>
+        <div class="flag" id="BG">
+            <a href="http://moodle.suscooks.eu/bg" target="_blank"><img src="images/flags/BG.png" alt="BG" /></a>
+            <a href="http://moodle.suscooks.eu/bg" target="_blank">Bulgaria</a>
+        </div>
+        <div class="flag last" id="SI">
+            <a href="http://moodle.suscooks.eu/si" target="_blank"><img src="images/flags/SI.png" alt="SI" /></a>
+            <a href="http://moodle.suscooks.eu/si" target="_blank">Slovenia</a> 
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div id="article_home">
+    <h1>News</h1>
+    <ul>
+                        <li class=" ">
+
+            <div class="date">
+                                <span class="day">23</span>
+                <span class="month">Oct</span>
+                <span class="year">2014</span>
+            </div>
+            <div class="text">
+                <h3><a href="/aktuality/project-meeting-in-the-bulgarian-city-of-plovdiv">Project meeting in the Bulgarian city of Plovdiv</a></h3>
+                <p>From 8th to 10th of October UARD hosted the fourth partner meeting of the SusCooks project. </p>
+            </div>
+            <span class="clear"></span>
+        </li>
+                            <li class="normal last">
+
+            <div class="date">
+                                <span class="day">26</span>
+                <span class="month">Jun</span>
+                <span class="year">2014</span>
+            </div>
+            <div class="text">
+                <h3><a href="/aktuality/third-project-meeting-in-bristol">Third project meeting in Bristol</a></h3>
+                <p>The third partner meeting, hosted by the Soil Association, took place in the vibrant Bristol which has gained national and international recognition for being one of the greenest cities in the UK.</p>
+            </div>
+            <span class="clear"></span>
+        </li>
+                    <span class="clear"></span>    
+</ul>
+    <div class="clear"></div>
+</div>                <span class="clear"></span>
+            </div>
+            <!-- Footer -->
+            <div id="footer">           
+                <span>All rights reserved &copy; 2026 SusCooks
+                <br /><a href="/mapa-webu">Site map</a> | <a href="partners">Partners</a></span>
+                <p class="conditions">The European Commission support for the production of this publication does not constitute endorsement of the contents which reflects the views only of the authors, and the Commission cannot be held responsi­ble for any use which may be made of the information contained therein.</p>
+                <img src="/images/EU.png" alt="EU" />
+                <span class="clear"></span>
+            </div>
+        </div>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-53164050-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+
+    <script type="text/javascript" src="/assets/6f399e2b/jquery.cookie.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+            var more = $('#cookies .cookies_more');
+            var less = $('#cookies .cookies_less');
+            var text_wrap = $('#cookies .cookies_text_wrap');
+            var text = $('#cookies .cookies_text');
+            
+            more.click(function() {
+                height = text.outerHeight();
+                text_wrap.css('height', 0);
+                text_wrap.animate({ height: height }, 450, function() {
+                    text.fadeIn(450)
+                });
+                more.fadeOut(450, function() {
+                    less.fadeIn(450);
+                });
+                
+                
+                return false;
+            });
+            
+            less.click(function() {
+                less.fadeOut(450, function() {
+                    more.fadeIn(450);
+                });
+                text.fadeOut(450, function() {
+                    text_wrap.animate({ height: 0 }, 450);
+                });
+                
+                return false;
+            });           
+
+            $('#cookies .cookies_close').click(function() {
+                $('#cookies').animate({height: '0'}, 600, function() {
+                    $(this).hide();
+                });
+                $.cookie('cookiesAgree', 1, { expires: 7*365, path : '/' });
+            });
+        
+/*]]>*/
+</script>
+</body>
+</html>

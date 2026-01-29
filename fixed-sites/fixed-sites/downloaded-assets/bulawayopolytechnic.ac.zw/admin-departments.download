@@ -1,0 +1,1820 @@
+	<!DOCTYPE html>
+	<html lang="en-US">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="profile" href="https://gmpg.org/xfn/11">
+		<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>Bulawayo Polytechnic</title>
+	<style type="text/css">
+	label[for="password"], .password-input, .lost_password{
+	display:none !important;
+	}
+	</style>
+	<link rel="alternate" type="application/rss+xml" title=" &raquo; Feed" href="https://bulawayopolytechnic.ac.zw/feed/" />
+<script async src='https://www.googletagmanager.com/gtag/js?id=UA-88240123-39'></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-88240123-39');
+	</script>
+	<meta name="author" content="Bulawayo Polytechnic" /><meta name="contact" content="admin@bulawayopolytechnic.ac.zw" /><meta name="copyright" content="© 2022 Bulawayo Polytechnic | All rights reserved | site by Platinumitglobal " /><meta name="description" content="Bulawayo Polytechnic is an academic institution established in 1927 in Bulawayo, Zimbabwe; initially as a technical school. The current main campus on Park Road in Suburbs was built in 1942. The Division of Art &amp; Design is based at a campus on George Silundika Street in the central business district. This campus also offers training for artisans in bricklaying, plumbing, carpentry, joinery, and wood machining. (The polytechnic is sometimes wrongfully called Bulawayo Polytechnic College instead of Bulawayo Polytechnic.)" /><meta name="keywords" content="Bulawayo Polytechnic,Bulawayo Poly,Byo Poly,Bulawayo Polytechnic College,Universities in Zimbabwe,Higher & Tertiary Education in Zimbabwe,Ministry of Higher & Tertiary Education of Zimbabwe,Vocational training college,Nust,UZ,MSU,Zimbabwe School of Mines,Harare Polytechnic" /><script>
+var pagelayer_ajaxurl = "https://bulawayopolytechnic.ac.zw/site-admin/admin-ajax.php?";
+var pagelayer_global_nonce = "c4f9598a06";
+var pagelayer_server_time = 1769646631;
+var pagelayer_is_live = "";
+var pagelayer_facebook_id = "";
+var pagelayer_settings = {"post_types":["post","page"],"enable_giver":"1","max_width":1170,"tablet_breakpoint":780,"mobile_breakpoint":360,"sidebar":false,"body_font":false,"color":false};
+var pagelayer_recaptch_lang = "";
+var pagelayer_recaptch_version = "";
+</script><link rel="preload" href="https://fonts.googleapis.com/css?family=Ubuntu%3A400%7CCabin%3A400" as="fetch" crossorigin="anonymous"><link rel="dns-prefetch" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"><style id="pagelayer-wow-animation-style" type="text/css">.pagelayer-wow{visibility: hidden;}</style>
+	<style id="pagelayer-global-styles" type="text/css">
+:root{--pagelayer-color-primary:#f90000;--pagelayer-color-secondary:#6c757d;--pagelayer-color-text:#1d1d1d;--pagelayer-color-accent:#61ce70;--pagelayer-font-primary-font-family:Open Sans;--pagelayer-font-secondary-font-family:Roboto;--pagelayer-font-text-font-family:Montserrat;--pagelayer-font-accent-font-family:Poppins;}
+.pagelayer-row-stretch-auto > .pagelayer-row-holder, .pagelayer-row-stretch-full > .pagelayer-row-holder.pagelayer-width-auto{ max-width: 1170px; margin-left: auto; margin-right: auto;}
+@media (min-width: 781px){
+			.pagelayer-hide-desktop{
+				display:none !important;
+			}
+		}
+
+		@media (max-width: 780px) and (min-width: 361px){
+			.pagelayer-hide-tablet{
+				display:none !important;
+			}
+			.pagelayer-wp-menu-holder[data-drop_breakpoint="tablet"] .pagelayer-wp_menu-ul{
+				display:none;
+			}
+		}
+
+		@media (max-width: 360px){
+			.pagelayer-hide-mobile{
+				display:none !important;
+			}
+			.pagelayer-wp-menu-holder[data-drop_breakpoint="mobile"] .pagelayer-wp_menu-ul{
+				display:none;
+			}
+		}
+body.pagelayer-body {font-family:Ubuntu;font-size:16px;line-height:1.6;color:#0f0c0cf5}
+body.pagelayer-body .site-main{background-color:#ffffffff}
+body.pagelayer-body p{font-family:Ubuntu;font-size:16px;line-height:1.6;color:#070606ff}
+body.pagelayer-body a{text-decoration-line:none;color:#0c0d0dff}
+body.pagelayer-body h1{font-family:Cabin;font-size:80px;color:#050506ff}
+body.pagelayer-body h2{font-family:Cabin;font-size:45px;color:#000000ff}
+body.pagelayer-body h3{font-family:Cabin;font-size:40px;font-weight:400;color:#000000ff}
+body.pagelayer-body h4{font-family:Cabin;font-size:35px;color:#060709ff}
+body.pagelayer-body h5{font-family:Cabin;font-size:30px;color:#000000ff}
+body.pagelayer-body h6{font-family:Cabin;font-size:20px;color:#030404ff}
+@media (max-width: 780px){
+	[class^="pagelayer-offset-"],
+	[class*=" pagelayer-offset-"] {
+		margin-left: 0;
+	}
+
+	.pagelayer-row .pagelayer-col {
+		margin-left: 0;
+		width: 100%;
+	}
+	.pagelayer-row.pagelayer-gutters .pagelayer-col {
+		margin-bottom: 16px;
+	}
+	.pagelayer-first-sm {
+		order: -1;
+	}
+	.pagelayer-last-sm {
+		order: 1;
+	}
+	
+body.pagelayer-body {font-size:15px}
+body.pagelayer-body > header{font-size:16px}
+body.pagelayer-body p{font-size:15px}
+body.pagelayer-body h1{font-size:45px}
+body.pagelayer-body h2{font-size:30px}
+body.pagelayer-body h3{font-size:25px}
+body.pagelayer-body h4{font-size:22px}
+body.pagelayer-body h5{font-size:20px}
+body.pagelayer-body h6{font-size:18px}
+
+}
+@media (max-width: 360px){
+body.pagelayer-body {font-size:15px}
+body.pagelayer-body > header{font-size:16px}
+body.pagelayer-body p{font-size:15px}
+body.pagelayer-body h1{font-size:40px}
+body.pagelayer-body h2{font-size:30px}
+body.pagelayer-body h3{font-size:25px}
+body.pagelayer-body h4{font-size:20px}
+body.pagelayer-body h5{font-size:20px}
+body.pagelayer-body h6{font-size:18px}
+}
+
+</style><link rel='stylesheet' id='pagelayer-frontend-css'  href='https://bulawayopolytechnic.ac.zw/site-data/plugins/pagelayer/css/givecss.php?give=pagelayer-frontend.css%2Cnivo-lightbox.css%2Canimate.min.css%2Cowl.carousel.min.css%2Cowl.theme.default.min.css%2Cfont-awesome5.min.css&#038;premium=premium-frontend.css&#038;ver=2.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='sitepad-style-css'  href='https://bulawayopolytechnic.ac.zw/sitepad-data/themes/educator/style.css?ver=5.1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='pagelayer-google-font-header-css'  href='https://fonts.googleapis.com/css?family=Ubuntu%3A400%7CCabin%3A400&#038;ver=2.0.6' type='text/css' media='all' />
+<script type='text/javascript' src='https://bulawayopolytechnic.ac.zw/site-inc/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://bulawayopolytechnic.ac.zw/site-inc/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://bulawayopolytechnic.ac.zw/site-data/plugins/pagelayer/js/givejs.php?give=pagelayer-frontend.js%2Cnivo-lightbox.min.js%2Cwow.min.js%2Cjquery-numerator.js%2CsimpleParallax.min.js%2Cowl.carousel.min.js&#038;premium=chart.min.js%2Cpremium-frontend.js%2Cshuffle.min.js&#038;ver=2.0.6'></script>
+<meta name="generator" content="SitePad 5.1.6" />
+<link rel="canonical" href="https://bulawayopolytechnic.ac.zw/admin-departments/" />
+<link rel='shortlink' href='https://bulawayopolytechnic.ac.zw/?p=396' />
+<link rel="alternate" type="application/json+oembed" href="https://bulawayopolytechnic.ac.zw/sp-json/oembed/1.0/embed?url=https%3A%2F%2Fbulawayopolytechnic.ac.zw%2Fadmin-departments%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://bulawayopolytechnic.ac.zw/sp-json/oembed/1.0/embed?url=https%3A%2F%2Fbulawayopolytechnic.ac.zw%2Fadmin-departments%2F&#038;format=xml" />
+<script type="text/javascript">
+
+// Make $ is jQuery
+$ = jQuery;
+
+</script>
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<link rel="icon" href="https://bulawayopolytechnic.ac.zw/sitepad-data/uploads/2022/12/cropped-polytech-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://bulawayopolytechnic.ac.zw/sitepad-data/uploads/2022/12/cropped-polytech-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://bulawayopolytechnic.ac.zw/sitepad-data/uploads/2022/12/cropped-polytech-180x180.png" />
+<meta name="msapplication-TileImage" content="https://bulawayopolytechnic.ac.zw/sitepad-data/uploads/2022/12/cropped-polytech-270x270.png" />
+	</head>
+
+	<body class="page-template-default page page-id-396 wp-embed-responsive pagelayer-body">
+		
+	<header class="pagelayer-header"><div pagelayer-id="p5m9606" class="p-p5m9606 pagelayer-post_props">
+</div>
+<div pagelayer-id="wnq3433" class="p-wnq3433 pagelayer-row pagelayer-row-stretch-auto pagelayer-height-default">
+<style pagelayer-style-id="wnq3433">.p-wnq3433 .pagelayer-col-holder{padding: 3px}
+.p-wnq3433 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-wnq3433 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-wnq3433 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-wnq3433 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-wnq3433 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+.p-wnq3433{background: #ff0000}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="4iw5144" class="p-4iw5144 pagelayer-col">
+<style pagelayer-style-id="4iw5144">.p-4iw5144 .pagelayer-col-holder > div:not(:last-child){margin-bottom: 15px}
+.p-4iw5144 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="ika3485" class="p-ika3485 pagelayer-social_grp pagelayer-hide-tablet pagelayer-hide-mobile">
+<style pagelayer-style-id="ika3485">.p-ika3485{text-align: center}
+.p-ika3485 > div{display: inline-block}
+.p-ika3485 .pagelayer-social{padding: 10px}
+.p-ika3485 .pagelayer-social-fa{font-size: 18px;color: #ffffff !important;-webkit-transition: all 400ms; transition: all 400ms}
+.p-ika3485 .pagelayer-icon-holder{font-size: 18px;-webkit-transition: all 400ms; transition: all 400ms}
+.p-ika3485 .pagelayer-icon-holder:hover .pagelayer-social-fa{color: #ffffff !important}
+</style>
+<div pagelayer-id="zah8241" class="p-zah8241 pagelayer-social">
+<div class="pagelayer-icon-holder pagelayer-facebook" data-icon="fab fa-facebook">
+					<a class="pagelayer-ele-link" href="https://www.facebook.com/profile.php?id=100090462735176" target="_blank">
+						<i class="pagelayer-social-fa fab fa-facebook"></i>
+					</a>
+				</div></div>
+<div pagelayer-id="ng27323" class="p-ng27323 pagelayer-social">
+<div class="pagelayer-icon-holder pagelayer-twitter" data-icon="fab fa-twitter">
+					<a class="pagelayer-ele-link" href="http://www.twitter.com/byopolyupdates" target="_blank">
+						<i class="pagelayer-social-fa fab fa-twitter"></i>
+					</a>
+				</div></div>
+<div pagelayer-id="cep4362" class="p-cep4362 pagelayer-social">
+<div class="pagelayer-icon-holder pagelayer-google-plus-g" data-icon="fab fa-google-plus-g">
+					<a class="pagelayer-ele-link" href="https://maps.app.goo.gl/zVmJPYJ2d5XbPYbbA" target="_blank">
+						<i class="pagelayer-social-fa fab fa-google-plus-g"></i>
+					</a>
+				</div></div>
+</div>
+</div></div>
+</div></div>
+<div pagelayer-id="pby3667" class="p-pby3667 pagelayer-row pagelayer-row-stretch-auto pagelayer-height-default fadeInDown pagelayer-wow pagelayer-animation-float">
+<style pagelayer-style-id="pby3667">.p-pby3667 .pagelayer-col-holder{padding: 3px}
+.p-pby3667 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-pby3667 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-pby3667 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-pby3667 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-pby3667 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+.p-pby3667{-webkit-animation-delay: 600ms; animation-delay: 600ms}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="1kg6031" class="p-1kg6031 pagelayer-col">
+<style pagelayer-style-id="1kg6031">.p-1kg6031 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-1kg6031{background: #ff0000;border-style: solid;border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px;border-color: #CCC;border-radius: 0px 0px 35px 35px; -webkit-border-radius: 0px 0px 35px 35px;-moz-border-radius: 0px 0px 35px 35px}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="zoe7104" class="p-zoe7104 pagelayer-inner_row pagelayer-row-stretch-auto pagelayer-height-default">
+<style pagelayer-style-id="zoe7104">.p-zoe7104>.pagelayer-row-holder .pagelayer-col{align-content: center}
+.p-zoe7104 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-zoe7104 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-zoe7104 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-zoe7104 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-zoe7104 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="ra18253" class="p-ra18253 pagelayer-col pagelayer-col-2">
+<style pagelayer-style-id="ra18253">.p-ra18253 .pagelayer-col-holder > div:not(:last-child){margin-bottom: 15px}
+.p-ra18253 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="ytm5684" class="p-ytm5684 pagelayer-inner_row pagelayer-row-stretch-auto pagelayer-height-default">
+<style pagelayer-style-id="ytm5684">.p-ytm5684 .pagelayer-col-holder{padding: 10px}
+.p-ytm5684 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-ytm5684 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-ytm5684 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-ytm5684 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-ytm5684 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="vm36339" class="p-vm36339 pagelayer-col">
+<style pagelayer-style-id="vm36339">.p-vm36339 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="wmr7827" class="p-wmr7827 pagelayer-btn pagelayer-animation-float">
+<style pagelayer-style-id="wmr7827">.p-wmr7827 a{width: 100%; text-align: center}
+.p-wmr7827 .pagelayer-btn-text{font-family: Montserrat; font-size: 12px !important; font-style:  !important; font-weight: 500 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-wmr7827 .pagelayer-btn-holder{font-family: Montserrat; font-size: 12px !important; font-style:  !important; font-weight: 500 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important;background-color: #ff0000;color: #ffffff;-webkit-transition: all 400ms !important; transition: all 400ms !important;border-color: #ffffff}
+.p-wmr7827 .pagelayer-btn-anim-thin{background-color: unset !important;border-style: unset !important}
+.p-wmr7827 .pagelayer-btn-anim-thin::before{background-color: #ff0000}
+.p-wmr7827 .pagelayer-btn-anim-thin::after{background-color: #ff0000}
+.p-wmr7827 .pagelayer-btn-icon{padding: 0 5px}
+.p-wmr7827 .pagelayer-btn-holder, .p-wmr7827 .pagelayer-btn-anim-thin:after, .p-wmr7827 .pagelayer-btn-anim-thin:before{border-style: solid;border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px}
+.p-wmr7827 .pagelayer-btn-holder, .p-wmr7827 .pagelayer-btn-anim-glow:before{border-radius: 25px 25px 25px 25px; -webkit-border-radius:  25px 25px 25px 25px;-moz-border-radius: 25px 25px 25px 25px}
+</style><a class="pagelayer-btn-holder pagelayer-ele-link pagelayer-btn-custom pagelayer-btn-mini pagelayer-btn-icon-left">
+					<i class="fas fa-notes-medical pagelayer-btn-icon"></i>
+					<span class="pagelayer-btn-text">Apply Online</span>
+					<i class="fas fa-notes-medical pagelayer-btn-icon"></i>
+				</a></div>
+</div></div>
+</div></div>
+</div></div>
+<div pagelayer-id="zzt127" class="p-zzt127 pagelayer-col pagelayer-col-2">
+<style pagelayer-style-id="zzt127">.p-zzt127 .pagelayer-col-holder > div:not(:last-child){margin-bottom: 15px}
+.p-zzt127 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="tzy9042" class="p-tzy9042 pagelayer-inner_row pagelayer-row-stretch-auto pagelayer-height-default">
+<style pagelayer-style-id="tzy9042">.p-tzy9042 .pagelayer-col-holder{padding: 10px}
+.p-tzy9042 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-tzy9042 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-tzy9042 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-tzy9042 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-tzy9042 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="sup6506" class="p-sup6506 pagelayer-col">
+<style pagelayer-style-id="sup6506">.p-sup6506 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="bq49369" class="p-bq49369 pagelayer-btn pagelayer-animation-float">
+<style pagelayer-style-id="bq49369">.p-bq49369 a{width: 100%; text-align: center}
+.p-bq49369 .pagelayer-btn-text{font-family: Montserrat; font-size: 12px !important; font-style:  !important; font-weight: 500 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-bq49369 .pagelayer-btn-holder{font-family: Montserrat; font-size: 12px !important; font-style:  !important; font-weight: 500 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important;background-color: #ff0000;color: #ffffff;-webkit-transition: all 400ms !important; transition: all 400ms !important;border-color: #ffffff}
+.p-bq49369 .pagelayer-btn-anim-thin{background-color: unset !important;border-style: unset !important}
+.p-bq49369 .pagelayer-btn-anim-thin::before{background-color: #ff0000}
+.p-bq49369 .pagelayer-btn-anim-thin::after{background-color: #ff0000}
+.p-bq49369 .pagelayer-btn-icon{padding: 0 5px}
+.p-bq49369 .pagelayer-btn-holder, .p-bq49369 .pagelayer-btn-anim-thin:after, .p-bq49369 .pagelayer-btn-anim-thin:before{border-style: solid;border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px}
+.p-bq49369 .pagelayer-btn-holder, .p-bq49369 .pagelayer-btn-anim-glow:before{border-radius: 25px 25px 25px 25px; -webkit-border-radius:  25px 25px 25px 25px;-moz-border-radius: 25px 25px 25px 25px}
+</style><a class="pagelayer-btn-holder pagelayer-ele-link pagelayer-btn-custom pagelayer-btn-mini pagelayer-btn-icon-left" target="_blank" href="http://20.151.99.150">
+					<i class="fas fa-user-check pagelayer-btn-icon"></i>
+					<span class="pagelayer-btn-text">Student Portal</span>
+					<i class="fas fa-user-check pagelayer-btn-icon"></i>
+				</a></div>
+</div></div>
+</div></div>
+</div></div>
+<div pagelayer-id="l51185" class="p-l51185 pagelayer-col pagelayer-col-2">
+<style pagelayer-style-id="l51185">.p-l51185 .pagelayer-col-holder > div:not(:last-child){margin-bottom: 15px}
+.p-l51185 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="9kd335" class="p-9kd335 pagelayer-inner_row pagelayer-row-stretch-auto pagelayer-height-default">
+<style pagelayer-style-id="9kd335">.p-9kd335 .pagelayer-col-holder{padding: 10px}
+.p-9kd335 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-9kd335 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-9kd335 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-9kd335 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-9kd335 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="pdh7735" class="p-pdh7735 pagelayer-col">
+<style pagelayer-style-id="pdh7735">.p-pdh7735 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="qu5491" class="p-qu5491 pagelayer-btn pagelayer-animation-float">
+<style pagelayer-style-id="qu5491">.p-qu5491 a{width: 100%; text-align: center}
+.p-qu5491 .pagelayer-btn-text{font-family: Montserrat; font-size: 12px !important; font-style:  !important; font-weight: 500 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-qu5491 .pagelayer-btn-holder{font-family: Montserrat; font-size: 12px !important; font-style:  !important; font-weight: 500 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important;background-color: #ff0000;color: #ffffff;-webkit-transition: all 400ms !important; transition: all 400ms !important;border-color: #ffffff}
+.p-qu5491 .pagelayer-btn-anim-thin{background-color: unset !important;border-style: unset !important}
+.p-qu5491 .pagelayer-btn-anim-thin::before{background-color: #ff0000}
+.p-qu5491 .pagelayer-btn-anim-thin::after{background-color: #ff0000}
+.p-qu5491 .pagelayer-btn-icon{padding: 0 5px}
+.p-qu5491 .pagelayer-btn-holder, .p-qu5491 .pagelayer-btn-anim-thin:after, .p-qu5491 .pagelayer-btn-anim-thin:before{border-style: solid;border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px}
+.p-qu5491 .pagelayer-btn-holder, .p-qu5491 .pagelayer-btn-anim-glow:before{border-radius: 25px 25px 25px 25px; -webkit-border-radius:  25px 25px 25px 25px;-moz-border-radius: 25px 25px 25px 25px}
+</style><a class="pagelayer-btn-holder pagelayer-ele-link pagelayer-btn-custom pagelayer-btn-mini pagelayer-btn-icon-left">
+					<i class="fas fa-calendar-alt pagelayer-btn-icon"></i>
+					<span class="pagelayer-btn-text">Events Calender</span>
+					<i class="fas fa-calendar-alt pagelayer-btn-icon"></i>
+				</a></div>
+</div></div>
+</div></div>
+</div></div>
+<div pagelayer-id="uww3124" class="p-uww3124 pagelayer-col pagelayer-col-2">
+<style pagelayer-style-id="uww3124">.p-uww3124 .pagelayer-col-holder > div:not(:last-child){margin-bottom: 15px}
+.p-uww3124 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="wgw3534" class="p-wgw3534 pagelayer-inner_row pagelayer-row-stretch-auto pagelayer-height-default">
+<style pagelayer-style-id="wgw3534">.p-wgw3534 .pagelayer-col-holder{padding: 10px}
+.p-wgw3534 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-wgw3534 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-wgw3534 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-wgw3534 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-wgw3534 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="vic7361" class="p-vic7361 pagelayer-col">
+<style pagelayer-style-id="vic7361">.p-vic7361 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="dpg1402" class="p-dpg1402 pagelayer-btn pagelayer-animation-float">
+<style pagelayer-style-id="dpg1402">.p-dpg1402 a{width: 100%; text-align: center}
+.p-dpg1402 .pagelayer-btn-text{font-family: Montserrat; font-size: 12px !important; font-style:  !important; font-weight: 500 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-dpg1402 .pagelayer-btn-holder{font-family: Montserrat; font-size: 12px !important; font-style:  !important; font-weight: 500 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important;background-color: #ff0000;color: #ffffff;-webkit-transition: all 400ms !important; transition: all 400ms !important;border-color: #ffffff}
+.p-dpg1402 .pagelayer-btn-anim-thin{background-color: unset !important;border-style: unset !important}
+.p-dpg1402 .pagelayer-btn-anim-thin::before{background-color: #ff0000}
+.p-dpg1402 .pagelayer-btn-anim-thin::after{background-color: #ff0000}
+.p-dpg1402 .pagelayer-btn-icon{padding: 0 5px}
+.p-dpg1402 .pagelayer-btn-holder, .p-dpg1402 .pagelayer-btn-anim-thin:after, .p-dpg1402 .pagelayer-btn-anim-thin:before{border-style: solid;border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px}
+.p-dpg1402 .pagelayer-btn-holder, .p-dpg1402 .pagelayer-btn-anim-glow:before{border-radius: 25px 25px 25px 25px; -webkit-border-radius:  25px 25px 25px 25px;-moz-border-radius: 25px 25px 25px 25px}
+</style><a class="pagelayer-btn-holder pagelayer-ele-link pagelayer-btn-custom pagelayer-btn-mini pagelayer-btn-icon-left" target="_blank" href="http://libgen.rs/">
+					<i class="fas fa-book-reader pagelayer-btn-icon"></i>
+					<span class="pagelayer-btn-text">E-Library</span>
+					<i class="fas fa-book-reader pagelayer-btn-icon"></i>
+				</a></div>
+</div></div>
+</div></div>
+</div></div>
+</div></div>
+</div></div>
+</div></div>
+<div pagelayer-id="lko4097" class="p-lko4097 pagelayer-row pagelayer-row-stretch-auto pagelayer-height-default">
+<style pagelayer-style-id="lko4097">.p-lko4097 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-lko4097 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-lko4097 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-lko4097 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-lko4097 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+.p-lko4097{margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="tlb7261" class="p-tlb7261 pagelayer-col">
+<style pagelayer-style-id="tlb7261">.p-tlb7261 .pagelayer-col-holder > div:not(:last-child){margin-bottom: 15px}
+.p-tlb7261 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-tlb7261{background: #ffffff;border-style: solid;border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px;border-color: #CCC;border-radius: 25px 25px 0px 0px; -webkit-border-radius: 25px 25px 0px 0px;-moz-border-radius: 25px 25px 0px 0px}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="qrj1521" class="p-qrj1521 pagelayer-inner_row pagelayer-row-stretch-auto pagelayer-height-default">
+<style pagelayer-style-id="qrj1521">.p-qrj1521 .pagelayer-col-holder{padding: 10px}
+.p-qrj1521 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-qrj1521 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-qrj1521 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-qrj1521 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-qrj1521 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="nbm7662" class="p-nbm7662 pagelayer-col pagelayer-col-3">
+<style pagelayer-style-id="nbm7662">.p-nbm7662 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+</div></div>
+<div pagelayer-id="g6d3594" class="p-g6d3594 pagelayer-col pagelayer-col-3">
+<style pagelayer-style-id="g6d3594">.p-g6d3594 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="xvc9386" class="p-xvc9386 pagelayer-image">
+<style pagelayer-style-id="xvc9386">.p-xvc9386 .pagelayer-image-holder{text-align: center}
+.p-xvc9386 .pagelayer-image-holder .pagelayer-image-overlay-content{text-align: center}
+.p-xvc9386 img{max-width: 40%}
+.p-xvc9386 .pagelayer-img{-webkit-transition: all 400ms; transition: all 400ms}
+.p-xvc9386 .pagelayer-image-caption{color: #0986c0}
+.p-xvc9386{padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px}
+</style><div class="pagelayer-image-holder pagelayer-anim-par">
+			
+				<img class="pagelayer-img pagelayer-animation-{{anim_hover}}" src="https://bulawayopolytechnic.ac.zw/sitepad-data/uploads/2022/12/polytech.png" title="Bulawayo Polytechnic Official Logo" alt="Bulawayo Polytechnic Official Logo" srcset="https://bulawayopolytechnic.ac.zw/sitepad-data/uploads/2022/12/polytech.png, https://bulawayopolytechnic.ac.zw/sitepad-data/uploads/2022/12/polytech.png 1x, " />
+				
+			
+		</div>
+		</div>
+</div></div>
+<div pagelayer-id="6jy6562" class="p-6jy6562 pagelayer-col pagelayer-col-3">
+<style pagelayer-style-id="6jy6562">.p-6jy6562{align-content: center !important;padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px}
+.p-6jy6562 .pagelayer-col-holder > div:not(:last-child){margin-bottom: 15px}
+.p-6jy6562 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="yog3586" class="p-yog3586 pagelayer-inner_row pagelayer-row-stretch-auto pagelayer-height-default">
+<style pagelayer-style-id="yog3586">.p-yog3586 .pagelayer-col-holder{padding: 10px}
+.p-yog3586 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-yog3586 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-yog3586 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-yog3586 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-yog3586 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="bzh7838" class="p-bzh7838 pagelayer-col">
+<style pagelayer-style-id="bzh7838">.p-bzh7838 .pagelayer-col-holder > div:not(:last-child){margin-bottom: 1px}
+.p-bzh7838 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-bzh7838{background: #ff0000;padding-top: 10px; padding-right: 0px; padding-bottom: 10px; padding-left: 0px;border-style: solid;border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px;border-color: #ffffff}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="e8q1060" class="p-e8q1060 pagelayer-heading" align="center">
+<style pagelayer-style-id="e8q1060">.p-e8q1060{text-align: center}
+.p-e8q1060 .pagelayer-heading-holder *{color:#ffffff;font-family: Montserrat !important; font-size: 14px !important; font-style:  !important; font-weight: 900 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.4em !important; text-transform: uppercase !important; letter-spacing: px !important; word-spacing: px !important}
+.p-e8q1060 .pagelayer-heading-holder{color:#ffffff;font-family: Montserrat !important; font-size: 14px !important; font-style:  !important; font-weight: 900 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.4em !important; text-transform: uppercase !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder"><h2>CALL FOR PAPERS FOR IRC 2026</h2></div>
+		
+			</div>
+<div pagelayer-id="26r7806" class="p-26r7806 pagelayer-heading" align="center">
+<style pagelayer-style-id="26r7806">.p-26r7806{text-align: center}
+.p-26r7806 .pagelayer-heading-holder *{color:#ffffff;font-family: Montserrat !important; font-size: 11px !important; font-style:  !important; font-weight: 500 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.4em !important; text-transform: uppercase !important; letter-spacing: px !important; word-spacing: px !important}
+.p-26r7806 .pagelayer-heading-holder{color:#ffffff;font-family: Montserrat !important; font-size: 11px !important; font-style:  !important; font-weight: 500 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.4em !important; text-transform: uppercase !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder"><h2>ByoPoly &amp; Welwitchia University</h2></div>
+		
+			</div>
+<div pagelayer-id="at66267" class="p-at66267 pagelayer-heading" align="center">
+<style pagelayer-style-id="at66267">.p-at66267{text-align: center}
+.p-at66267 .pagelayer-heading-holder *{color:#ffffff;font-family: Montserrat !important; font-size: 11px !important; font-style:  !important; font-weight: 500 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.4em !important; text-transform: uppercase !important; letter-spacing: px !important; word-spacing: px !important}
+.p-at66267 .pagelayer-heading-holder{color:#ffffff;font-family: Montserrat !important; font-size: 11px !important; font-style:  !important; font-weight: 500 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.4em !important; text-transform: uppercase !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder"><h2>VICTORIA FALLS CONFERENCE 2026</h2></div>
+		
+			</div>
+<div pagelayer-id="1fi7811" class="p-1fi7811 pagelayer-divider">
+<style pagelayer-style-id="1fi7811">.p-1fi7811 .pagelayer-divider-seperator{border-top-style: solid;border-top-color: rgba(255,255,255,0.00);border-top-width: 1px;width: 25%}
+.p-1fi7811 .pagelayer-divider-holder{padding-top: 5px; padding-bottom: 5px;text-align: center}
+</style><div class="pagelayer-divider-holder">
+			<span class="pagelayer-divider-seperator"></span>
+		</div></div>
+<div pagelayer-id="guh8485" class="p-guh8485 pagelayer-btn pagelayer-animation-float">
+<style pagelayer-style-id="guh8485">.p-guh8485 a{width: 100%; text-align: center}
+.p-guh8485 .pagelayer-btn-text{font-family: Montserrat; font-size: 12px !important; font-style:  !important; font-weight: 800 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-guh8485 .pagelayer-btn-holder{font-family: Montserrat; font-size: 12px !important; font-style:  !important; font-weight: 800 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important;background-color: rgba(129,138,145,0.00);color: #ffffff;-webkit-transition: all 400ms !important; transition: all 400ms !important;border-color: #ffffff}
+.p-guh8485 .pagelayer-btn-anim-thin{background-color: unset !important;border-style: unset !important}
+.p-guh8485 .pagelayer-btn-anim-thin::before{background-color: rgba(129,138,145,0.00)}
+.p-guh8485 .pagelayer-btn-anim-thin::after{background-color: rgba(129,138,145,0.00)}
+.p-guh8485 .pagelayer-btn-icon{padding: 0 5px}
+.p-guh8485 .pagelayer-btn-holder, .p-guh8485 .pagelayer-btn-anim-thin:after, .p-guh8485 .pagelayer-btn-anim-thin:before{border-style: solid;border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}
+.p-guh8485 .pagelayer-btn-holder, .p-guh8485 .pagelayer-btn-anim-glow:before{border-radius: 0px 0px 0px 0px; -webkit-border-radius:  0px 0px 0px 0px;-moz-border-radius: 0px 0px 0px 0px}
+</style><a class="pagelayer-btn-holder pagelayer-ele-link pagelayer-btn-custom pagelayer-btn-mini pagelayer-btn-icon-left" href="https://bulawayopolytechnic.ac.zw/#news">
+					<i class="fas fa-arrow-right pagelayer-btn-icon"></i>
+					<span class="pagelayer-btn-text">View More Details</span>
+					<i class="fas fa-arrow-right pagelayer-btn-icon"></i>
+				</a></div>
+</div></div>
+</div></div>
+</div></div>
+</div></div>
+</div></div>
+</div></div>
+<div pagelayer-id="ttb278" class="p-ttb278 pagelayer-row pagelayer-row-stretch-full pagelayer-height-default">
+<style pagelayer-style-id="ttb278">.p-ttb278>.pagelayer-row-holder .pagelayer-col{align-content: center}
+.p-ttb278 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-ttb278 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-ttb278 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-ttb278 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-ttb278 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+.p-ttb278{background: #ffffff}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-full">
+<div pagelayer-id="qkz2315" class="p-qkz2315 pagelayer-col">
+<style pagelayer-style-id="qkz2315">.p-qkz2315{align-content: center !important}
+.p-qkz2315 .pagelayer-col-holder > div:not(:last-child){margin-bottom: 15px}
+.p-qkz2315 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="5uq8701" class="p-5uq8701 pagelayer-wp_menu">
+<style pagelayer-style-id="5uq8701">.p-5uq8701 .pagelayer-wp_menu-ul{text-align:center}
+.p-5uq8701 .pagelayer-wp-menu-container li.menu-item{list-style: none}
+.p-5uq8701 .pagelayer-active-sub-menu.pagelayer-mega-menu-item > .pagelayer-mega-menu,
+				:not(.pagelayer-ele-wrap) > .p-5uq8701 .pagelayer-menu-type-horizontal .pagelayer-mega-menu-item:hover > .pagelayer-mega-menu,
+				.p-5uq8701 .pagelayer-active-sub-menu:not(.pagelayer-mega-menu-item) > ul.sub-menu,
+				.p-5uq8701 .pagelayer-menu-type-horizontal .menu-item-has-children:not(.pagelayer-mega-menu-item, .pagelayer-mega-column-item .sub-menu li):hover > ul.sub-menu,
+				:not(.pagelayer-ele-wrap) > .pagelayer-wp_menu .pagelayer-menu-type-vertical[class*="pagelayer-submenu-position-"] .pagelayer-mega-menu-item:hover > .pagelayer-mega-menu,
+				.p-5uq8701 .pagelayer-menu-type-vertical[class*="pagelayer-submenu-position-"] .menu-item-has-children:not(.pagelayer-mega-menu-item, .pagelayer-mega-column-item .sub-menu li):hover > ul.sub-menu{animation-name: pagelayer-submenu-fadeinup;animation-duration: 300ms;animation-timing-function: linear; animation-iteration-count: 1}
+.p-5uq8701 .pagelayer-wp_menu-ul>li a:first-child{color: #000000}
+.p-5uq8701 .pagelayer-wp_menu-ul>li>a:hover{color: #ff0000}
+.p-5uq8701 .pagelayer-wp_menu-ul>li.pagelayer-active-sub-menu>a:hover{color: #ff0000}
+.p-5uq8701 .pagelayer-menu-hover-background .pagelayer-wp_menu-ul>li:hover{background-color:  }
+.p-5uq8701 .pagelayer-wp_menu-ul>li>a:hover:before{background-color:  ;border-color:}
+.p-5uq8701 .pagelayer-wp_menu-ul>li>a:hover:after{background-color:  ;border-color:}
+.p-5uq8701 .pagelayer-wp_menu-ul>li.pagelayer-active-sub-menu{background-color:  }
+.p-5uq8701 .pagelayer-wp_menu-ul>li.current-menu-item>a{color: #ff0000}
+.p-5uq8701 .pagelayer-wp_menu-ul>li.current-menu-item{background-color: #ffffff}
+.p-5uq8701 .pagelayer-wp-menu-container ul li.menu-item > a{font-family: Montserrat !important; font-size: 12px !important; font-style:  !important; font-weight: 800 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style: solid !important; line-height: 1.3em !important; text-transform: uppercase !important; letter-spacing: px !important; word-spacing: px !important}
+.p-5uq8701 .pagelayer-wp_menu-ul>li>a{padding-left: 35px;padding-right: 35px;padding-top: 10px;padding-bottom	: 10px}
+.p-5uq8701 ul.sub-menu li>a{justify-content:left !important}
+.p-5uq8701 .pagelayer-menu-type-horizontal .sub-menu{left:0px}
+.p-5uq8701 .pagelayer-menu-type-horizontal .sub-menu .sub-menu{left:unset;left:100% !important;top:0px}
+.p-5uq8701 .pagelayer-wp-menu-container ul.sub-menu>li a{color: #ffffff}
+.p-5uq8701 .pagelayer-wp-menu-container ul.sub-menu{background-color: #ff0000}
+.p-5uq8701 .pagelayer-wp-menu-container ul.sub-menu>li a:hover{color: #ff0000}
+.p-5uq8701 .pagelayer-wp-menu-container ul.sub-menu>li.pagelayer-active-sub-menu a:hover{color: #ff0000}
+.p-5uq8701 .pagelayer-wp-menu-container ul.sub-menu>li:hover{background-color: #ffffff}
+.p-5uq8701 .pagelayer-wp-menu-container ul.sub-menu>li.pagelayer-active-sub-menu{background-color: #ffffff}
+.p-5uq8701 .pagelayer-wp-menu-container ul.sub-menu>li.current-menu-item a{color: #ff0000}
+.p-5uq8701 .pagelayer-wp-menu-container ul.sub-menu>li.current-menu-item{background-color: #ffffff}
+.p-5uq8701 .pagelayer-wp-menu-container ul.sub-menu li a{font-family: Montserrat !important; font-size: 13px !important; font-style:  !important; font-weight: 500 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.4em !important; text-transform: capitalize !important; letter-spacing: px !important; word-spacing: px !important;padding-left: 10px;padding-right: 10px;padding-top: 10px;padding-bottom	: 10px}
+.p-5uq8701 .pagelayer-wp-menu-container .sub-menu a{margin-left: 10px}
+.p-5uq8701 .pagelayer-wp-menu-container .sub-menu .sub-menu a{margin-left: calc(2 * 10px)}
+.p-5uq8701 .pagelayer-primary-menu-bar{text-align:center}
+.p-5uq8701 .pagelayer-primary-menu-bar i{color:#ff0000;background-color:#ffffff;font-size:30px}
+.p-5uq8701 .pagelayer-menu-type-dropdown .pagelayer-wp_menu-ul > li > a{justify-content: flex-start}
+.p-5uq8701 .pagelayer-menu-type-dropdown{width:80%;background-color:#ffffff}
+.p-5uq8701 .pagelayer-menu-type-dropdown .pagelayer-wp_menu-ul{width:100%;top: 8%; transform: translateY(-8%)}
+.p-5uq8701 .pagelayer-wp_menu-close i{font-size:25px;padding:8px;color:#ff0000;background-color:#ffffff;-webkit-transition: all 600ms !important; transition: all 600ms !important}
+.p-5uq8701 .pagelayer-wp_menu-close i:hover{color:#ffffff;background-color:#000000}
+.p-5uq8701{padding-top: 10px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px}
+@media (max-width: 780px) and (min-width: 361px){.p-5uq8701 .pagelayer-wp_menu-ul>li a:first-child{color: #020303}
+.p-5uq8701 .pagelayer-primary-menu-bar{text-align:right}
+.p-5uq8701 .pagelayer-menu-type-dropdown .pagelayer-wp_menu-ul > li > a{justify-content: center}
+.p-5uq8701 .pagelayer-menu-type-dropdown{width:60%}
+.p-5uq8701 .pagelayer-menu-type-dropdown .pagelayer-wp_menu-ul{top: 20%; transform: translateY(-20%)}
+}
+@media (max-width: 360px){.p-5uq8701 .pagelayer-wp_menu-ul>li a:first-child{color: #030505}
+.p-5uq8701 .pagelayer-wp-menu-container ul li.menu-item > a{font-family:  !important; font-size: 14px !important; font-style:  !important; font-weight:  !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-5uq8701 .pagelayer-primary-menu-bar{text-align:right}
+.p-5uq8701 .pagelayer-primary-menu-bar i{font-size:18px;padding:7 {{val[1]}}}
+.p-5uq8701 .pagelayer-menu-type-dropdown .pagelayer-wp_menu-ul > li > a{justify-content: center}
+.p-5uq8701 .pagelayer-menu-type-dropdown{width:60%}
+.p-5uq8701 .pagelayer-menu-type-dropdown .pagelayer-wp_menu-ul{top: 20%; transform: translateY(-20%)}
+.p-5uq8701 .pagelayer-wp_menu-close i{font-size:18px}
+}
+</style><div class="pagelayer-wp-menu-holder" data-layout="horizontal" data-submenu_ind="caret-down" data-drop_breakpoint="tablet">
+			<div class="pagelayer-primary-menu-bar"><i class="fas fa-bars" data-icon="fas fa-bars"></i></div>
+			<div class="pagelayer-wp-menu-container pagelayer-menu-type-horizontal pagelayer-menu-hover- none pagelayer-wp_menu-right" data-align="center">
+				<div class="pagelayer-wp_menu-close"><i class="fas fa-times"></i></div>
+				<div class="menu-byopoly-header-menu-container"><ul id="2" class="pagelayer-wp_menu-ul"><li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-31"><a href="https://bulawayopolytechnic.ac.zw/"><span class="pagelayer-nav-menu-title">Home</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-31"></div></li>
+<li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-32"><a href="https://bulawayopolytechnic.ac.zw/about/"><span class="pagelayer-nav-menu-title">About Us</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-32"></div>
+<ul class="sub-menu">
+	<li id="menu-item-391" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-391"><a href="https://bulawayopolytechnic.ac.zw/about/#about"><span class="pagelayer-nav-menu-title">About the Polytechnic</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-391"></div></li>
+	<li id="menu-item-392" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-392"><a href="https://bulawayopolytechnic.ac.zw/about/#team"><span class="pagelayer-nav-menu-title">Principal&#8217;s Note</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-392"></div></li>
+</ul>
+</li>
+<li id="menu-item-398" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-396 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-398"><a href="https://bulawayopolytechnic.ac.zw/admin-departments/" aria-current="page"><span class="pagelayer-nav-menu-title">Admin Departments</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-398"></div>
+<ul class="sub-menu">
+	<li id="menu-item-384" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-384"><a href="https://bulawayopolytechnic.ac.zw/principal/"><span class="pagelayer-nav-menu-title">Principal&#8217;s Office</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-384"></div></li>
+	<li id="menu-item-401" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-401"><a href="https://bulawayopolytechnic.ac.zw/admin-departments/#admissions" aria-current="page"><span class="pagelayer-nav-menu-title">Admissions</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-401"></div></li>
+	<li id="menu-item-402" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-402"><a href="https://bulawayopolytechnic.ac.zw/admin-departments/#accounts" aria-current="page"><span class="pagelayer-nav-menu-title">Accounts</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-402"></div></li>
+	<li id="menu-item-403" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-403"><a href="https://bulawayopolytechnic.ac.zw/admin-departments/#hr" aria-current="page"><span class="pagelayer-nav-menu-title">Human Resources</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-403"></div></li>
+	<li id="menu-item-404" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-404"><a href="https://bulawayopolytechnic.ac.zw/admin-departments/#procurement" aria-current="page"><span class="pagelayer-nav-menu-title">Procurement</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-404"></div></li>
+</ul>
+</li>
+<li id="menu-item-185" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-185"><a href="https://bulawayopolytechnic.ac.zw"><span class="pagelayer-nav-menu-title">Courses Divisions</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-185"></div>
+<ul class="sub-menu">
+	<li id="menu-item-830" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-830"><a href="https://bulawayopolytechnic.ac.zw/#short-courses"><span class="pagelayer-nav-menu-title">Short Courses</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-830"></div></li>
+	<li id="menu-item-170" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-170"><a href="https://bulawayopolytechnic.ac.zw/applied-art-design/"><span class="pagelayer-nav-menu-title">Applied Art &#038; Design</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-170"></div></li>
+	<li id="menu-item-175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175"><a href="https://bulawayopolytechnic.ac.zw/automotive-engineering/"><span class="pagelayer-nav-menu-title">Automotive Engineering</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-175"></div></li>
+	<li id="menu-item-211" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-211"><a href="https://bulawayopolytechnic.ac.zw/applied-science-and-technology/"><span class="pagelayer-nav-menu-title">Applied Science and Technology</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-211"></div></li>
+	<li id="menu-item-227" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-227"><a href="https://bulawayopolytechnic.ac.zw/electrical-engineering/"><span class="pagelayer-nav-menu-title">Electrical Engineering</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-227"></div></li>
+	<li id="menu-item-238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-238"><a href="https://bulawayopolytechnic.ac.zw/civil-engineering/"><span class="pagelayer-nav-menu-title">Civil Engineering</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-238"></div></li>
+	<li id="menu-item-531" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-531"><a href="https://bulawayopolytechnic.ac.zw/construction/"><span class="pagelayer-nav-menu-title">Construction</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-531"></div></li>
+	<li id="menu-item-275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="https://bulawayopolytechnic.ac.zw/commerce/"><span class="pagelayer-nav-menu-title">Commerce</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-275"></div></li>
+	<li id="menu-item-252" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-252"><a href="https://bulawayopolytechnic.ac.zw/mechanical-engineering/"><span class="pagelayer-nav-menu-title">Mechanical Engineering</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-252"></div></li>
+	<li id="menu-item-287" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-287"><a href="https://bulawayopolytechnic.ac.zw/adult-education/"><span class="pagelayer-nav-menu-title">Adult Education</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-287"></div></li>
+	<li id="menu-item-315" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-315"><a href="https://bulawayopolytechnic.ac.zw/bachelor-of-technology/"><span class="pagelayer-nav-menu-title">Bachelor Of Technology Degrees</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-315"></div></li>
+	<li id="menu-item-338" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-338"><a href="https://bulawayopolytechnic.ac.zw/research/"><span class="pagelayer-nav-menu-title">Research &#038; Innovation</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-338"></div></li>
+	<li id="menu-item-349" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-349"><a href="https://bulawayopolytechnic.ac.zw/centre-for-continued-education/"><span class="pagelayer-nav-menu-title">Centre for Continued Education</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-349"></div></li>
+</ul>
+</li>
+<li id="menu-item-189" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-189"><a href="https://bulawayopolytechnic.ac.zw"><span class="pagelayer-nav-menu-title">Students</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-189"></div>
+<ul class="sub-menu">
+	<li id="menu-item-368" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-368"><a href="http://20.151.99.150"><span class="pagelayer-nav-menu-title">Student Portal</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-368"><div pagelayer-id="pkr8365" class="p-pkr8365 pagelayer-nav_menu_item">
+<div class="pagelayer-menu-item-holder"></div></div>
+</div></li>
+	<li id="menu-item-365" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-365"><a href="https://bulawayopolytechnic.ac.zw/campus-life/"><span class="pagelayer-nav-menu-title">Camps Life</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-365"></div></li>
+	<li id="menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-380"><a href="https://bulawayopolytechnic.ac.zw/campus-life/"><span class="pagelayer-nav-menu-title">Sports &#038; Clubs</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-380"></div></li>
+</ul>
+</li>
+<li id="menu-item-183" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-183"><a href="https://bulawayopolytechnic.ac.zw/#news"><span class="pagelayer-nav-menu-title">News &#038; Updates</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-183"></div>
+<ul class="sub-menu">
+	<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a href="https://bulawayopolytechnic.ac.zw/public-notice/"><span class="pagelayer-nav-menu-title">Public Notice</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-572"></div></li>
+</ul>
+</li>
+<li id="menu-item-372" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-372"><a href="https://bulawayopolytechnic.ac.zw/contact-us/"><span class="pagelayer-nav-menu-title">Contact Us</span></a><div class="pagelayer-mega-menu pagelayer-mega-editor-372"></div></li>
+</ul></div>
+			</div>
+		</div></div>
+</div></div>
+</div></div>
+
+	</header>
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+			
+<article id="post-396" class="post-396 page type-page status-publish hentry">
+	
+	<div class="entry-content">
+		<div pagelayer-id="imd9475" class="p-imd9475 pagelayer-post_props">
+</div>
+<div pagelayer-id="czi6838" class="p-czi6838 pagelayer-row pagelayer-row-stretch-auto pagelayer-height-default fadeInDown pagelayer-wow">
+<style pagelayer-style-id="czi6838">.p-czi6838 .pagelayer-col-holder{padding: 10px}
+.p-czi6838 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-czi6838 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-czi6838 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-czi6838 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-czi6838 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+.p-czi6838{background-image: url("https://bulawayopolytechnic.ac.zw/sitepad-data/uploads/2022/12/Slide2.jpg");background-attachment: fixed;background-position-x: center;background-position-y: center;background-repeat: no-repeat;background-size: cover;padding-top: 50px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px;-webkit-animation-delay: 600ms; animation-delay: 600ms}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="bfg2279" class="p-bfg2279 pagelayer-col pagelayer-col-6">
+<style pagelayer-style-id="bfg2279">.p-bfg2279 .pagelayer-col-holder > div:not(:last-child){margin-bottom: 5px}
+.p-bfg2279 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-bfg2279{background: rgba(255,255,255,0.95);padding-top: 30px; padding-right: 0px; padding-bottom: 0px; padding-left: 10px}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="3634806" class="p-3634806 pagelayer-heading">
+<style pagelayer-style-id="3634806">.p-3634806 .pagelayer-heading-holder *{font-family: Montserrat !important; font-size: 30px !important; font-style:  !important; font-weight: 400 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-3634806 .pagelayer-heading-holder{font-family: Montserrat !important; font-size: 30px !important; font-style:  !important; font-weight: 400 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder">Explore Our<br /></div>
+		
+			</div>
+<div pagelayer-id="ngg3527" class="p-ngg3527 pagelayer-heading">
+<style pagelayer-style-id="ngg3527">.p-ngg3527 .pagelayer-heading-holder *{color:#ff0000;font-family: Oswald !important; font-size: 35px !important; font-style:  !important; font-weight: 800 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-ngg3527 .pagelayer-heading-holder{color:#ff0000;font-family: Oswald !important; font-size: 35px !important; font-style:  !important; font-weight: 800 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder">Admin Departments<br /></div>
+		
+			</div>
+<div pagelayer-id="9io8836" class="p-9io8836 pagelayer-divider">
+<style pagelayer-style-id="9io8836">.p-9io8836 .pagelayer-divider-seperator{border-top-style: solid;border-top-color: #999;border-top-width: 1px;width: 60%}
+.p-9io8836 .pagelayer-divider-holder{padding-top: 5px; padding-bottom: 5px;text-align: left}
+</style><div class="pagelayer-divider-holder">
+			<span class="pagelayer-divider-seperator"></span>
+		</div></div>
+</div></div>
+</div></div>
+<div pagelayer-id="fq44550" class="p-fq44550 pagelayer-row pagelayer-row-stretch-auto pagelayer-height-default fadeInUp pagelayer-wow" id="admissions">
+<style pagelayer-style-id="fq44550">.p-fq44550 .pagelayer-col-holder{padding: 10px}
+.p-fq44550 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-fq44550 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-fq44550 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-fq44550 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-fq44550 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+.p-fq44550{padding-top: 20px; padding-right: 0px; padding-bottom: 20px; padding-left: 0px;-webkit-animation-delay: 600ms; animation-delay: 600ms}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="owx1871" class="p-owx1871 pagelayer-col">
+<style pagelayer-style-id="owx1871">.p-owx1871 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="xyv5290" class="p-xyv5290 pagelayer-inner_row pagelayer-row-stretch-auto pagelayer-height-default">
+<style pagelayer-style-id="xyv5290">.p-xyv5290 .pagelayer-col-holder{padding: 10px}
+.p-xyv5290 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-xyv5290 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-xyv5290 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-xyv5290 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-xyv5290 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="8er7637" class="p-8er7637 pagelayer-col pagelayer-col-4 pagelayer-animation-float">
+<style pagelayer-style-id="8er7637">.p-8er7637 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-8er7637{background: #ff0000;padding-top: 50px; padding-right: 10px; padding-bottom: 50px; padding-left: 10px}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="llg2682" class="p-llg2682 pagelayer-icon">
+<style pagelayer-style-id="llg2682">.p-llg2682 i{padding: calc(0.5em + 10px);height: 1em; width: 1em; position: relative; color: #ffffff;-webkit-transition: all 400ms; transition: all 400ms}
+.p-llg2682{text-align: left}
+.p-llg2682 i:before{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)}
+.p-llg2682 i:hover:before{-webkit-transition: all 400ms; transition: all 400ms}
+</style><div class="pagelayer-icon-holder">
+					
+						<i class="fas fa-user-graduate {{bg_shape}} pagelayer-icon-double-large pagelayer-animation-{{anim_hover}}"></i>
+					
+				</div></div>
+<div pagelayer-id="od18126" class="p-od18126 pagelayer-divider">
+<style pagelayer-style-id="od18126">.p-od18126 .pagelayer-divider-seperator{border-top-style: solid;border-top-color: #ffffff;border-top-width: 2px;width: 65%}
+.p-od18126 .pagelayer-divider-holder{padding-top: 5px; padding-bottom: 5px;text-align: left}
+</style><div class="pagelayer-divider-holder">
+			<span class="pagelayer-divider-seperator"></span>
+		</div></div>
+<div pagelayer-id="4818988" class="p-4818988 pagelayer-heading">
+<style pagelayer-style-id="4818988">.p-4818988 .pagelayer-heading-holder *{color:#ffffff;font-family: Montserrat !important; font-size: 25px !important; font-style:  !important; font-weight: 800 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-4818988 .pagelayer-heading-holder{color:#ffffff;font-family: Montserrat !important; font-size: 25px !important; font-style:  !important; font-weight: 800 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder">Admissions</div>
+		
+			</div>
+<div pagelayer-id="isg1902" class="p-isg1902 pagelayer-heading">
+<style pagelayer-style-id="isg1902">.p-isg1902 .pagelayer-heading-holder *{color:#ffffff;font-family: Montserrat !important; font-size: 18px !important; font-style:  !important; font-weight: 400 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-isg1902 .pagelayer-heading-holder{color:#ffffff;font-family: Montserrat !important; font-size: 18px !important; font-style:  !important; font-weight: 400 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder">Department</div>
+		
+			</div>
+<div pagelayer-id="nyv2021" class="p-nyv2021 pagelayer-divider">
+<style pagelayer-style-id="nyv2021">.p-nyv2021 .pagelayer-divider-seperator{border-top-style: solid;border-top-color: rgba(255,255,255,0.00);border-top-width: 2px;width: 65%}
+.p-nyv2021 .pagelayer-divider-holder{padding-top: 5px; padding-bottom: 5px;text-align: left}
+</style><div class="pagelayer-divider-holder">
+			<span class="pagelayer-divider-seperator"></span>
+		</div></div>
+<div pagelayer-id="sz88694" class="p-sz88694 pagelayer-btn">
+<style pagelayer-style-id="sz88694">.p-sz88694 .pagelayer-btn-text{font-family: Montserrat; font-size: 12px !important; font-style:  !important; font-weight: 600 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-sz88694 .pagelayer-btn-holder{font-family: Montserrat; font-size: 12px !important; font-style:  !important; font-weight: 600 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important;background-color: #ffffff;color: #ea0505;-webkit-transition: all 400ms !important; transition: all 400ms !important;border-color: #42414f}
+.p-sz88694{text-align: left}
+.p-sz88694 .pagelayer-btn-anim-thin{background-color: unset !important;border-style: unset !important}
+.p-sz88694 .pagelayer-btn-anim-thin::before{background-color: #ffffff}
+.p-sz88694 .pagelayer-btn-anim-thin::after{background-color: #ffffff}
+.p-sz88694 .pagelayer-btn-icon{padding: 0 5px}
+.p-sz88694 .pagelayer-btn-holder, .p-sz88694 .pagelayer-btn-anim-thin:after, .p-sz88694 .pagelayer-btn-anim-thin:before{border-style: solid;border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px}
+.p-sz88694 .pagelayer-btn-holder, .p-sz88694 .pagelayer-btn-anim-glow:before{border-radius: 15px 15px 15px 15px; -webkit-border-radius:  15px 15px 15px 15px;-moz-border-radius: 15px 15px 15px 15px}
+</style><a class="pagelayer-btn-holder pagelayer-ele-link pagelayer-btn-custom pagelayer-btn-mini pagelayer-btn-icon-left" href="https://bulawayopolytechnic.ac.zw/contact-us/">
+					<i class="fas fa-angle-right pagelayer-btn-icon"></i>
+					<span class="pagelayer-btn-text">Contact Us</span>
+					<i class="fas fa-angle-right pagelayer-btn-icon"></i>
+				</a></div>
+</div></div>
+<div pagelayer-id="7qk8252" class="p-7qk8252 pagelayer-col pagelayer-col-4 pagelayer-animation-float">
+<style pagelayer-style-id="7qk8252">.p-7qk8252 .pagelayer-col-holder > div:not(:last-child){margin-bottom: 15px}
+.p-7qk8252 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="sat1405" class="p-sat1405 pagelayer-inner_row pagelayer-row-stretch-auto pagelayer-height-default">
+<style pagelayer-style-id="sat1405">.p-sat1405 .pagelayer-col-holder{padding: 10px}
+.p-sat1405 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-sat1405 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-sat1405 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-sat1405 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-sat1405 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="cim4851" class="p-cim4851 pagelayer-col">
+<style pagelayer-style-id="cim4851">.p-cim4851 .pagelayer-col-holder > div:not(:last-child){margin-bottom: 5px}
+.p-cim4851 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="kkc2413" class="p-kkc2413 pagelayer-heading">
+<style pagelayer-style-id="kkc2413">.p-kkc2413 .pagelayer-heading-holder *{font-family: Oswald !important; font-size: 18px !important; font-style:  !important; font-weight: 700 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.2em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-kkc2413 .pagelayer-heading-holder{font-family: Oswald !important; font-size: 18px !important; font-style:  !important; font-weight: 700 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.2em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder">About Admissions<br /></div>
+		
+			</div>
+<div pagelayer-id="f5p4305" class="p-f5p4305 pagelayer-divider">
+<style pagelayer-style-id="f5p4305">.p-f5p4305 .pagelayer-divider-seperator{border-top-style: solid;border-top-color: #999;border-top-width: 1px;width: 100%}
+.p-f5p4305 .pagelayer-divider-holder{padding-top: 5px; padding-bottom: 5px;text-align: center}
+</style><div class="pagelayer-divider-holder">
+			<span class="pagelayer-divider-seperator"></span>
+		</div></div>
+<div pagelayer-id="5at3035" class="p-5at3035 pagelayer-heading">
+<style pagelayer-style-id="5at3035">.p-5at3035 .pagelayer-heading-holder *{font-family: Open Sans !important; font-size: 13px !important; font-style:  !important; font-weight: 400 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.2em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-5at3035 .pagelayer-heading-holder{font-family: Open Sans !important; font-size: 13px !important; font-style:  !important; font-weight: 400 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.2em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder">The Admissions Section, which falls under the Registrar's Department, is situated in the Administration Building and is responsible for handling all Student applications for higher national diploma, diploma, and national certificate programmes, including city & guilds courses, BTech programmes and short courses for credit, while applications for non-credit short-courses are handled by the Centre for Adult and Continued Education.</div>
+		
+			</div>
+<div pagelayer-id="q3b4129" class="p-q3b4129 pagelayer-heading">
+<style pagelayer-style-id="q3b4129">.p-q3b4129 .pagelayer-heading-holder *{font-family: Open Sans !important; font-size: 13px !important; font-style:  !important; font-weight: 400 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.2em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-q3b4129 .pagelayer-heading-holder{font-family: Open Sans !important; font-size: 13px !important; font-style:  !important; font-weight: 400 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.2em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder">Apart from processing applications for admission, the Section is also responsible for production of student and staff I.D. Cards, coordinating the registration of students, maintenance of records for all students, keeping scholarship records, dispatch of examination results to individual students, writing of students' transcripts, ordering of certificates and academic dress. The Sections plays an active role in the preparation for graduation ceremonies, and conducts Elections for the Student Representative Council.</div>
+		
+			</div>
+</div></div>
+</div></div>
+</div></div>
+</div></div>
+</div></div>
+</div></div>
+<div pagelayer-id="joe7002" class="p-joe7002 pagelayer-row pagelayer-row-stretch-auto pagelayer-height-default">
+<style pagelayer-style-id="joe7002">.p-joe7002 .pagelayer-col-holder{padding: 10px}
+.p-joe7002 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-joe7002 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-joe7002 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-joe7002 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-joe7002 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+.p-joe7002{background-image: url("https://bulawayopolytechnic.ac.zw/sitepad-data/uploads/2022/12/Slide2.jpg");background-attachment: fixed;background-position-x: center;background-position-y: center;background-repeat: no-repeat;background-size: cover;padding-top: 50px; padding-right: 0px; padding-bottom: 50px; padding-left: 0px}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="frn8565" class="p-frn8565 pagelayer-col">
+<style pagelayer-style-id="frn8565">.p-frn8565 .pagelayer-col-holder > div:not(:last-child){margin-bottom: 15px}
+.p-frn8565 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+</div></div>
+</div></div>
+<div pagelayer-id="3ce7551" class="p-3ce7551 pagelayer-row pagelayer-row-stretch-auto pagelayer-height-default" id="accounts">
+<style pagelayer-style-id="3ce7551">.p-3ce7551 .pagelayer-col-holder{padding: 10px}
+.p-3ce7551 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-3ce7551 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-3ce7551 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-3ce7551 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-3ce7551 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+.p-3ce7551{padding-top: 20px; padding-right: 0px; padding-bottom: 20px; padding-left: 0px}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="d267690" class="p-d267690 pagelayer-col">
+<style pagelayer-style-id="d267690">.p-d267690 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="eyv7466" class="p-eyv7466 pagelayer-inner_row pagelayer-row-stretch-auto pagelayer-height-default">
+<style pagelayer-style-id="eyv7466">.p-eyv7466 .pagelayer-col-holder{padding: 10px}
+.p-eyv7466 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-eyv7466 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-eyv7466 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-eyv7466 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-eyv7466 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="tgm2408" class="p-tgm2408 pagelayer-col pagelayer-col-4 pagelayer-animation-float">
+<style pagelayer-style-id="tgm2408">.p-tgm2408 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-tgm2408{background: #ff0000;padding-top: 50px; padding-right: 10px; padding-bottom: 50px; padding-left: 10px}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="1a21942" class="p-1a21942 pagelayer-icon">
+<style pagelayer-style-id="1a21942">.p-1a21942 i{padding: calc(0.5em + 10px);height: 1em; width: 1em; position: relative; color: #ffffff;-webkit-transition: all 400ms; transition: all 400ms}
+.p-1a21942{text-align: left}
+.p-1a21942 i:before{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)}
+.p-1a21942 i:hover:before{-webkit-transition: all 400ms; transition: all 400ms}
+</style><div class="pagelayer-icon-holder">
+					
+						<i class="fas fa-calculator {{bg_shape}} pagelayer-icon-double-large pagelayer-animation-{{anim_hover}}"></i>
+					
+				</div></div>
+<div pagelayer-id="lel2524" class="p-lel2524 pagelayer-divider">
+<style pagelayer-style-id="lel2524">.p-lel2524 .pagelayer-divider-seperator{border-top-style: solid;border-top-color: #ffffff;border-top-width: 2px;width: 65%}
+.p-lel2524 .pagelayer-divider-holder{padding-top: 5px; padding-bottom: 5px;text-align: left}
+</style><div class="pagelayer-divider-holder">
+			<span class="pagelayer-divider-seperator"></span>
+		</div></div>
+<div pagelayer-id="7ai1234" class="p-7ai1234 pagelayer-heading">
+<style pagelayer-style-id="7ai1234">.p-7ai1234 .pagelayer-heading-holder *{color:#ffffff;font-family: Montserrat !important; font-size: 25px !important; font-style:  !important; font-weight: 800 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-7ai1234 .pagelayer-heading-holder{color:#ffffff;font-family: Montserrat !important; font-size: 25px !important; font-style:  !important; font-weight: 800 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder">Accounts</div>
+		
+			</div>
+<div pagelayer-id="w1n1063" class="p-w1n1063 pagelayer-heading">
+<style pagelayer-style-id="w1n1063">.p-w1n1063 .pagelayer-heading-holder *{color:#ffffff;font-family: Montserrat !important; font-size: 18px !important; font-style:  !important; font-weight: 400 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-w1n1063 .pagelayer-heading-holder{color:#ffffff;font-family: Montserrat !important; font-size: 18px !important; font-style:  !important; font-weight: 400 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder">Department</div>
+		
+			</div>
+<div pagelayer-id="k4k3270" class="p-k4k3270 pagelayer-divider">
+<style pagelayer-style-id="k4k3270">.p-k4k3270 .pagelayer-divider-seperator{border-top-style: solid;border-top-color: rgba(255,255,255,0.00);border-top-width: 2px;width: 65%}
+.p-k4k3270 .pagelayer-divider-holder{padding-top: 5px; padding-bottom: 5px;text-align: left}
+</style><div class="pagelayer-divider-holder">
+			<span class="pagelayer-divider-seperator"></span>
+		</div></div>
+<div pagelayer-id="rea9884" class="p-rea9884 pagelayer-btn">
+<style pagelayer-style-id="rea9884">.p-rea9884 .pagelayer-btn-text{font-family: Montserrat; font-size: 12px !important; font-style:  !important; font-weight: 600 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-rea9884 .pagelayer-btn-holder{font-family: Montserrat; font-size: 12px !important; font-style:  !important; font-weight: 600 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important;background-color: #ffffff;color: #ea0505;-webkit-transition: all 400ms !important; transition: all 400ms !important;border-color: #42414f}
+.p-rea9884{text-align: left}
+.p-rea9884 .pagelayer-btn-anim-thin{background-color: unset !important;border-style: unset !important}
+.p-rea9884 .pagelayer-btn-anim-thin::before{background-color: #ffffff}
+.p-rea9884 .pagelayer-btn-anim-thin::after{background-color: #ffffff}
+.p-rea9884 .pagelayer-btn-icon{padding: 0 5px}
+.p-rea9884 .pagelayer-btn-holder, .p-rea9884 .pagelayer-btn-anim-thin:after, .p-rea9884 .pagelayer-btn-anim-thin:before{border-style: solid;border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px}
+.p-rea9884 .pagelayer-btn-holder, .p-rea9884 .pagelayer-btn-anim-glow:before{border-radius: 15px 15px 15px 15px; -webkit-border-radius:  15px 15px 15px 15px;-moz-border-radius: 15px 15px 15px 15px}
+</style><a class="pagelayer-btn-holder pagelayer-ele-link pagelayer-btn-custom pagelayer-btn-mini pagelayer-btn-icon-left" href="https://bulawayopolytechnic.ac.zw/contact-us/">
+					<i class="fas fa-angle-right pagelayer-btn-icon"></i>
+					<span class="pagelayer-btn-text">Contact Us</span>
+					<i class="fas fa-angle-right pagelayer-btn-icon"></i>
+				</a></div>
+</div></div>
+<div pagelayer-id="oi34628" class="p-oi34628 pagelayer-col pagelayer-col-4 pagelayer-animation-float">
+<style pagelayer-style-id="oi34628">.p-oi34628 .pagelayer-col-holder > div:not(:last-child){margin-bottom: 15px}
+.p-oi34628 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="xle5354" class="p-xle5354 pagelayer-inner_row pagelayer-row-stretch-auto pagelayer-height-default">
+<style pagelayer-style-id="xle5354">.p-xle5354 .pagelayer-col-holder{padding: 10px}
+.p-xle5354 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-xle5354 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-xle5354 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-xle5354 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-xle5354 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="cxm4066" class="p-cxm4066 pagelayer-col">
+<style pagelayer-style-id="cxm4066">.p-cxm4066 .pagelayer-col-holder > div:not(:last-child){margin-bottom: 5px}
+.p-cxm4066 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="6p84719" class="p-6p84719 pagelayer-heading">
+<style pagelayer-style-id="6p84719">.p-6p84719 .pagelayer-heading-holder *{font-family: Oswald !important; font-size: 18px !important; font-style:  !important; font-weight: 700 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.2em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-6p84719 .pagelayer-heading-holder{font-family: Oswald !important; font-size: 18px !important; font-style:  !important; font-weight: 700 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.2em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder">About Department<br /></div>
+		
+			</div>
+<div pagelayer-id="hwo6854" class="p-hwo6854 pagelayer-divider">
+<style pagelayer-style-id="hwo6854">.p-hwo6854 .pagelayer-divider-seperator{border-top-style: solid;border-top-color: #999;border-top-width: 1px;width: 100%}
+.p-hwo6854 .pagelayer-divider-holder{padding-top: 5px; padding-bottom: 5px;text-align: center}
+</style><div class="pagelayer-divider-holder">
+			<span class="pagelayer-divider-seperator"></span>
+		</div></div>
+<div pagelayer-id="0ai9142" class="p-0ai9142 pagelayer-heading">
+<style pagelayer-style-id="0ai9142">.p-0ai9142 .pagelayer-heading-holder *{font-family: Open Sans !important; font-size: 13px !important; font-style:  !important; font-weight: 400 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.2em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-0ai9142 .pagelayer-heading-holder{font-family: Open Sans !important; font-size: 13px !important; font-style:  !important; font-weight: 400 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.2em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder">The institution has in place an Accounts management unit made up of qualified personnel and is supported by strong evaluation committees made up of experts from various divisions and departments.</div>
+		
+			</div>
+</div></div>
+</div></div>
+</div></div>
+</div></div>
+</div></div>
+</div></div>
+<div pagelayer-id="ugx982" class="p-ugx982 pagelayer-row pagelayer-row-stretch-auto pagelayer-height-default">
+<style pagelayer-style-id="ugx982">.p-ugx982 .pagelayer-col-holder{padding: 10px}
+.p-ugx982 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-ugx982 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-ugx982 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-ugx982 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-ugx982 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+.p-ugx982{background-image: url("https://bulawayopolytechnic.ac.zw/sitepad-data/uploads/2022/12/Slide2.jpg");background-attachment: fixed;background-position-x: center;background-position-y: center;background-repeat: no-repeat;background-size: cover;padding-top: 50px; padding-right: 0px; padding-bottom: 50px; padding-left: 0px}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="vnr5495" class="p-vnr5495 pagelayer-col">
+<style pagelayer-style-id="vnr5495">.p-vnr5495 .pagelayer-col-holder > div:not(:last-child){margin-bottom: 15px}
+.p-vnr5495 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+</div></div>
+</div></div>
+<div pagelayer-id="t686655" class="p-t686655 pagelayer-row pagelayer-row-stretch-auto pagelayer-height-default" id="hr">
+<style pagelayer-style-id="t686655">.p-t686655 .pagelayer-col-holder{padding: 10px}
+.p-t686655 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-t686655 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-t686655 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-t686655 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-t686655 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+.p-t686655{padding-top: 20px; padding-right: 0px; padding-bottom: 20px; padding-left: 0px}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="udv1070" class="p-udv1070 pagelayer-col">
+<style pagelayer-style-id="udv1070">.p-udv1070 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="dd25708" class="p-dd25708 pagelayer-inner_row pagelayer-row-stretch-auto pagelayer-height-default">
+<style pagelayer-style-id="dd25708">.p-dd25708 .pagelayer-col-holder{padding: 10px}
+.p-dd25708 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-dd25708 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-dd25708 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-dd25708 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-dd25708 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="dxv3819" class="p-dxv3819 pagelayer-col pagelayer-col-4 pagelayer-animation-float">
+<style pagelayer-style-id="dxv3819">.p-dxv3819 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-dxv3819{background: #ff0000;padding-top: 50px; padding-right: 10px; padding-bottom: 50px; padding-left: 10px}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="w7w7311" class="p-w7w7311 pagelayer-icon">
+<style pagelayer-style-id="w7w7311">.p-w7w7311 i{padding: calc(0.5em + 10px);height: 1em; width: 1em; position: relative; color: #ffffff;-webkit-transition: all 400ms; transition: all 400ms}
+.p-w7w7311{text-align: left}
+.p-w7w7311 i:before{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)}
+.p-w7w7311 i:hover:before{-webkit-transition: all 400ms; transition: all 400ms}
+</style><div class="pagelayer-icon-holder">
+					
+						<i class="fas fa-users {{bg_shape}} pagelayer-icon-double-large pagelayer-animation-{{anim_hover}}"></i>
+					
+				</div></div>
+<div pagelayer-id="gu55467" class="p-gu55467 pagelayer-divider">
+<style pagelayer-style-id="gu55467">.p-gu55467 .pagelayer-divider-seperator{border-top-style: solid;border-top-color: #ffffff;border-top-width: 2px;width: 65%}
+.p-gu55467 .pagelayer-divider-holder{padding-top: 5px; padding-bottom: 5px;text-align: left}
+</style><div class="pagelayer-divider-holder">
+			<span class="pagelayer-divider-seperator"></span>
+		</div></div>
+<div pagelayer-id="uo34011" class="p-uo34011 pagelayer-heading">
+<style pagelayer-style-id="uo34011">.p-uo34011 .pagelayer-heading-holder *{color:#ffffff;font-family: Montserrat !important; font-size: 25px !important; font-style:  !important; font-weight: 800 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-uo34011 .pagelayer-heading-holder{color:#ffffff;font-family: Montserrat !important; font-size: 25px !important; font-style:  !important; font-weight: 800 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder">Human Resources<br /></div>
+		
+			</div>
+<div pagelayer-id="gpl2558" class="p-gpl2558 pagelayer-heading">
+<style pagelayer-style-id="gpl2558">.p-gpl2558 .pagelayer-heading-holder *{color:#ffffff;font-family: Montserrat !important; font-size: 18px !important; font-style:  !important; font-weight: 400 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-gpl2558 .pagelayer-heading-holder{color:#ffffff;font-family: Montserrat !important; font-size: 18px !important; font-style:  !important; font-weight: 400 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder">Department</div>
+		
+			</div>
+<div pagelayer-id="qkh2745" class="p-qkh2745 pagelayer-divider">
+<style pagelayer-style-id="qkh2745">.p-qkh2745 .pagelayer-divider-seperator{border-top-style: solid;border-top-color: rgba(255,255,255,0.00);border-top-width: 2px;width: 65%}
+.p-qkh2745 .pagelayer-divider-holder{padding-top: 5px; padding-bottom: 5px;text-align: left}
+</style><div class="pagelayer-divider-holder">
+			<span class="pagelayer-divider-seperator"></span>
+		</div></div>
+<div pagelayer-id="b5x5076" class="p-b5x5076 pagelayer-btn">
+<style pagelayer-style-id="b5x5076">.p-b5x5076 .pagelayer-btn-text{font-family: Montserrat; font-size: 12px !important; font-style:  !important; font-weight: 600 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-b5x5076 .pagelayer-btn-holder{font-family: Montserrat; font-size: 12px !important; font-style:  !important; font-weight: 600 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important;background-color: #ffffff;color: #ea0505;-webkit-transition: all 400ms !important; transition: all 400ms !important;border-color: #42414f}
+.p-b5x5076{text-align: left}
+.p-b5x5076 .pagelayer-btn-anim-thin{background-color: unset !important;border-style: unset !important}
+.p-b5x5076 .pagelayer-btn-anim-thin::before{background-color: #ffffff}
+.p-b5x5076 .pagelayer-btn-anim-thin::after{background-color: #ffffff}
+.p-b5x5076 .pagelayer-btn-icon{padding: 0 5px}
+.p-b5x5076 .pagelayer-btn-holder, .p-b5x5076 .pagelayer-btn-anim-thin:after, .p-b5x5076 .pagelayer-btn-anim-thin:before{border-style: solid;border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px}
+.p-b5x5076 .pagelayer-btn-holder, .p-b5x5076 .pagelayer-btn-anim-glow:before{border-radius: 15px 15px 15px 15px; -webkit-border-radius:  15px 15px 15px 15px;-moz-border-radius: 15px 15px 15px 15px}
+</style><a class="pagelayer-btn-holder pagelayer-ele-link pagelayer-btn-custom pagelayer-btn-mini pagelayer-btn-icon-left" href="https://bulawayopolytechnic.ac.zw/contact-us/">
+					<i class="fas fa-angle-right pagelayer-btn-icon"></i>
+					<span class="pagelayer-btn-text">Contact Us</span>
+					<i class="fas fa-angle-right pagelayer-btn-icon"></i>
+				</a></div>
+</div></div>
+<div pagelayer-id="1uq9811" class="p-1uq9811 pagelayer-col pagelayer-col-4">
+<style pagelayer-style-id="1uq9811">.p-1uq9811 .pagelayer-col-holder > div:not(:last-child){margin-bottom: 15px}
+.p-1uq9811 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="dxj7201" class="p-dxj7201 pagelayer-inner_row pagelayer-row-stretch-auto pagelayer-height-default">
+<style pagelayer-style-id="dxj7201">.p-dxj7201 .pagelayer-col-holder{padding: 10px}
+.p-dxj7201 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-dxj7201 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-dxj7201 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-dxj7201 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-dxj7201 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="kg57849" class="p-kg57849 pagelayer-col pagelayer-animation-float">
+<style pagelayer-style-id="kg57849">.p-kg57849 .pagelayer-col-holder > div:not(:last-child){margin-bottom: 5px}
+.p-kg57849 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="hvz5388" class="p-hvz5388 pagelayer-heading">
+<style pagelayer-style-id="hvz5388">.p-hvz5388 .pagelayer-heading-holder *{font-family: Oswald !important; font-size: 18px !important; font-style:  !important; font-weight: 700 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.2em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-hvz5388 .pagelayer-heading-holder{font-family: Oswald !important; font-size: 18px !important; font-style:  !important; font-weight: 700 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.2em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder">About Department<br /></div>
+		
+			</div>
+<div pagelayer-id="ezm8874" class="p-ezm8874 pagelayer-divider">
+<style pagelayer-style-id="ezm8874">.p-ezm8874 .pagelayer-divider-seperator{border-top-style: solid;border-top-color: #999;border-top-width: 1px;width: 100%}
+.p-ezm8874 .pagelayer-divider-holder{padding-top: 5px; padding-bottom: 5px;text-align: center}
+</style><div class="pagelayer-divider-holder">
+			<span class="pagelayer-divider-seperator"></span>
+		</div></div>
+<div pagelayer-id="pyu6098" class="p-pyu6098 pagelayer-heading">
+<style pagelayer-style-id="pyu6098">.p-pyu6098 .pagelayer-heading-holder *{font-family: Open Sans !important; font-size: 13px !important; font-style:  !important; font-weight: 400 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.2em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-pyu6098 .pagelayer-heading-holder{font-family: Open Sans !important; font-size: 13px !important; font-style:  !important; font-weight: 400 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.2em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder">The institution has in place a Human Resources Management unit made up of qualified personnel and is supported by strong evaluation committees made up of experts from various divisions and departments.</div>
+		
+			</div>
+</div></div>
+</div></div>
+</div></div>
+</div></div>
+</div></div>
+</div></div>
+<div pagelayer-id="gov3387" class="p-gov3387 pagelayer-row pagelayer-row-stretch-auto pagelayer-height-default">
+<style pagelayer-style-id="gov3387">.p-gov3387 .pagelayer-col-holder{padding: 10px}
+.p-gov3387 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-gov3387 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-gov3387 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-gov3387 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-gov3387 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+.p-gov3387{background-image: url("https://bulawayopolytechnic.ac.zw/sitepad-data/uploads/2022/12/Slide2.jpg");background-attachment: fixed;background-position-x: center;background-position-y: center;background-repeat: no-repeat;background-size: cover;padding-top: 50px; padding-right: 0px; padding-bottom: 50px; padding-left: 0px}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="wyc9945" class="p-wyc9945 pagelayer-col">
+<style pagelayer-style-id="wyc9945">.p-wyc9945 .pagelayer-col-holder > div:not(:last-child){margin-bottom: 15px}
+.p-wyc9945 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+</div></div>
+</div></div>
+<div pagelayer-id="e175227" class="p-e175227 pagelayer-row pagelayer-row-stretch-auto pagelayer-height-default" id="procurement">
+<style pagelayer-style-id="e175227">.p-e175227 .pagelayer-col-holder{padding: 10px}
+.p-e175227 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-e175227 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-e175227 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-e175227 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-e175227 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+.p-e175227{padding-top: 20px; padding-right: 0px; padding-bottom: 20px; padding-left: 0px}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="ugj5373" class="p-ugj5373 pagelayer-col">
+<style pagelayer-style-id="ugj5373">.p-ugj5373 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="asa102" class="p-asa102 pagelayer-inner_row pagelayer-row-stretch-auto pagelayer-height-default">
+<style pagelayer-style-id="asa102">.p-asa102 .pagelayer-col-holder{padding: 10px}
+.p-asa102 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-asa102 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-asa102 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-asa102 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-asa102 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="3dm7937" class="p-3dm7937 pagelayer-col pagelayer-col-4 pagelayer-animation-float">
+<style pagelayer-style-id="3dm7937">.p-3dm7937 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-3dm7937{background: #ff0000;padding-top: 50px; padding-right: 10px; padding-bottom: 50px; padding-left: 10px}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="1ea2764" class="p-1ea2764 pagelayer-icon">
+<style pagelayer-style-id="1ea2764">.p-1ea2764 i{padding: calc(0.5em + 10px);height: 1em; width: 1em; position: relative; color: #ffffff;-webkit-transition: all 400ms; transition: all 400ms}
+.p-1ea2764{text-align: left}
+.p-1ea2764 i:before{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)}
+.p-1ea2764 i:hover:before{-webkit-transition: all 400ms; transition: all 400ms}
+</style><div class="pagelayer-icon-holder">
+					
+						<i class="fas fa-luggage-cart {{bg_shape}} pagelayer-icon-double-large pagelayer-animation-{{anim_hover}}"></i>
+					
+				</div></div>
+<div pagelayer-id="thc4921" class="p-thc4921 pagelayer-divider">
+<style pagelayer-style-id="thc4921">.p-thc4921 .pagelayer-divider-seperator{border-top-style: solid;border-top-color: #ffffff;border-top-width: 2px;width: 65%}
+.p-thc4921 .pagelayer-divider-holder{padding-top: 5px; padding-bottom: 5px;text-align: left}
+</style><div class="pagelayer-divider-holder">
+			<span class="pagelayer-divider-seperator"></span>
+		</div></div>
+<div pagelayer-id="wa9229" class="p-wa9229 pagelayer-heading">
+<style pagelayer-style-id="wa9229">.p-wa9229 .pagelayer-heading-holder *{color:#ffffff;font-family: Montserrat !important; font-size: 25px !important; font-style:  !important; font-weight: 800 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-wa9229 .pagelayer-heading-holder{color:#ffffff;font-family: Montserrat !important; font-size: 25px !important; font-style:  !important; font-weight: 800 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder">Procurement<br /></div>
+		
+			</div>
+<div pagelayer-id="jba9163" class="p-jba9163 pagelayer-heading">
+<style pagelayer-style-id="jba9163">.p-jba9163 .pagelayer-heading-holder *{color:#ffffff;font-family: Montserrat !important; font-size: 18px !important; font-style:  !important; font-weight: 400 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-jba9163 .pagelayer-heading-holder{color:#ffffff;font-family: Montserrat !important; font-size: 18px !important; font-style:  !important; font-weight: 400 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder">Department</div>
+		
+			</div>
+<div pagelayer-id="jfm9790" class="p-jfm9790 pagelayer-divider">
+<style pagelayer-style-id="jfm9790">.p-jfm9790 .pagelayer-divider-seperator{border-top-style: solid;border-top-color: rgba(255,255,255,0.00);border-top-width: 2px;width: 65%}
+.p-jfm9790 .pagelayer-divider-holder{padding-top: 5px; padding-bottom: 5px;text-align: left}
+</style><div class="pagelayer-divider-holder">
+			<span class="pagelayer-divider-seperator"></span>
+		</div></div>
+<div pagelayer-id="mn32697" class="p-mn32697 pagelayer-btn">
+<style pagelayer-style-id="mn32697">.p-mn32697 .pagelayer-btn-text{font-family: Montserrat; font-size: 12px !important; font-style:  !important; font-weight: 600 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-mn32697 .pagelayer-btn-holder{font-family: Montserrat; font-size: 12px !important; font-style:  !important; font-weight: 600 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important;background-color: #ffffff;color: #ea0505;-webkit-transition: all 400ms !important; transition: all 400ms !important;border-color: #42414f}
+.p-mn32697{text-align: left}
+.p-mn32697 .pagelayer-btn-anim-thin{background-color: unset !important;border-style: unset !important}
+.p-mn32697 .pagelayer-btn-anim-thin::before{background-color: #ffffff}
+.p-mn32697 .pagelayer-btn-anim-thin::after{background-color: #ffffff}
+.p-mn32697 .pagelayer-btn-icon{padding: 0 5px}
+.p-mn32697 .pagelayer-btn-holder, .p-mn32697 .pagelayer-btn-anim-thin:after, .p-mn32697 .pagelayer-btn-anim-thin:before{border-style: solid;border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px}
+.p-mn32697 .pagelayer-btn-holder, .p-mn32697 .pagelayer-btn-anim-glow:before{border-radius: 15px 15px 15px 15px; -webkit-border-radius:  15px 15px 15px 15px;-moz-border-radius: 15px 15px 15px 15px}
+</style><a class="pagelayer-btn-holder pagelayer-ele-link pagelayer-btn-custom pagelayer-btn-mini pagelayer-btn-icon-left" href="https://bulawayopolytechnic.ac.zw/contact-us/">
+					<i class="fas fa-angle-right pagelayer-btn-icon"></i>
+					<span class="pagelayer-btn-text">Contact Us</span>
+					<i class="fas fa-angle-right pagelayer-btn-icon"></i>
+				</a></div>
+</div></div>
+<div pagelayer-id="uxo2779" class="p-uxo2779 pagelayer-col pagelayer-col-4">
+<style pagelayer-style-id="uxo2779">.p-uxo2779 .pagelayer-col-holder > div:not(:last-child){margin-bottom: 15px}
+.p-uxo2779 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="4oh9595" class="p-4oh9595 pagelayer-inner_row pagelayer-row-stretch-auto pagelayer-height-default">
+<style pagelayer-style-id="4oh9595">.p-4oh9595 .pagelayer-col-holder{padding: 10px}
+.p-4oh9595 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-4oh9595 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-4oh9595 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-4oh9595 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-4oh9595 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="ntr9690" class="p-ntr9690 pagelayer-col pagelayer-animation-float">
+<style pagelayer-style-id="ntr9690">.p-ntr9690 .pagelayer-col-holder > div:not(:last-child){margin-bottom: 6px}
+.p-ntr9690 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="gqk4152" class="p-gqk4152 pagelayer-heading">
+<style pagelayer-style-id="gqk4152">.p-gqk4152 .pagelayer-heading-holder *{font-family: Oswald !important; font-size: 18px !important; font-style:  !important; font-weight: 700 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.2em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-gqk4152 .pagelayer-heading-holder{font-family: Oswald !important; font-size: 18px !important; font-style:  !important; font-weight: 700 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.2em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder">About Department<br /></div>
+		
+			</div>
+<div pagelayer-id="tnc9304" class="p-tnc9304 pagelayer-divider">
+<style pagelayer-style-id="tnc9304">.p-tnc9304 .pagelayer-divider-seperator{border-top-style: solid;border-top-color: #999;border-top-width: 1px;width: 100%}
+.p-tnc9304 .pagelayer-divider-holder{padding-top: 5px; padding-bottom: 5px;text-align: center}
+</style><div class="pagelayer-divider-holder">
+			<span class="pagelayer-divider-seperator"></span>
+		</div></div>
+<div pagelayer-id="f5h9627" class="p-f5h9627 pagelayer-heading">
+<style pagelayer-style-id="f5h9627">.p-f5h9627 .pagelayer-heading-holder *{font-family: Open Sans !important; font-size: 13px !important; font-style:  !important; font-weight: 400 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.2em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-f5h9627 .pagelayer-heading-holder{font-family: Open Sans !important; font-size: 13px !important; font-style:  !important; font-weight: 400 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.2em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder">The institution has in place a procurement management unit made up of qualified personnel and is supported by strong evaluation committees made up of experts from various divisions and departments.</div>
+		
+			</div>
+<div pagelayer-id="ryf8414" class="p-ryf8414 pagelayer-heading">
+<style pagelayer-style-id="ryf8414">.p-ryf8414 .pagelayer-heading-holder *{font-family: Open Sans !important; font-size: 13px !important; font-style:  !important; font-weight: 400 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.2em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-ryf8414 .pagelayer-heading-holder{font-family: Open Sans !important; font-size: 13px !important; font-style:  !important; font-weight: 400 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.2em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder">All procurement processes are done in accordance with the Public Procurement and Disposal of Public Assets Act Chapter 22.23.</div>
+		
+			</div>
+<div pagelayer-id="o4c4941" class="p-o4c4941 pagelayer-divider">
+<style pagelayer-style-id="o4c4941">.p-o4c4941 .pagelayer-divider-seperator{border-top-style: solid;border-top-color: #999;border-top-width: 1px;width: 100%}
+.p-o4c4941 .pagelayer-divider-holder{padding-top: 5px; padding-bottom: 5px;text-align: center}
+</style><div class="pagelayer-divider-holder">
+			<span class="pagelayer-divider-seperator"></span>
+		</div></div>
+<div pagelayer-id="ve54344" class="p-ve54344 pagelayer-heading">
+<style pagelayer-style-id="ve54344">.p-ve54344 .pagelayer-heading-holder *{font-family: Oswald !important; font-size: 18px !important; font-style:  !important; font-weight: 700 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.2em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-ve54344 .pagelayer-heading-holder{font-family: Oswald !important; font-size: 18px !important; font-style:  !important; font-weight: 700 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.2em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder">Our Procurement Policy<br /></div>
+		
+			</div>
+<div pagelayer-id="puo7819" class="p-puo7819 pagelayer-heading">
+<style pagelayer-style-id="puo7819">.p-puo7819 .pagelayer-heading-holder *{font-family: Open Sans !important; font-size: 13px !important; font-style:  !important; font-weight: 400 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.2em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-puo7819 .pagelayer-heading-holder{font-family: Open Sans !important; font-size: 13px !important; font-style:  !important; font-weight: 400 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.2em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder">Most of our Procurement requirements are satisfied mainly through competitive bidding and request for quotations. Bidders are encouraged to check with our procurement notice board found in the main administration block as well as on this website.</div>
+		
+			</div>
+<div pagelayer-id="lie6991" class="p-lie6991 pagelayer-list">
+<style pagelayer-style-id="lie6991">.p-lie6991 li{list-style-type: none;font-family: Open Sans; font-size: 12px !important; font-style:  !important; font-weight:  !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-lie6991 .pagelayer-list-icon-holder{padding-bottom: calc(2px/2); padding-top: calc(2px/2)}
+.p-lie6991 li > a{font-family: Open Sans; font-size: 12px !important; font-style:  !important; font-weight:  !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-lie6991 .pagelayer-list-item{margin-left: 5px}
+.p-lie6991 .pagelayer-list-icon{color:#ff0000}
+</style><ul class="pagelayer-list-ul pagelayer-list-type-none">
+<div pagelayer-id="pmv2039" class="p-pmv2039 pagelayer-list_item">
+<li class="pagelayer-list-li">
+				
+					<span class="pagelayer-list-icon-holder">
+						<i class="pagelayer-list-icon fas fa-caret-right"></i>
+						<span class="pagelayer-list-item">Bidders must be registered with PRAZ for the relevant category(ies) they might want to bid for.</span>
+					</span>
+				
+			</li></div>
+<div pagelayer-id="w7v4296" class="p-w7v4296 pagelayer-list_item">
+<li class="pagelayer-list-li">
+				
+					<span class="pagelayer-list-icon-holder">
+						<i class="pagelayer-list-icon fas fa-caret-right"></i>
+						<span class="pagelayer-list-item">Bidders must be tax compliant</span>
+					</span>
+				
+			</li></div>
+<div pagelayer-id="0gl7824" class="p-0gl7824 pagelayer-list_item">
+<li class="pagelayer-list-li">
+				
+					<span class="pagelayer-list-icon-holder">
+						<i class="pagelayer-list-icon fas fa-caret-right"></i>
+						<span class="pagelayer-list-item">&nbsp;Bidders must be financially and technical eligible to bid</span>
+					</span>
+				
+			</li></div>
+<div pagelayer-id="tub3709" class="p-tub3709 pagelayer-list_item">
+<li class="pagelayer-list-li">
+				
+					<span class="pagelayer-list-icon-holder">
+						<i class="pagelayer-list-icon fas fa-caret-right"></i>
+						<span class="pagelayer-list-item">Bidders must not have been debarred by PRAZ</span>
+					</span>
+				
+			</li></div>
+</ul></div>
+<div pagelayer-id="wga2059" class="p-wga2059 pagelayer-heading">
+<style pagelayer-style-id="wga2059">.p-wga2059 .pagelayer-heading-holder *{font-family: Open Sans !important; font-size: 13px !important; font-style:  !important; font-weight: 400 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.2em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-wga2059 .pagelayer-heading-holder{font-family: Open Sans !important; font-size: 13px !important; font-style:  !important; font-weight: 400 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.2em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder">Bidders are implored to follow ethical practices in the engagement with Bulawayo Polytechnic staff on issues to do with procurement and desist from corrupt tendencies. Bidders are encouraged to read the Act and accompanying Guidelines that are accessible on the PRAZ website.</div>
+		
+			</div>
+</div></div>
+</div></div>
+</div></div>
+</div></div>
+</div></div>
+</div></div>
+<div pagelayer-id="2ze6537" class="p-2ze6537 pagelayer-row pagelayer-row-stretch-auto pagelayer-height-default">
+<style pagelayer-style-id="2ze6537">.p-2ze6537 .pagelayer-col-holder{padding: 10px}
+.p-2ze6537 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-2ze6537 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-2ze6537 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-2ze6537 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-2ze6537 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+.p-2ze6537{background-image: url("https://bulawayopolytechnic.ac.zw/sitepad-data/uploads/2022/12/Slide2.jpg");background-attachment: fixed;background-position-x: center;background-position-y: center;background-repeat: no-repeat;background-size: cover;padding-top: 50px; padding-right: 0px; padding-bottom: 50px; padding-left: 0px}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="nfh179" class="p-nfh179 pagelayer-col">
+<style pagelayer-style-id="nfh179">.p-nfh179 .pagelayer-col-holder > div:not(:last-child){margin-bottom: 15px}
+.p-nfh179 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+</div></div>
+</div></div>
+	</div><!-- .entry-content -->
+
+</article><!-- #post-## -->
+
+		</main><!-- .site-main -->
+	</div><!-- .content-area -->
+
+
+	<footer class="pagelayer-footer"><div pagelayer-id="06k5474" class="p-06k5474 pagelayer-post_props">
+</div>
+<div pagelayer-id="9kl4933" class="p-9kl4933 pagelayer-row pagelayer-row-stretch-auto pagelayer-height-default">
+<style pagelayer-style-id="9kl4933">.p-9kl4933 .pagelayer-col-holder{padding: 10px}
+.p-9kl4933 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-9kl4933 .pagelayer-svg-top .pagelayer-shape-fill{fill:#fff}
+.p-9kl4933 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-9kl4933 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#fff}
+.p-9kl4933 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+.p-9kl4933{background: #df0303;padding-top: 10px; padding-right: 0px; padding-bottom: 30px; padding-left: 0px}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="qdm3034" class="p-qdm3034 pagelayer-col">
+<style pagelayer-style-id="qdm3034">.p-qdm3034 .pagelayer-col-holder > div:not(:last-child){margin-bottom: 10px}
+.p-qdm3034 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="qdz3410" class="p-qdz3410 pagelayer-inner_row pagelayer-row-stretch-auto pagelayer-height-default">
+<style pagelayer-style-id="qdz3410">.p-qdz3410 .pagelayer-col-holder{padding: 10px}
+.p-qdz3410 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-qdz3410 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-qdz3410 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-qdz3410 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-qdz3410 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="eyn6810" class="p-eyn6810 pagelayer-col">
+<style pagelayer-style-id="eyn6810">.p-eyn6810 .pagelayer-col-holder > div:not(:last-child){margin-bottom: 15px}
+.p-eyn6810 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="htt3374" class="p-htt3374 pagelayer-inner_row pagelayer-row-stretch-auto pagelayer-height-default">
+<style pagelayer-style-id="htt3374">.p-htt3374 .pagelayer-col-holder{padding: 10px}
+.p-htt3374 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+.p-htt3374 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3}
+.p-htt3374 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px}
+.p-htt3374 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993}
+.p-htt3374 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px}
+</style>
+			
+			
+			
+			
+			<div class="pagelayer-row-holder pagelayer-row pagelayer-auto pagelayer-width-auto">
+<div pagelayer-id="kls8707" class="p-kls8707 pagelayer-col pagelayer-col-3">
+<style pagelayer-style-id="kls8707">.p-kls8707 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="fqp9404" class="p-fqp9404 pagelayer-heading">
+<style pagelayer-style-id="fqp9404">.p-fqp9404 .pagelayer-heading-holder *{color:#ffffff;font-family: Montserrat !important; font-size: 15px !important; font-style:  !important; font-weight: 700 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-fqp9404 .pagelayer-heading-holder{color:#ffffff;font-family: Montserrat !important; font-size: 15px !important; font-style:  !important; font-weight: 700 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder"><h2>Contact Details</h2></div>
+		
+			</div>
+<div pagelayer-id="ysq4133" class="p-ysq4133 pagelayer-divider">
+<style pagelayer-style-id="ysq4133">.p-ysq4133 .pagelayer-divider-seperator{border-top-style: solid;border-top-color: #ffffff;border-top-width: 1px;width: 25%}
+.p-ysq4133 .pagelayer-divider-holder{padding-top: 5px; padding-bottom: 5px;text-align: left}
+</style><div class="pagelayer-divider-holder">
+			<span class="pagelayer-divider-seperator"></span>
+		</div></div>
+<div pagelayer-id="fgp4310" class="p-fgp4310 pagelayer-heading">
+<style pagelayer-style-id="fgp4310">.p-fgp4310 .pagelayer-heading-holder *{color:#ffffff;font-family: Montserrat !important; font-size: 11px !important; font-style:  !important; font-weight: 500 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.4em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-fgp4310 .pagelayer-heading-holder{color:#ffffff;font-family: Montserrat !important; font-size: 11px !important; font-style:  !important; font-weight: 500 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.4em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder">Bulawayo Polytechnic<br />
+Cnr 12th Ave/Park Rd<br />
+P.O BOX 1392<br />Bulawayo, 
+Zw<br /></div>
+		
+			</div>
+<div pagelayer-id="rut5786" class="p-rut5786 pagelayer-heading">
+<style pagelayer-style-id="rut5786">.p-rut5786 .pagelayer-heading-holder *{color:#ffffff;font-family: Montserrat !important; font-size: 11px !important; font-style:  !important; font-weight: 500 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.4em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-rut5786 .pagelayer-heading-holder{color:#ffffff;font-family: Montserrat !important; font-size: 11px !important; font-style:  !important; font-weight: 500 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.4em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder">Tel: +263 (292) 233181, 233183, 234188<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 234187, 233709, 238674<strong><br />Fax:</strong> +263 (292) 251165</div>
+		
+			</div>
+</div></div>
+<div pagelayer-id="drm7976" class="p-drm7976 pagelayer-col pagelayer-col-3">
+<style pagelayer-style-id="drm7976">.p-drm7976 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="8mm2027" class="p-8mm2027 pagelayer-heading">
+<style pagelayer-style-id="8mm2027">.p-8mm2027 .pagelayer-heading-holder *{color:#ffffff;font-family: Montserrat !important; font-size: 15px !important; font-style:  !important; font-weight: 700 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-8mm2027 .pagelayer-heading-holder{color:#ffffff;font-family: Montserrat !important; font-size: 15px !important; font-style:  !important; font-weight: 700 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder"><h2>Quicklinks</h2></div>
+		
+			</div>
+<div pagelayer-id="5sc7905" class="p-5sc7905 pagelayer-divider">
+<style pagelayer-style-id="5sc7905">.p-5sc7905 .pagelayer-divider-seperator{border-top-style: solid;border-top-color: #ffffff;border-top-width: 1px;width: 25%}
+.p-5sc7905 .pagelayer-divider-holder{padding-top: 5px; padding-bottom: 5px;text-align: left}
+</style><div class="pagelayer-divider-holder">
+			<span class="pagelayer-divider-seperator"></span>
+		</div></div>
+<div pagelayer-id="fgl9098" class="p-fgl9098 pagelayer-list">
+<style pagelayer-style-id="fgl9098">.p-fgl9098 li{list-style-type: none;font-family: Montserrat; font-size: 12px !important; font-style:  !important; font-weight: 500 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.4em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-fgl9098 .pagelayer-list-icon-holder{padding-bottom: calc(5px/2); padding-top: calc(5px/2)}
+.p-fgl9098 .pagelayer-list-item{color:#ffffff;margin-left: 10px}
+.p-fgl9098 li > a{font-family: Montserrat; font-size: 12px !important; font-style:  !important; font-weight: 500 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.4em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-fgl9098 .pagelayer-list-icon{color:#ffffff}
+</style><ul class="pagelayer-list-ul pagelayer-list-type-none">
+<div pagelayer-id="oux3204" class="p-oux3204 pagelayer-list_item">
+<li class="pagelayer-list-li">
+				<a class="pagelayer-list-url pagelayer-ele-link" href="https://bulawayopolytechnic.ac.zw/">
+					<span class="pagelayer-list-icon-holder">
+						<i class="pagelayer-list-icon fas fa-angle-right"></i>
+						<span class="pagelayer-list-item">Go to Home Page</span>
+					</span>
+				</a>
+			</li></div>
+<div pagelayer-id="spq9583" class="p-spq9583 pagelayer-list_item">
+<li class="pagelayer-list-li">
+				<a class="pagelayer-list-url pagelayer-ele-link" href="https://bulawayopolytechnic.ac.zw/about/">
+					<span class="pagelayer-list-icon-holder">
+						<i class="pagelayer-list-icon fas fa-angle-right"></i>
+						<span class="pagelayer-list-item">About Us</span>
+					</span>
+				</a>
+			</li></div>
+<div pagelayer-id="lbi8946" class="p-lbi8946 pagelayer-list_item">
+<li class="pagelayer-list-li">
+				<a class="pagelayer-list-url pagelayer-ele-link" href="https://bulawayopolytechnic.ac.zw/admin-departments/">
+					<span class="pagelayer-list-icon-holder">
+						<i class="pagelayer-list-icon fas fa-angle-right"></i>
+						<span class="pagelayer-list-item">Admin Departments</span>
+					</span>
+				</a>
+			</li></div>
+<div pagelayer-id="e9z7686" class="p-e9z7686 pagelayer-list_item">
+<li class="pagelayer-list-li">
+				<a class="pagelayer-list-url pagelayer-ele-link" href="https://bulawayopolytechnic.ac.zw/applied-art-design/">
+					<span class="pagelayer-list-icon-holder">
+						<i class="pagelayer-list-icon fas fa-angle-right"></i>
+						<span class="pagelayer-list-item">Explore Courses</span>
+					</span>
+				</a>
+			</li></div>
+<div pagelayer-id="8kg8266" class="p-8kg8266 pagelayer-list_item">
+<li class="pagelayer-list-li">
+				<a class="pagelayer-list-url pagelayer-ele-link" href="https://bulawayopolytechnic.ac.zw/contact-us/">
+					<span class="pagelayer-list-icon-holder">
+						<i class="pagelayer-list-icon fas fa-angle-right"></i>
+						<span class="pagelayer-list-item">Get In Touch with Us</span>
+					</span>
+				</a>
+			</li></div>
+</ul></div>
+</div></div>
+<div pagelayer-id="lrp2144" class="p-lrp2144 pagelayer-col pagelayer-col-3">
+<style pagelayer-style-id="lrp2144">.p-lrp2144 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="ei39558" class="p-ei39558 pagelayer-heading">
+<style pagelayer-style-id="ei39558">.p-ei39558 .pagelayer-heading-holder *{color:#ffffff;font-family: Montserrat !important; font-size: 15px !important; font-style:  !important; font-weight: 700 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-ei39558 .pagelayer-heading-holder{color:#ffffff;font-family: Montserrat !important; font-size: 15px !important; font-style:  !important; font-weight: 700 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+</style><div class="pagelayer-heading-holder"><h2>Quicklinks</h2></div>
+		
+			</div>
+<div pagelayer-id="pma28" class="p-pma28 pagelayer-divider">
+<style pagelayer-style-id="pma28">.p-pma28 .pagelayer-divider-seperator{border-top-style: solid;border-top-color: #ffffff;border-top-width: 1px;width: 25%}
+.p-pma28 .pagelayer-divider-holder{padding-top: 5px; padding-bottom: 5px;text-align: left}
+</style><div class="pagelayer-divider-holder">
+			<span class="pagelayer-divider-seperator"></span>
+		</div></div>
+<div pagelayer-id="jip3822" class="p-jip3822 pagelayer-list">
+<style pagelayer-style-id="jip3822">.p-jip3822 li{list-style-type: none;font-family: Montserrat; font-size: 12px !important; font-style:  !important; font-weight: 500 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.4em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-jip3822 .pagelayer-list-icon-holder{padding-bottom: calc(5px/2); padding-top: calc(5px/2)}
+.p-jip3822 .pagelayer-list-item{color:#ffffff;margin-left: 10px}
+.p-jip3822 li > a{font-family: Montserrat; font-size: 12px !important; font-style:  !important; font-weight: 500 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style:  !important; line-height: 1.4em !important; text-transform:  !important; letter-spacing: px !important; word-spacing: px !important}
+.p-jip3822 .pagelayer-list-icon{color:#ffffff}
+</style><ul class="pagelayer-list-ul pagelayer-list-type-none">
+<div pagelayer-id="scn2122" class="p-scn2122 pagelayer-list_item">
+<li class="pagelayer-list-li">
+				<a class="pagelayer-list-url pagelayer-ele-link" href="http://102.37.12.191/tonline/elearning/bulawayo_poly_applynow_register" target="_blank">
+					<span class="pagelayer-list-icon-holder">
+						<i class="pagelayer-list-icon fas fa-angle-right"></i>
+						<span class="pagelayer-list-item">Apply Online</span>
+					</span>
+				</a>
+			</li></div>
+<div pagelayer-id="mzw3601" class="p-mzw3601 pagelayer-list_item">
+<li class="pagelayer-list-li">
+				<a class="pagelayer-list-url pagelayer-ele-link" href="http://102.37.12.191/tonline/elearning/search_student" target="_blank">
+					<span class="pagelayer-list-icon-holder">
+						<i class="pagelayer-list-icon fas fa-angle-right"></i>
+						<span class="pagelayer-list-item">Students Portal</span>
+					</span>
+				</a>
+			</li></div>
+<div pagelayer-id="1s47150" class="p-1s47150 pagelayer-list_item">
+<li class="pagelayer-list-li">
+				
+					<span class="pagelayer-list-icon-holder">
+						<i class="pagelayer-list-icon fas fa-angle-right"></i>
+						<span class="pagelayer-list-item">Events Calendar</span>
+					</span>
+				
+			</li></div>
+<div pagelayer-id="3lh3587" class="p-3lh3587 pagelayer-list_item">
+<li class="pagelayer-list-li">
+				<a class="pagelayer-list-url pagelayer-ele-link" href="http://libgen.rs/" target="_blank">
+					<span class="pagelayer-list-icon-holder">
+						<i class="pagelayer-list-icon fas fa-angle-right"></i>
+						<span class="pagelayer-list-item">E-Library</span>
+					</span>
+				</a>
+			</li></div>
+</ul></div>
+<div pagelayer-id="sct82" class="p-sct82 pagelayer-social_grp">
+<style pagelayer-style-id="sct82">.p-sct82{text-align: left}
+.p-sct82 > div{display: inline-block}
+.p-sct82 .pagelayer-social{padding: 10px}
+.p-sct82 .pagelayer-social-fa{font-size: 18px;color: #ffffff !important;-webkit-transition: all 400ms; transition: all 400ms}
+.p-sct82 .pagelayer-icon-holder{font-size: 18px;-webkit-transition: all 400ms; transition: all 400ms}
+.p-sct82 .pagelayer-icon-holder:hover .pagelayer-social-fa{color: #ffffff !important}
+</style>
+<div pagelayer-id="hfz2592" class="p-hfz2592 pagelayer-social">
+<div class="pagelayer-icon-holder pagelayer-facebook" data-icon="fab fa-facebook">
+					<a class="pagelayer-ele-link" href="https://www.facebook.com/profile.php?id=100090462735176" target="_blank">
+						<i class="pagelayer-social-fa fab fa-facebook"></i>
+					</a>
+				</div></div>
+<div pagelayer-id="frq6782" class="p-frq6782 pagelayer-social">
+<div class="pagelayer-icon-holder pagelayer-twitter" data-icon="fab fa-twitter">
+					<a class="pagelayer-ele-link" href="http://www.twitter.com/byopolyupdates" target="_blank">
+						<i class="pagelayer-social-fa fab fa-twitter"></i>
+					</a>
+				</div></div>
+<div pagelayer-id="9po2086" class="p-9po2086 pagelayer-social">
+<div class="pagelayer-icon-holder pagelayer-google-plus-g" data-icon="fab fa-google-plus-g">
+					<a class="pagelayer-ele-link" href="https://maps.app.goo.gl/zVmJPYJ2d5XbPYbbA" target="_blank">
+						<i class="pagelayer-social-fa fab fa-google-plus-g"></i>
+					</a>
+				</div></div>
+</div>
+</div></div>
+<div pagelayer-id="eqt6176" class="p-eqt6176 pagelayer-col pagelayer-col-3">
+<style pagelayer-style-id="eqt6176">.p-eqt6176 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important}
+</style>
+				
+				
+				
+				<div class="pagelayer-col-holder">
+<div pagelayer-id="2y33565" class="p-2y33565 pagelayer-video">
+<div class="pagelayer-video-holder pagelayer-video-aspect-8-5">
+			<iframe id="embed_video" class="pagelayer-video-iframe" width="100%" height="auto" src="https://bulawayopolytechnic.ac.zw/sitepad-data/uploads/2024/08/WhatsApp-Video-2024-08-10-at-12.07.26-1.mp4?&autoplay=0&mute=0&loop=0" frameborder="0"></iframe>
+			
+				
+			
+		</div></div>
+</div></div>
+</div></div>
+</div></div>
+</div></div>
+<div pagelayer-id="rdy6858" class="p-rdy6858 pagelayer-divider">
+<style pagelayer-style-id="rdy6858">.p-rdy6858 .pagelayer-divider-seperator{border-top-style: solid;border-top-color: #ffffff;border-top-width: 2px;width: 11%}
+.p-rdy6858 .pagelayer-divider-holder{padding-top: 9px; padding-bottom: 9px;text-align: center}
+</style><div class="pagelayer-divider-holder">
+			<span class="pagelayer-divider-seperator"></span>
+		</div></div>
+<div pagelayer-id="wpg8249" class="p-wpg8249 pagelayer-copyright">
+<style pagelayer-style-id="wpg8249">.p-wpg8249 .pagelayer-copyright *, .p-wpg8249 .pagelayer-copyright{color:#ffffff;font-family: Oswald; font-size: 12px !important; font-style:  !important; font-weight: 600 !important; font-variant:  !important; text-decoration-line:  !important; text-decoration-style: solid !important; line-height: em !important; text-transform: uppercase !important; letter-spacing: px !important; word-spacing: px !important}
+@media (max-width: 360px){.p-wpg8249 .pagelayer-copyright{text-align: left}
+}
+</style><div class="pagelayer-copyright">
+			<a href="https://bulawayopolytechnic.ac.zw">
+				<p class="copyright-text">
+    &copy; 2025 Bulawayo Polytechnic | All rights reserved | Site by <a href="https://platinumitglobal.com" target="_blank" rel="noopener noreferrer" aria-label="Visit the developer's website, Platinum IT Global">Platinum IT Global</a>
+</p>
+			</a>
+		</div></div>
+</div></div>
+</div></div>
+
+	</footer><link rel="preload" href="https://fonts.googleapis.com/css?family=Montserrat%3A400%2C500%2C900%2C800%2C600%2C700%7COswald%3A400%2C800%2C700%2C600%7COpen%20Sans%3A400" as="fetch" crossorigin="anonymous"><link rel='stylesheet' id='pagelayer-google-font-css'  href='https://fonts.googleapis.com/css?family=Montserrat%3A400%2C500%2C900%2C800%2C600%2C700%7COswald%3A400%2C800%2C700%2C600%7COpen+Sans%3A400&#038;ver=2.0.6' type='text/css' media='all' />
+<script type='text/javascript'>
+jQuery(document).ready(function(){
+		let pass_input = jQuery('form.login [name="password"]');
+		if(pass_input.length){
+			pass_input.attr('required', false);
+			pass_input.attr('value', '');
+		}
+	})
+</script>
+<script type='text/javascript' src='https://bulawayopolytechnic.ac.zw/site-inc/js/wp-embed.min.js?ver=5.1.6'></script>
+</body>
+	</html>

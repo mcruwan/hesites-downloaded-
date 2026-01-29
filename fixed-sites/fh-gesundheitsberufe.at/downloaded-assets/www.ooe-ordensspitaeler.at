@@ -1,0 +1,2972 @@
+
+
+
+
+
+
+    
+<!DOCTYPE html>
+
+
+
+
+
+	
+
+<html lang="de">
+<head>
+<!-- PreScripts -->
+    
+
+
+
+    <script>var orejimeConfig = {"privacyPolicyUrl":"\/datenschutz","htmlTexts":true,"forceModal":false,"forceBanner":false,"groupByPurpose":true,"purposes":[{"id":"analytics","title":"Analyse","purposes":[{"id":"googleanalytics","title":"Google Analytics","description":"Google Analytics (GA) ist ein Trackingtool des US-amerikanischen Unternehmens Google LLC, das der Datenverkehrsanalyse von Webseiten (Webanalyse) dient.","cookies":["googleanalytics"],"onAccept":function() { window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('consent', 'update', {'analytics_storage': 'granted'}); }}]},{"id":"essential","title":"Systemtechnische Notwendigkeit","purposes":[{"id":"siteswift","title":"siteswift.connected","description":"siteswift.connected - web development framework","cookies":["siteswift"],"isMandatory":true}]}],"orejimeElement":"#orejime","cookie":{"name":"orejime","duration":365,"sameSite":"strict"},"translations":{"banner":{"configure":"meine Auswahl","accept":"ich stimme zu","decline":"nur notwendige Cookies"}}};
+
+// Set up consent tracking for Orejime
+window.addEventListener('DOMContentLoaded', function() {
+    var pingUrl = 'https://www.ooe-ordensspitaeler.at/action/cookieconsent/ping';
+
+    // Check if Orejime is available
+    if (!window.orejime || !window.orejime.manager) {
+        if (window.console && window.console.warn) {
+            console.warn('Orejime not initialized');
+        }
+        return;
+    }
+
+    // Helper function to send tracking ping (matching Klaro's implementation)
+    function sendTrackingPing() {
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', pingUrl, true);
+        // Generate random consent ID like Klaro does
+        var consentId = (Date.now() + Math.random() * 1000000) % 12345676543;
+        xhr.setRequestHeader('X-Log-Consent-Id', consentId.toString());
+        xhr.send();
+    }
+
+    // Track consent updates
+    window.orejime.manager.on('update', function(updatedConsents, allConsents) {
+        sendTrackingPing();
+    });
+
+    // Track consent clears (reset to defaults)
+    window.orejime.manager.on('clear', function() {
+        sendTrackingPing();
+    });
+});
+</script>
+            <script>
+            // Define dataLayer and the gtag function.
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+
+            // Set default consent to 'denied' as a placeholder
+            // Determine actual values based on your own requirements
+            gtag('consent', 'default', {
+            'ad_storage': 'denied',
+            'ad_user_data': 'denied',
+            'ad_personalization': 'denied',
+            'analytics_storage': 'denied'
+            });
+        </script>
+    
+
+
+<!-- Standard -->
+
+
+
+<template data-purpose="googleanalytics">
+    </template>
+
+
+                            
+    
+    <title>Oö. Ordensspitäler Koordinations GmbH │Home</title>
+<link rel="stylesheet" type="text/css" href="/swstatic-260127035516/styles//swiper7.min.css" media="all">
+<link rel="stylesheet" type="text/css" href="/swstatic-260127035516/resources/libs/orejime/v3/orejime-standard.css" media="all">
+<link rel="stylesheet" type="text/css" href="/swstatic-260127035516/styles/unit/external_resources.css" media="all">
+<link rel="stylesheet" type="text/css" href="/swstatic-260127035516/styles/unit/jqueryUI/smoothness/jquery-ui.default.css" media="all">
+<link rel="stylesheet" type="text/css" href="/swstatic-260127035516/styles/unit/jqueryUI/smoothness/jquery-ui.overwrite.css" media="all">
+<link rel="stylesheet" type="text/css" href="/swstatic-260127035516/swscripts/bower/dist/magnific-popup/magnific-popup.css" media="all">
+<link rel="stylesheet" type="text/css" href="/swstatic-260127035516/swscripts/bower/custom/magnific-popup/magnific-popup-site.custom.css" media="all">
+<link rel="stylesheet" type="text/css" href="/swstatic-260127035516/swscripts/bower/custom/animate.css/animate.min.css" media="all">
+<link rel="stylesheet" type="text/css" href="/swstatic-260127035516/styles/unit/styles.css" media="all">
+<link rel="stylesheet" type="text/css" href="/swstatic-260127035516/styles/unit/color_1.css" media="all">
+<link rel="stylesheet" type="text/css" href="/swstatic-260127035516/styles/site/swiper7.min.css" media="all">
+<script language="javascript" type="text/javascript" src="/swstatic-260127035516/swscripts/jquery/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="/swstatic-260127035516/swscripts/jquery/ui/jquery.ui.js"></script>
+<script language="javascript" type="text/javascript" src="/swstatic-260127035516/resources/libs/orejime/v3/orejime-standard-de.js"></script>
+<script language="javascript" type="text/javascript" src="/swstatic-260127035516/swscripts/jquery/plugins/parallax/parallax.min.js"></script>
+<script language="javascript" type="text/javascript" src="/swstatic-260127035516/swscripts/bower/dist/magnific-popup/jquery.magnific-popup.js"></script>
+<script language="javascript" type="text/javascript" src="/swstatic-260127035516/swscripts/jquery/plugins/prettyPhoto/jquery.prettyPhoto.js"></script>
+<script language="javascript" type="text/javascript" src="/swstatic-260127035516/swscripts/std/stdHTMLhead.js"></script>
+<script language="javascript" type="text/javascript" src="/swstatic-260127035516/swscripts/bower/dist/waypoints/jquery.waypoints.min.js"></script>
+<script language="javascript" type="text/javascript" src="/swstatic-260127035516/swscripts/bower/dist/css-element-queries/ResizeSensor.js"></script>
+<script language="javascript" type="text/javascript" src="/swstatic-260127035516/swscripts/bower/dist/css-element-queries/ElementQueries.js"></script>
+<script language="javascript" type="text/javascript" src="/swstatic-260127035516/swscripts/wai/waiNavigationMobile.js"></script>
+<script language="javascript" type="text/javascript" src="/swstatic-260127035516/swscripts/wai/waiNavigation.js"></script>
+<script language="javascript" type="text/javascript" src="/swstatic-260127035516/swscripts/custom/focustrap.js"></script>
+<script language="javascript" type="text/javascript" src="/swstatic-260127035516/swscripts/jquery/plugins/swiper/swiper7.min.js"></script>
+<script language="javascript" type="text/javascript" src="/swstatic-260127035516/swscripts/jquery/plugins/mmenu/jquery.mmenu.min.all.js"></script>
+<script language="javascript" type="text/javascript" src="/swstatic-260127035516/swscripts/jquery/plugins/doubleTapToGo/doubleTapToGo.js"></script>
+<script language="javascript" type="text/javascript" src="/swstatic-260127035516/swscripts/std/navtree.js"></script>
+<script language="JavaScript" type="text/JavaScript">$(document).ready(function(){$("#mainnavBox li:has(ul)").doubleTapToGo();});</script>
+<script language="javascript" type="text/javascript">try { $( document ).ready(function() { $("form").append($("<input type='hidden' name='csrf-auto-token' value='585c55a1684710a0'>")); $.ajaxPrefilter(function( options ) { if ( !options.beforeSend) { options.beforeSend = function (xhr) { xhr.setRequestHeader('X-CSRF-TOKEN', '585c55a1684710a0');}}});}); } catch (err) {}</script>
+
+    <meta property="og:type"                content="object">
+    <meta property="og:title"               content="Oö. Ordensspitäler Koordinations GmbH │Home ">
+    <meta property="og:description"         content="Oö. Ordensspitäler Koordinations GmbH │Home">
+
+    <meta property="og:image"               content="">
+    <meta property="og:url"                 content="">
+
+            <meta name="robots"                 content="index">
+                <meta name="robots"                 content="follow">
+            <meta name="robots"                 content="noodp">
+
+    <meta name="language"                   content="de">
+    <meta name="title"                      content="Oö. Ordensspitäler Koordinations GmbH │Home">
+    <meta name="description"                content="Partner für ein gesundes Oberösterreich✓In guten Händen. Im Ordensspital►Ordensspitäler│Ausbildung&amp;Kollektivverträge│Geschäftsstelle│Patienteninformationen">
+    <meta name="keywords"                   content="">
+    <meta name="author"                     content=" Oö. Ordensspitäler Koordinations GmbH">
+    <meta name="copyright"                  content=" Oö. Ordensspitäler Koordinations GmbH">
+    <meta name="DC.Title"                   content="Oö. Ordensspitäler Koordinations GmbH │Home">
+    <meta name="DC.Description"             content="Partner für ein gesundes Oberösterreich✓In guten Händen. Im Ordensspital►Ordensspitäler│Ausbildung&amp;Kollektivverträge│Geschäftsstelle│Patienteninformationen">
+    <meta name="DC.Creator"                 content=" Oö. Ordensspitäler Koordinations GmbH">
+    <meta name="DC.Language"                content="de">
+    <meta name="DC.Rights"                  content=" Oö. Ordensspitäler Koordinations GmbH">
+    <meta name="DC.Subject"                 content="Home,  Oö. Ordensspitäler Koordinations GmbH">
+
+
+
+
+<meta name="generator"                      content="siteswift-CMS, (c)1999-2026 www.siteswift.com">
+<meta name="designer"                       content="Agentur Zeitpunkt Mediendesign und -produktion GmbH">
+
+<meta http-equiv="X-UA-Compatible"          content="IE=edge">
+<meta name="format-detection"               content="telephone=no">
+<meta name="viewport"                       content="width=device-width, initial-scale=1">
+
+<!--  Favicon  -->
+
+    <link rel="shortcut icon" href="/storage/img/81/72/asset-5f87edcae3b732aae320.png" type="image/x-icon">
+<!-- Stylesheet -->
+
+
+
+
+
+
+
+
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;family=Poppins:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+
+<style type="text/css">
+            html {
+            font-size: 10px;
+        }
+                body, td,
+        select, textarea, input
+        {
+            font-family: 'Noto Sans', sans-serif;
+        }
+                blockquote,
+        span.sweFontSerif
+        {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+
+    <style type="text/css">
+        h1, h2, h3, h4,
+.modTitle {
+  font-family: 'Poppins', sans-serif;
+}
+    </style>
+
+
+
+
+    
+
+<!-- PostScripts -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+    // Globale Variable zur Unterscheidung der letzten Eingabeart
+    let lastInteractionWasKeyboard = false;
+
+    window.addEventListener('keydown', () => lastInteractionWasKeyboard = true);
+    window.addEventListener('mousedown', () => lastInteractionWasKeyboard = false);
+
+    /*
+    * INITIALIZE WAI NAV
+    * */
+    document.addEventListener("DOMContentLoaded", () => {
+        // waiNavigation (navID, navClass)
+        const mainnavBox = new waiNavigation('mainnavBox', 'treeMenu');
+        const mainnavMobileBox = new waiNavigationMobile('mainnavMobileBox', 'treeMobile');
+    });
+
+    $(document).ready(function() {
+
+        //--- main nav: remove .children if there is no subsection ---
+        $(".treeMenu div.children").each(function () {
+            var $subtree = $(this).next("ul");
+
+            if ($subtree.length == 0) {
+                $(this).removeClass("children");
+                $(this).find("a").removeClass("children");
+            }
+        });
+
+
+        //--- mobile nav toggler: start ---
+        $(".mobileSidebarHidden .mobileSidebarToggler, .mobileSidebarInitView .mobileSidebarToggler").click(function () {
+
+            $("body").addClass("scrollLock mobileSidebarVisible").removeClass("mobileSidebarHidden");
+            $("#topBox").prepend("<div class='clickblocker cbvisible mobileSidebarVisible'></div>");
+            $(".mobileSidebarToggler").attr("aria-expanded", "true");
+            $("#mobileSidebarWrapper").removeAttr("inert");
+
+            $('#mainnavMobileBox').addClass('is-open')
+            if (lastInteractionWasKeyboard) {
+                setTimeout(function () {
+                    $("#mobileSidebarWrapper .treeMobile a[tabindex='0']").first().focus();
+                }, 100);
+            }
+
+            $(".clickblocker").click(function () {
+
+                var $elm = $(this);
+                $("body").removeClass("scrollLock mobileSidebarVisible mobileSidebarInitView").addClass("mobileSidebarHidden");
+                $(".mobileSidebarToggler").attr("aria-expanded", "false");
+                $("#mobileSidebarWrapper").attr("inert", "true");
+                $elm.addClass("fadeout");
+                setTimeout(function () {
+                    $elm.remove();
+                }, 700);
+
+            });
+
+        });
+
+        $(document).keydown(function (e) {
+            if (e.key === "Escape" || e.keyCode === 27) {
+                if ($("body").hasClass("mobileSidebarVisible")) {
+                    var $elm = $(".clickblocker");
+                    $("body").removeClass("scrollLock mobileSidebarVisible").addClass("mobileSidebarHidden");
+                    $(".mobileSidebarToggler").attr("aria-expanded", "false");
+                    $("#mobileSidebarWrapper").attr("inert", "true");
+                    $elm.addClass("fadeout");
+                    setTimeout(function () {
+                        $elm.remove();
+                    }, 700);
+
+                    if (lastInteractionWasKeyboard) {
+                        setTimeout(function () {
+                            $(".mobileSidebarToggler").first().focus();
+                        }, 100);
+                    }
+                }
+            }
+        });
+
+
+        $(".mobileSidebarVisible .mobileSidebarToggler, .closeMobileSidebar").click(function () {
+
+            var $elm = $(".clickblocker");
+            $("body").removeClass("scrollLock mobileSidebarVisible").addClass("mobileSidebarHidden");
+            $(".mobileSidebarToggler").attr("aria-expanded", "false");
+            $("#mobileSidebarWrapper").attr("inert", "true");
+            $elm.addClass("fadeout");
+            setTimeout(function () {
+                $elm.remove();
+            }, 700);
+
+            if (lastInteractionWasKeyboard) {
+                setTimeout(function () {
+                    $(".mobileSidebarToggler").first().focus();
+                }, 100);
+            }
+
+        });
+        //--- mobile nav toggler: end ---
+
+        //--- mobile nav design: start ---
+        $("#mobileSidebarWrapper nav, #institutionSidebarWrapper nav,").each(function () {
+
+            var $navElm = $(this).find("ul:first");
+
+            if ($navElm.find(".innerLink").length < 1) {
+
+                /* -- check if link markup is ul - if not, assign class to first ul -- */
+                $navElm.find("li").each(function () {
+                    var $subLevel = $(this).find("ul");
+
+                    var kids = this.childNodes;
+
+                    for (var i = 0, len = kids.length; i < len; i++) {
+                        if (kids[i].nodeName == '#text') {
+                            // check if text is empty string
+                            var nodeText = $.trim($(kids[i]).text());
+                            if (nodeText.length > 1) {
+                                // wrap text if not empty string
+                                $(kids[i]).wrap('<a class="togglerText"/>');
+                            }
+                        }
+                    }
+
+                    if ($subLevel.length > 0) $(this).prepend('<button href="#" class="toggler"></button>');
+                    $(this).wrapInner('<div class="innerLink"></div>');
+                });
+
+                $navElm.find("a:not('.toggler')").each(function () {
+                    var nodeText = $(this).text();
+                    $(this).attr('title', nodeText);
+                });
+
+                $navElm.find(".togglerText").each(function () {
+                    $(this).prev(".toggler").addClass("inline");
+                });
+
+                // $navElm.find(".toggler").click(function(){
+                //     var $this = $(this);
+                //     var $toggleElm = $(this).siblings("ul");
+                //
+                //     if ($toggleElm.hasClass("opened")) {
+                //         $this.removeClass("opened");
+                //         $toggleElm.removeClass("opened");
+                //         $this.siblings().find(".opened").removeClass("opened");
+                //     } else {
+                //         $this.addClass("opened");
+                //         $toggleElm.addClass("opened");
+                //     }
+                //
+                //     return false;
+                // });
+
+                $navElm.find(".togglerText").click(function () {
+                    $(this).prev().click();
+                });
+
+                // open breadcrumb path
+                $navElm.find(".breadcrumb").each(function () {
+                    $(this).prev().click();
+                });
+
+            }
+
+        });
+        //--- mobile nav design: end ---
+
+
+        //--- mobile nav design: start ---
+        $(".treeSub").each(function () {
+
+            var $navElm = $(this).find("ul:first");
+
+            if ($navElm.find(".innerLink").length < 1) {
+
+                /* -- check if link markup is ul - if not, assign class to first ul -- */
+                $navElm.find("li").each(function () {
+                    var $subLevel = $(this).find("ul");
+
+                    var kids = this.childNodes;
+
+                    for (var i = 0, len = kids.length; i < len; i++) {
+                        if (kids[i].nodeName == '#text') {
+                            // check if text is empty string
+                            var nodeText = $.trim($(kids[i]).text());
+                            if (nodeText.length > 1) {
+                                // wrap text if not empty string
+                                $(kids[i]).wrap('<a class="togglerText"/>');
+                            }
+                        }
+                    }
+
+                    if ($subLevel.length > 0) $(this).prepend('<a href="#" class="toggler"></a>');
+                    $(this).wrapInner('<div class="innerLink"></div>');
+                });
+
+                $navElm.find("a:not('.toggler')").each(function () {
+                    var nodeText = $(this).text();
+                    $(this).attr('title', nodeText);
+                });
+
+                $navElm.find(".togglerText").each(function () {
+                    $(this).prev(".toggler").addClass("inline");
+                });
+
+                // $navElm.find(".toggler").click(function(){
+                //     var $this = $(this);
+                //     var $toggleElm = $(this).siblings("ul");
+                //
+                //     if ($toggleElm.hasClass("opened")) {
+                //         $this.removeClass("opened");
+                //         $toggleElm.removeClass("opened");
+                //         $this.siblings().find(".opened").removeClass("opened");
+                //     } else {
+                //         $this.addClass("opened");
+                //         $toggleElm.addClass("opened");
+                //     }
+                //
+                //     return false;
+                // });
+
+                $navElm.find(".togglerText").click(function () {
+                    $(this).prev().click();
+                });
+
+                // open breadcrumb path
+                $navElm.find(".breadcrumb").each(function () {
+                    $(this).prev().click();
+                });
+
+            }
+
+        });
+        //--- mobile nav design: end ---
+
+        $("#bottomnavBox li")
+            .clone()
+            .appendTo("#mainnavMobileBox ul:first")
+            .addClass("topnavrow");
+
+        //--- img resize for viewport ---
+        var imgMaxWidth = 296;
+        $("img").each(function(){
+            // resize images bigger than imgMaxWidth
+            if ($(this).width() > imgMaxWidth) {
+                $(this).addClass("sysimage");
+            }
+        });
+
+
+        
+        
+        fixParallaxPosition();
+
+        //--- media query event handler ---
+        if (matchMedia) {
+            var sm = window.matchMedia("(min-width: 992px)"); // mobile 768px (xs) | 992px (sm)
+            sm.addListener(widthChange);
+            widthChange(sm);
+        }
+
+        //--- get footer nav height to stretch box if "ul ul > ul" ---
+        var fnavHeight = 0;
+        $("#footernavBox ul").each(function(){
+            var elHeight = $(this).height();
+            fnavHeight = elHeight > fnavHeight ? fnavHeight = elHeight : fnavHeight = fnavHeight;
+        });
+        $("#footernavBox").css("min-height", fnavHeight + "px");
+
+        //--- animate items when they scroll into view ---
+        $('[data-animation-effect]').waypoint(function(directions) {
+            var self = this.element;
+            $(self).addClass("animated " + $(self).attr('data-animation-effect'));
+        },{
+            triggerOnce: true,
+            offset:'90%'
+        });
+
+    });
+
+
+    $(window).load(function(){
+            });
+
+
+    function addGoogleTranslateScript() {
+        var googleTranslateScript = document.createElement('script');
+        googleTranslateScript.type = 'text/javascript';
+        googleTranslateScript.async = true;
+        googleTranslateScript.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+        ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( googleTranslateScript );
+    }
+
+
+    function scriptXS() {
+        // turn off prettyPhoto - open links in new window instead
+        $("a[rel='prettyPhoto']").unbind();
+        $("a[rel='prettyPhoto']").attr("target","_blank");
+    }
+
+    /* -----===== animationframe: start =====----- */
+    var fps = 60;
+    var now;
+    var then = Date.now();
+    var interval = 1000/fps;
+    var delta;
+
+    function fixParallaxPosition() {
+        requestAnimationFrame(fixParallaxPosition);
+
+        now = Date.now();
+        delta = now - then;
+
+        if (delta > interval) {
+            then = now - (delta % interval);
+
+            // recalculate parallax position (workaround for content height change)
+            $(window).trigger('resize.px.parallax');
+
+                    }
+
+    }
+    /* -----===== animationframe: end =====----- */
+
+    
+
+    // media query change
+    function widthChange(sm) {
+
+        if (sm.matches) { // window width is at least 768px (xs) | 992px (sm)
+            restoreInfoContent();
+        } else { // window width is less than 768px (xs) | 992px (sm)
+            moveInfoContent();
+        }
+
+    }
+
+
+    // move infoContentBox to sidebar (layout: mobile | tablet)
+    function moveInfoContent(sm) {
+        $("#topInfoContentBox").appendTo("#mainnavMobileBox .treeMobile")
+    }
+
+    // restore infoContentBox from sidebar (layout: tablet+)
+    function restoreInfoContent(sm) {
+        $("#topInfoContentBox").prependTo("#topBox")
+    }
+
+</script>
+
+
+
+
+
+
+
+
+<style type="text/css">
+    
+    
+    </style>
+
+
+    <!-- themecolors -->
+    <style type="text/css">
+
+                    .modTitle a:hover {
+            color: #1f8eac;
+        }
+        .contentTitle::after {
+            border-color: #1f8eac;
+        }
+        .infoContact a:hover {
+            color: #1f8eac;
+        }
+        .treeMenu a:hover,
+        .treeMenu a.breadcrumb,
+        .treeMenu a.selected
+        {
+            color: #1f8eac;
+        }
+        .treeSub .selected a, .treeSub .selected a:hover, .treeSub .selected a:active, .treeSub .breadcrumb a {
+            color: #1f8eac;
+        }
+        .treeSub a:hover {
+            color: #1f8eac;
+        }
+        .treeFooter .selected a, .treeFooter .selected a:hover, .treeFooter .selected a:active, .treeFooter .breadcrumb a {
+            color: #1f8eac;
+        }
+        .treeFooter a:hover {
+            color: #1f8eac;
+        }
+        .treeBottom .selected a, .treeBottom .selected a:hover, .treeBottom .selected a:active, .treeBottom .breadcrumb a {
+            color: #1f8eac;
+        }
+        .btnCookieSettings a:hover {
+            color: #1f8eac;
+        }
+        .treeBottom a:hover {
+            color: #1f8eac;
+        }
+        .btnCookieSettings a:hover {
+            color: #1f8eac;
+        }
+        .widget_textcolumn .title::after
+        .widget_pagebuilder_textcolumn .title::after {
+            border-bottom-color: #1f8eac;
+        }
+        .widget_textcolumn .itemlink a:hover,
+        .widget_pagebuilder_textcolumn .itemlink a:hover {
+            background-color: #1f8eac;
+            border-color: #1f8eac !important;
+        }
+        .widget_imgtext2col .title::after {
+            border-color: #1f8eac;
+        }
+        .widget_imgtext2col .itemlink a:hover,
+        .widget_pagebuilder_imgtext2col .content .itemlink a:hover {
+            background-color: #1f8eac;
+            border-color: #1f8eac !important;
+        }
+        .widgetSlide .item .content .itemlink a:hover {
+            background-color: #1f8eac;
+            border-color: #1f8eac !important;
+        }
+        .widgetSlide .sliderPagination .swiper-pagination-bullet-active {
+            background-color: #1f8eac !important;
+        }
+        .widget_listmenu a:hover {
+            color: #1f8eac;
+        }
+        .widget_article .title {
+            color: #1f8eac;
+        }
+        .widget_article .title::after {
+            border-bottom-color: #1f8eac;
+        }
+        .widget_calendar .title {
+            color: #1f8eac;
+        }
+        .widget_calendar .boxDate .month,
+        .widget_pagebuilder_calendar .boxDate .month {
+            background-color: #1f8eac;
+        }
+        .widget_map .title::after {
+            border-bottom-color: #1f8eac;
+        }
+        .cartSidebar .header {
+            background-color: #1f8eac;
+        }
+        .cartSidebar .btnOrder input {
+            background-color: #1f8eac;
+        }
+        .cartContent #zustellung_detail_box a {
+            color: #1f8eac;
+        }
+        .swcalendar .boxDate .month {
+            background-color: #1f8eac;
+        }
+        .swcalendarChangedisplay .active .button {
+            color: #1f8eac !important;
+        }
+        .swcalendarSelectorGrid .swTableCell.cell_superhi a {
+            border-color: #1f8eac;
+        }
+        .swcalendarSelectorGrid .swTableCell.hasContent a {
+            color: #1f8eac;
+        }
+        span.sweColor1, .sweColor1 {
+            color: #1f8eac;
+        }
+                                                .treeBreadcrumbs a:hover {
+            color: #1f8eac;
+        }
+                        a:hover {
+            color: #1f8eac;
+        }
+                                #topBox {
+            box-shadow: 0 0 0 rgba(0,0,0,0);
+        }
+                        .treeMenu a:hover,
+        .treeMenu a.breadcrumb,
+        .treeMenu a.selected {
+            color: #1f8eac;
+        }
+        .waisettings a:hover {
+            color: #1f8eac;
+        }
+        .infoContact a:hover {
+            color: #1f8eac;
+        }
+                            #footerBox a:hover,
+        #footerBox #topLink a:hover,
+        .treeFooter a:hover,
+        .treeFooter a.breadcrumb,
+        .treeFooter a.selected{
+            color: #1f8eac;
+        }
+    
+    </style>
+
+
+
+
+
+
+
+    
+
+
+    <template data-purpose="googleanalytics">
+
+        
+            <script>
+
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+                    
+                    
+                                            // Disable tracking if the opt-out cookie exists - START
+                            var disableStr2 = 'ga-disable-UA-185657738-1';
+                            if (document.cookie.indexOf(disableStr2 + '=true') > -1) window[disableStr2] = true;
+                        // Disable tracking if the opt-out cookie exists - END
+
+                        ga('create', 'UA-185657738-1', 'auto', 't2');
+                        ga('t2.set', 'forceSSL', true);
+                        ga('t2.set', 'anonymizeIp', true);
+                        ga('t2.send', 'pageview');
+                    
+                    
+
+                $(document).ready(function() {
+                    //track all downloadlinks and send a "Download" "Click" Event to google analytics
+                    $("a").filter(function () {
+                        return /.*\/dl\/.*/.test(this.href);
+                    }).click(function () {
+
+                        var tmp = /.*\/dl\/.*\/(.*)/.test(this.href);
+                        var filename = tmp[1];
+
+                        
+                        
+                                                    ga('t2.send', 'event', 'download', 'click', filename);
+                        
+                        
+                    });
+                });
+            </script>
+
+        
+    </template>
+
+
+<template data-purpose="matomo">
+
+            <!-- Matomo -->
+        <script>
+            var _paq = window._paq = window._paq || [];
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            _paq.push(['FormAnalytics::scanForForms']);
+
+            (function() {
+                var u='https://analyse.barmherzige-brueder.at/';
+                _paq.push(['setTrackerUrl', u+'matomo.php']);
+                _paq.push(['setSiteId', '1']);
+                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+
+                
+            })();
+        </script>
+        <!-- End Matomo Code -->
+    
+    
+</template>
+
+
+
+<!-- section-path: unit/ooeordensspitaeler/home -->
+<!-- section-id: 25447 -->
+<!-- section-request-type: none -->
+<!-- section-request-id: 0 -->
+</head>
+<body class="pagebuilderpage mobileSidebarInitView" id="startBox" x-ms-format-detection="none">
+
+
+
+
+    
+
+
+<div id="mmenuwrapper">
+<div id="printHeaderBox"></div>
+<!-- *** HEADERBOX: Anfang *** -->
+<div id="headerBox" class="noprint">
+    <!-- Seitenbereiche: Anfang -->
+    <span class="sr-only">Seitenbereiche:</span>
+    <ul>
+        <li><a href="#contentBox" accesskey="0">zum Inhalt [Alt+0]</a></li>
+        <li><a href="#mainnavBox" accesskey="1">zum Hauptmenü [Alt+1]</a></li>
+    </ul>
+    <!-- Seitenbereiche: Ende -->
+</div>
+<!-- *** HEADERBOX: Ende *** -->
+
+<!-- *** MAIN-LAYOUT: Anfang *** -->
+
+    <!-- *** MOBILE NAVIGATION SIDEBAR: Anfang *** -->
+    <div id="mobileSidebarWrapper" class="visible-xs visible-sm noprint" data-sw-noindex="noindex" inert>
+
+        <div class="closeMobileSidebarContainer">
+            <button class="closeMobileSidebar"><span class="hidden">Menü schließen</span></button>
+        </div>
+
+        <div id="mobileSidebarBox">
+
+            <nav id="mainnavMobileBox">
+
+                
+                    
+
+<div class="treeMobile"><ul class="ul1 firstul"><li class="li1 firstrow"><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/home" class="selected  firstrow item1 approved">Home</a></li><li class="li2"><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/ordensspitaeler" class="children  item2 approved">Ordensspit&auml;ler</a></li><li class="li3"><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/ausbildungkollvertraege" class="item3 approved">Ausbildung/ Kollektivvertr&auml;ge</a></li><li class="li4"><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/geschaeftsstelle" class="item4 approved">Gesch&auml;ftsstelle</a></li><li class="li5 lastrow"><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/patienteninfos" class="lastrow item5 approved">Patienteninfos</a></li></ul></div>
+
+
+
+                
+            </nav>
+
+        </div>
+
+    </div>
+    <!-- *** MOBILE NAVIGATION SIDEBAR: Ende *** -->
+			<header id="topBox" class="noprint">
+
+							<div id="topInfoContentBox">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12">
+								<div id="topInfoBox">
+																												<div id="waiBox">
+
+<ul class="nospacing waisettings">
+		                            <li class="color color2 c_blackwhite"><a href="/common/pagebuilder_detail.siteswift?so=all&do=all&c=setpref&d=color%3A2&s=25447&t=585c55a1684710a0" title="Weiß auf Schwarz"><span class="hidden">: Weiß auf Schwarz</span></a></li>
+            </ul>
+<div class="clearFloat"></div></div>
+																										</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+			<div id="mainHeaderBox">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div id="mainHeaderContentBox">
+								<div id="homelinkBox">
+									<a href='https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/home'><img src="/img/2f/6e/794287fcd488bc9d80cf/Logo_der_Oberoesterreichischen_Ordensspitaeler_GmbH_-Logo_Ordensspitaeler_Vektor_cmyk.svg" loading="lazy" width="1111" height="567" alt="Das Bild zeigt das Logo der Oberösterreichischen Ordensspitäler GmbH." title="Logo der Oberösterreichischen Ordensspitäler GmbH. / OÖ Ordensspitäler" style="object-position: 50% 50%;"></a>
+								</div>
+								<nav id="mainnavBox" class="hidden-xs hidden-sm">
+									
+									
+									<!-- Hauptmenü: Anfang -->
+									<div class="hidden">Hauptmenü:</div>
+
+									
+										
+
+<div class="treeMenu"><ul class="ul1 firstul"><li class="li1 firstrow"><div class="selected  firstrow item1 approved"><a accessKey="" onclick='this.blur();' href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/home" class="selected  firstrow item1 approved"><span>Home</span></a></div></li><li class="li2"><div class="children  item2 approved"><a accessKey="" onclick='this.blur();' href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/ordensspitaeler" class="children  item2 approved"><span>Ordensspit&auml;ler</span></a></div></li><li class="li3"><div class="item3 approved"><a accessKey="" onclick='this.blur();' href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/ausbildungkollvertraege" class="item3 approved"><span>Ausbildung/ Kollektivvertr&auml;ge</span></a></div></li><li class="li4"><div class="item4 approved"><a accessKey="" onclick='this.blur();' href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/geschaeftsstelle" class="item4 approved"><span>Gesch&auml;ftsstelle</span></a></div></li><li class="li5 lastrow"><div class="lastrow item5 approved"><a accessKey="" onclick='this.blur();' href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/patienteninfos" class="lastrow item5 approved"><span>Patienteninfos</span></a></div></li></ul></div>
+
+
+
+																		<div class="hidden noprint"><hr></div>
+									<!-- Hauptmenü: Ende -->
+								</nav>
+								<div id="mainnavMobileToggleBox" class="visible-xs visible-sm">
+                                    <button class="mobileSidebarToggler hidden-md hidden-lg" aria-label="Hauptnavigation" aria-expanded="false" aria-controls="mobileSidebarWrapper"><span class="hidden">Hauptmenü ein-/ausblenden</span></button>
+                                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</header>
+	
+	<main id="contentBox" class="print fullwidth">
+		<!-- Inhalt: Anfang -->
+		<span class="hidden">Inhalt:</span>
+		
+    
+    
+
+
+
+<div class='container-fluid'>
+<div class='row row-no-padding hidden-xs' 
+>
+<div class='col-xs-12 column col-md-12 col-sm-12' 
+>
+
+
+<div class='widget_item'>
+<!-- ID: 12827 -->
+<!-- TPL: common/mod/mod_widget_tags_slider.tpl -->
+    
+
+
+<div id="inpage_nav_12827" class="widgetItem widget_pagebuilder_slider widget_pagebuilder_slider_12827 "
+style="
+                ">
+
+    
+    
+
+    
+    
+                            
+
+    <script language="JavaScript" type="text/JavaScript">
+    $(document).ready(function() {
+
+        var mySwiper_12827 = new Swiper ('#widgetSlide_12827 .swiper-container', {
+                            loop: true,
+                                        autoplay: {
+                    delay: 10000,
+                    disableOnInteraction: true,
+                    pauseOnMouseEnter: true
+                },
+                        speed: 1000,
+            slidesPerView: 1,
+            // watchSlidesVisibility: true, ---> enable if lazyLoading "true" and slidesPerView "auto" or slidesPerView > 1
+            keyboard: {
+                enabled: true
+            },
+            navigation: {
+                nextEl: '#widgetSlide_12827 .sliderArrow .next',
+                prevEl: '#widgetSlide_12827 .sliderArrow .prev'
+            },
+            pagination: {
+                el: '#widgetSlide_12827 .sliderPagination',
+                type: 'bullets',
+                clickable: true
+            },
+            preloadImages: false,   // disable preloading of all images
+            lazy: {                 // lazy load images
+                loadPrevNext: true  // lazy load for the closest slides images
+            },
+            watchOverflow: true,     // disable swiping if not enough slides
+            a11y: {
+                enabled: true,
+                prevSlideMessage: 'Vorheriger Slide',
+                nextSlideMessage: 'Nächster Slide',
+                firstSlideMessage: 'Dies ist der erste Slide',
+                lastSlideMessage: 'Dies ist der letzte Slide',
+                paginationBulletMessage: 'Gehe zu Slide {{index}}',
+                slideLabelMessage: 'Slide {{index}} von {{slidesLength}}',
+                containerMessage: 'Slider mit {{slidesLength}} Slides',
+                containerRoleDescriptionMessage: 'Karussell',
+                itemRoleDescriptionMessage: 'Slide'
+            }
+        });
+
+        
+    });
+    </script>
+
+            <style type="text/css">
+        #widgetSlide_12827.dynHeight .item:before {
+            padding-top: 20%;
+        }
+        </style>
+    
+
+    <div id="widgetSlide_12827" class="widgetSlide dynHeight   " >
+
+        <div class="swiper-container sliderContainer">
+            <div class="swiper-wrapper sliderWrapper">
+
+                
+                                                                
+
+                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                            
+                                                                                                
+                    
+
+                    <div class="swiper-slide swiper-lazy item item1 "
+                                                                            data-has-background-image
+                            data-background="/storage/img/8d/6a/asset-000b558e975c515c53cf.jpg"
+                            title="Öo. Ordensspitäler Korrdinations GmbH Slider / Öo. Ordensspitäler Korrdinations GmbH"
+                                            >
+
+                        
+                        <div class="swiper-lazy-preloader _swiper-lazy-preloader-white"></div>
+
+                            <div class="contentTableWrapper">
+                                <div class="contentTable">
+                                    <div class="content" style="
+                                        vertical-align:middle;                                        text-align:center;                                                                                                                                                                                                    ">
+
+                                                                                                                                                                
+
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                
+                                                                
+
+                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                            
+                                                                                                
+                    
+
+                    <div class="swiper-slide swiper-lazy item item2 "
+                                                                            data-has-background-image
+                            data-background="/storage/img/9f/01/asset-31e7178ddbdcf8136bcb.jpg"
+                            title="Öo. Ordensspitäler Korrdinations GmbH Slider Ordensklinikum Linz Elisabethinen / Ordensklinikum Linz Elisabethinen"
+                                            >
+
+                        
+                        <div class="swiper-lazy-preloader _swiper-lazy-preloader-white"></div>
+
+                            <div class="contentTableWrapper">
+                                <div class="contentTable">
+                                    <div class="content" style="
+                                        vertical-align:middle;                                        text-align:center;                                                                                                                                                                                                    ">
+
+                                                                                                                                                                
+
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                
+                                                                
+
+                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                            
+                                                                                                
+                    
+
+                    <div class="swiper-slide swiper-lazy item item3 "
+                                                                            data-has-background-image
+                            data-background="/storage/img/c4/ae/asset-6f4bcc535412e6f64470.jpg"
+                            title="Öo. Ordensspitäler Korrdinations GmbH Slider Barmherzige Brüder Linz / Barmherzige Brüder Linz"
+                                            >
+
+                        
+                        <div class="swiper-lazy-preloader _swiper-lazy-preloader-white"></div>
+
+                            <div class="contentTableWrapper">
+                                <div class="contentTable">
+                                    <div class="content" style="
+                                        vertical-align:middle;                                        text-align:center;                                                                                                                                                                                                    ">
+
+                                                                                                                                                                
+
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                
+                                                                
+
+                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                            
+                                                                                                
+                    
+
+                    <div class="swiper-slide swiper-lazy item item4 "
+                                                                            data-has-background-image
+                            data-background="/storage/img/a2/b9/asset-c3e6d18c9b03f1117585.jpg"
+                            title="Öo. Ordensspitäler Korrdinations GmbH Slider Kreuzschwestern / Kreuzschwestern"
+                                            >
+
+                        
+                        <div class="swiper-lazy-preloader _swiper-lazy-preloader-white"></div>
+
+                            <div class="contentTableWrapper">
+                                <div class="contentTable">
+                                    <div class="content" style="
+                                        vertical-align:middle;                                        text-align:center;                                                                                                                                                                                                    ">
+
+                                                                                                                                                                
+
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                
+                                                                
+
+                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                            
+                                                                                                
+                    
+
+                    <div class="swiper-slide swiper-lazy item item5 "
+                                                                            data-has-background-image
+                            data-background="/storage/img/c6/32/asset-9e07d659b631583750fe.jpg"
+                            title="Öo. Ordensspitäler Korrdinations GmbH Slider Klinikum Wels-Grieskirchen / Klinikum Wels-Grieskirchen"
+                                            >
+
+                        
+                        <div class="swiper-lazy-preloader _swiper-lazy-preloader-white"></div>
+
+                            <div class="contentTableWrapper">
+                                <div class="contentTable">
+                                    <div class="content" style="
+                                        vertical-align:middle;                                        text-align:center;                                                                                                                                                                                                    ">
+
+                                                                                                                                                                
+
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                
+            </div>
+
+                            <!-- pagination -->
+                <div class="sliderPagination"></div>
+
+                <!-- navigation buttons -->
+                <div class="sliderArrow">
+                    <div class="prev" title="zurück"><div class="hidden">zurück</div></div>
+                    <div class="next" title="weiter"><div class="hidden">weiter</div></div>
+                </div>
+            
+        </div>
+    </div>
+
+</div>
+
+</div> <!-- close widget div -->
+
+
+
+
+
+
+
+
+</div> <!-- close col div -->
+</div> <!-- close row div -->
+</div> <!-- close container div -->
+<div class='container-fluid'>
+<div class='row row-no-padding visible-xs' 
+>
+<div class='col-xs-12 column col-md-12 col-sm-12 visible-xs' 
+>
+
+
+<div class='widget_item'>
+<!-- ID: 13312 -->
+<!-- TPL: common/mod/mod_widget_tags_slider.tpl -->
+    
+
+
+<div id="inpage_nav_13312" class="widgetItem widget_pagebuilder_slider widget_pagebuilder_slider_13312 "
+style="
+                ">
+
+    
+    
+
+    
+    
+                            
+
+    <script language="JavaScript" type="text/JavaScript">
+    $(document).ready(function() {
+
+        var mySwiper_13312 = new Swiper ('#widgetSlide_13312 .swiper-container', {
+                            loop: true,
+                                        autoplay: {
+                    delay: 10000,
+                    disableOnInteraction: true,
+                    pauseOnMouseEnter: true
+                },
+                        speed: 1000,
+            slidesPerView: 1,
+            // watchSlidesVisibility: true, ---> enable if lazyLoading "true" and slidesPerView "auto" or slidesPerView > 1
+            keyboard: {
+                enabled: true
+            },
+            navigation: {
+                nextEl: '#widgetSlide_13312 .sliderArrow .next',
+                prevEl: '#widgetSlide_13312 .sliderArrow .prev'
+            },
+            pagination: {
+                el: '#widgetSlide_13312 .sliderPagination',
+                type: 'bullets',
+                clickable: true
+            },
+            preloadImages: false,   // disable preloading of all images
+            lazy: {                 // lazy load images
+                loadPrevNext: true  // lazy load for the closest slides images
+            },
+            watchOverflow: true,     // disable swiping if not enough slides
+            a11y: {
+                enabled: true,
+                prevSlideMessage: 'Vorheriger Slide',
+                nextSlideMessage: 'Nächster Slide',
+                firstSlideMessage: 'Dies ist der erste Slide',
+                lastSlideMessage: 'Dies ist der letzte Slide',
+                paginationBulletMessage: 'Gehe zu Slide {{index}}',
+                slideLabelMessage: 'Slide {{index}} von {{slidesLength}}',
+                containerMessage: 'Slider mit {{slidesLength}} Slides',
+                containerRoleDescriptionMessage: 'Karussell',
+                itemRoleDescriptionMessage: 'Slide'
+            }
+        });
+
+        
+    });
+    </script>
+
+            <style type="text/css">
+        #widgetSlide_13312.dynHeight .item:before {
+            padding-top: 50%;
+        }
+        </style>
+    
+
+    <div id="widgetSlide_13312" class="widgetSlide dynHeight   " >
+
+        <div class="swiper-container sliderContainer">
+            <div class="swiper-wrapper sliderWrapper">
+
+                
+                                                                
+
+                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                            
+                                                                                                
+                    
+
+                    <div class="swiper-slide swiper-lazy item item1 "
+                                                                            data-has-background-image
+                            data-background="/storage/img/63/81/asset-e5c1b827567c300900ac.jpg"
+                            title="Oö. Ordensspitäler Koordinations GmbH Slider / Oö. Ordensspitäler Koordinations GmbH"
+                                            >
+
+                        
+                        <div class="swiper-lazy-preloader _swiper-lazy-preloader-white"></div>
+
+                            <div class="contentTableWrapper">
+                                <div class="contentTable">
+                                    <div class="content" style="
+                                        vertical-align:middle;                                        text-align:center;                                                                                                                                                                                                    ">
+
+                                                                                                                                                                
+
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                
+                                                                
+
+                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                            
+                                                                                                
+                    
+
+                    <div class="swiper-slide swiper-lazy item item2 "
+                                                                            data-has-background-image
+                            data-background="/storage/img/49/7f/asset-fa1797a664f615eea85f.jpg"
+                            title="Oö. Ordensspitäler Koordinations GmbH Klinikum Wels Grieskirchen Slider Mobil / Klinikum Wels Grieskirchen"
+                                            >
+
+                        
+                        <div class="swiper-lazy-preloader _swiper-lazy-preloader-white"></div>
+
+                            <div class="contentTableWrapper">
+                                <div class="contentTable">
+                                    <div class="content" style="
+                                        vertical-align:middle;                                        text-align:center;                                                                                                                                                                                                    ">
+
+                                                                                                                                                                
+
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                
+                                                                
+
+                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                            
+                                                                                                
+                    
+
+                    <div class="swiper-slide swiper-lazy item item3 "
+                                                                            data-has-background-image
+                            data-background="/storage/img/1c/7b/asset-e7270b0538207bb15fd9.jpg"
+                            title="Oö. Ordensspitäler Koordinations GmbH Slider Barmherzige Brüder Linz / Barmherzige Brüder Linz"
+                                            >
+
+                        
+                        <div class="swiper-lazy-preloader _swiper-lazy-preloader-white"></div>
+
+                            <div class="contentTableWrapper">
+                                <div class="contentTable">
+                                    <div class="content" style="
+                                        vertical-align:middle;                                        text-align:center;                                                                                                                                                                                                    ">
+
+                                                                                                                                                                
+
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                
+                                                                
+
+                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                            
+                                                                                                
+                    
+
+                    <div class="swiper-slide swiper-lazy item item4 "
+                                                                            data-has-background-image
+                            data-background="/storage/img/76/7a/asset-f6796a4b62ec20bed053.jpg"
+                            title="Oö, Ordensspitäler Koordinations GmbH Slider Kreuzschwestern / Kreuzschwestern"
+                                            >
+
+                        
+                        <div class="swiper-lazy-preloader _swiper-lazy-preloader-white"></div>
+
+                            <div class="contentTableWrapper">
+                                <div class="contentTable">
+                                    <div class="content" style="
+                                        vertical-align:middle;                                        text-align:center;                                                                                                                                                                                                    ">
+
+                                                                                                                                                                
+
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                
+                                                                
+
+                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                            
+                                                                                                
+                    
+
+                    <div class="swiper-slide swiper-lazy item item5 "
+                                                                            data-has-background-image
+                            data-background="/storage/img/5e/18/asset-cf89829263165556b96a.jpg"
+                            title="Oö. Ordensspitäler Koordinations GmbH Ordensklinikum Linz Elisabethinen  Slider Mobil / Ordensklinikum Linz Elisabethinen"
+                                            >
+
+                        
+                        <div class="swiper-lazy-preloader _swiper-lazy-preloader-white"></div>
+
+                            <div class="contentTableWrapper">
+                                <div class="contentTable">
+                                    <div class="content" style="
+                                        vertical-align:middle;                                        text-align:center;                                                                                                                                                                                                    ">
+
+                                                                                                                                                                
+
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                
+            </div>
+
+                            <!-- pagination -->
+                <div class="sliderPagination"></div>
+
+                <!-- navigation buttons -->
+                <div class="sliderArrow">
+                    <div class="prev" title="zurück"><div class="hidden">zurück</div></div>
+                    <div class="next" title="weiter"><div class="hidden">weiter</div></div>
+                </div>
+            
+        </div>
+    </div>
+
+</div>
+
+</div> <!-- close widget div -->
+
+
+
+
+
+
+</div> <!-- close col div -->
+</div> <!-- close row div -->
+</div> <!-- close container div -->
+
+
+
+
+
+
+<div class='container-fluid'>
+<div class='row row-no-padding' 
+style=' padding-top:80px;  padding-bottom:20px; '
+>
+<div class='col-md-12 col-sm-12 col-xs-12 column' 
+>
+
+
+
+
+<div class='container'>
+<div class='row' 
+>
+<div class='col-xs-12 column col-md-12 col-sm-12' 
+>
+
+
+<div class='widget_item'>
+<!-- ID: 37094 -->
+<!-- TPL: common/mod/mod_widget_tags_simpletext.tpl -->
+    
+
+
+<div id="inpage_nav_37094" class="widgetItem widget_pagebuilder_simpletext widget_pagebuilder_simpletext_37094"
+style="
+    margin-top: 20px;    margin-bottom: 20px;    margin-left: 20px;    margin-right: 20px;">
+
+        <style type="text/css">
+        .widget_pagebuilder_simpletext_37094 .text,
+        .widget_pagebuilder_simpletext_37094 .text a {
+            color: #1f8eac;
+        }
+    </style>
+    
+    <div class="text" ><div class="swslang"><h2>Aktuelles</h2></div></div>
+</div>
+</div> <!-- close widget div -->
+
+
+
+<div class='widget_item'>
+<!-- ID: 37095 -->
+<!-- TPL: common/mod/mod_widget_tags_article.tpl -->
+    
+
+
+
+<div id="inpage_nav_37095" class="widgetItem widget_pagebuilder_article widget_pagebuilder_article_37095 "
+    style="
+                        padding-top: 20px;
+                                padding-bottom: 20px;
+                            ">
+
+    <style type="text/css">
+                .widget_pagebuilder_article_37095 .modTitle,
+        .widget_pagebuilder_article_37095 .modTitle a,
+        .widget_pagebuilder_article_37095 .modSubTitle
+        {
+            color: #1f8eac;
+        }
+        </style>
+
+
+                
+                
+
+
+                
+            
+        
+                                                        
+                                                                
+                                            
+                                                                
+                                            
+                                                                
+                                            
+                                                                
+                                            
+                                                                
+                                            
+                                                                
+                                            
+                                                                
+                                            
+                                                                
+                                            
+                                                                
+                                            
+                                                                
+                            
+            
+
+	
+	
+
+
+
+
+
+<div class="articleListMultiCol swgridMultiCol swList swListImage swgridList1Col">
+	<div class="swgridFlex">
+	
+		
+										
+			
+			
+													
+			<div class="swgridFlexItem item has3Items hasSpacer  imgOrientationPortrait">
+
+												
+				
+				<div class="swListFlex swListDirectionleft">
+																<div class="swListFlexItem contentImage" style="flex-basis: 25%;">
+						
+															<a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/artikel/article/13868977.html" target="_self" class="itemimage circular ">
+															
+																	
+									<div class="imageWrapper imageWrapper_13868977  " 										 style="
+																																		background-image: url(/img/7e/ab/030bc6698ccb9e2ae9c9/1_1_Cover_Pflegeforum_Innviertel_2026.png);
+																				">
+										<img src="/img/7e/ab/030bc6698ccb9e2ae9c9/1_1_Cover_Pflegeforum_Innviertel_2026.png" loading="lazy" width="295" height="295" alt="Einladung zum Pflegeforum Innviertel 2026" title="Ordensklinikum Innviertel " style="object-position: 50% 50%;">
+									</div>
+								
+															</a>
+													
+						</div>
+					
+					<div class="swListFlexItem listContent" >
+
+												
+						
+													<div class="titleSubtitle" >
+								<h2 class="modTitle" ><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/artikel/article/13868977.html" target="_self">Pflegeforum Innviertel 2026 am 29. Jänner 2026</a></h2>								<div class="modSubTitle" >Menschen begleiten, Kompetenz leben, Zukunft gestalten</div>							</div>
+												
+						
+													<div class="modTeaser left">
+																	<div class="swslang"><p>Unter dem Motto<em> Menschen begleiten, Kompetenz leben, Zukunft gestalten</em> steht das kommende Pflegeforum Innviertel. Dieses findet am Donnerstag, 29. Jänner 2026 im Krankenhaus der Barmherzigen Schwestern Ried, Beginn 8.00 Uhr, statt.</p>
+
+<p> </p>
+
+<p><a href="https://www.ooe-ordensspitaeler.at/dl/kLMOJmoJklmKJqx4KJKJKJKLnmnONN/Einladung_Pflegeforum_Innviertel_2026_pdf" >zur Einladung</a></p>
+
+<p><a href="https://www.ooe-ordensspitaeler.at/dl/NLunJmoJklmkJqx4KJKJKJKLnmnONN/FINAL_Programm_PflegeforumInnviertel_2026_pdf" >zum Programm</a></p>
+
+<p> </p></div>
+															</div>
+												
+						
+																																			<div class="linkIconRight"><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/artikel/article/13868977.html" target="_self">mehr<span class="hidden">: Pflegeforum Innviertel 2026 am 29. Jänner 2026</span></a></div>
+												
+						
+					</div>
+							
+				</div>
+
+			</div>
+
+		
+										
+			
+			
+													
+			<div class="swgridFlexItem item has3Items hasSpacer  imgOrientationLandscape">
+
+												
+				
+				<div class="swListFlex swListDirectionleft">
+																<div class="swListFlexItem contentImage" style="flex-basis: 25%;">
+						
+															<a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/artikel/article/13869249.html" target="_self" class="itemimage circular ">
+															
+																	
+									<div class="imageWrapper imageWrapper_13869249  " 										 style="
+																																		background-image: url(/img/21/0f/e43145efeac4407ff29e/DSC_0199.jpg);
+																				">
+										<img src="/img/21/0f/e43145efeac4407ff29e/DSC_0199.jpg" loading="lazy" width="295" height="197" alt="2. Gesundheitstag des Gesundheitsparks Barmherzige Schwestern Ried, 2025" title="Daniela Razenberger" style="object-position: 50% 50%;">
+									</div>
+								
+															</a>
+													
+						</div>
+					
+					<div class="swListFlexItem listContent" >
+
+												
+						
+													<div class="titleSubtitle" >
+								<h2 class="modTitle" ><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/artikel/article/13869249.html" target="_self">3. Gesundheitstag des Gesundheitsparks Barmherzige Schwestern Ried am 31. Jänner 2026</a></h2>								<div class="modSubTitle" >Am 31. Jänner 2026 dreht sich in der Weberzeile Ried alles um Sehen, Hören und Sprechen</div>							</div>
+												
+						
+													<div class="modTeaser left">
+																	<div class="swslang"><p> </p>
+
+<p>Der Gesundheitspark der Barmherzigen Schwestern Ried lädt am Samstag, 31. Jänner 2026, zum 3. Gesundheitstag in die Weberzeile Ried ein. Von 9:00 bis 18:00 Uhr erwartet die Besucher*innen ein breites Informations- und Mitmachprogramm rund um Sehen, Hören und Sprechen. Ziel ist es, Gesundheitsbewusstsein zu stärken und präventive Angebote für alle Generationen niederschwellig zugänglich zu machen.</p>
+
+<p> </p></div>
+															</div>
+												
+						
+																																			<div class="linkIconRight"><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/artikel/article/13869249.html" target="_self">mehr<span class="hidden">: 3. Gesundheitstag des Gesundheitsparks Barmherzige Schwestern Ried am 31. Jänner 2026</span></a></div>
+												
+						
+					</div>
+							
+				</div>
+
+			</div>
+
+		
+										
+			
+			
+													
+			<div class="swgridFlexItem item has3Items hasSpacer  imgOrientationLandscape">
+
+												
+				
+				<div class="swListFlex swListDirectionleft">
+																<div class="swListFlexItem contentImage" style="flex-basis: 25%;">
+						
+															<a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/artikel/article/13869245.html" target="_self" class="itemimage circular ">
+															
+																	
+									<div class="imageWrapper imageWrapper_13869245  " 										 style="
+																																		background-image: url(/img/81/55/d139a1009c110f9fe87a/KWG_Pflegeausbildung_DSC4481.jpg);
+																				">
+										<img src="/img/81/55/d139a1009c110f9fe87a/KWG_Pflegeausbildung_DSC4481.jpg" loading="lazy" width="295" height="197" alt="Praxisnah üben am Campus Gesundheit: Ausbildende trainieren pflegerische Fertigkeiten im Simulationsraum und bereiten sich so optimal auf den Einsatz am Patienten vor" title="Klinikum Wels-Grieskirchen / Nik Fleischmann" style="object-position: 50% 50%;">
+									</div>
+								
+															</a>
+													
+						</div>
+					
+					<div class="swListFlexItem listContent" >
+
+												
+						
+													<div class="titleSubtitle" >
+								<h2 class="modTitle" ><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/artikel/article/13869245.html" target="_self">Jetzt anmelden für die PFA- und OTA-Ausbildung bis zum 16. April bzw. 23. März 2026 am Klinikum Wels-Grieskirchen</a></h2>															</div>
+												
+						
+													<div class="modTeaser left">
+																	<div class="swslang"><p>Ein Beruf mit Herz, Sinn und Zukunft – die Pflege und der OP-Bereich bieten all das und noch mehr. Im Ausbildungszentrum am Campus Gesundheit können Interessierte ab Herbst 2026 ihre Karriere starten: Wer sich für die Pflegefachassistenz (PFA), die Pflegeassistenz (PA) oder die Operationstechnische Assistenz (OTA) interessiert, kann sich ab sofort bis zum 16. April bzw. 23. März 2026 anmelden. Alle Ausbildungen finden direkt am neuen Campus Gesundheit am Klinikum Wels-Grieskirchen statt. Weitere Informationen und Anmeldung unter <a href="https://wirsindpflege.at">wirsindpflege.at</a> oder <a href="https://www.klinikum-wegr.at">www.klinikum-wegr.at </a>unter Karriere und Ausbildungszentrum.</p></div>
+															</div>
+												
+						
+																																			<div class="linkIconRight"><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/artikel/article/13869245.html" target="_self">mehr<span class="hidden">: Jetzt anmelden für die PFA- und OTA-Ausbildung bis zum 16. April bzw. 23. März 2026 am Klinikum Wels-Grieskirchen</span></a></div>
+												
+						
+					</div>
+							
+				</div>
+
+			</div>
+
+				
+
+	</div>
+</div>
+
+
+<div class="paging">
+	</div>
+		
+    
+
+</div>
+</div> <!-- close widget div -->
+
+
+</div> <!-- close col div -->
+</div> <!-- close row div -->
+</div> <!-- close container div -->
+</div> <!-- close col div -->
+</div> <!-- close row div -->
+</div> <!-- close container div -->
+<div class='container-fluid'>
+<div class='row row-no-padding' 
+style=' padding-top:80px;  padding-bottom:20px; '
+>
+<div class='col-md-12 col-sm-12 col-xs-12 column' 
+>
+
+
+
+
+<div class='container'>
+<div class='row' 
+>
+<div class='col-xs-12 column col-md-12 col-sm-12' 
+>
+
+
+<div class='widget_item'>
+<!-- ID: 12830 -->
+<!-- TPL: common/mod/mod_widget_tags_simpletext.tpl -->
+    
+
+
+<div id="inpage_nav_12830" class="widgetItem widget_pagebuilder_simpletext widget_pagebuilder_simpletext_12830"
+style="
+    margin-top: 20px;    margin-bottom: 20px;    margin-left: 20px;    margin-right: 20px;">
+
+        <style type="text/css">
+        .widget_pagebuilder_simpletext_12830 .text,
+        .widget_pagebuilder_simpletext_12830 .text a {
+            color: #1f8eac;
+        }
+    </style>
+    
+    <div class="text" ><div class="swslang"><h2>Rückblick</h2></div></div>
+</div>
+</div> <!-- close widget div -->
+
+
+
+<div class='widget_item'>
+<!-- ID: 12831 -->
+<!-- TPL: common/mod/mod_widget_tags_article.tpl -->
+    
+
+
+
+<div id="inpage_nav_12831" class="widgetItem widget_pagebuilder_article widget_pagebuilder_article_12831 "
+    style="
+                        padding-top: 20px;
+                                padding-bottom: 20px;
+                            ">
+
+    <style type="text/css">
+                .widget_pagebuilder_article_12831 .modTitle,
+        .widget_pagebuilder_article_12831 .modTitle a,
+        .widget_pagebuilder_article_12831 .modSubTitle
+        {
+            color: #1f8eac;
+        }
+        </style>
+
+
+                
+                
+
+
+                
+            
+        
+                                                        
+                                                                
+                                            
+                                                                
+                                            
+                                                                
+                                            
+                                                                
+                                            
+                                                                
+                            
+            
+
+	
+	
+
+
+
+
+
+<div class="articleListMultiCol swgridMultiCol swList swListImage swgridList1Col">
+	<div class="swgridFlex">
+	
+		
+										
+			
+			
+													
+			<div class="swgridFlexItem item has1Items hasSpacer  imgOrientationLandscape">
+
+												
+				
+				<div class="swListFlex swListDirectionleft">
+																<div class="swListFlexItem contentImage" style="flex-basis: 25%;">
+						
+															<div class="itemimage circular">
+															
+																	
+									<div class="imageWrapper imageWrapper_13868202  " 										 style="
+																																		background-image: url(/img/c9/90/049b926e9b88e195fb17/okh_2024_239.jpg);
+																				">
+										<img src="/img/c9/90/049b926e9b88e195fb17/okh_2024_239.jpg" loading="lazy" width="295" height="196" alt="" title="" style="object-position: 50% 50%;">
+									</div>
+								
+															</div>
+													
+						</div>
+					
+					<div class="swListFlexItem listContent" >
+
+												
+						
+													<div class="titleSubtitle" >
+								<h2 class="modTitle" >23. Internationaler Kongress der Oö. Ordensspitäler</h2>								<div class="modSubTitle" >Patient*innen im Zentrum von Medizin und Pflege</div>							</div>
+												
+						
+													<div class="modTeaser left">
+																	<div class="swslang"><p>Unter dem Titel <em>Patient*innen im Zentrum von Medizin und Pflege</em> fand der 23. Internationale Kongress der Oö. Ordensspitäler am Mittwoch, 22. Oktober 2025 im Design Center Linz statt.</p>
+
+<p><a href="https://player.vimeo.com/video/1130104119?h=386e43f2f9&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479">zum Kongress-Video</a></p>
+
+<p><a href="https://www.ooe-ordensspitaeler.at/dl/rMKuJmoJklnoJqx4KJKJKJKLnmnkok/Medieninformation_Ordenskongress_2025_pdf" >zur Medieninformation</a></p></div>
+															</div>
+												
+						
+												
+						
+					</div>
+							
+				</div>
+
+			</div>
+
+				
+
+	</div>
+</div>
+
+
+<div class="paging">
+	</div>
+		
+    
+
+</div>
+</div> <!-- close widget div -->
+
+
+</div> <!-- close col div -->
+</div> <!-- close row div -->
+</div> <!-- close container div -->
+</div> <!-- close col div -->
+</div> <!-- close row div -->
+</div> <!-- close container div -->
+
+
+<div class='container-fluid'>
+<div class='row row-no-padding hidden-md hidden-lg hidden-sm hidden-xs' 
+style=' background-color:#ebebeb;  padding-bottom:80px; '
+>
+<div class='col-md-12 col-sm-12 col-xs-12 column' 
+>
+
+
+
+
+<div class='container'>
+<div class='row' 
+>
+<div class='col-xs-12 column col-md-12 col-sm-12 hidden-xs' 
+>
+
+
+<div class='widget_item'>
+<!-- ID: 13131 -->
+<!-- TPL: common/mod/mod_widget_tags_simpletext.tpl -->
+    
+
+
+<div id="inpage_nav_13131" class="widgetItem widget_pagebuilder_simpletext widget_pagebuilder_simpletext_13131"
+style="
+    margin-top: 20px;    margin-bottom: 20px;    margin-left: 20px;    margin-right: 20px;">
+
+        <style type="text/css">
+        .widget_pagebuilder_simpletext_13131 .text,
+        .widget_pagebuilder_simpletext_13131 .text a {
+            color: #1f8eac;
+        }
+    </style>
+    
+    <div class="text" ><div class="swslang"><h2>Rückblick</h2></div></div>
+</div>
+</div> <!-- close widget div -->
+
+
+
+<div class='widget_item'>
+<!-- ID: 13132 -->
+<!-- TPL: common/mod/mod_widget_tags_article.tpl -->
+    
+
+
+
+<div id="inpage_nav_13132" class="widgetItem widget_pagebuilder_article widget_pagebuilder_article_13132 "
+    style="
+                        padding-top: 20px;
+                                padding-bottom: 20px;
+                            ">
+
+    <style type="text/css">
+                .widget_pagebuilder_article_13132 .modTitle,
+        .widget_pagebuilder_article_13132 .modTitle a,
+        .widget_pagebuilder_article_13132 .modSubTitle
+        {
+            color: #1f8eac;
+        }
+        </style>
+
+
+                
+                
+
+
+                
+            
+        
+                                                        
+                                                                
+                                                        
+            
+
+	
+	
+
+
+
+
+
+<div class="articleListMultiCol swgridMultiCol swList swListImage swgridList1Col">
+	<div class="swgridFlex">
+	
+				
+
+	</div>
+</div>
+
+
+<div class="paging">
+	</div>
+		
+    
+
+</div>
+</div> <!-- close widget div -->
+
+
+</div> <!-- close col div -->
+<div class='col-xs-12 column col-md-12 col-sm-12 visible-xs' 
+>
+
+
+<div class='widget_item'>
+<!-- ID: 13229 -->
+<!-- TPL: common/mod/mod_widget_tags_simpletext.tpl -->
+    
+
+
+<div id="inpage_nav_13229" class="widgetItem widget_pagebuilder_simpletext widget_pagebuilder_simpletext_13229"
+style="
+    margin-top: 20px;    margin-bottom: 20px;    margin-left: 20px;    margin-right: 20px;">
+
+        <style type="text/css">
+        .widget_pagebuilder_simpletext_13229 .text,
+        .widget_pagebuilder_simpletext_13229 .text a {
+            color: #1f8eac;
+        }
+    </style>
+    
+    <div class="text" ><div class="swslang"><h2>Rückblick</h2></div></div>
+</div>
+</div> <!-- close widget div -->
+
+
+
+<div class='widget_item'>
+<!-- ID: 13230 -->
+<!-- TPL: common/mod/mod_widget_tags_article.tpl -->
+    
+
+
+
+<div id="inpage_nav_13230" class="widgetItem widget_pagebuilder_article widget_pagebuilder_article_13230 "
+    style="
+                        padding-top: 20px;
+                                padding-bottom: 20px;
+                            ">
+
+    <style type="text/css">
+                .widget_pagebuilder_article_13230 .modTitle,
+        .widget_pagebuilder_article_13230 .modTitle a,
+        .widget_pagebuilder_article_13230 .modSubTitle
+        {
+            color: #1f8eac;
+        }
+        </style>
+
+
+                
+                
+
+
+                
+            
+        
+                                                        
+                                                                
+                                            
+                                                                
+                            
+            
+
+	
+	
+
+
+
+
+
+<div class="articleListMultiCol swgridMultiCol swList swListImage swgridList1Col">
+	<div class="swgridFlex">
+	
+				
+
+	</div>
+</div>
+
+
+<div class="paging">
+	</div>
+		
+    
+
+</div>
+</div> <!-- close widget div -->
+
+
+</div> <!-- close col div -->
+</div> <!-- close row div -->
+</div> <!-- close container div -->
+</div> <!-- close col div -->
+</div> <!-- close row div -->
+</div> <!-- close container div -->
+<div class='container-fluid'>
+<div class='row row-no-padding' 
+style=' padding-bottom:80px; '
+>
+<div class='col-md-12 col-sm-12 col-xs-12 column' 
+>
+
+
+
+
+<div class='widget_item'>
+<!-- ID:  -->
+<!-- TPL:  -->
+</div> <!-- close widget div -->
+
+
+<div class='container'>
+<div class='row' 
+>
+<div class='col-xs-12 column col-md-12 col-sm-12 hidden-xs' 
+>
+
+
+<div class='widget_item'>
+<!-- ID: 13156 -->
+<!-- TPL: common/mod/mod_widget_tags_simpletext.tpl -->
+    
+
+
+<div id="inpage_nav_13156" class="widgetItem widget_pagebuilder_simpletext widget_pagebuilder_simpletext_13156"
+style="
+    margin-top: 20px;    margin-bottom: 20px;    margin-left: 20px;    margin-right: 20px;">
+
+        <style type="text/css">
+        .widget_pagebuilder_simpletext_13156 .text,
+        .widget_pagebuilder_simpletext_13156 .text a {
+            color: #1f8eac;
+        }
+    </style>
+    
+    <div class="text" ><div class="swslang"><h2>Presse</h2></div></div>
+</div>
+</div> <!-- close widget div -->
+
+
+
+<div class='widget_item'>
+<!-- ID: 13157 -->
+<!-- TPL: common/mod/mod_widget_tags_article.tpl -->
+    
+
+
+
+<div id="inpage_nav_13157" class="widgetItem widget_pagebuilder_article widget_pagebuilder_article_13157 "
+    style="
+                        padding-top: 20px;
+                                padding-bottom: 20px;
+                            ">
+
+    <style type="text/css">
+                .widget_pagebuilder_article_13157 .modTitle,
+        .widget_pagebuilder_article_13157 .modTitle a,
+        .widget_pagebuilder_article_13157 .modSubTitle
+        {
+            color: #1f8eac;
+        }
+        </style>
+
+
+                
+                
+
+
+                
+            
+        
+                                                        
+                                                                
+                                            
+                                                                
+                                            
+                                                                
+                                            
+                                                                
+                                            
+                                                                
+                                            
+                                                                
+                            
+            
+
+	
+	
+
+
+
+
+
+<div class="articleListMultiCol swgridMultiCol swList swListImage swgridList1Col">
+	<div class="swgridFlex">
+	
+		
+										
+			
+			
+													
+			<div class="swgridFlexItem item has6Items hasSpacer  imgOrientationLandscape">
+
+												
+				
+				<div class="swListFlex swListDirectionleft">
+																<div class="swListFlexItem contentImage" style="flex-basis: 25%;">
+						
+															<a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869309.html" target="_self" class="itemimage circular ">
+															
+																	
+									<div class="imageWrapper imageWrapper_13869309  " 										 style="
+																																		background-image: url(/img/7e/7e/9c1ce386cb22b7b85112/Foto_OA_Dr__Rihards_Pinkis.jpg);
+																				">
+										<img src="/img/7e/7e/9c1ce386cb22b7b85112/Foto_OA_Dr__Rihards_Pinkis.jpg" loading="lazy" width="295" height="197" alt="OA Dr. Rihards Pinkis, Facharzt für plastische Chirurgie am Ordensklinikum Linz Barmherzige Schwestern" title="Ordensklinikum Linz" style="object-position: 50% 50%;">
+									</div>
+								
+															</a>
+													
+						</div>
+					
+					<div class="swListFlexItem listContent" >
+
+												
+						
+													<div class="titleSubtitle" >
+								<h2 class="modTitle" ><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869309.html" target="_self">Mehr Lebensqualität durch Straffungs-OPs</a></h2>															</div>
+												
+						
+													<div class="modTeaser left">
+																	<div class="swslang"><p>In Österreich sind mehr als die Hälfte der Erwachsenen übergewichtig – Tendenz steigend. Ein deutlicher Gewichtsverlust gelingt meist nur durch eine konsequente Ernährungsumstellung, regelmäßige Bewegung oder medizinische Unterstützung. Zurück bleibt jedoch häufig überschüssige Haut, die die Lebensqualität erheblich beeinträchtigen kann. In solchen Fällen sind Straffungsoperationen medizinisch sinnvoll und oftmals notwendig. Wie Patient*innen am Ordensklinikum Linz behandelt werden, erklärt Oberarzt Dr. Rihards Pinkis, Facharzt für plastische Chirurgie.</p></div>
+															</div>
+												
+						
+																																			<div class="linkIconRight"><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869309.html" target="_self">mehr<span class="hidden">: Mehr Lebensqualität durch Straffungs-OPs</span></a></div>
+												
+						
+					</div>
+							
+				</div>
+
+			</div>
+
+		
+										
+			
+			
+													
+			<div class="swgridFlexItem item has6Items hasSpacer  imgOrientationLandscape">
+
+												
+				
+				<div class="swListFlex swListDirectionleft">
+																<div class="swListFlexItem contentImage" style="flex-basis: 25%;">
+						
+															<a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869281.html" target="_self" class="itemimage circular ">
+															
+																	
+									<div class="imageWrapper imageWrapper_13869281  " 										 style="
+																																		background-image: url(/img/b2/72/ab0a145f6966e9f44f67/Interdisziplinaeres_Team.jpg);
+																				">
+										<img src="/img/b2/72/ab0a145f6966e9f44f67/Interdisziplinaeres_Team.jpg" loading="lazy" width="295" height="197" alt="Interdisziplinäre Zusammenarbeit: Medizin, Pflege und Diätologie arbeiten Hand in Hand zum Wohle der Patient*innen" title="BHS Ried_Hirnschrodt" style="object-position: 50% 50%;">
+									</div>
+								
+															</a>
+													
+						</div>
+					
+					<div class="swListFlexItem listContent" >
+
+												
+						
+													<div class="titleSubtitle" >
+								<h2 class="modTitle" ><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869281.html" target="_self">Das Krankenhaus der Barmherzigen Schwestern Ried setzt auf KI zur frühzeitigen Erkennung von Mangelernährung</a></h2>								<div class="modSubTitle" >Innovatives Screening verbessert Versorgung von Patient*innen und Arbeitsalltag im Team</div>							</div>
+												
+						
+													<div class="modTeaser left">
+																	<div class="swslang"><p>Das Schwerpunktkrankenhaus in Ried setzt einen wichtigen Schritt im Bereich der digitalen Gesundheitsversorgung und führt als erstes Krankenhaus in Oberösterreich ein KI-gestütztes Screening-Tool zur frühzeitigen Erkennung von Mangelernährung ein. Das „Personalised Risk Tool – Modul Mangelernährung“ unterstützt seit April 2025 die onkologischen Stationen sowie die Onkologie-Tagesklinik und verbessert sowohl die Behandlungsqualität für Patient*innen als auch die Arbeitsabläufe für die Mitarbeitenden.</p></div>
+															</div>
+												
+						
+																																			<div class="linkIconRight"><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869281.html" target="_self">mehr<span class="hidden">: Das Krankenhaus der Barmherzigen Schwestern Ried setzt auf KI zur frühzeitigen Erkennung von Mangelernährung</span></a></div>
+												
+						
+					</div>
+							
+				</div>
+
+			</div>
+
+		
+										
+			
+			
+													
+			<div class="swgridFlexItem item has6Items hasSpacer  imgOrientationLandscape">
+
+												
+				
+				<div class="swListFlex swListDirectionleft">
+																<div class="swListFlexItem contentImage" style="flex-basis: 25%;">
+						
+															<a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869280.html" target="_self" class="itemimage circular ">
+															
+																	
+									<div class="imageWrapper imageWrapper_13869280  " 										 style="
+																																		background-image: url(/img/6e/ed/e60fd0e4b9922f8c6678/KHBraunau_Angstgruppe_2512.jpg);
+																				">
+										<img src="/img/6e/ed/e60fd0e4b9922f8c6678/KHBraunau_Angstgruppe_2512.jpg" loading="lazy" width="295" height="196" alt="Am Bild von links: Mag. Monika Back und Mag. Margot Schell leiten die Gruppe" title="Krankenhaus Braunau" style="object-position: 50% 50%;">
+									</div>
+								
+															</a>
+													
+						</div>
+					
+					<div class="swListFlexItem listContent" >
+
+												
+						
+													<div class="titleSubtitle" >
+								<h2 class="modTitle" ><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869280.html" target="_self">Krankenhaus Braunau bietet ambulantes therapeutisches Angebot bei Angst- und Panikstörungen</a></h2>															</div>
+												
+						
+													<div class="modTeaser left">
+																	<div class="swslang"><p>Angsterkrankungen nahmen in den vergangenen Jahren deutlich zu. Der psychische Druck ist gestiegen – aufgrund der aktuellen wirtschaftlichen Herausforderungen, der Überlastung im Arbeitsleben, aber auch aufgrund einer allgemeinen gesellschaftlichen Verunsicherung. Die Klinik für psychische Gesundheit am Krankenhaus St. Josef Braunau bietet deshalb eine ambulante Gruppe an, um die Angstdynamik besser zu verstehen, Selbstwirksamkeit zu stärken und Sicherheit zu fördern. Die Gruppe findet in der Regel jeden Dienstag von 11.00 bis 12.00 Uhr statt.</p></div>
+															</div>
+												
+						
+																																			<div class="linkIconRight"><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869280.html" target="_self">mehr<span class="hidden">: Krankenhaus Braunau bietet ambulantes therapeutisches Angebot bei Angst- und Panikstörungen</span></a></div>
+												
+						
+					</div>
+							
+				</div>
+
+			</div>
+
+		
+										
+			
+			
+													
+			<div class="swgridFlexItem item has6Items hasSpacer  imgOrientationLandscape">
+
+												
+				
+				<div class="swListFlex swListDirectionleft">
+																<div class="swListFlexItem contentImage" style="flex-basis: 25%;">
+						
+															<a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869279.html" target="_self" class="itemimage circular ">
+															
+																	
+									<div class="imageWrapper imageWrapper_13869279  " 										 style="
+																																		background-image: url(/img/7c/17/6854386c5ff9e1e252a3/KHBraunau_Sternsingen_2601_1.jpg);
+																				">
+										<img src="/img/7c/17/6854386c5ff9e1e252a3/KHBraunau_Sternsingen_2601_1.jpg" loading="lazy" width="295" height="197" alt="Die Sternsingerinnen und Sternsinger in der Kapelle des Krankenhauses bei den geistlichen Schwestern" title="Pfarrgemeinde Braunau-St. Stephan" style="object-position: 50% 50%;">
+									</div>
+								
+															</a>
+													
+						</div>
+					
+					<div class="swListFlexItem listContent" >
+
+												
+						
+													<div class="titleSubtitle" >
+								<h2 class="modTitle" ><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869279.html" target="_self">Krankenhaus Braunau: Engagement der Sternsinger wurde mit Rekordergebnis und warmem Mittagessen belohnt</a></h2>															</div>
+												
+						
+													<div class="modTeaser left">
+																	<div class="swslang"><p>„Gemeinsam Gutes tun“ – um das Motto der Dreikönigsaktion 2026 bestmöglich umzusetzen, ließen sich mehr als 40 Kinder und Jugendliche in der Pfarrgemeinde Braunau-St. Stephan Anfang Jänner auch von eisigem Wind und vom Schneetreiben nicht beirren. Belohnt wurden die Braunauer Sternsingerinnen und Sternsinger mit einem neuen Rekordergebnis von 8.505,95 Euro. Und mit einem warmen Mittagessen, zu dem das Krankenhaus St. Josef Braunau die Sternsingerinnen und Sternsinger mit ihren Begleiterinnen und Begleitern an zwei Tagen einlud.</p></div>
+															</div>
+												
+						
+																																			<div class="linkIconRight"><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869279.html" target="_self">mehr<span class="hidden">: Krankenhaus Braunau: Engagement der Sternsinger wurde mit Rekordergebnis und warmem Mittagessen belohnt</span></a></div>
+												
+						
+					</div>
+							
+				</div>
+
+			</div>
+
+		
+										
+			
+			
+													
+			<div class="swgridFlexItem item has6Items hasSpacer  imgOrientationLandscape">
+
+												
+				
+				<div class="swListFlex swListDirectionleft">
+																<div class="swListFlexItem contentImage" style="flex-basis: 25%;">
+						
+															<a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869256.html" target="_self" class="itemimage circular ">
+															
+																	
+									<div class="imageWrapper imageWrapper_13869256  " 										 style="
+																																		background-image: url(/img/1f/33/880f0d3e1e2de8029297/KHBraunau_Neujahrsbaby_2601.jpg);
+																				">
+										<img src="/img/1f/33/880f0d3e1e2de8029297/KHBraunau_Neujahrsbaby_2601.jpg" loading="lazy" width="295" height="165" alt="Neujahrsbaby Simon mit seinen Eltern Elisabeta und Flavius Dragos" title="Krankenhaus Braunau" style="object-position: 50% 50%;">
+									</div>
+								
+															</a>
+													
+						</div>
+					
+					<div class="swListFlexItem listContent" >
+
+												
+						
+													<div class="titleSubtitle" >
+								<h2 class="modTitle" ><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869256.html" target="_self">845 Kinder erblickten 2025 im Krankenhaus Braunau das Licht der Welt</a></h2>															</div>
+												
+						
+													<div class="modTeaser left">
+																	<div class="swslang"><p>830 Geburten mit 845 Kindern weist die Statistik des Krankenhauses St. Josef in Braunau für das Jahr 2025 auf. 442 Mädchen und 403 Buben wurden geboren, 15-mal kamen Zwillinge zur Welt. Die Top-Liste der beliebtesten Namen führen 2025 Leonie und Felix an.</p></div>
+															</div>
+												
+						
+																																			<div class="linkIconRight"><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869256.html" target="_self">mehr<span class="hidden">: 845 Kinder erblickten 2025 im Krankenhaus Braunau das Licht der Welt</span></a></div>
+												
+						
+					</div>
+							
+				</div>
+
+			</div>
+
+		
+										
+			
+			
+													
+			<div class="swgridFlexItem item has6Items hasSpacer  imgOrientationPortrait">
+
+												
+				
+				<div class="swListFlex swListDirectionleft">
+																<div class="swListFlexItem contentImage" style="flex-basis: 25%;">
+						
+															<a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869250.html" target="_self" class="itemimage circular ">
+															
+																	
+									<div class="imageWrapper imageWrapper_13869250  " 										 style="
+																																		background-image: url(/img/9c/62/42300a1589b813b735bd/Neujahrsbaby_BHS_Ried_Credit_BHS_Ried.jpg);
+																				">
+										<img src="/img/9c/62/42300a1589b813b735bd/Neujahrsbaby_BHS_Ried_Credit_BHS_Ried.jpg" loading="lazy" width="221" height="295" alt="Hebamme Renate Razenberger und der kleine David " title="BHS Ried" style="object-position: 50% 50%;">
+									</div>
+								
+															</a>
+													
+						</div>
+					
+					<div class="swListFlexItem listContent" >
+
+												
+						
+													<div class="titleSubtitle" >
+								<h2 class="modTitle" ><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869250.html" target="_self">David ist das Neujahrsbaby 2026 am Krankenhaus der Barmherzigen Schwestern Ried</a></h2>															</div>
+												
+						
+													<div class="modTeaser left">
+																	<div class="swslang"><p>Das neue Jahr beginnt im Krankenhaus der Barmherzigen Schwestern Ried mit einem besonderen Ereignis: Am 03.01.2026 um 22:03 erblickte David das Licht der Welt. Unser Neujahrsbaby ist 3590g schwer und 51 cm groß.</p></div>
+															</div>
+												
+						
+																																			<div class="linkIconRight"><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869250.html" target="_self">mehr<span class="hidden">: David ist das Neujahrsbaby 2026 am Krankenhaus der Barmherzigen Schwestern Ried</span></a></div>
+												
+						
+					</div>
+							
+				</div>
+
+			</div>
+
+				
+
+	</div>
+</div>
+
+
+<div class="paging">
+	</div>
+		
+    
+
+</div>
+</div> <!-- close widget div -->
+
+
+
+
+
+
+</div> <!-- close col div -->
+<div class='col-xs-12 column col-md-12 col-sm-12 visible-xs' 
+>
+
+
+<div class='widget_item'>
+<!-- ID: 13231 -->
+<!-- TPL: common/mod/mod_widget_tags_simpletext.tpl -->
+    
+
+
+<div id="inpage_nav_13231" class="widgetItem widget_pagebuilder_simpletext widget_pagebuilder_simpletext_13231"
+style="
+    margin-top: 20px;    margin-bottom: 20px;    margin-left: 20px;    margin-right: 20px;">
+
+        <style type="text/css">
+        .widget_pagebuilder_simpletext_13231 .text,
+        .widget_pagebuilder_simpletext_13231 .text a {
+            color: #1f8eac;
+        }
+    </style>
+    
+    <div class="text" ><div class="swslang"><h2>Presse</h2></div></div>
+</div>
+</div> <!-- close widget div -->
+
+
+
+<div class='widget_item'>
+<!-- ID: 13232 -->
+<!-- TPL: common/mod/mod_widget_tags_article.tpl -->
+    
+
+
+
+<div id="inpage_nav_13232" class="widgetItem widget_pagebuilder_article widget_pagebuilder_article_13232 "
+    style="
+                        padding-top: 20px;
+                                padding-bottom: 20px;
+                            ">
+
+    <style type="text/css">
+                .widget_pagebuilder_article_13232 .modTitle,
+        .widget_pagebuilder_article_13232 .modTitle a,
+        .widget_pagebuilder_article_13232 .modSubTitle
+        {
+            color: #1f8eac;
+        }
+        </style>
+
+
+                
+                
+
+
+                
+            
+        
+                                                        
+                                                                
+                                            
+                                                                
+                                            
+                                                                
+                                            
+                                                                
+                                            
+                                                                
+                                            
+                                                                
+                            
+            
+
+	
+	
+
+
+
+
+
+<div class="articleListMultiCol swgridMultiCol swList swListImage swgridList1Col">
+	<div class="swgridFlex">
+	
+		
+										
+			
+			
+													
+			<div class="swgridFlexItem item has6Items hasSpacer  imgOrientationLandscape">
+
+												
+				
+				<div class="swListFlex swListDirectionleft">
+																<div class="swListFlexItem contentImage" style="flex-basis: 25%;">
+						
+															<a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869309.html" target="_self" class="itemimage circular ">
+															
+																	
+									<div class="imageWrapper imageWrapper_13869309  " 										 style="
+																																		background-image: url(/img/7e/7e/9c1ce386cb22b7b85112/Foto_OA_Dr__Rihards_Pinkis.jpg);
+																				">
+										<img src="/img/7e/7e/9c1ce386cb22b7b85112/Foto_OA_Dr__Rihards_Pinkis.jpg" loading="lazy" width="295" height="197" alt="OA Dr. Rihards Pinkis, Facharzt für plastische Chirurgie am Ordensklinikum Linz Barmherzige Schwestern" title="Ordensklinikum Linz" style="object-position: 50% 50%;">
+									</div>
+								
+															</a>
+													
+						</div>
+					
+					<div class="swListFlexItem listContent" >
+
+												
+						
+													<div class="titleSubtitle" >
+								<h2 class="modTitle" ><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869309.html" target="_self">Mehr Lebensqualität durch Straffungs-OPs</a></h2>															</div>
+												
+						
+													<div class="modTeaser left">
+																	In Österreich sind mehr als die Hälfte der Erwachsenen übergewichtig – Tendenz steigend. Ein...
+															</div>
+												
+						
+																																			<div class="linkIconRight"><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869309.html" target="_self">mehr<span class="hidden">: Mehr Lebensqualität durch Straffungs-OPs</span></a></div>
+												
+						
+					</div>
+							
+				</div>
+
+			</div>
+
+		
+										
+			
+			
+													
+			<div class="swgridFlexItem item has6Items hasSpacer  imgOrientationLandscape">
+
+												
+				
+				<div class="swListFlex swListDirectionleft">
+																<div class="swListFlexItem contentImage" style="flex-basis: 25%;">
+						
+															<a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869281.html" target="_self" class="itemimage circular ">
+															
+																	
+									<div class="imageWrapper imageWrapper_13869281  " 										 style="
+																																		background-image: url(/img/b2/72/ab0a145f6966e9f44f67/Interdisziplinaeres_Team.jpg);
+																				">
+										<img src="/img/b2/72/ab0a145f6966e9f44f67/Interdisziplinaeres_Team.jpg" loading="lazy" width="295" height="197" alt="Interdisziplinäre Zusammenarbeit: Medizin, Pflege und Diätologie arbeiten Hand in Hand zum Wohle der Patient*innen" title="BHS Ried_Hirnschrodt" style="object-position: 50% 50%;">
+									</div>
+								
+															</a>
+													
+						</div>
+					
+					<div class="swListFlexItem listContent" >
+
+												
+						
+													<div class="titleSubtitle" >
+								<h2 class="modTitle" ><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869281.html" target="_self">Das Krankenhaus der Barmherzigen Schwestern Ried setzt auf KI zur frühzeitigen Erkennung von Mangelernährung</a></h2>								<div class="modSubTitle" >Innovatives Screening verbessert Versorgung von Patient*innen und Arbeitsalltag im Team</div>							</div>
+												
+						
+													<div class="modTeaser left">
+																	Das Schwerpunktkrankenhaus in Ried setzt einen wichtigen Schritt im Bereich der digitalen...
+															</div>
+												
+						
+																																			<div class="linkIconRight"><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869281.html" target="_self">mehr<span class="hidden">: Das Krankenhaus der Barmherzigen Schwestern Ried setzt auf KI zur frühzeitigen Erkennung von Mangelernährung</span></a></div>
+												
+						
+					</div>
+							
+				</div>
+
+			</div>
+
+		
+										
+			
+			
+													
+			<div class="swgridFlexItem item has6Items hasSpacer  imgOrientationLandscape">
+
+												
+				
+				<div class="swListFlex swListDirectionleft">
+																<div class="swListFlexItem contentImage" style="flex-basis: 25%;">
+						
+															<a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869280.html" target="_self" class="itemimage circular ">
+															
+																	
+									<div class="imageWrapper imageWrapper_13869280  " 										 style="
+																																		background-image: url(/img/6e/ed/e60fd0e4b9922f8c6678/KHBraunau_Angstgruppe_2512.jpg);
+																				">
+										<img src="/img/6e/ed/e60fd0e4b9922f8c6678/KHBraunau_Angstgruppe_2512.jpg" loading="lazy" width="295" height="196" alt="Am Bild von links: Mag. Monika Back und Mag. Margot Schell leiten die Gruppe" title="Krankenhaus Braunau" style="object-position: 50% 50%;">
+									</div>
+								
+															</a>
+													
+						</div>
+					
+					<div class="swListFlexItem listContent" >
+
+												
+						
+													<div class="titleSubtitle" >
+								<h2 class="modTitle" ><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869280.html" target="_self">Krankenhaus Braunau bietet ambulantes therapeutisches Angebot bei Angst- und Panikstörungen</a></h2>															</div>
+												
+						
+													<div class="modTeaser left">
+																	Angsterkrankungen nahmen in den vergangenen Jahren deutlich zu. Der psychische Druck ist...
+															</div>
+												
+						
+																																			<div class="linkIconRight"><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869280.html" target="_self">mehr<span class="hidden">: Krankenhaus Braunau bietet ambulantes therapeutisches Angebot bei Angst- und Panikstörungen</span></a></div>
+												
+						
+					</div>
+							
+				</div>
+
+			</div>
+
+		
+										
+			
+			
+													
+			<div class="swgridFlexItem item has6Items hasSpacer  imgOrientationLandscape">
+
+												
+				
+				<div class="swListFlex swListDirectionleft">
+																<div class="swListFlexItem contentImage" style="flex-basis: 25%;">
+						
+															<a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869279.html" target="_self" class="itemimage circular ">
+															
+																	
+									<div class="imageWrapper imageWrapper_13869279  " 										 style="
+																																		background-image: url(/img/7c/17/6854386c5ff9e1e252a3/KHBraunau_Sternsingen_2601_1.jpg);
+																				">
+										<img src="/img/7c/17/6854386c5ff9e1e252a3/KHBraunau_Sternsingen_2601_1.jpg" loading="lazy" width="295" height="197" alt="Die Sternsingerinnen und Sternsinger in der Kapelle des Krankenhauses bei den geistlichen Schwestern" title="Pfarrgemeinde Braunau-St. Stephan" style="object-position: 50% 50%;">
+									</div>
+								
+															</a>
+													
+						</div>
+					
+					<div class="swListFlexItem listContent" >
+
+												
+						
+													<div class="titleSubtitle" >
+								<h2 class="modTitle" ><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869279.html" target="_self">Krankenhaus Braunau: Engagement der Sternsinger wurde mit Rekordergebnis und warmem Mittagessen belohnt</a></h2>															</div>
+												
+						
+													<div class="modTeaser left">
+																	„Gemeinsam Gutes tun“ – um das Motto der Dreikönigsaktion 2026 bestmöglich umzusetzen, ließen...
+															</div>
+												
+						
+																																			<div class="linkIconRight"><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869279.html" target="_self">mehr<span class="hidden">: Krankenhaus Braunau: Engagement der Sternsinger wurde mit Rekordergebnis und warmem Mittagessen belohnt</span></a></div>
+												
+						
+					</div>
+							
+				</div>
+
+			</div>
+
+		
+										
+			
+			
+													
+			<div class="swgridFlexItem item has6Items hasSpacer  imgOrientationLandscape">
+
+												
+				
+				<div class="swListFlex swListDirectionleft">
+																<div class="swListFlexItem contentImage" style="flex-basis: 25%;">
+						
+															<a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869256.html" target="_self" class="itemimage circular ">
+															
+																	
+									<div class="imageWrapper imageWrapper_13869256  " 										 style="
+																																		background-image: url(/img/1f/33/880f0d3e1e2de8029297/KHBraunau_Neujahrsbaby_2601.jpg);
+																				">
+										<img src="/img/1f/33/880f0d3e1e2de8029297/KHBraunau_Neujahrsbaby_2601.jpg" loading="lazy" width="295" height="165" alt="Neujahrsbaby Simon mit seinen Eltern Elisabeta und Flavius Dragos" title="Krankenhaus Braunau" style="object-position: 50% 50%;">
+									</div>
+								
+															</a>
+													
+						</div>
+					
+					<div class="swListFlexItem listContent" >
+
+												
+						
+													<div class="titleSubtitle" >
+								<h2 class="modTitle" ><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869256.html" target="_self">845 Kinder erblickten 2025 im Krankenhaus Braunau das Licht der Welt</a></h2>															</div>
+												
+						
+													<div class="modTeaser left">
+																	830 Geburten mit 845 Kindern weist die Statistik des Krankenhauses St. Josef in Braunau für das...
+															</div>
+												
+						
+																																			<div class="linkIconRight"><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869256.html" target="_self">mehr<span class="hidden">: 845 Kinder erblickten 2025 im Krankenhaus Braunau das Licht der Welt</span></a></div>
+												
+						
+					</div>
+							
+				</div>
+
+			</div>
+
+		
+										
+			
+			
+													
+			<div class="swgridFlexItem item has6Items hasSpacer  imgOrientationPortrait">
+
+												
+				
+				<div class="swListFlex swListDirectionleft">
+																<div class="swListFlexItem contentImage" style="flex-basis: 25%;">
+						
+															<a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869250.html" target="_self" class="itemimage circular ">
+															
+																	
+									<div class="imageWrapper imageWrapper_13869250  " 										 style="
+																																		background-image: url(/img/9c/62/42300a1589b813b735bd/Neujahrsbaby_BHS_Ried_Credit_BHS_Ried.jpg);
+																				">
+										<img src="/img/9c/62/42300a1589b813b735bd/Neujahrsbaby_BHS_Ried_Credit_BHS_Ried.jpg" loading="lazy" width="221" height="295" alt="Hebamme Renate Razenberger und der kleine David " title="BHS Ried" style="object-position: 50% 50%;">
+									</div>
+								
+															</a>
+													
+						</div>
+					
+					<div class="swListFlexItem listContent" >
+
+												
+						
+													<div class="titleSubtitle" >
+								<h2 class="modTitle" ><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869250.html" target="_self">David ist das Neujahrsbaby 2026 am Krankenhaus der Barmherzigen Schwestern Ried</a></h2>															</div>
+												
+						
+													<div class="modTeaser left">
+																	Das neue Jahr beginnt im Krankenhaus der Barmherzigen Schwestern Ried mit einem besonderen...
+															</div>
+												
+						
+																																			<div class="linkIconRight"><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse/article/13869250.html" target="_self">mehr<span class="hidden">: David ist das Neujahrsbaby 2026 am Krankenhaus der Barmherzigen Schwestern Ried</span></a></div>
+												
+						
+					</div>
+							
+				</div>
+
+			</div>
+
+				
+
+	</div>
+</div>
+
+
+<div class="paging">
+	</div>
+		
+    
+
+</div>
+</div> <!-- close widget div -->
+
+
+
+
+
+
+</div> <!-- close col div -->
+<div class='col-xs-12 column col-md-12 col-sm-12' 
+>
+
+
+<div class='widget_item'>
+<!-- ID: 13165 -->
+<!-- TPL: common/mod/mod_widget_tags_simpletext.tpl -->
+    
+
+
+<div id="inpage_nav_13165" class="widgetItem widget_pagebuilder_simpletext widget_pagebuilder_simpletext_13165"
+style="
+                ">
+
+        <style type="text/css">
+        .widget_pagebuilder_simpletext_13165 .text,
+        .widget_pagebuilder_simpletext_13165 .text a {
+            color: #ffffff;
+        }
+    </style>
+    
+    <div class="text" ><div class="swslang"><p style="text-align:center;"> </p>
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="width:33%;">
+	<tbody>
+		<tr>
+			<td style="text-align:center;border-color:rgb(31,142,172);background-color:rgb(31,142,172);"><strong><a class="sweButtonWhiteOutlineFullwidth" href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/presse">ALLE PRESSEINFORMATIONEN</a></strong></td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="text-align:center;"> </p></div></div>
+</div>
+</div> <!-- close widget div -->
+
+
+
+</div> <!-- close col div -->
+</div> <!-- close row div -->
+</div> <!-- close container div -->
+</div> <!-- close col div -->
+</div> <!-- close row div -->
+</div> <!-- close container div -->
+
+
+
+
+		<div class="hidden noprint"><hr></div>
+		<!-- Inhalt: Ende -->
+	</main>
+
+	
+	<footer id="footerBox" class="noprint">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12" id="topLink"><a href="#startBox" class="scrollto"><span class="hidden">nach oben springen</span></a></div>
+			</div>
+			<div class="row">
+				<div class="col-sm-8 hidden-xs">
+					<nav id="footernavBox">
+						<!-- Footermenü: Anfang -->
+						<span class="hidden">Footermenü:</span>
+						
+
+<div class="treeFooter"><ul class="ul1 firstul"><li class="li1 firstrow"><div class="selected  firstrow item1 approved"><a accessKey="" onclick='this.blur();' href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/home" class="selected  firstrow item1 approved"><span>Home</span></a></div></li><li class="li2"><div class="children  item2 approved"><a accessKey="" onclick='this.blur();' href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/ordensspitaeler" class="children  item2 approved"><span>Ordensspit&auml;ler</span></a></div></li><li class="li3"><div class="item3 approved"><a accessKey="" onclick='this.blur();' href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/ausbildungkollvertraege" class="item3 approved"><span>Ausbildung/ Kollektivvertr&auml;ge</span></a></div></li><li class="li4"><div class="item4 approved"><a accessKey="" onclick='this.blur();' href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/geschaeftsstelle" class="item4 approved"><span>Gesch&auml;ftsstelle</span></a></div></li><li class="li5 lastrow"><div class="lastrow item5 approved"><a accessKey="" onclick='this.blur();' href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/patienteninfos" class="lastrow item5 approved"><span>Patienteninfos</span></a></div></li></ul></div>
+
+
+						<div class="hidden noprint"><hr></div>
+						<!-- Footermenü: Ende -->
+					</nav>
+				</div>
+				<div class="col-sm-4 ">
+					<div id="footertextBox"><div class="swslang"><p style="text-align:center;"><img src="/img/6f/03/120bb9e9ed89299d3174/logo-ordensspitaeler-oesterreich.png" width="350" height="131" alt="" title="" align="" class="swartimg" border="" style="" loading="lazy"></p>
+</div></div>					<div id="bottomContactBox" class="infoContact">
+																													</div>
+					<nav id="bottomnavBox" class="hidden-xs">
+						
+
+<div class="treeBottom"><ul class="ul1 firstul"><li class="li1 firstrow"><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/impressum" class="firstrow item1 approved">Impressum</a></li><li class="li2 lastrow"><a href="https://www.ooe-ordensspitaeler.at/unit/ooeordensspitaeler/datenschutz" class="lastrow item2 approved">Datenschutz</a></li></ul></div>
+
+
+					</nav>
+					<div class="btnCookieSettings"><a onClick="return orejime.prompt();">Cookie-Einstellungen</a></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+<!-- *** MAIN-LAYOUT: Ende *** -->
+
+<div id="printFooterBox"><!-- <strong></strong> --></div>
+<a href="#startBox" class="hidden">nach oben springen</a>
+
+
+
+
+
+
+</div>
+</body>
+</html>

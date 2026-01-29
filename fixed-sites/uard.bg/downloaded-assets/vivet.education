@@ -1,0 +1,2245 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	<title>ViVET</title>
+	<meta name="description" content="ViVET"/>
+	<meta name="keywords" content="ViVET" />
+	<!-- og tags -->
+	
+	<meta property="og:title" content="ViVET"/>
+	<meta property="og:description" content="Global Hub for Vocational Education Training!"/>
+	<meta property="og:image" content="https://vivet.education/plugins/vivet/img/logo_vivet_app.png"/>
+	<meta property="og:site_name" content="ViVET"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:url" content="//vivet.education/?"/>
+		<meta property="fb:app_id" content="937042387051295"/>
+	
+	<!-- bootstrap -->
+	<link rel="stylesheet" type="text/css" href="https://vivet.education/system/css/bootstrap/3.3.4/css/bootstrap.min.css">
+	<!--Font awesome-->
+	<link rel="stylesheet" type="text/css" href="https://vivet.education/plugins/outlast/css/font-awesome.css">
+  <!-- new extension css scripts -->
+  <link rel="stylesheet" type="text/css" href="https://vivet.education/plugins/vivet/css/MTX_Extensions.css">
+  <link rel="stylesheet" type="text/css" href="https://vivet.education/plugins/vivet/css/vivetmediaupload.css">
+  <link rel="stylesheet" type="text/css" href="https://vivet.education/plugins/vivet/css/MTX_SlideMenu.css">
+  <link rel="stylesheet" type="text/css" href="https://vivet.education/plugins/vivet/css/MTX_CustomAlert.css">
+  <link rel="stylesheet" type="text/css" href="https://vivet.education/plugins/vivet/css/MTX_Slider.css">
+  
+  	<!-- jquery -->
+	<script src="https://vivet.education/system/js/jquery/jquery-1.10.min.js" type="text/javascript"></script>
+	<!-- bootstrap js -->
+	<script src="https://vivet.education/system/js/bootstrap/3.3.4/bootstrap.min.js" type="text/javascript"></script>
+	
+	<!-- javascripts to init ofw js API -->
+	<script src="https://vivet.education/system/js/ext/requirejs/require.min.js"></script>
+	<script src="https://vivet.education/plugins/vivet/js/cookies/jquery.ihavecookies.js"></script>
+  <!-- new extension js scripts -->
+  <script type="text/javascript" src="https://vivet.education/plugins/vivet/js/MTX_CustomAlert.js" ></script>
+  <script type="text/javascript" src="https://vivet.education/plugins/vivet/js/MTX_Slider.js" ></script>
+  <script type="text/javascript" src="https://vivet.education/plugins/vivet/js/MTX_SlideMenu.js" ></script>
+    
+	<script>
+		/*
+			Open a data popup for HTML
+		*/
+		function HtmlDataPopUp(name, width, height, htmlString) {
+			// get dual screen modification
+			var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
+			var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
+			// get left of normal screen
+			var left = (screen.width / 2) - (width / 2) + dualScreenLeft;
+			var top = (screen.height / 2) - (height / 2) + dualScreenTop;
+			// open window
+			var myWindow = window.open('', name, 'height=' + height + ',width=' + width + ', top=' + top + ', left=' + left);
+			myWindow.document.write('<html><head><title>' + name + '</title>');
+			myWindow.document.write('</head><body>');
+			myWindow.document.write(htmlString);
+			myWindow.document.write('</body></html>');
+			myWindow.document.close(); // necessary for IE >= 10
+			myWindow.onload = function () { // necessary if the div contain images
+				myWindow.focus(); // necessary for IE >= 1
+			};
+		}
+	</script>
+  	<script type='text/javascript'>
+    var ofwsettings = {
+        baseurl: 'https://vivet.education/',
+        fullrequest: 'https://vivet.education/?',
+        fullurl: 'https://vivet.education/',
+        app: 'default/',
+        mode: 'main/',
+        debug_mode: false,
+        protocol: 'https',
+        trackeventsAnalytics: true,
+        locale: 'en_US'
+    };
+
+    if(typeof require != 'undefined'){
+        /** require init **/
+        require.config({
+            baseUrl: "//vivet.education/",
+            urlArgs: "cachebuster=" + (new Date()).getTime()    	
+        });
+        if(typeof ofw == 'undefined' || ofw == null){
+            // Backwards compatibility for unready set langs
+            var ofwSetLang = [];
+            // Define ready and jquery is ready
+            var ofw = {
+                ready: function(func){
+                    ofw.readyFunctions.push(func);
+                },
+                addDataAttributeHandler: function(handlerName, handlerPath, callback){
+                    ofw.dataAttributeHandlers.push([handlerName, handlerPath, callback]);
+                },
+                setLang: function(keyOrArray, value, section){ ofwSetLang.push([keyOrArray, value, section]); },
+                log: function(m){ console.log(m) },
+                readyFunctions: [],
+                dataAttributeHandlers: [],
+                jqueryIsReady: false	
+            };
+            $(document).ready(function(){ ofw.jqueryIsReady = true; });
+            var zaj = ofw;
+            
+            // Now require and create
+            requirejs(["system/js/ofw-jquery"], function(ofwsys){
+                // Set my ready functions and init
+                ofwsettings.readyFunctions = ofw.readyFunctions;
+                ofwsettings.dataAttributeHandlers = ofw.dataAttributeHandlers;
+                ofwsettings.jqueryIsReady = ofw.jqueryIsReady;
+                ofwsys.init(ofwsettings);
+                // Now call each ofw set lang
+                for(var i = 0; i < ofwSetLang.length; i++) ofwsys.setLang(ofwSetLang[i][0], ofwSetLang[i][1], ofwSetLang[i][2]);    
+                // Finally, set variables
+                ofw = zaj = ofwsys;
+            });
+            
+            // Define jquery so that require knows about it
+            define('jquery', [], function() {
+                return jQuery;
+            });
+        }
+    }
+    else{
+        /** legacy init **/
+        if(typeof zaj != 'undefined'){
+            $.extend(zaj, ofwsettings);
+            var ofw = zaj;
+        }
+    }
+</script>	<script>
+ofw.setLang([
+{ key: 'vivet_courses_visible', value: '1', section: 'settings' } , { key: 'vivet_trainings_visible', value: '1', section: 'settings' } , { key: 'vivet_tests_visible', value: '1', section: 'settings' } , { key: 'vivet_intro_and_concluding_texts_visible', value: '1', section: 'settings' } ]);
+</script>
+		<script>
+ofw.setLang([
+{ key: 'vivetjs_register', value: 'You will have to log in or register before you can add content!', section: 'vivetjs' } , { key: 'vivetjs_delete_account_confirm', value: 'Are you sure you want to delete your profile? This cannot be undone!', section: 'vivetjs' } , { key: 'vivetjs_report_abuse_confirm', value: 'Would you like to report abuse on the current page to site administrators?', section: 'vivetjs' } , { key: 'vivetjs_report_abuse_title', value: 'Please describe the problem...', section: 'vivetjs' } , { key: 'vivetjs_search_for_teacher', value: 'Search for Teacher', section: 'vivetjs' } , { key: 'vivetjs_offer_your_teaching', value: 'Offer your Teaching', section: 'vivetjs' } , { key: 'vivetjs_stating_skills_demand', value: 'Stating Skills Demand', section: 'vivetjs' } , { key: 'vivetjs_add_video', value: 'Add video', section: 'vivetjs' } , { key: 'vivetjs_add_course', value: 'Add course', section: 'vivetjs' } , { key: 'vivetjs_add_training', value: 'Add training', section: 'vivetjs' } , { key: 'vivetjs_add_topic', value: 'Add topic', section: 'vivetjs' } , { key: 'vivetjs_add_video_enter_url', value: 'Enter the url source of your video!', section: 'vivetjs' } , { key: 'vivetjs_add_course_enter_title', value: 'Enter a title for your course!', section: 'vivetjs' } , { key: 'vivetjs_add_training_enter_title', value: 'Enter a title for your training!', section: 'vivetjs' } , { key: 'vivetjs_add_topic_enter_title', value: 'Enter a title for your topic!', section: 'vivetjs' } , { key: 'vivetjs_hide_video', value: 'Are you sure you want to hide this video?', section: 'vivetjs' } , { key: 'vivetjs_delete_course', value: 'Are you sure you want to delete the entire course permanently?  Even if you have deleted you will still find your item in your archive into workspace.', section: 'vivetjs' } , { key: 'vivetjs_delete_training_headline', value: 'Delete Training', section: 'vivetjs' } , { key: 'vivetjs_delete_training', value: 'Are you sure you want to delete the entire training permanently? None of the connected courses will be deleted. Even if you have deleted you will still find your item in your archive into workspace.', section: 'vivetjs' } , { key: 'vivetjs_delete_topic', value: 'Are you sure you want to delete the entire topic permanently?', section: 'vivetjs' } , { key: 'vivetjs_classes_delete_material_messagestart', value: 'Do you really know how to delete', section: 'vivetjs' } , { key: 'vivetjs_menu_workspace', value: 'Workspace', section: 'vivetjs' } , { key: 'vivetjs_menu_edit_profile', value: 'Edit profile', section: 'vivetjs' } , { key: 'vivetjs_menu_view_profile', value: 'View profile', section: 'vivetjs' } , { key: 'vivetjs_menu_view_learningmaterials', value: 'My learning materials', section: 'vivetjs' } , { key: 'vivetjs_menu_log_out', value: 'Log out', section: 'vivetjs' } , { key: 'vivetjs_menu_log_out_confirm', value: 'Are you sure you want to log out?', section: 'vivetjs' } , { key: 'vivetjs_training_remove_test_confirm_headline', value: 'Remove Test', section: 'vivetjs' } , { key: 'vivetjs_training_remove_test_confirm', value: 'Are you sure you want to delete this test? Test results will no longer be accessible.', section: 'vivetjs' } , { key: 'vivetjs_dublicate_training_prompt_headline', value: 'Duplicate Training', section: 'vivetjs' } , { key: 'vivetjs_dublicate_training_prompt', value: 'Enter a new title for your training!', section: 'vivetjs' } , { key: 'vivetjs_dublicate_training_confirm_headline', value: 'Copy Training', section: 'vivetjs' } , { key: 'vivetjs_dublicate_training_confirm_text', value: 'Copy training with all courses? Name suffix to add to copied course titles.', section: 'vivetjs' } , { key: 'vivetjs_dublicate_training_confirm_button_yes', value: 'Yes', section: 'vivetjs' } , { key: 'vivetjs_dublicate_training_confirm_button_no', value: 'No', section: 'vivetjs' } , { key: 'vivetjs_dublicate_training_confirm_button_break', value: 'Break', section: 'vivetjs' } , { key: 'vivetjs_dublicate_training_confirm_button_yes_prompt', value: 'Enter text for suffix of copied course tiltes (maximum 10 characters)!', section: 'vivetjs' } , { key: 'vivetjs_dublicate_training_confirm_button_yes_no_prompt', value: 'The training was not copied because you did not specify a suffix!', section: 'vivetjs' } , { key: 'vivetjs_training_delete_with_courses_confirm_headline', value: 'Delete Training With Courses', section: 'vivetjs' } , { key: 'vivetjs_training_delete_with_courses_confirm', value: 'Are you sure you want to delete the entire training permanently? WARNING! This option will also DELETE all connected courses. Even if you have deleted you will still find your items in your archive into workspace.', section: 'vivetjs' } , { key: 'vivetjs_training_collaborator_make_owner_headline', value: 'Collaborator To Owner', section: 'vivetjs' } , { key: 'vivetjs_training_collaborator_make_owner', value: 'Are you sure you want to make this user the owner of training?', section: 'vivetjs' } , { key: 'vivetjs_training_collaborator_remove_headline', value: 'Remove Collaborator', section: 'vivetjs' } , { key: 'vivetjs_training_collaborator_remove', value: 'Would you like to remove this collaborator?', section: 'vivetjs' } , { key: 'vivetjs_training_course_remove_headline', value: 'Remove Course', section: 'vivetjs' } , { key: 'vivetjs_training_course_remove', value: 'Are you sure you want to disconnect this course? The course itself will NOT be deleted.', section: 'vivetjs' } , { key: 'vivetjs_training_certificate_remove_headline', value: 'Remove Certificate', section: 'vivetjs' } , { key: 'vivetjs_training_certificate_remove', value: 'Are you sure you want to delete this certificate?', section: 'vivetjs' } ]);
+</script>
+	<script>
+ofw.setLang([
+{ key: 'workspacejs_course_mark_reset', value: 'This will mark the course and all of its lessons as not yet started! Are you sure?', section: 'workspacejs' } , { key: 'workspacejs_course_mark_complete', value: 'This will mark the course and all of its lessons as completed! Are you sure?', section: 'workspacejs' } ]);
+</script>
+	<script>
+    var localLanguage;
+    var availableLanguages = [];
+    			availableLanguages.push({
+				label: 'English',
+								icon: 'flag',
+				selected: true,
+								onclick: "ofw.plugins.vivet.switchToLocale('en_US')"
+			});
+					availableLanguages.push({
+				label: 'Deutsch ',
+								icon: 'flag-o',
+								onclick: "ofw.plugins.vivet.switchToLocale('de_DE')"
+			});
+					availableLanguages.push({
+				label: 'български',
+								icon: 'flag-o',
+								onclick: "ofw.plugins.vivet.switchToLocale('bg_BG')"
+			});
+					availableLanguages.push({
+				label: 'Italiano',
+								icon: 'flag-o',
+								onclick: "ofw.plugins.vivet.switchToLocale('it_IT')"
+			});
+					availableLanguages.push({
+				label: 'عربى',
+								icon: 'flag-o',
+								onclick: "ofw.plugins.vivet.switchToLocale('ar_EG')"
+			});
+					availableLanguages.push({
+				label: 'Français',
+								icon: 'flag-o',
+								onclick: "ofw.plugins.vivet.switchToLocale('fr_FR')"
+			});
+					availableLanguages.push({
+				label: 'Español',
+								icon: 'flag-o',
+								onclick: "ofw.plugins.vivet.switchToLocale('es_ES')"
+			});
+					availableLanguages.push({
+				label: 'Polskie',
+								icon: 'flag-o',
+								onclick: "ofw.plugins.vivet.switchToLocale('pl_PL')"
+			});
+					availableLanguages.push({
+				label: 'Português',
+								icon: 'flag-o',
+								onclick: "ofw.plugins.vivet.switchToLocale('pt_PT')"
+			});
+					availableLanguages.push({
+				label: 'Magyar',
+								icon: 'flag-o',
+								onclick: "ofw.plugins.vivet.switchToLocale('hu_HU')"
+			});
+					availableLanguages.push({
+				label: 'Indonesian',
+								icon: 'flag-o',
+								onclick: "ofw.plugins.vivet.switchToLocale('id_ID')"
+			});
+					availableLanguages.push({
+				label: 'Kiswahili',
+								icon: 'flag-o',
+								onclick: "ofw.plugins.vivet.switchToLocale('sw_KE')"
+			});
+					availableLanguages.push({
+				label: 'Pусский',
+								icon: 'flag-o',
+								onclick: "ofw.plugins.vivet.switchToLocale('ru_RU')"
+			});
+		    var isFirstFilter = true;
+    // set the current language to global variable
+    // call it in document ready
+    function SetCurrentLanguage(){
+  		  		/*	availableLanguages.push({
+  				label: 'English',
+  				  				icon: 'flag',
+  				selected: true,
+  				  				onclick: "ofw.plugins.vivet.switchToLocale('en_US')"
+  			});*/
+  			  				localLanguage = 'en_US';
+  			        		/*	availableLanguages.push({
+  				label: 'Deutsch ',
+  				  				icon: 'flag-o',
+  				  				onclick: "ofw.plugins.vivet.switchToLocale('de_DE')"
+  			});*/
+  			        		/*	availableLanguages.push({
+  				label: 'български',
+  				  				icon: 'flag-o',
+  				  				onclick: "ofw.plugins.vivet.switchToLocale('bg_BG')"
+  			});*/
+  			        		/*	availableLanguages.push({
+  				label: 'Italiano',
+  				  				icon: 'flag-o',
+  				  				onclick: "ofw.plugins.vivet.switchToLocale('it_IT')"
+  			});*/
+  			        		/*	availableLanguages.push({
+  				label: 'عربى',
+  				  				icon: 'flag-o',
+  				  				onclick: "ofw.plugins.vivet.switchToLocale('ar_EG')"
+  			});*/
+  			        		/*	availableLanguages.push({
+  				label: 'Français',
+  				  				icon: 'flag-o',
+  				  				onclick: "ofw.plugins.vivet.switchToLocale('fr_FR')"
+  			});*/
+  			        		/*	availableLanguages.push({
+  				label: 'Español',
+  				  				icon: 'flag-o',
+  				  				onclick: "ofw.plugins.vivet.switchToLocale('es_ES')"
+  			});*/
+  			        		/*	availableLanguages.push({
+  				label: 'Polskie',
+  				  				icon: 'flag-o',
+  				  				onclick: "ofw.plugins.vivet.switchToLocale('pl_PL')"
+  			});*/
+  			        		/*	availableLanguages.push({
+  				label: 'Português',
+  				  				icon: 'flag-o',
+  				  				onclick: "ofw.plugins.vivet.switchToLocale('pt_PT')"
+  			});*/
+  			        		/*	availableLanguages.push({
+  				label: 'Magyar',
+  				  				icon: 'flag-o',
+  				  				onclick: "ofw.plugins.vivet.switchToLocale('hu_HU')"
+  			});*/
+  			        		/*	availableLanguages.push({
+  				label: 'Indonesian',
+  				  				icon: 'flag-o',
+  				  				onclick: "ofw.plugins.vivet.switchToLocale('id_ID')"
+  			});*/
+  			        		/*	availableLanguages.push({
+  				label: 'Kiswahili',
+  				  				icon: 'flag-o',
+  				  				onclick: "ofw.plugins.vivet.switchToLocale('sw_KE')"
+  			});*/
+  			        		/*	availableLanguages.push({
+  				label: 'Pусский',
+  				  				icon: 'flag-o',
+  				  				onclick: "ofw.plugins.vivet.switchToLocale('ru_RU')"
+  			});*/
+  			          }
+    // Get the language code of language, call in search.js line 281
+		function GetLanguageCodeByLanguageName(LocalLanguageCode){
+			//console.log("CHECK LANGUAGE CODE: " + LocalLanguageCode);
+			switch(LocalLanguageCode){
+				default:
+					//console.log("Only DEFAULT LANGUAGE");
+					return "5933ed279158f";
+				break;
+				case "en_US":
+					//console.log("		- en_US: 5933ed279158f");
+					return "5933ed279158f";
+				break;
+				case "de_DE":
+					//console.log("		-de_DE: 5933ed3484e43");
+					return "5933ed3484e43";
+				break;
+				case "it_IT":
+					//console.log("		-it_IT: 593d04009e379");
+					return "593d04009e379";
+				break;
+				case "fr_FR":
+					//console.log("		-fr_FR: 593d041a1be6f");
+					return "593d041a1be6f";
+				break;
+			}
+		}
+		var apiUser = false;
+		ofw.ready(function(){
+						ofw.addDataAttributeHandler('vivet', 'plugins/vivet/js/');
+			ofw.addDataAttributeHandler('workspace', 'plugins/vivet/js/');
+			ofw.addDataAttributeHandler('classes', 'plugins/vivet/js/');
+			ofw.addDataAttributeHandler('search', 'plugins/vivet/js/');
+			ofw.addDataAttributeHandler('searchteacher', 'plugins/vivet/js/');
+			ofw.addDataAttributeHandler('message', 'plugins/vivet/js/');
+		});
+				var options = {
+			title: '&#x1F36A; Accept site cookies?',
+			message: 'VIVET uses cookies to improve your site experience. Click accept to enable all features or more information for details.',
+			delay: 600,
+			expires: 365,
+			link: 'https://vivet.education/terms/',
+			onAccept: function(){
+				console.log('Cookies were accepted.');
+			},
+			acceptBtnLabel: 'Accept cookies',
+			moreInfoLabel: 'More information',
+			cookieTypesTitle: 'Select which cookies you want to accept',
+			fixedCookieTypeLabel: 'Essential',
+			fixedCookieTypeDesc: 'These are essential for the website to work correctly.',
+			cookieTypes: [
+				{
+					type: 'Analytics',
+					value: 'analytics',
+					description: 'Cookies related to site visits, browser types, etc.'
+				},
+				{
+					type: 'Marketing',
+					value: 'marketing',
+					description: 'Cookies related to marketing, e.g. newsletters, social media, etc.'
+				}
+			]
+		};
+		/*Document is ready loaded*/
+		$(document).ready(function() {
+		  // Get current Language in loading process
+		  SetCurrentLanguage();
+		  // Set the first language is detected and set it, after it can deleted && searchParameters['filter']['language'] == null
+			/*if(isFirstFilter != null && isFirstFilter == true ){
+				var currLang = GetLanguageCodeByLanguageName(localLanguage);
+				searchParameters['filter']['language'] = currLang;	
+				isFirstFilter = false;
+			}*/
+			$('body').ihavecookies(options);
+		});
+	</script>
+	
+    	<!-- Add your css, js, and img files in /site/css/*, /site/js/*, etc. -->
+	<link rel="stylesheet" type="text/css" href="https://vivet.education/plugins/vivet/css/style.css?v330228119">
+	<link rel="shortcut icon" type="image/png" sizes="32x32" href="//vivet.education/favicon.ico">
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script>
+			ofw.ready(function(){
+				if ($.fn.ihavecookies.preference('analytics') === true) {
+				var jsElm = document.createElement("script");
+				jsElm.type = "application/javascript";
+				jsElm.src = "https://www.googletagmanager.com/gtag/js?id=UA-143152506-1";
+				$("body").append($(jsElm));
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+				gtag('config', 'UA-143152506-1');
+				}
+			});
+		</script>
+		
+	
+</head>
+<body class="video">
+				<div id="fb-root" data-social></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0&appId=937042387051295&autoLogAppEvents=1" nonce="v0krLuMf"></script>
+	<script>
+		ofw.ready(function(){
+			ofw.addDataAttributeHandler('social', 'plugins/social/js/data/', function(mySocial){
+				mySocial.setOptions({
+					facebookAppId: '937042387051295',
+					facebookScope: 'public_profile',
+					facebookApiVersion: 'v10.0'
+				});
+				// Now loaded above...
+				//mySocial.initFacebook();
+			});
+		});
+	</script>
+		
+		<div id="mtx_shortcut_slidemenu_opener" class="mtx_slidenavigation_shortcuts_openbtn" onclick="MTX_ToggleNavigation('mtx_shortcut_slidemenu_opener','mtx_slidemenu_shortcuts'); SwitchElementOff('mtx_shortcut_slidemenu_opener'); SwitchElementOn('mtx_shortcut_slidemenu_closer');">&#8249;</div>
+<div id="mtx_shortcut_slidemenu_panel" class="shortcut_slidemenu_panel" style="width: auto;" >	
+	<div id="mtx_slidemenu_shortcuts" class="mtx_slidenavigation_shortcuts" style="width: inherit;" >
+		<div id="mtx_shortcut_slidemenu_closer" class="mtx_shortcuts_slidenavigation_closebtn" onclick="MTX_ToggleNavigation('mtx_shortcut_slidemenu_opener','mtx_slidemenu_shortcuts'); SwitchElementOn('mtx_shortcut_slidemenu_opener'); SwitchElementOff('mtx_shortcut_slidemenu_closer');">&#8250;</div>
+<!-- Course action buttons -->
+<!-- Training action buttons -->
+<!-- Bugreporter action button -->
+<div class="workspace-shortcut-wrap scrolltotop-shortcut">
+    <div onclick="scrollToTop()" id=gototopbutton class="workspace-shortcut" style="display: none;">
+        <i class="fa fa-angle-up"></i>
+    </div>
+</div>
+<script>
+	//Get the button:
+	mybutton = document.getElementById("gototopbutton");
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {
+		if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+			mybutton.style.display = "block";
+		} else {
+			mybutton.style.display = "none";
+		}
+	};
+	const scrollToTop = () => {
+	  const scrolltoposition = document.documentElement.scrollTop || document.body.scrollTop;
+	  if (scrolltoposition > 0) {
+	    window.requestAnimationFrame(scrollToTop);
+	    window.scrollTo(0, scrolltoposition - scrolltoposition / 20);
+	  }
+	};
+</script>
+</div></div></div>
+	
+	<section data-vivet="loading" class="loading hide">
+		<p class="text-center">
+			<img src="//vivet.education/system/img/assets/ajax-loader.gif">
+		</p>
+	</section>
+	
+	<header class="site-header" >		
+		<a class="logo" href="//vivet.education/" title="Global Hub for Vocational Education Training!"></a>
+		
+		<div class="beta hide">dev</div>
+					<h1>Global Hub for Vocational Education Training!</h1>
+			 <!--
+   <div class="icons">
+			<a title="Show messages" data-vivet="goToMessage" class="icon mail">
+							</a>
+			<a title="Switch website language" data-vivet="selectLanguage" class="icon language"></a>
+			<a title="Search for content" data-vivet="toggleSearchBox" class="icon search"></a>
+							<a title="Login" data-vivet="login" class="icon login"></a>
+						<a title="Add content" data-vivet="add" class="icon more"></a>
+		</div>
+    -->
+   <style>
+     .desktop_menue{
+       display: block;
+     }
+     .mobile_menue{
+       display: none;
+     }
+     .popover-content a{
+       width: 100%;
+       text-align: center;
+     }
+     .site-header .icons {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: auto;
+      }
+      .site-header .icons span{
+        float: left;
+      }
+      .site-header .icons a{
+        font-size: 1.25em;
+        line-height: 2em;
+        color: white;
+        float: left;
+        padding: 5px 1em 5px 1em;
+      }
+      .site-header .icons div{
+          width: auto;
+          float: left;
+          background-color: #012348;
+          margin-top: 1px;
+      }
+      .site-header .icons div > a {
+        margin: 5px;
+        border: 1px solid white;
+      }
+      .site-header .icons span {
+        position: relative;
+        height: 1.5em;
+        float: left;
+        left: 0;
+        text-align: left;
+      }
+      .site-header .icons div :hover{
+        color: rgb(200,200,200);
+      }
+      /* Desktops and laptops middle to small switch to mobile menue----------- */
+      @media only screen and (min-width : 320px) and (max-width : 1224px)  {
+        .desktop_menue{
+          display: none;
+        }
+        .mobile_menue{
+          display: block;
+          z-index: 9999 !important;
+        }
+        .site-header .icons div{
+            width: 100%;
+            float: right;
+            background-color: #012348;
+            margin-top: 1px;
+        }
+        .site-header .icons > div > div {
+          margin: 0;
+        }
+        .site-header .icons > div > div > a {
+          width: 100%;
+          text-align: center;
+        }
+        .video_button_panel{
+          display: inline-block;
+          position: absolute;
+          top: 0;
+        }
+      }
+      @media only screen and (min-width : 320px) and (max-width : 770px)  {
+        .mobile_menue{
+          display: block;
+          z-index: 9999 !important;
+        }
+        .site-header .icons > div{
+          top: 3.5em !important;
+        }
+        .video_button_panel{
+          display: none;
+          z-index: 9999 !important;
+        }
+        .site-header .icons a{
+          font-size: 1em;
+        }
+        .block_student, .block_teacher, .block_institute{
+          font-size: 1em;
+        }
+        .vivet_register_section a{
+          position: relative !important;
+          bottom: 0 !important;
+          width: 90% !important;
+          line-height: 2em !important;
+          margin-left: 10% !important;
+          margin-top: 1em !important;
+        }
+        .vivet_register_section p{
+          height: auto !important;
+        }
+        .search-section{
+            z-index: 10 !important;
+        }
+      }
+	  
+	  @media only screen and (max-width : 899px)  {
+		.video_button_panel{
+          display: none;
+          z-index: 9999 !important;
+        }
+	  }
+   </style>
+    <div class="icons desktop_menue">
+		<div><a title="Peoples College" data-vivet="peoples_college" class="peoples-college-background" ><div style="height: 2em; width: 6em; background-color: transparent;"></div></a></div>
+            		 <div><a title="Register as an Institution" href="//vivet.education/profile/registerinstitute"><div>ViVET for Business</div></a></div>
+		 <div><a title="Register as an Author or Teacher" href="//vivet.education/profile/registerteacher"><div>Teaching at ViVET</div></a></div>
+      		<div><a title="Switch website language" data-vivet="selectLanguage" ><div>Languages</div></a></div>
+					<div><a title="Login" data-vivet="login" ><div>Log In</div></a></div>
+		                  <div><a title="Register as Learner" href="//vivet.education/profile/registerstudent" ><div>Register</div></a></div>
+	   	</div>
+    <div class="icons mobile_menue">
+		<script>
+			function toggle_mobile_menue(menueid){
+				if(document.getElementById(menueid).style['display'] != 'block') {
+					document.getElementById('mobile_menue').style['display'] = 'block'; 
+				}else {
+					document.getElementById('mobile_menue').style['display'] = 'none';
+				}
+			}
+		</script>
+      <div><a onclick="toggle_mobile_menue('mobile_menue')"><i class="fa fa-bars"></i></a></div>
+      <div id="mobile_menue" style="display: none; position: absolute; top: 65px; right: 0; width: 200px; height: auto;">
+		<div><a title="Peoples College" data-vivet="peoples_college" ><div>Peoples College</div></a></div>
+		        			<div><a title="Register as an Institution" href="//vivet.education/profile/registerinstitute"><div>ViVET for Business</div></a></div>
+			<div><a title="Register as an Author or Teacher" href="//vivet.education/profile/registerteacher"><div>Teaching at ViVET</div></a></div>
+           			<div><a title="Switch website language" data-vivet="selectLanguage" ><div>Languages</div></a></div>
+   			   				<div><a title="Login" data-vivet="login" ><div>Log In</div></a></div>
+   			                  <div><a title="Register as Learner" href="//vivet.education/profile/registerstudent" ><div>Register</div></a></div>
+   			      </div>
+    </div>
+		<!-- @todo actiate this search for desktop and mobile! -->
+		<form class="mobile-search closed">
+			<input type="text" class="form-control" name="search" placeholder="Search now">
+		</form>
+	</header>
+	
+	
+				<div id="home_slider_header">		
+			<section id="slider_section" data-vivet-search-bar class="search-section hero"  style="height: auto; padding: 0;">				
+									<div id="dynamic_slide_content_panel" class="mtx_slider shadow" >
+						<div class="mtxslidecontainer" style="height: 300px;">							
+							<div id="slides" style="display: none;">
+								<div><div class="row" style="height: 100%;">
+	<div class="col-lg-12" style="height: 100%; ma">
+		<h2 style="color:  #fff; text-align: center; text-shadow: 0 0 1px #000;">
+			<strong>ViVET: Join our Vision of</strong>
+			<br />Vocational Educational and Training for all!		</h2>		
+		<div class="video_button_panel" style="margin-right: 2em;">
+			<script>
+			  var vid1 = '<iframe width="420" height="315" src="https://www.youtube.com/embed/K7S4Ti8uheY?autoplay=1&origin=//vivet.education/" frameborder="0" allowfullscreen></iframe>';
+			  var vid2 = '<iframe width="420" height="315" src="https://www.youtube.com/embed/Bx4tUkSyPDI?autoplay=1&origin=//vivet.education/" frameborder="0" allowfullscreen></iframe>';
+			</script>
+			<div class="video_button" onclick="HtmlDataPopUp('', 440, 335, vid1);" title="View the Intro-Video of Vivet">Video: Intro</div>
+			<div class="video_button" onclick="HtmlDataPopUp('', 440, 335, vid2);" title="View the Animated-Video of Vivet">Video: Animated</div>
+		</div>
+	</div>
+</div></div>
+								<div><div class="row" style="height: 100%;">
+	<div class="col-lg-offset-2 col-lg-2" style="height: 100%; padding: 1em;">		
+		<a href="//vivet.education/search/?filter[trainings]=yes&page=1" class="btn filter-btn training"><span style="text-transform: uppercase; font-size: 1.5em;">Training</span></a>
+		<a href="//vivet.education/search/?filter[courses]=yes&page=1" class="btn filter-btn course"><span style="text-transform: uppercase; font-size: 1.5em;">Courses</span></a>
+		<!-- <a href="//vivet.education/search/?filter[videos]=yes&page=1" class="btn filter-btn video"><span style="text-transform: uppercase; font-size: 1.5em;">Videos</span></a> -->
+		<!-- <a href="//vivet.education/search/?filter[topics]=yes&page=1" class="btn filter-btn topic"><span style="text-transform: uppercase; font-size: 1.5em;">Topics</span></a> -->
+	</div>
+	<div class="col-lg-8" style="height: 100%;">
+		<h2 style="color: #fff; text-align: left; text-shadow: 0 0 1px #000;">
+			<strong>Start learning with different formats</strong>
+			<br />58 intensive Trainings, short 507 Courses		</h2>
+	</div>	
+</div></div>
+								<div><div class="row" style="height: 100%;">
+	<div class="col-lg-12" style="height: 100%;">
+		<h2 style="color: white; text-align: center; text-shadow: 0 0 1px #000;">
+			<strong>Become a partner on the platform as</strong>
+			<br />a learner, teacher or institute/business		</h2>
+		<div class="video_button_panel" style="position: relative; width: 100%; text-align: center; margin-top: -10em;">
+			<script>
+			  var vid1 = '<iframe width="420" height="315" src="https://www.youtube.com/embed/K7S4Ti8uheY?autoplay=1&origin=//vivet.education/" frameborder="0" allowfullscreen></iframe>';
+			  var vid2 = '<iframe width="420" height="315" src="https://www.youtube.com/embed/Bx4tUkSyPDI?autoplay=1&origin=//vivet.education/" frameborder="0" allowfullscreen></iframe>';
+			</script>			
+			<div style="float: right;" onclick="HtmlDataPopUp('', 440, 335, vid1);" title="View the Intro-Video of Vivet">
+				Video: Intro<br/>
+				<iframe style="width: 14em; height: 10em;" src="https://www.youtube.com/embed/K7S4Ti8uheY?autoplay=0&origin=//vivet.education/" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div style="float: right; margin-right: 1em;" onclick="HtmlDataPopUp('', 440, 335, vid2);" title="View the Animated-Video of Vivet">
+				Video: Animated<br/>
+				<iframe style="width: 14em; height: 10em;" src="https://www.youtube.com/embed/Bx4tUkSyPDI?autoplay=0&origin=//vivet.education/" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+</div></div>
+							</div>
+						</div>
+					</div>
+					<script>
+						var htmlArray = [];
+						var slidesElement = document.getElementById('slides');
+						for(var i=0; i < slidesElement.children.length; i++){
+							htmlArray.push(slidesElement.children[i].innerHTML);
+						}
+						var sliderbackground_urls = [ "//vivet.education/plugins/vivet/img/slider_home/header_slider_04.jpg",
+													 "//vivet.education/plugins/vivet/img/slider_home/header_slider_02.jpg",
+													 "//vivet.education/plugins/vivet/img/slider_home/header_slider_03.jpg",
+													 "//vivet.education/plugins/vivet/img/slider_home/header_slider_05.jpg",
+													 "//vivet.education/plugins/vivet/img/slider_home/header_slider_01.jpg"
+													 ];
+						
+						var currentTextEffect = new TextEffect('dynamic_slide_content_panel', htmlArray, 'div', "300px", sliderbackground_urls);
+						currentTextEffect.StartEffect(0, 2500, 10000);
+						currentTextEffect.StartEffect_Background(2500, 10000);
+					</script>				
+					<form style="display: block; position: absolute; width: auto; height: auto; top: 4.5em; left: 50%; transform: translateX(-50%); padding-top: 130px; text-align: center;">
+						<div id="slider_search_field" class="input-group search-group" style="width: 30em;">
+							<input type="text" class="form-control" style="height: 2em;" data-search-input placeholder="Search on ViVET" value="">
+							<span class="input-group-btn" >
+								<button data-search="go" class="btn btn-default" style="width: 1.65em; height: 1.65em; padding: 0; border-radius: 5px; margin-left: 1px;" type="button"><span class="glyphicon glyphicon-search" style="font-size: 0.85em; margin: 6px 2px; top: 0;" aria-hidden="true"></span></button>
+								<button data-search="go" class="btn btn-default" style="width: auto; height: 1.65em; padding: 0 5px;; border-radius: 5px; margin-left: 5px;" type="button">Filter</button>
+							</span>
+						</div>
+					</form>				
+					
+						<div id="header_sectiopn_eu_flag" class="eu" style="display: none;" >
+							<p>Co-funded by the<br/>Erasmus+ Programme<br/>of the European Union</p>
+							<img src="//vivet.education/plugins/vivet/img/eu_flag.png">
+						</div>
+					
+							</section>		
+		</div>
+	
+	
+		<section data-vivet-search-buttons style="display: none;" class="search-section ">
+			<div class="row">
+				<div class="col-md-12 text-center">
+											<button data-search="go" data-vivet="selectButton" data-vivet-button-type="videos" data-vivet-button-state="button" class="btn filter-btn video"><span style="text-transform: uppercase;">Videos</span></button>
+						<button data-search="go" data-vivet="selectButton" data-vivet-button-type="courses" data-vivet-button-state="button" class="btn filter-btn course"><span style="text-transform: uppercase;">Courses</span></button>
+												<button data-search="go" data-vivet="selectButton" data-vivet-button-type="trainings" data-vivet-button-state="button" class="btn filter-btn training"><span style="text-transform: uppercase;">Training</span></button>
+												<button data-search="go" data-vivet="selectButton" data-vivet-button-type="topics" data-vivet-button-state="button" class="btn filter-btn topic"><span style="text-transform: uppercase;">Topics</span></button>
+									</div>
+			</div>
+		</section>
+	
+	
+		<section data-vivet-search-progress class="search-section hide" style="position: fixed; left: 25%; top: 50%; width: 50%; height: auto; margin-top: -25px; background-color: rgba(255,255,255,0.75); border-radius: 25px; border: 1px solid #c1c1c1;">
+			<div class="progress" >
+				<div class="progress-bar progress-bar-striped active" role="progressbar" style="width: 100%;"></div>
+			</div>
+		  	<h3 class="section-title">Your search is running...</h3>
+		</section>
+	
+	<section data-vivet-body>
+		
+<div id="workspace_shortcut_head_spacer">
+	<style>.goToWorkspace, .bug-shortcut {margin-top: 300px !important;}</style>
+</div>
+<script>
+	var oldheadspacerinner = "";
+	window.addEventListener('scroll', function(e) {
+		var es = document.getElementById('workspace_shortcut_head_spacer');
+		if(es != null){
+			if (window.scrollY <= 1) {
+				if(oldheadspacerinner != ""){
+					es.innerHTML = oldheadspacerinner;
+					oldheadspacerinner = "";
+				}
+			}else if(es.innerHTML != "" && window.scrollY >= 10){
+				oldheadspacerinner = es.innerHTML;
+				es.innerHTML = "";
+			}
+		}
+	});
+</script>
+<style>
+	.btn.filter-btn{
+		width: 100%;
+		min-width: 200px;
+	}
+	
+	.videos-list button{
+		border-radius: 5px;
+	}
+	
+	.videos-list button:hover{
+		box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+		transition: all 0.3s ease 0s;
+	}
+</style>
+<main>
+	
+	<!-- information -->
+	<style>
+		  .vivet_information_section{
+				padding: 1em 0 1em 0;
+				background-color: #e7e7f8; /* #121d99;*/
+				color: balck; /* white; */
+			}
+			.vivet_information_section h2{
+					text-align: center;
+					line-height: 3em;
+			}
+			.vivet_information_section p{
+					text-align: left;
+					font-size: 1.25em;
+			}
+			.vivet_information_section i{
+					text-align: center;
+					font-size: 2em;
+			}
+	</style>	
+	<section class="vivet_information_section shadow" style="background-color: transparent;">
+		<div class="container" style="width: 80%; margin-left: 10%; height: auto; background-color: transparent; margin-top: 0em; margin-bottom: 0em;">
+			<div class="row">
+				<div class="col-lg-12">
+					<h2 style="line-height: 1.5em;">ViVET – LEARNING PLATFORM FOR VOCATIONAL SKILLS AND CAREERS</h2>		
+				</div>				
+			</div>
+		</div>
+	</section>	
+	<div style="margin-top: 1em;"></div>
+	
+	<!-- Trainings -->
+	<section class="videos-list latest" style="width: 100%; text-align: center;">
+		<div class="col-lg-12" style="margin-top: 2em;">
+			<div class="row" data-autopagination="{&quot;model&quot;:&quot;Training&quot;,&quot;url&quot;:&quot;https:\/\/vivet.education\/?&amp;zajpagination[Training]=&quot;,&quot;startPage&quot;:1,&quot;pageCount&quot;:13}" data-autopagination-block="latest_trainings" data-autopagination-button=".btn-load-more-latest">
+				
+					<div class="col-sm-offset-1 col-md-2 col-sm-6" style="margin-bottom: 2em;">
+						<a href="//vivet.education/search/?filter[trainings]=yes&page=1" style="color: black;">
+							<div class="row shadow_hover2" style="height: 225px;">
+								<div class="col-sm-12 text-center" style="padding: 0; margin: 0;">
+																			<div style="width: 100%; border-radius: 0; margin: 0;" class="btn filter-btn training"><span style="text-transform: uppercase; font-size: 1.5em;">Training</span></div>
+																	</div>	
+								<div class="col-sm-12 text-center">
+									<h3>Comprehensive learning packages consisting of several courses</h3>
+								</div>							
+							</div>
+						</a>
+					</div>
+																		<div class="col-md-2 col-sm-6">
+								<article class="video-box training" style="padding: 0;">
+    <a href="//vivet.education/training/?id=60392b275f491"  title="View training" >		
+		<figure style="background-image: url(//vivet.education/data/Photo//2021/02/26/60392b2760fcf-normal.jpg)">
+			<div class="theme_name_icon training_name shadow" style="text-transform: capitalize;">training</div>
+			
+			<div class="clicker" data-vivet="trainingView" data-vivet-training-id="60392b275f491"></div>
+			<div class="top toolbar" style="width: 100%; float: left; margin-top: 1px; margin-bottom: 5px;"style="width: 100%; position: relative; display: block;">			  
+			  <!--  -->
+			  <!--  -->
+			  							  			</div>	
+			
+						
+	
+			<div class="bottom toolbar">
+								<div class="btn-group" style="display:none;">
+					<a class="view context-menu dropdown-toggle" data-toggle="dropdown"><span class="fa fa-ellipsis-h"></span></a>
+					<ul class="dropdown-menu">
+																		  							<li><a data-workspace="itemAdd" data-workspace-item-type="training" data-workspace-item-id="60392b275f491">Add to Workspace</a></li>
+						  																							</ul>
+				</div>
+							   
+			</div>
+		</figure>
+	</a>
+    <h4 title="LEAD Training: Business Enterprise" style="display: block; width: 100%; top: auto; color: black; text-align: left; font-weight: 400; margin-top: 0.5em; font-size: 2em; height: 2em; overflow: hidden; line-height: 1em; font-weight: 600;"><a href="//vivet.education/training/?id=60392b275f491" >LEAD Training: Business Enterprise&nbsp;</a></h4>
+	<div style="display: block; width: 100%; margin-top: -1em; margin-bottom: 2px;">
+	  <span class="btn btn-secondary btn-sm pull-left" style="font-size: 1.25em; float: left; background-color: transparent;">English</span>
+	  	  
+		<span class="btn btn-secondary btn-sm pull-right" style="font-size: 1.25em; float: right; background-color: transparent;">
+							3 courses					</span>
+	</div>
+    <h5 class="categories" style="display: block; width: 100%; margin-top: 0; margin-bottom: 2px; text-align: left;">
+                    &nbsp;
+            </h5>
+</article>
+							</div>
+																								<div class="col-md-2 col-sm-6">
+								<article class="video-box training" style="padding: 0;">
+    <a href="//vivet.education/training/?id=5ecd7502bd302"  title="View training" >		
+		<figure style="background-image: url(//vivet.education/data/Photo//2020/05/26/5ecd7502bec60-normal.jpg)">
+			<div class="theme_name_icon training_name shadow" style="text-transform: capitalize;">training</div>
+			
+			<div class="clicker" data-vivet="trainingView" data-vivet-training-id="5ecd7502bd302"></div>
+			<div class="top toolbar" style="width: 100%; float: left; margin-top: 1px; margin-bottom: 5px;"style="width: 100%; position: relative; display: block;">			  
+			  <!--  -->
+			  <!--  -->
+			  							  			</div>	
+			
+							<div class="top toolbar hoverdisplay" style="position: relative; width: 100%; margin-top: 0px; height: auto; max-height: 1em; border-radius: 0;">
+				  					<span class="view label" style="position: absolute; margin-top: -2em; float: left; width: 100%; padding: 2px 5px; font-size: 1.25em; border-radius: 0;" ><div style="width: 100%; overflow: hidden; word-wrap: break-word;">FORUM - Forum Berufsbildung, Berlin, Germany</div></span>
+				  				</div>	
+						
+	
+			<div class="bottom toolbar">
+								<div class="btn-group" style="display:none;">
+					<a class="view context-menu dropdown-toggle" data-toggle="dropdown"><span class="fa fa-ellipsis-h"></span></a>
+					<ul class="dropdown-menu">
+																		  							<li><a data-workspace="itemAdd" data-workspace-item-type="training" data-workspace-item-id="5ecd7502bd302">Add to Workspace</a></li>
+						  																							</ul>
+				</div>
+							   
+			</div>
+		</figure>
+	</a>
+    <h4 title="ПОЖИЛЫЙ УХОД - ОСНОВЫ" style="display: block; width: 100%; top: auto; color: black; text-align: left; font-weight: 400; margin-top: 0.5em; font-size: 2em; height: 2em; overflow: hidden; line-height: 1em; font-weight: 600;"><a href="//vivet.education/training/?id=5ecd7502bd302" >ПОЖИЛЫЙ УХОД - ОСНОВЫ&nbsp;</a></h4>
+	<div style="display: block; width: 100%; margin-top: -1em; margin-bottom: 2px;">
+	  <span class="btn btn-secondary btn-sm pull-left" style="font-size: 1.25em; float: left; background-color: transparent;">Pусский</span>
+	  	  
+		<span class="btn btn-secondary btn-sm pull-right" style="font-size: 1.25em; float: right; background-color: transparent;">
+							10 courses					</span>
+	</div>
+    <h5 class="categories" style="display: block; width: 100%; margin-top: 0; margin-bottom: 2px; text-align: left;">
+                    <span class="fa fa-bookmark-o"></span>
+                            HEALTH & FITNESS,                             Geriatric Care                        </h5>
+</article>
+							</div>
+																								<div class="col-md-2 col-sm-6">
+								<article class="video-box training" style="padding: 0;">
+    <a href="//vivet.education/training/?id=5db2e9d89d516"  title="View training" >		
+		<figure style="background-image: url(//vivet.education/data/Photo//2019/10/25/5db2e9d8a0515-normal.jpg)">
+			<div class="theme_name_icon training_name shadow" style="text-transform: capitalize;">training</div>
+			
+			<div class="clicker" data-vivet="trainingView" data-vivet-training-id="5db2e9d89d516"></div>
+			<div class="top toolbar" style="width: 100%; float: left; margin-top: 1px; margin-bottom: 5px;"style="width: 100%; position: relative; display: block;">			  
+			  <!--  -->
+			  <!--  -->
+			  							  			</div>	
+			
+							<div class="top toolbar hoverdisplay" style="position: relative; width: 100%; margin-top: 0px; height: auto; max-height: 1em; border-radius: 0;">
+				  					<span class="view label" style="position: absolute; margin-top: -2em; float: left; width: 100%; padding: 2px 5px; font-size: 1.25em; border-radius: 0;" ><div style="width: 100%; overflow: hidden; word-wrap: break-word;">APWG.EU - Barcelona, Spain</div></span>
+				  				</div>	
+						
+	
+			<div class="bottom toolbar">
+								<div class="btn-group" style="display:none;">
+					<a class="view context-menu dropdown-toggle" data-toggle="dropdown"><span class="fa fa-ellipsis-h"></span></a>
+					<ul class="dropdown-menu">
+																		  							<li><a data-workspace="itemAdd" data-workspace-item-type="training" data-workspace-item-id="5db2e9d89d516">Add to Workspace</a></li>
+						  																							</ul>
+				</div>
+							   
+			</div>
+		</figure>
+	</a>
+    <h4 title="Conceptos básicos de ciberseguridad" style="display: block; width: 100%; top: auto; color: black; text-align: left; font-weight: 400; margin-top: 0.5em; font-size: 2em; height: 2em; overflow: hidden; line-height: 1em; font-weight: 600;"><a href="//vivet.education/training/?id=5db2e9d89d516" >Conceptos básicos de ciberseguridad&nbsp;</a></h4>
+	<div style="display: block; width: 100%; margin-top: -1em; margin-bottom: 2px;">
+	  <span class="btn btn-secondary btn-sm pull-left" style="font-size: 1.25em; float: left; background-color: transparent;">Español</span>
+	  	  
+		<span class="btn btn-secondary btn-sm pull-right" style="font-size: 1.25em; float: right; background-color: transparent;">
+							4 courses					</span>
+	</div>
+    <h5 class="categories" style="display: block; width: 100%; margin-top: 0; margin-bottom: 2px; text-align: left;">
+                    <span class="fa fa-bookmark-o"></span>
+                            Cybersecurity,                             IT & SOFTWARE,                             Software                        </h5>
+</article>
+							</div>
+																								<div class="col-md-2 col-sm-6">
+								<article class="video-box training" style="padding: 0;">
+    <a href="//vivet.education/training/?id=5db1a3eeba3f2"  title="View training" >		
+		<figure style="background-image: url(//vivet.education/data/Photo//2019/10/24/5db1a3eebd358-normal.jpg)">
+			<div class="theme_name_icon training_name shadow" style="text-transform: capitalize;">training</div>
+			
+			<div class="clicker" data-vivet="trainingView" data-vivet-training-id="5db1a3eeba3f2"></div>
+			<div class="top toolbar" style="width: 100%; float: left; margin-top: 1px; margin-bottom: 5px;"style="width: 100%; position: relative; display: block;">			  
+			  <!--  -->
+			  <!--  -->
+			  							  			</div>	
+			
+							<div class="top toolbar hoverdisplay" style="position: relative; width: 100%; margin-top: 0px; height: auto; max-height: 1em; border-radius: 0;">
+				  					<span class="view label" style="position: absolute; margin-top: -2em; float: left; width: 100%; padding: 2px 5px; font-size: 1.25em; border-radius: 0;" ><div style="width: 100%; overflow: hidden; word-wrap: break-word;">FORUM - Forum Berufsbildung, Berlin, Germany</div></span>
+				  				</div>	
+						
+	
+			<div class="bottom toolbar">
+								<div class="btn-group" style="display:none;">
+					<a class="view context-menu dropdown-toggle" data-toggle="dropdown"><span class="fa fa-ellipsis-h"></span></a>
+					<ul class="dropdown-menu">
+																		  							<li><a data-workspace="itemAdd" data-workspace-item-type="training" data-workspace-item-id="5db1a3eeba3f2">Add to Workspace</a></li>
+						  																							</ul>
+				</div>
+							   
+			</div>
+		</figure>
+	</a>
+    <h4 title="التدريب: ALTENPFLEGE - أساسيات" style="display: block; width: 100%; top: auto; color: black; text-align: left; font-weight: 400; margin-top: 0.5em; font-size: 2em; height: 2em; overflow: hidden; line-height: 1em; font-weight: 600;"><a href="//vivet.education/training/?id=5db1a3eeba3f2" >التدريب: ALTENPFLEGE - أساسيات&nbsp;</a></h4>
+	<div style="display: block; width: 100%; margin-top: -1em; margin-bottom: 2px;">
+	  <span class="btn btn-secondary btn-sm pull-left" style="font-size: 1.25em; float: left; background-color: transparent;">عربى</span>
+	  	  
+		<span class="btn btn-secondary btn-sm pull-right" style="font-size: 1.25em; float: right; background-color: transparent;">
+							10 courses					</span>
+	</div>
+    <h5 class="categories" style="display: block; width: 100%; margin-top: 0; margin-bottom: 2px; text-align: left;">
+                    <span class="fa fa-bookmark-o"></span>
+                            HEALTH & FITNESS,                             Geriatric Care                        </h5>
+</article>
+							</div>
+																
+				
+			</div>
+			<!--<p><button type="button" class="btn btn-block show-all btn-load-more-latest">View more latest</button></p>-->
+		</div>
+	</section>	
+	
+	<!-- Courses -->
+	<section class="videos-list latest" style="width: 100%;">
+		<div class="col-lg-12" style="margin-top: 0em;">			
+			<div  class="row" data-autopagination="{&quot;model&quot;:&quot;Course&quot;,&quot;url&quot;:&quot;https:\/\/vivet.education\/?&amp;zajpagination[Course]=&quot;,&quot;startPage&quot;:1,&quot;pageCount&quot;:126}" data-autopagination-block="latest_courses" data-autopagination-button=".btn-load-more-latest">
+				
+					<div class="col-sm-offset-1 col-md-2 col-sm-6" style="margin-bottom: 2em;">
+						<a href="//vivet.education/search/?filter[courses]=yes&page=1" style="color: black;">
+							<div class="row shadow_hover2" style="height: 225px;">
+								<div class="col-sm-12 text-center" style="padding: 0; margin: 0;">				
+									<div style="width: 100%; border-radius: 0; margin: 0;" class="btn filter-btn course"><span style="text-transform: uppercase; font-size: 1.5em;">Courses</span></div>
+								</div>	
+								<div class="col-sm-12 text-center">
+									<h3>Short learning units <br/>with duration of ½ - 1 day</h3>
+								</div>							
+							</div>
+						</a>
+					</div>
+																		<div class="col-md-2 col-sm-6">
+								<article class="video-box course" style="padding: 0;">
+    <a href="//vivet.education/course/?id=66ab968d282b6"  title="View course" >		
+		<figure style="background-image: url(//vivet.education/data/Photo//2024/08/06/66b1f18c82e4c-normal.jpg)">
+			<div class="theme_name_icon course_name shadow" style="text-transform: capitalize;">course</div>
+			
+			<div class="clicker" data-vivet="courseView" data-vivet-course-id="66ab968d282b6"></div>
+			<div class="top toolbar" style="width: 100%; float: left; margin-top: 1px; margin-bottom: 5px;"style="width: 100%; position: relative; display: block;">			  
+			  <!--  -->
+			  <!--  -->
+			  							  			</div>	
+			
+						
+	
+			<div class="bottom toolbar">
+								<div class="btn-group" style="display:none;">
+					<a class="view context-menu dropdown-toggle" data-toggle="dropdown"><span class="fa fa-ellipsis-h"></span></a>
+					<ul class="dropdown-menu">
+																		  							<li><a data-workspace="itemAdd" data-workspace-item-type="course" data-workspace-item-id="66ab968d282b6">Add to Workspace</a></li>
+						  																							</ul>
+				</div>
+							   
+			</div>
+		</figure>
+	</a>
+    <h4 title="Basics of BIKING" style="display: block; width: 100%; top: auto; color: black; text-align: left; font-weight: 400; margin-top: 0.5em; font-size: 2em; height: 2em; overflow: hidden; line-height: 1em; font-weight: 600;"><a href="//vivet.education/course/?id=66ab968d282b6" >Basics of BIKING&nbsp;</a></h4>
+	<div style="display: block; width: 100%; margin-top: -1em; margin-bottom: 2px;">
+	  <span class="btn btn-secondary btn-sm pull-left" style="font-size: 1.25em; float: left; background-color: transparent;">English</span>
+	  	  
+		<span class="btn btn-secondary btn-sm pull-right" style="font-size: 1.25em; float: right; background-color: transparent;">
+							5 lessons					</span>
+	</div>
+    <h5 class="categories" style="display: block; width: 100%; margin-top: 0; margin-bottom: 2px; text-align: left;">
+                    &nbsp;
+            </h5>
+</article>
+							</div>
+																								<div class="col-md-2 col-sm-6">
+								<article class="video-box course" style="padding: 0;">
+    <a href="//vivet.education/course/?id=60ed82f2da842"  title="View course" >		
+		<figure style="background-image: url(//vivet.education/data/Photo//2021/07/13/60eda8d930704-normal.jpg)">
+			<div class="theme_name_icon course_name shadow" style="text-transform: capitalize;">course</div>
+			
+			<div class="clicker" data-vivet="courseView" data-vivet-course-id="60ed82f2da842"></div>
+			<div class="top toolbar" style="width: 100%; float: left; margin-top: 1px; margin-bottom: 5px;"style="width: 100%; position: relative; display: block;">			  
+			  <!--  -->
+			  <!--  -->
+			  				<span class="fa fa-lock" style="width: 2em; font-size: 1.5em; display: block; position: absolute; right: 0; color: red; background-color: transparent;" title="This course is exclusive and usable only for learners of the institute"></span>			  			</div>	
+			
+							<div class="top toolbar hoverdisplay" style="position: relative; width: 100%; margin-top: 0px; height: auto; max-height: 1em; border-radius: 0;">
+				  					<span class="view label" style="position: absolute; margin-top: -2em; float: left; width: 100%; padding: 2px 5px; font-size: 1.25em; border-radius: 0;" ><div style="width: 100%; overflow: hidden; word-wrap: break-word;">FORUM Internatinal Academy gGmBH</div></span>
+				  				</div>	
+						
+	
+			<div class="bottom toolbar">
+								<div class="btn-group" style="display:none;">
+					<a class="view context-menu dropdown-toggle" data-toggle="dropdown"><span class="fa fa-ellipsis-h"></span></a>
+					<ul class="dropdown-menu">
+																		  						  																							</ul>
+				</div>
+							   
+			</div>
+		</figure>
+	</a>
+    <h4 title="Kurs:  Naturschutz beim Wasser in der Stadt (Demo)" style="display: block; width: 100%; top: auto; color: black; text-align: left; font-weight: 400; margin-top: 0.5em; font-size: 2em; height: 2em; overflow: hidden; line-height: 1em; font-weight: 600;"><a href="//vivet.education/course/?id=60ed82f2da842" >Kurs:  Naturschutz beim Wasser in der Stadt (D...&nbsp;</a></h4>
+	<div style="display: block; width: 100%; margin-top: -1em; margin-bottom: 2px;">
+	  <span class="btn btn-secondary btn-sm pull-left" style="font-size: 1.25em; float: left; background-color: transparent;">Deutsch </span>
+	  	  
+		<span class="btn btn-secondary btn-sm pull-right" style="font-size: 1.25em; float: right; background-color: transparent;">
+							4 lessons					</span>
+	</div>
+    <h5 class="categories" style="display: block; width: 100%; margin-top: 0; margin-bottom: 2px; text-align: left;">
+                    <span class="fa fa-bookmark-o"></span>
+                            BUILDING & CONSTRUCTION,                             Plumbing / Piping,                             ENVIRONMENT,                         </h5>
+</article>
+							</div>
+																								<div class="col-md-2 col-sm-6">
+								<article class="video-box course" style="padding: 0;">
+    <a href="//vivet.education/course/?id=603e3bebe316d"  title="View course" >		
+		<figure style="background-image: url(//vivet.education/data/Photo//2021/03/02/603e3d8f1b07a-normal.jpg)">
+			<div class="theme_name_icon course_name shadow" style="text-transform: capitalize;">course</div>
+			
+			<div class="clicker" data-vivet="courseView" data-vivet-course-id="603e3bebe316d"></div>
+			<div class="top toolbar" style="width: 100%; float: left; margin-top: 1px; margin-bottom: 5px;"style="width: 100%; position: relative; display: block;">			  
+			  <!--  -->
+			  <!--  -->
+			  							  			</div>	
+			
+							<div class="top toolbar hoverdisplay" style="position: relative; width: 100%; margin-top: 0px; height: auto; max-height: 1em; border-radius: 0;">
+				  					<span class="view label" style="position: absolute; margin-top: -2em; float: left; width: 100%; padding: 2px 5px; font-size: 1.25em; border-radius: 0;" ><div style="width: 100%; overflow: hidden; word-wrap: break-word;">LEAD Resources Ecosystems Limited</div></span>
+				  				</div>	
+						
+	
+			<div class="bottom toolbar">
+								<div class="btn-group" style="display:none;">
+					<a class="view context-menu dropdown-toggle" data-toggle="dropdown"><span class="fa fa-ellipsis-h"></span></a>
+					<ul class="dropdown-menu">
+																		  							<li><a data-workspace="itemAdd" data-workspace-item-type="course" data-workspace-item-id="603e3bebe316d">Add to Workspace</a></li>
+						  																							</ul>
+				</div>
+							   
+			</div>
+		</figure>
+	</a>
+    <h4 title="Module 1: Character Education - DEEM" style="display: block; width: 100%; top: auto; color: black; text-align: left; font-weight: 400; margin-top: 0.5em; font-size: 2em; height: 2em; overflow: hidden; line-height: 1em; font-weight: 600;"><a href="//vivet.education/course/?id=603e3bebe316d" >Module 1: Character Education - DEEM&nbsp;</a></h4>
+	<div style="display: block; width: 100%; margin-top: -1em; margin-bottom: 2px;">
+	  <span class="btn btn-secondary btn-sm pull-left" style="font-size: 1.25em; float: left; background-color: transparent;">English</span>
+	  	  
+		<span class="btn btn-secondary btn-sm pull-right" style="font-size: 1.25em; float: right; background-color: transparent;">
+							6 lessons					</span>
+	</div>
+    <h5 class="categories" style="display: block; width: 100%; margin-top: 0; margin-bottom: 2px; text-align: left;">
+                    <span class="fa fa-bookmark-o"></span>
+                            EDUCATION                        </h5>
+</article>
+							</div>
+																								<div class="col-md-2 col-sm-6">
+								<article class="video-box course" style="padding: 0;">
+    <a href="//vivet.education/course/?id=603b975ceba8e"  title="View course" >		
+		<figure style="background-image: url(//vivet.education/data/Photo//2021/02/28/603b9993cc994-normal.jpg)">
+			<div class="theme_name_icon course_name shadow" style="text-transform: capitalize;">course</div>
+			
+			<div class="clicker" data-vivet="courseView" data-vivet-course-id="603b975ceba8e"></div>
+			<div class="top toolbar" style="width: 100%; float: left; margin-top: 1px; margin-bottom: 5px;"style="width: 100%; position: relative; display: block;">			  
+			  <!--  -->
+			  <!--  -->
+			  							  			</div>	
+			
+							<div class="top toolbar hoverdisplay" style="position: relative; width: 100%; margin-top: 0px; height: auto; max-height: 1em; border-radius: 0;">
+				  					<span class="view label" style="position: absolute; margin-top: -2em; float: left; width: 100%; padding: 2px 5px; font-size: 1.25em; border-radius: 0;" ><div style="width: 100%; overflow: hidden; word-wrap: break-word;">LEAD Resources Ecosystems Limited</div></span>
+				  				</div>	
+						
+	
+			<div class="bottom toolbar">
+								<div class="btn-group" style="display:none;">
+					<a class="view context-menu dropdown-toggle" data-toggle="dropdown"><span class="fa fa-ellipsis-h"></span></a>
+					<ul class="dropdown-menu">
+																		  							<li><a data-workspace="itemAdd" data-workspace-item-type="course" data-workspace-item-id="603b975ceba8e">Add to Workspace</a></li>
+						  																							</ul>
+				</div>
+							   
+			</div>
+		</figure>
+	</a>
+    <h4 title="Module 2: Financial Literacy and Business Finance - DEEM" style="display: block; width: 100%; top: auto; color: black; text-align: left; font-weight: 400; margin-top: 0.5em; font-size: 2em; height: 2em; overflow: hidden; line-height: 1em; font-weight: 600;"><a href="//vivet.education/course/?id=603b975ceba8e" >Module 2: Financial Literacy and Business Fina...&nbsp;</a></h4>
+	<div style="display: block; width: 100%; margin-top: -1em; margin-bottom: 2px;">
+	  <span class="btn btn-secondary btn-sm pull-left" style="font-size: 1.25em; float: left; background-color: transparent;">English</span>
+	  	  
+		<span class="btn btn-secondary btn-sm pull-right" style="font-size: 1.25em; float: right; background-color: transparent;">
+							5 lessons					</span>
+	</div>
+    <h5 class="categories" style="display: block; width: 100%; margin-top: 0; margin-bottom: 2px; text-align: left;">
+                    <span class="fa fa-bookmark-o"></span>
+                            BUSINESS & ADMINISTRATION,                             EDUCATION                        </h5>
+</article>
+							</div>
+																
+				
+			</div>
+			<!--<p><button type="button" class="btn btn-block show-all btn-load-more-latest">View more latest</button></p>-->
+		</div>
+	</section>
+	
+	<!-- Videos -->
+	<section class="videos-list latest" style="width: 100%; display: none;"">
+		<div class="col-lg-12" style="margin-top: 0em;">			
+			<div  class="row" data-autopagination="{&quot;model&quot;:&quot;Video&quot;,&quot;url&quot;:&quot;https:\/\/vivet.education\/?&amp;zajpagination[Video]=&quot;,&quot;startPage&quot;:1,&quot;pageCount&quot;:2558}" data-autopagination-block="latest_videos" data-autopagination-button=".btn-load-more-latest">
+				
+					<div class="col-sm-offset-1 col-md-2 col-sm-6" style="margin-bottom: 2em;">
+						<a href="//vivet.education/search/?filter[videos]=yes&page=1" style="color: black;">
+							<div class="row shadow_hover2" style="height: 225px;">
+								<div class="col-sm-12 text-center" style="padding: 0; margin: 0;">			
+									<div style="width: 100%; border-radius: 0; margin: 0;" class="btn filter-btn video"><span style="text-transform: uppercase; font-size: 1.5em;">Videos</span></div>
+								</div>	
+								<div class="col-sm-12 text-center">
+									<h3>Learning videos with text, images and more</h3>
+								</div>							
+							</div>
+						</a>
+					</div>
+																		<div class="col-md-2 col-sm-6">
+								<article class="video-box video" style="padding: 0;">
+    <a href="//vivet.education/video/?id=6117cdbcef2e9"  title="View tutorial" >		
+		<figure style="background-image: url(https://i.ytimg.com/vi/NXFBGe4z3PQ/hqdefault.jpg)">
+			<div class="theme_name_icon video_name shadow" style="text-transform: capitalize;">tutorial</div>
+			
+			<div class="clicker" data-vivet="videoView" data-vivet-video-id="6117cdbcef2e9"></div>
+			<div class="top toolbar" style="width: 100%; float: left; margin-top: 1px; margin-bottom: 5px;"style="width: 100%; position: relative; display: block;">			  
+			  <!--  -->
+			  <!--  -->
+			  			</div>	
+			
+						
+	
+			<div class="bottom toolbar">
+								<div class="btn-group" style="display:none;">
+					<a class="view context-menu dropdown-toggle" data-toggle="dropdown"><span class="fa fa-ellipsis-h"></span></a>
+					<ul class="dropdown-menu">
+																		  <li><a data-workspace="itemAdd" data-workspace-item-type="video" data-workspace-item-id="6117cdbcef2e9">Add to Workspace</a></li>
+																							</ul>
+				</div>
+							   
+			</div>
+		</figure>
+	</a>
+    <h4 title="EASY LOCKEN, die LANGE BEI JEDEM halten! " style="display: block; width: 100%; top: auto; color: black; text-align: left; font-weight: 400; margin-top: 0.5em; font-size: 2em; height: 2em; overflow: hidden; line-height: 1em; font-weight: 600;"><a href="//vivet.education/video/?id=6117cdbcef2e9" >EASY LOCKEN, die LANGE BEI JEDEM halten! &nbsp;</a></h4>
+	<div style="display: block; width: 100%; margin-top: -1em; margin-bottom: 2px;">
+	  <span class="btn btn-secondary btn-sm pull-left" style="font-size: 1.25em; float: left; background-color: transparent;">English</span>
+	  	  
+		<span class="btn btn-secondary btn-sm pull-right" style="font-size: 1.25em; float: right; background-color: transparent;">
+							11 min					</span>
+	</div>
+    <h5 class="categories" style="display: block; width: 100%; margin-top: 0; margin-bottom: 2px; text-align: left;">
+                    &nbsp;
+            </h5>
+</article>
+							</div>
+																								<div class="col-md-2 col-sm-6">
+								<article class="video-box video" style="padding: 0;">
+    <a href="//vivet.education/video/?id=60ba56e9c152e"  title="View tutorial" >		
+		<figure style="background-image: url(https://i.ytimg.com/vi/9-NWhwskTO4/hqdefault.jpg)">
+			<div class="theme_name_icon video_name shadow" style="text-transform: capitalize;">tutorial</div>
+			
+			<div class="clicker" data-vivet="videoView" data-vivet-video-id="60ba56e9c152e"></div>
+			<div class="top toolbar" style="width: 100%; float: left; margin-top: 1px; margin-bottom: 5px;"style="width: 100%; position: relative; display: block;">			  
+			  <!--  -->
+			  <!--  -->
+			  			</div>	
+			
+						
+	
+			<div class="bottom toolbar">
+								<div class="btn-group" style="display:none;">
+					<a class="view context-menu dropdown-toggle" data-toggle="dropdown"><span class="fa fa-ellipsis-h"></span></a>
+					<ul class="dropdown-menu">
+																		  <li><a data-workspace="itemAdd" data-workspace-item-type="video" data-workspace-item-id="60ba56e9c152e">Add to Workspace</a></li>
+																							</ul>
+				</div>
+							   
+			</div>
+		</figure>
+	</a>
+    <h4 title="Business strategy - SWOT analysis" style="display: block; width: 100%; top: auto; color: black; text-align: left; font-weight: 400; margin-top: 0.5em; font-size: 2em; height: 2em; overflow: hidden; line-height: 1em; font-weight: 600;"><a href="//vivet.education/video/?id=60ba56e9c152e" >Business strategy - SWOT analysis&nbsp;</a></h4>
+	<div style="display: block; width: 100%; margin-top: -1em; margin-bottom: 2px;">
+	  <span class="btn btn-secondary btn-sm pull-left" style="font-size: 1.25em; float: left; background-color: transparent;">English</span>
+	  	  
+		<span class="btn btn-secondary btn-sm pull-right" style="font-size: 1.25em; float: right; background-color: transparent;">
+							3 min					</span>
+	</div>
+    <h5 class="categories" style="display: block; width: 100%; margin-top: 0; margin-bottom: 2px; text-align: left;">
+                    &nbsp;
+            </h5>
+</article>
+							</div>
+																								<div class="col-md-2 col-sm-6">
+								<article class="video-box video" style="padding: 0;">
+    <a href="//vivet.education/video/?id=60b52b952aa04"  title="View tutorial" >		
+		<figure style="background-image: url(https://i.ytimg.com/vi/_n-8dYlqV0s/hqdefault.jpg)">
+			<div class="theme_name_icon video_name shadow" style="text-transform: capitalize;">tutorial</div>
+			
+			<div class="clicker" data-vivet="videoView" data-vivet-video-id="60b52b952aa04"></div>
+			<div class="top toolbar" style="width: 100%; float: left; margin-top: 1px; margin-bottom: 5px;"style="width: 100%; position: relative; display: block;">			  
+			  <!--  -->
+			  <!--  -->
+			  			</div>	
+			
+						
+	
+			<div class="bottom toolbar">
+								<div class="btn-group" style="display:none;">
+					<a class="view context-menu dropdown-toggle" data-toggle="dropdown"><span class="fa fa-ellipsis-h"></span></a>
+					<ul class="dropdown-menu">
+																		  <li><a data-workspace="itemAdd" data-workspace-item-type="video" data-workspace-item-id="60b52b952aa04">Add to Workspace</a></li>
+																							</ul>
+				</div>
+							   
+			</div>
+		</figure>
+	</a>
+    <h4 title="Solar Powered Electric Boat!! (Part 1)" style="display: block; width: 100%; top: auto; color: black; text-align: left; font-weight: 400; margin-top: 0.5em; font-size: 2em; height: 2em; overflow: hidden; line-height: 1em; font-weight: 600;"><a href="//vivet.education/video/?id=60b52b952aa04" >Solar Powered Electric Boat!! (Part 1)&nbsp;</a></h4>
+	<div style="display: block; width: 100%; margin-top: -1em; margin-bottom: 2px;">
+	  <span class="btn btn-secondary btn-sm pull-left" style="font-size: 1.25em; float: left; background-color: transparent;">English</span>
+	  	  
+		<span class="btn btn-secondary btn-sm pull-right" style="font-size: 1.25em; float: right; background-color: transparent;">
+							17 min					</span>
+	</div>
+    <h5 class="categories" style="display: block; width: 100%; margin-top: 0; margin-bottom: 2px; text-align: left;">
+                    &nbsp;
+            </h5>
+</article>
+							</div>
+																								<div class="col-md-2 col-sm-6">
+								<article class="video-box video" style="padding: 0;">
+    <a href="//vivet.education/video/?id=60747e72c73b0"  title="View tutorial" >		
+		<figure style="background-image: url(https://i.ytimg.com/vi/Va8tlFpnhRg/hqdefault.jpg)">
+			<div class="theme_name_icon video_name shadow" style="text-transform: capitalize;">tutorial</div>
+			
+			<div class="clicker" data-vivet="videoView" data-vivet-video-id="60747e72c73b0"></div>
+			<div class="top toolbar" style="width: 100%; float: left; margin-top: 1px; margin-bottom: 5px;"style="width: 100%; position: relative; display: block;">			  
+			  <!--  -->
+			  <!--  -->
+			  			</div>	
+			
+						
+	
+			<div class="bottom toolbar">
+								<div class="btn-group" style="display:none;">
+					<a class="view context-menu dropdown-toggle" data-toggle="dropdown"><span class="fa fa-ellipsis-h"></span></a>
+					<ul class="dropdown-menu">
+																		  <li><a data-workspace="itemAdd" data-workspace-item-type="video" data-workspace-item-id="60747e72c73b0">Add to Workspace</a></li>
+																							</ul>
+				</div>
+							   
+			</div>
+		</figure>
+	</a>
+    <h4 title="The PERFECT Woodworking Workbench // How To Build The Ultimate Hybrid Workholding Bench" style="display: block; width: 100%; top: auto; color: black; text-align: left; font-weight: 400; margin-top: 0.5em; font-size: 2em; height: 2em; overflow: hidden; line-height: 1em; font-weight: 600;"><a href="//vivet.education/video/?id=60747e72c73b0" >The PERFECT Woodworking Workbench // How To Bu...&nbsp;</a></h4>
+	<div style="display: block; width: 100%; margin-top: -1em; margin-bottom: 2px;">
+	  <span class="btn btn-secondary btn-sm pull-left" style="font-size: 1.25em; float: left; background-color: transparent;">English</span>
+	  	  
+		<span class="btn btn-secondary btn-sm pull-right" style="font-size: 1.25em; float: right; background-color: transparent;">
+							13 min					</span>
+	</div>
+    <h5 class="categories" style="display: block; width: 100%; margin-top: 0; margin-bottom: 2px; text-align: left;">
+                    &nbsp;
+            </h5>
+</article>
+							</div>
+																
+				
+			</div>
+			<!--<p><button type="button" class="btn btn-block show-all btn-load-more-latest">View more latest</button></p>-->
+		</div>
+	</section>
+	
+	<!-- Topics -->
+	<section class="videos-list latest" style="width: 100%; display: none;"">
+		<div class="col-lg-12" style="margin-top: 0em;">			
+			<div class="row" data-autopagination="{&quot;model&quot;:&quot;Topic&quot;,&quot;url&quot;:&quot;https:\/\/vivet.education\/?&amp;zajpagination[Topic]=&quot;,&quot;startPage&quot;:1,&quot;pageCount&quot;:16}" data-autopagination-block="latest_topics" data-autopagination-button=".btn-load-more-latest">
+				
+					<div class="col-sm-offset-1 col-md-2 col-sm-6" style="margin-bottom: 2em;">
+						<a href="//vivet.education/search/?filter[topics]=yes&page=1" style="color: black;">
+							<div class="row shadow_hover2" style="height: 225px;">
+								<div class="col-sm-12 text-center" style="padding: 0; margin: 0;">
+									<div style="width: 100%; border-radius: 0; margin: 0;" class="btn filter-btn topic"><span style="text-transform: uppercase; font-size: 1.5em;">Topics</span></div>
+								</div>
+								<div class="col-sm-12 text-center">
+									<h3>Professional articles as additional information</h3>
+								</div>							
+							</div>
+						</a>
+					</div>
+																		<div class="col-md-2 col-sm-6">
+								<article class="video-box topic" style="padding: 0;">
+    <a href="//vivet.education/topic/?id=5e5643114ec58"  title="View topic" >		
+		<figure style="background-image: url(//vivet.education/data/Photo//2020/02/26/5e564696573db-normal.jpg)">
+			<div class="theme_name_icon topic_name shadow" style="text-transform: capitalize;">topic</div>
+			
+			<div class="clicker" data-vivet="topicView" data-vivet-topic-id="5e5643114ec58"></div>
+			<div class="top toolbar" style="width: 100%; float: left; margin-top: 1px; margin-bottom: 5px;"style="width: 100%; position: relative; display: block;">			  
+			  <!--  -->
+			  <!--  -->
+			  			</div>	
+			
+							<div class="top toolbar hoverdisplay" style="position: relative; width: 100%; margin-top: 0px; height: auto; max-height: 1em; border-radius: 0;">
+				  					<span class="view label" style="position: absolute; margin-top: -2em; float: left; width: 100%; padding: 2px 5px; font-size: 1.25em; border-radius: 0;" ><div style="width: 100%; overflow: hidden; word-wrap: break-word;">CLAR - Centro Libero Analisi e Ricerca - Senigallia, Italy</div></span>
+				  				</div>	
+						
+	
+			<div class="bottom toolbar">
+								<div class="btn-group" style="display:none;">
+					<a class="view context-menu dropdown-toggle" data-toggle="dropdown"><span class="fa fa-ellipsis-h"></span></a>
+					<ul class="dropdown-menu">
+																		  <li><a data-workspace="itemAdd" data-workspace-item-type="topic" data-workspace-item-id="5e5643114ec58">Add to Workspace</a></li>
+																							</ul>
+				</div>
+							   
+			</div>
+		</figure>
+	</a>
+    <h4 title="Le domande di asilo nell'UE aumentano del 13% nel 2019" style="display: block; width: 100%; top: auto; color: black; text-align: left; font-weight: 400; margin-top: 0.5em; font-size: 2em; height: 2em; overflow: hidden; line-height: 1em; font-weight: 600;"><a href="//vivet.education/topic/?id=5e5643114ec58" >Le domande di asilo nell'UE aumentano del 13% ...&nbsp;</a></h4>
+	<div style="display: block; width: 100%; margin-top: -1em; margin-bottom: 2px;">
+	  <span class="btn btn-secondary btn-sm pull-left" style="font-size: 1.25em; float: left; background-color: transparent;">Italiano</span>
+	  	  
+		<span class="btn btn-secondary btn-sm pull-right" style="font-size: 1.25em; float: right; background-color: transparent;">
+					</span>
+	</div>
+    <h5 class="categories" style="display: block; width: 100%; margin-top: 0; margin-bottom: 2px; text-align: left;">
+                    &nbsp;
+            </h5>
+</article>
+							</div>
+																								<div class="col-md-2 col-sm-6">
+								<article class="video-box topic" style="padding: 0;">
+    <a href="//vivet.education/topic/?id=5e5642d80953a"  title="View topic" >		
+		<figure style="background-image: url(//vivet.education/data/Photo//2020/02/26/5e5644b16cbc6-normal.jpg)">
+			<div class="theme_name_icon topic_name shadow" style="text-transform: capitalize;">topic</div>
+			
+			<div class="clicker" data-vivet="topicView" data-vivet-topic-id="5e5642d80953a"></div>
+			<div class="top toolbar" style="width: 100%; float: left; margin-top: 1px; margin-bottom: 5px;"style="width: 100%; position: relative; display: block;">			  
+			  <!--  -->
+			  <!--  -->
+			  			</div>	
+			
+							<div class="top toolbar hoverdisplay" style="position: relative; width: 100%; margin-top: 0px; height: auto; max-height: 1em; border-radius: 0;">
+				  					<span class="view label" style="position: absolute; margin-top: -2em; float: left; width: 100%; padding: 2px 5px; font-size: 1.25em; border-radius: 0;" ><div style="width: 100%; overflow: hidden; word-wrap: break-word;">CLAR - Centro Libero Analisi e Ricerca - Senigallia, Italy</div></span>
+				  				</div>	
+						
+	
+			<div class="bottom toolbar">
+								<div class="btn-group" style="display:none;">
+					<a class="view context-menu dropdown-toggle" data-toggle="dropdown"><span class="fa fa-ellipsis-h"></span></a>
+					<ul class="dropdown-menu">
+																		  <li><a data-workspace="itemAdd" data-workspace-item-type="topic" data-workspace-item-id="5e5642d80953a">Add to Workspace</a></li>
+																							</ul>
+				</div>
+							   
+			</div>
+		</figure>
+	</a>
+    <h4 title="Asylum applications in the EU increase by 13% in 2019" style="display: block; width: 100%; top: auto; color: black; text-align: left; font-weight: 400; margin-top: 0.5em; font-size: 2em; height: 2em; overflow: hidden; line-height: 1em; font-weight: 600;"><a href="//vivet.education/topic/?id=5e5642d80953a" >Asylum applications in the EU increase by 13% ...&nbsp;</a></h4>
+	<div style="display: block; width: 100%; margin-top: -1em; margin-bottom: 2px;">
+	  <span class="btn btn-secondary btn-sm pull-left" style="font-size: 1.25em; float: left; background-color: transparent;">English</span>
+	  	  
+		<span class="btn btn-secondary btn-sm pull-right" style="font-size: 1.25em; float: right; background-color: transparent;">
+					</span>
+	</div>
+    <h5 class="categories" style="display: block; width: 100%; margin-top: 0; margin-bottom: 2px; text-align: left;">
+                    &nbsp;
+            </h5>
+</article>
+							</div>
+																								<div class="col-md-2 col-sm-6">
+								<article class="video-box topic" style="padding: 0;">
+    <a href="//vivet.education/topic/?id=5d9f08e2e1b72"  title="View topic" >		
+		<figure style="background-image: url(//vivet.education/data/Photo//2019/10/10/5d9f17abd0d61-normal.jpg)">
+			<div class="theme_name_icon topic_name shadow" style="text-transform: capitalize;">topic</div>
+			
+			<div class="clicker" data-vivet="topicView" data-vivet-topic-id="5d9f08e2e1b72"></div>
+			<div class="top toolbar" style="width: 100%; float: left; margin-top: 1px; margin-bottom: 5px;"style="width: 100%; position: relative; display: block;">			  
+			  <!--  -->
+			  <!--  -->
+			  			</div>	
+			
+						
+	
+			<div class="bottom toolbar">
+								<div class="btn-group" style="display:none;">
+					<a class="view context-menu dropdown-toggle" data-toggle="dropdown"><span class="fa fa-ellipsis-h"></span></a>
+					<ul class="dropdown-menu">
+																		  <li><a data-workspace="itemAdd" data-workspace-item-type="topic" data-workspace-item-id="5d9f08e2e1b72">Add to Workspace</a></li>
+																							</ul>
+				</div>
+							   
+			</div>
+		</figure>
+	</a>
+    <h4 title="Defense in Depth For Companies" style="display: block; width: 100%; top: auto; color: black; text-align: left; font-weight: 400; margin-top: 0.5em; font-size: 2em; height: 2em; overflow: hidden; line-height: 1em; font-weight: 600;"><a href="//vivet.education/topic/?id=5d9f08e2e1b72" >Defense in Depth For Companies&nbsp;</a></h4>
+	<div style="display: block; width: 100%; margin-top: -1em; margin-bottom: 2px;">
+	  <span class="btn btn-secondary btn-sm pull-left" style="font-size: 1.25em; float: left; background-color: transparent;">English</span>
+	  	  
+		<span class="btn btn-secondary btn-sm pull-right" style="font-size: 1.25em; float: right; background-color: transparent;">
+					</span>
+	</div>
+    <h5 class="categories" style="display: block; width: 100%; margin-top: 0; margin-bottom: 2px; text-align: left;">
+                    <span class="fa fa-bookmark-o"></span>
+                            IT & SOFTWARE,                             Cybersecurity,                             End User Security,                         </h5>
+</article>
+							</div>
+																								<div class="col-md-2 col-sm-6">
+								<article class="video-box topic" style="padding: 0;">
+    <a href="//vivet.education/topic/?id=5d7115ac82764"  title="View topic" >		
+		<figure style="background-image: url(//vivet.education/data/Photo//2019/09/05/5d7115ace7396-normal.jpg)">
+			<div class="theme_name_icon topic_name shadow" style="text-transform: capitalize;">topic</div>
+			
+			<div class="clicker" data-vivet="topicView" data-vivet-topic-id="5d7115ac82764"></div>
+			<div class="top toolbar" style="width: 100%; float: left; margin-top: 1px; margin-bottom: 5px;"style="width: 100%; position: relative; display: block;">			  
+			  <!--  -->
+			  <!--  -->
+			  			</div>	
+			
+						
+	
+			<div class="bottom toolbar">
+								<div class="btn-group" style="display:none;">
+					<a class="view context-menu dropdown-toggle" data-toggle="dropdown"><span class="fa fa-ellipsis-h"></span></a>
+					<ul class="dropdown-menu">
+																		  <li><a data-workspace="itemAdd" data-workspace-item-type="topic" data-workspace-item-id="5d7115ac82764">Add to Workspace</a></li>
+																							</ul>
+				</div>
+							   
+			</div>
+		</figure>
+	</a>
+    <h4 title="Topic: ¿Qué es la inteligencia artificial? [30 minutos]" style="display: block; width: 100%; top: auto; color: black; text-align: left; font-weight: 400; margin-top: 0.5em; font-size: 2em; height: 2em; overflow: hidden; line-height: 1em; font-weight: 600;"><a href="//vivet.education/topic/?id=5d7115ac82764" >Topic: ¿Qué es la inteligencia artificial? [30...&nbsp;</a></h4>
+	<div style="display: block; width: 100%; margin-top: -1em; margin-bottom: 2px;">
+	  <span class="btn btn-secondary btn-sm pull-left" style="font-size: 1.25em; float: left; background-color: transparent;">Español</span>
+	  	  
+		<span class="btn btn-secondary btn-sm pull-right" style="font-size: 1.25em; float: right; background-color: transparent;">
+					</span>
+	</div>
+    <h5 class="categories" style="display: block; width: 100%; margin-top: 0; margin-bottom: 2px; text-align: left;">
+                    <span class="fa fa-bookmark-o"></span>
+                            Cybersecurity,                             IT & SOFTWARE,                             System Security                        </h5>
+</article>
+							</div>
+																
+				
+			</div>		
+			<!--<div class="row">
+				<div class="col-md-offset-2 col-md-10">
+				<p><button type="button" class="btn btn-block show-all btn-load-more-latest">View more latest</button></p>
+			</div>-->
+		</div>
+	</section>	
+	
+	<section class="videos-list highlights trainings_visible">
+		<div class="row">
+			<div class="col-lg-12"  style="margin-top: 2em; display: none;">
+			
+				<div class="col-sm-offset-1 col-md-2 col-sm-6" style="margin-bottom: 2em;">
+					<div class="col-sm-12 text-center" >
+						<button data-search="go" data-vivet="selectButton" data-vivet-button-type="highlights" data-vivet-button-state="selected" class="btn filter-btn" style="background-color: #a1a1a1;" ><span style="text-transform: uppercase;">Highlights</span></button>
+					</div>	
+				</div>				
+									<div class="col-md-2 col-sm-6">
+						<article class="video-box video" style="padding: 0;">
+    <a href="//vivet.education/video/?id=5f56a979f39d3"  title="View tutorial" >		
+		<figure style="background-image: url(https://i.ytimg.com/vi/FHvQkZsIH6A/hqdefault.jpg)">
+			<div class="theme_name_icon video_name shadow" style="text-transform: capitalize;">tutorial</div>
+			
+			<div class="clicker" data-vivet="videoView" data-vivet-video-id="5f56a979f39d3"></div>
+			<div class="top toolbar" style="width: 100%; float: left; margin-top: 1px; margin-bottom: 5px;"style="width: 100%; position: relative; display: block;">			  
+			  <!--  -->
+			  <!--  -->
+			  			</div>	
+			
+						
+	
+			<div class="bottom toolbar">
+								<div class="btn-group" style="display:none;">
+					<a class="view context-menu dropdown-toggle" data-toggle="dropdown"><span class="fa fa-ellipsis-h"></span></a>
+					<ul class="dropdown-menu">
+																		  <li><a data-workspace="itemAdd" data-workspace-item-type="video" data-workspace-item-id="5f56a979f39d3">Add to Workspace</a></li>
+																							</ul>
+				</div>
+							   
+			</div>
+		</figure>
+	</a>
+    <h4 title="Simple Leather Bag | Leatherworking" style="display: block; width: 100%; top: auto; color: black; text-align: left; font-weight: 400; margin-top: 0.5em; font-size: 2em; height: 2em; overflow: hidden; line-height: 1em; font-weight: 600;"><a href="//vivet.education/video/?id=5f56a979f39d3" >Simple Leather Bag | Leatherworking&nbsp;</a></h4>
+	<div style="display: block; width: 100%; margin-top: -1em; margin-bottom: 2px;">
+	  <span class="btn btn-secondary btn-sm pull-left" style="font-size: 1.25em; float: left; background-color: transparent;">English</span>
+	  	  
+		<span class="btn btn-secondary btn-sm pull-right" style="font-size: 1.25em; float: right; background-color: transparent;">
+							19 min					</span>
+	</div>
+    <h5 class="categories" style="display: block; width: 100%; margin-top: 0; margin-bottom: 2px; text-align: left;">
+                    <span class="fa fa-bookmark-o"></span>
+                            CRAFTS                        </h5>
+</article>
+					</div>
+													<div class="col-md-2 col-sm-6">
+						<article class="video-box course" style="padding: 0;">
+    <a href="//vivet.education/course/?id=602bb2281e523"  title="View course" >		
+		<figure style="background-image: url(//vivet.education/data/Photo//2021/02/17/602cedd2e8d13-normal.jpg)">
+			<div class="theme_name_icon course_name shadow" style="text-transform: capitalize;">course</div>
+			
+			<div class="clicker" data-vivet="courseView" data-vivet-course-id="602bb2281e523"></div>
+			<div class="top toolbar" style="width: 100%; float: left; margin-top: 1px; margin-bottom: 5px;"style="width: 100%; position: relative; display: block;">			  
+			  <!--  -->
+			  <!--  -->
+			  				<span class="fa fa-lock" style="width: 2em; font-size: 1.5em; display: block; position: absolute; right: 0; color: red; background-color: transparent;" title="This course is exclusive and usable only for learners of the institute"></span>			  			</div>	
+			
+							<div class="top toolbar hoverdisplay" style="position: relative; width: 100%; margin-top: 0px; height: auto; max-height: 1em; border-radius: 0;">
+				  					<span class="view label" style="position: absolute; margin-top: -2em; float: left; width: 100%; padding: 2px 5px; font-size: 1.25em; border-radius: 0;" ><div style="width: 100%; overflow: hidden; word-wrap: break-word;">LEAD Resources Ecosystems Limited</div></span>
+				  				</div>	
+						
+	
+			<div class="bottom toolbar">
+								<div class="btn-group" style="display:none;">
+					<a class="view context-menu dropdown-toggle" data-toggle="dropdown"><span class="fa fa-ellipsis-h"></span></a>
+					<ul class="dropdown-menu">
+																		  						  																							</ul>
+				</div>
+							   
+			</div>
+		</figure>
+	</a>
+    <h4 title="Module 5: Business Model and Digital Transformation" style="display: block; width: 100%; top: auto; color: black; text-align: left; font-weight: 400; margin-top: 0.5em; font-size: 2em; height: 2em; overflow: hidden; line-height: 1em; font-weight: 600;"><a href="//vivet.education/course/?id=602bb2281e523" >Module 5: Business Model and Digital Transform...&nbsp;</a></h4>
+	<div style="display: block; width: 100%; margin-top: -1em; margin-bottom: 2px;">
+	  <span class="btn btn-secondary btn-sm pull-left" style="font-size: 1.25em; float: left; background-color: transparent;">English</span>
+	  	  
+		<span class="btn btn-secondary btn-sm pull-right" style="font-size: 1.25em; float: right; background-color: transparent;">
+							4 lessons					</span>
+	</div>
+    <h5 class="categories" style="display: block; width: 100%; margin-top: 0; margin-bottom: 2px; text-align: left;">
+                    &nbsp;
+            </h5>
+</article>
+					</div>
+																			<div class="col-md-2 col-sm-6">
+							<article class="video-box training" style="padding: 0;">
+    <a href="//vivet.education/training/?id=5e723158ee9e9"  title="View training" >		
+		<figure style="background-image: url(//vivet.education/data/Photo//2020/03/18/5e723158f35c8-normal.jpg)">
+			<div class="theme_name_icon training_name shadow" style="text-transform: capitalize;">training</div>
+			
+			<div class="clicker" data-vivet="trainingView" data-vivet-training-id="5e723158ee9e9"></div>
+			<div class="top toolbar" style="width: 100%; float: left; margin-top: 1px; margin-bottom: 5px;"style="width: 100%; position: relative; display: block;">			  
+			  <!--  -->
+			  <!--  -->
+			  							  			</div>	
+			
+							<div class="top toolbar hoverdisplay" style="position: relative; width: 100%; margin-top: 0px; height: auto; max-height: 1em; border-radius: 0;">
+				  					<span class="view label" style="position: absolute; margin-top: -2em; float: left; width: 100%; padding: 2px 5px; font-size: 1.25em; border-radius: 0;" ><div style="width: 100%; overflow: hidden; word-wrap: break-word;">FORUM - Forum Berufsbildung, Berlin, Germany</div></span>
+				  				</div>	
+						
+	
+			<div class="bottom toolbar">
+								<div class="btn-group" style="display:none;">
+					<a class="view context-menu dropdown-toggle" data-toggle="dropdown"><span class="fa fa-ellipsis-h"></span></a>
+					<ul class="dropdown-menu">
+																		  							<li><a data-workspace="itemAdd" data-workspace-item-type="training" data-workspace-item-id="5e723158ee9e9">Add to Workspace</a></li>
+						  																							</ul>
+				</div>
+							   
+			</div>
+		</figure>
+	</a>
+    <h4 title="Training: Small Business Management - A) Finance" style="display: block; width: 100%; top: auto; color: black; text-align: left; font-weight: 400; margin-top: 0.5em; font-size: 2em; height: 2em; overflow: hidden; line-height: 1em; font-weight: 600;"><a href="//vivet.education/training/?id=5e723158ee9e9" >Training: Small Business Management - A) Finan...&nbsp;</a></h4>
+	<div style="display: block; width: 100%; margin-top: -1em; margin-bottom: 2px;">
+	  <span class="btn btn-secondary btn-sm pull-left" style="font-size: 1.25em; float: left; background-color: transparent;">English</span>
+	  	  
+		<span class="btn btn-secondary btn-sm pull-right" style="font-size: 1.25em; float: right; background-color: transparent;">
+							6 courses					</span>
+	</div>
+    <h5 class="categories" style="display: block; width: 100%; margin-top: 0; margin-bottom: 2px; text-align: left;">
+                    <span class="fa fa-bookmark-o"></span>
+                            BUSINESS & ADMINISTRATION,                             Business Administration                        </h5>
+</article>
+						</div>
+																		<div class="col-md-2 col-sm-6">
+						<article class="video-box topic" style="padding: 0;">
+    <a href="//vivet.education/topic/?id=5d5e636b3b257"  title="View topic" >		
+		<figure style="background-image: url(//vivet.education/data/Photo//2019/08/22/5d5e64a44cff0-normal.jpg)">
+			<div class="theme_name_icon topic_name shadow" style="text-transform: capitalize;">topic</div>
+			
+			<div class="clicker" data-vivet="topicView" data-vivet-topic-id="5d5e636b3b257"></div>
+			<div class="top toolbar" style="width: 100%; float: left; margin-top: 1px; margin-bottom: 5px;"style="width: 100%; position: relative; display: block;">			  
+			  <!--  -->
+			  <!--  -->
+			  			</div>	
+			
+							<div class="top toolbar hoverdisplay" style="position: relative; width: 100%; margin-top: 0px; height: auto; max-height: 1em; border-radius: 0;">
+				  					<span class="view label" style="position: absolute; margin-top: -2em; float: left; width: 100%; padding: 2px 5px; font-size: 1.25em; border-radius: 0;" ><div style="width: 100%; overflow: hidden; word-wrap: break-word;">CLAR - Centro Libero Analisi e Ricerca - Senigallia, Italy</div></span>
+				  				</div>	
+						
+	
+			<div class="bottom toolbar">
+								<div class="btn-group" style="display:none;">
+					<a class="view context-menu dropdown-toggle" data-toggle="dropdown"><span class="fa fa-ellipsis-h"></span></a>
+					<ul class="dropdown-menu">
+																		  <li><a data-workspace="itemAdd" data-workspace-item-type="topic" data-workspace-item-id="5d5e636b3b257">Add to Workspace</a></li>
+																							</ul>
+				</div>
+							   
+			</div>
+		</figure>
+	</a>
+    <h4 title="The Italian organic in great expansion" style="display: block; width: 100%; top: auto; color: black; text-align: left; font-weight: 400; margin-top: 0.5em; font-size: 2em; height: 2em; overflow: hidden; line-height: 1em; font-weight: 600;"><a href="//vivet.education/topic/?id=5d5e636b3b257" >The Italian organic in great expansion&nbsp;</a></h4>
+	<div style="display: block; width: 100%; margin-top: -1em; margin-bottom: 2px;">
+	  <span class="btn btn-secondary btn-sm pull-left" style="font-size: 1.25em; float: left; background-color: transparent;">English</span>
+	  	  
+		<span class="btn btn-secondary btn-sm pull-right" style="font-size: 1.25em; float: right; background-color: transparent;">
+					</span>
+	</div>
+    <h5 class="categories" style="display: block; width: 100%; margin-top: 0; margin-bottom: 2px; text-align: left;">
+                    &nbsp;
+            </h5>
+</article>
+					</div>
+									
+			
+			</div>
+		</div>
+	</section>
+	
+	<!-- usp's -->	
+	<section class="vivet_information_section shadow_in" style="background-color: #ddeef5;">
+		<div class="row">
+			<div class="col-lg-3"></div>
+			<div class="col-lg-9">
+				<h2 style="line-height: 2em; text-align: left;">ViVET - THE LEARNING PLATFORM FOR ALL</h2>	
+				<h3 style="text-transform: none; font-weight: 600;">Free and easy access to vocational and professional training</h3>
+				<h3 style="text-transform: none; font-weight: 600;">Different learning formats with short and long courses and tutorials</h3>
+				<h3 style="text-transform: none; font-weight: 600;">Varied learning alone or in group – with final certificate</h3>
+				<h3 style="text-transform: none; font-weight: 600;">Easy learning, easy teaching, easy administrating</h3>
+				<h3 style="text-transform: none; font-weight: 600;">Adapted contents in local versions and languages</h3>
+			</div>
+		</div>	
+	</section>
+	
+	<section class="vivet_information_section shadow" style="display: none; background-color: transparent;">
+		<div class="container" style="width: 80%; margin-left: 10%; height: auto; background-color: transparent; margin-top: 0em; margin-bottom: 2em;">			
+			<div class="row">				
+				<div class="col-lg-4">					
+					<div class="row">
+						<div class="col-md-12">
+							<div class="col-sm-12" style="background-color: rgba(55, 108, 226, 1); color: #fff;">
+								<h2 style="text-align: left; line-height: 0.75em; text-decoration: none;">for Learners</h2>
+							</div>
+						</div>
+						<div class="col-md-12">	
+							<div class="effect_shrinkonhover">
+								<div class="col-sm-12 effect_shrinkcontainer">
+									<h3 style="line-height: 0em;">&#8250; Easy to learn</h3>
+								</div>
+								<div class="col-sm-12 effect_growcontainer">	
+									<h3 style="line-height: 0.5em;">&#8250; Easy to learn <h4>- anytime, anywhere, repeatingly</h4></h3>
+								</div>
+							</div>
+							<div class="effect_shrinkonhover">
+								<div class="col-sm-12 effect_shrinkcontainer">
+									<h3 style="line-height: 0em;">&#8250; Flexible learning formats</h3>
+								</div>
+								<div class="col-sm-12 effect_growcontainer">	
+									<h3 style="line-height: 0.5em;">&#8250; Flexible learning formats <h4>- tutorials to short courses to extensive trainings</h4></h3>
+								</div>
+							</div>
+							<div class="effect_shrinkonhover">
+								<div class="col-sm-12 effect_shrinkcontainer">
+									<h3 style="line-height: 0em;">&#8250; Skills for building a career</h3>
+								</div>
+								<div class="col-sm-12 effect_growcontainer">	
+									<h3 style="line-height: 0.5em;">&#8250; Skills for building a career <h4>- step by step with modules and certificates</h4></h3>
+								</div>
+							</div>
+							<div class="effect_shrinkonhover">
+								<div class="col-sm-12 effect_shrinkcontainer">
+									<h3 style="line-height: 0em;">&#8250; Free or low cost</h3>	
+								</div>
+								<div class="col-sm-12 effect_growcontainer">	
+									<h3 style="line-height: 0.5em;">&#8250; Free or low cost <h4>- making VET know how accessible</h4></h3>	
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">					
+					<div class="row">
+						<div class="col-md-12">							
+							<div class="col-sm-12" style="background-color: rgba(33, 92, 147, 1); color: #fff;">
+								<h2 style="text-align: left; line-height: 0.75em; text-decoration: none;">for Teachers/Authors</h2>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="effect_shrinkonhover">						
+								<div class="col-sm-12 effect_shrinkcontainer">
+									<h3 style="line-height: 0em;">&#8250; Easy to start teaching</h3>
+								</div>
+								<div class="col-sm-12 effect_growcontainer">	
+									<h3 style="line-height: 0.5em;">&#8250; Easy to start teaching <h4>- by filling contents into templates with a mouse click</h4></h3>
+								</div>
+							</div>
+							<div class="effect_shrinkonhover">						
+								<div class="col-sm-12 effect_shrinkcontainer">
+									<h3 style="line-height: 0em;">&#8250; Using existing know how</h3>
+								</div>
+								<div class="col-sm-12 effect_growcontainer">	
+									<h3 style="line-height: 0.5em;">&#8250; Using existing know how <h4>- catering for open tutorials from the web</h4></h3>
+								</div>
+							</div>
+							<div class="effect_shrinkonhover">						
+								<div class="col-sm-12 effect_shrinkcontainer">
+									<h3 style="line-height: 0em;">&#8250; Adding practical know how</h3>
+								</div>
+								<div class="col-sm-12 effect_growcontainer">	
+									<h3 style="line-height: 0.5em;">&#8250; Adding practical know how <h4>- upload self-filmed practical work solutions</h4></h3>
+								</div>
+							</div>
+							<div class="effect_shrinkonhover">						
+								<div class="col-sm-12 effect_shrinkcontainer">
+									<h3 style="line-height: 0em;">&#8250; Fast spreading of know how</h3>	
+								</div>
+								<div class="col-sm-12 effect_growcontainer">	
+									<h3 style="line-height: 0.5em;">&#8250; Fast spreading of know how <h4>- entered once, available worldwide in seconds</h4></h3>	
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">					
+					<div class="row">
+						<div class="col-md-12">							
+							<div class="col-sm-12" style="background-color: rgba(15, 44, 85, 1); color: #fff;">
+								<h2 style="text-align: left; line-height: 0.75em; text-decoration: none;">for Institutes/Business</h2>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="effect_shrinkonhover">	
+								<div class="col-sm-12 effect_shrinkcontainer">
+									<h3 style="line-height: 0em;">&#8250; Building a VET-community</h3>
+								</div>
+								<div class="col-sm-12 effect_growcontainer">	
+									<h3 style="line-height: 0.5em;">&#8250; Building a VET-community <h4>- with learners, teachers, institutes, business</h4></h3>
+								</div>
+							</div>
+							<div class="effect_shrinkonhover">	
+								<div class="col-sm-12 effect_shrinkcontainer">
+									<h3 style="line-height: 0em;">&#8250; Multilingual</h3>
+								</div>
+								<div class="col-sm-12 effect_growcontainer">	
+									<h3 style="line-height: 0.5em;">&#8250; Multilingual <h4>- automatic translationsallow for many languages</h4></h3>
+								</div>
+							</div>
+							<div class="effect_shrinkonhover">	
+								<div class="col-sm-12 effect_shrinkcontainer">
+									<h3 style="line-height: 0em;">&#8250; International</h3>
+								</div>
+								<div class="col-sm-12 effect_growcontainer">	
+									<h3 style="line-height: 0.5em;">&#8250; International <h4>- making VET know how available world wide</h4></h3>
+								</div>
+							</div>
+							<div class="effect_shrinkonhover">	
+								<div class="col-sm-12 effect_shrinkcontainer">
+									<h3 style="line-height: 0em;">&#8250; Adaptable to local needs</h3>	
+								</div>
+								<div class="col-sm-12 effect_growcontainer">	
+									<h3 style="line-height: 0.5em;">&#8250; Adaptable to local needs <h4>- making a copy and adding local context</h4></h3>	
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>	
+	<!-- register -->
+	<style>
+		  .vivet_register_section{
+				padding: 0em 0 2em 0;
+				background-color: transparent;
+				color: black;
+				text-align: center;
+				height: auto;
+			}
+			.vivet_register_section h2{
+				text-align: center;
+				line-height: 3em;
+			}
+			.vivet_register_section p{
+				text-align: left;
+				font-size: 1.25em;
+				color: white;
+				width: 100%;
+				padding: 0em;
+				min-height: 3em;
+				height: auto;
+			}
+			.vivet_register_section a{
+				text-align: center;
+				color: black;
+				padding: 0.25em;
+				font-size: 1.25em;
+				height: auto;
+				width: 90%;
+				margin-top: 1em;
+				margin-left: 5%;
+				display: inline-block;
+				position: relative;
+				bottom: 0;
+				left: 0;
+				border: 1px solid black;
+				background-color: #fffcfc;
+				border-radius: 5px;
+			}
+	</style>
+	<section class="vivet_register_section" style="display: none;">
+		<div style="width: 80%; margin-left: 10%; height: auto; margin-top: 0em; margin-bottom: 0em;">
+			<div class="row">
+				<div class="col-lg-12">
+					<h2>JOIN ViVET AS …</h2>
+				</div>
+				<div class="col-lg-4">
+					<div class="col-md-12">
+						<a style="background-color: transparent; border: none; height: 100%;" href="//vivet.education/profile/registerstudent/" >
+							<div class="row shadow_hover2" style="border: 1px solid rgba(55, 108, 226, 1); border-radius: 2px; height: auto;">
+								<div class="col-sm-12 text-center" style="padding: 1em; text-transform: uppercase;">
+									<h3>Learner</h3>
+								</div>
+								<div class="col-sm-12 text-center" style="padding: 5px;">
+									<img style="width: 100%; height: auto;" src="https://cdn.pixabay.com/photo/2017/07/31/11/21/people-2557396_960_720.jpg"/>
+								</div>
+								<div class="col-sm-12 text-center" style="padding: 1em; height: 7em;">
+									<p style="color: black; line-height: 1.25em;">Enhance your in-demand skills and get ready for your career!</p>
+								</div>
+								<div class="col-sm-12 text-center" style="padding: 1em; bottom: 0;">
+									<div class="btn btn-sm btn-primary" style="background-color: rgba(55, 108, 226, 1); font-size: 1.25em;" >Join as a Learner</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="col-md-12">
+						<a style="background-color: transparent; border: none;" href="//vivet.education/profile/registerteacher/" >
+							<div class="row shadow_hover2" style="border: 1px solid rgba(33, 92, 147, 1); border-radius: 2px; height: auto;">
+								<div class="col-sm-12 text-center" style="padding: 1em; text-transform: uppercase;">
+									<h3>Teacher</h3>
+								</div>
+								<div class="col-sm-12 text-center" style="padding: 5px;">
+									<img style="width: 100%; height: auto;" src="https://cdn.pixabay.com/photo/2016/03/26/17/47/smiling-1280975_960_720.jpg"/>
+								</div>
+								<div class="col-sm-12 text-center" style="padding: 1em; height: 7em;">
+									<p style="color: black; line-height: 1.25em;">Enjoy sharing your knowledge and make an impact on your learners with easy to use tools for authors!</p>
+								</div>
+								<div class="col-sm-12 text-center" style="padding: 1em;">
+									<div class="btn btn-sm btn-primary" style="background-color: rgba(33, 92, 147, 1); font-size: 1.25em;">Join as a Teacher/Author</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="col-md-12">
+						<a style="background-color: transparent; border: none;" href="//vivet.education/profile/registerinstitute/" >
+							<div class="row shadow_hover2" style="border: 1px solid rgba(15, 44, 85, 1); border-radius: 2px; height: auto;">
+								<div class="col-sm-12 text-center" style="padding: 1em; text-transform: uppercase;">
+									<h3>Institution/Business</h3>
+								</div>
+								<div class="col-sm-12 text-center" style="padding: 5px;">
+									<img style="width: 100%; height: auto;" src="https://cdn.pixabay.com/photo/2017/04/19/17/26/people-2243021_960_720.jpg"/>
+								</div>
+								<div class="col-sm-12 text-center" style="padding: 1em; height: 7em;">
+									<p style="color: black; line-height: 1.25em;">Start an e-training institute of your own and offer open or exclusive courses for your learners!</p>
+								</div>
+								<div class="col-sm-12 text-center" style="padding: 1em;">
+									<div class="btn btn-sm btn-primary" style="background-color: rgba(15, 44, 85, 1); font-size: 1.25em;">Join as a Partner Institution/Business</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<!--<div class="col-lg-3" >
+					<div class="col-md-12">
+						<a style="background-color: transparent; border: none;" href="//vivet.education/profile/registerinstitute/" >
+							<div class="row shadow_hover2" style="border: 1px solid rgba(15, 44, 85, 1); border-radius: 2px; height: auto;">
+								<div class="col-sm-12 text-center" style="padding: 1em; text-transform: uppercase;">
+									<h3>Business</h3>
+								</div>
+								<div class="col-sm-12 text-center" style="padding: 5px;">
+									<img style="width: 100%; height: auto;" src="https://cdn.pixabay.com/photo/2015/03/26/09/41/tie-690084_960_720.jpg"/>
+								</div>
+								<div class="col-sm-12 text-center" style="padding: 1em; height: 7em;">
+									<p style="color: black; line-height: 1.25em;">Start a training program for your company with customized layout!</p>
+								</div>
+								<div class="col-sm-12 text-center" style="padding: 1em;">
+									<div class="btn btn-sm btn-primary" style="background-color: rgba(15, 44, 85, 1); font-size: 1.25em;">Join as a Partner Company</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>-->
+			</div>
+		</div>
+	</section>
+	
+	<!-- NEW IMPLEMENTATIONS -->
+	<section class="vivet_information_section shadow" style="background-color: transparent; width: 100%;">
+		<div style="width: 100%; margin-left: 0; height: auto; background-color: transparent; margin-top: 0em; margin-bottom: 2em;">			
+			<div class="row">
+				<!-- <div class="col-lg-12"> -->
+					<!-- <h2 style="line-height: 2em;">ViVET - THE LEARNING PLATFORM FOR ALL</h2>		 -->
+				<!-- </div> -->
+				<div class="col-lg-12">					
+					<div class="row">
+						<div class="col-md-12">
+							<div class="col-sm-12" style="background-color: rgba(55, 108, 226, 0.85); color: #fff;">
+								<h2 style="text-align: left; line-height: 1.5em; text-decoration: none; margin: 0 auto;">for Learners</h2>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<a style="background-color: transparent; border: none; height: 100%;" href="//vivet.education/profile/registerstudent/" >
+								<div class="row" style="height: auto;">
+									<div class="col-sm-12 text-center" >
+										<img style="width: 100%; height: auto;" src="https://cdn.pixabay.com/photo/2017/07/31/11/21/people-2557396_960_720.jpg"/>
+										<!-- <p style="position: absolute; top: auto; padding: 5px; bottom: 0; color: #fff; font-size: 1.25em; line-height: 1.25em;">Enhance your in-demand skills and get ready for your career!</p>										 -->
+										<!-- <div class="text-right" style="height: auto; width: auto; position: absolute; right: 0; margin-right: 10px; top: auto; padding: 5px; bottom: -5px;"> -->
+											<!-- <a href="//vivet.education/profile/registerstudent/"> -->
+												<!-- <div class="btn btn-lg btn-primary" style="background-color: rgba(55, 108, 226, 1); font-size: 1.5em;" > -->
+													<!-- Join as a Learner -->
+												<!-- </div> -->
+											<!-- </a> -->
+										<!-- </div> -->
+									</div>									
+								</div>
+							</a>
+						</div>
+						<div class="col-md-7">
+							<div class="col-sm-12">	
+								<h3 style="line-height: 1em; font-weight: 600;">Enhance your in-demand skills and get ready for your career!</h3>
+							</div>
+							<div class="col-sm-12">	
+								<h3 style="line-height: 0.9em;">&#8250; Easy to learn - anytime, anywhere, repeatingly</h3>
+								<h3 style="line-height: 0.9em;">&#8250; Flexible learning formats - tutorials to short courses to extensive trainings</h3>
+								<h3 style="line-height: 0.9em;">&#8250; Skills for building a career - step by step with modules and certificates</h3>
+								<h3 style="line-height: 0.9em;">&#8250; Free or low cost - making VET know how accessible</h3>	
+							</div>
+							<div class="col-sm-12 text-left" style="padding: 1em; height: auto;">
+																<a href="//vivet.education/profile/registerstudent/">
+									<div class="btn btn-lg btn-primary" style="background-color: rgba(55, 108, 226, 1); font-size: 1.5em;" >
+										Join as a Learner									</div>
+								</a>
+																<a data-search="go" >
+									<div class="btn btn-lg btn-primary" style="background-color: rgba(55, 108, 226, 1); font-size: 1.5em;">
+										Search for Content									</div>
+								</a>
+								<a data-searchteacher="go" >
+									<div class="btn btn-lg btn-primary" style="background-color: rgba(55, 108, 226, 1); font-size: 1.5em;">
+										Search for Teacher									</div>
+								</a>
+							</div>
+						</div>						
+					</div>
+				</div>
+				<div class="col-lg-12" style="height: 3em;"></div>
+				<div class="col-lg-12">					
+					<div class="row">
+						<div class="col-md-12">							
+							<div class="col-sm-12" style="background-color: rgba(33, 92, 147, 0.85); color: #fff;">
+								<h2 style="text-align: left; line-height: 1.5em; text-decoration: none; margin: 0 auto;">for Teachers/Authors</h2>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<a style="background-color: transparent; border: none; height: 100%;" href="//vivet.education/profile/registerteacher/}" >
+								<div class="row" style="height: auto;">
+									<div class="col-sm-12 text-center" >
+										<img style="width: 100%; height: auto;" src="https://cdn.pixabay.com/photo/2016/03/26/17/47/smiling-1280975_960_720.jpg"/>
+										<!-- <p style="position: absolute; top: auto; padding: 5px; bottom: 0; color: #fff; font-size: 1.25em; line-height: 1.25em;">Enjoy sharing your knowledge and make an impact on your learners with easy to use tools for authors!</p>										 -->
+									</div>									
+								</div>
+							</a>
+						</div>						
+						<div class="col-md-7">
+							<div class="col-sm-12">	
+								<h3 style="line-height: 1em; font-weight: 600;">Enjoy sharing your knowledge and make an impact on your learners with easy to use tools for authors!</h3>
+							</div>
+							<div class="col-sm-12">	
+								<h3 style="line-height: 0.9em;">&#8250; Easy to start teaching - by filling contents into templates with a mouse click</h3>		
+								<h3 style="line-height: 0.9em;">&#8250; Using existing know how - catering for open tutorials from the web</h3>
+								<h3 style="line-height: 0.9em;">&#8250; Adding practical know how - upload self-filmed practical work solutions</h3>					
+								<h3 style="line-height: 0.9em;">&#8250; Fast spreading of know how - entered once, available worldwide in seconds</h3>	
+							</div>
+							<div class="col-sm-12 text-left" style="padding: 1em; height: auto;">
+																	<a href="//vivet.education/profile/registerteacher/">
+										<div class="btn btn-lg btn-primary" style="background-color: rgba(55, 108, 226, 1); font-size: 1.5em;" >
+											Join as a Teacher/Author										</div>
+									</a>
+																<a data-search="go" >
+									<div class="btn btn-lg btn-primary" style="background-color: rgba(55, 108, 226, 1); font-size: 1.5em;">
+										Search for Content									</div>
+								</a>
+																	<a href="//vivet.education/profile/login/" title="Login as a teacher to offer your teaching" class="btn btn-lg btn-primary" style="background-color: rgba(55, 108, 226, 1); font-size: 1.5em;">
+										Offer your Teaching								
+									</a>	
+															</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12" style="height: 3em;"></div>
+				<div class="col-lg-12">					
+					<div class="row">
+						<div class="col-md-12">							
+							<div class="col-sm-12" style="background-color: rgba(15, 44, 85, 0.85); color: #fff;">
+								<h2 style="text-align: left; line-height: 1.5em; text-decoration: none; margin: 0 auto;">for Institutes/Business</h2>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<a style="background-color: transparent; border: none; height: 100%;" href="//vivet.education/profile/registerinstitute/" >
+								<div class="row" style="height: auto;">
+									<div class="col-sm-12 text-center" >
+										<img style="width: 100%; height: auto;" src="https://cdn.pixabay.com/photo/2017/04/19/17/26/people-2243021_960_720.jpg"/>
+										<!-- <p style="position: absolute; top: auto; padding: 5px; bottom: 0; color: #fff; font-size: 1.25em; line-height: 1.25em;">Start an e-training institute of your own and offer open or exclusive courses for your learners!</p>										 -->
+									</div>									
+								</div>
+							</a>
+						</div>
+						<div class="col-md-7">
+							<div class="col-sm-12">	
+								<h3 style="line-height: 1em; font-weight: 600;">Start an e-training institute of your own and offer open or exclusive courses for your learners!</h3>
+							</div>
+							<div class="col-sm-12">									
+								<h3 style="line-height: 0.9em;;">&#8250; Building a VET-community - with learners, teachers, institutes, business</h3>
+								<h3 style="line-height: 0.9em;;">&#8250; Multilingual - automatic translationsallow for many languages</h3>
+								<h3 style="line-height: 0.9em;;">&#8250; International - making VET know how available world wide</h3>
+								<h3 style="line-height: 0.9em;;">&#8250; Adaptable to local needs - making a copy and adding local context</h3>	
+							</div>
+							<div class="col-sm-12 text-left" style="padding: 1em; height: auto;">
+																<a href="//vivet.education/profile/registerinstitute/">
+									<div class="btn btn-lg btn-primary" style="background-color: rgba(55, 108, 226, 1); font-size: 1.5em;" >
+										Join as a Partner Institution/Business									</div>
+								</a>
+																<a data-search="go" >
+									<div class="btn btn-lg btn-primary" style="background-color: rgba(55, 108, 226, 1); font-size: 1.5em;">
+										Search for Content									</div>
+								</a>
+								<a data-searchteacher="go" >
+									<div class="btn btn-lg btn-primary" style="background-color: rgba(55, 108, 226, 1); font-size: 1.5em;">
+										Search for Teacher									</div>
+								</a>
+																	<a href="//vivet.education/profile/login/" title="Login as an institute for stating skills demand" class="btn btn-lg btn-primary" style="background-color: rgba(55, 108, 226, 1); font-size: 1.5em;">
+										Stating Skills Demand								
+									</a>
+																
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>	
+	
+	<!-- categories -->	
+	<section class="vivet_information_section shadow_in" style="background-color: #ddeef5;">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2 style="text-transform: uppercase;">Categories of Trades and Sectors</h2>
+			</div>				
+		</div>
+		<div class="row">
+			<style>
+				.badge__grey::after{
+					content: "";
+				}
+			</style>
+			<div class="col-lg-offset-1 col-lg-10">
+									<a href="//vivet.education/search/?query=&filter[category]=5a9a9c1bd3dae&page=1"><div class="badge badge__grey effect_scale" style="border: 1px solid #000; border-radius: 1em; width: 300px; margin-top: 0.75em; text-align: center; font-size: 1.5em;">AGRICULTURE</div></a>
+									<a href="//vivet.education/search/?query=&filter[category]=589c71ffeae6b&page=1"><div class="badge badge__grey effect_scale" style="border: 1px solid #000; border-radius: 1em; width: 300px; margin-top: 0.75em; text-align: center; font-size: 1.5em;">ARTS</div></a>
+									<a href="//vivet.education/search/?query=&filter[category]=5f7468ac736ad&page=1"><div class="badge badge__grey effect_scale" style="border: 1px solid #000; border-radius: 1em; width: 300px; margin-top: 0.75em; text-align: center; font-size: 1.5em;">BUILDING &amp; CONSTRUCTION</div></a>
+									<a href="//vivet.education/search/?query=&filter[category]=53331ee7dee15&page=1"><div class="badge badge__grey effect_scale" style="border: 1px solid #000; border-radius: 1em; width: 300px; margin-top: 0.75em; text-align: center; font-size: 1.5em;">BUSINESS &amp; ADMINISTRATION</div></a>
+									<a href="//vivet.education/search/?query=&filter[category]=5889fd872f5df&page=1"><div class="badge badge__grey effect_scale" style="border: 1px solid #000; border-radius: 1em; width: 300px; margin-top: 0.75em; text-align: center; font-size: 1.5em;">CRAFTS</div></a>
+									<a href="//vivet.education/search/?query=&filter[category]=589f3cdbad4f9&page=1"><div class="badge badge__grey effect_scale" style="border: 1px solid #000; border-radius: 1em; width: 300px; margin-top: 0.75em; text-align: center; font-size: 1.5em;">EDUCATION</div></a>
+									<a href="//vivet.education/search/?query=&filter[category]=5f746a4522633&page=1"><div class="badge badge__grey effect_scale" style="border: 1px solid #000; border-radius: 1em; width: 300px; margin-top: 0.75em; text-align: center; font-size: 1.5em;">ENTERTAINMENT &amp; EVENTS</div></a>
+									<a href="//vivet.education/search/?query=&filter[category]=58511659a536f&page=1"><div class="badge badge__grey effect_scale" style="border: 1px solid #000; border-radius: 1em; width: 300px; margin-top: 0.75em; text-align: center; font-size: 1.5em;">ENVIRONMENT</div></a>
+									<a href="//vivet.education/search/?query=&filter[category]=5c7e78135ae8b&page=1"><div class="badge badge__grey effect_scale" style="border: 1px solid #000; border-radius: 1em; width: 300px; margin-top: 0.75em; text-align: center; font-size: 1.5em;">HEALTH &amp; FITNESS</div></a>
+									<a href="//vivet.education/search/?query=&filter[category]=5f74680660769&page=1"><div class="badge badge__grey effect_scale" style="border: 1px solid #000; border-radius: 1em; width: 300px; margin-top: 0.75em; text-align: center; font-size: 1.5em;">HOUSING &amp; REAL ESTATE</div></a>
+									<a href="//vivet.education/search/?query=&filter[category]=588a22103e7d0&page=1"><div class="badge badge__grey effect_scale" style="border: 1px solid #000; border-radius: 1em; width: 300px; margin-top: 0.75em; text-align: center; font-size: 1.5em;">IT &amp; SOFTWARE</div></a>
+									<a href="//vivet.education/search/?query=&filter[category]=533334c30aa0c&page=1"><div class="badge badge__grey effect_scale" style="border: 1px solid #000; border-radius: 1em; width: 300px; margin-top: 0.75em; text-align: center; font-size: 1.5em;">MEDIA &amp; PUBLIC RELATIONS </div></a>
+									<a href="//vivet.education/search/?query=&filter[category]=60a3f2638aa6d&page=1"><div class="badge badge__grey effect_scale" style="border: 1px solid #000; border-radius: 1em; width: 300px; margin-top: 0.75em; text-align: center; font-size: 1.5em;">SERVICES</div></a>
+									<a href="//vivet.education/search/?query=&filter[category]=5f74634ac3039&page=1"><div class="badge badge__grey effect_scale" style="border: 1px solid #000; border-radius: 1em; width: 300px; margin-top: 0.75em; text-align: center; font-size: 1.5em;">SOCIAL SERVICES</div></a>
+									<a href="//vivet.education/search/?query=&filter[category]=59fc800597522&page=1"><div class="badge badge__grey effect_scale" style="border: 1px solid #000; border-radius: 1em; width: 300px; margin-top: 0.75em; text-align: center; font-size: 1.5em;">TOURISM &amp; HOSPITALITY</div></a>
+							</div>	
+		</div>
+		<div style="margin-top: 3em;"></div>		
+		<div class="container" style="width: 70%; margin-left: 15%; height: auto; background-color: transparent; margin-bottom: 3em; display: none;"">			
+			<div class="row">
+				<div class="col-lg-3 effect_scale">
+					<a href="//vivet.education/search/?query=&filter[category]=5a9a9c1bd3dae&page=1">
+						<img style="width: 100%; height: auto;" src="https://cdn.pixabay.com/photo/2017/07/30/13/31/wheat-field-2554351_960_720.jpg"/>
+						<h3 style="position: absolute; bottom: 0; left: 0; width: 100%; height: auto; text-align: center; text-transform: uppercase; color: #fff; text-shadow: 0 0 2px #000;">Agriculture</h3>
+					</a>
+				</div>
+				<div class="col-lg-3 effect_scale">
+					<a href="//vivet.education/search/?query=&filter[category]=53331ee7dee15&page=1">
+						<img style="width: 100%; height: auto;" src="https://cdn.pixabay.com/photo/2015/01/08/18/30/entrepreneur-593371_960_720.jpg"/>
+						<h3 style="position: absolute; bottom: 0; left: 0; width: 100%; height: auto; text-align: center; text-transform: uppercase; color: #fff; text-shadow: 0 0 2px #000;">Business</h3>
+					</a>
+				</div>
+				<div class="col-lg-3 effect_scale">
+					<a href="//vivet.education/search/?query=&filter[category]=5889fd872f5df&page=1">
+						<img style="width: 100%; height: auto;" src="https://cdn.pixabay.com/photo/2015/07/28/20/55/tools-864983_960_720.jpg"/>
+						<h3 style="position: absolute; bottom: 0; left: 0; width: 100%; height: auto; text-align: center; text-transform: uppercase; color: #fff; text-shadow: 0 0 2px #000;">Crafts</h3>
+					</a>
+				</div>
+				<div class="col-lg-3 effect_scale">
+					<a href="//vivet.education/search/?query=&filter[category]=5c7e78135ae8b&page=1">
+						<img style="width: 100%; height: auto;" src="https://cdn.pixabay.com/photo/2016/11/08/05/29/surgery-1807541_960_720.jpg"/>
+						<h3 style="position: absolute; bottom: 0; left: 0; width: 100%; height: auto; text-align: center; text-transform: uppercase; color: #fff; text-shadow: 0 0 2px #000;">Health & Care</h3>
+					</a>
+				</div>						
+			</div>
+		</div>
+	</section>
+    </main>
+<!--
+<section class="cta" >
+    <p style="background-color: white; color: black;">
+        Can‘t find anything you like?        <button data-vivet="toggleSearchBox" class="btn add">Search for content</button>
+        <button data-vivet="add" data-vivet-add-position="top" class="btn add">Add it</button></p>
+</section>
+-->
+<div class="row">
+	<div class="col-md-12" style="padding: 2em 3em 2em 3em; text-align: center; line-height: 2em;"><h2 style="text-transform: uppercase;">Our Partners</h2></div>
+<div/>
+	<br/>
+	<p class="text-center">
+		<img src="//vivet.education/img/partners/logo_forum.png" style="height: 50px; margin: 0 10px;">
+		<img src="//vivet.education/img/partners/logo_clar.png" style="height: 50px; margin: 0 10px;">
+		<img src="//vivet.education/img/partners/logo_apwg.png" style="height: 50px; margin: 0 10px;">
+		<img src="//vivet.education/img/partners/logo_byapp.png" style="height: 50px; margin: 0 10px;">
+	</p>
+	<br/>
+	</section>
+	<footer class="site-footer main">
+		<div class="container">
+			<figure class="footer-brand">
+				
+				<img src="//vivet.education/plugins/vivet/img/logo_vivet_@2X.png?v3" width="93">
+				<span>
+					&copy; Vivet, 2026				</span>
+				
+			</figure>
+      <nav class="footer-nav" data-ofw-contentmenu="footer">
+			
+							<a class="" href="" title="VET-System">VET-System</a>
+							<a class="" href="" title="About ViVET">About ViVET</a>
+							<a class="" href="" title="Imprint">Imprint</a>
+							<a class="" href="" title="Privacy Policy">Privacy Policy</a>
+							<a class="" href="" title="Terms and Conditions">Terms and Conditions</a>
+							<a class="" href="https://vivet.education/course/?id=59004bab3d3f3" title="Manual">Manual</a>
+							<a class="" href="" title="Contact Us">Contact Us</a>
+					
+	</nav>
+			
+  			<div class="eu">
+  				<img src="//vivet.education/plugins/vivet/img/eu_flag.png">
+  				<p>Co-funded by the<br/>Erasmus+ Programme<br/>of the European Union</p>
+  			</div>
+			
+		</div>
+	</footer>
+	<aside class="course-admin-notice footer-notice off">
+		<h5>
+			<!-- message goes here -->
+		</h5>
+		<div class="publish-btns">
+			<span data-vivet-notice-additional-actions><!-- additional actions go here --></span>
+			<button data-vivet="hideNotice" type="button" class="btn filter-button video invert-white small secondary"><i class="fa fa-close"></i></button>
+		</div>
+	</aside>
+	
+		<!--[if lte IE 8]>
+		<div id="ie_upgrade" class="navbar-fixed-top bg-danger" style="z-index:99999">
+		<div class="container">
+			<div class="row">
+				<p class="col-xs-12" style="margin: 10px auto; font: bold 16px/34px 'Helvetica Neue',sans-serif;">
+					You are using an outdated browser. Please upgrade to get the full experience.					<a onclick="$('#ie_upgrade').remove()" type="button pull-right" class="close"><span aria-hidden="true">&times;</span></a>
+					<a href="http://outdatedbrowser.com/en" target="_blank" type="button" class="btn btn-success pull-right" style="margin-right: 15px">Upgrade</a>
+				</p>
+			</div>
+		</div>
+	</div>
+<![endif]-->	
+	
+	    			<noscript>
+	<a href="http://www.enable-javascript.com/en/" target="_blank" style="display:block;position:fixed;z-index:99999;top:0;left:0;right:0;padding:15px;background:#f00;color:white;font-family:Arial,sans-serif;font-size:13px;cursor:pointer;text-decoration:none;">
+		For the full functionality of this site it is necessary to enable JavaScript. Here are the instructions on how to enable JavaScript in your web browser.	</a>
+</noscript>			
+</body>
+</html>
+<script> if(typeof zaj != 'undefined') { zaj.execution_time = 0.8041700000000000514; zaj.peak_meory = 6818; zaj.log('exec time: 0.8041700000000000514 sec / peak memory: 6818 kb');  }
+</script>

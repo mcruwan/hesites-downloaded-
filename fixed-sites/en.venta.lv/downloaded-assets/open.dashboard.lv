@@ -1,0 +1,590 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="robots" content="noindex"/>
+    <script type="text/javascript"
+        src="https://static.cdn-website.com/libs/jquery/jquery-3.7.0.min.js"></script>
+<script src="https://static.cdn-website.com/mnlt/production/6133/_dm/s/rt/dist/scripts/d-js-jquery-migrate.min.js" ></script>
+<script>
+    jQuery.migrateMute = true;
+</script>
+<script type="text/javascript" src="https://static.cdn-website.com/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+<link type="text/css" rel="stylesheet" href="https://static.cdn-website.com/libs/jqueryui/1.13.2/smoothness/jquery-ui.min.css" />
+<script type="text/javascript" src="/editor/login/login.js"></script>
+    <script type="text/javascript" src="/editor/scripts/dm.fbconnect.js"></script>
+    <script type="text/javascript"
+            src="/common/scripts/dm.trackstats.jsp?v=2026-01-28T16_39_15"></script>
+
+    <title>Log in to your workspace</title>
+
+    <script type="text/javascript" src="/editor/nee/utils/placeholder/placeholder.js"></script>
+<script>
+	$(function(){
+        var ua = window.navigator.userAgent;
+        var msie = ua.indexOf("MSIE ");
+
+        // Check if the browser is IE explorer 9
+        if (msie > 0 && ua.substring(msie + 5, ua.indexOf(".", msie)) === "9"){
+			$('body').addClass('lt-ie10')
+			var $pwd = $('#pwd'),
+				$email = $('#email');
+				$confirmPwd = $('#confirm-pwd');
+			$pwd = $pwd.length > 0 ? $pwd : $('#j_password');
+			$('input').placeholder();
+			$pwd[0].type="text";
+			if ($confirmPwd.length > 0){
+				$confirmPwd[0].type="text";
+			}
+		}
+	});
+</script>
+<link type="text/css" rel="stylesheet" href="/editor/direct/css/template.css"/>
+
+
+    <style>
+  :root {
+   --font-size-h1: 48px;  --logo-url: url(https://irp.cdn-website.com/-resellers-preview/info@ad-apt.eu/logo/dp0otr22rn01d24kmupnoi36lj.png);  --text-on-button: #ffffff;  --font-size-h6: 16px;  --font-size-h4: 24px;  --font-size-h5: 20px;  --font-size-h2: 40px;  --font-size-plain-text: 16px;  --font-size-h3: 32px;  --font-size-body-text: 13px;  --font-size-body: 14px;  --header-border-color: #8f8f8f;  --font-size-tiny-text: 12px;  --font-size-footer: 12px;  --font-size-tiny: 13px;  --eclectic-15: rgba(243,97,56,0.12);  --eclectic-14: rgba(243,97,56,0.12);  --link-color: #8c8c8c;  --eclectic-13: rgba(243,97,56,0.12);  --eclectic-12: rgba(243,97,56,0.12);  --eclectic-11: rgba(243,97,56,0.12);  --eclectic-10: rgba(243,97,56,0.12);  --d-title-font: Label Sans;  --font-size-pageDescription: 16px;  --eclectic-19: rgba(243,97,56,0.12);  --eclectic-18: rgba(243,97,56,0.12);  --eclectic-17: rgba(243,97,56,0.12);  --eclectic-16: rgba(243,97,56,0.12);  --dark-primary-color: #f36138;  --button-hover-color: #F86F4C;  --text-on-light: #fa8231;  --eclectic-3: rgba(243,97,56,0.12);  --eclectic-4: rgba(243,97,56,0.12);  --eclectic-5: rgba(243,97,56,0.12);  --eclectic-6: rgba(243,97,56,0.12);  --eclectic-7: rgba(243,97,56,0.12);  --eclectic-8: rgba(243,97,56,0.12);  --backgroundImage: none;  --eclectic-9: rgba(243,97,56,0.12);  --font-size-he-1: 16px;  --eclectic-1: rgba(243,97,56,0.12);  --eclectic-2: rgba(243,97,56,0.12);  --font-size-he-4: 12px;  --font-size-italic: 14px;  --font-size-he-2: 14px;  --font-size-he-3: 13px;  --d-font: Label Sans;  --button-color: #f36138;  --font-size-bodySubtitle: 14px;  --header-color: #cdcdcd;  --font-size-display-2: 24px;  --font-size-display-1: 32px;  --backgroundColor: #f7f7f7;  --font-size-display-4: 10px;  --font-size-display-3: 20px;  --loginButtonHoverColor: rgb(235,94,54);  --visible-button-hover-color: rgb(221,88,50);  --button-visible-font-color: #ffffff;  --text-on-dark: ;  --header-text-color: #525252;  --oneDevicesFontIconColor: #676767; 
+  }
+</style>
+
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
+<link type="text/css" rel="stylesheet"
+      href="/editor/stylesheets/wl.login.colors.css?version=2026-01-28T16_39_15"/>
+<link type="text/css" rel="stylesheet" href="/editor/stylesheets/static/pt/login/wl.login.css"/>
+<LINK REL="SHORTCUT ICON" HREF="https://irp.cdn-website.com/-resellers-preview/info@ad-apt.eu/favicon/6qaj1siusjk9sjbraj1n9oc4qb.png">
+<!-- Fonts Include -->
+<!-- loadCSS function fonts.jsp-->
+<script id="d-js-load-css">
+/**
+ * There are a few <link> tags with CSS resource in them that are preloaded in the page
+ * in each of those there is a "onload" handler which invokes the loadCSS callback
+ * defined here.
+ * We are monitoring 3 main CSS files - the runtime, the global and the page.
+ * When each load we check to see if we can append them all in a batch. If threre
+ * is no page css (which may happen on inner pages) then we do not wait for it
+ */
+(function () {
+  let cssLinks = {};
+  function loadCssLink(link) {
+    link.onload = null;
+    link.rel = "stylesheet";
+    link.type = "text/css";
+  }
+  
+    function checkCss() {
+      const pageCssLink = document.querySelector("[id*='CssLink']");
+      const widgetCssLink = document.querySelector("[id*='widgetCSS']");
+
+        if (cssLinks && cssLinks.runtime && cssLinks.global && (!pageCssLink || cssLinks.page) && (!widgetCssLink || cssLinks.widget)) {
+            const storedRuntimeCssLink = cssLinks.runtime;
+            const storedPageCssLink = cssLinks.page;
+            const storedGlobalCssLink = cssLinks.global;
+            const storedWidgetCssLink = cssLinks.widget;
+
+            storedGlobalCssLink.disabled = true;
+            loadCssLink(storedGlobalCssLink);
+
+            if (storedPageCssLink) {
+                storedPageCssLink.disabled = true;
+                loadCssLink(storedPageCssLink);
+            }
+
+            if(storedWidgetCssLink) {
+                storedWidgetCssLink.disabled = true;
+                loadCssLink(storedWidgetCssLink);
+            }
+
+            storedRuntimeCssLink.disabled = true;
+            loadCssLink(storedRuntimeCssLink);
+
+            requestAnimationFrame(() => {
+                setTimeout(() => {
+                    storedRuntimeCssLink.disabled = false;
+                    storedGlobalCssLink.disabled = false;
+                    if (storedPageCssLink) {
+                      storedPageCssLink.disabled = false;
+                    }
+                    if (storedWidgetCssLink) {
+                      storedWidgetCssLink.disabled = false;
+                    }
+                    // (SUP-4179) Clear the accumulated cssLinks only when we're
+                    // sure that the document has finished loading and the document 
+                    // has been parsed.
+                    if(document.readyState === 'interactive') {
+                      cssLinks = null;
+                    }
+                }, 0);
+            });
+        }
+    }
+  
+
+  function loadCSS(link) {
+    try {
+      var urlParams = new URLSearchParams(window.location.search);
+      var noCSS = !!urlParams.get("nocss");
+      var cssTimeout = urlParams.get("cssTimeout") || 0;
+
+      if (noCSS) {
+        return;
+      }
+      if (link.href && link.href.includes("d-css-runtime")) {
+        cssLinks.runtime = link;
+        checkCss();
+      } else if (link.id === "siteGlobalCss") {
+        cssLinks.global = link;
+        checkCss();
+      } 
+      
+      else if (link.id && link.id.includes("CssLink")) {
+        cssLinks.page = link;
+        checkCss();
+      } else if (link.id && link.id.includes("widgetCSS")) {
+        cssLinks.widget = link;
+        checkCss();
+      }
+      
+      else {
+        requestIdleCallback(function () {
+          window.setTimeout(function () {
+            loadCssLink(link);
+          }, parseInt(cssTimeout, 10));
+        });
+      }
+    } catch (e) {
+      throw e
+    }
+  }
+  window.loadCSS = window.loadCSS || loadCSS;
+})();
+</script>
+<link rel="preload" href="https://irp.cdn-website.com/fonts/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Abril+Fatface:ital,wght@0,400&family=Alef:ital,wght@0,400;0,700&family=Alfa+Slab+One:ital,wght@0,400&family=Alike:ital,wght@0,400&family=Allura:ital,wght@0,400&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Amatic+SC:ital,wght@0,400;0,700&family=Amiko:ital,wght@0,400;0,600;0,700&family=Antic+Didone:ital,wght@0,400&family=Anton:ital,wght@0,400&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bad+Script:ital,wght@0,400&family=Belgrano:ital,wght@0,400&family=Bree+Serif:ital,wght@0,400&family=Butcherman:ital,wght@0,400&family=Cabin:ital,wght@0,400..700;1,400..700&family=Cairo:ital,wght@0,200..1000;1,200..1000&family=Cardo:ital,wght@0,400;0,700;1,400&family=Contrail+One:ital,wght@0,400&family=Cookie:ital,wght@0,400&family=Courgette:ital,wght@0,400&family=Creepster:ital,wght@0,400&family=Crete+Round:ital,wght@0,400;1,400&amp;subset=latin-ext&amp;display=swap"  as="style" fetchpriority="low" onload="loadCSS(this)" /><link rel="preload" href="https://irp.cdn-website.com/fonts/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dancing+Script:ital,wght@0,400..700;1,400..700&family=Droid+Sans:ital,wght@0,400;0,700&family=Droid+Serif:ital,wght@0,400;0,700&family=Duru+Sans:ital,wght@0,400&family=Eater:ital,wght@0,400&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Exo:ital,wght@0,100..900;1,100..900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fjalla+One:ital,wght@0,400&family=Flamenco:ital,wght@0,300;0,400&family=Fugaz+One:ital,wght@0,400&family=Glegoo:ital,wght@0,400;0,700&family=Gloria+Hallelujah:ital,wght@0,400&family=Great+Vibes:ital,wght@0,400&family=Gudea:ital,wght@0,400;0,700;1,400&family=Inconsolata:ital,wght@0,200..900;1,200..900&family=Indie+Flower:ital,wght@0,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Jura:ital,wght@0,300..700;1,300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster:ital,wght@0,400&amp;subset=latin-ext&amp;display=swap"  as="style" fetchpriority="low" onload="loadCSS(this)" /><link rel="preload" href="https://irp.cdn-website.com/fonts/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Lusitana:ital,wght@0,400;0,700&family=Mate+SC:ital,wght@0,400&family=Maven+Pro:ital,wght@0,400..900;1,400..900&family=Mogra:ital,wght@0,400&family=Monoton:ital,wght@0,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nosifer:ital,wght@0,400&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:ital,wght@0,200..700;1,200..700&family=Oxygen:ital,wght@0,300;0,400;0,700&family=Pacifico:ital,wght@0,400&family=Patua+One:ital,wght@0,400&family=Paytone+One:ital,wght@0,400&family=Permanent+Marker:ital,wght@0,400&family=Play:ital,wght@0,400;0,700&family=Playball:ital,wght@0,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poiret+One:ital,wght@0,400&family=Prociono:ital,wght@0,400&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;subset=latin-ext&amp;display=swap"  as="style" fetchpriority="low" onload="loadCSS(this)" /><link rel="preload" href="https://irp.cdn-website.com/fonts/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Puritan:ital,wght@0,400;0,700;1,400;1,700&family=Quattrocento:ital,wght@0,400;0,700&family=Racing+Sans+One:ital,wght@0,400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:ital,wght@0,100..900;1,100..900&family=Rokkitt:ital,wght@0,100..900;1,100..900&family=Sanchez:ital,wght@0,400;1,400&family=Shrikhand:ital,wght@0,400&family=Signika:ital,wght@0,300..700;1,300..700&family=Slabo+13px:ital,wght@0,400&family=Slabo+27px:ital,wght@0,400&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Spinnaker:ital,wght@0,400&family=Stalemate:ital,wght@0,400&family=Teko:ital,wght@0,300;0,400;0,500;0,600;0,700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=UnifrakturMaguntia:ital,wght@0,400&family=Varela+Round:ital,wght@0,400&family=Vollkorn:ital,wght@0,400..900;1,400..900&amp;subset=latin-ext&amp;display=swap"  as="style" fetchpriority="low" onload="loadCSS(this)" /><link rel="preload" href="https://irp.cdn-website.com/fonts/css2?family=Yanone+Kaffeesatz:ital,wght@0,200..700;1,200..700&family=Yesteryear:ital,wght@0,400&family=Julius+Sans+One:ital,wght@0,400&family=Palanquin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&family=Asap:ital,wght@0,100..900;1,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Muli:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:ital,wght@0,300..700;1,300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Enriqueta:ital,wght@0,400;0,500;0,600;0,700&family=Special+Elite:ital,wght@0,400&family=Petit+Formal+Script:ital,wght@0,400&family=Parisienne:ital,wght@0,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Arimo:ital,wght@0,400..700;1,400..700&family=Bitter:ital,wght@0,100..900;1,100..900&family=Catamaran:ital,wght@0,100..900;1,100..900&family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Codystar:ital,wght@0,300;0,400&family=Cuprum:ital,wght@0,400..700;1,400..700&family=Dynalight:ital,wght@0,400&amp;subset=latin-ext&amp;display=swap"  as="style" fetchpriority="low" onload="loadCSS(this)" /><link rel="preload" href="https://irp.cdn-website.com/fonts/css2?family=Emblema+One:ital,wght@0,400&family=Itim:ital,wght@0,400&family=Karla:ital,wght@0,200..800;1,200..800&family=Laila:ital,wght@0,300;0,400;0,500;0,600;0,700&family=Merienda:ital,wght@0,300..900;1,300..900&family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Plaster:ital,wght@0,400&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Satisfy:ital,wght@0,400&family=Titan+One:ital,wght@0,400&family=Questrial:ital,wght@0,400&family=Cinzel:ital,wght@0,400..900;1,400..900&family=Abel:ital,wght@0,400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Francois+One:ital,wght@0,400&family=Hind:ital,wght@0,300;0,400;0,500;0,600;0,700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Comfortaa:ital,wght@0,300..700;1,300..700&family=Ubuntu+Condensed:ital,wght@0,400&family=Acme:ital,wght@0,400&family=PT+Sans+Narrow:ital,wght@0,400;0,700&family=Passion+One:ital,wght@0,400;0,700;0,900&amp;subset=latin-ext&amp;display=swap"  as="style" fetchpriority="low" onload="loadCSS(this)" /><link rel="preload" href="https://irp.cdn-website.com/fonts/css2?family=Heebo:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Dosis:ital,wght@0,200..800;1,200..800&family=ABeeZee:ital,wght@0,400;1,400&family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Londrina+Sketch:ital,wght@0,400&family=Nobile:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Mada:ital,wght@0,200..900;1,200..900&family=Oranienbaum:ital,wght@0,400&family=Fredoka:ital,wght@0,300..700;1,300..700&family=Prata:ital,wght@0,400&family=Vidaloka:ital,wght@0,400&family=Cabin+Sketch:ital,wght@0,400;0,700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Ovo:ital,wght@0,400&family=Unna:ital,wght@0,400;0,700;1,400;1,700&family=Sail:ital,wght@0,400&family=Chelsea+Market:ital,wght@0,400&family=Cutive+Mono:ital,wght@0,400&family=Wire+One:ital,wght@0,400&family=Rye:ital,wght@0,400&family=Elsie:ital,wght@0,400;0,900&family=Rozha+One:ital,wght@0,400&amp;subset=latin-ext&amp;display=swap"  as="style" fetchpriority="low" onload="loadCSS(this)" /><link rel="preload" href="https://irp.cdn-website.com/fonts/css2?family=Droid+Sans+Mono:ital,wght@0,400&family=Alice:ital,wght@0,400&family=Delius:ital,wght@0,400&family=Domine:ital,wght@0,400..700;1,400..700&family=Handlee:ital,wght@0,400&family=Kameron:ital,wght@0,400;0,700&family=Kreon:ital,wght@0,300..700;1,300..700&family=Marmelad:ital,wght@0,400&family=Molengo:ital,wght@0,400&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Pinyon+Script:ital,wght@0,400&family=Poly:ital,wght@0,400;1,400&family=Reenie+Beanie:ital,wght@0,400&family=Rosario:ital,wght@0,300..700;1,300..700&family=Sofia:ital,wght@0,400&family=Tangerine:ital,wght@0,400;0,700&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&family=Sorts+Mill+Goudy:ital,wght@0,400;1,400&family=Assistant:ital,wght@0,200..800;1,200..800&family=Rubik:ital,wght@0,300..900;1,300..900&family=Varela:ital,wght@0,400&family=DM+Serif+Text:ital,wght@0,400;1,400&family=DM+Sans:ital,wght@0,100..1000;1,100..1000&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;subset=latin-ext&amp;display=swap"  as="style" fetchpriority="low" onload="loadCSS(this)" /><link rel="preload" href="https://irp.cdn-website.com/fonts/css2?family=Be+Vietnam:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900&family=Biryani:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900&family=Darker+Grotesque:ital,wght@0,300..900;1,300..900&family=Lexend+Deca:ital,wght@0,100..900;1,100..900&family=Manjari:ital,wght@0,100;0,400;0,700&family=DM+Serif+Display:ital,wght@0,400;1,400&family=Stardos+Stencil:ital,wght@0,400;0,700&family=Staatliches:ital,wght@0,400&family=Yeseva+One:ital,wght@0,400&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Overpass:ital,wght@0,100..900;1,100..900&family=Bebas+Neue:ital,wght@0,400&family=Sen:ital,wght@0,400..800;1,400..800&family=Inter:ital,wght@0,100..900;1,100..900&family=Lateef:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=El+Messiri:ital,wght@0,400..700;1,400..700&family=Harmattan:ital,wght@0,400;0,500;0,600;0,700&family=Tajawal:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900&family=Almarai:ital,wght@0,300;0,400;0,700;0,800&family=Markazi+Text:ital,wght@0,400..700;1,400..700&family=Mirza:ital,wght@0,400;0,500;0,600;0,700&family=Katibeh:ital,wght@0,400&family=Cedarville+Cursive:ital,wght@0,400&amp;subset=latin-ext&amp;display=swap"  as="style" fetchpriority="low" onload="loadCSS(this)" /><link rel="preload" href="https://irp.cdn-website.com/fonts/css2?family=Give+You+Glory:ital,wght@0,400&family=Gothic+A1:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Jost:ital,wght@0,100..900;1,100..900&family=Homemade+Apple:ital,wght@0,400&family=Ramabhadra:ital,wght@0,400&family=Shadows+Into+Light:ital,wght@0,400&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Spartan:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900&family=Sulphur+Point:ital,wght@0,300;0,400;0,700&family=Alata:ital,wght@0,400&family=Krona+One:ital,wght@0,400&family=Rock+Salt:ital,wght@0,400&family=Lacquer:ital,wght@0,400&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Sacramento:ital,wght@0,400&family=Bevan:ital,wght@0,400;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:ital,wght@0,300..700;1,300..700&family=Outfit:ital,wght@0,100..900;1,100..900&family=Aboreto:ital,wght@0,400&family=Arapey:ital,wght@0,400;1,400&family=Marcellus:ital,wght@0,400&amp;subset=latin-ext&amp;display=swap"  as="style" fetchpriority="low" onload="loadCSS(this)" /><link rel="preload" href="https://irp.cdn-website.com/fonts/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Hedvig+Letters+Serif:ital,wght@0,400&amp;subset=latin-ext&amp;display=swap"  as="style" fetchpriority="low" onload="loadCSS(this)" /><link rel="stylesheet" type="text/css" href="https://static.cdn-website.com/mnlt/production/6133/_dm/s/rt/dist/css/css-font-package.min.css" />
+<link type="text/css" rel="stylesheet" href="/_dm/s/rt/css/font-icons/wl-fonts/nee.dmfonts.css"/>
+<style id="wlCustomCss">
+    </style>
+<link type="text/css" rel="stylesheet" href="/editor/direct/css/dm.fbconnect.css"/>
+
+    <!-- add IE specific css for the editor and analytics -->
+    <!--[if IE 7]>
+    <link type="text/css" rel="stylesheet" href="css/Editor_IE7.css"/>
+    <link type="text/css" rel="stylesheet" href="css/sharingStyles_IE7.css">
+
+    <![endif]-->
+    <!--[if IE 8]>
+    <link type="text/css" rel="stylesheet" href="css/Editor_IE.css"/>
+    <![endif]-->
+
+    <script type="text/javascript">
+        window.dCurrentScreen = 'login';
+
+        function fbConnectDone(fbLogin) {
+            if (fbLogin && fbLogin.ok)
+                window.location = fbLogin.redirectTo;
+        }
+
+        $(document).ready(function () {
+            $('#j_username').focus();
+            $("#dmLodinForm").keyup(function (event) {
+                if (event.keyCode == 13) {
+                    $(this).submit();
+                }
+            });
+            window.localStorage.removeItem("ED_ONBOARDING");
+            window.localStorage.removeItem("TOUR");
+        });
+    </script>
+
+    <script src='https://www.google.com/recaptcha/enterprise.js?render=6Ld3f6EnAAAAAHl9YzkhxOwfq6NzuuEfXpyazpf5'
+            async defer></script>
+
+    <script type="text/javascript">
+        function captchaCallback(token) {
+            $('form.lgForm').submit();
+        }
+    </script>
+
+    </head>
+
+<script src="/editor/nee/utils/nee.b64.js"></script>
+<script type="text/javascript" src="/common/commonStringsScript.jsp?lang=en&v=2026-01-28T16_39_15"></script>
+<script type="text/javascript" src="/editor/nee/utils/common/modules/module.storage.js"></script>
+<script type="text/javascript" src="/editor/nee/utils/common/modules/module.cookies.js"></script>
+<script type="text/javascript" src="/common/commonPropsScript.jsp?config="></script>
+<style>
+  .signupBody, .wlLogin {
+    display: none;
+  }
+</style>
+
+<script src="https://static.cdn-website.com/war/editor/ed/bower_components/requirejs/require.js"></script>
+<script src="/editor/services/modulesManager.js"></script>
+
+<script>
+	var moduleName = 'login';
+</script>
+<script>
+    window.addEventListener("load", function() {
+        window.$.modulesManager.getModuleAsync("login")
+            .then(function (module) {
+                return module.getLoginService();
+            })
+            .then(function (loginService) {
+                var container = document.createElement('div');
+                container.style.width="100%";
+                var signupBox = document.getElementsByClassName('lgForm');
+                if (signupBox) {
+                    var parent = signupBox[0].parentNode;
+                    parent.replaceChild(container, signupBox[0]);
+                    loginService.getLoginPage({
+                        element: container,
+                        lang: "en",
+                        captcha: true ? {
+                            siteKey: "6Ld3f6EnAAAAAHl9YzkhxOwfq6NzuuEfXpyazpf5",
+                        } : null,
+                        isWLReseller: true
+                    })
+                }
+            });
+    }, false);
+</script>
+
+<style>
+  .separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+    padding-top: 20px;
+  }
+
+  .separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #A4A8AA;
+  }
+
+  .separator::before {
+    margin-right: .3em;
+  }
+
+  .separator::after {
+    margin-left: .3em;
+  }
+
+  #orText {
+    font-size: 14px;
+    color: #A4A8AA;
+  }
+
+</style>
+<body class="wlLogin loginBody ">
+
+<div class="wlHeader coloredHeader">
+    <div class="logoWrapper">
+		<div class="logoImg"></div>
+	</div>
+</div>
+<div class="wlInnerBody">
+    <div class="wlLoginWrapper">
+        <h1 class="wlTitle">Welcome</h1>
+        <h3 class="wlTitle">Log in to your workspace</h3>
+
+        <div class="login_error" style="padding-top: 7px; padding-bottom: 7px;"></div>
+        <style>
+  .abcRioButton {
+    border-radius: 1px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .25);
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: background-color .218s, border-color .218s, box-shadow .218s;
+    transition: background-color .218s, border-color .218s, box-shadow .218s;
+    -webkit-user-select: none;
+    -webkit-appearance: none;
+    background-color: #fff;
+    background-image: none;
+    color: #262626;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: auto
+  }
+
+  .abcRioButton:hover {
+    box-shadow: 0 0 3px 3px rgba(66, 133, 244, .3)
+  }
+
+  .abcRioButtonBlue {
+    background-color: #4285f4;
+    border: none;
+    color: #fff
+  }
+
+  .abcRioButtonBlue:hover {
+    background-color: #4285f4
+  }
+
+  .abcRioButtonBlue:active {
+    background-color: #3367d6
+  }
+
+  .abcRioButtonLightBlue {
+    background-color: #fff;
+    color: #757575
+  }
+
+  .abcRioButtonLightBlue:active {
+    background-color: #eee;
+    color: #6d6d6d
+  }
+
+  .abcRioButtonIcon {
+    float: left
+  }
+
+  .abcRioButtonBlue .abcRioButtonIcon {
+    background-color: #fff;
+    border-radius: 1px
+  }
+
+  .abcRioButtonSvg {
+    display: block
+  }
+
+  .abcRioButtonContents {
+    font-family: Roboto, arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .21px;
+    margin-left: 6px;
+    margin-right: 6px;
+    vertical-align: top
+  }
+
+  .abcRioButtonContentWrapper {
+    height: 100%;
+    width: 100%
+  }
+
+  .abcRioButtonBlue .abcRioButtonContentWrapper {
+    border: 1px solid transparent
+  }
+
+  .abcRioButtonErrorWrapper, .abcRioButtonWorkingWrapper {
+    display: none;
+    height: 100%;
+    width: 100%
+  }
+
+  .abcRioButtonErrorIcon, .abcRioButtonWorkingIcon {
+    margin-left: auto;
+    margin-right: auto
+  }
+
+  .abcRioButtonErrorState, .abcRioButtonWorkingState {
+    border: 1px solid #d5d5d5;
+    border: 1px solid rgba(0, 0, 0, .17);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .05);
+    color: #262626
+  }
+
+  .abcRioButtonErrorState:hover, .abcRioButtonWorkingState:hover {
+    border: 1px solid #aaa;
+    border: 1px solid rgba(0, 0, 0, .25);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .1)
+  }
+
+  .abcRioButtonErrorState:active, .abcRioButtonWorkingState:active {
+    border: 1px solid #aaa;
+    border: 1px solid rgba(0, 0, 0, .25);
+    box-shadow: inset 0 1px 0 #ddd;
+    color: #262626
+  }
+
+  .abcRioButtonWorkingState, .abcRioButtonWorkingState:hover {
+    background-color: #f5f5f5
+  }
+
+  .abcRioButtonWorkingState:active {
+    background-color: #e5e5e5
+  }
+
+  .abcRioButtonErrorState, .abcRioButtonErrorState:hover {
+    background-color: #fff
+  }
+
+  .abcRioButtonErrorState:active {
+    background-color: #e5e5e5
+  }
+
+  .abcRioButtonErrorState .abcRioButtonErrorWrapper, .abcRioButtonWorkingState .abcRioButtonWorkingWrapper {
+    display: block
+  }
+
+  .abcRioButtonErrorState .abcRioButtonContentWrapper, .abcRioButtonErrorState .abcRioButtonWorkingWrapper, .abcRioButtonWorkingState .abcRioButtonContentWrapper {
+    display: none
+  }
+
+  .wlLoginWrapper {
+    width: 388px;
+  }
+
+  .abcRioButtonContents {
+    margin-left: -33px !important;
+  }
+
+  .abcRioButtonLightBlue {
+    max-width: 100% !important;
+  }
+
+  .auth2link {
+    text-decoration: none !important;
+  }
+
+  .oauth2wapper {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .lockicon::before {
+    content: '\e00f';
+    font-family: 'WL';
+    font-size: 40px;
+    line-height: 20px;
+  }
+
+  .wlLoginWrapper .login_error, .signupBox .login_error {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    color: #e41e1e;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+  }
+
+</style>
+
+<div style="display: inline">
+    <div class="oauth2wapper"><a id="auth2link" class="auth2link" href="/oauth2/redirect/google?remember-me=true">
+        <div style="height:40px;width:388px;" class="abcRioButton abcRioButtonLightBlue">
+            <div class="abcRioButtonContentWrapper">
+                <div class="abcRioButtonIcon" style="padding:10px">
+                    <div style="width:18px;height:18px;"
+                         class="abcRioButtonSvgImageWithFallback abcRioButtonIconImage abcRioButtonIconImage18">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="18px"
+                             height="18px" viewBox="0 0 48 48" class="abcRioButtonSvg">
+                            <g>
+                                <path fill="#EA4335"
+                                      d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"></path>
+                                <path fill="#4285F4"
+                                      d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"></path>
+                                <path fill="#FBBC05"
+                                      d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6`.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"></path>
+                                <path fill="#34A853"
+                                      d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"></path>
+                                <path fill="none" d="M0 0h48v48H0z"></path>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+                <span style="font-size:14px;line-height:38px;" class="abcRioButtonContents"><span>Sign in with Google</span></span>
+            </div>
+        </div>
+    </a></div>
+</div>
+<script>
+    (function () {
+        var errorElement = document.getElementsByClassName("login_error")[0];
+        if (location.href.indexOf("login_error") > 0) {
+            errorElement.innerText = "This account couldn’t be found. "
+        }
+
+        const storageKey = 'device_fingerprint';
+
+        function generateDeviceId() {
+            return import('https://openfpcdn.io/fingerprintjs/v3')
+                .then(FingerprintJS => FingerprintJS.load())
+                .then((fp) => fp.get())
+                .then((result) => result.visitorId)
+                .catch((error) => {
+                    console.error('Failed to generate device fingerprint', error);
+                    return null;
+                });
+        }
+
+        function getDeviceId() {
+            try {
+                const storedDeviceId = localStorage.getItem(storageKey);
+                if (storedDeviceId) {
+                    return Promise.resolve(storedDeviceId);
+                }
+                return generateDeviceId().then((newId) => {
+                    if (newId) {
+                        try {
+                            localStorage.setItem(storageKey, newId);
+                        } catch (error) {
+                            console.error('Failed to store device fingerprint', error);
+                        }
+                    }
+                    return newId;
+                });
+            } catch (error) {
+                console.error('Error accessing device fingerprint storage', error);
+                return Promise.resolve(null);
+            }
+        }
+
+        function appendDeviceIdToLink(deviceId) {
+            const authLink = document.getElementById("auth2link");
+            if (!authLink) {
+                return;
+            }
+            const authLinkUrl = new URL(authLink.href);
+            if (deviceId) {
+                authLinkUrl.searchParams.set('deviceId', deviceId);
+            }
+            authLink.href = authLinkUrl.origin + authLinkUrl.pathname + '?'
+                + authLinkUrl.searchParams.toString();
+        }
+
+        let url = new URL(window.location.href);
+        if (url.searchParams.has("next")) {
+            console.log(url.searchParams.has("next"))
+
+            let next = url.searchParams.get("next");
+            url.searchParams.delete('next');
+            const newUrl = url.origin + url.pathname + (url.searchParams.toString() ? '?'
+                + searchParams.toString() : '');
+            window.history.replaceState({}, '', newUrl);
+            const authLink = document.getElementById("auth2link");
+            const authLinkUrl = new URL(authLink.href);
+            const authLinkUrlsearchParams = url.searchParams;
+            authLinkUrlsearchParams.set('next', next);
+            if (authLink.href.includes("remember-me")) {
+                authLinkUrlsearchParams.set('remember-me', 'true');
+            }
+            authLink.href = authLinkUrl.origin + authLinkUrl.pathname + '?'
+                + authLinkUrlsearchParams.toString();
+        }
+
+        getDeviceId().then((deviceId) => {
+            appendDeviceIdToLink(deviceId);
+        });
+    })();
+</script>
+<span id="orText" class="separator">OR</span>
+
+        <div class="lgForm"></div>
+    </div>
+</div>
+<!-- WL Custom Html Begin -->
+<!-- WL Custom Html End -->
+
+</body>
+</html>
+
+

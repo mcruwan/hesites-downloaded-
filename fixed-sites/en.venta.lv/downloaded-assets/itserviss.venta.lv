@@ -1,0 +1,334 @@
+
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="utf-8">
+    <title>VeA IT servisi</title>
+    <meta name="description" content="Ventspils Augstskolas IT servisu lapa. Šeit atrodama informācija par Ventspils Augstskolā pieejamajiem servisiem un to lietotšanas pamācībām.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mārcis Koloda">
+
+    <!-- CSS -->
+    <link href="https://itserviss.venta.lv/css/semantic.css" rel="stylesheet">
+    <link href="https://itserviss.venta.lv/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="ui top fixed text menu">
+  <div class="item">
+    <img src="/img/logo2.png">
+  </div>
+    <div class="right menu">
+
+    <div class="ui floating labeled icon dropdown button">
+      <i class="world icon"></i>
+      <span class="text">Language</span>
+      <div class="menu">
+        <a href="/lang/change/lv" class="item">Latviešu</a>
+        <a href="/lang/change/eng" class="item">English</a>
+      </div>
+    </div>
+
+  </div> 
+</div>
+
+
+<!-- <div id="cookies" class="ui bottom fixed container">
+    <div class="ui icon info message">
+        <i class="exclamation icon"></i>
+        <div class="content">
+            <div class="header">Vai piekrītat sīkdatņu izmantošanai?</div>
+            <p>Sīkdatnes tiek izmantotas, lai saglabātu jūsu iestatījumus un nodrošinātu pilnu lapas darbību. <br>Sīkdatnēm netiek nodrošināta 3. personu piekļuve un tās netiek izmantotas, lai izsekotu jūsu darbības.</p>
+            <p>Pilna sīkdatņu politika pieejama <a href="/policy/cookies"> ŠEIT </a>        </div>
+        <div class="actions"> -->
+            <!-- <div id="deny-cookies" class="ui negative button">Nepiekrītu</div> -->
+            <!-- <div id="accept-cookies" class="ui primary button">Piekrītu</div>
+        </div>
+    </div>
+</div>
+     --><div class="ui container space">
+  <div class="ui five special stackable  cards">
+
+    
+          <div class="card">
+            <div class="blurring dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                                          <h3>Paroles maiņa</h3>
+                      <p>Paroles maiņas sistēma</p>
+                      <a href="/password/change" class="ui primary button">Doties</a>
+                      <a href="http://wiki.venta.lv/wiki/index.php/Paroles_mai%C5%86a" class="ui icon button">?</a>
+                                      </div>
+                </div>
+              </div>
+              <img src="/img/password_change.png">
+            </div>
+          </div>
+
+
+        
+          <div class="card">
+            <div class="blurring dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                                          <h3>Aizmirstas paroles atjaunošana</h3>
+                      <p>Aizmirstas paroles atjaunošana</p>
+                      <a href="http://wiki.venta.lv/wiki/index.php/Paroles_mai%C5%86a#aizmirsta_parole" class="ui primary button">Doties</a>
+                      <a href="http://wiki.venta.lv/wiki/index.php/Paroles_mai%C5%86a#aizmirsta_parole" class="ui icon button">?</a>
+                                      </div>
+                </div>
+              </div>
+              <img src="/img/password_reset.png">
+            </div>
+          </div>
+
+
+        
+          <div class="card">
+            <div class="blurring dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                                          <h3>VeA Wiki</h3>
+                      <p>Ventspils Augstskolas IT servisu Wiki lapa</p>
+                      <a href="http://wiki.venta.lv" class="ui primary button">Doties</a>
+                      <a href="http://wiki.venta.lv/wiki/index.php/S%C4%81kumlapa" class="ui icon button">?</a>
+                                      </div>
+                </div>
+              </div>
+              <img src="/img/wiki.png">
+            </div>
+          </div>
+
+
+        
+          <div class="card">
+            <div class="blurring dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                                          <h3>Ziņojuma Dēlis</h3>
+                      <p>Ventspils Augstskolas Ziņojuma Dēlis</p>
+                      <a href="https://vea.venta.lv" class="ui primary button">Doties</a>
+                      <a href="#" class="ui icon button">?</a>
+                                      </div>
+                </div>
+              </div>
+              <img src="/img/zd.png">
+            </div>
+          </div>
+
+
+        
+          <div class="card">
+            <div class="blurring dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                                          <h3>Moodle</h3>
+                      <p>VeA Moodle e-apmācības sistēmas</p>
+                      <a href="http://moodle.venta.lv" class="ui primary button">Doties</a>
+                      <a href="http://wiki.venta.lv/wiki/index.php/Moodle" class="ui icon button">?</a>
+                                      </div>
+                </div>
+              </div>
+              <img src="/img/moodle.png">
+            </div>
+          </div>
+
+
+        
+          <div class="card">
+            <div class="blurring dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                                          <h3>BigBlueButtos</h3>
+                      <p>VeA Web konferenču serviss</p>
+                      <a href="http://bbb.venta.lv" class="ui primary button">Doties</a>
+                      <a href="http://wiki.venta.lv/wiki/index.php/BigBlueButton" class="ui icon button">?</a>
+                                      </div>
+                </div>
+              </div>
+              <img src="/img/bbb.png">
+            </div>
+          </div>
+
+
+        
+          <div class="card">
+            <div class="blurring dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                                          <h3>Problēmu uzskaites sistēma</h3>
+                      <p>Problēmu uzskaites sistēma, iespējams iesniegt problēmas ar VeA IT servisiem</p>
+                      <a href="http://pus.venta.lv" class="ui primary button">Doties</a>
+                      <a href="http://wiki.venta.lv/wiki/index.php/Probl%C4%93mu_uzskaites_sist%C4%93ma" class="ui icon button">?</a>
+                                      </div>
+                </div>
+              </div>
+              <img src="/img/pus.png">
+            </div>
+          </div>
+
+
+        
+          <div class="card">
+            <div class="blurring dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                                          <h3>Makonis.venta.lv</h3>
+                      <p>Failu glabāšanasas serviss kas bāzēts uz NextCloud (jaunais serviss)</p>
+                      <a href="https://makonis.venta.lv" class="ui primary button">Doties</a>
+                      <a href="http://wiki.venta.lv/wiki/index.php/Failu_glab%C4%81tuve_-_kaste.venta.lv" class="ui icon button">?</a>
+                                      </div>
+                </div>
+              </div>
+              <img src="/img/makonis.png">
+            </div>
+          </div>
+
+
+        
+          <div class="card">
+            <div class="blurring dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                                          <h3>Druka.venta.lv</h3>
+                      <p>Web drukāšanas serviss</p>
+                      <a href="https://druka.venta.lv" class="ui primary button">Doties</a>
+                      <a href="#" class="ui icon button">?</a>
+                                      </div>
+                </div>
+              </div>
+              <img src="/img/druka.png">
+            </div>
+          </div>
+
+
+        
+          <div class="card">
+            <div class="blurring dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                                          <h3>VeA Epasts</h3>
+                      <p>Saite uz VeA Epastu</p>
+                      <a href="http://gmail.venta.lv" class="ui primary button">Doties</a>
+                      <a href="http://wiki.venta.lv/wiki/index.php/VeA_e-pasta_konfigur%C4%93%C5%A1ana" class="ui icon button">?</a>
+                                      </div>
+                </div>
+              </div>
+              <img src="/img/email.png">
+            </div>
+          </div>
+
+
+        
+          <div class="card">
+            <div class="blurring dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                                          <h3>Gitlab.venta.lv</h3>
+                      <p>Gitlab serveris VeA lietotājiem</p>
+                      <a href="https://gitlab.venta.lv" class="ui primary button">Doties</a>
+                      <a href="http://wiki.venta.lv/wiki/index.php/Git_un_Gitlab_CE" class="ui icon button">?</a>
+                                      </div>
+                </div>
+              </div>
+              <img src="/img/gitlab.png">
+            </div>
+          </div>
+
+
+        
+          <div class="card">
+            <div class="blurring dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                                          <h3>Google parole</h3>
+                      <p>Google servisu paroles maiņa </p>
+                      <a href="/google" class="ui primary button">Doties</a>
+                      <a href="http://wiki.venta.lv/wiki/index.php/VeA_e-pasta_konfigur%C4%93%C5%A1ana" class="ui icon button">?</a>
+                                      </div>
+                </div>
+              </div>
+              <img src="/img/google.png">
+            </div>
+          </div>
+
+
+        
+          <div class="card">
+            <div class="blurring dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                                          <h3>Office 365</h3>
+                      <p>Saite uz Office 365</p>
+                      <a href="https://portal.office.com" class="ui primary button">Doties</a>
+                      <a href="#" class="ui icon button">?</a>
+                                      </div>
+                </div>
+              </div>
+              <img src="/img/office.png">
+            </div>
+          </div>
+
+
+          </div>
+    <hr>
+    <h3>Eksperimentālie servisi</h3>
+    <hr>
+  <div class="ui five special stackable  cards">
+
+
+          <div class="card">
+            <div class="blurring dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                                          <h3>Guacamole</h3>
+                      <p>RDP piekļuve</p>
+                      <a href="https://rdg.venta.lv/guacamole/" class="ui primary button">Doties</a>
+                      <a href="http://wiki.venta.lv/wiki/index.php/Rdg.venta.lv" class="ui icon button">?</a>
+                                      </div>
+                </div>
+              </div>
+              <img src="/img/guacamole.png">
+            </div>
+          </div>
+
+
+        
+  </div>
+</div><div class="ui bottom fixed mini menu">
+  <div class="item">
+    <img src="/img/logo2.png">
+  </div>
+  <a class="item">&copy; Ventspils Augstskola</a>
+  <a class="item">2016 - 2026</a>
+  <a class="item">Versija: 2.0</a>
+</div>
+
+
+  </div>  <!-- END OF WRAPPER -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/js.cookie.js"></script>
+    <script src="/js/semantic.js"></script>
+
+    <script>
+        var url = "https://itserviss.venta.lv/";
+    </script>
+    <script src="/js/scripts.js"></script>
+    <script src="/js/semantic-fun.js"></script>
+
+</body>
+</html>

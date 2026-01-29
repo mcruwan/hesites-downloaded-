@@ -1,0 +1,309 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="master" xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    
+<!-- Start Head_Tags_1_liga62_org of liga62.org domain -->
+<title>Liga62 : Judi Bola | Slot Online | Bandar Bola | Agen Bola | Taruhan Bola</title>
+    <meta name="description" content="Liga62 agen judi bola, bandar bola, taruhan bola dengan pasaran terlengkap, dan slot online terbesar dan terpercaya di Indonesia." />
+    <meta name="keywords" content="situs judi online, judi bola resmi, taruhan bola, slot online, casino online, togel online, situs judi resmi" />
+    <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website" />
+    <meta prefix="og: http://ogp.me/ns#" property="og:title" content="Liga62 : Judi Bola | Slot Online | Bandar Bola | Agen Bola | Taruhan Bola" />
+    <meta prefix="og: http://ogp.me/ns#" property="og:description" content="Liga62 agen judi bola, bandar bola, taruhan bola dengan pasaran terlengkap, dan slot online terbesar dan terpercaya di Indonesia." />
+    <meta prefix="og: http://ogp.me/ns#" property="og:url" content="https://mobile.liga62.net/" />
+    <meta prefix="article: http://ogp.me/ns/article#" property="article:published_time" content="2020-04-20" />
+    <meta prefix="article: http://ogp.me/ns/article#" property="article:modified_time" content="2020-10-18" />
+    <meta prefix="og: http://ogp.me/ns#" property="og:site_name" content="Liga62" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://liga62.org/" />
+    <meta name="twitter:title" content="Situs Judi Online LIGA62 Taruhan Bola Resmi" />
+    <meta name="twitter:description" content="Liga62 agen judi bola, bandar bola, taruhan bola dengan pasaran terlengkap, dan slot online terbesar dan terpercaya di Indonesia." />
+    <meta content="1 days" name="revisit-after" />
+    <meta content="id" name="geo.country" />
+    <meta content="Indonesia" name="geo.placename" />
+    <meta content="document" name="resource-type"/>
+    <meta name="DC.Title" content="Liga62 : Judi Bola | Slot Online | Bandar Bola | Agen Bola | Taruhan Bola" />
+    <meta name="DC.Subject" content="Liga62 : Judi Bola | Slot Online | Bandar Bola | Agen Bola | Taruhan Bola" />
+    <meta name="DC.Description" content="Liga62 agen judi bola, bandar bola, taruhan bola dengan pasaran terlengkap, dan slot online terbesar dan terpercaya di Indonesia." />
+    <meta name="DC.Language" content="id" />
+    <meta content="id" http-equiv="Content-Language"/>
+    <meta content="all" name="spiders"/>
+    <meta content="all" name="webcrawlers"/>
+    <meta content="Indonesia" name="geo.placename" />
+    <link rel="canonical" href="https://liga62.org/" />
+    <link rel="amphtml" href="https://inibarugacor.com/LIGA62/" />
+    <link hreflang="id" rel="alternate" href="https://liga62.org/" />
+<!-- End Head_Tags_1_liga62_org of liga62.org domain -->
+
+<!-- Start Head_Tags_1_liga62_org of all domains -->
+
+<!-- End Head_Tags_1_liga62_org of all domains -->
+
+
+
+    <link rel="icon" href="Images/favicon.ico" />
+    <link rel="stylesheet" href="Images/theme/v1/css/common.css?v=4" />
+    <link href="Images/theme/v1/css/style1.css" rel="stylesheet" />
+    <script type="text/javascript" src="Images/theme/v1/js/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;display=swap" rel="stylesheet" />
+   <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+
+    <script type="text/javascript" src="js/common.js?v=20241218"></script>
+    <script type="text/javascript" src="js/header.js?v=20250106"></script>
+    <script type="text/javascript" src="js/login.js?v=20250303"></script>
+
+    <script language="javascript" type="text/javascript">	       
+        $().ready(function () {
+            $('#btnReg').click(function () {
+                popupRegister('');
+            });
+            fetchTogel(function (records) {
+                drawTogel(records)
+            })
+        });
+        function openLiveChat() {
+            window.open('https://www.livehelpnow.net/lhn/lcv.aspx?d=51768&ms=&zzwindow=59299&lhnid=34870&custom1=&custom2=&custom3=&pcv=&opid=0', 'LiveChat', 'width=500,height=500,toolbars=no,scrollbars=no,status=no,resizable=no');
+        }
+    </script>
+
+    <style>
+        .text-togel {
+            color: #EDF4F7 !important;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.4);
+            font-family: 'Anton', sans-serif !important;
+            font-size: 22px !important;
+            text-transform: uppercase;
+            font-weight: 100 !important;
+        }
+
+        @media only screen and (-webkit-min-device-pixel-ratio: 3), only screen and (-min--moz-device-pixel-ratio: 3), only screen and (-o-min-device-pixel-ratio: 3/1), only screen and (min-device-pixel-ratio: 3) {
+            #txtPassword {
+                position: relative;
+                top: 29px;
+                width: 100px
+            }
+
+            #txtUsername {
+                width: 100px
+            }
+        }
+    </style>
+
+    <script type="text/javascript">
+        function drawTogel(records) {
+            var strTogel = '';
+            var strTogel1 = '';
+            var maxRecords = records.slice(0, 6);
+
+            for (var i = 0; i < maxRecords.length; i++) {
+                var togelItem = '<div style="text-align: center;">' +
+                    '<span class="text-togel">' + maxRecords[i].Togel + '</span>' +
+                    '<span style="display: block; font-weight: bold;">' + maxRecords[i].Number + '</span>' +
+                    '</div>';
+                if (i < 3) {
+                    strTogel += togelItem;
+                } else {
+                    strTogel1 += togelItem;
+                }
+            }
+            $('#togelr').html(strTogel);
+            $('#togell').html(strTogel1);
+        }
+    </script>
+
+    
+    <link rel="stylesheet" href="css/header.submenu.css?v=1762746734915" />
+    <style type="text/css">
+        .main_width {
+            width: 1000px;
+            height: 110px;
+            background-color: #B41105;
+            margin: 0
+        }
+
+        .sub-menu {
+            top: 85px;
+            padding-top: 1px;
+            padding-bottom: 23px;
+        }
+        @font-face {
+            font-family: "Posterama";
+            src: url("https://db.onlinewebfonts.com/t/8e47cbbf4f738597d2ee3ea022b77a1c.eot");
+            src: url("https://db.onlinewebfonts.com/t/8e47cbbf4f738597d2ee3ea022b77a1c.eot?#iefix")format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/8e47cbbf4f738597d2ee3ea022b77a1c.woff2")format("woff2"), url("https://db.onlinewebfonts.com/t/8e47cbbf4f738597d2ee3ea022b77a1c.woff")format("woff"), url("https://db.onlinewebfonts.com/t/8e47cbbf4f738597d2ee3ea022b77a1c.ttf")format("truetype"), url("https://db.onlinewebfonts.com/t/8e47cbbf4f738597d2ee3ea022b77a1c.svg#Posterama 1927 W01 UltraBlack")format("svg");
+        }
+    </style>
+    
+</head>
+<body style="margin: 5px -20px 0 0; overflow-x: hidden;">
+    <div class="container">
+        <div class="logo">
+            <img src="Images/logo.gif" alt="liga62" title="liga62">
+        </div>
+        <form name="form1" method="post" action="Defaults/Default274.aspx" id="form1" class="header">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type='text/javascript'>var timerId = null;var today = new Date();var time_start = today.getTime();function countdown(){var time_left =300 - parseInt(((new Date()).getTime() - time_start) / 1000);clearTimeout(timerId);if(time_left > 0){timerId = setTimeout('countdown()', 1000);}else{document.location.href = '//liga62.org/';}}function handleError(){return true;}window.onload=countdown;window.onerror=handleError;</SCRIPT><!-- popup event May 2021 was hidden --><script>
+                        $().ready(function () {
+                            $('body').append(`<a style='z-index: 999999; width: 140px; height: 83px; position: fixed; left:0; top: 0px;' href='#'>
+                                <img width='120px' height='60px' src='css/Banner_ASF.png?v=2'/></a>`);
+                        });
+                    </script><script>localStorage.setItem('cdnImageHost','https://imgshare.porta-assist.com');</script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="98AF84EA" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="zsB9bIiLmz7ZDpy7w0/IGGLr5exLniXZ1ac3eVg+XaAXs4r+Vs+BgygG8WzxfDFnXlKGfSmknNvPU6eAEGL5LYhQ+9phOpsy9fY3yIP/+DBrj0hSDxuNLKNzBg4g3PXQ/mV4XYvtyEqjBRXXtXYQtx2dn+INW9YyUcXngmPaBqJfTQpFsKPgkOa5YGDxIwjKyBWTEGqz86DbOZN8XZJLCPa88Ei15Oe538kTSJ2mSWnh55JbM9jjQAi/uplV/wc9" />
+</div>
+            <div id="btnReg">
+                <img src="Images/theme/v1/img/daftar.png?v=4" alt="daftar" />
+            </div>
+            <div id="login">
+                <div class="row">
+                    <span id="username">
+                        <input name="txtUsername" type="text" id="txtUsername" placeholder="User Name" class="login" maxLength="12" tabindex="1" /></span>
+                    <span id="code">
+                        <input name="txtCode" type="text" id="txtCode" placeholder="Code" tabindex="3" maxlength="4" />
+                        <span>1767</span>
+                    </span>
+                </div>
+                <div class="row">
+                    <span id="password"> 
+                        <input name="txtPassword" type="password" id="txtPassword" placeholder="Password" class="login" style="margin-top: -28px;" tabindex="2" />
+                    </span>
+                    <span>
+                        <input name="btnSignIn" type="button" id="btnSignIn" class="btnLogin" tabindex="4" />
+                    </span>
+                </div>
+            </div>
+            <div id="news">
+                <div id="div-marquee">
+                    <input id="text-marquee" type="hidden" value="SELAMAT DATANG DI LIGA62 AGEN JUDI BOLA ONLINE TERBESAR DAN TERPERCAYA DI INDONESIA || PROMO LIGA62 BONUS CASHBACK 5% DAN UNTUK BONUS CASHBACK SLOT 5%&#10;CUKUP 1 AKUN UNTUK SEMUA PERMAINAN. BOLA, CASINO, TANGKAS, TOGEL, POKER ,BANDARQ, ADU Q, DOMINOQQ, CAPSA SUSUN, SLOT DAN PERANG BACCARAT." />
+                    <script type="text/javascript">
+                        initMarquee()
+                    </script>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div id="menu">
+        <div class="container">
+             <ul id="main-menu"
+                 tag-parent-sub-menu="a"
+                 data-id="main-menu"
+                 data-is-guest="true"
+                 class="menu" style="position: relative;text-align: center;">
+                 <li style="padding-left: 0px;"><a href="#"><img class="hover" src="Images/theme/v1/img/menu/home.png" alt=""/>
+                     HOME</a></li>
+                 <li v-for="(key, index) in Object.keys(menus)">
+                     <menu-item class-name="" :is-guest="isGuest"
+                         :name="menus[key][0].GameType">
+                         <image-item class-name="hover" :image-data="menus[key][0]"
+                             :cache-version="cacheVersion"></image-item>
+                         {{ getGameMenuDisplayNameByLang(menus[key][0]) }}
+                         <down-arrow type="text" :has-sub-game="menus[key][0].HasSubGame" :game-type="menus[key][0].GameType"
+                             :is-guest="isGuest">
+                         </down-arrow>
+                         <submenu class-name="" :submenu-data="menus[key]" :is-guest="isGuest" :cache-version="cacheVersion">
+                         </submenu>
+                     </menu-item>
+                 </li>
+                 <li>
+                     <a href="https://bqg0.short.gy/QQ_LG62" target="_blank">
+                         <img class="hover" alt="" src="Images/theme/v1/img/menu/qiu-qiu.png">QIU QIU</a>
+                 </li>
+                 <li>
+                     <a href="https://bqg0.short.gy/PROMO_LG62" target="_blank">
+                         <img class="hover" alt="" src="Images/theme/v1/img/menu/promo.png?v=2">PROMO</a>
+                 </li>
+             </ul>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div id="mid-content">
+                <div id="slider">
+                    <div id="wowslider-container1">
+                        <div class="ws_images">
+                            <ul>
+                                <li><img src='Images/theme/v1/img/slider/10.png' id=slide0 alt='' title=''/></li><li><img src='Images/theme/v1/img/slider/11.png' id=slide1 alt='' title=''/></li><li><img src='Images/theme/v1/img/slider/12.png' id=slide2 alt='' title=''/></li><li><img src='Images/theme/v1/img/slider/13.png' id=slide3 alt='' title=''/></li><li><img src='Images/theme/v1/img/slider/14.png' id=slide4 alt='' title=''/></li><li><img src='Images/theme/v1/img/slider/15.png' id=slide5 alt='' title=''/></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="contact" style="display: grid; margin-bottom: -8px">
+                    <a href="#" onclick="openLiveChat()" style="height: 63px;">
+                        <img src="Images/theme/v1/img/livechat.gif" alt="livechat" /></a>
+                    <a href="https://bqg0.short.gy/WA_LG62" target="_blank" style="height: 63px;">
+                        <img src="Images/theme/v1/img/whatsapp.png" alt="whatsapp" /></a>
+                    <a href="https://bqg0.short.gy/TELE_LG62" target="_blank" style="height: 63px;">
+                        <img src="Images/theme/v1/img/telegram.png" alt="telegram" /></a>
+                    <a href="https://bqg0.short.gy/GF_LG62" target="_blank" style="height: 63px;">
+                        <img src="Images/theme/v1/img/facebook.png" alt="facebook" /></a>
+                    <a href="https://bqg0.short.gy/BP_LG62" target="_blank" style="height: 63px;">
+                        <img src="Images/theme/v1/img/bukti-pembayaran.png" alt="pembayaran" /></a>
+                </div>
+            </div>
+            <div id="togel">
+                <div id="togelr">
+                </div>
+                <div id="togell">
+                </div>
+            </div>
+            <div id="games-banner">
+                <div id="lbanner">
+                    <img src="Images/theme/v1/img/judi-bola.png">
+                    <img src="Images/theme/v1/img/live-casino.png">
+                </div>
+                <div id="cbanner">
+                    <img src="Images/theme/v1/img/liga62-wc.png" style="width: 99%;">
+                </div>
+                <div id="rbanner">
+                    <img src="Images/theme/v1/img/slot-online.png">
+                    <img src="Images/theme/v1/img/poker-online.png">
+                </div>
+            </div>
+            <a href="#">
+                <img src="Images/theme/v1/img/wc2026.gif" alt="world cup 2026" /></a>
+            <div id="footer-text">
+                
+<!-- Start WL_Footer_liga62_org of liga62.org domain -->
+<div style="text-align: center;">
+	<div style="color: white;">
+	<h1 style="font-size: 22pt; text-align: center;">Liga62 Situs Bettingan Bola Mix Parlay Terbaik, Dengan Prediksi Parlay Terakurat </h1>
+					<p style="font-size: 12pt; text-align: justify;">Dalam dunia taruhan olahraga, khususnya sepak bola, mix parlay menjadi salah satu jenis permainan yang paling digemari. Banyak bettor menyukai mix parlay karena mampu memberikan keuntungan berlipat ganda hanya dari modal kecil. Namun, tidak semua situs menyediakan layanan taruhan mix parlay dengan kualitas terbaik dan prediksi yang akurat. Di sinilah Liga62 hadir sebagai pilihan utama pecinta betting bola.</p>
+					<h2 style="font-size: 20pt; text-align: center;">BONUS PROMO MENARIK DARI Liga62 SITUS MIX PARLAY BOLA TERPERCAYA</h2>
+					<p style="font-size: 12pt; text-align: justify;">Dunia taruhan olahraga online semakin kompetitif, dan salah satu faktor yang paling menarik bagi para pemain adalah bonus dan promosi. Dalam hal ini, Liga62 tampil unggul sebagai situs mix parlay bola terpercaya yang menawarkan bonus promo terbesar dan paling menguntungkan di tahun 2025.</p>
+					<h3 style="font-size: 19pt; text-align: center;">SISTEM TRANSAKSI DI Liga62 SITUS BOLA TERPERCAYA</h3>
+					<p style="font-size: 12pt; text-align: justify;">Mengenai sistem transaksi yang disediakan oleh Liga62 di sini sangat lengkap dan mudah untuk dilakukan karena menyediakan berbagai layanan jenis bank dan juga e-wallet seperti Dana, OVO, Gopay, LinkAja yang digunakan sehari-hari oleh masyarakat Indonesia kini. Hanya dengan minimal transaksi deposit dan withdraw 15.000 saja dan bisa langsung memilih jenis games yang ingin dimainkan. Transaksi bisa dilakukan kapan saja dan dijamin sangat aman dan terpercaya, proses bisa dilakukan 24 jam setiap hari. Sehingga memudahkan para member untuk tetap terus bisa bermain dengan nyaman dan senang setiap waktu. Layanan customer service juga sangat sopan, ramah dan siap selalu untuk memberikan layanan terbaik kepada seluruh member yang bertransaksi dan bermain.</p>
+					<h4 style="font-size: 18pt; text-align: center;">Liga62 SIAP MELAYANI PARA MEMBER 24 JAM ONLINE SETIAP HARI</h4>
+					<p style="font-size: 12pt; text-align: justify;">Liga62 hadir dengan pelayanan customer service atau CS online 24 jam yang sudah terlatih dan profesional sehingga para member yang ingin bertanya mengenai produk dan juga perihal permainan dijamin tidak akan kecewa. Layanan bisa dilakukan melalui livechat ataupun whatsapp situs yang sudah disediakan. Dengan pelayanan terbaik dari Liga62, maka kenyamanan dan kesenangan serta ketenangan hanya berfokus pada melakukan taruhan permainan judi bola ataupun games-games lainnya. Bagi kalian yang ingin mendaftar dan bermain bisa segera lakukan pendaftaran akun melalui tombol di atas.</p>
+	</div>
+	</div>
+<!-- End WL_Footer_liga62_org of liga62.org domain -->
+
+<!-- Start WL_Footer_liga62_org of all domains -->
+
+<!-- End WL_Footer_liga62_org of all domains -->
+            </div>
+        </div>
+    </div>
+    <a style="width: 150px; height: 150px; position: fixed; left: 0; top: 600px; z-index: 9999999" href="https://bqg0.short.gy/DEMOSLOTLG62" target="_blank">
+        <img title="" alt="" width="150" height="150" src="Images/DEMOSLOTLIGA62.gif" /></a>
+    <a style="width: 150px; height: 150px; position: fixed; left: 0; top: 753px; z-index: 9999999" href="https://bqg0.short.gy/RTPSLOTLG62" target="_blank">
+        <img title="" alt="" width="150" height="150" src="Images/RTPSLOTLIGA62.gif" /></a>
+
+    <script src="js/vue3.3.7.global.js"></script>
+    <script>const mountEl = document.querySelector("#main-menu");</script>
+    <script src="js/header.menu.vue.js?v=1762746734915"></script>
+    <script>menu.mount("#main-menu");</script>
+    <script type="text/javascript" src="Images/theme/v1/js/wowslider.js"></script>
+    <script type="text/javascript" src="Images/theme/v1/js/script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+    <!-- Lato Font Open -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Lato Font Close -->
+    <title>riidl: Research Innovation Incubation Design Labs</title>
+    <script type="module" crossorigin src="/assets/index-DUbShIGA.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-D4UQH_9v.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Add this to your index.html file in the <head> section -->
+<script type="text/javascript">
+  // This function will be called when the translate button is clicked
+  function doGTranslate(lang_pair) {
+    if (lang_pair.value) lang_pair = lang_pair.value;
+    if (lang_pair == 'en|mr') {
+      // Set cookie for Marathi
+      document.cookie = 'googtrans=/en/mr';
+      location.reload();
+    } else {
+      // Clear cookie for English
+      document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+      document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=.' + location.hostname;
+      location.reload();
+    }
+  }
+</script>
+
+
+  </body>
+</html>

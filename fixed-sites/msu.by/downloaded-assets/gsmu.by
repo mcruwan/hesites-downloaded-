@@ -1,0 +1,1671 @@
+    <!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Гомельский государственный медицинский университет</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" href="/bitrix/templates/gsmu2020/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Language" content="ru" />
+
+                <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="факультеты, специальность, преподаватели" />
+<meta name="description" content="Гомельский государственный медицинский университет" />
+<link href="/bitrix/js/ui/design-tokens/dist/ui.design-tokens.min.css?173468403523463" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/js/ui/fonts/opensans/ui.font.opensans.min.css?16911339192320" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/js/main/popup/dist/main.popup.bundle.min.css?173468425726589" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/cache/css/s1/gsmu2020/template_df66536b055d38e3fd952c3f710cadf6/template_df66536b055d38e3fd952c3f710cadf6_v1.css?1768897377362137" type="text/css"  data-template-style="true" rel="stylesheet" />
+<script>if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script>(window.BX||top.BX).message({"JS_CORE_LOADING":"Загрузка...","JS_CORE_NO_DATA":"- Нет данных -","JS_CORE_WINDOW_CLOSE":"Закрыть","JS_CORE_WINDOW_EXPAND":"Развернуть","JS_CORE_WINDOW_NARROW":"Свернуть в окно","JS_CORE_WINDOW_SAVE":"Сохранить","JS_CORE_WINDOW_CANCEL":"Отменить","JS_CORE_WINDOW_CONTINUE":"Продолжить","JS_CORE_H":"ч","JS_CORE_M":"м","JS_CORE_S":"с","JSADM_AI_HIDE_EXTRA":"Скрыть лишние","JSADM_AI_ALL_NOTIF":"Показать все","JSADM_AUTH_REQ":"Требуется авторизация!","JS_CORE_WINDOW_AUTH":"Войти","JS_CORE_IMAGE_FULL":"Полный размер"});</script>
+
+<script src="/bitrix/js/main/core/core.min.js?1734684254225181"></script>
+
+<script>BX.Runtime.registerExtension({"name":"main.core","namespace":"BX","loaded":true});</script>
+<script>BX.setJSList(["\/bitrix\/js\/main\/core\/core_ajax.js","\/bitrix\/js\/main\/core\/core_promise.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/loadext\/loadext.js","\/bitrix\/js\/main\/loadext\/extension.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/includes\/js\/includes.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/ui\/polyfill\/closest\/js\/closest.js","\/bitrix\/js\/main\/polyfill\/fill\/main.polyfill.fill.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/core\/core.js","\/bitrix\/js\/main\/polyfill\/intersectionobserver\/js\/intersectionobserver.js","\/bitrix\/js\/main\/lazyload\/dist\/lazyload.bundle.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/parambag\/dist\/parambag.bundle.js"]);
+</script>
+<script>BX.Runtime.registerExtension({"name":"ui.design-tokens","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.fonts.opensans","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"main.popup","namespace":"BX.Main","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"popup","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"fx","namespace":"window","loaded":true});</script>
+<script>(window.BX||top.BX).message({"LANGUAGE_ID":"ru","FORMAT_DATE":"DD.MM.YYYY","FORMAT_DATETIME":"DD.MM.YYYY HH:MI:SS","COOKIE_PREFIX":"BITRIX_SM","SERVER_TZ_OFFSET":"10800","UTF_MODE":"Y","SITE_ID":"s1","SITE_DIR":"\/","USER_ID":"","SERVER_TIME":1769647412,"USER_TZ_OFFSET":0,"USER_TZ_AUTO":"Y","bitrix_sessid":"fa09df8a48e6c896de8d98dcf44b99c0"});</script>
+
+
+<script  src="/bitrix/cache/js/s1/gsmu2020/kernel_main/kernel_main_v1.js?1768897406155628"></script>
+<script src="/bitrix/js/main/popup/dist/main.popup.bundle.min.js?173468425765924"></script>
+<script>BX.setJSList(["\/bitrix\/js\/main\/core\/core_fx.js","\/bitrix\/js\/main\/session.js","\/bitrix\/js\/main\/pageobject\/pageobject.js","\/bitrix\/js\/main\/core\/core_window.js","\/bitrix\/js\/main\/date\/main.date.js","\/bitrix\/js\/main\/core\/core_date.js","\/bitrix\/js\/main\/utils.js","\/bitrix\/templates\/gsmu2020\/js\/jquery.formstyler.min.js","\/bitrix\/templates\/gsmu2020\/js\/jquery.magnificpopup.min.js","\/bitrix\/templates\/gsmu2020\/js\/jquery.cookie.min.js","\/bitrix\/templates\/gsmu2020\/js\/jquery.matchHeight-min.js","\/bitrix\/templates\/gsmu2020\/js\/jquery.mobileNav.js","\/bitrix\/templates\/gsmu2020\/js\/owl.carousel.min.js","\/bitrix\/templates\/gsmu2020\/js\/perfect-scrollbar.jquery.min.js","\/bitrix\/templates\/gsmu2020\/js\/jquery.jrumble.1.3.min.js","\/bitrix\/templates\/gsmu2020\/js\/main.js","\/bitrix\/templates\/gsmu2020\/js\/special_version.js","\/bitrix\/templates\/gsmu2020\/js\/jquery.fancybox.min.js","\/bitrix\/templates\/gsmu2020\/js\/jquery.qtip.js","\/bitrix\/templates\/gsmu2020\/js\/mistakes.js","\/bitrix\/templates\/gsmu2020\/js\/datepicker-ru.js","\/bitrix\/templates\/gsmu2020\/js\/custom.js","\/bitrix\/components\/bitrix\/search.title\/script.js","\/bitrix\/components\/interactive\/to.top\/templates\/.default\/script.js"]);</script>
+<script>BX.setCSSList(["\/bitrix\/templates\/gsmu2020\/components\/bitrix\/search.title\/modern_search\/style.css","\/bitrix\/components\/interactive\/to.top\/templates\/.default\/style.css","\/bitrix\/templates\/gsmu2020\/template_styles.css","\/bitrix\/templates\/gsmu2020\/css\/jquery.bxslider.css","\/bitrix\/templates\/gsmu2020\/css\/jquery.fancybox.min.css","\/bitrix\/templates\/gsmu2020\/special_version.css","\/bitrix\/templates\/gsmu2020\/css\/jquery-ui.css","\/bitrix\/templates\/gsmu2020\/css\/custom.css","\/bitrix\/templates\/gsmu2020\/css\/customGsmu.css","\/bitrix\/templates\/gsmu2020\/css\/jquery.qtip.css"]);</script>
+<!-- dev2fun module opengraph -->
+<meta property="og:title" content="Гомельский государственный медицинский университет"/>
+<meta property="og:description" content="Гомельский государственный медицинский университет"/>
+<meta property="og:url" content="https://gsmu.by/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Гомельский государственный медицинский университет"/>
+<!-- /dev2fun module opengraph -->
+
+
+
+<script  src="/bitrix/cache/js/s1/gsmu2020/template_12dfab57c81aaa10f408190a48ff3bdc/template_12dfab57c81aaa10f408190a48ff3bdc_v1.js?1768897377252644"></script>
+<script>var _ba = _ba || []; _ba.push(["aid", "b701150c87a1394d0fd1a33745b53338"]); _ba.push(["host", "gsmu.by"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+                                
+                                                        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+                                        
+        
+                                
+        
+
+                
+                            </head>
+
+<body data-page="/" data-page-pos="" class="">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLML6C7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <span class="notranslate"></span>
+    <div class="preloder-main"><div class="preloder-main-inner"></div></div>
+
+<div class="body-wrapper clearfix">
+    <div class="special-settings">
+        <div class="container special-panel-container">
+            <div class="content">
+                <div class="aa-block aaFontsize">
+                    <div class="fl-l">Размер:</div>
+                    <a class="aaFontsize-small" data-aa-fontsize="small" href="#" title="Уменьшенный размер шрифта">A</a>
+                    <a class="aaFontsize-normal a-current" href="#" data-aa-fontsize="normal" title="Нормальный размер шрифта">A</a>
+                    <a class="aaFontsize-big" data-aa-fontsize="big" href="#" title="Увеличенный размер шрифта">A</a>
+                </div>
+                <div class="aa-block aaColor">
+                    Цвет:
+                    <a class="aaColor-black a-current" data-aa-color="black" href="#" title="Черным по белому"><span>C</span></a>
+                    <a class="aaColor-yellow" data-aa-color="yellow" href="#" title="Желтым по черному"><span>C</span></a>
+                    <a class="aaColor-blue" data-aa-color="blue" href="#" title="Синим по голубому"><span>C</span></a>
+                </div>
+
+                <div class="aa-block aaImage">
+                    Изображения                    <span class="aaImage-wrapper">
+					<a class="aaImage-on a-current" data-aa-image="on" href="#">Вкл.</a>
+					<a class="aaImage-off" data-aa-image="off" href="#">Выкл.</a>
+				</span>
+                </div>
+                <span class="aa-block"><a href="/?set-aa=normal" data-aa-off><i class="icon icon-special-version"></i> Обычная версия сайта</a></span>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="container container-top-header">
+            <div class="content">
+                <div class="col col-mb-12">
+					<span class="mb-hide menu-top-a">
+						                        <select name="change-city" class="change-city styler notranslate">
+                            <option selected="selected" value="русский" data-value="Russian">RU</option>
+                            <option  value="английский" data-value="English">EN</option>
+                            <option  value="белорусский" data-value="Belarusian">BY</option>
+                                                    </select>
+                        <div class="top-menu-right">
+                            
+        <a href="/vopros-rektoru/"  >Вопрос ректору</a>
+            <a href="https://mx3.dc.beltelecom.by/mail/" target="_blank" >Почта</a>
+            <a href="https://dl.gsmu.by/login/index.php"  >Система дистанционного обучения</a>
+            <a href="https://gsmu.shop.by/"  >Интернет-магазин</a>
+            <a href="/?set-aa=special"  data-aa-on>Версия для слабовидящих</a>
+            <a href="/sitemap/"  >Карта сайта</a>
+            <a href="/predlojeniya-sotrydnikov"  >Предложения сотрудников</a>
+                                                          </div>
+                                                
+                                                <div id="google_translate_element" style="position: absolute;"></div>
+
+
+                                                                        
+                                                					</span>
+                    <span class="tablet-hide dt-hide ld-hide">
+											</span>
+                </div>
+            </div>
+        </div>
+                <div class="container container-white pt15">
+            <div class="content">
+                <div class="col col-mb-12 col-12 col-dt-10">
+                    <div class="logo-block">
+                        <a href="/" class="logo"><img width="140" src="/upload/images/stories/logotip/logo_ru.png" height="86">                        </a>
+                        <a class="logo-title" href="/">
+                                                        <span class="h1">Гомельский государственный<br>
+ медицинский университет							</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col col-mb-12 col-12 col-dt-6 top-contacts-block">
+
+                                                        </div>
+<div class="col col-mb-12 col-12 col-dt-12 top-logos-block top-logos-block2" style="">
+                            <div class="top-logos-block-item">
+					<a href="/upload/file/premia/katalog_PP1_2022.pdf"><img src="/upload/iblock/900/8dko4omsz62n1zdob31y7gf4ewpdv8b0.png" alt="Премия Правительства в области качества"></a>
+		
+    </div>
+                </div>
+                <div class="search-desc">
+                    	<div class="search-block fl-r">
+		<div class="search-button" tabindex="1"><i class="icon icon-search"></i></div>
+		<div class="container container-search">
+			<div class="content">
+				<div class="col col-mb-12" id="searchTitleDesc">
+					<form action="/search/">
+						<div class="search-form-block">
+							<i class="icon icon-search-white"></i>
+							<div class="search-close-button" tabindex="1"><i class="icon icon-close"></i></div>
+							<div class="ov-h">
+								<input id="title-search-input-desc" class="search-input" type="text" name="q" autocomplete="off">
+							</div>
+						</div>
+					</form>
+					<div class="search-suggestions">
+					</div>
+				</div> <!-- .col col-mb-12 -->
+			</div> <!-- .content -->
+		</div> <!-- .container container-search -->
+	</div>
+<script>
+
+function JCTitleSearchModern(arParams)
+{
+	var _this = this;
+
+	this.arParams = {
+		'AJAX_PAGE': arParams.AJAX_PAGE,
+		'CONTAINER_ID': arParams.CONTAINER_ID,
+		'INPUT_ID': arParams.INPUT_ID,
+		'MIN_QUERY_LEN': parseInt(arParams.MIN_QUERY_LEN)
+	};
+	if(arParams.WAIT_IMAGE)
+		this.arParams.WAIT_IMAGE = arParams.WAIT_IMAGE;
+	if(arParams.MIN_QUERY_LEN <= 0)
+		arParams.MIN_QUERY_LEN = 1;
+
+	this.cache = [];
+	this.cache_key = null;
+
+	this.startText = '';
+	this.currentRow = -1;
+	this.RESULT = null;
+	this.CONTAINER = null;
+	this.INPUT = null;
+	this.WAIT = null;
+
+	this.ShowResult = function(result)
+	{
+		var suggestions = document.getElementsByClassName('search-suggestions');
+		suggestions[0].innerHTML = result;
+	}
+
+	this.onKeyPress = function(keyCode)
+	{
+		var tbl = BX.findChild(_this.RESULT, {'tag':'div','class':'search-result'}, true);
+		if(!tbl)
+			return false;
+
+		var cnt = tbl.rows.length;
+
+		switch (keyCode)
+		{
+			case 27: // escape key - close search div
+				_this.RESULT.style.display = 'none';
+				_this.currentRow = -1;
+				_this.UnSelectAll();
+				return true;
+
+			case 40: // down key - navigate down on search results
+				if(_this.RESULT.style.display == 'none')
+					_this.RESULT.style.display = 'block';
+
+				var first = -1;
+				for(var i = 0; i < cnt; i++)
+				{
+					if(!BX.findChild(tbl.rows[i], {'class':'title-search-separator'}, true))
+					{
+						if(first == -1)
+							first = i;
+
+						if(_this.currentRow < i)
+						{
+							_this.currentRow = i;
+							break;
+						}
+						else if(tbl.rows[i].className == 'title-search-selected')
+						{
+							tbl.rows[i].className = '';
+						}
+					}
+				}
+
+				if(i == cnt && _this.currentRow != i)
+					_this.currentRow = first;
+
+				tbl.rows[_this.currentRow].className = 'title-search-selected';
+				return true;
+
+			case 38: // up key - navigate up on search results
+				if(_this.RESULT.style.display == 'none')
+					_this.RESULT.style.display = 'block';
+
+				var last = -1;
+				for(var i = cnt-1; i >= 0; i--)
+				{
+					if(!BX.findChild(tbl.rows[i], {'class':'title-search-separator'}, true))
+					{
+						if(last == -1)
+							last = i;
+
+						if(_this.currentRow > i)
+						{
+							_this.currentRow = i;
+							break;
+						}
+						else if(tbl.rows[i].className == 'title-search-selected')
+						{
+							tbl.rows[i].className = '';
+						}
+					}
+				}
+
+				if(i < 0 && _this.currentRow != i)
+					_this.currentRow = last;
+
+				tbl.rows[_this.currentRow].className = 'title-search-selected';
+				return true;
+
+			case 13: // enter key - choose current search result
+				if(_this.RESULT.style.display == 'block')
+				{
+					for(var i = 0; i < cnt; i++)
+					{
+						if(_this.currentRow == i)
+						{
+							if(!BX.findChild(tbl.rows[i], {'class':'title-search-separator'}, true))
+							{
+								var a = BX.findChild(tbl.rows[i], {'tag':'a'}, true);
+								if(a)
+								{
+									window.location = a.href;
+									return true;
+								}
+							}
+						}
+					}
+				}
+				return false;
+		}
+
+		return false;
+	}
+
+	this.onTimeout = function()
+	{
+		_this.onChange(function(){
+			setTimeout(_this.onTimeout, 500);
+		});
+	}
+
+	this.onChange = function(callback)
+	{
+		if(_this.INPUT.value != _this.oldValue && _this.INPUT.value != _this.startText)
+		{
+			_this.oldValue = _this.INPUT.value;
+			if(_this.INPUT.value.length >= _this.arParams.MIN_QUERY_LEN)
+			{
+				_this.cache_key = _this.arParams.INPUT_ID + '|' + _this.INPUT.value;
+				if(_this.cache[_this.cache_key] == null)
+				{
+					if(_this.WAIT)
+					{
+						var pos = BX.pos(_this.INPUT);
+						var height = (pos.bottom - pos.top)-2;
+						_this.WAIT.style.top = (pos.top+1) + 'px';
+						_this.WAIT.style.height = height + 'px';
+						_this.WAIT.style.width = height + 'px';
+						_this.WAIT.style.left = (pos.right - height + 2) + 'px';
+						_this.WAIT.style.display = 'block';
+					}
+
+					BX.ajax.post(
+						_this.arParams.AJAX_PAGE,
+						{
+							'ajax_call':'y',
+							'INPUT_ID':_this.arParams.INPUT_ID,
+							'q':_this.INPUT.value,
+							'l':_this.arParams.MIN_QUERY_LEN
+						},
+						function(result)
+						{
+							_this.cache[_this.cache_key] = result;
+							_this.ShowResult(result);
+							_this.currentRow = -1;
+							_this.EnableMouseEvents();
+							if(_this.WAIT)
+								_this.WAIT.style.display = 'none';
+							if (!!callback)
+								callback();
+						}
+					);
+					return;
+				}
+				else
+				{
+					_this.ShowResult(_this.cache[_this.cache_key]);
+					_this.currentRow = -1;
+					_this.EnableMouseEvents();
+				}
+			}
+			else
+			{
+				_this.RESULT.style.display = 'none';
+				_this.currentRow = -1;
+				_this.UnSelectAll();
+			}
+		}
+		if (!!callback)
+			callback();
+	}
+
+	this.UnSelectAll = function()
+	{
+		var tbl = BX.findChild(_this.RESULT, {'tag':'div','class':'search-result'}, true);
+		if(tbl)
+		{
+			var cnt = tbl.rows.length;
+			for(var i = 0; i < cnt; i++)
+				tbl.rows[i].className = '';
+		}
+	}
+
+	this.EnableMouseEvents = function()
+	{
+		var tbl = BX.findChild(_this.RESULT, {'tag':'div','class':'search-result'}, true);
+		if(tbl)
+		{
+			var cnt = tbl.rows.length;
+			for(var i = 0; i < cnt; i++)
+				if(!BX.findChild(tbl.rows[i], {'class':'title-search-separator'}, true))
+				{
+					tbl.rows[i].id = 'row_' + i;
+					tbl.rows[i].onmouseover = function (e) {
+						if(_this.currentRow != this.id.substr(4))
+						{
+							_this.UnSelectAll();
+							this.className = 'title-search-selected';
+							_this.currentRow = this.id.substr(4);
+						}
+					};
+					tbl.rows[i].onmouseout = function (e) {
+						this.className = '';
+						_this.currentRow = -1;
+					};
+				}
+		}
+	}
+
+	this.onFocusLost = function(hide)
+	{
+		setTimeout(function(){_this.RESULT.style.display = 'none';}, 250);
+	}
+
+	this.onFocusGain = function()
+	{
+		if(_this.RESULT.innerHTML.length)
+			_this.ShowResult();
+	}
+
+	this.onKeyDown = function(e)
+	{
+		if(!e)
+			e = window.event;
+
+		if (_this.RESULT.style.display == 'block')
+		{
+			if(_this.onKeyPress(e.keyCode))
+				return BX.PreventDefault(e);
+		}
+	}
+
+	this.Init = function()
+	{
+		this.CONTAINER = document.getElementById(this.arParams.CONTAINER_ID);
+		this.RESULT = document.body.appendChild(document.createElement("DIV"));
+		this.RESULT.className = 'search-suggestions';
+		this.INPUT = document.getElementById(this.arParams.INPUT_ID);
+		this.startText = this.oldValue = this.INPUT.value;
+		BX.bind(this.INPUT, 'focus', function() {_this.onFocusGain()});
+		BX.bind(this.INPUT, 'blur', function() {_this.onFocusLost()});
+
+		if(BX.browser.IsSafari() || BX.browser.IsIE())
+			this.INPUT.onkeydown = this.onKeyDown;
+		else
+			this.INPUT.onkeypress = this.onKeyDown;
+
+		if(this.arParams.WAIT_IMAGE)
+		{
+			this.WAIT = document.body.appendChild(document.createElement("DIV"));
+			this.WAIT.style.backgroundImage = "url('" + this.arParams.WAIT_IMAGE + "')";
+			if(!BX.browser.IsIE())
+				this.WAIT.style.backgroundRepeat = 'none';
+			this.WAIT.style.display = 'none';
+			this.WAIT.style.position = 'absolute';
+			this.WAIT.style.zIndex = '1100';
+		}
+
+		BX.bind(this.INPUT, 'bxchange', function() {_this.onChange()});
+	}
+
+	BX.ready(function (){_this.Init(arParams)});
+}
+
+	BX.ready(function(){
+		new JCTitleSearchModern({
+			'AJAX_PAGE' : '/',
+			'CONTAINER_ID': 'searchTitleDesc',
+			'INPUT_ID': 'title-search-input-desc',
+			'MIN_QUERY_LEN': 2
+		});
+	});
+</script>
+                </div>
+            </div>
+        </div>
+                <div class="container-top-navigation-for-fix">
+
+            <div class="container container-top-navigation">
+                <div class="content">
+                    <div class="col col-mb-hide col-12">
+
+                        <div class="top-nav-block">
+                            
+    <ul>
+                                                <li class="parent">
+                    <a tabindex="1" class="main-level-top" href="/about_the_university/">Университет</a>
+                    <div class="second-level container">
+                        <div class="content">
+                            <div class="col col-mb-12">
+                                <div class="content">
+                                    <ul class="clearfix">
+                                                            <li class="no-par"><a href="/about_the_university/universitet/">Университет</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/about_the_university/history/">История</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/about_the_university/management/">Руководство</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/about_the_university/ustav-i-simvolika/">Устав и Символика</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/about_the_university/educational_activity/">Идеологическая и воспитательная работа</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/about_the_university/uchebnaya-deyatelnost/">Организация образовательного процесса</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/about_the_university/mezhdunarodnoe-sotrudnichestvo/">Международное сотрудничество</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/about_the_university/academic_council/">Советы</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/about_the_university/departments/">Факультеты</a>
+                                                        <ul class="subsubmenu">
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/departments/lechebnyy_fakultet/">Лечебный факультет</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/departments/mediko_diagnosticheskiy_fakultet/">Медико-диагностический факультет</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/departments/mediko-profilakticheskiy-fakultet/">Медико-профилактический факультет</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/departments/inostrannykh_studentov/">Факультет иностранных студентов</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/departments/dovuzovskoy_podgotovki/">Факультет довузовской подготовки</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/departments/fpk_i_pp/">Факультет повышения квалификации и переподготовки</a></li>
+                                                    </ul>
+                                                                                </li>
+                                                <li class="no-par"><a href="/about_the_university/gomgmu-v-mezhdunarodnykh-reytingakh">ГомГМУ в международных рейтингах</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/about_the_university/kafedry/">Кафедры</a>
+                                                                                        <ul class="subsubmenu">
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-akusherstva-i-ginekologii-s-kursom-fpkip/">Акушерства и гинекологии с курсом ФПКиП</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-anatomii-cheloveka-s-kursom-operativnoy-khirurgii-i-topograficheskoy-anatomii/">Анатомии человека с курсом оперативной хирургии и топографической анатомии</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/anesteziologii-i-reanimatologii/">Анестезиологии и реаниматологии</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-biologii-s-kursami-normalnoy-i-patologicheskoy-fiziologii/">Биологии</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/biologicheskoy-khimii/">Биологической химии</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-vnutrennikh-bolezney-1-s-kursom-endokrinologii/">Внутренних болезней № 1 с курсами эндокринологии и гематологии</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-vnutrennikh-bolezney-2-s-kursom-fpkip/">Внутренних болезней № 2 с курсом ФПКиП</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-vnutrennikh-bolezney-3-s-kursami-luchevoy-diagnostiki-luchevoy-terapii-fpkip/">Внутренних болезней № 3 с курсом функциональной диагностики</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/voennaya-kafedra/">Военная кафедра</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-gistologii-tsitologii-i-embriologii/">Гистологии, цитологии и эмбриологии</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-inostrannykh-yazykov/">Иностранных языков</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-infektsionnykh-bolezney/">Инфекционных болезней</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-klinicheskoy-laboratornoy-diagnostiki-allergologii-i-immunologii/">Клинической лабораторной диагностики, аллергологии и иммунологии</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kurs-operativnoy-khirurgii-i-topograficheskoy-anatomii/">Курс оперативной хирургии и топографической анатомии</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kurs-oftalmologii/">Курс офтальмологии</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-luchevoy-diagnostiki-luchevoy-terapii-s-kursom-fpkip/">Лучевой диагностики с курсом ФПКиП</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-meditsinskoy-i-biologicheskoy-fiziki/">Медицинской и биологической физики</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-mikrobiologii-virusologii-i-immunologii/">Микробиологии, вирусологии и иммунологии</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedru-nevrologii-i-neyrokhirurgii-s-kursom-meditsinskoy-reabilitatsii-i-psikhiatrii/">Неврологии и нейрохирургии с курсами медицинской реабилитации, ФПКиП</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-onkologii/">Онкологии</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/normalnoy-i-patologicheskoy-fiziologii/">Нормальной и патологической физиологии</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-obshchey-bioorganicheskoy-i-biologicheskoy-khimii/">Общей и биоорганической химии</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-otorinolaringologii-s-kursom-oftalmologii/">Оториноларингологии с курсами офтальмологии и стоматологии</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-obshchey-i-klinicheskoy-farmakologii-/">Общей и клинической фармакологии</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-patologicheskoy-anatomii/">Патологической анатомии</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-obshchestvennogo-zdorovya-i-zdravookhraneniya-s-kursom-fpkip/">Общественного здоровья и здравоохранения с курсом ФПКиП</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-pediatrii/">Педиатрии с курсом ФПКиП</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-poliklinicheskoy-terapii-i-obshchevrachebnoy-praktiki-s-kursom-fpkip/">Поликлинической терапии и общеврачебной практики с курсом ФПКиП</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-propedevtiki-vnutrennikh-bolezney/">Пропедевтики внутренних болезней</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-psikhiatrii-narkologii-i-meditsinskoy-psikhologii/">Психиатрии, наркологии, психотерапии и медицинской психологии с курсом ФПКиП</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-russkogo-yazyka-kak-inostrannogo/">Русского языка как иностранного</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-sotsialno-gumanitarnykh-distsiplin/">Социально-гуманитарных дисциплин</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-travmatologii-ortopedii-vpkh-s-kursom-anesteziologii-i-reanimatologii/">Травматологии, ортопедии, ВПХ</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-urologii/">Урологии</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-fizicheskogo-vospitaniya-i-sporta/">Физического воспитания и спорта</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-ftiziopulmonologii-s-kursom-fpkip/">Фтизиопульмонологии с курсом ФПКиП</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-khirurgicheskikh-bolezney-1-s-kursom-serdechno-sosudistoy-khirurgii/">Хирургических болезней № 1 с курсом сердечно-сосудистой хирургии</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-khirurgicheskikh-bolezney-2/">Хирургических болезней № 2</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-khirurgicheskikh-bolezney-3/">Хирургических болезней № 3</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/kafedra-obshchey-gigieny-ekologii-i-radiatsionnoy-meditsiny/">Экологической и профилактической медицины</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="/about_the_university/kafedry/epidemiologii-i-dokazatelnoy-meditsiny/">Эпидемиологии и доказательной медицины</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="no-par"><a href="/about_the_university/podrazdeleniya/">Подразделения</a>
+                                                                                <ul class="subsubmenu">
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="//about_the_university/podrazdeleniya/tsentr-innovatsionnykh-tekhnologiy-i-postdiplomnoy-podgotovki">Центр инновационных технологий и постдипломной подготовки</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="//about_the_university/podrazdeleniya/otdel-informatsionnykh-tekhnologiy/">Отдел информационных технологий</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="//students/uchebnyy-tsentr-prakticheskoy-podgotovki-i-simulyatsionnogo-obucheniya/">Симуляционно-аттестационный центр</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="//about_the_university/podrazdeleniya/otdel-uchebno-metodicheskogo-obespecheniya-obrazovatelnogo-protsessa-">Учебно-методический отдел</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="//about_the_university/podrazdeleniya/aspirantura-magistratura-doktorantura/">Аспирантура</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="//about_the_university/podrazdeleniya/otdel-nauki-i-nauchno-meditsinskoy-informatsii/">Центр науки, медицинской информации и клинических испытаний</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="//about_the_university/podrazdeleniya/mezhdunarodnyy-otdel">Международный отдел</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="//about_the_university/podrazdeleniya/yuridicheskiy-otdel/">Юридический отдел</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="//about_the_university/podrazdeleniya/planovo-ekonomicheskiy-otdel/"> Планово-экономический отдел</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="//about_the_university/podrazdeleniya/bukhgalteriya/">Бухгалтерия</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="//about_the_university/podrazdeleniya/otdel-kadrov/">Отдел кадров</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="//about_the_university/podrazdeleniya/kantselyariya/">Отдел документационного обеспечения</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="//about_the_university/podrazdeleniya/byuro-po-ot-i-tb/">Бюро охраны труда</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="//about_the_university/podrazdeleniya/administrativno-khozyaystvennaya-chast">Административно-хозяйственная часть</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="//about_the_university/podrazdeleniya/otdel-vospitatelnoy-raboty-s-molodezhyu">Отдел по идеологической и воспитательной работе</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="//about_the_university/podrazdeleniya/professorskiy-konsultativnyy-tsentr">Профессорский консультативный центр</a></li>
+                                                   
+                                <li class="subsubli"><a class="subsuba" href="//about_the_university/podrazdeleniya/informatsionno-izdatelskiy-tsentr">Информационно-издательский центр</a></li>
+                                                    </ul>
+                                                                </li>
+                                                <li class="no-par"><a href="/about_the_university/izdaniya-universiteta/">Издания университета</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/about_the_university/gordost-universiteta/">Гордость университета</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/about_the_university/pervichnaya-organizatsiya-belorusskiy-soyuz-zhenshchin">Первичная организация «Белорусский союз женщин»</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/about_the_university/odno-okno">Работа с обращениями граждан</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/about_the_university/roo-belaya-rus">РОО "Белая Русь"</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/about_the_university/doska-pocheta">Доска почета</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/about_the_university/khristianstvo-i-meditsina">Христианство и медицина</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/about_the_university/smk/">Система менеджмента качества</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/about_the_university/pochyetnyy-doktor-i-professor">Почётный доктор ГомГМУ</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/about_the_university/profkom-sotrudnikov/">Первичная профсоюзная организация работников</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/about_the_university/informatsionnaya-bezopasnost">Информационная безопасность</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/about_the_university/obrabotka-personalnykh-dannykh">Обработка персональных данных</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/about_the_university/universitetu-35">УНИВЕРСИТЕТУ – 35!</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/about_the_university/letopis">Летопись</a>
+                                                            </li>
+                                        </ul></div></div></div></div></li>
+                                            <li class="parent">
+                    <a tabindex="1" class="main-level-top" href="/applicants/">Абитуриентам</a>
+                    <div class="second-level container">
+                        <div class="content">
+                            <div class="col col-mb-12">
+                                <div class="content">
+                                    <ul class="clearfix">
+                                                            <li class="no-par"><a href="/applicants/the_admissions_committee">Приёмная комиссия</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/applicants/olimpiada">Университетская олимпиада по биологии</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/applicants/poryadok-priema-na-2020-god/">Порядок приёма на 2026 год</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/applicants/priyem-dokumentov-i-vremya-raboty-priyemnoy-komissii/">Приём документов и время работы приёмной комиссии</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/applicants/tselevaya-podgotovka/">Целевая подготовка</a>
+                                                            </li>
+                                                <li class="no-par"><a href="https://rikc.by">Электронная регистрация абитуриентов</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/applicants/informatsiya-o-khode-priyema-dokumentov/">Информация о ходе приёма документов</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/applicants/goryachaya-liniya-po-voprosam-vstupitelnoy-kompanii">Горячая линия по вопросам вступительной кампании</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/applicants/spetsialnosti">Специальности</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/students/stoimost-obucheniya/">Стоимость обучения</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/applicants/lgoty-dlya-molodykh-spetsialistov">Льготы для молодых специалистов</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/applicants/poryadok-priema-grazhdan-rf-kyrgyzstana-tadzhikistana-kazakhstana/">Порядок приёма граждан РФ, Кыргызстана, Таджикистана, Казахстана</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/applicants/den-otkrytykh-dverey">День открытых дверей</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/applicants/otvety-na-chasto-zadavaemye-voprosy">Ответы на часто задаваемые вопросы</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/applicants/arkhiv-prokhodnykh-ballov/">Архив проходных баллов</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/applicants/repetitsionnoe-testirovanie">Централизованное тестирование</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/applicants/karta-i-marshrut-proezda/">Карта и маршрут проезда</a>
+                                                            </li>
+                                        </ul></div></div></div></div></li>
+                                            <li class="parent">
+                    <a tabindex="1" class="main-level-top" href="/students/">Студентам</a>
+                    <div class="second-level container">
+                        <div class="content">
+                            <div class="col col-mb-12">
+                                <div class="content">
+                                    <ul class="clearfix">
+                                                            <li class="no-par"><a href="/students/pervokursniku/">Первокурснику</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/students/raspisanie-zanyatiy/">Расписание занятий</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/students/raspisanie-ekzamenov/">Расписание экзаменов</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/students/informatsiya-ot-kafedr/">Информация для студентов</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/students/studencheskiy-klub/">Студенческий клуб</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/students/sportivnyy-klub/">Спортивный клуб</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/students/obshchezhitie/">Общежитие</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/students/normativnye-dokumenty/">Нормативные документы</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/students/praktika/">Практика</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/students/stoimost-obucheniya/">Стоимость обучения</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/students/brsm">БРСМ</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/students/profkom-studentov/">Первичная профсоюзная организация студентов</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/students/uchebnyy-tsentr-prakticheskoy-podgotovki-i-simulyatsionnogo-obucheniya">Симуляционно-аттестационный центр</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/students/anketirovanie-studentov">Анкетирование</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/students/volonterskiy-tsentr">Волонтерский центр ГомГМУ</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/students/perevod-i-vosstanovlenie-studentov">Перевод и восстановление студентов</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/students/bank-dannykh-odarennoy-molodezhi">Банк данных одаренной молодежи</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/students/studencheskiy-sovet">Студенческий совет</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/students/imennye-stipendii">Именные стипендии</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/students/grafik-raboty-psikhologicheskoy-sluzhby">График работы психологической службы</a>
+                                                            </li>
+                                        </ul></div></div></div></div></li>
+                                            <li class="parent">
+                    <a tabindex="1" class="main-level-top" href="/graduates/">Выпускникам</a>
+                    <div class="second-level container">
+                        <div class="content">
+                            <div class="col col-mb-12">
+                                <div class="content">
+                                    <ul class="clearfix">
+                                                            <li class="no-par"><a href="/graduates/internatura-i-klin-ordinatura/">Интернатура и клиническая ординатура</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/graduates/doktorantura/">Докторантура</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/graduates/aspirantura/">Аспирантура</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/graduates/magistratura/">Магистратура</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/graduates/raspredelenie/">Распределение</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/graduates/pereraspredelenie">Перераспределение</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/graduates/proekt-vypuskniki-gomgmu">Проект "Выпускники ГомГМУ"</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/graduates/sektor-podderzhki-i-soprovozhdeniya-vypusknikov">Сектор поддержки молодых специалистов и интернов</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/graduates/poryadok-obrashcheniya-dlya-vozmeshcheniya-sredstv">Порядок обращения для возмещения средств</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/graduates/assotsiatsiya-vypusknikov-gomgmu">Ассоциация выпускников ГомГМУ</a>
+                                                            </li>
+                                        </ul></div></div></div></div></li>
+                                            <li class="parent">
+                    <a tabindex="1" class="main-level-top" href="/vracham-i-spetsialistam/">Врачам и специалистам</a>
+                    <div class="second-level container">
+                        <div class="content">
+                            <div class="col col-mb-12">
+                                <div class="content">
+                                    <ul class="clearfix">
+                                                            <li class="no-par"><a href="/about_the_university/departments/fpk_i_pp">Факультет повышения квалификации и переподготовки</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/vracham-i-spetsialistam/klinicheskie-protokoly">Клинические протоколы</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/vracham-i-spetsialistam/poryadok-sdachi-kvalifikatsionnogo-ekzamena-bez-prokhozhdeniya-internatury">Порядок сдачи квалификационного экзамена без прохождения интернатуры</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/vracham-i-spetsialistam/attestatsiya-vrachey">К аттестации врачей</a>
+                                                            </li>
+                                        </ul></div></div></div></div></li>
+                                            <li class="parent">
+                    <a tabindex="1" class="main-level-top" href="/inostrannym-grazhdanam/">Иностранным гражданам</a>
+                    <div class="second-level container">
+                        <div class="content">
+                            <div class="col col-mb-12">
+                                <div class="content">
+                                    <ul class="clearfix">
+                                                            <li class="no-par"><a href="/about_the_university/departments/inostrannykh_studentov/fakultet-po-podgotovke-spetsialistov-dlya-zarubezhnykh-stran/">Факультет иностранных студентов</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/inostrannym-grazhdanam/stoimost-obucheniya/">Стоимость обучения</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/inostrannym-grazhdanam/registratsiya-i-vizy/">Регистрация и визы</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/inostrannym-grazhdanam/poleznaya-informatsiya">Полезная информация</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/inostrannym-grazhdanam/pravila-priyema-dlya-inostrannykh-grazhdan/">Правила приёма для иностранных граждан</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/inostrannym-grazhdanam/informatsiya-o-vozmozhnostyakh-i-usloviyakh-priema-v-2017-godu/">Информация о возможностях и условиях приема</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/inostrannym-grazhdanam/ofitsialnye-predstaviteli-gomgmu-po-naboru-studentov/">Официальные представители ГомГМУ по набору студентов</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/inostrannym-grazhdanam/strakhovanie-inostrannykh-grazhdan">Страхование иностранных граждан</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/about_the_university/departments/dovuzovskoy_podgotovki/priyem-na-podgotovitelnoe-otdelenie-inostrannykh-grazhdan/">Приём на Подготовительное отделение иностранных граждан</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/about_the_university/departments/dovuzovskoy_podgotovki/priem-inostrannykh-grazhdan-dlya-obucheniya-na-angliyskom-yazyke-training-of-foreign-students-in-eng/">Прием иностранных граждан для обучения на английском языке / Training of foreign students in English</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/about_the_university/departments/povyshenie-kvalifikatsii-i-perepodgotovka-dlya-inostrannykh-grazhdan">Повышение квалификации и переподготовка для иностранных граждан</a>
+                                                            </li>
+                                        </ul></div></div></div></div></li>
+                                            <li class="parent">
+                    <a tabindex="1" class="main-level-top" href="/nauchnaya-deyatelnost/">Научная деятельность</a>
+                    <div class="second-level container">
+                        <div class="content">
+                            <div class="col col-mb-12">
+                                <div class="content">
+                                    <ul class="clearfix">
+                                                            <li class="no-par"><a href="/nauchnaya-deyatelnost/osnovnye-napravleniya-nauchnoy-deyatelnosti/">Направления научной деятельности</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/nauchnaya-deyatelnost/nil/">Научно-исследовательская лаборатория</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/nauchnaya-deyatelnost/nauchno-issledovatelskaya-chast/">Научно-исследовательская часть</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/nauchnaya-deyatelnost/innovatsionnye-tekhnologii-v-gomgmu">Инновационные технологии в ГомГМУ</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/nauchnaya-deyatelnost/nauchno-pedagogicheskie-shkoly/">Научно-педагогические школы</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/nauchnaya-deyatelnost/konkursy-proekty-granty-stipendii/">Конкурсы, гранты, стипендии</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/nauchnaya-deyatelnost/naychnie-meropriyatiya">Научные мероприятия</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/nauchnaya-deyatelnost/komitet-po-etike/">Работа комитета по этике</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/nauchnaya-deyatelnost/normativnye-dokumenty/">В помощь исследователю</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/nauchnaya-deyatelnost/sovet-molodykh-uchenykh">Совет молодых ученых</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/nauchnaya-deyatelnost/studencheckoe-nauchnoe-obshchestvo/">Студенчеcкое научное общество</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/nauchnaya-deyatelnost/dissertatsionnyy-sovet">Диссертационный совет</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/nauchnaya-deyatelnost/patenty">Патенты</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/nauchnaya-deyatelnost/instruktsii-na-metod">Инструкции на метод</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/nauchnaya-deyatelnost/gosprogramma-chaes">Госпрограмма (ЧАЭС)</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/upload/calcForGSMU/calcGSMU.html">Калькулятор для расчета ожидаемого объёма поражения лёгких у пациентов с инфекцией COVID-19</a>
+                                                            </li>
+                                                <li class="no-par"><a href="http://158.160.9.104:8501">Прогноз пневмонии по данным УЗИ и микробиома (пароль - 1) </a>
+                                                            </li>
+                                                <li class="no-par"><a href="/upload/calcCancer/calc.html">Калькулятор метода оценки онкогенного потенциала CagA-статуса Helicobacter pylori</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/nauchnaya-deyatelnost/kalendar-konferentsiy">Календарь конференций</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/upload/calcABP/index.html"> Калькулятор расчета риска неблагоприятного течения алкогольной болезни печени</a>
+                                                            </li>
+                                                <li class="no-par"><a href="/nauchnaya-deyatelnost/ankety-po-mikozam-glotki">Анкеты по микозам глотки</a>
+                                                            </li>
+                                </ul></div></div></div></div></li>
+        </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div
+            class="big-slider"
+            data-owl-loop="n"                         data-owl-autoplay="y"                     data-owl-autoplay-timeout="8"         >
+                                <div class="slider-item" style="background-image: url(/upload/iblock/731/nj796ia40jotpz651mxj2zt9mfqxlf5c.jpg);" id="bx_1373509569_70999">
+                <div class="content">
+                    <div class="col-right col-mb-12 col-7 col-dt-7">
+                        <div class="slider-item-text">
+                            <div class="slider-item-text2">
+                                <div class="h1">
+                                                                                                                                                 </div>
+                                                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                                <div class="slider-item" style="background-image: url(/upload/iblock/e51/j7i9vwi1v2fnzj8d23y0di6hbcww2feq.png);" id="bx_1373509569_69983">
+                <div class="content">
+                    <div class="col-right col-mb-12 col-7 col-dt-7">
+                        <div class="slider-item-text">
+                            <div class="slider-item-text2">
+                                <div class="h1">
+                                                                            <a href="https://gsmu.by/about_the_university/news/72342/?clear_cache=Y">Заключительный этап олимпиады</a>
+                                                                    </div>
+                                                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                                <div class="slider-item" style="background-image: url(/upload/iblock/628/ivmd89nj6gvr3uh17hyhwl04ixnq2rpr.png);" id="bx_1373509569_70783">
+                <div class="content">
+                    <div class="col-right col-mb-12 col-7 col-dt-7">
+                        <div class="slider-item-text">
+                            <div class="slider-item-text2">
+                                <div class="h1">
+                                                                            <a href="https://gsmu.by/about_the_university/news/72265/">ГомГМУ объявляет набор слушателей</a>
+                                                                    </div>
+                                                                    <div class="mb-hide slider-item-description">
+                                                                                    <a href="https://gsmu.by/about_the_university/news/72265/"><div>
+	 Подготовка&nbsp;к внутреннему вступительному испытанию по предмету «Биология».
+</div>
+<p align="center" style="text-align: justify;">
+	 Приём документов –&nbsp;со 2 по 25 февраля 2026&nbsp;г.&nbsp;
+</p></a>
+                                                                                                                            <a class="main-slider-more" href="https://gsmu.by/about_the_university/news/72265/">подробнее</a>
+                                                                            </div>
+                                                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                                <div class="slider-item" style="background-image: url(/upload/iblock/8a7/qhzygphnihs4m9zuh1zhn0mld5w91au7.png);" id="bx_1373509569_71317">
+                <div class="content">
+                    <div class="col-right col-mb-12 col-7 col-dt-7">
+                        <div class="slider-item-text">
+                            <div class="slider-item-text2">
+                                <div class="h1">
+                                                                            <a href="https://gsmu.by/students/uchebnyy-tsentr-prakticheskoy-podgotovki-i-simulyatsionnogo-obucheniya">Симуляционно-аттестационный центр</a>
+                                                                    </div>
+                                                                    <div class="mb-hide slider-item-description">
+                                                                                    <a href="https://gsmu.by/students/uchebnyy-tsentr-prakticheskoy-podgotovki-i-simulyatsionnogo-obucheniya">Проведение учебных занятий с использованием симуляционного оборудования</a>
+                                                                                                                            <a class="main-slider-more" href="https://gsmu.by/students/uchebnyy-tsentr-prakticheskoy-podgotovki-i-simulyatsionnogo-obucheniya">подробнее</a>
+                                                                            </div>
+                                                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                                <div class="slider-item" style="background-image: url(/upload/iblock/e80/eesuovubcvqdzj9t3rozfwoof3u7rhdx.jpg);" id="bx_1373509569_55756">
+                <div class="content">
+                    <div class="col-right col-mb-12 col-7 col-dt-7">
+                        <div class="slider-item-text">
+                            <div class="slider-item-text2">
+                                <div class="h1">
+                                                                            <a href="https://pkc.gsmu.by">Профессорский консультативный центр</a>
+                                                                    </div>
+                                                                    <div class="mb-hide slider-item-description">
+                                                                                    <a href="https://pkc.gsmu.by">Консультация высококвалифицированных специалистов из числа профессорско-преподавательского состава университета более чем по 20 специальностям.<br>
+тел.: + 375 232 22-33-69</a>
+                                                                                                                            <a class="main-slider-more" href="https://pkc.gsmu.by">подробнее</a>
+                                                                            </div>
+                                                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                                <div class="slider-item" style="background-image: url(/upload/iblock/fae/fae90ade0d5ed65b8954b5c6a5be29da.png);" id="bx_1373509569_62555">
+                <div class="content">
+                    <div class="col-right col-mb-12 col-7 col-dt-7">
+                        <div class="slider-item-text">
+                            <div class="slider-item-text2">
+                                <div class="h1">
+                                                                            <a href="https://gsmu.by/graduates/proekt-vypuskniki-gomgmu/?bitrix_include_areas=Y&clear_cache=Y">Проект «Выпускники ГомГМУ»</a>
+                                                                    </div>
+                                                                    <div class="mb-hide slider-item-description">
+                                                                                    <a href="https://gsmu.by/graduates/proekt-vypuskniki-gomgmu/?bitrix_include_areas=Y&clear_cache=Y">Истории самых ярких, активных, инициативных студентов, чья студенческая жизнь в ГомГМУ была наполнена событиями, победами, замечательными делами</a>
+                                                                                                                            <a class="main-slider-more" href="https://gsmu.by/graduates/proekt-vypuskniki-gomgmu/?bitrix_include_areas=Y&clear_cache=Y">подробнее</a>
+                                                                            </div>
+                                                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+<div class="container container-main col-margin">
+        <div class="content">
+        	          
+            <div class="col col-mb-12 col-12 col-dt-12">
+       			  
+            	<div class="news-main-cont">
+            			<div class="news-main-block">
+				<div class="col col-mb-12 col-12 col-dt-12">
+			<h1>Новости</h1>
+		</div>
+														<div class="news-main-block-list-item news-main-block-item col col-mb-4 col-4 col-dt-4 ">
+				<div class="news-main-block-item-white-padd">
+					<div class="news-main-block-item1 news-main-block-item1-new">
+						
+																				<img src="/upload/resize_cache/iblock/b41/350_200_2/f6564it5tw0nacdn0sqs0tg69n128elg.JPG" alt="Служу родному университету!" title="Служу родному университету!" />
+							<span class="news-date">28 января 2026</span>
+																		</div>
+					<div class="news-main-block-item2">
+						<a href="/about_the_university/news/73085/" class="news-main-block-item2-title" title="Служу родному университету!">Служу родному университету!</a>
+					</div>
+					<div class="news-main-block-item2">
+						<p class="news-main-block-item2-desc">
+	 Первый в 2026 году совет университета начался с вручения диплома кандидата медицинских наук полковнику медицинской службы, . . .</p>
+					</div>
+				
+										<div class="tags-block tags-main-block"><a target="_blank" class="blog-detail-tag__item" href="/search/?tags=совет университета">#совет университета</a><a target="_blank" class="blog-detail-tag__item" href="/search/?tags=награждение">#награждение</a><a target="_blank" class="blog-detail-tag__item" href="/search/?tags=ректор">#ректор</a><a target="_blank" class="blog-detail-tag__item" href="/search/?tags=День белорусской науки">#День белорусской науки</a></div>			
+				</div>
+				<div class="news-main-block-item2-more-fon"><a href="/about_the_university/news/73085/" class="news-main-block-item2-more" title="Служу родному университету!">Подробнее</a></div>
+
+			</div>
+			
+														<div class="news-main-block-list-item news-main-block-item col col-mb-4 col-4 col-dt-4 ">
+				<div class="news-main-block-item-white-padd">
+					<div class="news-main-block-item1 news-main-block-item1-new">
+						
+																				<img src="/upload/resize_cache/iblock/188/350_200_2/ftol7ayyz4eo6jctg1re3lzhe3zi2wg5.jpg" alt="От идеи к реализации: перспективы развития городской инфраструктуры обсуждали на встрече с руководством города" title="От идеи к реализации: перспективы развития городской инфраструктуры обсуждали на встрече с руководством города" />
+							<span class="news-date">28 января 2026</span>
+																		</div>
+					<div class="news-main-block-item2">
+						<a href="/about_the_university/news/73084/" class="news-main-block-item2-title" title="От идеи к реализации: перспективы развития городской инфраструктуры обсуждали на встрече с руководством города">От идеи к реализации: перспективы развития городской инфраструктуры обсуждали на встрече с руководством города</a>
+					</div>
+					<div class="news-main-block-item2">
+						<p class="news-main-block-item2-desc">
+	 В горисполкоме прошла&nbsp;встреча руководства города с Советом молодёжных инициатив, в ходе которой&nbsp; представлены перспективные . . .</p>
+					</div>
+				
+										<div class="tags-block tags-main-block"><a target="_blank" class="blog-detail-tag__item" href="/search/?tags=совет молодежных инициатив">#совет молодежных инициатив</a><a target="_blank" class="blog-detail-tag__item" href="/search/?tags=молодежь ГомГМУ">#молодежь ГомГМУ</a></div>			
+				</div>
+				<div class="news-main-block-item2-more-fon"><a href="/about_the_university/news/73084/" class="news-main-block-item2-more" title="От идеи к реализации: перспективы развития городской инфраструктуры обсуждали на встрече с руководством города">Подробнее</a></div>
+
+			</div>
+			
+														<div class="news-main-block-list-item news-main-block-item col col-mb-4 col-4 col-dt-4 ">
+				<div class="news-main-block-item-white-padd">
+					<div class="news-main-block-item1 news-main-block-item1-new">
+						
+																				<img src="/upload/resize_cache/iblock/295/350_200_2/297jpknludb90ko3p9a4b7gqdwnisnko.jpg" alt="Глеб Ширин: «Выбор профессии был не случайным»" title="Глеб Ширин: «Выбор профессии был не случайным»" />
+							<span class="news-date">28 января 2026</span>
+																		</div>
+					<div class="news-main-block-item2">
+						<a href="/about_the_university/news/73083/" class="news-main-block-item2-title" title="Глеб Ширин: «Выбор профессии был не случайным»">Глеб Ширин: «Выбор профессии был не случайным»</a>
+					</div>
+					<div class="news-main-block-item2">
+						<p class="news-main-block-item2-desc">
+  
+
+
+ 
+
+ 
+
+	 Глеб Ширин в старших классах стал задумываться о будущей профессии. После 9-го молодой человек был твердо убежден, . . .</p>
+					</div>
+				
+										<div class="tags-block tags-main-block"><a target="_blank" class="blog-detail-tag__item" href="/search/?tags=День студента">#День студента</a><a target="_blank" class="blog-detail-tag__item" href="/search/?tags=студенты ГомГМУ">#студенты ГомГМУ</a></div>			
+				</div>
+				<div class="news-main-block-item2-more-fon"><a href="/about_the_university/news/73083/" class="news-main-block-item2-more" title="Глеб Ширин: «Выбор профессии был не случайным»">Подробнее</a></div>
+
+			</div>
+			
+		
+	</div>
+	<a href="about_the_university/news/" class="all-news-main all-news-main-new" title="Все новости">Все новости <i class="more-main-all"></i></a>
+            	</div>
+            </div>
+        </div>
+</div>
+
+	    <section class="main-blocks-footer ">
+		<div class="main-blocks-footer-cont">
+			<div class="container container-main">
+				<div class="content">
+					<div class="content-border col col-mb-12 col-12 col-dt-12">
+						<div class="divTableRow">
+												        						        <div class="col col-mb-12 col-4 col-dt-3 no-padding divTableCell">
+						        	<a href="http://library.gsmu.by/" class="main-blocks-footer-item-a" title="Информационно-издательский центр">
+							        	<div class="main-blocks-footer-item-first padd ">
+									        <div class="main-blocks-footer-item" style="">
+									        	
+										        	<div class="it-left it-left-new">
+									        			<div class="it-left-h">Информационно-издательский центр</div>
+									        			<div class="it-left-desc">Научная медицинская библиотека<br>
+Редакционно-издательский отдел<br>
+Отдел электронных информационных ресурсов и СМК<br></div>
+										        	</div>
+										        										        	
+									        </div>
+								    	</div>
+							    	</a>
+							    </div>
+					        					        						        <div class="col col-mb-12 col-4 col-dt-3 no-padding divTableCell">
+						        	<a href="https://elib.gsmu.by/" class="main-blocks-footer-item-a" title="Репозиторий">
+							        	<div class="main-blocks-footer-item-first padd ">
+									        <div class="main-blocks-footer-item" style="">
+									        	
+										        	<div class="it-left it-left-new">
+									        			<div class="it-left-h">Репозиторий</div>
+									        			<div class="it-left-desc">Электронная библиотека</div>
+										        	</div>
+										        										        	
+									        </div>
+								    	</div>
+							    	</a>
+							    </div>
+					        					        						        <div class="col col-mb-12 col-4 col-dt-3 no-padding divTableCell">
+						        	<a href="https://pkc.gsmu.by" class="main-blocks-footer-item-a" title="Профессорский консультативный центр">
+							        	<div class="main-blocks-footer-item-first padd ">
+									        <div class="main-blocks-footer-item" style="">
+									        	
+										        	<div class="it-left it-left-new">
+									        			<div class="it-left-h">Профессорский консультативный центр</div>
+									        			<div class="it-left-desc">Консультация&nbsp;высококвалифицированных специалистов из числа профессорско-преподавательского состава университета более чем по 20 специальностям</div>
+										        	</div>
+										        										        	
+									        </div>
+								    	</div>
+							    	</a>
+							    </div>
+					        					        						        <div class="col col-mb-12 col-4 col-dt-3 no-padding divTableCell">
+						        	<a href="http://journal.gsmu.by/" class="main-blocks-footer-item-a" title="Журнал «Проблемы здоровья и экологии»">
+							        	<div class="main-blocks-footer-item-first padd ">
+									        <div class="main-blocks-footer-item" style="">
+									        	
+										        	<div class="it-left it-left-new">
+									        			<div class="it-left-h">Журнал «Проблемы здоровья и экологии»</div>
+									        			<div class="it-left-desc"><br>
+Научно-практический рецензируемый журнал</div>
+										        	</div>
+										        										        	
+									        </div>
+								    	</div>
+							    	</a>
+							    </div>
+					        					        						        <div class="col col-mb-12 col-4 col-dt-3 no-padding divTableCell">
+						        	<a href="about_the_university/podrazdeleniya/" class="main-blocks-footer-item-a" title="Подразделения">
+							        	<div class="main-blocks-footer-item-first padd ">
+									        <div class="main-blocks-footer-item" style="">
+									        	
+										        	<div class="it-left it-left-new">
+									        			<div class="it-left-h">Подразделения</div>
+									        			<div class="it-left-desc"><br>
+Информация о подразделениях ГомГМУ</div>
+										        	</div>
+										        										        	
+									        </div>
+								    	</div>
+							    	</a>
+							    </div>
+					        					        						        <div class="col col-mb-12 col-4 col-dt-3 no-padding divTableCell">
+						        	<a href="about_the_university/educational_activity/genotsid-belorusskogo-naroda/" class="main-blocks-footer-item-a" title="Геноцид белорусского народа в годы Великой Отечественной войны">
+							        	<div class="main-blocks-footer-item-first padd ">
+									        <div class="main-blocks-footer-item" style="">
+									        	
+										        	<div class="it-left it-left-new">
+									        			<div class="it-left-h">Геноцид белорусского народа в годы Великой Отечественной войны</div>
+									        			<div class="it-left-desc"></div>
+										        	</div>
+										        										        	
+									        </div>
+								    	</div>
+							    	</a>
+							    </div>
+					        					        						        <div class="col col-mb-12 col-4 col-dt-3 no-padding divTableCell">
+						        	<a href="/students/uchebnyy-tsentr-prakticheskoy-podgotovki-i-simulyatsionnogo-obucheniya/" class="main-blocks-footer-item-a" title="Симуляционно-аттестационный центр">
+							        	<div class="main-blocks-footer-item-first padd ">
+									        <div class="main-blocks-footer-item" style="">
+									        	
+										        	<div class="it-left it-left-new">
+									        			<div class="it-left-h">Симуляционно-аттестационный центр</div>
+									        			<div class="it-left-desc">Проведение учебных занятий&nbsp;с использованием симуляционного оборудования</div>
+										        	</div>
+										        										        	
+									        </div>
+								    	</div>
+							    	</a>
+							    </div>
+					        					        						        <div class="col col-mb-12 col-4 col-dt-3 no-padding divTableCell">
+						        	<a href="https://обращения.бел/" class="main-blocks-footer-item-a" title="Электронное обращение">
+							        	<div class="main-blocks-footer-item-first padd ">
+									        <div class="main-blocks-footer-item" style="">
+									        	
+										        	<div class="it-left it-left-new">
+									        			<div class="it-left-h">Электронное обращение</div>
+									        			<div class="it-left-desc"><br>
+Государственная единая (интегрированная) республиканская информационная система</div>
+										        	</div>
+										        										        	
+									        </div>
+								    	</div>
+							    	</a>
+							    </div>
+					        					        						        <div class="col col-mb-12 col-4 col-dt-3 no-padding divTableCell">
+						        	<a href="https://gsmu.by/about_the_university/educational_activity/god-belorusskoy-zhenshchiny/" class="main-blocks-footer-item-a" title="2026  ‒ Год белорусской женщины">
+							        	<div class="main-blocks-footer-item-first padd ">
+									        <div class="main-blocks-footer-item" style="">
+									        	
+										        	<div class="it-left it-left-new">
+									        			<div class="it-left-h">2026  ‒ Год белорусской женщины</div>
+									        			<div class="it-left-desc"></div>
+										        	</div>
+										        										        	
+									        </div>
+								    	</div>
+							    	</a>
+							    </div>
+					        					        						        <div class="col col-mb-12 col-4 col-dt-3 no-padding divTableCell">
+						        	<a href="/about_the_university/educational_activity/anketirovanie-prepodavateley/" class="main-blocks-footer-item-a" title="Анкетирование студентов">
+							        	<div class="main-blocks-footer-item-first padd ">
+									        <div class="main-blocks-footer-item" style="">
+									        	
+										        	<div class="it-left it-left-new">
+									        			<div class="it-left-h">Анкетирование студентов</div>
+									        			<div class="it-left-desc"></div>
+										        	</div>
+										        										        	
+									        </div>
+								    	</div>
+							    	</a>
+							    </div>
+					        					        						        <div class="col col-mb-12 col-4 col-dt-3 no-padding divTableCell">
+						        	<a href="https://gsmu.by/about_the_university/educational_activity/stop-ekstremizm/" class="main-blocks-footer-item-a" title="СТОП ЭКСТРЕМИЗМ!">
+							        	<div class="main-blocks-footer-item-first padd ">
+									        <div class="main-blocks-footer-item" style="">
+									        	
+										        	<div class="it-left it-left-new">
+									        			<div class="it-left-h">СТОП ЭКСТРЕМИЗМ!</div>
+									        			<div class="it-left-desc">Вооружайся информацией и будь в безопасности!</div>
+										        	</div>
+										        										        	
+									        </div>
+								    	</div>
+							    	</a>
+							    </div>
+					        					        						        <div class="col col-mb-12 col-4 col-dt-3 no-padding divTableCell">
+						        	<a href="/spravochnik/" class="main-blocks-footer-item-a" title="Контакты и электронные адреса">
+							        	<div class="main-blocks-footer-item-first padd ">
+									        <div class="main-blocks-footer-item" style="">
+									        	
+										        	<div class="it-left it-left-new">
+									        			<div class="it-left-h">Контакты и электронные адреса</div>
+									        			<div class="it-left-desc">Актуальные номера телефонов и электронных почтовых ящиков подразделений и кафедр университета</div>
+										        	</div>
+										        										        	
+									        </div>
+								    	</div>
+							    	</a>
+							    </div>
+					        					    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+</div>
+<div class="footer-wrapper">
+    <footer class="container container-footer ">
+                <div class="sliders-bottom ">
+<div class="container container-main col-margin">
+	<div class="content">
+	    <ul class="banners-main-footer1">
+	        	        	            <li><a target="_blank" href="http://president.gov.by/" title="http://president.gov.by/"><img src="/upload/resize_cache/iblock/e9d/148_65_1/4tycg11mqan52gsbrw4u9xx5rmruhns6.jpg" alt="http://president.gov.by/" title="http://president.gov.by/" /></a></li>
+	        	        	            <li><a target="_blank" href="http://minzdrav.gov.by/" title="http://minzdrav.gov.by/"><img src="/upload/resize_cache/iblock/a68/148_65_1/iolu4k330tbmhwwcpbgdvw8aahchosuv.jpg" alt="http://minzdrav.gov.by/" title="http://minzdrav.gov.by/" /></a></li>
+	        	        	            <li><a target="_blank" href="https://edu.gov.by" title="https://edu.gov.by"><img src="/upload/resize_cache/iblock/eaa/148_65_1/71o9rssd3yhy1kgdfl4m134pdgauyh7s.jpg" alt="https://edu.gov.by" title="https://edu.gov.by" /></a></li>
+	        	        	            <li><a target="_blank" href="http://mininform.gov.by/documents/respublikanskiy-spisok-ekstremistskikh-materialov/" title="http://mininform.gov.by/"><img src="/upload/resize_cache/iblock/881/148_65_1/4bq5en0e6oa4ugn39eub8mg9brfxtui5.jpg" alt="http://mininform.gov.by/" title="http://mininform.gov.by/" /></a></li>
+	        	        	            <li><a target="_blank" href="http://brsm.by/" title="http://brsm.by/"><img src="/upload/iblock/464/4643cbebe0511ca6c8d4961615a6aded.jpg" alt="http://brsm.by/" title="http://brsm.by/" /></a></li>
+	        	        	            <li><a target="_blank" href="https://молодежь.бел" title="https://молодежь.бел"><img src="/upload/resize_cache/iblock/7db/148_65_1/x5vz7nv8e5m3evs1xay3bxj42k8y4652.jpg" alt="https://молодежь.бел" title="https://молодежь.бел" /></a></li>
+	        	        	            <li><a target="_blank" href="https://rikc.by" title="https://rikc.by"><img src="/upload/resize_cache/iblock/8ab/148_65_1/5me3ny0pdo1qprvvdaf18fjb5vlxvsya.jpg" alt="https://rikc.by" title="https://rikc.by" /></a></li>
+	        	        	            <li><a target="_blank" href="http://belarus.by/" title="http://belarus.by/"><img src="/upload/resize_cache/iblock/2f7/148_65_1/k1cq7psv12umty5bwaxtwhnz7nmpv6rm.jpg" alt="http://belarus.by/" title="http://belarus.by/" /></a></li>
+	        	        	            <li><a target="_blank" href="https://export.by" title="https://export.by"><img src="/upload/resize_cache/iblock/213/148_65_1/seh3ez89844paommpwp79krka5dpu9pv.jpg" alt="https://export.by" title="https://export.by" /></a></li>
+	        	        	            <li><a target="_blank" href="http://www.portal.gov.by/" title="https://www.portal.gov.by/"><img src="/upload/resize_cache/iblock/7a1/148_65_1/7a1d30f1692bdf22ecb681e22949e2d9.png" alt="https://www.portal.gov.by/" title="https://www.portal.gov.by/" /></a></li>
+	        	        	            <li><a target="_blank" href="https://mintrud.gov.by/ru/trud-molodezh-ru" title="https://mintrud.gov.by/ru/trud-molodezh-ru"><img src="/upload/resize_cache/iblock/129/148_65_1/3054n7m35jb5kqkjrzc5cmlria0oot2m.jpg" alt="https://mintrud.gov.by/ru/trud-molodezh-ru" title="https://mintrud.gov.by/ru/trud-molodezh-ru" /></a></li>
+	        	        	            <li><a target="_blank" href="https://качество-услуг.бел" title="https://качество-услуг.бел"><img src="/upload/resize_cache/iblock/0c8/148_65_1/uiqw1p6m06s0k99tt8ph1i2w24x4zc6e.jpg" alt="https://качество-услуг.бел" title="https://качество-услуг.бел" /></a></li>
+	        	        	            <li><a target="_blank" href="http://gender.belstat.gov.by" title="http://gender.belstat.gov.by"><img src="/upload/resize_cache/iblock/b54/148_65_1/b54bff5f012bd456f10ec9dd088286ea.png" alt="http://gender.belstat.gov.by" title="http://gender.belstat.gov.by" /></a></li>
+	        	        	            <li><a target="_blank" href="https://forumpravo.by" title="https://forumpravo.by"><img src="/upload/resize_cache/iblock/3e0/148_65_1/vfb0xa0pfy8gisuvljo0oauu5d8hinb4.jpg" alt="https://forumpravo.by" title="https://forumpravo.by" /></a></li>
+	        	        	            <li><a target="_blank" href="https://t.me/ucheba_by" title="https://t.me/ucheba_by"><img src="/upload/resize_cache/iblock/565/148_65_1/tsklll4rmp78wkjradyxo5dqh0m22vol.jpg" alt="https://t.me/ucheba_by" title="https://t.me/ucheba_by" /></a></li>
+	        	        	            <li><a target="_blank" href="https://sdgs.by" title="https://sdgs.by"><img src="/upload/resize_cache/iblock/201/148_65_1/gf1p9181ghr712vp8qsleoidwb29omyi.jpg" alt="https://sdgs.by" title="https://sdgs.by" /></a></li>
+	        	        	            <li><a target="_blank" href="http://med.by" title="http://med.by"><img src="/upload/resize_cache/iblock/0db/148_65_1/i7jsftvnxozatdw9u7hdveeppm8bon97.jpg" alt="http://med.by" title="http://med.by" /></a></li>
+	        	        	            <li><a target="_blank" href="https://studyinby.com" title="https://studyinby.com"><img src="/upload/resize_cache/iblock/52a/148_65_1/u0hc0xol9s4y66nx5j4b0pnfhhslxg15.jpg" alt="https://studyinby.com" title="https://studyinby.com" /></a></li>
+	        	        	            <li><a target="_blank" href="https://patriot.rcek.by" title="https://patriot.rcek.by"><img src="/upload/resize_cache/iblock/3c6/148_65_1/kzle58mw84vogyhrywu4qaah2m4ce64l.jpg" alt="https://patriot.rcek.by" title="https://patriot.rcek.by" /></a></li>
+	        	        	            <li><a target="_blank" href="https://center.gov.by" title="https://center.gov.by"><img src="/upload/resize_cache/iblock/8d2/148_65_1/01my7jtdnqqe7go09ndyt596de558c4n.jpg" alt="https://center.gov.by" title="https://center.gov.by" /></a></li>
+	        	        	            <li><a target="_blank" href="https://pomogut.by/" title="https://pomogut.by/"><img src="/upload/resize_cache/iblock/643/148_65_1/vywj52rks4ff1cnzlxi10n7oe6hpv5iv.jpg" alt="https://pomogut.by/" title="https://pomogut.by/" /></a></li>
+	        	        	            <li><a target="_blank" href="https://ripo.by/index.php?id=7458" title="https://ripo.by/"><img src="/upload/resize_cache/iblock/ddc/148_65_1/jb1hshhka4lpgc1tgfdo632sgibspfo3.jpg" alt="https://ripo.by/" title="https://ripo.by/" /></a></li>
+	        	        	            <li><a target="_blank" href="https://gospital.by/" title="https://gospital.by/"><img src="/upload/resize_cache/iblock/ec6/148_65_1/ec656770544dcbb13b507cee006e8751.png" alt="https://gospital.by/" title="https://gospital.by/" /></a></li>
+	        	        	            <li><a target="_blank" href="https://www.belmt.by" title="https://www.belmt.by"><img src="/upload/resize_cache/iblock/f7a/148_65_1/f7aa4b04776654b87d7e439376153da9.jpg" alt="https://www.belmt.by" title="https://www.belmt.by" /></a></li>
+	        	    </ul>
+	    <div class="banners-main-footer-nav1"></div>
+	</div>
+</div>
+
+<div class="line-divider"></div>
+
+<div class="container container-main col-margin">
+	<div class="content">
+	    <ul class="banners-main-footer2">
+	        	        	            <li><a target="_blank" href="https://unan.by/" title="https://unan.by/"><img src="/upload/resize_cache/iblock/b90/148_65_1/gy50fpe40p3qv3d5hxm39909429tpruc.png" alt="https://unan.by/" title="https://unan.by/" /></a></li>
+	        	        	            <li><a target="_blank" href="https://www.bstu.by" title="https://www.bstu.by"><img src="/upload/resize_cache/iblock/a2c/148_65_1/lar05k5phaoc87331m0m1z7nsvnc64mk.png" alt="https://www.bstu.by" title="https://www.bstu.by" /></a></li>
+	        	        	            <li><a target="_blank" href="https://vsu.by" title="https://vsu.by"><img src="/upload/resize_cache/iblock/369/148_65_1/369471401ed74941a38693c79f1cb624.png" alt="https://vsu.by" title="https://vsu.by" /></a></li>
+	        	        	            <li><a target="_blank" href="https://kazangmu.ru/" title="https://kazangmu.ru/"><img src="/upload/resize_cache/iblock/423/148_65_1/423cfef038addadbf9e6fa12200fe4bd.png" alt="https://kazangmu.ru/" title="https://kazangmu.ru/" /></a></li>
+	        	        	            <li><a target="_blank" href="https://www.polessu.by/" title="https://www.polessu.by/"><img src="/upload/resize_cache/iblock/3a0/148_65_1/3a0c299e2d450d9337a19859843df5ac.png" alt="https://www.polessu.by/" title="https://www.polessu.by/" /></a></li>
+	        	        	            <li><a target="_blank" href="http://gsu.by/" title="http://gsu.by/"><img src="/upload/iblock/d81/d81951d8c837d1cd7a60b76c6657834f.png" alt="http://gsu.by/" title="http://gsu.by/" /></a></li>
+	        	        	            <li><a target="_blank" href="http://www.bsut.by/" title="http://www.bsut.by/"><img src="/upload/resize_cache/iblock/a4e/148_65_1/a4e960ab389ec21a4511b8a74fb68d48.png" alt="http://www.bsut.by/" title="http://www.bsut.by/" /></a></li>
+	        	        	            <li><a target="_blank" href="http://www.pac.by/ru/" title="http://www.pac.by/ru/"><img src="/upload/resize_cache/iblock/e28/148_65_1/e28957b5682af464ebf47d4f06285b77.png" alt="http://www.pac.by/ru/" title="http://www.pac.by/ru/" /></a></li>
+	        	        	            <li><a target="_blank" href="https://www.gstu.by/ru" title="https://www.gstu.by/ru"><img src="/upload/iblock/10a/10a8fb56a01fc383f7e528d9f31d8c96.png" alt="https://www.gstu.by/ru" title="https://www.gstu.by/ru" /></a></li>
+	        	        	            <li><a target="_blank" href="http://www.grsmu.by/" title="http://www.grsmu.by/"><img src="/upload/iblock/f44/f440f833f35d51216685e43e16815277.png" alt="http://www.grsmu.by/" title="http://www.grsmu.by/" /></a></li>
+	        	        	            <li><a target="_blank" href="http://mspu.by/" title="http://mspu.by/"><img src="/upload/resize_cache/iblock/9fb/148_65_1/9fb3896f7129dbce87055e56fb748520.png" alt="http://mspu.by/" title="http://mspu.by/" /></a></li>
+	        	        	            <li><a target="_blank" href="http://www.grsu.by/" title="http://www.grsu.by/"><img src="/upload/iblock/d84/d84b2e50d9345e839c2f5e7cf4c36cf0.png" alt="http://www.grsu.by/" title="http://www.grsu.by/" /></a></li>
+	        	        	            <li><a target="_blank" href="http://www.vsmu.by/" title="http://www.vsmu.by/"><img src="/upload/iblock/511/511172a36b18a403764583f208e76f5c.png" alt="http://www.vsmu.by/" title="http://www.vsmu.by/" /></a></li>
+	        	    </ul>
+	    <div class="banners-main-footer-nav2"></div>
+	</div>
+</div>
+
+</div>
+
+<div class="menu-footer">
+   
+    <div class="content">
+            <div class="col col-mb-8 col-8 menu-footer-left">
+                            </div>
+            <div class="col col-mb-12 col-4 footer-soc-seti-right">
+                <div class="footer-soc-seti">
+                    <a href="http://vk.com/club170769660" target="_blank"><svg fill="#1753aa" width="20" height="20" viewBox="0 0 17 10" xmlns="http://www.w3.org/2000/svg"><path d="M16.0566 0.653168H13.4599C13.2441 0.653168 13.0457 0.780296 12.9436 0.984848C12.9436 0.984848 11.9079 3.03229 11.5753 3.72147C10.6804 5.5765 10.101 4.99434 10.101 4.13361V1.16474C10.101 0.648608 9.71077 0.229256 9.22945 0.229256H7.27735C6.73684 0.186752 6.21394 0.446708 5.89563 0.917684C5.89563 0.917684 6.88687 0.74576 6.88687 2.17916C6.88687 2.53476 6.90403 3.5579 6.91943 4.41597C6.92757 4.75676 6.67634 5.04026 6.35848 5.0486C6.18975 5.05316 6.02762 4.97802 5.91521 4.84291C5.1158 3.64936 4.4541 2.35714 3.94375 0.993956C3.85421 0.786368 3.65998 0.6524 3.44637 0.653168C2.88322 0.653168 1.75648 0.653168 1.08707 0.653168C0.865782 0.651644 0.68517 0.842912 0.683622 1.08049C0.68319 1.13248 0.691776 1.18371 0.708714 1.23304C1.42497 3.34234 4.51085 9.97004 8.03297 9.97004H9.5152C9.8388 9.97004 10.101 9.68845 10.101 9.34158V8.38105C10.101 8.03988 10.3584 7.76322 10.6765 7.76322C10.823 7.76322 10.9638 7.82318 11.0705 7.93058L12.8448 9.71995C13.0041 9.88086 13.2146 9.97004 13.4333 9.97004H15.7631C16.8872 9.97004 16.8872 9.13362 16.2746 8.48541C15.8432 8.02924 14.2872 6.26948 14.2872 6.26948C14.012 5.96322 13.9857 5.48732 14.2254 5.14803C14.7283 4.4376 15.5508 3.2748 15.8999 2.77688C16.3769 2.09566 17.2396 0.653168 16.0566 0.653168Z"></path></svg></a>
+<a href="https://www.facebook.com/GomSMU.by" target="_blank"><svg  fill="#1753aa" width="20" height="20" viewBox="0 0 10 17" xmlns="http://www.w3.org/2000/svg"><path d="M6.00942 16.9165V9.91544H8.67477L9.11858 6.91508H6.00942V5.41508C6.00942 4.41509 6.45447 3.91473 7.3421 3.91473H8.67477V0.914724C8.23034 0.914724 7.23547 0.914724 6.45365 0.914724C4.23274 0.914724 3.34429 2.41474 3.34429 4.91508V6.91508H0.67915V9.91544H3.34429V16.9165H6.00942Z"></path></svg></a>
+<a href="https://www.instagram.com/gsmu_gomel/" target="_blank"><svg  fill="#1753aa" width="20" height="20" viewBox="0 0 16 17" xmlns="http://www.w3.org/2000/svg"><path d="M13.1895 3.90541C13.1895 4.43551 12.7834 4.86562 12.2827 4.86562C11.7817 4.86562 11.3756 4.43551 11.3756 3.90541C11.3756 3.37494 11.7817 2.94448 12.2827 2.94448C12.7836 2.94448 13.1895 3.37494 13.1895 3.90541ZM8.24798 10.8448C6.85639 10.8448 5.72847 9.65056 5.72847 8.17672C5.72847 6.70396 6.85639 5.50934 8.24798 5.50934C9.63934 5.50934 10.7673 6.70396 10.7673 8.17672C10.7673 9.65056 9.63934 10.8448 8.24798 10.8448ZM8.24798 4.06741C6.10431 4.06741 4.3666 5.90755 4.3666 8.17672C4.3666 10.4463 6.10431 12.2868 8.24798 12.2868C10.3916 12.2868 12.1291 10.4463 12.1291 8.17672C12.1291 5.90755 10.3916 4.06741 8.24798 4.06741ZM8.24798 1.61616C10.2661 1.61616 10.5053 1.6244 11.302 1.66312C12.0392 1.6986 12.4393 1.82906 12.7057 1.93803C13.0582 2.08354 13.31 2.25703 13.5747 2.53695C13.8392 2.81688 14.0029 3.08319 14.14 3.45774C14.2437 3.73945 14.3667 4.16312 14.4004 4.9434C14.4367 5.78748 14.4444 6.04054 14.4444 8.17744C14.4444 10.3144 14.4367 10.5671 14.4004 11.4111C14.3667 12.1914 14.2437 12.6154 14.14 12.8972C14.0029 13.2703 13.8392 13.5373 13.5747 13.8172C13.3102 14.0979 13.0584 14.271 12.7057 14.4162C12.4393 14.5255 12.0392 14.6559 11.302 14.6918C10.5053 14.7305 10.2661 14.7384 8.24798 14.7384C6.22958 14.7384 5.99066 14.7305 5.19369 14.6918C4.45677 14.6559 4.05642 14.5258 3.79027 14.4162C3.4373 14.271 3.1857 14.0979 2.92101 13.8172C2.65674 13.5377 2.49281 13.2706 2.35569 12.8972C2.25223 12.6154 2.12903 12.1914 2.09537 11.4111C2.05901 10.5671 2.05132 10.314 2.05132 8.17744C2.05132 6.04054 2.05901 5.78748 2.09537 4.9434C2.12903 4.16312 2.25202 3.73945 2.35569 3.45774C2.49281 3.08389 2.65652 2.81688 2.92101 2.53695C3.18549 2.25703 3.4373 2.08354 3.79027 1.93803C4.05642 1.82906 4.45677 1.6986 5.19369 1.66312C5.99066 1.6244 6.22979 1.61616 8.24798 1.61616ZM8.24798 0.17423C6.19529 0.17423 5.93788 0.183194 5.13157 0.222254C4.32713 0.261332 3.77781 0.396098 3.29705 0.594296C2.79988 0.798956 2.37833 1.07243 1.95825 1.51759C1.53816 1.9624 1.27951 2.40828 1.08628 2.93444C0.899504 3.44377 0.771732 4.02583 0.735165 4.87709C0.698394 5.73121 0.689673 6.00362 0.689673 8.17672C0.689673 10.3502 0.698394 10.6226 0.735165 11.4764C0.771732 12.3287 0.899504 12.9101 1.08628 13.4187C1.27951 13.9452 1.53816 14.3921 1.95825 14.8369C2.37833 15.2817 2.79988 15.5552 3.29705 15.7599C3.77781 15.9574 4.32713 16.0932 5.13157 16.1319C5.93788 16.171 6.19529 16.1803 8.24798 16.1803C10.3006 16.1803 10.5581 16.171 11.3644 16.1319C12.1686 16.0932 12.7181 15.9574 13.1989 15.7599C13.6958 15.5552 14.1174 15.2817 14.5377 14.8369C14.9578 14.3921 15.2162 13.9452 15.4094 13.4187C15.5962 12.9101 15.724 12.3287 15.7608 11.4764C15.7975 10.6226 15.8063 10.3502 15.8063 8.17672C15.8063 6.00362 15.7975 5.73121 15.7608 4.87709C15.724 4.02583 15.5962 3.44377 15.4094 2.93444C15.2162 2.40828 14.9578 1.9624 14.5377 1.51759C14.1174 1.07243 13.6958 0.798956 13.1989 0.594296C12.7181 0.396098 12.1686 0.261332 11.3644 0.222254C10.5581 0.183194 10.3006 0.17423 8.24798 0.17423Z"></path></svg></a>
+<a href="http://youtube.com/channel/UCswPH961bGn4SqPThIXasgA?view_as=subscriber" target="_blank"><svg  fill="#1753aa" width="20" height="20" viewBox="0 0 17 13" xmlns="http://www.w3.org/2000/svg"><path d="M16.6066 3.47067C16.6066 3.47067 16.4507 2.2882 15.9711 1.76735C15.362 1.08429 14.6805 1.08052 14.3677 1.04175C12.128 0.866754 8.76937 0.866754 8.76937 0.866754H8.7619C8.7619 0.866754 5.40279 0.866754 3.16382 1.04175C2.851 1.08052 2.16995 1.08429 1.5606 1.76735C1.08126 2.2882 0.924858 3.47067 0.924858 3.47067C0.924858 3.47067 0.764712 4.85939 0.764712 6.24772V7.54911C0.764712 8.93858 0.924858 10.3261 0.924858 10.3261C0.924858 10.3261 1.08104 11.5083 1.5606 12.0284C2.16995 12.7114 2.9687 12.6907 3.32485 12.7622C4.60492 12.8939 8.76586 12.9346 8.76586 12.9346C8.76586 12.9346 12.128 12.9286 14.3677 12.7562C14.6805 12.7159 15.362 12.7118 15.9711 12.0291C16.4505 11.5094 16.6066 10.3265 16.6066 10.3265C16.6066 10.3265 16.767 8.93858 16.767 7.54949V6.24847C16.767 4.85939 16.6066 3.47067 16.6066 3.47067ZM6.76755 9.9182V3.88391L11.7695 6.90105L6.76755 9.9182Z"></path></svg></a>
+<a href="https://ok.ru/group/54611171803245" target="_blank"><svg viewBox="0 0 10 16" xmlns="http://www.w3.org/2000/svg" height="20"><g fill="none" stroke="#1753aa" stroke-width="2.4" stroke-linecap="round"><circle r="2.9" cx="4.9" cy="4.3"></circle><polyline points="1.8 14.6, 4.9 11.5, 7.9 14.6"></polyline><path d="M1.6,9.6 a6.6,6.6 0 0,0 6.6,0"></path></g></svg></a>
+<a href="https://t.me/GSMU_main" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+</svg>
+
+
+                </div>
+                <div class="social-networks">
+                    <a href="http://vk.com/club170769660" target="_blank" title="ВКонтакте" class="social-network"><i class="icon icon-social-vk"></i></a>
+<a href="http://twitter.com/gsmu_eng" title="Twitter" target="_blank" class="social-network"><i class="icon icon-social-tw"></i></a>
+<a href="http://facebook.com/GomSMU.by" title="Facebook" target="_blank" class="social-network"><i class="icon icon-social-fb"></i></a>
+<a href="http://instagram.com/gsmu_official/" title="Instagram" target="_blank" class="social-network"><i class="icon icon-social-inst"></i></a>
+<a href="http://youtube.com/channel/UCswPH961bGn4SqPThIXasgA?view_as=subscriber" title="YouTube" target="_blank" class="social-network"><i class="icon icon-social-yt"></i></a>
+<a href="http://youtube.com/channel/UC9XDMMVCxhJAeDnCq_JtLiw" title="YouTube" target="_blank" class="social-network"><i class="icon icon-social-yt"></i></a>
+
+                    
+                </div>
+            </div>
+
+    </div>
+</div>
+
+<div class="footer-logo-rek">
+    <div class="content">
+        <div class="col col-mb-12 col-3"></div>
+        
+    <div class="col col-mb-12 col-4">
+        <div class="rek-info">
+            Республика Беларусь, 246000, г. Гомель, ул. Ланге, 5<br>
+Тел. / факс: <a href="tel:+375 (232) 35-97-00">+375 (232) 35-97-00</a><br>
+E-mail: <a href="mailto:gsmu@gsmu.by">gsmu@gsmu.by</a><br>
+График работы: 8:30 – 17:00<br>
+<a href="/bankovskie-rekvizity/">Банковские реквизиты</a><br>
+ <br>
+Свидетельство о государственной регистрации выдано Гомельским областным исполнительным комитетом на основании решения от 19.08.2003 №555. УНП 400022681<br>
+ <br>
+Специальное разрешение (лицензия) на право осуществления образовательной деятельности №02100/316<br>        </div>
+    </div>
+    <div class="col col-mb-12 col-3">
+        <div class="rek-info">
+            <a href="/vopros-rektoru/">Вопрос ректору</a><br>
+ <a href="/predlojeniya-sotrydnikov/">Предложения сотрудников</a><br>
+ <a href="/contacts/">Контакты</a><br>
+ <a href="/obratnaya-svyaz/">Обратная связь</a><br>
+ <a href="/about_the_university/odno-okno/">Электронное обращение</a><br>
+<br>
+<a href="/sitemap/">Карта сайта</a><br> 
+<br>
+ <img src="/upload/images/stories/logotip/icons1.png" height="23"><br>
+ <br>
+ <img src="/upload/images/stories/logotip/qr_d.png" height="100"><br>
+<!--разработка <a href="http://interactive.by">interactive.by</a><br>-->        </div>
+    </div>
+    <div class="col col-mb-12 col-2"></div>
+</div>
+</div>
+
+<div class="error-mistake">
+    <div class="error-mistake2">
+        Если вы нашли ошибку на сайте: выделите текст с ошибкой, нажмите <b>Ctrl + Enter</b>, напишите комментарий    </div>
+</div>
+   
+
+
+
+
+
+    <div class="copyright-block">
+        <div class="copyright-block2">
+            © 2026 Учреждение образования «Гомельский государственный медицинский университет»
+        </div>
+    </div>
+
+
+</footer>
+</div>
+
+<div class="mobile-nav-wrapper">
+    <div class="mobile-nav">
+    </div>
+</div>
+<div id="to-top" class="hidden">
+    <img src="/bitrix/templates/gsmu2020/img/to-top.png">
+</div>
+<script>
+  var toTop = new ItRKomiToTop({"WRAPPER_NAME":"to-top","BOTTOM":"150","RIGHT":"100","DURATION":"200"});
+</script><script type="text/javascript">
+	var page=$("body").attr("data-page")
+	var page_pos=$("body").attr("data-page-pos")
+	//console.log("русский")
+	//console.log(page)
+	//console.log(page_pos)
+                                function DeleteGoogleIframe()
+                                {
+                                    // Проверяем есть ли на странице фрейм гугла.
+                                    // Если у вас на сайте есть другие фреймы, данную запись придется менять.
+                                    if($('iframe.skiptranslate').length)
+                                    {
+                                        // Ожидаем пока фрейм прогрузится
+                                        $('iframe.skiptranslate').load(function()
+                                        {
+                                            // Прячем панель гугла через 250мс (таймаут был подобран экспериментально)
+                                            // Без использования таймаута убрать панель мне не удалось.
+                                            setTimeout(function()
+                                            {
+                                                // прячем панель
+                                                $('iframe.skiptranslate').hide();
+                                                $("div.skiptranslate").hide();
+                                                $("body").css('top',0);
+
+                                                                                                	   var lang2="";
+                                                        var lang = "русский";
+                                                      if(lang=="русский"){
+                                                        lang2="русский";
+                                                      }
+                                                	var $frame = $('iframe.skiptranslate');
+                                                      if (!$frame.size()) {
+                                                        //alert("Error: Could not find Google translate frame.");
+                                                        return false;
+                                                      }
+                                                      if(lang==""){lang2="русский";}
+                                                       if(lang=="русский"){lang2="русский";} //Russian
+                                                        if(lang=="английский"){lang2="английский";}
+                                                        if(lang=="белорусский"){lang2="белорусский";}
+                                                        //console.log(lang2);
+                                                         if($frame.contents().find('a span.text:contains('+lang2+')').length==0) {
+                                      
+                                                            }else{
+								                                if(lang2!="английский"){
+								                                    $frame.contents().find('a span.text:contains('+lang2+')').click();
+								                                }
+                                                            }
+                                                            console.log(lang);
+                                                            console.log(lang2);
+                                                
+                                            }, 550);
+
+                                        });
+                                    }
+                                }
+                                function googleTranslateElementInit() {
+                                	var lang = "русский";
+                                	console.log("lang:"+lang)
+                                	//setTimeout(function(){
+                                		if(lang!="русский" && lang!="английский"){
+                                  			new google.translate.TranslateElement({pageLanguage: 'ru', includedLanguages: 'en,be,ru', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false, multilanguagePage: false}, 'google_translate_element');
+                                  		}
+                                  	//}, 0);
+
+                                // google.translate.TranslateElement({pageLanguage: 'ru', includedLanguages: 'ru,en,be', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+
+                                  DeleteGoogleIframe();
+                                  //$('.goog-te-combo').live('change', DeleteGoogleIframe);
+                                }
+                                $(document).ready(function () {
+
+                                $(".change-city").change(function(){
+
+                                	console.log("change-city")
+
+                                    var lang=$(this).val();
+
+                                    if(lang=="белорусский"){
+                                  			new google.translate.TranslateElement({pageLanguage: 'ru', includedLanguages: 'en,be,ru', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false, multilanguagePage: false}, 'google_translate_element');
+                                  		}
+
+                                      //console.log("LANG===="+lang)
+                                    //console.log(lang);
+                                    //if(lang!="английский"){
+                                    $.ajax({
+                                            url: '/ajax/set_lang.php',
+                                            data:{lang:lang},
+                                            type: 'POST',
+                                            //dataType:'json',
+                                            success: function(data){
+                                                console.log(data);
+
+									if(lang=="английский"){
+									    //location.href="/en/";
+									    location.href="/en/";
+									}else{
+
+                                    if(lang=="русский"){
+                                            lang="";
+                                            location.href="/";
+                                          }
+                                  var $frame = $('iframe.skiptranslate')//$('.goog-te-menu-frame:first');
+                                  if (!$frame.size()) {
+                                    //alert("Error: Could not find Google translate frame.");
+                                    return false;
+                                  }
+                                  //$frame.contents().find('.goog-te-menu2-item span.text:contains('+lang+')').get(0).click();
+                                  //setTimeout($frame.contents().find('.goog-te-menu2-item span.text:contains('+lang+')').get(0).click(), 450);
+                                  
+                                  var lang2="";
+                                  if(lang==""){lang2="русский";}
+                                    if(lang=="русский"){lang2="русский";}
+                                    if(lang=="английский"){lang2="английский";}
+                                    if(lang=="белорусский"){lang2="белорусский";}
+                                    //var ft2=$frame.contents().find('.goog-te-menu2-item span.text:contains('+lang2+')').get(0);
+                                    //ft2.click()
+
+                                    if($frame.contents().find('a span.text:contains('+lang2+')').length==0) {
+                                      
+                                    }else{ 
+									                    if(lang!="английский"){
+									                    	location.href="/";
+									                        //$frame.contents().find('a span.text:contains('+lang2+')').click();
+
+									                    }else if(lang=="английский"){
+									                        location.href="/en/";
+									                    }
+									                                    }
+									                                    /*if($frame.contents().find('.goog-te-menu2-item span.text:contains('+lang+')').length==0) {
+									                                      
+									                                    }else{
+									                    if(lang!="английский"){
+									                                            $frame.contents().find('.goog-te-menu2-item span.text:contains('+lang+')').click();
+									                    }else if(lang=="английский"){
+									                        location.href="/en/";
+									                    }
+
+									                                    }*/
+									                    if(lang!="английский"){
+									                        //setTimeout(location.reload(), 1750);
+									                        //location.href="/";
+									                    }
+
+									}
+                                                
+                                            }
+                                    });
+
+                                    //console.log(data)
+
+                                  //var lang = "";
+                                                      
+                                  
+
+                                    return false;
+                                });
+
+                                $('#google_translate_element').on("click", function () {
+                                    console.log("sss9999999999");
+                                    // Change font family and color
+                                    var $frame = $('iframe.skiptranslate')
+                                    $frame.contents().find(".goog-te-menu2-item div, .goog-te-menu2-item:link div, .goog-te-menu2-item:visited div, .goog-te-menu2-item:active div, .goog-te-menu2 *")
+                                        .css({
+                                           
+                                            'border' : 0,
+                                            'color':'#fff',
+                                            'background-color':'#0e439b',
+                                               // 'padding': '8px',
+                                                //'width': 'auto',
+                                                //'height': 'auto',
+                                            
+                                        });
+
+                                        $frame.contents().find(".goog-te-menu2-item div")
+                                        .css({
+                                           
+                                            'border-radius' : '10px',
+                                            //'color':'#fff',
+                                            //'background-color':'#0e439b',
+                                               // 'padding': '8px',
+                                                //'width': 'auto',
+                                                //'height': 'auto',
+                                            
+                                        });
+
+                                    // Change hover effects
+                                    $frame.contents().find(".goog-te-menu2-item div").hover(function () {
+                                        $(this).css('background-color', '#0e439b').find('span.text').css('color', 'white');
+                                    }, function () {
+                                        $(this).css('background-color', '#0e439b').find('span.text').css('color', 'white');
+                                    });
+
+                                    // Change Google default blue border
+                                    $frame.contents().find('.goog-te-menu2').css('border', '0px solid #18BA9B');
+
+                                    // Change the iframe box shadow
+                                    $frame.css({
+                                        '-moz-box-shadow': '0 0px 0px 0px #666666',
+                                        '-webkit-box-shadow': '0 0px 0px 0px #666',
+                                        'box-shadow': '0 0px 0px 0px #666'
+                                    });
+                                });
+                            });
+                            </script>
+
+                            
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<style type="text/css">
+    .skiptranslate:first-child {
+    display: none !important;
+}
+</style>
+
+
+<!--'start_frame_cache_awz_cookies_KQiEpu'--><div class="awz_cookies_sett__message awz_cookies_sett__message_bottom_center awz_cookies_sett__bg1 awz_cookies_sett__color2"><div class="awz_cookies_sett__container"><div class="awz_cookies_sett__row"><div class="awz_cookies_sett__col" id="awz_cookies_sett__msg">Сайт использует файлы cookie, обрабатываемые вашим браузером. Подробнее об этом вы можете узнать в <a class="awz_cookies_sett__agr_link awz_cookies_sett__color2" href="/upload/file/inf_bez/polojenie_cookie.pdf">Политике cookie</a>. </div><div class="awz_cookies_sett__col awz_cookies_sett__col__right"><span class="awz_cookies_sett__btn awz_cookies_sett__bg3 awz_cookies_sett__color3" id="awz_cookies_sett__all">Принять</span><span class="awz_cookies_sett__btn awz_cookies_sett__bg2 awz_cookies_sett__color1" id="awz_cookies_sett__settings">Настроить</span><span class="awz_cookies_sett__btn awz_cookies_sett__bg2 awz_cookies_sett__color1" id="awz_cookies_sett__all_decline">Отклонить</span></div></div></div></div><script type="text/javascript">(function(){'use strict';if (!!window.AwzCookiesSettComponent){return;}window.AwzCookiesSettComponent_Instances={};window.AwzCookiesSettComponent=function(options){if(typeof options !=='object'){throw new Error('options is not object');}if(!options.hasOwnProperty('siteId')){throw new Error('options.siteId is required');}if(!options.hasOwnProperty('cmpId')){throw new Error('options.cmpId is required');}if(!options.hasOwnProperty('templateName')){throw new Error('options.templateName is required');}if(!options.hasOwnProperty('templateFolder')){throw new Error('options.templateFolder is required');}if(!options.hasOwnProperty('signedParameters')){throw new Error('options.signedParameters is required');}if(!options.hasOwnProperty('componentName')){throw new Error('options.componentName is required');}this.cmpId=options.cmpId;this.siteId=options.siteId;this.templateName=options.templateName;this.templateFolder=options.templateFolder;this.componentName=options.componentName;this.signedParameters=options.signedParameters;this.ajaxTimer=(!!options.ajaxTimer ? options.ajaxTimer:false) || 100;this.debug=!!options.debug ? true:false;this.lang=(!!options.lang ? options.lang:false) ||{};window.AwzCookiesSettComponent_Instances[this.cmpId]=this;let parent=this;BX.bind(BX('awz_cookies_sett__all'), 'click', function(e){if(!!e) e.preventDefault();parent.allowAll();});BX.bind(BX('awz_cookies_sett__all_decline'), 'click', function(e){if(!!e) e.preventDefault();parent.declineAll();});BX.bind(BX('awz_cookies_sett__settings'), 'click', function(e){if(!!e) e.preventDefault();parent.settings();});BX.ready(function(){BX.bind(BX('awz_cookies_sett__settings_custom'), 'click', function(e){if(!!e) e.preventDefault();parent.settings();});});};window.AwzCookiesSettComponent.prototype={getInstance:function (cmpId){if (!cmpId){cmpId='default';}if (!window.AwzCookiesSettComponent_Instances.hasOwnProperty(cmpId)){window.AwzCookiesSettComponent_Instances[cmpId]=this;}return window.AwzCookiesSettComponent_Instances[cmpId];}, loc:function(code){return this.lang.hasOwnProperty(code) ? this.lang[code]:code;}, getModal:function(content){if(!!this._modal){return this._modal;}this._modal=BX.PopupWindowManager.create("popup-window-content-awz_cmp_cookies", null,{content:content, closeIcon:false, lightShadow:true, destroyed:true, fixed:true, maxWidth:580, overlay:{backgroundColor:'#000000', opacity:'80'}});return this._modal;}, settings:function(){let parent=this;let formData={};formData['signedParameters']=parent.signedParameters;formData['method']='POST';formData['componentName']=parent.componentName;formData['templateName']=parent.templateName;let elements=document.getElementsByClassName("awz_cookies_sett__message");if(elements && elements.length){elements[0].remove();}setTimeout(function(){BX.ajax.runComponentAction('awz:cookies.sett', 'getSett',{mode:'class', data:formData}).then(function (response){if(response && response.hasOwnProperty('data') && response.hasOwnProperty('status') && response['status']==='success'){parent.getModal(response['data']).show();BX.bind(BX('awz_cookies_sett__save'), 'click', function(e){if(!!e) e.preventDefault();parent.sendForm();});}}, function (response){console.error(response);});},this.ajaxTimer);}, allowAll:function(){let formData={'awz_cookies_mode1':'Y', 'awz_cookies_mode2':'Y', 'awz_cookies_mode3':'Y', 'awz_cookies_mode_all':'Y'};formData['signedParameters']=this.signedParameters;formData['method']='POST';let elements=document.getElementsByClassName("awz_cookies_sett__message");if(elements && elements.length){elements[0].remove();}setTimeout(function(){BX.ajax.runComponentAction('awz:cookies.sett', 'allow',{mode:'class', data:formData});},this.ajaxTimer);}, declineAll:function(){let formData={'awz_cookies_mode1':'N', 'awz_cookies_mode2':'N', 'awz_cookies_mode3':'N', 'awz_cookies_mode_all':'N'};formData['signedParameters']=this.signedParameters;formData['method']='POST';document.getElementsByClassName("awz_cookies_sett__message")[0].remove();setTimeout(function(){BX.ajax.runComponentAction('awz:cookies.sett', 'allow',{mode:'class', data:formData});},this.ajaxTimer);}, sendForm:function(){let formData=new FormData( document.getElementById('awz_cookies_sett__detail-form'), document.getElementById('awz_cookies_sett__save') );formData.append('signedParameters', this.signedParameters);formData.append('method', 'POST');this.getModal().close();setTimeout(function(){BX.ajax.runComponentAction('awz:cookies.sett', 'allow',{mode:'class', data:formData});},this.ajaxTimer);},};})();var awz_cmp_cookies_1SYT4w=new window.AwzCookiesSettComponent({'siteId':'s1','templateName':'.default','templateFolder':'/bitrix/components/awz/cookies.sett/templates/.default','componentName':'awz:cookies.sett','signedParameters':'YToxOntzOjc6IlNJVEVfSUQiO3M6MjoiczEiO30=.46da9608493c371eb06afd871aeeb7811bb680e4f4ba2e20bc23eb68d78ca9e2','cmpId':'awz_cmp_cookies_1SYT4w','lang':[]});</script><!--'end_frame_cache_awz_cookies_KQiEpu'--><style>.awz_cookies_sett__message{display:block;position:fixed;z-index:1049;width:60%;max-width:580px;right:auto;left:auto;bottom:auto;top:auto;font-size:0.8em;line-height:1.3em;border-radius:10px;}.awz_cookies_sett__message_bottom_right, .awz_cookies_sett__message_{right:10px;bottom:10px;}.awz_cookies_sett__message_bottom_left{left:10px;bottom:10px;}.awz_cookies_sett__message_top_left{left:10px;top:10px;}.awz_cookies_sett__message_top_right{right:10px;top:10px;}.awz_cookies_sett__message_bottom_center, .awz_cookies_sett__message_top_center{left:50%;margin-left:-290px;}@media (max-width:1102px){.awz_cookies_sett__message_bottom_center, .awz_cookies_sett__message_top_center{left:20%;margin-left:0;}}.awz_cookies_sett__message_bottom_center{bottom:10px;}.awz_cookies_sett__message_top_center{top:10px;}.awz_cookies_sett__admin .awz_cookies_sett__message{position:static;width:100%;max-width:580px;font-size:1em;line-height:1.3em;margin:0;}.awz_cookies_sett__container{display:block;padding:0.8em 1.5em;}.awz_cookies_sett__btn{padding:0.4em 0.8em;margin:0.3em;display:inline-block;border-radius:5px;text-decoration:none;}.awz_cookies_sett__btn{cursor:pointer;}.awz_cookies_sett__btn:hover{cursor:pointer;}.awz_cookies_sett__row{display:flex;align-content:center;justify-content:center;align-items:center;flex-wrap:nowrap;flex-direction:row;}.awz_cookies_sett__col{width:100%;}.awz_cookies_sett__col__right{text-align:center;width:auto;}.awz_cookies_sett__agr_link{text-decoration:underline;}.awz_cookies_sett__detail{padding:1em 2em;font-size:1.1em;line-height:1.3em;}.awz_cookies_sett__detail-row{display:block;clear:both;overflow:hidden;padding-top:0.5rem;margin-top:0.5rem;}.awz_cookies_sett__detail-alert{color:red;margin-bottom:1em;font-weight:bold;}.awz_cookies_sett__detail-checkbox-text{display:block;position:relative;margin-bottom:0.5em;}.awz_cookies_sett__detail-title{font-weight:bold;padding:3px 0;display:block;}.awz_cookies_sett__save, .awz_cookies_sett__save:hover{background:red;color:#ffffff;padding:0.6em 1.5em;text-decoration:none;display:inline-block;margin-top:1em;border:none;outline:none;border-radius:10px;}.awz_cookies_sett__detail-checkbox-wrapper-42{display:block;float:left;margin-right:5px;}.awz_cookies_sett__detail-checkbox-wrapper-42 .dsbl{opacity:0.35;}.awz_cookies_sett__detail-checkbox-wrapper-42 input[type="checkbox"]{display:none;visibility:hidden;}.awz_cookies_sett__detail-checkbox-wrapper-42 label{display:inline-block;float:left;margin-top:1px;}.awz_cookies_sett__detail-checkbox-wrapper-42 .cbx{position:relative;top:1px;width:17px;height:17px;border:1px solid #000000;border-radius:3px;vertical-align:middle;transition:background 0.1s ease;cursor:pointer;}.awz_cookies_sett__detail-checkbox-wrapper-42 .cbx:after{content:'';position:absolute;top:1px;left:5px;width:5px;height:11px;opacity:0;transform:rotate(45deg) scale(0);border-right:2px solid #000;border-bottom:2px solid #000;transition:all 0.3s ease;transition-delay:0.15s;}.awz_cookies_sett__detail-checkbox-wrapper-42 .lbl{margin-left:5px;vertical-align:middle;cursor:pointer;}.awz_cookies_sett__detail-checkbox-wrapper-42 input[type="checkbox"]:checked ~ .cbx{border-color:#000000;animation:awz-autform2-checkbox-jelly-42 0.6s ease;}.awz_cookies_sett__detail-checkbox-wrapper-42 input[type="checkbox"]:checked ~ .cbx:after{opacity:1;transform:rotate(45deg) scale(1);}.awz_cookies_sett__detail-checkbox-wrapper-42 .cntr{position:absolute;top:50%;left:0;width:100%;text-align:center;}@-moz-keyframes awz-autform2-checkbox-jelly-42{from{transform:scale(1, 1);}30%{transform:scale(1.25, 0.75);}40%{transform:scale(0.75, 1.25);}50%{transform:scale(1.15, 0.85);}65%{transform:scale(0.95, 1.05);}75%{transform:scale(1.05, 0.95);}to{transform:scale(1, 1);}}@-webkit-keyframes awz-autform2-checkbox-jelly-42{from{transform:scale(1, 1);}30%{transform:scale(1.25, 0.75);}40%{transform:scale(0.75, 1.25);}50%{transform:scale(1.15, 0.85);}65%{transform:scale(0.95, 1.05);}75%{transform:scale(1.05, 0.95);}to{transform:scale(1, 1);}}@-o-keyframes awz-autform2-checkbox-jelly-42{from{transform:scale(1, 1);}30%{transform:scale(1.25, 0.75);}40%{transform:scale(0.75, 1.25);}50%{transform:scale(1.15, 0.85);}65%{transform:scale(0.95, 1.05);}75%{transform:scale(1.05, 0.95);}to{transform:scale(1, 1);}}@keyframes awz-autform2-checkbox-jelly-42{from{transform:scale(1, 1);}30%{transform:scale(1.25, 0.75);}40%{transform:scale(0.75, 1.25);}50%{transform:scale(1.15, 0.85);}65%{transform:scale(0.95, 1.05);}75%{transform:scale(1.05, 0.95);}to{transform:scale(1, 1);}}.awz_cookies_sett__switch{position:relative;display:inline-block;width:40px;height:20px;min-width:40px;}.awz_cookies_sett__switch input{opacity:0;width:0;height:0;}.awz_cookies_sett__slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:#ccc;transition:0.4s;border-radius:34px;}.awz_cookies_sett__slider:before{position:absolute;content:"";height:16px;width:16px;left:2px;bottom:2px;background-color:white;transition:0.4s;border-radius:50%;}input:checked+.awz_cookies_sett__slider{background-color:red;}input:checked+.awz_cookies_sett__slider:before{transform:translateX(20px);}.awz_cookies_sett__detail-checkbox-top{display:flex;justify-content:space-between;align-items:center}.awz_cookies_sett__bg1{background:#171241;}.awz_cookies_sett__bg2{background:#ffffff;}.awz_cookies_sett__bg2:hover{background:#ffe40e;}.awz_cookies_sett__bg3{background:#f1d600;}.awz_cookies_sett__bg3:hover{background:#ffe40e;}.awz_cookies_sett__color1{color:#171241;}.awz_cookies_sett__color2{color:#ffffff;}a.awz_cookies_sett__color2:hover{color:#ffe40e;}#popup-window-content-awz_cmp_cookies{max-height:100%;}@media (max-width:767.98px){.awz_cookies_sett__message{width:100%;max-width:768px;border-radius:0px;text-align:center;}.awz_cookies_sett__message_bottom_right, .awz_cookies_sett__message_{right:0;bottom:0;}.awz_cookies_sett__message_bottom_left, .awz_cookies_sett__message_bottom_center{left:0;bottom:0;}.awz_cookies_sett__message_top_left, .awz_cookies_sett__message_top_center{left:0;top:0;}.awz_cookies_sett__message_top_right{right:0;top:0;}.awz_cookies_sett__message br{display:none;}.awz_cookies_sett__row{flex-direction:column;}.awz_cookies_sett__col__right{padding-top:0.3em;}}.awz_cookies_sett__bg1{background:#0e439b;}.awz_cookies_sett__bg2{background:#ffffff;}.awz_cookies_sett__bg2:hover{background:#ffe40e;}.awz_cookies_sett__bg3{background:#f1d600;}.awz_cookies_sett__bg3:hover{background:#ffe40e;}.awz_cookies_sett__color1{color:#171241;}.awz_cookies_sett__color2{color:#ffffff;}a.awz_cookies_sett__color2:hover{color:#ffe40e;}.awz_cookies_sett__color3{color:#171241;}</style>
+</body>
+</html>

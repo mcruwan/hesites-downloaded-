@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="">
+
+	<title>Wastenot wantnot</title>
+
+		<link rel="shortcut icon" href="/user_uploads/favicon.ico" type="image/x-icon">
+
+<style>
+@keyframes blendIn {
+    0%  { opacity: 1; top: 0; }
+    99%  { opacity: 0.01; top: 0; }
+    100%  { opacity: 0.01; top: -200vh; }
+}
+.page-overlay { position: fixed; z-index: 1000000; display: block; left: 0; width: 100vw; height: 100vh; background-color: #fff;
+    animation-name: blendIn; animation-delay: 0.5s; animation-duration: 0.5s; animation-fill-mode: both;
+}
+</style>	<link href="/dist/frontend/vendor-style.38859f7e4ea149704729.css" rel="stylesheet">
+	<link href="/dist/frontend/app-style.1fc85d3798b6ef479e93.css" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="app-container-homepage action-index">
+
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NZMW452L');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZMW452L"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="page-overlay"></div>
+
+<div id="app">
+	<div id="app-container">
+		<div id="header">
+		    <div class="container">
+                <div class="logo"><a href="/"><img src="/images/logo.svg" alt="Waste Not Want Not logo"></a></div>
+                <div class="menu"><ul class="level1"><li class="selected"><a href="/">Home</a></li><li><a href="/what-works-well/">What works well</a></li><li class="has-submenu"><a href="">Make change</a><ul class="level2"><li><a href="/make-change/food-waste">Food Waste</a></li><li><a href="/make-change/plastic-waste">Plastic Waste</a></li><li><a href="/make-change/challenge/">Challenge</a></li></ul></li><li class="has-submenu"><a href="/about">About</a><ul class="level2"><li><a href="/eu-policy">EU Policy</a></li><li><a href="/about-the-project">About the project</a></li><li><a href="/partners/">Partners</a></li></ul></li></ul></div>
+                <button class="hamburger hamburger--slider" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+                <div id="desktop-lang-nav">
+                    <button class="lang-nav-button">EU (english)</button>
+
+<ul class="lang-list">
+        <li class="lang selected">
+            <a href="/">
+                <span class="code">en</span>
+                <span class="label">EU (english)</span>
+            </a>
+        </li>
+        <li class="lang">
+            <a href="/cs">
+                <span class="code">cs</span>
+                <span class="label">Česko</span>
+            </a>
+        </li>
+        <li class="lang">
+            <a href="/bg">
+                <span class="code">bg</span>
+                <span class="label">България</span>
+            </a>
+        </li>
+        <li class="lang">
+            <a href="/de">
+                <span class="code">de</span>
+                <span class="label">Deutschland</span>
+            </a>
+        </li>
+        <li class="lang">
+            <a href="/sk">
+                <span class="code">sk</span>
+                <span class="label">Slovensko</span>
+            </a>
+        </li>
+        <li class="lang">
+            <a href="/si">
+                <span class="code">si</span>
+                <span class="label">Slovenija</span>
+            </a>
+        </li>
+        <li class="lang">
+            <a href="/at">
+                <span class="code">at</span>
+                <span class="label">Österreich</span>
+            </a>
+        </li>
+</ul>                </div>
+			</div>
+		</div>
+
+		<div id="content">
+
+<section class="hero edge-bottom">
+    <div class="container">
+            <img class="bg" src="/images/home/hero.jpg" alt="The Dual Threats of Food<br/>and Plastic Waste">
+
+        <h1 class="blocky">
+            <span>The Dual Threats of Food<br/>and Plastic Waste</span>
+        </h1>
+        <div class="rte body"><p>In our quest to nurture the leaders of tomorrow, we confront not just the challenge of education but also the preservation of the environment they will inherit. Food and plastic waste represent two of the most pressing environmental issues of our time. Addressing these issues isn't just a matter of conservation; it's a moral imperative to ensure a livable world for future generations.</p>
+</div>
+    </div>
+</section>
+<section class="image-with-text right">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4" >
+                    <img class="image w-100" src="/images/home/kids-food-lunchbox.jpg" alt="Uniting for a Waste-Wise Future!">
+            </div>
+
+            <div class="text col-12 col-md-8 mt-4 mt-md-0">
+                <h3 class="blocky blocky-subtitle"><span>From Classroom to Community</span></h3>
+                <h2 class="h1">Uniting for a Waste-Wise Future!</h2>
+                <h2 class="subtitle">The Call to Action for Every Teacher and Student</h2>
+                    <div class="rte"><p>The fight against food and plastic waste is a battle that schools are uniquely positioned to lead. By harnessing the power of education, innovation, and community, we can cultivate a culture of sustainability that extends far beyond the classroom walls. This is our opportunity to nourish minds while protecting our precious planet—let's embrace it together.</p>
+</div>
+                    <div class="pt-4">
+                        <a href="/make-change/challenge/" class="btn-arrow">Make change</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="image-with-text left">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4" >
+                    <img class="image w-100" src="/images/home/bag-with-food.jpg" alt="Lessons for a Zero-Waste World">
+            </div>
+
+            <div class="text col-12 col-md-8 mt-4 mt-md-0">
+                <h3 class="blocky blocky-subtitle"><span>What works well</span></h3>
+                <h2 class="h1">Lessons for a Zero-Waste World</h2>
+                
+                    <div class="rte"><p>In our commitment to fostering a sustainable future, we present "What works well", a comprehensive hub designed to equip educators and students with the knowledge and tools needed to combat the dual threats of food and plastic waste.</p>
+</div>
+                    <div class="pt-4">
+                        <a href="/what-works-well/" class="btn-arrow">What works well</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+		</div>
+
+<footer>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div id="erasmus" class="col-md-7">
+                    <img src="/images/footer/funded-by-eu.png" alt="Erasmus Programme of the European Union">
+                    <p class="rte">The European Commission support for the production of this publication does not constitute endorsement of the contents which reflects the views only of the authors, and the Commission cannot be held responsible for any use which may be made of the information contained therein.</p>
+                </div>
+                <div id="cca" class="col-md-5">
+                    <img src="/images/footer/cca.png" alt="Creative Commons Attribution">
+                    <p class="rte">Except where otherwise noted, content on this site is licensed under a Creative Commons Attribution 4.0 International license. 
+                        <a target="_blank" href="https://creativecommons.org/licenses/">Creative Commons License</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+	</div>
+
+	<div id="mobile-nav">
+		<div id="mobile-lang-nav">
+<ul class="lang-list">
+        <li class="lang selected">
+            <a href="/">
+                <span class="code">en</span>
+                <span class="label">EU (english)</span>
+            </a>
+        </li>
+        <li class="lang">
+            <a href="/cs">
+                <span class="code">cs</span>
+                <span class="label">Česko</span>
+            </a>
+        </li>
+        <li class="lang">
+            <a href="/bg">
+                <span class="code">bg</span>
+                <span class="label">България</span>
+            </a>
+        </li>
+        <li class="lang">
+            <a href="/de">
+                <span class="code">de</span>
+                <span class="label">Deutschland</span>
+            </a>
+        </li>
+        <li class="lang">
+            <a href="/sk">
+                <span class="code">sk</span>
+                <span class="label">Slovensko</span>
+            </a>
+        </li>
+        <li class="lang">
+            <a href="/si">
+                <span class="code">si</span>
+                <span class="label">Slovenija</span>
+            </a>
+        </li>
+        <li class="lang">
+            <a href="/at">
+                <span class="code">at</span>
+                <span class="label">Österreich</span>
+            </a>
+        </li>
+</ul></div>
+        <menu><ul class="level1"><li class="selected"><a href="/">Home</a></li><li><a href="/what-works-well/">What works well</a></li><li class="has-submenu"><a href="">Make change</a><ul class="level2"><li><a href="/make-change/food-waste">Food Waste</a></li><li><a href="/make-change/plastic-waste">Plastic Waste</a></li><li><a href="/make-change/challenge/">Challenge</a></li></ul></li><li class="has-submenu"><a href="/about">About</a><ul class="level2"><li><a href="/eu-policy">EU Policy</a></li><li><a href="/about-the-project">About the project</a></li><li><a href="/partners/">Partners</a></li></ul></li></ul></menu>
+	</div>
+</div>
+
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NZMW452L');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZMW452L"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<script defer src="/dist/frontend/runtime.a6595ddf99f2c16d6631.js"></script>
+<script defer src="/dist/frontend/vendor.49776263b7012817845b.js"></script>
+<script defer src="/dist/frontend/app.9533385556d4f2147f57.js"></script>
+
+<script>
+    cookieConsentConfiguration = {"consentModal":{"title":"Cookie settings","description":"<p>We use cookies on our website. Some of these are necessary, while others help us improve this site and your user experience. Do you agree to the use of all cookies?</p>\n","acceptAllBtn":"Yes, I agree","showPreferencesBtn":"Detailed cookie settings","acceptNecessaryBtn":"Reject optional cookies"},"preferencesModal":{"title":"Detailed cookie settings","acceptAllBtn":"","acceptNecessaryBtn":"","savePreferencesBtn":"Enable selected cookies","closeIconLabel":"Close","sections":[{"title":"","description":"<p>We use cookies to provide basic site functionality and to improve your user experience. You can change your consent for each category at any time.</p>\n"},{"title":"Necessary cookies","description":"<p>Technical cookies are necessary for the proper functioning of the website and all the functions it offers. These files ensure the storage of your user preferences, the proper functioning of filters, or login. Without these cookies, the website would not be able to function properly. They are enabled by default and cannot be disabled. These cookies do not store any personally identifiable information.</p>\n","linkedCategory":"system"},{"title":"Marketing cookies","description":"<p>Marketing cookies can be divided into three types. They are analytical cookies, personalized cookies and advertising cookies. These cookies help us optimize the offer for customers and reach them in advertising spaces on other websites. These cookies are subject to your consent. If you do not give consent, you can continue to visit, browse and use our website.</p>\n","linkedCategory":"marketing"}]}}
+</script>
+
+
+
+</body>
+</html>

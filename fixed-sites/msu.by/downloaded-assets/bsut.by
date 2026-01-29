@@ -1,0 +1,2151 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+<!-- script type="text/javascript" charset="windows-1251" src="/mistakes/mistakes.js"></script>
+<!-- link href="/mistakes/mistakes.css" rel="stylesheet" type="text/css" />
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109091867-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-109091867-1');
+	</script>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#518cc3">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="yandex-verification" content="7ce62687269b2343" />
+	<link rel="image_src" href="/images/default1.jpg">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://bsut.by/templates/bsutby/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="https://bsut.by/templates/bsutby/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://bsut.by/templates/bsutby/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="https://bsut.by/templates/bsutby/manifest.json">
+	<link rel="mask-icon" href="https://bsut.by/templates/bsutby/safari-pinned-tab.svg" color="#5bbad5">
+		<base href="https://bsut.by/" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="БелГУТ, БИИЖТ, BSUT, bsutby, Белорусский государственный университет транспорта, платное обучение в Беларуси, заочное обучение, образование, транспорт, экономика, BelSUT, bsut, student, вуз, высшее образование, куда поступать, наука, математика, электротехника, строительство, промышленное и гражданское строительство, архитектура, магистратура, переподготовка, аспирантура, железная дорога, railway, transport, транспортная логистика, Гомель, university, КВН, economy, best, building, заочное, сокращенное, БелДУТ, вядучы ўніверсітэт, воспитательная работа, молодежь, it-технологии, БРСМ, Белая Русь, программирование, микропроцессоры, студенты, абитуриент, приемная комиссия, втупительная кампания, военная инженерия, дорожное движение. безопасность, выпускник, устойчивый транспорт, экология, общественный транспорт, автомобильные перевозки, волонтеры" />
+	<meta name="description" content="Белорусский государственный университет транспорта (БелГУТ) - ведущий транспортный вуз Беларуси" />
+	<title>Белорусский государственный университет транспорта - БелГУТ (БИИЖТ)</title>
+	<link href="https://bsut.by/" rel="alternate" hreflang="ru-RU" />
+	<link href="https://bsut.by/by/" rel="alternate" hreflang="be-BY" />
+	<link href="https://bsut.by/en/" rel="alternate" hreflang="en-GB" />
+	<link href="/templates/bsutby/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="/plugins/system/mediabox_ck/assets/mediaboxck.css" rel="stylesheet" type="text/css" />
+	<link href="https://bsut.by/templates/bsutby/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen,projection" />
+	<link href="https://bsut.by/templates/bsutby/css/main.css" rel="stylesheet" type="text/css" media="screen,projection" />
+	<link href="https://bsut.by/templates/bsutby/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="screen,projection" />
+	<link href="/plugins/system/spcookieconsent/assets/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="/modules/mod_slideshowck/themes/default/css/camera.css" rel="stylesheet" type="text/css" />
+	<link href="/modules/mod_minifrontpage/themes/bsutby/assets/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="/media/com_icagenda/icicons/style.css" rel="stylesheet" type="text/css" />
+	<link href="/components/com_icagenda/themes/packs/default/css/default_module.css" rel="stylesheet" type="text/css" />
+	<link href="/modules/mod_jux_megamenu/assets/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="/modules/mod_jux_megamenu/assets/css/animate.css" rel="stylesheet" type="text/css" />
+	<link href="/modules/mod_jux_megamenu/assets/css/jux-font-awesome.css" rel="stylesheet" type="text/css" />
+	<link href="/modules/mod_jux_megamenu/assets/css/style/bsutby.css" rel="stylesheet" type="text/css" />
+	<link href="/modules/mod_jux_megamenu/assets/css/stylec/custom-90.css" rel="stylesheet" type="text/css" />
+	<link href="/media/jui/css/chosen.css?ec5bf528e10d5fbe7d288a08f4a89d68" rel="stylesheet" type="text/css" />
+	<link href="/media/com_finder/css/finder.css" rel="stylesheet" type="text/css" />
+	<link href="/modules/mod_special_visually/assets/css/style.css?v0.3.0" rel="stylesheet" type="text/css" />
+	<link href="/media/mod_languages/css/template.css?ec5bf528e10d5fbe7d288a08f4a89d68" rel="stylesheet" type="text/css" />
+	<link href="https://bsut.by/components/com_jsn/assets/css/style.min.css?v=2.4.7" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+
+			#mbCenter, #mbToolbar {
+	background-color: #1a1a1a;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 5px 20px rgba(0,0,0,0.50);
+	-khtml-box-shadow: 0px 5px 20px rgba(0,0,0,0.50);
+	-moz-box-shadow: 0px 5px 20px rgba(0,0,0,0.50);
+	box-shadow: 0px 5px 20px rgba(0,0,0,0.50);
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=180, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=180, Color='#000000');
+	}
+	
+	#mbOverlay {
+		background-color: #000000;
+	}
+	
+	#mbCenter.mbLoading {
+		background-color: #1a1a1a;
+	}
+	
+	#mbBottom {
+		color: #999999;
+	}
+	
+	#mbTitle, #mbPrevLink, #mbNextLink, #mbCloseLink, #mbPlayLink, #mbPauseLink {
+		color: #ffffff;
+	}
+		#sp-cookie-consent {background-color: #4a13d6; color: #ffffff; }#sp-cookie-consent a, #sp-cookie-consent a:hover, #sp-cookie-consent a:focus, #sp-cookie-consent a:active {color: #f5f5f5; }#sp-cookie-consent .sp-cookie-allow {background-color: #ffffff; color: #333333;}#sp-cookie-consent .sp-cookie-allow:hover, #sp-cookie-consent .sp-cookie-allow:active, #sp-cookie-consent .sp-cookie-allow:focus {color: #333333;}#camera_wrap_949 .camera_pag_ul li img, #camera_wrap_949 .camera_thumbs_cont ul li > img {height:75px;}
+#camera_wrap_949 .camera_caption {
+	display: block;
+	position: absolute;
+}
+#camera_wrap_949 .camera_caption > div {
+	padding-top: 20px;padding-right: 2%;padding-bottom: 2%;padding-left: 2%;margin-top: 20px;margin-right: 20px;margin-bottom: 2%;margin-left: 20px;background: rgba(227,255,217,0.6);border: #21FFE9 1px solid;
+}
+#camera_wrap_949 .camera_caption > div div.camera_caption_title {
+	color: #337AB7;font-size: 2em;
+}
+#camera_wrap_949 .camera_caption > div div.camera_caption_desc {
+	font-size: 0.8em;
+}
+
+@media screen and (max-width: 480px) {
+		#camera_wrap_949 .camera_caption {
+			font-size: 1em !important;
+		}
+}#camera_wrap_1048 .camera_pag_ul li img, #camera_wrap_1048 .camera_thumbs_cont ul li > img {height:75px;}
+#camera_wrap_1048 .camera_caption {
+	display: block;
+	position: absolute;
+}
+#camera_wrap_1048 .camera_caption > div {
+	padding-top: 20px;padding-right: 2%;padding-bottom: 2%;padding-left: 2%;margin-top: 20px;margin-right: 20px;margin-bottom: 2%;margin-left: 20px;background: rgba(227,255,217,0.6);border: #21FFE9 1px solid;
+}
+#camera_wrap_1048 .camera_caption > div div.camera_caption_title {
+	color: #337AB7;font-size: 2em;
+}
+#camera_wrap_1048 .camera_caption > div div.camera_caption_desc {
+	font-size: 0.8em;
+}
+
+@media screen and (max-width: 480px) {
+		#camera_wrap_1048 .camera_caption {
+			font-size: 1em !important;
+		}
+}#camera_wrap_1050 .camera_pag_ul li img, #camera_wrap_1050 .camera_thumbs_cont ul li > img {height:75px;}
+#camera_wrap_1050 .camera_caption {
+	display: block;
+	position: absolute;
+}
+#camera_wrap_1050 .camera_caption > div {
+	padding-top: 20px;padding-right: 2%;padding-bottom: 2%;padding-left: 2%;margin-top: 20px;margin-right: 20px;margin-bottom: 20%;margin-left: 20px;background: rgba(227,255,217,0.6);border: #21FFE9 1px solid;
+}
+#camera_wrap_1050 .camera_caption > div div.camera_caption_title {
+	color: #337AB7;font-size: 2em;
+}
+#camera_wrap_1050 .camera_caption > div div.camera_caption_desc {
+	font-size: 0.8em;
+}
+
+@media screen and (max-width: 480px) {
+		#camera_wrap_1050 .camera_caption {
+			font-size: 1em !important;
+		}
+}
+@media screen and (min-width:1201px){
+
+
+}
+
+@media screen and (min-width:769px) and (max-width:1200px){
+
+
+}
+
+@media screen and (min-width:481px) and (max-width:768px){
+
+
+}
+
+@media screen and (max-width:480px){
+
+
+
+	#ictip a.close {
+		padding-right:15px;
+	}
+
+}
+#camera_wrap_89 .camera_pag_ul li img, #camera_wrap_89 .camera_thumbs_cont ul li > img {height:75px;}
+#camera_wrap_89 .camera_caption {
+	display: block;
+	position: absolute;
+}
+#camera_wrap_89 .camera_caption > div {
+	padding-top: 2%;padding-right: 2%;padding-bottom: 2%;padding-left: 2%;margin-right: 20px;margin-bottom: 2%;margin-left: 20px;
+}
+#camera_wrap_89 .camera_caption > div div.camera_caption_title {
+	
+}
+#camera_wrap_89 .camera_caption > div div.camera_caption_desc {
+	
+}
+
+@media screen and (max-width: 480px) {
+		#camera_wrap_89 .camera_caption {
+			font-size: 1em !important;
+		}
+}#js-mainnav.bsutby ul.level1 .childcontent { margin: -20px 0 0 170px; }
+		 #jux_memamenu90 ul.megamenu li.haschild.megacss:hover>div.childcontent.adddropdown,
+		 #jux_memamenu90 .childcontent.open>.dropdown-menu{
+		 	opacity:1;
+		 	-moz-animation:fadeIn 400ms ease-in ;
+	       	-webkit-animation:fadeIn 400ms ease-in ;
+	       	animation:fadeIn 400ms ease-in ;
+	}
+	</style>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"b9593bd6547c96c39a674a0f41ba2faf","system.paths":{"root":"","base":""}}</script>
+	<script src="/media/plg_n3tcopylink/js/copylink.min.js?ec5bf528e10d5fbe7d288a08f4a89d68" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery.min.js?ec5bf528e10d5fbe7d288a08f4a89d68" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?ec5bf528e10d5fbe7d288a08f4a89d68" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?ec5bf528e10d5fbe7d288a08f4a89d68" type="text/javascript"></script>
+	<script src="/plugins/system/mediabox_ck/assets/mediaboxck.min.js" type="text/javascript"></script>
+	<script src="/media/jui/js/bootstrap.min.js?ec5bf528e10d5fbe7d288a08f4a89d68" type="text/javascript"></script>
+	<script src="/media/system/js/core.js?ec5bf528e10d5fbe7d288a08f4a89d68" type="text/javascript"></script>
+	<script src="/plugins/system/spcookieconsent/assets/js/script.js" type="text/javascript"></script>
+	<script src="/modules/mod_slideshowck/assets/jquery.easing.1.3.js" type="text/javascript"></script>
+	<script src="/modules/mod_slideshowck/assets/camera.min.js" type="text/javascript"></script>
+	<script src="/modules/mod_iccalendar/js/jQuery.highlightToday.min.js" type="text/javascript"></script>
+	<script src="/modules/mod_jux_megamenu/assets/js/headroom.js" type="text/javascript"></script>
+	<script src="/modules/mod_jux_megamenu/assets/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="/modules/mod_jux_megamenu/assets/js/navAccordion.js" type="text/javascript"></script>
+	<script src="/media/jui/js/chosen.jquery.min.js?ec5bf528e10d5fbe7d288a08f4a89d68" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery.autocomplete.min.js" type="text/javascript"></script>
+	<script src="/modules/mod_special_visually/assets/js/jQuery.style.js?v0.3.0" type="text/javascript"></script>
+	<script src="/modules/mod_special_visually/assets/js/script.js?v0.3.0" type="text/javascript"></script>
+	<script src="/media/plg_captcha_recaptcha/js/recaptcha.min.js?ec5bf528e10d5fbe7d288a08f4a89d68" type="text/javascript"></script>
+	<script src="https://www.google.com/recaptcha/api.js?onload=JoomlaInitReCaptcha2&render=explicit&hl=ru-RU" type="text/javascript"></script>
+	<script type="text/javascript">
+
+        CopyLink.addEvent(window, 'load', function () {
+          new CopyLink({
+            container : document.body,
+            handler : function () {
+              return '<br/><br/>Источник: '+location.href+'<br/>';
+            },
+            minimalSelection: 20
+          });
+        });
+      
+                    Mediabox.scanPage = function() {
+						var links = jQuery('a').filter(function(i) {
+							if ( jQuery(this).attr('rel') 
+									&& jQuery(this).data('mediaboxck_done') != '1') {
+								var patt = new RegExp(/^lightbox/i);
+								return patt.test(jQuery(this).attr('rel'));
+							}
+						});
+						if (! links.length) return;
+
+						links.mediabox({
+						overlayOpacity : 	0.7,
+						resizeOpening : 	0,
+						resizeDuration : 	400,
+						initialWidth : 		320,
+						initialHeight : 	180,
+						defaultWidth : 		640,
+						defaultHeight : 	360,
+						showCaption : 		1,
+						showCounter : 		1,
+						loop : 				1,
+						isMobileEnable: 	1,
+						// mobileDetection: 	'resolution',
+						isMobile: 			true,
+						mobileResolution: 	'640',
+						attribType :		'rel',
+						showToolbar :		'0',
+						diapoTime :			'3000',
+						diapoAutoplay :		'0',
+						medialoop :		false,
+						playerpath: '/plugins/system/mediabox_ck/assets/NonverBlaster.swf'
+						}, null, function(curlink, el) {
+							var rel0 = curlink.rel.replace(/[[]|]/gi," ");
+							var relsize = rel0.split(" ");
+							return (curlink == el) || ((curlink.rel.length > 8) && el.rel.match(relsize[1]));
+						});
+					};
+					jQuery(document).ready(function(){ Mediabox.scanPage(); });
+					
+		jQuery(document).ready(function(){
+			new Slideshowck('#camera_wrap_949', {
+				 height: '40%',
+				 minHeight: '150',
+				 pauseOnClick: false,
+				 hover: 1,
+				 fx: 'scrollLeft',
+				 loader: 'none',
+				 pagination: 1,
+				 thumbnails: 0,
+				 thumbheight: 75,
+				 thumbwidth: 100,
+				 time: 1000,
+				 transPeriod: 1500,
+				 alignment: 'center',
+				 autoAdvance: 1,
+				 mobileAutoAdvance: 1,
+				 portrait: 0,
+				 barDirection: 'leftToRight',
+				 imagePath: '/modules/mod_slideshowck/images/',
+				 lightbox: 'mediaboxck',
+				 fullpage: 0,
+				 mobileimageresolution: '0',
+				 navigationHover: true,
+					mobileNavHover: true,
+					navigation: true,
+					playPause: true,
+				 barPosition: 'bottom',
+				 responsiveCaption: 0,
+				 keyboardNavigation: 0,
+				 container: ''
+		});
+}); 
+
+		jQuery(document).ready(function(){
+			new Slideshowck('#camera_wrap_1048', {
+				 height: '40%',
+				 minHeight: '150',
+				 pauseOnClick: false,
+				 hover: 1,
+				 fx: 'scrollLeft',
+				 loader: 'none',
+				 pagination: 1,
+				 thumbnails: 0,
+				 thumbheight: 75,
+				 thumbwidth: 100,
+				 time: 1000,
+				 transPeriod: 1500,
+				 alignment: 'center',
+				 autoAdvance: 1,
+				 mobileAutoAdvance: 1,
+				 portrait: 0,
+				 barDirection: 'leftToRight',
+				 imagePath: '/modules/mod_slideshowck/images/',
+				 lightbox: 'mediaboxck',
+				 fullpage: 0,
+				 mobileimageresolution: '0',
+				 navigationHover: true,
+					mobileNavHover: true,
+					navigation: true,
+					playPause: true,
+				 barPosition: 'bottom',
+				 responsiveCaption: 0,
+				 keyboardNavigation: 0,
+				 container: ''
+		});
+}); 
+
+		jQuery(document).ready(function(){
+			new Slideshowck('#camera_wrap_1050', {
+				 height: '60%',
+				 minHeight: '150',
+				 pauseOnClick: false,
+				 hover: 1,
+				 fx: 'scrollLeft',
+				 loader: 'none',
+				 pagination: 0,
+				 thumbnails: 0,
+				 thumbheight: 75,
+				 thumbwidth: 100,
+				 time: 1,
+				 transPeriod: 1500,
+				 alignment: 'center',
+				 autoAdvance: 1,
+				 mobileAutoAdvance: 1,
+				 portrait: 0,
+				 barDirection: 'leftToRight',
+				 imagePath: '/modules/mod_slideshowck/images/',
+				 lightbox: 'mediaboxck',
+				 fullpage: 0,
+				 mobileimageresolution: '0',
+				 navigationHover: true,
+					mobileNavHover: true,
+					navigation: true,
+					playPause: true,
+				 barPosition: 'bottom',
+				 responsiveCaption: 0,
+				 keyboardNavigation: 0,
+				 container: ''
+		});
+}); 
+
+		jQuery(document).ready(function(){
+			jQuery("#mod_iccalendar_106").highlightToday("show_today");
+		});
+	
+		jQuery(document).ready(function(){
+			new Slideshowck('#camera_wrap_89', {
+				 height: '30%',
+				 minHeight: '150',
+				 pauseOnClick: false,
+				 hover: 1,
+				 fx: 'simpleFade,scrollLeft,scrollRight',
+				 loader: 'none',
+				 pagination: 0,
+				 thumbnails: 0,
+				 thumbheight: 75,
+				 thumbwidth: 100,
+				 time: 7000,
+				 transPeriod: 1500,
+				 alignment: 'center',
+				 autoAdvance: 1,
+				 mobileAutoAdvance: 1,
+				 portrait: 0,
+				 barDirection: 'leftToRight',
+				 imagePath: '/modules/mod_slideshowck/images/',
+				 lightbox: 'mediaboxck',
+				 fullpage: 0,
+				 mobileimageresolution: '0',
+				 navigationHover: true,
+					mobileNavHover: true,
+					navigation: true,
+					playPause: true,
+				 barPosition: 'bottom',
+				 responsiveCaption: 0,
+				 keyboardNavigation: 0,
+				 container: ''
+		});
+}); 
+
+	jQuery(function ($) {
+		initChosen();
+		$("body").on("subform-row-add", initChosen);
+
+		function initChosen(event, container)
+		{
+			container = container || document;
+			$(container).find(".advancedSelect").chosen({"disable_search_threshold":10,"search_contains":true,"allow_single_deselect":true,"placeholder_text_multiple":"\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0438\u043b\u0438 \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u043e\u0432","placeholder_text_single":"\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435","no_results_text":"\u0420\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b \u043d\u0435 \u0441\u043e\u0432\u043f\u0430\u0434\u0430\u044e\u0442"});
+		}
+	});
+	jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
+jQuery(document).ready(function() {
+	var value, searchword = jQuery('#mod-finder-searchword93');
+
+		// Get the current value.
+		value = searchword.val();
+
+		// If the current value equals the default value, clear it.
+		searchword.on('focus', function ()
+		{
+			var el = jQuery(this);
+
+			if (el.val() === 'Текст для поиска...')
+			{
+				el.val('');
+			}
+		});
+
+		// If the current value is empty, set the previous value.
+		searchword.on('blur', function ()
+		{
+			var el = jQuery(this);
+
+			if (!el.val())
+			{
+				el.val(value);
+			}
+		});
+
+		jQuery('#mod-finder-searchform93').on('submit', function (e)
+		{
+			e.stopPropagation();
+			var advanced = jQuery('#mod-finder-advanced93');
+
+			// Disable select boxes with no value selected.
+			if (advanced.length)
+			{
+				advanced.find('select').each(function (index, el)
+				{
+					var el = jQuery(el);
+
+					if (!el.val())
+					{
+						el.attr('disabled', 'disabled');
+					}
+				});
+			}
+		});
+	var suggest = jQuery('#mod-finder-searchword93').autocomplete({
+		serviceUrl: '/component/finder/?task=suggestions.suggest&amp;format=json&amp;tmpl=component',
+		paramName: 'q',
+		minChars: 1,
+		maxHeight: 400,
+		width: 300,
+		zIndex: 9999,
+		deferRequestBy: 500
+	});});
+		jQuery(function($) {
+			$("#acc-button").on("click", function(e) {
+				e.preventDefault();
+				$(".module_special_visually #special_visually input[name=\"type_version\"]").attr("checked", true);
+				$(".module_special_visually #special_visually").submit();
+				
+			});
+		});
+	
+	</script>
+	<link href="https://bsut.by/" rel="alternate" hreflang="x-default" />
+
+		<!--[if lte IE 6]><link href="https://bsut.by/templates/bsutby/css/ieonly.css" rel="stylesheet" /><![endif]-->
+		<!--[if IE 7]><link href="https://bsut.by/templates/bsutby/css/ie7only.css" rel="stylesheet" /><![endif]-->
+		<!--[if lt IE 9]>
+			<script src="https://bsut.by/media/jui/js/html5.js"></script>
+  			<script src="https://bsut.by/media/jui/js/respond.min.js"></script>
+		<![endif]-->
+</head>
+<body>
+	<div class="navbar-inverse">
+		<div class="container">
+			        		<p class="current-week"><i class="fa fa-calendar-check-o fa-stack fa-inverse" aria-hidden="true"></i>Неделя <span>над </span>чертой</p><div class="mod-languages">
+	<div class="pretext"><p><i class="fa fa-globe fa-inverse" aria-hidden="true"></i></p></div>
+
+	<ul class="lang-inline" dir="ltr">
+									<li class="lang-active">
+			<a href="https://bsut.by/">
+							RU						</a>
+			</li>
+								<li>
+			<a href="/by/">
+							BY						</a>
+			</li>
+								<li>
+			<a href="/en/">
+							EN						</a>
+			</li>
+				</ul>
+
+</div>
+
+         			</div>
+	</div>
+	<header class="header">
+	    <div class="container navbar">
+	      <div class="row">
+	        <div class="header-logo col-sm-3 col-xs-12">
+	          <a href="https://bsut.by/" title="БелГУТ" rel="home">
+	            <img id="header-logo" alt="БелГУТ" src="https://bsut.by/templates/bsutby/img/logo-color.png">
+	          </a>
+	        </div>
+	        <div class="col-sm-6">
+	        			        	<div class="row">
+		        		<div class="col-sm-10"></div>
+		        		<div class="col-sm-2">
+		        			
+
+<div class="custom"  >
+	<button type="button" id="acc-button" class="btn btn-default btn-default" style="margin-top: 10px;"><span class="glyphicon glyphicon-eye-open"></span></button></div>
+<div id="module_special_visually" class="module_special_visually handle_module horizontal bottomfixed  ">
+	<form id="special_visually" action="" method="POST">
+					<div class="buttons hidden">
+				<label>
+					<input type="radio" name="type_version" value="yes" />
+					<span class="button_text">Версия для слабовидящих</span>				</label>
+			</div>
+			</form>
+</div>
+		        		</div>
+		        	</div>
+		        	
+	        </div>
+	        <div class="col-sm-3">
+	        		        		
+<form id="mod-finder-searchform93" action="/search" method="get" class="form-search">
+	<div class="finder">
+		<label for="mod-finder-searchword93" class="element-invisible finder">Поиск</label><input type="text" name="q" id="mod-finder-searchword93" class="form-control search-query input-medium" size="25" value="" placeholder="Текст для поиска..."/>
+							</div>
+</form>
+
+	         		        </div>
+	      </div>
+	    </div>
+	</header>
+	<div class="top-menu">
+		<div class="container">  
+							<div id="jux_memamenu90">
+	<div id="megamenucss" class="megamenucss90">
+		<div id="js-mainnav" class="clearfix megamenu horizontal left bsutby sticky_left down noJS  megamenu">
+						<div id="CSS3-megaMenuToggle" class="megaMenuToggle">
+				<i class="jux-fa jux-fa-bars font-item-menu"></i>
+			</div>
+						<div class=" mainNav js-megamenu container   clearfix" id="js-meganav">
+<ul class="megamenu level0"><li  class="megacss first active submenu-align-auto"></li><li  class="megacss haschild submenu-align-auto"><a href="/university"  class="megacss haschild " id="menu105" ><span class="menu-title"><i class="jux-fa  jux-"></i>Университет</span></a><div style='0' class="childcontent adddropdown clearfix cols3  ">
+<div class="childcontent-inner-wrap dropdown-menu">
+<div class="childcontent-inner clearfix" style="width: 520px;"><div class="megacol column1 first" style="width: 150px;"><ul class="megamenu level1"><li  class="megacss first group submenu-align-fullwidth"><div class="group clearfix"><div class="group-title"><a href="/university/about/bsut-resume"  class="megacss first group " id="menu111" ><span class="menu-title"><i class="jux-fa  jux-"></i>Об университете</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"><div class="group clearfix"></div></li><li  class="megacss submenu-align-fullwidth"></li><li  class="megacss submenu-align-fullwidth"></li><li  class="megacss submenu-align-auto"><div class="group clearfix"></div></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss last submenu-align-auto"></li></ul></div></div></li><li  class="megacss submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/university/about/rectorate"  class="megacss " id="menu3631" ><span class="menu-title"><i class="jux-fa  jux-"></i>Руководство университета</span></a></div></div></li><li  class="megacss group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/university/faculties"  class="megacss group " id="menu272" ><span class="menu-title"><i class="jux-fa  jux-"></i>Факультеты</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss last submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/university/faculties/department"  class="megacss last " id="menu645" ><span class="menu-title"><i class="jux-fa  jux-"></i>Кафедры</span></a></div></div></li></ul></div></div></li><li  class="megacss group submenu-align-fullwidth"><div class="group clearfix"><div class="group-title"><a href="/university/departments"  class="megacss group " id="menu120" ><span class="menu-title"><i class="jux-fa  jux-"></i>Подразделения</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li><li  class="megacss submenu-align-fullwidth"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss last submenu-align-auto"></li></ul></div></div></li><li  class="megacss group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/university/colleges"  class="megacss group " id="menu2477" ><span class="menu-title"><i class="jux-fa  jux-"></i>Колледжи-филиалы БелГУТа</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss last submenu-align-auto"></li></ul></div></div></li></ul></div><div class="megacol column2" style="width: 150px;"><ul class="megamenu level1"><li  class="megacss first group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/university/stud-gorodok"  class="megacss first group " id="menu824" ><span class="menu-title"><i class="jux-fa  jux-"></i>Студенческий городок</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss last submenu-align-auto"></li></ul></div></div></li><li  class="megacss group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/university/studsovet"  class="megacss group " id="menu2900" ><span class="menu-title"><i class="jux-fa  jux-"></i>Студенческий совет</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss last submenu-align-auto"></li></ul></div></div></li><li  class="megacss group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/university/studen-klub-kovalya"  class="megacss group " id="menu765" ><span class="menu-title"><i class="jux-fa  jux-"></i>Студенческий клуб</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss last submenu-align-auto"></li></ul></div></div></li><li  class="megacss submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/university/departments/sportivnyj-klub"  class="megacss " id="menu3632" ><span class="menu-title"><i class="jux-fa  jux-"></i>Спортивный клуб</span></a></div></div></li><li  class="megacss submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/university/departments/pool"  class="megacss " id="menu198" ><span class="menu-title"><i class="jux-fa  jux-"></i>Бассейн</span></a></div></div></li></ul></div><div class="megacol column3 last" style="width: 220px;"><ul class="megamenu level1"><li  class="megacss first group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/university/platnye-uslugi/price"  class="megacss first group " id="menu726" ><span class="menu-title"><i class="jux-fa  jux-"></i>Платные услуги</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss last submenu-align-auto"></li></ul></div></div></li><li  class="megacss submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/university/zakazchikam-kadrov"  class="megacss " id="menu3639" ><span class="menu-title"><i class="jux-fa  jux-"></i>Заказчикам кадров</span></a></div></div></li><li  class="megacss submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/university/antikorrupt"  class="megacss " id="menu1100" ><span class="menu-title"><i class="jux-fa  jux-"></i>Профилактика коррупционных правонарушений</span></a></div></div></li><li  class="megacss group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/university/other"  class="megacss group " id="menu2832" ><span class="menu-title"><i class="jux-fa  jux-"></i>Азбука безопасности</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss last submenu-align-auto"></li></ul></div></div></li><li  class="megacss group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/university/social-communities"  class="megacss group " id="menu126" ><span class="menu-title"><i class="jux-fa  jux-"></i>Общественные организации</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss last submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/university/social-communities/zhk"  class="megacss last " id="menu3539" ><span class="menu-title"><i class="jux-fa  jux-"></i>Информация жилищной комиссии</span></a></div></div></li></ul></div></div></li></ul></div></div>
+</div></div></li><li  class="megacss haschild submenu-align-auto"><span  class="megacss haschild " id="menu119" ><span class="menu-title"><i class="jux-fa  jux-"></i>Абитуриентам</span></span><div style='0' class="childcontent adddropdown clearfix cols2  ">
+<div class="childcontent-inner-wrap dropdown-menu">
+<div class="childcontent-inner clearfix" style="width: 600px;"><div class="megacol column1 first" style="width: 300px;"><ul class="megamenu level1"><li  class="megacss first group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/applicants/admission/admission-info"  class="megacss first group " id="menu125" ><span class="menu-title"><i class="jux-fa  jux-"></i>Приёмная комиссия</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"><a href="/applicants/admission/contacts-pk"  class="megacss first " id="menu3095" ><span class="menu-title"><i class="jux-fa  jux-"></i>Контакты</span></a></li><li  class="megacss submenu-align-auto"><a href="/applicants/admission/admission-info"  class="megacss " id="menu1383" ><span class="menu-title"><i class="jux-fa  jux-"></i>Вступительная кампания</span></a></li><li  class="megacss submenu-align-auto"><a href="/applicants/admission/specialities-abit"  class="megacss " id="menu3514" ><span class="menu-title"><i class="jux-fa  jux-"></i>Специальности университета</span></a></li><li  class="megacss submenu-align-auto"><a href="/applicants/admission/admission-info/cp"  class="megacss " id="menu3256" ><span class="menu-title"><i class="jux-fa  jux-"></i>Целевая подготовка</span></a></li><li  class="megacss submenu-align-auto"><a href="/applicants/admission/admission-info/vpk"  class="megacss " id="menu3589" ><span class="menu-title"><i class="jux-fa  jux-"></i>Профильные классы</span></a></li><li  class="megacss submenu-align-auto"></li><li  class="megacss last submenu-align-auto"></li></ul></div></div></li><li  class="megacss group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/applicants/olimp-m"  class="megacss group " id="menu3303" ><span class="menu-title"><i class="jux-fa  jux-"></i>Олимпиада по предмету «Математика» для учащихся 11-х классов</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss last submenu-align-auto"></li></ul></div></div></li></ul></div><div class="megacol column2 last" style="width: 300px;"><ul class="megamenu level1"><li  class="megacss first group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/applicants/podgotovitelnye-kursy-k-tst"  class="megacss first group " id="menu144" ><span class="menu-title"><i class="jux-fa  jux-"></i>Подготовительные курсы</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/applicants/podgotovitelnye-kursy-k-tst/pdp/pdp-pr"  class="megacss " id="menu149" ><span class="menu-title"><i class="jux-fa  jux-"></i>Подготовка к поступлению</span></a></div></div></li><li  class="megacss submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/applicants/podgotovitelnye-kursy-k-tst/specialities"  class="megacss " id="menu2813" ><span class="menu-title"><i class="jux-fa  jux-"></i>Специальности университета</span></a></div></div></li><li  class="megacss submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/applicants/podgotovitelnye-kursy-k-tst/repetitsionnoe-testirovanie/information-rt"  class="megacss " id="menu145" ><span class="menu-title"><i class="jux-fa  jux-"></i>Репетиционное тестирование</span></a></div></div></li><li  class="megacss last submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/applicants/podgotovitelnye-kursy-k-tst/ct/information-ct"  class="megacss last " id="menu141" ><span class="menu-title"><i class="jux-fa  jux-"></i>Централизованное тестирование</span></a></div></div></li></ul></div></div></li><li  class="megacss group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/university/about/mezhdunarodnye-svyazi/inostrannym-studentam/kak-postupit"  class="megacss group " id="menu1583" ><span class="menu-title"><i class="jux-fa  jux-"></i>Иностранным абитуриентам</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss last submenu-align-auto"></li></ul></div></div></li></ul></div></div>
+</div></div></li><li  class="megacss submenu-align-auto"></li><li  class="megacss haschild submenu-align-auto"><a href="/students"  class="megacss haschild " id="menu118" ><span class="menu-title"><i class="jux-fa  jux-"></i>Образование</span></a><div style='0' class="childcontent adddropdown clearfix cols3  ">
+<div class="childcontent-inner-wrap dropdown-menu">
+<div class="childcontent-inner clearfix" style="width: 900px;"><div class="megacol column1 first" style="width: 300px;"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/timetable"  class="megacss first " id="menu257" ><span class="menu-title"><i class="jux-fa  jux-"></i>Расписание</span></a></div></div></li><li  class="megacss group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/students/pervaya-stupen-obucheniya"  class="megacss group " id="menu531" ><span class="menu-title"><i class="jux-fa  jux-"></i>Общее и специальное высшее образование</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss last submenu-align-auto"></li></ul></div></div></li><li  class="megacss group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/students/vtoraya-stupen-obucheniya/magisters"  class="megacss group " id="menu532" ><span class="menu-title"><i class="jux-fa  jux-"></i>Углубленное высшее образование</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li><li  class="megacss submenu-align-fullwidth"></li><li  class="megacss last submenu-align-auto"></li></ul></div></div></li><li  class="megacss group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/students/ipk"  class="megacss group " id="menu202" ><span class="menu-title"><i class="jux-fa  jux-"></i>Повышение квалификации и переподготовка</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss last submenu-align-auto"></li></ul></div></div></li></ul></div><div class="megacol column2" style="width: 300px;"><ul class="megamenu level1"><li  class="megacss first group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/students/mnz"  class="megacss first group " id="menu632" ><span class="menu-title"><i class="jux-fa  jux-"></i>Выпускникам</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"><div class="group clearfix"></div></li><li  class="megacss last submenu-align-auto"><div class="group clearfix"></div></li></ul></div></div></li><li  class="megacss group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/students/professorsko-prepodavatelskomu-sostavu"  class="megacss group " id="menu708" ><span class="menu-title"><i class="jux-fa  jux-"></i>ИНФОРМАЦИЯ ПО ОБРАЗОВАТЕЛЬНОМУ ПРОЦЕССУ</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss last submenu-align-auto"></li></ul></div></div></li><li  class="megacss submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/students/dist" target="_blank"  class="megacss " id="menu2426" ><span class="menu-title"><i class="jux-fa  jux-"></i>Дистанционное обучение</span></a></div></div></li><li  class="megacss submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/ck"  class="megacss " id="menu2216" ><span class="menu-title"><i class="jux-fa  jux-"></i>Центр изучения китайского языка и культуры</span></a></div></div></li></ul></div><div class="megacol column3 last" style="width: 300px;"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="http://elib.bsut.by/" target="_blank"  class="megacss first " id="menu110" ><span class="menu-title"><i class="jux-fa  jux-"></i>Электронная библиотека</span></a></div></div></li><li  class="megacss submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/students/elr" target="_blank"  class="megacss " id="menu3627" ><span class="menu-title"><i class="jux-fa  jux-"></i>Лицензия на осуществление образовательной деятельности</span></a></div></div></li><li  class="megacss submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/component/tags/tag/akrreditatsiya"  class="megacss " id="menu2195" ><span class="menu-title"><i class="jux-fa  jux-"></i>Государственная аккредитация университета по специальности I ступени высшего образования</span></a></div></div></li></ul></div></div>
+</div></div></li><li  class="megacss haschild submenu-align-auto"><a href="/science"  class="megacss haschild " id="menu107" ><span class="menu-title"><i class="jux-fa  jux-"></i>Наука</span></a><div style='0' class="childcontent adddropdown clearfix cols3  ">
+<div class="childcontent-inner-wrap dropdown-menu">
+<div class="childcontent-inner clearfix" style="width: 750px;"><div class="megacol column1 first" style="width: 250px;"><ul class="megamenu level1"><li  class="megacss first group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/science/aspirantura-doktorantura/aspirantura-i-doktorantura"  class="megacss first group " id="menu2190" ><span class="menu-title"><i class="jux-fa  jux-"></i>Аспирантура и докторантура</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li></ul></div></div></li><li  class="megacss group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/science/sovety-po-zashchite"  class="megacss group " id="menu685" ><span class="menu-title"><i class="jux-fa  jux-"></i>Советы по защите</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss last submenu-align-auto"></li></ul></div></div></li><li  class="megacss group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/science/smu"  class="megacss group " id="menu3247" ><span class="menu-title"><i class="jux-fa  jux-"></i>Совет молодых ученых</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li><li  class="megacss last submenu-align-auto"></li></ul></div></div></li><li  class="megacss group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/science/scientific-publication"  class="megacss group " id="menu298" ><span class="menu-title"><i class="jux-fa  jux-"></i>Научные издания</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss last submenu-align-auto"></li></ul></div></div></li><li  class="megacss group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/science/nauchnye-shkoly"  class="megacss group " id="menu452" ><span class="menu-title"><i class="jux-fa  jux-"></i>Научно-педагогические школы</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss last submenu-align-auto"></li></ul></div></div></li></ul></div><div class="megacol column2" style="width: 250px;"><ul class="megamenu level1"><li  class="megacss first group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/science/niizht"  class="megacss first group " id="menu486" ><span class="menu-title"><i class="jux-fa  jux-"></i>Научно-исследовательские лаборатории</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss last submenu-align-auto"></li></ul></div></div></li><li  class="megacss group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/science/konkursy"  class="megacss group " id="menu530" ><span class="menu-title"><i class="jux-fa  jux-"></i>Конкурсы</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss last submenu-align-auto"></li></ul></div></div></li><li  class="megacss group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/science/conferences"  class="megacss group " id="menu795" ><span class="menu-title"><i class="jux-fa  jux-"></i>Конференции</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss last submenu-align-auto"></li></ul></div></div></li><li  class="megacss group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/ctm"  class="megacss group " id="menu2625" ><span class="menu-title"><i class="jux-fa  jux-"></i>Олимпиады</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li></ul></div></div></li><li  class="megacss group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/science/studencheskaya-nauka"  class="megacss group " id="menu1170" ><span class="menu-title"><i class="jux-fa  jux-"></i>Студенческая наука</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li></ul></div></div></li></ul></div><div class="megacol column3 last" style="width: 250px;"><ul class="megamenu level1"><li  class="megacss first group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/science/sertification/otdse"  class="megacss first group " id="menu702" ><span class="menu-title"><i class="jux-fa  jux-"></i>Орган по сертификации</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li></ul></div></div></li><li  class="megacss group submenu-align-auto"><div class="group clearfix"><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-fullwidth"></li></ul></div></div></li><li  class="megacss group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/science/izht/iczht"  class="megacss group " id="menu746" ><span class="menu-title"><i class="jux-fa  jux-"></i>Испытательный центр железнодорожного транспорта БелГУТа</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li></ul></div></div></li><li  class="megacss submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/science/svidetelstvo-ob-akkreditatsii-nauchnoj-organizatsii"  class="megacss " id="menu521" ><span class="menu-title"><i class="jux-fa  jux-"></i>Свидетельство об аккредитации научной организации</span></a></div></div></li><li  class="megacss submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/science/nauchnoe-oborudovanie"  class="megacss " id="menu1163" ><span class="menu-title"><i class="jux-fa  jux-"></i>Научное оборудование</span></a></div></div></li></ul></div></div>
+</div></div></li><li  class="megacss submenu-align-fullwidth"><a href="/university/about/year-2026"  class="megacss " id="menu3572" ><span class="menu-title"><i class="jux-fa  jux-"></i>2026</span></a></li><li  class="megacss submenu-align-auto"><a href="/university/about/mezhdunarodnye-svyazi"  class="megacss " id="menu1225" ><span class="menu-title"><i class="jux-fa  jux-"></i>Иностранным гражданам</span></a></li><li  class="megacss haschild submenu-align-auto"><a href="/contacts"  class="megacss haschild " id="menu109" ><span class="menu-title"><i class="jux-fa  jux-"></i>Контакты</span></a><div style='0' class="childcontent adddropdown clearfix cols2  ">
+<div class="childcontent-inner-wrap dropdown-menu">
+<div class="childcontent-inner clearfix" style="width: 500px;"><div class="megacol column1 first" style="width: 250px;"><ul class="megamenu level1"><li  class="megacss first group submenu-align-fullwidth"><div class="group clearfix"><div class="group-title"><a href="/contacts/odno-okno"  class="megacss first group " id="menu121" ><span class="menu-title"><i class="jux-fa  jux-"></i>Одно окно</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li></ul></div></div></li><li  class="megacss submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/contacts/electronic-appeal"  class="megacss " id="menu140" ><span class="menu-title"><i class="jux-fa  jux-"></i>Электронное обращение</span></a></div></div></li><li  class="megacss submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/contacts/pryamye-telefonnye-linii"  class="megacss " id="menu130" ><span class="menu-title"><i class="jux-fa  jux-"></i>Прямые телефонные линии</span></a></div></div></li><li  class="megacss group submenu-align-right"><div class="group clearfix"><div class="group-title"><a href="/contacts/all"  class="megacss group " id="menu271" ><span class="menu-title"><i class="jux-fa  jux-"></i>Контакты</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"><a href="/contacts/all/electronic-appeal-rector"  class="megacss first " id="menu2123" ><span class="menu-title"><i class="jux-fa  jux-"></i>Вопросы по поступлению в БелГУТ</span></a></li><li  class="megacss submenu-align-auto"><a href="/contacts/all/priemnaya"  class="megacss " id="menu1064" ><span class="menu-title"><i class="jux-fa  jux-"></i>Приемная комиссия</span></a></li><li  class="megacss submenu-align-auto"><a href="/contacts/all"  class="megacss " id="menu133" ><span class="menu-title"><i class="jux-fa  jux-"></i>Телефонный справочник</span></a></li><li  class="megacss submenu-align-auto"><a href="/contacts/all/rektorat"  class="megacss " id="menu1065" ><span class="menu-title"><i class="jux-fa  jux-"></i>Ректорат</span></a></li><li  class="megacss submenu-align-auto"><a href="/contacts/all/dekanaty"  class="megacss " id="menu1061" ><span class="menu-title"><i class="jux-fa  jux-"></i>Деканаты</span></a></li><li  class="megacss submenu-align-auto"><a href="/contacts/all/chears"  class="megacss " id="menu2655" ><span class="menu-title"><i class="jux-fa  jux-"></i>Кафедры</span></a></li><li  class="megacss submenu-align-auto"><a href="/contacts/all/podrazdeleniya"  class="megacss " id="menu1062" ><span class="menu-title"><i class="jux-fa  jux-"></i>Подразделения</span></a></li><li  class="megacss submenu-align-auto"><a href="/contacts/all/obsh-organiz"  class="megacss " id="menu1063" ><span class="menu-title"><i class="jux-fa  jux-"></i>Общественные организации</span></a></li><li  class="megacss submenu-align-auto"><a href="/contacts/all/kolledzhi"  class="megacss " id="menu1076" ><span class="menu-title"><i class="jux-fa  jux-"></i>Колледжи</span></a></li><li  class="megacss last submenu-align-auto"><a href="/contacts/all/podgotovitelnye-kursy"  class="megacss last " id="menu1578" ><span class="menu-title"><i class="jux-fa  jux-"></i>Подготовительные курсы</span></a></li></ul></div></div></li><li  class="megacss group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/contacts/pressa"  class="megacss group " id="menu132" ><span class="menu-title"><i class="jux-fa  jux-"></i>Пресс-служба</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li></ul></div></div></li></ul></div><div class="megacol column2 last" style="width: 250px;"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"><div class="group clearfix"></div></li><li  class="megacss submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/contacts/crpus"  class="megacss " id="menu1580" ><span class="menu-title"><i class="jux-fa  jux-"></i>Схема расположения аудиторий</span></a></div></div></li><li  class="megacss submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/contacts/rasporyadok" target="_blank"  class="megacss " id="menu2634" ><span class="menu-title"><i class="jux-fa  jux-"></i>Адрес и режим работы</span></a></div></div></li><li  class="megacss submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/contacts/belgie" target="_blank"  class="megacss " id="menu3197" ><span class="menu-title"><i class="jux-fa  jux-"></i>Регистрационный номер интернет-ресурса</span></a></div></div></li></ul></div></div>
+</div></div></li><li  class="megacss haschild submenu-align-auto"><span  class="megacss haschild " id="menu268" ><span class="menu-title"><i class="jux-fa  jux-"></i>Медиа</span></span><div style='0' class="childcontent adddropdown clearfix cols1  ">
+<div class="childcontent-inner-wrap dropdown-menu">
+<div class="childcontent-inner clearfix" style="width: 250px;"><div class="megacol column1 first" style="width: 200px;"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/news"  class="megacss first " id="menu2567" ><span class="menu-title"><i class="jux-fa  jux-"></i>Новости</span></a></div></div></li><li  class="megacss submenu-align-auto"><div class="group clearfix"></div></li><li  class="megacss submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/bsut-media/announcements"  class="megacss " id="menu181" ><span class="menu-title"><i class="jux-fa  jux-"></i>Анонсы</span></a></div></div></li><li  class="megacss group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/bsut-media/gazeta-vesti-belguta/vsjo-o-gazete"  class="megacss group " id="menu552" ><span class="menu-title"><i class="jux-fa  jux-"></i>Газета</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li></ul></div></div></li><li  class="megacss group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/bsut-media/smi"  class="megacss group " id="menu2836" ><span class="menu-title"><i class="jux-fa  jux-"></i>БелГУТ в СМИ</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss last submenu-align-auto"></li></ul></div></div></li><li  class="megacss submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/component/tags/tag/fotagalereya" target="_blank"  class="megacss " id="menu2914" ><span class="menu-title"><i class="jux-fa  jux-"></i>Фотогалерея</span></a></div></div></li><li  class="megacss group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/bsut-media/videoteka/video" target="_blank"  class="megacss group " id="menu2913" ><span class="menu-title"><i class="jux-fa  jux-"></i>Видео</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li></ul></div></div></li><li  class="megacss last group submenu-align-auto"><div class="group clearfix"><div class="group-title"><a href="/bsut-media/podcasts"  class="megacss last group " id="menu2799" ><span class="menu-title"><i class="jux-fa  jux-"></i>Подкасты</span></a></div><div class="group-content"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li></ul></div></div></li></ul></div></div>
+</div></div></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss haschild submenu-align-auto"><div style='0' class="childcontent adddropdown clearfix cols1  ">
+<div class="childcontent-inner-wrap dropdown-menu">
+<div class="childcontent-inner clearfix" style="width: 200px;"><div class="megacol column1 first" style="width: 200px;"><ul class="megamenu level1"><li  class="megacss first submenu-align-auto"></li></ul></div></div>
+</div></div></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss submenu-align-auto"></li><li  class="megacss last submenu-align-auto"></li></ul>
+</div>		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+
+        $(".megamenucss90 #CSS3-megaMenuToggle").click(function () {
+        	 // Menu on mobile
+                if(document.body.offsetWidth < 769){              
+                    if ((!$('.jux-custom-css').hasClass('jux-custom-css'))) {
+                        jQuery('.mainNav').navAccordion({
+                            expandButtonText: '<i class="jux-fa jux-fa-angle-down "></i>',  //Text inside of buttons can be HTML
+                            collapseButtonText: '<i class="jux-fa jux-fa-angle-up "></i>'
+                        });
+
+                    }
+                }
+                // end menu on mobile
+            $(".megamenucss90 .js-megamenu").toggleClass("dropdown-menucssjs-meganav");
+            $('.jux-custom-css').addClass('accordion-btn-wrap');
+            $(".megamenucss90 #CSS3-megaMenuToggle i").toggleClass("jux-fa-times");
+			$(".megamenucss90 #CSS3-megaMenuToggle i").toggleClass("jux-fa-bars");
+        });
+  	    $(window).resize(function () {
+            if (document.body.offsetWidth > 768) {
+             	$(".megamenucss90 .js-megamenu").removeClass("dropdown-menucssjs-meganav"); 
+             	$('.jux-custom-css').removeClass('accordion-btn-wrap');
+            }
+            
+        });
+    });
+</script>
+
+
+
+	
+
+					</div>
+	</div>
+			<div class="top-slider">
+    		<div class="slideshowck camera_wrap camera_grey_skin" id="camera_wrap_89">
+			<div data-thumb="/images/slider/th/dn2026_th.jpg" data-src="/images/slider/dn2026.jpg" data-link="component/tags/tag/den-nauki-2026" data-target="_parent">
+								</div>
+		<div data-thumb="/images/slider/th/olimp26_th.jpg" data-src="/images/slider/olimp26.jpg" data-link="/applicants/olimp-m" data-target="_parent">
+								</div>
+		<div data-thumb="/images/slider/th/2rt_th.jpg" data-src="/images/slider/2rt.jpg" data-link="applicants/podgotovitelnye-kursy-k-tst/repetitsionnoe-testirovanie/information-rt" data-target="_parent">
+								</div>
+		<div data-thumb="/images/slider/th/table_th.jpg" data-src="/images/slider/table.jpg" data-link="images/MainMenuFiles/bsut/page_str_25/index.html" data-target="_parent">
+								</div>
+		<div data-thumb="/images/slider/th/2026_th.jpg" data-src="/images/slider/2026.jpg" data-link="university/about/year-2026" data-target="_parent">
+								</div>
+		<div data-thumb="/images/slider/th/book_th.jpg" data-src="/images/slider/book.jpg" data-link="https://www.book.bsut.by" data-target="_parent">
+								</div>
+		<div data-thumb="/images/slider/th/podg_th.jpg" data-src="/images/slider/podg.jpg" data-link="applicants/podgotovitelnye-kursy-k-tst" data-target="_parent">
+								</div>
+		<div data-thumb="/images/slider/th/brsm_th.jpg" data-src="/images/slider/brsm.jpg" data-link="https://www.bsut.by/university/social-communities/brsm" data-target="_parent">
+								</div>
+		<div data-thumb="/images/slider/th/rio_th.jpg" data-src="/images/slider/rio.jpg" data-link="http://www.bsut.by/university/departments/typography" data-target="_blank">
+								</div>
+</div>
+<div style="clear:both;"></div>
+
+    	</div>
+ 	     
+   
+  
+<div class="content container">
+      		<div class="moduletable warning">
+
+		
+			
+
+<div class="custom"  >
+	<p style="text-align: center;"><a href="/vs" target="_self"><span style="font-size: 14pt;">Регистрация на конференцию «Водоснабжение, химия и прикладная экология»</span></a></p></div>
+
+		</div>
+
+	
+  
+      <div class="row content-above">
+      	      <div class="col-md-4 col-md-push-8 content-above-right">
+	        		<div class="moduletable">
+
+					<h2>События</h2>
+		
+			<!-- iCagenda - Calendar --><div tabindex="0" id="ic-calendar-106" class="">
+<!-- Calendar -->
+
+
+<div class="default iccalendar " style=" background-color: transparent; background-image: none;" id="106"><div id="mod_iccalendar_106">
+			<div class="icagenda_header">
+			</div><div class="icnav"><a id="ic-prev-year" class="backicY icagendabtn_106" href="https://bsut.by/?iccaldate=2025-01-1" rel="nofollow"><span style="height: 1px; width: 1px; position: absolute; overflow: hidden; top: -10px;" title="">Предыдущий год</span><span class="iCicon iCicon-backicY"></span></a><a id="ic-prev-month" class="backic icagendabtn_106" href="https://bsut.by/?iccaldate=2025-12-1" rel="nofollow"><span style="height: 1px; width: 1px; position: absolute; overflow: hidden; top: -10px;" title="">Предыдущий месяц</span><span class="iCicon iCicon-backic"></span></a><a id="ic-next-year" class="nexticY icagendabtn_106" href="https://bsut.by/?iccaldate=2027-01-1" rel="nofollow"><span style="height: 1px; width: 1px; position: absolute; overflow: hidden; top: -10px;" title="">Следующий год</span><span class="iCicon iCicon-nexticY"></span></a><a id="ic-next-month" class="nextic icagendabtn_106" href="https://bsut.by/?iccaldate=2026-2-1" rel="nofollow"><span style="height: 1px; width: 1px; position: absolute; overflow: hidden; top: -10px;" title="">Следующий месяц</span><span class="iCicon iCicon-nextic"></span></a><div class="titleic">Январь 2026</div></div><div style="clear:both"></div>
+			<table id="icagenda_calendar" class="ic-table" style="width:100%;">
+				<thead>
+					<tr>
+						<th style="width:14.2857143%;background: ;">Пн</th>
+						<th style="width:14.2857143%;background: ;">Вт</th>
+						<th style="width:14.2857143%;background: ;">Ср</th>
+						<th style="width:14.2857143%;background: ;">Чт</th>
+						<th style="width:14.2857143%;background: ;">Пт</th>
+						<th style="width:14.2857143%;background: ;">Сб</th>
+						<th style="width:14.2857143%;background: ;">Вс</th>
+					</tr>
+				</thead>
+		<tr><td colspan="3"></td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2026-01-01">
+		1	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2026-01-02">
+		2	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2026-01-03">
+		3	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2026-01-04">
+		4	</div>
+</td><tr><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2026-01-05">
+		5	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+
+	
+	<div class="icevent " style="background:#b3f5cb !important;">
+
+				<a href="#" rel="nofollow" tabindex="0">
+		<div class="style_Day ic-bright" data-cal-date="2026-01-06">
+			6		</div>
+		</a>
+
+				<div class="spanEv">
+
+			
+				<div class="ictip-event">
+					<a href="/component/icagenda/1119-olimpiada-po-matematike-dlya-postupleniya-v-belgut?Itemid=101">
+					<div class="linkTo">
+
+												<div class="ictip-img">
+						<span style="background: #b3f5cb;" class="img"><img src="/images/icagenda/thumbs/themes/ic_small_w100h100q100_41.jpg" alt="" /></span>						</div>
+
+												<div class="ictip-event-title titletip">
+														Олимпиада по математике для поступления в БелГУТ						</div>
+
+												
+												<div class="ictip-info ic-clearfix">
+
+																						<div class="ictip-time">
+									10:00								</div>
+							
+														
+																						<div class="ictip-desc">
+									<i>Получить возможность&nbsp;поступить&nbsp;в Белорусский</i> 								</div>
+							
+						</div>
+
+																	</div>
+					</a>				</div>
+					</div>
+
+				<div class="date ictip-date">
+			<span class="ictip-date-lbl">
+				Дата :
+			</span>
+			<span class="ictip-date-format">
+				2026-01-06			</span>
+		</div>
+
+	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2026-01-07">
+		7	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2026-01-08">
+		8	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2026-01-09">
+		9	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2026-01-10">
+		10	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2026-01-11">
+		11	</div>
+</td><tr><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2026-01-12">
+		12	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2026-01-13">
+		13	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2026-01-14">
+		14	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+
+	
+	<div class="icevent " style="background:#4cfff9 !important;">
+
+				<a href="#" rel="nofollow" tabindex="0">
+		<div class="style_Day ic-bright" data-cal-date="2026-01-15">
+			15		</div>
+		</a>
+
+				<div class="spanEv">
+
+			
+				<div class="ictip-event">
+					<a href="/component/icagenda/1121-edi-na-temu-klyuchevye-aspekty-poslaniya-prezidenta-respubliki-belarus-a-g-lukashenko-belorusskomu-narodu-i-natsionalnomu-sobraniyu-respubliki-belarus?Itemid=101&amp;date=2026-01-15-13-15">
+					<div class="linkTo">
+
+												<div class="ictip-img">
+						<span style="background: #4cfff9;" class="img"><img src="/images/icagenda/thumbs/themes/ic_small_w100h100q100_edi1-2026.jpg" alt="" /></span>						</div>
+
+												<div class="ictip-event-title titletip">
+														ЕДИ на тему: «Ключевые аспекты послания Президента Республики Беларусь А.Г.Лукашенко белорусскому народу и Национальному собранию Республики Беларусь»						</div>
+
+												
+												<div class="ictip-info ic-clearfix">
+
+																						<div class="ictip-time">
+									13:15								</div>
+							
+														
+																						<div class="ictip-desc">
+									<i>15 января 2025 года (четверг)&nbsp;в 13.15 в аудитории 180&nbsp;состоится Единый день</i> 								</div>
+							
+						</div>
+
+																	</div>
+					</a>				</div>
+					</div>
+
+				<div class="date ictip-date">
+			<span class="ictip-date-lbl">
+				Дата :
+			</span>
+			<span class="ictip-date-format">
+				2026-01-15			</span>
+		</div>
+
+	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2026-01-16">
+		16	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2026-01-17">
+		17	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2026-01-18">
+		18	</div>
+</td><tr><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+
+	
+	<div class="icevent " style="background:#e7fa3a !important;">
+
+				<a href="#" rel="nofollow" tabindex="0">
+		<div class="style_Day ic-bright" data-cal-date="2026-01-19">
+			19		</div>
+		</a>
+
+				<div class="spanEv">
+
+			
+				<div class="ictip-event">
+					<a href="/component/icagenda/1120-spartakiada-rabotnikov-belguta?Itemid=101&amp;date=2026-01-19-12-00">
+					<div class="linkTo">
+
+												<div class="ictip-img">
+						<span style="background: #e7fa3a;" class="img"><img src="/images/icagenda/thumbs/themes/ic_small_w100h100q100_f75422cddb245e868a12632efb97f6a2.jpg" alt="" /></span>						</div>
+
+												<div class="ictip-event-title titletip">
+														Спартакиада работников БелГУТа.						</div>
+
+												
+												<div class="ictip-info ic-clearfix">
+
+																						<div class="ictip-time">
+									12:00								</div>
+							
+														
+																						<div class="ictip-desc">
+									<i>С 26 января по 8 февраля будет проведена спартакиада работников БелГУТа.</i> 								</div>
+							
+						</div>
+
+																	</div>
+					</a>				</div>
+					</div>
+
+				<div class="date ictip-date">
+			<span class="ictip-date-lbl">
+				Дата :
+			</span>
+			<span class="ictip-date-format">
+				2026-01-19			</span>
+		</div>
+
+	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2026-01-20">
+		20	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+
+	
+	<div class="icevent " style="background:#4cfff9 !important;">
+
+				<a href="#" rel="nofollow" tabindex="0">
+		<div class="style_Day ic-bright" data-cal-date="2026-01-21">
+			21		</div>
+		</a>
+
+				<div class="spanEv">
+
+			
+				<div class="ictip-event">
+					<a href="/component/icagenda/1122-zasedanie-soveta-universiteta-33?Itemid=101">
+					<div class="linkTo">
+
+												<div class="ictip-img">
+						<span style="background: #4cfff9;" class="img"><img src="/images/icagenda/thumbs/themes/ic_small_w100h100q100_7bb3b37a97aebf49e61cec32dbac6562.jpg" alt="" /></span>						</div>
+
+												<div class="ictip-event-title titletip">
+														Заседание совета университета						</div>
+
+												
+												<div class="ictip-info ic-clearfix">
+
+																						<div class="ictip-time">
+									10:00								</div>
+							
+														
+																						<div class="ictip-desc">
+									<i>21 января 2025 года в 10.00 в ауд. 180 состоится&nbsp;заседание совета университета.</i> 								</div>
+							
+						</div>
+
+																	</div>
+					</a>				</div>
+					</div>
+
+				<div class="date ictip-date">
+			<span class="ictip-date-lbl">
+				Дата :
+			</span>
+			<span class="ictip-date-format">
+				2026-01-21			</span>
+		</div>
+
+	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2026-01-22">
+		22	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2026-01-23">
+		23	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2026-01-24">
+		24	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2026-01-25">
+		25	</div>
+</td><tr><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2026-01-26">
+		26	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+
+	
+	<div class="icevent " style="background:#e7fa3a !important;">
+
+				<a href="#" rel="nofollow" tabindex="0">
+		<div class="style_Day ic-bright" data-cal-date="2026-01-27">
+			27		</div>
+		</a>
+
+				<div class="spanEv">
+
+			
+				<div class="ictip-event">
+					<a href="/component/icagenda/1120-spartakiada-rabotnikov-belguta?Itemid=101&amp;date=2026-01-27-10-00">
+					<div class="linkTo">
+
+												<div class="ictip-img">
+						<span style="background: #e7fa3a;" class="img"><img src="/images/icagenda/thumbs/themes/ic_small_w100h100q100_f75422cddb245e868a12632efb97f6a2.jpg" alt="" /></span>						</div>
+
+												<div class="ictip-event-title titletip">
+														Спартакиада работников БелГУТа.						</div>
+
+												
+												<div class="ictip-info ic-clearfix">
+
+																						<div class="ictip-time">
+									10:00								</div>
+							
+														
+																						<div class="ictip-desc">
+									<i>С 26 января по 8 февраля будет проведена спартакиада работников БелГУТа.</i> 								</div>
+							
+						</div>
+
+																	</div>
+					</a>				</div>
+					</div>
+
+				<div class="date ictip-date">
+			<span class="ictip-date-lbl">
+				Дата :
+			</span>
+			<span class="ictip-date-format">
+				2026-01-27			</span>
+		</div>
+
+	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+
+	
+	<div class="icevent " style="background:#4cfff9 !important;">
+
+				<a href="#" rel="nofollow" tabindex="0">
+		<div class="style_Today ic-bright" data-cal-date="2026-01-28">
+			28		</div>
+		</a>
+
+				<div class="spanEv">
+
+			
+				<div class="ictip-event">
+					<a href="/component/icagenda/1123-zasedanie-soveta-universiteta?Itemid=101&amp;date=2026-01-28-10-00">
+					<div class="linkTo">
+
+												<div class="ictip-img">
+						<span style="background: #4cfff9;" class="img"><img src="/images/icagenda/thumbs/themes/ic_small_w100h100q100_default1.jpg" alt="" /></span>						</div>
+
+												<div class="ictip-event-title titletip">
+														Заседание совета университета						</div>
+
+												
+												<div class="ictip-info ic-clearfix">
+
+																						<div class="ictip-time">
+									10:00								</div>
+							
+														
+																						<div class="ictip-desc">
+									<i>28 января 2025 года в 10.00 в ауд. 250 состоится заседание совета университета. Об</i> 								</div>
+							
+						</div>
+
+																	</div>
+					</a>				</div>
+					</div>
+
+				<div class="date ictip-date">
+			<span class="ictip-date-lbl">
+				Дата :
+			</span>
+			<span class="ictip-date-format">
+				2026-01-28			</span>
+		</div>
+
+	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2026-01-29">
+		29	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2026-01-30">
+		30	</div>
+</td><td style="background: ;">
+<!-- Module Calendar Day Pop-up -->
+
+	<div class="no-event style_Day" data-cal-date="2026-01-31">
+		31	</div>
+</td><td colspan="1"></td></tr></table></div></div>
+</div>
+<script type="text/javascript">
+(function($){
+	var icmouse = 'click';
+	var mouseout = '1';
+	var icclasstip = '.icevent a';
+	var icclass = '.iccalendar';
+	var position = 'center';
+	var posmiddle = 'top';
+	var modid = '106';
+	var modidid = '#106';
+	var icagendabtn = '.icagendabtn_106';
+	var mod_iccalendar = '#mod_iccalendar_106';
+	var template = '.default';
+	var loading = 'загрузка...';
+	var closetxt = 'Закрыть';
+	var tip_type = '1';
+	var tipwidth = 390;
+	var smallwidththreshold = 481;
+	var verticaloffset = 50;
+	var css_position = '';
+	var mobile_min_width = 320;
+	var extra_css = '';
+
+	$(document).on('click touchend', icagendabtn, function(e){		e.preventDefault();
+
+		url=$(this).attr('href');
+
+		$(modidid).html('<\div class="icloading_box"><\div style="text-align:center;">' + loading + '<\/div><\div class="icloading_img"><\/div><\/div>').load(url + ' ' + mod_iccalendar, function(){$('#mod_iccalendar_106').highlightToday();});
+
+	});
+
+	// Calendar Keyboard Accessibility (experimental, since 3.5.14)
+	if (typeof first_mod === 'undefined') {
+		$i = '1';
+		first_mod = modid;
+		first_nb = $i;
+		nb_mod = $i;
+	} else {
+		$i = (typeof $i === 'undefined') ? '2' : ++$i;
+		nb_mod = $i;
+	}
+
+	$('#ic-calendar-'+modid).addClass('ic-'+nb_mod);
+
+	$(document).keydown(function(e){
+
+		// ctrl+alt+C : focus on first Calendar module
+		// REMOVE: Polish language conflict, alt+C Ć
+//		if (e.ctrlKey && e.altKey && e.keyCode == 67) {
+//			$('#ic-calendar-'+first_mod).focus();
+//		}
+
+		// ctrl+alt+N : focus on Next calendar module
+		if (e.ctrlKey && e.altKey && e.keyCode == 78) {
+			if ($('#ic-calendar-'+modid).is(':focus')) {
+				activ = $('#ic-calendar-'+modid).attr('class');
+				act = activ.split('-');
+				act = act[1];
+				next = ++act;
+			}
+			mod_class = $('#ic-calendar-'+modid).attr('class');
+			if ($('.ic-'+next).length == 0) next = 1;
+			if (mod_class == 'ic-'+next) $('.ic-'+next).focus();
+		}
+
+		// On focused calendar module
+		if ($('#ic-calendar-'+modid).is(':focus')){
+			switch (e.keyCode) {
+				case 37:
+					// Left arrow pressed
+					url = $('#ic-calendar-'+modid+' #ic-prev-month').attr('href');
+					break;
+				case 38:
+					// Top arrow pressed
+					url = $('#ic-calendar-'+modid+' #ic-next-year').attr('href');
+					break;
+				case 39:
+					// Right arrow pressed
+					url = $('#ic-calendar-'+modid+' #ic-next-month').attr('href');
+					break;
+				case 40:
+					// Top arrow pressed
+					url = $('#ic-calendar-'+modid+' #ic-prev-year').attr('href');
+					break;
+			}
+
+			if ((!e.shiftKey && (e.keyCode == 37 || e.keyCode == 39)) ||
+				(e.shiftKey && (e.keyCode == 38 || e.keyCode == 40))) {
+				$(modidid).html('<\div class="icloading_box"><\div style="text-align:center;">' + loading + '<\/div><\div class="icloading_img"><\/div><\/div>').load(url + ' ' + mod_iccalendar, function(){$('#mod_iccalendar_106').highlightToday();});
+			}
+
+//			if ($(modidid+' '+icclasstip).is(':focus') && e.keyCode == 13){
+//				var icmouse = "click";
+//			}
+		}
+	});
+
+	if (tip_type=='2') {	$(document).on(icmouse, this, function(e){
+		e.preventDefault();
+
+		$(".iCaTip").tipTip({maxWidth: "400", defaultPosition: "top", edgeOffset: 1, activation:"hover", keepAlive: true});
+	});
+	}
+
+	if (tip_type=='1') {		$view_width=$(window).width();		if($view_width<smallwidththreshold){			icmouse='click touchend';
+		}
+
+		$(document).on(icmouse, modidid+' '+icclasstip, function(e){
+			$view_height=$(window).height();			$view_width=$(window).width();			e.preventDefault();
+			$('#ictip').remove();
+			$parent=$(this).parent();
+			$tip=$($parent).children(modidid+' .spanEv').html();
+
+			if ($view_width < smallwidththreshold)
+			{
+								css_position = 'fixed';
+				$width_px = Math.max(mobile_min_width,$view_width); 				$width = '100%';
+				$pos = '0px';
+				$top = '0px';
+				extra_css='border:0;border-radius:0;height:100%;box-shadow:none;margin:0px;padding:10px;min-width:'+mobile_min_width+'px;overflow-y:scroll;padding:0;';			}
+			else
+			{
+				css_position = 'absolute';
+				$width_px = Math.min($view_width, tipwidth);
+				$width = $width_px+'px';
+
+								switch(position) {
+					case 'left':
+						$pos=Math.max(0,$(modidid).offset().left-$width_px-10)+'px';
+						break;
+					case 'right':
+						$pos=Math.max(0,Math.min($view_width-$width_px,$(modidid).offset().left+$(modidid).width()+10))+'px';
+						break;
+					default:						$pos=Math.ceil(($view_width-$width_px)/2)+'px';
+						break;
+				}
+
+								if (posmiddle === 'top')
+				{
+					$top = Math.max(0,$(modidid).offset().top-verticaloffset)+'px';				}
+				else
+				{
+					$top = Math.max(0,$(modidid).offset().top+$(modidid).height()-verticaloffset)+'px';				}
+			}
+
+
+			$('body').append('<\div style="display:block; position:'+css_position+'; width:'+$width+'; left:'+$pos+'; top:'+$top+';'+extra_css+'" id="ictip"> '+$(this).parent().children('.date').html()+'<a class="close" style="cursor: pointer;"><\div style="display:block; width:auto; height:50px; text-align:right;">' + closetxt + '<\/div></a><span class="clr"></span>'+$tip+'<\/div>');
+
+			// Tooltip Keyboard Accessibility (experimental, since 3.5.14)
+			$(document).keydown(function(e){
+				//	Shift : focus on tooltip events
+				if ($('.icevent a').is(':focus') && e.keyCode == 16){
+					$('.ictip-event a').focus();
+				}
+				//	esc : close tooltip
+				if (($('.ictip-event a').is(':focus') || $('.icevent a').is(':focus')) && e.keyCode == 27){
+					e.preventDefault();
+					$('#ictip').remove();
+				}
+			});
+
+			// Close Tooltip
+			$(document).on('click touchend', '.close', function(e){
+				e.preventDefault();
+				$('#ictip').remove();
+			});
+
+			if (mouseout == '1')
+			{
+				$('#ictip')
+					.mouseout(function() {
+//						$( "div:first", this ).text( "mouse out" );
+						$('#ictip').stop(true).fadeOut(300);
+					})
+					.mouseover(function() {
+//						$( "div:first", this ).text( "mouse over" );
+						$('#ictip').stop(true).fadeIn(300);
+					});
+			}
+		});
+	}
+
+}) (jQuery);
+</script>
+
+		</div>
+
+			<div class="moduletable">
+
+		
+			<div class="minifrontpage-default" id="minifrontpage-950">
+<div class="minifrontpageid">
+	</div>
+
+<div class="mfp-other-article" style="display:table;table-layout: fixed; height:100px;width:100%;">
+	<div class="mfp-other-article-inner">
+		<span class="mfp-other-article-title">Все анонсы</span>
+		<ul>
+			<li><a href="/bsut-media/announcements/20494-s-dnem-belorusskoj-nauki-3">С Днем белорусской науки!</a></li><li><a href="/bsut-media/announcements/20492-rost-nauchnykh-kadrov-strategiya-budushchego-belarusi">Рост научных кадров - стратегия будущего Беларуси...</a></li><li><a href="/bsut-media/announcements/20515-s-prazdnikom-sozidateli-budushchego">С праздником, созидатели будущего!...</a></li>		</ul>
+	</div>
+</div>
+</div>
+		</div>
+
+			<div class="moduletable">
+
+		
+			
+
+<div class="custom"  >
+	<div class="row row-flex">
+<div class="card">
+<p style="text-align: justify; margin-left: 50px;"><a href="/university/departments/sportivnyj-klub/sportivnyj-kompleks" target="_blank"><img src="/images/MainMenuFiles/bsut/s.png" alt="s" width="260" height="82" /></a><br /> <a href="/university/departments/pool" target="_blank"><img src="/images/MainMenuFiles/bsut/b.png" alt="b" width="260" height="82" /></a></p>
+</div>
+</div>
+</div>
+
+		</div>
+
+			<div class="moduletable">
+
+		
+			
+
+<div class="custom"  >
+	<div class="row row-flex">
+<div class="card">
+<p style="text-align: justify; margin-left: 50px;"><a href="/university/departments/typography" target="_blank"><img src="/images/MainMenuFiles/bsut/rio.png" alt="rio" width="260" height="58" /></a></p>
+</div>
+</div></div>
+
+		</div>
+
+	
+	      </div>
+            <div class="col-md-8 col-md-pull-4">
+        		<div class="moduletable clearfix main-page">
+
+					<h2>Анонсы</h2>
+		
+			
+
+<div class="custom"  >
+	<div class="popular-tag" style="background: #518cc3; padding: 5px 10px; margin: 0px 10px 5px 0px;"><span style="color: #ffffff;"><a href="/bsut-media/announcements" style="color: #ffffff;">Все анонсы</a></span></div>
+<div class="popular-tag" style="background: #518cc3; padding: 5px 10px; margin: 0px 10px 5px 0px;"><span style="color: #ffffff;"><a href="/applicants/podgotovitelnye-kursy-k-tst/pdp/pdp-pr/kalendar-sobytij" style="color: #ffffff;">Абитуриентам</a></span></div>
+<div class="popular-tag" style="background: #518cc3; padding: 5px 10px; margin: 0px 10px 5px 0px;"><a href="/science/conferences/konferentsii-provodimye-belgutom" style="color: #ffffff;">Конференции</a></div>
+<div class="popular-tag" style="background: #518cc3; padding: 5px 10px; margin: 0px 10px 5px 0px;"><span style="color: #ffffff;"><a href="/component/tags/tag/events-offers" style="color: #ffffff;">Приглашения</a></span></div></div>
+
+		</div>
+
+			<div class="moduletable">
+
+		
+			<div class="minifrontpage-default" id="minifrontpage-103">
+<div class="minifrontpageid">
+		<div class="row row-flex">
+				<div class="col-md-6 col-flex">
+			<div class="material-card">
+								<div class="mfp-img">
+											<a href="/applicants/admission/admission-info">
+							<img class="mfp-img-left" 
+								src="/images/minifp/imagecache/fed29c35c9f0e8f59a79342b903ad61c.jpg" 
+								alt="" title=""
+								style="width:100%;" />
+						</a>
+					
+										</div>
+									<div class="text-container">
+				<span class="mfp-introtitle"><a href="/applicants/admission/admission-info">Опубликован порядок приема в БелГУТ на 2026 год...</a></span><br/>				</div>
+				<div class='clrfix'></div>			</div>
+		</div>
+				<div class="col-md-6 col-flex">
+			<div class="material-card">
+								<div class="mfp-img">
+											<a href="/bsut-media/announcements/20388-spartakiada-prepodavatelej-i-sotrudnikov-5">
+							<img class="mfp-img-left" 
+								src="/images/minifp/imagecache/f75422cddb245e868a12632efb97f6a2.jpg" 
+								alt="" title=""
+								style="width:100%;" />
+						</a>
+					
+										</div>
+									<div class="text-container">
+				<span class="mfp-introtitle"><a href="/bsut-media/announcements/20388-spartakiada-prepodavatelej-i-sotrudnikov-5">Изменения! Программа спартакиады преподавателей и ...</a></span><br/>				</div>
+				<div class='clrfix'></div>			</div>
+		</div>
+			</div>
+		<div class="row row-flex">
+				<div class="col-md-6 col-flex">
+			<div class="material-card">
+								<div class="mfp-img">
+											<a href="/students/professorsko-prepodavatelskomu-sostavu/pps-open">
+							<img class="mfp-img-left" 
+								src="/images/minifp/imagecache/f250f7178de6ba3deb55d1ee169868f3.jpg" 
+								alt="" title=""
+								style="width:100%;" />
+						</a>
+					
+										</div>
+									<div class="text-container">
+				<span class="mfp-introtitle"><a href="/students/professorsko-prepodavatelskomu-sostavu/pps-open">График проведения открытых занятий во II семестре ...</a></span><br/>				</div>
+				<div class='clrfix'></div>			</div>
+		</div>
+				<div class="col-md-6 col-flex">
+			<div class="material-card">
+								<div class="mfp-img">
+											<a href="/bsut-media/announcements/20528-zsu-26-2">
+							<img class="mfp-img-left" 
+								src="/images/minifp/imagecache/7bb3b37a97aebf49e61cec32dbac6562.jpg" 
+								alt="" title=""
+								style="width:100%;" />
+						</a>
+					
+										</div>
+									<div class="text-container">
+				<span class="mfp-introtitle"><a href="/bsut-media/announcements/20528-zsu-26-2">Заседание совета университета...</a></span><br/>				</div>
+				<div class='clrfix'></div>			</div>
+		</div>
+			</div>
+	</div>
+
+</div>
+		</div>
+
+	
+      </div>
+    </div>
+        								<div class="moduletable clearfix main-page">
+
+					<h2>Новости</h2>
+		
+			
+
+<div class="custom"  >
+	<div class="popular-tag" style="background: #518cc3; padding: 5px 10px; margin: 0px 10px 5px 0px;"><span style="color: #ffffff;"><a href="/news" style="color: #ffffff;">Все</a></span></div>
+<div class="popular-tag" style="background: #518cc3; padding: 5px 10px; margin: 0px 10px 5px 0px;"><span style="color: #ffffff;"><a href="/university/departments/otdel-po-vospitatelnoj-rabote-s-molodjozhyu/news-ovrm/3" style="color: #ffffff;">ИВР</a></span></div>
+<div class="popular-tag" style="background: #518cc3; padding: 5px 10px; margin: 0px 10px 5px 0px;"><span style="color: #ffffff;"><a href="/university/about/mezhdunarodnye-svyazi/otdel-mezhdunarodnykh-svyazej/mezhdunarodnaya-aktivnost" style="color: #ffffff;">Международные связи</a></span></div>
+<div class="popular-tag" style="background: #518cc3; padding: 5px 10px; margin: 0px 10px 5px 0px;"><span style="color: #ffffff;"><a href="/university/departments/sportivnyj-klub/novosti-sportivnogo-kluba" style="color: #ffffff;">Спорт</a></span></div>
+<div class="popular-tag" style="background: #518cc3; padding: 5px 10px; margin: 0px 10px 5px 0px;"><span style="color: #ffffff;"><a href="/component/tags/tag/studencheskaya-zhizn" style="color: #ffffff;">Студенты</a></span></div>
+<div class="popular-tag" style="background: #518cc3; padding: 5px 10px; margin: 0px 10px 0px 0px;"><span style="color: #ffffff;"><a href="/novosti-kafedr" style="color: #ffffff;">Новости подразделений</a></span></div>
+<div class="popular-tag" style="background: #518cc3; padding: 5px 10px; margin: 0px 10px 0px 0px;"><span style="color: #ffffff;"><a href="/component/tags/tag/profilaktika" style="color: #ffffff;">Профилактические материалы</a></span></div></div>
+
+		</div>
+
+			<div class="moduletable">
+
+		
+			﻿<div class="minifrontpage-default" id="minifrontpage-944">
+<div class="minifrontpageid">
+		<div class="row row-flex">
+				<div class="col-md-4 col-flex">
+			<div class="material-card">
+								<div class="mfp-img">
+											<a href="/news/20541-vi-mezhdunarodnaya-olimpiada-po-teoreticheskoj-mekhanike-aziatskij-region">
+							<img class="mfp-img-left" 
+								src="/images/minifp/imagecache/95a58a2aa435c2fdf339917e1c29d2bb.jpg" 
+								alt="" title=""
+								style="width:100%;" />
+						</a>
+					
+						<ul class="tags inline">
+																		<li class="tag-9 tag-list0" itemprop="keywords">
+						<a href="/component/tags/tag/universitet" class=" mfp-tag">
+							<span>Университет</span>
+						</a>
+					</li>
+										</ul>
+					</div>
+									<div class="text-container">
+				<span class="mfp-introtitle"><a href="/news/20541-vi-mezhdunarodnaya-olimpiada-po-teoreticheskoj-mekhanike-aziatskij-region">VI Международная олимпиада по теоретической механике (Азиатский регион...</a></span><br/><span class="mfp-date-author">28 января 2026</span>				</div>
+				<div class='clrfix'></div>			</div>
+		</div>
+				<div class="col-md-4 col-flex">
+			<div class="material-card">
+								<div class="mfp-img">
+											<a href="/news/20540-sorevnovaniya-po-shakhmatam">
+							<img class="mfp-img-left" 
+								src="/images/minifp/imagecache/c4a134efece0e5c4d958b6bdf2b4d3b4.jpg" 
+								alt="" title=""
+								style="width:100%;" />
+						</a>
+					
+						<ul class="tags inline">
+																		<li class="tag-8 tag-list0" itemprop="keywords">
+						<a href="/component/tags/tag/sport" class=" mfp-tag">
+							<span>Спорт</span>
+						</a>
+					</li>
+										</ul>
+					</div>
+									<div class="text-container">
+				<span class="mfp-introtitle"><a href="/news/20540-sorevnovaniya-po-shakhmatam">Спартакиада сотрудников. Шахматы</a></span><br/><span class="mfp-date-author">28 января 2026</span>				</div>
+				<div class='clrfix'></div>			</div>
+		</div>
+				<div class="col-md-4 col-flex">
+			<div class="material-card">
+								<div class="mfp-img">
+											<a href="/news/20539-ekskursiya-na-vzljot-studenty-dorozhniki-uznali-kak-funktsioniruet-aeroport-gomel-v-zimnee-vremya">
+							<img class="mfp-img-left" 
+								src="/images/minifp/imagecache/8a18e2ef6ad8912fdb4f68e8c484df09.jpg" 
+								alt="" title=""
+								style="width:100%;" />
+						</a>
+					
+						<ul class="tags inline">
+																		<li class="tag-9 tag-list0" itemprop="keywords">
+						<a href="/component/tags/tag/universitet" class=" mfp-tag">
+							<span>Университет</span>
+						</a>
+					</li>
+										</ul>
+					</div>
+									<div class="text-container">
+				<span class="mfp-introtitle"><a href="/news/20539-ekskursiya-na-vzljot-studenty-dorozhniki-uznali-kak-funktsioniruet-aeroport-gomel-v-zimnee-vremya">Экскурсия на взлёт: студенты-дорожники узнали как функционирует аэропо...</a></span><br/><span class="mfp-date-author">28 января 2026</span>				</div>
+				<div class='clrfix'></div>			</div>
+		</div>
+			</div>
+		<div class="row row-flex">
+				<div class="col-md-4 col-flex">
+			<div class="material-card">
+								<div class="mfp-img">
+											<a href="/news/20535-den-belorusskoj-nauki-2026">
+							<img class="mfp-img-left" 
+								src="/images/minifp/imagecache/9ef7e80a8db9f8d31e4776fc2455e743.jpg" 
+								alt="" title=""
+								style="width:100%;" />
+						</a>
+					
+						<ul class="tags inline">
+																		<li class="tag-9 tag-list0" itemprop="keywords">
+						<a href="/component/tags/tag/universitet" class=" mfp-tag">
+							<span>Университет</span>
+						</a>
+					</li>
+										</ul>
+					</div>
+									<div class="text-container">
+				<span class="mfp-introtitle"><a href="/news/20535-den-belorusskoj-nauki-2026">Награды ученым и сотрудникам БелГУТа ко Дню белорусской науки...</a></span><br/><span class="mfp-date-author">28 января 2026</span>				</div>
+				<div class='clrfix'></div>			</div>
+		</div>
+				<div class="col-md-4 col-flex">
+			<div class="material-card">
+								<div class="mfp-img">
+											<a href="/news/20534-v-gomele-obsudili-molodezhnye-initsiativy-po-blagoustrojstvu-goroda">
+							<img class="mfp-img-left" 
+								src="/images/minifp/imagecache/314a361862e7a631c03b8a36bca49c1f.jpg" 
+								alt="" title=""
+								style="width:100%;" />
+						</a>
+					
+						<ul class="tags inline">
+																		<li class="tag-9 tag-list0" itemprop="keywords">
+						<a href="/component/tags/tag/universitet" class=" mfp-tag">
+							<span>Университет</span>
+						</a>
+					</li>
+										</ul>
+					</div>
+									<div class="text-container">
+				<span class="mfp-introtitle"><a href="/news/20534-v-gomele-obsudili-molodezhnye-initsiativy-po-blagoustrojstvu-goroda">Инициативы по благоустройству Гомеля представили руководству города ст...</a></span><br/><span class="mfp-date-author">28 января 2026</span>				</div>
+				<div class='clrfix'></div>			</div>
+		</div>
+				<div class="col-md-4 col-flex">
+			<div class="material-card">
+								<div class="mfp-img">
+											<a href="/news/20533-konferentsiya-po-rezultatam-xxxii-respublikanskogo-konkursa-nauchnykh-rabot-studentov-vysshikh-uchebnykh-zavedenij-respubliki-belarus-sektsiya-transport-stroitelstvo-dorog-i-transportnykh-ob-ektov">
+							<img class="mfp-img-left" 
+								src="/images/minifp/imagecache/8cfd4ff5cbefa96052aae0b6d7fe4258.jpg" 
+								alt="" title=""
+								style="width:100%;" />
+						</a>
+					
+						<ul class="tags inline">
+																		<li class="tag-9 tag-list0" itemprop="keywords">
+						<a href="/component/tags/tag/universitet" class=" mfp-tag">
+							<span>Университет</span>
+						</a>
+					</li>
+										</ul>
+					</div>
+									<div class="text-container">
+				<span class="mfp-introtitle"><a href="/news/20533-konferentsiya-po-rezultatam-xxxii-respublikanskogo-konkursa-nauchnykh-rabot-studentov-vysshikh-uchebnykh-zavedenij-respubliki-belarus-sektsiya-transport-stroitelstvo-dorog-i-transportnykh-ob-ektov">Конференция по результатам XXXII Республиканского конкурса научных раб...</a></span><br/><span class="mfp-date-author">27 января 2026</span>				</div>
+				<div class='clrfix'></div>			</div>
+		</div>
+			</div>
+		<div class="row row-flex">
+				<div class="col-md-4 col-flex">
+			<div class="material-card">
+								<div class="mfp-img">
+											<a href="/news/20532-shashki">
+							<img class="mfp-img-left" 
+								src="/images/minifp/imagecache/19f5cc2b42e72a0046058b43a1b960cc.jpg" 
+								alt="" title=""
+								style="width:100%;" />
+						</a>
+					
+						<ul class="tags inline">
+																		<li class="tag-8 tag-list0" itemprop="keywords">
+						<a href="/component/tags/tag/sport" class=" mfp-tag">
+							<span>Спорт</span>
+						</a>
+					</li>
+										</ul>
+					</div>
+									<div class="text-container">
+				<span class="mfp-introtitle"><a href="/news/20532-shashki">Спартакиада работников БелГУТа. Шашки</a></span><br/><span class="mfp-date-author">27 января 2026</span>				</div>
+				<div class='clrfix'></div>			</div>
+		</div>
+				<div class="col-md-4 col-flex">
+			<div class="material-card">
+								<div class="mfp-img">
+											<a href="/news/20526-perspektivnye-dvigateli-i-vtoraya-zhizn-laboratorii">
+							<img class="mfp-img-left" 
+								src="/images/minifp/imagecache/681285e06bc28dcb45dd6fbfc10bac19.jpg" 
+								alt="" title=""
+								style="width:100%;" />
+						</a>
+					
+						<ul class="tags inline">
+																		<li class="tag-9 tag-list0" itemprop="keywords">
+						<a href="/component/tags/tag/universitet" class=" mfp-tag">
+							<span>Университет</span>
+						</a>
+					</li>
+										</ul>
+					</div>
+									<div class="text-container">
+				<span class="mfp-introtitle"><a href="/news/20526-perspektivnye-dvigateli-i-vtoraya-zhizn-laboratorii">Перспективные двигатели и  «вторая жизнь» лаборатории...</a></span><br/><span class="mfp-date-author">26 января 2026</span>				</div>
+				<div class='clrfix'></div>			</div>
+		</div>
+				<div class="col-md-4 col-flex">
+			<div class="material-card">
+								<div class="mfp-img">
+											<a href="/bsut-media/gazeta-vesti-belguta/vsjo-o-gazete">
+							<img class="mfp-img-left" 
+								src="/images/minifp/imagecache/121e4bef76d1e3a37780d7b6312e6309.jpg" 
+								alt="" title=""
+								style="width:100%;" />
+						</a>
+					
+						<ul class="tags inline">
+																		<li class="tag-9 tag-list0" itemprop="keywords">
+						<a href="/component/tags/tag/universitet" class=" mfp-tag">
+							<span>Университет</span>
+						</a>
+					</li>
+										</ul>
+					</div>
+									<div class="text-container">
+				<span class="mfp-introtitle"><a href="/bsut-media/gazeta-vesti-belguta/vsjo-o-gazete">Новый номер газеты «Вести БелГУТа»</a></span><br/><span class="mfp-date-author">26 января 2026</span>				</div>
+				<div class='clrfix'></div>			</div>
+		</div>
+			</div>
+	</div>
+
+<div class="mfp-other-article" style="display:table;table-layout: fixed; height:100px;width:100%;">
+	<div class="mfp-other-article-inner">
+		<span class="mfp-other-article-title">Другие новости</span>
+		<ul>
+			<li><a href="/news/20524-starsheklassniki-pukhovichskogo-rajona-vybirayut-belgut">Старшеклассники Пуховичского района выбирают БелГУТ...</a></li><li><a href="/news/20522-iz-inzhenernogo-klassa-v-inzhenery-stroiteli">Из инженерного класса  -  в инженеры-строители...</a></li><li><a href="/news/20521-okonchanie-sessii-v-gruppe-gt-21">Десятки по всем предметам на зимней сессии у студентов-таможенников...</a></li><li><a href="/news/20520-tatyany-belguta-imya-kak-professionalnyj-i-kulturnyj-marker-universitetskoj-sredy">Татьяны БелГУТа: имя как профессиональный и культурный маркер универси...</a></li><li><a href="/news/20519-vypusk-magistrov-zaochnoj-formy-2026">Выпуск магистров заочной формы - 2026</a></li><li><a href="/news/20517-dialogovaya-ploshchadka-10-voprosov-uchenomu-ko-dnyu-belorusskoj-nauki-2026">Диалоговая площадка «10 вопросов ученому» ко Дню белорусской науки–202...</a></li><li><a href="/news/20503-ocherednaya-vstrecha-2">Встреча с проректором по учебной работе в общежитии...</a></li><li><a href="/news/20516-vypusk-studentov-zaochnogo-fakulteta">Выпуск студентов заочного факультета</a></li><li><a href="/news/20509-nagrady-ot-nachalnika-belorusskoj-zheleznoj-dorogi-rabotnikam-belguta">Часы от Начальника Белорусской железной дороги работникам БелГУТа...</a></li><li><a href="/news/20511-2-d-1">Визит делегации Белорусской железной дороги в НИЛ университета...</a></li><li><a href="/news/20506-belorusskaya-zheleznaya-doroga-i-belgut-podpisali-dorozhnuyu-kartu-po-realizatsii-kontseptsii-razvitiya-inzhenernogo-obrazovaniya">Белорусская железная дорога и БелГУТ подписали Дорожную карту по реали...</a></li>		</ul>
+	</div>
+</div>
+</div>
+		</div>
+
+	
+			     <div class="blank">
+</div>
+  
+  </div>
+
+	<div class="level-3 container-fluid">
+	  <div class="container">
+          		<div class="moduletable">
+
+					<h2>Студенческая жизнь</h2>
+		
+			<div class="slideshowck camera_wrap camera_grey_skin" id="camera_wrap_949" style="width:1300px;">
+			<div data-thumb="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2025/305/th/8_th.jpg" data-src="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2025/305/8.jpg" data-link="university/studsovet" data-target="_parent">
+														<div class="camera_caption none">
+					<div class="camera_caption_title">
+						Студенческий совет											</div>
+										<div class="camera_caption_desc">
+																	</div>
+									</div>
+									</div>
+		<div data-thumb="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2022/363/th/65_th.jpg" data-src="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2022/363/65.jpg" data-link="bsut-media/announcements/19187" data-target="_parent">
+														<div class="camera_caption none">
+					<div class="camera_caption_title">
+						Творчество											</div>
+										<div class="camera_caption_desc">
+																	</div>
+									</div>
+									</div>
+		<div data-thumb="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2024/187/th/35_th.jpg" data-src="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2024/187/35.jpg" >
+														<div class="camera_caption none">
+					<div class="camera_caption_title">
+						НИРС											</div>
+										<div class="camera_caption_desc">
+																	</div>
+									</div>
+									</div>
+		<div data-thumb="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2023/268/th/16_th.jpg" data-src="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2023/268/16.jpg" data-link="university/departments/sportivnyj-klub/sportivnyj-kompleks/sport1-2" data-target="_parent">
+														<div class="camera_caption none">
+					<div class="camera_caption_title">
+						Спорт											</div>
+										<div class="camera_caption_desc">
+																	</div>
+									</div>
+									</div>
+		<div data-thumb="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2025/17/th/8_th.jpg" data-src="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2025/17/8.jpg" data-link="university/departments/otdel-po-vospitatelnoj-rabote-s-molodjozhyu/volonterski" data-target="_parent">
+														<div class="camera_caption none">
+					<div class="camera_caption_title">
+						Волонтерство											</div>
+										<div class="camera_caption_desc">
+																	</div>
+									</div>
+									</div>
+		<div data-thumb="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2023/191/th/10_th.JPG" data-src="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2023/191/10.JPG" data-link="university/social-communities/brsm/studencheskie-otryady-by" data-target="_parent">
+														<div class="camera_caption none">
+					<div class="camera_caption_title">
+						Студотряды											</div>
+										<div class="camera_caption_desc">
+																	</div>
+									</div>
+									</div>
+</div>
+<div style="clear:both;"></div>
+
+		</div>
+
+			<div class="moduletable">
+
+		
+			<div class="slideshowck camera_wrap camera_grey_skin" id="camera_wrap_1048" style="width:1300px;">
+			<div data-thumb="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2024/187/th/12_th.jpg" data-src="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2024/187/12.jpg" data-link="transport-future" data-target="_parent">
+														<div class="camera_caption none">
+					<div class="camera_caption_title">
+						ТРАНСПОРТ БУДУЩЕГО											</div>
+										<div class="camera_caption_desc">
+																	</div>
+									</div>
+									</div>
+		<div data-thumb="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2024/187/th/5_th.jpg" data-src="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2024/187/5.jpg" data-link="science/conferences/novosti/novosti-3/sntk" data-target="_parent">
+														<div class="camera_caption none">
+					<div class="camera_caption_title">
+						СНТК											</div>
+										<div class="camera_caption_desc">
+																	</div>
+									</div>
+									</div>
+		<div data-thumb="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2024/315/th/18_th.jpg" data-src="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2024/315/18.jpg" data-link="news/19922" data-target="_parent">
+														<div class="camera_caption none">
+					<div class="camera_caption_title">
+						СТУДЕНТ ГОДА											</div>
+										<div class="camera_caption_desc">
+																	</div>
+									</div>
+									</div>
+		<div data-thumb="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2025/48/th/2_th.jpg" data-src="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2025/48/2.jpg" data-link="university/departments/sportivnyj-klub" data-target="_parent">
+														<div class="camera_caption none">
+					<div class="camera_caption_title">
+						100 ИДЕЙ ДЛЯ БЕЛАРУСИ											</div>
+										<div class="camera_caption_desc">
+																	</div>
+									</div>
+									</div>
+</div>
+<div style="clear:both;"></div>
+
+		</div>
+
+			<div class="moduletable clearfix main-page">
+
+					<h2>БелГУТ на Доске почета</h2>
+		
+			
+
+<div class="custom"  >
+	<div class="popular-tag"><a href="/university/about/success" target="_blank" class="mfp-tag">Достижения университета</a></div></div>
+
+		</div>
+
+			<div class="moduletable social-communities">
+
+		
+			
+
+<div class="custom"  >
+	<div class="row row-flex">
+<div class="col-md-4 col-flex">
+<div class="card" style="margin-bottom: 20px;"><a href="/images/MainMenuFiles/bsut/dpo2024.jpg" target="_blank"><img src="/images/MainMenuFiles/bsut/dpo2024.jpg" alt="dpo2024" width="382" height="275" style="display: block; margin-left: auto; margin-right: auto;" /> </a></div>
+</div>
+<div class="col-md-4 col-flex">
+<div class="card" style="margin-bottom: 20px; margin-left: 10px;"><img src="/images/MainMenuFiles/bsut/dpg2024.jpg" alt="dpg2024" width="382" height="279" style="display: block; margin-left: auto; margin-right: auto;" /></div>
+</div>
+<div class="col-md-4 col-flex">
+<div class="card" style="margin-bottom: 20px; margin-left: 20px; margin-right: 10px;"><a href="/component/tags/tag/80-let-velikoj-pobedy"><img src="/images/MainMenuFiles/bsut/80.png" alt="80" width="300" height="300" style="display: block; margin-left: auto; margin-right: auto;" /></a></div>
+</div>
+</div></div>
+
+		</div>
+
+			<div class="moduletable social-communities">
+
+		
+			
+
+<div class="custom"  >
+	<div class="row row-flex">
+<div class="col-md-3 col-flex">
+<div class="material-card"><a href="/timetable" target="_blank" rel="noopener"><img src="/images/zastavki/rasspisanie.jpg" alt="rasspisanie" width="189" height="130" style="display: block; margin-left: auto; margin-right: auto;" /></a>
+<h4 style="text-align: center;"><a href="/timetable" target="_blank" rel="noopener">РАСПИСАНИЕ</a></h4>
+</div>
+</div>
+<div class="col-md-3 col-flex">
+<div class="material-card"><a href="/university/departments/library/elib" target="_blank" rel="noopener"><img src="/images/zastavki/elektronnaya_biblioteka.jpg" alt="elektronnaya biblioteka" width="190" height="130" style="display: block; margin-left: auto; margin-right: auto;" /></a>
+<h4 style="text-align: center;"><a href="/university/departments/library/elib" target="_blank" rel="noopener">ЭЛЕКТРОННАЯ БИБЛИОТЕКА</a></h4>
+</div>
+</div>
+<div class="col-md-3 col-flex">
+<div class="material-card"><a href="/university/departments/library/novosti" target="_blank" rel="noopener"><img src="/images/zastavki/ntb.jpg" alt="ntb" width="189" height="130" style="display: block; margin-left: auto; margin-right: auto;" /></a>
+<h4 style="text-align: center;"><a href="/university/departments/library/novosti" target="_blank" rel="noopener">НАУЧНО-ТЕХНИЧЕСКАЯ БИБЛИОТЕКА</a></h4>
+</div>
+</div>
+<div class="col-md-3 col-flex">
+<div class="material-card"><a href="/students/dist/dist-2" target="_blank" rel="noopener"><img src="/images/zastavki/dist.jpg" alt="dist" width="190" height="130" style="display: block; margin-left: auto; margin-right: auto;" /></a>
+<h4 style="text-align: center;"><a href="/students/dist/dist-2" target="_blank" rel="noopener">ДИСТАНЦИОННОЕ ОБУЧЕНИЕ</a></h4>
+</div>
+</div>
+</div></div>
+
+		</div>
+
+			<div class="moduletable social-communities">
+
+		
+			
+
+<div class="custom"  >
+	<div class="row row-flex">
+<div class="col-md-4 col-flex">
+<div class="mfp-img" style="margin-bottom: 20px;"><a href="/component/tags/tag/profkom-sotrudnikov" target="_blank"><img src="/images/MainMenuFiles/bsut/ps.png" alt="ps" width="350" height="234" style="display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px;" /></a></div>
+</div>
+<div class="col-md-4 col-flex">
+<div class="mfp-img" style="margin-bottom: 20px;"><a href="/university/social-communities/ppos"><img src="/images/MainMenuFiles/bsut/ss.png" alt="pr st" width="350" height="234" style="display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px;" /></a></div>
+</div>
+<div class="col-md-4 col-flex">
+<div class="mfp-img" style="margin-bottom: 20px;"><a href="/university/departments/ok/vacancy"><img src="/images/MainMenuFiles/bsut/k.png" alt="pps" width="350" height="234" style="display: block; margin-left: auto; margin-bottom: 20px; margin-right: auto;" /></a></div>
+</div>
+</div></div>
+
+		</div>
+
+			<div class="moduletable social-communities">
+
+		
+			
+
+<div class="custom"  >
+	<div class="row row-flex">
+<div class="col-md-4 col-flex">
+<div class="material-card"><a href="/university/social-communities/belayarus"><img src="/images/MainMenuFiles/ObUniversitete/ObschestvennyeOrganizacii/po_roo_belaya_rus/logo.png" alt="«Белая" style="display: block; margin-left: auto; margin-right: auto;" />
+<h3>ПО РОО «Белая Русь»</h3>
+</a></div>
+</div>
+<div class="col-md-4 col-flex">
+<div class="material-card"><a href="/university/social-communities/brsm"><img src="/images/MainMenuFiles/ObUniversitete/ObschestvennyeOrganizacii/po_oo_brsm/logo.png" alt="«БРСМ»" width="142" height="130" style="display: block; margin-left: auto; margin-right: auto;" />
+<h3>ПО ОО «БРСМ»</h3>
+</a></div>
+</div>
+<div class="col-md-4 col-flex">
+<div class="material-card"><a href="/university/social-communities/znanie"><img src="/images/znaki/znanie-logo.png" alt="«Знание»" width="100" height="130" style="display: block; margin-left: auto; margin-right: auto;" />
+<h3>ПО РГОО общества «Знание»</h3>
+</a></div>
+</div>
+</div></div>
+
+		</div>
+
+			<div class="moduletable social-communities">
+
+		
+			
+
+<div class="custom"  >
+	<div class="row row-flex">
+<div class="col-md-4 col-flex">
+<div class="material-card"><a href="/science/nauka-napr/science-ru" target="_blank" rel="noopener"><img src="/images/zastavki/nauch_d.jpg" alt="nauch d" width="177" height="145" style="display: block; margin-left: auto; margin-right: auto;" /></a>
+<h4 style="text-align: center;"><a href="/science/nauka-napr/science-ru" target="_blank" rel="noopener">Научно-исследовательская<br /> деятельность</a></h4>
+</div>
+</div>
+<div class="col-md-4 col-flex">
+<div class="material-card"><a href="/science/scientific-publication#sborniki-nauchnykh-trudov" target="_blank" rel="noopener"><img src="/images/zastavki/ni.jpg" alt="ni" width="177" height="145" style="display: block; margin-left: auto; margin-right: auto;" /></a>
+<h4 style="text-align: center;"><a href="/science/scientific-publication#sborniki-nauchnykh-trudov" target="_blank" rel="noopener">НАУЧНЫЕ ИЗДАНИЯ</a></h4>
+</div>
+</div>
+<div class="col-md-4 col-flex">
+<div class="material-card"><a href="/students/ipk" target="_blank"><img src="/images/zastavki/ipk.jpg" alt="ipk" width="177" height="145" style="display: block; margin-left: auto; margin-right: auto;" /></a>
+<h4 style="text-align: center;"><a href="/students/ipk" target="_blank">Институт повышения</a><br /><a href="/students/ipk" target="_blank"> квалификации и переподготовки</a></h4>
+</div>
+</div>
+</div></div>
+
+		</div>
+
+			<div class="moduletable clearfix main-page">
+
+					<h2>Видеотека</h2>
+		
+			
+
+<div class="custom"  >
+	<div class="popular-tag"><a href="/bsut-media/videoteka/video" class="mfp-tag">Все видео</a></div></div>
+
+		</div>
+
+			<div class="moduletable">
+
+		
+			<div class="slideshowck camera_wrap camera_grey_skin" id="camera_wrap_1050" style="width:500px;">
+			<div data-thumb="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2025/450/th/10_th.jpg" data-src="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2025/450/10.jpg" >
+										<iframe src="https://www.youtube.com/embed/fYy9JQhEUUI?si=3UM7fITgm0B-2utE&wmode=transparent" width="100%" height="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+					</div>
+		<div data-thumb="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2025/305/th/25_th.jpg" data-src="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2025/305/25.jpg" >
+										<iframe src="https://www.youtube.com/embed/V-ATeFjDd5g?si=4ioaO-NXhDt-XXqA&wmode=transparent" width="100%" height="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+					</div>
+		<div data-thumb="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2022/152/th/20_th.jpg" data-src="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2022/152/20.jpg" >
+										<iframe src="https://www.youtube.com/embed/VkIzxQY011M?si=gzkRDXxBrN8MSXZM&wmode=transparent" width="100%" height="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+					</div>
+		<div data-thumb="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2022/49/th/d8_th.jpg" data-src="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2022/49/d8.jpg" >
+										<iframe src="https://www.youtube.com/embed/riti_7sUS40?si=qXLd6fOvorVjyNdn&wmode=transparent" width="100%" height="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+					</div>
+</div>
+<div style="clear:both;"></div>
+
+		</div>
+
+			<div class="moduletable clearfix main-page">
+
+		
+			
+
+<div class="custom"  >
+	<hr/></div>
+
+		</div>
+
+			<div class="moduletable clearfix main-page">
+
+					<h2>Фотогалерея</h2>
+		
+			
+
+<div class="custom"  >
+	<div class="popular-tag"><a href="/component/tags/tag/fotagalereya" target="_blank" class="mfp-tag">Все фото</a></div></div>
+
+		</div>
+
+			<div class="moduletable social-communities">
+
+		
+			
+
+<div class="custom"  >
+	<div class="row row-flex">
+<div class="col-md-4 col-flex">
+<div class="material-card"><a href="/photo-galery-k/19573" target="_blank"><img src="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2025/323/103.jpg" alt="1 2" width="245" height="164" style="display: block; margin-left: auto; margin-right: auto;" />
+<h3 style="text-align: center;"><span style="font-size: 12pt; color: #339966;">День матери 2025</span></h3>
+</a></div>
+</div>
+<div class="col-md-4 col-flex">
+<div class="material-card"><a href="/photo-galery-k/19600" target="_blank"><img src="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2025/328/8.jpg" alt="voit" width="245" height="164" style="display: block; margin-left: auto; margin-right: auto;" /></a>
+<h3 style="text-align: center;"><a href="/photo-galery-k/19600"><span style="font-size: 12pt; color: #339966;">Осенний кросс 2025</span></a></h3>
+</div>
+</div>
+<div class="col-md-4 col-flex">
+<div class="material-card"><a href="/photo-galery-k/19061" target="_blank"><img src="/images/MainMenuFiles/ObUniversitete/NovostiVse/Novosti/2025/235/23.jpg" alt="tryputnik" width="245" height="164" style="margin-bottom: 20px; display: block; margin-left: auto; margin-right: auto;" /></a>
+<h3 style="text-align: center;"><a href="/photo-galery-k/19061"><span style="font-size: 12pt; color: #339966;">День выпускника 2025</span></a></h3>
+</div>
+</div>
+</div></div>
+
+		</div>
+
+			<div class="moduletable social-communities">
+
+		
+			
+
+<div class="custom"  >
+	<hr /><hr />
+<div class="row row-flex">
+<div class="col-md-3 col-flex">
+<div class="mfp-img" style="margin-bottom: 20px;"><a href="https://меркаванне.бел/portal/index.php" target="_blank" rel="noopener"><img src="/images/zastavki/m.jpg" alt="ps" width="250" height="166" style="display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px;" /></a></div>
+</div>
+<div class="col-md-3 col-flex">
+<div class="mfp-img" style="margin-bottom: 20px;"><a href="/university/departments/otdel-po-vospitatelnoj-rabote-s-molodjozhyu/mts-informiruet" target="_blank"><img src="/images/MainMenuFiles/bsut/inms.jpg" alt="inms" width="250" height="167" style="display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px;" /></a></div>
+</div>
+<div class="col-md-3 col-flex">
+<div class="mfp-img" style="margin-bottom: 20px;"><a href="/component/tags/tag/profilaktika-kiberprestuplenij" target="_blank"><img src="/images/zastavki/ks.jpg" alt="pps" width="250" height="166" style="display: block; margin-left: auto; margin-bottom: 20px; margin-right: auto;" /></a></div>
+</div>
+<div class="col-md-3 col-flex">
+<div class="mfp-img" style="margin-bottom: 20px;"><iframe src="https://xn----7sbgfh2alwzdhpc0c.xn--90ais/widget?pan=400057727" width="300" height="130" title="Качество услуг" frameborder="0" scrolling="no"></iframe></div>
+</div>
+</div></div>
+
+		</div>
+
+	
+	  </div>
+	</div>
+
+
+
+<footer class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+      	<div class="row">
+			<div class="footer-logo col-md-2">
+				<a href="#" title="БелГУТ" rel="home">
+					<img alt="БелГУТ" src="https://bsut.by/templates/bsutby/img/logo-white.png">
+				</a>
+			</div>
+		</div>
+					<div class="social-media-links clearfix">
+      					<div class="moduletable">
+
+					<h3>БелГУТ в социальных ресурсах</h3>
+		
+			
+
+<div class="custom"  >
+	<div><a href="https://vk.com/bsutby" target="blank"> <span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-vk fa-stack-1x"></i> </span> </a> <a href="https://ok.ru/bsutby" target="blank"> <span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-odnoklassniki fa-stack-1x"></i> </span> </a> <a href="https://www.facebook.com/bsutby/" target="blank"> <span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-facebook fa-stack-1x"></i> </span> </a> <a href="https://www.instagram.com/bsutby/" target="blank"> <span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-instagram fa-stack-1x"></i> </span> </a> <a href="https://www.youtube.com/channel/UC7m4qW0vhQdih_EAONAANYQ" target="blank"> <span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-youtube-play fa-stack-1x"></i> </span> </a><a href="https://www.linkedin.com/school/16172096" target="blank"> <span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-linkedin fa-stack-1x"></i> </span> </a><a href="https://t.me/bsut_oms" target="blank"> <span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-telegram fa-stack-1x"></i> </span> </a></div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div></div>
+
+		</div>
+
+			<div class="moduletable">
+
+					<h3>Студсовет в социальных ресурсах</h3>
+		
+			
+
+<div class="custom"  >
+	<div><a href="https://www.instagram.com/ssb_bsut/" target="blank"> <span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-instagram fa-stack-1x"></i> </span> </a> <a href="https://t.me/studnews_bsut" target="blank"> <span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-telegram fa-stack-1x"></i> </span> </a><a href="https://www.tiktok.com/@ssb_bsut?_t=ZM-90oeNRdTKBg&amp;_r=1" target="blank"> <i> <img src="/images/zastavki/tk1.png" alt="tk" style="margin: 2px 0px 0px;" /></i> </a></div>
+<p>&nbsp;</p></div>
+
+		</div>
+
+	
+      		</div>
+      	      </div>
+      
+      <div class="col-md-4">
+      		      <div class="links">
+	      			<div class="moduletable">
+
+					<h3>Интернет-ресурсы</h3>
+		
+			
+
+<div class="custom"  >
+	<ul>
+<li><a href="http://president.gov.by/" target="blank">Президент Республики Беларусь</a></li>
+<li><a href="http://www.mintrans.gov.by/" target="_blank" rel="noopener noreferrer">Министерство транспорта и коммуникаций Республики Беларусь</a></li>
+<li><a href="/of-ir" target="_blank" rel="noopener">Официальные интернет-ресурсы</a></li>
+<li><a href="/edu-ir" target="_blank" rel="noopener">Наши партнёры и образовательные интернет-ресурсы</a></li>
+<li><a href="http://качество-услуг.бел/RatingPortal" target="_blank" rel="noopener">Портал рейтинговой оценки оказания услуг организациями Республики Беларусь</a></li>
+<li><a href="https://www.abiturient.by/" target="_blank" rel="noopener">АБИТУРИЕНТ.by</a></li>
+</ul></div>
+
+		</div>
+
+	
+	      </div>
+	  	      </div>
+      
+      <div class="col-md-4">
+				<div class="links">
+					<div class="moduletable">
+
+					<h3>Контакты</h3>
+		
+			
+
+<div class="custom"  >
+	<p>Республика Беларусь, Гомель</p>
+<p>246653, ул. Кирова, д. 34</p>
+<p>E-mail: <a href="mailto:bsut@bsut.by">bsut@bsut.by</a></p>
+<p><a href="/images/BottomMenuFiles/OdnoOkno/phone2026.pdf" target="_blank" rel="noreferrer" title="Скачать/открыть">Телефонный справочник</a></p>
+<p>приемная первого проректора: <a href="tel:%20375%20(232)%20953981">375 (232)953981</a></p>
+<p>иностранным гражданам: <a href="tel:%20375%20(232)%20953968">375 (232)953968</a></p>
+<p><a href="/contacts/all" target="_blank">Все контакты</a></p>
+<p><a href="/contacts/belgie">Регистрационный номер интернет-ресурса</a></p></div>
+
+		</div>
+
+	
+		</div>
+		      </div>
+    </div>
+    <div class="row on-map">
+      <div class="col-sm-12 col-md-8 copiright">
+        <p>© 2026 БелГУТ</p>
+      </div>
+      <div class="col-sm-12 col-md-4 links">
+      						<div class="moduletable">
+
+		
+			
+
+<div class="custom"  >
+	<p class="on-map"><a href="https://goo.gl/maps/KQPA7KmJsQD2"><img src="/images/footer-map-point.png" alt="" /><img alt="" />Показать на карте</a></p></div>
+
+		</div>
+
+	
+		      </div>
+    <div>
+  </div>
+</footer>
+<div id="sp-cookie-consent" class="position-bottom_left"><div><div class="sp-cookie-consent-content">Этот сайт использует cookie для хранения данных. Продолжая использовать сайт, Вы даете согласие на обработку файлов cookie и пользовательских данных в соответствии с Политикой обработки файлов cookie </div><div class="sp-cookie-consent-action"><a class="sp-cookie-close sp-cookie-allow" href="#">Принять и закрыть</a></div></div></div></body>
+</html>

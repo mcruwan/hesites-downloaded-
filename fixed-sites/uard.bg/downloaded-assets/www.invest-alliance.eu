@@ -1,0 +1,1474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <title>Home - invest-alliance.eu - A european university alliance</title>
+
+    
+<meta name="keywords" content="invest-alliance.eu, investalliance, european university, erasmus university, virtual campus, invest alliance" />
+<meta name="description" content="The INVEST European University Alliance brings together Slovak University of Agriculture (SUA), University of Agribusiness and Rural Development (UARD), University of Thessaly (UTH), Karelia University of Applied Sciences and Van Hall Larenstein, University of Applied Sciences in a shared extensive experience and a common profile as internationalized institutions for the implementation of European Commission initiative for the formation and evaluation of European Universities." />
+<meta name="author" content="invest-alliance.eu" />
+<meta name="robots" content="index, follow" />
+<meta property="og:image" content="https://www.invest-alliance.eu//images/invest_mainbg2.jpg" />
+<meta property="og:description" content="The INVEST European University Alliance brings together Slovak University of Agriculture (SUA), University of Agribusiness and Rural Development (UARD), University of Thessaly (UTH), Karelia University of Applied Sciences and Van Hall Larenstein, University of Applied Sciences in a shared extensive experience and a common profile as internationalized institutions for the implementation of European Commission initiative for the formation and evaluation of European Universities." />
+<meta property="og:title" content="Home" />
+<meta property="og:type" content="website" />
+
+
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/style.css?v=1.4.4" />
+    <link rel="stylesheet" href="/css/investsite.min.css?v=1.4.4" />
+    <link rel="stylesheet" href="/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/css/owl.theme.css" /> 
+    <link rel="stylesheet" href="/css/jquery.cookiebar.css?v=1.4.4" />
+    <script src="/js/jquery.min.js"></script>
+   
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+</head>
+
+<body class="royal_preloader">
+    <div id="page" class="site">
+
+        
+
+
+<header id="site-header" class="site-header sticky-header header-static">
+
+    <div class="octf-main-header">
+        <div class="octf-area-wrap">
+            <div class="container octf-mainbar-container container_headerbar">
+                <div class="octf-mainbar">
+                    <div class="octf-mainbar-row octf-row">
+                        <div class="octf-col logo-col">
+                            <div id="site-logo" class="site-logo">
+                                <a href="/">
+                                    <img src="/images/logo_invest_main_v2.png" alt="invest-alliance.eu" class="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="octf-col menu-col">
+                            <nav id="site-navigation" class="main-navigation">
+                                <ul class="menu">
+                                      
+                                            <li class="menu-item-has-children menu_textcat1">
+                                                <a id="menu_1" href="/en/Home/Category?textcat=about-invest">About INVEST</a>
+                                                 
+                                                    <ul class="sub-menu ul_megamenu">
+                                                        <li class="li_megamenu_fl"><img src="/docs/image/various/da6c12af-a92b-4242-af97-b3352275a28d.jpg?width=500" style="max-width:95%;" class="bord15" alt="invest-alliance.eu" /></li>
+                                                        <li class="li_megamenu_fl">
+                                                            <div style=" font-size: 14px; font-weight: 300;">Led by the idea of strengthening the link between teaching, research, innovation and knowledge transfer, encouraging mobility and enhancing the high quality and excellence in education and research, the seven European universities unite their efforts.</div>
+                                                            
+                                                        <div style="display:flex; align-items:flex-end; margin-bottom:15px;">
+                                                            <a class="megamenu_li_link_a0 alink_2" style="margin-right:15px;" href="/en/Home/Reports/reports_public"><i class="fa fa-folder"></i> PUBLIC REPORTS</a>
+                                                            <a class="megamenu_li_link_a0 alink_2" href="/en/Home/Reports/reports_internal"><i class="fa fa-folder"></i> INTERNAL REPORTS</a>
+                                                        </div>  
+                                                            </li>
+                                                        <li class="li_megamenu_fl">
+                                                                <a class="megamenu_li_link_a0 alink_2" href="/en/Home/Texts?link=1-who-we-are"><i class="fa fa-chevron-right"></i> WHO WE ARE</a>
+                                                                <a class="megamenu_li_link_a0 alink_2" href="/en/Home/Texts?link=2-our-vision"><i class="fa fa-chevron-right"></i> OUR VISION</a>
+                                                                <a class="megamenu_li_link_a0 alink_2" href="/en/Home/Texts?link=3-focal-points-and-fields-in-invest"><i class="fa fa-chevron-right"></i> FOCAL POINTS AND FIELDS IN INVEST</a>
+                                                                <a class="megamenu_li_link_a0 alink_2" href="/en/Home/Texts?link=4-organizational-structure"><i class="fa fa-chevron-right"></i> ORGANIZATIONAL STRUCTURE</a>
+                                                                <a class="megamenu_li_link_a0 alink_2" href="/en/Home/Texts?link=12-mission"><i class="fa fa-chevron-right"></i> MISSION</a>
+                                                                <a class="megamenu_li_link_a0 alink_2" href="/en/Home/Texts?link=13-work-packages"><i class="fa fa-chevron-right"></i> WORK PACKAGES</a>
+                                                            
+                                                        </li>
+
+                                                    </ul>
+
+                                            </li>
+                                            <li class="menu-item-has-children menu_textcat2">
+                                                <a id="menu_2" href="/en/Home/Category?textcat=virtual-campus">Virtual Campus</a>
+                                                 
+                                                    <ul class="sub-menu ul_megamenu">
+                                                        <li class="li_megamenu_fl"><img src="/docs/image/various/3b72701b-fa7f-4fdc-be09-ec0ebbbdd804.jpg?width=500" style="max-width:95%;" class="bord15" alt="invest-alliance.eu" /></li>
+                                                        <li class="li_megamenu_fl">
+                                                            <div style=" font-size: 14px; font-weight: 300;">Invest Virtual Campus is the basic tool of the alliance which manages the study affair and also provides access to the staff and students, giving them opportunities to be involved in the development of the alliance's common degrees and courses (at all levels including the lifelong learning), mobilities and training/learning materials. EDUC8EU integrated platform will be utilized for the provision of consistent decision support for students by processing specific learner and organizational parameters derived from our research and analysis.</div>
+                                                            
+
+                                                            </li>
+                                                        <li class="li_megamenu_fl">
+                                                                <a class="megamenu_li_link_a0 alink_2" href="/en/Home/Texts?link=6-invest-campus"><i class="fa fa-chevron-right"></i> INVEST CAMPUS</a>
+                                                                <a class="megamenu_li_link_a0 alink_2" href="/en/Home/Texts?link=7-living-labs"><i class="fa fa-chevron-right"></i> LIVING LABS</a>
+                                                                <a class="megamenu_li_link_a0 alink_2" href="/en/Home/Texts?link=14-learning-pathways"><i class="fa fa-chevron-right"></i> LEARNING PATHWAYS</a>
+                                                                <a class="megamenu_li_link_a0 alink_2" href="/en/Home/Texts?link=15-educ8eu"><i class="fa fa-chevron-right"></i> EDUC8EU</a>
+                                                            
+                                                        </li>
+
+                                                    </ul>
+
+                                            </li>
+                                            <li class="menu-item-has-children menu_textcat3">
+                                                <a id="menu_3" href="/en/Home/Category?textcat=invest-society">INVEST Society</a>
+                                                 
+                                                    <ul class="sub-menu ul_megamenu">
+                                                        <li class="li_megamenu_fl"><img src="/docs/image/various/888608a6-ec7e-4d3f-a4d1-74d33f56fd49.jpg?width=500" style="max-width:95%;" class="bord15" alt="invest-alliance.eu" /></li>
+                                                        <li class="li_megamenu_fl">
+                                                            <div style=" font-size: 14px; font-weight: 300;">We see INVEST as fully functioning, innovative and bottom-up network of universities, achieving higher standards in education, training, research and innovation through international synergy and excellence taking greater responsibilities towards development of inclusive society and knowledge-based economy.</div>
+                                                            
+
+                                                            </li>
+                                                        <li class="li_megamenu_fl">
+                                                                <a class="megamenu_li_link_a0 alink_2" href="/en/Home/Texts?link=8-students"><i class="fa fa-chevron-right"></i> STUDENTS</a>
+                                                                <a class="megamenu_li_link_a0 alink_2" href="/en/Home/Texts?link=9-our-people"><i class="fa fa-chevron-right"></i> OUR PEOPLE </a>
+                                                                <a class="megamenu_li_link_a0 alink_2" href="/en/Home/Texts?link=11-research"><i class="fa fa-chevron-right"></i> RESEARCH</a>
+                                                                <a class="megamenu_li_link_a0 alink_2" href="/en/Home/Texts?link=62-center-of-excellence---research---innovation"><i class="fa fa-chevron-right"></i> CENTRE OF EXCELLENCE</a>
+                                                            
+                                                        </li>
+
+                                                    </ul>
+
+                                            </li>
+                                            <li class="menu-item-has-children menu_textcat9">
+                                                <a id="menu_9" href="/home/studies">Studies</a>
+                                                 
+                                                    <ul class="sub-menu ul_megamenu">
+                                                        <li class="li_megamenu_fl"><img src="/docs/image/various/e6fbe5a3-f387-4e88-987b-f474ef89cad0.jpg?width=500" style="max-width:95%;" class="bord15" alt="invest-alliance.eu" /></li>
+                                                        <li class="li_megamenu_fl">
+                                                            <div style=" font-size: 14px; font-weight: 300;"></div>
+                                                            
+
+                                                                <a class="megamenu_li_link_a0 alink_2" href="/Home/Studies?type=bachelors"><i class="fa fa-chevron-right"></i> BACHELORS</a>
+                                                                <a class="megamenu_li_link_a0 alink_2" href="/Home/Studies?type=masters"><i class="fa fa-chevron-right"></i> MASTERS</a>
+                                                                <a class="megamenu_li_link_a0 alink_2" href="/en/Home/Texts?link=61-phd"><i class="fa fa-chevron-right"></i> PHD</a>
+                                                            </li>
+                                                        <li class="li_megamenu_fl">
+                                                                <a class="megamenu_li_link_a0 alink_2" href="/en/Home/Texts?link=59-microcredentials"><i class="fa fa-chevron-right"></i> MICROCREDENTIALS</a>
+                                                                <a class="megamenu_li_link_a0 alink_2" href="/en/Home/Texts?link=60-lifelong-learning"><i class="fa fa-chevron-right"></i> LIFELONG LEARNING</a>
+                                                                <a class="megamenu_li_link_a0 alink_2" href="/en/Home/Texts?link=63-invest-fellow-programme"><i class="fa fa-chevron-right"></i> INVEST FELLOW PROGRAMME</a>
+                                                            
+                                                        </li>
+
+                                                    </ul>
+
+                                            </li>
+
+
+                                    <li class="menu_news">
+                                        <a class="menu_news0" href="/en/Home/News">News</a>
+                                    </li>
+
+                                    <li class="menu-item-has-children menu_partners">
+                                        <a class="menu_studies" href="/en/Home/Partners">Partners</a>
+                                        <ul class="sub-menu bord15">
+                                            <li><a href="/en/Home/Partners">CURRENT</a></li>
+                                            <li><a href="/en/Home/PartnersPrevious">PREVIOUS</a></li>
+                                            <li><a href="/en/Home/PartnersAssociates">ASSOCIATES</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu_contact"><a href="/en/Home/Contact">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="octf-col cta-col text-right">
+                            <!-- Call To Action -->
+                            <div class="octf-btn-cta">
+
+                                <div class="octf-header-module cart-btn-hover">
+                                    <div class="h-cart-btn octf-cta-icons">
+                                        <a class="cart-icon" href="#"><i class="flaticon-gear"></i><span class="count">EN</span></a>
+                                    </div>
+                                    <div class="site-header-cart bord15">
+                                            <a class="changelang_item activelang" href="/en/Home/SetLanguage?newculture=en&amp;returnURL=%2FHome%2FIndex">EN</a>
+                                            <a class="changelang_item " href="/en/Home/SetLanguage?newculture=sk&amp;returnURL=%2FHome%2FIndex">SK</a>
+                                            <a class="changelang_item " href="/en/Home/SetLanguage?newculture=bg&amp;returnURL=%2FHome%2FIndex">BG</a>
+                                            <a class="changelang_item " href="/en/Home/SetLanguage?newculture=el&amp;returnURL=%2FHome%2FIndex">EL</a>
+                                            <a class="changelang_item " href="/en/Home/SetLanguage?newculture=fi&amp;returnURL=%2FHome%2FIndex">FI</a>
+                                            <a class="changelang_item " href="/en/Home/SetLanguage?newculture=nl&amp;returnURL=%2FHome%2FIndex">NL</a>
+                                    </div>
+                                </div>
+
+                                <div class="octf-header-module">
+                                    <div class="toggle_search octf-cta-icons">
+                                        <i class="flaticon-search"></i>
+                                    </div>
+                                    <!-- Form Search on Header -->
+                                    <div class="h-search-form-field collapse">
+                                        <div class="h-search-form-inner bord15">
+                                            <form role="search" action="/en/Home/Search" method="get" id="hsearch-form" class="search-form">
+                                                <div class="bord15">
+                                                    <span class="screen-reader-text">Search for:</span>
+                                                    <input type="search" class="search-field" placeholder="Search …" value="" name="SearchTerm">
+                                                </div>
+                                                <button type="submit" class="search-submit"><i class="flaticon-search"></i></button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header_mobile">
+        <div class="container">
+            <div class="mlogo_wrapper clearfix">
+                <div class="mobile_logo">
+                    <a href="/">
+                        <img src="/images/logo_invest_main_v2.png" alt="invest-alliance.eu">
+                    </a>
+                </div>
+                <div id="mmenu_toggle">
+                    <button></button>
+                </div>
+            </div>
+            <div class="mmenu_wrapper">
+                <div class="mobile_nav collapse">
+                    <ul id="menu-main-menu" class="mobile_mainmenu">
+
+                        <li><a href="/">Home</a></li>
+
+                                <li class="menu-item-has-children menu_textcat1">
+                                    <a id="mobile_menu_1" href="/en/Home/Category?textcat=about-invest">About INVEST</a>
+
+                                    <ul class="sub-menu">
+                                            <li><a href="/en/Home/Texts?link=1-who-we-are">Who We Are</a></li>
+                                            <li><a href="/en/Home/Texts?link=2-our-vision">Our Vision</a></li>
+                                            <li><a href="/en/Home/Texts?link=3-focal-points-and-fields-in-invest">Focal Points And Fields In INVEST</a></li>
+                                            <li><a href="/en/Home/Texts?link=4-organizational-structure">Organizational Structure</a></li>
+                                            <li><a href="/en/Home/Texts?link=12-mission">Mission</a></li>
+                                            <li><a href="/en/Home/Texts?link=13-work-packages">Work Packages</a></li>
+
+                                            <li><a class="megamenu_li_link_a" href="/en/Home/Reports/reports_public"><i class="fa fa-folder"></i> Public Reports</a></li>
+                                            <li>
+                                                <a class="megamenu_li_link_a" href="/en/Home/Reports/reports_internal"><i class="fa fa-folder"></i> Internal Reports</a>
+                                            </li>
+
+                                    </ul>
+                                     
+                                </li>
+                                <li class="menu-item-has-children menu_textcat2">
+                                    <a id="mobile_menu_2" href="/en/Home/Category?textcat=virtual-campus">Virtual Campus</a>
+
+                                    <ul class="sub-menu">
+                                            <li><a href="/en/Home/Texts?link=6-invest-campus">INVEST Campus</a></li>
+                                            <li><a href="/en/Home/Texts?link=7-living-labs">Living Labs</a></li>
+                                            <li><a href="/en/Home/Texts?link=14-learning-pathways">Learning Pathways</a></li>
+                                            <li><a href="/en/Home/Texts?link=15-educ8eu">EDUC8EU</a></li>
+
+
+                                    </ul>
+                                     
+                                </li>
+                                <li class="menu-item-has-children menu_textcat3">
+                                    <a id="mobile_menu_3" href="/en/Home/Category?textcat=invest-society">INVEST Society</a>
+
+                                    <ul class="sub-menu">
+                                            <li><a href="/en/Home/Texts?link=8-students">Students</a></li>
+                                            <li><a href="/en/Home/Texts?link=9-our-people">Our people </a></li>
+                                            <li><a href="/en/Home/Texts?link=11-research">Research</a></li>
+                                            <li><a href="/en/Home/Texts?link=62-center-of-excellence---research---innovation">Centre of Excellence</a></li>
+
+
+                                    </ul>
+                                     
+                                </li>
+                                <li class="menu-item-has-children menu_textcat9">
+                                    <a id="mobile_menu_9" href="/home/studies">Studies</a>
+
+                                    <ul class="sub-menu">
+                                            <li><a href="/Home/Studies?type=bachelors">Bachelors</a></li>
+                                            <li><a href="/Home/Studies?type=masters">Masters</a></li>
+                                            <li><a href="/en/Home/Texts?link=61-phd">Phd</a></li>
+                                            <li><a href="/en/Home/Texts?link=59-microcredentials">Microcredentials</a></li>
+                                            <li><a href="/en/Home/Texts?link=60-lifelong-learning">Lifelong learning</a></li>
+                                            <li><a href="/en/Home/Texts?link=63-invest-fellow-programme">INVEST FELLOW PROGRAMME</a></li>
+
+
+                                    </ul>
+                                     
+                                </li>
+
+
+                        <li>
+                            <a id="menu_news" href="/en/Home/News">News</a>
+                        </li>
+
+                        <li><a class="menu_partners" href="/en/Home/Partners">Partners</a></li>
+                        <li><a class="menu_contact" href="/en/Home/Contact">Contact</a></li>
+                        <li>
+                            <div style="padding-bottom: 15px; padding-top: 44px; text-align: right;">
+                                <button type="button" class="btn btn-primary btn-sm mobile_langbutton" style="" data-toggle="modal" data-target="#langchangeModal">
+                                    EN
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<!-- Modal -->
+<div class="modal fade" id="langchangeModal" tabindex="-1" role="dialog" aria-labelledby="langModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="border-radius:0px;">
+            <div class="modal-header">
+                <h6 class="modal-title" id="langModalLabel">Select website language</h6>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                    <a class="changelang_item activelang" href="/en/Home/SetLanguage?newculture=en&amp;returnURL=%2F">EN</a>
+                    <a class="changelang_item " href="/en/Home/SetLanguage?newculture=sk&amp;returnURL=%2F">SK</a>
+                    <a class="changelang_item " href="/en/Home/SetLanguage?newculture=bg&amp;returnURL=%2F">BG</a>
+                    <a class="changelang_item " href="/en/Home/SetLanguage?newculture=el&amp;returnURL=%2F">EL</a>
+                    <a class="changelang_item " href="/en/Home/SetLanguage?newculture=fi&amp;returnURL=%2F">FI</a>
+                    <a class="changelang_item " href="/en/Home/SetLanguage?newculture=nl&amp;returnURL=%2F">NL</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+        <div id="content" class="site-content">
+            
+
+
+<style type="text/css">
+    .itext15 p {
+        font-size: 15px;
+    }
+    .youtube-video {
+        aspect-ratio: 16 / 9;
+        width: 100%;
+       
+    }
+    .youtube-container {
+        width: 100%;
+        margin: 10px auto;
+        max-width: 900px;
+        overflow: hidden;
+        border-radius: 16px;
+        border: solid 1px #afafaf;
+        box-shadow: 2px 6px 18px #817b7b;
+    }
+</style>
+<input type="hidden" id="loadefrom2" value="uth" />
+
+<section style="padding:50px;">
+    <div class="introslider owl-carousel" style="border-radius:30px; overflow:hidden;">
+<div class="single_slider d-flex align-items-center" style="background-image:url('/docs/image/banners/969a87d0-7f37-44f1-9d86-7e1ffaa99755.jpg')">
+    <div class="slider_layeropacity"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="homeslider_content" style="">
+                    <div class="animovrflowtitles">
+                        <h1 id="owl_title_1" class="color_slider">INVEST AT EAIE 2025 IN GOTHENBURG</h1>
+                    </div>
+                    <h3 style="margin-bottom:30px;" id="owl_subtitle_1" class="color_slider ">Join INVEST at EAIE 2025, Booth P112, to discover our vision for a sustainable future</h3>
+<a id="owl_link_1" class="homeslider_link" href="https://www.invest-alliance.eu/en/Home/NewsInfo?link=187-invest-at-eaie-2025-in-gothenburg">Read more</a>                </div>
+            </div>
+        </div>
+    </div>
+</div><div class="single_slider d-flex align-items-center" style="background-image:url('/docs/image/banners/9a51a5e5-ad5f-42b0-b46f-23ce77019448.png')">
+    <div class="slider_layeropacity"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="homeslider_content" style="">
+                    <div class="animovrflowtitles">
+                        <h1 id="owl_title_2" class="color_slider">INVEST Bachelor Specialisation programmes at Karelia UAS</h1>
+                    </div>
+                    <h3 style="margin-bottom:30px;" id="owl_subtitle_2" class="color_slider ">Apply by 30 April</h3>
+<a id="owl_link_2" class="homeslider_link" href="https://www.invest-alliance.eu/en/Home/NewsInfo?link=151-application-period-for-invest-bachelor-specialisation-at-karelia-uas-is-open">Apply Now</a>                </div>
+            </div>
+        </div>
+    </div>
+</div><div class="single_slider d-flex align-items-center" style="background-image:url('/docs/image/banners/2ea6c539-09e3-48c6-8951-bd9c764568b6.jpg')">
+    <div class="slider_layeropacity"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="homeslider_content" style="">
+                    <div class="animovrflowtitles">
+                        <h1 id="owl_title_3" class="color_slider">INVEST</h1>
+                    </div>
+                    <h3 style="margin-bottom:30px;" id="owl_subtitle_3" class="color_slider ">INnoVations of REgional Sustainability: European UniversiTy Alliance </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><div class="single_slider d-flex align-items-center" style="background-image:url('/docs/image/banners/b2db7f7f-0271-4dcb-b6c8-887c551c88d5.jpg')">
+    <div class="slider_layeropacity"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="homeslider_content" style="">
+                    <div class="animovrflowtitles">
+                        <h1 id="owl_title_4" class="color_slider">Next Generation University</h1>
+                    </div>
+                    <h3 style="margin-bottom:30px;" id="owl_subtitle_4" class="color_slider ">3 study cycles - bachelor, master and doctoral</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><div class="single_slider d-flex align-items-center" style="background-image:url('/docs/image/banners/9994057b-f4a8-4073-b32c-504523419f71.jpg')">
+    <div class="slider_layeropacity"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="homeslider_content" style="">
+                    <div class="animovrflowtitles">
+                        <h1 id="owl_title_5" class="color_slider">The vision of INVEST</h1>
+                    </div>
+                    <h3 style="margin-bottom:30px;" id="owl_subtitle_5" class="color_slider ">is to create a modern European University satisfying needs and requirements of the new generation </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><div class="single_slider d-flex align-items-center" style="background-image:url('/docs/image/banners/afc71aa5-274c-47fc-845a-3ee748f8ea40.jpg')">
+    <div class="slider_layeropacity"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="homeslider_content" style="">
+                    <div class="animovrflowtitles">
+                        <h1 id="owl_title_6" class="color_slider">A modern European University</h1>
+                    </div>
+                    <h3 style="margin-bottom:30px;" id="owl_subtitle_6" class="color_slider ">satisfying needs and requirements of the new generation</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><div class="single_slider d-flex align-items-center" style="background-image:url('/docs/image/banners/a6a203ef-5137-4d02-bc53-1e492a5c9337.jpg')">
+    <div class="slider_layeropacity"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="homeslider_content" style="">
+                    <div class="animovrflowtitles">
+                        <h1 id="owl_title_7" class="color_slider">Innovative education</h1>
+                    </div>
+                    <h3 style="margin-bottom:30px;" id="owl_subtitle_7" class="color_slider "></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</section>
+
+<section class="" style="padding-top:20px;background-image:none">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="wow fadeInUp wowvisible" data-wow-duration="1.3s" data-wow-delay="0.7s">Welcome to INVEST</h2>
+                <p class="small-text wow fadeInUp wowvisible" style="color: #7cb440; border-bottom: solid 0px #8BC34A;" data-wow-duration="1.3s" data-wow-delay="0.6s">The Competitive University for a Sustainable Society</p>
+            </div> 
+        </div>
+        <div class="text-center">
+            <div class="youtube-container">
+               <iframe class="youtube-video" src="https://www.youtube.com/embed/2GOWFF90114?si=tUgSfsyUtGP8_c4F&autoplay=1&mute=1&loop=1&rel=0" title="invest alliance promo video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-6 align-self-center">
+                <div class="home2-top-right"> 
+                    <div class="sub-text wow fadeInUp wowvisible" data-wow-duration="1.3s" data-wow-delay="0.8s"><p style="text-align:justify">The INVEST European University Alliance unites a diverse group of institutions across Europe, each with extensive experience and a shared profile as internationalized entities. This alliance includes the Slovak University of Agriculture (SUA) in Nitra, Slovakia; the University of Agribusiness and Rural Development (UARD) in Plovdiv, Bulgaria; the University of Thessaly (UTH) in Volos, Greece; Karelia University of Applied Sciences in Joensuu, Finland; the University of Reims Champagne-Ardenne (URCA) in Reims, France; the University of Milano-Bicocca (UNIMIB) in Milan, Italy; and the University of Cordoba (UCO) in Cordoba, Spain. Together, these institutions collaborate under the European Commission&rsquo;s initiative to form and evaluate European Universities, aiming to enhance educational quality and integration across the continent.</p>
+</div>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center text-lg-left mb-4 mb-lg-0">
+
+
+                <img src="/docs/image/banners/23ad51ef-a233-4f3b-ac8f-01a95513a4f5.jpg" class="bord15 wow fadeInUp wowvisible" data-wow-duration="1s" data-wow-delay="0.5s" style="max-width: 98%; margin-top: 20px" alt="invest-alliance.eu">
+
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section style="background-color: #f9f9f9">
+    <div class="container wow slideInDown wowvisible" data-wow-duration="1.5s" data-wow-delay="0.5s">
+        <div class="col-md-12 text-center">
+            <div class="ot-heading">
+                <h2 class="main-heading">ABOUT THE INVEST ALLIANCE PROJECT</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div>
+<div class="row justify-content-center">
+<div class="col-lg-4 col-md-6 mb-30 wow fadeInLeft wowvisible" style="position: relative;" data-wow-duration="1.2s" data-wow-delay="0.7s">
+    <a href="/en/Home/Texts?link=1-who-we-are" class="home_tiletext_link img_figure_circle bord15">
+        <div class="img_figure">
+            <img src="/docs/image/texts/68f4bef4-1ef7-4606-b941-d8e6acd9139f.jpg?width=400&height=300&rmode=Crop" alt="Who We Are" class="hoverimage2" />
+        </div>
+        <div class="home_tilebox">
+            <h5 style="color: white; background: rgba(15, 47, 67,0.5); padding: 7px; border-radius: 5px;">Who We Are</h5>
+        </div>
+    </a>
+</div><div class="col-lg-4 col-md-6 mb-30 wow fadeInDown wowvisible" style="position: relative;" data-wow-duration="1.2s" data-wow-delay="0.9s">
+    <a href="/en/Home/Texts?link=6-invest-campus" class="home_tiletext_link img_figure_circle bord15">
+        <div class="img_figure">
+            <img src="/docs/image/texts/78f9ab72-d08b-4325-b534-de0dee162eee.jpg?width=400&height=300&rmode=Crop" alt="INVEST Campus" class="hoverimage2" />
+        </div>
+        <div class="home_tilebox">
+            <h5 style="color: white; background: rgba(15, 47, 67,0.5); padding: 7px; border-radius: 5px;">INVEST Campus</h5>
+        </div>
+    </a>
+</div><div class="col-lg-4 col-md-6 mb-30 wow fadeInRight wowvisible" style="position: relative;" data-wow-duration="1.2s" data-wow-delay="1.1s">
+    <a href="/en/Home/Texts?link=8-students" class="home_tiletext_link img_figure_circle bord15">
+        <div class="img_figure">
+            <img src="/docs/image/texts/5f655db3-12b4-471f-ad77-32704a7f3d0a.jpg?width=400&height=300&rmode=Crop" alt="Students" class="hoverimage2" />
+        </div>
+        <div class="home_tilebox">
+            <h5 style="color: white; background: rgba(15, 47, 67,0.5); padding: 7px; border-radius: 5px;">Students</h5>
+        </div>
+    </a>
+</div></div>               
+<div class="row justify-content-center">
+<div class="col-lg-4 col-md-6 mb-30 wow fadeInLeft wowvisible" style="position: relative;" data-wow-duration="1.2s" data-wow-delay="1.3s">
+    <a href="/en/Home/Texts?link=2-our-vision" class="home_tiletext_link img_figure_circle bord15">
+        <div class="img_figure">
+            <img src="/docs/image/texts/d5ea00f1-4054-4762-8a1c-54951837deb2.jpg?width=400&height=300&rmode=Crop" alt="Our Vision" class="hoverimage2" />
+        </div>
+        <div class="home_tilebox">
+            <h5 style="color: white; background: rgba(15, 47, 67,0.5); padding: 7px; border-radius: 5px;">Our Vision</h5>
+        </div>
+    </a>
+</div><div class="col-lg-4 col-md-6 mb-30 wow fadeInUp wowvisible" style="position: relative;" data-wow-duration="1.2s" data-wow-delay="1.5s">
+    <a href="/en/Home/Texts?link=3-focal-points-and-fields-in-invest" class="home_tiletext_link img_figure_circle bord15">
+        <div class="img_figure">
+            <img src="/docs/image/texts/dcb5671c-36ba-4cf3-8429-1f5d4ad623aa.jpg?width=400&height=300&rmode=Crop" alt="Focal Points And Fields In INVEST" class="hoverimage2" />
+        </div>
+        <div class="home_tilebox">
+            <h5 style="color: white; background: rgba(15, 47, 67,0.5); padding: 7px; border-radius: 5px;">Focal Points And Fields In INVEST</h5>
+        </div>
+    </a>
+</div><div class="col-lg-4 col-md-6 mb-30 wow fadeInRight wowvisible" style="position: relative;" data-wow-duration="1.2s" data-wow-delay="1.7000000000000002s">
+    <a href="/en/Home/Texts?link=4-organizational-structure" class="home_tiletext_link img_figure_circle bord15">
+        <div class="img_figure">
+            <img src="/docs/image/texts/ace4dabe-f338-4c4d-8179-7bcbf1dd22d1.jpg?width=400&height=300&rmode=Crop" alt="Organizational Structure" class="hoverimage2" />
+        </div>
+        <div class="home_tilebox">
+            <h5 style="color: white; background: rgba(15, 47, 67,0.5); padding: 7px; border-radius: 5px;">Organizational Structure</h5>
+        </div>
+    </a>
+</div></div>               
+
+        </div>
+
+    </div>
+</section>
+
+
+
+<div class="container wow fadeInRight wowvisible " data-wow-delay="0.5s" data-wow-duration="1.5s">
+    <div class="service-web-video bord15 mrg20">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-7 col-md-8">
+                    <div class="tab-video">
+                        <div class="ot-heading">
+                            <span></span>
+                            <h2 class="main-heading">Invest RoadMap</h2>
+                        </div>
+                        <div class="space-15"></div>
+                        <div class="ot-tabs">
+                            <ul class="tabs-heading unstyle">
+                                    <li class="tab-link octf-btn current" data-tab="tab-2">2020-2023</li>
+                                    <li class="tab-link octf-btn " data-tab="tab-3">2024-2028</li>
+                            </ul>
+                                <div id="tab-2" class="tab-content current">
+                                    <div><p><em><strong>Designing the University of the Future!</strong></em></p>
+
+<p>Our vision is to create a modern European University fulfilling the needs and requirements of the new generation of Europeans willing to lead in the introduction of sustainable life in regions across Europe. By establishing this European university, we:<br />
+&bull; INVEST in enhancing the sustainability and inclusiveness of our partner regions<br />
+&bull; INVEST in the innovation of our education system and research methods<br />
+&bull; INVEST in our students becoming active citizens and future shaping professionals for Europe.</p>
+
+<p>&nbsp;</p>
+</div>
+                                </div>
+                                <div id="tab-3" class="tab-content ">
+                                    <div><p><em><strong>Putting our vision into Practise!</strong></em></p>
+
+<p>INVEST will become a model of good practice in the achievement of the policies of the European Education Area.</p>
+
+<p>Achievements will be visible in innovative teaching and research, international academic mobility and intercultural collaboration, development of a robust academic culture, provision of products and services to gain new skills and competences for the benefit of European regions and local communities.</p>
+</div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-4 split-right-img" style="background-image:url('/docs/image/texts/4b75b5bf-caab-4d68-8a87-ff67ba8151df.jpg')">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<section class="">
+    <div class="container wow fadeInDown wowvisible" data-wow-duration="1s" data-wow-delay="0.5s">
+        <div class="col-md-12 text-center">
+            <div class="ot-heading">
+                <h2 class="main-heading">Latest News</h2>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="owl-carousel owl-theme project-slider">
+<div class="project-item projects-style-2">
+    <div class="projects-box wow fadeInRight wowvisible" data-wow-duration="1s" data-wow-delay="0.5s">
+        <div class="projects-thumbnail bord10">
+            <a href="/en/Home/NewsInfo?link=240-invest-summer-school-2026---bsr-building-smart-sustainable-regions">
+                <img src="/docs/image/news/fb9cb43d-0afe-4079-8684-18cb7fceae2d.jpg?width=300&height=300&rmode=Crop" class="" alt="Invest Summer School 2026 - BS&#xB2;R: Building Smart &amp; Sustainable Regions">
+                <span class="overlay bord10"></span>
+            </a>
+        </div>
+        <div class="portfolio-info bord10">
+            <div class="portfolio-info-inner">
+                <a class="btn-link" href="/en/Home/NewsInfo?link=240-invest-summer-school-2026---bsr-building-smart-sustainable-regions"><i class="flaticon-right-arrow-1"></i></a>
+                <h5><a href="/en/Home/NewsInfo?link=240-invest-summer-school-2026---bsr-building-smart-sustainable-regions">Invest Summer School 2026 - BS&#xB2;R: Building Smart &amp; Sustainable Regions</a></h5>
+
+                <p class="portfolio-cates">
+<a class="date">28/01 2026</a>                </p>
+            </div>
+        </div>
+    </div>
+</div><div class="project-item projects-style-2">
+    <div class="projects-box wow fadeInRight wowvisible" data-wow-duration="1s" data-wow-delay="0.5s">
+        <div class="projects-thumbnail bord10">
+            <a href="/en/Home/NewsInfo?link=239-webinar-introduccin-a-los-proyectos-de-id-financiados-por-cdti-funcionamiento-de-las-convocator">
+                <img src="/docs/image/news/d61f0030-7a07-4f5b-8639-600fc72d9dd9.png?width=300&height=300&rmode=Crop" class="" alt="Webinar: Introducci&#xF3;n a los proyectos de I&#x2B;D financiados por CDTI: funcionamiento de las convocatorias abiertas sin concurrencia ">
+                <span class="overlay bord10"></span>
+            </a>
+        </div>
+        <div class="portfolio-info bord10">
+            <div class="portfolio-info-inner">
+                <a class="btn-link" href="/en/Home/NewsInfo?link=239-webinar-introduccin-a-los-proyectos-de-id-financiados-por-cdti-funcionamiento-de-las-convocator"><i class="flaticon-right-arrow-1"></i></a>
+                <h5><a href="/en/Home/NewsInfo?link=239-webinar-introduccin-a-los-proyectos-de-id-financiados-por-cdti-funcionamiento-de-las-convocator">Webinar: Introducci&#xF3;n a los proyectos de I&#x2B;D financiados por CDTI: funcionamiento de las convocatorias abiertas sin concurrencia </a></h5>
+
+                <p class="portfolio-cates">
+<a class="date">28/01 2026</a>                </p>
+            </div>
+        </div>
+    </div>
+</div><div class="project-item projects-style-2">
+    <div class="projects-box wow fadeInRight wowvisible" data-wow-duration="1s" data-wow-delay="0.5s">
+        <div class="projects-thumbnail bord10">
+            <a href="/en/Home/NewsInfo?link=238-webinar-universal-design-for-learning-udl-in-university-services">
+                <img src="/docs/image/news/0344299d-694a-4266-b165-4321c0390e43.png?width=300&height=300&rmode=Crop" class="" alt="Webinar: Universal Design for Learning (UDL) in University Services">
+                <span class="overlay bord10"></span>
+            </a>
+        </div>
+        <div class="portfolio-info bord10">
+            <div class="portfolio-info-inner">
+                <a class="btn-link" href="/en/Home/NewsInfo?link=238-webinar-universal-design-for-learning-udl-in-university-services"><i class="flaticon-right-arrow-1"></i></a>
+                <h5><a href="/en/Home/NewsInfo?link=238-webinar-universal-design-for-learning-udl-in-university-services">Webinar: Universal Design for Learning (UDL) in University Services</a></h5>
+
+                <p class="portfolio-cates">
+<a class="date">27/01 2026</a>                </p>
+            </div>
+        </div>
+    </div>
+</div><div class="project-item projects-style-2">
+    <div class="projects-box wow fadeInRight wowvisible" data-wow-duration="1s" data-wow-delay="0.5s">
+        <div class="projects-thumbnail bord10">
+            <a href="/en/Home/NewsInfo?link=237-connecting-careers-across-europe-a-staff-journey-in-invest">
+                <img src="/docs/image/news/916a2d64-3354-450d-9402-a3febdff86c9.png?width=300&height=300&rmode=Crop" class="" alt="Connecting Careers Across Europe: A Staff Journey in INVEST">
+                <span class="overlay bord10"></span>
+            </a>
+        </div>
+        <div class="portfolio-info bord10">
+            <div class="portfolio-info-inner">
+                <a class="btn-link" href="/en/Home/NewsInfo?link=237-connecting-careers-across-europe-a-staff-journey-in-invest"><i class="flaticon-right-arrow-1"></i></a>
+                <h5><a href="/en/Home/NewsInfo?link=237-connecting-careers-across-europe-a-staff-journey-in-invest">Connecting Careers Across Europe: A Staff Journey in INVEST</a></h5>
+
+                <p class="portfolio-cates">
+<a class="date">27/01 2026</a>                </p>
+            </div>
+        </div>
+    </div>
+</div><div class="project-item projects-style-2">
+    <div class="projects-box wow fadeInRight wowvisible" data-wow-duration="1s" data-wow-delay="0.5s">
+        <div class="projects-thumbnail bord10">
+            <a href="/en/Home/NewsInfo?link=236-from-research-to-international-experience-a-phd-student-journey-in-invest">
+                <img src="/docs/image/news/3ae13428-fea4-4880-8bc0-af6de8592726.png?width=300&height=300&rmode=Crop" class="" alt="From Research to International Experience: A PhD Student Journey in INVEST">
+                <span class="overlay bord10"></span>
+            </a>
+        </div>
+        <div class="portfolio-info bord10">
+            <div class="portfolio-info-inner">
+                <a class="btn-link" href="/en/Home/NewsInfo?link=236-from-research-to-international-experience-a-phd-student-journey-in-invest"><i class="flaticon-right-arrow-1"></i></a>
+                <h5><a href="/en/Home/NewsInfo?link=236-from-research-to-international-experience-a-phd-student-journey-in-invest">From Research to International Experience: A PhD Student Journey in INVEST</a></h5>
+
+                <p class="portfolio-cates">
+<a class="date">27/01 2026</a>                </p>
+            </div>
+        </div>
+    </div>
+</div><div class="project-item projects-style-2">
+    <div class="projects-box wow fadeInRight wowvisible" data-wow-duration="1s" data-wow-delay="0.5s">
+        <div class="projects-thumbnail bord10">
+            <a href="/en/Home/NewsInfo?link=235-uth-team-celebrates-the-new-year-with-the-traditional-vasilopita-cutting">
+                <img src="/docs/image/news/f522ea48-3242-42b2-8c71-038077a5362e.jpg?width=300&height=300&rmode=Crop" class="" alt="UTH Team Celebrates the New Year with the Traditional &#x201C;Vasilopita&#x201D; Cutting">
+                <span class="overlay bord10"></span>
+            </a>
+        </div>
+        <div class="portfolio-info bord10">
+            <div class="portfolio-info-inner">
+                <a class="btn-link" href="/en/Home/NewsInfo?link=235-uth-team-celebrates-the-new-year-with-the-traditional-vasilopita-cutting"><i class="flaticon-right-arrow-1"></i></a>
+                <h5><a href="/en/Home/NewsInfo?link=235-uth-team-celebrates-the-new-year-with-the-traditional-vasilopita-cutting">UTH Team Celebrates the New Year with the Traditional &#x201C;Vasilopita&#x201D; Cutting</a></h5>
+
+                <p class="portfolio-cates">
+<a class="date">24/01 2026</a>                </p>
+            </div>
+        </div>
+    </div>
+</div>        </div>
+    </div>
+</section>
+
+<section class="section_arrows_partners">
+
+    <div class="container wow fadeInUp wowvisible" data-wow-duration="1s" data-wow-delay="0.5s">
+        <div class="col-md-12 text-center">
+            <div class="ot-heading">
+                <h2 class="main-heading">A European Alliance of 7 Universities</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row" style="display:flex; align-items:flex-start; justify-content:center;">
+                <style type="text/css">
+                    .bgpartner_1 {
+                        background: #99c13a;
+                    }
+                        .bgpartner_1:before {
+                            border-color: #99c13a #99c13a #99c13a transparent;
+                        }
+                        .bgpartner_1:after {
+                            border-left: 10px solid #99c13a;
+                        }
+                    .fontcolorpartner_1 {
+                        color: #99c13a;
+                    }
+                </style>
+                <div class="partner_index_20">
+                    <a href="/en/Home/PartnerInfo?link=slovak-university-of-agriculture" style="display:block" class="wow fadeInUp wowvisible partner_arrowmaintile" data-wow-duration="0.5s" data-wow-delay="0.3s">
+                        <div class="arrow_partner_title">
+                            <h6 style="width:100%" class="fontcolorpartner_1">Slovak University of Agriculture</h6>
+                        </div>
+                        <div class="arrow_partner bgpartner_1"></div>
+                        <div class="arrow_partnerlinev bgpartner_1"></div>
+                        <img src="/docs/image/partners/01_sua_rgb.png" class="arrow_partner_imglogo" alt="Slovak University of Agriculture" />
+                    </a>
+                </div> 
+                <style type="text/css">
+                    .bgpartner_2 {
+                        background: #3a7e91;
+                    }
+                        .bgpartner_2:before {
+                            border-color: #3a7e91 #3a7e91 #3a7e91 transparent;
+                        }
+                        .bgpartner_2:after {
+                            border-left: 10px solid #3a7e91;
+                        }
+                    .fontcolorpartner_2 {
+                        color: #3a7e91;
+                    }
+                </style>
+                <div class="partner_index_20">
+                    <a href="/en/Home/PartnerInfo?link=university-of-agribusiness-and-rural-development" style="display:block" class="wow fadeInUp wowvisible partner_arrowmaintile" data-wow-duration="0.5s" data-wow-delay="0.6s">
+                        <div class="arrow_partner_title">
+                            <h6 style="width:100%" class="fontcolorpartner_2">University of Agribusiness and Rural Development</h6>
+                        </div>
+                        <div class="arrow_partner bgpartner_2"></div>
+                        <div class="arrow_partnerlinev bgpartner_2"></div>
+                        <img src="/docs/image/partners/UARD_logo_simple.png" class="arrow_partner_imglogo" alt="University of Agribusiness and Rural Development" />
+                    </a>
+                </div> 
+                <style type="text/css">
+                    .bgpartner_3 {
+                        background: #b03931;
+                    }
+                        .bgpartner_3:before {
+                            border-color: #b03931 #b03931 #b03931 transparent;
+                        }
+                        .bgpartner_3:after {
+                            border-left: 10px solid #b03931;
+                        }
+                    .fontcolorpartner_3 {
+                        color: #b03931;
+                    }
+                </style>
+                <div class="partner_index_20">
+                    <a href="/en/Home/PartnerInfo?link=university-of-thessaly" style="display:block" class="wow fadeInUp wowvisible partner_arrowmaintile" data-wow-duration="0.5s" data-wow-delay="0.8999999999999999s">
+                        <div class="arrow_partner_title">
+                            <h6 style="width:100%" class="fontcolorpartner_3">University of Thessaly</h6>
+                        </div>
+                        <div class="arrow_partner bgpartner_3"></div>
+                        <div class="arrow_partnerlinev bgpartner_3"></div>
+                        <img src="/docs/image/partners/UTH-logo-english-simple.png" class="arrow_partner_imglogo" alt="University of Thessaly" />
+                    </a>
+                </div> 
+                <style type="text/css">
+                    .bgpartner_4 {
+                        background: #67c04d;
+                    }
+                        .bgpartner_4:before {
+                            border-color: #67c04d #67c04d #67c04d transparent;
+                        }
+                        .bgpartner_4:after {
+                            border-left: 10px solid #67c04d;
+                        }
+                    .fontcolorpartner_4 {
+                        color: #67c04d;
+                    }
+                </style>
+                <div class="partner_index_20">
+                    <a href="/en/Home/PartnerInfo?link=karelia-university-of-applied-sciences" style="display:block" class="wow fadeInUp wowvisible partner_arrowmaintile" data-wow-duration="0.5s" data-wow-delay="1.2s">
+                        <div class="arrow_partner_title">
+                            <h6 style="width:100%" class="fontcolorpartner_4">Karelia University of Applied Sciences</h6>
+                        </div>
+                        <div class="arrow_partner bgpartner_4"></div>
+                        <div class="arrow_partnerlinev bgpartner_4"></div>
+                        <img src="/docs/image/partners/karelia_simple.png" class="arrow_partner_imglogo" alt="Karelia University of Applied Sciences" />
+                    </a>
+                </div> 
+                <style type="text/css">
+                    .bgpartner_6 {
+                        background: #ad7334;
+                    }
+                        .bgpartner_6:before {
+                            border-color: #ad7334 #ad7334 #ad7334 transparent;
+                        }
+                        .bgpartner_6:after {
+                            border-left: 10px solid #ad7334;
+                        }
+                    .fontcolorpartner_6 {
+                        color: #ad7334;
+                    }
+                </style>
+                <div class="partner_index_20">
+                    <a href="/en/Home/PartnerInfo?link=university-of-reims-champagne-ardenne" style="display:block" class="wow fadeInUp wowvisible partner_arrowmaintile" data-wow-duration="0.5s" data-wow-delay="1.5s">
+                        <div class="arrow_partner_title">
+                            <h6 style="width:100%" class="fontcolorpartner_6">University of Reims Champagne-Ardenne</h6>
+                        </div>
+                        <div class="arrow_partner bgpartner_6"></div>
+                        <div class="arrow_partnerlinev bgpartner_6"></div>
+                        <img src="/docs/image/partners/reims_simple.png" class="arrow_partner_imglogo" alt="University of Reims Champagne-Ardenne" />
+                    </a>
+                </div> 
+                <style type="text/css">
+                    .bgpartner_7 {
+                        background: #a71e3b;
+                    }
+                        .bgpartner_7:before {
+                            border-color: #a71e3b #a71e3b #a71e3b transparent;
+                        }
+                        .bgpartner_7:after {
+                            border-left: 10px solid #a71e3b;
+                        }
+                    .fontcolorpartner_7 {
+                        color: #a71e3b;
+                    }
+                </style>
+                <div class="partner_index_20">
+                    <a href="/en/Home/PartnerInfo?link=university-of-milano-bicocca" style="display:block" class="wow fadeInUp wowvisible partner_arrowmaintile" data-wow-duration="0.5s" data-wow-delay="1.7999999999999998s">
+                        <div class="arrow_partner_title">
+                            <h6 style="width:100%" class="fontcolorpartner_7">University of Milano-Bicocca</h6>
+                        </div>
+                        <div class="arrow_partner bgpartner_7"></div>
+                        <div class="arrow_partnerlinev bgpartner_7"></div>
+                        <img src="/docs/image/partners/Screenshot_4.jpg" class="arrow_partner_imglogo" alt="University of Milano-Bicocca" />
+                    </a>
+                </div> 
+                <style type="text/css">
+                    .bgpartner_9 {
+                        background: #342563;
+                    }
+                        .bgpartner_9:before {
+                            border-color: #342563 #342563 #342563 transparent;
+                        }
+                        .bgpartner_9:after {
+                            border-left: 10px solid #342563;
+                        }
+                    .fontcolorpartner_9 {
+                        color: #342563;
+                    }
+                </style>
+                <div class="partner_index_20">
+                    <a href="/en/Home/PartnerInfo?link=university-of-cordoba" style="display:block" class="wow fadeInUp wowvisible partner_arrowmaintile" data-wow-duration="0.5s" data-wow-delay="2.1s">
+                        <div class="arrow_partner_title">
+                            <h6 style="width:100%" class="fontcolorpartner_9">University of Cordoba</h6>
+                        </div>
+                        <div class="arrow_partner bgpartner_9"></div>
+                        <div class="arrow_partnerlinev bgpartner_9"></div>
+                        <img src="/docs/image/partners/logo_cordoba.png" class="arrow_partner_imglogo" alt="University of Cordoba" />
+                    </a>
+                </div> 
+        </div>
+    </div>
+</section>
+
+
+<section class="section-consultation section-padd-top70 section-padd-bot" style="">
+    <div class="container bord15 animatedbg1" style="padding:20px;">
+        <div class="row0 wow fadeIn wowvisible" data-wow-duration="1.6s" data-wow-delay="0.4s">
+            <div class="ot-heading text-center text-white">
+                <span></span>
+                <h2 class="main-heading mb-2">Studies</h2>
+            </div>
+        </div>
+        <div class="row wow fadeIn wowvisible" data-wow-duration="1s" data-wow-delay="0.8s">
+            <div class="col-md-6 text-center wow zoomIn wowvisible" data-wow-delay="0.6s" data-wow-duration="1.4s">
+                <h2 class="mb-1">Bachelors</h2>
+                <div><p>Are you a student in the 2nd or 3rd year of your bachelor&#39;s degree?&nbsp;We invite bright students motivated to work on pressing real-life problems to take a look at the ten&nbsp;INVEST Bachelor Specialization studies</p>
+</div>
+                <div class="ot-button">
+                    <a href="/en/Home/Studies?type=bachelors" class="octf-btn octf-btn-primary"><i class="fa fa-chevron-right"></i> READ MORE</a>
+                </div>
+            </div>
+            <div class="col-md-6 text-center wow zoomIn wowvisible" data-wow-delay="0.8s" data-wow-duration="1.4s">
+                <h2 class="mb-1">Masters</h2>
+                <div><p>We invite curious, ambitious, and intelligent students to our master&#39;s programs. Once you&rsquo;ve obtained your Bachelor&#39;s degree, you may be ready for the next step.</p>
+</div>
+                <div class="ot-button">
+                    <a href="/en/Home/Studies?type=masters" class="octf-btn octf-btn-primary"><i class="fa fa-chevron-right"></i> READ MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="container">
+    <div class="col-lg-12 align-self-center mb-30 mb-lg-0">
+        <div class="row">
+            <div class="col-lg-3 col-md-4">
+                <div class="wow slideInLeft wowvisible">
+                    <a class="ot-image-box v3 bord15 st1">
+                        <div class="overlay" style="display:flex; align-content:center; align-items:center;">
+                            <div style="padding:10px; padding-top:15px; color:white;"><p>Competitive education and valuable learning outcomes in all 3 cycles (bachelor, master and doctoral)</p>
+</div>
+                        </div>
+                        <img src="/docs/image/banners/76a4ce5e-6b99-45f5-a37e-e6e2b817e2c7.jpg?width=400&height=400&rmode=Crop" style="width:100%;" alt="invest-alliance.eu Home Fact1">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4">
+                <div class="wow slideInLeft wowvisible">
+                    <a class="ot-image-box v3 bord15 st2">
+                        <div class="overlay" style="display:flex; align-content:center; align-items:center;">
+                            <div style="padding:10px; padding-top:15px; color:white;"><p>Joint research, development, innovation excellence and vivid Living Labs</p>
+</div>
+                        </div>
+                        <img src="/docs/image/banners/b95f2665-2af0-4dc4-bb43-93a6a0b9e600.jpg?width=400&height=400&rmode=Crop" style="width:100%;" alt="invest-alliance.eu Home Fact2">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4">
+                <div class="wow slideInLeft wowvisible">
+                    <a class="ot-image-box v3 bord15 st3">
+                        <div class="overlay" style="display:flex; align-content:center; align-items:center;">
+                            <div style="padding:10px; padding-top:15px; color:white;"><p>Staff development strategy and tools to build future competences in learning, research and innovation</p>
+</div>
+                        </div>
+                        <img src="/docs/image/banners/f67e8788-e801-4e79-adfe-82400fa78b4c.jpg?width=400&height=400&rmode=Crop" style="width:100%;" alt="invest-alliance.eu Home Fact3">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4">
+                <div class="wow slideInLeft wowvisible">
+                    <a class="ot-image-box v3 bord15 st4">
+                        <div class="overlay" style="display:flex; align-content:center; align-items:center;">
+                            <div style="padding:10px; padding-top:15px; color:white;"><p>Joint international degree programmes supported by the EDUC8EU tool -&nbsp;physical and virtual/digital mobility</p>
+</div>
+                        </div>
+                        <img src="/docs/image/banners/8675ee8b-ea47-41c2-bb42-8b30e5c8a5ed.jpg?width=400&height=400&rmode=Crop" style="width:100%;" alt="invest-alliance.eu Home Fact4">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="section-industris">
+    <div class="container wow fadeInLeft wowvisible" data-wow-duration="1.5s" data-wow-delay="0.5s">
+        <div class="col-md-12 text-center">
+            <div class="ot-heading">
+                <span>WHAT PEOPLE HAVE TO SAY ABOUT US</span>
+                <h2 class="main-heading">Our Testimonials</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="ot-industries wow fadeInRight wowvisible" data-wow-duration="1.5s" data-wow-delay="0.5s">
+            <div class="owl-carousel owl-theme industries-inner ot-industries-slider">
+<div class="indus-item">
+    <div class="item-inner" style="border-radius:20px;">
+        <div class="overlay"></div>
+        <div class="i-image">
+            <img src="/docs/image/testimonials/5d93fd84-202c-4655-91ea-0bb8d688dfb3.jpg?width=140&height=140&rmode=Crop" style="border-radius:50%" alt="">
+        </div>
+        <div class="iinfo">
+            <h6>Iliana</h6>
+            <div class="itext15">
+                <p>The INVEST Summer School that took place both remotely and in Plovdiv, Bulgaria in May 2022 was an intense and unforgettable experience!</p>
+
+<p><a href="https://www.invest-alliance.eu/en/Home/Texts?link=50-testimonials">Read more</a></p>
+
+            </div>
+        </div>
+    </div>
+</div><div class="indus-item">
+    <div class="item-inner" style="border-radius:20px;">
+        <div class="overlay"></div>
+        <div class="i-image">
+            <img src="/docs/image/testimonials/8bf58357-e66c-4226-9d61-d00df845c369.jpg?width=140&height=140&rmode=Crop" style="border-radius:50%" alt="">
+        </div>
+        <div class="iinfo">
+            <h6>Miili M&#xE4;h&#xF6;nen</h6>
+            <div class="itext15">
+                <p>The cooperation of international higher education institutions adds an interesting dimension to studies. Working in a multicultural, diverse community enhances one&rsquo;s communication and interaction skills and opens up new perspectives. . I hope that each participant of INVEST gets as unique and eventful experiences as I did. It is worth it, believe me.</p>
+
+<p><a href="https://www.invest-alliance.eu/en/Home/Texts?link=50-testimonials">Read more</a></p>
+
+            </div>
+        </div>
+    </div>
+</div><div class="indus-item">
+    <div class="item-inner" style="border-radius:20px;">
+        <div class="overlay"></div>
+        <div class="i-image">
+            <img src="/docs/image/testimonials/49c71870-34b0-4051-a7c2-9bfc60c37238.jpg?width=140&height=140&rmode=Crop" style="border-radius:50%" alt="">
+        </div>
+        <div class="iinfo">
+            <h6>Harm Okkema</h6>
+            <div class="itext15">
+                <p>I am studying Management of the Living Environment, currently in my second year. When I read about this summer school, I immediately called and thought that this would be a great opportunity. Until now, we had no experience with cases abroad and this, of course, was the perfect moment.&nbsp;<br />
+&nbsp;</p>
+
+<p><a href="https://www.invest-alliance.eu/en/Home/Texts?link=50-testimonials">Read more</a></p>
+
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+</section>
+<section style="padding-top:20px;" class="wow fadeIn wowvisible" data-wow-duration="1s" data-wow-delay="0.2s">
+    <div class="container">
+        <div class="col-md-12 text-center">
+            <div class="ot-heading">
+                <h2 class="main-heading">Social Feeds</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6" style="margin:0 auto;">
+                <div class="cinfo" style="overflow-y:scroll; max-height:524px; padding:10px; border:solid 2px #efefef">
+
+                    <div id="fb-root"></div>
+                    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/el_GR/sdk.js#xfbml=1&version=v15.0&appId=221090687943365&autoLogAppEvents=1" nonce="kefNz7VQ"></script>
+                    <div class="fb-page" data-href="https://www.facebook.com/Invest-European-University-Alliance-106062451450532" data-tabs="timeline" data-width="500" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Invest-European-University-Alliance-106062451450532" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Invest-European-University-Alliance-106062451450532">Invest European University Alliance</a></blockquote></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-consultation section-padd-top70 section-padd-bot wow slideInUp wowvisible" data-wow-duration="1.5s" data-wow-delay="0.5s" style="background:none">
+    <div class="container bord15" style="padding:20px; background-image:url('/docs/image/texts/5cb0ec6c-5a48-4d83-8c5e-6b8c930a4e69.jpg'); background-position:center; background-size:cover;">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p>Innovation and Sustainability</p>
+                <h2>Research</h2>
+                <div class="ot-button">
+                    <a href="/en/Home/Texts?link=11-research" class="octf-btn octf-btn-primary">READ MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+ 
+        </div>
+
+        
+
+
+
+
+
+<footer id="site-footer" class="site-footer footer-v1">
+    <div class="container">
+        <div class="row wow fadeInUp wowvisible" data-wow-delay="0.5s" data-wow-duration="1s">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                <div class="widget-footer">
+                   <a href="/"><img src="/images/logo_invest_main_v2.png" class="footerlogo" alt="invest logo"></a> 
+                    <br /> <br />
+                    <p style="font-size:14px;">INnoVations of REgional Sustainability: European UniversiTy Alliance | A European Alliance of 7 Universities.</p>
+                   
+                    <button style="" type="button" data-toggle="modal" data-target="#accesibilityModal" id="btn_toggle_accesibility" class="btn_toggle_accessibility_div"><span class="fa fa-wheelchair"></span></button>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-5 col-12">
+                <div class="widget-footer">
+                    <h5 class="footer_title">About us</h5>
+                    <ul class="list-items">
+
+                            <li class="list-item"><a href="/en/Home/Category?textcat=about-invest">About INVEST</a></li>
+                            <li class="list-item"><a href="/en/Home/Category?textcat=virtual-campus">Virtual Campus</a></li>
+                            <li class="list-item"><a href="/en/Home/Category?textcat=invest-society">INVEST Society</a></li>
+                            <li class="list-item"><a href="/en/Home/Category?textcat=studies">Studies</a></li>
+                        <li class="list-item"><a href="/en/Home/Partners">Partners</a></li>
+                        <li class="list-item"><a href="/en/Home/News">News</a></li>
+                        <li class="list-item"><a href="/en/Home/Studies">Studies</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-5 col-12">
+                <div class="widget-footer">
+                    <h5 class="footer_title">Social</h5>
+                    <div class="ft-list-icon">
+                        <a class="facebook" target="_blank" href="https://www.facebook.com/Invest-European-University-Alliance-106062451450532"><span class="fab fa-facebook-f"></span></a>
+                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/company/invest-european-university-alliance/posts"><span class="fab fa-linkedin"></span></a>
+                        <a class="instagram" target="_blank" href="https://www.instagram.com/investeuropeanuniversity"><span class="fab fa-instagram"></span></a>
+                        <a class="bluesky" target="_blank" style="padding:0px;" href="https://bsky.app/profile/investuniversity.bsky.social"><img src="/images/icon_bsky.png" /></a>
+                    </div>
+
+                    <h5 class="footer_title mb-3 mt-5multicat">Our Online Platforms</h5>
+                    <ul class="list-items"> 
+                        <li class="list-item"><a href="https://virtualcampus.invest-alliance.eu" target="_blank">Virtual Campus</a></li>
+                        <li class="list-item"><a href="https://educ8eu.invest-alliance.eu">Educ8EU</a></li>
+                        <li class="list-item"><a href="https://centreofexcellence.invest-alliance.eu">Centre Of Excellence</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-12">
+                <div class="widget-footer">
+                    <h5 class="footer_title">Newsletter</h5>
+                    <p style="font-size:15px">Follow our newsletter to stay updated  about our project</p>
+                    <form method="get" id="newsletterform" action="/en/Home/NewsletterRegistration" class="mc4wp-form">
+                        <div class="mc4wp-form-fields">
+                            <div class="subscribe-inner-form">
+                                <input type="email" name="nsltremail" placeholder="Your Email" required="">
+                                <button type="submit" class="subscribe-btn-icon"><span class="flaticon-telegram"></span></button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="row mt-15 wow fadeInUp wowvisible" data-wow-delay="0.5s" data-wow-duration="1s">
+            <div class="col-md-6 mb-4 mb-md-0">
+                <img src="/images/eu_erasmus2024.png" alt="eu erasmus logo" style="height:50px;" />
+            </div>
+            <div class="col-md-6 text-left text-md-right align-self-center">
+                <p class="copyright-text">Copyright © 2021 invest-alliance.eu. All Rights Reserved.</p>
+            </div>
+            <div class="col-md-12">
+                <div style="font-size: 12px; margin-top: 8px; line-height: 14px;">The content of this website represents the views of the author only and is his/her sole responsibility. The European Commission and the Agency do not accept any responsibility for use that may be made of the information it contains.</div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<div class="modal fade" id="accesibilityModal" tabindex="-1" role="dialog" aria-labelledby="accessibilityModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="border-radius:0px;">
+            <div class="modal-header">
+                <h6 class="modal-title" id="accessibilityModalLabel">Control Panel</h6>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="main_accessibility_container" class="accessibitily-info__container">
+                     
+                    <div role="group" class="div-accessib-switch-cont">
+                        <div id="is_normal_contrast_label"><span class="fa fa-adjust fw" aria-hidden="true"></span> High contrast</div>
+                        <button id="is_normal_contrast" type="button" role="switch" aria-checked="false" aria-labelledby="is_normal_contrast_label">
+                            <span class="fa fa-check fw switch-on" aria-label="on"></span>
+                            <span class="fa fa-times fw switch-off" aria-label="off"></span>
+                        </button>
+                    </div>
+
+                    <div role="group" class="div-accessib-switch-cont" style="display:none">
+                        <div id="is_normal_color_label"><span class="fa fa-tint fw" aria-hidden="true"></span> Gray scale</div>
+                        <button id="is_normal_color_toggle" type="button" role="switch" aria-checked="false" aria-labelledby="is_normal_color_label">
+                            <span class="fa fa-check fw switch-on" aria-label="on"></span>
+                            <span class="fa fa-times fw switch-off" aria-label="off"></span>
+                        </button>
+                    </div>
+
+                    <div role="group" class="div-accessib-switch-cont">
+                        <div id="is_normal_fontsize_label"><span class="fa fa-text-height fw" aria-hidden="true"></span> Font size</div>
+                        <button id="is_normal_fontsize" type="button" role="switch" aria-checked="false" aria-labelledby="is_normal_fontsize_label">
+                            <span class="fa fa-check fw switch-on" aria-label="on"></span>
+                            <span class="fa fa-times fw switch-off" aria-label="off"></span>
+                        </button>
+                    </div>
+
+                    <div role="group" class="div-accessib-switch-cont">
+                        <div id="is_normal_fontfamily_label"><span class="fa fa-font" aria-hidden="true"></span> Dyslexic fonts</div>
+                        <button id="is_normal_fontfamily" type="button" role="switch" aria-checked="false" aria-labelledby="is_normal_fontfamily_label">
+                            <span class="fa fa-check fw switch-on" aria-label="on"></span>
+                            <span class="fa fa-times fw switch-off" aria-label="off"></span>
+                        </button>
+                    </div>
+
+                    <div role="group" class="div-accessib-switch-cont">
+                        <button class="reset-accessibility" type="button" id="reset-accessiblity">Reset Settings</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="border-radius:0px;">
+            <div class="modal-header">
+                <h6 class="modal-title" id="infoModal_header"></h6>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="infoModal_body">
+                     
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+    </div>
+
+     
+
+<style>
+    #cookie-consent {
+        display: none;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        color: white;
+        background: rgb(53 53 53);
+        padding: 10px;
+        border-top: 1px solid rgb(204, 204, 204);
+        z-index: 1222;
+    }
+
+    #cookie-settings {
+        display: none;
+        position: fixed;
+        top: 20%;
+        left: 20%;
+        width: 60%;
+        background: #fff;
+        padding: 20px;
+        border: 1px solid #ccc;
+        z-index: 1222;
+    }
+</style>
+
+
+<div id="cookie-consent" style="">
+    <p>We use cookies to make our site work and to analyze traffic with Google Analytics. Essential cookies are required, but you can choose whether to allow analytics cookies. See our <a href="/en/Home/Texts?link=privacy-policy">Privacy Policy</a>.</p>
+    <button onclick="acceptAll()" class="btn btn-sm btn-success">Accept All</button>
+    <button onclick="rejectNonEssential()" class="btn btn-sm btn-dark">Reject Non-Essential</button>
+    <button onclick="showSettings()" class="btn btn-sm btn-dark">Settings</button>
+</div>
+
+<div id="cookie-settings" style="">
+    <p>We use cookies to improve your experience. Choose your preferences:</p>
+    <label>Essential Cookies (Always Active)</label><br>
+    <div style="padding-left:25px;">
+        <input type="checkbox" class="form-check-input" checked disabled>
+        <label for="">Required for functionality</label>
+    </div>
+    <br>
+
+    <label>Analytics Cookies</label><br>
+    <div style="padding-left:25px;">
+        <input type="checkbox" class="form-check-input" id="analytics-consent">
+        <label for="analytics-consent">Allow Google Analytics tracking</label>
+    </div>
+
+    <br>
+    <button onclick="savePreferences()" class="btn btn-sm btn-primary">Save</button>
+    <button onclick="acceptAll()" class="btn btn-sm btn-success">Accept All</button>
+    <button onclick="rejectNonEssential()" class="btn btn-sm btn-dark">Reject Non-Essential</button>
+</div>
+<script>
+    var ga_tracking_id = 'G-ES0ST2F08S';
+
+    // Helper functions for cookies
+    function setWebsiteCookie(name, value, days) {
+        const date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        const expires = "expires=" + date.toUTCString();
+        document.cookie = name + "=" + value + ";" + expires + ";path=/;SameSite=Lax";
+    }
+
+    function getWebsiteCookie(name) {
+        const nameEQ = name + "=";
+        const ca = document.cookie.split(';');
+        for (let i = 0; i < ca.length; i++) {
+            let c = ca[i].trim();
+            if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        if (!getWebsiteCookie("cookie-consent")) {
+            document.getElementById("cookie-consent").style.display = "block";
+        } else if (getWebsiteCookie("analytics-consent") === "true") {
+            loadGoogleAnalytics();
+        }
+    });
+
+    function acceptAll() {
+        setWebsiteCookie("cookie-consent", "true", 365);
+        setWebsiteCookie("analytics-consent", "true", 365);
+        document.getElementById("cookie-consent").style.display = "none";
+        document.getElementById("cookie-settings").style.display = "none";
+        loadGoogleAnalytics();
+    }
+
+    function rejectNonEssential() {
+        setWebsiteCookie("cookie-consent", "true", 365);
+        setWebsiteCookie("analytics-consent", "false", 365);
+        document.getElementById("cookie-consent").style.display = "none";
+        document.getElementById("cookie-settings").style.display = "none";
+    }
+
+    function showSettings() {
+        document.getElementById("cookie-consent").style.display = "none";
+        document.getElementById("cookie-settings").style.display = "block";
+    }
+
+    function savePreferences() {
+        setWebsiteCookie("cookie-consent", "true", 365);
+        const analyticsConsent = document.getElementById("analytics-consent").checked;
+        setWebsiteCookie("analytics-consent", analyticsConsent.toString(), 365);
+        document.getElementById("cookie-settings").style.display = "none";
+        if (analyticsConsent) {
+            loadGoogleAnalytics();
+        }
+    }
+
+    function loadGoogleAnalytics() {
+        if (!window.gaLoaded) {
+            const script = document.createElement("script");
+            script.async = true;
+            script.src = "https://www.googletagmanager.com/gtag/js?id=" + ga_tracking_id;
+            document.head.appendChild(script);
+
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', ga_tracking_id, { 'anonymize_ip': true });
+            window.gaLoaded = true;
+        }
+    }
+
+    function reopenSettings() {
+        document.getElementById("cookie-settings").style.display = "block";
+    }
+</script>
+
+    <a id="back-to-top" href="#" class="show"><i class="flaticon-up-arrow"></i></a>
+
+    <script src="/js/investsite.min.js?v=1.4.4"></script>
+
+    <script src="/js/jquery.cookiebar.js"></script>
+
+    <script src="/js/site.js?v=1.4.4"></script>
+    
+    <script type="text/javascript">
+        var $slider = $('.introslider');
+        if ($slider.length > 0) {
+            $slider.owlCarousel({
+                animateOut: 'fadeOut',
+                autoplay: true,
+                loop: true,
+                nav: true,
+                autoplay: true,
+                autoplayTimeout: 15000,
+                items: 1,
+                dots: false,
+                navText: ["<img src='/images/arrow_left.png' alt='arrow' class='slider_arrow' />",
+                    "<img src='/images/arrow_right.png' alt='arrow' class='slider_arrow' />"]
+            });
+            $slider.on('changed.owl.carousel', function (event) {
+                var index = event.item.index;
+                console.log('slider ' + index);
+                $("#owl_title_" + index).removeClass('slideInUp');
+                $("#owl_subtitle_" + index).removeClass('fadeIn');
+                $("#owl_link_" + index).removeClass('fadeIn');
+
+                $("#owl_title_" + index).addClass('slideInUp');
+                $("#owl_subtitle_" + index).addClass('fadeIn');
+                $("#owl_link_" + index).addClass('fadeIn');
+            });
+        }
+
+        $(document).ready(function () {
+            setactivemenu('menu_home');
+        });
+
+    </script>
+
+
+    <script type="text/javascript">
+        // $(function () {
+        //     $.cookieBar({
+        //         message: "We are using cookies to give you the best experience. Consent is considered implicit if you continue your navigation on our site without configuring your browser cookies.",
+        //         acceptText: "Accept"
+        //     });
+        // });
+    </script>
+</body>
+</html>
+
+
+
+ 

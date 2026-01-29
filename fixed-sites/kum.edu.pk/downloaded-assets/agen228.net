@@ -1,0 +1,385 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+<!-- Start Head_Tags_1_agen228_net of agen228.net domain -->
+<title>AGEN228: Situs Judi Bola, Slot Gacor & Agen Togel Terpercaya</title>
+<meta name="google-site-verification" content="qTmvSbxr7WhNEbqubfZpUezQTO0Yr8lICMcC1h_BOzY" />
+<meta name="description" content="AGEN228 adalah situs judi bola terbaik dan terlengkap, slot gacor online dengan rtp tinggi serta agen togel terpercaya dengan diskon terbesar hingga 60%" />
+<meta name="keywords" content="agen228, link alternatif agen228, agen judi bola, situs judi bola, agen bola terbesar, judi bola terpercaya, judi bola parlay, mix parlay, parlay 2 tim" />
+<meta content="index, follow" name="robots" />
+<meta content="1 days" name="revisit-after" />
+<meta content="general" name="rating" />
+<meta content="id" name="geo.country" />
+<meta content="Indonesia" name="geo.placename" />
+<meta content="all" name="Slurp" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="AGEN228: Situs Judi Bola, Slot Gacor & Agen Togel Terpercaya" />
+<meta property="og:description" content="AGEN228 adalah situs judi bola terbaik dan terlengkap, slot gacor online dengan rtp tinggi serta agen togel terpercaya dengan diskon terbesar hingga 60%" />
+<meta property="og:url" content="https://agen228.net/" />
+<meta property="og:image:width" content="150" />
+<meta property="og:image:height" content="150" />
+<meta property="og:site_name" content="Agen228"/>
+<meta property="og:locale" content="id_ID" />
+<meta name="twitter:domain" content="https://agen228.net/" />
+<meta name="twitter:title" content="AGEN228: Situs Judi Bola, Slot Gacor & Agen Togel Terpercaya" />
+<meta name="twitter:description" content="AGEN228 adalah situs judi bola terbaik dan terlengkap, slot gacor online dengan rtp tinggi serta agen togel terpercaya dengan diskon terbesar hingga 60%" />
+<meta name="author" content="Agen228" />
+<meta name="publisher" content="Agen228" />
+<meta name="designer" content="Agen228" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=auto" />
+<link rel="canonical" href="https://agen228.net/" />
+<link rel="amphtml" href="https://login-agen228.pages.dev/" />
+<!-- End Head_Tags_1_agen228_net of agen228.net domain -->
+
+<!-- Start Head_Tags_1_agen228_net of all domains -->
+
+<!-- End Head_Tags_1_agen228_net of all domains -->
+
+
+            <!-- Facebook Pixel PageView  -->
+            <script>
+              !function(f,b,e,v,n,t,s)
+              {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+              n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+              if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+              n.queue=[];t=b.createElement(e);t.async=!0;
+              t.src=v;s=b.getElementsByTagName(e)[0];
+              s.parentNode.insertBefore(t,s)}(window, document,'script',
+              'https://connect.facebook.net/en_US/fbevents.js');
+              fbq('init', '693644443044991');
+              fbq('track', 'PageView');
+            </script>
+            <noscript><img height="1" width="1" style="display: none"
+              src="https://www.facebook.com/tr?id=693644443044991&ev=PageView&noscript=1"
+            /></noscript>
+            <!--End Facebook Pixel PageView-->
+
+
+    <link rel="Shortcut Icon" href="Images/favicon.ico" />
+    <meta name="viewport" content="width=1024">
+    <link rel="stylesheet" href="Images/theme/v1/css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <script type="text/javascript" src="js/common.js?v=20241218"></script>
+    <script type="text/javascript" src="js/header.js?v=20250106"></script>
+    <script type="text/javascript" src="js/login.js?v=20250303"></script>
+
+    <style type="text/css">
+        body, html {
+            width: 100%;
+            margin: 0;
+            padding: 0
+        }
+
+        .body {
+            height: 100%
+        }
+
+        .panel {
+            width: 205px;
+            height: 1090px;
+            float: left
+        }
+
+        .home {
+            width: 819px;
+            height: 850px;
+            float: left;
+            margin: -18px auto;
+        }
+
+        ul.menu li {
+            width: 92px;
+            text-align: center;
+            background: url(Images/theme/v1/img/btn_bg.png) no-repeat;
+            padding: 3px 15px;
+            font-size: 11px;
+            text-transform: uppercase;
+            height: 56px
+        }
+
+        .nav-item{
+            color: #ffffff
+        }
+
+        .nav-item:hover{
+            color: #ffffff
+        }        
+    </style>
+    <script language="javascript" type="text/javascript">
+        $().ready(function () {
+            $('#btnReg').click(function () {
+                popUpRegister('');
+            });
+        });
+        // Fix focusout txtCode when login unsuccessful. 
+        // Temporary focus to btnReg to focusout txtCode.
+        function focusBtnReg() {
+            $('#btnReg').focus();
+        }
+        function setScrollingFraMain(path) {
+            console.log(path);
+            if (path.indexOf('Home') > -1) {
+                $('#fraMain').contents().find('body').css('overflow', 'hidden');
+            } else {
+                // src: https://stackoverflow.com/questions/17109338/horizontal-scroll-bar-for-iframe-with-content-that-has-overflow-x-hidden
+                $('#fraMain').contents().find('body').css('overflow-x', 'hidden');
+                $('#fraMain').contents().find('body').css('overflow-y', 'scroll');
+            }
+        }
+
+        function popupLivechat() {
+            window.open('https://t2m.io/livechat-agen228', 'Livechat', 'width=500,height=500,toolbars=no,scrollbars=no,status=no,resizable=no');
+        }
+    </script>
+    
+    <link rel="stylesheet" href="css/header.submenu.css?v=1762746734915" />
+    <style type="text/css">
+        .main_width {
+            width: 1024px;
+            height: 110px;
+            background-color: #003DB8;
+            margin: 0 auto;
+        }
+
+        .sub-menu {
+            top: 155px;
+            padding-top: 11px;
+            padding-bottom: 23px
+        }
+    </style>
+    
+</head>
+<body>
+    <form name="form1" method="post" action="Defaults/Default254.aspx" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type='text/javascript'>var timerId = null;var today = new Date();var time_start = today.getTime();function countdown(){var time_left =300 - parseInt(((new Date()).getTime() - time_start) / 1000);clearTimeout(timerId);if(time_left > 0){timerId = setTimeout('countdown()', 1000);}else{document.location.href = '//agen228.net/';}}function handleError(){return true;}window.onload=countdown;window.onerror=handleError;</SCRIPT><!-- popup event May 2021 was hidden --><script>
+                        $().ready(function () {
+                            $('body').append(`<a style='z-index: 999999; width: 140px; height: 83px; position: fixed; left:0; top: 0px;' href='#'>
+                                <img width='120px' height='60px' src='css/Banner_ASF.png?v=2'/></a>`);
+                        });
+                    </script><script>localStorage.setItem('cdnImageHost','https://imgshare.porta-assist.com');</script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="48629256" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="NK8CMI+lwR37LoU1DRJbZUqoDotT+uAADF66V1awdcg0xriPjGfRtD7/B/j+Ol8qbV1YXHW40fih+PHFLflqmgNlLfGaHx6X853zC5GPINpKNZVxUnB6G3htlXwGUe+Kl0v+PK/+6n5vD9SZ30Um6XI43PsIGcfAnlIFyw2F7uawvHwm67WCu3+U9jg4EAWBS1PKeolzEvIE9QjMT4rPinEAeyQUowaGclVymdPBr2U=" />
+</div>
+        <div class="overlay"></div>
+        <header>
+            <div class="container m-auto">
+                <div class="items flex header">
+                    <div class="sidebar-btn">
+                        <svg class="ham hamRotate ham4" viewbox="0 0 100 100" id="sidebar-btn-svg">
+                            <path class="line top" d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+                            <path class="line" d="m 70,50 h -40" />
+                            <path class="line bottom" d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+                        </svg>
+                    </div>
+                    <div class="item-4">
+                        <a class="logo" href="#" class="flex">
+                            <img src="Images/logo.png" alt="Logo Agen228">
+                        </a>
+                    </div>
+                    <div class="item-2 mb-hidden">
+                        <div class="register-img flex content-center">
+                            <a class="regis-btn" href="#" id="btnReg" class="flex">DAFTAR SEKARANG
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item-6 mb-hidden">
+                        <div class="login-area">
+                            <div class="item-5">
+                                <div class="input-group flex m-b-2">
+                                    <span class="input-group-text-l flex">
+                                        <img class="icon-input" src="Images/theme/v1/img/icon_username.png" alt="icon username">
+                                    </span>
+                                    <input name="txtUsername" type="text" id="txtUsername" class="input-group-text-r" maxLength="12" placeholder="User Name" tabindex="1" />
+                                </div>
+                                <div class="input-group flex">
+                                    <span class="input-group-text-l flex">
+                                        <img class="icon-input" src="Images/theme/v1/img/icon_password.png" alt="icon password">
+                                    </span>
+                                    <input name="txtPassword" type="password" id="txtPassword" class="input-group-text-r" placeholder="Password" tabindex="2" />
+                                </div>
+                            </div>
+                            <div class="item-3">
+                                <div class="m-b-2 captcha">
+                                    <div id="captcha" disabled>
+                                        <span>1183</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <input name="txtCode" type="text" id="txtCode" class="text-center" placeholder="Code" tabindex="3" maxlength="4" />
+                                </div>
+                            </div>
+                            <div class="item-4 area-login-btn">
+                                <div class="wrapper-login-btn">
+                                    <input type="button" name="btnSignIn" id="btnSignIn" class="login-btn flex" value="Login" style="cursor: pointer" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Menu -->
+        <section>
+            <div class="container m-auto">
+                <div class="game-icon content-center">
+                    <ul id="main-menu"
+                        tag-parent-sub-menu="a"
+                        data-id="main-menu"
+                        data-is-guest="true"
+                        class="menu" style="width: 1024px; display: flex; justify-content: space-between;">
+                        <li><a href="#" class="nav-item">
+                            <img src="Images/theme/v1/img/menu/home.png" style="width: 35px; height: 35px" />Home</a></li>
+                        <li v-for="(key, index) in Object.keys(menus)" class="">
+                            <menu-item class-name="nav-item" :is-guest="isGuest"
+                                :name="menus[key][0].GameType">
+                                <image-item class-name="" :image-data="menus[key][0]" width="35px" height="35px"
+                                    :cache-version="cacheVersion"></image-item>
+                                {{ getGameMenuDisplayNameByLang(menus[key][0]) }}
+                                <down-arrow type="text" :has-sub-game="menus[key][0].HasSubGame" :game-type="menus[key][0].GameType"
+                                    :is-guest="isGuest">
+                                </down-arrow>
+                                <submenu class-name="" :submenu-data="menus[key]" :is-guest="isGuest" :cache-version="cacheVersion">
+                                </submenu>
+                            </menu-item>
+                        </li>
+                        <li><a href="https://t2m.io/demo-slot-agen228" target="_blank" class="nav-item">
+                            <img src="Images/theme/v1/img/agen228-demo-slot.gif" style="width: 62px; height: 50px" /></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="container m-auto">
+            <div class="info-area">
+                <div class="info-label">
+                    <svg fill="#ffffff" height="18px" width="18px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 488.5 488.5" xml:space="preserve" stroke="#ffffff">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
+                            <g>
+                                <g>
+                                    <path d="M405.1,210.95v0.4c0,7.5,6.1,13.7,13.7,13.7h56c7.5,0,13.7-6.1,13.7-13.7v-0.4c0-7.5-6.1-13.7-13.7-13.7h-56 C411.2,197.25,405.1,203.35,405.1,210.95z"></path>
+                                    <path d="M406.2,270.75l53,21.1c7.4,2.9,15.6-1,18.1-8.5c2.2-6.8-1.3-14.2-8-16.9l-53-21.1c-7.4-2.9-15.6,1-18.1,8.5 C396.1,260.75,399.5,268.15,406.2,270.75z"></path>
+                                    <path d="M151.8,132.15H56.3c-19,0-34.4,15.4-34.4,34.4v15.3H11.5c-6.4,0-11.5,5.2-11.5,11.5v43.1c0,6.4,5.2,11.5,11.5,11.5h10.4 v13.2c0,19,15.4,34.4,34.4,34.4h8.6l39.3,130.8l5.9-1.4l19.9-4.7l5.9-1.4l-15.6-123.3h31.5v-14.3c41.8,6.8,110.8,24.5,159,70.2 c0.5,8.5,8,15.1,16.9,14.1c7.7-0.9,13.3-8,13.3-15.8v-88.5c19.4-7.2,33.2-25.9,33.2-47.7c0-21.9-13.8-40.5-33.2-47.7v-87.8 c0-7.8-5.5-14.9-13.3-15.8c-8.9-1-16.3,5.6-16.9,14.1c-48.2,45.7-117.2,63.4-159,70.2L151.8,132.15L151.8,132.15z"></path>
+                                    <path d="M459.3,130.45l-53,21.1c-6.7,2.7-10.2,10-8,16.9c2.4,7.5,10.7,11.5,18.1,8.5l53-21.1c6.7-2.7,10.2-10,8-16.9 C474.9,131.45,466.6,127.55,459.3,130.45z"></path>
+                                </g>
+                            </g>
+                        </g></svg>
+                    <span class="m-l-1">Info</span>
+                </div>
+                <div class="announcement-text">
+                    <div id="div-marquee" style="width: 617px">
+                        <input id="text-marquee" type="hidden" value="DAPATKAN FREEBET 15.000 UNTUK 1.000 MEMBER TERCEPAT TOTAL HADIAH 15JT RUPIAH CEK DILINK PROMO YA BOSSKU !!" />
+                        <script type="text/javascript">
+                            initMarquee()
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </section>    
+
+        <div class="body" id="body" style="height: 100%; width: 1024px; background: transparent; position: relative; margin: 0 auto">
+            <div class="panel">
+                <iframe style="height: 100%; width: 205px;" src="_bet/panel.aspx" frameborder="0" name="fraPanel" id="fraPanel" scrolling="yes" ></iframe>
+            </div>
+            <div class="home" style="position: absolute; left: 206px; z-index: -99999999;">
+                <iframe onload="setScrollingFraMain(this.contentWindow.location.pathname)" style="height: 100%; width: 100%;" src="_View/Home.aspx" name="fraMain" id="fraMain" frameborder="0"></iframe>
+            </div>
+            <section class="m-t-1 m-b-1">
+            <div class="container m-auto">
+                <article class="text-justify">
+                    
+<!-- Start WL_Footer_agen228_net of agen228.net domain -->
+
+<!-- End WL_Footer_agen228_net of agen228.net domain -->
+
+<!-- Start WL_Footer_agen228_net of all domains -->
+
+<!-- End WL_Footer_agen228_net of all domains -->
+                </article>
+            </div>
+            </section>
+        </div> 
+        <a style="width: 150px; height: 150px; position: absolute; left: 0; top: 212px;" href="https://t2m.io/banner-dewaqq-di-agen228" target="_blank">
+            <img title="" alt="" width="150" height="150" src="Images/dewaqq-banner.gif" /></a>
+        <a style="width: 300px; height: 200px; position: fixed; right: 0; bottom: 0;" href="#" onclick="popupLivechat()">
+            <img title="" alt="" width="300" height="200" src="Images/theme/v1/img/agen228-livechat.gif" /></a>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+        <script>
+            $.ajax({
+                url: "https://209.97.168.204/api/banners",
+                data: {
+                    website: "agen228.com",
+                    option: ""
+                }
+            }).done(function (data, textStatus, jqXHR) {
+                if (data.meta.code === 200) {
+                    var html = "";
+                    jQuery.each(data.data, function (i, val) {
+                        html += '<swiper-slide><img class="border-slider" style="display:block;margin:auto;" src="https://209.97.168.204/' + val.image_path + '" alt="' + val.title + '"></swiper-slide>';
+                    });
+                    $('#swiper-slide').html(html);
+                } else {
+                    $('.banner').empty();
+                }
+            });
+
+            $.ajax({
+                url: "https://209.97.168.204/api/banners",
+                data: {
+                    website: "agen228.com",
+                    type: "banner-bottom"
+                }
+            }).done(function (data, textStatus, jqXHR) {
+                if (data.meta.code === 200) {
+                    var banner = `<img src="https://209.97.168.204/` + data.data[0].image_path + `" alt="` + data.data[0].title + `">`;
+                    $('.banner-leaderboard').html(banner);
+                } else {
+                    $('.banner-bottom').empty();
+                }
+            });
+
+            $('#sidebar-btn-svg').on('click', function () {
+                $(this).toggleClass('active');
+                $('#sidebar-btn-close-svg').toggleClass('active');
+                $('.sidebar').addClass('sidebar-active');
+                $('.overlay').addClass('show');
+                $('.sidebar-btn-close').toggleClass('sidebar-btn-close-active');
+            });
+
+            $('.overlay').on('click', function () {
+                $('.overlay').removeClass('show');
+                $('.sidebar').removeClass('sidebar-active');
+                $('#sidebar-btn-svg').toggleClass('active');
+                $('#sidebar-btn-close-svg').toggleClass('active');
+                $('.sidebar-btn-close').toggleClass('sidebar-btn-close-active');
+            });
+
+            $('#sidebar-btn-close-svg').on('click', function () {
+                $(this).toggleClass('active');
+                $('#sidebar-btn-svg').toggleClass('active');
+                $('.sidebar').removeClass('sidebar-active');
+                $('.overlay').removeClass('show');
+                $('.sidebar-btn-close').toggleClass('sidebar-btn-close-active');
+            });
+
+        </script>  
+    </form>
+
+    <script src="js/vue3.3.7.global.js" type="text/javascript"></script>
+    <script type="text/javascript">const mountEl = document.querySelector("#main-menu");</script>
+    <script src="js/header.menu.vue.js?v=1762746734915" type="text/javascript"></script>
+    <script type="text/javascript">menu.mount("#main-menu");</script>
+</body>
+</html>

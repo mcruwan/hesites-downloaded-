@@ -1,0 +1,2497 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="google-site-verification" content="ciXiKhlhvd2xzt9ijoHsiCxX094o9en1A_DNcGJ3MtM" /><!-anton-!>
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Барановичский государственный университет</title>
+  <meta http-equiv="Content-Language" content="ru">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+  <meta property="og:image" content="/images/logo_universitet.gif" />   
+    
+  <meta http-equiv="keywords" CONTENT="БарГУ, баргу, вуз, барановичи, беларусь, университет, барановичский государственный университет, информатика, педагог, юрист, экономист, программист, абитуриент,  дистанционное образование, высшее образование,факультет, расписание занятий, стоимость обучения, абитуриент, студент, наука, магистратура, аспирантура,  информационные технологии, конференции университета ">
+  <meta http-equiv="description" CONTENT="Барановичский государственный университет"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<link rel="icon" href="img/favicon.png" type="image/png">
+    
+    
+    
+ <!-- <link href="bootstrap.min1.css" rel="stylesheet">-->
+<link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
+<link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+<!--<link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">-->
+<!--<link rel="stylesheet" href="vendors/linericon/style.css">-->
+<!--  <link rel="stylesheet" href="vendors/magnefic-popup/magnific-popup.css">-->
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
+<!--<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="vendors/nice-select/nice-select.css">-->
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+    <base href="https://barsu.by/index.php">
+    <link rel="canonical" href="https://barsu.by/index.php" />
+    <link rel="alternate" hreflang="ru" href="https://barsu.by/index.php" />
+    <link rel="alternate" hreflang="by" href="https://barsu.by/by/index.php" />
+    <link rel="alternate" hreflang="en" href="https://barsu.by/en/index.php" />
+    <link rel="alternate" hreflang="zh" href="https://barsu.by/zh/index.php" />
+    <link rel="alternate" hreflang="tuk" href="https://barsu.by/tuk/index.php" />
+</head>
+<body>    <!--<div class="verh-menu"> </div>-->
+	<!-- ================ header section start ================= -->	
+	<link rel="stylesheet" href="/vendors/mdi/css/materialdesignicons.min.css"><meta name="yandex-verification" content="689cd288598c2396" />
+          <div align="center" class="color_eye">
+            <script>
+	           function changeVS()
+					{
+					if (vs1.style.display == "inline-block") {
+					 var x = document.getElementsByTagName("img");
+					 var i;
+					  for (i = 0; i < x.length; i++) {
+						x[i].style.filter = "grayscale(100%)";
+						}
+						 var xx = document.getElementsByTagName("background-image");
+					     var ii;
+					     for (ii = 0; ii < xx.length; ii++) {
+						 xx[ii].style.filter = "grayscale(100%)";
+						}
+
+	   					 var y = document.querySelectorAll('.header_area,.color_verh, .navbar-nav, .panel-heading, #footer,  a.dropdown-toggle, .site-main, .site-main1, .main-block, .footer-area, .block,  .card-header, .dropdown-menu, .megamenu, .news-icon');/* bg-image order-2*/
+							var j;
+						  for (j = 0; j < y.length; j++) {
+								console.log("градиент");
+							y[j].style.backgroundImage =  "linear-gradient(#6d6d6d, #afb0b2)"  ;
+
+  							}
+
+							 var zz = document.querySelectorAll('.image, .bg-image, .blog-banner-area, #sp-subheader-wrapper, #sp-subheader-wrapper1, #sp-subheader-wrapper2, #sp-subheader-wrapper3, #sp-subheader-wrapper4, #sp-subheader-wrapper5, #sp-subheader-wrapper6, #sp-subheader-wrapper7, #sp-subheader-wrapper8, #sp-subheader-wrapper9, #sp-subheader-wrapper10 ');
+								var kkk;
+							  for (kkk = 0; kkk < zz.length; kkk++) {
+								  console.log("границы");
+								zz[kkk].style.filter = "grayscale(100%)";
+
+							  }
+
+							 var z = document.querySelectorAll('.dropdown, .block, .order-1, .site-block-half, .text,  #header, .image ');
+								var k;
+							  for (k = 0; k < z.length; k++) {
+								  console.log("границы");
+								z[k].style.borderColor =  '#757878';
+
+							  }
+							 var zk = document.querySelectorAll('.panel-heading, .panel-primary');
+								var kk;
+							  for (kk = 0; kk < zk.length; kk++) {
+								  console.log("границы");
+								zk[kk].style.borderColor =  '#c2c2c2';
+
+							  }
+
+
+							 var a = document.querySelectorAll('.nav1>li>a, .nav1-tabs>li.active>a, .glyphicon, .text a:link, #newss a:link, #ovrr a:link, #eventt a:link, .site-heading, .heading, .card-news__title, h2, .carousel2-control-text1, .carousel1-control-text1, .carousel1-control-prev, .carousel1-control-next, .carousel1-control-text, .carousel2-control-text, .carousel2-control-prev, .carousel2-control-next, .main-block1 a:link, .ssilka li, .tz a, .card-text, .card-text a');
+							 for (b = 0; b < a.length; b++) {
+								console.log("цвет текста");
+								a[b].style.color="#1b1c1c";
+								a[b].style.borderBottomColor =  '#1b1c1c';
+							   }
+
+							 var ab = document.querySelectorAll('.slick-prev, .slick-next');//button.slick-next.slick-arrow, button.slick-prev.slick-arrow,
+							  console.log("стрелки");
+								for (bb = 0; bb < ab.length; bb++) {
+								console.log("цвет стрелки");
+								a[bb].style.color="#1b1c1c";
+							   }
+
+								 var q = document.querySelectorAll('.carousel-indicators .active');
+									var w;
+								  for (w = 0; w < q.length; w++) {
+									console.log("цвет точки");
+									q[w].style.backgroundColor= '#1b1c1c';
+								   }
+								/* var ak = document.querySelectorAll('.panel-title, span.zagl');
+									var bk;
+								  for (bk = 0; bk < ak.length; bk++) {
+								  ak[bk].style= "color:#ffffff";
+								   }*/
+
+								 var t = document.querySelectorAll('#header, .text');
+									var h;
+								  for (h = 0; h < t.length; h++) {
+									t[h].style= "background-color:#dedfe0";
+								   }
+
+
+								 vs1.style.display='none';
+								 vs2.style.display='inline-block';
+
+								}
+								else
+								{
+								/*var x = document.getElementsByTagName("img");
+								  var i;
+								  for (i = 0; i < x.length; i++) {
+									x[i].style.filter = "grayscale(0%)";	}*/
+								vs2.style.display='none';
+								location.reload();
+								vs1.style.display='inline-block';
+
+									}
+									}
+
+
+									</script>
+  <script type="application/ld+json">
+  {
+    "@context" : "http://schema.org",
+    "@type" : "Organization",
+    "name" : "Барановичский государственный университет",
+    "url" : "https://barsu.by",
+    "sameAs" : [
+      "https://vk.com/news.barsu",
+      "https://www.facebook.com/barsuby",
+      "https://www.linkedin.com/school/baranovichi-state-university/"
+    ]
+  }
+</script>
+                                <div class="">
+                                   <span id="vs2" style="display:none">
+
+
+
+                       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<style>
+
+.vs-start{
+   /*background:  url("../../img/eye.png") 0px center no-repeat;*/
+	cursor: pointer;
+    /* height: 35px;*/
+	line-height:35px;/*????? ?????????? ??-????????? ??????*/
+    /*display: inline-block;*/
+    /*padding-left: 50px;*/
+	font-size:14px;
+	vertical-align:middle;
+
+
+}
+img_vs {
+   filter: grayscale(100%);
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   -o-filter: grayscale(100%);
+   filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+}
+
+.vs-end{
+	/*background:  url("../../img/eye1.png") 0px center no-repeat;*/
+	cursor: pointer;
+    height: 35px;
+	line-height:35px;
+    /*display: inline-block;*/
+    padding-left: 35px;
+	font-size:14px;
+	vertical-align:middle;
+	}
+
+ .v-button{
+    border: 1px solid black !important;
+    padding: 2px 4px 2px 4px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+    min-width: 30px;
+    display: inline-block;
+	font-size:16px;
+	height: 28px;
+	color:black !important;
+	background:#d6d6d6 !important;
+ }
+.sv_settings{
+ /*   display: none;*/
+
+   /* min-height: 40px;*/
+    font-size:22px;
+    color:#333;
+	margin-left:auto;
+	margin-right:auto;
+
+    /*background: white*/;
+}
+.sv_settings *{
+    font-weight:bold;
+}
+
+
+.fs-n{
+    font-size:14px;
+}
+.fs-m{
+    font-size:18px;
+}
+.fs-l{
+    font-size:22px;
+}
+
+.cs-outer button{
+display:inline-block;
+height:35px;
+width:35px;
+padding: 0;
+
+}
+
+
+
+.cs-0, .cs-0:focus, .cs-0:hover{
+    color:black !important;
+    background:#d6d6d6 !important;
+}
+.cs-bw, .cs-bw:focus, .cs-bw:hover{
+	color:black !important;
+    background:white !important;
+
+}
+.cs-wb, .cs-wb:focus, .cs-wb:hover{
+    color:white !important;
+    background:black !important;
+	border: 1px solid #d6d6d6 !important;
+}
+
+</style>
+<script>
+function VS()
+{
+
+var x = document.getElementsByTagName("img");
+ var i;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.filter = "grayscale(100%)";
+	}
+
+
+	var xx = document.getElementsByTagName("background-image");
+ var ii;
+  for (ii = 0; ii < xx.length; ii++) {
+    xx[ii].style.filter = "grayscale(100%)";
+	}
+
+
+
+var xt = document.querySelectorAll('#share42');
+ var it;
+  for (it = 0; it < xt.length; it++) {
+    xt[it].style.filter = "grayscale(100%)";
+	}
+
+ var y = document.querySelectorAll('.header_area,.color_verh, .navbar-nav, .panel-heading, #footer,  a.dropdown-toggle, .site-main, .site-main1, .main-block, .footer-area, .block,  .card-header, .dropdown-menu, .megamenu');
+	var j;
+  for (j = 0; j < y.length; j++) {
+	    console.log("градиент");
+	y[j].style.backgroundImage =  "linear-gradient(#6e6e6e, #878889)"  ;
+
+  }
+
+  var z = document.querySelectorAll('.dropdown,.logo');
+	var k;
+  for (k = 0; k < z.length; k++) {
+	  console.log("границы");
+	z[k].style.borderColor =  '#757878';
+
+  }
+ var zk = document.querySelectorAll('.panel-heading, .panel-primary, .logo');
+	var kk;
+  for (kk = 0; kk < zk.length; kk++) {
+	  console.log("границы");
+	zk[kk].style.borderColor =  '#c2c2c2';
+
+  }
+
+
+ var a = document.querySelectorAll('.nav1>li>a, .nav1-tabs>li.active>a, .glyphicon, .text a:link, #newss a:link, #ovrr a:link, #eventt a:link, .site-heading, .heading, .card-news__title, h2, .carousel2-control-text1, .carousel1-control-text1, .carousel1-control-prev, .carousel1-control-next, .carousel1-control-text, .carousel2-control-text, .carousel2-control-prev, .carousel2-control-next, .main-block1 a:link, .ssilka li, .tz a, .text-white a, .text-white, .card-text');
+  for (b = 0; b < a.length; b++) {
+    console.log("цвет текста");
+	a[b].style.color="#000";
+	a[b].style.borderBottomColor =  '#6e6e6e';
+   }
+
+	 var ax = document.querySelectorAll('.nav2>li>a, .text_r ');
+ for (bx = 0; bx < ax.length; bx++) {
+	ax[bx].style.color="#6e6e6e";
+   }
+
+
+ var q1 = document.querySelectorAll('.carousel-indicators li, .logo');
+	var w1;
+  for (w1 = 0; w1 < q1.length; w1++) {
+    console.log("цвета точек");
+	q1[w1].style.backgroundColor= 'rgba(0,0,0,0)';
+   }
+	 var t = document.querySelectorAll('.table-striped>tbody>tr:nth-child(odd)>td, th');
+	var h;
+  for (h = 0; h < t.length; h++) {
+	t[h].style= "background-color:#dedfe0";
+   }
+
+ var ak = document.querySelectorAll('table.tabl.text tr, table.table.table-bordered.text tr');
+	var bk;
+  for (bk = 0; bk < ak.length; bk++) {
+		  ak[bk].style.backgroundColor='#ffffff';
+   }
+
+}
+</script>
+<script>
+$(document).ready(function(){
+ $('#fs-n').click(function(){
+      $('.verh').css('font-size', '');
+	  $('.active').css('font-size', '');
+	  $('.thumbnails').css('font-size', '');
+	  $('.item').css('font-size', '');
+	  $('h3').css('font-size', '');
+	  $('.panel-heading').css('font-size', '');
+	  $('.panel-body1').css('font-size', '');
+	  $('.nav1').css('font-size', '');
+	  $('.nav1-tabs').css('font-size', '');
+	  $('.text').css('font-size', '');
+	  $('p').css('font-size', '');
+	   $('li').css('font-size', '');
+	   $('.table-responsive').css('font-size', '');
+	 $('.sitelinkfont').css('font-size', '');
+	 $('span.zagl').css('font-size', '');
+	 $('div').css('font-size', '');
+	 $('.n-q').css('font-size', '');
+  });
+
+ /*$('#fs-n').click(function(){
+     $('.verh').css('font-size', '14px');
+	  $('.active').css('font-size', '14px');
+	  $('.thumbnails').css('font-size', '14px');
+	  $('.item').css('font-size', '14px');
+	  $('h3').css('font-size', '14px');
+	  $('.panel-heading').css('font-size', '14px');
+	  $('.panel-body1').css('font-size', '14px');
+	  $('.nav1').css('font-size', '14px');
+	  $('.nav1-tabs').css('font-size', '14px');
+	 $('.text').css('font-size', '14px');
+	  $('p').css('font-size', '14px');
+	   $('li').css('font-size', '14px');
+	   $('.table-responsive').css('font-size', '14px');
+	 $('.sitelinkfont').css('font-size', '14px');
+	 $('span.zagl').css('font-size', '14px');
+
+  });*/
+ $('#fs-m').click(function(){
+      $('.verh').css('font-size', '18px');
+	  $('.active').css('font-size', '18px');
+	  $('.thumbnails').css('font-size', '18px');
+	  $('.item').css('font-size', '18px');
+	  $('h3').css('font-size', '18px');
+	  $('.panel-heading').css('font-size', '18px');
+	  $('.panel-body1').css('font-size', '18px');
+	  $('.nav1').css('font-size', '18px');
+	  $('.nav1-tabs').css('font-size', '18px');
+	 $('.text').css('font-size', '18px');
+	  $('p').css('font-size', '18px');
+	  $('li').css('font-size', '18px');
+	  $('.table-responsive').css('font-size', '18px');
+	 $('.sitelinkfont').css('font-size', '18px');
+	 $('span.zagl').css('font-size', '18px');
+	 $('div').css('font-size', '18px');
+	 $('.n-q').css('font-size', '18px');
+
+  });
+    $('#fs-l').click(function(){
+      $('.verh').css('font-size', '20px');
+	  $('.active').css('font-size', '20px');
+	  $('.thumbnails').css('font-size', '20px');
+	  $('.item').css('font-size', '20px');
+	  $('h3').css('font-size', '20px');
+	  $('.panel-heading').css('font-size', '20px');
+	  $('.panel-body1').css('font-size', '20px');
+	  $('.nav1').css('font-size', '20px');
+	  $('.nav1-tabs').css('font-size', '20px');
+	  $('.text').css('font-size', '20px');
+	  $('p').css('font-size', '20px');
+	  $('li').css('font-size', '20px');
+	  $('.table-responsive').css('font-size', '20px');
+	 $('.sitelinkfont').css('font-size', '20px');
+	 $('span.zagl').css('font-size', '20px');
+	$('div').css('font-size', '20px');
+	$('.n-q').css('font-size', '20px');
+	$('.span.links').css('font-size', '20px');
+  });
+
+/*
+   $('.img-outer').click(function(){
+
+		if (document.getElementById('img-onoff').value!='0'){
+			// document.getElementById('img-onoff-text').value = 'Включить';
+			$('img').css('display','none');
+			document.getElementById('img-onoff').value = '0';
+
+            //$('#img-onoff-text').text(' Включить');
+           // $(this).addClass("active");
+       } else {
+		   document.getElementById('img-onoff').value = '0';
+			$('img').css('display','block');
+			//$('#img-onoff-text').text(' Выключить');
+           // $(this).removeClass("active");
+			//location.reload();
+
+       }
+
+    });*/
+
+
+$('.cs-0').click(function(){
+$('*').css('color', '');
+$('*').css('background', '');
+	VS();
+$('#myImage').attr('src','/img/eye1.png');
+});
+
+$('.cs-bw').click(function(){
+$('*').css('color', 'black');
+$('*').css('background', 'white');
+$('#myImage').attr('src','/img/eye1.png');
+});
+
+$('.cs-wb').click(function(){
+$('*').css('color', 'white');
+$('*').css('background', 'black');
+$('#myImage').attr('src','/img/eye2.png');
+
+});
+
+
+$('.fa-0').click(function(){
+$('*').css('letter-spacing', '');
+});
+
+$('.fa-m').click(function(){
+//$('*').css('letter-spacing', '5px');
+ $('.verh').css('letter-spacing', '5px');
+  $('.active').css('letter-spacing', '5px');
+		$('.breadcrumb').css('letter-spacing', '5px');
+	  $('.thumbnails').css('letter-spacing', '5px');
+	  $('.item').css('letter-spacing', '5px');
+	  $('h3').css('letter-spacing', '5px');
+	  $('.panel-heading').css('letter-spacing', '5px');
+	  $('.panel-body1').css('letter-spacing', '5px');
+	  $('.nav1').css('letter-spacing', '5px');
+	  $('.nav1-tabs').css('letter-spacing', '5px');
+	 $('.text').css('letter-spacing', '5px');
+	  $('p').css('letter-spacing', '5px');
+	  $('.table-responsive').css('letter-spacing', '5px');
+	 $('.sitelinkfont').css('letter-spacing', '5px');
+	$('span.zagl').css('letter-spacing', '5px');
+		  $('.qo').css('letter-spacing', '5px');
+	  $('.q').css('letter-spacing', '5px');
+	$('.nav2>li>a').css('letter-spacing', '5px');
+	$('.bodytext').css('letter-spacing', '5px');
+	//$('.n-q').css('letter-spacing', '5px');
+});
+
+$('.fa-l').click(function(){
+//$('*').css('letter-spacing', '10px');
+ $('.verh').css('letter-spacing', '8px');
+	$('.breadcrumb').css('letter-spacing', '8px');
+  $('.active').css('letter-spacing', '8px');
+	  $('.thumbnails').css('letter-spacing', '8px');
+	  $('.item').css('letter-spacing', '8px');
+	  $('h3').css('letter-spacing', '8px');
+	  $('.panel-heading').css('letter-spacing', '8px');
+	  $('.panel-body1').css('letter-spacing', '8px');
+	  $('.nav1').css('letter-spacing', '8px');
+	  $('.nav1-tabs').css('letter-spacing', '8px');
+	  $('.text').css('letter-spacing', '8px');
+	  $('p').css('letter-spacing', '8px');
+	  $('.table-responsive').css('letter-spacing', '8px');
+	  $('.sitelinkfont').css('letter-spacing', '8px');
+	  $('span.zagl').css('letter-spacing', '8px');
+	  $('.qo').css('letter-spacing', '8px');
+	  $('.q').css('letter-spacing', '8px');
+	$('.nav2>li>a').css('letter-spacing', '8px');
+	$('.bodytext').css('letter-spacing', '8px');
+	//$('.divider').css('letter-spacing', '8px');
+});
+
+
+ });
+
+</script>
+
+
+<div class="row">
+<!--  -->
+<div class="sv_settings" id="sv_settings">
+    <span><!--Размер шрифта-->
+   		   <span class="v-button" id="fs-n">0 </span>
+           <span class="v-button" id="fs-m">+1 </span>
+           <span class="v-button" id="fs-l">+2 </span>
+         <!--  <span class="v-button" id="fs-l">+3 </span>-->
+    </span>
+<span class="mgl20">&nbsp;&nbsp;</span>
+    <span class="mgl20"><!--Цвет фона и текста-->
+        <span class="cs-outer">
+            <span class="v-button cs-0" id="cs-0">А</span>
+            <span class="v-button cs-bw" id="cs-bw">А</span>
+            <span class="v-button cs-wb" id="cs-wb">А</span>
+        </span>
+    </span>
+
+<span class="mgl20">&nbsp;&nbsp;</span>
+    <span class="mgl20"><!--A+-->
+        <span class="cs-outer">
+            <span class="v-button fa-0" id="fa-0">А</span>
+            <span class="v-button fa-m" id="fa-m">А+</span>
+            <span class="v-button fa-l" id="fa-l">А++</span>
+        </span>
+    </span>
+
+
+
+
+<span class="vs-end" style="display:inline-block" onclick="changeVS()" title="Обычный режим"><i class="fa fa-low-vision fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;</span>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+                                   </span>
+                                </div>
+
+                             </div>
+
+<header class="header_area">
+   <div class="site-main">
+ &nbsp;
+   </div>
+<!--
+   <div class="container">
+     <ul class="nav nav-pills" style="position:absolute;z-index:9999">
+    <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-dribbble ttt" aria-hidden="true"></i></a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Русский</a>
+      <a class="dropdown-item" href="#">Белорусский</a>
+      <a class="dropdown-item" href="#">Английский</a>
+      <a class="dropdown-item" href="#">Китайский</a>
+      <a class="dropdown-item" href="#">Туркменский</a>
+    </div>
+  </li>
+
+
+</ul>
+</div>-->
+   <div class="container-fluid-1 ">
+
+
+      <div class="row">
+
+         <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6" ><!--d-flex align-items-center-->
+             <div id="logo" class="logo">
+                <!--<a href="//barsu.by/"><img src="/images/logo.png" alt="Барановичский государственный университет" title="Барановичский государственный университет" /></a>-->
+                <a href="//barsu.by/"><img src="/images/logo-ru.svg " alt="Барановичский государственный университет" title="Барановичский государственный университет" height=75px/></a>
+		<!--<a href="//barsu.by/"><img src="/images/logo-20.svg" alt="Барановичский государственный университет" title="Барановичский государственный университет" height=75px /></a>-->
+             </div>
+         </div>
+         <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 otstup-verh net hidden-sm"><!-- ml-flex d-flex d-md-block d-md-flex-->
+             <div class="media header-top-info">
+                <div class="media-body">
+
+                                <ul class="vm">
+                                <li><a href="//barsu.by/index.php" class="active">ru</a></li>
+                                <li>|&nbsp;&nbsp;<a href="/by/index.php" >by</a> </li>
+                                <li>|&nbsp;&nbsp;<a href="/en/index.php">en</a> </li>
+                                <li>|&nbsp;&nbsp;<a href="/zh/index.php" >中文</a> </li>
+                                <li>|&nbsp;&nbsp;<a href="/tuk/index.php" >tuk</a> </li>
+                                </ul><br>
+                                <ul class="vm" >
+                                 <li><span class="vs-start" id="vs1" style="display:inline-block" onclick="changeVS()" title="Версия для слабовидящих">
+                                 <img src="/images/glass.png" width="28px"></span>
+                                </li>
+                                <li><a href="/v/contact.php" target="_blank" ><i class="fa fa-address-card-o fa-2x" aria-hidden="true" title="Электронное обращение"></i></a></li>
+                                <li><a href="//ms7.g-cloud.by/roundcube/" target="_blank" rel="nofollow"><i class="fa fa-envelope-o fa-2x" aria-hidden="true" title="Почта"></i></a> </li>
+                                <!--<li><a href="/information/map_s.php" ><i class="fa fa-sitemap fa-2x" aria-hidden="true"></i></a></li>   -->
+                                <li><a href="/information/telephone.php" target="_blank"><i class="fa fa-phone fa-2x" aria-hidden="true" title="Телефонный справочник"></i></a></li>
+                                <li><a href="/information/search.php"><i class="fa fa-search fa-2x" aria-hidden="true" title="Поиск"></i></a></li>
+                                 <!--<li><a href="https://forum.barsu.by/" target="_blank"><i class="fa fa-comments-o fa-2x" aria-hidden="true"></i></a></li>--></ul>
+                   </div>
+                </div>
+
+
+
+
+            </div>
+
+
+        </div>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+	.megamenu-li {
+		/*position: relative;*/
+	}
+	
+	/*.dropdown-menu {min-width: 32rem;}
+
+ @media(max-width:576px) {.megamenu {position: absolute;	min-width: 150px;	left: 0;	right: 0;	padding: 5px;}}
+
+.megamenu {
+	position: absolute;
+	min-width: 32rem;
+	left: 0;
+	right: 0;
+	padding: 5px;
+	
+}*/
+	@media (min-width: 768px) {
+		.navbar-container {
+			position: sticky;
+			top: 0;
+			overflow-y: auto;
+			height: 100vh;
+		}
+		.navbar-container .navbar {
+			align-items: flex-end;
+			justify-content: flex-end;
+			flex-wrap: nowrap;
+			flex-direction: column;
+			height: 100%;
+		}
+		.navbar-container .navbar-collapse {
+			align-items: flex-end;
+		}
+		.navbar-container .nav {
+			flex-direction: column;
+			flex-wrap: nowrap;
+		}
+		.navbar-container .navbar-nav {
+			flex-direction: column !important;
+		}
+	}
+
+</style>
+<!--<script>
+$( document ) . ready( function () {
+	$( ".megamenu" ) . on( "click", function ( e ) {
+		e . stopPropagation();
+	} );
+} );
+
+</script> -->
+<div class="">
+	<!--container-->
+
+
+
+
+	<!--
+ <div class="collapse navbar-collapse js-navbar-collapse">
+ <ul class="nav navbar-nav">
+ <li class="dropdown mega-dropdown">
+ <a href="#" class="dropdown-toggle" data-toggle="dropdown">Выбор мебели <span class="glyphicon glyphicon-chevron-down pull-right"></span></a>
+
+ <ul class="dropdown-menu mega-dropdown-menu row">
+ <li class="col-sm-3">
+ <ul>
+ <li class="dropdown-header">Новые поступления</li>
+ <div id="myCarousel" class="carousel slide" data-ride="carousel">
+ <div class="carousel-inner">
+ <div class="item active">
+ <a href="#"><img src="https://bootstraptema.ru/snippets/menu/2017/wmm/1.jpg" class="img-responsive" alt="Кухня"></a>
+ <h4><small>Оригинальный набор кухни</small></h4>
+ <button class="btn btn-primary" type="button">3999 €</button>
+ <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> В Избранное</button>
+ </div>
+
+-->
+	<style>
+		.clear {
+			clear: both
+		}
+		
+		#hover .dropdown:hover> ul.dropdown-menu,
+		#click .dropdown-toggle:focus+ div.dropdown-menu {
+			display: block;
+		}
+
+	</style>
+	<script>
+		var linkys = document.getElementsByClassName( 'dropdown-toggle' );
+		for ( var i = 0; i < linkys.length; ++i ) {
+			linkys[ i ].onclick = function ( e ) {
+				//if this isn't an http/https link
+				this.focus();
+				e.preventDefault();
+			};
+		}
+
+
+
+
+		// for old browsers you might need a polyfill https://www.google.co.uk/search?q=getElementsByClassName+polyfill
+	</script>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
+		<!-- One of the primary actions on mobile is to call a business - This displays a phone button on mobile only -->
+
+		<!-- <div class=""></div>-->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+   
+    </button>
+	
+		<!--</div>
+-->
+
+
+
+		<div class="collapse navbar-collapse flex-column" id="navbar">
+			<!-- navbar-collapse  -->
+
+			<ul class="navbar-nav justify-content-start w-100">
+				<!--  px-3  -->
+
+				<li class="nav-item">
+
+					<a class="nav-link dropdown-toggle" href="/information/univer.php" data-toggle="dropdown" id="navbarDropdownMenuLink">
+          Университет
+        </a>
+				
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<div class="row">
+							<div class="col-12 col-md-12 col-lg-6">
+								<p class="tz"><a href="/information/universitet_1.php">Об университете</a>
+								</p>
+								<a href="/information/universitet.php" class="dropdown-item">История</a>
+								<a href="/information/presentation.php" class="dropdown-item">Презентация</a>
+								<a href="/information/symbolic.php" class="dropdown-item">Символика</a>
+								<a href="/information/documents.php" class="dropdown-item">Лицензия/Сертификаты</a>
+								<a href="/information/menedzment.php" class="dropdown-item">Система менеджмента качества</a>
+								<a href="/information/HProfessors.php" class="dropdown-item">Почетные профессора</a>
+								<a href="/information/thanks.php" class="dropdown-item">Нас благодарят</a>
+								<a href="/information/barsu-v-smi.php" class="dropdown-item">БарГУ в&nbsp;СМИ</a>
+								<a href="/information/rating.php" class="dropdown-item">БарГУ в&nbsp;мировых рейтингах</a>
+								<a href="/information/administrativeRoutine.php" class="dropdown-item">Координаты</a>
+								<a href="/information/telephone.php" class="dropdown-item">Телефонный справочник</a>
+							</div>
+							<div class="col-12 col-md-12 col-lg-6">
+								<p class="tz"><a href="/information/org_strukture.php">Организационная структура</a>
+								</p>
+								<a href="/department/rektorat.php" class="dropdown-item">Ректорат</a>
+								<a href="/faculties/index.php" class="dropdown-item">Факультеты</a>
+								<a href="/faculties/institute.php" class="dropdown-item">Институт повышения квалификации и&nbsp;переподготовки</a>
+								<a href="/kolledg/index.php" class="dropdown-item">Обособленное подразделение &laquo;Ляховичский аграрный колледж&raquo;</a>
+								<a href="/department/index_1.php" class="dropdown-item">Подразделения</a>
+								<a href="/department/public_organizations.php" class="dropdown-item">Общественные организации</a>
+								<!--          <a href="/department/work.php" class="dropdown-item">Профком работников</a>
+          <a href="/department/work_s.php" class="dropdown-item">Профком студентов</a>
+          <a href="/department/brsm.php" class="dropdown-item">ПО ОО «БРСМ» с правами районного комитета БарГУ</a>
+          <a href="/department/white_rus.php" class="dropdown-item">ПО РОО «Белая Русь»</a> 
+		<a href="/department/znanie.php" class="dropdown-item">ПО РГОО «Знание»</a> 	  
+		<a href="/department/union_women.php" class="dropdown-item">ПООО «Белорусский союз женщин»</a> 	-->
+
+							</div>
+							<div class="col-12 col-md-6 col-lg-6">
+								<p class="tz"><a href="/news/index.php">Новости</a>
+								</p>
+								<p class="tz"><a href="/events/index.php">Анонсы</a>
+								</p>
+							</div>
+							<div class="col-12 col-md-6 col-lg-6">
+								<p class="tz"><a href="/virtual/index.php">Фотогалерея</a>
+								</p>
+								<p class="tz"><a href="https://virtual.barsu.by/" target="_blank">Виртуальный университет  <i class="fa fa-external-link" aria-hidden="true"></i></a>
+								</p>
+							</div>
+						</div>
+
+				</li>
+
+				<li class="nav-item ">
+					<a class="nav-link dropdown-toggle" href="/entrant/index.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Образование
+        </a>
+				
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<div class="row">
+
+							<div class="col-12 col-md-6 col-lg-6">
+								<p class="tz"><a href="/entrant/vo.php">Высшее образование</a>
+								</p>
+								<a href="/entrant/specialnosti.php" class="dropdown-item">Бакалавриат</a>
+								<a href="/magistracy/index.php" class="dropdown-item">Магистратура</a>
+								<p class="tz"><a href="/aspirantura/aspirantura.php">Аспирантура</a>
+								</p>
+								<p class="tz"><a href="/entrant/dop-obr.php">Дополнительное образование взрослых </a>
+								</p>
+								
+								<p class="tz"><a href="/entrant/extracurricular_activities.php" target="_blank">Факультативные занятия в профильных классах</a>
+									<!--<p class="tz"><a href="/information/belarus-european-higher-education.php">Болонский процесс</a></p>-->
+
+							</div>
+							<div class="col-12 col-md-6 col-lg-6">
+								<p class="tz"><a href="/entrant/entrant.php">Довузовское обучение</a>
+								</p>
+
+								<a class="dropdown-item" href="http://abit.barsu.by/index.php?view=material&razdel=podgotovitelnye-otdelenie&id=vechernie-podgotovitel-nye-kursy" target="_blank">Вечерние подготовительные курсы   <i class="fa fa-external-link" aria-hidden="true"></i></a>
+								<a class="dropdown-item" href="http://abit.barsu.by/index.php?view=material&razdel=podgotovitelnye-otdelenie&id=uskorennye-vechernie-podgotovitel-nye-kursy" target="_blank">Интенсивные вечерние подготовительные курсы   <i class="fa fa-external-link" aria-hidden="true"></i></a>
+								<a class="dropdown-item" href="http://abit.barsu.by/index.php?view=material&razdel=podgotovitelnye-otdelenie&id=dvuhnedel-nye-podgotovitel-nye-kursy-k-centralizovannomu-testirovaniyu" target="_blank">Двухнедельные подготовительные курсы по&nbsp;предметам ЦТ   <i class="fa fa-external-link" aria-hidden="true"></i></a>
+								<a class="dropdown-item" href="http://abit.barsu.by/index.php?view=categori&razdel=podgotovitelnye-otdelenie&id=podgotovitel-nye-kursy-po-predmetam-ct" target="_blank">Подготовительные курсы по&nbsp;предметам вступительных испытаний в&nbsp;университет   <i class="fa fa-external-link" aria-hidden="true"></i></a>
+								<a class="dropdown-item" href="http://abit.barsu.by/index.php?view=material&razdel=podgotovitelnye-otdelenie&id=podgotovka-inostrannyh-grazhdan-k-postupleniyu-v-universitet" target="_blank">Подготовка иностранных граждан к&nbsp;поступлению в&nbsp;университет и&nbsp;другие учреждения высшего образования Республики Беларусь   <i class="fa fa-external-link" aria-hidden="true"></i></a>
+								<a class="dropdown-item" href="http://abit.barsu.by/index.php?view=material&razdel=podgotovitelnye-otdelenie&id=kursy-russkogo-yazyka-dlya-inostrannyh-grazhdan" target="_blank">Курсы русского языка для&nbsp;иностранных граждан   <i class="fa fa-external-link" aria-hidden="true"></i></a>
+
+							</div>
+
+						</div>
+
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link dropdown-toggle" href="/science/index.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">       Научная деятельность
+        </a>
+					<div class="dropdown-menu  megamenu" aria-labelledby="navbarDropdownMenuLink">
+						<div class="row">
+
+							<div class="col-12 col-md-6 col-lg-6">
+								<p class="tz"><a href="/science/science.php">Наука БарГУ</a>
+								</p>
+								<a href="/science/scientificWork.php" class="dropdown-item">Результаты университетской науки</a>
+								<a href="/science/direction.php" class="dropdown-item">Научные направления</a>
+								<a href="/science/scientificSchool.php" class="dropdown-item">Научные школы</a>
+								<a href="/science/nirs.php" class="dropdown-item">Научно-исследовательская работа студентов</a>
+								<p class="tz"><a href="/science/innovative_activity.php">Инновационная деятельность</a>
+								</p>
+								<a href="/science/patent.php" class="dropdown-item">Научно-техническая продукция</a>
+								<a href="http://ctt.barsu.by/" target="_blank" class="dropdown-item">Обособленное подразделение «Центр трансфера технологий» <i class="fa fa-external-link" aria-hidden="true"></i></a>
+								<a href="http://platforma.barsu.by/" target="_blank" class="dropdown-item">Платформа запросов и предложений <i class="fa fa-external-link" aria-hidden="true"></i></a>
+								<p class="tz"><a href="/science/izdaniya.php">Научные издания</a>
+								</p>
+								<a href="https://publish.barsu.by/" target="_blank" class="dropdown-item">Журналы БарГУ <i class="fa fa-external-link" aria-hidden="true"></i></a>
+								<a href="/science/scientific_journals.php" class="dropdown-item">Научные журналы </a>
+							</div>
+							<div class="col-12 col-md-6 col-lg-6">
+								<p class="tz"><a href="/science/ns.php">Научные сообщества</a>
+								</p>
+								<a href="/science/sno.php" class="dropdown-item">Студенческое научное общество</a>
+								<a href="/science/smy.php" class="dropdown-item">Совет молодых ученых</a>
+								<a href="/science/snil.php" class="dropdown-item">Научно-исследовательские лаборатории и&nbsp;кружки</a>
+								<p class="tz"><a href="/science/meropriyatiya.php">Научно-практические мероприятия</a>
+								</p>
+								<a href="https://conf.barsu.by/" target="_blank" class="dropdown-item">Конференции БарГУ <i class="fa fa-external-link" aria-hidden="true"></i></a>
+								<!--<a href="http://conf.barsu.by/index.php?view=competition&razdel=completiton&id=completiton" target="_blank" class="dropdown-item">Дистанционные конкурсы <i class="fa fa-external-link" aria-hidden="true"></i></a>-->
+
+								<p class="tz"><a href="">Научные гранты</a>
+								</p>
+								<a href="/science/research_projects.php" class="dropdown-item">Научно-исследовательские проекты и&nbsp;конкурсы </a>
+								<p class="tz"><a href="http://science.barsu.by/" target="_blank">Автоматизированная система учета научных активностей ППС университета <i class="fa fa-external-link" aria-hidden="true"></i></a>
+								</p>
+								<p class="tz"><a href="/science/inform_resources.php">Информационные ресурсы научно-информационной компьютерной сети (НИКС) Министерства Образования</a>
+								</p>
+							</div>
+							<!-- <a href="/science/news.php" class="dropdown-item">Новости </a> 
+                <a href="/science/events.php" class="dropdown-item">Анонсы </a> 
+				<a href="/science/galeri.php" class="dropdown-item">Фотогалерея </a> 
+                <a href="/science/seminarlist.php" class="dropdown-item">Оценка качества мероприятий </a> -->
+						</div>
+				</li>
+
+
+
+
+
+
+				<li class="nav-item">
+					<a class="nav-link dropdown-toggle" href="/international/index.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Международная деятельность
+        </a>
+				
+					<div class="dropdown-menu megamenu" aria-labelledby="navbarDropdownMenuLink">
+						<div class="row">
+							<div class="col-12 col-md-12 col-lg-6">
+								<p class="tz"><a href="/international/vzaimodeistvie.php">МЕЖДУНАРОДНОЕ ВЗАИМОДЕЙСТВИЕ</a>
+								</p>
+								<a href="/international/Cooperation.php" class="dropdown-item">Международное сотрудничество</a>
+								<a href="/international/partners.php" class="dropdown-item">Зарубежные партнеры</a>
+								<a href="/international/participation_projects.php" class="dropdown-item">Участие в&nbsp;проектах</a>
+								<a href="/international/participation_exhibitions.php" class="dropdown-item">Участие в&nbsp;выставках</a>
+								<a href="/international/grant.php" class="dropdown-item">Международные программы и&nbsp;гранты</a>
+								<a href="/international/iproject.php" class="dropdown-item">Инвестиционный проект «Модернизация высшего образования Республики Беларусь»</a>
+								<a href="/international/education.php" class="dropdown-item">Об обучении в рамках международных договоров</a>
+								<p class="tz"><a href="/international/program.php">ОБРАЗОВАТЕЛЬНЫЕ ПРОГРАММЫ</a>
+								</p>
+								<a href="/international/swSchools.php" class="dropdown-item">Летние и&nbsp;зимние образовательные школы</a>
+								<a href="/international/course.php" class="dropdown-item">Курсы русского языка</a>
+								<a href="http://abit.barsu.by/index.php?view=categori&razdel=podgotovitelnye-otdelenie&id=podgotovitel-nye-otdelenie-dlya-inostrannyh-grazhdan" target="_blank" class="dropdown-item">Подготовительные курсы для&nbsp;иностранных граждан <i class="fa fa-external-link" aria-hidden="true"></i></a>
+
+
+							</div>
+							<div class="col-12 col-md-12 col-lg-6">
+								<p class="tz"><a href="/international/centers.php">МЕЖДУНАРОДНЫЕ ЦЕНТРЫ</a>
+								</p>
+								<a href="/international/center.php" class="dropdown-item">Центр турецкого языка и&nbsp;культуры</a>
+								<a href="http://confucius.barsu.by/" target="_blank" class="dropdown-item">Cпециализированный кабинет «Класс Конфуция» <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                                <a href="/international/center_belchi.php" class="dropdown-item">Центр белорусско-китайского сотрудничества</a>
+								<p class="tz"><a href="/international/information.php">ИНФОРМАЦИЯ</a>
+								</p>
+
+								<a href="http://abit.barsu.by/index.php?view=material&razdel=inostrannomu-abiturientu&id=pravila-postupleniya-inostrannyh-grazhdan" target="_blank" class="dropdown-item">Правила поступления иностранных граждан <i class="fa fa-external-link" aria-hidden="true"></i></a>
+								<!--<a href="/international/consultation.php" class="dropdown-item">On-line консультации для&nbsp;иностранных граждан</a>-->
+								<a href="/international/loveBarSU.php" class="dropdown-item">Почему я&nbsp;люблю БарГУ</a>
+
+
+
+							</div>
+
+						</div>
+
+				</li>
+
+
+
+
+
+
+
+
+
+				<li class="nav-item">
+
+					<a class="nav-link dropdown-toggle" href="/educational_work/index.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Молодежная политика
+        </a>
+				
+					<div class="dropdown-menu dropdown-menu-left megamenu " aria-labelledby="navbarDropdownMenuLink">
+						<div class="row">
+							<div class="col-12 col-md-6 col-lg-6">
+								<p class="tz"><a href="/educational_work/ideologia.php">Воспитательная работа в&nbsp;университете</a>
+								</p>
+                                
+								<p class="tz"><a href="/educational_work/student_council.php">Студенческий совет университета</a>
+								</p>                                
+								<p class="tz"><a href="/educational_work/gazeta.php">Газета «Мой универсiтэт»</a>
+								</p>
+								<p class="tz"><a href="/educational_work/events.php">Афиша мероприятий</a>
+								</p>
+								<p class="tz"><a href="/educational_work/news.php"> Новости</a>
+								</p>
+								<p class="tz"><a href="/educational_work/izbiratelu.php">Молодому избирателю</a>
+									<p class="tz"><a href="/educational_work/patriotism.php">Патриотизм – фундамент государственности</a>
+										<p class="tz"><a href="/educational_work/80-letie-osvobozhdeniya-belarusi.php">80 ЛЕТ ОСВОБОЖДЕНИЯ БЕЛАРУСИ ОТ НЕМЕЦКО-ФАШИСТСКИХ ЗАХВАТЧИКОВ</a>
+										</p>
+
+											<p class="tz"><a href="/educational_work/genocide.php">О геноциде белорусского народа</a>
+											                                <p class="tz"><a href="/educational_work/educational_tourism.php">Образовательный туризм</a>	
+
+
+							</div>
+							<div class="col-12 col-md-6 col-lg-6">
+										<p class="tz"><a href="/educational_work/year_hm.php">Год белорусской женщины </a>
+								<p class="tz"><a href="/educational_work/inform_gos_organov.php">Информация государственных органов</a>
+								</p>
+								<a href="/educational_work/baranavichyHC.php" class="dropdown-item">Барановичи - здоровый город</a>
+								<a href="/information/tax_literacy.php" class="dropdown-item">Налоговая грамотность</a>
+								<a href="/information/mes_informs.php" class="dropdown-item">МЧС информирует</a>
+								<a href="/information/en_informs.php" class="dropdown-item">Госэнергогазнадзор информирует</a>
+								<a href="/educational_work/resspisok_ekstremmat.php" class="dropdown-item">Экстремизм. Зона ответственности</a>
+								<p class="tz"><a href="/educational_work/index_1.php">Внеучебная деятельность</a>
+								</p>
+								<a href="/educational_work/collective.php" class="dropdown-item">Коллективы, секции, клубы, кружки</a>
+								<a href="/educational_work/konkursi.php" class="dropdown-item">Конкурсы</a>
+								<a href="/educational_work/dostizenia.php" class="dropdown-item">Достижения</a>
+								<!--  <a href="/educational_work/blagodarnost.php" class="dropdown-item">Нас благодарят</a>-->
+								<a href="/educational_work/document.php" class="dropdown-item">Документы по&nbsp;организации ВР</a>
+								<a href="/educational_work/hostels.php" class="dropdown-item">Общежития</a>
+								<a href="/educational_work/cpc.php" class="dropdown-item">Социально-педагогическое сопровождение </a>
+								<a href="/educational_work/parables3.php" class="dropdown-item">Психологическое сопровождение</a>
+								<a href="/educational_work/employment.php" class="dropdown-item">Трудоустройство молодежи в&nbsp;свободное от&nbsp;учебы время</a>
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li class="nav-item">
+
+					<!--        <a class="nav-link dropdown-toggle" href="/educational_work/year_hm.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+       Год качества
+        </a>-->
+
+
+<!--<li class="nav-item ">
+						<a class="nav-link" href="https://barsu.by/information/hot-line.php" target="_blank" style="color: #efe800;">Горячая линия </a>
+					</li>-->
+				</li>
+
+			</ul>
+
+			<ul class="navbar-nav  bg-secondary bg-mmm justify-content-end w-100">
+				<!--  px-3   justify-content-center-->
+				<!--      <li class="nav-item ">		  
+        <a class="nav-link" href="https://abit.barsu.by/index.php?view=material&razdel=priemnaya-komissiya&id=monitoring-vstupitel-noy-kompanii" target="_blank">Мониторинг <span class="sr-only">(current)</span>   <i class="fa fa-external-link" aria-hidden="true"></i></a>
+      </li>	-->
+				<li class="nav-item ">
+					<a class="nav-link" href="http://abit.barsu.by/index.php" target="_blank">Абитуриенту <span class="sr-only">(current)</span>   <i class="fa fa-external-link" aria-hidden="true"></i></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link dropdown-toggle" href="/student/index.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Студенту
+        </a>
+				
+					<div class="dropdown-menu megamenu" aria-labelledby="navbarDropdownMenuLink">
+						<div class="row">
+							<div class="col-12 col-md-6 col-lg-6">
+								<p class="tz"><a href="/student_d/doc1.php">Дневная форма получения образования </a>
+								</p>
+
+								<a href="/student_d/EducationalProcess.php" class="dropdown-item">График образовательного процесса</a>
+								<a href="/student_d/scheduleIC.php" class="dropdown-item">График семестрового контроля</a>
+								<a href="/student_d/scheduleSEC.php" class="dropdown-item">График работы государственной экзаменационной комиссии</a>
+								<a href="/student_d/disciplines.php" class="dropdown-item">Дисциплины по&nbsp;выбору</a>
+								<a href="/student_d/schedule_ExS.php" class="dropdown-item">Расписание экзаменационных сессий</a>
+
+								<p class="tz"><a href="https://lk.barsu.by/" target="_blank">Личный кабинет студента <i class="fa fa-external-link" aria-hidden="true"></i></a>
+								</p>
+								<p class="tz"><a href="/student/doc.php">Документы</a>
+								</p>
+								<p class="tz"><a href="https://rasp.barsu.by/" target="_blank">Расписание занятий   <i class="fa fa-external-link" aria-hidden="true"></i></a>
+								</p>
+                            
+								<p class="tz"><a href="/student/ProspectiveReserve.php">Перспективный кадровый резерв</a>
+								</p>
+                                  <p class="tz"><a href="/student/schedule.php">График работы врачебного здравпункта </a></p>
+								<p class="tz"><a href="/educational_work/hostels.php">Общежития</a>
+								</p>
+
+							</div>
+							<div class="col-12 col-md-6 col-lg-6">
+								<p class="tz"><a href="/student/doc1.php">Заочная форма получения образования </a>
+								</p>
+								<a href="/student_z/plan.php" class="dropdown-item">Годовые учебные планы</a>
+								<a href="/student/session.php" class="dropdown-item">График лабораторно-экзаменационных сессий</a>
+								<a href="/student_z/scheduleSEC.php" class="dropdown-item">График работы государственной экзаменационной комиссии</a>
+								<a href="/student_z/disciplines.php" class="dropdown-item">Дисциплины по&nbsp;выбору</a>
+								<a href="https://education.barsu.by/course/index.php?categoryid=42" target="_blank" class="dropdown-item">Учебно-методические материалы</a>
+												
+                                 <p class="tz"><a href="/student/test.php">КОМПЬЮТЕРНОЕ ТЕСТИРОВАНИЕ</a></p>
+                              
+								<p class="tz"><a href="/student/hotline.php">Горячие линии</a>
+								</p>
+								<p class="tz"><a href="/student/memorandum1.php">Памятки студенту</a>
+								</p>
+								<p class="tz"><a href="/student/entrepreneurship.php">Малое и&nbsp;среднее предпринимательство</a>
+								</p>
+								<p class="tz"><a href="/student/directives.php">Директивы Президента Республики Беларусь</a>
+								</p>                                
+							</div>
+						</div>
+					</div>
+				</li>
+
+
+
+
+
+				<li class="nav-item">
+					<a class="nav-link dropdown-toggle" href="/magistracy/index.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Магистранту
+        </a>
+				
+					<div class="dropdown-menu  megamenu" aria-labelledby="navbarDropdownMenuLink">
+						<div class="row">
+							<div class="col-12 col-md-6 col-lg-6">
+								<p class="tz"><a href="/magistracy/arrival.php">Поступление</a>
+								</p>
+								<a href="https://pravo.by/document/?guid=12551&p0=C22200574&p1=42&p5=0" target="_blank" class="dropdown-item">Правила приема лиц для получения углубленного высшего образования (стр.42)&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></a>
+								<a href="/magistracy/procedure.php" class="dropdown-item">Порядок приема для получения углубленного высшего образования</a>
+								<a href="/magistracy/magistr_d.php" class="dropdown-item">Перечень документов для лиц, поступающих в магистратуру</a>
+								<a href="/magistracy/plan.php" class="dropdown-item">План набора</a>
+								<a href="/magistracy/acceptance.php" class="dropdown-item">Сроки приема документов</a>
+								<a href="/magistracy/schedule.php" class="dropdown-item">Расписание консультаций и вступительных испытаний</a>
+								<a href="/magistracy/magistr_pp.php" class="dropdown-item">Программы вступительных испытаний</a>
+							</div>
+							<div class="col-12 col-md-6 col-lg-6">
+								<p class="tz"><a href="/magistracy/training.php">Обучение</a>
+								</p>
+								<a href="https://rasp.barsu.by/" class="dropdown-item" target="_blank">Расписание занятий  <i class="fa fa-external-link" aria-hidden="true"></i></a>
+								<a href="/magistracy/disciplines.php" class="dropdown-item">Дисциплины по выбору</a>
+								<a href="/magistracy/scheduleExS.php" class="dropdown-item">Расписание экзаменационных сессий</a>
+								<a href="/magistracy/scheduleSEC.php" class="dropdown-item">График работы государственной экзаменационной комиссии</a>
+								<a href="/magistracy/timetable.php" class="dropdown-item">Расписание кандидатских экзаменов и консультаций</a>
+								<a href="/magistracy/form.php" class="dropdown-item">Документы</a>
+								<!--<a href="/magistracy/information.php" class="dropdown-item">Информация</a>-->
+								<p class="tz"><a href="/magistracy/cost.php">Стоимость обучения</a>
+								</p>
+								<!--<p class="tz"><a href="/magistracy/quality.php">Качество подготовки</a>
+								</p>-->
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link dropdown-toggle" href="/graduate/index.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Выпускнику
+        </a>
+				
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a href="/graduate/documents.php " class="dropdown-item">Нормативные документы</a>
+						<a href="/graduate/summary.php" class="dropdown-item">Сведения о&nbsp;выпуске</a>
+						<!--            <a href="/graduate/application.php" class="dropdown-item">Форма заявки на распределение</a>-->
+						<a href="/graduate/employer_profile.php" class="dropdown-item">Анкета для&nbsp;руководителей предприятий и&nbsp;организаций</a>
+						<a href="/graduate/graduate_profile.php" class="dropdown-item">Анкета для&nbsp;молодых специалистов</a>
+                                                <a href="/graduate/telephone.php" class="dropdown-item">«Телефон доверия» для выпускников</a>
+                                                <a href="/graduate/consultation.php"  class="dropdown-item">Поддержка профессионального развития (консультация)</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link dropdown-toggle" href="/foreign_citizen/index.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Иностранному гражданину
+        </a>
+				
+					<div class="dropdown-menu  megamenu " aria-labelledby="navbarDropdownMenuLink">
+						<div class="row">
+							<div class="col-12 col-md-6 col-lg-6">
+								<p class="tz"><a href="/foreign_citizen/rb.php">О РЕСПУБЛИКЕ БЕЛАРУСЬ</a>
+								</p>
+								<p class="tz"><a href="/foreign_citizen/barsu.php">ОБ УНИВЕРСИТЕТЕ</a>
+								</p>
+								<a href="/foreign_citizen/info.php" class="dropdown-item">Цифры и&nbsp;факты</a>
+								<a href="/information/rating.php" target="_blank" class="dropdown-item">БарГУ в&nbsp;мировых рейтингах</a>
+								<a href="/international/Cooperation.php" target="_blank" class="dropdown-item">Международное сотрудничество</a>
+								<a href="/international/partners.php" target="_blank" class="dropdown-item">Университеты-партнеры</a>
+								<a href="/international/participation_exhibitions.php" target="_blank" class="dropdown-item">Участие в&nbsp;выставках</a>
+								<a href="/international/participation_projects.php" target="_blank" class="dropdown-item">Участие в&nbsp;проектах</a>
+								<a href="/foreign_citizen/video_p.php" class="dropdown-item">Видеопрезентации университета</a>
+								<a href="/foreign_citizen/reviews.php" class="dropdown-item">Отзывы об&nbsp;университете</a>
+								<p class="tz"><a href="/foreign_citizen/enrollee.php">ИНОСТРАННОМУ АБИТУРИЕНТУ</a>
+								</p>
+								<a href="/foreign_citizen/eprograms.php" class="dropdown-item">Образовательные программы и&nbsp;подготовительные курсы </a>
+								<a href="/foreign_citizen/admission_barsu.php" class="dropdown-item">Поступление в&nbsp;БарГУ</a>
+								<a href="/foreign_citizen/questions.php" class="dropdown-item">Часто задаваемые вопросы</a>
+								<a href="/foreign_citizen/memo.php" class="dropdown-item">Памятка</a>
+                                <p class="tz"><a href="https://lk.abit.barsu.by/" target="_blank">Личный кабинет иностранного абитуриента <i class="fa fa-external-link" aria-hidden="true"></i></a> </p>                      
+								<p class="tz"><a href="/foreign_citizen/memof.php">ПАМЯТКА ИНОСТРАННОМУ ГРАЖДАНИНУ</a>
+								</p>
+
+							</div>
+							<div class="col-12 col-md-6 col-lg-6">
+								<p class="tz"><a href="/foreign_citizen/student.php">ИНОСТРАННОМУ СТУДЕНТУ</a>
+								</p>
+								<a href="/foreign_citizen/studies.php" class="dropdown-item">Учеба</a>
+								<a href="/foreign_citizen/science.php" class="dropdown-item">Наука</a>
+								<a href="/foreign_citizen/leisure.php" class="dropdown-item">Досуг</a>
+								<a href="/foreign_citizen/recommend.php" class="dropdown-item">Практические рекомендации</a>
+								<a href="/international/grant.php" target="_blank" class="dropdown-item">Международные программы и&nbsp;гранты</a>
+								<p class="tz"><a href="/foreign_citizen/campus.php">УСЛОВИЯ ПРОЖИВАНИЯ В ОБЩЕЖИТИЯХ</a>
+								</p>
+								<a href="/foreign_citizen/hostel.php" class="dropdown-item">Обеспеченность общежитиями</a>
+								<a href="/form_ovr/h.php" target="_blank" class="dropdown-item">Электронная форма подачи документов для&nbsp;заселения в&nbsp;общежитие</a>
+								<p class="tz"><a href="/foreign_citizen/cost.php">СТОИМОСТЬ ОБУЧЕНИЯ И&nbsp;СПОСОБЫ ОПЛАТЫ, РАСХОДЫ</a>
+								</p>
+
+								<p class="tz"><a href="/foreign_citizen/feedback.php">ОБРАТНАЯ СВЯЗЬ</a>
+								</p>
+								<p class="tz"><a href="/foreign_citizen/min.php">ИНФОРМАЦИЯ</a>
+								</p>
+								<p class="tz"><a href="/foreign_citizen/employment.php">ТРУДОУСТРОЙСТВО ИНОСТРАННЫХ ГРАЖДАН</a>
+								</p>
+							</div>
+
+						</div>
+					</div>
+
+
+				</li>
+
+
+				<li class="nav-item">
+					<a class="nav-link dropdown-toggle" href="/employee/index.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Сотруднику
+        </a>
+				
+					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+						<div class="row">
+							<div class="col-12 col-md-6 col-lg-6">
+								<p class="tz"><a href="/employee/regulations.php">НОРМАТИВНЫЕ ПРАВОВЫЕ АКТЫ</a>
+								</p>
+								<a href="/employee/policy.php" class="dropdown-item">Политика в отношении обработки персональных данных БАРГУ</a>
+                                <a href="/employee/cookie.php" class="dropdown-item">Политика в отношении cookie</a>
+                                <a href="/employee/CCTV.php" class="dropdown-item">Политика видеонаблюдения</a>
+								<a href="/employee/code.php" class="dropdown-item">Кодекс корпоративной этики</a>
+								<a href="/employee/pravila-pedagogicheskikh-rabotnikov.php" class="dropdown-item">Правила педагогических работников</a>
+								<a href="/employee/pravila-trudovogo-rasporyadka.php" class="dropdown-item">Правила внутреннего трудового распорядка</a>
+
+							</div>
+							<div class="col-12 col-md-6 col-lg-6">
+                                								<p class="tz"><a href="/employee/corruption.php">ПРОТИВОДЕЙСТВИЕ КОРРУПЦИИ</a>
+								</p>
+								<p class="tz"><a href="/employee/day-information.php">ЕДИНЫЙ ДЕНЬ ИНФОРМИРОВАНИЯ</a>
+								</p>
+								<p class="tz"><a href="/employee/directivesrb.php">ДИРЕКТИВЫ ПРЕЗИДЕНТА РЕСПУБЛИКИ БЕЛАРУСЬ</a>
+								</p>                                
+								<p class="tz"><a href="https://rasp.barsu.by/" target="_blank">РАСПИСАНИЕ ЗАНЯТИЙ <i class="fa fa-external-link" aria-hidden="true"></i></a> </p>
+								<p class="tz"><a href="https://journal.barsu.by/login" target="_blank">ЖУРНАЛ ПРЕПОДАВАТЕЛЯ <i class="fa fa-external-link" aria-hidden="true"></i></a> </p>
+
+
+							</div>
+
+						</div>
+					</div>
+
+
+				</li>
+
+
+
+				<li class="nav-item">
+					<a class="nav-link dropdown-toggle" href="/administrative/index.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Одно окно
+        </a>
+				
+					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+						<a href="/administrative/administrativeRoutine.php" class="dropdown-item">Координаты </a>
+						<a href="/administrative/administrative.php?fk=0" class="dropdown-item">Перечень административных процедур</a>
+						<a href="/administrative/administrativeInfo.php" class="dropdown-item">Информация о&nbsp;руководителях</a>
+						<a href="/administrative/administrativeSchedule.php " class="dropdown-item">График личного приема граждан, их&nbsp;представителей, представителей юридических лиц должностными лицами университета</a>
+						<a href="/administrative/administrativeDay.php" class="dropdown-item">График личного приема граждан и&nbsp;юридических лиц должностными лицами вышестоящих организаций </a>
+						<a href="/administrative/administrativeBook.php" class="dropdown-item">Информация о книге замечаний и&nbsp;предложений</a>
+						<a href="/administrative/administrativeDecl.php" class="dropdown-item">Образцы заявлений, необходимых для&nbsp;обращения за&nbsp;осуществлением административных процедур</a>
+						<a href="/v/contact.php" class="dropdown-item">Электронные обращения</a>
+						<!--   <a href="/v/contacts.php" class="dropdown-item">Вопрос руководству</a>-->
+					</div>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link dropdown-toggle" href="/information/uslugi.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Услуги
+        </a>
+				
+					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+						<a href="/information/payment.php" class="dropdown-item">Стоимость платного обучения</a>
+						<!--<a href="/information/other_price-list.php" class="dropdown-item">Прочие образовательные услуги</a> -->
+						<a href="/sport/pay.php" class="dropdown-item">Плавательный бассейн, тренажерный зал</a>
+						<a href="/information/price-list.php" class="dropdown-item">Необразовательные услуги</a>
+						<a href="/information/details.php" class="dropdown-item">Платежные реквизиты</a>
+						<a href="/information/erip.php" class="dropdown-item">Оплата в&nbsp;системе «Расчет»</a>
+					</div>
+				</li>
+
+				<li class="nav-item ">
+					<a class="nav-link" href="https://rasp.barsu.by/" target="_blank">Расписание <span class="sr-only">(current)</span>   <i class="fa fa-external-link" aria-hidden="true"></i></a>
+				</li>
+
+
+
+			</ul>
+
+
+			</div>
+	</nav>
+
+	</div>
+
+       </div>
+     <div class="site-main1"> </div>
+
+	</header>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9JC3F091CK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9JC3F091CK');
+</script>
+ 
+
+
+   
+   <!--  -->
+ <section class="slider-site-main" >
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+
+
+ 
+  </ol>
+  <div class="carousel-inner">
+
+      <div class="carousel-item  active">
+         <img  class="d-block w-100" src="images/sl2026.jpg" >
+      </div>
+      <div class="carousel-item">
+          <img  class="d-block w-100" src="images/sl-p.jpg"  >
+      </div>
+  <div class="carousel-item">
+              <a href="https://ipk.barsu.by/index.php/ru/obrazovatelnye-programmy/registration/kitajskii-yazyk" target="_blank"><img src="images/china-course.jpg" class="d-block w-100"  ></a>
+        </div>
+        <div class="carousel-item">
+            <a href="http://ipk.barsu.by/" target="_blank">
+                <img src="images/sl3-2.jpg" class="d-block w-100">
+            </a>
+        </div>
+
+         <div class="carousel-item">
+             <a href="http://abit.barsu.by/index.php?view=categori_first&razdel=podgotovitelnye-otdelenie&id=podgotovitelnye-otdelenie" target="_blank">
+                 <img src="images/sl2.jpg" class="d-block w-100"   >
+             </a>
+        </div>
+  <div class="carousel-item">
+         <a href="https://меркаванне.бел" target="_blank"><img  class="d-block w-100" src="images/23-10-25.jpg" ></a>
+      </div>
+
+ 
+
+
+
+
+
+
+      
+
+
+    
+                
+       
+
+      
+  </div>
+    
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+ 
+</section>
+<section class="slider-site-mob d-lg-none d-md-none" >
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style>
+ @media(max-width:768px){
+  .ranka-s6 {   width:50%;  background: #3283d6;    border-radius: 20px;    padding-left: 10px; padding-right:10px;    padding-top: 10px; padding-bottom:10px; margin-top: 10px;    margin-bottom: 10px; }
+ .carousel-caption6s {position: absolute; right: 7%; left: 7%;  top: 5%; z-index: 10;   color: #fff;  text-align: left;}
+ .caption6-shrift{font-size: 2.5vw; /*font-size: 2vw;*/}
+ .caption6-shrift_1{font-size: 2.6vw; /*font-size: 25px;*/}
+ .caption6-h2 {    color: #fff;    font-size:2.5vw;       }
+ .caption6-h1 {    color: #fff;    font-size:4vw; font-weight: 800;    }
+ .carousel-caption6s a, .carousel-caption7s a{color: #fff;}
+ }
+
+    </style>
+<div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators3" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators3" data-slide-to="4"></li>
+ 
+
+
+
+  </ol>
+
+  <div class="carousel-inner">
+
+      <div class="carousel-item active">
+         <img  class="d-block w-100" src="images/sl2026-mob.jpg" >
+      </div>
+ <div class="carousel-item ">
+            <img class="d-block w-100" src="images/sl-p-mob.jpg" alt="Первый слайд"  >
+        </div>
+  <div class="carousel-item">
+              <a href="https://ipk.barsu.by/index.php/ru/obrazovatelnye-programmy/registration/kitajskii-yazyk" target="_blank"><img src="images/china-course-mob.jpg" class="d-block w-100"  ></a>
+        </div>
+
+
+  <div class="carousel-item">
+      <img src="images/sl3-mob.jpg" class="d-block w-100" alt="Институт повышения квалификации и переподготовки"  >
+    </div>
+     <div class="carousel-item">
+      <img src="images/sl4-mob.jpg" class="d-block w-100" alt="Довузовская подготовка"  >
+    </div>
+  <div class="carousel-item">
+         <a href="https://меркаванне.бел" target="_blank"><img  class="d-block w-100" src="images/23-10-25-mob.jpg" ></a>
+      </div>
+
+
+
+
+        
+
+
+
+
+  
+     
+	
+
+   
+  
+
+
+
+
+
+
+      
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+</section>
+   
+  <section class="slider-site2" ></section>
+   <section class="otst"></section>       
+   
+  <section class="section-margin">
+      <div class="container-fluid-1">
+         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style>
+.main-news, .main-news a{color:#000}
+.main-news-date, .main-news-date a{font-size:80%;font-weight:400; color: #6c757d;}
+.z-news {
+    width: 60%;
+  /**/ height: 150px;
+    background: #1e6eb3;
+    margin-top: 330px;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.9;
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.z-news-text {
+	padding-left:10px; 
+   position: absolute;
+   /*  top: 50%;
+    margin-top: 0.625em;
+   margin-top: -0.625em;*/}
+.carousel-indicators0 {
+position: absolute;
+    right: 0;
+    bottom: 10px;
+    /* left: 0; */
+    z-index: 15;
+	
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 5%;
+    /* margin-left: 15%; */
+    list-style: none;
+}
+.carousel-caption4, .carousel-caption4 a {
+    
+    bottom: 30px;
+  /* left: 0%;*/
+    z-index: 10; color: #fff;
+   /*position: absolute; padding-top: 0px;
+    padding-bottom: 0px;
+   
+    text-align: center;font-size:20px; */ font-size:1.2rem; 
+}
+.news-all{color: #1e6eb3; padding:10px}
+@media (max-width: 768px) {
+	.carousel-caption4, .carousel-caption4 a {
+      
+     font-size:0.7rem; 
+} }
+
+
+
+
+   
+</style>
+<div class="section-intro text-center pb-40px bbb-otstup">
+  <h2 class="zag-spoler">НОВОСТИ УНИВЕРСИТЕТА</h2>
+  <div class="section-intro__style"><p><div class="img-slide1"><img src="images/sim5.png" alt=""></div></p>
+  </div>
+</div> 
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 col-lg-8 ">
+<div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators justify-content-end">
+    <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators1" data-slide-to="3"></li>
+    
+  </ol>
+  <style>
+  .z2_date {
+    width: 120px;
+    height: 40px;
+    background: #a0a0a0;
+    margin-top: 50px;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.8;
+    position: absolute;
+    /* padding-top: 0px; */
+    /* padding-bottom: 10px; */
+    padding-left: 10px;
+}
+.zz2_date {
+    position: relative;
+    z-index: 9;
+    font-size: 18px;
+    color: #ffffff;
+    /*margin-top: 10px;
+	margin-bottom:10px;
+    margin-left: 0px;
+	margin-right:10px;*/
+}
+
+.z3_date {
+
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.8;
+    position: absolute;
+    /* padding-top: 0px; */
+    /* padding-bottom: 10px; */
+    padding-left: 10px;
+	bottom:0;
+}
+.zz3_date {
+    position: relative;
+    z-index: 9;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 10px;
+	margin-bottom:10px;
+    margin-left: 0px;
+	margin-right:10px;
+}
+</style>
+  <div class="carousel-inner">
+
+        
+                    <div class='carousel-item active'> 
+							 <img src='photo/event/2026-01-28/ID7405/o.jpg' class='d-block w-100' >
+				
+									<div class='carousel-caption4  d-md-block z-news justify-content-between'>
+									    <div class='z3_date'><p class='zz3_date'>28.01.2026</p></div>
+										<a href='news/index.php?cont=long&id_news=7405'  class='z-news-text'>«Симбиоз науки и образования»: в СШ №18 г. Барановичи прошли первые открытые педагогические чтения</a>
+								    </div>
+                                    
+				    </div><div class='carousel-item'> 
+							 <img src='photo/event/2026-01-28/ID7404/o.jpg' class='d-block w-100' >
+				
+									<div class='carousel-caption4  d-md-block z-news justify-content-between'>
+									    <div class='z3_date'><p class='zz3_date'>28.01.2026</p></div>
+										<a href='news/index.php?cont=long&id_news=7404'  class='z-news-text'>Восставшие из пепла</a>
+								    </div>
+                                    
+				    </div><div class='carousel-item'> 
+							 <img src='photo/event/2026-01-26/ID7403/o.jpg' class='d-block w-100' >
+				
+									<div class='carousel-caption4  d-md-block z-news justify-content-between'>
+									    <div class='z3_date'><p class='zz3_date'>26.01.2026</p></div>
+										<a href='news/index.php?cont=long&id_news=7403'  class='z-news-text'>«Научный марафон-2026» на инженерном факультете</a>
+								    </div>
+                                    
+				    </div><div class='carousel-item'> 
+							 <img src='photo/event/2026-01-23/ID7402/o.jpg' class='d-block w-100' >
+				
+									<div class='carousel-caption4  d-md-block z-news justify-content-between'>
+									    <div class='z3_date'><p class='zz3_date'>23.01.2026</p></div>
+										<a href='news/index.php?cont=long&id_news=7402'  class='z-news-text'>Научный марафон на лингвистическом факультете</a>
+								    </div>
+                                    
+				    </div>   </div>
+  </div>
+
+</div>
+<div class="col-md-12 col-lg-4">
+<div class='row otstup-news'><div class='row'><div class='col-md-12 col-lg-12'><p class='main-news' align='justify'><a href='news/index.php?cont=long&id_news=7401 ' >Итоги проведения «Научного марафона БарГУ-2025», посвященного празднованию Дня белорусской науки</a></p></div>
+									<div class='col-md-12 col-lg-12'><p class='main-news-date'>23.01.2026</p></div></div> <div class='row'><div class='col-md-12 col-lg-12'><p class='main-news' align='justify'><a href='news/index.php?cont=long&id_news=7400 ' >Торжественная собрание, посвященное празднованию Дня белорусской науки, «Время новых открытий, время новых побед!»</a></p></div>
+									<div class='col-md-12 col-lg-12'><p class='main-news-date'>23.01.2026</p></div></div> <div class='row'><div class='col-md-12 col-lg-12'><p class='main-news' align='justify'><a href='news/index.php?cont=long&id_news=7399 ' >Научно-практические мероприятия в рамках Научного марафона состоялись в библиотеке БарГУ </a></p></div>
+									<div class='col-md-12 col-lg-12'><p class='main-news-date'>22.01.2026</p></div></div> <div class='row'><div class='col-md-12 col-lg-12'><p class='main-news' align='justify'><a href='news/index.php?cont=long&id_news=7396 ' >«Уроки жизни и вдохновения»: встреча с выпускницей лингвистического факультета, приуроченная к Году белорусской женщины</a></p></div>
+									<div class='col-md-12 col-lg-12'><p class='main-news-date'>20.01.2026</p></div></div> <div class='row'><div class='col-md-12 col-lg-12'><p class='main-news' align='justify'><a href='news/index.php?cont=long&id_news=7395 ' >Чудеса на ладони: выставка завершилась, но тепло осталось</a></p></div>
+									<div class='col-md-12 col-lg-12'><p class='main-news-date'>20.01.2026</p></div></div> <div class='row'><div class='col-md-12 col-lg-12'><p class='main-news' align='justify'><a href='news/index.php?cont=long&id_news=7394 ' >В БарГУ - Единый день информирования</a></p></div>
+									<div class='col-md-12 col-lg-12'><p class='main-news-date'>16.01.2026</p></div></div>            
+           <div class="justify-content-start"><a  href="news/index.php" class="news-all">ВСЕ НОВОСТИ</a>
+
+                   <a  href="rss.php" class="news-all"><i class="fa fa-rss  fa-2x" aria-hidden="true"></i></a></div>
+    <a  href="https://president.gov.by" class="news-all" target="_blank">НОВОСТИ ПОРТАЛА ПРЕЗИДЕНТА РЕСПУБЛИКИ БЕЛАРУСЬ</a>
+</div>
+</div>
+</div>
+
+  
+
+
+<script>
+$('.carousel1').carousel({
+  interval: 8000
+})
+</script>      </div>
+   </section> 
+   
+    <section class="section-margin2">
+
+      <div class="container-fluid-1">    
+          <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+ <style>
+.z {
+    width: 85%;
+    height: 100px;
+    background: #1e6eb3;
+    margin-top: 130px;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.9;
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+@media (min-width: 992px)  {
+.z {
+    width: 85%;
+    height: 100px;
+    background: #1e6eb3;
+    margin-top: 60px;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.9;
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 10px;
+}}
+@media (min-width: 1300px)  {
+.z {
+    width: 85%;
+    height: 100px;
+    background: #1e6eb3;
+    margin-top: 120px;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.9;
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 10px;
+}}
+.zz {
+    position: relative;
+    z-index: 9;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+
+.z_date {
+    width: 100px;
+    height: 30px;
+    background: #a0a0a0;
+    margin-top: 20px;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.8;
+    position: absolute;
+    /* padding-top: 0px; */
+    /* padding-bottom: 10px; */
+    padding-left: 10px;
+}
+.zz_date {
+    position: relative;
+    z-index: 9;
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+.zzz {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.z-text{font-size:14px; color:#fff }
+.zz a {font-size:14px; color:#fff }
+</style>
+
+<div class="section-intro text-center pb-40px">
+    <h2 class="zag-spoler">АНОНСЫ УНИВЕРСИТЕТА</h2>
+    <div class="section-intro__style"><div class="img-slide1"><img src="images/sim5.png" alt=""></div>
+    </div>
+ </div>
+        <div id="recipeCarousel2" class="carousel slide w-100" data-ride="carousel2"> 
+
+        <a class="carousel2-control-text1" href="events/index.php" role="button" data-slide="prev">ВСЕ АНОНСЫ</a>  
+        <a class="carousel2-control-text" href="rss3.php" role="button" data-slide="prev"><i class="fa fa-rss  fa-2x" aria-hidden="true"></i></a>
+        <a class="carousel2-control-prev" href="#recipeCarousel2" role="button" data-slide="prev"><i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i><span class="sr-only">Previous</span></a>
+        <a class="carousel2-control-next" href="#recipeCarousel2" role="button" data-slide="next"><i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i><span class="sr-only">Next</span></a>
+<div class="carousel-inner w-100" role="listbox">
+        <div class="carousel-item row no-gutters active">   
+	          <div class="row justify-content-center">
+								<div class='col-md-6 col-lg-3 mb-3 mb-md-0  float-left'>
+								<div class='z'><p class='zz z-text'><a  href='events/index.php?cont=long&id_news=7397 '>Конкурс исследовательских работ для детей дошкольного и младшего школьного возрастов «Юный исследователь»</a></p></div>
+									<div class='z_date'><p class='zz_date'>20.01.2026</p></div>      
+													<img src='photo/event/2026-01-20/ID7397/o.jpg' class='card-img-top border' >
+													
+													
+													   
+													   
+													
+                                     
+							   </div>
+								<div class='col-md-6 col-lg-3 mb-3 mb-md-0  float-left'>
+								<div class='z'><p class='zz z-text'><a  href='events/index.php?cont=long&id_news=7390 '>Библиотека университета предоставляет пользователям доступ к ЭБС «Университетская библиотека ONLINE»</a></p></div>
+									<div class='z_date'><p class='zz_date'>06.01.2026</p></div>      
+													<img src='photo/event/2026-01-06/ID7390/1.jpg' class='card-img-top border' >
+													
+													
+													   
+													   
+													
+                                     
+							   </div>
+								<div class='col-md-6 col-lg-3 mb-3 mb-md-0  float-left'>
+								<div class='z'><p class='zz z-text'><a  href='events/index.php?cont=long&id_news=7310 '>ХVII Международный научно-практический семинар «ДОШКОЛЬНОЕ И НАЧАЛЬНОЕ ОБРАЗОВАНИЕ: ОПЫТ, ПРОБЛЕМЫ, ПЕРСПЕКТИВЫ»
+</a></p></div>
+									<div class='z_date'><p class='zz_date'>05.11.2025</p></div>      
+													<img src='photo/event/2025-11-05/ID7310/o.jpg' class='card-img-top border' >
+													
+													
+													   
+													   
+													
+                                     
+							   </div></div></div> 
+                                   
+</div>
+                                   
+                                   
+                                   
+</div>
+								   
+<script>$('.carousel2').carousel({
+  interval: 2000
+})</script>
+      </div>
+    </section>
+       
+ 
+<div class="section-student">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style>
+.text-student{min-height:50px}
+.otstup-student{padding: 5rem; background-color: #1e6eb3;}
+ @media(max-width:1300px)
+ {.otstup-student {padding-top: 2rem; padding-bottom: 2rem; padding-left: 2rem; padding-right: 2rem; background-color: #1e6eb3;}}
+</style>
+
+<div class="row">
+
+    <div class="col-md-6" style="background-image: url(images/block1.jpg); background-repeat: no-repeat; background-repeat:no-repeat; background-size:cover; ">
+    </div>
+
+<div class="col-md-6 otstup-student" >
+<div class="text order-1" style="background-image: url(images/sumbol1.png); background-repeat:no-repeat; background-position: right bottom; ">
+       <h2 class="heading text-black" align="center">ОБРАЗОВАТЕЛЬНАЯ ДЕЯТЕЛЬНОСТЬ</h2>
+        <div class="section-intro__style" align="center"><p class="text-slide">БарГУ обеспечивает подготовку высококвалифицированных специалистов в соответствии с требованиями инновационного уровня отраслей экономики и социальной сферы</p><div class="img-slide"><img src="images/sim1.png" alt=""></div></div>
+        <div class="container-fluid-1">
+                <div class="row text-student">
+                 <div class="col-md-6"><p class="text-slide-a"><a href="/entrant/vo.php" class="text-slide-a">
+                 Высшее образование</a> </p>         </div>
+                 <div class="col-md-6"><p class="text-slide-a"><a href="/entrant/dop-obr.php">
+                 Дополнительное образование взрослых</a></p>         </div>
+                </div>
+                 <div class="row text-student">
+                 <div class="col-md-6"><p class="text-slide-a"><a href="/magistracy/index.php">
+                 Подготовка магистров</a></p>         </div>
+                 <div class="col-md-6"><p class="text-slide-a"> <a href="/entrant/entrant.php">
+                 Довузовское обучение</a></p>         </div>
+                </div>
+                <div class="row text-student">
+                 <div class="col-md-6"><p class="text-slide-a"><a href="/aspirantura/aspirantura.php">Аспирантура</a></p>         </div>
+
+                </div>
+         </div>
+        
+    </div>
+</div>
+</div>
+
+
+<!-- -->
+
+<div class="row">
+  <div class="col-md-6 otstup-student" >
+       <div class="text order-1" style="background-image: url(images/sumbol2.png); background-repeat:no-repeat; background-position: right bottom; ">
+        <h2 class="site-heading text-black mb-3" align="center">НАУЧНАЯ ДЕЯТЕЛЬНОСТЬ</h2>
+        <div class="section-intro__style" align="center"><p class="text-slide">Университет реализует научные и инновационные проекты, молодежные стартапы, организовывает международные научно-практические
+мероприятия</p><div class="img-slide"><img src="images/sim1.png" alt=""></div>
+        </div>
+        <div class="container-fluid-1">
+                    <div class="row text-student">
+                     <div class="col-md-6"><p class="text-slide-a"><a href="/science/direction.php" target="_blank"  >
+                     Научные направления</a></p>         </div>
+                     <div class="col-md-6"><p class="text-slide-a"><a href="https://ctt.barsu.by/" target="_blank" >
+                     Обособленное подразделение «Центр трансфера технологий» <i class="fa fa-external-link" aria-hidden="true"></i></a></p>         </div>
+                    </div>
+                    <div class="row text-student">
+                     <div class="col-md-6"><p class="text-slide-a"><a href="https://publish.barsu.by/" target="_blank" >
+                    Журналы БарГУ <i class="fa fa-external-link" aria-hidden="true"></i></a></p>         </div>
+                     <div class="col-md-6"><p class="text-slide-a"><a href="http://conf.barsu.by/" target="_blank"  >
+                     Конференции БарГУ <i class="fa fa-external-link" aria-hidden="true"></i></a></p>   </div>
+                    </div>
+                    <div class="row text-student">
+                     <div class="col-md-6"><p class="text-slide-a"><a href="/science/sno.php" target="_blank"  >
+                    Студенческое научное общество</a></p>         </div>
+                     <div class="col-md-6"><p class="text-slide-a"><a href="/science/research_projects.php" target="_blank"  >
+                     Научно-исследовательские проекты и конкурсы </a></p>         </div>
+                    </div>
+                    <div class="row text-student">
+                     
+                     <div class="col-md-6"><p class="text-slide-a"><a href="https://science.barsu.by/" target="_blank" >
+                    Система учета публикаций и проектов <i class="fa fa-external-link" aria-hidden="true"></i></a></p>         </div>
+                     <div class="col-md-6"><p class="text-slide-a"><a href="/science/snil.php" target="_blank"  >Научно-исследовательские лаборатории и кружки</a></p>         </div>
+                   </div>
+       </div>     
+    </div>
+</div>
+
+    <div class="col-md-6" style="background-image: url(images/block5.jpg); background-repeat: no-repeat; background-repeat:no-repeat; background-size:cover; background-position: center;">
+    <!--<div class="col-md-6" ><div style="background-image: url(images/block5.jpg); background-repeat: no-repeat; background-repeat:no-repeat; background-size:cover;     height: 100%;
+    margin-left: -15px;
+    margin-right: -18px;"></div>
+        </div>-->
+
+</div>
+
+<!-- -->
+
+
+
+<div class="row">
+            <div class="col-md-6" style="background-image: url(images/block2.jpg); background-repeat: no-repeat; background-position: right center;  background-size:cover; ">
+            </div>
+
+<div class="col-md-6 otstup-student" >
+   <div class="text order-1" style="background-image: url(images/sumbol1.png); background-repeat:no-repeat; background-position: right bottom; ">
+      <h2 class="heading text-black" align="center">МЕЖДУНАРОДНАЯ ДЕЯТЕЛЬНОСТЬ</h2>
+        <div class="section-intro__style" align="center"><p class="text-slide">Университет развивает сотрудничество в образовательной, научной, культурной деятельности с организациями ближнего
+и дальнего зарубежья в рамках совместных грантов</p><div class="img-slide"><img src="images/sim1.png" alt=""></div>
+        </div>
+        <div class="container-fluid-1">
+                   <div class="row text-student">
+                   
+                     <div class="row text-student">
+                     <div class="col-md-6"><p class="text-slide-a"><a href="/international/partners.php" target="_blank"  >
+                     Зарубежные партнеры</a></p>         </div>
+                     <div class="col-md-6"><p class="text-slide-a"> <a href="http://abit.barsu.by/index.php?view=categori&razdel=podgotovitelnye-kursy&id=podgotovitel-nye-kursy-dlya-inostrannyh-grazhdan" target="_blank" >
+                     Подготовительные курсы для иностранных граждан <i class="fa fa-external-link" aria-hidden="true"></i></a></p>         </div>
+                    </div>
+                    <div class="row text-student">
+                     <div class="col-md-6"><p class="text-slide-a"><a href="http://confucius.barsu.by/index.php/ru/" target="_blank" >
+                     Cпециализированный кабинет «Класс Конфуция» <i class="fa fa-external-link" aria-hidden="true"></i></a></p></div>
+                     
+                     
+                     
+                     <div class="col-md-6"><p class="text-slide-a"><a href="http://abit.barsu.by/index.php?view=material&razdel=inostrannomu-abiturientu&id=pravila-postupleniya-inostrannyh-grazhdan" target="_blank">
+                     Правила поступления иностранных граждан <i class="fa fa-external-link" aria-hidden="true"></i></a></p>         </div>
+                    </div>
+                    <div class="row text-student">
+                     <div class="col-md-6"><p class="text-slide-a"><a href="/international/swSchools.php" target="_blank"  >
+                     Летние и зимние образовательные школы</a></p>         </div>
+                     <div class="col-md-6"><p class="text-slide-a"><a href="/international/grant.php" target="_blank">
+                     Международные программы и гранты</a></p>         </div>
+                    </div>
+        
+        </div>
+</div>
+</div>
+</div>
+
+<!-- -->
+
+<div class="row">
+
+
+<div class="col-md-6 otstup-student" >
+<div class="text order-1" style="background-image: url(images/sumbol2.png); background-repeat:no-repeat; background-position: right bottom; ">
+ <h2 class="site-heading text-black mb-3" align="center">МОЛОДЕЖНАЯ ПОЛИТИКА</h2>
+        
+        <div class="section-intro__style" align="center"><p class="text-slide">БарГУ формирует социально-личностные и профессиональные компетенции специалистов новой формации, обеспечивает устойчивость государственной идеологии и&nbsp;национальной безопасности Республики Беларусь</p><div class="img-slide"><img src="images/sim1.png" alt=""></div></div>
+       <div class="container-fluid-1">
+       <div class="row text-student">
+         <div class="col-md-6"><p class="text-slide-a"><a href="/educational_work/ideologia.php" target="_blank"  >Идеологическая и&nbsp;воспитательная работа </a></p>         </div>
+         <div class="col-md-6"><p class="text-slide-a"><a href="/educational_work/cpc.php" target="_blank"  >Социально-педагогическое сопровождение</a></p>         </div>
+        </div>
+        <div class="row text-student">
+         <div class="col-md-6"><p class="text-slide-a"><a href="/educational_work/collective.php" target="_blank" >Коллективы, секции, клубы, кружки</a></p>         </div>
+         <div class="col-md-6"><p class="text-slide-a"><a href="/educational_work/parables3.php" target="_blank" >Психологическое сопровождение</a> </p>         </div>
+        </div>
+        <div class="row text-student">
+         <div class="col-md-6"><p class="text-slide-a"><a href="/educational_work/gazeta.php" target="_blank" >Газета «Мой універсітэт»</a></p>         </div>
+         <div class="col-md-6"><p class="text-slide-a"><a href="/educational_work/inform.php" target="_blank" >К единому дню информирования</a></p>         </div>
+        </div>
+        <div class="row text-student">
+         <div class="col-md-6"><p class="text-slide-a"><a href="/educational_work/photo_contest.php" target="_blank" >Фотоконкурсы</a></p>         </div>
+         <div class="col-md-6"><p class="text-slide-a"><a href="/educational_work/hostels.php" target="_blank" >Общежития</a></p>         </div>
+        </div>
+         </div>    
+        </div>
+</div>
+
+
+<div class="col-md-6" style="background-image: url(images/block3.jpg); background-repeat: no-repeat; background-size:cover; background-position: right center;  ">
+</div>
+
+</div>
+
+<!-- -->
+
+
+
+
+    
+    
+  </div>
+</div>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+
+
+<section class="section bg-image overlay" style="background-image: url('https://barsu.by/images/fon-site.jpg');">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-md-10">
+<!--heading text-white-->
+            <h2 class="site-heading text-white" data-aos="fade">САЙТЫ СТРУКТУРНЫХ ПОДРАЗДЕЛЕНИЙ</h2>
+            <div class="section-intro__style img-slide-site"><img src="/images/sim1.png" alt=""></div>
+          </div>
+        </div>
+        <div class="food-menu-tabs" data-aos="fade">
+              <div class="row justify-content-center">
+                  <div class="col-lg-5 col-md-5 col-sm-10">
+                    <p class="text-white text-opacity-7"><a href="https://abit.barsu.by/" target="_blank">Абитуриент БарГУ</a></p>
+                    <p class="text-white text-opacity-7"><a href="https://lk.barsu.by/" target="_blank">Личный кабинет студента</a></p>  
+                    <p class="text-white text-opacity-7"><a href="https://elib.barsu.by/" target="_blank">Библиотека БарГУ</a></p>
+                    <p class="text-white text-opacity-7"><a href="https://rep.barsu.by/home" target="_blank">Репозиторий БарГУ</a></p>
+                    <p class="text-white text-opacity-7"><a href="https://erstorage.barsu.by/" target="_blank">Хранилище электронных ресурсов</a></p>
+                    <p class="text-white text-opacity-7"><a href="https://ipk.barsu.by/" target="_blank">Институт повышения квалификации и переподготовки</a></p>
+                    <p class="text-white text-opacity-7"><a href="/information/site_kafedr.php" target="_blank">Сайты кафедр университета</a></p>
+                    <p class="text-white text-opacity-7"><a href="https://psy.barsu.by/" target="_blank">Сайт педагога-психолога БарГУ</a></p>                    
+                    <p class="text-white text-opacity-7"><a href="https://publish.barsu.by/" target="_blank">Журналы БарГУ</a></p>  
+                  </div>
+                  <div class=" col-lg-5 col-md-5 col-sm-10">
+                    
+                    <p class="text-white text-opacity-7"><a href="https://management.barsu.by/" target="_blank">Тексты НПА, регламентирующих деятельность университета</a></p>
+                    <p class="text-white text-opacity-7"><a href="https://sdgs.barsu.by/" target="_blank">Центр идей и практик в целях устойчивого развития</a></p>
+                    <p class="text-white text-opacity-7"><a href="https://virtual.barsu.by/" target="_blank">Виртуальный университет</a></p>
+                    <p class="text-white text-opacity-7"><a href="https://conf.barsu.by/" target="_blank">Конференции БарГУ</a></p>
+                    <p class="text-white text-opacity-7"><a href="https://rasp.barsu.by/" target="_blank">Расписание занятий</a></p>
+                    <p class="text-white text-opacity-7"><a href="https://ctt.barsu.by/" target="_blank">Обособленное подразделение «Центр трансфера технологий»</a></p>
+                    <p class="text-white text-opacity-7"><a href="https://science.barsu.by/" target="_blank">Система учета публикаций и проектов</a></p>
+                    <p class="text-white text-opacity-7"><a href="https://education.barsu.by/" target="_blank">Образовательный портал БарГУ</a></p>
+                  
+                 </div>
+              </div>
+              
+          </div>
+        </div>
+      </div>
+    </section>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<div class="container-fluid-1 text-center my-3 net d-none d-lg-block">
+
+    <div id="recipeCarousel3" class="carousel slide w-100" data-ride="carousel3">
+        <div class="carousel-inner w-100" role="listbox">
+
+            <div class="carousel-item row no-gutters active">
+
+                <div class="col-2 float-left"><a href="http://www.president.gov.by/" rel="external" class="panel-body1-text" target="_blank"><img loading="lazy" src="https://barsu.by/img/president.png" height="45px"></a></div>
+                <div class="col-2 float-left"><a href="https://pravo.by/" rel="external" target="_blank"><img loading="lazy" src="https://barsu.by/img/pravo.jpg" height="50px"></a></div>
+                <div class="col-2 float-left"><a href="http://edu.gov.by" rel="external" target="_blank"><img loading="lazy" src="https://barsu.by/img/ministry-logo.png" height="50px"></a></div>
+                <div class="col-1 float-left"><a href="https://www.belta.by/" rel="external" target="_blank"><img loading="lazy" src="https://barsu.by/img/belta.png" height="50px"></a></div>
+                <div class="col-2 float-left"><a href="https://journal.pravo.by/" rel="external" target="_blank"><img loading="lazy" src="https://barsu.by/img/pravo-jornal.jpg" height="50px"></a></div>
+                <div class="col-2 float-left"><a href="https://forumpravo.by/" rel="external" target="_blank"><img loading="lazy" src="https://barsu.by/img/pravo-forum.jpg" height="50px" alt="Правовой форум Беларуси" title="Правовой форум Беларуси"></a></div>
+                <div class="col-1 float-left"><a href="https://xn--80aafkd0amnay.xn--90ais/portal/index.php" rel="external" target="_blank"><img loading="lazy" src="https://barsu.by/img/narodnaya-5-ka.jpg" height="50px" alt="Народная пятилетка" title="Народная пятилетка"></a></div>
+
+            </div>
+            <div class="carousel-item row no-gutters">
+                <div class="col-2 float-left"><a href="https://allbeluni.ru/" rel="external" class="panel-body1-text" target="_blank"><img loading="lazy" src="https://barsu.by/img/online-datacenter.jpg" height="55px"></a>                </div>
+                <div class="col-1 float-left"><a href="http://качество-услуг.бел/RatingPortal" target="_blank"><img loading="lazy" src="https://barsu.by/images/portal.jpg" height="50px" title="Портал рейтинговой оценки качества оказания услуг организациями Республики Беларусь" alt="Портал рейтинговой оценки качества оказания услуг организациями Республики Беларусь" border="0" /></div>
+                <div class="col-1 float-left"><a href="https://www.mpt.gov.by/ru/biometricheskie-dokumenty" target="_blank"><img loading="lazy" src="https://barsu.by/images/biometr.jpg" height="50px" title="Информационные материалы на сайте Министерства связи и информатизации" alt="Информационные материалы на сайте Министерства связи и информатизации" border="0" /></a></div>                <div class="col-2 float-left"><a href="http://www.mir.pravo.by/" rel="external" target="_blank"><img loading="lazy" src="https://barsu.by/img/mir-pravo.jpg" height="50px"></a></div>
+                <div class="col-2 float-left"><a href="http://abiturient.by/" rel="external" target="_blank"><img loading="lazy" src="https://barsu.by/img/abiturient.png" height="50px"></a></div>
+                <div class="col-2 float-left"><a href="https://studyinby.com/" target="_blank"><img loading="lazy" src="https://barsu.by/images/studyinby.gif" height="50px" title="Портал Study in Belarus" alt="Портал Study in Belarus" border="0" /></div>
+               <div class="col-2 float-left"><a href="https://www.mintrud.gov.by/ru/trud-molodezh-ru" rel="external" class="panel-body1-text" target="_blank"><img loading="lazy" src="https://barsu.by/img/zanyatost_molodezi.png" height="50px"></a></div>
+            </div>
+
+            <div class="carousel-item row no-gutters">
+               <div class="col-2 float-left"><a href="https://t.me/ucheba_by" rel="external" target="_blank"><img loading="lazy" src="https://barsu.by/images/ucheba_by.jpg" height="50px" alt="Telegram-канал Учеба.BY" title="Telegram-канал Учеба.BY"></a>                </div>
+                <div class="col-2 float-left"><a href="https://brest-region.gov.by/ru" target="_blank"><img loading="lazy" src="https://barsu.by/img/brest_oblispolkom.jpg" height="35px"  alt="Брестский облисполком" title="Брестский облисполком" ></a>                </div>
+                <div class="col-2 float-left"><a href="https://www.baranovichi-gik.gov.by" target="_blank"><img loading="lazy" src="https://barsu.by/img/baranovichi-gorispolkom.jpg" height="50px"  alt="Барановичский горисполком" title="Барановичский горисполком" ></a>                </div>
+                <div class="col-2 float-left"><img loading="lazy" src="https://barsu.by/images/univer/vgavm.png" height="50px" alt="Витебская ордена «Знак Почёта» государственная академия ветеринарной медицины" title="Витебская ордена «Знак Почёта» государственная академия ветеринарной медицины">                </div>
+                <div class="col-2 float-left"><a href="https://www.bstu.by/" target="_blank"><img loading="lazy"  src="https://barsu.by/images/univer/logo_bgsu.png" height="50px"  alt="Брестский государственный технический университет" title="Брестский государственный технический университет" /></a>                </div>
+                <div class="col-1 float-left"><a href="https://www.vsmu.by/" target="_blank"><img loading="lazy" src="https://barsu.by/images/univer/vgod.png" height="50px"  alt="Витебский государственный ордена Дружбы народов медицинский университет" title="Витебский государственный ордена Дружбы народов медицинский университет" ></a>                </div>
+            </div>
+
+            <div class="carousel-item row no-gutters">
+                <div class="col-2 float-left"><img loading="lazy" src="https://barsu.by/images/univer/vgtu.png" height="50px" alt="Витебский государственный технологический университет" title="Витебский государственный технологический университет">                </div>
+                <div class="col-2 float-left"><a href="https://vsu.by/" target="_blank"><img loading="lazy" src="https://barsu.by/images/univer/vgum.png" height="50px"  alt="Витебский государственный университет имени П. М. Машерова" title="Витебский государственный университет имени П. М. Машерова" ></a>                </div>
+                <div class="col-2 float-left"><img loading="lazy" src="https://barsu.by/images/univer/logo_left.png" height="50px" alt="Полоцкий государственный университет" title="Полоцкий государственный университет">                </div>
+                <div class="col-2 float-left"><img loading="lazy" src="https://barsu.by/images/univer/belgut.png" height="50px" alt="Белорусский государственный университет транспорта" title="Белорусский государственный университет транспорта">                </div>
+                <div class="col-2 float-left"><img loading="lazy" src="https://barsu.by/images/univer/ggmu.png" height="50px" alt="Гомельский государственный медицинский университет" title="Гомельский государственный медицинский университет">                </div>
+                <div class="col-2 float-left"><img loading="lazy" src="https://barsu.by/images/univer/bteupk.png" height="50px" alt="Белорусский торгово-экономический университет потребительской кооперации" title="Белорусский торгово-экономический университет потребительской кооперации">                </div>
+            </div>
+
+            <div class="carousel-item row no-gutters">
+                <div class="col-1 float-left"><img loading="lazy" src="https://barsu.by/images/univer/logo_ggtu.png" border="0" height="50px" alt="Гомельский государственный технический университет им. П. О. Сухого" title="Гомельский государственный технический университет им. П. О. Сухого">                </div>
+                <div class="col-1 float-left"><a href="https://www.gsu.by/" target="_blank"><img loading="lazy" src="https://barsu.by/images/univer/gsu.png" height="50px"  alt="Гомельский государственный университет им. Франциска Скорины " title="Гомельский государственный университет им. Франциска Скорины "></a>                </div>
+                <div class="col-1 float-left"><img loading="lazy" src="https://barsu.by/images/univer/giimcs.png" height="50px" alt="Гомельский инженерный институт МЧС Республики Беларусь" title="Гомельский инженерный институт МЧС Республики Беларусь">                </div>
+                <div class="col-1 float-left"><a href="http://mspu.by/" target="_blank"><img loading="lazy" src="https://barsu.by/images/univer/msh.png" height="50px"  alt="Мозырский государственный педагогический университет имени И.П. Шамякина" title="Мозырский государственный педагогический университет имени И.П. Шамякина" ></a>                </div>
+                <div class="col-1 float-left"><img loading="lazy" src="https://barsu.by/images/univer/ggau.png" height="50px" alt="Гродненский государственный аграрный университет " title="Гродненский государственный аграрный университет ">                </div>
+                <div class="col-1 float-left"><img loading="lazy" src="https://barsu.by/images/univer/ggmedu.png" height="50px" alt="Гродненский государственный медицинский университет" title="Гродненский государственный медицинский университет">                </div>
+                <div class="col-1 float-left"><a href="https://grsu.by/ru/" target="_blank"><img loading="lazy" src="https://barsu.by/images/univer/gguyk.png" height="50px"  alt="Гродненский государственный университет имени Янки Купалы" title="Гродненский государственный университет имени Янки Купалы" ></a>                </div>
+                <div class="col-1 float-left"><img loading="lazy" src="https://barsu.by/images/univer/amvd.png" height="50px" alt="Академия Министерства внутренних дел Республики Беларусь" title="Академия Министерства внутренних дел Республики Беларусь">                </div>
+                <div class="col-1 float-left"><img loading="lazy" src="https://barsu.by/images/univer/aprb.png" height="50px" alt="Академия управления при Президенте Республики Беларусь" title="Академия управления при Президенте Республики Беларусь">                </div>
+                <div class="col-1 float-left"><img loading="lazy" src="https://barsu.by/images/univer/bgai.png" height="50px" alt="Белорусская государственная академия искусств " title="Белорусская государственная академия искусств ">                </div>
+                <div class="col-1 float-left"><img loading="lazy" src="https://barsu.by/images/univer/bgam.png" height="50px" alt="Белорусская государственная академия музыки" title="Белорусская государственная академия музыки">                </div>
+                <div class="col-1 float-left"><img loading="lazy" src="https://barsu.by/images/univer/batu.png" height="50px" alt="Белорусский государственный аграрный технический университет" title="Белорусский государственный аграрный технический университет">                </div>
+            </div>
+
+            <div class="carousel-item row no-gutters">
+                <div class="col-1 float-left"><a href="https://www.bsmu.by/" target="_blank"><img loading="lazy" src="https://barsu.by/images/univer/bgmu.png"  border="0" height="50px"  alt="Белорусский государственный медицинский университет" title="Белорусский государственный медицинский университет"></a>                </div>
+                <div class="col-1 float-left"><img loading="lazy" src="https://barsu.by/images/univer/bgut.png" height="50px" alt="Белорусский государственный педагогический университет им. Максима Танка" title="Белорусский государственный педагогический университет им. Максима Танка">                </div>
+                <div class="col-1 float-left"><img loading="lazy" src="https://barsu.by/images/univer/bgtu.png" height="50px" alt="Белорусский государственный технологический университет" title="Белорусский государственный технологический университет">                </div>
+                <div class="col-1 float-left"><img loading="lazy" src="https://barsu.by/images/univer/bsu.png" height="50px" alt="Белорусский государственный университет" title="Белорусский государственный университет">                </div>
+                <div class="col-1 float-left"><img loading="lazy" src="https://barsu.by/images/univer/bsuir.png" height="50px" alt="Белорусский государственный университет информатики и радиоэлектроники" title="Белорусский государственный университет информатики и радиоэлектроники">                </div>
+                <div class="col-1 float-left"><img loading="lazy" src="https://barsu.by/images/univer/bguk.png" height="50px" alt="Белорусский государственный университет культуры и искусств" title="Белорусский государственный университет культуры и искусств">                </div>
+                <div class="col-1 float-left"><img loading="lazy" src="https://barsu.by/images/univer/bguf.png" height="50px" alt="Белорусский государственный университет физической культуры " title="Белорусский государственный университет физической культуры">                </div>
+                <div class="col-1 float-left"><a href="https://bseu.by/" target="_blank"><img loading="lazy" src="https://barsu.by/images/univer/bseu.png" height="50px"  alt="Белорусский государственный экономический университет" title="Белорусский государственный экономический университет"></a>                </div>
+                <div class="col-1 float-left"><img loading="lazy" src="https://barsu.by/images/univer/bntu.png" height="50px" alt="Белорусский национальный технический университет" title="Белорусский национальный технический университет">                </div>
+                <div class="col-1 float-left"><img loading="lazy" src="https://barsu.by/images/univer/varb.png" height="50px" alt="Военная академия Республики Беларусь" title="Военная академия Республики Беларусь">                </div>
+                <div class="col-1 float-left"><img loading="lazy" src="https://barsu.by/images/univer/is.png" height="50px" alt="Международный государственный экологический университет имени А.Д.Сахарова" title="Международный государственный экологический университет имени А.Д.Сахарова">                </div>
+                <div class="col-1 float-left"><img loading="lazy" src="https://barsu.by/images/univer/mslu_logo.svg" height="50px" alt="Белорусский государственный университет иностранных языков" title="Белорусский государственный университет иностранных языков">                </div>
+            </div>
+
+            <div class="carousel-item row no-gutters">
+                <div class="col-1 float-left"><img loading="lazy" src="https://barsu.by/images/univer/muu.png" height="50px" alt="Минский университет управления" title="Минский университет управления">                </div>
+                <div class="col-1 float-left"><img loading="lazy" src="https://barsu.by/images/univer/bsha.png" height="50px" alt="Белорусская государственная сельскохозяйственная академия " title="Белорусская государственная сельскохозяйственная академия ">                </div>
+                <div class="col-1 float-left"><a href="http://institutemvd.by" target="_blank"><img loading="lazy" src="https://barsu.by/images/univer/mmvd.png" height="50px"  alt="Могилевский институт МВД Республики Беларусь" title="Могилевский  институт МВД Республики Беларусь" ></a>                </div>
+                <div class="col-1 float-left"><img loading="lazy" src="https://barsu.by/images/univer/mguk.png" height="50px" alt="Могилевский государственный университет имени А.А. Кулешова" title="Могилевский государственный университет имени А.А. Кулешова">                </div>
+                <div class="col-1 float-left"><a href="https://www.bgut.by/" target="_blank"><img loading="lazy" src="https://barsu.by/images/univer/bgut.png"  border="0" height="50px"  alt="Белорусский государственный университет пищевых и химических технологий" title="Белорусский государственный университет пищевых и химических технологий" ></a>                </div>
+                <div class="col-1 float-left"><a href="https://unan.by/" target="_blank"><img loading="lazy" src="https://barsu.by/images/univer/unan.png" height="50px"  alt="Государственное учреждение образования «Университет Национальной академии наук Беларуси»" title="Государственное учреждение образования «Университет Национальной академии наук Беларуси»"></a>                </div>
+                <div class="col-1 float-left"><img loading="lazy" src="https://barsu.by/images/univer/logo_pgu.png" height="50px" alt="Полесский государственный университет" title="Полесский государственный университет">                </div>
+                <div class="col-1 float-left"><a href="http://www.ehea.info" rel="external" target="_blank"><img loading="lazy" src="https://barsu.by/img/evr-pr-obr.png" height="50px"></a>                </div>
+                <div class="col-2 float-left"><a href="http://www.brsu.by/" target="_blank"> <img loading="lazy" src="https://barsu.by/images/univer/logo_brgu.png" height="50px"  alt="Брестский государственный университет имени А.С.Пушкина" title="Брестский государственный университет имени А.С.Пушкина"  border="0"></a>                </div>
+                <div class="col-2 float-left"><a href="https://молодежь.бел" target="_blank"><img loading="lazy" src="https://barsu.by/images/mb.jpg" height="35px"  alt="Республиканский молодежный центр УО «Республиканский институт высшей школы»" title="Республиканский молодежный центр УО «Республиканский институт высшей школы»" ></a>                </div>
+
+            </div>
+
+            <!--                 <div class="carousel-item row no-gutters">
+
+  
+ 
+
+            </div>-->
+        </div>
+        <a class="carousel3-control-prev" href="#recipeCarousel3" role="button" data-slide="prev"><i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i><span class="sr-only">Previous</span></a>
+        <a class="carousel3-control-next" href="#recipeCarousel3" role="button" data-slide="next"><i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i><span class="sr-only">Next</span></a>
+    </div>
+
+
+</div><a href="#" id="scroll_top" title="Наверх"></a><footer class="footer-area section-gap net">
+		<div class="container-fluid-1">
+			<div class="row">
+				<div class="col-xl-1 col-lg-1 col-md-2 col-sm-2  single-footer-widget">
+					<img src="https://barsu.by/images/v_11_1.png" loading="lazy" hspace="10px" vspace="0px" width="80px" class="image-responssive"><br>
+<br>
+					<img src="/images/qr-barsu.jpg" loading="lazy" hspace="10px" vspace="0px" width="80px" class="image-responssive" title="Информация о БарГУ на портале рейтинговой оценки"><br>
+<br>
+<img src="/images/qr-barsu-a.jpg" loading="lazy" hspace="10px" vspace="0px" width="80px" class="image-responssive"  title="Анкета на портале рейтинговой оценки">
+				</div>
+                
+                
+				<div class="col-xl-7 col-lg-7 col-md-10 col-sm-10 single-footer-widget">
+                <p class="verh ">&nbsp;&nbsp;&nbsp;<span class="text-slide-bottom1">УЧРЕЖДЕНИЕ ОБРАЗОВАНИЯ "БАРАНОВИЧСКИЙ ГОСУДАРСТВЕННЫЙ УНИВЕРСИТЕТ"</span></p>
+                <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6"><p><span class="text-slide-bottom1">НАШ АДРЕС:</span><br><span class="text-slide-bottom">ул. Войкова 21, 225404 г.Барановичи,Брестская область<br>E-mail: barsu@barsu.by<br>Телефон: <a href="tel:+375163665374">+375 163  66 53 74</a><br></span></p>
+                <p class="verh"><span class="text-slide-bottom1">МЫ В СОЦИАЛЬНЫХ СЕТЯХ:</span> <div class="footer-bottom1"><div class="footer-social">
+					<a href="https://www.facebook.com/barsuby"><i class="fab fa-facebook-f"></i></a>
+					<a href="https://vk.com/news.barsu"><i class="fab fa-vk"></i></a>
+					<a href="https://www.linkedin.com/school/baranovichi-state-university/"><i class="fab fa-linkedin"></i></a>
+					</div></div></p>                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6"><p><span class="text-slide-bottom1">ПРИЁМНАЯ КОМИССИЯ:</span><br><span class="text-slide-bottom">ул. Парковая 62, 225401 г.Барановичи,Брестская область<br>E-mail: abit@barsu.by<br>Телефон: <a href="tel:+375163643533">+375 163 64 35 33</a><br>
+                Иностранным абитуриентам:<br><a href="tel:+375163643587" >+375 163 64 35 87</a>,<br><a href="tel:+375163665374">+375 163  66 53 74</a> </p></div>
+                </div>
+					
+					
+                    
+
+
+
+              <!--      
+<div class="container offset">
+                    <div>
+                    <div class="col-xl-7 col-sm-7 mb-6 mb-xl-0 single-footer-widget">
+                    <p class="verh">Мы в социальных сетях:  </p></div>
+                    <div class="col-xl-5 col-sm-5 mb-6 mb-xl-0 single-footer-widget">
+                    <div class="footer-bottom1"><div class="footer-social">
+					<a href="https://www.facebook.com/barsuby"><i class="fab fa-facebook-f"></i></a>
+					<a href="https://vk.com/news.barsu"><i class="fab fa-vk"></i></a>
+					<a href="https://www.linkedin.com/school/baranovichi-state-university/"><i class="fab fa-linkedin"></i></a>
+					</div></div></div></div></div>
+                    -->
+                    
+                   
+                    
+                    
+                    
+                    
+                    
+				</div>
+				<div class="col-xl-4 col-lg-4 col-sm-12 mb-12  single-footer-widget"><div class="block">
+ 					<p class="text-slide-bottom">
+                       31.01.2026 г. с 10:00 до 12:00 по&nbsp;телефону <a href="tel:+375163665374">+375&nbsp;163&nbsp;66&nbsp;53&nbsp;74</a> проводится «прямая телефонная линия» с начальником отдела международной деятельности Филипович Еленой Владиславовной.
+                     </p>                   
+                    
+                    
+                    </div>
+<br>
+<span class="text-slide-bottom"><a href="https://barsu.by/employee/cookie.php" target="_blank" >Политика в отношении обработки файлов cookie</a> <br>
+<a href="https://barsu.by/employee/policy.php" target="_blank" class="text-slide-bottom">Политика обработки персональных данных </a><br>
+<a href="https://barsu.by/employee/CCTV.php" target="_blank" class="text-slide-bottom">Политика видеонаблюдения </a>
+    
+</span>			
+				</div>
+				
+				
+			</div>
+			<div class="row">
+				<p align="center" class="text-slide-bottom">&copy; Учреждение образования "Барановичский государственный университет", 2005-2026</p>
+				
+			</div>
+
+
+            <div id="cookie_note">
+                <div class="row">
+
+                <div class="col-12" style="color:#000">С целью улучшения качества обслуживания сайт БарГУ использует данные, передаваемые с помощью файлов cookie. Нажимая принять, Вы соглашаетесь с использованием файлов cookie.
+                    Подробнее: <a href="https://barsu.by/employee/cookie.php" target="_blank">Политика обработки файлов cookie</a>.</div>
+                <div class="col-12" style="text-align:right"><button class="button cookie_accept btn btn-primary btn-sm">Принять</button>&nbsp; <button class="button cookie_accept btn btn-primary btn-sm">Отклонить</button></div>
+                </div>
+                </div>
+
+
+            <div class="row">
+
+                <script>
+                    function setCookie(name, value, days) {
+                        let expires = "";
+                        if (days) {
+                            let date = new Date();
+                            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                            expires = "; expires=" + date.toUTCString();
+                        }
+                        document.cookie = name + "=" + (value || "") + expires + "; path=/";
+                    }
+
+                    function getCookie(name) {
+                        let matches = document.cookie.match(new RegExp("(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"));
+                        return matches ? decodeURIComponent(matches[1]) : undefined;
+                    }
+
+
+                    function checkCookies() {
+                        let cookieNote = document.getElementById('cookie_note');
+                        let cookieBtnAccept = cookieNote.querySelector('.cookie_accept');
+
+                        // Если куки cookies_policy нет или она просрочена, то показываем уведомление
+                        if (!getCookie('cookies_policy')) {
+                            cookieNote.classList.add('show');
+                        }
+
+                        // При клике на кнопку устанавливаем куку cookies_policy на один год
+                        cookieBtnAccept.addEventListener('click', function () {
+                            setCookie('cookies_policy', 'true', 365);
+                            cookieNote.classList.remove('show');
+                        });
+                    }
+
+                    checkCookies();
+
+                </script>
+   <style>
+       #cookie_note{
+          /* display: none;
+           position: fixed;
+           bottom: 15px;
+           left: 50%;
+           max-width: 90%;
+           transform: translateX(-50%);
+           padding: 20px;
+           background-color: white;
+           border-radius: 4px;
+           box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.4);*/
+           display: none;
+           position: fixed;
+           bottom: 15px;
+           left: 50%;
+           width: 90%;
+           transform: translateX(-50%);
+           padding: 20px;
+           background-color: #ffffffd6;
+           border-radius: 4px;
+           box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.4);
+           z-index: 1000;
+       }
+
+       #cookie_note p{
+           margin: 0;
+           font-size: 90%;
+           text-align: left;
+           color: black;
+       }
+
+       .cookie_accept{
+          /* width:20%;*/
+           min-width: 10%;
+           margin-right:5px;
+       }
+       @media (min-width: 576px){
+           #cookie_note.show{
+               display: flex;
+           }
+       }
+
+       @media (max-width: 575px){
+           #cookie_note.show{
+               display: block;
+               text-align: left;
+           }
+       }
+
+
+
+
+
+
+       #sp-cookie-consent.position-bottom {
+           left: 0;
+           width: 100%;
+           display: table;
+       }
+       #sp-cookie-consent {
+           background-color: #eee;
+           color: #808080;
+       }
+       #sp-cookie-consent {
+           position: fixed;
+           font-size: 15px;
+           font-weight: 500;
+           bottom: 0;
+           z-index: 10001;
+       }
+       #sp-cookie-consent.position-bottom>div {
+           -ms-flex-align: center !important;
+           align-items: center !important;
+           display: -ms-flexbox;
+           display: flex;
+           -ms-flex-wrap: wrap;
+           flex-wrap: wrap;
+       }
+
+       #sp-cookie-consent>div {
+           padding: 20px;
+           position: relative;
+       }
+       #sp-cookie-consent *, #sp-cookie-consent *::before, #sp-cookie-consent *::after {
+           box-sizing: border-box;
+       }
+
+#scroll_top {
+	display: none;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	z-index: 1000;
+	width: 32px;
+	height: 32px;
+	background: url(https://snipp.ru/img/scroll_top.png) 50% 50% no-repeat;
+	border-radius: 50%;
+	opacity: 0.5;
+}
+#scroll_top:hover {
+ 	opacity: 1;
+}
+
+.wrapper {
+	width: 600px;
+	margin: 0 auto;
+}
+
+</style>            
+            
+  <script>
+  $(function(){
+	$(window).scroll(function(){
+		if($(window).scrollTop() > 100) {
+			$('#scroll_top').show();
+		} else {
+			$('#scroll_top').hide();
+		}
+	});
+ 
+	$('#scroll_top').click(function(){
+		$('html, body').animate({scrollTop: 0}, 600);
+		return false;
+	});
+});
+
+  </script>
+
+
+
+
+
+
+
+
+
+
+                <!-- Yandex.Metrika informer -->
+                <a href="https://metrika.yandex.ru/stat/?id=22830646&amp;from=informer"
+                   target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/22830646/1_0_FFFFFFFF_FFFFFFFF_0_pageviews"
+                                                       style="width:80px; height:15px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры)" /></a>
+                <!-- /Yandex.Metrika informer -->
+
+                <!-- Yandex.Metrika counter -->
+                <script type="text/javascript" >
+                    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                        m[i].l=1*new Date();
+                        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+                        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+                    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+                    ym(22830646, "init", {
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true
+                    });
+                </script>
+                <noscript><div><img src="https://mc.yandex.ru/watch/22830646" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+                <!-- /Yandex.Metrika counter -->
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+ <script type="text/javascript">
+       $('.variable-width').slick({
+  infinite: true,
+  autoplay: true,
+  autoplaySpeed: 5000,
+  slidesToShow: 20,
+  centerMode: true,
+  variableWidth: true
+});
+    </script>
+                                                                               
+
+
+
+            </div>
+		</div>
+        
+	</footer>
+
+
+
+																   </div><!--/row--> 
+
+
+
+
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47327104-1', 'barsu.by');
+  ga('send', 'pageview');
+
+</script>
+
+</span><script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+<!--
+  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+  
+  <script src="vendors/magnefic-popup/jquery.magnific-popup.min.js"></script>
+
+  <script src="vendors/easing.min.js"></script>
+  <script src="vendors/superfish.min.js"></script>
+  <script src="vendors/nice-select/jquery.nice-select.min.js"></script>
+  <script src="vendors/jquery.ajaxchimp.min.js"></script>
+  <script src="vendors/mail-script.js"></script>
+  <script src="js/main.js"></script>-->
+</body>
+</html>

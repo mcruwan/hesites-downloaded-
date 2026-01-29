@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>
+	Online giving
+</title>
+    <noscript>
+        <meta http-equiv="Refresh" content="0;URL=../../problem/support/" />
+    </noscript>
+    <script>if (window.document.documentMode) location.href = "../../problem/support/"</script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bs-stepper/dist/css/bs-stepper.min.css" /><link rel="icon" href="../../Image/FavIcon.kpng" />
+    <script src="https://cdn.jsdelivr.net/npm/bs-stepper/dist/js/bs-stepper.min.js" defer="defer"></script>
+    <script>
+        //check if IE
+        if (window.document.documentMode)
+            alert('Your browser does not meet the minimum security requirements to run securely. Please ensure you are using an up to date modern browser such as Google Chrome, Microsoft Edge or Firefox.');
+    </script>
+
+    <link href="/Devman/External/OnlGiving/Donate.css" type="text/css" rel="stylesheet" />
+
+    <link href="/Devman/External/OnlGiving/Donate.aspx?act=2&lnk=11" type="text/css" rel="stylesheet" />
+
+    <script type='text/javascript' language='JavaScript' src='/Devman/External/Utility/JQueryLike.js?d=260029' defer='defer'></script>
+    <script type='text/javascript' language='JavaScript' src='/Devman/External/OnlGiving/Donate.aspx?act=1&lnk=11&ActMode=0&d=260029' defer='defer'></script>
+    <script type='module' language='JavaScript' src='/Devman/External/OnlGiving/Donate.js?d=260029' defer='defer'></script>
+</head>
+<body style="font-size: 100%">
+    <div class="container h-100 fill-remaining">
+        <div id="Heading">
+            <div data-templatekey="heading-image" class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <img src="../../Image/GenEmlHeader.kgif" id="pgImgUrl" alt="Online Giving Header" style="max-height: 100px" />
+                </div>
+            </div>
+            <iframe class="row my-3 show-while-loading vh-100 vw-100" src="../../browser/support/"></iframe>
+
+            <div data-templatekey="heading-text" class="row hide-while-loading">
+                <div class="col-12 mb-3" data-templatekey="header">
+                    <h3 id="pgTitle">Online giving</h3>
+                    <p id="pgLead">
+                        We appreciate that you are willing to demonstrate your commitment by donating to this institution.
+                    </p>
+                    <p id="pgExplaination" class="hide-while-loading">
+                        Below you will find some information that we require from you in order to process your commitment.
+                    </p>
+                </div>
+                <div class="col-12 mb-3 not-supported-error" data-templatekey="notSupported">
+                    <p>
+                        Unfortunately your browser does not meet the <strong>minimum requirements</strong> to use this page securely.<br />
+                        Please ensure you are using an up to date modern browser and that all security patches have been loaded.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bs-stepper fill-remaining hide-while-loading">
+            <form method="post" action="../../external/OnlGiving/Donate.aspx?lnk=11" id="frmOnlGiving">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="HzuCb9IsyLYmEkkh57UUU8zp/5wIUXfjL29KF7i+V9TLQxUrvEIH90xqnzjLRa1TmwzGwc8ClpDXXozcpSTtftobk77OgTMXClWdF5KEW2s=" />
+</div>
+
+                <div class="bs-stepper-header hide-while-loading" role="tablist">
+
+                    <div class="step" data-templatekey="project-step" data-target="#project-part">
+                        <button type="button" class="step-trigger" role="tab" aria-controls="project-part" id="project-part-trigger">
+                            <span id="bdgStep1" class="btn-primary badge rounded-pill p-2">1</span>
+                            <span class="bs-stepper-label">
+                                Funding<br /> choices
+                            </span>
+                        </button>
+                    </div>
+
+                    <div class="line d-none d-sm-block"></div>
+
+                    <div class="step" data-templatekey="payment-step" data-target="#payment-part">
+                        <button type="button" class="step-trigger" role="tab" aria-controls="payment-part" id="payment-part-trigger">
+                            <span id="bdgStep2" class="btn-primary badge rounded-pill p-2">2</span>
+                            <span class="bs-stepper-label">
+                                Payment<br /> options
+                            </span>
+                        </button>
+                    </div>
+
+                    <div class="line d-none d-sm-block"></div>
+
+                    <div class="step" data-templatekey="donor-step" data-target="#donor-part">
+                        <button type="button" class="step-trigger" role="tab" aria-controls="donor-part" id="donor-part-trigger">
+                            <span id="bdgStep3" class="btn-primary badge rounded-pill p-2">3</span>
+                            <span class="bs-stepper-label">
+                                Donor<br /> details
+                            </span>
+                        </button>
+                    </div>
+
+                    <div class="line d-none d-sm-block"></div>
+
+                    <div class="step" data-templatekey="summary-step" data-target="#summary-part">
+                        <button type="button" class="step-trigger" role="tab" aria-controls="summary-part" id="summary-part-trigger">
+                            <span id="bdgStep4" class="btn-primary badge rounded-pill p-2">4</span>
+                            <span class="bs-stepper-label">
+                                Check<br /> out
+                            </span>
+                        </button>
+                    </div>
+
+                    <div class="line d-none d-sm-block"></div>
+
+                    <div class="step" data-templatekey="result-step" data-target="#result-part">
+                        <button type="button" class="step-trigger" role="tab" aria-controls="result-part" id="result-part-trigger">
+                            <span id="bdgStep5" class="btn-primary badge rounded-pill p-2">5</span>
+                            <span class="bs-stepper-label">
+                                Done
+                            </span>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="bs-stepper-content fill-remaining">
+
+                    <div id="project-part" class="content" role="tabpanel" aria-labelledby="project-part-trigger">
+                        <div id="projectMode">
+                            <div data-templatekey="project-part-headings" data-donation="headings">
+                                <div class="row">
+                                    
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="Project">
+                                                Projects</label><br />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 d-none d-sm-block">
+                                        <div class="form-group">
+                                            <label for="Project" style="padding-left: 25px">
+                                                Amount</label><br />
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div data-templatekey="project-part-rows" data-donation="rows"></div>
+
+                            <div data-templatekey="project-part-add" data-donation="add">
+                                <div class="row mt-3 mb-4">
+                                    <div class="col">
+                                        <button data-project="add" type="button" class="btn btn-outline-secondary"><i class="bi bi-cart-plus"></i>&nbsp;Add another project</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                        <div id="pnlAdminFees" data-templatekey="donor-part-anonymous" class="d-none">
+
+                            <div class="row mb-4">
+
+                                <div class="col-md-6 col-sm-12 form-group">
+                                    <div class="form-check form-switch">
+                                        <input name="hdnAdminFeesProject" type="hidden" id="hdnAdminFeesProject" />
+                                        <input name="hdnAdminFeesPercentage" type="hidden" id="hdnAdminFeesPercentage" />
+                                      
+                                        <input name="chkAdminFees" type="checkbox" id="chkAdminFees" class="form-check-input" />
+                                        <label for="lblAdminFees" class="form-check-label">
+                                            Admin</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div id="pnlComment" data-templatekey="project-part-comment" data-payment="comment" class="d-none">
+                            <div class="row mb-4">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="Comments" id="lblComment">Comments</label>
+                                        <input name="Comments" type="text" maxlength="100" id="Comments" class="form-control" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="payment-part" class="content" role="tabpanel" aria-labelledby="payment-part-trigger">
+                        <div data-templatekey="payment-part-method" data-payment="method">
+                            <div class="row mb-4">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="Project">
+                                            Payment method</label><br />
+                                        <div id="tlbPayment" data-payment="methods" class="btn-toolbar" role="group">
+                                        <input value="ccard" name="Method" type="radio" id="OptPay1" checked="checked" class="btn-check  " autocomplete="off" data-provider="2" /><label for="OptPay1" class="btn btn-primary col-xl-2 col-lg-2 col-md-3 col-5 m-1">Bank card</label></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="pnlFrequency" data-templatekey="payment-part-frequency" data-payment="frequency">
+                            <div class="row mb-4">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="tlbFrequency">
+                                            Donation frequency</label><br />
+                                        <div id="tlbFrequency" data-payment="periods" class="btn-toolbar flex-wrap" role="group">
+                                            <input value="Monthly" name="frequency" type="radio" id="optMonthly" class="btn-check" autocomplete="off" data-interval="251" checked="checked" />
+                                            <label id="lblMonthly" for="optMonthly" class="btn btn-primary col-xl-2 col-lg-2 col-md-3 col-5 m-1">Monthly</label>
+
+                                            
+                                            
+
+                                            
+                                            
+
+                                            <input value="OnceOff" name="frequency" type="radio" id="optOnceOff" class="btn-check" autocomplete="off" data-interval="250" />
+                                            <label id="lblOnceOff" for="optOnceOff" class="btn btn-primary col-xl-2 col-lg-2 col-md-3 col-5 m-1">Once off</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        
+                        <div id="pnlDates" data-templatekey="payment-part-repeat" data-payment="day">
+                            <div class="row mb-4">
+                                <div class="col-lg-3 col-md-6 col-sm-12 form-group">
+                                    <div class="form-group">
+                                        <label for="StartDate">
+                                            Start date</label><br />
+                                        <input class="form-select datePick required" required="required" id="StartDate" name="startDate" type="date" width="165" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="donor-part" class="content" role="tabpanel" aria-labelledby="donor-part-trigger">
+
+                        <div data-templatekey="donor-part" data-donor="details">
+
+                            <h5>
+                                Donor details</h5>
+                            <div class="row mb-4">
+                                <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                    <h6>
+                                        Name</h6>
+                                    <input name="FirstName" type="text" maxlength="40" id="FirstName" class="form-control" required="required" autocomplete="given-name" />
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                    <h6>
+                                        Surname</h6>
+                                    <input name="LastName" type="text" maxlength="40" id="LastName" class="form-control" required="required" autocomplete="family-name" />
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                    <h6>
+                                        Email</h6>
+                                    <input name="Email" maxlength="40" id="Email" class="form-control" required="required" autocomplete="email" type="email" />
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                    <h6>
+                                        Cell number</h6>
+                                    <input name="Cell" maxlength="40" id="Cell" class="form-control" required="required" autocomplete="tel" type="tel" title="Formats: +27123456789 or 0801234567" pattern="^([\+,0]?[0-9]{1,3})?[ ,-]?\(?([0-9]{2,3})\)?[ ,-]?([0-9]{2,4})[ ,-]?([0-9]{3,4})" />
+                                </div>
+                            </div>
+
+                            <div class="row mb-4" id="pnlDocType" data-templatekey="donor-part-anonymous">
+
+                                <h5>
+                                    Indentity document type?</h5>
+
+                                <div id="optIDNumberPassport" class="form-group">
+                                    <h6>
+
+                                        <input type="radio" id="optIDNumber" name="align" value="1006" checked="checked" style="accent-color: blue" />
+                                        ID Number
+
+                                        <label for="" style="padding-right: 100px"></label>
+
+                                        <input type="radio" id="optPassport" name="align" value="1108" style="accent-color: green" />
+                                        Passport
+                                    </h6>
+                                </div>
+                                <div class="row mb-4" id="pnlIDNumber">
+                                    <div class="col-lg-2 col-md-3 col-sm-3 form-group">
+                                        <input name="IDNumber" type="text" maxlength="13" id="IDNumber" class="form-control required" required="required" autocomplete="family-name" placeholder="" style="width:435px;" />
+                                    </div>
+                                </div>
+                                <div class="row mb-4" id="pnlPassport" hidden="hidden">
+                                    <div class="col-lg-2 col-md-3 col-sm-3 form-group">
+                                        <input name="Passport" type="text" maxlength="40" id="Passport" class="form-control required" autocomplete="given-name" placeholder="" style="width:148px;" />
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                        <select name="PassportCountry" id="PassportCountry" class="form-select required" data-project="select" placeholder="Passport country" style="width:290px;">
+	<option value="1008672">Afghanistan</option>
+	<option value="1008673">Albania</option>
+	<option value="1008601">Algeria</option>
+	<option value="1008801">American Samoa</option>
+	<option value="1008674">Andorra</option>
+	<option value="1008596">Angola</option>
+	<option value="1008778">Anguilla</option>
+	<option value="1008802">Antarctica</option>
+	<option value="1008675">Antigua and Barbuda</option>
+	<option value="1008810">Argentina</option>
+	<option value="1008676">Armenia</option>
+	<option value="1008777">Aruba</option>
+	<option value="1008803">Australia</option>
+	<option value="1008792">Austria</option>
+	<option value="1008677">Azerbaijan</option>
+	<option value="1008678">Bahamas</option>
+	<option value="1008602">Bahrain</option>
+	<option value="1008603">Bangladesh</option>
+	<option value="1008679">Barbados</option>
+	<option value="1008680">Belarus</option>
+	<option value="1008604">Belgium</option>
+	<option value="1008605">Belize</option>
+	<option value="1008681">Benin</option>
+	<option value="1008606">Bermuda</option>
+	<option value="1008682">Bhutan</option>
+	<option value="1008683">Bolivia</option>
+	<option value="1008684">Bosnia and Herzegovina</option>
+	<option value="1008591">Botswana</option>
+	<option value="1008607">Brazil</option>
+	<option value="1008776">British Virgin Islands</option>
+	<option value="1008760">Brunei Darussalam</option>
+	<option value="1008608">Bulgaria</option>
+	<option value="1008812">Burkina Faso</option>
+	<option value="1008609">Burundi</option>
+	<option value="1008685">Cambodia</option>
+	<option value="1008610">Cameroon</option>
+	<option value="1008611">Canada</option>
+	<option value="1008686">Cape Verde</option>
+	<option value="1008612">Cayman Islands</option>
+	<option value="1008687">Central African Republic</option>
+	<option value="1008688">Chad</option>
+	<option value="1008689">Chile</option>
+	<option value="1008613">China</option>
+	<option value="1008614">Colombia</option>
+	<option value="1008690">Comoros</option>
+	<option value="1008597">Congo</option>
+	<option value="1008691">Costa Rica</option>
+	<option value="1008813">C&#244;te d&#39;Ivoire</option>
+	<option value="1008692">Croatia</option>
+	<option value="1008693">Cuba</option>
+	<option value="1008615">Cyprus</option>
+	<option value="1008694">Czech Republic</option>
+	<option value="1008761">Democratic People&#39;s Republic of Korea</option>
+	<option value="1008793">Democratic Republic of the Congo</option>
+	<option value="1008616">Denmark</option>
+	<option value="1008695">Djibouti</option>
+	<option value="1008696">Dominica</option>
+	<option value="1008697">Dominican Republic</option>
+	<option value="1008698">East Timor</option>
+	<option value="1008699">Ecuador</option>
+	<option value="1008617">Egypt</option>
+	<option value="1008618">El Salvador</option>
+	<option value="1008700">Equatorial Guinea</option>
+	<option value="1008619">Eritrea</option>
+	<option value="1008701">Estonia</option>
+	<option value="1008588">Eswatini</option>
+	<option value="1008620">Ethiopia</option>
+	<option value="1008781">European Union</option>
+	<option value="1008809">Falkland Islands</option>
+	<option value="1008782">Faroe Islands</option>
+	<option value="1008804">Federal States of Micronesia</option>
+	<option value="1008702">Fiji</option>
+	<option value="1008621">Finland</option>
+	<option value="1008622">France</option>
+	<option value="1008808">French Guiana</option>
+	<option value="1008806">French Polynesia</option>
+	<option value="1008703">Gabon</option>
+	<option value="1008704">Gambia</option>
+	<option value="1008705">Georgia</option>
+	<option value="1008623">Germany</option>
+	<option value="1008624">Ghana</option>
+	<option value="1008787">Gibraltar</option>
+	<option value="1008625">Greece</option>
+	<option value="1008800">Greenland</option>
+	<option value="1008706">Grenada</option>
+	<option value="1008775">Guadeloupe</option>
+	<option value="1008805">Guam</option>
+	<option value="1008707">Guatemala</option>
+	<option value="1008786">Guernsey and Alderney</option>
+	<option value="1008708">Guinea</option>
+	<option value="1008709">Guinea-Bissau</option>
+	<option value="1008626">Guyana</option>
+	<option value="1008710">Haiti</option>
+	<option value="1008711">Honduras</option>
+	<option value="1008627">Hong Kong</option>
+	<option value="1008791">Hungary</option>
+	<option value="1008628">Iceland</option>
+	<option value="1008629">India</option>
+	<option value="1008712">Indonesia</option>
+	<option value="1008713">Iraq</option>
+	<option value="1008630">Ireland</option>
+	<option value="1008795">Islamic Republic of Iran</option>
+	<option value="1008785">Isle of Man</option>
+	<option value="1008631">Israel</option>
+	<option value="1008632">Italy</option>
+	<option value="1008633">Jamaica</option>
+	<option value="1008634">Japan</option>
+	<option value="1008784">Jersey</option>
+	<option value="1008714">Jordan</option>
+	<option value="1008715">Kazakhstan</option>
+	<option value="1008599">Kenya</option>
+	<option value="1008716">Kiribati</option>
+	<option value="1008783">Kosovo</option>
+	<option value="1008635">Kuwait</option>
+	<option value="1008717">Kyrgyzstan</option>
+	<option value="1008762">Lao People&#39;s Democratic </option>
+	<option value="1008718">Latvia</option>
+	<option value="1008719">Lebanon</option>
+	<option value="1008589">Lesotho</option>
+	<option value="1008720">Liberia</option>
+	<option value="1008796">Libyan Arab Jamahiriya</option>
+	<option value="1008636">Liechtenstein</option>
+	<option value="1008721">Lithuania</option>
+	<option value="1008637">Luxembourg</option>
+	<option value="1008763">Macao</option>
+	<option value="1008722">Macedonia</option>
+	<option value="1008638">Madagascar</option>
+	<option value="1008595">Malawi</option>
+	<option value="1008639">Malaysia</option>
+	<option value="1008723">Maldives</option>
+	<option value="1008640">Mali</option>
+	<option value="1008724">Malta</option>
+	<option value="1008725">Marshall Islands</option>
+	<option value="1008774">Martinique</option>
+	<option value="1008726">Mauritania</option>
+	<option value="1008641">Mauritius</option>
+	<option value="1008780">Mayotte</option>
+	<option value="1008642">Mexico</option>
+	<option value="1008643">Monaco</option>
+	<option value="1008727">Mongolia</option>
+	<option value="1008728">Montenegro</option>
+	<option value="1008773">Montserrat</option>
+	<option value="1008729">Morocco</option>
+	<option value="1008592">Mozambique</option>
+	<option value="1008764">Myanmar</option>
+	<option value="1008590">Namibia</option>
+	<option value="1008730">Nepal</option>
+	<option value="1008772">Netherlands Antilles</option>
+	<option value="1008807">New Caledonia</option>
+	<option value="1008645">New Zealand</option>
+	<option value="1008731">Nicaragua</option>
+	<option value="1008732">Niger</option>
+	<option value="1008646">Nigeria</option>
+	<option value="1008647">Norway</option>
+	<option value="1008648">Oman</option>
+	<option value="1008649">Pakistan</option>
+	<option value="1008794">Palestine</option>
+	<option value="1008733">Panama</option>
+	<option value="1008734">Papua New Guinea</option>
+	<option value="1008735">Paraguay</option>
+	<option value="1008736">Peru</option>
+	<option value="1008650">Philippines</option>
+	<option value="1008651">Poland</option>
+	<option value="1008652">Portugal</option>
+	<option value="1008768">Puerto Rico</option>
+	<option value="1008653">Qatar</option>
+	<option value="1008765">Republic of Korea</option>
+	<option value="1008789">Republic of Moldova</option>
+	<option value="1008779">R&#233;union</option>
+	<option value="1008654">Romania</option>
+	<option value="1008655">Russia</option>
+	<option value="1008656">Rwanda</option>
+	<option value="1008811">Saint Helena</option>
+	<option value="1008769">Saint Kitts and Nevis</option>
+	<option value="1008770">Saint Lucia</option>
+	<option value="1008799">Saint Pierre and Miquelon</option>
+	<option value="1008771">Saint Vincent and the Grenadines</option>
+	<option value="1008737">Samoa</option>
+	<option value="1008738">San Marino</option>
+	<option value="1008739">Sao Tome and Principe</option>
+	<option value="1008657">Saudi Arabia</option>
+	<option value="1008658">Senegal</option>
+	<option value="1008740">Serbia</option>
+	<option value="1008659">Seychelles</option>
+	<option value="1008660">Sierra Leone</option>
+	<option value="1008661">Singapore</option>
+	<option value="1008790">Slovakia</option>
+	<option value="1008741">Slovenia</option>
+	<option value="1008742">Solomon Islands</option>
+	<option value="1008743">Somalia</option>
+	<option value="1008587">South Africa</option>
+	<option value="1008797">South Sudan</option>
+	<option value="1008662">Spain</option>
+	<option value="1008663">Sri Lanka</option>
+	<option value="1008744">Sudan</option>
+	<option value="1008745">Suriname</option>
+	<option value="1008788">Svalbard and Jan Mayen Islands</option>
+	<option value="1008664">Sweden</option>
+	<option value="1008665">Switzerland</option>
+	<option value="1008746">Syria</option>
+	<option value="1008666">Taiwan</option>
+	<option value="1008747">Tajikistan</option>
+	<option value="1008598">Tanzania</option>
+	<option value="1008667">Thailand</option>
+	<option value="1008644">The Netherlands</option>
+	<option value="1008748">Togo</option>
+	<option value="1008749">Tonga</option>
+	<option value="1008750">Trinidad and Tobago</option>
+	<option value="1008668">Tunisia</option>
+	<option value="1008669">Turkey</option>
+	<option value="1008751">Turkmenistan</option>
+	<option value="1008767">Turks and Caicos Islands</option>
+	<option value="1008600">Uganda</option>
+	<option value="1008752">Ukraine</option>
+	<option value="1008670">United Arab Emirates</option>
+	<option value="1008671">United Kingdom</option>
+	<option value="1008753">Uruguay</option>
+	<option value="1008798">USA</option>
+	<option value="1008754">Uzbekistan</option>
+	<option value="1008755">Vanuatu</option>
+	<option value="1008756">Vatican City</option>
+	<option value="1008757">Venezuela</option>
+	<option value="1008758">Vietnam</option>
+	<option value="1008766">Virgin Islands</option>
+	<option value="1008759">Yemen</option>
+	<option value="1008594">Zambia</option>
+	<option value="1008593">Zimbabwe</option>
+	<option value="0" selected="selected">(Select country of issue)</option>
+
+</select>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+                            <div id="pnlStaffNumber" data-templatekey="donor-part-anonymous" hidden="hidden">
+                                <h6>
+                                    Staff number
+                                </h6>
+                                <div class="col-lg-2 col-md-3 col-sm-3 form-group">
+                                    <input name="StaffNumber" type="text" maxlength="50" id="StaffNumber" class="form-control required" required="required" autocomplete="family-name" style="width:615px;" />
+                                </div>
+                            </div>
+
+                            <div id="pnlDepartment" data-templatekey="donor-part-anonymous" hidden="hidden">
+                                <h6>
+                                    Department
+                                </h6>
+                                <div class="col-lg-2 col-md-3 col-sm-3 form-group">
+                                    <input name="Department" type="text" maxlength="50" id="Department" class="form-control required" required="required" autocomplete="family-name" style="width:615px;" />
+                                </div>
+                            </div>
+                            <div class="row mb-4" id="pnlBankDetails" data-templatekey="donor-part-anonymous">
+                                <h5>
+                                    Bank details</h5>
+                                <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                    <h6>
+                                        Account holder</h6>
+                                    <input name="AccountHolder" type="text" maxlength="40" id="AccountHolder" class="form-control required" autocomplete="given-name" />
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                    <h6>
+                                        Bank</h6>
+                                    <select name="Bank" id="Bank" class="form-select required" data-project="select">
+	<option value="0" selected="selected">(Select a bank)</option>
+
+</select>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                    <h6>
+                                        Account type</h6>
+                                    <select name="AccountType" id="AccountType" class="form-select required" data-project="select">
+	<option value="177">Current</option>
+	<option value="1000007">Savings</option>
+	<option value="1000008">Transmission</option>
+	<option value="0" selected="selected">(Select an account type)</option>
+
+</select>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                    <h6>
+                                        Branch code</h6>
+                                    <input name="Branch" maxlength="40" id="Branch" class="form-control required" autocomplete="given-name" type="number" />
+                                    <select name="ddlBranch" id="ddlBranch" class="form-select required" data-project="select" style="display: none">
+	<option value="0" selected="selected">(Select a branch code)</option>
+
+</select>
+                                </div>
+
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                    <h6>
+                                        Account number</h6>
+                                    <input name="AccountNumber" maxlength="40" id="AccountNumber" class="form-control required" autocomplete="family-name" type="number" />
+                                </div>
+                            </div>
+                        </div>
+                        
+
+
+
+                    </div>
+
+                    <div id="summary-part" class="content" role="tabpanel" aria-labelledby="summary-part-trigger">
+                    </div>
+
+                    <div id="result-part" class="content" role="tabpanel" aria-labelledby="result-part-trigger">
+                    </div>
+                </div>
+
+                <template data-templatekey="donationTemplate" data-project="template">
+                    <div class="row mb-1">
+                        <div data-donation="project" class="col-sm-6">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <select name="Project" id="Project" class="form-select" data-project="select" required="required">
+	<option value="" selected="selected" disabled="disabled" style="display: none">Please select a project</option>
+	<option value="292223">A re Ageng: ISRC Trust Fund</option>
+	<option value="209574" selected="selected">Alumni Fund (Annual Fund)</option>
+	<option value="266050">Soshanguve Digital Library</option>
+	<option value="179811">TUT Bursary and Scholarship Fund</option>
+
+</select>
+                                    <button type="button" class="btn btn-outline-secondary btn-unallocate" title="Remove this allocation"><i class="bi bi-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-donation="amount" class="col-sm-6">
+                            <div class="form-group">
+                                <div id="tlbAmount" data-donation="amounts" class="btn-toolbar flex-wrap" role="group" data-toggle="buttons" style="padding-left: 25px">
+                                <input value="50" name="Amount" type="radio" id="OptAmt1" class="btn-check col-xl-3 col-lg-2 col-md-3 col-5 m-1" autocomplete="off" required="required" /><label for="OptAmt1" class="btn btn-primary col-xl-3 col-lg-2 col-md-3 col-5 m-1">R 50</label><input value="100" name="Amount" type="radio" id="OptAmt2" class="btn-check col-xl-3 col-lg-2 col-md-3 col-5 m-1" autocomplete="off" /><label for="OptAmt2" class="btn btn-primary col-xl-3 col-lg-2 col-md-3 col-5 m-1">R 100</label><input value="300" name="Amount" type="radio" id="OptAmt3" checked="checked" class="btn-check col-xl-3 col-lg-2 col-md-3 col-5 m-1" autocomplete="off" /><label for="OptAmt3" class="btn btn-primary col-xl-3 col-lg-2 col-md-3 col-5 m-1">R 300</label><input value="500" name="Amount" type="radio" id="OptAmt4" class="btn-check col-xl-3 col-lg-2 col-md-3 col-5 m-1" autocomplete="off" /><label for="OptAmt4" class="btn btn-primary col-xl-3 col-lg-2 col-md-3 col-5 m-1">R 500</label><input value="1000" name="Amount" type="radio" id="OptAmt5" class="btn-check col-xl-3 col-lg-2 col-md-3 col-5 m-1" autocomplete="off" /><label for="OptAmt5" class="btn btn-primary col-xl-3 col-lg-2 col-md-3 col-5 m-1">R 1000</label><input name="OptOther" type="number" id="OptOther" class="btn-primary btn-other col-xl-3 col-lg-2 col-md-3 col-5 m-1" autocomplete="off" inputmode="decimal" placeholder="Other" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+
+                <template data-templatekey="summaryTemplate">
+
+                    <h3 id="SummaryLabel">Summary</h3>
+                    <div class="row">
+                        <div class="col">
+                            <p id="pgSummary">
+                                You are about to donate R {{FormattedTotal}} via {{PayMethod.Description}}.<br />
+                                <span data-if="{{Frequency.IsRecurring}}">This will repeat {{Frequency.Description}} on the {{Frequency.DayOfTheMonth}} day of the month.<br />
+                                </span>
+                                <span data-if="{{Donor.Email}}">Confirmation emails will be sent to {{Donor.Email}}</span>
+                            </p>
+                        </div>
+                        <div class="col">
+                            <div id="pgProjectBreakDown">
+                                Funds will be allocated to the following projects.              
+                                 <ul data-repeat-donation="{{Donations}}">
+                                     <li>{{donation.Name}}: R {{donation.FormattedAmount}}</li>                                    
+                                 </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="pnlTerms" class="d-none">
+                        <h3>
+                            T&C - Original</h3>
+                        <p id="pgTerms">
+                            Below you will find some information about the terms and conditions.
+                        </p>
+                    </div>
+                </template>
+
+                <template data-templatekey="resultApprovedTemplate">
+                    <h3>
+                        Thank you.</h3>
+                    <p id="pgSuccessMsg">
+                        Your transaction has been processed.
+                    </p>
+                </template>
+
+                <template data-templatekey="resultFailTemplate">
+                    <h3>
+                        Oh Dear.</h3>
+                    <p id="pgFailureMsg">
+                        Something went wrong with processing your transaction.  Please try again, or contact support.
+                    </p>
+                </template>
+
+                <template data-templatekey="messageTemplate">
+                    <h3>{{Title}}</h3>
+                    <div class="row">{{Content}}</div>
+                </template>
+
+                <template data-templatekey="processingTemplate">
+                    <div class="align-items-center">
+                        <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
+                        <strong>{{Message}}</strong>
+                    </div>
+                </template>
+
+                <template data-templatekey="paymentOptionError">
+                    <h3>Payment option problem</h3>
+                    <p>
+                        The {{Description}} payment method is not available at this time<br />
+                        Please select an alternate method, try again later, or contact support
+                    </p>
+                </template>
+
+                <template data-templatekey="directDepositTemplate">
+                    <h3>Thank you for your pledge</h3>
+                    <p>When making your deposit, please use the following details</p>
+                    <div class="row">
+                        <div class="col-2">
+                            Bank name
+                        </div>
+                        <div class="col-10">
+                            Standard bank
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            Branch code
+                        </div>
+                        <div class="col-10">
+                            510001
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            Account number
+                        </div>
+                        <div class="col-10">
+                            123-45678-90
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            Reference
+                        </div>
+                        <div class="col-10">
+                            {{Reference}}
+                        </div>
+                    </div>
+
+                </template>
+                <template data-templatekey="staffTemplate">
+                    <div>
+                        <h2>Thank you!</h2>
+                        <p>Thank you for making your commitment via our staff giving provision.</p>
+                        <p>
+                            Please keep the following staff giving reference number in a safe place. It will also be emailed through to you:
+                            <strong><span class="reference">&nbsp;</span>{{Reference}}</strong>
+                        </p>
+                    </div>
+                </template>
+                <template data-templatekey="debitOrderTemplate">
+                    <div id="pgThankYou">
+                        <h2>Thank you!</h2>
+                        <p>Thank you for completing the Debit Order sign-up process.</p>
+                        <p>
+                            Please keep the following reference number in a safe place. It will also be emailed through to you:
+                                <strong><span class="reference">&nbsp;</span>{{Reference}}</strong>
+                        </p>
+                    </div>
+                </template>
+
+                <template data-templatekey="thankYouTemplate">
+                    <div>
+                        <h2>Thank you!</h2>
+                        <p>Thank you for your commitment.</p>
+                        <p>
+                            Please keep the following reference number in a safe place. It will also be emailed through to you:
+                            <strong><span class="reference">&nbsp;</span>{{Reference}}</strong>
+                        </p>
+                    </div>
+                </template>
+            
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="936ECED2" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/qMslbm1YUE6DzgGodgeC4qew6vyKZwAClVI8U1QDeaT6jK2b7sVivBCtrwRk/JBG05r8/fDhWcxAZ4OSv5CnqRr7enNCW1YjdwNFZbIXt7A8b/TMLx+g4hIa+KZO0kUxL6pfmtHPt2gqN6q6a5Kb6lK/KMyw/ZsvTKBrkqRvSuDivPnC3Gg0UiETpHyFIoJ//ml9z4sFy0/XFlVMXaYQalzgjCrFIwH9vVG7BhekQpkjcc+CEevQMwlTCzQ3qdkZGMWCLz87V5sH1FkI44J+xSkUb+6ib8FNN8kzBSr7NeemX1qxYSUKUQxaXfFa98XWwT/E/jRElRm90KWqv19Ytjkhdoq2wZHgR1KoXHtia0oAFcJHtnWXaCpaFFYrkVPlCGMsmD7UtYuko8YBQiE9oSVJw60o7EtMDkVo2qYOe/UeocuEpvgWYyL3p3FxF1qb8ixabmB7sbRe9nfT4YedF4ukOTrNKvgtCDjGdF9o4DmwpjHgM/WX14Hmddx1hOLHwENvhh4kwamy+BtgrSF1HILgpNa6lScy5a0QsQywkgZNX4c+t2BfrR1MV4zaZ51o9rGs76ObYLWltv+irKmluvLJjOy6Py7lmUJ/9ij8PgZWGyIYidTAalf9diAzTtXELSVDn9u+HeZwKDEmdbOIyg/XzMK2Xa1OfiCzfXIgCeJR6of8Ei2LvZUnd/O6Wgb2MUJjPVOGDe5BEHsGmLlu84atZrMfPMvf0SXWG96Zl6c8z55VcldaAm28x82f/Pql3mwxWPgqF4GNmA4zht0lXrtUcLE3SA2DGaOXD5i1UQdVJV/TYyPxJUcf2x4lPs1Zrb/+UeIfxgHkEea9pQaTOtc0uzzdhcg2B9S8gQuw/OxvacFw9YcRVgJjTaUECQNXotfLQa2J/o89noUvsBe4wtnOq8mjNGI4o3aa4x7+TXbeYwt+ZlEho12aHA2iCbeL6AMUzEUmDLU1T35ErIhGygxXIhxZCpsH+EvvLzBKu+wzKkXstWaEWf9lRC7DlM2WExi+RPx1JN3KQGzB8c0MjyZYdYG+Q5NlX1twFFAPQSTmYjFtWi0ODvb3f3pa74a5Rz6eZAlhfh1A2xG9rzhWU2r7RKwehiJUKk9kuE6UVGZCK+2fSUBMmHom07sCKGulqsxJOadXWIiEoVWpa/dkpM/ur/JEEEHMnSAhKMJrz5TPzbufqZ3RLu4eAZa5R0qGPI05x5auLnlKugjQkFIw11gqgLjSW9Ae05ZzWYpXqdtJhP4PPrFidVmjSwXaAoRT9xVIR5A9+QpRjNiqdKELZe+lLljkiNhHM2gw7480zXdlfxNOHe0/y18SYDjsycU4BS2k3JSURWYLWQ1kYsrrnB0MFBwUE/l2Jz2XSvk6XOkzfJpcHT6pbHZPaenhJBV6mycg7MTerROhoYdHet65N2wKBek+SxBfz+Q6thp2FGBYaruVPe4ZPG4ud/sF0ztL77c6zFKeRjNSgS5g6R7LgiARo4II5Hm9KSI4hBpTdn/Fqh81TfYgKRbgEzt0TmeEmAn0RmON5Krow81Y/Stk0bnHRzKPxZLTLeiKdyz/742yTYmtwTci7ApnU2WzpSOnljTxjwVxd6kgDMR2dPrYg7VBUS6jPM9lq/fVOLMYetdJwJ2yYwtO+A+LlbJfkDy7dhCgk6RC4UyO5n2Fb6HZFMYloTx72S+GAIhTniEr3smA1LLwPIGXViDc5u+jGRMkMWtXADCnl7oSeXR2reKxvBA6L9Vt2JoHai52rvs9ehX2cFhFeMUSI+ihQu09jDkjmF3GsqJnAbuFVYHsppRIbu4U/GXu65H2HiBguQufkfNWpWOyDujoWqQf5ShBrI9rElrtpkR6A07ETcw+x2WPsjWWIDo94Jxp+Ww68DUYtEVRr5pmjBYxE0fyDsLqY4oJ0wg6WMKdqGku3t+VzYLZdACuX+Olr/YKRaZCaBGWk7/DvP8k3vx9PEeu7g4CuWtwOdU1r8LvHLGiHZp7S3IOjr3xWdpWCEQu3MSHnefo3GbmtfUdwtH7YICtIzQH4rBmAg1Lket0us3fzlpTpeSPivp1ii89wRKOyAzdt5LmpBS4f5XfSc1Dbm94HJH47nqo//7UraIWpa/TwdFw7mpD5hgt8lccO7AVUY7QAhtE/qu2VWeWASNcuoiUIp67ftWZpk32/tHlSwZXLRqz1AQbWzo2SiM8NJsaMlWnFtc5K6LWq8rSSdrOkEvD/9FSHDi5LfqEeRAHM5m4slKr1dIH7hqLKFLhPuBsAvymkc4EmFMqLxKItUTF+aaOltJjgjD1G+AUMt/EbnxiEgf7MEEk/rieHZtvKIsgz/LzH60KDfL8tz5O0iiNPfBhphbje8YhXZikmv+ajUdJZJ5DV+M7HEYfkTh098PS+c1GDqmzzPywY+eOgcQeZ6B2ui8t4bDpG37teZbHUdQ2OSW4k/yCp8oKdi49qjh1PgiiBW+qbKyhOA4UZk5U3370lcO6eqOd6PKEgWfNyDz1uVfozvaz+2wvv5oCsVJ+VlFex6Y1mL8Rr9blfjyhmSyt4FwYnpbi8+AIZY94BLMS4ThXi1PW3Mm62uayXu5EQ7m5eV0q6Z/tiBgdg9DNwR8Tn5S7ky3D/JmtUFvYvOs7I5d7XiWbYgDaCTU0nNECKoVLEy/HMrz/lJlrhft7DNs2148VZB80KEw6i5ndHWOfhmVn7N9k9vpThRAoESjafaczF4jVflB5fVOEz0X9uwnZM9ERwzU2VSTGDQ/A3WNzTteCqmu/OcpXei+o0aSrl8dQm/w3ZMllChLmiE5oO9pzxKnv5p7+rhluqk1oqzbbCb0VERrXh9UzXULdJeUjNEW0GiKBopbJgM1xa6YYb1o0mRJqK53rbAklaice9Y9arMQKmqahJgJoBnoh9w/ByX16Rj+WcbjQ3ftDA6zXYwgZ/UFBpqsa2th173iuscHPj4FJEJYji3U/dzdbbUBwRKqD+kvzKvvAIyh74b9z9Df07LJ2HlBO6waa4sYGZVytDhd+hJMXUmIP7eJTNA/SFUUVHuPGMX35BCVZgw2caNxULbDDUvSL/JKW6oAGo2rY8aUaTYR2O4IcVSQBGlRuHuq+AIXHC63o7sSojMRKpUTYYnZ1J5hGJfDYg8P4y/Tg5Hb7FOukAy99Ms6DAyDOxpZ5B8+tSQMfCOurNUFqW8GXD+vkZJA6f/xTR5ihtJGmzOcKlUcD7f8QD01otsLOhmwqcP7oYXaYbvhrpfU81khYlN1yt/61E/CDxpIcvE2rhrKRLhdHY6M7sntMJGg5Vjwh9z1bFaqkgRUvCUrnIo4vyPrrMVLuumRZZ5KTJFqRbNgdB0N7SD8RSzF/Lzst/Qf8w/LV3Vreoyy4lEAWQzYtufLdgJrYeJL9DoJsVCcd9j3ptaDahsLEDJyftlRUnEmqsPkMRb7PF/jzgxMnXpuAq355oVMtP5EGMm7ljPMPDzHfxF5vxUGOfNksbqWeK9nBe0MqBSTnpjU4TUQBmkjB41LyZNDViL69v4xwHzad9RAmCJeeQfSF2eaEWhRaWpM+2Qia3PtwWn3Twwn9quMN1FAcZ+4+oXRHrDoYYpDGl/qvPRGLGKM4+CgoOFQ0xJdskxuyXE6M5Tg4RVQ8jfOaC6fKdiRdZjCtcXwI23j0a7OHRu2DtoF/eNCi84MArDPlpZ+9ib3r2ZRkzYZVzKByi1x1VKJdKcs4q8vTQySa5AKDG6thS3b9yiU4aRT+usPiMrVlxpmfcyZIGnCgQFFqUSBrcO1aATHlXXVZCr9gsUl6fI8B5cZgRBZap4+jikz5uKBZOgLde1wMelBWPcXsq9m0crfhmsO+QuHKxuQBimVNsMMNjqDqaB7W+8TyXJlbgFAY3W0fwVSRIyTg0BJK7ht2E3P9WexiWz4nB0VTyr1AYCfkdgulGSBjvMJEZvhy4bYAswXPdA/05/dsaCqlRrEWHnhQn3/xcHFHiNGaS87LFHa8k4dlZ8Q78rdgkbM3zeENquOF2sjRxLmRe6QKBIoC+1EtAhw7T6cTJcUy/3l1QagYrEjiEYgTD/08xPnr1ZK3cjZoIugS/FAxCRIgdiLXyvNV6E/hlS5Krxfk4MKw8WLbfihzuFxrIIeNAPaMVnpczb/xaz2vgie9oxUuTWSH0W+fXjOdQ3x1L0wxo4eJjl/ue9N2iC5fTi8xjIXs5i+JxcnCJLyd2U0/yt2IvZgg58/aXcsf7xJ6m1vXnY60gDaAAJtAofMxeUHGbI9gBbcOg92kZpXAlMnAxJ3CblJj/Kjk1JFat+JXUmy44w34JiAY9gEQr9KLREzMBG6dzDj4g6cK0efx12CmDkQsC6b1LAmMu0qtzPMEpKfC/cBN46Evktlu9Xr60b/i2tqtu6Xc4H5/O9P2iNGFNBp9vltathZ+WEI/tFiQhF/0x9iGxdLDXHJv3QdHaGxkxjZqr5zGRD9nLz7q7uHUyP7rc3Ph/pG1xqEV5W7dloIGpP+H8M/JkdQrfzOSVc4BusIvhLFi6Yp7MPNgXGzT9Qq7n3s2KMMuQEy24E1Mpb7pmnJFsSQNxmCec9WrfFEmPp7n8k2+rH69SCXMrp//+YSPUZUtieclDbbFzpoI4oE2q6gdn8keQDXd3/voscd/0LEX7GoKrFebq9u1j58koY9tupITRulO7VT4dYTHXNtlXE+6CUmG/IJ1t+1rwSadHQ+feXUf59JAbLfNu1A/V1nZomSfot3zd08QKsei32zMHy9J+cNZV5oR8/9me74AUDq+keDGKazExddjTl60WEEhF5vPNTSbuvozSmW+rSNn6csRvbElfCLKN+l+yOX3s1nItzMdUYtE7McVO6MbyhM6AxOSj5U2mC4Ox2j2Vw72jsGLYcyhDFfiCenXktUP+ImEgaHNpN3zkHmyP5GEdI3PHJqqzv03/7TYa3gexaIqX2GNfso7LGjPgyB105R3M30FI+4BRveWR7cqKZOuhnObGYrbjYKZX06E0owH/OGlmP8ZCmb147iR400hbU4PyjDtXldQKjDHAUMHJxI6VADUJltNRwRYES3fRSzG0ceWMJGiK9NiqZ507vc9drpILUv2DNtJkUeaSCUs7tFSO1wMr3pdMbAnooTTbTmdtvDxE+hb9CYiw2tGqLdPYHyIq7fLlV+1/9PTwic+7cL/jXmtnJsgo338ikarTT50zNtYnN4InoJtNqbVsEX7zZ3tMiM0Uh/jAD9QfJIUU6lFGjLt7MbSBNmodqBz0KJVXFJVR2jMvsDekcwihK/+f84iuqYqrcJRB+eN9rQzZxx+1zkBvBsFNDzIG7N//tWUH6bScat5ZQyEQKgnazcTp06K7PRy7iL9j2dgiAESUTkqsSx6jgWcfM8fvoYW//gb7nMnmc400TAjpSJdBYRwdGSEZxSh3RcfC68RM250jEwxTix/zfYUCl86wpMLU/LN+NA+rsX4YLw/ncsIyRB2AdAqW0pGQA8mltROyRZMwcQss8z5D8nnStKc2bkGItF9GnUwD3IGCgZ5PqGeTo5/Y7+q0squ8IdiHEpq7HuPV4PBQjhIMCSwr/LDcFvqLG5S+CmFG+8gLr0ALs+H2V9YbraA+TgTASePA3JdgSrOcm4vfopIOnMRLuDm8bW2C2Dh1Dxtw1JjNtEfZMrGab5ZtSh69lldyAhyENjgv1pnZsAULBSkuIaP/JNYQHCm/Y5+354yJSIo1ketQ==" />
+</div></form>
+
+            <div class="flex-shrink-1">
+                <div id="navigate-part" class="btn-toolbar flex-wrap justify-content-end invisible" role="group">
+                    <button id="btnBack" class="btn btn-primary btn-step-back m-1"><i class="bi bi-chevron-left"></i>Previous </button>
+                    <button id="btnNext" class="btn btn-primary btn-step-next m-1">Next<i class="bi bi-chevron-right"></i> </button>
+                    <button id="btnSubmit" class="btn btn-primary btn-step-submit m-1">Donate <i class="bi bi-wallet2"></i></button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

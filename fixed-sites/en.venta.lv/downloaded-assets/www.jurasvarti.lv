@@ -1,0 +1,1662 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf8" /> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Jūras vārti</title> 
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic-ext,latin-ext" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://jurasvarti.lv/wp-content/themes/BRIGHT/style.css">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="theme-color" content="#ffffff">
+
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<link rel="alternate" hreflang="lv" href="https://jurasvarti.lv/" />
+
+	<!-- This site is optimized with the Yoast SEO plugin v20.0 - https://yoast.com/wordpress/plugins/seo/ -->
+	<link rel="canonical" href="https://jurasvarti.lv/" />
+	<meta property="og:locale" content="lv_LV" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Pasākumi - Jūras vārti" />
+	<meta property="og:url" content="https://jurasvarti.lv/" />
+	<meta property="og:site_name" content="Jūras vārti" />
+	<meta property="article:publisher" content="https://www.facebook.com/jurasvarti/" />
+	<meta property="article:modified_time" content="2025-01-02T14:26:37+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@kfilharmonija" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://jurasvarti.lv/","url":"https://jurasvarti.lv/","name":"Pasākumi - Jūras vārti","isPartOf":{"@id":"https://jurasvarti.lv/#website"},"about":{"@id":"https://jurasvarti.lv/#organization"},"datePublished":"2017-10-12T14:12:59+00:00","dateModified":"2025-01-02T14:26:37+00:00","breadcrumb":{"@id":"https://jurasvarti.lv/#breadcrumb"},"inLanguage":"lv","potentialAction":[{"@type":"ReadAction","target":["https://jurasvarti.lv/"]}]},{"@type":"BreadcrumbList","@id":"https://jurasvarti.lv/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://jurasvarti.lv/#website","url":"https://jurasvarti.lv/","name":"Jūras vārti","description":"Teātra nams &quot;Jūras vārti&quot;","publisher":{"@id":"https://jurasvarti.lv/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://jurasvarti.lv/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"lv"},{"@type":"Organization","@id":"https://jurasvarti.lv/#organization","name":"Jūras vārti","url":"https://jurasvarti.lv/","logo":{"@type":"ImageObject","inLanguage":"lv","@id":"https://jurasvarti.lv/#/schema/logo/image/","url":"https://jurasvarti.lv/wp-content/uploads/logo.svg","contentUrl":"https://jurasvarti.lv/wp-content/uploads/logo.svg","caption":"Jūras vārti"},"image":{"@id":"https://jurasvarti.lv/#/schema/logo/image/"},"sameAs":["https://www.instagram.com/jurasvarti/","https://www.facebook.com/jurasvarti/","https://twitter.com/kfilharmonija"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/jurasvarti.lv\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.9"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='mailigen_css-css' href='https://jurasvarti.lv/wp-content/plugins/mailigen-widget/css/mailigen.css?ver=6.1.9' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://jurasvarti.lv/wp-includes/css/dist/block-library/style.min.css?ver=6.1.9' type='text/css' media='all' />
+<link rel='stylesheet' id='classic-theme-styles-css' href='https://jurasvarti.lv/wp-includes/css/classic-themes.min.css?ver=1' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='news-css' href='https://jurasvarti.lv/wp-content/plugins/yoast-seo-wp/news/css/news-min.css?ver=6.1.9' type='text/css' media='all' />
+<link rel='stylesheet' id='wpml-legacy-dropdown-0-css' href='//jurasvarti.lv/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-dropdown/style.css?ver=1' type='text/css' media='all' />
+<style id='wpml-legacy-dropdown-0-inline-css' type='text/css'>
+.wpml-ls-statics-shortcode_actions{background-color:#ffffff;}.wpml-ls-statics-shortcode_actions, .wpml-ls-statics-shortcode_actions .wpml-ls-sub-menu, .wpml-ls-statics-shortcode_actions a {border-color:#cdcdcd;}.wpml-ls-statics-shortcode_actions a {color:#444444;background-color:#ffffff;}.wpml-ls-statics-shortcode_actions a:hover,.wpml-ls-statics-shortcode_actions a:focus {color:#000000;background-color:#eeeeee;}.wpml-ls-statics-shortcode_actions .wpml-ls-current-language>a {color:#444444;background-color:#ffffff;}.wpml-ls-statics-shortcode_actions .wpml-ls-current-language:hover>a, .wpml-ls-statics-shortcode_actions .wpml-ls-current-language>a:focus {color:#000000;background-color:#eeeeee;}
+</style>
+<script type='text/javascript' src='https://jurasvarti.lv/wp-includes/js/jquery/jquery.min.js?ver=3.6.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://jurasvarti.lv/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://jurasvarti.lv/wp-content/plugins/mailigen-widget/js/mailigen.js?ver=6.1.9' id='mailigen_js-js'></script>
+<script type='text/javascript' src='https://jurasvarti.lv/wp-content/plugins/sitepress-multilingual-cms/res/js/jquery.cookie.js?ver=4.3.3' id='jquery.cookie-js'></script>
+<script type='text/javascript' id='wpml-cookie-js-extra'>
+/* <![CDATA[ */
+var wpml_cookies = {"wp-wpml_current_language":{"value":"lv","expires":1,"path":"\/"}};
+var wpml_cookies = {"wp-wpml_current_language":{"value":"lv","expires":1,"path":"\/"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://jurasvarti.lv/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js?ver=4.3.3' id='wpml-cookie-js'></script>
+<script type='text/javascript' src='//jurasvarti.lv/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-dropdown/script.js?ver=1' id='wpml-legacy-dropdown-0-js'></script>
+<link rel="https://api.w.org/" href="https://jurasvarti.lv/wp-json/" /><link rel="alternate" type="application/json" href="https://jurasvarti.lv/wp-json/wp/v2/pages/29" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://jurasvarti.lv/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://jurasvarti.lv/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 6.1.9" />
+<link rel='shortlink' href='https://jurasvarti.lv/' />
+<link rel="alternate" type="application/json+oembed" href="https://jurasvarti.lv/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjurasvarti.lv%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://jurasvarti.lv/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjurasvarti.lv%2F&#038;format=xml" />
+<meta name="generator" content="WPML ver:4.3.3 stt:32;" />
+
+	<script type="text/javascript">
+		var $ = jQuery.noConflict();
+		var ajaxurl = "https://jurasvarti.lv/wp-admin/admin-ajax.php";
+	</script>
+	<script src="https://jurasvarti.lv/wp-content/themes/BRIGHT/js/velocity_slickslider.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114529768-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-114529768-1');
+	</script></head> 
+<body> 
+
+<div id="blackfilter" ></div>
+<header id="header" class="table wrap" >
+	<div class="logocell table-cellvm" ><a href="https://jurasvarti.lv" ><img src="https://jurasvarti.lv/wp-content/themes/BRIGHT/img/logo.svg" ></a></div>
+	<div class="menucell table-cellvm" >
+		<nav >
+			<a class="menuel bigmenuel animate  currentpage " href="https://jurasvarti.lv/">Pasākumi</a>
+<a class="menuel bigmenuel animate   " href="https://jurasvarti.lv/zinas/">Ziņas</a>
+<div class="menuel dropdown-menuel"><div class="menuel " href="#" class="" >Par mums <span class="arr-down"></span></div><div class="dropdown-menu"><a class="submenuel animate " href="https://jurasvarti.lv/teatra-nams/">Teātra nams</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/kontakti/">Kontakti</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/telpu-noma/">Telpu/tehnikas noma</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/iepirkumi/">Iepirkumi</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/projekti/">Projekti</a>
+</div></div>
+<div class="menuel dropdown-menuel"><div class="menuel " href="#" class="" >Noteikumi <span class="arr-down"></span></div><div class="dropdown-menu"><a class="submenuel animate " href="https://jurasvarti.lv/noteikumi/noteikumi-pirms-pasakuma/">Pirms pasākuma</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/noteikumi/noteikumi-garderobe/">Garderobe</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/noteikumi/noteikumi-bilesu-iegade-un-lietosana/">Biļešu iegāde un lietošana </a>
+<a class="submenuel animate " href="https://jurasvarti.lv/noteikumi/noteikumi-pasakuma-laika/">Pasākuma laikā</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/noteikumi/multivide/">Multivide</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/noteikumi/noteikumi-aizliegts/">Aizliegts</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/noteikumi/noteikumi-atbildiba/">Atbildība</a>
+</div></div>
+<a class="menuel bigmenuel animate   " href="https://jurasvarti.lv/biezak-uzdotie-jautajumi/">Biežāk uzdotie jautājumi</a>
+<div class="menuel dropdown-menuel"><div class="menuel " href="#" class="" >Kolektīvi <span class="arr-down"></span></div><div class="dropdown-menu"><a class="submenuel animate " href="https://jurasvarti.lv/jauktais-koris-ventspils/">Jauktais koris “Ventspils”</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/ventspils-kamerorkestris/">Ventspils Kamerorķestris</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/ventspils-bigbends/">Ventspils bigbends</a>
+</div></div>
+<a class="menuel bigmenuel animate   " href="https://jurasvarti.lv/galerija/">Galerija</a>
+<div class="menuel dropdown-menuel"><div class="menuel " href="#" class="" >Kase <span class="arr-down"></span></div><div class="dropdown-menu"><a class="submenuel animate " href="https://jurasvarti.lv/bilesu-rezervacija-un-iegade/">Biļešu rezervācija un iegāde</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/abonamenti/">Abonementi</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/bilesu-servisa-davanu-karte/">Dāvanu kartes</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/teatra-nama-drauga-karte/">Drauga karte</a>
+</div></div>
+		</nav>
+	</div>
+	<div class="headerrightcell table-cellvm" >
+		<div class="langsc" >
+						<a href="" class="animate inline-middle mm-langel active" >LV</a>
+					</div>
+		<div class="header-rightels" >
+			<div class="header-rightel animate" >
+				<img id="searchb" src="https://jurasvarti.lv/wp-content/themes/BRIGHT/img/search-rev.svg" >
+				<img id="closesearchb" src="https://jurasvarti.lv/wp-content/themes/BRIGHT/img/close-red.svg" >
+			</div>
+			<!-- <div class="header-rightel animate" >
+				<a href="http://www.jurasvarti.lv/jv360/index.html" target="_blank" >
+					<img id="panoramab" src="https://jurasvarti.lv/wp-content/themes/BRIGHT/img/refresh.svg" >
+				</a>
+			</div> -->
+			<div class="header-rightel animate" >
+				<a href="https://www.facebook.com/jurasvarti/" target="_blank" ><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					 viewBox="0 0 53.2 53.2" style="enable-background:new 0 0 53.2 53.2;" xml:space="preserve">
+					<g>
+						<g>
+							<path class="melic" d="M26.6,3c13,0,23.6,10.6,23.6,23.6S39.7,50.2,26.6,50.2S3,39.7,3,26.6S13.6,3,26.6,3 M26.6,0
+								C11.9,0,0,11.9,0,26.6s11.9,26.6,26.6,26.6s26.6-11.9,26.6-26.6S41.3,0,26.6,0L26.6,0z"/>
+						</g>
+						<path class="melic" d="M30.9,26.6h-2.8c0,4.4,0,9.9,0,9.9H24c0,0,0-5.4,0-9.9h-2v-3.5h2v-2.3c0-1.6,0.8-4.2,4.2-4.2l3.1,0v3.4c0,0-1.9,0-2.2,0
+							c-0.4,0-0.9,0.2-0.9,1v2.1h3.1L30.9,26.6z"/>
+					</g>
+				</svg></a>
+			</div>
+			<div class="header-rightel animate" >
+				<a href="https://twitter.com/kfilharmonija" target="_blank" ><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					 viewBox="0 0 53.2 53.2" style="enable-background:new 0 0 53.2 53.2;" xml:space="preserve">
+					<g>
+						<g>
+							<path class="melic" d="M26.6,3c13,0,23.6,10.6,23.6,23.6S39.7,50.2,26.6,50.2S3,39.7,3,26.6S13.6,3,26.6,3 M26.6,0
+								C11.9,0,0,11.9,0,26.6s11.9,26.6,26.6,26.6s26.6-11.9,26.6-26.6S41.3,0,26.6,0L26.6,0z"/>
+						</g>
+						<g>
+							<path class="melic" d="M21.9,16.7c-0.7,0-1.2,0.2-1.7,0.7c-0.5,0.5-0.7,1.1-0.7,1.8v9.9c0,2,0.7,3.8,2.1,5.3
+								c1.4,1.5,3.1,2.2,5.1,2.2h4.8c0.7,0,1.2-0.2,1.7-0.7c0.5-0.5,0.7-1.1,0.7-1.8c0-0.7-0.2-1.3-0.7-1.8c-0.5-0.5-1-0.7-1.7-0.7h-4.8
+								c-0.7,0-1.2-0.2-1.7-0.7c-0.5-0.5-0.7-1.1-0.7-1.7v-2.5h7.1c0.7,0,1.2-0.2,1.7-0.7c0.5-0.5,0.7-1.1,0.7-1.8c0-0.7-0.2-1.3-0.7-1.8
+								c-0.5-0.5-1-0.7-1.7-0.7h-7.1v-2.5c0-0.7-0.2-1.3-0.7-1.8C23.1,16.9,22.5,16.7,21.9,16.7L21.9,16.7z"/>
+						</g>
+					</g>
+				</svg></a>
+			</div>
+
+							<div class="header-rightel animate" >
+					<a href="https://www.instagram.com/jurasvarti/" target="_blank" >
+						<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53.25 53.25"><defs><style>.cls-1{fill:#231f20;}.cls-2{fill:#0a000f;}</style></defs><title>JV_IG_ikona</title><path class="cls-1" d="M26.62,3A23.63,23.63,0,1,1,3,26.62,23.65,23.65,0,0,1,26.62,3m0-3A26.63,26.63,0,1,0,53.25,26.62,26.62,26.62,0,0,0,26.62,0Z"/><path class="cls-2" d="M31.84,40.09H21.4a8.26,8.26,0,0,1-8.24-8.25V21.41a8.26,8.26,0,0,1,8.24-8.25H31.84a8.26,8.26,0,0,1,8.25,8.25V31.84A8.26,8.26,0,0,1,31.84,40.09ZM21.79,16A5.78,5.78,0,0,0,16,21.79v9.67a5.78,5.78,0,0,0,5.77,5.77h9.67a5.78,5.78,0,0,0,5.77-5.77V21.79A5.78,5.78,0,0,0,31.46,16Z"/><path class="cls-2" d="M26.62,32.93a6.31,6.31,0,1,1,6.31-6.3A6.31,6.31,0,0,1,26.62,32.93Zm0-9.14a2.84,2.84,0,1,0,2.84,2.84A2.84,2.84,0,0,0,26.62,23.79Z"/><path class="cls-2" d="M35.26,19.63A1.64,1.64,0,1,1,33.62,18,1.63,1.63,0,0,1,35.26,19.63Z"/></svg>
+					</a>
+				</div>
+			
+		</div>
+
+	</div>
+	<div id="searchc" class="table" >
+		
+		<div class="search" >Ieraksti šeit meklēto frāzi</div>
+		<form role="search" method="get" class="search-form" action="https://jurasvarti.lv/">
+			<input type="text" class="search-field" placeholder="Mani interesē..." value="" name="s" title="Mani interesē..." />
+			<input type="submit" class="animate search-submit" value="" />
+		</form>
+
+	</div>
+</header>
+
+
+<div id="respheader" >
+	<div class="resplogo" >
+		<a href="https://jurasvarti.lv" ><img src="https://jurasvarti.lv/wp-content/themes/BRIGHT/img/logo.svg" ></a>
+	</div>
+	<div id="openmenu" >
+	  <div class="bar1"></div>
+	  <div class="bar2"></div>
+	  <div class="bar3"></div>
+	</div>
+</div>
+<div id="respmenu" class="animate" >
+	<div id="closemenu" >
+		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			 viewBox="0 0 48.5 48.5" style="enable-background:new 0 0 48.5 48.5;" xml:space="preserve">
+		<style type="text/css">
+			.st9{fill:white;stroke:white;stroke-width:5.25;stroke-linecap:round;stroke-miterlimit:10;}
+		</style>
+		<g>
+			<line class="st9" x1="2.6" y1="2.6" x2="45.8" y2="45.8"/>
+			<line class="st9" x1="45.8" y1="2.6" x2="2.6" y2="45.8"/>
+		</g>
+		</svg>
+	</div>
+	<div class="respsearch" >
+		<div class="search" >Ieraksti šeit meklēto frāzi</div>
+		<form role="search" method="get" class="search-form" action="https://jurasvarti.lv/">
+			<input type="text" class="search-field" placeholder="Mani interesē..." value="" name="s" title="Mani interesē..." />
+			<input type="submit" class="animate search-submit" value="" />
+		</form>
+	</div>
+
+	<div class="respmenuels" >
+		<a class="menuel bigmenuel animate  currentpage " href="https://jurasvarti.lv/">Pasākumi</a>
+<a class="menuel bigmenuel animate   " href="https://jurasvarti.lv/zinas/">Ziņas</a>
+<div class="menuel dropdown-menuel"><div class="menuel  " href="#" class="" >Par mums <span class="arr-down"></span></div><div class="respdropdown-menu"><a class="submenuel animate " href="https://jurasvarti.lv/teatra-nams/">Teātra nams</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/kontakti/">Kontakti</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/telpu-noma/">Telpu/tehnikas noma</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/iepirkumi/">Iepirkumi</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/projekti/">Projekti</a>
+</div></div>
+<div class="menuel dropdown-menuel"><div class="menuel  " href="#" class="" >Noteikumi <span class="arr-down"></span></div><div class="respdropdown-menu"><a class="submenuel animate " href="https://jurasvarti.lv/noteikumi/noteikumi-pirms-pasakuma/">Pirms pasākuma</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/noteikumi/noteikumi-garderobe/">Garderobe</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/noteikumi/noteikumi-bilesu-iegade-un-lietosana/">Biļešu iegāde un lietošana </a>
+<a class="submenuel animate " href="https://jurasvarti.lv/noteikumi/noteikumi-pasakuma-laika/">Pasākuma laikā</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/noteikumi/multivide/">Multivide</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/noteikumi/noteikumi-aizliegts/">Aizliegts</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/noteikumi/noteikumi-atbildiba/">Atbildība</a>
+</div></div>
+<a class="menuel bigmenuel animate   " href="https://jurasvarti.lv/biezak-uzdotie-jautajumi/">Biežāk uzdotie jautājumi</a>
+<div class="menuel dropdown-menuel"><div class="menuel  " href="#" class="" >Kolektīvi <span class="arr-down"></span></div><div class="respdropdown-menu"><a class="submenuel animate " href="https://jurasvarti.lv/jauktais-koris-ventspils/">Jauktais koris “Ventspils”</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/ventspils-kamerorkestris/">Ventspils Kamerorķestris</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/ventspils-bigbends/">Ventspils bigbends</a>
+</div></div>
+<a class="menuel bigmenuel animate   " href="https://jurasvarti.lv/galerija/">Galerija</a>
+<div class="menuel dropdown-menuel"><div class="menuel  " href="#" class="" >Kase <span class="arr-down"></span></div><div class="respdropdown-menu"><a class="submenuel animate " href="https://jurasvarti.lv/bilesu-rezervacija-un-iegade/">Biļešu rezervācija un iegāde</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/abonamenti/">Abonementi</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/bilesu-servisa-davanu-karte/">Dāvanu kartes</a>
+<a class="submenuel animate " href="https://jurasvarti.lv/teatra-nama-drauga-karte/">Drauga karte</a>
+</div></div>
+
+	</div>
+
+	<div class="respmenufooter table" >
+		<div class="table-cellvm respmfootleft" >
+			<!-- <div class="header-rightel animate" >
+				<a href="http://www.jurasvarti.lv/jv360/index.html" target="_blank" >
+					<img id="panoramab" src="https://jurasvarti.lv/wp-content/themes/BRIGHT/img/refresh.svg" >
+				</a>
+			</div> -->
+			<div class="header-rightel animate" >
+				<a href="https://www.facebook.com/jurasvarti/" target="_blank" ><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					 viewBox="0 0 53.2 53.2" style="enable-background:new 0 0 53.2 53.2;" xml:space="preserve">
+					<g>
+						<g>
+							<path class="melic" d="M26.6,3c13,0,23.6,10.6,23.6,23.6S39.7,50.2,26.6,50.2S3,39.7,3,26.6S13.6,3,26.6,3 M26.6,0
+								C11.9,0,0,11.9,0,26.6s11.9,26.6,26.6,26.6s26.6-11.9,26.6-26.6S41.3,0,26.6,0L26.6,0z"/>
+						</g>
+						<path class="melic" d="M30.9,26.6h-2.8c0,4.4,0,9.9,0,9.9H24c0,0,0-5.4,0-9.9h-2v-3.5h2v-2.3c0-1.6,0.8-4.2,4.2-4.2l3.1,0v3.4c0,0-1.9,0-2.2,0
+							c-0.4,0-0.9,0.2-0.9,1v2.1h3.1L30.9,26.6z"/>
+					</g>
+				</svg></a>
+			</div>
+			<div class="header-rightel animate" >
+				<a href="https://twitter.com/kfilharmonija" target="_blank" ><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					 viewBox="0 0 53.2 53.2" style="enable-background:new 0 0 53.2 53.2;" xml:space="preserve">
+					<g>
+						<g>
+							<path class="melic" d="M26.6,3c13,0,23.6,10.6,23.6,23.6S39.7,50.2,26.6,50.2S3,39.7,3,26.6S13.6,3,26.6,3 M26.6,0
+								C11.9,0,0,11.9,0,26.6s11.9,26.6,26.6,26.6s26.6-11.9,26.6-26.6S41.3,0,26.6,0L26.6,0z"/>
+						</g>
+						<g>
+							<path class="melic" d="M21.9,16.7c-0.7,0-1.2,0.2-1.7,0.7c-0.5,0.5-0.7,1.1-0.7,1.8v9.9c0,2,0.7,3.8,2.1,5.3
+								c1.4,1.5,3.1,2.2,5.1,2.2h4.8c0.7,0,1.2-0.2,1.7-0.7c0.5-0.5,0.7-1.1,0.7-1.8c0-0.7-0.2-1.3-0.7-1.8c-0.5-0.5-1-0.7-1.7-0.7h-4.8
+								c-0.7,0-1.2-0.2-1.7-0.7c-0.5-0.5-0.7-1.1-0.7-1.7v-2.5h7.1c0.7,0,1.2-0.2,1.7-0.7c0.5-0.5,0.7-1.1,0.7-1.8c0-0.7-0.2-1.3-0.7-1.8
+								c-0.5-0.5-1-0.7-1.7-0.7h-7.1v-2.5c0-0.7-0.2-1.3-0.7-1.8C23.1,16.9,22.5,16.7,21.9,16.7L21.9,16.7z"/>
+						</g>
+					</g>
+				</svg></a>
+			</div>
+		</div>
+		<div class="table-cellvm respmfootright" >
+					</div>
+	</div>
+
+
+</div>
+
+
+<section class="topblock wrap pastopwrap" >
+	<div class="relative" >
+		<div id="topslider" >
+							<div class="topslide" style="background: url('https://jurasvarti.lv/wp-content/uploads/majas-lapa_augša_3.jpg') no-repeat center; background-size: cover;" ></div>
+					</div>
+		<div class="topbltabs table" >
+			<a href="https://jurasvarti.lv/" class="table-cellvm topblhalf animate active" >Pasākumi</a>
+			<a href="https://jurasvarti.lv/zinas/" class="table-cellvm topblhalf animate" >Ziņas</a>
+		</div>
+	</div>
+</section>
+
+<section class="telpunomapage pasakumi" >
+	<div class="telpunomabigtable group" >
+		<div class="telpunombigleft" >
+			<div id="fixedpash" class="table" >
+				<div id="fixedpashtext" class="paselsdate paselleftpad " ></div>
+				<div class="tocalendarb " >Kalendārs<span class="tocalarrdown" ></span></div>
+			</div>
+			
+			<div class="pasakumiels" >
+				
+				<div date="2026-01-29" class="paselsdate today paselleftpad paseldc0" >Šodien</div><div class="pasel table paselleftpad animate" >
+			                		<a href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/" class="table-cell paselleftcell" >
+				                		<div class="pasel-topc" >
+				                			<div class="inline-middle paseltime" >12:00</div>
+				                			<div class="inline-middle" > | </div>
+				                			<div class="inline-middle paselzale" >Lielā zāle</div>
+				                		</div>
+				                		<div class="paselname" >Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</div>
+				                	</a>
+				                	<a href="https://www.bilesuparadize.lv/lv/event/161704" target="_blank" class="table-cell paselrightcell animate" >
+				                					<div class="paselbiletec " >
+								                		<div class="inline-middle paselpirktic inline-middle" >
+								                			<svg class="animate" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+																 viewBox="0 0 67.5 67.5" style="enable-background:new 0 0 67.5 67.5;" xml:space="preserve">
+																<g>
+																	<path class="bileteiccolor" d="M58.4,17.1c-1,1-2.4,1.6-4,1.6c-3.1,0-5.6-2.5-5.6-5.6c0-1.6,0.6-3,1.6-4L41.2,0L0,41.2l9.1,9.1c1-1,2.4-1.6,4-1.6
+																		c3.1,0,5.6,2.5,5.6,5.6c0,1.6-0.6,3-1.6,4l9.1,9.1l41.2-41.2L58.4,17.1z M49.2,31.6l-2.7,2.7l2.5,2.5L26.2,59.5L24,57.3
+																		c0.2-0.9,0.4-1.9,0.4-2.9c0-6.2-5-11.2-11.2-11.2c-1,0-2,0.1-2.9,0.4L8,41.2l22.8-22.8l2.5,2.5l2.7-2.7l-2.5-2.5L41.2,8l2.3,2.3
+																		c-0.2,0.9-0.4,1.9-0.4,2.9c0,6.2,5,11.2,11.2,11.2c1,0,2-0.1,2.9-0.4l2.3,2.3l-7.8,7.8L49.2,31.6z"/>
+																	<rect class="bileteiccolor" x="42" y="27" transform="matrix(0.7072 -0.707 0.707 0.7072 -7.5802 39.4994)" width="3.8" height="3.8"/>
+																	<rect class="bileteiccolor" x="36.7" y="21.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.3811 34.2044)" width="3.8" height="3.8"/>
+																</g>
+															</svg>
+								                		</div>
+									                	<div class="inline-middle paselpirkttext" >Pirkt biļeti</div>
+									                </div>
+									            </a>
+		                		  </div><div class="pasel table paselleftpad animate" >
+			                		<a href="https://jurasvarti.lv/pasakums/gleznotajas-madaras-gulbis-izstade-dazadi-debesu-skati/" class="table-cell paselleftcell" >
+				                		<div class="pasel-topc" >
+				                			<div class="inline-middle paseltime" ></div>
+				                			
+				                			<div class="inline-middle paselzale" >Izstāžu zāle</div>
+				                		</div>
+				                		<div class="paselname" >Gleznotājas Madaras Gulbis izstāde “Dažādi debesu skati”</div>
+				                	</a>
+				                	<div class="table-cell paselrightcell animate" >
+				                					<div class="paselbiletec" >
+								                		<div class="inline-middle paselpirktic inline-middle" >
+								                			<svg class="animate" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+																 viewBox="0 0 67.5 67.5" style="enable-background:new 0 0 67.5 67.5;" xml:space="preserve">
+																<g>
+																	<rect class="bileteiccolor" x="32.6" y="0.4" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -13.3217 34.0475)" width="3.8" height="65.3"/>
+																	<path class="bileteiccolor" d="M41.2,8l2.3,2.3c-0.2,0.9-0.4,1.9-0.4,2.9c0,6.2,5,11.2,11.2,11.2c1,0,2-0.1,2.9-0.4l2.3,2.3l-7.8,7.8l-2.7,2.7L47,38.8
+																		l4,4l16.5-16.5l-9.1-9.1c-1,1-2.4,1.6-4,1.6c-3.1,0-5.6-2.5-5.6-5.6c0-1.6,0.6-3,1.6-4L41.2,0L24.7,16.5l4,4L41.2,8z"/>
+																	<path class="bileteiccolor" d="M26.2,59.5L24,57.3c0.2-0.9,0.4-1.9,0.4-2.9c0-6.2-5-11.2-11.2-11.2c-1,0-2,0.1-2.9,0.4L8,41.2l13.9-13.9l-4-4L0,41.2
+																		l9.1,9.1c1-1,2.4-1.6,4-1.6c3.1,0,5.6,2.5,5.6,5.6c0,1.6-0.6,3-1.6,4l9.1,9.1l17.8-17.8l-4-4L26.2,59.5z"/>
+																</g>
+															</svg>
+								                		</div>
+									                	<div class="inline-middle paselpirkttext" >Bez maksas</div>
+									                </div>
+									            </div>
+		                		  </div><div class="pasel table paselleftpad animate" >
+			                		<a href="https://jurasvarti.lv/pasakums/19869-2/" class="table-cell paselleftcell" >
+				                		<div class="pasel-topc" >
+				                			<div class="inline-middle paseltime" ></div>
+				                			
+				                			<div class="inline-middle paselzale" >Izstāžu galerija</div>
+				                		</div>
+				                		<div class="paselname" >Ventspils Mākslas skolas absolventu darbu izstāde “Telpa starp mums”</div>
+				                	</a>
+				                	<div class="table-cell paselrightcell animate" >
+				                					<div class="paselbiletec" >
+								                		<div class="inline-middle paselpirktic inline-middle" >
+								                			<svg class="animate" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+																 viewBox="0 0 67.5 67.5" style="enable-background:new 0 0 67.5 67.5;" xml:space="preserve">
+																<g>
+																	<rect class="bileteiccolor" x="32.6" y="0.4" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -13.3217 34.0475)" width="3.8" height="65.3"/>
+																	<path class="bileteiccolor" d="M41.2,8l2.3,2.3c-0.2,0.9-0.4,1.9-0.4,2.9c0,6.2,5,11.2,11.2,11.2c1,0,2-0.1,2.9-0.4l2.3,2.3l-7.8,7.8l-2.7,2.7L47,38.8
+																		l4,4l16.5-16.5l-9.1-9.1c-1,1-2.4,1.6-4,1.6c-3.1,0-5.6-2.5-5.6-5.6c0-1.6,0.6-3,1.6-4L41.2,0L24.7,16.5l4,4L41.2,8z"/>
+																	<path class="bileteiccolor" d="M26.2,59.5L24,57.3c0.2-0.9,0.4-1.9,0.4-2.9c0-6.2-5-11.2-11.2-11.2c-1,0-2,0.1-2.9,0.4L8,41.2l13.9-13.9l-4-4L0,41.2
+																		l9.1,9.1c1-1,2.4-1.6,4-1.6c3.1,0,5.6,2.5,5.6,5.6c0,1.6-0.6,3-1.6,4l9.1,9.1l17.8-17.8l-4-4L26.2,59.5z"/>
+																</g>
+															</svg>
+								                		</div>
+									                	<div class="inline-middle paselpirkttext" >Bez maksas</div>
+									                </div>
+									            </div>
+		                		  </div><div date="2026-01-30" class="paselsdate paselleftpad paseldc1" >30.janvāris</div><div class="pasel table paselleftpad animate" >
+		                		<a href="https://jurasvarti.lv/pasakums/koncerts-roka-balades-svecu-gaisma/" class="table-cell paselleftcell" >
+			                		<div class="pasel-topc" >
+			                			<div class="inline-middle paseltime" >19:00</div>
+			                			<div class="inline-middle" > | </div>
+			                			<div class="inline-middle paselzale" >Lielā zāle</div>
+			                		</div>
+			                		<div class="paselname" >Koncerts | Roka balādes sveču gaismā</div>
+			                	</a>
+			                	<a href="https://www.ticketbest.lv/performances/rock-ballads-by-candlelight-ventspils?event_id=876" target="_blank" class="table-cell paselrightcell animate" >
+			                					<div class="paselbiletec " >
+							                		<div class="inline-middle paselpirktic inline-middle" >
+							                			<svg class="animate" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+															 viewBox="0 0 67.5 67.5" style="enable-background:new 0 0 67.5 67.5;" xml:space="preserve">
+															<g>
+																<path class="bileteiccolor" d="M58.4,17.1c-1,1-2.4,1.6-4,1.6c-3.1,0-5.6-2.5-5.6-5.6c0-1.6,0.6-3,1.6-4L41.2,0L0,41.2l9.1,9.1c1-1,2.4-1.6,4-1.6
+																	c3.1,0,5.6,2.5,5.6,5.6c0,1.6-0.6,3-1.6,4l9.1,9.1l41.2-41.2L58.4,17.1z M49.2,31.6l-2.7,2.7l2.5,2.5L26.2,59.5L24,57.3
+																	c0.2-0.9,0.4-1.9,0.4-2.9c0-6.2-5-11.2-11.2-11.2c-1,0-2,0.1-2.9,0.4L8,41.2l22.8-22.8l2.5,2.5l2.7-2.7l-2.5-2.5L41.2,8l2.3,2.3
+																	c-0.2,0.9-0.4,1.9-0.4,2.9c0,6.2,5,11.2,11.2,11.2c1,0,2-0.1,2.9-0.4l2.3,2.3l-7.8,7.8L49.2,31.6z"/>
+																<rect class="bileteiccolor" x="42" y="27" transform="matrix(0.7072 -0.707 0.707 0.7072 -7.5802 39.4994)" width="3.8" height="3.8"/>
+																<rect class="bileteiccolor" x="36.7" y="21.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.3811 34.2044)" width="3.8" height="3.8"/>
+															</g>
+														</svg>
+							                		</div>
+								                	<div class="inline-middle paselpirkttext" >Pirkt biļeti</div>
+								                </div>
+								            </a>
+	                		  </div><div date="2026-01-31" class="paselsdate paselleftpad paseldc2" >31.janvāris</div><div class="pasel table paselleftpad animate" >
+		                		<a href="https://jurasvarti.lv/pasakums/nopietna-komedija-uz-visu-banku/" class="table-cell paselleftcell" >
+			                		<div class="pasel-topc" >
+			                			<div class="inline-middle paseltime" >19:00</div>
+			                			<div class="inline-middle" > | </div>
+			                			<div class="inline-middle paselzale" >Lielā zāle</div>
+			                		</div>
+			                		<div class="paselname" >Nopietna komēdija “Uz visu banku!”</div>
+			                	</a>
+			                	<a href="https://www.bilesuparadize.lv/lv/event/157273" target="_blank" class="table-cell paselrightcell animate" >
+			                					<div class="paselbiletec " >
+							                		<div class="inline-middle paselpirktic inline-middle" >
+							                			<svg class="animate" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+															 viewBox="0 0 67.5 67.5" style="enable-background:new 0 0 67.5 67.5;" xml:space="preserve">
+															<g>
+																<path class="bileteiccolor" d="M58.4,17.1c-1,1-2.4,1.6-4,1.6c-3.1,0-5.6-2.5-5.6-5.6c0-1.6,0.6-3,1.6-4L41.2,0L0,41.2l9.1,9.1c1-1,2.4-1.6,4-1.6
+																	c3.1,0,5.6,2.5,5.6,5.6c0,1.6-0.6,3-1.6,4l9.1,9.1l41.2-41.2L58.4,17.1z M49.2,31.6l-2.7,2.7l2.5,2.5L26.2,59.5L24,57.3
+																	c0.2-0.9,0.4-1.9,0.4-2.9c0-6.2-5-11.2-11.2-11.2c-1,0-2,0.1-2.9,0.4L8,41.2l22.8-22.8l2.5,2.5l2.7-2.7l-2.5-2.5L41.2,8l2.3,2.3
+																	c-0.2,0.9-0.4,1.9-0.4,2.9c0,6.2,5,11.2,11.2,11.2c1,0,2-0.1,2.9-0.4l2.3,2.3l-7.8,7.8L49.2,31.6z"/>
+																<rect class="bileteiccolor" x="42" y="27" transform="matrix(0.7072 -0.707 0.707 0.7072 -7.5802 39.4994)" width="3.8" height="3.8"/>
+																<rect class="bileteiccolor" x="36.7" y="21.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.3811 34.2044)" width="3.8" height="3.8"/>
+															</g>
+														</svg>
+							                		</div>
+								                	<div class="inline-middle paselpirkttext" >Pirkt biļeti</div>
+								                </div>
+								            </a>
+	                		  </div><div date="2026-02-07" class="paselsdate paselleftpad paseldc3" >07.februāris</div><div class="pasel table paselleftpad animate" >
+		                		<a href="https://jurasvarti.lv/pasakums/deju-sadancis-es-vareju-sadejot/" class="table-cell paselleftcell" >
+			                		<div class="pasel-topc" >
+			                			<div class="inline-middle paseltime" >18:00</div>
+			                			<div class="inline-middle" > | </div>
+			                			<div class="inline-middle paselzale" >Lielā zāle</div>
+			                		</div>
+			                		<div class="paselname" >Deju sadancis “Es varēju sadejot”</div>
+			                	</a>
+			                	<a href="https://www.bilesuparadize.lv/lv/event/165363" target="_blank" class="table-cell paselrightcell animate" >
+			                					<div class="paselbiletec " >
+							                		<div class="inline-middle paselpirktic inline-middle" >
+							                			<svg class="animate" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+															 viewBox="0 0 67.5 67.5" style="enable-background:new 0 0 67.5 67.5;" xml:space="preserve">
+															<g>
+																<path class="bileteiccolor" d="M58.4,17.1c-1,1-2.4,1.6-4,1.6c-3.1,0-5.6-2.5-5.6-5.6c0-1.6,0.6-3,1.6-4L41.2,0L0,41.2l9.1,9.1c1-1,2.4-1.6,4-1.6
+																	c3.1,0,5.6,2.5,5.6,5.6c0,1.6-0.6,3-1.6,4l9.1,9.1l41.2-41.2L58.4,17.1z M49.2,31.6l-2.7,2.7l2.5,2.5L26.2,59.5L24,57.3
+																	c0.2-0.9,0.4-1.9,0.4-2.9c0-6.2-5-11.2-11.2-11.2c-1,0-2,0.1-2.9,0.4L8,41.2l22.8-22.8l2.5,2.5l2.7-2.7l-2.5-2.5L41.2,8l2.3,2.3
+																	c-0.2,0.9-0.4,1.9-0.4,2.9c0,6.2,5,11.2,11.2,11.2c1,0,2-0.1,2.9-0.4l2.3,2.3l-7.8,7.8L49.2,31.6z"/>
+																<rect class="bileteiccolor" x="42" y="27" transform="matrix(0.7072 -0.707 0.707 0.7072 -7.5802 39.4994)" width="3.8" height="3.8"/>
+																<rect class="bileteiccolor" x="36.7" y="21.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.3811 34.2044)" width="3.8" height="3.8"/>
+															</g>
+														</svg>
+							                		</div>
+								                	<div class="inline-middle paselpirkttext" >Pirkt biļeti</div>
+								                </div>
+								            </a>
+	                		  </div><div date="2026-02-09" class="paselsdate paselleftpad paseldc4" >09.februāris</div><div class="pasel table paselleftpad animate" >
+		                		<a href="https://jurasvarti.lv/pasakums/ainars-ancevskis-tetis-pec-20-gadiem/" class="table-cell paselleftcell" >
+			                		<div class="pasel-topc" >
+			                			<div class="inline-middle paseltime" >19:00</div>
+			                			<div class="inline-middle" > | </div>
+			                			<div class="inline-middle paselzale" >Lielā zāle</div>
+			                		</div>
+			                		<div class="paselname" >Ainars Ančevskis | “TĒTIS pēc 20 gadiem”</div>
+			                	</a>
+			                	<a href="https://www.bilesuparadize.lv/lv/event/159349" target="_blank" class="table-cell paselrightcell animate" >
+			                					<div class="paselbiletec " >
+							                		<div class="inline-middle paselpirktic inline-middle" >
+							                			<svg class="animate" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+															 viewBox="0 0 67.5 67.5" style="enable-background:new 0 0 67.5 67.5;" xml:space="preserve">
+															<g>
+																<path class="bileteiccolor" d="M58.4,17.1c-1,1-2.4,1.6-4,1.6c-3.1,0-5.6-2.5-5.6-5.6c0-1.6,0.6-3,1.6-4L41.2,0L0,41.2l9.1,9.1c1-1,2.4-1.6,4-1.6
+																	c3.1,0,5.6,2.5,5.6,5.6c0,1.6-0.6,3-1.6,4l9.1,9.1l41.2-41.2L58.4,17.1z M49.2,31.6l-2.7,2.7l2.5,2.5L26.2,59.5L24,57.3
+																	c0.2-0.9,0.4-1.9,0.4-2.9c0-6.2-5-11.2-11.2-11.2c-1,0-2,0.1-2.9,0.4L8,41.2l22.8-22.8l2.5,2.5l2.7-2.7l-2.5-2.5L41.2,8l2.3,2.3
+																	c-0.2,0.9-0.4,1.9-0.4,2.9c0,6.2,5,11.2,11.2,11.2c1,0,2-0.1,2.9-0.4l2.3,2.3l-7.8,7.8L49.2,31.6z"/>
+																<rect class="bileteiccolor" x="42" y="27" transform="matrix(0.7072 -0.707 0.707 0.7072 -7.5802 39.4994)" width="3.8" height="3.8"/>
+																<rect class="bileteiccolor" x="36.7" y="21.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.3811 34.2044)" width="3.8" height="3.8"/>
+															</g>
+														</svg>
+							                		</div>
+								                	<div class="inline-middle paselpirkttext" >Pirkt biļeti</div>
+								                </div>
+								            </a>
+	                		  </div><div date="2026-02-14" class="paselsdate paselleftpad paseldc5" >14.februāris</div><div class="pasel table paselleftpad animate" >
+		                		<a href="https://jurasvarti.lv/pasakums/grupa-otra-puse-valentindienas-koncerts/" class="table-cell paselleftcell" >
+			                		<div class="pasel-topc" >
+			                			<div class="inline-middle paseltime" >19:00</div>
+			                			<div class="inline-middle" > | </div>
+			                			<div class="inline-middle paselzale" >Lielā zāle</div>
+			                		</div>
+			                		<div class="paselname" >Grupa &#8220;Otra Puse&#8221; | Valentīndienas koncerts</div>
+			                	</a>
+			                	<a href="https://www.bilesuparadize.lv/lv/event/156458" target="_blank" class="table-cell paselrightcell animate" >
+			                					<div class="paselbiletec " >
+							                		<div class="inline-middle paselpirktic inline-middle" >
+							                			<svg class="animate" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+															 viewBox="0 0 67.5 67.5" style="enable-background:new 0 0 67.5 67.5;" xml:space="preserve">
+															<g>
+																<path class="bileteiccolor" d="M58.4,17.1c-1,1-2.4,1.6-4,1.6c-3.1,0-5.6-2.5-5.6-5.6c0-1.6,0.6-3,1.6-4L41.2,0L0,41.2l9.1,9.1c1-1,2.4-1.6,4-1.6
+																	c3.1,0,5.6,2.5,5.6,5.6c0,1.6-0.6,3-1.6,4l9.1,9.1l41.2-41.2L58.4,17.1z M49.2,31.6l-2.7,2.7l2.5,2.5L26.2,59.5L24,57.3
+																	c0.2-0.9,0.4-1.9,0.4-2.9c0-6.2-5-11.2-11.2-11.2c-1,0-2,0.1-2.9,0.4L8,41.2l22.8-22.8l2.5,2.5l2.7-2.7l-2.5-2.5L41.2,8l2.3,2.3
+																	c-0.2,0.9-0.4,1.9-0.4,2.9c0,6.2,5,11.2,11.2,11.2c1,0,2-0.1,2.9-0.4l2.3,2.3l-7.8,7.8L49.2,31.6z"/>
+																<rect class="bileteiccolor" x="42" y="27" transform="matrix(0.7072 -0.707 0.707 0.7072 -7.5802 39.4994)" width="3.8" height="3.8"/>
+																<rect class="bileteiccolor" x="36.7" y="21.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.3811 34.2044)" width="3.8" height="3.8"/>
+															</g>
+														</svg>
+							                		</div>
+								                	<div class="inline-middle paselpirkttext" >Pirkt biļeti</div>
+								                </div>
+								            </a>
+	                		  </div><div date="2026-02-18" class="paselsdate paselleftpad paseldc6" >18.februāris</div><div class="pasel table paselleftpad animate" >
+		                		<a href="https://jurasvarti.lv/pasakums/m-cehova-rigas-krievu-teatris-tartifs/" class="table-cell paselleftcell" >
+			                		<div class="pasel-topc" >
+			                			<div class="inline-middle paseltime" >19:00</div>
+			                			<div class="inline-middle" > | </div>
+			                			<div class="inline-middle paselzale" >Lielā zāle</div>
+			                		</div>
+			                		<div class="paselname" >M. Čehova Rīgas Krievu teātris | &#8220;Tartifs&#8221; | VISAS BIĻETES PĀRDOTAS!</div>
+			                	</a>
+			                	<a href="https://www.bilesuparadize.lv/lv/event/161705" target="_blank" class="table-cell paselrightcell animate" >
+			                					<div class="paselbiletec " >
+							                		<div class="inline-middle paselpirktic inline-middle" >
+							                			<svg class="animate" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+															 viewBox="0 0 67.5 67.5" style="enable-background:new 0 0 67.5 67.5;" xml:space="preserve">
+															<g>
+																<path class="bileteiccolor" d="M58.4,17.1c-1,1-2.4,1.6-4,1.6c-3.1,0-5.6-2.5-5.6-5.6c0-1.6,0.6-3,1.6-4L41.2,0L0,41.2l9.1,9.1c1-1,2.4-1.6,4-1.6
+																	c3.1,0,5.6,2.5,5.6,5.6c0,1.6-0.6,3-1.6,4l9.1,9.1l41.2-41.2L58.4,17.1z M49.2,31.6l-2.7,2.7l2.5,2.5L26.2,59.5L24,57.3
+																	c0.2-0.9,0.4-1.9,0.4-2.9c0-6.2-5-11.2-11.2-11.2c-1,0-2,0.1-2.9,0.4L8,41.2l22.8-22.8l2.5,2.5l2.7-2.7l-2.5-2.5L41.2,8l2.3,2.3
+																	c-0.2,0.9-0.4,1.9-0.4,2.9c0,6.2,5,11.2,11.2,11.2c1,0,2-0.1,2.9-0.4l2.3,2.3l-7.8,7.8L49.2,31.6z"/>
+																<rect class="bileteiccolor" x="42" y="27" transform="matrix(0.7072 -0.707 0.707 0.7072 -7.5802 39.4994)" width="3.8" height="3.8"/>
+																<rect class="bileteiccolor" x="36.7" y="21.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.3811 34.2044)" width="3.8" height="3.8"/>
+															</g>
+														</svg>
+							                		</div>
+								                	<div class="inline-middle paselpirkttext" >Pirkt biļeti</div>
+								                </div>
+								            </a>
+	                		  </div><div date="2026-02-20" class="paselsdate paselleftpad paseldc7" >20.februāris</div><div class="pasel table paselleftpad animate" >
+		                		<a href="https://jurasvarti.lv/pasakums/grupa-lauku-muzikanti-koncertprogramma-par-ko-sis-stasts/" class="table-cell paselleftcell" >
+			                		<div class="pasel-topc" >
+			                			<div class="inline-middle paseltime" >19:00</div>
+			                			<div class="inline-middle" > | </div>
+			                			<div class="inline-middle paselzale" >Lielā zāle</div>
+			                		</div>
+			                		<div class="paselname" >Grupa &#8220;Lauku Muzikanti&#8221; | koncertprogramma “Par ko šis stāsts”</div>
+			                	</a>
+			                	<a href="https://www.bilesuparadize.lv/lv/event/156551" target="_blank" class="table-cell paselrightcell animate" >
+			                					<div class="paselbiletec " >
+							                		<div class="inline-middle paselpirktic inline-middle" >
+							                			<svg class="animate" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+															 viewBox="0 0 67.5 67.5" style="enable-background:new 0 0 67.5 67.5;" xml:space="preserve">
+															<g>
+																<path class="bileteiccolor" d="M58.4,17.1c-1,1-2.4,1.6-4,1.6c-3.1,0-5.6-2.5-5.6-5.6c0-1.6,0.6-3,1.6-4L41.2,0L0,41.2l9.1,9.1c1-1,2.4-1.6,4-1.6
+																	c3.1,0,5.6,2.5,5.6,5.6c0,1.6-0.6,3-1.6,4l9.1,9.1l41.2-41.2L58.4,17.1z M49.2,31.6l-2.7,2.7l2.5,2.5L26.2,59.5L24,57.3
+																	c0.2-0.9,0.4-1.9,0.4-2.9c0-6.2-5-11.2-11.2-11.2c-1,0-2,0.1-2.9,0.4L8,41.2l22.8-22.8l2.5,2.5l2.7-2.7l-2.5-2.5L41.2,8l2.3,2.3
+																	c-0.2,0.9-0.4,1.9-0.4,2.9c0,6.2,5,11.2,11.2,11.2c1,0,2-0.1,2.9-0.4l2.3,2.3l-7.8,7.8L49.2,31.6z"/>
+																<rect class="bileteiccolor" x="42" y="27" transform="matrix(0.7072 -0.707 0.707 0.7072 -7.5802 39.4994)" width="3.8" height="3.8"/>
+																<rect class="bileteiccolor" x="36.7" y="21.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.3811 34.2044)" width="3.8" height="3.8"/>
+															</g>
+														</svg>
+							                		</div>
+								                	<div class="inline-middle paselpirkttext" >Pirkt biļeti</div>
+								                </div>
+								            </a>
+	                		  </div><div date="2026-02-26" class="paselsdate paselleftpad paseldc8" >26.februāris</div><div class="pasel table paselleftpad animate" >
+		                		<a href="https://jurasvarti.lv/pasakums/zizele-dzeksone-rafaels-vresnigs-un-soul-gift-band/" class="table-cell paselleftcell" >
+			                		<div class="pasel-topc" >
+			                			<div class="inline-middle paseltime" >19:00</div>
+			                			<div class="inline-middle" > | </div>
+			                			<div class="inline-middle paselzale" >Lielā zāle</div>
+			                		</div>
+			                		<div class="paselname" >Žizele Džeksone, Rafaels Vresnigs un &#8220;Soul Gift Band&#8221;</div>
+			                	</a>
+			                	<a href="https://www.bilesuparadize.lv/lv/event/161709" target="_blank" class="table-cell paselrightcell animate" >
+			                					<div class="paselbiletec " >
+							                		<div class="inline-middle paselpirktic inline-middle" >
+							                			<svg class="animate" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+															 viewBox="0 0 67.5 67.5" style="enable-background:new 0 0 67.5 67.5;" xml:space="preserve">
+															<g>
+																<path class="bileteiccolor" d="M58.4,17.1c-1,1-2.4,1.6-4,1.6c-3.1,0-5.6-2.5-5.6-5.6c0-1.6,0.6-3,1.6-4L41.2,0L0,41.2l9.1,9.1c1-1,2.4-1.6,4-1.6
+																	c3.1,0,5.6,2.5,5.6,5.6c0,1.6-0.6,3-1.6,4l9.1,9.1l41.2-41.2L58.4,17.1z M49.2,31.6l-2.7,2.7l2.5,2.5L26.2,59.5L24,57.3
+																	c0.2-0.9,0.4-1.9,0.4-2.9c0-6.2-5-11.2-11.2-11.2c-1,0-2,0.1-2.9,0.4L8,41.2l22.8-22.8l2.5,2.5l2.7-2.7l-2.5-2.5L41.2,8l2.3,2.3
+																	c-0.2,0.9-0.4,1.9-0.4,2.9c0,6.2,5,11.2,11.2,11.2c1,0,2-0.1,2.9-0.4l2.3,2.3l-7.8,7.8L49.2,31.6z"/>
+																<rect class="bileteiccolor" x="42" y="27" transform="matrix(0.7072 -0.707 0.707 0.7072 -7.5802 39.4994)" width="3.8" height="3.8"/>
+																<rect class="bileteiccolor" x="36.7" y="21.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.3811 34.2044)" width="3.8" height="3.8"/>
+															</g>
+														</svg>
+							                		</div>
+								                	<div class="inline-middle paselpirkttext" >Pirkt biļeti</div>
+								                </div>
+								            </a>
+	                		  </div><div date="2026-02-27" class="paselsdate paselleftpad paseldc9" >27.februāris</div><div class="pasel table paselleftpad animate" >
+		                		<a href="https://jurasvarti.lv/pasakums/koncertuzvedums-vizma-belsevica-es-aiziet-nevaru/" class="table-cell paselleftcell" >
+			                		<div class="pasel-topc" >
+			                			<div class="inline-middle paseltime" >19:00</div>
+			                			<div class="inline-middle" > | </div>
+			                			<div class="inline-middle paselzale" >Lielā zāle</div>
+			                		</div>
+			                		<div class="paselname" >Koncertuzvedums | Vizma Belševica &#8211; &#8220;Es aiziet nevaru&#8221;</div>
+			                	</a>
+			                	<a href="https://www.bilesuparadize.lv/lv/event/156752" target="_blank" class="table-cell paselrightcell animate" >
+			                					<div class="paselbiletec " >
+							                		<div class="inline-middle paselpirktic inline-middle" >
+							                			<svg class="animate" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+															 viewBox="0 0 67.5 67.5" style="enable-background:new 0 0 67.5 67.5;" xml:space="preserve">
+															<g>
+																<path class="bileteiccolor" d="M58.4,17.1c-1,1-2.4,1.6-4,1.6c-3.1,0-5.6-2.5-5.6-5.6c0-1.6,0.6-3,1.6-4L41.2,0L0,41.2l9.1,9.1c1-1,2.4-1.6,4-1.6
+																	c3.1,0,5.6,2.5,5.6,5.6c0,1.6-0.6,3-1.6,4l9.1,9.1l41.2-41.2L58.4,17.1z M49.2,31.6l-2.7,2.7l2.5,2.5L26.2,59.5L24,57.3
+																	c0.2-0.9,0.4-1.9,0.4-2.9c0-6.2-5-11.2-11.2-11.2c-1,0-2,0.1-2.9,0.4L8,41.2l22.8-22.8l2.5,2.5l2.7-2.7l-2.5-2.5L41.2,8l2.3,2.3
+																	c-0.2,0.9-0.4,1.9-0.4,2.9c0,6.2,5,11.2,11.2,11.2c1,0,2-0.1,2.9-0.4l2.3,2.3l-7.8,7.8L49.2,31.6z"/>
+																<rect class="bileteiccolor" x="42" y="27" transform="matrix(0.7072 -0.707 0.707 0.7072 -7.5802 39.4994)" width="3.8" height="3.8"/>
+																<rect class="bileteiccolor" x="36.7" y="21.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.3811 34.2044)" width="3.8" height="3.8"/>
+															</g>
+														</svg>
+							                		</div>
+								                	<div class="inline-middle paselpirkttext" >Pirkt biļeti</div>
+								                </div>
+								            </a>
+	                		  </div><div date="2026-03-04" class="paselsdate paselleftpad paseldc10" >04.marts</div><div class="pasel table paselleftpad animate" >
+		                		<a href="https://jurasvarti.lv/pasakums/dailes-teatris-vina-teica-vins-teica/" class="table-cell paselleftcell" >
+			                		<div class="pasel-topc" >
+			                			<div class="inline-middle paseltime" >19:00</div>
+			                			<div class="inline-middle" > | </div>
+			                			<div class="inline-middle paselzale" >Lielā zāle</div>
+			                		</div>
+			                		<div class="paselname" >Dailes teātris | Viņš teica, viņa teica</div>
+			                	</a>
+			                	<a href="https://www.bilesuparadize.lv/lv/event/161706" target="_blank" class="table-cell paselrightcell animate" >
+			                					<div class="paselbiletec " >
+							                		<div class="inline-middle paselpirktic inline-middle" >
+							                			<svg class="animate" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+															 viewBox="0 0 67.5 67.5" style="enable-background:new 0 0 67.5 67.5;" xml:space="preserve">
+															<g>
+																<path class="bileteiccolor" d="M58.4,17.1c-1,1-2.4,1.6-4,1.6c-3.1,0-5.6-2.5-5.6-5.6c0-1.6,0.6-3,1.6-4L41.2,0L0,41.2l9.1,9.1c1-1,2.4-1.6,4-1.6
+																	c3.1,0,5.6,2.5,5.6,5.6c0,1.6-0.6,3-1.6,4l9.1,9.1l41.2-41.2L58.4,17.1z M49.2,31.6l-2.7,2.7l2.5,2.5L26.2,59.5L24,57.3
+																	c0.2-0.9,0.4-1.9,0.4-2.9c0-6.2-5-11.2-11.2-11.2c-1,0-2,0.1-2.9,0.4L8,41.2l22.8-22.8l2.5,2.5l2.7-2.7l-2.5-2.5L41.2,8l2.3,2.3
+																	c-0.2,0.9-0.4,1.9-0.4,2.9c0,6.2,5,11.2,11.2,11.2c1,0,2-0.1,2.9-0.4l2.3,2.3l-7.8,7.8L49.2,31.6z"/>
+																<rect class="bileteiccolor" x="42" y="27" transform="matrix(0.7072 -0.707 0.707 0.7072 -7.5802 39.4994)" width="3.8" height="3.8"/>
+																<rect class="bileteiccolor" x="36.7" y="21.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.3811 34.2044)" width="3.8" height="3.8"/>
+															</g>
+														</svg>
+							                		</div>
+								                	<div class="inline-middle paselpirkttext" >Pirkt biļeti</div>
+								                </div>
+								            </a>
+	                		  </div><div date="2026-03-07" class="paselsdate paselleftpad paseldc11" >07.marts</div><div class="pasel table paselleftpad animate" >
+		                		<a href="https://jurasvarti.lv/pasakums/serenades-ar-martinu-kanteru-normundu-rutuli-daini-skuteli-un-roberto-meloni/" class="table-cell paselleftcell" >
+			                		<div class="pasel-topc" >
+			                			<div class="inline-middle paseltime" >16:00</div>
+			                			<div class="inline-middle" > | </div>
+			                			<div class="inline-middle paselzale" >Lielā zāle</div>
+			                		</div>
+			                		<div class="paselname" >Serenādes ar Mārtiņu Kanteru, Normundu Rutuli, Daini Skuteli un Roberto Meloni</div>
+			                	</a>
+			                	<a href="https://www.bilesuparadize.lv/lv/event/151257" target="_blank" class="table-cell paselrightcell animate" >
+			                					<div class="paselbiletec " >
+							                		<div class="inline-middle paselpirktic inline-middle" >
+							                			<svg class="animate" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+															 viewBox="0 0 67.5 67.5" style="enable-background:new 0 0 67.5 67.5;" xml:space="preserve">
+															<g>
+																<path class="bileteiccolor" d="M58.4,17.1c-1,1-2.4,1.6-4,1.6c-3.1,0-5.6-2.5-5.6-5.6c0-1.6,0.6-3,1.6-4L41.2,0L0,41.2l9.1,9.1c1-1,2.4-1.6,4-1.6
+																	c3.1,0,5.6,2.5,5.6,5.6c0,1.6-0.6,3-1.6,4l9.1,9.1l41.2-41.2L58.4,17.1z M49.2,31.6l-2.7,2.7l2.5,2.5L26.2,59.5L24,57.3
+																	c0.2-0.9,0.4-1.9,0.4-2.9c0-6.2-5-11.2-11.2-11.2c-1,0-2,0.1-2.9,0.4L8,41.2l22.8-22.8l2.5,2.5l2.7-2.7l-2.5-2.5L41.2,8l2.3,2.3
+																	c-0.2,0.9-0.4,1.9-0.4,2.9c0,6.2,5,11.2,11.2,11.2c1,0,2-0.1,2.9-0.4l2.3,2.3l-7.8,7.8L49.2,31.6z"/>
+																<rect class="bileteiccolor" x="42" y="27" transform="matrix(0.7072 -0.707 0.707 0.7072 -7.5802 39.4994)" width="3.8" height="3.8"/>
+																<rect class="bileteiccolor" x="36.7" y="21.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.3811 34.2044)" width="3.8" height="3.8"/>
+															</g>
+														</svg>
+							                		</div>
+								                	<div class="inline-middle paselpirkttext" >Pirkt biļeti</div>
+								                </div>
+								            </a>
+	                		  </div><div date="2026-03-19" class="paselsdate paselleftpad paseldc12" >19.marts</div><div class="pasel table paselleftpad animate" >
+		                		<a href="https://jurasvarti.lv/pasakums/100-lauris-reiniks/" class="table-cell paselleftcell" >
+			                		<div class="pasel-topc" >
+			                			<div class="inline-middle paseltime" >19:00</div>
+			                			<div class="inline-middle" > | </div>
+			                			<div class="inline-middle paselzale" >Lielā zāle</div>
+			                		</div>
+			                		<div class="paselname" >100% Lauris Reiniks</div>
+			                	</a>
+			                	<a href="https://www.bilesuparadize.lv/lv/event/159767" target="_blank" class="table-cell paselrightcell animate" >
+			                					<div class="paselbiletec " >
+							                		<div class="inline-middle paselpirktic inline-middle" >
+							                			<svg class="animate" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+															 viewBox="0 0 67.5 67.5" style="enable-background:new 0 0 67.5 67.5;" xml:space="preserve">
+															<g>
+																<path class="bileteiccolor" d="M58.4,17.1c-1,1-2.4,1.6-4,1.6c-3.1,0-5.6-2.5-5.6-5.6c0-1.6,0.6-3,1.6-4L41.2,0L0,41.2l9.1,9.1c1-1,2.4-1.6,4-1.6
+																	c3.1,0,5.6,2.5,5.6,5.6c0,1.6-0.6,3-1.6,4l9.1,9.1l41.2-41.2L58.4,17.1z M49.2,31.6l-2.7,2.7l2.5,2.5L26.2,59.5L24,57.3
+																	c0.2-0.9,0.4-1.9,0.4-2.9c0-6.2-5-11.2-11.2-11.2c-1,0-2,0.1-2.9,0.4L8,41.2l22.8-22.8l2.5,2.5l2.7-2.7l-2.5-2.5L41.2,8l2.3,2.3
+																	c-0.2,0.9-0.4,1.9-0.4,2.9c0,6.2,5,11.2,11.2,11.2c1,0,2-0.1,2.9-0.4l2.3,2.3l-7.8,7.8L49.2,31.6z"/>
+																<rect class="bileteiccolor" x="42" y="27" transform="matrix(0.7072 -0.707 0.707 0.7072 -7.5802 39.4994)" width="3.8" height="3.8"/>
+																<rect class="bileteiccolor" x="36.7" y="21.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.3811 34.2044)" width="3.8" height="3.8"/>
+															</g>
+														</svg>
+							                		</div>
+								                	<div class="inline-middle paselpirkttext" >Pirkt biļeti</div>
+								                </div>
+								            </a>
+	                		  </div><div date="2026-03-22" class="paselsdate paselleftpad paseldc13" >22.marts</div><div class="pasel table paselleftpad animate" >
+		                		<a href="https://jurasvarti.lv/pasakums/jubilejas-koncerts-kasparam-marksevicam-40/" class="table-cell paselleftcell" >
+			                		<div class="pasel-topc" >
+			                			<div class="inline-middle paseltime" >15:00</div>
+			                			<div class="inline-middle" > | </div>
+			                			<div class="inline-middle paselzale" >Lielā zāle</div>
+			                		</div>
+			                		<div class="paselname" >Jubilejas koncerts | Kasparam Markševicam 40</div>
+			                	</a>
+			                	<a href="https://www.bilesuparadize.lv/lv/event/161506" target="_blank" class="table-cell paselrightcell animate" >
+			                					<div class="paselbiletec " >
+							                		<div class="inline-middle paselpirktic inline-middle" >
+							                			<svg class="animate" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+															 viewBox="0 0 67.5 67.5" style="enable-background:new 0 0 67.5 67.5;" xml:space="preserve">
+															<g>
+																<path class="bileteiccolor" d="M58.4,17.1c-1,1-2.4,1.6-4,1.6c-3.1,0-5.6-2.5-5.6-5.6c0-1.6,0.6-3,1.6-4L41.2,0L0,41.2l9.1,9.1c1-1,2.4-1.6,4-1.6
+																	c3.1,0,5.6,2.5,5.6,5.6c0,1.6-0.6,3-1.6,4l9.1,9.1l41.2-41.2L58.4,17.1z M49.2,31.6l-2.7,2.7l2.5,2.5L26.2,59.5L24,57.3
+																	c0.2-0.9,0.4-1.9,0.4-2.9c0-6.2-5-11.2-11.2-11.2c-1,0-2,0.1-2.9,0.4L8,41.2l22.8-22.8l2.5,2.5l2.7-2.7l-2.5-2.5L41.2,8l2.3,2.3
+																	c-0.2,0.9-0.4,1.9-0.4,2.9c0,6.2,5,11.2,11.2,11.2c1,0,2-0.1,2.9-0.4l2.3,2.3l-7.8,7.8L49.2,31.6z"/>
+																<rect class="bileteiccolor" x="42" y="27" transform="matrix(0.7072 -0.707 0.707 0.7072 -7.5802 39.4994)" width="3.8" height="3.8"/>
+																<rect class="bileteiccolor" x="36.7" y="21.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.3811 34.2044)" width="3.8" height="3.8"/>
+															</g>
+														</svg>
+							                		</div>
+								                	<div class="inline-middle paselpirkttext" >Pirkt biļeti</div>
+								                </div>
+								            </a>
+	                		  </div><div date="2026-03-25" class="paselsdate paselleftpad paseldc14" >25.marts</div><div class="pasel table paselleftpad animate" >
+		                		<a href="https://jurasvarti.lv/pasakums/liepajas-teatris-latvijas-raketes/" class="table-cell paselleftcell" >
+			                		<div class="pasel-topc" >
+			                			<div class="inline-middle paseltime" >19:00</div>
+			                			<div class="inline-middle" > | </div>
+			                			<div class="inline-middle paselzale" >Lielā zāle</div>
+			                		</div>
+			                		<div class="paselname" >Liepājas teātris | Latviešu raķetes</div>
+			                	</a>
+			                	<a href="https://www.bilesuparadize.lv/lv/event/161707" target="_blank" class="table-cell paselrightcell animate" >
+			                					<div class="paselbiletec " >
+							                		<div class="inline-middle paselpirktic inline-middle" >
+							                			<svg class="animate" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+															 viewBox="0 0 67.5 67.5" style="enable-background:new 0 0 67.5 67.5;" xml:space="preserve">
+															<g>
+																<path class="bileteiccolor" d="M58.4,17.1c-1,1-2.4,1.6-4,1.6c-3.1,0-5.6-2.5-5.6-5.6c0-1.6,0.6-3,1.6-4L41.2,0L0,41.2l9.1,9.1c1-1,2.4-1.6,4-1.6
+																	c3.1,0,5.6,2.5,5.6,5.6c0,1.6-0.6,3-1.6,4l9.1,9.1l41.2-41.2L58.4,17.1z M49.2,31.6l-2.7,2.7l2.5,2.5L26.2,59.5L24,57.3
+																	c0.2-0.9,0.4-1.9,0.4-2.9c0-6.2-5-11.2-11.2-11.2c-1,0-2,0.1-2.9,0.4L8,41.2l22.8-22.8l2.5,2.5l2.7-2.7l-2.5-2.5L41.2,8l2.3,2.3
+																	c-0.2,0.9-0.4,1.9-0.4,2.9c0,6.2,5,11.2,11.2,11.2c1,0,2-0.1,2.9-0.4l2.3,2.3l-7.8,7.8L49.2,31.6z"/>
+																<rect class="bileteiccolor" x="42" y="27" transform="matrix(0.7072 -0.707 0.707 0.7072 -7.5802 39.4994)" width="3.8" height="3.8"/>
+																<rect class="bileteiccolor" x="36.7" y="21.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.3811 34.2044)" width="3.8" height="3.8"/>
+															</g>
+														</svg>
+							                		</div>
+								                	<div class="inline-middle paselpirkttext" >Pirkt biļeti</div>
+								                </div>
+								            </a>
+	                		  </div><div date="2026-03-27" class="paselsdate paselleftpad paseldc15" >27.marts</div><div class="pasel table paselleftpad animate" >
+		                		<a href="https://jurasvarti.lv/pasakums/komedija-traki-laba-diena/" class="table-cell paselleftcell" >
+			                		<div class="pasel-topc" >
+			                			<div class="inline-middle paseltime" >19.00</div>
+			                			<div class="inline-middle" > | </div>
+			                			<div class="inline-middle paselzale" >Teātra nams "Jūras vārti"</div>
+			                		</div>
+			                		<div class="paselname" >Komēdija | Traki laba diena</div>
+			                	</a>
+			                	<a href="https://www.bilesuparadize.lv/lv/event/153509" target="_blank" class="table-cell paselrightcell animate" >
+			                					<div class="paselbiletec " >
+							                		<div class="inline-middle paselpirktic inline-middle" >
+							                			<svg class="animate" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+															 viewBox="0 0 67.5 67.5" style="enable-background:new 0 0 67.5 67.5;" xml:space="preserve">
+															<g>
+																<path class="bileteiccolor" d="M58.4,17.1c-1,1-2.4,1.6-4,1.6c-3.1,0-5.6-2.5-5.6-5.6c0-1.6,0.6-3,1.6-4L41.2,0L0,41.2l9.1,9.1c1-1,2.4-1.6,4-1.6
+																	c3.1,0,5.6,2.5,5.6,5.6c0,1.6-0.6,3-1.6,4l9.1,9.1l41.2-41.2L58.4,17.1z M49.2,31.6l-2.7,2.7l2.5,2.5L26.2,59.5L24,57.3
+																	c0.2-0.9,0.4-1.9,0.4-2.9c0-6.2-5-11.2-11.2-11.2c-1,0-2,0.1-2.9,0.4L8,41.2l22.8-22.8l2.5,2.5l2.7-2.7l-2.5-2.5L41.2,8l2.3,2.3
+																	c-0.2,0.9-0.4,1.9-0.4,2.9c0,6.2,5,11.2,11.2,11.2c1,0,2-0.1,2.9-0.4l2.3,2.3l-7.8,7.8L49.2,31.6z"/>
+																<rect class="bileteiccolor" x="42" y="27" transform="matrix(0.7072 -0.707 0.707 0.7072 -7.5802 39.4994)" width="3.8" height="3.8"/>
+																<rect class="bileteiccolor" x="36.7" y="21.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.3811 34.2044)" width="3.8" height="3.8"/>
+															</g>
+														</svg>
+							                		</div>
+								                	<div class="inline-middle paselpirkttext" >Pirkt biļeti</div>
+								                </div>
+								            </a>
+	                		  </div><div date="2026-03-28" class="paselsdate paselleftpad paseldc16" >28.marts</div><div class="pasel table paselleftpad animate" >
+		                		<a href="https://jurasvarti.lv/pasakums/grupa-z-scars-25-gadu-jubilejas-koncerts/" class="table-cell paselleftcell" >
+			                		<div class="pasel-topc" >
+			                			<div class="inline-middle paseltime" >19:00</div>
+			                			<div class="inline-middle" > | </div>
+			                			<div class="inline-middle paselzale" >Lielā zāle</div>
+			                		</div>
+			                		<div class="paselname" >Grupa &#8220;Z-Scars&#8221; | 25 gadu jubilejas koncerts</div>
+			                	</a>
+			                	<a href="https://www.bilesuparadize.lv/lv/event/155922" target="_blank" class="table-cell paselrightcell animate" >
+			                					<div class="paselbiletec " >
+							                		<div class="inline-middle paselpirktic inline-middle" >
+							                			<svg class="animate" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+															 viewBox="0 0 67.5 67.5" style="enable-background:new 0 0 67.5 67.5;" xml:space="preserve">
+															<g>
+																<path class="bileteiccolor" d="M58.4,17.1c-1,1-2.4,1.6-4,1.6c-3.1,0-5.6-2.5-5.6-5.6c0-1.6,0.6-3,1.6-4L41.2,0L0,41.2l9.1,9.1c1-1,2.4-1.6,4-1.6
+																	c3.1,0,5.6,2.5,5.6,5.6c0,1.6-0.6,3-1.6,4l9.1,9.1l41.2-41.2L58.4,17.1z M49.2,31.6l-2.7,2.7l2.5,2.5L26.2,59.5L24,57.3
+																	c0.2-0.9,0.4-1.9,0.4-2.9c0-6.2-5-11.2-11.2-11.2c-1,0-2,0.1-2.9,0.4L8,41.2l22.8-22.8l2.5,2.5l2.7-2.7l-2.5-2.5L41.2,8l2.3,2.3
+																	c-0.2,0.9-0.4,1.9-0.4,2.9c0,6.2,5,11.2,11.2,11.2c1,0,2-0.1,2.9-0.4l2.3,2.3l-7.8,7.8L49.2,31.6z"/>
+																<rect class="bileteiccolor" x="42" y="27" transform="matrix(0.7072 -0.707 0.707 0.7072 -7.5802 39.4994)" width="3.8" height="3.8"/>
+																<rect class="bileteiccolor" x="36.7" y="21.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.3811 34.2044)" width="3.8" height="3.8"/>
+															</g>
+														</svg>
+							                		</div>
+								                	<div class="inline-middle paselpirkttext" >Pirkt biļeti</div>
+								                </div>
+								            </a>
+	                		  </div><div date="2026-04-09" class="paselsdate paselleftpad paseldc17" >09.aprīlis</div><div class="pasel table paselleftpad animate" >
+		                		<a href="https://jurasvarti.lv/pasakums/jaunais-rigas-teatris-stikla-zvernica/" class="table-cell paselleftcell" >
+			                		<div class="pasel-topc" >
+			                			<div class="inline-middle paseltime" >19:00</div>
+			                			<div class="inline-middle" > | </div>
+			                			<div class="inline-middle paselzale" >Lielā zāle</div>
+			                		</div>
+			                		<div class="paselname" >Jaunais Rīgas teātris | Stikla zvērnīca | VISAS BIĻETES PĀRDOTAS!</div>
+			                	</a>
+			                	<a href="https://www.bilesuparadize.lv/lv/event/154151" target="_blank" class="table-cell paselrightcell animate" >
+			                					<div class="paselbiletec " >
+							                		<div class="inline-middle paselpirktic inline-middle" >
+							                			<svg class="animate" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+															 viewBox="0 0 67.5 67.5" style="enable-background:new 0 0 67.5 67.5;" xml:space="preserve">
+															<g>
+																<path class="bileteiccolor" d="M58.4,17.1c-1,1-2.4,1.6-4,1.6c-3.1,0-5.6-2.5-5.6-5.6c0-1.6,0.6-3,1.6-4L41.2,0L0,41.2l9.1,9.1c1-1,2.4-1.6,4-1.6
+																	c3.1,0,5.6,2.5,5.6,5.6c0,1.6-0.6,3-1.6,4l9.1,9.1l41.2-41.2L58.4,17.1z M49.2,31.6l-2.7,2.7l2.5,2.5L26.2,59.5L24,57.3
+																	c0.2-0.9,0.4-1.9,0.4-2.9c0-6.2-5-11.2-11.2-11.2c-1,0-2,0.1-2.9,0.4L8,41.2l22.8-22.8l2.5,2.5l2.7-2.7l-2.5-2.5L41.2,8l2.3,2.3
+																	c-0.2,0.9-0.4,1.9-0.4,2.9c0,6.2,5,11.2,11.2,11.2c1,0,2-0.1,2.9-0.4l2.3,2.3l-7.8,7.8L49.2,31.6z"/>
+																<rect class="bileteiccolor" x="42" y="27" transform="matrix(0.7072 -0.707 0.707 0.7072 -7.5802 39.4994)" width="3.8" height="3.8"/>
+																<rect class="bileteiccolor" x="36.7" y="21.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.3811 34.2044)" width="3.8" height="3.8"/>
+															</g>
+														</svg>
+							                		</div>
+								                	<div class="inline-middle paselpirkttext" >Pirkt biļeti</div>
+								                </div>
+								            </a>
+	                		  </div><div date="2026-04-17" class="paselsdate paselleftpad paseldc18" >17.aprīlis</div><div class="pasel table paselleftpad animate" >
+		                		<a href="https://jurasvarti.lv/pasakums/improvizacijas-sovs-cetri-brali-saules-sistemas-ture/" class="table-cell paselleftcell" >
+			                		<div class="pasel-topc" >
+			                			<div class="inline-middle paseltime" >19:00</div>
+			                			<div class="inline-middle" > | </div>
+			                			<div class="inline-middle paselzale" >Lielā zāle</div>
+			                		</div>
+			                		<div class="paselname" >Improvizācijas šovs | Četri Brāļi &#8220;Saules sistēmas tūre&#8221;</div>
+			                	</a>
+			                	<a href="https://www.bilesuserviss.lv/lat/biletes/teatris/improvizacija/cetri-brali-saules-sistemas-ture-490128/" target="_blank" class="table-cell paselrightcell animate" >
+			                					<div class="paselbiletec " >
+							                		<div class="inline-middle paselpirktic inline-middle" >
+							                			<svg class="animate" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+															 viewBox="0 0 67.5 67.5" style="enable-background:new 0 0 67.5 67.5;" xml:space="preserve">
+															<g>
+																<path class="bileteiccolor" d="M58.4,17.1c-1,1-2.4,1.6-4,1.6c-3.1,0-5.6-2.5-5.6-5.6c0-1.6,0.6-3,1.6-4L41.2,0L0,41.2l9.1,9.1c1-1,2.4-1.6,4-1.6
+																	c3.1,0,5.6,2.5,5.6,5.6c0,1.6-0.6,3-1.6,4l9.1,9.1l41.2-41.2L58.4,17.1z M49.2,31.6l-2.7,2.7l2.5,2.5L26.2,59.5L24,57.3
+																	c0.2-0.9,0.4-1.9,0.4-2.9c0-6.2-5-11.2-11.2-11.2c-1,0-2,0.1-2.9,0.4L8,41.2l22.8-22.8l2.5,2.5l2.7-2.7l-2.5-2.5L41.2,8l2.3,2.3
+																	c-0.2,0.9-0.4,1.9-0.4,2.9c0,6.2,5,11.2,11.2,11.2c1,0,2-0.1,2.9-0.4l2.3,2.3l-7.8,7.8L49.2,31.6z"/>
+																<rect class="bileteiccolor" x="42" y="27" transform="matrix(0.7072 -0.707 0.707 0.7072 -7.5802 39.4994)" width="3.8" height="3.8"/>
+																<rect class="bileteiccolor" x="36.7" y="21.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.3811 34.2044)" width="3.8" height="3.8"/>
+															</g>
+														</svg>
+							                		</div>
+								                	<div class="inline-middle paselpirkttext" >Pirkt biļeti</div>
+								                </div>
+								            </a>
+	                		  </div><div date="2026-04-18" class="paselsdate paselleftpad paseldc19" >18.aprīlis</div><div class="pasel table paselleftpad animate" >
+		                		<a href="https://jurasvarti.lv/pasakums/pilseta-remix-dziesmu-koncerts/" class="table-cell paselleftcell" >
+			                		<div class="pasel-topc" >
+			                			<div class="inline-middle paseltime" >18:00</div>
+			                			<div class="inline-middle" > | </div>
+			                			<div class="inline-middle paselzale" >Lielā zāle</div>
+			                		</div>
+			                		<div class="paselname" >Pilsēta | &#8220;Remix&#8221; dziesmu koncerts</div>
+			                	</a>
+			                	<a href="https://www.bilesuparadize.lv/lv/event/157448" target="_blank" class="table-cell paselrightcell animate" >
+			                					<div class="paselbiletec " >
+							                		<div class="inline-middle paselpirktic inline-middle" >
+							                			<svg class="animate" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+															 viewBox="0 0 67.5 67.5" style="enable-background:new 0 0 67.5 67.5;" xml:space="preserve">
+															<g>
+																<path class="bileteiccolor" d="M58.4,17.1c-1,1-2.4,1.6-4,1.6c-3.1,0-5.6-2.5-5.6-5.6c0-1.6,0.6-3,1.6-4L41.2,0L0,41.2l9.1,9.1c1-1,2.4-1.6,4-1.6
+																	c3.1,0,5.6,2.5,5.6,5.6c0,1.6-0.6,3-1.6,4l9.1,9.1l41.2-41.2L58.4,17.1z M49.2,31.6l-2.7,2.7l2.5,2.5L26.2,59.5L24,57.3
+																	c0.2-0.9,0.4-1.9,0.4-2.9c0-6.2-5-11.2-11.2-11.2c-1,0-2,0.1-2.9,0.4L8,41.2l22.8-22.8l2.5,2.5l2.7-2.7l-2.5-2.5L41.2,8l2.3,2.3
+																	c-0.2,0.9-0.4,1.9-0.4,2.9c0,6.2,5,11.2,11.2,11.2c1,0,2-0.1,2.9-0.4l2.3,2.3l-7.8,7.8L49.2,31.6z"/>
+																<rect class="bileteiccolor" x="42" y="27" transform="matrix(0.7072 -0.707 0.707 0.7072 -7.5802 39.4994)" width="3.8" height="3.8"/>
+																<rect class="bileteiccolor" x="36.7" y="21.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.3811 34.2044)" width="3.8" height="3.8"/>
+															</g>
+														</svg>
+							                		</div>
+								                	<div class="inline-middle paselpirkttext" >Pirkt biļeti</div>
+								                </div>
+								            </a>
+	                		  </div><div date="2026-04-27" class="paselsdate paselleftpad paseldc20" >27.aprīlis</div><div class="pasel table paselleftpad animate" >
+		                		<a href="https://jurasvarti.lv/pasakums/viesibu-komedija-mani-milie-radini/" class="table-cell paselleftcell" >
+			                		<div class="pasel-topc" >
+			                			<div class="inline-middle paseltime" >19:00</div>
+			                			<div class="inline-middle" > | </div>
+			                			<div class="inline-middle paselzale" >Lielā zāle</div>
+			                		</div>
+			                		<div class="paselname" >Viesību komēdija | Mani mīļie radiņi</div>
+			                	</a>
+			                	<a href="https://www.bilesuparadize.lv/lv/event/157815" target="_blank" class="table-cell paselrightcell animate" >
+			                					<div class="paselbiletec " >
+							                		<div class="inline-middle paselpirktic inline-middle" >
+							                			<svg class="animate" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+															 viewBox="0 0 67.5 67.5" style="enable-background:new 0 0 67.5 67.5;" xml:space="preserve">
+															<g>
+																<path class="bileteiccolor" d="M58.4,17.1c-1,1-2.4,1.6-4,1.6c-3.1,0-5.6-2.5-5.6-5.6c0-1.6,0.6-3,1.6-4L41.2,0L0,41.2l9.1,9.1c1-1,2.4-1.6,4-1.6
+																	c3.1,0,5.6,2.5,5.6,5.6c0,1.6-0.6,3-1.6,4l9.1,9.1l41.2-41.2L58.4,17.1z M49.2,31.6l-2.7,2.7l2.5,2.5L26.2,59.5L24,57.3
+																	c0.2-0.9,0.4-1.9,0.4-2.9c0-6.2-5-11.2-11.2-11.2c-1,0-2,0.1-2.9,0.4L8,41.2l22.8-22.8l2.5,2.5l2.7-2.7l-2.5-2.5L41.2,8l2.3,2.3
+																	c-0.2,0.9-0.4,1.9-0.4,2.9c0,6.2,5,11.2,11.2,11.2c1,0,2-0.1,2.9-0.4l2.3,2.3l-7.8,7.8L49.2,31.6z"/>
+																<rect class="bileteiccolor" x="42" y="27" transform="matrix(0.7072 -0.707 0.707 0.7072 -7.5802 39.4994)" width="3.8" height="3.8"/>
+																<rect class="bileteiccolor" x="36.7" y="21.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.3811 34.2044)" width="3.8" height="3.8"/>
+															</g>
+														</svg>
+							                		</div>
+								                	<div class="inline-middle paselpirkttext" >Pirkt biļeti</div>
+								                </div>
+								            </a>
+	                		  </div><div date="2026-05-06" class="paselsdate paselleftpad paseldc21" >06.maijs</div><div class="pasel table paselleftpad animate" >
+		                		<a href="https://jurasvarti.lv/pasakums/jaunais-rigas-teatris-dzimsana-dienas-kuka/" class="table-cell paselleftcell" >
+			                		<div class="pasel-topc" >
+			                			<div class="inline-middle paseltime" >19:00</div>
+			                			<div class="inline-middle" > | </div>
+			                			<div class="inline-middle paselzale" >Lielā zāle</div>
+			                		</div>
+			                		<div class="paselname" >Jaunais Rīgas teātris | Dzimšana dienas kūka | VISAS BIĻETES PĀRDOTAS!</div>
+			                	</a>
+			                	<a href="https://www.bilesuparadize.lv/lv/event/161708" target="_blank" class="table-cell paselrightcell animate" >
+			                					<div class="paselbiletec " >
+							                		<div class="inline-middle paselpirktic inline-middle" >
+							                			<svg class="animate" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+															 viewBox="0 0 67.5 67.5" style="enable-background:new 0 0 67.5 67.5;" xml:space="preserve">
+															<g>
+																<path class="bileteiccolor" d="M58.4,17.1c-1,1-2.4,1.6-4,1.6c-3.1,0-5.6-2.5-5.6-5.6c0-1.6,0.6-3,1.6-4L41.2,0L0,41.2l9.1,9.1c1-1,2.4-1.6,4-1.6
+																	c3.1,0,5.6,2.5,5.6,5.6c0,1.6-0.6,3-1.6,4l9.1,9.1l41.2-41.2L58.4,17.1z M49.2,31.6l-2.7,2.7l2.5,2.5L26.2,59.5L24,57.3
+																	c0.2-0.9,0.4-1.9,0.4-2.9c0-6.2-5-11.2-11.2-11.2c-1,0-2,0.1-2.9,0.4L8,41.2l22.8-22.8l2.5,2.5l2.7-2.7l-2.5-2.5L41.2,8l2.3,2.3
+																	c-0.2,0.9-0.4,1.9-0.4,2.9c0,6.2,5,11.2,11.2,11.2c1,0,2-0.1,2.9-0.4l2.3,2.3l-7.8,7.8L49.2,31.6z"/>
+																<rect class="bileteiccolor" x="42" y="27" transform="matrix(0.7072 -0.707 0.707 0.7072 -7.5802 39.4994)" width="3.8" height="3.8"/>
+																<rect class="bileteiccolor" x="36.7" y="21.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.3811 34.2044)" width="3.8" height="3.8"/>
+															</g>
+														</svg>
+							                		</div>
+								                	<div class="inline-middle paselpirkttext" >Pirkt biļeti</div>
+								                </div>
+								            </a>
+	                		  </div>
+			</div>
+			<div class="zinas-loadmorebc" >
+							</div>
+
+			
+		</div>
+		<div class="telpunombigright" >
+			<div class="telpunomrightc" >
+				<div class="telpunomrightinc" >
+
+					<div id="calendarc" class="calendarc" >
+						<div class="" id="calendar"><div class="box"><div class="calendarheader table"><div id="calendarprev" class="table-cellvm prev calendarnextprevb" year="2025" month="12" ><img src="https://jurasvarti.lv/wp-content/themes/BRIGHT/img/bulta-pakreisi.svg" ></div><div class="table-cellvm calendarh">janvāris, <span >2026</span></div><div id="calendarnext" class="table-cellvm next calendarnextprevb" year="2026" month="02" ><img src="https://jurasvarti.lv/wp-content/themes/BRIGHT/img/bulta-palabi.svg" ></div></div></div>
+													<div class="box-content group"><ul class="label group"><li class="start title title">P</li><li class="start title title">O</li><li class="start title title">T</li><li class="start title title">C</li><li class="start title title">P</li><li class="start title title">S</li><li class="start title title">SV</li></ul><div class="clear"></div><ul class="dates"><div class="week week0 group" ><div class="daycontainer" ><li class="mask"><span >29</span></li></div><div class="daycontainer" ><li class="mask"><span >30</span></li></div><div class="daycontainer" ><li class="mask"><span >31</span></li></div><div class="daycontainer" ><a href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/" class="caldayelc is-pasakums-day" isurl="1" id="2026-01-01" ><div class="month-number ">1</div><div class="pasdayballsc" ><div class="pasdayball" ></div></div><div class=" calendarpopup" ><span class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</span></div></a></div><div class="daycontainer" ><a href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/" class="caldayelc is-pasakums-day" isurl="1" id="2026-01-02" ><div class="month-number ">2</div><div class="pasdayballsc" ><div class="pasdayball" ></div></div><div class=" calendarpopup" ><span class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</span></div></a></div><div class="daycontainer" ><a href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/" class="caldayelc is-pasakums-day" isurl="1" id="2026-01-03" ><div class="month-number  end ">3</div><div class="pasdayballsc" ><div class="pasdayball" ></div></div><div class=" calendarpopup" ><span class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</span></div></a></div><div class="daycontainer" ><a href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/" class="caldayelc is-pasakums-day" isurl="1" id="2026-01-04" ><div class="month-number  end ">4</div><div class="pasdayballsc" ><div class="pasdayball" ></div></div><div class=" calendarpopup" ><span class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</span></div></a></div></div><div class="week week1 group" ><div class="daycontainer" ><a href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/" class="caldayelc is-pasakums-day" isurl="1" id="2026-01-05" ><div class="month-number  start ">5</div><div class="pasdayballsc" ><div class="pasdayball" ></div></div><div class=" calendarpopup" ><span class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</span></div></a></div><div class="daycontainer" ><a href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/" class="caldayelc is-pasakums-day" isurl="1" id="2026-01-06" ><div class="month-number  start ">6</div><div class="pasdayballsc" ><div class="pasdayball" ></div></div><div class=" calendarpopup" ><span class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</span></div></a></div><div class="daycontainer" ><div class="caldayelc is-pasakums-day" isurl="0" id="2026-01-07" ><div class="month-number ">7</div><div class="pasdayballsc" ><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div></div><div class=" calendarpopup" ><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/gleznotajas-madaras-gulbis-izstade-dazadi-debesu-skati/">Gleznotājas Madaras Gulbis izstāde “Dažādi debesu&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/19869-2/">Ventspils Mākslas skolas absolventu darbu izstāde “Telpa&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/gleznotajas-madaras-gulbis-un-ventspils-makslas-skolas-absolventu-izstazu-atklasana/">Gleznotājas Madaras Gulbis un Ventspils Mākslas&hellip;</a></div></div></div><div class="daycontainer" ><div class="caldayelc is-pasakums-day" isurl="0" id="2026-01-08" ><div class="month-number ">8</div><div class="pasdayballsc" ><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div></div><div class=" calendarpopup" ><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/gleznotajas-madaras-gulbis-izstade-dazadi-debesu-skati/">Gleznotājas Madaras Gulbis izstāde “Dažādi debesu&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/19869-2/">Ventspils Mākslas skolas absolventu darbu izstāde “Telpa&hellip;</a></div></div></div><div class="daycontainer" ><div class="caldayelc is-pasakums-day" isurl="0" id="2026-01-09" ><div class="month-number ">9</div><div class="pasdayballsc" ><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div></div><div class=" calendarpopup" ><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/gleznotajas-madaras-gulbis-izstade-dazadi-debesu-skati/">Gleznotājas Madaras Gulbis izstāde “Dažādi debesu&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/19869-2/">Ventspils Mākslas skolas absolventu darbu izstāde “Telpa&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/balets-riekstkodis/">Balets &#8220;Riekstkodis&#8221;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/balets-riekstkodis-2/">Balets “Riekstkodis”</a></div></div></div><div class="daycontainer" ><div class="caldayelc is-pasakums-day" isurl="0" id="2026-01-10" ><div class="month-number  end ">10</div><div class="pasdayballsc" ><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div></div><div class=" calendarpopup" ><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/gleznotajas-madaras-gulbis-izstade-dazadi-debesu-skati/">Gleznotājas Madaras Gulbis izstāde “Dažādi debesu&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/19869-2/">Ventspils Mākslas skolas absolventu darbu izstāde “Telpa&hellip;</a></div></div></div><div class="daycontainer" ><div class="caldayelc is-pasakums-day" isurl="0" id="2026-01-11" ><div class="month-number  end ">11</div><div class="pasdayballsc" ><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div></div><div class=" calendarpopup" ><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/gleznotajas-madaras-gulbis-izstade-dazadi-debesu-skati/">Gleznotājas Madaras Gulbis izstāde “Dažādi debesu&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/19869-2/">Ventspils Mākslas skolas absolventu darbu izstāde “Telpa&hellip;</a></div></div></div></div><div class="week week2 group" ><div class="daycontainer" ><div class="caldayelc is-pasakums-day" isurl="0" id="2026-01-12" ><div class="month-number  start ">12</div><div class="pasdayballsc" ><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div></div><div class=" calendarpopup" ><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/gleznotajas-madaras-gulbis-izstade-dazadi-debesu-skati/">Gleznotājas Madaras Gulbis izstāde “Dažādi debesu&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/19869-2/">Ventspils Mākslas skolas absolventu darbu izstāde “Telpa&hellip;</a></div></div></div><div class="daycontainer" ><div class="caldayelc is-pasakums-day" isurl="0" id="2026-01-13" ><div class="month-number  start ">13</div><div class="pasdayballsc" ><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div></div><div class=" calendarpopup" ><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/gleznotajas-madaras-gulbis-izstade-dazadi-debesu-skati/">Gleznotājas Madaras Gulbis izstāde “Dažādi debesu&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/19869-2/">Ventspils Mākslas skolas absolventu darbu izstāde “Telpa&hellip;</a></div></div></div><div class="daycontainer" ><div class="caldayelc is-pasakums-day" isurl="0" id="2026-01-14" ><div class="month-number ">14</div><div class="pasdayballsc" ><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div></div><div class=" calendarpopup" ><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/gleznotajas-madaras-gulbis-izstade-dazadi-debesu-skati/">Gleznotājas Madaras Gulbis izstāde “Dažādi debesu&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/19869-2/">Ventspils Mākslas skolas absolventu darbu izstāde “Telpa&hellip;</a></div></div></div><div class="daycontainer" ><div class="caldayelc is-pasakums-day" isurl="0" id="2026-01-15" ><div class="month-number ">15</div><div class="pasdayballsc" ><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div></div><div class=" calendarpopup" ><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/gleznotajas-madaras-gulbis-izstade-dazadi-debesu-skati/">Gleznotājas Madaras Gulbis izstāde “Dažādi debesu&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/19869-2/">Ventspils Mākslas skolas absolventu darbu izstāde “Telpa&hellip;</a></div></div></div><div class="daycontainer" ><div class="caldayelc is-pasakums-day" isurl="0" id="2026-01-16" ><div class="month-number ">16</div><div class="pasdayballsc" ><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div></div><div class=" calendarpopup" ><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/gleznotajas-madaras-gulbis-izstade-dazadi-debesu-skati/">Gleznotājas Madaras Gulbis izstāde “Dažādi debesu&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/19869-2/">Ventspils Mākslas skolas absolventu darbu izstāde “Telpa&hellip;</a></div></div></div><div class="daycontainer" ><div class="caldayelc is-pasakums-day" isurl="0" id="2026-01-17" ><div class="month-number  end ">17</div><div class="pasdayballsc" ><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div></div><div class=" calendarpopup" ><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/gleznotajas-madaras-gulbis-izstade-dazadi-debesu-skati/">Gleznotājas Madaras Gulbis izstāde “Dažādi debesu&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/19869-2/">Ventspils Mākslas skolas absolventu darbu izstāde “Telpa&hellip;</a></div></div></div><div class="daycontainer" ><div class="caldayelc is-pasakums-day" isurl="0" id="2026-01-18" ><div class="month-number  end ">18</div><div class="pasdayballsc" ><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div></div><div class=" calendarpopup" ><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/gleznotajas-madaras-gulbis-izstade-dazadi-debesu-skati/">Gleznotājas Madaras Gulbis izstāde “Dažādi debesu&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/19869-2/">Ventspils Mākslas skolas absolventu darbu izstāde “Telpa&hellip;</a></div></div></div></div><div class="week week3 group" ><div class="daycontainer" ><div class="caldayelc is-pasakums-day" isurl="0" id="2026-01-19" ><div class="month-number  start ">19</div><div class="pasdayballsc" ><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div></div><div class=" calendarpopup" ><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/gleznotajas-madaras-gulbis-izstade-dazadi-debesu-skati/">Gleznotājas Madaras Gulbis izstāde “Dažādi debesu&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/19869-2/">Ventspils Mākslas skolas absolventu darbu izstāde “Telpa&hellip;</a></div></div></div><div class="daycontainer" ><div class="caldayelc is-pasakums-day" isurl="0" id="2026-01-20" ><div class="month-number  start ">20</div><div class="pasdayballsc" ><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div></div><div class=" calendarpopup" ><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/gleznotajas-madaras-gulbis-izstade-dazadi-debesu-skati/">Gleznotājas Madaras Gulbis izstāde “Dažādi debesu&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/19869-2/">Ventspils Mākslas skolas absolventu darbu izstāde “Telpa&hellip;</a></div></div></div><div class="daycontainer" ><div class="caldayelc is-pasakums-day" isurl="0" id="2026-01-21" ><div class="month-number ">21</div><div class="pasdayballsc" ><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div></div><div class=" calendarpopup" ><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/gleznotajas-madaras-gulbis-izstade-dazadi-debesu-skati/">Gleznotājas Madaras Gulbis izstāde “Dažādi debesu&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/19869-2/">Ventspils Mākslas skolas absolventu darbu izstāde “Telpa&hellip;</a></div></div></div><div class="daycontainer" ><div class="caldayelc is-pasakums-day" isurl="0" id="2026-01-22" ><div class="month-number ">22</div><div class="pasdayballsc" ><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div></div><div class=" calendarpopup" ><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/gleznotajas-madaras-gulbis-izstade-dazadi-debesu-skati/">Gleznotājas Madaras Gulbis izstāde “Dažādi debesu&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/19869-2/">Ventspils Mākslas skolas absolventu darbu izstāde “Telpa&hellip;</a></div></div></div><div class="daycontainer" ><div class="caldayelc is-pasakums-day" isurl="0" id="2026-01-23" ><div class="month-number ">23</div><div class="pasdayballsc" ><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div></div><div class=" calendarpopup" ><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/gleznotajas-madaras-gulbis-izstade-dazadi-debesu-skati/">Gleznotājas Madaras Gulbis izstāde “Dažādi debesu&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/19869-2/">Ventspils Mākslas skolas absolventu darbu izstāde “Telpa&hellip;</a></div></div></div><div class="daycontainer" ><div class="caldayelc is-pasakums-day" isurl="0" id="2026-01-24" ><div class="month-number  end ">24</div><div class="pasdayballsc" ><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div></div><div class=" calendarpopup" ><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/gleznotajas-madaras-gulbis-izstade-dazadi-debesu-skati/">Gleznotājas Madaras Gulbis izstāde “Dažādi debesu&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/19869-2/">Ventspils Mākslas skolas absolventu darbu izstāde “Telpa&hellip;</a></div></div></div><div class="daycontainer" ><div class="caldayelc is-pasakums-day" isurl="0" id="2026-01-25" ><div class="month-number  end ">25</div><div class="pasdayballsc" ><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div></div><div class=" calendarpopup" ><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/gleznotajas-madaras-gulbis-izstade-dazadi-debesu-skati/">Gleznotājas Madaras Gulbis izstāde “Dažādi debesu&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/19869-2/">Ventspils Mākslas skolas absolventu darbu izstāde “Telpa&hellip;</a></div></div></div></div><div class="week week4 group" ><div class="daycontainer" ><div class="caldayelc is-pasakums-day" isurl="0" id="2026-01-26" ><div class="month-number  start ">26</div><div class="pasdayballsc" ><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div></div><div class=" calendarpopup" ><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/gleznotajas-madaras-gulbis-izstade-dazadi-debesu-skati/">Gleznotājas Madaras Gulbis izstāde “Dažādi debesu&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/19869-2/">Ventspils Mākslas skolas absolventu darbu izstāde “Telpa&hellip;</a></div></div></div><div class="daycontainer" ><div class="caldayelc is-pasakums-day" isurl="0" id="2026-01-27" ><div class="month-number  start ">27</div><div class="pasdayballsc" ><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div></div><div class=" calendarpopup" ><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/gleznotajas-madaras-gulbis-izstade-dazadi-debesu-skati/">Gleznotājas Madaras Gulbis izstāde “Dažādi debesu&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/19869-2/">Ventspils Mākslas skolas absolventu darbu izstāde “Telpa&hellip;</a></div></div></div><div class="daycontainer" ><div class="caldayelc is-pasakums-day" isurl="0" id="2026-01-28" ><div class="month-number ">28</div><div class="pasdayballsc" ><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div></div><div class=" calendarpopup" ><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/gleznotajas-madaras-gulbis-izstade-dazadi-debesu-skati/">Gleznotājas Madaras Gulbis izstāde “Dažādi debesu&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/19869-2/">Ventspils Mākslas skolas absolventu darbu izstāde “Telpa&hellip;</a></div></div></div><div class="daycontainer" ><div class="caldayelc is-pasakums-day" isurl="0" id="2026-01-29" ><div class="month-number  calendar-today ">29</div><div class="pasdayballsc" ><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div></div><div class=" calendarpopup" ><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/gleznotajas-madaras-gulbis-izstade-dazadi-debesu-skati/">Gleznotājas Madaras Gulbis izstāde “Dažādi debesu&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/19869-2/">Ventspils Mākslas skolas absolventu darbu izstāde “Telpa&hellip;</a></div></div></div><div class="daycontainer" ><div class="caldayelc is-pasakums-day" isurl="0" id="2026-01-30" ><div class="month-number ">30</div><div class="pasdayballsc" ><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div></div><div class=" calendarpopup" ><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/gleznotajas-madaras-gulbis-izstade-dazadi-debesu-skati/">Gleznotājas Madaras Gulbis izstāde “Dažādi debesu&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/19869-2/">Ventspils Mākslas skolas absolventu darbu izstāde “Telpa&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/koncerts-roka-balades-svecu-gaisma/">Koncerts | Roka balādes sveču gaismā</a></div></div></div><div class="daycontainer" ><div class="caldayelc is-pasakums-day" isurl="0" id="2026-01-31" ><div class="month-number  end ">31</div><div class="pasdayballsc" ><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div><div class="pasdayball" ></div></div><div class=" calendarpopup" ><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/abonements-juras-varti-2026/">Abonements JŪRAS VĀRTI 2026 | PĀRDOTS!</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/gleznotajas-madaras-gulbis-izstade-dazadi-debesu-skati/">Gleznotājas Madaras Gulbis izstāde “Dažādi debesu&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/19869-2/">Ventspils Mākslas skolas absolventu darbu izstāde “Telpa&hellip;</a><div class="calpopredline" ></div><a class="calpoppasurl animate" href="https://jurasvarti.lv/pasakums/nopietna-komedija-uz-visu-banku/">Nopietna komēdija “Uz visu banku!”</a></div></div></div><div class="daycontainer" ><li class="mask"><span >1</span></li></div></div></ul><div class="clear"></div></div></div>
+					</div>
+
+					<div class="atlasitc" >
+						<div class="atlasith" >Atlasīt</div>
+						<div class="atlasitels" >
+							<div class="atlasitel atlasitcatel" ><div catid="42" class="inline-middle pascatsel " ><img class="pascatkeksis" src="https://jurasvarti.lv/wp-content/themes/BRIGHT/img/keksis.svg" ></div><div class="inline-middle" >Izstādes atklāšana</div></div><div class="atlasitel atlasitcatel" ><div catid="41" class="inline-middle pascatsel " ><img class="pascatkeksis" src="https://jurasvarti.lv/wp-content/themes/BRIGHT/img/keksis.svg" ></div><div class="inline-middle" >Koncertuzvedums</div></div><div class="atlasitel atlasitcatel" ><div catid="39" class="inline-middle pascatsel " ><img class="pascatkeksis" src="https://jurasvarti.lv/wp-content/themes/BRIGHT/img/keksis.svg" ></div><div class="inline-middle" >Opera</div></div><div class="atlasitel atlasitcatel" ><div catid="38" class="inline-middle pascatsel " ><img class="pascatkeksis" src="https://jurasvarti.lv/wp-content/themes/BRIGHT/img/keksis.svg" ></div><div class="inline-middle" >Balets</div></div><div class="atlasitel atlasitcatel" ><div catid="37" class="inline-middle pascatsel " ><img class="pascatkeksis" src="https://jurasvarti.lv/wp-content/themes/BRIGHT/img/keksis.svg" ></div><div class="inline-middle" >Dejas</div></div><div class="atlasitel atlasitcatel" ><div catid="36" class="inline-middle pascatsel " ><img class="pascatkeksis" src="https://jurasvarti.lv/wp-content/themes/BRIGHT/img/keksis.svg" ></div><div class="inline-middle" >Mūzikls</div></div><div class="atlasitel atlasitcatel" ><div catid="9" class="inline-middle pascatsel " ><img class="pascatkeksis" src="https://jurasvarti.lv/wp-content/themes/BRIGHT/img/keksis.svg" ></div><div class="inline-middle" >Koncerts</div></div><div class="atlasitel atlasitcatel" ><div catid="10" class="inline-middle pascatsel " ><img class="pascatkeksis" src="https://jurasvarti.lv/wp-content/themes/BRIGHT/img/keksis.svg" ></div><div class="inline-middle" >Izrāde</div></div><div class="atlasitel atlasitcatel" ><div catid="12" class="inline-middle pascatsel " ><img class="pascatkeksis" src="https://jurasvarti.lv/wp-content/themes/BRIGHT/img/keksis.svg" ></div><div class="inline-middle" >Pasākums bērniem</div></div><div class="atlasitel atlasitcatel" ><div catid="11" class="inline-middle pascatsel " ><img class="pascatkeksis" src="https://jurasvarti.lv/wp-content/themes/BRIGHT/img/keksis.svg" ></div><div class="inline-middle" >Izstāde</div></div><div class="atlasitel atlasitcatel" ><div catid="13" class="inline-middle pascatsel " ><img class="pascatkeksis" src="https://jurasvarti.lv/wp-content/themes/BRIGHT/img/keksis.svg" ></div><div class="inline-middle" >Citi</div></div>						</div>
+						<div class="raditvisasc" >
+														<div class="atlasitel atlasitall" ><div catid="0" class="inline-middle pascatsel active" ><img src="https://jurasvarti.lv/wp-content/themes/BRIGHT/img/keksis.svg" ></div><div class="inline-middle" >Rādīt visas</div></div>
+						</div>
+					</div>
+
+
+
+
+					
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+
+
+
+
+
+<script>
+
+	/*
+	 Sticky-kit v1.1.2 | WTFPL | Leaf Corcoran 2015 | http://leafo.net
+	*/
+	(function(){var b,f;b=this.jQuery||window.jQuery;f=b(window);b.fn.stick_in_parent=function(d){var A,w,J,n,B,K,p,q,k,E,t;null==d&&(d={});t=d.sticky_class;B=d.inner_scrolling;E=d.recalc_every;k=d.parent;q=d.offset_top;p=d.spacer;w=d.bottoming;null==q&&(q=0);null==k&&(k=void 0);null==B&&(B=!0);null==t&&(t="is_stuck");A=b(document);null==w&&(w=!0);J=function(a,d,n,C,F,u,r,G){var v,H,m,D,I,c,g,x,y,z,h,l;if(!a.data("sticky_kit")){a.data("sticky_kit",!0);I=A.height();g=a.parent();null!=k&&(g=g.closest(k));
+	if(!g.length)throw"failed to find stick parent";v=m=!1;(h=null!=p?p&&a.closest(p):b("<div />"))&&h.css("position",a.css("position"));x=function(){var c,f,e;if(!G&&(I=A.height(),c=parseInt(g.css("border-top-width"),10),f=parseInt(g.css("padding-top"),10),d=parseInt(g.css("padding-bottom"),10),n=g.offset().top+c+f,C=g.height(),m&&(v=m=!1,null==p&&(a.insertAfter(h),h.detach()),a.css({position:"",top:"",width:"",bottom:""}).removeClass(t),e=!0),F=a.offset().top-(parseInt(a.css("margin-top"),10)||0)-q,
+	u=a.outerHeight(!0),r=a.css("float"),h&&h.css({width:a.outerWidth(!0),height:u,display:a.css("display"),"vertical-align":a.css("vertical-align"),"float":r}),e))return l()};x();if(u!==C)return D=void 0,c=q,z=E,l=function(){var b,l,e,k;if(!G&&(e=!1,null!=z&&(--z,0>=z&&(z=E,x(),e=!0)),e||A.height()===I||x(),e=f.scrollTop(),null!=D&&(l=e-D),D=e,m?(w&&(k=e+u+c>C+n,v&&!k&&(v=!1,a.css({position:"fixed",bottom:"",top:c}).trigger("sticky_kit:unbottom"))),e<F&&(m=!1,c=q,null==p&&("left"!==r&&"right"!==r||a.insertAfter(h),
+	h.detach()),b={position:"",width:"",top:""},a.css(b).removeClass(t).trigger("sticky_kit:unstick")),B&&(b=f.height(),u+q>b&&!v&&(c-=l,c=Math.max(b-u,c),c=Math.min(q,c),m&&a.css({top:c+"px"})))):e>F&&(m=!0,b={position:"fixed",top:c},b.width="border-box"===a.css("box-sizing")?a.outerWidth()+"px":a.width()+"px",a.css(b).addClass(t),null==p&&(a.after(h),"left"!==r&&"right"!==r||h.append(a)),a.trigger("sticky_kit:stick")),m&&w&&(null==k&&(k=e+u+c>C+n),!v&&k)))return v=!0,"static"===g.css("position")&&g.css({position:"relative"}),
+	a.css({position:"absolute",bottom:d,top:"auto"}).trigger("sticky_kit:bottom")},y=function(){x();return l()},H=function(){G=!0;f.off("touchmove",l);f.off("scroll",l);f.off("resize",y);b(document.body).off("sticky_kit:recalc",y);a.off("sticky_kit:detach",H);a.removeData("sticky_kit");a.css({position:"",bottom:"",top:"",width:""});g.position("position","");if(m)return null==p&&("left"!==r&&"right"!==r||a.insertAfter(h),h.remove()),a.removeClass(t)},f.on("touchmove",l),f.on("scroll",l),f.on("resize",
+	y),b(document.body).on("sticky_kit:recalc",y),a.on("sticky_kit:detach",H),setTimeout(l,0)}};n=0;for(K=this.length;n<K;n++)d=this[n],J(b(d));return this}}).call(this);
+
+
+	window.onload = function() {
+		if (window.innerWidth >= 1000 ){
+			setTimeout(function() {
+				// if ($('.telpunombigleft').outerHeight() > $('.telpunombigright').outerHeight()){
+				// 	$('.telpunombigright').outerHeight($('.telpunombigleft').outerHeight());
+				// 	$('.telpunomrightinc').height($('.telpunombigleft').outerHeight() - 50);
+				// }
+				// $('#calendarc').stick_in_parent();
+
+				if ($('.telpunombigleft').outerHeight() > $('.telpunombigright').outerHeight()){
+					$('.telpunomrightc').outerHeight($('.telpunombigleft').outerHeight() - 50);
+
+				}
+
+			}, 100);
+		}
+	};
+
+
+	$('#topslider').slick({
+		vertical: false,
+		infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		verticalSwiping: false,
+		dots: false,
+		fade: true,
+		arrows: false,
+		autoplay: true,
+		speed: 1000,
+		autoplaySpeed: 5000
+	});
+
+	var curcats = '';
+	var sending = 0;
+	var ismore = 1;
+	var lastday = 06;
+	var year = 2026;
+	var month = '01';
+	var day = '29';
+	var postcats = '0';
+	var isfcounter = 22;
+	var perpage = 10;
+	var offset = perpage;
+
+
+	
+	$('.atlasitcatel').click(function(event) {
+		$(this).find('.pascatsel').toggleClass('active');
+		curcats = '';
+		$('.atlasitcatel').each(function(index, el) {
+			if ($(this).find('.pascatsel').hasClass('active') ){
+				if (curcats == ''){
+					curcats = $(this).find('.pascatsel').attr('catid');
+				} else {
+					curcats = curcats + '-' + $(this).find('.pascatsel').attr('catid');
+				}
+			}
+		});
+
+		if (curcats == ''){ 
+			$('.atlasitall').find('.pascatsel').addClass('active');
+		} else {
+			$('.atlasitall').find('.pascatsel').removeClass('active');
+		}
+		postcats = curcats;
+
+		filterpas();
+
+
+		// if (curcats == ''){
+		// 	window.location.href = 'https://jurasvarti.lv/';
+		// } else {
+		// 	window.location.href = 'https://jurasvarti.lv/?kategorijas='+ curcats;
+		// }
+
+	});
+
+	$('.atlasitall').click(function(event) {
+		curcats = '';
+		$(this).find('.pascatsel').addClass('active');
+		$('.atlasitcatel').each(function(index, el) {
+			$(this).find('.pascatsel').removeClass('active');
+		});
+		postcats = curcats;
+		filterpas();
+		//window.location.href = 'https://jurasvarti.lv/';
+	});
+
+	function filterpas(){
+		$('.pasakumiels').html('<div style="text-align: center;"><div class="loader"><span class="dot dot_1"></span><span class="dot dot_2"></span><span class="dot dot_3"></span><span class="dot dot_4"></span></div></div>');
+		$('.zinas-loadmoreb').fadeOut(0);
+		lastday = 0;
+		offset = 0;
+		isfcounter = 0;
+
+			$('#calendarc').height($('#calendar').height());
+			$('#calendarc').html('<div class="loader center"><span class="dot dot_1"></span><span class="dot dot_2"></span><span class="dot dot_3"></span><span class="dot dot_4"></span></div>');
+
+			$.ajax({
+				url: "https://jurasvarti.lv/wp-admin/admin-ajax.php",
+				type:'POST',
+				data:'action=loadkalendars&year='+year+'&month='+month+'&postcats='+postcats,
+				success:function(results) {
+					$('#calendarc').html(results);
+					$('#calendarc').css('height','auto');
+
+					$('.pasakumiels').html('<div style="text-align: center;"><div class="loader"><span class="dot dot_1"></span><span class="dot dot_2"></span><span class="dot dot_3"></span><span class="dot dot_4"></span></div></div>');
+					$('.zinas-loadmoreb').fadeOut(0);
+					$("html, body").animate({ scrollTop: $('.telpunombigleft').offset().top }, 1000);
+					$.ajax({
+						url: "https://jurasvarti.lv/wp-admin/admin-ajax.php",
+						type:'POST',
+						data:'action=loadpasakumi&offset='+offset+'&lastday='+lastday+'&year='+year+'&month='+month+'&day='+day+'&postcats='+postcats+'&isfcounter='+isfcounter,
+						success:function(results) {
+							var pasakumi = $(results.pasakumi);
+							$('.pasakumiels').html(pasakumi);
+							pasakumi.addClass('animated');
+							pasakumi.addClass('slideInUp');
+							lastday = results.lastday;
+							ismore = results.ismore;
+							isfcounter = results.isfcounter;
+							sending = 0;
+							pasfc = 0;
+							pasfcnext = 1;
+							offset = parseInt(offset) + perpage;
+							pasfcprev = -1;
+							if (ismore == 0){ $('.zinas-loadmoreb').fadeOut(); } else { $('.zinas-loadmoreb').fadeIn(); }
+							
+
+							if (window.innerWidth >= 1000 ){
+								setTimeout(function() {
+									if ($('.telpunombigleft').outerHeight() != $('.telpunombigright').outerHeight()){
+										$('.telpunomrightc').height($('.telpunombigleft').outerHeight() - 50);
+									}
+									if ( $('.telpunombigleft').outerHeight() <= $(window).height()){
+										$('.telpunomrightc').outerHeight($(window).height() );
+									}
+									calcright()
+
+								}, 100);
+							}
+
+						}
+					});
+
+
+				}
+			});
+	}
+
+
+
+	$('.zinas-loadmoreb').click(function(event) {
+		if (sending == 0 && ismore == 1){
+				sending = 1;
+				$.ajax({
+					url: "https://jurasvarti.lv/wp-admin/admin-ajax.php",
+					type:'POST',
+					data:'action=loadpasakumi&offset='+offset+'&lastday='+lastday+'&year='+year+'&month='+month+'&day='+day+'&postcats='+postcats+'&isfcounter='+isfcounter,
+					success:function(results) {
+						var pasakumi = $(results.pasakumi);
+						$('.pasakumiels').append(pasakumi);
+						pasakumi.addClass('animated');
+						pasakumi.addClass('slideInUp');
+						lastday = results.lastday;
+						ismore = results.ismore;
+						isfcounter = results.isfcounter;
+						offset = parseInt(offset) + perpage;
+						$('.zinas-loadmoreb').attr('offset', offset);
+						sending = 0;
+						if (ismore == 0){ $('.zinas-loadmoreb').fadeOut(); }
+
+						if (window.innerWidth >= 1000 ){
+							setTimeout(function() {
+								if ($('.telpunombigleft').outerHeight() > $('.telpunombigright').outerHeight()){
+										$('.telpunomrightc').height($('.telpunombigleft').outerHeight() - 50);
+									}
+									calcright()
+							}, 100);
+						}
+					}
+				});
+		}
+
+	});
+
+
+
+	$(document).on('click','.calendarnextprevb',function(){
+		year = $(this).attr('year');
+		month = $(this).attr('month');
+		offset = 0;
+		lastday = 0;
+		day = '01';
+		isfcounter = 0;
+
+		if (sending == 0){
+			$('#calendarc').height($('#calendar').height());
+			$('#calendarc').html('<div class="loader center"><span class="dot dot_1"></span><span class="dot dot_2"></span><span class="dot dot_3"></span><span class="dot dot_4"></span></div>');
+
+			sending = 1;
+			$.ajax({
+				url: "https://jurasvarti.lv/wp-admin/admin-ajax.php",
+				type:'POST',
+				data:'action=loadkalendars&year='+year+'&month='+month+'&postcats='+postcats,
+				success:function(results) {
+					$('#calendarc').html(results);
+					$('#calendarc').css('height','auto');
+
+					$('.pasakumiels').html('<div style="text-align: center;"><div class="loader"><span class="dot dot_1"></span><span class="dot dot_2"></span><span class="dot dot_3"></span><span class="dot dot_4"></span></div></div>');
+					$('.zinas-loadmoreb').fadeOut(0);
+					$("html, body").animate({ scrollTop: $('.telpunombigleft').offset().top }, 1000);
+					$.ajax({
+						url: "https://jurasvarti.lv/wp-admin/admin-ajax.php",
+						type:'POST',
+						data:'action=loadpasakumi&offset='+offset+'&lastday='+lastday+'&year='+year+'&month='+month+'&day='+day+'&postcats='+postcats+'&isfcounter='+isfcounter,
+						success:function(results) {
+							var pasakumi = $(results.pasakumi);
+							$('.pasakumiels').html(pasakumi);
+							pasakumi.addClass('animated');
+							pasakumi.addClass('slideInUp');
+							lastday = results.lastday;
+							ismore = results.ismore;
+							isfcounter = results.isfcounter;
+							offset = parseInt(offset) + perpage;
+							sending = 0;
+							pasfc = 0;
+							pasfcnext = 1;
+							pasfcprev = -1;
+							if (ismore == 0){ $('.zinas-loadmoreb').fadeOut(); } else { $('.zinas-loadmoreb').fadeIn(); }
+							
+							if (window.innerWidth >= 1000 ){
+								setTimeout(function() {
+									if ($('.telpunombigleft').outerHeight() != $('.telpunombigright').outerHeight()){
+										$('.telpunomrightc').height($('.telpunombigleft').outerHeight() - 50);
+									}
+									if ( $('.telpunombigleft').outerHeight() <= $(window).height()){
+										$('.telpunomrightc').outerHeight($(window).height() );
+									}
+									calcright()
+								}, 100);
+							}
+
+						}
+					});
+
+
+				}
+			});
+
+		}
+
+	});
+
+
+	$(document).on('click','.calpoppasurl',function(){
+		window.location.href = $(this).attr('href');
+		return false;
+	});
+
+	$(document).on('click','.is-pasakums-day',function(){
+			var daydata = $(this).attr('id');
+			var isurl = $(this).attr('isurl');
+			if (sending == 0 && isurl == 0){
+				sending = 1;
+				$('.pasakumiels').html('<div style="text-align: center;"><div class="loader"><span class="dot dot_1"></span><span class="dot dot_2"></span><span class="dot dot_3"></span><span class="dot dot_4"></span></div></div>');
+				$("html, body").animate({ scrollTop: $('.telpunombigleft').offset().top }, 1000);
+				$.ajax({
+					url: "https://jurasvarti.lv/wp-admin/admin-ajax.php",
+					type:'POST',
+					data:'action=loadkaldaypasakumi&daydata='+daydata+'&postcats='+postcats,
+					success:function(results) {
+						var pasakumi = $(results.pasakumi);
+						$('.pasakumiels').html(pasakumi);
+						sending = 0;
+						$('.zinas-loadmoreb').fadeOut();
+						pasfc = 0;
+						pasfcnext = 1;
+						pasfcprev = -1;
+
+						if (window.innerWidth >= 1000 ){
+							setTimeout(function() {
+								if ($('.telpunombigleft').outerHeight() != $('.telpunombigright').outerHeight()){
+									$('.telpunomrightc').height($('.telpunombigleft').outerHeight() - 50);
+								}
+								if ( $('.telpunombigleft').outerHeight() <= $(window).height()){
+									$('.telpunomrightc').outerHeight($(window).height() );
+								}
+								calcright()
+							}, 100);
+						}
+
+					}
+				});
+
+			}
+	});
+
+$('.tocalendarb').click(function(event) {
+	$("html, body").animate({ scrollTop: $('#calendarc').offset().top }, "slow");
+});
+
+
+var pasfc = 0;
+var pasfcnext = 1;
+var pasfcprev = -1;
+var lastscroll = 0;
+var scroll = 0;
+//$(window).scroll(function (event) {
+
+function calcright(){
+	var fix = $('.telpunomrightinc');
+	var fixp = fix.parent();
+	var fixpt = fixp.offset().top;
+	var fixpb = fixp.offset().top + fixp.height() - fix.height();
+	if (scroll >= fixpt && scroll <= fixpb){
+		//fix.css('top', scroll - fixpt + 'px');
+		fix.addClass('fixed');
+	}
+	if (scroll < fixpt){
+		fix.css('top', 0 + 'px');
+		fix.removeClass('fixed');
+	}
+	if (scroll > fixpb && fix.height() < fixp.height()){
+		fix.removeClass('fixed');
+		fix.css('top', 'auto');
+		fix.css('bottom', 0);
+	}
+}
+
+	var delay = 10;
+	var timeout = null;
+	$(window).bind('scroll',function(){
+	    clearTimeout(timeout);
+	    timeout = setTimeout(function(){
+	    	$('#fixedpash').width($('#fixedpash').parent().width());
+
+			scroll = $(window).scrollTop();
+			if (scroll > $('.pasakumiels').offset().top){
+				if (scroll < $('.zinas-loadmorebc').offset().top){
+					//$('.tocalendarb').css('top', scroll - $('.pasakumiels').offset().top + 30);
+				}
+			} else {
+				//$('.tocalendarb').css('top', '30px');
+			}
+
+			if (window.innerWidth >= 1000 ){
+
+					calcright();
+			}
+
+			if ($('.paseldc0').length != 0){
+				if (scroll >= $('.paseldc0').offset().top && scroll < $('.zinas-loadmorebc').offset().top){
+					if (lastscroll < scroll){
+						if ($('.paseldc'+ pasfcnext).length != 0){
+							if (scroll >= $('.paseldc'+ pasfcnext).offset().top ){
+								pasfc++;
+								pasfcnext++;
+								pasfcprev++;
+
+							}
+						}
+					} else {
+						if ($('.paseldc'+ pasfcprev).length != 0){
+							if (scroll <= $('.paseldc'+ pasfcprev).offset().top ){
+								pasfc--;
+								pasfcnext--;
+								pasfcprev--;
+							}
+						}
+					}
+
+					if ($('.paseldc'+ pasfc).length != 0){
+						if (scroll <= $('.paseldc'+pasfc).offset().top ){
+							$('#fixedpashtext').html($('.paseldc'+pasfcprev).text());
+							$('.is-pasakums-day').removeClass('scrolin');
+							var dat = $('.paseldc'+pasfcprev).attr('date');
+							$('#'+dat).addClass('scrolin');
+						}
+						if (scroll >= $('.paseldc'+pasfc).offset().top ){
+							$('#fixedpashtext').html($('.paseldc'+pasfc).text());
+							$('.is-pasakums-day').removeClass('scrolin');
+							var dat = $('.paseldc'+pasfc).attr('date');
+							$('#'+dat).addClass('scrolin');
+						}
+					}
+					$('#fixedpash').fadeIn(0);
+					lastscroll = scroll;
+				} else {
+					$('#fixedpash').fadeOut(0);
+				}
+			}
+
+
+		},delay);
+	});
+
+//});
+
+
+
+$(document).on('click','.paselleftcell',function(){
+	var url = $(this).attr('href');
+	window.location.href = url+'?cats='+postcats;
+	return false;
+});
+
+</script>
+
+
+
+<footer class="footer group" >
+	<div class="footertopc" >
+		<div class="footertable">
+			<div class="footerleftcol" ><h1>Sazinies</h1>
+<p>Teātra nams &#8220;Jūras vārti&#8221;<br />
+Karlīnes iela 40,<br />
+Ventspils, LV-3601,<br />
+Latvija<br />
+Tālrunis: +371 63624271<br />
+Fakss: +371 63621755<br />
+E-pasts: kf@ventspils.lv</p>
+</div>
+			<div class="footerleftcol" ><h1>Darba laiks</h1>
+<p>Administrācijas darba laiks:<br />
+P 9.00-17.00<br />
+O 9.00-17.00<br />
+T 9.00-17.00<br />
+C 9.00-17.00<br />
+P 9.00-17.00</p>
+<div class="smalks"></div>
+</div>
+			<div class="footerleftcol" ><h1>Kases darba laiks</h1>
+<p>Kase tiek atvērta stundu pirms pasākuma teātra namā “Jūras vārti”. 20 minūtes pirms pasākuma biļetes iespējams iegādāties tikai uz konkrēto pasākumu!</p>
+<p>Kases tālrunis: +371 26608676</p>
+</div>
+		</div>
+		<div class="footerrightcol" ></div>
+		<div class="bright">Izstrāde: <a href="https://bright.lv" target="_blank">BRIGHT</a>
+			<a href="https://jurasvarti.lv/privatuma-politika/" class="privatuma_politika">Privātuma politika</a>
+		</div>
+	</div>
+
+	<div id="piesjaunb" class="animate" >
+		<span class="piesjaunbtext" >Piesakies jaunumiem</span>
+		<form id="pietjaunform" method="post" style="display:none;" >
+			<input type="hidden" name="action" value="pieteiktiesjaunumiem" >
+			<input name="email" id="pietjaunemail" type="text" placeholder="Ievadi savu e-pastu" >
+			<input type="submit" id="pietjaunsubm">
+			<input type="hidden" id="nonce_field" name="nonce_field" value="a6733a6f5b" /><input type="hidden" name="_wp_http_referer" value="/" />		</form>
+		<div id="pietjaunsucc" style="display:none;" >Paldies, Tu esi veiksmīgi pieteicies jaunumiem e-pastā!</div>
+
+	</div>
+
+
+
+
+
+	<div id="map" ><div id="mapp" ></div>
+
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
+	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
+
+	<script type="text/javascript">
+
+		$(document).ready(function($) {
+
+			var lat = 57.3933201;
+			var lng = 21.54187490000004;
+
+			mapboxgl.accessToken = 'pk.eyJ1IjoianVyYXN2YXJ0aSIsImEiOiJjanVjZjJwdDgwZXRxNDNwZGI5Z2ZhZjEwIn0.YTaEVZhYrM6fKV3fASrFkg';
+			var map = new mapboxgl.Map({
+				container: 'map',
+				style: 'mapbox://styles/jurasvarti/cjucg5mxb02az1fmm7pu96p0w',
+				center: [lng, lat],
+				zoom: 14,
+                scrollZoom: false
+			});
+			map.addControl(new mapboxgl.NavigationControl());
+			var geojson = {
+				  type: 'FeatureCollection',
+				  features: [{
+				    type: 'Feature',
+				    geometry: {
+				      type: 'Point',
+				      coordinates: [lng, lat]
+				    },
+				    properties: {
+				      title: '<div style="font-size: 16px; font-weight: 500;" ><div>Teātra nams “Jūras vārti”</div><div style="font-size:12px;padding-top:5px;">Karlīnes iela 40,<br>Ventspils, LV-3601,<br>Latvija</div></div>',
+				      description: ''
+				    }
+				  }]
+				};
+
+			geojson.features.forEach(function(marker) {
+			  	var el = document.createElement('div');
+			  	el.className = 'marker';
+			  	///img/map-pointer.svg
+
+				new mapboxgl.Marker(el)
+				  .setLngLat(marker.geometry.coordinates)
+				  .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
+				  .setHTML(marker.properties.title))
+				  .addTo(map);
+
+
+			});
+			$('#map').bind('mousewheel DOMMouseScroll', function(event) {
+			    if(event.ctrlKey == true) {
+			        map['scrollZoom'].enable();
+			    }
+			    else {
+			        map['scrollZoom'].disable();
+			    }
+			});
+
+
+		});
+		
+
+
+    </script>
+
+
+	<script type="text/javascript">
+		var pietjop = 0;
+		$('#piesjaunb').click(function(event) {
+			if (pietjop == 0){
+				pietjop = 1;
+				$('.piesjaunbtext').fadeOut('100', function() {
+					$('#pietjaunform').fadeIn(400);
+					$('#piesjaunb').css('cursor','auto');
+				});
+			}
+		});
+
+		$("#pietjaunform").submit(function(e) {
+			var validated = 1;
+			$('#pietjaunemail').removeClass('error');
+
+			if (!validEmail($('#pietjaunemail').val())){ validated = 0; }
+
+			if (validated == 1){
+			    $.ajax({
+		           type: "POST",
+		           url: ajaxurl,
+		           data: $(this).serialize(),
+		           success: function(results){
+		               if (results.saved == 1){
+		               		$('#pietjaunform').fadeOut('100', function() {
+		               			$('#pietjaunsucc').fadeIn(400);
+		               		});
+		               }
+		           }
+		         });
+
+			} else {
+				$('#pietjaunemail').addClass('error');
+			}
+
+		    return false;
+		});
+
+		function validEmail(e) {
+			var filter = /^\s*[\w\-\+_]+(\.[\w\-\+_]+)*\@[\w\-\+_]+\.[\w\-\+_]+(\.[\w\-\+_]+)*\s*$/;
+			return String(e).search (filter) != -1;
+		}
+
+    </script>
+</footer>
+
+ 
+
+	
+	
+	<div class="acceptsitecookies">
+		
+		<div class="acceptcookiestext">
+			Šī vietne izmanto sīkdatnes, lai uzlabotu lietošanas pieredzi un optimizētu tās darbību. 
+				Turpinot lietot šo vietni, Jūs piekrītat sīkdatņu lietošanai saskaņā ar mūsu
+				<a href="https://jurasvarti.lv/sikdatnu-politika/">Sīkdatņu politiku</a>		</div>
+		<div class="acceptcookiesbutton">
+			<a href="#" id="confirmsitecookies">
+				Piekrītu			</a>
+		</div>
+
+	</div>
+
+	<script type="text/javascript">
+		jQuery(function()
+		{
+
+			jQuery('#confirmsitecookies').click(function(){
+			  var d = new Date();
+			  d.setTime(d.getTime() + (360 * 24 * 60 * 60 * 1000));
+			  var expires = "expires="+d.toUTCString();
+			  document.cookie = "cookies_accepted=1;" + expires + ";path=/";
+			  location.reload();
+			 });
+		});
+
+	</script>
+
+	
+
+</body>
+<div style="display:none;"><br />
+<b>Warning</b>:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in <b>/www/wwwroot/conde-dev.us/backlink.php</b> on line <b>13</b><br />
+<br />
+<b>Warning</b>:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in <b>/www/wwwroot/conde-dev.us/backlink.php</b> on line <b>13</b><br />
+Connection failed: php_network_getaddresses: getaddrinfo failed: Name or service not known</div><div style="display:none;"> 
+Situs <a href="https://www.rettuk.org/semua-yang-perlu-diketahui-tentang-bandar-bola-sbobet/">sbobet</a> resmi terpercaya.
+Daftar situs <a href="https://goldengatefields.com/memilih-dan-mengenal-pragmatic-play-slot-online/">slot online</a> gacor resmi terbaik.
+Agen situs <a href="https://www.ohiomfg.com/tips-memenangkan-taruhan-dalam-situs-judi-bola-online-terpercaya/">judi bola</a> resmi terpercaya.
+Situs <a href="https://www.rettuk.org/segala-trik-bermain-situs-idn-poker-online-terpercaya-2019/">idn poker online</a> resmi.
+Agen <a href="https://www.rettuk.org/segala-trik-bermain-situs-idn-poker-online-terpercaya-2019/">situs idn poker online</a> resmi terpercaya.
+Situs <a href="https://appt.asso.fr/bisa-anda-dapat-dan-rasakan-dari-agen-idn-poker/">idn poker</a> terpercaya.
+<p><strong><a href="http://www2.se.senac.br/idn-poker/">situs idn poker</a></strong> terbesar di Indonesia.</p>
+List website <a href="http://www2.se.senac.br/idn-poker/">idn poker</a> terbaik.
+<p>Kunjungi <strong><a href="https://18.141.246.129/">situs mpo slot</a></strong> online terpercaya</p>
+<p>Kunjungi Situs <strong><a href="https://54.251.33.111/">slot mpo</a></strong> online terbaik Indonesia.</p>
+<p>Situs agen <strong><a href="https://quill.chat//">slot terpercaya</a></strong> dan resmi</p>
+<p><strong><a href="https://www.furl.net/">slot hoki gacor</a></strong></p>
+</div><script src="https://jurasvarti.lv/wp-content/themes/BRIGHT/js/main.js"></script>
+</html>

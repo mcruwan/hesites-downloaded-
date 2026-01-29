@@ -1,0 +1,1278 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+<head>
+    <!--  -->
+    <title>Национальный правовой Интернет-портал Республики Беларусь</title>    
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="право, правовая информация, правовая информатизация, официальное опубликование, право бай" />
+<meta name="description" content="Основной государственный информационный ресурс глобальной компьютерной сети Интернет в области права и правовой информатизации." />
+<link href="/bitrix/cache/css/s1/index/template_c20d03229f5a8a5c91203475748eaf05/template_c20d03229f5a8a5c91203475748eaf05_v1.css?176346205015218" type="text/css"  data-template-style="true" rel="stylesheet" />
+<script>if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script>(window.BX||top.BX).message({"JS_CORE_LOADING":"Загрузка...","JS_CORE_NO_DATA":"- Нет данных -","JS_CORE_WINDOW_CLOSE":"Закрыть","JS_CORE_WINDOW_EXPAND":"Развернуть","JS_CORE_WINDOW_NARROW":"Свернуть в окно","JS_CORE_WINDOW_SAVE":"Сохранить","JS_CORE_WINDOW_CANCEL":"Отменить","JS_CORE_WINDOW_CONTINUE":"Продолжить","JS_CORE_H":"ч","JS_CORE_M":"м","JS_CORE_S":"с","JSADM_AI_HIDE_EXTRA":"Скрыть лишние","JSADM_AI_ALL_NOTIF":"Показать все","JSADM_AUTH_REQ":"Требуется авторизация!","JS_CORE_WINDOW_AUTH":"Войти","JS_CORE_IMAGE_FULL":"Полный размер"});</script>
+
+
+
+<script>BX.Runtime.registerExtension({"name":"main.core","namespace":"BX","loaded":true});</script>
+<script>BX.setJSList(["\/bitrix\/js\/main\/core\/core_ajax.js","\/bitrix\/js\/main\/core\/core_promise.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/loadext\/loadext.js","\/bitrix\/js\/main\/loadext\/extension.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/includes\/js\/includes.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/ui\/polyfill\/closest\/js\/closest.js","\/bitrix\/js\/main\/polyfill\/fill\/main.polyfill.fill.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/core\/core.js","\/bitrix\/js\/main\/polyfill\/intersectionobserver\/js\/intersectionobserver.js","\/bitrix\/js\/main\/lazyload\/dist\/lazyload.bundle.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/parambag\/dist\/parambag.bundle.js"]);
+</script>
+<script>(window.BX||top.BX).message({"LANGUAGE_ID":"ru","FORMAT_DATE":"DD.MM.YYYY","FORMAT_DATETIME":"DD.MM.YYYY HH:MI:SS","COOKIE_PREFIX":"BITRIX_SM","SERVER_TZ_OFFSET":"10800","UTF_MODE":"Y","SITE_ID":"s1","SITE_DIR":"\/","USER_ID":"","SERVER_TIME":1769647470,"USER_TZ_OFFSET":0,"USER_TZ_AUTO":"Y","bitrix_sessid":"0ba2be79ddefd240bebc89ba2434c4d5"});</script>
+
+<script>BX.setJSList(["\/local\/templates\/.default\/components\/bitrix\/menu\/index_main_menu\/script.js","\/local\/templates\/index\/components\/ittas\/cookie.banner\/.default\/script.js"]);</script>
+<script>BX.setCSSList(["\/local\/templates\/.default\/components\/bitrix\/news.list\/index_common_w_banners\/style.css","\/local\/templates\/.default\/components\/astronim\/news.list\/index_pravo\/style.css","\/local\/templates\/.default\/components\/bitrix\/news.list\/c_banners\/style.css","\/local\/templates\/.default\/components\/bitrix\/news.list\/analytics_index\/style.css","\/local\/templates\/.default\/components\/bitrix\/news.list\/index_links_slider\/style.css","\/local\/templates\/.default\/components\/bitrix\/news.list\/index_youtube\/style.css","\/local\/templates\/.default\/components\/bitrix\/menu\/index_main_menu\/style.css","\/local\/templates\/.default\/components\/bitrix\/news.list\/index_links\/style.css","\/local\/templates\/.default\/components\/bitrix\/news.list\/r_banners\/style.css","\/local\/templates\/.default\/components\/bitrix\/menu\/bottom\/style.css","\/local\/templates\/.default\/components\/bitrix\/news.list\/f_banners\/style.css","\/local\/templates\/index\/components\/ittas\/cookie.banner\/.default\/style.css"]);</script>
+
+<script  src="/bitrix/cache/js/s1/index/template_aebdba35d6b49b1baa387c24a2dbb569/template_aebdba35d6b49b1baa387c24a2dbb569_v1.js?17634620505252"></script>
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="viewport" id="viewport" content="width=device-width, user-scalable=no">
+    
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://www.pravo.by/" />
+    <meta property="og:title" content="Национальный правовой Интернет-портал Республики Беларусь" />
+	<meta property="og:image" content="http://pravo.by/upload/og_pravo.jpg" />
+    <meta property="og:image:height" content="200" />
+    <meta property="og:image:width" content="382" />
+	
+	<meta property="og:description" content="Основной государственный информационный ресурс глобальной компьютерной сети Интернет в области права и правовой информатизации." />
+	
+
+    <!-- <link rel="stylesheet" media="screen" href="/local/templates/.default/css/screen.css">
+    <link rel="stylesheet" media="screen" href="/local/templates/.default/css/adaptive.css"> -->
+	<link rel="stylesheet" media="screen" href="/local/templates/.default/css/screen_adaptive.css?v=210023062024">
+    <link rel="stylesheet" media="screen" href="/local/templates/.default/css/style.css">
+    <link rel="stylesheet" media="screen" href="/local/templates/index/slick/slick.css">
+    <link rel="stylesheet" media="screen" href="/local/templates/index/slick/slick-theme.css">
+    <!--[if gte IE 9]>
+        <style type="text/css">.gradient {filter: none;}</style>
+    <![endif]-->
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" media="screen" href="/local/templates/.default/css/ie.css">
+        <script type="text/javascript" src="/local/templates/.default/js/html5shiv.min.js"></script>
+    <![endif]-->
+
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(30383037, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true,
+        ecommerce:"dataLayer"
+   });
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/30383037" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-5XYPR4JB2S"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'G-5XYPR4JB2S');
+	</script>
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-TRWH5FG');</script>
+	<!-- End Google Tag Manager -->
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TRWH5FG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="wrap">
+
+<header class="l-header">
+    <div class="h-in">
+        <div class="lang lang-mobile">
+            <a href="https://pravo.by" class="active">Ru</a>
+            <a href="https://law.by">En</a>
+        </div>
+        <div class="h-sidemenu"><span></span></div>
+        <div class="h-search-mobile"><i class="ico-search"></i></div>
+        <div class="h-col h-logo">
+            <div class="h-logo__img"><img src="/local/templates/.default/i/logo-main.png"></div>
+        </div>
+        <div class="h-col h-col__search">
+            <div class="h-title"><span>Национальный правовой <nobr>Интернет-портал</nobr> Республики&nbsp;Беларусь</span></div>
+			<div class="h-logo__text"><span>основной государственный информационный ресурс в&nbsp;области права и&nbsp;правовой информатизации</span></div>
+            <div id="searchPane" class="h-search">
+                <div class="h-search__form">
+                    <div class="h-search-close"><span></span></div>
+                    <input type="text" name="search" class="h-search__text" placeholder="Поиск" id="querytxt" value="">
+                    <div class="input-bg-lightblue"></div>
+                    <div class="h-search__submit ico-search" id="searchButton"></div>
+                    <div id="searchArea" class="h-search__select"><span>Поиск</span>
+                        <select name="where" id="searchwhere">
+                            <option value="portal">по Порталу</option>
+                            <option value="etalon">в ЭТАЛОН-ONLINE</option>
+                            <option value="nacreestr">в Национальном реестре</option>
+                            <option value="projects">в проектах законов</option>
+                            <!--<option value="bankresh">в судебных решениях</option>-->
+							<option value="tbd">в правовых актах по темам</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="h-col h-col__links">
+            <div class="lang">
+                <a href="https://pravo.by" class="active">Ru</a>
+                <a href="https://law.by">En</a>
+            </div>
+            <ul class="h-links-list 321">
+
+            
+<li>
+    <a target="_blank" href="https://etalonline.by" class="h-link">
+        <span class="h-link__image" style="background-image: url('/upload/images/etalon-oline_170.png');"></span>
+        <span class="h-link__title">Все законодательство<br>в актуальном состоянии</span>
+        <span class="h-link__count">
+            <b>68</b>
+            <span>документов включено <br>28 января</span>
+        </span>
+    </a>
+</li>
+
+<li>
+    <a href="/ofitsialnoe-opublikovanie/novye-postupleniya/" class="h-link">
+        <span class="h-link__image" style="background-image: url('/local/templates/.default/i/h-link2.png');"></span>
+        <span class="h-link__title">Официальное<br>опубликование</span>
+        <span class="h-link__count"><b> 47 </b><span>актов опубликовано <br> сегодня</span>
+        </span>
+    </a>
+</li>
+
+
+<li>
+    <a href="/natsionalnyy-reestr/novye-postupleniya/" class="h-link">
+        <span class="h-link__image" style="background-image: url('/local/templates/.default/i/h-link1.png');"></span>
+        <span class="h-link__title">Национальный реестр<br>правовых актов</span>
+        <span class="h-link__count"><b>
+            44</b>
+            <span>актов зарегистрировано<br>28 января            </span>
+        </span>
+    </a>
+</li>
+	<!--<li>
+                    </li>-->
+            </ul>
+        </div>
+    </div>
+</header><section class="layout">
+    <div class="l-main-wrap">
+        <div class="l-main">
+
+                        <section class="l-news">
+                                                
+
+<div class="newslist">
+    <div class="layout__header">
+		<a href="/novosti/">Новости</a>
+		<a href="/novosti/obshchestvenno-politicheskie-i-v-oblasti-prava/rss/" class="button"><i class="ico-rss"></i><span>RSS</span></a>
+	</div>
+            <a href="/novosti/obshchestvenno-politicheskie-i-v-oblasti-prava/2026/january/92055/" class="news-card news-card_2h">
+            <i class="news-card__img" style="background-image: url('/upload/iblock/19a/3ev7bb8tw0keqnb5xeztq7zygzhrqcai.jpg');"></i>
+            <span>Совещание по вопросам развития сотрудничества с КНР</span>
+                        <i class="news-card__date">27 Января 2026</i>
+        </a>
+                    <a href="/novosti/obshchestvenno-politicheskie-i-v-oblasti-prava/2026/january/92076/" class="news-card">
+                <i class="news-card__date">28 Января 2026</i>
+                <span>Беларусь ратифицировала межправсоглашение с Оманом о взаимной отмене виз. Александр Лукашенко подписал Закон</span>
+                            </a>
+                                            <a href="/novosti/obshchestvenno-politicheskie-i-v-oblasti-prava/2026/january/92075/" class="news-card">
+                <i class="news-card__date">28 Января 2026</i>
+                <span>Игорь Сергеенко призвал местные органы власти максимально задействовать потенциал депутатов</span>
+                <i class="ico-photo"></i>            </a>
+                                            <a href="/novosti/obshchestvenno-politicheskie-i-v-oblasti-prava/2026/january/92086/" class="news-card">
+                <i class="news-card__date">28 января 2026</i>
+                <span>Законопроект по вопросам промышленной безопасности внесен в Палату представителей</span>
+                            </a>
+                                            <a href="/novosti/obshchestvenno-politicheskie-i-v-oblasti-prava/2026/january/92085/" class="news-card">
+                <i class="news-card__date">28 января 2026</i>
+                <span>Сбор для ремесленников с 1 февраля составит Br10 в месяц</span>
+                            </a>
+                                            <a href="/novosti/obshchestvenno-politicheskie-i-v-oblasti-prava/2026/january/92084/" class="news-card">
+                <i class="news-card__date">28 января 2026</i>
+                <span>В повестке – 14 вопросов. Какие темы поднимут на заседании союзного Совмина в Москве</span>
+                <i class="ico-photo"></i>            </a>
+                                            <a href="/novosti/obshchestvenno-politicheskie-i-v-oblasti-prava/2026/january/92083/" class="news-card">
+                <i class="news-card__date">28 января 2026</i>
+                <span>Александр Лукашенко заслушал доклад Заместителя Премьер-министра Виктора Каранкевича</span>
+                            </a>
+                        
+                                    <div class="b-main__block b-main__banner" style="margin-bottom: 0">
+                        <a target="_blank" href="https://seminar.pravo.by/" title="30 января 2026 г. «Организация работы кадровой службы»"><img class="" src="/upload/iblock/04b/m7a9by7cn1ui7mhqupr1j1ositiirjr4.jpg" alt="30 января 2026 г. «Организация работы кадровой службы»" />
+                        </a>
+                    </div>
+                
+                                <a href="/novosti/obshchestvenno-politicheskie-i-v-oblasti-prava/2026/january/92082/" class="news-card">
+                <i class="news-card__date">28 января 2026</i>
+                <span>Палата представителей: в Беларуси развитию межпарламентских контактов с Алжиром уделяется особое внимание</span>
+                <i class="ico-photo"></i>            </a>
+                                            <a href="/novosti/obshchestvenno-politicheskie-i-v-oblasti-prava/2026/january/92081/" class="news-card">
+                <i class="news-card__date">28 января 2026</i>
+                <span>Исполком СНГ и Ассамблея народов мира подписали меморандум о сотрудничестве</span>
+                <i class="ico-photo"></i>            </a>
+                                            <a href="/novosti/obshchestvenno-politicheskie-i-v-oblasti-prava/2026/january/92080/" class="news-card">
+                <i class="news-card__date">28 января 2026</i>
+                <span>Беларусь и Китай усилят взаимодействие в сфере стандартизации</span>
+                            </a>
+                                            <a href="/novosti/obshchestvenno-politicheskie-i-v-oblasti-prava/2026/january/92079/" class="news-card">
+                <i class="news-card__date">28 января 2026</i>
+                <span>Парламент РФ ратифицировал соглашение с Беларусью о защите граждан от необоснованного международного преследования</span>
+                            </a>
+                                        
+                            <div class="b-main__block b-main__banner" style="margin-bottom: 0">
+                    <a target="_blank" href="https://torgi.gov.by/?utm_source=pravoby&utm_medium=banner&utm_content=block727%C3%9790" title="Информационный центр Министерства экономики Республики Беларусь"><img class="torgigovby" src="/upload/iblock/99c/99c714552de97bedb86ca98196f63664.jpg" alt="Информационный центр Министерства экономики Республики Беларусь" />
+                    </a>
+                </div>
+            
+            </div>
+
+                                <div class="newslist newslist_pravo">
+    <div id="nl-stick">
+        <div class="layout__header">
+			<a href="/novosti/novosti-pravo-by/">Новости pravo.by</a>
+			<a href="/novosti/novosti-pravo-by/rss/" class="button"><i class="ico-rss"></i><span>RSS</span></a>
+		</div>
+                    <div class="newslist__item">
+                <a href="/novosti/novosti-pravo-by/2026/january/92087/">Как будет перечисляться часть платежей за лесопользование в 2026 году?</a>
+                                <span class="news-card__date">28 января 2026</span>
+            </div>
+                    <div class="newslist__item">
+                <a href="/novosti/novosti-pravo-by/2026/january/92078/">Определены заготовители и объемы закупок сельхозпродукции для госнужд на 2026 год</a>
+                                <span class="news-card__date">28 января 2026</span>
+            </div>
+                    <div class="newslist__item">
+                <a href="/novosti/novosti-pravo-by/2026/january/92058/">Важное в регионах. В столице утвержден перечень международных выставок, часть расходов на участие в которых возмещается в 2026 году</a>
+                                <span class="news-card__date">27 января 2026</span>
+            </div>
+                    <div class="newslist__item">
+                <a href="/novosti/novosti-pravo-by/2026/january/92057/">Скорректирован порядок представления данных персучета и расчета пособий по временной нетрудоспособности</a>
+                                <span class="news-card__date">27 января 2026</span>
+            </div>
+                    <div class="newslist__item">
+                <a href="/novosti/novosti-pravo-by/2026/january/92051/">Заказ на разработку каких градостроительных проектов подлежит размещению в 2026 году? Опубликован перечень</a>
+                                <span class="news-card__date">27 января 2026</span>
+            </div>
+                    <div class="newslist__item">
+                <a href="/novosti/novosti-pravo-by/2026/january/92040/">Как изменятся тарифы на транспортировку нефти в Беларуси с 1 февраля?</a>
+                                <span class="news-card__date">26 января 2026</span>
+            </div>
+                    <div class="newslist__item">
+                <a href="/novosti/novosti-pravo-by/2026/january/92039/">Опубликован Указ об установлении тарифов для населения в сфере ЖКХ на 2026 год</a>
+                                <span class="news-card__date">26 января 2026</span>
+            </div>
+                    <div class="newslist__item">
+                <a href="/novosti/novosti-pravo-by/2026/january/92032/">О правовом регулировании научной деятельности. Новая инфографика Pravo.by ко Дню белорусской науки</a>
+                                <span class="news-card__date">23 января 2026</span>
+            </div>
+            </div>
+</div>            </section>
+
+            
+            
+    
+
+           
+            
+    
+
+            <!-- Объявления-->
+            <div class="layout__header">
+                <a href="/novosti/analitika/">Аналитика</a>
+                <a href="/novosti/analitika/rss/" class="button"><i class="ico-rss"></i><span>RSS</span></a>
+            </div>
+                        <div class="b-main__block b-announce">
+    <ul>
+                    <li>
+                <a href="/novosti/analitika/2026/january/92056/">
+											<i class="b-announce__img" style="background-image: url('/upload/iblock/4b1/6mmojudbc0rz8b494j9r4m637u3chkw6.jpg')"></i>
+					                    <span>Предоставление водных объектов в обособленное водопользование. Комментарий НЦЗПИ</span>
+                 </a>
+                
+                <span class="b-announce__date">27 января 2026</span>
+            </li>
+                    <li>
+                <a href="/novosti/analitika/2026/january/91870/">
+											<i class="b-announce__img" style="background-image: url('/upload/iblock/c71/uw3x9omho7p49s89e2s8snzk0i3jmim5.jpg')"></i>
+					                    <span>Постановление о вопросах эксплуатации маломерных судов. Комментарий МЧС</span>
+                 </a>
+                
+                <span class="b-announce__date">14 января 2026</span>
+            </li>
+                    <li>
+                <a href="/novosti/analitika/2026/january/91856/">
+											<i class="b-announce__img" style="background-image: url('/upload/iblock/bd2/53snm0stp2i518qdcfiid5jw239745qn.jpg')"></i>
+					                    <span>Минсельхозпрод – о временном регулировании цен (изменения в постановление № 985)</span>
+                 </a>
+                
+                <span class="b-announce__date">13 января 2026</span>
+            </li>
+                    <li>
+                <a href="/novosti/analitika/2026/january/91855/">
+											<i class="b-announce__img" style="background-image: url('/upload/iblock/0cb/asfq9ts4wucn4pbcxcs6phv4docc9i13.jpg')"></i>
+					                    <span>Изменения 2026 года: общая часть Налогового кодекса. Комментарий НЦЗПИ</span>
+                 </a>
+                
+                <span class="b-announce__date">13 января 2026</span>
+            </li>
+                    <li>
+                <a href="/novosti/analitika/2026/january/91806/">
+											<i class="b-announce__img" style="background-image: url('/upload/iblock/5ba/zdi0kht7qmvcs3v7ypjtp6sq9zs71zc3.jpg')"></i>
+					                    <span>Госстандарт – об изменении Закона об энергосбережении</span>
+                 </a>
+                
+                <span class="b-announce__date">9 января 2026</span>
+            </li>
+                    <li>
+                <a href="/novosti/analitika/2026/january/91764/">
+											<i class="b-announce__img" style="background-image: url('/upload/iblock/737/rsw5vbkyue6av3636h120k2f9pfn92hv.jpg')"></i>
+					                    <span>Комментарий к постановлению о разрешительной документации на строительство</span>
+                 </a>
+                
+                <span class="b-announce__date">6 января 2026</span>
+            </li>
+                    <li>
+                <a href="/novosti/analitika/2026/january/91762/">
+											<i class="b-announce__img" style="background-image: url('/upload/iblock/4e7/qxc0cjl71hf1yf8j2o1bzk7bkndvkqiz.jpg')"></i>
+					                    <span>МНС о налогах-2026. Налогообложение юрлиц</span>
+                 </a>
+                
+                <span class="b-announce__date">6 января 2026</span>
+            </li>
+                    <li>
+                <a href="/novosti/analitika/2026/january/91761/">
+											<i class="b-announce__img" style="background-image: url('/upload/iblock/50b/l9qkcpszgdd7lb7kbokqxkbyt6b3m5h7.jpg')"></i>
+					                    <span>Правовое регулирование деятельности в сфере игорного бизнеса</span>
+                 </a>
+                
+                <span class="b-announce__date">6 января 2026</span>
+            </li>
+                    <li>
+                <a href="/novosti/analitika/2026/january/91753/">
+											<i class="b-announce__img" style="background-image: url('/upload/iblock/229/gq6ucdwq9l4j3dg0ub4zzbctbvqc9mmb.jpg')"></i>
+					                    <span>Маркировка товаров. Комментарий МНС к постановлению № 795</span>
+                 </a>
+                
+                <span class="b-announce__date">6 января 2026</span>
+            </li>
+                    <li>
+                <a href="/novosti/analitika/2026/january/91711/">
+											<i class="b-announce__img" style="background-image: url('/upload/iblock/efc/gstah6rv6y99lgi848zkrg0vug6qvwz4.jpg')"></i>
+					                    <span>Минэкономики – об изменении законодательства по вопросам деятельности ИП</span>
+                 </a>
+                
+                <span class="b-announce__date">5 января 2026</span>
+            </li>
+            </ul>
+</div>
+
+            <!-- Объявления END-->
+
+            <!--4plashki-->
+            
+            <div class="b-slider">
+    <ul>
+                    <li><a target="_blank" href="/document/?guid=12551&p0=W22644519&p1=1">
+                    <!--<i class="b-slider__img"></i>-->
+                    <object><span>Об установлении бюджета прожиточного минимума в ценах декабря 2025 года</span></object>
+                </a>
+            </li>
+                            <li><a href="/pravovaya-informatsiya/normativnye-dokumenty/ekspress-byulleten/zakonodatelstvo-respubliki-belarus/2026/january/91982/">
+                <!--<i class="b-slider__img"></i>-->
+                <object><span>Экспресс-бюллетень законодательства Республики Беларусь за период с 15 по 21 января 2026 г.</span></object>
+            </a>
+        </li>
+                    <li><a href="/pravovaya-informatsiya/normativnye-dokumenty/ekspress-byulleten/zakonodatelstvo-rossii-kazakhstana-kirgizstana-uzbekistana/2025/91892/">
+                <!--<i class="b-slider__img"></i>-->
+                <object><span>Экспресс-бюллетень законодательства России, Казахстана, Кыргызстана и Узбекистана за период с 16 по 31 декабря</span></object>
+            </a>
+        </li>
+    
+    </ul>
+</div>
+
+            <!--4plashki_END-->
+
+            
+            
+    
+
+       <!-- Youtube-->
+
+            <div class="layout__header">
+                <a target="_blank" href="https://www.youtube.com/@NCZPIBELARUS">Видео <i class="youtube-button-icon"></i></a>
+            </div>
+
+            
+<div class="b-main__block video-youtube">
+
+        
+                <a target="_blank" class="video-youtube-item" href="https://www.youtube.com/watch?v=5d4V4e_e4wY">
+					                    <img alt="Пенсионное обеспечение граждан с учетом изменений законодательства" src="/upload/iblock/12b/hpz3cwf2zc9lmyt5uetbnp6n2olezs22.jpg">
+					                    <div class="video-youtube-item-name">Пенсионное обеспечение граждан с учетом изменений законодательства</div>
+                </a>
+        
+                <a target="_blank" class="video-youtube-item" href="https://www.youtube.com/watch?v=_RXGtmS0-_I">
+					                    <img alt="Организация пересмотра судебных постановлений в кассационном порядке" src="/upload/iblock/d81/xzlmesloap443w7dzqu38gwmz72zaoc9.jpg">
+					                    <div class="video-youtube-item-name">Организация пересмотра судебных постановлений в кассационном порядке</div>
+                </a>
+        
+                <a target="_blank" class="video-youtube-item" href="https://www.youtube.com/watch?v=7llenWemack">
+					                    <img alt="Годовое планирование закупок в организации" src="/upload/iblock/528/m3emtuigrjw1e4m5956bzzpkfqie39uv.jpg">
+					                    <div class="video-youtube-item-name">Годовое планирование закупок в организации</div>
+                </a>
+        
+</div>
+
+            <!-- Youtube END-->
+
+ <section class="section-stats hide-1100">
+                <div class="layout__header">Статистика актов</div>
+                <div class="r-stats" id="counters">
+
+                                        <p style="display: none"><span class="r-stats-header"><b>291</b> <span>253</span></span><a href="/natsionalnyy-reestr/novye-postupleniya/"><span>зарегистрировано в Национальном реестре правовых актов</span></a></p>
+                    <p class="r-stats-p"><span class="r-stats-header" id="cntr-bank-dannyh"><span>342899</span></span><a href="/natsionalnyy-reestr/novye-postupleniya/"><span>зарегистрировано в Национальном реестре правовых актов</span></a></p>
+                    <p class="r-stats-p"><span class="r-stats-header" id="cntr-prav-act">291253</span><a href="https://etalonline.by/"><span>включено в банки данных правовой информации</span></a></p>
+					 <!---->
+                    <p class="r-stats-p"><span class="r-stats-header" id="cntr-poekt-zakon">24</span><a href="/bank-dannykh-proektov-zakonov-respubliki-belarus/poisk-v-banke-dannykh-proektov-zakonov-respubliki-belarus/"><span>представлено проектов законов на портале</span></a></p>
+                </div>
+            </section>
+
+            
+            
+    
+
+        </div>
+    </div>
+
+    <aside class="l-aside">
+        <header class="l-aside-header">
+            <div class="h-logo">
+                <a href="/" class="h-logo__img"><img src="/local/templates/.default/i/logo-main.png"></a>
+            </div>
+            <div class="l-aside-close"><span></span></div>
+        </header>
+        
+<ul class="sidemenu">
+
+    	
+	
+					<li><a href="/novosti/" class="root-item"><i></i><span>Новости</span></a>
+				<ul>
+		
+	
+	
+    	
+	
+		
+							<li><a href="/novosti/obshchestvenno-politicheskie-i-v-oblasti-prava/">Общественно-политические</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/novosti/novosti-pravo-by/">Новости PRAVO.BY</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/novosti/infografika-prava/">Инфографика</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/novosti/analitika/">Аналитика</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/novosti/video/">Видео</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/novosti/rassylki/">Подписки</a></li>
+			
+		
+	
+	
+    			</ul></li>	
+	
+					<li><a href="/natsionalnyy-reestr/" class="root-item"><i></i><span>Национальный реестр правовых актов</span></a>
+				<ul>
+		
+	
+	
+    	
+	
+		
+							<li><a href="/natsionalnyy-reestr/natsionalnyy-reestr-pravovykh-aktov-respubliki-belarus/">Общие сведения</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/natsionalnyy-reestr/novye-postupleniya/">Новые поступления</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/natsionalnyy-reestr/poisk-v-reestre/">Поиск в реестре</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/natsionalnyy-reestr/podpisatsya-na-rassylku/">Подписки</a></li>
+			
+		
+	
+	
+    			</ul></li>	
+	
+					<li><a href="/ofitsialnoe-opublikovanie/" class="root-item"><i></i><span>Официальное опубликование</span></a>
+				<ul>
+		
+	
+	
+    	
+	
+		
+							<li><a href="/ofitsialnoe-opublikovanie/obshchie-svedeniya-o-poryadke-ofitsialnogo-opublikovaniya-i-obnarodovaniya-pravovykh-aktov/">Общие сведения</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/ofitsialnoe-opublikovanie/novye-postupleniya/">Новые поступления</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/ofitsialnoe-opublikovanie/poisk/">Поиск</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/ofitsialnoe-opublikovanie/arkhiv/">Архив</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/ofitsialnoe-opublikovanie/ofitsialnoe-periodicheskoe-pechatnoe-izdanie-natsionalnyy-reestr-pravovykh-aktov-respubliki-belarus/">Официальное периодическое печатное издание...</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/ofitsialnoe-opublikovanie/podpisatsya-na-rassylku/">Подписки</a></li>
+			
+		
+	
+	
+    			</ul></li>	
+	
+					<li><a href="/gosudarstvo-i-pravo/" class="root-item"><i></i><span>Государство и право</span></a>
+				<ul>
+		
+	
+	
+    	
+	
+		
+							<li><a href="/gosudarstvo-i-pravo/obshchie-svedeniya-ob-organizatsii-gosudarstvennoy-vlasti-v-respublike-belarus-i-o-natsionalnoy-prav/">Общие сведения</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/gosudarstvo-i-pravo/prezident-respubliki-belarus/">Президент</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/gosudarstvo-i-pravo/vsebelorusskoe-narodnoe-sobranie/">Всебелорусское народное собрание</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/gosudarstvo-i-pravo/parlament-natsionalnoe-sobranie-respubliki-belarus/">Парламент</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/gosudarstvo-i-pravo/sovet-ministrov-respubliki-belarus/">Правительство</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/gosudarstvo-i-pravo/sudebnaya-sistema/">Судебная система</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/gosudarstvo-i-pravo/prokuratura-respubliki-belarus/">Прокуратура</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/gosudarstvo-i-pravo/administratsiya-prezidenta-respubliki-belarus/">Администрация Президента Республики Беларусь</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/gosudarstvo-i-pravo/komitet-gosudarstvennogo-kontrolya-respubliki-belarus/">Комитет государственного контроля</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/gosudarstvo-i-pravo/mestnoe-upravlenie-i-samoupravlenie-v-respublike-belarus/">Местное управление и самоуправление</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/gosudarstvo-i-pravo/gosudarstvennaya-simvolika/">Государственная символика</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/gosudarstvo-i-pravo/gosudarstvennye-prazdniki/">Государственные праздники</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/gosudarstvo-i-pravo/nauka-i-obrazovanie/">Правовая наука</a></li>
+			
+		
+	
+	
+    			</ul></li>	
+	
+					<li><a href="/pravovaya-informatsiya/" class="root-item"><i></i><span>Правовая информация</span></a>
+				<ul>
+		
+	
+	
+    	
+	
+		
+							<li><a href="/pravovaya-informatsiya/normativnye-dokumenty/">Нормативные документы</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/pravovaya-informatsiya/pravovye-akty-po-temam/">Правовые акты по темам</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/pravovaya-informatsiya/normotvorcheskaya-deyatelnost/">Нормотворческая деятельность</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/pravovaya-informatsiya/pravovaya-informatizatsiya-/">Государственная система правовой информации</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/pravovaya-informatsiya/pomniki-gistoryi-prava-belarusi/">История права в документах</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/pravovaya-informatsiya/edinyy-pravovoy-klassifikator/">Единый правовой классификатор</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/pravovaya-informatsiya/informatsionno-analiticheskiy-resurs-yuridicheskoy-terminologii">Юридический словарь</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/pravovaya-informatsiya/pechatnye-izdaniya/">Печатные издания</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/pravovaya-informatsiya/dostup-k-pravovoy-informatsii/">Доступ к правовой информации</a></li>
+			
+		
+	
+	
+    			</ul></li>	
+	
+					<li><a href="/bank-dannykh-proektov-zakonov-respubliki-belarus/" class="root-item"><i></i><span>Проекты законов</span></a>
+				<ul>
+		
+	
+	
+    	
+	
+		
+							<li><a href="/bank-dannykh-proektov-zakonov-respubliki-belarus/bank-dannykh-proektov-zakonov-respubliki-belarus/">Общие сведения</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/bank-dannykh-proektov-zakonov-respubliki-belarus/poisk-v-banke-dannykh-proektov-zakonov-respubliki-belarus/">Поиск в банке данных</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/bank-dannykh-proektov-zakonov-respubliki-belarus/bank-dannykh-proektov-zakonov-kak-iskat/">Помощь</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/bank-dannykh-proektov-zakonov-respubliki-belarus/podpiska">Подписки</a></li>
+			
+		
+	
+	
+    			</ul></li>	
+	
+					<li><a href="/o-portale/" class="root-item"><i></i><span>О портале</span></a>
+				<ul>
+		
+	
+	
+    	
+	
+		
+							<li><a href="/o-portale/o-portale/">Общие сведения</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/o-portale/dostup-k-portalu/">Доступ к порталу</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/o-portale/informatsiya-dlya-kontaktov/">Контакты</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/o-portale/bannery/">Баннеры</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/o-portale/reklama-na-portale">Реклама на портале</a></li>
+			
+		
+	
+	
+    	
+	
+		
+							<li><a href="/o-portale/karta-sayta/">Карта сайта</a></li>
+			
+		
+	
+	
+
+	</ul></li>
+</ul>
+<div class="menu-clear-left"></div>
+        <div class="socials">
+            <a href="http://vk.com/pravoby" target="_blank" class="social-vk"></a>
+			<a href="https://www.facebook.com/pravoby" target="_blank" class="social-fb"></a>
+			<a href="http://ok.ru/pravoby" target="_blank" class="social-ok"></a>
+			<a href="https://www.instagram.com/nczpi.by?igsh=MW1rdHRmdGNqNWwyNg" target="_blank" class="social-instagram"></a>
+			<!-- <a href="https://twitter.com/NCPIGOVBY" target="_blank" class="social-tw"></a>
+			<a href="https://invite.viber.com/?g2=AQAMTKedUOIXu0oRqPMQ0RkZBISzYX9Dk29Q6HnC8z%2B6FF1P1ZyzKNTr%2F6l76d%2F6&lang=ru" target="_blank" class="social-vb"></a> -->
+			<a href="https://t.me/pravoby" target="_blank" class="social-tg"></a>
+        </div>
+                            <section class="l-banners">
+                                <a href="/pravovaya-informatsiya/normativnye-dokumenty/konstitutsiya-respubliki-belarus/" title="Обновленная Конституция Республики Беларусь" >
+                <img class="konstitucija2022"  src="/upload/iblock/34d/77pluxkh8a8pic3j19tam54xkoxiern6.jpg" />
+            </a>
+                                <a href="/pravovaya-informatsiya/normotvorcheskaya-deyatelnost/pravovye-akty-po-teme/" title="План подготовки проектов НПА" >
+                <img class="planiproektovnpa"  src="/upload/iblock/318/twwaeyyi2edvbzaiz0dtbeqwjnva8rs8.jpg" />
+            </a>
+            </section>
+
+                    <section class="l-banners">
+                                <a href="/pravovaya-informatsiya/normativnye-dokumenty/konstitutsiya-respubliki-belarus/" title="Конституция Республики Беларусь" >
+                <img class="konstitutsiya"  src="/upload/iblock/498/498c162b19db53a2b3208e923cb17c98.jpg" />
+            </a>
+                                <a href="/pravovaya-informatsiya/normativnye-dokumenty/kodeksy-respubliki-belarus/" title="Кодексы Республики Беларусь" >
+                <img class="kodeksyrb"  src="/upload/iblock/5b0/5b097b07b212bc22fe21de577ac77f7c.jpg" />
+            </a>
+                                <a href="/pravovaya-informatsiya/pravovye-akty-po-temam/osnovnye-akty-programmnogo-kharaktera-imeyushchie-prioritetnoe-politicheskoe-sotsialnoe-i-ekonomiche/" title="БД Акты программного характера" >
+                <img class="aktyprogharak"  src="/upload/iblock/8e5/8e54db9bd013f21fc53d84dbaaeb0831.jpg" />
+            </a>
+                                <a href="/pravovaya-informatsiya/pravovye-akty-po-temam/bank-dannykh-administrativnye-protsedury/pravovye-akty/" title="БД Административные процедуры" >
+                <img class="bdadminproceduri"  src="/upload/iblock/13c/13cb86c84e20347b70821ad8273898cc.jpg" />
+            </a>
+                                <a href="/pravovaya-informatsiya/pravovye-akty-po-temam/bank-dannykh-gosudarstvennye-organy/pravovye-akty/" title="БД Государственные органы" >
+                <img class="bdgosorgany"  src="/upload/iblock/cf1/cf1c4b804498d77fad1e8eaf19169cd1.jpg" />
+            </a>
+            </section>
+
+		<div id="l_cloned_banner">
+						    <section class="r-banners">
+                                <div>
+                <p>
+                    <a title="ОАО «Белорусский банк развития и реконструкции «Белинвестбанк»" target="_blank" href="https://www.belinvestbank.by/business/page/finansirovanie-investiczionnyx-proektov">
+                        <img class="" alt="ОАО «Белорусский банк развития и реконструкции «Белинвестбанк»" src="/upload/iblock/c88/4dodtl68h2066v1hhrcwcy7xfwmf2t8b.jpg" />
+                    </a>
+                </p>
+            </div>
+            </section>
+
+		</div>
+       <!-- <div class="b-aside hide-850 day-in-history">
+            <div class="b-aside__header">Этот день в истории</div>
+            <p class="b-aside__date">29 января</p><p><a href="/etot-den-v-istorii/">29 января 1920 года в Советской России введена всеобщая трудовая повинность</a></p>        </div>-->
+    </aside>
+
+    <aside class="r-aside">
+		<div id="r_banner">
+						    <section class="r-banners">
+                                <div>
+                <p>
+                    <a title="ОАО «Белорусский банк развития и реконструкции «Белинвестбанк»" target="_blank" href="https://www.belinvestbank.by/business/page/finansirovanie-investiczionnyx-proektov">
+                        <img class="" alt="ОАО «Белорусский банк развития и реконструкции «Белинвестбанк»" src="/upload/iblock/c88/4dodtl68h2066v1hhrcwcy7xfwmf2t8b.jpg" />
+                    </a>
+                </p>
+            </div>
+            </section>
+
+		</div><div class="useful-info-block">
+            <div class="b-aside__header">Полезная информация</div>
+
+            <ul>
+	<li style="line-height: 13px;">Ставка рефинансирования <span class="second">9,75&nbsp;%</span> </li>
+	<li>Базовая величина <span class="second">45 руб.</span> </li>
+	<li>Базовая ставка <span class="second">297 руб.</span> </li>
+	<li style="line-height: 13px;">Бюджет прожиточного минимума <span class="second">491,09&nbsp;руб.</span> </li>
+</ul>        </div>
+
+        <div class="b-aside b-currency">
+            <div class="b-aside__header">Курсы валют</div>
+                        <p class="b-aside__date">29.01.2026</p>
+            <table border="0" cellspacing="0" cellpadding="2" width="100%">
+                <tbody>
+                <tr>
+                    <td>€ Евро</td>
+                    <td>3.4172</td>
+                </tr>
+                <tr>
+                    <td>$ Доллар</td>
+                    <td>2.8508</td>
+                </tr>
+                <tr>
+                    <td class="ruble-sign-td"><img src="/images/ruble-currency-sign.svg" class="ruble-sign"> Российский рубль</td>
+                    <td>0.0374</td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="b-currency_footer"><a href="/kursy-valyut/">Архив</a></div>
+        </div>
+        <section>
+                    </section>
+        
+
+                        
+
+        
+    <section class="r-promo-links">
+        <div class="r-header r-header_hidden">Нужен заголовок</div>
+        <div>
+        
+            <a target="_blank" href="https://forumpravo.by/publichnoe-obsuzhdenie-proektov-npa/forum15/"><span>Общественное обсуждение проектов НПА</span></a>
+        
+            <a target="_blank" href="/natsionalnyy-reestr/novye-postupleniya/"><span>Национальный реестр правовых актов</span></a>
+        
+            <a target="_blank" href="/ofitsialnoe-opublikovanie/novye-postupleniya/"><span>Официальное опубликование</span></a>
+        
+            <a target="_blank" href="https://etalonline.by/"><span>Банки данных правовой информации</span></a>
+        
+            <a target="_blank" href="http://multilang.pravo.by/"><span>Юридический словарь</span></a>
+        
+            <a target="_blank" href="https://forumpravo.by/pravovoy-monitoring/forum35/"><span>Правовой мониторинг</span></a>
+                </div>
+    </section>
+
+                
+
+    </aside>
+
+</section>
+
+<footer class="l-footer">
+    <div class="l-footer__in">
+        <div class="h-logo">
+            <a href="#" class="h-logo__img"><img src="/local/templates/.default/i/logo-main.png"></a>
+        </div>
+        <div class="socials footer__socials">
+            <a href="http://vk.com/pravoby" target="_blank" class="social-vk"></a>
+			<a href="https://www.facebook.com/pravoby" target="_blank" class="social-fb"></a>
+			<a href="http://ok.ru/pravoby" target="_blank" class="social-ok"></a>
+			<a href="https://www.instagram.com/nczpi.by?igsh=MW1rdHRmdGNqNWwyNg" target="_blank" class="social-instagram"></a>
+			<!--<a href="https://twitter.com/NCPIGOVBY" target="_blank" class="social-tw"></a>
+			<a href="https://invite.viber.com/?g2=AQAMTKedUOIXu0oRqPMQ0RkZBISzYX9Dk29Q6HnC8z%2B6FF1P1ZyzKNTr%2F6l76d%2F6&lang=ru" target="_blank" class="social-vb"></a>-->
+			<a href="https://t.me/pravoby" target="_blank" class="social-tg"></a>
+        </div>
+
+        <a class="footer__sitemap" href="/o-portale/karta-sayta/">Карта сайта</a>
+
+        <div class="footer__center">
+            
+<ul class="footer__menu">
+
+			<li><a href="/novosti/">Новости</a></li>
+		
+			<li><a href="/novosti/novosti-pravo-by/">Новости Pravo.by</a></li>
+		
+			<li><a href="/novosti/analitika/">Аналитика</a></li>
+		
+			<li><a href="/novosti/infografika-prava/">Инфографика права</a></li>
+		
+			<li><a href="/ofitsialnoe-opublikovanie/">Официальное опубликование</a></li>
+		
+			<li><a href="/pravovaya-informatsiya/">Правовая информация</a></li>
+		
+			<li><a href="/gosudarstvo-i-pravo/">Государство и право</a></li>
+		
+			<li><a href="/bank-dannykh-proektov-zakonov-respubliki-belarus/">Проекты законов</a></li>
+		
+			<li><a href="/o-portale/">О портале</a></li>
+		
+
+</ul>
+                        <div class="f-banners">
+    <ul>
+                    <li>
+            <a href="https://president.gov.by/" title="Официальный Интернет-портал Президента Республики Беларусь" target="_blank">
+                <img class="president" src="/upload/iblock/6b9/6b953f37a31289206bd373b654817619.png" alt="Официальный Интернет-портал Президента Республики Беларусь" />
+            </a>
+        </li>
+                    <li>
+            <a href="https://mir.pravo.by/" title="Детский правовой сайт" target="_blank">
+                <img class="detskiiSait" src="/upload/iblock/8fb/x8i436ucnbt6mmb6z2hlpb530yb2fl5w.jpg" alt="Детский правовой сайт" />
+            </a>
+        </li>
+                    <li>
+            <a href="https://forumpravo.by/" title="Правовой форум Беларуси" target="_blank">
+                <img class="pravovoiForum" src="/upload/iblock/b74/0kmp15iuxs3tkuzeb855xnq4asdz8fq7.jpg" alt="Правовой форум Беларуси" />
+            </a>
+        </li>
+                    <li>
+            <a href="http://journal.pravo.by/" title="Журнал «Право.by»" target="_blank">
+                <img class="journalPravoBy" src="/upload/iblock/ac7/ac7a7f0fd06826a0606908e92006fc71.jpg" alt="Журнал «Право.by»" />
+            </a>
+        </li>
+                    <li>
+            <a href="http://www.belarus.by/ru/" title="Официальный сайт Республики Беларусь" target="_blank">
+                <img class="saitRB" src="/upload/iblock/45a/45ac462d0ab4c0b8fdacd8b02e0ef5a8.jpg" alt="Официальный сайт Республики Беларусь" />
+            </a>
+        </li>
+                    <li>
+            <a href="http://belta.by/" title="БЕЛТА" target="_blank">
+                <img class="belta" src="/upload/iblock/0f3/0f3ca6067a955ba113718f739b7576c3.jpg" alt="БЕЛТА" />
+            </a>
+        </li>
+                    <li>
+            <a href="https://www.youtube.com/@nczpibelarus" title="Канал НЦЗПИ на YouTube" target="_blank">
+                <img class="KanalNCZPI" src="/upload/iblock/296/f2gpmvw8vv3rrwmzv4a5xoh9u11ejuy0.jpg" alt="Канал НЦЗПИ на YouTube" />
+            </a>
+        </li>
+        </ul>
+</div>
+
+        </div>
+        <a href="http://astronim.com" target="_blank" class="developer"><span>Дизайн и программирование</span> — <img src="/local/templates/.default/i/astronim.png" alt=""></a>
+
+        <div class="copyright">
+	 При использовании материалов активная гиперссылка на pravo.by (право бай) обязательна.<br>
+ <br>
+ <a href="/o-portale/informatsiya-dlya-kontaktov/">Контактная информация по вопросам наполнения pravo.by</a>.<br>
+ <br>
+    <a href="/politika-v-otnoshenii-obrabotki-cookie-fajlov/" class="cookie-footer-link">
+        Политика обработки файлов cookie
+    </a>
+    <br />
+    <a href="#" id="cookie-setting-link" class="cookie-footer-link">
+        Настройки обработки файлов cookie
+    </a>
+    <br />
+	 ©&nbsp;<a target="_blank" href="https://center.gov.by/">Национальный центр законодательства и правовой информации Республики Беларусь</a>, 2003-2025
+</div>
+ <br>
+    </div>
+</footer>
+<!--    COOKIE BANNER    -->
+<div class="cookie-container">
+    <div class="cookie-banner" id="main-form">
+        <p>Для обеспечения удобства пользователей данный сайт использует файлы cookie</p>
+        <div class="buttons">
+            <div class="cookie-button" id="accept-all"><div>ПРИНЯТЬ ВСЕ</div></div>
+            <div class="cookie-button" id="reject-all"><div>ОТКЛОНИТЬ ВСЕ <br /><span>(кроме&nbspнеобходимых)</span></div></div>
+        </div>
+        <div class="cookie-settings-link" id="settings"><a href="#">Настроить</a></div>
+        <div class="cookie-link-doc"><a href="/politika-v-otnoshenii-obrabotki-cookie-fajlov/">Политика в отношении обработки cookie-файлов на сайте</a></div>
+    </div>
+    <div class="cookie-banner" id="settings-form">
+        <h3>Настройка обработки файлов cookie</h3>
+        <span>
+            Вы можете настроить, какие типы файлов cookie будут сохраняться на Вашем устройстве, за исключением необходимых cookie, без которых невозможно функционирование сайта. Полное или частичное отключение cookie может привести к ограничению доступа к функционалу сайта
+        </span>
+        <div class="checboxes">
+            <input type="checkbox" id="technical" class="customCheckbox" disabled checked> <label for="technical">Необходимые (технические)</label>
+            <input type="checkbox" id="functional" class="customCheckbox" checked> <label for="functional">Функциональные</label>
+            <input type="checkbox" id="analytical" class="customCheckbox" checked> <label for="analytical">Аналитические</label>
+        </div>
+        <div class="buttons">
+            <div class="cookie-button large-button" id="accept-selected"><div>СОХРАНИТЬ</div></div>
+            <div class="cookie-button large-button"  id="close"><div>ЗАКРЫТЬ</div></div>
+        </div>
+        <div class="cookie-link-doc"><a href="/politika-v-otnoshenii-obrabotki-cookie-fajlov/">Политика в отношении обработки cookie-файлов на сайте</a></div>
+    </div>
+</div>
+<script src="/local/templates/index/components/ittas/cookie.banner/.default/script.js"></script>
+<!--    END COOKIE BANNER    -->
+<button onclick=" mpTopFunction()" id="mpTopBtn" > </button>
+<link href="https://fonts.googleapis.com/css?family=Arimo|Open+Sans:400,600,700|PT+Sans:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+<script src="/local/templates/.default/js/jquery.min.js"></script>
+
+<!--[if (gte IE 6)&(lte IE 8)]>
+    <script type="text/javascript" src="/local/templates/.default/js/lib/selectivizr-min.js"></script>
+    <script type="text/javascript" src="/local/templates/.default/js/lib/PIE_IE678.js"></script>
+    <link rel="stylesheet" media="screen" href="/local/templates/.default/css/ie8.css">
+<![endif]-->
+<script type="text/javascript" src="/local/templates/.default/js/extra.js"></script>
+<script type="text/javascript" src="/local/templates/.default/js/common.js?2219"></script>
+<script type="text/javascript" src="/local/templates/index/slick/slick.min.js"></script>
+<script type="text/javascript" src="/local/templates/index/appear/jquery.appear.js"></script>
+<script type="text/javascript" src="/local/templates/index/countUp/countUp.min.js"></script>
+<script type="text/javascript" src="/local/templates/.default/js/addtocopy.js"></script>
+<script type="text/javascript" src="/local/templates/index/components/ittas/cookie.banner/.default/script.js"></script>
+
+<link rel="stylesheet" media="screen" href="/local/templates/.default/css/fonts.css">
+<link rel="stylesheet" media="screen" href="/local/templates/.default/css/animate.css">
+<link rel="stylesheet" media="print" href="/local/templates/.default/css/print.css">
+
+<script type="text/javascript" src="/mistakes/mistakes.js"></script>
+<link href="/mistakes/mistakes.css" rel="stylesheet" type="text/css" />
+
+<!--LiveInternet counter-->
+<div style="display:none">
+<script type="text/javascript">
+document.write("<a href='//www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t26.5;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";h"+escape(document.title.substring(0,80))+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число посетителей за"+
+" сегодня' "+
+"border=0 width=88 height=15><\/a>")</script>
+</div>
+<!--/LiveInternet-->
+
+<!-- Yandex.Metrika counter 
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter30383037 = new Ya.Metrika({id:30383037,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/30383037" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+ /Yandex.Metrika counter -->
+
+<script>
+    const options = {
+        separator: ' ',
+    };
+    var countPravAct = new CountUp('cntr-bank-dannyh', 145627 , 291253,0,2,options);
+    var countUpSBankDannyh = new CountUp('cntr-prav-act', 171450 , 342899,0,2,options);
+    //var countUpPostanovlen = new CountUp('cntr-postanovl', // , //,0,2,options);
+    var countUpProectZakon = new CountUp('cntr-poekt-zakon',  12 , 24,0,2,options);
+    $.appear('#counters');
+    $('#counters').on('appear', function(){
+        countPravAct.start();
+        countUpSBankDannyh.start();
+        // countUpPostanovlen.start();
+        countUpProectZakon.start();
+    });
+</script>
+
+<script>
+    //Get the button
+    var mybuttonScrollTop = document.getElementById("mpTopBtn");
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            mybuttonScrollTop.style.display = "block";
+        } else {
+            mybuttonScrollTop.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function mpTopFunction() {
+        $('html, body').animate({ scrollTop: 0 }, 800);
+       // document.documentElement.scrollTop = 0;
+    }
+</script>
+
+</div>
+
+</body>
+</html>

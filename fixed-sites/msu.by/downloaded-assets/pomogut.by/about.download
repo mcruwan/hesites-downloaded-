@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomogut</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="/static/main_page/script/custom.js?123"></script>
+  <link rel="stylesheet" href="/static/main_template/css/style.min.css">
+  <link rel="shortcut icon" href="/static/main_template/images/favicon.png" type="image/png">
+	<script>
+        (function(w,d,u){
+                var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
+                var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+        })(window,document,'https://cdn.bitrix24.by/b5628119/crm/site_button/loader_5_9riglr.js');
+</script>
+  <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+       m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+       //var userip = "";
+       $.ajax({
+          url:'/pomog/get_client_ip/',
+          success:function(data){
+                console.log(data)
+                ym(52901680, "init", {
+                id:52901680,
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true,
+                webvisor:true,
+                params:{'ip': data}
+                });
+          }
+       })
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/52901680" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  <!-- /Yandex.Metrika counter -->
+  
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <nav class=" navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#header_menu">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        </div>
+
+          <div class=" collapse navbar-collapse row" id="header_menu">
+            <ul class="nav navbar-nav col-lg-8">
+              
+                <li><a href="/pomog/category/deti/1/">Дети</a></li>
+              
+                <li><a href="/pomog/category/podrostki/2/">Подростки</a></li>
+              
+                <li><a href="/pomog/category/molodye-lyudi/3/">Молодые люди</a></li>
+              
+                <li><a href="/pomog/category/roditeli/4/">Родители</a></li>
+              
+                <li><a href="/pomog/category/shkoly/5/">Школы</a></li>
+              
+              <li id="FAQs_header"><a href="/o-nas/">О нас</a></li>
+              <li id="FAQs_header"><a href="/pomog/FAQs/">ЧАВО</a></li>
+              <li><a href="/pomog/Encyclopedia_of_knowledge/">Энциклопедия знаний</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right col-lg-2 col-lg-offset-2">
+              <li><a href="/pomog/Encyclopedia_of_knowledge/">Энциклопедия знаний</a></li>
+            </ul>
+          </div>
+
+      </div>
+    </nav>
+    <div class="container header">
+      <div class="row">
+      <div class="col col-lg-5 col-md-6 col-sm-6">
+        <a href="//kids.pomogut.by">
+          <img class="img-logo-desktop" src="/static/main_template/images/header/logo-with-kids.svg" alt="">
+          <img class="img-logo-tablet" src="/static/main_template/images/header/logo-with-kids-mobile.svg" alt="" style="
+    width: 330px;
+    height: 60px;
+">
+          <img class="img-logo-mobile" src="/static/main_template/images/header/logo-with-kids-mobile.svg" alt="" style="
+    width: 194px;
+    height: 40px;
+">
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-lg-offset-4 col-md-4 col-md-offset-2 col-sm-6 header-buttons-section" >
+
+        <a  href="tel:88011001611" id="phone_number_">
+          <div class="header-phone-button">
+            <img class="img-phone-pic" src="/static/main_template/images/header/icon-phone.svg" alt="">
+            <p class="img-phone-number" id="phone_number">8 801 100 16 11</p>
+          </div>
+
+        </a>
+
+        <a href="/pomog/search_helper">
+          <div class="header-search-button">
+            <img src="/static/main_template/images/header/icon-search.svg" alt="">
+          </div>
+        </a>
+      </div>
+      </div>
+    </div>
+    <div class="stripe_under-header"></div>
+    <div class="content">
+      
+      
+
+      
+      
+
+      
+      
+
+      
+
+<script type="text/javascript" src="/static/error/script/script.js"></script>
+<link rel="stylesheet" href="/static/error/css/normalize.css">
+<link rel="stylesheet" href="/static/error/css/404.min.css">
+
+
+
+  <div class="container block-404">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="image-404 center-block"><img class="center-block" src="/static/error/images/image-404/new_error404.jpg" alt=""></div>
+          <h3 class="text-center">Похоже, ты заблудился...</h3>
+          <p class="center-block">Мы хотим, чтобы вы нашли то, что искали.
+            Пожалуйста, попробуйте поиск на месте, и если вы все еще не видите
+            нужную информацию, пожалуйста, свяжитесь с нами.</p>
+        </div>
+      </div>
+    </div>
+
+
+
+      
+      
+
+      
+      
+
+      
+      
+
+    </div>
+    <div class="row footer">
+      <div class="container">
+        <div class="col col-lg-3 col-md-4 col-sm-12 col-xs-12  ">
+          <p id="id_unicef">© 2019 UNICEF </p>
+          <p id="id_unicef_belarus">Детский Фонд ООН (ЮНИСЕФ) Представительство
+            в Республике Беларусь</p>
+                       <div class="links_to_follow">
+            <ul class="desktop">
+            <!---    <li><a href="#"><img src="/static/main_template/images/footer/icon-facebook.svg" alt=""></a></li>
+              <li><a href="#"><img src="/static/main_template/images/footer/icon-twitter.svg" alt=""></a></li>
+              <li><a href="#"><img src="/static/main_template/images/footer/icon-vk.svg" alt=""></a></li>
+              <li><a href="#"><img src="/static/main_template/images/footer/icon-viber.svg" alt=""></a></li>      -->
+            </ul>
+            <ul class="mobile">
+          <!---      <li><a href="#"><img src="/static/main_template/images/footer-mobile/icon-facebook.svg" alt=""></a></li>
+              <li><a href="#"><img src="/static/main_template/images/footer-mobile/icon-twitter.svg" alt=""></a></li>
+              <li><a href="#"><img src="/static/main_template/images/footer-mobile/icon-vk.svg" alt=""></a></li>
+              <li><a href="#"><img src="/static/main_template/images/footer-mobile/icon-viber.svg" alt=""></a></li>      -->
+            </ul>
+          </div>
+        </div>
+   <!---  <div class="col col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-3 col-xs-12 links_to_navigation">
+          
+            
+              <a href="/pomog/category/deti/1/"><p>Дети</p></a>
+            
+          
+            
+              <a href="/pomog/category/podrostki/2/"><p>Подростки</p></a>
+            
+          
+            
+              <a href="/pomog/category/molodye-lyudi/3/"><p>Молодые люди</p></a>
+            
+          
+            
+              <a href="/pomog/category/roditeli/4/"><p>Родители</p></a>
+            
+          
+            
+              <a href="/pomog/category/shkoly/5/"><p>Школы</p></a>
+            
+          
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12 links_to_navigation">
+          
+          <a href="/pomog/FAQs/" id="FAQs_footer"><p>FAQs</p></a>
+        </div>
+
+      -->
+        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12  links_to_navigation">
+          
+            <a href="http://pomogut.by/"><p>pomogut.by</p></a>
+          
+          <p hidden id="LinksFooter">hello</p><!---LinksFooter-->
+
+        </div>
+        <div class="" style ="display:inline-block; color; #fff; text-align: center;
+  ">
+
+  <ul class="desktop" >
+ <li style =" border-radius: 100px;">  <a href="https://mvd.gov.by/ru"><img src="/static/main_template/images/6Wn8HRdbO1o.png" width="90" height="90" alt=""> <figcaption style ="color:#fff;"></figcaption></a>
+          <li style =" border-radius: 100px;">  <a href="https://nces.by"><img src="/static/main_template/images/nceu18tibo.png" width="80" height="80" alt=""><figcaption style ="color:#fff;"></figcaption></a>  </li>
+                 <!-- <li >  <a href="https://www.polskapomoc.gov.pl/Polish,Aid,160.html"><img src="/static/main_template/images/image002.jpg" width="112" height="68" alt=""><figcaption style ="color:#fff;"></figcaption></a></li> -->
+                  <li >  <a href="https://www.unicef.by/"><img src="/static/main_template/images/UNICEF_ForEveryChild_White_Vertical_RGB_144ppi_RU.png" bgcolor="#fff" width="121" height="70" alt=""><figcaption style ="color:#fff;"></figcaption></a></li>
+                 
+                  </li>
+                </ul>
+  </div>
+      </div>
+      <div class="under-footer">
+      </div>
+    </div>
+    
+      <script type="text/javascript">
+        $(document).ready(function() {
+          $(window).scroll(function() {
+            if ($(this).scrollTop() > 100) {
+              $('.scrollup').fadeIn();
+            } else {
+              $('.scrollup').fadeOut();
+            }
+          });
+          $('.scrollup').click(function() {
+            $("html, body").animate({
+              scrollTop: 0
+            }, 600);
+            return false;
+          });
+        });
+      </script>
+  <!---  <a href="#"  class="scrollup" ></a> -->
+	
+
+
+
+     <!---   <a href=""><p></p></a>-->
+
+  </div>
+</body>
+
+</html>

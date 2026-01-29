@@ -1,0 +1,686 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+
+    <meta name='yandex-verification' content='5c4692bed5fb60e1' />
+	<meta name="google-site-verification" content="kOrdy7Ya2Me5L5zkYXPvOjS4qgSMpGZ7ZcF61Y5x-SE" />
+
+    <meta name="description" content="abiturient.by - Сайт abiturient.by -  Куда поступить после школы. Куда можно поступить. Каталог специальностей Беларуси. Все специальности вузов Беларуси. Куда поступить после школы. ВСТУПИТЕЛЬНАЯ КАМПАНИЯ, ВУЗЫ, ССУЗЫ И ПТУЗЫ БЕЛАРУСИ. ЭЛЕКТРОННЫЙ СПРАВОЧНИК АБИТУРИЕНТА,  ЦТ, РТ, КУРСЫ, ПОДГОТОВКА. Где учиться в Беларуси. Как правильно выбрать специальность. Информация о вузах Беларуси. Мониторинг вступительной кампании в вузы Беларуси. Проходные баллы в вузы Беларуси. В какой вуз подать документы. Где лучше учиться в Беларуси. Сравнение вузов Беларуси. Порядки приема в вузы Беларуси. Куды паступіць пасля школы. Куды можна паступіць. Каталог спецыяльнасцяў Беларусі. Усе спецыяльнасці Беларусі. Куды паступіць пасля школы. УСТУПНАЯ КАМПАНІЯ, ВНУ, ССНУ і ПТНУ БЕЛАРУСІ. ЭЛЕКТРОННЫ ДАВЕДНІК абітурыента, ЦТ, РТ, КУРСЫ, ПАДРЫХТОЎКА. Дзе вучыцца ў Беларусі. Як правільна выбраць спецыяльнасць. Інфармацыя аб ВНУ Беларусі. Маніторынг уступнай кампаніі ў ВНУ Беларусі. Прахадныя балы ў ВНУ Беларусі. У якую ВНУ падаць дакументы. Дзе лепш вучыцца ў Беларусі. Параўнанне ВНУ Беларусі. Парадкі прыёму ў ВНУ Беларусі." />
+	<meta name="keywords" content="abiturient.by - ABITURIENT.by -   Сайт Абитуриент -- Куда поступить после. Куда можно поступить. Все учреждения образования Беларуси: ПТУ, ВУЗЫ, ССУЗЫ, КОЛЛЕДЖИ, ЛИЦЕИ,  ЦТ, РТ, КУРСЫ  ЭЛЕКТРОННЫЙ СПРАВОЧНИК АБИТУРИЕНТА. Сайт Абітурыент - Куды паступіць пасля. Куды можна паступіць. Усе ўстановы адукацыі Беларусі: ПТВ, ВНУ, ССНУ, каледжаў, ліцэі, ЦТ, РТ, КУРСЫ ЭЛЕКТРОННЫ ДАВЕДНІК абітурыента " />
+
+      <meta name="viewport" content="width=1250,initial-scale=1.0,minimum-scale=0.3,maximum-scale=1.0" />
+
+      <link rel="apple-touch-icon" href="/misc/apple-touch-icon.png" />
+      <link rel="apple-touch-icon" sizes="57x57" href="/misc/apple-touch-icon-57x57.png" />
+      <link rel="apple-touch-icon" sizes="72x72" href="/misc/apple-touch-icon-72x72.png" />
+      <link rel="apple-touch-icon" sizes="76x76" href="/misc/apple-touch-icon-76x76.png" />
+      <link rel="apple-touch-icon" sizes="114x114" href="/misc/apple-touch-icon-114x114.png" />
+      <link rel="apple-touch-icon" sizes="120x120" href="/misc/apple-touch-icon-120x120.png" />
+      <link rel="apple-touch-icon" sizes="144x144" href="/misc/apple-touch-icon-144x144.png" />
+      <link rel="apple-touch-icon" sizes="152x152" href="/misc/apple-touch-icon-152x152.png" />
+      <link rel="apple-touch-icon" sizes="180x180" href="/misc/apple-touch-icon-180x180.png" />
+
+    <title>Добро пожаловать | ABITURIENT.BY</title>
+
+    <link type="text/css" rel="stylesheet" media="all" href="/files/css/css_72d44958426d16ead061cd2bfc4cb0ee.css" />
+<link type="text/css" rel="stylesheet" media="print" href="/files/css/css_b1c65b541ea67d0d61a0a84796641927.css" />
+    <script type="text/javascript" src="/misc/jquery.js?a"></script>
+<script type="text/javascript" src="/misc/drupal.js?a"></script>
+<script type="text/javascript" src="/files/languages/ru_c521510604ce20572597a422d8ec1f26.js?a"></script>
+<script type="text/javascript" src="/sites/all/modules/nice_menus/superfish/js/superfish.js?a"></script>
+<script type="text/javascript" src="/sites/all/modules/nice_menus/superfish/js/jquery.bgiframe.min.js?a"></script>
+<script type="text/javascript" src="/sites/all/modules/nice_menus/superfish/js/jquery.hoverIntent.minified.js?a"></script>
+<script type="text/javascript" src="/sites/all/modules/nice_menus/nice_menus.js?a"></script>
+<script type="text/javascript" src="/sites/all/modules/spamspan/spamspan.compressed.js?a"></script>
+<script type="text/javascript" src="/sites/all/modules/views_accordion/views-accordion.js?a"></script>
+<script type="text/javascript" src="/sites/all/modules/captcha/captcha.js?a"></script>
+<script type="text/javascript" src="/sites/all/modules/captcha/image_captcha/image_captcha.js?a"></script>
+<script type="text/javascript" src="/sites/all/themes/ab/common.js?a"></script>
+<script type="text/javascript" src="/sites/all/themes/ab/jquery.jgrowl.js?a"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "nice_menus_options": { "delay": "800", "speed": "slow" }, "spamspan": { "m": "spamspan", "u": "u", "d": "d", "h": "h", "t": "t" }, "views_accordion": { "views-accordion-univerlist-default": { "keeponeopen": 0, "startopen": 0, "rowstartopen": "0", "speed": 500, "disablecloseothers": 0, "grouping": 1, "togglelinks": 0, "autocycle": 0, "autocyclespeed": 5000, "display": "views-accordion-univerlist-default", "usegroupheader": 1, "enableheaderlinks": 0, "header": "h3.views-accordion-univerlist-default" } } });
+//--><!]]>
+</script>
+
+    <!--[if lt IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/ab/fix-ie.css" />    <![endif]-->
+
+	      <!-- Global site tag (gtag.js) - Google Analytics -->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-4F1GVDQNDQ"></script>
+     <script>
+       window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
+
+       gtag('config', 'G-4F1GVDQNDQ');
+     </script>
+     
+  </head>
+  <body class="sidebars">
+
+    <div id="block-block-35" class="clear-block block block-block">
+
+
+  <div class="content">
+<div id="top_reklus">
+
+	<div class="top_add_item" style="display: inline-block;">
+		<a href="http://bru.by/content/abiturient" target="_blank"><img src="/files/banners/baner_bru_22_01_2026_ready.jpg"/></a>
+	</div>
+
+	<div class="top_add_item" style="display: inline-block;">
+		<a href="https://i.bntu.by/" target="_blank"><img src="/files/banners/bntu-2024-04_0.jpeg" /></a>
+	</div>
+
+        <div class="top_add_item" style="display: inline-block;">
+		<a href="https://abiturient.bsu.by/priemnaia-kampaniia/postuplenie-na-pedagogicheskie-speczialnosti-bgu" target="_blank"><img src="/files/banners/dlya-abiturient-bay.gif" /></a>
+	</div>
+
+	<div class="top_add_item" style="display: inline-block;">
+                <a href="https://hosta.by/?from=2573" target="_blank"><img src="/files/banners/hostabanner_0.png" /></a>
+	</div>
+    
+       <div class="top_add_item" style="display: inline-block;">
+		<a href="https://abiturient.belstu.by/" target="_blank"><img src="/files/banners/bdtu-2020_0.png" /></a>
+	</div>
+
+  </div></div>
+</div>
+  
+<!-- Layout -->
+    <div id="wrapper">
+    <div id="container" class="clear-block">
+
+      <div id="header">
+      	<div id="top_header">
+      		<div id="enterzone" style="margin-top: 0;">
+			<a href="/welcome?lang=en" style="position: absolute; top: 0; right: 148px; width: 42px;" class="active">EN</a>      		<a href="/user" id="loginus_link">Служебный вход</a>				<!-- login form area -->
+
+				<div id="login_area">
+					<div id="block-user-0" class="clear-block block block-user">
+
+  <h2>Вход в систему</h2>
+
+  <div class="content"><form action="/"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Имя пользователя: <span class="form-required" title="Обязательное поле">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Пароль: <span class="form-required" title="Обязательное поле">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<div class="captcha"><input type="hidden" name="captcha_sid" id="edit-captcha-sid" value="14672848"  />
+<input type="hidden" name="captcha_token" id="edit-captcha-token" value="f97ca081a94598afaab93a97d4d53cca"  />
+<img src="/image_captcha/14672848/1769644884" class="captcha_image" id="captcha_image_14672848" alt="CAPTCHA на основе изображений" title="CAPTCHA на основе изображений" /><div class="form-item" id="edit-captcha-response-wrapper">
+ <label for="edit-captcha-response">Какой код на картинке?: <span class="form-required" title="Обязательное поле">*</span></label>
+ <input type="text" maxlength="128" name="captcha_response" id="edit-captcha-response" size="15" value="" class="form-text required" />
+ <div class="description">Введите символы с картинки</div>
+</div>
+</div><input type="submit" name="op" id="edit-submit" value="Вход в систему"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-EU7ADytAEEGA3KEPhafHsiWu1AcZKlG1BlVX4uWplIg" value="form-EU7ADytAEEGA3KEPhafHsiWu1AcZKlG1BlVX4uWplIg"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+</div>
+</div>
+				</div>
+
+				<!-- /login form area -->
+      		</div>
+      		<div id="header-search-form">
+      			<form action="/search/google" method="get">
+				<script>
+				var search_form_clicked = false;
+				</script>
+				<div id="search" class="container-inline">
+				  <input type="text" maxlength="128" name="query" id="edit-search-theme-form-1" size="15" value="Поиск по сайту..." title="Введите ключевые слова для поиска." class="form-text" onblur="if (this.value == '') { this.value='Поиск по сайту...'; search_form_clicked = false; }" onfocus="if (!search_form_clicked) { this.value=''; search_form_clicked = true; }"/>
+				  <input type="image" src="/sites/all/themes/ab/images/submit.png" value="Поиск" id="edit-submit-search" name="op" onclick="return (query.value!='Поиск по сайту...')"/>
+				</div>
+				</form>
+      		</div>
+      		<div id="toptop-title"><a name="top"></a>
+      		<a href="/"><strong>abiturient.by</strong></a> -  Справочный ресурс для поступающих!      		</div>
+    	</div>
+
+                    <table id="headertbl">
+                <tr>
+                    <td style="text-align: right;">
+                        <div id="block-block-58" class="clear-block block block-block">
+
+
+  <div class="content">
+<a href="https://www.sportedu.by/abiturientu/"><img src="/files/banners/bgufk_zelenyy_2.png" /></a></div>
+</div>
+<div id="block-block-59" class="clear-block block block-block">
+
+
+  <div class="content">
+<a href="https://abit.bgut.by/"><img src="/files/banners/chem-food-2025_0.jpg"/></a></div>
+</div>
+                    </td>
+                    <td width="770" style="text-align: center;">
+                        <div id="block-block-51" class="clear-block block block-block">
+
+
+  <div class="content">
+<a href="https://economy.bsu.by/abiturientam/abiturientam-bakalavriat/openday/?utm_source=abiturientby&utm_medium=banner&utm_campaign=dod&utm_content=autumn" target="_blank">
+       <img src="/files/banners/banner-abiturient_bay_ef_bgu.gif" alt="Экономический факультет БГУ" />
+    </a>
+</div>
+</div>
+<div id="block-block-49" class="clear-block block block-block">
+
+
+  <div class="content">
+<a href="https://sb.bsu.by/novosty/institut-biznesa-bgu-priglashaet-na-dni-otkrytyh-dverei-2026" target="_blank" rel="nofollow">
+<img width="750" src="/files/banners/dody_banner_750h125_0.png" />
+</a>
+
+<!--a href="https://sb.bsu.by/postupaiuscemu/obscee-vysshee-obrazovanie" target="_blank" rel="nofollow">
+<img width="750" src="/files/banners/ib_bdu_202504.png" />
+</a-->
+</div>
+</div>
+                    </td>
+                    <td style="text-align: left;">
+                        <div id="block-block-60" class="clear-block block block-block">
+
+
+  <div class="content">
+<a href="https://buk.by/applicants/"  target="_blank">
+  <img src="/files/banners/banner_250_125_abiturient.bay_2025-2026_uch._g.jpg" />
+</a></div>
+</div>
+<div id="block-block-61" class="clear-block block block-block">
+
+
+  <div class="content">
+<a href="https://abit.by"><img src="/files/banners/banner_9_edit.jpg" alt="" /></a></div>
+</div>
+                    </td>
+                </tr>
+            </table>
+        
+	  <div id="header-region" class="clear-block"><div id="block-block-27" class="clear-block block block-block">
+
+
+  <div class="content"><div class="numered_bomb numered_bomb_3"><span>3</span></div>
+<h1><span>Как поступить?</span></h1>
+<ul class="links3">
+  <li><a href="/admittance-rules" title="Порядки приема в учреждения высшего образования">Порядки приема в учреждения высшего образования</a></li>
+  <li><a href="/admittance-info" title="Информация приемных комиссий учреждений высшего образования">Информация приемных комиссий учреждений высшего образования</a></li>
+</ul></div>
+</div>
+<div id="block-block-26" class="clear-block block block-block">
+
+
+  <div class="content"><div class="numered_bomb numered_bomb_2"><span>2</span></div>
+<h1><span>Где учиться?</span></h1>
+<ul class="links3">
+  <li><a href="/advanced-search" title="Каталог вузов Республики Беларусь">Поиск учреждения высшего образования по специальности</a></li>
+  <li><a href="/compare-rates" title="Сравнение своих показателей с прошлогодними проходными баллами">Сравнение своих показателей<br />с прошлогодними проходными баллами</a></li>
+</ul></div>
+</div>
+<div id="block-block-25" class="clear-block block block-block">
+
+
+  <div class="content"><div class="numered_bomb numered_bomb_1"><span>1</span></div>
+<h1><span>Кем быть?</span></h1>
+<ul class="links3">
+	<li><a href="/okrb-011-2022" title="Каталог специальностей ОКРБ 011-2022">Каталог специальностей ОКРБ 011-2022</a></li>
+        <li><a href="https://profitest.ripo.by/public/main" target="_blank" title="ПрофиТест">Набор тестов "ПрофиТест" для выбора профессии и специальности</a></li>
+</ul></div>
+</div>
+</div>
+      </div> <!-- /header -->
+
+              <div id="sidebar-left" class="sidebar">
+          <div id="block-nice_menus-2" class="clear-block block block-nice_menus">
+
+  <h2>В ПОМОЩЬ АБИТУРИЕНТУ</h2>
+
+  <div class="content"><ul class="nice-menu nice-menu-right" id="nice-menu-2"><li class="menu-65181 menu-path-advanced-search first  odd "><a href="/advanced-search" title="">Поиск учреждения высшего образования по специальности</a></li>
+<li class="menu-65182 menu-path-ab-paid-services-inrates even "><a href="/compare-rates" title="">Сравнение своих показателей с прошлогодними проходными баллами</a></li>
+<li class="menu-65245 menu-path-node-86591 odd "><a href="/tselevye-mesta.html" title="">Поступающим на целевые места (с интерактивной картой УВО)</a></li>
+<li class="menu-65246 menu-path-node-86592 even "><a href="/bez-vstupitelnykh-ispytaniy.html" title="">Поступающим без вступительных испытаний</a></li>
+<li class="menu-65279 menu-path-https--edugovby-abiturientu-2024-vypusknikam-profilnykh-klassov-professionalnoy-napravlennosti- odd "><a href="https://edu.gov.by/abiturientu-2024/vypusknikam-profilnykh-klassov-professionalnoy-napravlennosti/" title="">Выпускникам профильных классов профессиональной направленности</a></li>
+<li class="menu-65238 menu-path-node-86503 even  last "><a href="/rf-abiturients.html" title="">Поступление абитуриентов из Российской Федерации</a></li>
+</ul>
+</div>
+</div>
+<div id="block-nice_menus-1" class="clear-block block block-nice_menus">
+
+  <h2>Вашему вниманию</h2>
+
+  <div class="content"><ul class="nice-menu nice-menu-right" id="nice-menu-1"><li class="menu-4852 menu-path-news first  odd "><a href="/news" title="Новости">Новости</a></li>
+<li class="menu-1787 menu-path-node-16024 even "><a href="/universities" title="Каталог учреждений высшего образования">Каталог учреждений высшего образования</a></li>
+<li class="menu-65029 menuparent menu-path-node-80400 odd "><a href="/okrb-011-2022" title="Каталог специальностей ОКРБ 011-2022">Каталог специальностей ОКРБ 011-2022</a><ul><li class="menu-65082 menu-path-spec_table-table2022-6-05 first  odd "><a href="/spec_table/table2022/6-05" title="6-05: Специальности, квалификации и степени общего высшего образования, обеспечивающего получение степени &quot;Бакалавр&quot; и квалификации специалиста с общим высшим образованием">6-05 (бакалавр)</a></li>
+<li class="menu-65083 menu-path-spec_table-table2022-7-06 even "><a href="/spec_table/table2022/7-06" title="7-06: Специальности, квалификации и степени углубленного высшего образования, обеспечивающего получение степени &quot;Магистр&quot;">7-06 (магистр)</a></li>
+<li class="menu-65084 menu-path-spec_table-table2022-7-07 odd "><a href="/spec_table/table2022/7-07" title="7-07: Специальности, квалификации и степени специального высшего образования, обеспечивающего получение степени &quot;Магистр&quot; и квалификации специалиста со специальным высшим образованием">7-07 (магистр, спец. ВО)</a></li>
+<li class="menu-65085 menu-path-spec_table-table2022-9-08 even "><a href="/spec_table/table2022/9-08" title="9-08: Специальности и квалификации переподготовки руководящих работников и специалистов, имеющих среднее специальное образование">9-08 (переподготовка)</a></li>
+<li class="menu-65086 menu-path-spec_table-table2022-9-09 odd  last "><a href="/spec_table/table2022/9-09" title="9-09: Специальности и квалификации переподготовки руководящих работников и специалистов, имеющих высшее образование">9-09 (переподготовка ВО)</a></li>
+</ul>
+</li>
+<li class="menu-27555 menu-path-qualup_themes even "><a href="/qualup_themes" title="">Каталог курсов повышения квалификации в учреждениях высшего образования</a></li>
+<li class="menu-5791 menuparent menu-path-node-16035 odd "><a href="/useful-info" title="">Полезно знать</a><ul><li class="menu-6379 menu-path-admittance-rules first  odd "><a href="/admittance-rules" title="">Порядки приема в УВО</a></li>
+<li class="menu-5793 menu-path-node-16034 even "><a href="/intel-property" title="Интеллектуальная собственность">Что такое &quot;Интеллектуальная собственность&quot;?</a></li>
+<li class="menu-49478 menu-path-node-35044 odd  last "><a href="/examination-programs" title="Программы вступительных испытаний">Программы вступительных испытаний</a></li>
+</ul>
+</li>
+<li class="menu-7062 menu-path-node-19769 even "><a href="/faq" title="Ответы на часто задаваемые вопросы">Инструкция по использованию сайта</a></li>
+<li class="menu-380 menu-path-node-1 odd "><a href="/about" title="О проекте">О проекте</a></li>
+<li class="menu-4856 menu-path-node-15973 even  last "><a href="/contacts" title="Контакты разработчиков проекта">Контакты проекта</a></li>
+</ul>
+</div>
+</div>
+<div id="block-block-1" class="clear-block block block-block">
+
+  <h2>Полезные ссылки</h2>
+
+  <div class="content"><ul class="links"> 
+<li><a rel="nofollow" href="https://edu.gov.by/" title="Министерство образования Республики Беларусь">Министерство образования Республики Беларусь</a></li>
+<p></p> 
+<li><a rel="nofollow" href="http://rikc.by/" title="Республиканский институт контроля знаний">Республиканский институт контроля знаний</a></li>
+<p></p> 
+<li><a rel="nofollow" href="http://www.nihe.by/" title="Республиканский институт высшей школы">Республиканский институт высшей школы</a></li>
+<p></p> 
+<li><a rel="nofollow" href="https://ripo.by" target="_blank">Республиканский институт профессионального образования</a></li>
+<p></p>
+<li><a rel="nofollow" href="http://www.minprom.gov.by" title="Министерство промышленности">Министерство промышленности</a></li><p></p> 
+<li><a rel="nofollow" href="https://mchs.gov.by/" title="Министерство по чрезвычайным ситуациям Республики Беларусь">Министерство по чрезвычайным ситуациям Республики Беларусь</a></li><p></p> 
+<li><a rel="nofollow" href="http://www.mil.by/by/" title="Министерство обороны Республики Беларусь">Министерство обороны Республики Беларусь</a></li><p></p> 
+<li><a rel="nofollow" href="http://www.mst.by" title="Министерство спорта и туризма Республики Беларусь">Министерство спорта и туризма Республики Беларусь</a></li><p></p> 
+<li><a rel="nofollow" href="http://www.mpt.gov.by/be/" title="Министерство связи и информатизации Республики Беларусь">Министерство связи и информатизации Республики Беларусь</a></li><p></p> 
+<li><a rel="nofollow" href="http://www.mintrans.gov.by/" title="Министерство транспорта и коммуникаций Республики Беларусь">Министерство транспорта и коммуникаций Республики Беларусь</a></li><p></p> 
+<li><a rel="nofollow" href="http://www.nbrb.by/bel/" title="Национальный банк Республики Беларусь">Национальный банк Республики Беларусь</a></li><p></p>
+<li><a rel="nofollow" href="http://lab-centre.ru" title="Центральная Лаборатория Автоматизации Измерений">Центральная Лаборатория Автоматизации Измерений</a></li>
+<p></p>
+<li><a rel="nofollow" href="http://e-padruchnik.adu.by/" title="Электронные версии учебников">Электронные версии учебников</a></li>
+</ul></div>
+</div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+
+	      	
+          <div class="ab-breadcrumbs"></div>                                                                                <div class="clear-block">
+
+						<div class="topcontent">
+				<div id="block-views-lastnews-block_1" class="clear-block block block-views">
+
+  <h2>Наши новости</h2>
+
+  <div class="content"><div class="news_tl"><div class="news_tr"><div class="news_b">
+<div class="news_t"><a href="/news" class="news_archive"><span>Архив новостей</span></a></div>
+<div class="news_bl"><div class="news_br"><div class="news_l"><div class="news_r">
+<div class="view view-lastnews 
+	 view-id-lastnews view-display-id-block_1 
+	 view-dom-id-3992776c53b4630f9ad0a1507f6b3a6d" style="overflow: auto;">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-news-foto-fid">        <span class="field-content"><a href="/news/22-01-2026/91587.html"><img src="https://abiturient.by/files/imagecache/news-big/news-photo/navina_perahod_na_elektronnyya_sertyf_ce.jpg" alt="" title="" width="250" height="250" class="imagecache imagecache-news-big imagecache-default imagecache-news-big_default"/></a></span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/22-01-2026/91587.html">РИКЗ анонсировал поэтапный переход на электронные сертификаты ЦЭ и ЦТ</a></span>  </div>  
+  <div class="views-field views-field-teaser">        <div class="field-content"><div>На сайте&nbsp;<a href="https://rikc.by">Республиканского института контроля знаний </a>(РИКЗ) появилась подробная информация о поэтапном переходе на электронные сертификаты ЦЭ и ЦТ начиная с 2026 года.</div>
+<div>Бумажные сертификаты постепенно уйдут в прошлое.</div>
+<div></div>
+<div>
+<p>Что такое электронный сертификат?</p>
+<p>Это официальный цифровой документ с электронной подписью РИКЗ и QR-кодом для мгновенной проверки подлинности.</p>
+<p><strong>&nbsp;Ключевые преимущества:</strong></p>
+<p><strong>Для абитуриентов:</strong></p>
+<p>- Никаких рисков утери или порчи документа.</p>
+</div>
+</div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-field-news-foto-fid">        <span class="field-content"><a href="/news/21-01-2026/91586.html"><img src="https://abiturient.by/files/imagecache/news-big/news-photo/den_otkrytyh_dverey.jpg" alt="" title="" width="250" height="250" class="imagecache imagecache-news-big imagecache-default imagecache-news-big_default"/></a></span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/21-01-2026/91586.html">День открытых дверей</a></span>  </div>  
+  <div class="views-field views-field-teaser">        <div class="field-content"><div class="page-text wrapper">
+<p><span><strong>24 января 2026 года</strong>&nbsp;в Белорусском государственном университете иностранных языков&nbsp;</span>пройдет День открытых дверей.</p>
+</div>
+</div>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-field-news-foto-fid">        <span class="field-content"><a href="/news/15-01-2026/91517.html"><img src="https://abiturient.by/files/imagecache/news-big/news-photo/lc39.jpg" alt="" title="" width="250" height="250" class="imagecache imagecache-news-big imagecache-default imagecache-news-big_default"/></a></span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/15-01-2026/91517.html">Опубликован Указ &quot;О совершенствовании вступительной кампании&quot;</a></span>  </div>  
+  <div class="views-field views-field-teaser">        <div class="field-content"><p>На Национальном правовом портале опубликован Указ Главы государства от 31 декабря 2025 г. № 463 «О совершенствовании вступительной кампании», в котором предусмотрены некоторые изменения условий&nbsp; поступления в высшие и средние специальные учебные заведения Республики Беларусь.</p>
+</div>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-field-news-foto-fid">        <span class="field-content"><a href="/news/14-01-2026/91516.html"><img src="https://abiturient.by/files/imagecache/news-big/news-photo/mirtek-1_s.jpg" alt="" title="" width="250" height="250" class="imagecache imagecache-news-big imagecache-default imagecache-news-big_default"/></a></span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/14-01-2026/91516.html">Занятак для інжынерных класаў ГДТУ імя П.В. Сухога на прадпрыемствы &quot;Міртэк-інжынірынг&quot;</a></span>  </div>  
+  <div class="views-field views-field-teaser">        <div class="field-content"><p>18 снежня 2025 года навучэнцы выпускных класаў сярэдняй школы № 61 г. Гомеля, якія займаюцца ў інжынерных класах <a href="https://abiturient.by/university/gstu.html">Гомельскага дзяржаўнага тэхнічнага ўніверсітэта імя П.В. Сухога</a>, наведалі філіял кафедры <a href="https://abiturient.by/university/gstu/kafedra/15024.html">"Прамысловая электроніка"</a> на ТАА "Міртэк-інжынірынг" (Гомель).</p>
+</div>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <div class="views-field views-field-field-news-foto-fid">        <span class="field-content"><a href="/news/13-01-2026/91493.html"><img src="https://abiturient.by/files/imagecache/news-big/news-photo/dad_24_01_2026.jpg" alt="" title="" width="250" height="250" class="imagecache imagecache-news-big imagecache-default imagecache-news-big_default"/></a></span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/13-01-2026/91493.html">24 ЯНВАРЯ ДЕНЬ ОТКРЫТЫХ ДВЕРЕЙ БГТУ</a></span>  </div>  
+  <div class="views-field views-field-teaser">        <div class="field-content"><p>Учреждение образования "Белорусский государственный технологический университет" приглашает абитуриентов, их родителей, учителей и всех заинтересованных на<span>&nbsp;</span><strong>День Открытых дверей 24&nbsp;января 2026 года</strong>. Мероприятие проводится по адресу: г. Минск, улица Свердлова, 13 и 13а (корпус №1 и корпус №4), начало<span>&nbsp;</span><strong>в 11:00</strong>.</p>
+<p><strong>Программа:</strong></p>
+<p>- выставка специальностей;</p>
+<p>- встреча с представителями заказчиков кадров;&nbsp;</p>
+<p>- встречи с руководством университета;</p>
+</div>  </div>  </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+  <div class="views-field views-field-field-news-foto-fid">        <span class="field-content"><a href="/news/01-01-2026/91457.html"><img src="https://abiturient.by/files/imagecache/news-big/news-photo/z_novym_godam_2026.jpg" alt="" title="" width="250" height="250" class="imagecache imagecache-news-big imagecache-default imagecache-news-big_default"/></a></span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/01-01-2026/91457.html">З НОВЫМ ГОДАМ!</a></span>  </div>  
+  <div class="views-field views-field-teaser">        <div class="field-content"><p class="ds-markdown-paragraph"><span>Паважаныя абітурыенты, бацькі, спецыялісты сферы адукацыі і ўсе госці нашага сайта!</span></p>
+<p class="ds-markdown-paragraph">Каманда&nbsp;<span><a href="https://abiturient.by/" target="_blank" rel="noreferrer">abiturient.by</a></span>&nbsp;ад усёй душы віншуе вас з Новым 2026 годам!</p>
+<p class="ds-markdown-paragraph">На самым пачатку новага года хочацца падзякаваць вам за давер. Для нас гонар быць вашым памочнікам у адказнай справе — справе выбару будучай прафесіі і ўстановы адукацыі. Увесь мінулы год мы разам <a href="https://abiturient.by/universities">знаёміліся з універсітэтамі Беларусі</a>, <a href="https://profitest.ripo.by/main">праходзілі прафесійныя тэсты</a> для <a href="https://abiturient.by/advanced-search">вызначэння будучай спецыяльнасці</a>, <a href="https://abiturient.by/compare-rates">даведваліся пра свае шанцы на паступленне</a>, сачылі за графікам Дзён адкрытых дзвярэй і рыхтаваліся да важных выпрабаванняў.</p>
+</div>  </div>  </div>
+  <div class="views-row views-row-7 views-row-odd">
+      
+  <div class="views-field views-field-field-news-foto-fid">        <span class="field-content"><a href="/news/18-12-2025/91419.html"><img src="https://abiturient.by/files/imagecache/news-big/news-photo/instagram_post_-_77.jpg" alt="" title="" width="250" height="250" class="imagecache imagecache-news-big imagecache-default imagecache-news-big_default"/></a></span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/18-12-2025/91419.html">День открытых дверей в БГАА</a></span>  </div>  
+  <div class="views-field views-field-teaser">        <div class="field-content"><p><b>20 декабря</b>&nbsp;в <strong>Белорусской государственной академии авиации</strong> пройдет День открытых дверей.</p>
+<p>Традиционно, программа мероприятий будет насыщенной: интерактивные площадки, ответы на вопросы, концерт, экскурсия, встреча с представителями авиационной организации Республики Беларусь и многое другое.</p>
+<p>Время начала приема гостей на территории БГАА -&nbsp;<strong>9:00</strong>.<br />Время начала презентационной программы -&nbsp;<strong>10:00</strong>.<br />Обращаем внимание, что при себе необходимо иметь паспорт.&nbsp;</p>
+</div>  </div>  </div>
+  <div class="views-row views-row-8 views-row-even views-row-last">
+      
+  <div class="views-field views-field-field-news-foto-fid">        <span class="field-content"><a href="/news/17-12-2025/91414.html"><img src="https://abiturient.by/files/imagecache/news-big/news-photo/gerb_bgsha_4.jpg" alt="" title="" width="250" height="250" class="imagecache imagecache-news-big imagecache-default imagecache-news-big_default"/></a></span>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/17-12-2025/91414.html">День открытых дверей в БГСХА</a></span>  </div>  
+  <div class="views-field views-field-teaser">        <div class="field-content"><p><strong>Учреждение образования «Белорусская государственная орденов Октябрьской Революции и Трудового Красного Знамени сельскохозяйственная академия» </strong>приглашает всех желающих посетить ДЕНЬ ОТКРЫТЫХ ДВЕРЕЙ, который состоятся<strong> 20 декабря 2025.</strong></p>
+<p><strong>Программа мероприятия:</strong></p>
+<p>1.&nbsp;Консультации по вопросам поступления в академию.</p>
+<p>2.&nbsp;Встреча с деканами факультетов. Знакомство со специальностями и с учебной базой (посещение аудиторий, лабораторий и др.).</p>
+<p>3.&nbsp;Экскурсия в ботанический сад академии.</p>
+</div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div> </div></div></div></div></div></div></div></div>
+</div>
+			</div>
+			
+            <div id="node-8771" class="node">
+
+
+
+    
+  <div class="content clear-block">
+    <div class="view view-univerlist view-id-univerlist view-display-id-default view-dom-id-238b1dc78299ba5d4ea96ebb911df55e">
+    
+  
+  
+      <div class="view-content">
+      <div class="item-list views-accordion views-accordion-univerlist-default">
+      <h3 class="views-accordion-univerlist-default">Брест и Брестская область</h3>
+    <div id="views-accordion-univerlist-default">
+          <div class="views-accordion-item accordion-item-0 accordion-item-odd accordion-item-first">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/barsu.html">Барановичский государственный университет</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-1 accordion-item-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/brstu.html">Брестский государственный технический университет </a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-2 accordion-item-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/brsu.html">Брестский государственный университет имени А.С.Пушкина</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-3 accordion-item-even accordion-item-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/wlsu.html">Полесский государственный университет</a></span>  </div></div>
+      </div>
+</div>
+<div class="item-list views-accordion views-accordion-univerlist-default">
+      <h3 class="views-accordion-univerlist-default">Витебск и Витебская область</h3>
+    <div id="views-accordion-univerlist-default">
+          <div class="views-accordion-item accordion-item-4 accordion-item-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/vsavm.html">Витебская ордена «Знак Почёта» государственная академия ветеринарной медицины</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-5 accordion-item-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/vgmu.html">Витебский государственный ордена Дружбы народов медицинский университет</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-6 accordion-item-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/vstu.html">Витебский государственный технологический университет</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-7 accordion-item-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/vsu.html">Витебский государственный университет имени П. М. Машерова</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-8 accordion-item-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/mitsovitebsk.html">Витебский филиал Международного университета &quot;МИТСО&quot;</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-9 accordion-item-even accordion-item-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/psu.html">Полоцкий государственный университет имени Евфросинии Полоцкой</a></span>  </div></div>
+      </div>
+</div>
+<div class="item-list views-accordion views-accordion-univerlist-default">
+      <h3 class="views-accordion-univerlist-default">Гомель и Гомельская область</h3>
+    <div id="views-accordion-univerlist-default">
+          <div class="views-accordion-item accordion-item-10 accordion-item-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/belsut.html">Белорусский государственный университет транспорта</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-11 accordion-item-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/bteu.html">Белорусский торгово-экономический университет потребительской кооперации</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-12 accordion-item-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/meduniver.html">Гомельский государственный медицинский университет</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-13 accordion-item-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/gstu.html">Гомельский государственный технический университет им. П.О. Сухого</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-14 accordion-item-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/gsu.html">Гомельский государственный университет им. Франциска Скорины</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-15 accordion-item-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/mitsogomel.html">Гомельский филиал Международного университета &quot;МИТСО&quot;</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-16 accordion-item-odd accordion-item-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/mgpu.html">Мозырский государственный педагогический университет имени И.П. Шамякина</a></span>  </div></div>
+      </div>
+</div>
+<div class="item-list views-accordion views-accordion-univerlist-default">
+      <h3 class="views-accordion-univerlist-default">Гродно и Гродненская область</h3>
+    <div id="views-accordion-univerlist-default">
+          <div class="views-accordion-item accordion-item-17 accordion-item-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/ggau.html">Гродненский государственный аграрный университет</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-18 accordion-item-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/grsmu.html">Гродненский государственный медицинский университет</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-19 accordion-item-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/grsu.html">Гродненский государственный университет имени Янки Купалы</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-20 accordion-item-odd accordion-item-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/bip/faculty/26806.html">Гродненский филиал БИП</a></span>  </div></div>
+      </div>
+</div>
+<div class="item-list views-accordion views-accordion-univerlist-default">
+      <h3 class="views-accordion-univerlist-default">Минск и Минская область</h3>
+    <div id="views-accordion-univerlist-default">
+          <div class="views-accordion-item accordion-item-21 accordion-item-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/miaacademy.html">Академия Министерства внутренних дел Республики Беларусь</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-22 accordion-item-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/anb.html">Академия национальной безопасности Республики Беларусь</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-23 accordion-item-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/pacademy.html">Академия управления при Президенте Республики Беларусь</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-24 accordion-item-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/bsaa.html">Белорусская государственная академия авиации</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-25 accordion-item-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/bsartac.html">Белорусская государственная академия искусств</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-26 accordion-item-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/bsmusac.html">Белорусская государственная академия музыки</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-27 accordion-item-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/vks.html">Белорусская государственная академия связи</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-28 accordion-item-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/batu.html">Белорусский государственный аграрный технический университет</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-29 accordion-item-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/bsmu.html">Белорусский государственный медицинский университет</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-30 accordion-item-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/bspu.html">Белорусский государственный педагогический университет им. Максима Танка</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-31 accordion-item-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/bstu.html">Белорусский государственный технологический университет</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-32 accordion-item-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/bsu.html">Белорусский государственный университет</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-33 accordion-item-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/mslu.html">Белорусский государственный университет иностранных языков (бывш. Минский государственный лингвистический университет)</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-34 accordion-item-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/bsuir.html">Белорусский государственный университет информатики и радиоэлектроники</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-35 accordion-item-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/bsuarts.html">Белорусский государственный университет культуры и искусств</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-36 accordion-item-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/sportedu.html">Белорусский государственный университет физической культуры</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-37 accordion-item-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/bseu.html">Белорусский государственный экономический университет</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-38 accordion-item-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/bntu.html">Белорусский национальный технический университет</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-39 accordion-item-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/varb.html">Военная академия Республики Беларусь</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-40 accordion-item-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/ipsgpk.html">Государственное учреждение образования «Институт пограничной службы  Республики Беларусь»</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-41 accordion-item-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/bsu/faculty/11382.html">Институт бизнеса БГУ</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-42 accordion-item-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/ipp.html">Институт парламентаризма и предпринимательства</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-43 accordion-item-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/isz.html">Институт современных знаний имени А.М.Широкова</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-44 accordion-item-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/iseu.html">Международный государственный экологический институт имени А.Д.Сахарова Белорусского государственного университета</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-45 accordion-item-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/mitso.html">Международный университет &quot;МИТСО&quot;</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-46 accordion-item-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/kii.html">Университет гражданской защиты Министерства по чрезвычайным ситуациям Республики Беларусь</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-47 accordion-item-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/bip.html">Учреждение образования «БИП — Университет права и социально-информационных технологий»</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-48 accordion-item-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/uoipd.html">Учреждение образования ”Институт предпринимательской деятельности“ (ИПД)</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-49 accordion-item-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/sportedu/faculty/11325.html">Факультет менеджмента спорта, туризма и гостеприимства</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-50 accordion-item-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/iseu/faculty/11562.html">Факультет мониторинга окружающей среды</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-51 accordion-item-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/faculty/17761.html">Филиал БНТУ г. Солигорск</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-52 accordion-item-odd accordion-item-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/imb.html">ЧУВО &quot;Международный институт управления и предпринимательства&quot;</a></span>  </div></div>
+      </div>
+</div>
+<div class="item-list views-accordion views-accordion-univerlist-default">
+      <h3 class="views-accordion-univerlist-default">Могилев и Могилевская область</h3>
+    <div id="views-accordion-univerlist-default">
+          <div class="views-accordion-item accordion-item-53 accordion-item-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/baa.html">Белорусская государственная орденов Октябрьской Революции и Трудового Красного Знамени сельскохозяйственная академия</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-54 accordion-item-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/mgup.html">Белорусский государственный университет пищевых и химических технологий</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-55 accordion-item-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/bru.html">Белорусско-Российский университет</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-56 accordion-item-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/msu.html">Могилевский государственный университет имени  А. А. Кулешова </a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-57 accordion-item-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/collegemvd.html">Могилевский институт Министерства внутренних дел Республики Беларусь</a></span>  </div></div>
+          <div class="views-accordion-item accordion-item-58 accordion-item-odd accordion-item-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/university/bip/faculty/35306.html">Могилевский филиал БИП</a></span>  </div></div>
+      </div>
+</div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+        </div>
+
+      </div>
+
+</div>
+
+                      </div>
+                </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+              <div id="sidebar-right" class="sidebar">
+                    <div id="block-block-48" class="clear-block block block-block">
+
+
+  <div class="content">
+<style>
+#block-block-48 {background-image: none !important;}
+</style>
+<p style="text-align: center;">
+<a href="https://abiturient.mitso.by" target="_blank"><img src="/files/banners/mitso-2022_0.gif" /></a>
+</p></div>
+</div>
+<div id="block-block-3" class="clear-block block block-block">
+
+  <h2>НАЗНАЧЕНИЕ САЙТА</h2>
+
+  <div class="content"><p style="text-align: left;"><strong>Абитуриент.by</strong> - система информационно-педагогической поддержки, которая раскрывает содержание системы специальностей и квалификаций Республики Беларусь, а также информирует об основных образовательных учреждениях. Сайт содержит информацию относительно общих&nbsp; <a href="/files/23uk.pdf" target="_blank">Правил приема</a> и <a href="/admittance-rules" target="_blank">порядков приема</a> в учреждения высшего образования (УВО), статистики вступительных кампаний текущего года и прошлых лет, структуры каждого УВО, информацию о научной работе его выпускающих кафедр и их связях с рынком труда.</p>
+<p style="text-align: left;">С помощью средств сайта можно:<br />- получить информацию о том, в каких учреждениях образования&nbsp;Беларуси ведется подготовка по выбранным специальностям;<br />- сравнить свои показатели при поступлении в текущем году с проходными&nbsp;баллами прошлых лет;</p>
+</div>
+</div>
+<div id="block-block-2" class="clear-block block block-block">
+
+  <h2>Информация</h2>
+
+  <div class="content"><ul class="links">
+
+<li><a href="/files/docs/kodeks-rb-ob-obrazovanii-2025.pdf"  target="_blank">Кодекс Республики Беларусь об образовании</a></li>
+<li><a href="/files/docs/ukaz_31_12_025_n463.pdf" target="_blank">Указ от 31.12.2025 №463 "О совершенствовании вступительной кампании"</a></li>
+<li><a href="/files/docs/rules_admission_general_higher_and_special_higher_edu.pdf" target="_blank">Правила приема лиц для получения общего высшего и специального высшего образования</a></li>
+
+</ul></div>
+</div>
+        </div>
+              <div id="footer"><div id="block-block-7" class="clear-block block block-block">
+
+
+  <div class="content"><div id="bottom_menu"><div id="bottom_menu_right"><a href="#top" class="linki_go_home">Вернуться наверх</a> <br> <a href="mailto:abiturient.by@mail.ru?subject=Ошибка на сайте" class="linli_error_report">Сообщить об ошибке</a></div><div id="bottom_menu_0"><div id="bottom_menu_1"><a href="/universities">Каталог УВО</a><br> <a href="/okrb-011-2022">Каталог специальностей</a></div><div id="bottom_menu_2"><a href="/admittance-info">Информация приемных комиссий&nbsp;</a>УВО<br> <a href="/admittance-rules">Порядки приема</a></div></div></div></div>
+</div>
+<div id="block-block-8" class="clear-block block block-block">
+
+
+  <div class="content"><P><A id="copy_project" href="/">АБІТУРЫЕНТ.by</A> © Усе правы абаронены. 2007-2026<BR>
+
+<A rel="nofollow" id="copy_minedu" href="https://edu.gov.by/" target="_blank">Міністэрства адукацыі Рэспублікі Беларусь</A>, <A rel="nofollow" id="copy_gstu" href="https://www.gstu.by/" target="_blank">ГДТУ імя П.В. Сухога</A>, <A id="copy_rivsh" rel="nofollow" href="https://www.nihe.by/" target="_blank">Рэспубліканскі інстытут вышэйшай школы</A><BR><BR>
+
+Хостынг прадастаўлены кампаніяй <A id="copy_hosta" href="https://hosta.by/?from=2573" target="_blank">HOSTA.BY</A><BR>
+
+</P></div>
+</div>
+<div id="block-block-9" class="clear-block block block-block">
+
+
+  <div class="content"><noindex>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9466813-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+                          
+                                             
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(178166, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/178166" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+</noindex></div>
+</div>
+</div>
+    </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+
+  <script type="text/javascript" src="/sites/all/modules/google_cse/google_cse.js?a"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "googleCSE": { "language": "ru" } });
+//--><!]]>
+</script>
+
+  </body>
+</html>

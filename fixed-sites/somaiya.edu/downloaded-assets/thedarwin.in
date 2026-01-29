@@ -1,0 +1,1959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darwin</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+
+    <script src="./globe/amcharts.core.js"></script>
+    <script src="./globe/amcharts.maps.js"></script>
+    <!-- <script src="./globe/amcharts.continentsLow.js"></script> -->
+    <script src="./globe/amcharts.worldLow.js"></script>
+    <!-- <script src="./globe/amcharts.animated.js"></script> -->
+
+    <link rel="icon" type="image/png" href="./img/favico.png" />
+    <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100i,300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script> -->
+
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/nav.css">
+    <link rel="stylesheet" href="./CSS/hero.css">
+    <link rel="stylesheet" href="./CSS/body.css">
+    <link rel="stylesheet" href="./CSS/end.css">
+    <link rel="stylesheet" href="./CSS/countdown.css" />
+    <link rel="stylesheet" href="./CSS/hex.css">
+    <link rel="stylesheet" href="./CSS/timeline.css">
+    <!-- <script src="./world-map/mapdata.js"></script>
+    <script src="./world-map/worldmap.js"></script> -->
+
+    <script src="./js/scrollreveal.min.js"></script>
+
+        <script src="./countdown.js"></script>
+        
+<style>
+.groupHeader {
+    width: 100vw;
+    text-align: center;
+    font-size: 4.5rem;
+    margin-top: 5vh;
+}
+
+.headings {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #fff; 
+}
+
+.cta-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px; 
+    width: 100%;
+    max-width: 1500px;
+    margin-top: 13vh;
+    align-items: center;
+    padding-left: 30px;
+    padding-bottom: 60px;
+}
+
+.cta-item {
+    flex: 1 1 calc(33.333% - 30px); 
+    max-width: calc(33.333% - 30px); 
+    min-width: 260px;
+    border: 3px solid #ddd;
+    border-radius: 20px; 
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.4s ease, box-shadow 0.4s ease; 
+    background: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    height: 290px;
+}
+
+.cta-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); 
+}
+
+.cta-item img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 20px 20px 0 0; 
+    transition: transform 0.4s ease;
+}
+
+.cta-item:hover img {
+    transform: scale(1.1); 
+}
+
+.cta-item .cta-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(30, 29, 29, 0.64);
+    opacity: 0;
+    transition: opacity 0.4s ease, transform 0.4s ease; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 0 0 20px 20px; 
+}
+
+.cta-item:hover .cta-content {
+    opacity: 1;
+    transform: translateY(0); 
+}
+
+.cta-item .cta-content h2 {
+    color: #fff;
+    font-size: 20px; /* Adjusted font size */
+    font-weight: bold;
+}
+
+.cta-item .cta-content a {
+    color: #fff;
+    font-size: 28px; 
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+    .cta-container {
+        width: 100%;
+        padding-left: 0;
+    }
+    
+    .cta-item {
+        flex: 1 1 calc(50% - 20px); 
+        max-width: calc(50% - 20px); 
+    }
+}
+
+@media (max-width: 768px) {
+    .cta-item {
+        flex: 1 1 calc(50% - 20px); 
+        max-width: calc(50% - 20px); 
+        margin: 10px;
+    }
+
+    .groupHeader {
+        font-size: 3.5rem;
+        margin-top: 3vh;
+    }
+
+    .cta-item .cta-content h2 {
+        font-size: 18px;
+    }
+
+    .cta-item .cta-content a {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cta-container {
+        gap: 20px;
+        padding-left: 0;
+    }
+
+    .cta-item {
+        flex: 1 1 100%; 
+        max-width: 100%; 
+        margin: 5px;
+    }
+
+    .groupHeader {
+        font-size: 2.5rem;
+    }
+
+    .cta-item .cta-content h2 {
+        font-size: 16px;
+    }
+
+    .cta-item .cta-content a {
+        font-size: 20px;
+    }
+}
+
+</style>
+    
+</head>
+<body>
+    <nav class="home" style="padding: 0 5%;">
+        <input type="checkbox" id="check" style="z-index: 5;" />
+        <label for="check" class="checkBtn" style="z-index: 5; margin-right: 10%; margin-top: -10px;"><i class="fa-solid fa-bars" style="z-index: 5;" ></i></label>
+        
+        <div class="navbarLogos" style="z-index: 5;" >
+          <a href=""><img src="./img/darwin.png" alt="Darwin" /></a>
+        </div>
+  
+        <ul>
+          <li><a href="#conferenceOverview">About</a></li>
+          <!-- <li><a href="#conferenceOverview">Overview</a></li> -->
+         
+            <li class="dropdown">
+                <a onclick="dropdownAppear(this)">Previous Conferences</a>
+                <ul class="dropdown-content">
+                <li>
+                    <a href="https://www.riidl.org/thedarwin.in/2020/2021/2022/2023/index.html" target="_blank">Fifth Edition</a> </li>
+                <li>
+                    <a href="https://www.riidl.org/thedarwin.in/2020/2021/2022/index.html" target="_blank">Fourth Edition</a> </li>
+                <li>
+                    <a href="https://www.riidl.org/thedarwin.in/2020/2021/index.html" target="_blank">Third Edition</a> </li>
+                <li>
+                    <a href="https://www.riidl.org/thedarwin.in/2020/index.html" target="_blank">Second Edition</a> </li>
+                <li>
+                    <a href="https://www.riidl.org/thedarwin.in/darwin2019.html" target="_blank">First Edition</a> </li>
+                </ul>
+            </li>
+            
+            <!--<li><a href="https://iconswmce.somaiya.edu" target="_blank">IconSWM-CE</a></li>-->
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="landingContainer" class="landingContainer" >
+        <!-- <canvas id="demo-canvas" width="1280" height="840" style="z-index: 1;" ></canvas> -->
+        
+        <!-- <div class="tree">
+            <lottie-player src="https://lottie.host/5386320a-63eb-475b-92b2-3dd4724570c9/PleRC702XI.json" background="transparent" speed="1" style="width: 600px; height: 1000px;" autoplay></lottie-player>
+        </div> -->
+        
+        <!-- <div class="tree1">
+            <lottie-player src="https://lottie.host/016a9aeb-f5da-451b-8f7e-a7495b39d75e/dKKaEut8dM.json" background="transparent" speed="1" style="width: 800px; height: 800px;" autoplay></lottie-player>
+        </div> -->
+        
+        <div class="landingTint" style="z-index: 5; padding: 0;" >
+            <div class="hexcontainer">
+                <div class="hexrow">
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                </div>
+                <div class="hexrow">
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon">
+                        <!-- <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform:translate(-50%, -50%);">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-tree" viewBox="0 0 16 16">
+                                <path d="M8.416.223a.5.5 0 0 0-.832 0l-3 4.5A.5.5 0 0 0 5 5.5h.098L3.076 8.735A.5.5 0 0 0 3.5 9.5h.191l-1.638 3.276a.5.5 0 0 0 .447.724H7V16h2v-2.5h4.5a.5.5 0 0 0 .447-.724L12.31 9.5h.191a.5.5 0 0 0 .424-.765L10.902 5.5H11a.5.5 0 0 0 .416-.777l-3-4.5zM6.437 4.758A.5.5 0 0 0 6 4.5h-.066L8 1.401 10.066 4.5H10a.5.5 0 0 0-.424.765L11.598 8.5H11.5a.5.5 0 0 0-.447.724L12.69 12.5H3.309l1.638-3.276A.5.5 0 0 0 4.5 8.5h-.098l2.022-3.235a.5.5 0 0 0 .013-.507z"/>
+                              </svg>
+                        </span> -->
+                        <!-- <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform:translate(-50%, -50%);">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="64" height="64" viewBox="0,0,256,256" style="fill:#000000;">
+                                <g fill="#dadada" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M11.03125,3c-1.14472,0 -2.20927,0.60909 -2.75,1.61523l-1.60156,2.71094l1.7207,1.01758l1.63281,-2.76367l0.00977,-0.01758c0.17727,-0.32986 0.55501,-0.5625 0.98828,-0.5625h1.98828c0.43388,0 0.81242,0.2321 0.99024,0.56445l0.00976,0.01758l1.64063,2.79102l-1.66016,1l4.11719,1.02344l1.02148,-4.11914l-1.76562,1.06445l-1.59961,-2.7207c-0.54022,-1.00965 -1.60779,-1.62109 -2.75391,-1.62109zM6.60547,9.63086l-4.13867,0.93555l1.67383,1.05664l-1.75586,2.9707l-0.00977,0.01758c-0.52851,0.98475 -0.4448,2.19627 0.21094,3.10352v0.00195l0.72656,1.00195c0.5866,0.81314 1.53688,1.28125 2.54102,1.28125h4.14648v-2h-4.14648c-0.37986,0 -0.72452,-0.18031 -0.91992,-0.45117l-0.72656,-1.00391c-0.22027,-0.30475 -0.24185,-0.66307 -0.06836,-0.98633l1.69336,-2.86719l1.70703,1.07813zM19.91992,11.67188l-1.72461,1.01367l1.69141,2.87695c0.17124,0.32157 0.14887,0.68016 -0.07031,0.98242l-0.72656,1.00391c-0.19621,0.27079 -0.542,0.45117 -0.91992,0.45117h-3.16992v-2l-3,3l3,3v-2h3.16992c1.00208,0 1.95127,-0.46613 2.53906,-1.27734l0.72656,-1.00391c0.65638,-0.90515 0.74249,-2.11562 0.21484,-3.10156l-0.00977,-0.01758z"></path></g></g>
+                            </svg>
+                        </span> -->
+                        
+                       
+                    </div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg x="0px" y="0px" width="48" height="48" id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="54.38 27.44 32.98 65.96"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><polygon class="cls-1" points="87.36 27.44 69.18 27.44 61.78 54.03 69.18 54.03 54.38 93.4 86.34 50 75.56 50 87.36 27.44"></polygon></svg>
+                        </span>
+                        
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="37.94 32.8 65.79 60.75" width="48" height="48" ><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>Artboard 12</title><path class="cls-1" d="M102.93,58.3,72.87,33.82a2.37,2.37,0,0,0-1.92-1,2,2,0,0,0-2,1L38.6,58.3A2.1,2.1,0,0,0,38.29,61a2.93,2.93,0,0,0,2.6,1.24h4V87.67c0,3.28,3.59,5.88,7.8,5.88H88.89c4.21,0,7.8-2.6,7.8-5.88V62.2H101a4,4,0,0,0,2.6-1.24,2.68,2.68,0,0,0-.63-2.66ZM76.46,70.69l2-6.5-1.3.67a18,18,0,0,0-1.3-2c-1-1.3-2.29-1.3-3.59-1.3H67.36a1.8,1.8,0,0,0-1.66,1L62.78,67.1l5.2,3v-.31a14.36,14.36,0,0,0,1.67-3c.31-.31.62-.63.62-1l1.3,2.29-1.61,1ZM64.71,77.26l1.35-2c.31,0,.62.31.94.31l.36.36-2-6.56L58.83,71l1.3,1A10.93,10.93,0,0,0,59.2,74a4,4,0,0,0,.62,3.9s2.29,3.59,2.6,4.27a1.91,1.91,0,0,0,1.66,1h5.2V77.26ZM82.34,74l-2.92-4.59-4.57,3.28h0c.62,1,1.3,1.93,2,2.92,0,.36.32.68.32,1h-2.6a3.71,3.71,0,0,1,.31-1V75l-4.58,4.9,4.58,4.9V83.14h.62c.68,0,1.35,0,1.67-.36a4.24,4.24,0,0,0,2.91-2.3L82.34,76a1.93,1.93,0,0,0,0-2Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="36.27 24.38 56.18 74.62" width="48" height="48" ><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>Artboard 13</title><path class="cls-1" d="M55.4,49.9l-5.29-7.7L63.32,30.47a5,5,0,0,1,5.58-.89l5.29-4.69a2.4,2.4,0,0,1,3.24,3.52l-5,4.69,5,5.58,5-4.41a2.11,2.11,0,0,1,3.23,0,2.65,2.65,0,0,1,0,3.52l-5.29,4.74a4.55,4.55,0,0,1-1.18,5.3L65.38,60.73l-6.46-7.6C49.5,59.61,40.69,66.65,41.3,76.92c.28,6.48,2,11.17,5.25,13.51,2.67,2.07,5.9,2.4,10.31,1.18,2.67-.57,6.18-3.24,9.41-5.54,5.58-3.85,11.16-8,17.34-7.08a10.21,10.21,0,0,1,6.79,5.86,15.1,15.1,0,0,1,1.17,12.67A2.27,2.27,0,0,1,89.51,99H88.34a2.46,2.46,0,0,1-1.17-3.23,12.17,12.17,0,0,0-.89-8.82c-.61-.85-1.78-2.63-3.56-3.24-4.12-.56-8.81,2.95-13.5,6.19-3.84,3-7.68,5.59-11.19,6.48-5.58,1.45-10.26.89-14.11-1.79-4.4-3.23-7.07-9.38-7.63-17.64-.61-13,10.87-21.44,19.11-27ZM66,37a6.47,6.47,0,0,1,6.47,6.14h1.45l-1.17,1.79-.89,2.06-1.17-2.06-1.17-1.79H71a4.89,4.89,0,0,0-5-4.69Zm-6.18,10a6.19,6.19,0,0,1,2.06-8.54L61,37.23h4.4L64.21,39l-.89,1.79-.89-1.18A5.14,5.14,0,0,0,61,46.33Zm11.76.56A6.59,6.59,0,0,1,63,49.9l-.61,1.45-1.17-2.06L60.09,47.5h4.4l-.84,1.18a5.12,5.12,0,0,0,6.75-2Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="50.08 26.18 55.37 67.92" width="48" height="48" ><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>Artboard 19</title><path class="cls-1" d="M53,93.81c-4.88-4.3-2.6-6.58-.59-6.9,7.16-.87,5.16,4.29,10.91.32,2-1.47,3.69-2.88,6.57-2.88h.87c.82,0,1.68.27,2.55.27.6.28,1.14.28,2,.6h.87c2,.27.27-4.57.27-4.57-1.14-3.48-2.28-6.58-4.56-9.19-4.29-3.15-4-1.46-7.76-2a16.14,16.14,0,0,1-5.71-2c-.27-.27-1.73-1.14-1.73-1.69s.87-1.46,1.73-2c4-2.88,10-.87,11.73,3.7h0l.87,2h0a24,24,0,0,1,4.88,6.85,48.59,48.59,0,0,0-1.46-6c-.82-2.56-1.41-5.17-2-7.72-1.14-8.92-7.16-12.34-10-11.75A15,15,0,0,1,56.93,48c-.27-.27-1.41-1.14-1.41-1.73a4,4,0,0,1,2-1.7c3.74-2,8.9,0,10.58,3.71h0a2.33,2.33,0,0,1,.6,1.46l1.41,3.43h0a31.83,31.83,0,0,1,1.74,3.15A34.71,34.71,0,0,1,73,43.08a15.05,15.05,0,0,1,1.41-3.7h0l-.27.27V38.51h0c-.27-6.3,4.29-12.89,10.86-12.29,1.19.27,2.87.82,3.47,1.69.27.27-.87,2.28-1.14,2.88a17.56,17.56,0,0,1-5.75,6.3,11.59,11.59,0,0,1-5.43,2v.27c-.28,1.42-.6,2.88-.87,4.3A50,50,0,0,0,75,58.57a15.16,15.16,0,0,1,3.42-5.43h0L79.3,50a.26.26,0,0,0,.27-.27h0c1.46-4.3,6.89-6.63,10.91-4.62.86.6,2,1.15,2,2,.27.28-1.15,1.47-1.47,1.74a14.21,14.21,0,0,1-5.43,2.88c-4,1.42-7.44,2-9.17,6.31-1.73,3.42-.55,7.4.87,11.42.27,1.42.59,2.56.86,3.7A16.53,16.53,0,0,1,81,68.31a23.18,23.18,0,0,1,.82-3.16c.32-.86.59-1.41.87-2h0C84.73,59.72,89.61,58,93,60c.87.6,2,1.15,2,2,.27.28-1.14,1.42-1.41,1.74-1.74,1.14-3.15,2.28-5.44,2.56C83,68,82.72,66.3,79,73.47c-.87,2,0,4.3.87,6.31a3.89,3.89,0,0,0,.55,2v.32a17.26,17.26,0,0,1,.86,4s0,.32.55.32a21.67,21.67,0,0,0,3.47-.87c.27,0,.55-.27.87-.27a7.48,7.48,0,0,1,5.15.27,3.35,3.35,0,0,1,1.69,2,2.75,2.75,0,0,0,1.46,1.69c.28.32.82.32,1.42.32s2.55-2.28,8.9-1.46c2,1.14-.87,4.62-3.75,6H53Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="49.91 17.68 32.08 62.45" width="48" height="48" ><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>Artboard 20</title><path class="cls-1" d="M77.1,26c0-.33.28-.6.28-.87h0c0-2.29-2.29-4-4.57-4H70.53V17.68h-8.3V21.1H59.9a4,4,0,0,0-4.29,4h0V26H54.47a4.78,4.78,0,0,0-4,1.69,2.23,2.23,0,0,0-.55,1.73V76.13a5.16,5.16,0,0,0,4.57,4H78.24c2.29,0,3.75-2.28,3.75-4.57V29.42C82,27.14,80.53,26,78.24,26H77.1ZM68.52,48h4.84L72,50l-7.17,9.19-.87,1.14-1.68,2.29,3.14-10.88H58.21L61.09,48l.82-1.1.86-1.18,2.6-2.84,4-5.44-2.6,9.74-.6.82Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="39.7 35.58 38.35 56.97" width="48" height="48" ><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>Artboard 21</title><path class="cls-1" d="M78.05,55V41.27H66v4H61.16V39h4.29c1.46,0,1.46-3.42,0-3.42H54.87c-1.69,0-1.69,3.42,0,3.42h4v6.31H54.27c-7.44,0-9.72,5.17-10,7.72v4.57L41.68,61h10l-2.56-3.43V53.29c0-.28.55-2.83,5.11-2.83H66v4.29H77.5ZM47.7,80.21s-2,2.33-2,3.47a2,2,0,0,0,4,0c0-1.14-2-3.47-2-3.47Zm-8,.31a2.3,2.3,0,0,0,4.57,0c0-1.14-2.28-3.74-2.28-3.74s-2.29,2.6-2.29,3.74ZM46,91.4a1.3,1.3,0,0,0,1.42,1.14,1.27,1.27,0,0,0,1.14-1.14,5.36,5.36,0,0,0-1.14-2.28S46,90.53,46,91.4Zm2-29.79s-2.28,2.55-2.28,3.74a2.18,2.18,0,0,0,2.28,2,1.91,1.91,0,0,0,2-2c0-1.19-2-3.74-2-3.74ZM44.28,74.49a2.05,2.05,0,0,0,2.28,2,2,2,0,0,0,2-2c0-1.14-2-3.74-2-3.74s-2.28,2.6-2.28,3.74Zm-3.43-4.84A1.19,1.19,0,0,0,42,70.75a1,1,0,0,0,1.14-1.1c0-.87-1.14-2-1.14-2s-1.15,1.14-1.15,2Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="31.88 28.66 64.99 55.91" width="48" height="48" ><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>Artboard 15</title><path class="cls-1" d="M41.58,43.63a6,6,0,1,1,12.09,0,6.49,6.49,0,0,1-3.56,5.58c2.67.61,4.4,2.4,5,2.12a9.77,9.77,0,0,0,3.24-2.68V31.9H54.51V28.66H96.87V31.9H94.81V64.23H78V76.57h6.8v8H68.66v-8h6.47V64.23H58.36V56c.56-.61,1.17-.89,1.78-1.46v7.6H92.75V32.75H60.14V46.31a16.11,16.11,0,0,0,1.73-2.68,2.51,2.51,0,0,1,3.23-1.17A2.36,2.36,0,0,1,66,45.7a1,1,0,0,1-.28.61h1.78a8.34,8.34,0,0,1,2.63-5.59A8,8,0,0,1,76,38.38h.28v2.34H76a6,6,0,0,0-4.45,1.74h0a6.43,6.43,0,0,0-2.06,3.85h2.06v.28l-1.45,2.62h0l-1.46,2.4-.32.28v-.28l-1.46-2.4-1.17-2.34C63.65,50.43,58.36,56.58,54,56.3v8.26H65.38v1.73h-2.9V84.55H34.83V66.29H31.88V64.56H36a23.87,23.87,0,0,1,.28-4.46,9.75,9.75,0,0,1,.61-4.41c2.62-4.08,5.57-6.15,7.91-6.76a5.48,5.48,0,0,1-3.23-5.3Zm42.64,8.26a10.06,10.06,0,0,0,1.17-6.48,9.71,9.71,0,0,0-3.51-5l.89-1.45v-.28H76.3l.28.28L78,41.29h0L79.53,44v.28l.28-.28.9-1.78A7.4,7.4,0,0,1,83.05,46a5.47,5.47,0,0,1-.56,4.7V51h0l1.45.89Zm-15.56.56a9.19,9.19,0,0,0,5,3.85A9.38,9.38,0,0,0,79.81,56l.9,1.45v.28l.28-.28,1.5-2.62,1.45-2.4v-.28H77.47l.28.28.9,1.5a7.19,7.19,0,0,1-4.41.29,7.65,7.65,0,0,1-3.84-2.91V51l-.28.33-1.46.84h-.32Zm6.47,26.18H70.4v3.85H82.77V78.63H78V81h-2.9ZM41,64.56h.56v-5a5.72,5.72,0,0,0-.56,5Zm23.8-.33h.56"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="35.1 25.86 50.21 74.14" width="48" height="48" ><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>Artboard 16</title><path class="cls-1" d="M83.05,70.56l-1-33H76.55l-1.3,33c-8.84,0-24.18-7.81-40.15.68V100H63.81V91.81h15V100h6.5V70.56ZM46.18,28.8a1.26,1.26,0,0,0-1-.31l-1.92-.63a.3.3,0,0,1,.31.31,4.75,4.75,0,0,0,1.3,1c.31.31.62.31,1,.62h1.3a3.81,3.81,0,0,0,2.6-1.3c.31-.32.67-.63,1-1a1.08,1.08,0,0,1,.62-.31,4.41,4.41,0,0,1,2-.32,2.42,2.42,0,0,0,1.3.63l.31.36a1,1,0,0,0-.31-.67,5,5,0,0,0-1.3-1,3.08,3.08,0,0,0-1-.32h-1.3c-.31,0-.31.32-.63.32s-.36.31-.67.31a9.25,9.25,0,0,1-1,1,1.76,1.76,0,0,1-1.61,1,1.26,1.26,0,0,1-1,.31ZM53,33.07a5.48,5.48,0,0,1,1.62.62c1,0,1.66.37,2.6,0a6.74,6.74,0,0,0,4.57-2.23c.31-.37,1-1.36,1.3-1.67.68-.31,1-.62,1.67-.62a3.83,3.83,0,0,1,3.27-.37c.94.37,1.93.68,2.6,1a5.59,5.59,0,0,0,1,.68,4.5,4.5,0,0,1-.68-1,14.41,14.41,0,0,0-2.28-2,4.69,4.69,0,0,0-2-.63h-2.6c-.31.32-1,.32-1.3.63-.31,0-.68.36-1,.67a10.92,10.92,0,0,0-1.92,1.62,5.89,5.89,0,0,1-3,2c-.62,0-1.3.31-2,0H53.36c-2-.68-3.59-1.3-3.59-1.3a3.61,3.61,0,0,0,1,.62,4.65,4.65,0,0,0,2.28,2Zm16,1.62a1.15,1.15,0,0,1-.94-.32,4,4,0,0,1-2-.68,1.36,1.36,0,0,1,.31.68,4.39,4.39,0,0,0,1.3,1c.36,0,.68.31,1,.31H70a3.83,3.83,0,0,0,2.6-1.3c.36-.31.67-.68,1-.68a.68.68,0,0,1,.67-.62,2.1,2.1,0,0,1,1.92,0c.37,0,1,.31,1.31.31l.36.31-.36-.31a5,5,0,0,0-1.31-1,1.14,1.14,0,0,0-.93-.31,1.1,1.1,0,0,0-1.35,0h-.63l-.67.68c-.31.31-.63.31-.94.62A3.23,3.23,0,0,1,70,34.69ZM37.7,75.51h4.58V82.7H37.7Zm40.77,0h4.27V82.7H78.47Zm-6.81,0h4.21V82.7H71.66Zm-6.86,0h4.57V82.7H64.8Zm-6.87,0h4.58V82.7H57.93Zm-6.55,0h4.26V82.7H51.38Zm-6.81,0h4.21V82.7H44.57Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                </div>
+                <div class="hexrow">
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="31.88 28.66 64.99 55.91" width="48" height="48" ><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>Artboard 15</title><path class="cls-1" d="M41.58,43.63a6,6,0,1,1,12.09,0,6.49,6.49,0,0,1-3.56,5.58c2.67.61,4.4,2.4,5,2.12a9.77,9.77,0,0,0,3.24-2.68V31.9H54.51V28.66H96.87V31.9H94.81V64.23H78V76.57h6.8v8H68.66v-8h6.47V64.23H58.36V56c.56-.61,1.17-.89,1.78-1.46v7.6H92.75V32.75H60.14V46.31a16.11,16.11,0,0,0,1.73-2.68,2.51,2.51,0,0,1,3.23-1.17A2.36,2.36,0,0,1,66,45.7a1,1,0,0,1-.28.61h1.78a8.34,8.34,0,0,1,2.63-5.59A8,8,0,0,1,76,38.38h.28v2.34H76a6,6,0,0,0-4.45,1.74h0a6.43,6.43,0,0,0-2.06,3.85h2.06v.28l-1.45,2.62h0l-1.46,2.4-.32.28v-.28l-1.46-2.4-1.17-2.34C63.65,50.43,58.36,56.58,54,56.3v8.26H65.38v1.73h-2.9V84.55H34.83V66.29H31.88V64.56H36a23.87,23.87,0,0,1,.28-4.46,9.75,9.75,0,0,1,.61-4.41c2.62-4.08,5.57-6.15,7.91-6.76a5.48,5.48,0,0,1-3.23-5.3Zm42.64,8.26a10.06,10.06,0,0,0,1.17-6.48,9.71,9.71,0,0,0-3.51-5l.89-1.45v-.28H76.3l.28.28L78,41.29h0L79.53,44v.28l.28-.28.9-1.78A7.4,7.4,0,0,1,83.05,46a5.47,5.47,0,0,1-.56,4.7V51h0l1.45.89Zm-15.56.56a9.19,9.19,0,0,0,5,3.85A9.38,9.38,0,0,0,79.81,56l.9,1.45v.28l.28-.28,1.5-2.62,1.45-2.4v-.28H77.47l.28.28.9,1.5a7.19,7.19,0,0,1-4.41.29,7.65,7.65,0,0,1-3.84-2.91V51l-.28.33-1.46.84h-.32Zm6.47,26.18H70.4v3.85H82.77V78.63H78V81h-2.9ZM41,64.56h.56v-5a5.72,5.72,0,0,0-.56,5Zm23.8-.33h.56"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg x="0px" y="0px" width="48" height="48" id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="47 37.1 95.01 49.32"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><path class="cls-1" d="M140.08,64.87h-.37V48.21a2.51,2.51,0,0,0-.62-1.3l-6.19-6.2a1.89,1.89,0,0,0-1.3-.68H113.29a1.86,1.86,0,0,0-1.92,2V69.4h-2V39.1a2.12,2.12,0,0,0-2-2H51.62a2.13,2.13,0,0,0-2,2V64.87H49a2.13,2.13,0,0,0-2,2v8.8a2.17,2.17,0,0,0,2,2H53.9a8.82,8.82,0,0,0,17.63,0h2.29a8.82,8.82,0,0,0,17.63,0h26.11a8.74,8.74,0,0,0,8.79,8.75,9.05,9.05,0,0,0,9.15-8.75h4.58a1.89,1.89,0,0,0,1.92-2v-8.8a1.86,1.86,0,0,0-1.92-2ZM86.56,53.42l1.93-6.51-1.3.67a6.36,6.36,0,0,0-1.3-2c-1-1.3-2.29-1.3-3.59-1.3H77.41a2.32,2.32,0,0,0-2,1l-2.92,4.58,5.2,2.92.32-.31a13.85,13.85,0,0,1,1.66-3c0-.31.31-.62.62-.94l1,2.24-1.3,1ZM74.45,60.29,75.75,58c.36,0,1,.31,1,.68l.31.31-1.93-6.82-6.55,1.61,1.3,1A17,17,0,0,0,68.93,57c-.67,1.3,0,2.65.63,3.59,0,0,2.29,3.6,2.6,4.27a1.91,1.91,0,0,0,1.66,1h5.57V60.29ZM92.39,57l-2.91-4.84L84.9,55.39h0a14.85,14.85,0,0,1,1.66,2.92c.32.37.63.68.63,1h-2.6V57.69L80,62.89l4.89,4.59v-1.3h.68a14.59,14.59,0,0,0,1.61-.32c1.61-.36,2.29-1.66,3-2.6L92.39,59a2,2,0,0,0,0-2ZM62.69,80.55a2.91,2.91,0,0,1-2.91-2.92,3,3,0,0,1,2.91-3.28A3.26,3.26,0,0,1,66,77.63a3.2,3.2,0,0,1-3.28,2.92Zm19.92,0a3.19,3.19,0,0,1-3.22-2.92,3.25,3.25,0,1,1,6.5,0,3.2,3.2,0,0,1-3.28,2.92Zm43.74,0a2.91,2.91,0,0,1-2.91-2.92,3,3,0,0,1,2.91-3.28,3.08,3.08,0,0,1,3.27,3.28,3,3,0,0,1-3.27,2.92Zm7.49-25.47a1.05,1.05,0,0,1-.94,1h-15c-.31,0-.68-.68-.68-1V46.59c0-.67.37-1,.68-1h11.75a1,1,0,0,1,.63.32l3.27,3.59c.32,0,.32.36.32.36v5.21Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="35.1 25.86 50.21 74.14" width="48" height="48" ><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>Artboard 16</title><path class="cls-1" d="M83.05,70.56l-1-33H76.55l-1.3,33c-8.84,0-24.18-7.81-40.15.68V100H63.81V91.81h15V100h6.5V70.56ZM46.18,28.8a1.26,1.26,0,0,0-1-.31l-1.92-.63a.3.3,0,0,1,.31.31,4.75,4.75,0,0,0,1.3,1c.31.31.62.31,1,.62h1.3a3.81,3.81,0,0,0,2.6-1.3c.31-.32.67-.63,1-1a1.08,1.08,0,0,1,.62-.31,4.41,4.41,0,0,1,2-.32,2.42,2.42,0,0,0,1.3.63l.31.36a1,1,0,0,0-.31-.67,5,5,0,0,0-1.3-1,3.08,3.08,0,0,0-1-.32h-1.3c-.31,0-.31.32-.63.32s-.36.31-.67.31a9.25,9.25,0,0,1-1,1,1.76,1.76,0,0,1-1.61,1,1.26,1.26,0,0,1-1,.31ZM53,33.07a5.48,5.48,0,0,1,1.62.62c1,0,1.66.37,2.6,0a6.74,6.74,0,0,0,4.57-2.23c.31-.37,1-1.36,1.3-1.67.68-.31,1-.62,1.67-.62a3.83,3.83,0,0,1,3.27-.37c.94.37,1.93.68,2.6,1a5.59,5.59,0,0,0,1,.68,4.5,4.5,0,0,1-.68-1,14.41,14.41,0,0,0-2.28-2,4.69,4.69,0,0,0-2-.63h-2.6c-.31.32-1,.32-1.3.63-.31,0-.68.36-1,.67a10.92,10.92,0,0,0-1.92,1.62,5.89,5.89,0,0,1-3,2c-.62,0-1.3.31-2,0H53.36c-2-.68-3.59-1.3-3.59-1.3a3.61,3.61,0,0,0,1,.62,4.65,4.65,0,0,0,2.28,2Zm16,1.62a1.15,1.15,0,0,1-.94-.32,4,4,0,0,1-2-.68,1.36,1.36,0,0,1,.31.68,4.39,4.39,0,0,0,1.3,1c.36,0,.68.31,1,.31H70a3.83,3.83,0,0,0,2.6-1.3c.36-.31.67-.68,1-.68a.68.68,0,0,1,.67-.62,2.1,2.1,0,0,1,1.92,0c.37,0,1,.31,1.31.31l.36.31-.36-.31a5,5,0,0,0-1.31-1,1.14,1.14,0,0,0-.93-.31,1.1,1.1,0,0,0-1.35,0h-.63l-.67.68c-.31.31-.63.31-.94.62A3.23,3.23,0,0,1,70,34.69ZM37.7,75.51h4.58V82.7H37.7Zm40.77,0h4.27V82.7H78.47Zm-6.81,0h4.21V82.7H71.66Zm-6.86,0h4.57V82.7H64.8Zm-6.87,0h4.58V82.7H57.93Zm-6.55,0h4.26V82.7H51.38Zm-6.81,0h4.21V82.7H44.57Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg x="0px" y="0px" width="48" height="48" id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="28 22.24 46.13 63.2"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><path class="cls-1" d="M63.83,74.88H38.25v5H63.83ZM57.09,41.05l2.06-6.48-1.5.57a6.29,6.29,0,0,0-1.17-2,4.22,4.22,0,0,0-3.8-1.5H47.39a2.52,2.52,0,0,0-1.79.89l-3,5,5.3,3v-.28a16,16,0,0,0,2.06-3c0-.28.33-.56.61-.89l1.17,2.39-1.45.57ZM44.43,48.42,45.89,46c.32,0,.89.29.89.61l.61.29-2.07-7-6.79,1.73,1.22.89a5.27,5.27,0,0,0-.89,2.35,4.1,4.1,0,0,0,.56,3.85s2.34,3.8,2.67,4.41a2.17,2.17,0,0,0,1.73,1.17h5.63V48.42Zm18.84-3.57-3-5-5,3.52h0c.61.89,1.18,2.06,1.79,2.91A5.43,5.43,0,0,1,58,47.53H55V46.31l.28-.57-5,5.3,5,5V54.28H58a5.72,5.72,0,0,0,2.91-3l2.39-4.41a2.63,2.63,0,0,0,0-2.07ZM41.76,80.74v4.7H60.32v-4.7ZM63.83,69H38.25v5H63.83Zm.89-2.35a4.5,4.5,0,0,0,.61-1.78v-.56A24.87,24.87,0,0,1,70,53.67c2.07-3.24,4.13-6.14,4.13-11.73,0-10.93-10.31-19.7-23.24-19.7C38.25,22.24,28,31,28,41.94c0,5.59,2.06,8.49,4.07,11.73A23.2,23.2,0,0,1,36.8,65.45a2.58,2.58,0,0,0,2.62,2.34H62.66a2.51,2.51,0,0,0,2.06-1.17Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="39.09 26.87 57.08 72.13" width="48" height="48" ><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>Artboard 17</title><path class="cls-1" d="M66.51,69.63V99h2.6V69.63l12.12-.31V40.57h-4V29.79l-2.92-2.92-3,2.92V40.57H64.22V29.79l-2.91-2.92-3,2.92V40.57h-3.9V69.32ZM39.78,72.91a6,6,0,0,0,1.61-.68,9,9,0,0,0,2.29-.62H47c1,.31,2.29.31,3.59.62a32.07,32.07,0,0,1,3.58,1.62c1,.31,1.93,1.3,3.23,2a20,20,0,0,1,2.65,3,19.53,19.53,0,0,1,2.29,2.92,18.29,18.29,0,0,1,1.61,3.59,16.73,16.73,0,0,1,1.3,6.82,9.67,9.67,0,0,1-.31,3c0,.63-.37,1.62-.37,2.29,0,.32-.31.63-.31.94l-1.61.37H61a15.7,15.7,0,0,1-1.62-.37,8.67,8.67,0,0,1-2.6-1.3,8.91,8.91,0,0,1-2.6-1.3c-1-.63-1.66-1-2.6-1.62a12.47,12.47,0,0,1-2.28-2A12.93,12.93,0,0,1,47,89.89a24,24,0,0,1-3.28-4.59,19.45,19.45,0,0,0-1-2.6A9.08,9.08,0,0,1,41.39,80a6.18,6.18,0,0,1-.62-2.6c-.37-.63-.68-1.3-1-1.93a12.32,12.32,0,0,0-.36-1.66,1,1,0,0,1-.32-.63,1.15,1.15,0,0,0,.68-.31Zm55.8,0c-.36,0-.67-.37-1.61-.68a8.79,8.79,0,0,1-2.34-.62H88.4c-1,.31-2.28.31-3.58.62a15.59,15.59,0,0,0-3.28,1.62c-1.3.31-2.29,1.3-3.59,2a20,20,0,0,0-2.65,3,16.37,16.37,0,0,0-2.24,2.92A16,16,0,0,0,71.4,85.3a17.6,17.6,0,0,0-1.3,6.82,8.39,8.39,0,0,0,.36,3c0,.63.32,1.62.32,2.29,0,.32.31.63.31.94l1.66.37h1.93c.31,0,1-.37,1.3-.37a5.86,5.86,0,0,0,2.6-1.3,6.46,6.46,0,0,0,2.65-1.3,19.67,19.67,0,0,0,2.6-1.62,14.52,14.52,0,0,0,2.29-2,7.82,7.82,0,0,0,2.28-2.23,23.73,23.73,0,0,0,3.23-4.59,7.13,7.13,0,0,1,1.3-2.6c.36-1,.68-1.67,1-2.66a21.71,21.71,0,0,0,.94-2.6,4.15,4.15,0,0,1,.67-1.93,3.9,3.9,0,0,0,.31-1.66,1,1,0,0,0,.32-.63,1,1,0,0,1-.63-.31Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg x="0px" y="0px" width="48" height="48" id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="32.35 41.16 62.17 58.84"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><path class="cls-1" d="M61.58,41.16c14.1,0,25.86,11.22,26.43,25h6.51L89.79,74.1l-4.41,7.65L81,74.1l-4.41-7.93h5.86A20.67,20.67,0,0,0,61.58,46.75ZM36,82.36a26.24,26.24,0,0,1,8.2-35.29L41,41.49H59.19L54.5,49.42l-4.4,7.65-3.23-5.3a21.19,21.19,0,0,0-6.19,28Zm48.49,1.73a26.69,26.69,0,0,1-35,10.61L46.26,100l-4.41-7.65-4.4-7.93H55.4L52.16,90a21.24,21.24,0,0,0,27.32-8.54Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="45.7 36.74 44.95 62.05" width="48" height="48" ><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>Artboard 25</title><path class="cls-1" d="M80.6,88.43H55.49v4.88H80.6ZM67.91,58.69v8.93h.55V58.69h3.77V50H71.08V46.86L70.21,46l-.88.88V50H67V46.86L66.16,46l-.87.88V50H64.14v8.66Zm3.17,13c0-.6,0-1.15.28-1.42,0-.33.27-.6.59-.88a.64.64,0,0,1,.56-.6,2.67,2.67,0,0,1,1.42-.27,2.17,2.17,0,0,1,2,.87,3.12,3.12,0,0,1,.88,2.3,4.07,4.07,0,0,1-.6,2.3,3.29,3.29,0,0,1-2.3.88,3.38,3.38,0,0,1-2.3-.88,4.59,4.59,0,0,1-.55-2.3Zm1.15,0a3.33,3.33,0,0,0,.55,1.75,1.53,1.53,0,0,0,1.15.55,1.64,1.64,0,0,0,1.2-.55,3.33,3.33,0,0,0,.55-1.75,2.13,2.13,0,0,0-.55-1.42c-.33-.6-.6-.6-1.2-.6s-.87,0-1.15.6a2.13,2.13,0,0,0-.55,1.42Zm-3.17.88,1.15.27a11,11,0,0,1-.88,1.71,3.3,3.3,0,0,1-1.74.32,2.54,2.54,0,0,1-2-.88,2.72,2.72,0,0,1-.87-2.3,3.11,3.11,0,0,1,.87-2.3,2.41,2.41,0,0,1,2-.87,3.77,3.77,0,0,1,2,.59c.28.28.28.83.6,1.16l-1.15.27c-.28-.27-.28-.6-.6-.6a1.07,1.07,0,0,0-.87-.27c-.56,0-.88,0-1.15.6-.28.27-.28.82-.28,1.42,0,.88,0,1.43.28,1.75a1.5,1.5,0,0,0,1.15.55c.32,0,.59-.27.87-.55.32,0,.32-.32.6-.87Zm-9.84,2.3V68.77h4.64v.88H60.37v1.42h3.17V72H60.37V73.7h3.49v1.15Zm.6-15a.27.27,0,0,1,.27-.28H61a1.11,1.11,0,0,1,.87-.27c.27.27.55.27,1.15.27.27,0,.55.28.87.56a1.4,1.4,0,0,1,1.15.6c.28.27.6.55.88.87s.55.55.55.87c.27.28.27.56.59,1.11a4.56,4.56,0,0,1,.28,2.07v.83c0,.28,0,.6-.28.6v.27l-.59.28h-.28c-.27,0-.27-.28-.55-.28s-.6-.27-.87-.27a.93.93,0,0,1-.6-.32c-.28-.28-.6-.56-.88-.56-.27-.27-.55-.55-.87-.55a.61.61,0,0,0-.55-.6A7.2,7.2,0,0,0,61,63.57c-.28-.28-.28-.55-.6-.83a1.08,1.08,0,0,0-.28-.87c0-.28,0-.6-.27-.6v-.88a.27.27,0,0,1-.28-.27v-.28Zm16.73,0a1.16,1.16,0,0,0-.6-.28H75.4c-.27-.27-.6-.27-1.15-.27a1.17,1.17,0,0,1-.87.27,1.45,1.45,0,0,0-1.15.56,1.37,1.37,0,0,0-.87.6c-.28.27-.6.55-.88.87s-.59.55-.87.87c0,.28-.28.56-.28,1.11a4.49,4.49,0,0,0-.55,2.07v.83a.92.92,0,0,1,.28.6v.27l.55.28h.6a.94.94,0,0,1,.55-.28,1.17,1.17,0,0,1,.6-.27c.27,0,.59-.32.87-.32.28-.28.55-.56.83-.56a.64.64,0,0,1,.59-.55,7.3,7.3,0,0,1,.6-.6c.55-.6.88-1.15,1.15-1.47,0-.28.28-.55.28-.83s.27-.6.27-.87a1.16,1.16,0,0,1,.28-.6c0-.28.32-.55.32-.88v-.27a.27.27,0,0,1,.28-.28Zm5.2,20.49A4,4,0,0,0,82,78.58V78c.88-4.61,2.9-7.51,4.65-10.41,2-3.18,4-6,4-11.51,0-10.73-10.07-19.34-22.49-19.34S45.7,45.38,45.7,56.11c0,5.48,1.7,8.33,4,11.51a29.13,29.13,0,0,1,4.65,11.56,2.52,2.52,0,0,0,2.57,2.3H79.45a3.71,3.71,0,0,0,2.3-1.15Zm-1.15,2.3H55.49v4.93H80.6ZM58.94,94.19v4.6H77.15v-4.6Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg x="0px" y="0px" width="48" height="48" id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="47 37.1 95.01 49.32"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><path class="cls-1" d="M140.08,64.87h-.37V48.21a2.51,2.51,0,0,0-.62-1.3l-6.19-6.2a1.89,1.89,0,0,0-1.3-.68H113.29a1.86,1.86,0,0,0-1.92,2V69.4h-2V39.1a2.12,2.12,0,0,0-2-2H51.62a2.13,2.13,0,0,0-2,2V64.87H49a2.13,2.13,0,0,0-2,2v8.8a2.17,2.17,0,0,0,2,2H53.9a8.82,8.82,0,0,0,17.63,0h2.29a8.82,8.82,0,0,0,17.63,0h26.11a8.74,8.74,0,0,0,8.79,8.75,9.05,9.05,0,0,0,9.15-8.75h4.58a1.89,1.89,0,0,0,1.92-2v-8.8a1.86,1.86,0,0,0-1.92-2ZM86.56,53.42l1.93-6.51-1.3.67a6.36,6.36,0,0,0-1.3-2c-1-1.3-2.29-1.3-3.59-1.3H77.41a2.32,2.32,0,0,0-2,1l-2.92,4.58,5.2,2.92.32-.31a13.85,13.85,0,0,1,1.66-3c0-.31.31-.62.62-.94l1,2.24-1.3,1ZM74.45,60.29,75.75,58c.36,0,1,.31,1,.68l.31.31-1.93-6.82-6.55,1.61,1.3,1A17,17,0,0,0,68.93,57c-.67,1.3,0,2.65.63,3.59,0,0,2.29,3.6,2.6,4.27a1.91,1.91,0,0,0,1.66,1h5.57V60.29ZM92.39,57l-2.91-4.84L84.9,55.39h0a14.85,14.85,0,0,1,1.66,2.92c.32.37.63.68.63,1h-2.6V57.69L80,62.89l4.89,4.59v-1.3h.68a14.59,14.59,0,0,0,1.61-.32c1.61-.36,2.29-1.66,3-2.6L92.39,59a2,2,0,0,0,0-2ZM62.69,80.55a2.91,2.91,0,0,1-2.91-2.92,3,3,0,0,1,2.91-3.28A3.26,3.26,0,0,1,66,77.63a3.2,3.2,0,0,1-3.28,2.92Zm19.92,0a3.19,3.19,0,0,1-3.22-2.92,3.25,3.25,0,1,1,6.5,0,3.2,3.2,0,0,1-3.28,2.92Zm43.74,0a2.91,2.91,0,0,1-2.91-2.92,3,3,0,0,1,2.91-3.28,3.08,3.08,0,0,1,3.27,3.28,3,3,0,0,1-3.27,2.92Zm7.49-25.47a1.05,1.05,0,0,1-.94,1h-15c-.31,0-.68-.68-.68-1V46.59c0-.67.37-1,.68-1h11.75a1,1,0,0,1,.63.32l3.27,3.59c.32,0,.32.36.32.36v5.21Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                </div>
+                <div class="hexrow">
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 123 102" width="48" height="48" ><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>Artboard 26</title><path class="cls-1" d="M68.43,19.86a29.32,29.32,0,0,1,14.81,10.8A27.91,27.91,0,0,1,83.56,65a27.88,27.88,0,0,1-13.14,10.1v5.69l-3-1.34L63,76.74l-4.35-2.69-3.05-1.66,3.05-1.72L63,68.36h0l4.4-2.74,3-1.66v4a21.2,21.2,0,0,0,8.1-7.42,22.08,22.08,0,0,0,4-12.78,22.67,22.67,0,0,0-4.34-13.1,23.41,23.41,0,0,0-11.11-8.11l-1.34-.33v-7Zm-15.5-3.38,4.73,2.74,4.39,2.63,2.68,1.39-2.68,1.67L57.66,27.6h0l-4.73,2.68L50.25,32V27.92A22.18,22.18,0,0,0,41.83,35a21.41,21.41,0,0,0-4,12.78,21.9,21.9,0,0,0,4,13.16,22.9,22.9,0,0,0,11.1,8.38l1.34.37v6.72l-2.36-.65A28.39,28.39,0,0,1,36.79,65.3a28,28,0,0,1-5.74-17.51,28.39,28.39,0,0,1,5.74-17.13A31.29,31.29,0,0,1,50.25,20.51v-5.7Z"/></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg x="0px" y="0px" width="48" height="48" id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="41.13 36.3 64.87 63.62"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><path class="cls-1" d="M53.65,65.06a1.81,1.81,0,0,0-2.41-.87A1.85,1.85,0,0,0,50,66.61l1.78,5.75s.92,1.5,0,1.84C50.9,74.78,50,73,50,73L46.7,66.61l1.78-10.92s.63-2.13-.91-2.71c-.87-.29-1.79,0-2.42,1.79-11.48,33.06,5.17,20.3,6.09,45.15H62.15v-16ZM67.26,47.23h5.79V53H66.68a34.51,34.51,0,0,1,.58-5.75ZM73.63,36.3A17.46,17.46,0,0,1,90.92,53.56a17.27,17.27,0,0,1-17.29,17.3,17.09,17.09,0,0,1-17.28-17.3A17.27,17.27,0,0,1,73.63,36.3Zm0,1.21A16.22,16.22,0,1,1,57.27,53.56,16.17,16.17,0,0,1,73.63,37.51ZM67.26,60.23h5.79v-6H66.68a38.22,38.22,0,0,0,.58,6ZM73.05,46V38.43c-2.46.29-4.24,3.34-5.45,7.59Zm8.16,14.21h6.37a18.74,18.74,0,0,0,1.5-6H81.79a38.22,38.22,0,0,1-.58,6Zm0-13A34.51,34.51,0,0,1,81.79,53h7.29a17,17,0,0,0-1.5-5.75ZM80.92,46h6a14.94,14.94,0,0,0-9.71-7.3A13.76,13.76,0,0,1,80.92,46ZM73.05,69V61.44H67.6c1.21,4.25,3,7.3,5.45,7.59Zm6.67-23c-1.26-4.25-3-7.3-5.46-7.59V46Zm.86,8.17H74.26v6H80a38.26,38.26,0,0,0,.57-6Zm-22.39,0a13.55,13.55,0,0,0,1.49,6h6.08a41.24,41.24,0,0,1-.28-6Zm7.87,7.25H60.31a16.16,16.16,0,0,0,9.41,7.3c-1.54-1.55-2.75-4.26-3.66-7.3Zm14.86,0a15,15,0,0,1-3.67,7.3A16,16,0,0,0,87,61.44ZM66.06,46c.91-3.34,2.12-5.75,3.66-7.3A15.07,15.07,0,0,0,60.31,46Zm14,1.21H74.26V53h6.32A34.55,34.55,0,0,0,80,47.23Zm-20.33,0A12.35,12.35,0,0,0,58.19,53h7.29a37.28,37.28,0,0,1,.28-5.75ZM74.26,61.44V69c2.42-.29,4.2-3.34,5.46-7.59ZM84.83,83.87v16H96.08c.58-24.85,17.57-12.09,5.74-45.15-.62-1.79-1.2-2.08-2.41-1.79-1.54.58-.92,2.71-.92,2.71l2.13,10.92L97,73s-.87,1.79-1.79,1.21c-.62-.34,0-1.84,0-1.84L97,66.61s.92-1.84-.87-2.42a1.85,1.85,0,0,0-2.46.87Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="37.56 39.16 72.65 65.85" width="48" height="48" ><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>Artboard 34</title><path class="cls-1" d="M73.92,66a32.37,32.37,0,0,0-3.71-5.43V60.2a14.31,14.31,0,0,0-1-6.07,20.28,20.28,0,0,0-9.07-11.44c-2.41-1.34-4.77-2.68-7.4-3a15.87,15.87,0,0,0-8.1,0,13.13,13.13,0,0,0-5.42,2.69c-.64.64-1,1-1.34,1.34l-.32.64a.32.32,0,0,0,.32.33c.38.37,1,.69,1.34,1.34a18.6,18.6,0,0,1,3.06,3.71c3.7,4.72,8.42,8.8,14.16,10.79a34.89,34.89,0,0,0,6,1.35,50.72,50.72,0,0,0,7.08.69l.32.65c1,2.36,1.72,4.4,2,5.05v30C57.72,98.55,49.35,103,49.35,103c42.05,5,6.7-1,53.48,0a88.7,88.7,0,0,0-27.25-4.73c.32-11.76-1-24.54,3.06-35.66a45.1,45.1,0,0,0,6.7-.69,35.64,35.64,0,0,0,6.06-1.35c5.74-2,10.46-6.07,14.16-10.79a16.94,16.94,0,0,1,3-3.71,5.82,5.82,0,0,1,1-1.34,1.11,1.11,0,0,0,.65-.33l-.32-.64c-.33-.32-.65-.7-1.35-1.34a12.83,12.83,0,0,0-5.36-2.69,15.88,15.88,0,0,0-8.1,0c-2.68.33-5,1.67-7.4,3a22.38,22.38,0,0,0-9.44,11.44,24.31,24.31,0,0,0-1,6.07h0a13.73,13.73,0,0,1-1.34,2.69Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg x="0px" y="0px" width="48" height="48" id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="16.61 15.91 54.21 75.09"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><path class="cls-1" d="M39.49,22.68a6.75,6.75,0,0,0-6.7-6.77,6.5,6.5,0,0,0-6.39,6.77,5.86,5.86,0,0,0,3.71,5.69L26,31.43c-9.76,0-9.39,7-9.39,7V54.64h0V55a3,3,0,0,0,3,2.69A2.88,2.88,0,0,0,22.33,55v-.37h0V39.87H24V87a3.8,3.8,0,0,0,3.71,4,3.86,3.86,0,0,0,4-4V61.73h1.66V87.29A3.75,3.75,0,0,0,37.13,91a3.8,3.8,0,0,0,3.7-4V39.49h1.72l11.8,10.42h0a2.15,2.15,0,0,0,3.7,0,2.16,2.16,0,0,0,0-3.65h0L47.27,35.14a14,14,0,0,0-8.1-3.71l-3.38-3.06a6.17,6.17,0,0,0,3.7-5.69ZM51,91H67.43l3.39-27.23H47.59Zm11.1-17.13,1-3.07-.7.33c0-.33-.32-.65-.64-1-.38-.7-1-.7-1.72-.7H57.67a1.2,1.2,0,0,0-1,.38l-1.35,2.31,2.36,1.34h.38a3.66,3.66,0,0,1,.64-1.67L59,71.5l.7,1-1,.38ZM56.33,77.2l.33-1h.69l.32.37-1-3.38-3.33,1,.64.32c0,.32-.32.7-.32,1A1.52,1.52,0,0,0,54,77.2c0,.37,1,2,1,2.36a1.3,1.3,0,0,0,1,.32h2.36V77.2Zm8.75-1.67-1.67-2.36-2,1.66h0c.38.38.38,1,.7,1.35,0,.37.32.37.32.69H61.05v-1l-2,2.69,2,2,.32-.7h1a2.33,2.33,0,0,0,1.34-1.34l1.35-2v-1Zm-2-21.22h.32V55h.7v1h0v.7h0v1h-.38v1h-.32v.64H62.07v.7H60.73v-.7H60v1H59v-.71h-1v-1h.64V58h-.32V57.7h0v-.38h-.7V58h-1V57.7h-1V56.36h.64V56H56V54.64h.65v-.33h.69v-.69H57v-1h.64v-.38h1V53h0v-.7H60v.38h0v-.38h1.34V53h0v-.7h1V53h.7v1h0Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="52.24 26.05 66.24 57.87" width="48" height="48" ><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>Artboard 35</title><path class="cls-1" d="M61,66.42l-.64-14.83h-.7L59,66.42v5.42h2Zm50.48-20.2a1.65,1.65,0,0,0,2.41,0c1-.32,1-1.67.32-2.36a2.15,2.15,0,0,0-2.73,0,1.67,1.67,0,0,0,0,2.36Zm.69-.65a2,2,0,0,0,1.34.33.94.94,0,0,0,0-1.35,1.06,1.06,0,0,0-1.34,0,.66.66,0,0,0,0,1Zm6.06,8.06-3.38-7.41-.32-.32a1.69,1.69,0,0,1-1.66,1.34v.32h-.38l-1,20.57v7.74h3V68.13l-1-19.55,4.08,5.75c0,.32.32.64.64.32h0a.65.65,0,0,0,0-1Zm-.64-17.51-4.72,6.39v.38a2.17,2.17,0,0,1,1.66,1.34c.32,0,.32-.37.32-.37l3.38-7.42c.33-.32.33-.64,0-.64v-.32c-.32,0-.64,0-.64.64Zm-15.18,9.45,8.42.65h.32a1.69,1.69,0,0,1,0-2.36h-.32l-8.42.69c-.32,0-.64,0-.64.33v.37c0,.32.32.32.64.32ZM82.24,39.51a2.64,2.64,0,0,0,0,3.7,2.52,2.52,0,0,0,3.33,0,2.24,2.24,0,0,0,0-3.38,2.2,2.2,0,0,0-3.33-.32Zm1,1a1.18,1.18,0,0,0-.32,1.66,1.62,1.62,0,0,0,1.71,0c.65-.32.65-1,.32-1.66a1.41,1.41,0,0,0-1.71,0ZM71.78,49l10.46-4.73a.34.34,0,0,0,.33-.37,2.64,2.64,0,0,1-1.67-2.69.37.37,0,0,0-.37.38l-9.39,6.39c-.37.32-.7.32-.37,1h0c.37.64.69.32,1,0Zm24.89-1-9.38-6.39a.37.37,0,0,0-.38-.38,2.65,2.65,0,0,1-1.66,2.69.33.33,0,0,0,.32.37L96,49c.32.32.64.64,1,0h0c.32-.38,0-.7-.38-1ZM83.21,27.05l-1,11.44v.32a3.09,3.09,0,0,1,3.33,0v-.32l-1-11.44c0-.65,0-1-.69-1h0c-.7,0-.7.38-.7,1ZM86.26,73.5,84.92,44.88H83.21l-1,28.62V83.92h4ZM59.34,48.58a1.65,1.65,0,0,0-.7,2,2.21,2.21,0,0,0,2,.33A1.5,1.5,0,0,0,61,49.28a1.2,1.2,0,0,0-1.66-.7Zm.32.7a1.2,1.2,0,0,0-.32,1c.32,0,.7.37,1,0a.45.45,0,0,0,0-.65c0-.32-.32-.32-.7-.32ZM53,52l5.68-1H59c-.7-.33-.7-1-.38-1.67h-.32l-5.74,2c-.32.32-.32.32-.32.7h0c0,.32.32.32.7,0ZM65.4,54.65l-3.7-4.4h-.37a1.45,1.45,0,0,1-1,1v.32l4.35,3.71c.32.37.69.37.69,0h0c.32,0,.32-.33,0-.65ZM61.33,42.51l-2,5.75v.32c.7-.32,1.34-.32,1.66.38v-.38l1-5.69c.32-.38.32-.7,0-.7h0c-.32,0-.32,0-.69.32Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg x="0px" y="0px" width="48" height="48" id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="37.38 26.95 61.8 60.88"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><path class="cls-1" d="M49.15,54.63a1.69,1.69,0,0,0-2.3-.87c-1.75.27-.87,2.3-.87,2.3l1.74,5.2s.56,1.75,0,2c-.87.55-1.74-1.15-1.74-1.15l-3.45-6.36,2-10.08s.55-2.35-.87-2.62c-1.15-.56-1.75,0-2.3,1.75-11.26,31.44,4.87,19.29,5.47,43H57.24V72.5Zm8.37,4c-2.3-2-1.43-2.9-.28-3.17,3.45-.28,2.3,2,4.87.27,1.2-.87,2-1.47,3.22-1.47h.56a2,2,0,0,1,1.14.32h1.15s.33,0,.33.28c.82,0,0-2.3,0-2.3a13.23,13.23,0,0,0-2.35-4.33c-1.7-1.43-1.7-.6-3.45-.88a7.93,7.93,0,0,1-2.89-1.15l-.55-.55c0-.6.27-.87.87-1.2a4,4,0,0,1,5.47,1.75h0l.28,1.15h0a8.16,8.16,0,0,1,2.29,3.18,9,9,0,0,0-.55-2.9A13.08,13.08,0,0,1,66.76,44c-.6-4.05-3.45-5.8-4.92-5.48a12.62,12.62,0,0,1-2.57-1.15c0-.28-.6-.87-.6-.87a1.39,1.39,0,0,1,.87-.88c1.75-1.15,4.32,0,5.2,1.75h0c0,.28,0,.28.27.55l.6,1.75h0a2.24,2.24,0,0,1,.55,1.43,22.23,22.23,0,0,1,.6-6.08,4,4,0,0,1,.87-1.7h0c-.32-.28-.32-.28-.32-.55h0c0-2.9,2-6.08,5.24-5.8a2.74,2.74,0,0,1,1.7.6c0,.27-.6,1.15-.6,1.42a13.15,13.15,0,0,1-2.57,3.18c-.87.27-1.75.6-2.57.87h0c-.33.83-.33,1.43-.6,2a31.2,31.2,0,0,0,0,7.23,7.39,7.39,0,0,1,1.42-2.58h0l.6-1.47v-.28h0c.87-2,3.45-3.17,5.2-2a4.64,4.64,0,0,1,1.15.87c0,.32-.56.6-.88.88a7.38,7.38,0,0,1-2.57,1.15c-2,.87-3.5,1.15-4.32,3.17-.88,1.43-.33,3.46.27,5.48.28.6.28,1.16.55,1.75a4.08,4.08,0,0,1,1.47-2.3c0-.6.28-1.15.28-1.75,0-.27.28-.6.28-.87h0c1.19-1.43,3.49-2.31,5.19-1.43.28.28.6.55.87.87,0,.28-.59.83-.87.83A5.15,5.15,0,0,1,74,46c-2.3.55-2.62-.28-4.32,3.17a4.38,4.38,0,0,0,.55,3.18,1,1,0,0,0,.27.83h0c0,.6.32,1.15.32,2.07h.28c.6,0,1.15-.32,1.75-.32l.27-.28a8.33,8.33,0,0,1,2.62.28c.28.32.56.6.56.87.27.28.27.56.87.88h.55a7.76,7.76,0,0,1,4.37-.6c.83.6-.6,2-2,2.9H57.24ZM79.17,72.5V87.83H89.56c.88-23.71,16.74-11.83,5.75-43-.55-1.75-1.43-2.31-2.58-1.75-1.14.27-.59,2.62-.59,2.62l1.74,10.08-3.17,6.36s-.87,1.7-1.74,1.15c-.88-.28,0-2,0-2l1.74-5.2s.55-2-1.15-2.3a1.76,1.76,0,0,0-2.34.87Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="38.45 30.87 80.17 61.76" width="48" height="48" ><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>Artboard 7</title><path class="cls-1" d="M48.85,80.55C52.13,76,56.7,72.37,61.59,69.09c3.9-2.24,8.48-1.93,12.43-.31,2.6,1,5.2,1.3,7.49.31a34.74,34.74,0,0,1,9.78-.94,5.17,5.17,0,0,1,3.58,1.62c.37.67-3.58,3.23-6.81,3.23.63,1.35,11.39-1.25,12.69-1.25l8.17-1c2.6-.32,7.49-.68,9.46,1.61a2.22,2.22,0,0,1,0,2c0,.94-1,.62-1.61.94a78.11,78.11,0,0,1-9.47,3.28C91.65,82.48,90,84.45,73,84.45a15.6,15.6,0,0,0-14.35,8.18H38.45c4.21-5.26,6.19-6.56,10.4-12.08ZM77.92,64.87c-2.6-2-1.3-3.28-.31-3.28,3.59-.31,2.6,2.29,5.51,0a6.14,6.14,0,0,1,3.28-1.3h.68a1.3,1.3,0,0,1,1,.31h1.62c1,.37,0-2.29,0-2.29a9,9,0,0,0-2.29-4.53c-2-1.61-2-.68-3.9-1-1-.31-2-.62-3-1,0-.31-.62-.62-.62-1s.31-.62.93-.94a4.13,4.13,0,0,1,5.88,1.93h0l.37,1h0a10.88,10.88,0,0,1,2.6,3.59c-.37-1.3-.68-2.29-1-3.28-.31-1.3-.63-2.6-1-3.9-.62-4.22-3.59-6.2-4.89-5.89A9.41,9.41,0,0,1,79.9,42c0-.31-.68-.62-.68-1s.68-.62,1-1a4.29,4.29,0,0,1,5.51,2h0c0,.31,0,.31.37.68l.62,1.93h0a6.32,6.32,0,0,0,.68,1.66,25,25,0,0,1,.67-6.87c.32-.63.32-1.3.63-2v.36h0v-.67h0c-.31-3.23,2.29-6.51,5.56-6.2a3,3,0,0,1,1.61.68c.31.31-.31,1.3-.62,1.61a9.26,9.26,0,0,1-3,3.23,15,15,0,0,1-2.6,1h0a5.81,5.81,0,0,0-.37,2.29,20.1,20.1,0,0,0-.31,7.5,7.8,7.8,0,0,1,2-2.92h0l.31-1.3v-.31h0c1-2,3.58-3.28,5.56-2.29.62.31,1,.62,1,1,.31.31-.37.62-.68.93a6.15,6.15,0,0,1-2.6,1.31c-2.28,1-3.9,1.35-4.88,3.28-.68,1.66,0,3.9.62,5.88,0,.63.36,1.3.36,2a5.3,5.3,0,0,1,1.62-2.6c0-.68,0-1.36.31-1.67,0-.31.31-.63.31-1h0c1-1.61,3.59-2.6,5.25-1.61.68.31,1,.67,1,1,.31.31-.31.62-.68,1a7.14,7.14,0,0,1-2.6,1.31c-3,1-3,0-4.57,3.59A3,3,0,0,0,91.65,58,1.26,1.26,0,0,0,92,59h0c0,.67.32,1.3.32,2.29h.31c.31,0,1.3-.31,1.66-.31s.31-.37.62-.37a7.09,7.09,0,0,1,2.6.37c.37.31.68.62.68.93.31.37.31.68.68,1h.93c.37,0,1-1.3,4.58-.62.68.31-.62,2.29-1.92,2.91H77.92Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                </div>
+                <div class="hexrow">
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="38.45 30.87 80.17 61.76" width="48" height="48" ><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>Artboard 7</title><path class="cls-1" d="M48.85,80.55C52.13,76,56.7,72.37,61.59,69.09c3.9-2.24,8.48-1.93,12.43-.31,2.6,1,5.2,1.3,7.49.31a34.74,34.74,0,0,1,9.78-.94,5.17,5.17,0,0,1,3.58,1.62c.37.67-3.58,3.23-6.81,3.23.63,1.35,11.39-1.25,12.69-1.25l8.17-1c2.6-.32,7.49-.68,9.46,1.61a2.22,2.22,0,0,1,0,2c0,.94-1,.62-1.61.94a78.11,78.11,0,0,1-9.47,3.28C91.65,82.48,90,84.45,73,84.45a15.6,15.6,0,0,0-14.35,8.18H38.45c4.21-5.26,6.19-6.56,10.4-12.08ZM77.92,64.87c-2.6-2-1.3-3.28-.31-3.28,3.59-.31,2.6,2.29,5.51,0a6.14,6.14,0,0,1,3.28-1.3h.68a1.3,1.3,0,0,1,1,.31h1.62c1,.37,0-2.29,0-2.29a9,9,0,0,0-2.29-4.53c-2-1.61-2-.68-3.9-1-1-.31-2-.62-3-1,0-.31-.62-.62-.62-1s.31-.62.93-.94a4.13,4.13,0,0,1,5.88,1.93h0l.37,1h0a10.88,10.88,0,0,1,2.6,3.59c-.37-1.3-.68-2.29-1-3.28-.31-1.3-.63-2.6-1-3.9-.62-4.22-3.59-6.2-4.89-5.89A9.41,9.41,0,0,1,79.9,42c0-.31-.68-.62-.68-1s.68-.62,1-1a4.29,4.29,0,0,1,5.51,2h0c0,.31,0,.31.37.68l.62,1.93h0a6.32,6.32,0,0,0,.68,1.66,25,25,0,0,1,.67-6.87c.32-.63.32-1.3.63-2v.36h0v-.67h0c-.31-3.23,2.29-6.51,5.56-6.2a3,3,0,0,1,1.61.68c.31.31-.31,1.3-.62,1.61a9.26,9.26,0,0,1-3,3.23,15,15,0,0,1-2.6,1h0a5.81,5.81,0,0,0-.37,2.29,20.1,20.1,0,0,0-.31,7.5,7.8,7.8,0,0,1,2-2.92h0l.31-1.3v-.31h0c1-2,3.58-3.28,5.56-2.29.62.31,1,.62,1,1,.31.31-.37.62-.68.93a6.15,6.15,0,0,1-2.6,1.31c-2.28,1-3.9,1.35-4.88,3.28-.68,1.66,0,3.9.62,5.88,0,.63.36,1.3.36,2a5.3,5.3,0,0,1,1.62-2.6c0-.68,0-1.36.31-1.67,0-.31.31-.63.31-1h0c1-1.61,3.59-2.6,5.25-1.61.68.31,1,.67,1,1,.31.31-.31.62-.68,1a7.14,7.14,0,0,1-2.6,1.31c-3,1-3,0-4.57,3.59A3,3,0,0,0,91.65,58,1.26,1.26,0,0,0,92,59h0c0,.67.32,1.3.32,2.29h.31c.31,0,1.3-.31,1.66-.31s.31-.37.62-.37a7.09,7.09,0,0,1,2.6.37c.37.31.68.62.68.93.31.37.31.68.68,1h.93c.37,0,1-1.3,4.58-.62.68.31-.62,2.29-1.92,2.91H77.92Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg x="0px" y="0px" width="48" height="48" id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="48.86 41.68 74.34 63.63"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><path class="cls-1" d="M88,82.05a2.12,2.12,0,0,0,3-.32,2.16,2.16,0,0,0-.32-3L71.89,64.54a1.69,1.69,0,0,0-2.36,0L49.69,79.36a2.14,2.14,0,0,0-.32,3.07,2.48,2.48,0,0,0,1.66.64,2.09,2.09,0,0,0,1.34-.32l18.5-13.81ZM116,70.61a1.52,1.52,0,0,0,0,1.66,1,1,0,0,0,1.72,0,1.52,1.52,0,0,0,0-1.66,1.64,1.64,0,0,0-1.72,0Zm.37.7V72a.61.61,0,0,0,1,0v-.64a.61.61,0,0,0-1,0Zm-5.09,4L116,73s.37,0,.37-.32c-.69,0-1-.7-.69-1h-.32l-4.4,3c-.32.37-.65.37-.32.7h.64Zm11.8-.7-4.72-3h0a1.08,1.08,0,0,1-1,1l.38.32,5,2.37h.32c.32-.33,0-.33,0-.7Zm-6.38-9.78-.7,5.43h0a1.42,1.42,0,0,1,1.72,0h0l-.38-5.43c0-.32,0-.64-.32-.64h0c-.32,0-.32.32-.32.64ZM118,86.78l-.7-13.49h-.64L116,86.78v5h2ZM86.7,103.27V83.39L70.55,71.31,54,83.39v19.88h11.8V87.1H76.29v16.17Zm9.43-46.79a2.4,2.4,0,0,0-.32,3.71,3,3,0,0,0,4,0,2.62,2.62,0,1,0-3.71-3.71Zm.65,1a1.57,1.57,0,0,0,0,1.67,1.25,1.25,0,0,0,2,0,1.57,1.57,0,0,0,0-1.67,1.26,1.26,0,0,0-2,0ZM84.71,66.9l11.1-5.37c.32,0,.32-.32.65-.32-1.34-.7-2-1.72-1.67-3.06-.32,0-.32,0-.69.32L84,65.56c-.64.32-1,.32-.64,1v.32c.32.38.64.38,1.34,0ZM112,65.56,101.5,58.47a.31.31,0,0,0-.32-.32,3,3,0,0,1-2,3.06c.37,0,.37.32.7.32l11.1,5.37c.7.38,1,.38,1.34,0v-.32c.37-.32,0-.7-.32-1ZM97.16,42.68l-1,12.46v.65a2.23,2.23,0,0,1,3.38,0,1.11,1.11,0,0,1,.33-.65L98.5,42.68c0-.7,0-1-.7-1h0c-.64,0-.64.32-.64,1Zm3,50.81L98.82,62.18H97.16L95.81,93.49v11.82h4.35Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="32.24 31.3 55.91 60.97" width="48" height="48" ><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>Artboard 8</title><path class="cls-1" d="M72.7,33.52A7.19,7.19,0,0,0,70.77,40l-1.66-1.61a2,2,0,0,0-2.91-.31L51.84,52.17c-.67.62-.36,1.92.31,2.91l4.22,4.58-15,1.62c-.68-1.3-1.3-1.93-2-1.93-1,.31-1.61,2.24-1,4.85.36,2.29,1.66,4.27,2.6,4,.67,0,1-1.3,1-3l22.21,3,5.2,5.52a1.71,1.71,0,0,0,2.65,0L87.73,58.31a2.12,2.12,0,0,0-.37-2.92l-2.91-2.6a47.72,47.72,0,0,1,.68-7.5c.62-4.27,1.3-8.17-2.66-12.08a6.82,6.82,0,0,0-9.77.31ZM37.44,79.87s-1.62,2-1.62,3a1.73,1.73,0,0,0,1.62,1.61,1.77,1.77,0,0,0,1.66-1.61c0-1-1.66-3-1.66-3Zm1.35,10.47a2.08,2.08,0,0,0,1.92,1.93,1.85,1.85,0,0,0,1.67-1.93c0-1-1.67-3-1.67-3s-1.92,2-1.92,3Zm-6.55-2c0,.68.31,1,1,1a1,1,0,0,0,1-1c0-.62-1-1.62-1-1.62s-1,1-1,1.62Zm6.55-19s-1.66,2-1.66,3a1.64,1.64,0,0,0,3.27,0c0-1-1.61-3-1.61-3ZM40.4,79.87a1.82,1.82,0,0,0,1.61,2,1.86,1.86,0,0,0,1.67-2C43.68,78.88,42,77,42,77s-1.61,1.92-1.61,2.91Zm-6.86-1.93c0,.63.31.94,1,.94s1-.31,1-.94-1-1.66-1-1.66-1,1-1,1.66ZM49.19,49.2,54.76,44a1.25,1.25,0,0,1-.68-.36h0c-.63-.63-.63-1.62,0-1.93L55.43,40a2.09,2.09,0,0,1,1.93,0h0c.31.37.31.37.31.68l5.56-5.21c.68-.67,1.61-.67,2,0h0c.62.31.62,1.3,0,1.93L51.48,51.49a1.54,1.54,0,0,1-2.29,0h0a1.64,1.64,0,0,1,0-2.29Zm34-4.22a37.49,37.49,0,0,0-.68,5.83L74,43c-1.3-2-2.29-5.57.36-7.86,2.24-2.24,4.52-2.24,6.81-.31,3,3,2.29,6.19,2,10.15Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg x="0px" y="0px" width="48" height="48" id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="75.22 46.85 55.18 75.09"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><path class="cls-1" d="M83.65,121.94H121l8.09-61.61H76.57Zm25.58-38.73,2-7-1.34.64a14.35,14.35,0,0,0-1.34-2.31,4.81,4.81,0,0,0-4-1.39H99.09a2,2,0,0,0-2,1l-3.38,5.37,5.74,2.74h.32a16.57,16.57,0,0,1,1.66-3.39c.38-.32.38-.64.7-1l1.34,2.69-1.66.7ZM95.77,90.62l1.66-2.36c.32.38.64.7,1,.7l.32.32-2-7.35-7,2,1.34.65a8.05,8.05,0,0,0-1.34,2.36,4.7,4.7,0,0,0,.64,4.41A44.66,44.66,0,0,0,93.41,96a1.76,1.76,0,0,0,1.66,1h6.06v-6.4Zm19.84-3.7-3.06-5-5.36,3.65h0c.65,1,1.34,2,2,3.06a2.59,2.59,0,0,1,.64,1.34h-2.68v-2l-5,5.75,5,5V97h2.68a5.08,5.08,0,0,0,3.38-3l2.36-4.73c.65-.64.32-1.34,0-2.36ZM76.24,58.67H129.4l1-5.75H116.63V50.56l-3.7-3.71H93l-3.7,3.71v2.36H75.22Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="53.79 40.18 38.6 63.24" width="48" height="48" ><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>Artboard 24</title><path class="cls-1" d="M72.23,68.17V87.51H74V68.17l8.09-.28V49.11H79.44V41.93l-2-1.75-2,1.75v7.18H70.8V41.93l-1.75-1.75-2,1.75v7.18H64.46V67.89Zm7.21,28.27A7.06,7.06,0,0,1,80,93a6.1,6.1,0,0,1,1.15-1.75,7.72,7.72,0,0,1,1.7-1.15,9.23,9.23,0,0,1,2.9-.55,7.37,7.37,0,0,1,4.92,1.7,8.15,8.15,0,0,1,1.7,5.21,7.09,7.09,0,0,1-1.7,5.2,6.84,6.84,0,0,1-4.92,1.75,6.07,6.07,0,0,1-4.6-1.75,7.1,7.1,0,0,1-1.75-5.2Zm2.62,0a4.53,4.53,0,0,0,1.15,3.45A2.76,2.76,0,0,0,85.79,101a2.83,2.83,0,0,0,2.62-1.15,4.69,4.69,0,0,0,1.15-3.45A6.44,6.44,0,0,0,88.69,93a3.69,3.69,0,0,0-2.9-1.15A2.76,2.76,0,0,0,83.21,93a4.61,4.61,0,0,0-1.15,3.46Zm-7.21,1.75,2.57.87a4.22,4.22,0,0,1-2,3.18A4.68,4.68,0,0,1,72,103.39a5.85,5.85,0,0,1-4.32-1.75,7.1,7.1,0,0,1-1.75-5.2,8.19,8.19,0,0,1,1.75-5.21,6,6,0,0,1,4.6-1.7,6.83,6.83,0,0,1,4,1.43,5.37,5.37,0,0,1,1.15,2.58l-2.57.59a4.37,4.37,0,0,0-.88-1.7,3.89,3.89,0,0,0-2-.6A2.56,2.56,0,0,0,69.65,93c-.6.56-.87,1.75-.87,3.46s.27,2.9.87,3.45A2.56,2.56,0,0,0,72,101a2.4,2.4,0,0,0,1.7-.55,3,3,0,0,0,1.2-2.3Zm-21.06,4.88V89.81H63.86v2.3H56.64V95h6.67v2.3H56.64v3.45h7.49v2.31Zm.83-32.6c.32-.28.59-.28,1.19-.55a9.68,9.68,0,0,1,1.7-.28h2c.59,0,1.42.28,2.29.28.88.27,1.48.55,2.3.83a9.78,9.78,0,0,0,2.07,1.47,6.3,6.3,0,0,1,2,2,4.74,4.74,0,0,1,1.47,2,23.34,23.34,0,0,1,1.15,2.26,12,12,0,0,1,.55,4.37v2a12.17,12.17,0,0,1-.27,1.47,1,1,0,0,1-.28.56l-1.15.32H68.5a1,1,0,0,1-.87-.32c-.6-.28-1.15-.28-1.75-.56a5.9,5.9,0,0,1-1.75-1.15,18.08,18.08,0,0,0-1.7-.87c-.6-.6-1.15-.88-1.47-1.43a3.93,3.93,0,0,1-1.42-1.47,14.91,14.91,0,0,1-2-2.9C57,78,57,77.42,56.64,76.82s-.55-1.15-.83-1.75a4.15,4.15,0,0,0-.6-1.7c0-.6-.27-.87-.27-1.47-.32-.28-.32-.56-.6-.83v-.6Zm37,0a5,5,0,0,0-1.15-.55,10.19,10.19,0,0,0-1.74-.28h-2c-.6,0-1.42.28-2.3.28-.87.27-1.47.55-2.3.83a10.68,10.68,0,0,1-2,1.47,6,6,0,0,0-2,2,5.09,5.09,0,0,0-1.47,2,23.34,23.34,0,0,0-1.15,2.26,12,12,0,0,0-.55,4.37v2a12.17,12.17,0,0,0,.27,1.47,1,1,0,0,0,.28.56l1.15.32h1.19a.93.93,0,0,0,.83-.32c.6-.28,1.15-.28,1.75-.56a5.3,5.3,0,0,0,1.74-1.15c.56-.32,1.15-.6,1.71-.87.59-.6,1.14-.88,1.47-1.43a3.59,3.59,0,0,0,1.42-1.47,14.91,14.91,0,0,0,2-2.9c.55-.56.55-1.11.87-1.71s.6-1.15.87-1.75a4.19,4.19,0,0,1,.55-1.7c0-.6.28-.87.28-1.47.32-.28.32-.56.6-.83v-.6Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg x="0px" y="0px" width="48" height="48" id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="54.3 54.08 83.04 58.92"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><path class="cls-1" d="M65.08,100.54c3.7-4.73,8.42-8.43,13.09-11.76,4.07-2.36,8.79-2,13.14-.38a11.39,11.39,0,0,0,7.4.7,34.67,34.67,0,0,1,10.14-1.34,4.78,4.78,0,0,1,3.69,1.66c.33.7-3.37,3.39-7.07,3.39.64,1.34,11.74-1.4,13.08-1.4l8.42-1c2.74-.32,7.78-.69,9.77,1.67a2,2,0,0,1,.37,2.36c-.37.64-1,.32-1.71.64a78.1,78.1,0,0,1-10.09,3.39c-15.82,4-17.86,6.07-35.34,6.07A16.14,16.14,0,0,0,75.16,113H54.3c4.72-5.37,6.76-6.77,10.78-12.46ZM99,81A9.35,9.35,0,0,1,90,71.59c0-5,9.06-17.51,9.06-17.51s9.12,12.46,9.12,17.51A9.36,9.36,0,0,1,99,81Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="48" height="48"  viewBox="40.54 48.62 85.55 44.57"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>Artboard 5</title><path class="cls-1" d="M124.36,73.63h-.56v-15a2.37,2.37,0,0,0-.61-1.17l-5.29-5.59a2.33,2.33,0,0,0-1.5-.61H100A1.92,1.92,0,0,0,98.17,53V77.72H96.44V50.41a1.68,1.68,0,0,0-1.5-1.79H44.38a1.92,1.92,0,0,0-1.78,1.79V73.63h-.28a1.72,1.72,0,0,0-1.78,1.79v7.93a1.75,1.75,0,0,0,1.78,1.78h4.12A8.13,8.13,0,0,0,54.69,93a7.9,7.9,0,0,0,7.92-7.88h1.78a8.08,8.08,0,0,0,16.16,0h23.52a7.95,7.95,0,0,0,15.89,0h4.4a1.91,1.91,0,0,0,1.73-1.78V75.42a1.87,1.87,0,0,0-1.73-1.79ZM70.85,62.47v6.75h.57V62.47h3V55.71H73.2V53.32l-.57-.57-.6.57v2.39H70.25V53.32l-.57-.57-.61.57v2.39H67.9v6.76Zm2.35,10c0-.28.28-.89.28-1.17s.28-.33.61-.61c0-.28.28-.28.56-.28a1.16,1.16,0,0,1,.89-.29,3.36,3.36,0,0,1,1.78.57,4.39,4.39,0,0,1,.56,1.78,2.47,2.47,0,0,1-.56,1.74,2.09,2.09,0,0,1-1.78.89,2.59,2.59,0,0,1-1.78-.89,2.47,2.47,0,0,1-.56-1.74Zm1.17,0c0,.56,0,.89.28,1.17s.61.57.89.57.89-.29.89-.57A1.56,1.56,0,0,0,77,72.46a1.48,1.48,0,0,0-.56-1.17c0-.33-.28-.33-.89-.33a1.07,1.07,0,0,0-.89.33c-.28.28-.28.56-.28,1.17ZM71.74,73l.89.33a1.67,1.67,0,0,1-.6,1.17,2.26,2.26,0,0,1-1.18.57,2.09,2.09,0,0,1-1.78-.89,2.45,2.45,0,0,1-.61-1.74,4.5,4.5,0,0,1,.61-1.78,3.36,3.36,0,0,1,1.78-.57,1.63,1.63,0,0,1,1.46.57,1.2,1.2,0,0,1,.32.89h-.89a1,1,0,0,1-.32-.61h-.57c-.6,0-.89,0-.89.33-.28.28-.28.56-.28,1.17A2.25,2.25,0,0,0,70,73.91a1,1,0,0,0,.57.29,1.08,1.08,0,0,0,.89-.29c0-.28.32-.28.32-.89Zm-7.35,1.79v-4.7H67.9V71H65.23v1.22h2.39v.56H65.23V74.2H67.9v.61Zm.28-11.5L65,63H67c.28.28.61.28.89.61.28,0,.56.28.89.28a.66.66,0,0,0,.61.61c.28.28.28.56.56.89,0,.28.29.57.29.85a2.25,2.25,0,0,1,.28,1.45v.61c0,.33,0,.61-.28.61v.28H69.07a1,1,0,0,0-.61-.28c-.28,0-.28-.28-.56-.28s-.28-.33-.61-.33a6.76,6.76,0,0,1-.56-.61c0-.28-.28-.28-.28-.56-.33-.28-.61-.61-.89-.89a1,1,0,0,0-.33-.57,1.21,1.21,0,0,0-.28-.61c0-.28,0-.56-.28-.56v-.61c0-.28,0-.28-.28-.28v-.33Zm12.93,0a.27.27,0,0,1-.28-.28H75a3.52,3.52,0,0,0-.61.61c-.28,0-.61.28-.89.28-.28.28-.28.61-.56.61-.29.28-.29.56-.61.89,0,.28-.28.57-.28.85-.29.28-.29.89-.29,1.45v1.22a.28.28,0,0,0,.29.28H73.2a1,1,0,0,1,.56-.28,1.21,1.21,0,0,1,.61-.28,1,1,0,0,1,.61-.33c0-.28.28-.28.28-.61.28-.28.61-.28.61-.56.28-.28.56-.61.84-.89,0-.28,0-.57.28-.57,0-.28,0-.61.33-.61v-.56a1,1,0,0,1,.28-.61v-.61ZM54.69,87.76a2.71,2.71,0,0,1-2.95-2.63,2.78,2.78,0,0,1,2.95-3,2.72,2.72,0,0,1,2.62,3,2.62,2.62,0,0,1-2.62,2.63Zm17.94,0a2.71,2.71,0,0,1-2.95-2.63,2.78,2.78,0,0,1,2.95-3,2.72,2.72,0,0,1,2.63,3,2.63,2.63,0,0,1-2.63,2.63Zm39.36,0a2.88,2.88,0,0,1-2.9-2.63,2.93,2.93,0,0,1,2.9-3,2.72,2.72,0,0,1,2.67,3A2.64,2.64,0,0,1,112,87.76Zm6.47-23c0,.28-.28.89-.56.89H104.36a1,1,0,0,1-.9-.89V57.16c0-.61.28-.89.9-.89h10.3c.28,0,.57,0,.57.28l3,3.24c.28,0,.28.33.28.33v4.69Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                </div>
+                <div class="hexrow">
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div> 
+                    <div class="hexagon"></div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="48" height="48"  viewBox="50.65 46.5 85.51 44.43"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>Artboard 6</title><path class="cls-1" d="M134.38,71.51h-.28v-15a2.32,2.32,0,0,0-.56-1.18l-5.63-5.58a1.51,1.51,0,0,0-1.17-.61H110.29a1.72,1.72,0,0,0-1.78,1.78V75.59h-1.73V48.29A1.92,1.92,0,0,0,105,46.5H54.73A1.92,1.92,0,0,0,53,48.29V71.51h-.57a1.91,1.91,0,0,0-1.78,1.78v7.93A2,2,0,0,0,52.38,83h4.41a7.94,7.94,0,0,0,15.88,0h2.06a7.95,7.95,0,0,0,15.89,0h23.47a8.11,8.11,0,0,0,16.21,0h4.08a1.72,1.72,0,0,0,1.78-1.79V73.29a1.69,1.69,0,0,0-1.78-1.78ZM74.73,73.29c-1.5-1.5-.61-2.06,0-2.06,2-.33,1.46,1.17,3.23,0a4,4,0,0,1,2-.89h.33c.28,0,.56,0,.56.28H82c.33,0,0-1.45,0-1.45a6.71,6.71,0,0,0-1.45-2.63c-1.17-1.22-1.17-.61-2.34-.61-.61-.33-1.17-.33-1.78-.89l-.57-.28a.62.62,0,0,1,.57-.61A2.46,2.46,0,0,1,80,65h0v.28h0l.33.61h0A5.49,5.49,0,0,1,81.76,68c0-.61-.28-1.17-.28-2.06a6.07,6.07,0,0,1-.61-2.07c-.56-3-2.34-3.8-3.23-3.8a1.64,1.64,0,0,1-1.45-.89,1.15,1.15,0,0,1-.62-.33.65.65,0,0,1,.62-.56,2.46,2.46,0,0,1,3.23,1.17h0l.28.29L80,60.91h0c.33.28.33.61.61.89a22.18,22.18,0,0,1,.28-4.13c.33-.28.33-.56.61-1.17h0l-.28.33V56.5h0c0-2.07,1.45-4.13,3.51-3.8.29,0,.89,0,.89.28.28.28-.32.89-.32.89a3.86,3.86,0,0,1-1.74,2.06c-.61.29-.89.57-1.5.57h0c-.28.61-.28.89-.56,1.5v4.41a2.69,2.69,0,0,1,1.17-1.5h0l.28-.85v-.32h0c.61-1.18,2.07-2.07,3.24-1.46a1.55,1.55,0,0,0,.89.56c0,.33-.61.61-.61.61-.57.29-.85.9-1.74.9-1.17.56-2.34.56-2.67,2.06-.56.89-.28,2.35.33,3.52a2.27,2.27,0,0,0,.28,1.17,2.59,2.59,0,0,1,.89-1.78v-.89c.28-.28.28-.28.28-.57h0A2.72,2.72,0,0,1,87.06,63a.66.66,0,0,1,.61.61,1,1,0,0,0-.29.57,4.72,4.72,0,0,1-1.78.61c-1.78.56-1.78,0-2.67,2.34a1.91,1.91,0,0,0,0,1.74,1,1,0,0,0,.28.61v.28c0,.33.33.61.33,1.17h0a1.82,1.82,0,0,0,1.17-.28H85a2.49,2.49,0,0,1,1.45,0c.32.28.61.61.61.89l.32.28h.56a4.78,4.78,0,0,1,2.68-.28c.56.28-.33,1.46-1.22,1.78Zm-10,12.34A2.62,2.62,0,0,1,62.08,83a2.71,2.71,0,0,1,2.63-3,2.94,2.94,0,0,1,3,3,2.88,2.88,0,0,1-3,2.62Zm17.94,0A2.66,2.66,0,0,1,80,83a2.75,2.75,0,0,1,2.67-3,2.94,2.94,0,0,1,2.95,3,2.88,2.88,0,0,1-2.95,2.62Zm39.69,0A2.67,2.67,0,0,1,119.43,83a2.75,2.75,0,0,1,2.91-3A2.72,2.72,0,0,1,125,83a2.63,2.63,0,0,1-2.67,2.62Zm6.46-22.94a.94.94,0,0,1-.89.89H114.42c-.33,0-.61-.61-.61-.89V55c0-.61.28-.89.61-.89H125c.28,0,.28,0,.56.28l3,3.24c.28,0,.28.33.28.33v4.69Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg x="0px" y="0px" width="48" height="48" id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="37.45 54.87 56.43 54.4"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><path class="cls-1" d="M38,60c.59,0,1.14-.31,1.74-.31h2.55a26,26,0,0,0,2.88.86,24.4,24.4,0,0,1,3.14,1.19,18,18,0,0,1,2.88,2.29c.87.82,1.69,1.69,2.56,2.56a19,19,0,0,1,2,3.42,15,15,0,0,1,1.42,3.48,12.46,12.46,0,0,1,.59,3.42,26.42,26.42,0,0,1-.27,6.59c-.32.86-.6,1.69-.87,2.55a15.21,15.21,0,0,1-1.14,2.29,4.77,4.77,0,0,0-.59.87v4a13.33,13.33,0,1,0,26.65,0V84.07h-10V65.75H75V57.16l2.55-2.29,2.28,2.29v8.59h6.62V57.16L89,54.87l2.28,2.29v8.59h2.6V84.07h-10v9.19a15.61,15.61,0,1,1-31.21,0v-4h0a13.12,13.12,0,0,1-2-1.42c-.87-.59-1.42-1.14-2.29-1.74-.59-.54-1.41-1.14-2-1.69a14.46,14.46,0,0,1-2-2.33,20.21,20.21,0,0,1-1.74-2.24,11.77,11.77,0,0,1-1.41-2.33,37.94,37.94,0,0,1-2-5.16c-.27-.82-.27-2-.55-2.56a8.86,8.86,0,0,1-.32-2.88A6.63,6.63,0,0,1,38,64.61a7.63,7.63,0,0,1-.27-2.29V60.9a2.36,2.36,0,0,1-.28-.87Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="48" height="48"  viewBox="40.35 32.79 72.43 47.29"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>Artboard 8</title><path class="cls-1" d="M59.83,51.55c-2.67-5-7.07-3.8-9.41-10.27V41c-.29,0-.29,0-.29.33a12.08,12.08,0,0,0,3.8,7.6c-3.23.61-6.47-1.46-7.64-5.26-.56-2.95.89-7.65,2.06-10.32.33-.56.61-.56.89-.56s.89,0,.89.56c.57,1.5,2.35,3.85,6.14,5.3,3.24,1.46,3.56,5.58,1.78,7.93.61.61,2.67,2.35,3.24,4.46a6.36,6.36,0,0,1,3.84-2.4c0-7,5.29-10.27,6.74-14.68h.29s.32,0,.32.28c-.32,5.58-5.29,6.19-5.29,14.69a5.28,5.28,0,0,1,2.9,2.67h1.5c4.13,1.17,6.19,2.67,7.36,3,6.47,2.62-40.29.84-30-.9,2-.32,5.25-1.5,10.87-2.06Zm43.53,17.64a45.13,45.13,0,0,0-11.48-10c-3.51-2.35-7.64-2.07-11.2-.28a11.18,11.18,0,0,1-6.74.28A30,30,0,0,0,65.13,58a4.09,4.09,0,0,0-3.24,1.45c-.28.61,3.24,3,6.19,3-.61,1.17-10.31-1.18-11.48-1.18l-7.36-.89c-2.34-.28-6.74-.61-8.52,1.78-.61.29-.28,1.13-.28,1.74.28.61,1.17.33,1.45.61a31.8,31.8,0,0,0,8.81,2.91C64.52,71,66.3,73,81.57,72.71a14.07,14.07,0,0,1,12.94,7.37h18.27c-4.17-4.69-5.9-5.87-9.42-10.89Z"></path></svg>
+                        </span>
+                    </div>                   
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg x="0px" y="0px" width="48" height="48" id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="45 42.37 70.88 62.19"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><path class="cls-1" d="M79.19,65.56v6.07H89.65l-2-6.07ZM105.1,48.37a7.81,7.81,0,0,1,2.74,10.8,7.35,7.35,0,0,1-10.46,2.68c-4-2-5-6.71-3-10.79a7.65,7.65,0,0,1,10.73-2.69Zm7.4,6.39,3.38.7-3.38.7-3-.7Zm-5.36,10.1,1,3.06-2-2.36-1-3Zm-11.43.38-2,2.68,1-3.38,2-2.36Zm-6.06-9.78-3.06-.7,3.06-.64,3.33.64ZM95,45.37l-1-3,2.36,2.36,1,3Zm14.8,4.72,2-.7-1.34,1.35-2,.69Zm.32,10.1,1.4,1.34-2-.7-1.34-1.34Zm-8.74,5.37-.64,1.72-.33-1.72.33-2Zm-9.06-5.05-1.67.32L92,59.49l2-.32Zm0-10.42-1.67-1.34,2,.64L94,50.74ZM101.08,45l.32-2,.38,2-.38,2Zm5.36,0,2.36-2.36-1,3-2.36,2.36ZM73.13,93.17h-4v6.39H59.67v5H82.9v-5H73.13Zm6.06-11.44V87.8H93l-1.66-6.07ZM65.73,87.8H76.84V81.73H65.73Zm-16.46,0h14.1V81.73H50.93Zm16.46-8.12H76.84V73.62H65.73Zm-15.12,0H63.37V73.62H52.59Zm15.12-8.05H76.84V65.56H65.73Zm-2.36-6.07H54l-1.72,6.07h11.1Zm25.91-3.71H52a1.92,1.92,0,0,0-2,1.72l-5,26.59c0,.64,1,1.34,2,1.34h48.8c1,0,2-.7,2-1.34L91.32,63.57a1.92,1.92,0,0,0-2-1.72Zm-42.05,28,5-25.94H89l6.38,25.94Zm32-10.16H91.32l-1.67-6.06H79.19Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="48" height="48"  viewBox="26.24 28.24 66.23 57.84"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>Artboard 47</title><path class="cls-1" d="M35,68.57l-.65-14.82h-.7L33,68.57V74h2Zm50.47-20.2a1.65,1.65,0,0,0,2.41,0c1-.32,1-1.66.32-2.36a2.18,2.18,0,0,0-2.73,0,1.67,1.67,0,0,0,0,2.36Zm.69-.64a2.1,2.1,0,0,0,1.34.32.93.93,0,0,0,0-1.34,1.06,1.06,0,0,0-1.34,0,.66.66,0,0,0,0,1Zm6.06,8.06-3.37-7.42-.32-.32a1.72,1.72,0,0,1-1.67,1.35v.32h-.37l-1,20.57V78H88.5V70.29l-1-19.55,4.08,5.75c0,.32.32.64.64.32h0a.65.65,0,0,0,0-1Zm-.64-17.51-4.72,6.39V45a2.21,2.21,0,0,1,1.67,1.35c.32,0,.32-.38.32-.38l3.37-7.41c.33-.32.33-.65,0-.65v-.32c-.32,0-.64,0-.64.65ZM76.37,47.73l8.42.64h.32a1.69,1.69,0,0,1,0-2.36h-.32l-8.42.7c-.32,0-.64,0-.64.32v.38c0,.32.32.32.64.32ZM56.21,41.66a2.63,2.63,0,0,0,0,3.71,2.52,2.52,0,0,0,3.32,0,2.25,2.25,0,0,0,0-3.39,2.18,2.18,0,0,0-3.32-.32Zm1,1a1.19,1.19,0,0,0-.32,1.67,1.62,1.62,0,0,0,1.71,0c.65-.33.65-1,.33-1.67a1.42,1.42,0,0,0-1.72,0ZM45.75,51.11l10.46-4.72a.34.34,0,0,0,.32-.38,2.62,2.62,0,0,1-1.67-2.68.36.36,0,0,0-.37.37L45.1,50.09c-.37.33-.7.33-.37,1h0c.37.65.7.33,1,0Zm24.88-1L61.25,43.7a.37.37,0,0,0-.38-.37A2.61,2.61,0,0,1,59.21,46a.34.34,0,0,0,.32.38L70,51.11c.32.33.64.65,1,0h0c.32-.37,0-.69-.38-1ZM57.17,29.2l-1,11.44V41a3.11,3.11,0,0,1,3.32,0v-.32l-1-11.44c0-.64,0-1-.69-1h0c-.7,0-.7.38-.7,1Zm3.06,46.46L58.89,47H57.17l-1,28.63V86.08h4ZM33.3,50.74a1.64,1.64,0,0,0-.69,2,2.21,2.21,0,0,0,2,.32A1.49,1.49,0,0,0,35,51.44a1.21,1.21,0,0,0-1.67-.7Zm.32.7a1.18,1.18,0,0,0-.32,1c.32,0,.7.38,1,0a.44.44,0,0,0,0-.64c0-.32-.32-.32-.7-.32Zm-6.7,2.68,5.69-1H33c-.7-.32-.7-1-.37-1.66h-.33l-5.74,2c-.32.33-.32.33-.32.7h0c0,.32.32.32.7,0Zm12.45,2.69L35.66,52.4h-.37a1.43,1.43,0,0,1-1,1v.33l4.35,3.7c.32.38.7.38.7,0h0c.32,0,.32-.32,0-.64ZM35.29,44.67l-2,5.75v.32c.7-.32,1.34-.32,1.67.37v-.37L36,45c.33-.37.33-.69,0-.69h0c-.32,0-.32,0-.69.32Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="37.2 45.21 62.03 62.37" width="48" height="48" ><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>Artboard 11</title><path class="cls-1" d="M45.66,59.58h0c.67-.36,1.66-1.35,2.34-1.66a6.31,6.31,0,0,1-4.58-6.2,6.25,6.25,0,0,1,6.19-6.51,6.5,6.5,0,0,1,6.5,6.51,6.33,6.33,0,0,1-4.52,6.2c.31.31,1.61,1.3,1.92,1.66h.31a4,4,0,0,0,3.28.31,8.46,8.46,0,0,0,3.27-2V48.8A3.6,3.6,0,0,1,64,45.21H95.63a3.63,3.63,0,0,1,3.59,3.59V77.5a3.76,3.76,0,0,1-3.59,4H64a3.73,3.73,0,0,1-3.59-4V64.11a4.2,4.2,0,0,1-2,.68,4.22,4.22,0,0,1-1.93.31V78.49a2.45,2.45,0,0,1-.67,1.61c0,.36.31.36.31.68v23.8a3.19,3.19,0,0,1-3.22,3,2.93,2.93,0,0,1-3-3V84h-.31v20.57a2.93,2.93,0,0,1-3,3h0a2.92,2.92,0,0,1-2.91-3V81.09c0,.37-.31.37-.67.37a1.22,1.22,0,0,1-1,.31,2.12,2.12,0,0,1-2.24-1.31c-7.17-13.07,2.6-18.95,5.83-20.88ZM85.18,61.2l1.61-5.57-1,.67a3.16,3.16,0,0,0-1.3-1.66c-.62-1.26-1.92-1.26-2.91-1.26H77.33a2.52,2.52,0,0,0-1.61.63l-2.29,4.22,4.21,2.29H78a25.11,25.11,0,0,1,1.3-2.6,1.2,1.2,0,0,0,.32-1l1.3,2-1.3.68ZM74.73,67.08l1.3-2a.69.69,0,0,1,.67.68h.63L75.4,60.21l-5.56,1.3,1.3.68c-.31.62-.68,1.3-1,1.92a3.8,3.8,0,0,0,.68,3.28A25.16,25.16,0,0,0,73.12,71c.31.62.62,1,1.3,1H79v-4.9Zm15.65-3-2.6-3.9-3.9,2.6v.37c.31.62,1,1.61,1.3,2.24.31.36.31.67.62,1H83.57V64.79l-3.95,4.58,3.95,3.91.31-1.3H85.8a4.68,4.68,0,0,0,2.66-2.3l1.92-3.9a1.4,1.4,0,0,0,0-1.67ZM62.66,77.5A1.37,1.37,0,0,0,64,78.8H95.63c.63,0,1-.63,1-1.3V48.8c0-.68-.36-1.3-1-1.3H64a1.36,1.36,0,0,0-1.3,1.3V55a22.65,22.65,0,0,0,2-3.28c.31-.31.62-1,.94-1l.67-.31a2.49,2.49,0,0,1,1.61.31A2.39,2.39,0,0,1,69.16,54c-.31.31-.62,1.3-1.61,2.6l-.67,1a27.14,27.14,0,0,1-4.22,4.9Zm-19.6-1.62V68.7c-1,1.66-1,3.9,0,7.18Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon thick">
+                        <span style="z-index: 100; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+                            <svg id="_19" data-name="19" xmlns="http://www.w3.org/2000/svg" viewBox="35.1 25.86 50.21 74.14" width="48" height="48" ><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>Artboard 16</title><path class="cls-1" d="M83.05,70.56l-1-33H76.55l-1.3,33c-8.84,0-24.18-7.81-40.15.68V100H63.81V91.81h15V100h6.5V70.56ZM46.18,28.8a1.26,1.26,0,0,0-1-.31l-1.92-.63a.3.3,0,0,1,.31.31,4.75,4.75,0,0,0,1.3,1c.31.31.62.31,1,.62h1.3a3.81,3.81,0,0,0,2.6-1.3c.31-.32.67-.63,1-1a1.08,1.08,0,0,1,.62-.31,4.41,4.41,0,0,1,2-.32,2.42,2.42,0,0,0,1.3.63l.31.36a1,1,0,0,0-.31-.67,5,5,0,0,0-1.3-1,3.08,3.08,0,0,0-1-.32h-1.3c-.31,0-.31.32-.63.32s-.36.31-.67.31a9.25,9.25,0,0,1-1,1,1.76,1.76,0,0,1-1.61,1,1.26,1.26,0,0,1-1,.31ZM53,33.07a5.48,5.48,0,0,1,1.62.62c1,0,1.66.37,2.6,0a6.74,6.74,0,0,0,4.57-2.23c.31-.37,1-1.36,1.3-1.67.68-.31,1-.62,1.67-.62a3.83,3.83,0,0,1,3.27-.37c.94.37,1.93.68,2.6,1a5.59,5.59,0,0,0,1,.68,4.5,4.5,0,0,1-.68-1,14.41,14.41,0,0,0-2.28-2,4.69,4.69,0,0,0-2-.63h-2.6c-.31.32-1,.32-1.3.63-.31,0-.68.36-1,.67a10.92,10.92,0,0,0-1.92,1.62,5.89,5.89,0,0,1-3,2c-.62,0-1.3.31-2,0H53.36c-2-.68-3.59-1.3-3.59-1.3a3.61,3.61,0,0,0,1,.62,4.65,4.65,0,0,0,2.28,2Zm16,1.62a1.15,1.15,0,0,1-.94-.32,4,4,0,0,1-2-.68,1.36,1.36,0,0,1,.31.68,4.39,4.39,0,0,0,1.3,1c.36,0,.68.31,1,.31H70a3.83,3.83,0,0,0,2.6-1.3c.36-.31.67-.68,1-.68a.68.68,0,0,1,.67-.62,2.1,2.1,0,0,1,1.92,0c.37,0,1,.31,1.31.31l.36.31-.36-.31a5,5,0,0,0-1.31-1,1.14,1.14,0,0,0-.93-.31,1.1,1.1,0,0,0-1.35,0h-.63l-.67.68c-.31.31-.63.31-.94.62A3.23,3.23,0,0,1,70,34.69ZM37.7,75.51h4.58V82.7H37.7Zm40.77,0h4.27V82.7H78.47Zm-6.81,0h4.21V82.7H71.66Zm-6.86,0h4.57V82.7H64.8Zm-6.87,0h4.58V82.7H57.93Zm-6.55,0h4.26V82.7H51.38Zm-6.81,0h4.21V82.7H44.57Z"></path></svg>
+                        </span>
+                    </div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                    <div class="hexagon hexagon3"></div>
+                </div>
+                <div class="hexrow">
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                </div>
+                <div class="hexrow">
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                </div>
+                <div class="hexrow">
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                </div>
+                <div class="hexrow">
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                </div>
+                <div class="hexrow">
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                </div>
+                <div class="hexrow">
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                </div>
+                <div class="hexrow">
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                </div>
+            </div>
+            <div class="landingLeft" style="z-index: 6; position: relative; padding: 0 0 0 5%;">
+                <div class="abc" style="z-index: 6;">
+                    <img src="./img/darwin.png" alt="Darwin" style="z-index: 6;"/>
+                </div>
+                <h1 class="heroText" style="z-index: 6;">One of India's Biggest Evolutionary Movements in Biology</h1>
+                <p style="display:none">
+                    <i class="fa fa-map-marker" id="location-marker"></i>
+                    Hybrid Conference (Mumbai)
+                </p>
+                <!-- <p><i class="fa fa-calendar"></i>December 2, 2023 </p> -->
+                <div class="logoStrip" style="z-index: 5;">
+                    <img src="./img/svv_logo.png" alt="SVV" />
+                    <img src="./img/STrust.png" alt="STrust" />
+                    <img src="./img/birac.png" alt="BIRAC" />
+                    <img src="./img/riidl.png" alt="riidl" />
+                    <img src="./img/bioriidl.png" alt="Bioriidl" />
+                </div>
+    
+                <!--<div class="">-->
+                <!--    <div class="Buttons row formrow flex-item" style="display: flex; flex-wrap:wrap; justify-content: space-evenly; margin: 120px 30px 0 30px; max-width: 585px; z-index: 6;">-->
+                <!--        <a href="https://airtable.com/appYakzNcW60K0Tjv/shrQ9kHoHDSktoZbX" style="z-index: 6;"> -->
+                <!--            <button class="btn btn-1 hover-filled-slide-right" > -->
+                <!--                <span style="font-family: PoppinsBold;">Attend conference</span> -->
+                <!--            </button> -->
+                <!--        </a>-->
+                <!--        <a href="http://thedarwin.in/researchsymposium" style="z-index: 6;"> -->
+                <!--            <button class="btn btn-1 hover-filled-slide-right" > -->
+                <!--                <span style="font-family: PoppinsBold;">Research Symposium</span> -->
+                <!--            </button> -->
+                <!--        </a>-->
+                <!--    </div>    -->
+                <!--</div>-->
+                
+                <div class="">
+                   <div class="Buttons row formrow flex-item" style="display: flex; flex-wrap:wrap; justify-content: space-evenly; margin: 120px 30px 0 30px; max-width: 585px; z-index: 6;">
+                       <!-- <a href="https://airtable.com/appYakzNcW60K0Tjv/shrQ9kHoHDSktoZbX" style="z-index: 6;"> -->
+                       <a href="#" style="z-index: 6;">
+                           <button class="btn" style="background-color: green; border-radius: 10px;">
+                               <span style="font-family: PoppinsBold;">21 & 22 February 2025</span>
+                           </button>
+                       </a>
+                       <a href="https://www.somaiya.edu/en/siif-brochure" target="_blank" style="z-index: 6;">
+                           <button class="btn" style="background-color: purple; border-radius: 10px;">
+                               <span style="font-family: PoppinsBold;">View Brochure</span>
+                           </button>
+                       </a>
+                   </div>   
+                </div>
+            </div>
+            
+            <div class="container1"  style="pointer-events: none;"> 
+                 <!--COUNTDOWN -->
+                <div id="countdown">
+                    <ul>
+                        <li style="font-family: PoppinsBold;"><span style="font-family: PoppinsExtraBold;" id="days"></span>days</li>
+                        <li style="font-family: PoppinsBold;"><span style="font-family: PoppinsExtraBold;" id="hours"></span>Hours</li>
+                        <li style="font-family: PoppinsBold;"><span style="font-family: PoppinsExtraBold;" id="minutes"></span>Minutes</li>
+                        <li style="font-family: PoppinsBold;"><span style="font-family: PoppinsExtraBold;" id="seconds"></span>Seconds</li>
+                    </ul>
+                </div>
+                <div id="content" class="emoji" style="display: none;">
+                </div>
+            </div>
+            
+              <div class="comingsoon largecs" style="z-index: 50;">
+                <p>We are&nbsp;<span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+              </div>
+              
+              <div class="comingsoon smallcs" style="z-index: 50;">
+                <p style="position:absolute;left:50%;transform:translateX(-50%);">We are<br></p><p style="position:absolute;left:50%;top:3.5rem;transform:translateX(-50%);"><span class="typed-text1"></span><span class="cursor1">&nbsp;</span></p>
+              </div>
+            
+        </div>
+
+    </div>
+      
+    <div class="bodyContainer">
+        <div>
+            <img src="img/banner.jpg" alt="SIIF Banner" style="width: 100%; height: auto;">
+        </div>
+        <div class="statsContainer">
+            <div class="temp" style="position: relative;">
+                <div class="statsHref" id="about" style="position: absolute; top: -90px;"></div>
+            </div>
+            <div class="statsTint">
+                <div class="statsBox">
+                    <h2><span class="num" data-val="5" style="font-family: PoppinsBold;">00</span>K+</h2>
+                    <p>Attendees</p>
+                </div>
+                <div class="statsBox">
+                    <h2><span class="num" data-val="10" style="font-family: PoppinsBold;">00</span>K+</h2>
+                    <p>Online Community</p>
+                </div>
+                <div class="statsBox">
+                    <h2><span class="num" data-val="68" style="font-family: PoppinsBold;">00</span>+</h2>
+                    <p>Countries</p>
+                </div>
+                <div class="statsBox">
+                    <h2><span class="num" data-val="8" style="font-family: PoppinsBold;">00</span></h2>
+                    <p>Projects Funded</p>
+                </div>
+                <div class="statsBox">
+                    <h2><span class="num" data-val="51" style="font-family: PoppinsBold;">00</span>+</h2>
+                    <p>Workshops Conducted</p>
+                </div>
+                <div class="statsBox">
+                    <h2><span class="num" data-val="17" style="font-family: PoppinsBold;">00</span></h2>
+                    <p>Research Papers published</p>
+                </div>
+            </div>
+        </div>
+
+            <div class="confContainer" style="position: relative; z-index: 6;">
+                <div id="conferenceOverview" style="position: absolute; top: -100px;"></div>
+                <h1 class="groupHeader" style=" width: 700px; text-align: center; font-size: 4.5rem;">
+                    <!-- <span class="headings" style="position: relative; font-family: PoppinsExtraBold; font-size: 4.5rem;" ></span>
+                    <br> -->
+                    <span class="headings2" style="position: relative; font-family: PoppinsExtraBold; font-size: 4.5rem;">Overview</span></h1>
+                
+                <div class="confCard" style="--clr: #47bb43">
+                    <div class="img-box">
+                        <img src="./img/conf/MainConf.JPG">
+                    </div>
+                    <div class="content">
+                        <h2>Main Conference</h2>
+                        <p style="font-size: 0.85em;">
+                            A three-day in-person conference themed around Sustainability focused on bringing together researchers, professionals, and students to discuss the latest advances in Waste Management, Climate Action, Material Sciences and more.                        </p>
+                    </div>
+                </div>
+                <div class="confCard" >
+                    <div class="img-box">
+                        <img src="./img/conf/Ecohackathon.JPG">
+                    </div>
+                    <div class="content">
+                        <h2>EcoHackathon</h2>
+                        <p>
+                            A 2-month competition to solve a problem statement by developing a product / application / research project through biology and get rewarded with cash prizes of upto INR 1 Lakh.                        </p>
+                    </div>
+                </div>
+                <div class="confCard" >
+                    <div class="img-box">
+                        <img src="./img/conf/RS.JPG">
+                    </div>
+                    <div class="content">
+                        <h2>Research Symposium</h2>
+                        <p>
+                            A platform for researchers and students to exhibit their research papers and get their work published in a reputed journal for free.                        </p>
+                    </div>
+                </div>
+                <div class="confCard" >
+                    <div class="img-box">
+                        <img src="./img/conf/StartupSummit.JPG">
+                    </div>
+                    <div class="content">
+                        <h2>Startup Summit</h2>
+                        <p>
+                            An exhibition for startups in the life sciences domain to present their business models to investors to seek funding & exposure.                        </p>
+                        
+                    </div>
+                </div>
+                <div class="confCard" >
+                    <div class="img-box">
+                        <img src="./img/conf/Speakers.JPG">
+                    </div>
+                    <div class="content">
+                        <h2>Speaker Sessions</h2>
+                        <p>
+                            Various researchers and industry leaders to share their expertise on topics around Sustainability.                        </p>
+                    </div>
+                </div>
+                <div class="confCard" >
+                    <div class="img-box">
+                        <img src="./img/conf/Panel.JPG">
+                    </div>
+                    <div class="content">
+                        <h2>Panel Discussions</h2>
+                        <p>
+                            Discussions facilitated by experts on current and important issues that need to be tackled in the field of Sustainability.                        </p>
+                    </div>
+                </div>
+                <div class="confCard" >
+                    <div class="img-box">
+                        <img src="./img/conf/Workshops.JPG">
+                    </div>
+                    <div class="content">
+                        <h2>Workshops</h2>
+                        <p>
+                            Hands-on workshops by expert instructors to provide DIY Biology experiences into various advances and technologies.                        </p>
+                    </div>
+                </div>
+                <div class="confCard" >
+                    <div class="img-box">
+                        <img src="./img/conf/Tours.JPG">
+                    </div>
+                    <div class="content">
+                        <h2>Tours</h2>
+                        <p>
+                            Tours to various labs and institutes for the attendees to understand their global innovation and research culture.                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- <br>
+            <br>
+            <h1 class="groupHeader" style=" width: 100vw; text-align: center; font-size: 4.5rem; margin-top: 5vh; margin-bottom: -5vh; z-index: 10;"><span class="headings" style="font-family: PoppinsExtraBold; font-size: 4.5rem;">Our Timeline:</span></h1>
+
+            <div class="timelineContainer">
+            <div class="timeline-line"></div>
+            <div id="timelineScrollDown" style="position: absolute; top: 22.5vh; left: 2vw; z-index: 10; border: 1px solid var(--primary-color-green); color: var(--primary-color-green); border-radius: 100%; width: 70px; height: 70px; cursor: pointer; font-size: 50px;" onclick="scrollUp()" class="fa-solid fa-chevron-up"></div>
+            <div id="timelineScrollUp" style="position: absolute; bottom: 7.5vh; left: 2vw; z-index: 10; border: 1px solid  var(--primary-color-green); color: var(--primary-color-green); border-radius: 100%; width: 70px; height: 70px; cursor: pointer; font-size: 50px;" onclick="scrollDown()" class="fa-solid fa-chevron-down"></div>
+            <div class="timelineWrap">
+                <div class="upTriWrap">
+                    <div class="upperTriangle"></div>
+                </div>
+            <section class="timeline" id="timeline">
+                
+                <div class="container">
+                  <div class="timeline-item">
+                    <div class="timeline-img"></div>
+              
+                    <div class="timeline-content js--fadeInLeft">
+                      <h2>Title</h2>
+                      <div class="date">1 MAY 2016</div>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+                      <a class="bnt-more" href="javascript:void(0)">More</a>
+                    </div>
+                  </div> 
+              
+                  <div class="timeline-item">
+              
+                    <div class="timeline-img"></div>
+              
+                    <div class="timeline-content timeline-card js--fadeInRight">
+                      <div class="timeline-img-header">
+                        <h2>Card Title</h2>
+                      </div>
+                      <div class="date">25 MAY 2016</div>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+                      <a class="bnt-more" href="javascript:void(0)">More</a>
+                    </div>
+              
+                  </div>   
+              
+                  <div class="timeline-item">
+              
+                    <div class="timeline-img"></div>
+              
+                    <div class="timeline-content js--fadeInLeft">
+                      <div class="date">3 JUN 2016</div>
+                      <h2>Quote</h2>
+                      <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta explicabo debitis omnis dolor iste fugit totam quasi inventore!</blockquote>
+                    </div>
+                  </div>   
+              
+                  <div class="timeline-item">
+              
+                    <div class="timeline-img"></div>
+              
+                    <div class="timeline-content js--fadeInRight">
+                      <h2>Title</h2>
+                      <div class="date">22 JUN 2016</div>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+                      <a class="bnt-more" href="javascript:void(0)">More</a>
+                    </div>
+                  </div>   
+              
+                  <div class="timeline-item">
+              
+                    <div class="timeline-img"></div>
+              
+                    <div class="timeline-content timeline-card js--fadeInLeft">
+                      <div class="timeline-img-header">
+                        <h2>Card Title</h2>
+                      </div>
+                      <div class="date">10 JULY 2016</div>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+                      <a class="bnt-more" href="javascript:void(0)">More</a>
+                    </div>
+                  </div>   
+              
+                  <div class="timeline-item">
+              
+                    <div class="timeline-img"></div>
+              
+                    <div class="timeline-content timeline-card js--fadeInRight">
+                      <div class="timeline-img-header">
+                        <h2>Card Title</h2>
+                      </div>
+                      <div class="date">30 JULY 2016</div>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+                      <a class="bnt-more" href="javascript:void(0)">More</a>
+                    </div>
+                  </div>  
+              
+                  <div class="timeline-item">
+              
+                    <div class="timeline-img"></div>
+              
+                    <div class="timeline-content js--fadeInLeft">
+                      <div class="date">5 AUG 2016</div>
+                      <h2>Quote</h2>
+                      <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta explicabo debitis omnis dolor iste fugit totam quasi inventore!</blockquote>
+                    </div>
+                  </div>   
+              
+                  <div class="timeline-item">
+              
+                    <div class="timeline-img"></div>
+              
+                    <div class="timeline-content timeline-card js--fadeInRight">
+                      <div class="timeline-img-header">
+                        <h2>Card Title</h2>
+                      </div>
+                      <div class="date">19 AUG 2016</div>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+                      <a class="bnt-more" href="javascript:void(0)">More</a>
+                    </div>
+                  </div>  
+              
+                  <div class="timeline-item">
+              
+                    <div class="timeline-img"></div>
+              
+                    <div class="timeline-content js--fadeInLeft">
+                      <div class="date">1 SEP 2016</div>
+                      <h2>Title</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam.</p>
+                      <a class="bnt-more" href="javascript:void(0)">More</a>
+                    </div>
+                  </div>   
+              
+              
+              
+                </div>
+              </section>
+                <div class="lowTriWrap">
+                    <div class="lowerTriangle"></div>
+                </div>
+            </div>
+            </div> -->
+            <br>
+            <br>
+            <h1 class="groupHeader pastHeader" style=" width: 100vw; text-align: center; font-size: 4.5rem; margin-top: 5vh;"><span class="headings" style="font-family: PoppinsExtraBold; font-size: 4.5rem;">Past Dignitaries</span></h1>
+            <br>
+            <br>
+            <br>
+            <div class="pastContainer">
+
+                <figure class="pastCard pastCard--4" style="--image-src: url('../img/dignitaryGeorgeChurch.png')">
+                    <figcaption>
+                        <span class="info">
+                            <h3>Prof. George Church</h3>
+                            <span>Professor of Genetics, Harvard Medical School</span>
+
+                        </span>
+                        <span class="links">
+                            <a href="https://www.linkedin.com/in/george-church-2b86301" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 48 48">
+                                    <path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"></path><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"></path>
+                                </svg>                            
+                            </a>
+                            <!-- <a href="https://unsplash.com/photos/78A265wPiO4" target="_blank"><i class="fas fa-share"></i></a> -->
+                        </span>
+                    </figcaption>
+                </figure>
+            
+                <figure class="pastCard pastCard--3" style="--image-src: url('../img/dignitaryJasonKelly.png')">
+                    <figcaption>
+                        <span class="info">
+                            <h3>Dr. Jason Kelly</h3>
+                            <span>Founder, Ginkgo Bioworks</span>
+
+                        </span>
+                        <span class="links">
+                            <a href="https://www.linkedin.com/in/jrkelly2" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 48 48">
+                                    <path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"></path><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"></path>
+                                </svg>  
+                            </a>
+                            <!-- <a href="https://unsplash.com/photos/TFyi0QOx08c" target="_blank"><i class="fas fa-share"></i></a> -->
+                        </span>
+                    </figcaption>
+                </figure>
+                
+                <figure class="pastCard pastCard--4" style="--image-src: url('../img/dignitaryJJHastings.png')">
+                    <figcaption>
+                        <span class="info">
+                            <h3>Dr. J.J. Hastings</h3>
+                            <span>CEO, Analogs LLC</span>
+                        </span>
+                        <span class="links">
+                            <a href="https://www.linkedin.com/in/jjhastings" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 48 48">
+                                    <path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"></path><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"></path>
+                                </svg>  
+                            </a>
+                            <!-- <a href="https://unsplash.com/photos/DLwUVlzrP0Q" target="_blank"><i class="fas fa-share"></i></a> -->
+                        </span>
+                    </figcaption>
+                </figure>
+
+                <figure class="pastCard pastCard--3" style="--image-src: url('../img/dignitaryAmyDickman.png')">
+                    <figcaption>
+                        <span class="info">
+                            <h3>Dr. Amy Dickman</h3>
+                            <span>Kaplan senior research fellow, University of Oxford</span>
+                        </span>
+                        <span class="links">
+                            <a href="https://www.linkedin.com/in/amy-dickman-1016a6253" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 48 48">
+                                    <path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"></path><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"></path>
+                                </svg>  
+                            </a>
+                            <!-- <a href="https://unsplash.com/photos/PP8Escz15d8" target="_blank"><i class="fas fa-share"></i></a> -->
+                        </span>
+                    </figcaption>
+                </figure>
+
+                <figure class="pastCard pastCard--4" style="--image-src: url('../img/dignitaryTonyDavis.png')">
+                    <figcaption>
+                        <span class="info">
+                            <h3>Dr. Tony Davis</h3>
+                            <span>Director and Co-founder of Ziylo</span>
+
+                        </span>
+                        <span class="links">
+                            <a href="https://www.linkedin.com/in/anthony-davis-07b45474" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 48 48">
+                                    <path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"></path><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"></path>
+                                </svg>  
+                            </a>
+                            <!-- <a href="https://unsplash.com/photos/78A265wPiO4" target="_blank"><i class="fas fa-share"></i></a> -->
+                        </span>
+                    </figcaption>
+                </figure>
+            
+                <figure class="pastCard pastCard--3" style="--image-src: url('../img/dignitaryJoeDavis.png')">
+                    <figcaption>
+                        <span class="info">
+                            <h3>Mr. Joe Davis</h3>
+                            <span>Artist-Scientist, Harvard Medical School</span>
+
+                        </span>
+                        <span class="links">
+                            <a href="https://www.linkedin.com/in/joedavis5" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 48 48">
+                                    <path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"></path><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"></path>
+                                </svg>  
+                            </a>
+                            <!-- <a href="https://unsplash.com/photos/PP8Escz15d8" target="_blank"><i class="fas fa-share"></i></a> -->
+                        </span>
+                    </figcaption>
+                </figure>
+            
+                <figure class="pastCard pastCard--4" style="--image-src: url('../img/dignitaryPierreDukan.png')">
+                    <figcaption>
+                        <span class="info">
+                            <h3>Dr. Pierre Dukan</h3>
+                            <span>Nutritionist</span>
+
+                        </span>
+                        <span class="links">
+                            <a href="https://www.linkedin.com/in/dr-pierre-dukan-37342116" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 48 48">
+                                    <path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"></path><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"></path>
+                                </svg>  
+                            </a>
+                            <!-- <a href="https://unsplash.com/photos/78A265wPiO4" target="_blank"><i class="fas fa-share"></i></a> -->
+                        </span>
+                    </figcaption>
+                </figure>
+                <figure class="pastCard pastCard--3" style="--image-src: url('../img/dignitaryPhilRoss.png')">
+                    <figcaption>
+                        <span class="info">
+                            <h3>Mr. Phil Ross</h3>
+                            <span>Co-founder and Chief Technical Officer, MycoWorks</span>
+
+                        </span>
+                        <span class="links">
+                            <a href="https://www.linkedin.com/in/philip-ross-94706253" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 48 48">
+                                    <path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"></path><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"></path>
+                                </svg>  
+                            </a>
+                            <!-- <a href="https://unsplash.com/photos/78A265wPiO4" target="_blank"><i class="fas fa-share"></i></a> -->
+                        </span>
+                    </figcaption>
+                </figure>
+            
+                <figure class="pastCard pastCard--4" style="--image-src: url('../img/dignitaryDavidSunKong.png')">
+                    <figcaption>
+                        <span class="info">
+                            <h3>Dr. David Sun Kong</h3>
+                            <span>Director, Community BioTech Initiative, MIT Media Lab</span>
+
+                        </span>
+                        <span class="links">
+                            <a href="https://www.linkedin.com/in/davidsunkong" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 48 48">
+                                    <path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"></path><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"></path>
+                                </svg>  
+                            </a>
+                            <!-- <a href="https://unsplash.com/photos/TFyi0QOx08c" target="_blank"><i class="fas fa-share"></i></a> -->
+                        </span>
+                    </figcaption>
+                </figure>
+            
+                <figure class="pastCard pastCard--3" style="--image-src: url('../img/dignitaryAnuAcharya.png')">
+                    <figcaption>
+                        <span class="info">
+                            <h3>Ms. Anu Acharya</h3>
+                            <span>Founder & CEO, mapmygenome</span>
+
+                        </span>
+                        <span class="links">
+                            <a href="https://www.linkedin.com/in/anuacharya/" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 48 48">
+                                    <path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"></path><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"></path>
+                                </svg>  
+                            </a>
+                            <!-- <a href="https://unsplash.com/photos/PP8Escz15d8" target="_blank"><i class="fas fa-share"></i></a> -->
+                        </span>
+                    </figcaption>
+                </figure>
+            
+                <figure class="pastCard pastCard--4" style="--image-src: url('../img/dignitaryOronCatts.png')">
+                    <figcaption>
+                        <span class="info">
+                            <h3>Dr. Oron Catts</h3>
+                            <span>Co-founder & Director, SymbioticA</span>
+
+                        </span>
+                        <span class="links">
+                            <a href="https://www.linkedin.com/in/oron-catts-aa399b28" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 48 48">
+                                    <path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"></path><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"></path>
+                                </svg>  
+                            </a>
+                            <!-- <a href="https://unsplash.com/photos/DLwUVlzrP0Q" target="_blank"><i class="fas fa-share"></i></a> -->
+                        </span>
+                    </figcaption>
+                </figure>
+                <figure class="pastCard pastCard--3" style="--image-src: url('../img/dignitaryManishDiwan.png')">
+                    <figcaption>
+                        <span class="info">
+                            <h3>Dr. Manish Diwan</h3>
+                            <span>Head of Strategic Partnerships & Entrepreneurship Development, BIRAC</span>
+
+                        </span>
+                        <span class="links">
+                            <a href="https://www.linkedin.com/in/manish-diwan-a618761" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 48 48">
+                                    <path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"></path><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"></path>
+                                </svg>  
+                            </a>
+                            <!-- <a href="https://unsplash.com/photos/DLwUVlzrP0Q" target="_blank"><i class="fas fa-share"></i></a> -->
+                        </span>
+                    </figcaption>
+                </figure>
+                
+                
+            
+            </div>
+            <br>
+            <br>
+
+<h1 class="groupHeader pastHeader"><span class="headings">Facility Tours</span></h1>
+<section id="cta" class="cta section">
+    <div class="cta-container">
+
+        <div class="cta-item" data-aos="fade-up" data-aos-delay="100">
+            <img src="./img/conf/LifeSenz.jpg" alt="Card Image">
+            <div class="cta-content">
+                <h2>Life Senz</h2>
+                <a href="https://lifesenz.co.in/" target="_blank">🔗</a>
+            </div>
+        </div>
+        <div class="cta-item" data-aos="fade-up" data-aos-delay="100">
+            <img src="./img/conf/DSC09025.jpg" alt="Card Image">
+            <div class="cta-content">
+                <h2>National Facility of Biopharmaceuticals</h2>
+                <a href="https://www.nfbindia.in/" target="_blank">🔗</a>
+            </div>
+        </div>
+        <div class="cta-item" data-aos="fade-up" data-aos-delay="100">
+            <img src="./img/conf/Godavari.jpg" alt="Card Image">
+            <div class="cta-content">
+                <h2>Exclusive Themed Services</h2>
+                <a href="https://godavaribiorefineries.com/" target="_blank">🔗</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+    
+
+<h1 class="groupHeader pastHeader"
+  style=" width: 100vw; text-align: center; font-size: 4.5rem; margin-top: 5vh;"><span class="headings"
+      style="font-family: PoppinsExtraBold; font-size: 4.5rem;">Workshops</span></h1>
+<br>
+<br>
+<br>
+<div class="pastContainer justify-content-center">
+
+  <figure class="pastCard pastCard--4" style="--image-src: url('../img/workshop/_MG_8446-2.jpg')">
+      <figcaption>
+          <span class="info">
+              <h3> Reshma Bhatnagar</h3>
+              <span>Fermentation as a Foundation for Biotechnology</span>
+
+          </span>
+          <span class="links">
+              <a href="https://www.linkedin.com/in/reshma-bhatnagar-46298028/" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32"
+                      viewBox="0 0 48 48">
+                      <path fill="#0288D1"
+                          d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z">
+                      </path>
+                      <path fill="#FFF"
+                          d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z">
+                      </path>
+                  </svg>
+              </a>
+              <!-- <a href="https://unsplash.com/photos/78A265wPiO4" target="_blank"><i class="fas fa-share"></i></a> -->
+          </span>
+      </figcaption>
+  </figure>
+
+  <figure class="pastCard pastCard--3" style="--image-src: url('../img/workshop/IMG_8743.jpg')">
+      <figcaption>
+          <span class="info">
+              <h3>Shubhankar Takle </h3>
+              <span>Gene Editing with CHOPCHOP: Designing Guide RNAs for Knockouts</span>
+
+          </span>
+          <span class="links">
+              <a href="https://www.linkedin.com/in/shubhankar-takle-007a47a9/" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32"
+                      viewBox="0 0 48 48">
+                      <path fill="#0288D1"
+                          d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z">
+                      </path>
+                      <path fill="#FFF"
+                          d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z">
+                      </path>
+                  </svg>
+              </a>
+              <!-- <a href="https://unsplash.com/photos/TFyi0QOx08c" target="_blank"><i class="fas fa-share"></i></a> -->
+          </span>
+      </figcaption>
+  </figure>
+
+  <figure class="pastCard pastCard--4" style="--image-src: url('../img/workshop/_MG_8422-2.jpg')">
+      <figcaption>
+          <span class="info">
+              <h3>Suchi Mercy George</h3>
+              <span>Introduction to 3D Bioprinting</span>
+          </span>
+          <span class="links">
+              <a href="https://www.linkedin.com/in/suchi-mercy-george/" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32"
+                      viewBox="0 0 48 48">
+                      <path fill="#0288D1"
+                          d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z">
+                      </path>
+                      <path fill="#FFF"
+                          d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z">
+                      </path>
+                  </svg>
+              </a>
+              <!-- <a href="https://unsplash.com/photos/DLwUVlzrP0Q" target="_blank"><i class="fas fa-share"></i></a> -->
+          </span>
+      </figcaption>
+  </figure>
+
+ 
+
+  <figure class="pastCard pastCard--4" style="--image-src: url('../img/workshop/_MG_8470-2.jpg')">
+      <figcaption>
+          <span class="info">
+              <h3>Devashree Jahagirdar</h3>
+              <span>3D Culturing of Cells</span>
+
+          </span>
+          <span class="links">
+              <a href="https://www.linkedin.com/in/devashree-jahagirdar-ph-d-3372056b/" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32"
+                      viewBox="0 0 48 48">
+                      <path fill="#0288D1"
+                          d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z">
+                      </path>
+                      <path fill="#FFF"
+                          d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z">
+                      </path>
+                  </svg>
+              </a>
+              <!-- <a href="https://unsplash.com/photos/DLwUVlzrP0Q" target="_blank"><i class="fas fa-share"></i></a> -->
+          </span>
+      </figcaption>
+  </figure>
+  <figure class="pastCard pastCard--3" style="--image-src: url('../img/workshop/_MG_8349.jpg')">
+      <figcaption>
+          <span class="info">
+              <h3> Dr. Rajvardhan Kapshikar</h3>
+              <span>Next Generation Sequencing </span>
+
+          </span>
+          <span class="links">
+              <a href="https://www.linkedin.com/in/dr-rajvardhan-kapshikar-97988125/" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32"
+                      viewBox="0 0 48 48">
+                      <path fill="#0288D1"
+                          d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z">
+                      </path>
+                      <path fill="#FFF"
+                          d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z">
+                      </path>
+                  </svg>
+              </a>
+              <!-- <a href="https://unsplash.com/photos/DLwUVlzrP0Q" target="_blank"><i class="fas fa-share"></i></a> -->
+          </span>
+      </figcaption>
+  </figure>
+
+
+
+</div>        
+            
+            
+            
+            <!-- <div class="support">
+                <a href="https://twitter.com/DevLoop01" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                <a href="https://dribbble.com/devloop01" target="_blank"><i class="fab fa-dribbble"></i></a>
+            </div> -->
+            <!-- <div class="bodyContainer reverseGradientBody"> -->
+                <div class="mapContainer" style="margin-top: 5vh;">
+                    <h1 class="mapHeading"><span style="font-family: PoppinsExtraBold;">Participation from <span class="map48" style="font-family: PoppinsExtraBold;">68+</span>  Countries </span></h1>
+                <!-- <h2 style="font-family: PoppinsExtraBold; "><span class="mapHeader2" style="font-family: PoppinsExtraBold;">Participation from <span style="font-family: PoppinsBold; ">48+</span> Countries </span></h2> -->
+                
+                  <!-- <h2>Participation from 48+ Countries</h2> -->
+                  
+                  <br class="chartBreak">
+                  
+                <div id="chartdiv" style="cursor:grab;"></div>
+                </div>
+              <!-- </div> -->
+              <!-- <div class="testimonialsContainer">
+                <h2 class="groupHeaderTestimonial"><span class="headings3" style="font-family: PoppinsEXtraBold;">Testimonials</span></h2>
+                <hr class="pinkHr" />
+                <div class="testmonialContainer">
+                      <section id="testim" class="testim">
+                          <div class="wrap">
+              
+                              <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+                              <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
+                              <ul id="testim-dots" class="dots">
+                                  <li class="dot active"></li>
+                                  <li class="dot"></li>
+                                  <li class="dot"></li>
+                                  <li class="dot"></li>
+                                  <li class="dot"></li>
+                                    <li class="dot"></li>
+                                <li class="dot"></li>
+                              </ul>
+                              <div id="testim-content" class="cont">
+                                  
+                                  <div class="active">
+                                      <h2>Alex Kyabarongo, <span style="color: #c8247c; font-family: PoppinsExtraBold;">Africa</span></h2>
+                                      <p>It was an amazing experience starting from the keynote speeches to the tours, learning how to build a startup, going through all the challenges and the deficiencies to creating a stable and sustainable project or startup. The different breakout sessions that taught about local synthetic biology and the different experiences surrounding them and how obstacles have been negotiated to reach there. I was inspired and I look forward to seeing more great work done in the world of synthetic biology here in Africa, I will be glad to contribute towards this development! </p>                    
+                                  </div>
+              
+                                  <div>
+                                      <h2>Deepakshi Kasat, <span style="color: #c8247c; font-family: PoppinsExtraBold;">India</span></h2>
+                                      <p>Darwin was quite an interesting experience - the fact that the team pulled it off so systematically in a lockdown was truly impressive. Daily updates, availability, networking opportunities, such insightful talks and workshops, kudos to the team. Further, as a collaborator, I had a great learning experience. Looking forward to more such collaborations between Darwin and The BioTalk Magazine!</p>                    
+                                  </div>
+              
+                                  <div>
+                                      <h2>Bilal Rehman, <span style="color: #c8247c; font-family: PoppinsExtraBold;">Pakistan</span></h2>
+                                      <p>So it was my first year at Darwin conference where I as a team member of Biohacking Space Peshawar presented a DIY project - building a DIY Incubator. I am grateful to Darwin for giving us a chance to exchange ideas and have conversations with people from multiple countries and communicate with such amazing minds. I personally learned so much form this virtual conference. Thank you so much again to all organisers and speakers!</p>                    
+                                  </div>
+              
+                                  <div>
+                                      <h2>Georgiana Lorena Moruz, <span style="color: #c8247c; font-family: PoppinsExtraBold;">Romania</span></h2>
+                                      <p>It helped me to expand my knowledge on many things such as universe and life, genetics, AI, data storage, the possibility to create a universe with codes, and trying to build the tech in order to remove DNA information. I really liked what Joe Zayner said regarding my question of whether AI can take on human characteristics including emotional intelligence and he helped me to better understand the importance of the human intelligence versus artificial intelligence. Thank you for giving me this opportunity to participate and hope to hear more from you in the future.</p>                    
+                                  </div>
+              
+                                  <div>
+                                      <h2>Nana Oforiwaa Ntorinkansah, <span style="color: #c8247c; font-family: PoppinsExtraBold;">Africa</span></h2>
+                                      <p>I had no clear idea of what to expect when I joined Darwin as an ambassador and registered for the international conference. However, the conference has enhanced my knowledge from the classroom and I'm confident that I can one day achieve something for myself and the science community. The keynote speakers, the workshops and networking will go a long way to advance my career in biotechnology! </p>                    
+                                  </div>
+
+                                  <div>
+                                    <h2>Salman Promon Khan, <span style="color: #c8247c; font-family: PoppinsExtraBold;">Bangladesh</span></h2>
+                                    <p>It was amazing to see bio-enthusiasts from different parts of the world come together for the conference. I believe that Darwin can initiate and create a big global movement for the enthusiasts of biology and science!</p>                    
+                                  </div>
+
+                                  <div>
+                                    <h2>Ninfa Isabel Lara Mora, <span style="color: #c8247c; font-family: PoppinsExtraBold;">Mexico</span></h2>
+                                    <p>My experience was gratifying since as a student knowing topics of interest help me to form a better criteria, in addition to expanding my culture because it was in another part of the world!</p>                    
+                                  </div>
+
+                                  
+                              </div>
+                          </div>
+                  </section>
+                  </div>
+              <script src="https://use.fontawesome.com/1744f3f671.js"></script>
+              <script>
+                // vars
+          'use strict'
+          var	testim = document.getElementById("testim"),
+                  testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
+              testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
+              testimLeftArrow = document.getElementById("left-arrow"),
+              testimRightArrow = document.getElementById("right-arrow"),
+              testimSpeed = 2500,
+              currentSlide = 0,
+              currentActive = 0,
+              testimTimer,
+                  touchStartPos,
+                  touchEndPos,
+                  touchPosDiff,
+                  ignoreTouch = 30;
+          ;
+          
+          window.onload = function() {
+          
+              // Testim Script
+              function playSlide(slide) {
+                  for (var k = 0; k < testimDots.length; k++) {
+                      testimContent[k].classList.remove("active");
+                      testimContent[k].classList.remove("inactive");
+                      testimDots[k].classList.remove("active");
+                  }
+          
+                  if (slide < 0) {
+                      slide = currentSlide = testimContent.length-1;
+                  }
+          
+                  if (slide > testimContent.length - 1) {
+                      slide = currentSlide = 0;
+                  }
+          
+                  if (currentActive != currentSlide) {
+                      testimContent[currentActive].classList.add("inactive");            
+                  }
+                  testimContent[slide].classList.add("active");
+                  testimDots[slide].classList.add("active");
+          
+                  currentActive = currentSlide;
+              
+                  clearTimeout(testimTimer);
+                  testimTimer = setTimeout(function() {
+                      playSlide(currentSlide += 1);
+                  }, testimSpeed)
+              }
+          
+              testimLeftArrow.addEventListener("click", function() {
+                  playSlide(currentSlide -= 1);
+              })
+          
+              testimRightArrow.addEventListener("click", function() {
+                  playSlide(currentSlide += 1);
+              })    
+          
+              for (var l = 0; l < testimDots.length; l++) {
+                  testimDots[l].addEventListener("click", function() {
+                      playSlide(currentSlide = testimDots.indexOf(this));
+                  })
+              }
+          
+              playSlide(currentSlide);
+          
+              // keyboard shortcuts
+              document.addEventListener("keyup", function(e) {
+                  switch (e.keyCode) {
+                      case 37:
+                          testimLeftArrow.click();
+                          break;
+                          
+                      case 39:
+                          testimRightArrow.click();
+                          break;
+          
+                      case 39:
+                          testimRightArrow.click();
+                          break;
+          
+                      default:
+                          break;
+                  }
+              })
+                  
+                  testim.addEventListener("touchstart", function(e) {
+                          touchStartPos = e.changedTouches[0].clientX;
+                  })
+              
+                  testim.addEventListener("touchend", function(e) {
+                          touchEndPos = e.changedTouches[0].clientX;
+                      
+                          touchPosDiff = touchStartPos - touchEndPos;
+                      
+                          console.log(touchPosDiff);
+                          console.log(touchStartPos);	
+                          console.log(touchEndPos);	
+          
+                      
+                          if (touchPosDiff > 0 + ignoreTouch) {
+                                  testimLeftArrow.click();
+                          } else if (touchPosDiff < 0 - ignoreTouch) {
+                                  testimRightArrow.click();
+                          } else {
+                              return;
+                          }
+                      
+                  })
+          }
+              </script>
+              </div> -->
+             
+              <section id="testimonial-area">
+                <div class="container">
+                      
+                            <div class="smection-heading text-center">
+                                <br>
+                                <br>
+                                <br>
+                                <h2 class="groupHeaderTestimonial"><span class="headings3" style="font-family: PoppinsEXtraBold;">Testimonials</span></h2>
+                                <br>
+                                <br>
+                            </div>
+                     
+                    <div class="testi-wrap">
+                      
+                        <div class="client-single active position-1" data-position="position-1">
+                            <div class="client-img">
+                                <img src="./img/testimonial/testimonial1.png" alt="">
+                            </div>
+                            <div class="client-comment">
+                                <h4>It was an amazing experience starting from the keynote speeches to the tours, learning how to build a startup, going through all the challenges and the deficiencies to creating a stable and sustainable project or startup. The different breakout sessions that taught about local synthetic biology and the different experiences surrounding them and how obstacles have been negotiated to reach there. I was inspired and I look forward to seeing more great work done in the world of synthetic biology here in Africa, I will be glad to contribute towards this development!</h4>
+                                <!-- <span><i class="fa fa-quote-left"></i></span><br><br> -->
+                                
+                                
+                            </div>
+                            <div class="client-info">
+                                <h3 style="font-family:PoppinsBold">Alex Kyabarongo, Africa</h3>
+                                <p>Co-Founder, Center for STEM Education and Research (CeSTER)</p>
+                            </div>
+                        </div>
+                      
+                        <div class="client-single inactive position-2" data-position="position-2">
+                            <div class="client-img">
+                                <img src="./img/testimonial/testimonial2.png" alt="">
+                            </div>
+                            <div class="client-comment">
+                                <h4>Darwin was quite an interesting experience - the fact that the team pulled it off so systematically in a lockdown was truly impressive. Daily updates, availability, networking opportunities, such insightful talks and workshops, kudos to the team. Further, as a collaborator, I had a great learning experience. Looking forward to more such collaborations between Darwin and The BioTalk Magazine!</h4>
+                                <!-- <span><i class="fa fa-quote-left"></i></span><br><br> -->
+                            </div>
+                            <div class="client-info">
+                                <h3 style="font-family:PoppinsBold">Deepakshi Kasat, India</h3>
+                                <p>Founder, The BioTalk Magazine</p>
+                            </div>
+                        </div>
+                    
+                        <div class="client-single inactive position-3" data-position="position-3">
+                            <div class="client-img">
+                                <img src="./img/testimonial/testimonial3.png" alt="">
+                            </div>
+                            <div class="client-comment">
+                                <h4>So it was my first year at Darwin conference where I as a team member of Biohacking Space Peshawar presented a DIY project - building a DIY Incubator. I am grateful to Darwin for giving us a chance to exchange ideas and have conversations with people from multiple countries and communicate with such amazing minds. I personally learned so much form this virtual conference. Thank you so much again to all organisers and speakers!</h4>
+                                <!-- <span><i class="fa fa-quote-left"></i></span><br><br> -->
+                            </div>
+                            <div class="client-info">
+                                <h3 style="font-family:PoppinsBold">Bilal Rehman, Pakistan</h3>
+                                <p>Bioartist, Biohacking Space Peshawar</p>
+                            </div>
+                        </div>
+                       
+                        <div class="client-single inactive position-4" data-position="position-4">
+                            <div class="client-img">
+                                <img src="./img/testimonial/testimonial4.png" alt="">
+                            </div>
+                            <div class="client-comment">
+                                <h4>My experience was gratifying since as a student knowing topics of interest help me to form a better criteria, in addition to expanding my culture because it was in another part of the world!</h4>
+                                <!-- <span><i class="fa fa-quote-left"></i></span><br><br> -->
+                            </div>
+                            <div class="client-info">
+                                <h3 style="font-family:PoppinsBold">Isabel Lara Mora, Mexico</h3>
+                                <p>Student</p>
+                            </div>
+                        </div>
+                      
+                        <div class="client-single inactive position-5" data-position="position-5">
+                            <div class="client-img">
+                                <img src="./img/testimonial/testimonial5.png" alt="">
+                            </div>
+                            <div class="client-comment">
+                                <h4>It helped me to expand my knowledge on many things such as universe and life, genetics, AI, data storage, the possibility to create a universe with codes, and trying to build the tech in order to remove DNA information. I really enjoyed what Markus Schmidt told us about the power of the AI, what Joe Davis told about the milky way DNA, the Microvenus project, what Joe Zayner said regarding my question of whether AI can take on human characteristics including emotional intelligence, what Jonathan Minchin said regarding my question of how international policies can improve regarding climate change. Thank you for giving me this opportunity to participate and hope to hear more from you in the future.</h4>
+                                <!-- <span><i class="fa fa-quote-left"></i></span><br><br> -->
+                            </div>
+                            <div class="client-info">
+                                <h3 style="font-family:PoppinsBold">Georgiana Lorena Moruz, Romania</h3>
+                                <p>Student</p>
+                            </div>
+                        </div>
+                      
+                        <div class="client-single inactive position-6" data-position="position-6">
+                            <div class="client-img">
+                                <img src="./img/testimonial/testimonial6.png" alt="">
+                            </div>
+                            <div class="client-comment">
+                                <h4>It was amazing to see bio-enthusiasts from different parts of the world come together for the conference. I believe that Darwin can initiate and create a big global movement for the enthusiasts of biology and science!</h4>
+                                <!-- <span><i class="fa fa-quote-left"></i></span><br><br> -->
+                            </div>
+                            <div class="client-info">
+                                <h3 style="font-family:PoppinsBold">Salman Promon Khan, Bangladesh</h3>
+                                <p>CEO, Mechamind and Star Labs BDv</p>
+                            </div>
+                        </div>
+                      
+                        <div class="client-single inactive position-7" data-position="position-7">
+                            <div class="client-img">
+                                <img src="./img/testimonial/testimonial7.png" width="40px" alt="">
+                            </div>
+                            <div class="client-comment">
+                                <h4>I had no clear idea of what to expect when I joined Darwin as an ambassador and registered for the international conference. However, the conference has enhanced my knowledge from the classroom and I'm confident that I can one day achieve something for myself and the science community. The keynote speakers, the workshops and networking will go a long way to advance my career in biotechnology! </h4>
+                                <!-- <span><i class="fa fa-quote-left"></i></span><br><br> -->
+                            </div>
+                            <div class="client-info">
+                                <h3 style="font-family:PoppinsBold">Nana Oforiwaa Ntorinkansah, Africa</h3>
+                                <p>Student, Kwame Nkrumah' University of Science and Technology, Kumasi</p>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </section>
+              
+              <div class="footerContainer" id="contact">
+                <img src="./img/darwin.png" alt="Darwin logo" />
+                <div class="footerContact">
+                  <p>Contact us:</p>
+                  <div class="contactDetails">
+                    <!-- <a
+                      target="_blank"
+                      href="whatsapp://send?phone=+917666478569&?text=Hello! I have a query regarding the Darwin Conference. Could you please help me out"
+                    >
+                      <i class="fa fa-phone"></i> +91 76664 78569
+                    </a> -->
+                    <a target="_blank" href="mailto:darwin@somaiya.edu">
+                      <i class="fa fa-envelope"></i> darwin@somaiya.edu
+                    </a>
+                  </div>
+                </div>
+                <div class="socialMedia">
+                  <p>Follow us:</p>
+                  <div class="socialMediaLogos">
+                    <a target="_blank" href="https://instagram.com/darwinindia">
+                      <i class="fa fa-lg fa-instagram"></i>
+                    </a>
+                    <a target="_blank" href="https://twitter.com/darwin_india">
+                      <i class="fa fa-lg fa-twitter"></i>
+                    </a>
+                    <a target="_blank" href="https://facebook.com/darwin.bioriidl/">
+                      <i class="fa fa-lg fa-facebook"></i>
+                    </a>
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/company/darwin-india">
+                      <i class="fa fa-lg fa-linkedin"></i>
+                    </a>
+                  </div>
+                </div>
+                <!-- <a
+                  target="_blank"
+                  href="https://www.facebook.com/groups/1496081137211146"
+                >
+                  Join our Facebook Community
+                </a> -->
+              </div>
+              
+    </div>
+    <script>
+        var button = document.getElementById('timelineScrollDown');
+        var back = document.getElementById('timelineScrollUp');
+        var container = document.getElementById('timeline');
+        function scrollDown(){
+            // console.log('ok')
+            sideScroll(container,'down',100,150,50);
+        };
+        function scrollUp(){
+            // console.log('ok')
+            sideScroll(container,'up',100,150,50);
+        };
+
+function sideScroll(element,direction,speed,distance,step){
+    scrollAmount = 0;
+    var slideTimer = setInterval(function(){
+        if(direction == 'up'){
+            // console.log('up')
+            // element.scroll({
+            //     top: top+distance,
+            //     behavior: "smooth",
+            // });
+            element.scrollTop -= step;
+        } else {
+            // console.log('down')
+            // element.scroll({
+            //     top: top-distance,
+            //     behavior: "smooth",
+            // });
+            element.scrollTop += step;
+        }
+        scrollAmount += step;
+        if(scrollAmount >= distance){
+            window.clearInterval(slideTimer);
+        }
+    }, speed);
+}
+
+    </script>
+    <script>
+         $(document).ready(function () {
+
+$('.client-single').on('click', function (event) {
+   event.preventDefault();
+
+   var active = $(this).hasClass('active');
+
+   var parent = $(this).parents('.testi-wrap');
+
+   if (!active) {
+       var activeBlock = parent.find('.client-single.active');
+
+       var currentPos = $(this).attr('data-position');
+
+       var newPos = activeBlock.attr('data-position');
+
+       activeBlock.removeClass('active').removeClass(newPos).addClass('inactive').addClass(currentPos);
+       activeBlock.attr('data-position', currentPos);
+
+       $(this).addClass('active').removeClass('inactive').removeClass(currentPos).addClass(newPos);
+       $(this).attr('data-position', newPos);
+
+   }
+});
+
+}(jQuery));
+
+    </script>
+    <script src="https://use.fontawesome.com/1744f3f671.js"></script>
+
+    <script>
+        // vars
+        'use strict'
+        var	testim = document.getElementById("testim"),
+          testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
+      testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
+      testimLeftArrow = document.getElementById("left-arrow"),
+      testimRightArrow = document.getElementById("right-arrow"),
+      testimSpeed = 2500,
+      currentSlide = 0,
+      currentActive = 0,
+      testimTimer,
+          touchStartPos,
+          touchEndPos,
+          touchPosDiff,
+          ignoreTouch = 30;
+  ;
+  
+  window.onload = function() {
+  
+      // Testim Script
+      function playSlide(slide) {
+          for (var k = 0; k < testimDots.length; k++) {
+              testimContent[k].classList.remove("active");
+              testimContent[k].classList.remove("inactive");
+              testimDots[k].classList.remove("active");
+          }
+  
+          if (slide < 0) {
+              slide = currentSlide = testimContent.length-1;
+          }
+  
+          if (slide > testimContent.length - 1) {
+              slide = currentSlide = 0;
+          }
+  
+          if (currentActive != currentSlide) {
+              testimContent[currentActive].classList.add("inactive");            
+          }
+          testimContent[slide].classList.add("active");
+          testimDots[slide].classList.add("active");
+  
+          currentActive = currentSlide;
+      
+          clearTimeout(testimTimer);
+          testimTimer = setTimeout(function() {
+              playSlide(currentSlide += 1);
+          }, testimSpeed)
+      }
+  
+      testimLeftArrow.addEventListener("click", function() {
+          playSlide(currentSlide -= 1);
+      })
+  
+      testimRightArrow.addEventListener("click", function() {
+          playSlide(currentSlide += 1);
+      })    
+  
+      for (var l = 0; l < testimDots.length; l++) {
+          testimDots[l].addEventListener("click", function() {
+              playSlide(currentSlide = testimDots.indexOf(this));
+          })
+      }
+  
+      playSlide(currentSlide);
+  
+      // keyboard shortcuts
+      document.addEventListener("keyup", function(e) {
+          switch (e.keyCode) {
+              case 37:
+                  testimLeftArrow.click();
+                  break;
+                  
+              case 39:
+                  testimRightArrow.click();
+                  break;
+  
+              case 39:
+                  testimRightArrow.click();
+                  break;
+  
+              default:
+                  break;
+          }
+      })
+          
+          testim.addEventListener("touchstart", function(e) {
+                  touchStartPos = e.changedTouches[0].clientX;
+          })
+      
+          testim.addEventListener("touchend", function(e) {
+                  touchEndPos = e.changedTouches[0].clientX;
+              
+                  touchPosDiff = touchStartPos - touchEndPos;
+              
+                  console.log(touchPosDiff);
+                  console.log(touchStartPos);	
+                  console.log(touchEndPos);	
+  
+              
+                  if (touchPosDiff > 0 + ignoreTouch) {
+                          testimLeftArrow.click();
+                  } else if (touchPosDiff < 0 - ignoreTouch) {
+                          testimRightArrow.click();
+                  } else {
+                      return;
+                  }
+              
+          })
+  }
+      </script>
+
+    <script src="./js/getBase.js"></script>
+    <!-- <script>
+        const text = baffle('.heroText');
+        text.set({
+        characters : 'abcdefghijkl',
+        speed: 70
+        });
+        text.start();
+        text.reveal(3000);
+    </script> -->
+    <script src="./abc.js"></script>
+    <script src="./globe/map.js"></script>
+</body>
+
+<script src="./js/nav.js"></script>
+<script src="./js/coming.js"></script>
+<script src="./js/stats.js"></script>
+    
+<script src="./js/window.js"></script>
+</html>

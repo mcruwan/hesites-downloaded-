@@ -1,0 +1,1149 @@
+
+
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	
+
+<link rel="canonical" href="https://www.kepleruniklinikum.at/" />
+
+<title>Kepler Universitätsklinikum</title>
+<meta name="description" content="Spitzenmedizin am Puls der Zeit. Wir sind das medizinische Hochleistungszentrum f&#252;r rund 250.000 Linzer/-innen und rund 1,5 Mio. Menschen aus ganz Ober&#246;sterreich. F&#252;r jeden Einzelnen von ihnen.">
+<link href="/img/favicon-192.png" rel="apple-touch-icon" />
+<link href="/img/favicon-76.png" rel="apple-touch-icon" sizes="76x76" />
+<link href="/img/favicon-120.png" rel="apple-touch-icon" sizes="120x120" />
+<link href="/img/favicon-152.png" rel="apple-touch-icon" sizes="152x152" />
+<link href="/img/favicon-180.png" rel="apple-touch-icon" sizes="180x180" />
+<link href="/img/favicon-192.png" rel="icon" sizes="192x192" />
+<link href="/img/favicon-128.png" rel="icon" sizes="128x128" />
+<link href="/img/favicon.ico" rel="shortcut icon" />
+
+<link rel="image_src" href="https://www.kepleruniklinikum.at/img/share-logo.png" />
+<meta property="og:image" content="https://www.kepleruniklinikum.at/img/share-logo.png" />
+<meta property="og:url" content="https://www.kepleruniklinikum.at/" />
+<meta property="og:description" content="Spitzenmedizin am Puls der Zeit. Wir sind das medizinische Hochleistungszentrum f&#252;r rund 250.000 Linzer/-innen und rund 1,5 Mio. Menschen aus ganz Ober&#246;sterreich. F&#252;r jeden Einzelnen von ihnen." />
+<meta property="og:title" content="Kepler Universit&#228;tsklinikum" />
+<script>
+		var fancyBoxAutoplay = false;
+</script>
+
+	
+	<link href="/Css/kuk-extern.min.css?v=6.0" rel="stylesheet">
+
+	
+	<link href="/Css/kuk.min.css?v=6.0" rel="stylesheet">
+	<link href="/Css/kuk-print.min.css?v=6.0" rel="stylesheet" type="text/css" media="print" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<link href="/Css/kuk-ie8fix.min.css" rel="stylesheet">
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<!-- Matomo Tag Manager -->
+<script>
+	var _mtm = window._mtm = window._mtm || [];
+	_mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+	(function() {
+		var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		g.async=true; 
+		g.src='https://cdn.matomo.cloud/ooeg.matomo.cloud/container_NJ1vh2lJ.js'; 
+		s.parentNode.insertBefore(g,s);
+	})();
+</script>
+<!-- End Matomo Tag Manager -->
+	
+
+<!-- Website -->
+<script type="application/ld+json">
+	{
+	"@context": "http://schema.org",
+	"@type": "WebSite",
+	"name": "Kepler Universitätsklinikum",
+	"url": "https://www.kepleruniklinikum.at/"
+	}
+</script>
+
+<!-- Organization -->
+<script type="application/ld+json">
+	{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"url": "https://www.kepleruniklinikum.at/",
+		"name": "Kepler Universitätsklinikum",
+		"logo": "https://www.kepleruniklinikum.at/Img/logo-large-new.png",
+		"location": [
+			{
+				"@type": "PostalAddress",
+				"addressCountry": "AT",
+				"addressRegion": "Linz",
+				"postalCode": "4020",
+				"streetAddress": "Krankenhausstraße 7a"
+			}
+		]
+	}
+</script>
+
+<!-- Breadcrumb -->
+<script type="application/ld+json">
+	{
+	"@context": "http://schema.org",
+	"@type": "BreadcrumbList",
+	"itemListElement": [
+	{
+
+	"@type": "ListItem",
+	"position": 1,
+	"item": {
+	"@id": "https://www.kepleruniklinikum.at/",
+	"name": "Kepler Universitätsklinikum"
+	}}]
+	}
+</script>
+</head>
+<body class="home">
+<link href="https://webcache-eu.datareporter.eu/c/61f7f59b-8675-4306-b146-ae34251052f2/r0LflXArvW0e/27p/banner.css" rel="stylesheet">
+<script src="https://webcache-eu.datareporter.eu/c/61f7f59b-8675-4306-b146-ae34251052f2/r0LflXArvW0e/27p/banner.js" type="text/javascript" charset="utf-8"></script>
+<script>
+	window.cookieconsent.initialise(dr_cookiebanner_options);
+</script>
+<div id="fb-root"></div>
+<script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v2.7&appId=1789219018024054";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<ul class="wcag-navigation" name="wcag">
+	<li>
+		<a class="skip" href="#navigation" accesskey="N" title="Zur Hauptnavigation springen (ALT+N)">Zur Hauptnavigation springen (ALT+N)</a>
+	</li>
+	<li>
+		<a class="skip" href="#content" accesskey="I" title="Zum Inhalt springen (ALT+I)">Zum Inhalt springen (ALT+I)</a>
+	</li>
+	<li>
+		<a class="skip" href="#aktuelles" accesskey="A" title="Zu Aktuelles springen (ALT+A)">Zu Aktuelles springen (ALT+A)</a>
+	</li>
+	<li>
+		<a class="skip" href="#footer" title="Zur Fußleiste springen" accesskey="Z">Zur Fußleiste springen (ALT+Z)</a>
+	</li>
+</ul>
+
+
+
+<header>
+    
+    
+    
+    <div class="header-inner">
+        <div class="logo-meta">
+            <a href="/" class="logo">
+                <img alt="Zur Startseite wechseln" src="/Img/logo-large-new.png" class="logo-big">
+                <img alt="Zur Startseite wechseln" src="/Img/logo-small.png" class="logo-small">
+            </a>
+            <nav class="meta-nav" id="meta-nav-top">
+                <ul class="icon-list-desktop">
+                                            <li>
+                                                <a href="/patienten-angehoerige/krank-was-tun/aufnahmekalender/" target="_self" class="image-hover">
+                                                    <img src="/media/10320/kuk_icons_website_05-2022_notfall.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437464730000000" data-default-image="/media/10320/kuk_icons_website_05-2022_notfall.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437464730000000" data-hover-image="/media/10321/kuk_icons_website_05-2022_notfall-rot.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437464730000000" alt="Aufnahmekalender" />
+                                                    <span>Aufnahmekalender</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://jobs.kepleruniklinikum.at/Jobs" target="_blank" class="image-hover">
+                                                    <img src="/media/11827/kuk_icons_website_05-2022_offene-stellen.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437464730000000" data-default-image="/media/11827/kuk_icons_website_05-2022_offene-stellen.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437464730000000" data-hover-image="/media/11828/kuk_icons_website_05-2022_offene-stellen-rot.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437464730000000" alt="Jobportal" />
+                                                    <span>Jobportal</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/kontakt/" target="_self" class="image-hover">
+                                                    <img src="/media/10318/kuk_icons_website_05-2022_kontakt.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437464730000000" data-default-image="/media/10318/kuk_icons_website_05-2022_kontakt.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437464730000000" data-hover-image="/media/10324/kuk_icons_website_05-2022_kontakt-rot.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437464730000000" alt="Kontakt" />
+                                                    <span>Kontakt</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/presse/" target="_self" class="image-hover">
+                                                    <img src="/media/10315/kuk_icons_website_presse2.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437464730000000" data-default-image="/media/10315/kuk_icons_website_presse2.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437464730000000" data-hover-image="/media/10322/kuk_icons_website_presse_rot.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437464730000000" alt="Presse" />
+                                                    <span>Presse</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/zuweisende/" target="_self" class="image-hover">
+                                                    <img src="/media/11835/stethoscope_g.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437486390000000" data-default-image="/media/11835/stethoscope_g.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437486390000000" data-hover-image="/media/11836/stethoscope_r.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437486500000000" alt="Zuweisende" />
+                                                    <span>Zuweisende</span>
+                                                </a>
+                                            </li>
+                </ul>
+                <div class="search-container">
+                    <form id="search-form" role="search" method="GET" action="/suche/">
+                        <div class="input-search">
+                            <input type="text" class="form-control" title="Suchtext" placeholder="Suche" name="q">
+                            <button class="btn" title="Suchen" type="submit"><em class="fa fa-search"></em></button>
+                        </div>
+                    </form>
+                </div>
+                <button class="open-search" title="Suchmaschine anzeigen"><em class="fa fa-search"></em></button>
+                <div class="hamb"><em class="fa fa-align-justify"></em><em class="fa fa-close"></em></div>
+            </nav>
+        </div>
+        <nav class="main-nav">
+            <!---1,1078-->
+            <div class="main-nav-scroll">
+                <ul class="main-menu enable-hover">
+                        <li>
+                            <div class="link-icon"><a href="/kliniken-einrichtungen/">Kliniken &amp; Einrichtungen</a><em class="fa fa-angle-right"></em></div>
+                        </li>
+                        <li>
+                            <div class="link-icon"><a href="/patienten-angehoerige/">Patienten &amp; Angeh&#246;rige</a><em class="fa fa-angle-right"></em></div>
+                                <ul class="submenu">
+                                        <li><a href="/patienten-angehoerige/krank-was-tun/" target="_self">Krank, was tun?</a></li>
+                                        <li><a href="/patienten-angehoerige/ihr-aufenthalt/" target="_self">Ihr Aufenthalt</a></li>
+                                        <li><a href="/patienten-angehoerige/besuchsinformationen/" target="_self">Besuchsinformationen</a></li>
+                                        <li><a href="/patienten-angehoerige/unterstuetzungsangebote/" target="_self">Unterst&#252;tzungsangebote</a></li>
+                                        <li><a href="/patienten-angehoerige/patientenmagazin-visite/" target="_blank">Patientenmagazin &quot;VISITE&quot;</a></li>
+                                        <li><a href="/patienten-angehoerige/erfolgsgeschichten/" target="_self">Erfolgsgeschichten</a></li>
+                                        <li><a href="/patienten-angehoerige/lob-und-kritik/" target="_self">Lob und Kritik</a></li>
+                                </ul>
+                        </li>
+                        <li>
+                            <div class="link-icon"><a href="/ausbildung/">Ausbildung</a><em class="fa fa-angle-right"></em></div>
+                                <ul class="submenu">
+                                        <li><a href="/ausbildung/medizin/" target="_self">Medizin</a></li>
+                                        <li><a href="/ausbildung/pflege/" target="_self">Pflege</a></li>
+                                        <li><a href="/ausbildung/mtd-gesundheitsberufe/" target="_self">MTD-Gesundheitsberufe</a></li>
+                                        <li><a href="/ausbildung/medizintechnik/" target="_self">Medizintechnik</a></li>
+                                        <li><a href="/ausbildung/hebammen/" target="_self">Hebammen</a></li>
+                                        <li><a href="/ausbildung/lehrberufe/" target="_self">Lehrberufe</a></li>
+                                        <li><a href="/ausbildung/fort-und-weiterbildung/" target="_self">Fort- und Weiterbildung</a></li>
+                                        <li><a href="/ausbildung/veranstaltungen/" target="_self">Veranstaltungen</a></li>
+                                        <li><a href="/ausbildung/aktuelles/" target="_self">Aktuelles</a></li>
+                                </ul>
+                        </li>
+                        <li>
+                            <div class="link-icon"><a href="/karriere/">Karriere</a><em class="fa fa-angle-right"></em></div>
+                                <ul class="submenu">
+                                        <li><a href="/karriere/arbeiten-im-kepler-universitaetsklinikum/" target="_self">Arbeiten im Kepler Universit&#228;tsklinikum</a></li>
+                                        <li><a href="/karriere/social-benefits/" target="_self">Social Benefits</a></li>
+                                        <li><a href="/karriere/jobportal/" target="_blank">Jobportal</a></li>
+                                        <li><a href="/karriere/faqs-und-bewerbungsinfos/" target="_self">FAQs und Bewerbungsinfos</a></li>
+                                        <li><a href="/karriere/karrierelaufbahn/" target="_self">Karrierelaufbahn</a></li>
+                                        <li><a href="/karriere/berufsgruppen/" target="_self">Berufsgruppen</a></li>
+                                        <li><a href="/karriere/praktika-ferialjob-zivildienst/" target="_self">Praktika, Ferialjob, Zivildienst</a></li>
+                                        <li><a href="/karriere/lehrberufe/" target="_self">Lehrberufe</a></li>
+                                        <li><a href="/karriere/internationale-bewerber-innen/" target="_self">Internationale Bewerber/-innen</a></li>
+                                        <li><a href="/karriere/menschen-im-kuk/" target="_self">Menschen im KUK</a></li>
+                                        <li><a href="/karriere/gekommen-um-zu-bleiben/" target="_self">Gekommen, um zu bleiben</a></li>
+                                        <li><a href="/karriere/karrierevideos/" target="_self">Karrierevideos</a></li>
+                                        <li><a href="/karriere/veranstaltungen/" target="_self">Veranstaltungen</a></li>
+                                        <li><a href="/karriere/aktuelles/" target="_self">Aktuelles</a></li>
+                                </ul>
+                        </li>
+                        <li>
+                            <div class="link-icon"><a href="/forschung/">Forschung</a><em class="fa fa-angle-right"></em></div>
+                                <ul class="submenu">
+                                        <li><a href="/forschung/was-wir-tun/" target="_self">Was wir tun</a></li>
+                                        <li><a href="/forschung/service-center-for-clinical-research-sccr/" target="_self">Service Center for Clinical Research (SCCR)</a></li>
+                                        <li><a href="/forschung/klinische-studien/" target="_self">Klinische Studien</a></li>
+                                        <li><a href="/forschung/publikationen/" target="_self">Publikationen</a></li>
+                                        <li><a href="/forschung/ethikkommission-der-jku/" target="_self">Ethikkommission der JKU</a></li>
+                                        <li><a href="/forschung/aktuelles/" target="_self">Aktuelles</a></li>
+                                </ul>
+                        </li>
+                        <li>
+                            <div class="link-icon"><a href="/&#252;ber-uns/">&#220;ber uns</a><em class="fa fa-angle-right"></em></div>
+                                <ul class="submenu">
+                                        <li><a href="/&#220;ber-uns/zahlen-daten-fakten/" target="_self">Zahlen, Daten, Fakten</a></li>
+                                        <li><a href="/&#252;ber-uns/krankenhaustraeger/" target="_self">Krankenhaustr&#228;ger</a></li>
+                                        <li><a href="/&#252;ber-uns/geschaeftsfuehrung/" target="_self">Gesch&#228;ftsf&#252;hrung</a></li>
+                                        <li><a href="/&#252;ber-uns/kollegiale-fuehrung/" target="_self">Kollegiale F&#252;hrung</a></li>
+                                        <li><a href="/&#252;ber-uns/betriebsrat-und-gleichstellungsbereich/" target="_self">Betriebsrat und Gleichstellungsbereich</a></li>
+                                        <li><a href="/&#252;ber-uns/standorte-und-hubschrauberlandeplaetze/" target="_self">Standorte und Hubschrauberlandepl&#228;tze</a></li>
+                                        <li><a href="/&#252;ber-uns/e-vergabe-und-ausschreibungen/" target="_self">E-Vergabe und Ausschreibungen</a></li>
+                                        <li><a href="/&#252;ber-uns/compliance/" target="_blank">Compliance</a></li>
+                                        <li><a href="/&#252;ber-uns/kukbaut/" target="_self">KUKbaut</a></li>
+                                        <li><a href="/&#252;ber-uns/veranstaltungen/" target="_self">Veranstaltungen</a></li>
+                                        <li><a href="/&#252;ber-uns/aktuelles/" target="_self">Aktuelles</a></li>
+                                        <li><a href="/&#252;ber-uns/videos/" target="_self">Videos</a></li>
+                                </ul>
+                        </li>
+                </ul>
+                <ul class="icon-list-mobile">
+                                            <li>
+                                                <a href="/patienten-angehoerige/krank-was-tun/aufnahmekalender/" target="_self" class="image-hover">
+                                                    <img src="/media/10320/kuk_icons_website_05-2022_notfall.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437464730000000" data-default-image="/media/10320/kuk_icons_website_05-2022_notfall.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437464730000000" data-hover-image="/media/10321/kuk_icons_website_05-2022_notfall-rot.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437464730000000" alt="Aufnahmekalender" />
+                                                    <span>Aufnahmekalender</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://jobs.kepleruniklinikum.at/Jobs" target="_blank" class="image-hover">
+                                                    <img src="/media/11827/kuk_icons_website_05-2022_offene-stellen.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437464730000000" data-default-image="/media/11827/kuk_icons_website_05-2022_offene-stellen.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437464730000000" data-hover-image="/media/11828/kuk_icons_website_05-2022_offene-stellen-rot.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437464730000000" alt="Jobportal" />
+                                                    <span>Jobportal</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/kontakt/" target="_self" class="image-hover">
+                                                    <img src="/media/10318/kuk_icons_website_05-2022_kontakt.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437464730000000" data-default-image="/media/10318/kuk_icons_website_05-2022_kontakt.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437464730000000" data-hover-image="/media/10324/kuk_icons_website_05-2022_kontakt-rot.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437464730000000" alt="Kontakt" />
+                                                    <span>Kontakt</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/presse/" target="_self" class="image-hover">
+                                                    <img src="/media/10315/kuk_icons_website_presse2.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437464730000000" data-default-image="/media/10315/kuk_icons_website_presse2.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437464730000000" data-hover-image="/media/10322/kuk_icons_website_presse_rot.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437464730000000" alt="Presse" />
+                                                    <span>Presse</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/zuweisende/" target="_self" class="image-hover">
+                                                    <img src="/media/11835/stethoscope_g.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437486390000000" data-default-image="/media/11835/stethoscope_g.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437486390000000" data-hover-image="/media/11836/stethoscope_r.png?anchor=center&amp;mode=crop&amp;width=100&amp;height=100&amp;rnd=133437486500000000" alt="Zuweisende" />
+                                                    <span>Zuweisende</span>
+                                                </a>
+                                            </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<div class="nav-hide">
+	
+
+
+
+
+
+
+<section id="slider" class="container-fluid">
+	<div class="kuk-container">
+		<ul class="bxslider">
+				<li>
+					<section class="container-fluid">
+						<div class="kuk-container kuk-jumbotron " onclick="return true" style="background-image: url(/media/1535/patientenversorgung_start.jpg?center=0.43333333333333335,0.49555555555555558&amp;mode=crop&amp;width=1180&amp;height=440&amp;rnd=133855628270000000)">
+								<div class="hidden-xs hidden-sm row">
+									<div class="col-xs-4"></div>
+									<div class="col-xs-4 headline">
+										<span class="jumbotron-headline" id="cf60e8a2-138c-41bc-aef9-1540de7160e7">Exzellente Versorgung</span>
+									</div>
+									<div class="col-xs-4 content">
+											<p>Ihr Vorteil? Verf&#252;gbarkeit und Zusammenarbeit aller medizinischen Fachrichtungen in einem Klinikum und ein rascher Zugriff auf neueste Therapien und medizinische Innovationen.</p>
+																					<a class="kuk-btn filled" href="/kliniken-einrichtungen/" target="_self" aria-describedby="cf60e8a2-138c-41bc-aef9-1540de7160e7">Mehr erfahren</a>
+									</div>
+								</div>
+															<div class="copyright">&copy; iStock.com / shapecharge</div>
+						</div>
+						<div class="hidden-lg hidden-md kuk-container kuk-jumbotron-text-mobile">
+							<div class="row">
+								<div class="col-xs-12 headline">
+									<span class="jumbotron-headline">Exzellente Versorgung</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 content">
+										<p>Ihr Vorteil? Verf&#252;gbarkeit und Zusammenarbeit aller medizinischen Fachrichtungen in einem Klinikum und ein rascher Zugriff auf neueste Therapien und medizinische Innovationen.</p>
+																			<a class="kuk-btn filled" href="/kliniken-einrichtungen/" target="_self" title="Mehr erfahren">Mehr erfahren</a>
+																	</div>
+							</div>
+						</div>
+					</section>
+				</li>
+				<li>
+					<section class="container-fluid">
+						<div class="kuk-container kuk-jumbotron " onclick="return true" style="background-image: url(/media/12763/besuchszeiten-familie-eingangsbereich_ooeg.jpg?center=0.46178343949044587,0.50847457627118642&amp;mode=crop&amp;width=1180&amp;height=440&amp;rnd=133855631230000000)">
+								<div class="hidden-xs hidden-sm row">
+									<div class="col-xs-4"></div>
+									<div class="col-xs-4 headline">
+										<span class="jumbotron-headline" id="27c5d7ea-7fa4-4dd3-b57d-c351cc03e1b4">Besuchs- informationen</span>
+									</div>
+									<div class="col-xs-4 content">
+											<p>Hier finden Sie die Besuchszeiten sowie aktuelle Informationen zu den Regelungen f&#252;r Besucherinnen und Besucher.</p>
+																					<a class="kuk-btn filled" href="/patienten-angehoerige/besuchsinformationen/" target="_self" aria-describedby="27c5d7ea-7fa4-4dd3-b57d-c351cc03e1b4">Mehr erfahren</a>
+									</div>
+								</div>
+															<div class="copyright">&copy; O&#214;G</div>
+						</div>
+						<div class="hidden-lg hidden-md kuk-container kuk-jumbotron-text-mobile">
+							<div class="row">
+								<div class="col-xs-12 headline">
+									<span class="jumbotron-headline">Besuchs- informationen</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 content">
+										<p>Hier finden Sie die Besuchszeiten sowie aktuelle Informationen zu den Regelungen f&#252;r Besucherinnen und Besucher.</p>
+																			<a class="kuk-btn filled" href="/patienten-angehoerige/besuchsinformationen/" target="_self" title="Mehr erfahren">Mehr erfahren</a>
+																	</div>
+							</div>
+						</div>
+					</section>
+				</li>
+				<li>
+					<section class="container-fluid">
+						<div class="kuk-container kuk-jumbotron " onclick="return true" style="background-image: url(/media/11885/jobplakate_header.png?anchor=center&amp;mode=crop&amp;width=1180&amp;height=440&amp;rnd=133855630990000000)">
+								<div class="hidden-xs hidden-sm row">
+									<div class="col-xs-4"></div>
+									<div class="col-xs-4 headline">
+										<span class="jumbotron-headline" id="f00b74ec-ebef-4d7b-ae4e-f7acb2d0ced7">Menschen im Mittelpunkt</span>
+									</div>
+									<div class="col-xs-4 content">
+											<p>Die neue KUK-Plakatserie stellt Kolleginnen und Kollegen mit verschiedenen Funktionen und aus unterschiedlichsten Berufsgruppen vor. Viel Spa&#223; beim Durchsehen!</p>
+																					<a class="kuk-btn filled" href="/karriere/berufsgruppen/" target="_self" aria-describedby="f00b74ec-ebef-4d7b-ae4e-f7acb2d0ced7">Mehr erfahren</a>
+									</div>
+								</div>
+															<div class="copyright">&copy; KUK</div>
+						</div>
+						<div class="hidden-lg hidden-md kuk-container kuk-jumbotron-text-mobile">
+							<div class="row">
+								<div class="col-xs-12 headline">
+									<span class="jumbotron-headline">Menschen im Mittelpunkt</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 content">
+										<p>Die neue KUK-Plakatserie stellt Kolleginnen und Kollegen mit verschiedenen Funktionen und aus unterschiedlichsten Berufsgruppen vor. Viel Spa&#223; beim Durchsehen!</p>
+																			<a class="kuk-btn filled" href="/karriere/berufsgruppen/" target="_self" title="Mehr erfahren">Mehr erfahren</a>
+																	</div>
+							</div>
+						</div>
+					</section>
+				</li>
+				<li>
+					<section class="container-fluid">
+						<div class="kuk-container kuk-jumbotron " onclick="return true" style="background-image: url(/media/11539/nfa_header_ooeg.jpg?anchor=center&amp;mode=crop&amp;width=1180&amp;height=440&amp;rnd=133328719090000000)">
+								<div class="hidden-xs hidden-sm row">
+									<div class="col-xs-4"></div>
+									<div class="col-xs-4 headline">
+										<span class="jumbotron-headline" id="6283557b-5d0e-43a5-9066-ddd7e0578b2a">Krank, was tun?</span>
+									</div>
+									<div class="col-xs-4 content">
+											<p>Wohin man sich bei gesundheitlichen Problemen wenden soll ist nicht immer klar. Einen detaillierten &#220;berblick &#252;ber die wichtigsten Anlaufstellen finden Sie im Bereich &quot;Wo bin ich richtig?&quot;.</p>
+																					<a class="kuk-btn filled" href="/patienten-angehoerige/krank-was-tun/" target="_self" aria-describedby="6283557b-5d0e-43a5-9066-ddd7e0578b2a">Mehr erfahren</a>
+									</div>
+								</div>
+															<div class="copyright">&copy; O&#214;G</div>
+						</div>
+						<div class="hidden-lg hidden-md kuk-container kuk-jumbotron-text-mobile">
+							<div class="row">
+								<div class="col-xs-12 headline">
+									<span class="jumbotron-headline">Krank, was tun?</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 content">
+										<p>Wohin man sich bei gesundheitlichen Problemen wenden soll ist nicht immer klar. Einen detaillierten &#220;berblick &#252;ber die wichtigsten Anlaufstellen finden Sie im Bereich &quot;Wo bin ich richtig?&quot;.</p>
+																			<a class="kuk-btn filled" href="/patienten-angehoerige/krank-was-tun/" target="_self" title="Mehr erfahren">Mehr erfahren</a>
+																	</div>
+							</div>
+						</div>
+					</section>
+				</li>
+				<li>
+					<section class="container-fluid">
+						<div class="kuk-container kuk-jumbotron " onclick="return true" style="background-image: url(/media/8973/kreisszimmerfilm_kuk.png?crop=0.29576587795765874,0.1911987860394537,0.0040847568444315648,0.17256044414566118&amp;cropmode=percentage&amp;width=1180&amp;height=440&amp;rnd=133855628830000000)">
+								<div class="hidden-xs hidden-sm row">
+									<div class="col-xs-4"></div>
+									<div class="col-xs-4 headline">
+										<span class="jumbotron-headline" id="243d568b-472a-4885-a83c-c7db48cbc095">Ein Blick in das Krei&#223;zimmer</span>
+									</div>
+									<div class="col-xs-4 content">
+											<p>Durch den virtuellen Krei&#223;zimmerrundgang k&#246;nnen Sie sich einen ersten Eindruck von unseren R&#228;umlichkeiten der Geburtshilfe machen.</p>
+																					<a class="kuk-btn filled" href="/kliniken-einrichtungen/gynaekologie-geburtshilfe-und-gyn-endokrinologie/leistungsangebot-geburtshilfe/" target="_self" aria-describedby="243d568b-472a-4885-a83c-c7db48cbc095">Mehr erfahren</a>
+									</div>
+								</div>
+															<div class="copyright">&copy; KUK</div>
+						</div>
+						<div class="hidden-lg hidden-md kuk-container kuk-jumbotron-text-mobile">
+							<div class="row">
+								<div class="col-xs-12 headline">
+									<span class="jumbotron-headline">Ein Blick in das Krei&#223;zimmer</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 content">
+										<p>Durch den virtuellen Krei&#223;zimmerrundgang k&#246;nnen Sie sich einen ersten Eindruck von unseren R&#228;umlichkeiten der Geburtshilfe machen.</p>
+																			<a class="kuk-btn filled" href="/kliniken-einrichtungen/gynaekologie-geburtshilfe-und-gyn-endokrinologie/leistungsangebot-geburtshilfe/" target="_self" title="Mehr erfahren">Mehr erfahren</a>
+																	</div>
+							</div>
+						</div>
+					</section>
+				</li>
+				<li>
+					<section class="container-fluid">
+						<div class="kuk-container kuk-jumbotron " onclick="return true" style="background-image: url(/media/8943/visite_impfen_ooeg.jpg?anchor=center&amp;mode=crop&amp;width=1180&amp;height=440&amp;rnd=133855628650000000)">
+								<div class="hidden-xs hidden-sm row">
+									<div class="col-xs-4"></div>
+									<div class="col-xs-4 headline">
+										<span class="jumbotron-headline" id="744167d4-9be6-4208-b012-31c685f7f19b">Magazin &quot;VISITE&quot;</span>
+									</div>
+									<div class="col-xs-4 content">
+											<p>Das Patientenmagazin &quot;VISITE&quot; informiert &#252;ber aktuelle Gesundheitsthemen. Das gesamte Magazin gibt es jetzt auch online zum Download und als Podcast.</p>
+																					<a class="kuk-btn filled" href="/patienten-angehoerige/patientenmagazin-visite/" target="_self" aria-describedby="744167d4-9be6-4208-b012-31c685f7f19b">Mehr erfahren</a>
+									</div>
+								</div>
+															<div class="copyright">&copy; O&#214;G</div>
+						</div>
+						<div class="hidden-lg hidden-md kuk-container kuk-jumbotron-text-mobile">
+							<div class="row">
+								<div class="col-xs-12 headline">
+									<span class="jumbotron-headline">Magazin &quot;VISITE&quot;</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 content">
+										<p>Das Patientenmagazin &quot;VISITE&quot; informiert &#252;ber aktuelle Gesundheitsthemen. Das gesamte Magazin gibt es jetzt auch online zum Download und als Podcast.</p>
+																			<a class="kuk-btn filled" href="/patienten-angehoerige/patientenmagazin-visite/" target="_self" title="Mehr erfahren">Mehr erfahren</a>
+																	</div>
+							</div>
+						</div>
+					</section>
+				</li>
+				<li>
+					<section class="container-fluid">
+						<div class="kuk-container kuk-jumbotron " onclick="return true" style="background-image: url(/media/8825/istock-508254166.jpg?crop=0,0.092566731770833327,0,0.34811123433086161&amp;cropmode=percentage&amp;width=1180&amp;height=440&amp;rnd=133855628610000000)">
+								<div class="hidden-xs hidden-sm row">
+									<div class="col-xs-4"></div>
+									<div class="col-xs-4 headline">
+										<span class="jumbotron-headline" id="a78d314c-d99a-442b-afdd-7c87c3d6f047">Lehre und Forschung </span>
+									</div>
+									<div class="col-xs-4 content">
+											<p>Wir bieten eine exzellente klinische Ausbildung, die attraktive Karrierechancen er&#246;ffnet und sind treibende Kraft eines Netzwerks von Medizin, Technik, Wissenschaft und Wirtschaft.</p>
+																					<a class="kuk-btn filled" href="/forschung/" target="_self" aria-describedby="a78d314c-d99a-442b-afdd-7c87c3d6f047">Mehr erfahren</a>
+									</div>
+								</div>
+															<div class="copyright">&copy; iStock.com / KatarzynaBialasiewicz</div>
+						</div>
+						<div class="hidden-lg hidden-md kuk-container kuk-jumbotron-text-mobile">
+							<div class="row">
+								<div class="col-xs-12 headline">
+									<span class="jumbotron-headline">Lehre und Forschung </span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 content">
+										<p>Wir bieten eine exzellente klinische Ausbildung, die attraktive Karrierechancen er&#246;ffnet und sind treibende Kraft eines Netzwerks von Medizin, Technik, Wissenschaft und Wirtschaft.</p>
+																			<a class="kuk-btn filled" href="/forschung/" target="_self" title="Mehr erfahren">Mehr erfahren</a>
+																	</div>
+							</div>
+						</div>
+					</section>
+				</li>
+		</ul>
+		<a class="js-link custom-control" id="slider-prev" title="zurück"><img src="/Img/arrow-left.png" alt="zurück" /></a>
+		<a class="js-link custom-control" id="slider-next" title="weiter"><img src="/Img/arrow-right.png" alt="weiter" /></a>
+	</div>
+</section>
+
+<!-- Kontakt -->
+<section id="home-kontakt" class="hidden-xs container-fluid">
+    <div class="kuk-container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-3 header">
+                <a name="content"></a>
+                <h1 name="content">Kontakt</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-3 standort">
+	            <h2><span>Kepler Universitätsklinikum<br />Med Campus III.</span></h2><span>Krankenhausstraße 9<br/>4021 Linz / Austria</span><a data-tel-href="tel:+4357680830">T +43 (0)5 7680 83 - 0</a>
+            </div>
+            <div class="col-xs-12 col-sm-3 standort">
+	            <h2><span>Kepler Universitätsklinikum<br/>Med Campus IV.</span></h2><span>Krankenhausstraße 26–30<br/>4021 Linz / Austria</span><a data-tel-href="tel:+4357680840">T +43 (0)5 7680 84 - 0</a>
+            </div>
+	        <div class="col-xs-12 col-sm-3 standort">
+		        <h2><span>Kepler Universitätsklinikum<br/>Neuromed Campus</span></h2><span>Wagner-Jauregg-Weg 15<br/>4020 Linz / Austria</span><a data-tel-href="tel:+4357680870">T +43 (0)5 7680 87 - 0</a>
+	        </div>
+	        <div class="col-xs-12 col-sm-3 standort">
+		        <h2><span>Schule für Gesundheits- und Krankenpflege und Medizinische Assistenzberufe</span></h2><span>Niedernharter Straße 20<br/>4020 Linz / Austria</span><a data-tel-href="tel:+43576808721841">T +43 (0)5 7680 87 - 21841</a>
+	        </div>
+        </div>
+    </div>
+</section>
+
+<!-- News -->
+<section id="news" class="container-fluid">
+	<div class="kuk-container">
+		<div class="row">
+			<a name="aktuelles"></a>
+			<h1>Aktuelles</h1>
+		</div>
+		<div class="row kuk-tiles pictures">
+				<div class="col-xs-12 col-sm-6 col-md-3 tile kuk-news-result">
+					<a href="/karriere/menschen-im-kuk/manuela-fischer-als-op-pflegekraft-fuer-sichere-eingriffe-sorgen/" title="Manuela Fischer: Als OP-Pflegekraft f&#252;r sichere Eingriffe sorgen" class="preview">
+							<div class="kuk-news-container">
+								<div class="kuk-news-table">
+									<div class="kuk-news-cell valign-top image-cell">
+										<img src="/media/14362/26-01-26-15-14-21-3278.jpg?center=0.71655328798185947,0.27717391304347827&amp;mode=crop&amp;width=720&amp;height=540&amp;rnd=134139159990000000" alt="OP-Pflegekraft Manuela Fischer "/>
+									</div>
+								</div>
+							</div>
+							<div class="kuk-news-container">
+								<div class="kuk-news-table">
+									<div class="kuk-news-cell">
+										<div class="kuk-news-cell-text">
+												<div class="copyright">&copy; KUK</div>
+																						<h2>Manuela Fischer: Als OP-Pflegekraft f&#252;r sichere Eingriffe sorgen</h2>
+										</div>
+									</div>
+								</div>
+							</div>
+
+					</a>
+					<a class="hover-info" href="/karriere/menschen-im-kuk/manuela-fischer-als-op-pflegekraft-fuer-sichere-eingriffe-sorgen/" title="Manuela Fischer: Als OP-Pflegekraft f&#252;r sichere Eingriffe sorgen">
+							<span>28. J&#228;nner 2026</span>
+						<h2>Manuela Fischer: Als OP-Pflegekraft f&#252;r sichere Eingriffe sorgen</h2>
+						<p> Manuela Fischer bringt mehr als 20 Jahre OP-Erfahrung mit ins Kepler Universitätsklinikum. Seit zweieinhalb Jahren arbeitet sie im OP für Orthopädie ...</p>
+						<span class="more"><em class="fa fa-angle-right" aria-hideen="true" tabindex="-1"></em></span>
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 tile kuk-news-result">
+					<a href="/ausbildung/aktuelles/ota-tagebuch-christina-startet-in-ihre-ausbildung/" title="OTA-Tagebuch: Christina startet in ihre Ausbildung" class="preview">
+							<div class="kuk-news-container">
+								<div class="kuk-news-table">
+									<div class="kuk-news-cell valign-top image-cell">
+										<img src="/media/14321/ota-ausbildung_schaubmair-christina_privat_4.jpg?anchor=center&amp;mode=crop&amp;width=720&amp;height=540&amp;rnd=134135621500000000" alt="OTA-Auszubildende Christina Schaubmair "/>
+									</div>
+								</div>
+							</div>
+							<div class="kuk-news-container">
+								<div class="kuk-news-table">
+									<div class="kuk-news-cell">
+										<div class="kuk-news-cell-text">
+												<div class="copyright">&copy; privat</div>
+																						<h2>OTA-Tagebuch: Christina startet in ihre Ausbildung</h2>
+										</div>
+									</div>
+								</div>
+							</div>
+
+					</a>
+					<a class="hover-info" href="/ausbildung/aktuelles/ota-tagebuch-christina-startet-in-ihre-ausbildung/" title="OTA-Tagebuch: Christina startet in ihre Ausbildung">
+							<span>27. J&#228;nner 2026</span>
+						<h2>OTA-Tagebuch: Christina startet in ihre Ausbildung</h2>
+						<p> Wir freuen uns, ein neues Format auf unserer Website vorzustellen: Christina Schaubmair, Schülerin der Schule für Gesundheits- und Krankenpflege am K...</p>
+						<span class="more"><em class="fa fa-angle-right" aria-hideen="true" tabindex="-1"></em></span>
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 tile kuk-news-result">
+					<a href="/kliniken-einrichtungen/infektiologie-und-tropenmedizin/aktuelles/rueckblick-2nd-surgical-grand-round-an-der-medizinischen-fakultaet-der-jku/" title="R&#252;ckblick: 2nd Surgical Grand Round an der Medizinischen Fakult&#228;t der JKU" class="preview">
+							<div class="kuk-news-container">
+								<div class="kuk-news-table">
+									<div class="kuk-news-cell valign-top image-cell">
+										<img src="/media/14365/dsc_1457.jpg?anchor=center&amp;mode=crop&amp;width=720&amp;height=540&amp;rnd=134139841880000000" alt="Vortragende bei der 2nd Grand Round an der Medizinischen Fakult&#228;t der JKU"/>
+									</div>
+								</div>
+							</div>
+							<div class="kuk-news-container">
+								<div class="kuk-news-table">
+									<div class="kuk-news-cell">
+										<div class="kuk-news-cell-text">
+												<div class="copyright">&copy; Franz Engelbrechtslehner</div>
+																						<h2>R&#252;ckblick: 2nd Surgical Grand Round an der Medizinischen Fakult&#228;t der JKU</h2>
+										</div>
+									</div>
+								</div>
+							</div>
+
+					</a>
+					<a class="hover-info" href="/kliniken-einrichtungen/infektiologie-und-tropenmedizin/aktuelles/rueckblick-2nd-surgical-grand-round-an-der-medizinischen-fakultaet-der-jku/" title="R&#252;ckblick: 2nd Surgical Grand Round an der Medizinischen Fakult&#228;t der JKU">
+							<span>27. J&#228;nner 2026</span>
+						<h2>R&#252;ckblick: 2nd Surgical Grand Round an der Medizinischen Fakult&#228;t der JKU</h2>
+						<p> Am 14. Jänner 2026 fand an der medizinischen Fakultät der Johannes-Kepler-Universität Linz die 2nd Surgical Grand Round statt. Im Mittelpunkt der Ver...</p>
+						<span class="more"><em class="fa fa-angle-right" aria-hideen="true" tabindex="-1"></em></span>
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 tile kuk-news-result">
+					<a href="/ausbildung/aktuelles/kuk-mal-rein-ein-tag-voller-impulse-und-echter-einblicke/" title="„KUK mal rein!“ – Ein Tag voller Impulse und echter Einblicke" class="preview">
+							<div class="kuk-news-container">
+								<div class="kuk-news-table">
+									<div class="kuk-news-cell valign-top image-cell">
+										<img src="/media/14328/infotag_24.jpg?anchor=center&amp;mode=crop&amp;width=720&amp;height=540&amp;rnd=134139116060000000" alt="Infotag der FH Gesundheitsberufe O&#214; und der Schule f&#252;r Gesundheits- und Krankenpflege am KUK"/>
+									</div>
+								</div>
+							</div>
+							<div class="kuk-news-container">
+								<div class="kuk-news-table">
+									<div class="kuk-news-cell">
+										<div class="kuk-news-cell-text">
+												<div class="copyright">&copy; KUK</div>
+																						<h2>„KUK mal rein!“ – Ein Tag voller Impulse und echter Einblicke</h2>
+										</div>
+									</div>
+								</div>
+							</div>
+
+					</a>
+					<a class="hover-info" href="/ausbildung/aktuelles/kuk-mal-rein-ein-tag-voller-impulse-und-echter-einblicke/" title="„KUK mal rein!“ – Ein Tag voller Impulse und echter Einblicke">
+							<span>26. J&#228;nner 2026</span>
+						<h2>„KUK mal rein!“ – Ein Tag voller Impulse und echter Einblicke</h2>
+						<p> Am vergangenen Freitag, den 23. Jänner, öffneten wir unter dem Motto „KUK mal rein!“ unsere Türen am Med Campus und Neuromed Campus. Gemeinsam mit de...</p>
+						<span class="more"><em class="fa fa-angle-right" aria-hideen="true" tabindex="-1"></em></span>
+					</a>
+				</div>
+
+		</div>
+		<div class="row more-link">
+			<div class="col-xs-12">
+				<a href="/über-uns/aktuelles/">> Mehr anzeigen</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+	<!-- Veranstaltungen -->
+<section id="veranstaltungen" class="container-fluid">
+    <div class="kuk-container">
+        <div class="row">
+            <a name="veranstaltungen"></a>
+            <h1>Veranstaltungen</h1>
+        </div>
+        <div class="row kuk-tiles pictures">
+                <div class="col-xs-12 col-sm-6 col-md-3 tile kuk-news-result">
+                    <a href="/kliniken-einrichtungen/gynaekologie-geburtshilfe-und-gyn-endokrinologie/veranstaltungen/re-fresh-fortbildung-gynaekologie-geburtshilfe-und-gynaekologische-endokrinologie/" title="„Re-Fresh“-Fortbildung: Gyn&#228;kologie, Geburtshilfe und Gyn. Endokrinologie" class="preview">
+		                        <div class="kuk-news-container">
+			                        <div class="kuk-news-table">
+				                        <div class="kuk-news-cell valign-top image-cell">
+					                        <img src="/media/9724/idee_gluehbirne_istock-1168611666.jpg?anchor=center&amp;mode=crop&amp;width=720&amp;height=540&amp;rnd=132869710140000000" alt="Gl&#252;hbirnen mit Beschriftung &quot;Training, Knowledge, Skills,..&quot;"/>
+				                        </div>
+			                        </div>
+		                        </div>
+		                        <div class="kuk-news-container">
+			                        <div class="kuk-news-table">
+				                        <div class="kuk-news-cell">
+					                        <div class="kuk-news-cell-text">
+							                        <div class="copyright">&copy; iStock.com / EtiAmmos</div>
+						                        							                        <span>
+								                        6. Feb 2026
+							                        </span>
+						                        <h2>„Re-Fresh“-Fortbildung: Gyn&#228;kologie, Geburtshilfe und Gyn. Endokrinologie</h2>
+					                        </div>
+				                        </div>
+			                        </div>
+		                        </div>
+
+                    </a>
+                    <a class="hover-info" href="/kliniken-einrichtungen/gynaekologie-geburtshilfe-und-gyn-endokrinologie/veranstaltungen/re-fresh-fortbildung-gynaekologie-geburtshilfe-und-gynaekologische-endokrinologie/" title="„Re-Fresh“-Fortbildung: Gyn&#228;kologie, Geburtshilfe und Gyn. Endokrinologie">
+                            <span>
+                                6. Feb 2026
+                            </span>
+                        <h2>„Re-Fresh“-Fortbildung: Gyn&#228;kologie, Geburtshilfe und Gyn. Endokrinologie</h2>
+                        <p> Am 06. und 07. Februar soll das Fach Gynäkologie, Geburtshilfe und Gynäkologische Endokrinologie praxisorientiert bzgl. Erneuerungen und Updates durc...</p>
+                        <span class="more"><em class="fa fa-angle-right" aria-hideen="true" tabindex="-1"></em></span>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 tile kuk-news-result">
+                    <a href="/ausbildung/veranstaltungen/winterschool-2026-teaching-modul-fuer-studierende/" title="Winterschool 2026 – Teaching Modul f&#252;r Studierende" class="preview">
+		                        <div class="kuk-news-container">
+			                        <div class="kuk-news-table">
+				                        <div class="kuk-news-cell valign-top image-cell">
+					                        <img src="/media/11988/imagefotos_jungaerzte_mc3_kuk_20230524_85.jpg?anchor=center&amp;mode=crop&amp;width=720&amp;height=540&amp;rnd=133476288410000000" alt="Jung&#228;rztinnen und Jung&#228;rzte"/>
+				                        </div>
+			                        </div>
+		                        </div>
+		                        <div class="kuk-news-container">
+			                        <div class="kuk-news-table">
+				                        <div class="kuk-news-cell">
+					                        <div class="kuk-news-cell-text">
+							                        <div class="copyright">&copy; KUK</div>
+						                        							                        <span>
+								                        11. Feb 2026
+									                        <em class="kuk-icon time fa-with-content fa-with-left-margin"></em>
+08.30-16.30									                        Uhr
+							                        </span>
+						                        <h2>Winterschool 2026 – Teaching Modul f&#252;r Studierende</h2>
+					                        </div>
+				                        </div>
+			                        </div>
+		                        </div>
+
+                    </a>
+                    <a class="hover-info" href="/ausbildung/veranstaltungen/winterschool-2026-teaching-modul-fuer-studierende/" title="Winterschool 2026 – Teaching Modul f&#252;r Studierende">
+                            <span>
+                                11. Feb 2026
+                                    <em class="kuk-icon time fa-with-content fa-with-left-margin" aria-hidden="true"></em>
+08.30-16.30                                    Uhr
+                            </span>
+                        <h2>Winterschool 2026 – Teaching Modul f&#252;r Studierende</h2>
+                        <p> Im Februar öffnet das Kepler Universitätsklinikum im Rahmen des Teaching Moduls "Winterschool" erneut seine Türen für interessierte Medizinstudierend...</p>
+                        <span class="more"><em class="fa fa-angle-right" aria-hideen="true" tabindex="-1"></em></span>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 tile kuk-news-result">
+                    <a href="/patienten-angehoerige/unterstuetzungsangebote/seelsorge/veranstaltungen/beisetzungsfeiern-2026/" title="Beisetzungsfeiern 2026" class="preview">
+		                        <div class="kuk-news-container">
+			                        <div class="kuk-news-table">
+				                        <div class="kuk-news-cell valign-top image-cell">
+					                        <img src="/media/8438/kerzen.jpg?anchor=center&amp;mode=crop&amp;width=720&amp;height=540&amp;rnd=132465530690000000" alt="Kerzen"/>
+				                        </div>
+			                        </div>
+		                        </div>
+		                        <div class="kuk-news-container">
+			                        <div class="kuk-news-table">
+				                        <div class="kuk-news-cell">
+					                        <div class="kuk-news-cell-text">
+							                        <div class="copyright">&copy; Pixabay</div>
+						                        							                        <span>
+								                        24. Feb 2026
+									                        <em class="kuk-icon time fa-with-content fa-with-left-margin"></em>
+14.00									                        Uhr
+							                        </span>
+						                        <h2>Beisetzungsfeiern 2026</h2>
+					                        </div>
+				                        </div>
+			                        </div>
+		                        </div>
+
+                    </a>
+                    <a class="hover-info" href="/patienten-angehoerige/unterstuetzungsangebote/seelsorge/veranstaltungen/beisetzungsfeiern-2026/" title="Beisetzungsfeiern 2026">
+                            <span>
+                                24. Feb 2026
+                                    <em class="kuk-icon time fa-with-content fa-with-left-margin" aria-hidden="true"></em>
+14.00                                    Uhr
+                            </span>
+                        <h2>Beisetzungsfeiern 2026</h2>
+                        <p> Liebe Mutter, lieber Vater! Wir bedauern zutiefst, dass aus der Freude auf Ihr Kind ein Erlebnis des Verlusts geworden ist. Die von Mitte August 2025...</p>
+                        <span class="more"><em class="fa fa-angle-right" aria-hideen="true" tabindex="-1"></em></span>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 tile kuk-news-result">
+                    <a href="/kliniken-einrichtungen/psychiatrie-mit-schwerpunkt-suchtmedizin/veranstaltungen/dual-disorders-wenn-sucht-und-weitere-psychische-erkrankungen-zusammentreffen/" title="Tagung: Dual Disorders - Wenn Sucht und weitere psychische Erkrankungen zusammentreffen" class="preview">
+		                        <div class="kuk-news-container">
+			                        <div class="kuk-news-table">
+				                        <div class="kuk-news-cell valign-top image-cell">
+					                        <img src="/media/13317/fa_ausbildung_kalender_istock-835070644.jpg?anchor=center&amp;mode=crop&amp;width=720&amp;height=540&amp;rnd=133855652530000000" alt="Kalender"/>
+				                        </div>
+			                        </div>
+		                        </div>
+		                        <div class="kuk-news-container">
+			                        <div class="kuk-news-table">
+				                        <div class="kuk-news-cell">
+					                        <div class="kuk-news-cell-text">
+							                        <div class="copyright">&copy; iStock.com / Kwun Kau Tam</div>
+						                        							                        <span>
+								                        26. Feb 2026
+									                        <em class="kuk-icon time fa-with-content fa-with-left-margin"></em>
+09.00-17.00									                        Uhr
+							                        </span>
+						                        <h2>Tagung: Dual Disorders - Wenn Sucht und weitere psychische Erkrankungen zusammentreffen</h2>
+					                        </div>
+				                        </div>
+			                        </div>
+		                        </div>
+
+                    </a>
+                    <a class="hover-info" href="/kliniken-einrichtungen/psychiatrie-mit-schwerpunkt-suchtmedizin/veranstaltungen/dual-disorders-wenn-sucht-und-weitere-psychische-erkrankungen-zusammentreffen/" title="Tagung: Dual Disorders - Wenn Sucht und weitere psychische Erkrankungen zusammentreffen">
+                            <span>
+                                26. Feb 2026
+                                    <em class="kuk-icon time fa-with-content fa-with-left-margin" aria-hidden="true"></em>
+09.00-17.00                                    Uhr
+                            </span>
+                        <h2>Tagung: Dual Disorders - Wenn Sucht und weitere psychische Erkrankungen zusammentreffen</h2>
+                        <p> Die Klinik für Psychiatrie mit Schwerpunkt Suchtmedizin lädt herzlich zur 1. Tagung "Dual Disorders" ein. Die Tagung wird von der pro mente OÖ in Koo...</p>
+                        <span class="more"><em class="fa fa-angle-right" aria-hideen="true" tabindex="-1"></em></span>
+                    </a>
+                </div>
+
+        </div>
+        <div class="row more-link">
+            <div class="col-xs-12">
+                <a href="/über-uns/veranstaltungen/">> Mehr anzeigen</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Ausbildungsangebot -->
+
+<!-- Video Slider -->
+    <section id="videos" class="kuk-video-slider-container container-fluid">
+        <div class="kuk-container">
+            <div class="row">
+                <a name="video-slider"></a>
+                <h1>Videos</h1>
+            </div>
+            <div class="row">
+
+<div id="kuk-video-slider" class="bxsliders">
+					<div class="slide">
+						<a class="img-link" href="javascript:void(0);" onclick="showHtml5VideoModal('/media/14325/tv_orf_30-jahre-kinderherz-zentrum_251229.mp4');" title="öffnet Video">
+							<img src="/media/14326/tv_orf_30-jahre-kinderherz-zentrum_251229.png?anchor=center&amp;mode=crop&amp;width=380&amp;height=214&amp;rnd=134138933150000000" alt="30 Jahre Kinderherz Zentrum"/>
+							<span class="fa fa-play-circle"></span>
+						</a>
+							<span class="quelle">26.01.2026, ORF</span>
+						<h2>30 Jahre Kinderherz Zentrum</h2>
+						<a href="javascript:void(0)" onclick="showHtml5VideoModal('/media/14325/tv_orf_30-jahre-kinderherz-zentrum_251229.mp4');" class="description" title="öffnet Video"><span class="fa fa-play"></span>4:19 min.</a>
+					</div>
+					<div class="slide">
+						<a class="img-link" href="javascript:void(0);" onclick="showHtml5VideoModal('/media/14296/yazdi_einblick_in-abteilung.mp4');" title="öffnet Video">
+							<img src="/media/14297/teaser_yazdi.jpg?center=0.38761776581426649,0.49044585987261147&amp;mode=crop&amp;width=380&amp;height=214&amp;rnd=134133829300000000" alt="Einblicke in die T&#228;tigkeit an der Klinik f&#252;r Psychiatrie mit Schwerpunkt Suchtmedizin"/>
+							<span class="fa fa-play-circle"></span>
+						</a>
+							<span class="quelle">20.01.2026</span>
+						<h2>Einblicke in die T&#228;tigkeit an der Klinik f&#252;r Psychiatrie mit Schwerpunkt Suchtmedizin</h2>
+						<a href="javascript:void(0)" onclick="showHtml5VideoModal('/media/14296/yazdi_einblick_in-abteilung.mp4');" class="description" title="öffnet Video"><span class="fa fa-play"></span>1:23 min.</a>
+					</div>
+				<div class="slide yt" data-yt-url="https://youtu.be/5B_I2Y84Xy4">
+					<a class="img-link" href="javascript:void(0);" onclick="showVideoModal('https://youtu.be/5B_I2Y84Xy4');" title="öffnet Video">
+							<img src="" class="yt-thumb" alt="Inside KUK: Reges Treiben unter der Erde"/>
+						<span class="fa fa-play-circle"></span>
+					</a>
+						<span class="quelle">11.12.2025, ORF</span>
+					<h2>Inside KUK: Reges Treiben unter der Erde</h2>
+					<a href="javascript:void(0)" onclick="showVideoModal('https://youtu.be/5B_I2Y84Xy4');" class="description" title="öffnet Video">
+						<span class="fa fa-play"></span><span class="yt-time">lade Videodauer ...</span>
+					</a>
+				</div>
+					<div class="slide">
+						<a class="img-link" href="javascript:void(0);" onclick="showHtml5VideoModal('/media/14256/tv_orf_neo_welt_fruehgeborenen_tag_ut_251117.mp4');" title="öffnet Video">
+							<img src="/media/14248/tv_orf_neo_welt_fruehgeborenen_tag_25111700_01_54_01standbild001.png?anchor=center&amp;mode=crop&amp;width=380&amp;height=214&amp;rnd=134091418360000000" alt="Welt-Fr&#252;hgeborenen-Tag 2025 im Kepler Universit&#228;tsklinikum"/>
+							<span class="fa fa-play-circle"></span>
+						</a>
+							<span class="quelle">02.12.2025, ORF</span>
+						<h2>Welt-Fr&#252;hgeborenen-Tag 2025 im Kepler Universit&#228;tsklinikum</h2>
+						<a href="javascript:void(0)" onclick="showHtml5VideoModal('/media/14256/tv_orf_neo_welt_fruehgeborenen_tag_ut_251117.mp4');" class="description" title="öffnet Video"><span class="fa fa-play"></span>3:25 min.</a>
+					</div>
+				<div class="slide yt" data-yt-url="https://youtu.be/timEqcz8sxA">
+					<a class="img-link" href="javascript:void(0);" onclick="showVideoModal('https://youtu.be/timEqcz8sxA');" title="öffnet Video">
+							<img src="" class="yt-thumb" alt="Welt-Fr&#252;hgeborenen-Tag 2025 im Kepler Universit&#228;tsklinikum"/>
+						<span class="fa fa-play-circle"></span>
+					</a>
+						<span class="quelle">17.11.2025, LT1</span>
+					<h2>Welt-Fr&#252;hgeborenen-Tag 2025 im Kepler Universit&#228;tsklinikum</h2>
+					<a href="javascript:void(0)" onclick="showVideoModal('https://youtu.be/timEqcz8sxA');" class="description" title="öffnet Video">
+						<span class="fa fa-play"></span><span class="yt-time">lade Videodauer ...</span>
+					</a>
+				</div>
+				<div class="slide yt" data-yt-url="https://youtu.be/vKynKnbDAzs">
+					<a class="img-link" href="javascript:void(0);" onclick="showVideoModal('https://youtu.be/vKynKnbDAzs');" title="öffnet Video">
+							<img src="" class="yt-thumb" alt="Neurologie am Kepler Universit&#228;tsklinikum"/>
+						<span class="fa fa-play-circle"></span>
+					</a>
+						<span class="quelle">12.11.2025</span>
+					<h2>Neurologie am Kepler Universit&#228;tsklinikum</h2>
+					<a href="javascript:void(0)" onclick="showVideoModal('https://youtu.be/vKynKnbDAzs');" class="description" title="öffnet Video">
+						<span class="fa fa-play"></span><span class="yt-time">lade Videodauer ...</span>
+					</a>
+				</div>
+				<div class="slide yt" data-yt-url="https://youtu.be/TarqelI3FrY">
+					<a class="img-link" href="javascript:void(0);" onclick="showVideoModal('https://youtu.be/TarqelI3FrY');" title="öffnet Video">
+							<img src="" class="yt-thumb" alt="Sporttherapie am Kepler Universit&#228;tsklinikum"/>
+						<span class="fa fa-play-circle"></span>
+					</a>
+						<span class="quelle">07.11.2025, LT1</span>
+					<h2>Sporttherapie am Kepler Universit&#228;tsklinikum</h2>
+					<a href="javascript:void(0)" onclick="showVideoModal('https://youtu.be/TarqelI3FrY');" class="description" title="öffnet Video">
+						<span class="fa fa-play"></span><span class="yt-time">lade Videodauer ...</span>
+					</a>
+				</div>
+				<div class="slide yt" data-yt-url="https://youtu.be/fIwcOUlgWm0">
+					<a class="img-link" href="javascript:void(0);" onclick="showVideoModal('https://youtu.be/fIwcOUlgWm0');" title="öffnet Video">
+							<img src="" class="yt-thumb" alt="1.150 Brustkrebs-F&#228;lle pro Jahr"/>
+						<span class="fa fa-play-circle"></span>
+					</a>
+						<span class="quelle">17.10.2025, LT1</span>
+					<h2>1.150 Brustkrebs-F&#228;lle pro Jahr</h2>
+					<a href="javascript:void(0)" onclick="showVideoModal('https://youtu.be/fIwcOUlgWm0');" class="description" title="öffnet Video">
+						<span class="fa fa-play"></span><span class="yt-time">lade Videodauer ...</span>
+					</a>
+				</div>
+				<div class="slide yt" data-yt-url="https://youtu.be/Ia_GtXOIDZM">
+					<a class="img-link" href="javascript:void(0);" onclick="showVideoModal('https://youtu.be/Ia_GtXOIDZM');" title="öffnet Video">
+							<img src="" class="yt-thumb" alt="Handy belastet Kinder-Psyche"/>
+						<span class="fa fa-play-circle"></span>
+					</a>
+						<span class="quelle">13.10.2025, LT1</span>
+					<h2>Handy belastet Kinder-Psyche</h2>
+					<a href="javascript:void(0)" onclick="showVideoModal('https://youtu.be/Ia_GtXOIDZM');" class="description" title="öffnet Video">
+						<span class="fa fa-play"></span><span class="yt-time">lade Videodauer ...</span>
+					</a>
+				</div>
+</div>
+<span id="video-slider-prev"></span>
+<span id="video-slider-next"></span></div>
+                <div class="row more-link">
+                    <div class="col-xs-12" style="padding-top: 10px;">
+                        <a href="/&#252;ber-uns/videos/">> Mehr anzeigen</a>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+	<aside class="sm-aside-container">
+	<ul>
+		<li><a href="https://www.facebook.com/kepleruniklinikum" target="_blank"><span class="fa fa-facebook"></span><span class="description">Facebook</span></a></li>
+		<li><a href="https://www.instagram.com/kepleruniklinikum/" target="_blank"><span class="fa fa-instagram"></span><span class="description">Instagram</span></a></li>
+		<li><a href="https://www.tiktok.com/@kepleruniklinikum" target="_blank"><span class="fa" style="padding: 0 !important"><img src="/img/TikTok.png" style="width: 50px; height: 50px;" alt="TikTok"/></span><span class="description">TikTok</span></a></li>
+		<li><a href="https://www.youtube.com/channel/UC78WqbBYYk8q-tYk5OPu69g" target="_blank"><span class="fa fa-youtube"></span><span class="description">Youtube</span></a></li>
+		<li><a href="https://www.linkedin.com/company/kepleruniklinikum/" target="_blank"><span class="fa fa-linkedin" aria-hidden="true"></span><span class="description">LinkedIn</span></a></li>
+	</ul>
+</aside>
+
+<aside class="notfall-aside-container">
+	<a class="js-link" onclick="showContentModal(this, 'pd-notfall');">
+		<img src="/img/icon-notfall.png" alt="Notfallnummern" />
+		<span>Notfall</span>
+	</a>
+</aside>
+
+	<div class="print-only" id="print-kontakt">
+	
+</div>
+
+<div style="display: none;" aria-hidden="true" id="pd-notfall">
+	<div class="push-close">
+		<div class="kuk-container"><a href="javascript:void(0)" class="js-link" title="Popup schließen"><span class="kuk-icon close-frame"></span></a></div>
+	</div>
+	<article class="kuk-container push-down-content" id="pd-notfall-container">
+		<div class="row">
+			<div class="col-xs-12">
+				<h1>Notruf- und Notfallnummern in Österreich</h1>
+			</div>
+			<div class="col-xs-12 col-sm-6">
+				<ul>
+<li><span>Rettung </span><a href="Tel:144">144</a></li>
+<li><span>Euronotruf </span><a href="Tel:112">112</a></li>
+<li><span>Feuerwehr </span><a href="Tel:122">122</a></li>
+<li><span>Polizei </span><a href="Tel:133">133</a></li>
+<li><span>Bergrettung </span><a href="Tel:140">140</a></li>
+<li><span>Hausärztlicher Notdienst </span><a href="Tel:141">141</a></li>
+<li><span>Gesundheitsberatung </span><a href="Tel:1450">1450</a></li>
+</ul>
+			</div>
+			<div class="col-xs-12 col-sm-6">
+				<ul>
+<li><span>Notruf für Gehörlose </span><a href="Tel:0800%20133 133">0800 133 133</a></li>
+<li><span>Frauenhelpline </span><a href="Tel:0800%20222 555">0800 222 555</a></li>
+<li><span>Frauennotruf </span><a href="Tel:01%2071 71 9">01 71 71 9</a></li>
+<li><span>Vergiftungsinformation </span><a href="Tel:01%20406 43 43">01 406 43 43</a></li>
+<li><span>Ärzteflugambulanz </span><a href="Tel:40%20144">40 144</a></li>
+<li><span>Telefonseelsorge </span><a href="Tel:142">142</a></li>
+<li><span>Zahnärztlicher Notdienst (Linz) </span><a href="Tel:0732%2078 58 77">0732 78 58 77</a></li>
+</ul>
+			</div>
+		</div>
+	</article>
+</div>
+
+<footer id="page-footer" class="container-fluid hidden-print">
+	<a name="footer"></a>
+	<div class="kuk-container">
+		<a class="js-link hidden-xs" id="up" onclick="scrollUp();" title="Aufwärts rollen"><img src="/Img/up.png" alt="Aufwärts rollen" /></a>
+		<div class="row kontakt">
+			
+			<div class="col-xs-12 col-md-9 social-media">
+				<a href="https://www.facebook.com/kepleruniklinikum" target="_blank" id="facebook-channel" title="Facebook"><em class="fa fa-facebook"></em></a>
+				<a href="https://www.instagram.com/kepleruniklinikum/" target="_blank" id="instagram-channel" title="Instagram"><em class="fa fa-instagram"></em></a>
+				<a href="https://www.tiktok.com/@kepleruniklinikum" target="_blank" id="tiktok-channel" title="TikTok" style="background-color: #000;"><img src="/img/TikTok.png" style="height: 92%; display: inline-block; vertical-align: top;" alt="TikTok"/></a>
+				<a href="https://www.youtube.com/channel/UC78WqbBYYk8q-tYk5OPu69g" target="_blank" id="youtube-channel" title="YouTube"><em class="fa fa-youtube"></em></a>
+				<a href="https://www.linkedin.com/company/kepleruniklinikum/" target="_blank" id="linkedin-channel" title="LinkedIn"><em class="fa fa-linkedin"></em></a>
+			</div>
+			<div class="col-xs-12 col-md-3 logo-ooe">
+				<div><img src="/img/Logo_oberoesterreich_RGB.png" alt="Standortmarke Oberösterreich"></div>
+			</div>
+		</div>
+	</div>
+	<div class="bottom">
+		<div class="kuk-container">
+			<div class="row">
+				<div class="col-xs-12 col-md-5">
+					&copy; 2026 Copyright Kepler Universitätsklinikum
+				</div>
+				<div class="col-xs-12 col-md-2 notfall">
+					<a class="js-link" onclick="showContentModal(this, 'pd-notfall');" title="Notfall">Notfall</a>
+				</div>
+				<div class="col-xs-12 col-md-5 meta">
+					<nav>
+						<ul>
+							<li><a href="/agb/">AGB</a></li>
+							<li><a href="/datenschutz/">Datenschutz</a></li>
+							<li><a href="/impressum/">Impressum</a></li>
+							<li><a href="/barrierefreiheit/">Barrierefreiheit</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+</div>
+
+<!-- modal large container -->
+<div class="modal fade kuk-modal" tabindex="-1" role="dialog" id="kuk-modal-large">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content" id="kuk-modal-large-content">
+			CONTENT
+		</div>
+	</div>
+</div>
+<div class="modal fade kuk-modal" tabindex="-1" role="dialog" id="kuk-modal-md">
+	<div class="modal-dialog modal-md">
+		<div class="modal-content" id="kuk-modal-md-content">
+			CONTENT
+		</div>
+	</div>
+</div>
+<div class="modal fade kuk-modal" tabindex="-1" role="dialog" id="kuk-modal-video">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content" id="kuk-modal-large-video" style="padding: 10px 10px 4px 10px;">
+			<div id="youtube-dsgvo-popup" class='youtube-dsgvo' data-youtube="modal-yt" data-youtubeurl="initial"></div>
+			<script id="modal-yt" type="text/template">
+				<iframe class="video-containers"
+			        id="youtubevideo"
+					src=''
+			        frameborder="0"
+			        allowfullscreen="0"
+			        title="YouTube video player"
+			        width="100%"
+			        height="242"></iframe>				
+				</script>
+		</div>
+	</div>
+</div>
+<div class="modal fade kuk-modal" tabindex="-1" role="dialog" id="kuk-modal-html5video">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content" id="kuk-modal-large-html5video" style="padding: 10px 10px 4px 10px;">
+			<video width="100%" controls controlsList="nodownload" source="" id="kuk-modal-html5video-player" type="video/mp4">
+				Ihr Browser unterstützt leider keine HTML5 videos.
+			</video>
+		</div>
+	</div>
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!--[if lt IE 9]>
+	<script src="/Scripts/jquery-1.12.0.min.js"></script>
+<![endif]-->
+<!--[if gte IE 9 | !IE ]><!-->
+<script src="/Scripts/jquery-2.1.4.min.js"></script>
+<![endif]-->
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+
+<script src="/Scripts/Kuk-Combined.min.js?v=6.0"></script>
+<script>
+	$(document).ready(function()
+	{
+		KukPage.init();
+	});
+</script>
+<link href="/Css/kuk-cookie-banner.css" rel="stylesheet">
+
+    <script src="/Scripts/select2.min.js"></script>
+    <script src="/Scripts/Kuk-Homepage.min.js"></script>
+    <script>
+		$(document).ready(function () {
+			setBodyClass('home');
+			KukHomepage.init();
+				setVideoSliderYtData($("#kuk-video-slider"));
+		});
+    </script>
+
+</body>
+</html>

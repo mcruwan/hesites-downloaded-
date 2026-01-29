@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="lv">
+<head>
+
+	<title>Ventspils Augstskola </title>
+	<base href="https://vea.venta.lv/" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+	<script type="text/javascript" src="https://vea.venta.lv/js/lib_main.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://vea.venta.lv/css/vea.css" media="all" />
+<script type="text/javascript">
+	function initPage() { if ( document.getElementById('username') ) { document.getElementById('username').focus(); } }
+</script>
+</head>
+<body>
+
+<div id="header"><a id="top" class="anchor"></a>
+<div id="header-container">
+
+<table class="lt" id="header-info">
+<tr>
+	<td class="header-info-logo"><h1><a href="" title="Uz ziņojuma dēļa sākumlapu"><img src="https://vea.venta.lv/img/new/vea2.png" alt="" /></a></h1></td>
+	<td>&nbsp;</td>
+	</tr>
+</table><!--.lt-->
+
+</div>
+</div>
+
+<!-- Cookie consent -->
+<div id="cookieConsent" style="position: fixed; bottom: 10px; right: 10px; width: 300px; height: 100px; padding: 20px; background-color: #f1f1f1; border-radius: 5px; border: 1px solid #dbdbdb; font-size: 16px; display: none;">
+    Šajā vietnē izmanto sīkdatnes, lai nodrošinatu Jūsu pieprasīto pakalpojumu darbību.
+    <a href="#" onclick="acceptCookies();" style="display: block; background-color: #63bb00; color: #ffffff; text-decoration: none; text-align: center; padding: 10px; border-radius: 5px;">Sapratu</a>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+    function setCookie(cname, cvalue, exdays) {
+        var d = new Date();
+        d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+        var expires = "expires="+d.toUTCString();
+        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+
+    function getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for(var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+
+    function acceptCookies() {
+        setCookie("cookieConsent", "1", 365);
+        $("#cookieConsent").fadeOut();
+    }
+
+    $(document).ready(function () {
+        var consent = getCookie("cookieConsent");
+        if (consent === "") {
+            $("#cookieConsent").fadeIn();
+        }
+    });
+</script>
+<div id="container">
+
+<div id="content">
+
+
+<table class="cols"><tr>
+
+
+<td class="col_1">
+<h2 class="section-title">Lietotāja pieteikšanās</h2>
+
+<p>Ja ZD lietošanā saskarieties ar kādām problēmām, lūdzu, ziņojiet
+ITML daļai. Paldies!</p>
+
+
+<form method="post" action="Vea/login/">
+<input type="hidden" id="form" name="form" value="login"  />
+<input type="hidden" id="address" name="address" value=""  />
+<div class="form">
+<p class="label"><label for="username">Lietotājvārds:</label></p>
+<p class="input"><input type="text" name="username" id="username" value=""  /></p>
+<p class="label"><label for="password">Parole:</label></p>
+<p class="input"><input type="password" name="password" id="password" value=""  /></p>
+<p class="submit"><input type="submit" value="Pieteikties &raquo;"  /></p>
+</div><!--.form-->
+</form>
+
+</td><!--.col_1-->
+
+<td class="col_4">
+<h3>Informācija</h3>
+<p>Šī ir lapa, lai auterizētos darbam ar Ventspils Augstskolas Ziņojumu dēli.
+Lai pieteiktos, izmantojiet savu VeA ITML daļas pieškirto lietotājvārdu un paroli.</p>
+
+<p>VeA IT palīdzības dienests atrodas VeA C korpusā, 102. kabinetā. </p>
+
+<p>Iekšējais telefona numurs: 121.</p>
+
+<p>Ventspils Augstskolas oficiālā mājaslapa pieejama pēc adreses 
+<a href="http://www.venta.lv/">www.venta.lv</a>.</p>
+
+
+</td><!--.col_4-->
+
+</tr></table><!--.cols-->
+
+</div><!--#content-->
+</div><!--#container-->
+<div id="footer">
+<div id="footer-container">
+	&copy;&nbsp;Ventspils Augstskola 2005 - 2026</div><!--#footer-container-->
+</div><!--#footer--></body>
+</html>

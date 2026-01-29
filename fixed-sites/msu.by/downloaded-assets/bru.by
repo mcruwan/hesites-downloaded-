@@ -1,0 +1,741 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, ya-title=fade, ya-dock=fade; user-scalable=yes,maximum-scale=2.0;minimum-scale=0.5" />
+    <meta name="description" />
+    <meta name="keywords" />
+    <meta name="robots" content="all" />
+
+    <title>Белорусско-Российский университет</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160" />
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+    <meta name="msapplication-TileColor" content="#64cdff" />
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png" />
+
+    <meta name="majestic-site-verification" content="MJ12_d218f28b-2d6f-4ab6-a45d-35bd6125d8f8" />
+
+    <meta content="568933246576836" property="fb:pages" />
+
+    <meta content="rJLrnbJXTVeBsLdU3nninwifAl-ttEOMmnO9cKevlf4" name="google-site-verification" />
+    <meta content="479dddfccda73fbe" name="yandex-verification" />
+
+    <link href="/bundles/common.css?v=WaqRumj-Tzrz90fddtKV5vuIqUdbvZWrG7zVNdHM1kE1" rel="stylesheet"/>
+<link href="/bundles/common/views.css?v=ZtmlefibydlM9L1G9iVhJWDEoT9_NZ-cCX1h9JUz_WM1" rel="stylesheet"/>
+
+
+    
+</head>
+<body>
+    <!--[if lt IE 9]>
+        <script src="/scripts/system/html5shiv.js" type="text/javascript"></script>
+        <script src="/scripts/system/respond.min.js" type="text/javascript"></script>
+    <![endif]-->
+
+    
+
+
+<div class="wrapper" id="home-index-view">
+    
+
+
+<div id="visibility-change-panel">
+    <div class="main-wrapper">
+        <div class="column size-column">
+            <h3>Размер шрифта</h3>
+            <i><span>A</span><span>A</span></i>
+            <div class="slider" id="size-slider">
+                <div></div>
+            </div>
+        </div>
+        <div class="column spacing-column">
+            <h3>Интервал</h3>
+            <i><span>A</span><span>A</span><div></div></i>
+            <div class="slider" id="spacing-slider">
+                <div></div>
+            </div>
+        </div>
+        <div class="column palette-column">
+            <h3>Палитра цветов</h3>
+            <button type="button" id="white-black">A</button>
+            <button type="button" id="black-white">A</button>
+            <button type="button" id="blue-blue">A</button>
+            <button type="button" id="beige-black">A</button>
+            <button type="button" id="brown-green">A</button>
+        </div>
+        <div class="column images-column">
+            <h3>Изображения</h3>
+            <button type="button" id="with-images"><i class="fa fa-picture-o" aria-hidden="true"></i></button>
+            <button type="button" id="without-images"><i class="fa fa-picture-o" aria-hidden="true"></i></button>
+        </div>
+        <div class="column toggle-column">
+            <button type="button" id="hide-visibility-toggler">Скрыть панель<i class="fa fa-times" aria-hidden="true"></i></button>
+            <button type="button" id="default-visibility"><i class="fa fa-eye" aria-hidden="true"></i>Обычная версия сайта</button>
+        </div>
+
+    </div>
+</div>
+
+<div class="header">
+    <div class="main-wrapper fixed-container main-container">
+        <div class="left-side">
+            <div class="logo">
+                <div class="logo-text">Белорусско-Российский университет</div>
+                <img src="http://cdn.bru.by/cache/images/design/herb4.png" alt="Белорусско-Российский университет" />
+            </div>
+
+<div class="header-left-menu">
+     <ul>
+         <!--li><a href="#">Приемная комиссия</a></li>
+         <li><a href="#">Конференции 2017</a></li>
+         <li><a href="#">Поступление российских граждан</a></li>
+         <li><a href="#">Результаты тестирования</a></li>
+         <li><a href="#">Прием заявок на аспирантуру и магистратуру</a></li>
+         <li><a href="#">План проведения вступительных экзаменов</a></li>
+         <li><a href="#">Стоимость обучения в 2017-2018 году</a></li>
+         <li><a href="#">Одно окно</a></li-->
+         <li><a href="/content/importanttoday/feedback">Отзывы о нас</a></li>
+         <li>
+                <a href="/news/post/36497" data-route="news" data-id="36497" itemprop="name">
+                   Свидетельство о государственной регистрации юридического лица
+                </a>
+         </li>
+         <li>
+                <a href="/content/importanttoday/rector" itemprop="name">Обращение ректора</a>
+         </li>
+         <li>
+                <a href="/content/importanttoday/associations">
+                   Ассоциации
+                </a>
+         </li>
+         <li>
+                <a href="https://www.pac.by/about/scientific-activity/edinyy-den-informirovaniya/">
+                   Материалы единых дней информирования
+                </a>
+         </li>
+         <li>
+                <a href="/content/importanttoday/150years">
+                   105-лет органам государственного управления системой образования Республики Беларусь
+                </a>
+         </li>
+         <li>
+                <a href="/content/importanttoday/yearofnationalunity">
+                   Год благоустройства
+                </a>
+         </li>
+         <li>
+                <a href="/content/importanttoday/may9">
+                  80 лет Великой Победы!
+                </a>
+         </li>
+         <li>
+                <a href="/content/importanttoday/rating">
+                  Рейтинги
+                </a>
+         </li>
+        <!-- li class="active"><a href="#">Важное на сегодня</a></li -->
+      </ul>
+</div>
+        </div>
+
+        <div class="menu-container right-side">
+            
+<form class="top-menu top-menu-left" action="/search" method="get">
+    <ul>
+        <div class="logo-320px"><img src="http://cdn.bru.by/cache/images/design/logo320.jpg" /></div>
+            <li class="lang-link">
+                <a href="http://bru.by/" class="lang active">rus</a>
+            </li>
+            <li class="lang-link">
+                <a href="http://en.bru.by/" class="lang">eng</a>
+            </li>
+
+        <li class="eye-block" itemprop="copy">
+            <a href="#" class="visibility-link" id="btn-visuallyimpairedmodal" style="padding-right: 0" title="Для людей с ограниченными возможностями"><i class="fa fa-eye"></i></a>
+        </li>
+
+        <li class="input-group pull-right header-search" id="header-search">
+            <div class="fake-background"></div>
+            <input type="hidden" name="searchid" value="2252885" />
+            <input type="hidden" name="web" value="0" />
+            <i class="fa fa-search"></i>
+            <input type="search" id="text" name="text" placeholder="Поиск ..." autocomplete="off" required>
+            <button><i class="fa fa-search"></i></button>
+        </li>
+    </ul>
+</form>
+
+            
+
+
+<ul class="top-menu top-menu-right">
+        <li>
+            <a title='Абитуриенту' href='/content/abiturient'>Абитуриенту</a>
+        </li>
+        <li>
+            <a title='Студенту' href='/content/student/'>Студенту</a>
+        </li>
+        <li>
+            <a title='Партнерам' href='/content/partner'>Партнерам</a>
+        </li>
+        <li>
+            <a title='Работодателям' href='/content/jobs'>Работодателям</a>
+        </li>
+</ul>
+
+
+            
+
+
+<div class="main-menu" id="bs-example-navbar-collapse-1">
+    <button type="button" class="navbar-toggle">
+        <span class="toggler-title">Меню</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <div class="main-menu-lists">
+        <ul class="main-menu-list">
+                    <li class='dd '>
+                        <a class='dd-toggle' data-toggle='dd' href='#'>Университет<b class='caret'></b></a>
+                        <ul class='dd-menu'>
+
+                                <li class=''>
+                                    <a title='История университета' href='/content/university/history'>История университета</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Университет сегодня' href='/content/university/universitytoday'>Университет сегодня</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Ректорат' href='/content/university/rektorat'>Ректорат</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Система менеджмента качества' href='/content/university/qms'>Система менеджмента качества</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Структура университета' href='/content/university/structure'>Структура университета</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Нормативные документы' href='/content/university/normativedocs'>Нормативные документы</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Схема корпусов' href='/content/university/sheme'>Схема корпусов</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Одно окно' href='/content/university/onewindow'>Одно окно</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Международная деятельность' href='/content/departments/internationaldepartment'>Международная деятельность</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Сведения об образовательной организации' href='/content/university/formalities'>Сведения об образовательной организации</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Противодействие коррупции' href='/content/university/onewindow/corruption'>Противодействие коррупции</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Ученый совет университета' href='/content/university/universitycouncil'>Ученый совет университета</a>
+                                </li>
+                        </ul>
+                    </li>
+                    <li class='dd '>
+                        <a class='dd-toggle' data-toggle='dd' href='#'>Образование<b class='caret'></b></a>
+                        <ul class='dd-menu'>
+
+                                <li class=''>
+                                    <a title='Среднее образование' href='/content/education/secondaryeducation'>Среднее образование</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Среднее специальное образование' href='/content/education/secondspecialeducation'>Среднее специальное образование</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Магистратура' href='/content/education/magistracy'>Магистратура</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Высшее образование' href='/content/education/educationalprograms'>Высшее образование</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Дополнительное образование взрослых' href='/content/education/adulteducation'>Дополнительное образование взрослых</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Аспирантура' href='/content/education/traineeship'>Аспирантура</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Докторантура' href='/content/education/doctorate'>Докторантура</a>
+                                </li>
+                        </ul>
+                    </li>
+                    <li class='dd '>
+                        <a class='dd-toggle' data-toggle='dd' href='#'>Наука<b class='caret'></b></a>
+                        <ul class='dd-menu'>
+
+                                <li class=''>
+                                    <a title='Научно-исследовательская деятельность' href='/content/science/researchactivities'>Научно-исследовательская деятельность</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Экспериментальная и инновационная деятельность' href='/content/science/experimentalactivities'>Экспериментальная и инновационная деятельность</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Центр трансфера технологий (ЦТТ)' href='/content/partner/technologycenter'>Центр трансфера технологий (ЦТТ)</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Советы по защите' href='/content/science/securitytips'>Советы по защите</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Вестник Белорусско-Российского университета' href='/content/science/bulletin'>Вестник Белорусско-Российского университета</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Технологический кластер' href='/content/importanttoday/associations'>Технологический кластер</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Конференции' href='/content/science/conferences'>Конференции</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Нормативные документы' href='/content/science/normativedocs'>Нормативные документы</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Могилевский Фестиваль науки' href='/content/science/sciencefestival'>Могилевский Фестиваль науки</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Выставки' href='/content/science/exposition'>Выставки</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Публикации' href='/content/science/publications'>Публикации</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Студенческая наука и предпринимательство' href='/content/science/studentscience'>Студенческая наука и предпринимательство</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Государственная регистрация НИОК(Т)Р в ГУ &#171;БелИСА&#187; ' href='/content/science/stateregistration'>Государственная регистрация НИОК(Т)Р в ГУ &#171;БелИСА&#187; </a>
+                                </li>
+                                <li class=''>
+                                    <a title='Совет молодых ученых' href='/content/science/youngscientists'>Совет молодых ученых</a>
+                                </li>
+                        </ul>
+                    </li>
+                    <li class=''>
+                        <a title='Новости' href='/news'>Новости</a>
+                    </li>
+                    <li class=''>
+                        <a title='Контакты' href='/content/contacts'>Контакты</a>
+                    </li>
+                    <li class='dd '>
+                        <a class='dd-toggle' data-toggle='dd' href='#'>Ресурсы<b class='caret'></b></a>
+                        <ul class='dd-menu'>
+
+                                <li class=''>
+                                    <a title='Библиографические указатели' href='//e.biblio.bru.by/handle/1212121212/11155'>Библиографические указатели</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Электронная библиотека' href='//e.biblio.bru.by/'>Электронная библиотека</a>
+                                </li>
+                                <li class=''>
+                                    <a title='Электронный образовательный ресурс' href='//cdo.bru.by/'>Электронный образовательный ресурс</a>
+                                </li>
+                        </ul>
+                    </li>
+        </ul>
+        <ul class="main-menu-list right">
+                <li class="signin-item">
+                    <a href='#signin' class="auth-button">Войти</a>
+                </li>
+                <li class="signin-item mobile">
+                    <a href='#signin' class="auth-button"><i class="fa fa-sign-in" aria-hidden="true"></i></a>
+                </li>
+        </ul>
+    </div>
+</div>
+
+
+            <div id="slideshow-container"></div>
+        </div>
+    </div>
+</div>
+
+
+    <div class="main-wrapper clearfix">
+<div class="tile-container fixed-container">
+    <div class="tile-row">
+            <div class="tile clearfix">
+                <a class="category" href="/newsline/Events">СОБЫТИЯ</a>
+                <a href="/news/post/70389" data-route="news" data-id="70389" itemprop="name">
+                    <img class="inner-img" src="http://cdn.bru.by/cache/news/2026/january/0127/tile_20260128_2.png" alt="Стартовала Спартакиада &#171;Бодрость и здоровье – 2026&#187;: первые победы в дартсе" />
+                </a>
+
+                <a href="/news/post/70389" data-route="news" data-id="70389" itemprop="name" class="details">
+                    <div class="summary">
+                        <p>Стартовала Спартакиада «Бодрость и здоровье – 2026»: первые победы в дартсе</p>
+...
+                    </div>
+                </a>
+            </div>
+            <div class="tile clearfix">
+                <a class="category" href="/newsline/Abiturient">АБИТУРИЕНТАМ</a>
+                <a href="/news/post/70387" data-route="news" data-id="70387" itemprop="name">
+                    <img class="inner-img" src="http://cdn.bru.by/cache/news/2025/january/2901/t4.jpg" alt="РЕЗУЛЬТАТЫ ПРЕДВАРИТЕЛЬНОГО ЭТАПА ОЛИМПИАДЫ БЕЛОРУССКО-РОССИЙСКОГО УНИВЕРСИТЕТА ПО МАТЕМАТИКЕ" />
+                </a>
+
+                <a href="/news/post/70387" data-route="news" data-id="70387" itemprop="name" class="details">
+                    <div class="summary">
+                        <p>РЕЗУЛЬТАТЫ ПРЕДВАРИТЕЛЬНОГО ЭТАПА ОЛИМПИАДЫ БРУ ПО МАТЕМАТИКЕ</p>
+...
+                    </div>
+                </a>
+            </div>
+            <div class="tile clearfix">
+                <a class="category" href="/newsline/Student">СТУДЕНТАМ</a>
+                <a href="/news/post/70390" data-route="news" data-id="70390" itemprop="name">
+                    <img class="inner-img" src="http://cdn.bru.by/cache/news/2026/january/0127/tile_20260127_3.png" alt="Профориентационная встреча в г. Круглое: школьники познакомились с возможностями Белорусско-Российского университета" />
+                </a>
+
+                <a href="/news/post/70390" data-route="news" data-id="70390" itemprop="name" class="details">
+                    <div class="summary">
+                        <p>На базе средней школы №1 г. Круглое состоялась профориентационная встреча учащихся УОСО с представителями Белорусско-Российского университета.</p>
+...
+                    </div>
+                </a>
+            </div>
+            <div class="tile clearfix">
+                <a class="category" href="/newsline/Science">НАУКА</a>
+                <a href="/news/post/70379" data-route="news" data-id="70379" itemprop="name">
+                    <img class="inner-img" src="http://cdn.bru.by/cache/news/2026/january/0121/tile_20260121_4.png" alt="Результаты научной деятельности профессорско-преподавательского состава Белорусско-Российского университета в 2025 году" />
+                </a>
+
+                <a href="/news/post/70379" data-route="news" data-id="70379" itemprop="name" class="details">
+                    <div class="summary">
+                        <p>В Белорусско-Российском университете подведены итоги работы профессорско-преподавательского состава (включая заведующих кафедр и внутренних совместителей) за 2025 год</p>
+...
+                    </div>
+                </a>
+            </div>
+            <div class="tile clearfix">
+                <a class="category" href="/newsline/Congratulations">ПОЗДРАВЛЕНИЯ</a>
+                <a href="/news/post/70383" data-route="news" data-id="70383" itemprop="name">
+                    <img class="inner-img" src="http://cdn.bru.by/cache/news/2026/january/0123/tile_20260123_1.png" alt="Торжественная церемония во Дворце Независимости: признание заслуг ученых страны" />
+                </a>
+
+                <a href="/news/post/70383" data-route="news" data-id="70383" itemprop="name" class="details">
+                    <div class="summary">
+                        <p>22 января 2026 года во Дворце Независимости состоялась торжественная церемония вручения дипломов доктора наук и аттестатов профессора научным и научно‑педагогическим работникам Республики Беларусь</p>
+...
+                    </div>
+                </a>
+            </div>
+            <div class="tile clearfix">
+                <a class="category" href="/newsline/Announcement">АНОНС</a>
+                <a href="/news/post/70345" data-route="news" data-id="70345" itemprop="name">
+                    <img class="inner-img" src="http://cdn.bru.by/cache/news/2024/october/2310/tile_2.png" alt="График II-го этапа репетиционного тестирования в Белорусско-Российском университете (г. Могилев)" />
+                </a>
+
+                <a href="/news/post/70345" data-route="news" data-id="70345" itemprop="name" class="details">
+                    <div class="summary">
+                        <p>График II-го этапа репетиционного тестирования в Белорусско-Российском университете (г. Могилев)</p>
+...
+                    </div>
+                </a>
+            </div>
+            <div class="tile clearfix">
+                <a class="category" href="/newsline/Student">СТУДЕНТАМ</a>
+                <a href="/news/post/70388" data-route="news" data-id="70388" itemprop="name">
+                    <img class="inner-img" src="http://cdn.bru.by/cache/news/2026/january/0127/tile_20260127_1.png" alt="Бойцы СК &#171;Хантер&#187; завоевали медали на &#171;Кубке Золотого Льва&#187; в Могилеве" />
+                </a>
+
+                <a href="/news/post/70388" data-route="news" data-id="70388" itemprop="name" class="details">
+                    <div class="summary">
+                        <p>Бойцы СК «Хантер» завоевали медали на «Кубке Золотого Льва» в Могилеве</p>
+...
+                    </div>
+                </a>
+            </div>
+            <div class="tile clearfix">
+                <a class="category" href="/newsline/Abiturient">АБИТУРИЕНТАМ</a>
+                <a href="/news/post/70385" data-route="news" data-id="70385" itemprop="name">
+                    <img class="inner-img" src="http://cdn.bru.by/cache/news/2025/january/2101/t1.jpg" alt="Внимание зарегистрировавшимся на олимпиаду БРУ по математике! " />
+                </a>
+
+                <a href="/news/post/70385" data-route="news" data-id="70385" itemprop="name" class="details">
+                    <div class="summary">
+                        <p>Организационный комитет олимпиады Белорусско-Российского университета по математике просит проверить электронную почту, в том числе папку “спам”</p>
+...
+                    </div>
+                </a>
+            </div>
+            <div class="tile clearfix">
+                <a class="category" href="/newsline/Events">СОБЫТИЯ</a>
+                <a href="/news/post/70380" data-route="news" data-id="70380" itemprop="name">
+                    <img class="inner-img" src="http://cdn.bru.by/cache/news/2026/january/0122/tile_20260122_1.png" alt="Лицей БРУ им. Л.Е. Маневича признан лучшим в Могилевской области" />
+                </a>
+
+                <a href="/news/post/70380" data-route="news" data-id="70380" itemprop="name" class="details">
+                    <div class="summary">
+                        <p>Лицей БРУ имени Л. Е. Маневича получил звание лучшего учебного заведения Могилёвской области</p>
+...
+                    </div>
+                </a>
+            </div>
+    </div>
+
+    <a class="tile-button" href="/newsline/AllNews">
+        Читать все новости
+    </a>
+</div>
+
+
+    </div>
+
+    <div class="main-wrapper hidden-print">
+        <div class="appendix clearfix row fixed-container">
+            <div class="appendix-block">
+                   <div class="col-md-2">
+                <a href="http://president.gov.by">
+                    Официальный интернет портал Президента Республики Беларусь
+                    <span class="link">president.gov.by</span>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="http://edu.gov.by">
+                    Министерство образования Республики Беларусь
+                    <span class="link">edu.gov.by</span>
+                </a>
+            </div>
+
+            <div class="col-md-2">
+                <a href="https://minobrnauki.gov.ru/">
+                    Министерство науки и высшего образования Российской Федерации
+                    <span class="link">минобрнауки.рф</span>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="http://mogilev-region.gov.by/">
+                    Могилевский областной исполнительный комитет
+                    <span class="link">mogilev-region.gov.by</span>
+                </a>
+            </div>
+
+            <div class="col-md-2 partner-slider">
+                <div id="slideshow-logo-container"></div>
+            </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+<footer class="row footer hidden-print">
+    <div class="main-wrapper">
+        <div class="col-md-2 f-copyright  mobile">
+            <b>&copy; Белорусско-Российский университет, 2001-2026</b>
+            <br />
+            <b> v6.125.2506.17</b>
+            <br>
+            <a href="/content/contacts">Контактная информация</a>
+            <br>
+            <a href="/help">Написать администратору</a>
+            <a href="/content/electronicappeal">Электронные обращения</a>
+            <a href="/content/developers" class="designer-link">Разработчики</a>
+            <br />
+            <br />
+            <a href="https://ms10.g-cloud.by/">Почта</a>
+
+        </div>
+        <div class="col-md-2 mobile">
+            <a href="/content/university" class="title">Университет</a>
+            <a href="/content/university/history">История университета</a>
+            <a href="/content/university/universitytoday">Университет сегодня</a>
+            <a href="/content/university/rektorat">Ректорат</a>
+            <a href="/content/university/qms">Система менеджмента качества</a>
+            <a href="/content/university/structure">Структура университета</a>
+            <a href="/content/university/normativedocs">Нормативные документы</a>
+            <a href="/content/university/sheme">Схема корпусов</a>
+            <a href="/content/university/onewindow">Одно окно</a>
+            <a href="/content/departments/internationaldepartment">Международная деятельность</a>
+            <a href="/content/university/belayarus">Белая Русь</a>
+            <a href="/content/university/tradeunion">Профсоюзный комитет</a>
+        </div>
+        <div class="col-md-2 mobile">
+            <a href="/content/student" class="title">Студентам</a>
+            <a href="/content/student/timetable">Расписание занятий и экзаменов</a>
+            <a href="/content/student/timebyday">Расписание звонков</a>
+            <a href="/content/student/stipendy">Размеры стипендий</a>
+            <a href="/content/student/trainingcost">Стоимость обучения</a>
+            <a href="/content/student/council">Студенческий совет университета</a>
+<a href="http://cdo.bru.by/ext/campus/index.php" target="_blank">Виртуальный кампус (студентам РФ)</a>
+<a href="http://cdo.bru.by" target="_blank">Информационно-образовательный сайт ЦДО</a>
+            <a href="/content/student/educationalwork">Идеологическая и воспитательная работа</a>
+            <a href="/content/student/educationalwork/tradeunion">Профсоюзный комитет студентов</a>
+            <a href="/content/student/educationalwork/brsm" >Белорусский республиканский союз молодежи</a>
+            <a href="/content/partner" class="title">Услуги</a>
+            <a href="/content/partner/certificationcenter">Центр сертификации и аккредитации</a>
+            <a href="/content/partner/technologycenter">Центр трансфера технологий</a>
+            <a href="http://ipk.mogilev.by/" target = "_blank" >Институт повышения квалификации и переподготовки кадров</a>
+        </div>
+        <div class="col-md-2 mobile">
+            <a href="/content/university/structure" class="title">Факультеты</a>
+            <a href="/content/faculties/automotive">Автомеханический факультет</a>
+            <a href="/content/faculties/zaochny">Инженерный факультет заочного образования</a>
+            <a href="/content/faculties/mechanical">Машиностроительный факультет</a>
+            <a href="/content/faculties/building">Строительный факультет</a>
+            <a href="/content/faculties/economics">Факультет управления и инноваций</a>
+            <a href="/content/faculties/electrical">Электротехнический факультет</a>
+            <a href="/content/departments/trainingcourses">Подготовительные курсы</a>
+            <br>
+            <a href="#" target="_blank" class="title">Ресурсы</a>
+            <a href="http://biblio.bru.by/" target="_blank">Библиотека</a>
+<a href="http://moodle.bru.by/" target="_blank">Образовательный портал</a>
+        </div>
+        <div class="col-md-2 mobile">
+            <a href="/content/abiturient" class="title">Абитуриент 2026</a>
+            <a href="/content/faculties">Моя специальность</a>
+            <a href="/content/abiturient/how">Приемная кампания - 2026</a>
+            <a href="/content/abiturient/dates">Сроки проведения приемной кампании</a>
+            <a href="/content/abiturient/foreignabiturient">Иностранному абитуриенту</a>
+            <a href="http://rct.bru.by/rctbru.php">Региональный центр тестирования</a>
+            <a href="/content/abiturient/contacts">Контакты приемной комиссии</a>
+            <a href="http://o.bru.by/">Олимпиада</a>
+           <br />
+            <a href="#" target="_blank" class="title">К сведению</a> 
+           <a href="/content/contacts/press">Пресса</a> 
+            <a href="http://biblio.bru.by/archives/category/press" target="_blank">СМИ о нас</a>
+            <a href="https://t.me/Bru_Live" target="_blank">Мы в Telegram</a>
+           <a href="https://vk.com/official_public_bru" target="_blank">Мы ВКонтакте</a>
+           <a href="https://www.facebook.com/belrus.by/?fref=ts&rf=167329036626422" target="_blank">Мы в Facebook</a>
+           <a href="http://planet.bru.by/" target="_blank">Мы в Planet<sup>bru.by</sup></a>
+           <a href="https://www.youtube.com/channel/UCpDkZ2ytnEOA0AJRVW0MIhg" target="_blank">Мы в Youtube</a>
+           <a href="https://rutube.ru/channel/25369590/" target="_blank">Мы в Rutube</a>
+           <a href="https://www.instagram.com/bru_official.live/" target="_blank">Мы в Instagram</a>
+           <a href="https://vm.tiktok.com/ZM8aF8JaS/" target="_blank">Мы в TikTok</a>
+           <a href="https://twitter.com/belrus_by?s=11" target="_blank">Мы в Twitter</a>
+           <a href="https://ok.ru/group/58632576237574" target="_blank">Мы в Одноклассники</a>
+           <a href="https://www.youtube.com/channel/UCmiFYckoPtc4z-TFiotFIBg" target="_blank">Библиотека в Youtube</a>
+           <a href="/content/university/vacancy">Вакансии</a>
+           <a href="/content/university/formalities">Сведения об образовательной организации</a>
+           <a href="/content/university/partners">Школы</a>
+        </div>
+        <div class="col-md-10 mobile">
+                <p>Используя этот сайт «bru.by», я даю своё согласие на обработку моих пользовательских данных (файлов cookies) с помощью систем веб-аналитики Яндекс.Метрика и/или иных систем веб-аналитики на условиях, указанных в Политике конфиденциальности.</p>
+        </div>
+    </div>
+
+</footer>
+</div>
+
+
+
+    <div id="popup-container"></div>
+
+    <script src="/bundles/common.js?v=Qb6NNzsKIIsvi0P0mp6x2Foz4_CIY7xEm1jQawc_5e81"></script>
+
+
+    <script type="text/javascript">
+        var bru = bru || {};
+        bru.cdnUrl = 'http://cdn.bru.by/cache/';
+        bru.timeZone = 3;
+        bru.cultureLanguageName = 'ru';
+
+
+
+        requirejs.config({
+            baseUrl: "/require/v6.125.2506.17/",
+            waitSeconds: 7
+        });
+
+        define("jquery", [], function () { return jQuery; });
+        define("underscore", [], function () { return _; });
+        define("backbone", [], function () { return Backbone; });
+        define("bru", [], function () { return bru; });
+        define("culture", [], function () { return culture; });
+        define("dateFormat", [], function () { return dateFormat; });
+
+        require(["site/news/views/modal"], function (NewsModalView) { return new NewsModalView(); });
+        require(["site/menu/views/index"], function (MenuView) { return new MenuView(); });
+        require(["common/visibilitytoggle/view.visibility-toggle"], function (VisibilityPanelView) { return new VisibilityPanelView(); });
+        require(["common/search/view.search"], function (SearchPanelView) { return new SearchPanelView(); });
+        require(["common/email/views/index"], function (EmailView) { return new EmailView(); });
+        require(["site/signin/router/router"], function(SignInRouter) { return new SignInRouter(); });
+    </script>
+
+    
+    <script type="text/javascript">
+        $(window).load(function() {
+            var sec = $('#seconds');
+            var secVal = parseInt(sec.text());
+            var date = Date.now();
+            var dateEnd = Date.parse('2023-07-17T06:00:00.417Z');
+            var timer = setTimeout(function tick() {
+                var date = Date.now();
+                var dateCount = dateEnd - date;
+                if ((dateEnd - date) > 0) {
+                    var day = Math.floor(dateCount / (60 * 60 * 24 * 1000));
+                    var hoursMls = dateCount - day * 60 * 60 * 24 * 1000;
+                    var hours = Math.floor(hoursMls / (60 * 60 * 1000));
+                    var minutesMls = hoursMls - hours * 60 * 60 * 1000;
+                    var minutes = Math.floor(minutesMls / (60 * 1000));
+                    var secondMls = minutesMls - minutes * 60 * 1000;
+                    var second = Math.floor(secondMls / 1000);
+                    sec.text(day + " " + declOfNum(day, ['день', 'дня', 'дней']) + " " + hours + " " + declOfNum(hours, ['час', 'часа', 'часов']) + " " + minutes + " " + declOfNum(minutes, ['минута', 'минуты', 'минут']) + " " + second + " " + declOfNum(second, ['секунда', 'секунды', 'секунд']));
+                    timer = setTimeout(tick, 1000);
+                }
+            }, 1000);
+        });
+
+        function declOfNum(n, text_forms) {
+            n = Math.abs(n) % 100;
+            var n1 = n % 10;
+            if (n > 10 && n < 20) {
+                return text_forms[2];
+            }
+            if (n1 > 1 && n1 < 5) {
+                return text_forms[1];
+            }
+            if (n1 == 1) {
+                return text_forms[0];
+            }
+            return text_forms[2];
+        }
+    </script>
+
+    <script type="text/javascript">
+        require(["common/panel/views/panel", "text!common/panel/templates/slideshowHome.html"], function(PanelView, slideshowTemplate) {
+            return new PanelView({
+                el: "#slideshow-container",
+                url: "/slideshow/index/{id}",
+                template: slideshowTemplate,
+                model: {
+                    id: "4a74946a4d3644ada08159690f32fac6"
+                }
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        require(["common/panel/views/panel", "text!common/panel/templates/slideshowLogos.html"], function(PanelView, slideshowTemplate) {
+            return new PanelView({
+                el: "#slideshow-logo-container",
+                url: "/slideshow/index",
+                template: slideshowTemplate,
+                model: {
+                    id: "5368211618df4592bfe1aa4ad381bdd5"
+                }
+            });
+        });
+    </script>
+
+
+    <script type='text/javascript' src='//yastatic.net/share2/share.js' charset='utf-8' async='async'></script> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter25941641 = new Ya.Metrika({id:25941641, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) {} }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="//mc.yandex.ru/watch/25941641" style="position:absolute; left:-9999px;" alt="" /></div></noscript> 
+</body>
+</html>

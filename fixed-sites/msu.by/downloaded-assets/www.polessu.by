@@ -1,0 +1,1171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="canonical" href="/polessu" />
+<link rel="shortlink" href="/node/16674" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="https://www.polessu.by/sites/all/themes/corporateclean/favicon.ico" type="image/vnd.microsoft.icon" />
+  <title>Polessu | Полесский государственный университет</title>  
+  <style type="text/css" media="all">
+@import url("https://www.polessu.by/modules/system/system.base.css?t7pn5a");
+@import url("https://www.polessu.by/modules/system/system.menus.css?t7pn5a");
+@import url("https://www.polessu.by/modules/system/system.messages.css?t7pn5a");
+@import url("https://www.polessu.by/modules/system/system.theme.css?t7pn5a");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.polessu.by/sites/all/modules/date/date_api/date.css?t7pn5a");
+@import url("https://www.polessu.by/modules/field/theme/field.css?t7pn5a");
+@import url("https://www.polessu.by/modules/node/node.css?t7pn5a");
+@import url("https://www.polessu.by/modules/poll/poll.css?t7pn5a");
+@import url("https://www.polessu.by/modules/search/search.css?t7pn5a");
+@import url("https://www.polessu.by/modules/user/user.css?t7pn5a");
+@import url("https://www.polessu.by/sites/all/modules/visually_impaired_module/css/visually_impaired_module.css?t7pn5a");
+@import url("https://www.polessu.by/sites/all/modules/views/css/views.css?t7pn5a");
+@import url("https://www.polessu.by/sites/all/modules/ckeditor/css/ckeditor.css?t7pn5a");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.polessu.by/sites/all/libraries/colorbox/example5/colorbox.css?t7pn5a");
+@import url("https://www.polessu.by/sites/all/modules/ctools/css/ctools.css?t7pn5a");
+@import url("https://www.polessu.by/sites/all/modules/dhtml_menu/dhtml_menu.css?t7pn5a");
+@import url("https://www.polessu.by/sites/all/libraries/nivo-slider/nivo-slider.css?t7pn5a");
+@import url("https://www.polessu.by/sites/all/libraries/nivo-slider/themes/default/default.css?t7pn5a");
+@import url("https://www.polessu.by/sites/all/modules/views_nivo_slider/views_nivo_slider.css?t7pn5a");
+@import url("https://www.polessu.by/sites/all/modules/responsive_menus/styles/meanMenu/meanmenu.min.css?t7pn5a");
+@import url("https://www.polessu.by/sites/all/modules/eu_cookie_compliance/css/eu_cookie_compliance.css?t7pn5a");
+@import url("https://www.polessu.by/sites/default/files/ctools/css/019b4326bea65b745cb10e2c2229b39c.css?t7pn5a");
+</style>
+<style type="text/css" media="all and (min-width: 980px)">
+@import url("https://www.polessu.by/sites/all/themes/corporateclean/css/960.css?t7pn5a");
+</style>
+<style type="text/css" media="all and (min-width: 760px) and (max-width: 980px)">
+@import url("https://www.polessu.by/sites/all/themes/corporateclean/css/720.css?t7pn5a");
+</style>
+<style type="text/css" media="all and (max-width: 760px)">
+@import url("https://www.polessu.by/sites/all/themes/corporateclean/css/mobile.css?t7pn5a");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.polessu.by/sites/all/themes/corporateclean/style.css?t7pn5a");
+@import url("https://www.polessu.by/sites/default/files/color/corporateclean-c6146b15/colors.css?t7pn5a");
+</style>
+<link type="text/css" rel="stylesheet" href="https://www.polessu.by/sites/all/themes/corporateclean/css/menu.css?t7pn5a" media="all" />
+
+<!--[if (lte IE 8)&(!IEMobile)]>
+<link type="text/css" rel="stylesheet" href="https://www.polessu.by/sites/all/themes/corporateclean/css/basic-layout.css?t7pn5a" media="all" />
+<![endif]-->
+
+<!--[if (lte IE 8)&(!IEMobile)]>
+<link type="text/css" rel="stylesheet" href="https://www.polessu.by/sites/all/themes/corporateclean/css/ie.css?t7pn5a" media="all" />
+<![endif]-->
+  
+    
+  <script type="text/javascript" src="https://www.polessu.by/sites/all/modules/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.2"></script>
+<script type="text/javascript" src="https://www.polessu.by/misc/jquery-extend-3.4.0.js?v=1.7.2"></script>
+<script type="text/javascript" src="https://www.polessu.by/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.7.2"></script>
+<script type="text/javascript" src="https://www.polessu.by/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://www.polessu.by/misc/drupal.js?t7pn5a"></script>
+<script type="text/javascript" src="https://www.polessu.by/sites/all/modules/eu_cookie_compliance/js/jquery.cookie-1.4.1.min.js?v=1.4.1"></script>
+<script type="text/javascript" src="https://www.polessu.by/sites/all/modules/jquery_update/replace/misc/jquery.form.min.js?v=2.69"></script>
+<script type="text/javascript" src="https://www.polessu.by/misc/form.js?v=7.73"></script>
+<script type="text/javascript" src="https://www.polessu.by/misc/ajax.js?v=7.73"></script>
+<script type="text/javascript" src="https://www.polessu.by/sites/all/modules/jquery_update/js/jquery_update.js?v=0.0.1"></script>
+<script type="text/javascript" src="https://www.polessu.by/sites/default/files/languages/ru_9FQT2pWupPsel-ARfNWK_DaPyf4LCHP7yPZgdPILio0.js?t7pn5a"></script>
+<script type="text/javascript" src="https://www.polessu.by/sites/all/libraries/colorbox/jquery.colorbox-min.js?t7pn5a"></script>
+<script type="text/javascript" src="https://www.polessu.by/sites/all/modules/colorbox/js/colorbox.js?t7pn5a"></script>
+<script type="text/javascript" src="https://www.polessu.by/sites/all/modules/colorbox/js/colorbox_inline.js?t7pn5a"></script>
+<script type="text/javascript" src="https://www.polessu.by/sites/all/modules/dhtml_menu/dhtml_menu.js?t7pn5a"></script>
+<script type="text/javascript" src="https://www.polessu.by/sites/all/libraries/nivo-slider/jquery.nivo.slider.pack.js?t7pn5a"></script>
+<script type="text/javascript" src="https://www.polessu.by/sites/all/modules/views_nivo_slider/views_nivo_slider.js?t7pn5a"></script>
+<script type="text/javascript" src="https://www.polessu.by/sites/all/modules/views/js/base.js?t7pn5a"></script>
+<script type="text/javascript" src="https://www.polessu.by/misc/progress.js?v=7.73"></script>
+<script type="text/javascript" src="https://www.polessu.by/sites/all/modules/views/js/ajax_view.js?t7pn5a"></script>
+<script type="text/javascript" src="https://www.polessu.by/sites/all/modules/responsive_menus/styles/meanMenu/jquery.meanmenu.min.js?t7pn5a"></script>
+<script type="text/javascript" src="https://www.polessu.by/sites/all/modules/responsive_menus/styles/meanMenu/responsive_menus_mean_menu.js?t7pn5a"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.eu_cookie_compliance_cookie_name = "";
+//--><!]]>
+</script>
+<script type="text/javascript" defer="defer" src="https://www.polessu.by/sites/all/modules/eu_cookie_compliance/js/eu_cookie_compliance.min.js?t7pn5a"></script>
+<script type="text/javascript" src="https://www.polessu.by/misc/collapse.js?v=7.73"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"corporateclean","theme_token":"gVtw1AXv5c1LcBujZuSQzuXjEwsKuC-QUNspNOtMQV8","jquery_version":"1.7","js":{"0":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/eu_cookie_compliance\/js\/jquery.cookie-1.4.1.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_update.js":1,"public:\/\/languages\/ru_9FQT2pWupPsel-ARfNWK_DaPyf4LCHP7yPZgdPILio0.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/dhtml_menu\/dhtml_menu.js":1,"sites\/all\/libraries\/nivo-slider\/jquery.nivo.slider.pack.js":1,"sites\/all\/modules\/views_nivo_slider\/views_nivo_slider.js":1,"sites\/all\/modules\/views\/js\/base.js":1,"misc\/progress.js":1,"sites\/all\/modules\/views\/js\/ajax_view.js":1,"sites\/all\/modules\/responsive_menus\/styles\/meanMenu\/jquery.meanmenu.min.js":1,"sites\/all\/modules\/responsive_menus\/styles\/meanMenu\/responsive_menus_mean_menu.js":1,"1":1,"sites\/all\/modules\/eu_cookie_compliance\/js\/eu_cookie_compliance.min.js":1,"misc\/collapse.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/visually_impaired_module\/css\/visually_impaired_module.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/libraries\/colorbox\/example5\/colorbox.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/dhtml_menu\/dhtml_menu.css":1,"sites\/all\/libraries\/nivo-slider\/nivo-slider.css":1,"sites\/all\/libraries\/nivo-slider\/themes\/default\/default.css":1,"sites\/all\/modules\/views_nivo_slider\/views_nivo_slider.css":1,"sites\/all\/modules\/responsive_menus\/styles\/meanMenu\/meanmenu.min.css":1,"sites\/all\/modules\/eu_cookie_compliance\/css\/eu_cookie_compliance.css":1,"public:\/\/ctools\/css\/019b4326bea65b745cb10e2c2229b39c.css":1,"sites\/all\/themes\/corporateclean\/css\/960.css":1,"sites\/all\/themes\/corporateclean\/css\/720.css":1,"sites\/all\/themes\/corporateclean\/css\/mobile.css":1,"sites\/all\/themes\/corporateclean\/style.css":1,"sites\/all\/themes\/corporateclean\/color\/colors.css":1,"sites\/all\/themes\/corporateclean\/css\/menu.css":1,"sites\/all\/themes\/corporateclean\/css\/basic-layout.css":1,"sites\/all\/themes\/corporateclean\/css\/ie.css":1}},"colorbox":{"opacity":"0.85","current":"{current} \u0438\u0437 {total}","previous":"\u00ab \u041f\u0440\u0435\u0434\u044b\u0434\u0443\u0449\u0438\u0439","next":"\u0421\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0439 \u00bb","close":"\u0417\u0430\u043a\u0440\u044b\u0442\u044c","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px","specificPagesDefaultValue":"admin*\nimagebrowser*\nimg_assist*\nimce*\nnode\/add\/*\nnode\/*\/edit\nprint\/*\nprintpdf\/*\nsystem\/ajax\nsystem\/ajax\/*"},"dhtmlMenu":{"nav":"none","animation":{"effects":{"height":"height","opacity":"opacity","width":0},"speed":"500"},"effects":{"siblings":"close-same-tree","children":"none","remember":""},"filter":{"type":"blacklist","list":{"main-menu":"main-menu","management":0,"menu-01--":0,"menu-02--":0,"menu-03--":0,"menu-04--":0,"menu-05--":0,"menu-2018":0,"menu-abit":0,"menu-bibhol":0,"menu-bok":0,"menu-botgor":0,"menu-c-":0,"menu-fak":0,"menu-fakul":0,"menu-glavbot":0,"menu-glavverx":0,"menu-gprav":0,"menu-kaf":0,"menu-medan":0,"menu-mensot":0,"menu-nauka":0,"menu-news":0,"menu-obr":0,"menu-ovrsm":0,"menu-platuslugi":0,"menu-raspisanie":0,"menu-sot":0,"menu-sport":0,"menu-stud":0,"menu-uni":0,"menu-xod":0,"menu-zaavka":0,"navigation":0,"shortcut-set-1":0,"user-menu":0}}},"views_nivo_slider":{"views-nivo-slider-j-block":{"startSlide":0,"effect":"fade","slices":1,"animSpeed":700,"pauseTime":8000,"directionNav":true,"directionNavHide":true,"controlNav":false,"controlNavThumbs":false,"pauseOnHover":false,"manualAdvance":false,"captionOpacity":0.8,"beforeChange":"function(){}","afterChange":"function(){}","slideshowEnd":"function(){}","lastSlide":"function(){}","afterLoad":"function(){}"}},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:07684dbac0e4bbe423563a3a01151cd6":{"view_name":"nnovl","view_display_id":"block","view_args":"","view_path":"node\/16674","view_base_path":null,"view_dom_id":"07684dbac0e4bbe423563a3a01151cd6","pager_element":0}}},"urlIsAjaxTrusted":{"\/views\/ajax":true,"\/":true},"responsive_menus":[{"selectors":"#header-menu-inside","container":"#header-menu","trigger_txt":"","close_txt":"X","close_size":"18px","position":"center","media_size":"480","show_children":"1","expand_children":"1","expand_txt":"+","contract_txt":"-","remove_attrs":"1","responsive_menus_style":"mean_menu"}],"eu_cookie_compliance":{"cookie_policy_version":"1.0.0","popup_enabled":1,"popup_agreed_enabled":0,"popup_hide_agreed":0,"popup_clicking_confirmation":false,"popup_scrolling_confirmation":false,"popup_html_info":"\u003Cdiv class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--opt-in\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n        \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003E\u041d\u0430\u0448 \u0441\u0430\u0439\u0442 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442 \u0444\u0430\u0439\u043b\u044b cookie \u0434\u043b\u044f \u0441\u0431\u043e\u0440\u0430 \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0438.\u003C\/h2\u003E\n\u003Cp\u003E\u041d\u0430\u0436\u0430\u0432 \u043a\u043d\u043e\u043f\u043a\u0443 \u0022\u041f\u0440\u0438\u043d\u044f\u0442\u044c\u0022, \u0432\u044b \u0434\u0430\u0435\u0442\u0435 \u0441\u043e\u0433\u043b\u0430\u0441\u0438\u0435 \u043d\u0430 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0443 \u0444\u0430\u0439\u043b\u043e\u0432 cookie.\u003C\/p\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003E\u041f\u043e\u043b\u0438\u0442\u0438\u043a\u0430 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0438 \u0444\u0430\u0439\u043b\u043e\u0432 cookie\u003C\/button\u003E\n          \u003C\/div\u003E\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022\u0022\u003E\n            \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-secondary-button\u0022\u003E\u041f\u0440\u0438\u043d\u044f\u0442\u044c\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022decline-button eu-cookie-compliance-default-button\u0022 \u003E\u041e\u0442\u043a\u043b\u043e\u043d\u0438\u0442\u044c\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cdiv class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--opt-in\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n        \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EWe use cookies on this site to enhance your user experience\u003C\/h2\u003E\n\u003Cp\u003EBy tapping the Accept button, you agree to us doing so.\u003C\/p\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003E\u041f\u043e\u043b\u0438\u0442\u0438\u043a\u0430 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0438 \u0444\u0430\u0439\u043b\u043e\u0432 cookie\u003C\/button\u003E\n          \u003C\/div\u003E\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022\u0022\u003E\n            \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-secondary-button\u0022\u003E\u041f\u0440\u0438\u043d\u044f\u0442\u044c\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022decline-button eu-cookie-compliance-default-button\u0022 \u003E\u041e\u0442\u043a\u043b\u043e\u043d\u0438\u0442\u044c\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","mobile_breakpoint":"768","popup_html_agreed":"\u003Cdiv\u003E\n  \u003Cdiv class=\u0022popup-content agreed\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EThank you for accepting cookies\u003C\/h2\u003E\n\u003Cp\u003EYou can now hide this message or find out more about cookies.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022hide-popup-button eu-cookie-compliance-hide-button\u0022\u003EHide\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button-thank-you\u0022 \u003EMore info\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","popup_use_bare_css":false,"popup_height":"auto","popup_width":"100%","popup_delay":0,"popup_link":"\/cookie-policy","popup_link_new_window":0,"popup_position":null,"fixed_top_position":1,"popup_language":"ru","store_consent":false,"better_support_for_screen_readers":0,"reload_page":0,"domain":"","domain_all_sites":0,"popup_eu_only_js":0,"cookie_lifetime":"100","cookie_session":false,"disagree_do_not_show_popup":0,"method":"opt_in","allowed_cookies":"","withdraw_markup":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003E\u041d\u0430\u0441\u0442\u0440\u043e\u0438\u0442\u044c\u003C\/button\u003E\n\u003Cdiv class=\u0022eu-cookie-withdraw-banner\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003E\u041d\u0430\u0448 \u0441\u0430\u0439\u0442 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442 \u0444\u0430\u0439\u043b\u044b cookie \u0434\u043b\u044f \u0441\u0431\u043e\u0440\u0430 \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0438.\u003C\/h2\u003E\n\u003Cp\u003E\u0412\u044b \u0434\u0430\u043b\u0438 \u0441\u0432\u043e\u0435 \u0441\u043e\u0433\u043b\u0430\u0441\u0438\u0435 \u043d\u0430 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0443 \u0444\u0430\u0439\u043b\u043e\u0432 cookie.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button\u0022\u003E\u041e\u0442\u043e\u0437\u0432\u0430\u0442\u044c\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","withdraw_enabled":false,"withdraw_button_on_info_popup":0,"cookie_categories":[],"cookie_categories_details":[],"enable_save_preferences_button":1,"cookie_name":"","cookie_value_disagreed":"0","cookie_value_agreed_show_thank_you":"1","cookie_value_agreed":"2","containing_element":"body","automatic_cookies_removal":1,"close_button_action":"close_banner"}});
+//--><!]]>
+</script>
+
+</head>
+<body class="html front not-logged-in no-sidebars page-node page-node- page-node-16674 node-type-01" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Перейти к основному содержанию</a>
+  </div>
+    
+<!-- #header -->
+<div id="header">
+  
+    <div class="region region-new-region">
+    <div id="block-block-72" class="block block-block">
+
+
+<div class="content">
+<style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+.td01
+{
+text-align: right; 
+border-color: rgb(5, 66, 38);
+vertical-align: middle;
+    height: 20px;
+    padding: 1px 0 1px 0;
+    border-bottom: 1px solid #eaebec;
+
+}
+.img01
+{
+width: 19px; 
+height: 19px; 
+display: inline-block; 
+margin-left: 10px
+}
+.li01
+{
+padding-right: 10px; 
+display: inline-block; 
+}
+@media screen and (max-width: 600px) {
+.td01
+{
+display:flex; justify-content: center;
+width: 350px;
+vertical-align: middle;
+    height: 20px;
+    padding: 10px 0 10px 0;
+  
+}
+td.td01:nth-child(1)
+{
+display:flex; justify-content: center;
+}
+}
+
+/*--><!]]>*/
+</style><table border="0" cellpadding="0" cellspacing="0" style="width:100%; background-color: #054226; margin-bottom: 20px;"><tbody><tr><td class="td01">
+<ul style=" margin-top: 5px !important;   margin-bottom: 3px !important;"><li class="li01"><strong><a href="https://www.polessu.by/" style="color: #fff; ">РУС</a></strong></li>
+<li class="li01"><strong><a href="https://bel.polessu.by/" style="color: #fff;">БЕЛ</a></strong></li>
+<li class="li01"><strong><a href="https://eng.polessu.by/" style="color: #fff;">EN</a></strong></li>
+<li class="li01"><strong><a href="https://eng.polessu.by//node/62" style="color: #fff;">中文</a></strong></li>
+</ul></td>
+<td class="td01" style="width: 350px;">
+<ul style=" margin-top: 5px !important;   margin-bottom: 3px !important;"><li class="li01"><a href="https://t.me/polessu_official" target="_blank"><img alt="" class="img01" src="/sites/default/files/images/01-news/35/02/19.png" /></a></li>
+<li class="li01"><a href="https://vk.com/bypolessu" target="_blank"><img alt="" class="img01" src="/sites/default/files/images/01-news/35/02/21.png" /></a></li>
+<li class="li01"><a href="https://www.instagram.com/polessu_official/" target="_blank"><img alt="" class="img01" src="/sites/default/files/images/01-news/35/02/18.png" /></a></li>
+<li class="li01"><a href="https://www.youtube.com/channel/UCSIEZ8h5jpApMUTa707UbaA" target="_blank"><img alt="" class="img01" src="/sites/default/files/images/01-news/35/02/22.png" /></a></li>
+<li class="li01"><a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F682655668862263%2F%2F" target="_blank"><img alt="" class="img01" src="/sites/default/files/images/01-news/35/02/23.png" /></a></li>
+</ul></td>
+</tr></tbody></table></div>
+</div><div id="block-block-78" class="block block-block">
+
+
+<div class="content">
+<!-- Google tag (gtag.js) --><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XYGZCFGKYV"></script><script>
+<!--//--><![CDATA[// ><!--
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XYGZCFGKYV');
+
+//--><!]]>
+</script></div>
+</div>  </div>
+
+
+  <!-- #header-inside -->
+    <div id="header-inside" class="container_12 clearfix">
+    	<!-- #header-inside-left -->
+        <div id="header-inside-left" class="grid_8">
+            
+                      
+            <a href="." title="Главная"><img src="https://www.polessu.by/sites/default/files/logo_0_0.png" alt="Главная" /></a>
+                 
+                        <div class="clearfix">
+                        <span id="site-name"><a href="/" title="Главная">Полесский государственный университет</a></span>
+                        
+
+   
+
+
+         
+            </div>
+
+  <div class="region region-new-region-abiturient">
+    <div id="block-block-77" class="block block-block">
+
+
+<div class="content">
+<table border="0" cellpadding="1" cellspacing="1" style="width:90%; margin-bottom: 20px;"><tbody><tr><td style="margin-top: 0px; margin-bottom: 0px; padding-top: 20px; font-size: 20px; font-weight: bold; border-color: rgb(234, 234, 234);"><a href="?q=node/2633" style="color:#B22222; padding-bottom: 0px; padding-right: 25px">АБИТУРИЕНТ 2026</a></td>
+<td style="margin-top: 0px; margin-bottom: 0px; padding-top: 20px; font-size: 20px; font-weight: bold; border-color: rgb(234, 234, 234);"><a href="?q=node/5097" style="color:#B22222; padding-right: 25px">СПЕЦИАЛЬНОСТИ</a></td>
+<td style="margin-top: 0px; margin-bottom: 0px; padding-top: 20px; font-size: 20px; font-weight: bold; border-color: rgb(234, 234, 234);"><a href="/node/10644" style="color:#B22222; padding-right: 25px">ПУНКТ ТЕСТИРОВАНИЯ</a></td>
+</tr></tbody></table></div>
+</div>  </div>
+
+                        
+        </div><!-- EOF: #header-inside-left -->
+        
+        <!-- #header-inside-right -->    
+        <div id="header-inside-right" class="grid_4"><table border="0px;" style="width:300px;">
+	<tbody>
+		<tr>
+			<td style="border-color: #eaeaea;">  <div class="region region-search-area">
+    <div id="block-search-form" class="block block-search">
+
+
+<div class="content">
+<form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Форма поиска</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+ <input onblur="if (this.value == &#039;&#039;) {this.value = &#039;Поиск&#039;;}" onfocus="if (this.value == &#039;Поиск&#039;) {this.value = &#039;&#039;;}" type="text" id="edit-search-block-form--2" name="search_block_form" value="Поиск" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="image" id="edit-submit" name="submit" src="/sites/all/themes/corporateclean/images/search-button.png" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-Lf5UqjXnNyAs3KHIUd1rHXmS7pexgsXN9iwH4GrEJqY" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form></div>
+</div>  </div>
+</td>
+			<td style="border-color: #eaeaea;">  <div class="region region-rvn-new-region">
+    <div id="block-visually-impaired-module-visually-impaired-block1" class="block block-visually-impaired-module">
+
+
+<div class="content">
+<form action="/" method="post" id="visually-impaired-module-create-form1" accept-charset="UTF-8"><div><input itemprop="copy" type="submit" id="edit-visually-impaired-block" name="op" value="" class="form-submit" /><input type="hidden" name="form_build_id" value="form-vNr8WOGset50UWEc2iH6rcIprMAhzWLDBQ1XJnnHrcU" />
+<input type="hidden" name="form_id" value="visually_impaired_module_create_form1" />
+</div></form></div>
+</div>  </div>
+</td>
+		</tr>
+	</tbody>
+</table>
+
+			
+
+        </div><!-- EOF: #header-inside-right -->
+    
+    </div><!-- EOF: #header-inside -->
+
+</div><!-- EOF: #header -->
+
+
+<!-- #header-menu -->
+<div id="header-menu">
+  <!-- #header-menu-inside -->
+  <div id="header-menu-inside" class="container_12 clearfix">
+
+    <div class="grid_12">
+      <div id="navigation" class="clearfix">
+        <ul class="menu"><li class="first expanded"><a href="/%D1%83%D1%87%D1%80%D0%B5%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BF%D0%BE%D0%BB%D0%B5%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82" title="">УНИВЕРСИТЕТ </a><ul class="menu"><li class="first leaf"><a href="/%D1%80%D0%B5%D0%BA%D1%82%D0%BE%D1%80" title="">Ректор</a></li>
+<li class="leaf"><a href="/%D1%80%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%B0%D1%82-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0" title="">Руководство университета </a></li>
+<li class="expanded"><a href="/%D1%83%D1%87%D1%80%D0%B5%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BF%D0%BE%D0%BB%D0%B5%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82" title="">ОБ УНИВЕРСИТЕТЕ</a><ul class="menu"><li class="first leaf"><a href="/%D1%83%D1%87%D1%80%D0%B5%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BF%D0%BE%D0%BB%D0%B5%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82" title="">Общие сведения </a></li>
+<li class="leaf"><a href="/%D0%BF%D0%BE%D1%87%D1%91%D1%82%D0%BD%D1%8B%D0%B5-%D0%B4%D0%BE%D0%BA%D1%82%D0%BE%D1%80%D0%B0-%D0%B8-%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%BE%D1%80%D0%B0" title="">ПОЧЁТНЫЕ ДОКТОРА И ПРОФЕССОРА</a></li>
+<li class="leaf"><a href="/%D0%BE%D1%82%D0%BB%D0%B8%D1%87%D0%BD%D0%B8%D0%BA%D0%B8-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F" title="">Отличники образования</a></li>
+<li class="last leaf"><a href="/%D0%B8%D0%BC%D0%B8-%D0%B3%D0%BE%D1%80%D0%B4%D0%B8%D1%82%D1%81%D1%8F-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82" title="">ИМИ ГОРДИТСЯ УНИВЕРСИТЕТ</a></li>
+</ul></li>
+<li class="leaf"><a href="/%D0%BF%D0%BE%D0%B4%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F" title="">ПОДРАЗДЕЛЕНИЯ</a></li>
+<li class="expanded"><a href="/%D1%84%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82%D1%8B-0">ФАКУЛЬТЕТЫ</a><ul class="menu"><li class="first expanded"><a href="/%D1%84%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82-%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B8-%D0%B8-%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2">Факультет экономики и финансов</a><ul class="menu"><li class="first leaf"><a href="/%D0%BA%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0-%D0%B1%D0%B0%D0%BD%D0%BA%D0%B8%D0%BD%D0%B3%D0%B0-%D0%B8-%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2%D1%8B%D1%85-%D1%80%D1%8B%D0%BD%D0%BA%D0%BE%D0%B2" title="">Кафедра банкинга и финансовых рынков</a></li>
+<li class="leaf"><a href="/%D0%BA%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0-%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE-%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%BC%D0%B5%D0%BD%D1%82%D0%B0" title="">Кафедра финансового менеджмента </a></li>
+<li class="leaf"><a href="/%D0%BA%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0-%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%B8%D0%BD%D0%B3%D0%B0-%D0%B8-%D0%BC%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%BC%D0%B5%D0%BD%D1%82%D0%B0" title="">Кафедра маркетинга и международного менеджмента</a></li>
+<li class="leaf"><a href="/%D0%BA%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0-%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B8-%D0%B8-%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0" title="">Кафедра экономики и бизнеса</a></li>
+<li class="last leaf"><a href="/%D0%BA%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0-%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE-%D0%B3%D1%83%D0%BC%D0%B0%D0%BD%D0%B8%D1%82%D0%B0%D1%80%D0%BD%D1%8B%D1%85-%D0%B4%D0%B8%D1%81%D1%86%D0%B8%D0%BF%D0%BB%D0%B8%D0%BD" title="">Социально-гуманитарных дисциплин</a></li>
+</ul></li>
+<li class="expanded"><a href="/%D0%B1%D0%B8%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D1%84%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82">Биотехнологический факультет</a><ul class="menu"><li class="first leaf"><a href="/%D0%BA%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0-%D0%B1%D0%B8%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8" title="">Кафедра биотехнологии</a></li>
+<li class="last leaf"><a href="/%D0%BA%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0-%D0%B1%D0%B8%D0%BE%D1%85%D0%B8%D0%BC%D0%B8%D0%B8-%D0%B8-%D0%B1%D0%B8%D0%BE%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B8" title="">Кафедра биохимии и биоинформатики</a></li>
+</ul></li>
+<li class="expanded"><a href="/%D1%84%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82-%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8-%D0%B7%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B0-%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8-0">Организации здорового образа жизни</a><ul class="menu"><li class="first leaf"><a href="/%D0%BA%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0-%D1%84%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B9-%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D1%8B-%D0%B8-%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B0" title="">Кафедра физической культуры и спорта</a></li>
+<li class="last leaf"><a href="/%D0%BA%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0-%D1%84%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B9-%D1%80%D0%B5%D0%B0%D0%B1%D0%B8%D0%BB%D0%B8%D1%82%D0%B0%D1%86%D0%B8%D0%B8-%D0%B8-%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D0%B9-%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D1%8B" title="">Кафедра физической реабилитации и спортивной медицины</a></li>
+</ul></li>
+<li class="expanded"><a href="/%D0%B8%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%D0%BD%D1%8B%D0%B9-%D1%84%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82">Инженерный факультет</a><ul class="menu"><li class="first leaf"><a href="/%D0%BA%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85-%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9-%D0%B8-%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" title="">Кафедра информационных технологий и интеллектуальных систем </a></li>
+<li class="leaf"><a href="/%D0%BA%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0-%D0%B0%D0%BA%D0%B2%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D1%8B-%D0%B8-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B0-%D1%8D%D0%BA%D0%BE%D1%81%D1%80%D0%B5%D0%B4%D1%8B" title="">Кафедра аквакультуры и дизайна экосреды</a></li>
+<li class="last leaf"><a href="/%D0%BA%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0-%D0%BB%D0%B8%D0%BD%D0%B3%D0%B2%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B8-%D0%B8-%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D0%BA%D0%BE%D0%BC%D0%BC%D1%83%D0%BD%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8" title="">Лингвистики и профессиональной коммуникации</a></li>
+</ul></li>
+<li class="last leaf"><a href="/%D0%B4%D0%BE%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-0">Факультет дополнительного образования</a></li>
+</ul></li>
+<li class="leaf"><a href="/%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82-%D1%81%D0%BE%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B8%D1%8F-%D0%BF%D0%BE%D0%BB%D0%B5%D1%81%D0%B3%D1%83" title="">СИСТЕМА МЕНЕДЖМЕНТА И КАЧЕСТВА</a></li>
+<li class="leaf"><a href="/%D0%BE%D0%B1%D1%8A%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F/%D0%BB%D0%B8%D1%86%D0%B5%D0%B9%D1%81%D0%BA%D0%B0%D1%8F-%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C" title="">ЛИЦЕЙ</a></li>
+<li class="expanded"><a href="/%D1%81%D0%BE%D0%B2%D0%B5%D1%82-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0" title="">Совет университета</a><ul class="menu"><li class="first leaf"><a href="/%D1%81%D0%BE%D0%B2%D0%B5%D1%82-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0" title="">Совет университета</a></li>
+<li class="leaf"><a href="/%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA-%D1%87%D0%BB%D0%B5%D0%BD%D0%BE%D0%B2-%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D0%B0-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0" title=""> Список членов Совета университета</a></li>
+<li class="last leaf"><a href="/%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F-%D0%B1%D0%B0%D0%B7%D0%B0" title="">Нормативная база</a></li>
+</ul></li>
+<li class="leaf"><a href="https://www.polessu.by/ruz/slider.aspx" title="">График образовательного процесса</a></li>
+<li class="expanded"><a href="/%D0%BF%D0%B5%D1%80%D0%B2%D0%B8%D1%87%D0%BD%D0%B0%D1%8F-%D0%BF%D1%80%D0%BE%D1%84%D1%81%D0%BE%D1%8E%D0%B7%D0%BD%D0%B0%D1%8F-%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D1%83%D1%87%D1%80%D0%B5%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BF%D0%BE%D0%BB%D0%B5%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82" title="">ОБЩЕСТВЕННЫЕ ОРГАНИЗАЦИИ </a><ul class="menu"><li class="first leaf"><a href="/%D0%BF%D0%B5%D1%80%D0%B2%D0%B8%D1%87%D0%BD%D0%B0%D1%8F-%D0%BF%D1%80%D0%BE%D1%84%D1%81%D0%BE%D1%8E%D0%B7%D0%BD%D0%B0%D1%8F-%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D1%83%D1%87%D1%80%D0%B5%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BF%D0%BE%D0%BB%D0%B5%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82" title="">Первичная профсоюзная организация работников</a></li>
+<li class="leaf"><a href="/%D0%B1%D0%B5%D0%BB%D0%B0%D1%8F-%D1%80%D1%83%D1%81%D1%8C" title="">ПО РОО &quot;Белая Русь&quot; </a></li>
+<li class="last leaf"><a href="/%D0%B1%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D1%81%D0%BE%D1%8E%D0%B7-%D0%B6%D0%B5%D0%BD%D1%89%D0%B8%D0%BD" title="">Белорусский союз женщин</a></li>
+</ul></li>
+<li class="leaf"><a href="/%D0%BF%D0%BE%D0%BB%D0%B5%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82-%D0%B2-%D1%81%D0%BC%D0%B8" title="">СМИ О НАС</a></li>
+<li class="last leaf"><a href="/%D0%BE-%D1%80%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B5-%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C" title="">О республике Беларусь</a></li>
+</ul></li>
+<li class="leaf"><a href="https://www.polessu.by/ruz/" title="">Расписание</a></li>
+<li class="leaf"><a href="https://www.polessu.by/sites/all/modules/ccount/click.php?id=129" title="">БИБЛИОТЕКА</a></li>
+<li class="expanded"><a href="/%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%D0%BE-%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8F%D1%85-%D0%BF%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D0%BE-%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D0%B0%D0%BC-%D1%86%D1%82-%D0%B8%D0%BB%D0%B8-%D1%86%D1%8D" title="">ВЫПУСНИКАМ</a><ul class="menu"><li class="first leaf"><a href="http://alum.polessu.by/" title="">Ассоциация выпускников</a></li>
+<li class="leaf"><a href="/%D0%BC%D0%B0%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0-4" title="">МАГИСТРАТУРА</a></li>
+<li class="leaf"><a href="/%D0%B0%D1%81%D0%BF%D0%B8%D1%80%D0%B0%D0%BD%D1%82%D1%83%D1%80%D0%B0-3" title="">АСПИРАНТУРА</a></li>
+<li class="last leaf"><a href="/%D0%B4%D0%BE%D0%BA%D1%82%D0%BE%D1%80%D0%B0%D0%BD%D1%82%D1%83%D1%80%D0%B0" title="">Докторантура</a></li>
+</ul></li>
+<li class="expanded"><a href="/%D0%BD%D0%B0%D1%83%D0%BA%D0%B0" title="">НАУКА</a><ul class="menu"><li class="first leaf"><a href="/%D0%BD%D0%B0%D1%83%D1%87%D0%BD%D0%BE-%D0%B8%D0%BD%D0%BD%D0%BE%D0%B2%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BE%D1%82%D0%B4%D0%B5%D0%BB" title="">О ПОДРАЗДЕЛЕНИИ</a></li>
+<li class="expanded"><a href="/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F-%D0%BD%D0%B8%D1%80" title="">Нормативные документы</a><ul class="menu"><li class="first leaf"><a href="/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F-%D0%BD%D0%B8%D1%80" title="">Документация НИР</a></li>
+<li class="leaf"><a href="/%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D0%BE%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE-%D1%80%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B8-%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C-%D0%B2-%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8-%D0%BD%D0%B0%D1%83%D0%BA%D0%B8" title="">ЗАКОНОДАТЕЛЬСТВО РБ В ОБЛАСТИ НАУКИ</a></li>
+<li class="last leaf"><a href="https://www.polessu.by/sites/default/files/files/00-files/08/postanovlenie.pdf" title="">ПОСТАНОВЛЕНИЕ СОВЕТА МИНИСТРОВ РЕСПУБЛИКИ БЕЛАРУСЬ</a></li>
+</ul></li>
+<li class="leaf"><a href="/%D0%B0%D1%81%D0%BF%D0%B8%D1%80%D0%B0%D0%BD%D1%82%D1%83%D1%80%D0%B0" title=""> Аспирантура </a></li>
+<li class="expanded"><a href="/%D1%83%D0%BA%D0%B0%D0%B7%D1%8B-%D0%BF%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82%D0%B0-%D1%80%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B8-%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C" title="">ПОДДЕРЖКА ОДАРЕННОЙ МОЛОДЕЖИ</a><ul class="menu"><li class="first leaf"><a href="/%D1%83%D0%BA%D0%B0%D0%B7%D1%8B-%D0%BF%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82%D0%B0-%D1%80%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B8-%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C" title="">УКАЗЫ ПРЕЗИДЕНТА РЕСПУБЛИКИ БЕЛАРУСЬ</a></li>
+<li class="leaf"><a href="/%D0%BF%D1%80%D0%B8%D0%BA%D0%B0%D0%B7%D1%8B-%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%B0-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BF%D0%BE-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5-%D1%81-%D0%BE%D0%B4%D0%B0%D1%80%D1%91%D0%BD%D0%BD%D0%BE%D0%B9-%D0%BC%D0%BE%D0%BB%D0%BE%D0%B4%D1%91%D0%B6%D1%8C%D1%8E" title="">ПРИКАЗЫ МИНИСТЕРСТВА ОБРАЗОВАНИЯ</a></li>
+<li class="last leaf"><a href="/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B-%D0%B8-%D1%84%D0%BE%D1%80%D0%BC%D1%8B-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9-%D1%85%D0%BE%D0%B4%D0%B0%D1%82%D0%B0%D0%B9%D1%81%D1%82%D0%B2-%D0%BD%D0%B0-%D0%BF%D0%BE%D0%BE%D1%89%D1%80%D0%B5%D0%BD%D0%B8%D0%B5" title="">ДОКУМЕНТЫ И ФОРМЫ ПРЕДСТАВЛЕНИЙ</a></li>
+</ul></li>
+<li class="leaf"><a href="/%D1%81%D0%BE%D0%B2%D0%B5%D1%82-%D0%BC%D0%BE%D0%BB%D0%BE%D0%B4%D1%8B%D1%85-%D1%83%D1%87%D1%91%D0%BD%D1%8B%D1%85" title="">СОВЕТ МОЛОДЫХ УЧЕНЫХ</a></li>
+<li class="leaf"><a href="/%D0%BD%D0%B0%D1%83%D1%87%D0%BD%D1%8B%D0%B5-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8-%D0%BF%D0%BE%D0%BB%D0%B5%D1%81%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0" title="">ИННОВАЦИОННЫЕ РАЗРАБОТКИ ПОЛЕСГУ</a></li>
+<li class="leaf"><a href="/%D0%BD%D0%B0%D1%83%D1%87%D0%BD%D0%BE-%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-0" title="">НАУЧНО-ИССЛЕДОВАТЕЛЬСКАЯ РАБОТА СТУДЕНТОВ</a></li>
+<li class="leaf"><a href="/%D0%BD%D0%B0%D1%83%D1%87%D0%BD%D1%8B%D0%B5-%D1%88%D0%BA%D0%BE%D0%BB%D1%8B" title="">Научные школы</a></li>
+<li class="leaf"><a href="https://biz.polessu.by/" title="">СТАРТАП ШКОЛА</a></li>
+<li class="leaf"><a href="/startup-%D1%88%D0%BA%D0%BE%D0%BB%D0%B0-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BF%D1%80%D0%B8-%D1%83%D0%BE-%C2%AB%D0%BF%D0%BE%D0%BB%D0%B5%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%C2%BB-%D1%81%D0%BE%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%BD%D0%BE-%D1%81-%D0%BE%D0%B0%D0%BE">StartUP-школа, созданная ПолесГУ совместно с ОАО «Белагропромбанк»</a></li>
+<li class="leaf"><a href="/%D0%BE%D1%82%D1%80%D0%B0%D1%81%D0%BB%D0%B5%D0%B2%D1%8B%D0%B5-%D0%BB%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8%D0%B8" title="">ОТРАСЛЕВЫЕ ЛАБОРАТОРИИ</a></li>
+<li class="expanded"><a href="/%D0%BA%D0%BE%D0%BD%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D0%B8" title="">НАУЧНЫЕ МЕРОПРИЯТИЯ</a><ul class="menu"><li class="first leaf"><a href="/%D0%BA%D0%BE%D0%BD%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D0%B8" title="">КОНФЕРЕНЦИИ</a></li>
+<li class="last leaf"><a href="/%D0%BA%D0%BE%D0%BD%D0%BA%D1%83%D1%80%D1%81%D1%8B-%D0%B3%D1%80%D0%B0%D0%BD%D1%82%D1%8B" title="">КОНКУРСЫ И ГРАНТЫ</a></li>
+</ul></li>
+<li class="leaf"><a href="/%D0%BF%D0%B5%D1%80%D0%B8%D0%BE%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F-%D1%83%D0%BE-%C2%AB%D0%BF%D0%BE%D0%BB%D0%B5%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%C2%BB" title="">НАУЧНЫЕ ЖУРНАЛЫ (ПЕРИОДИЧЕСКИЕ ИЗДАНИЯ)</a></li>
+<li class="last leaf"><a href="/%D0%BF%D0%B0%D1%82%D0%B5%D0%BD%D1%82%D1%8B-8" title="">ПАТЕНТЫ</a></li>
+</ul></li>
+<li class="expanded"><a href="/%D0%BE%D1%82%D0%B4%D0%B5%D0%BB-%D0%BF%D0%BE-%D0%B8%D0%B4%D0%B5%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B9-%D0%B8-%D0%B2%D0%BE%D1%81%D0%BF%D0%B8%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5" title="">МОЛОДЁЖНАЯ ПОЛИТИКА</a><ul class="menu"><li class="first expanded"><a href="/%D0%BE-%D0%BF%D0%BE%D0%B4%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B8" title="">О ПОДРАЗДЕЛЕНИИ</a><ul class="menu"><li class="first leaf"><a href="/%D0%BE%D1%82%D0%B4%D0%B5%D0%BB-%D0%BF%D0%BE-%D0%B8%D0%B4%D0%B5%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B9-%D0%B8-%D0%B2%D0%BE%D1%81%D0%BF%D0%B8%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5" title="">Отдел по идеологической и воспитательной работе</a></li>
+<li class="last leaf"><a href="/%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5%C2%A0%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B-0" title="">Нормативные документы</a></li>
+</ul></li>
+<li class="expanded"><a href="/%D0%BF%D0%BE-%D0%BE%D0%BE-%D0%B1-%D1%81%D0%BC" title="">МОЛОДЁЖНЫЕ ОБЪЕДИНЕНИЯ</a><ul class="menu"><li class="first leaf"><a href="/%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D1%81%D0%BE%D0%B2%D0%B5%D1%82-2" title="">СТУДЕНЧЕСКИЙ СОВЕТ</a></li>
+<li class="expanded"><a href="/%D0%BF%D0%BE-%D0%BE%D0%BE-%D0%B1-%D1%81%D0%BC" title="">ОО БРСМ</a><ul class="menu"><li class="first last leaf"><a href="/%D1%88%D1%82%D0%B0%D0%B1-%D1%82%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D1%8B%D1%85-%D0%B4%D0%B5%D0%BB" title="">ШТАБ ТРУДОВЫХ ДЕЛ</a></li>
+</ul></li>
+<li class="leaf"><a href="/%D0%BF%D0%B5%D1%80%D0%B2%D0%B8%D1%87%D0%BD%D0%B0%D1%8F-%D0%BF%D1%80%D0%BE%D1%84%D1%81%D0%BE%D1%8E%D0%B7%D0%BD%D0%B0%D1%8F-%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D0%BE%D0%B2" title="">ПЕРВИЧНАЯ ПРОФСОЮЗНАЯ ОРГАНИЗАЦИЯ СТУДЕНТОВ</a></li>
+<li class="leaf"><a href="/%D0%B2%D0%BE%D0%BB%D0%BE%D0%BD%D1%82%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B9-%D1%86%D0%B5%D0%BD%D1%82%D1%80-%D0%BF%D0%BE%D0%BB%D0%B5%D1%81%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0" title="">ВОЛОНТЕРСКИЙ ЦЕНТР</a></li>
+<li class="last leaf"><a href="/%D0%BF%D0%B5%D1%80%D0%B2%D0%B8%D1%87%D0%BD%D0%B0%D1%8F-%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B1%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%BE%D0%B1%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B0-%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BA%D1%80%D0%B5%D1%81%D1%82%D0%B0-%D1%83%D0%BE-%C2%AB%D0%BF%D0%BE%D0%BB%D0%B5%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9" title="">ПО Белорусского общества красного креста</a></li>
+</ul></li>
+<li class="leaf"><a href="/%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE-%D0%BF%D0%B5%D0%B4%D0%B0%D0%B3%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D0%B8-%D0%BF%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%81%D0%BB%D1%83%D0%B6%D0%B1%D0%B0-%C2%A0" title="">СОЦИАЛЬНО-ПЕДАГОГИЧЕСКАЯ И ПСИХОЛОГИЧЕСКАЯ СЛУЖБА  </a></li>
+<li class="expanded"><a href="/%D1%82%D0%B2%D0%BE%D1%80%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE-%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D0%BE%D0%B2" title="">ТВОРЧЕСТВО СТУДЕНТОВ</a><ul class="menu"><li class="first leaf"><a href="/%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9-%D0%BA%D0%BB%D1%83%D0%B1-%D0%BB%D1%8E%D0%B1%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9-%D0%BB%D0%B0%D1%82%D0%B8%D0%BD%D0%BE%D0%B0%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%B9-%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D1%8B-%C2%AB%D1%81%D0%BE%D0%BB%D0%B8%D0%BC%D0%B0%D1%80%C2%BB" title="">Народная студия любителей латиноамериканской культуры &quot;Солимар&quot;</a></li>
+<li class="leaf"><a href="/%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%B0%D1%8F-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D1%8F-%D1%8D%D1%81%D1%82%D1%80%D0%B0%D0%B4%D0%BD%D0%BE%D0%B9-%D0%BF%D0%B5%D1%81%D0%BD%D0%B8-%C2%AB%D0%B7%D0%B2%D1%83%D0%BA%D0%B8-%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8%C2%BB" title="">Народная студия эстрадной песни &quot;Звуки времени&quot;</a></li>
+<li class="leaf"><a href="/%D1%82%D0%B2%D0%BE%D1%80%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5-%D0%BE%D0%B1%D1%8A%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%C2%ABdance-classic%C2%BB" title="">Творческое объединение «Dance Classic»</a></li>
+<li class="leaf"><a href="/%D1%82%D0%B0%D0%BD%D1%86%D0%B5%D0%B2%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%BA%D0%BE%D0%BB%D0%BB%D0%B5%D0%BA%D1%82%D0%B8%D0%B2-%C2%ABivory%C2%BB" title="">Танцевальный коллектив «IVORY»</a></li>
+<li class="leaf"><a href="/%D1%82%D0%B2%D0%BE%D1%80%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D1%8F-%C2%AB%D0%B0%D1%80%D1%82house%C2%BB" title="">Творческая студия &quot;АртHouse&quot;</a></li>
+<li class="leaf"><a href="/%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D1%82%D0%B0%D0%BD%D1%86%D0%B5%D0%B2%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%BA%D0%BE%D0%BB%D0%BB%D0%B5%D0%BA%D1%82%D0%B8%D0%B2-sparkle-dance" title="">Студенческий танцевальный коллектив &quot;Sparkle dance&quot;</a></li>
+<li class="last leaf"><a href="/%D1%82%D0%B5%D0%B0%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D1%8F-%D1%81%D1%82%D0%B0%D1%80%D1%82" title="">Театральная студия  &quot;С.Т.А.Р.Т&quot;</a></li>
+</ul></li>
+<li class="leaf"><a href="/%D0%BF%D0%BE%D1%80%D1%82%D1%84%D0%B5%D0%BB%D1%8C-%D0%BA%D1%83%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B0" title="">Портфель куратора</a></li>
+<li class="leaf"><a href="/%D0%BE%D0%B1%D1%89%D0%B5%D0%B6%D0%B8%D1%82%D0%B8%D1%8F" title="">ОБЩЕЖИТИЯ</a></li>
+<li class="leaf"><a href="/%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D1%82%D1%8B" title="">Музейные комнаты</a></li>
+<li class="expanded"><a href="/%D1%86%D0%B5%D0%BD%D1%82%D1%80-%D1%84%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B9-%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D1%8B-%D0%B8-%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B0" title="">ЦЕНТР ФИЗИЧЕСКОЙ КУЛЬТУРЫ И СПОРТА</a><ul class="menu"><li class="first leaf"><a href="/%D1%86%D0%B5%D0%BD%D1%82%D1%80-%D1%84%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B9-%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D1%8B-%D0%B8-%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B0" title="">О Центре</a></li>
+<li class="leaf"><a href="/%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D0%BD%D1%8B%D0%B9-%D0%BF%D0%BB%D0%B0%D0%BD-%D1%81%D0%BE%D1%80%D0%B5%D0%B2%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9" title="">План соревнований</a></li>
+<li class="leaf"><a href="/%D1%80%D0%B0%D1%81%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85-%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D1%85-%D1%81%D0%B5%D0%BA%D1%86%D0%B8%D0%B9-%D0%BD%D0%B0-2025-%E2%80%93-2026-%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B9-%D0%B3%D0%BE%D0%B4" title="">Расписание секций</a></li>
+<li class="leaf"><a href="/%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA-%D0%BF%D0%BE%D1%81%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D1%8F-%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D1%85-%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BE%D0%B2-%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D0%B0%D0%BC%D0%B8-%D0%BF%D0%BE%D0%BB%D0%B5%D1%81%D0%B3%D1%83-%D0%BF%D0%BE-%D0%B4%D0%B8%D1%81%D1%86%D0%B8%D0%BF%D0%BB%D0%B8%D0%BD%D0%B5-%C2%AB%D1%84%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0%C2%BB" title="">График посещения спортивных объектов</a></li>
+<li class="last leaf"><a href="/%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B5-%D1%81%D0%BF%D0%BE%D1%80%D1%82%D1%81%D0%BC%D0%B5%D0%BD%D1%8B" title="">Лучшие спортсмены </a></li>
+</ul></li>
+<li class="leaf"><a href="/%D0%BE%D0%B1%D1%8A%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8-%D0%BC%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%B6%D0%BD%D0%BE%D0%B9-%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B8" title="">Новости молодёжной политики </a></li>
+<li class="leaf"><a href="/%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B" title="">Единый день информирования</a></li>
+<li class="last leaf"><a href="/%D0%B3%D0%B0%D0%B7%D0%B5%D1%82%D0%B0-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%81%D1%82%D0%BD%D0%B8%D0%BA" title="">Газета &quot;УниВестник&quot;</a></li>
+</ul></li>
+<li class="expanded"><a href="/%D0%BD%D0%B0%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B0" title="">МЕЖДУНАРОДНОЕ СОТРУДНИЧЕСТВО</a><ul class="menu"><li class="first leaf"><a href="/%D0%BD%D0%B0%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B0" title="">МЕЖДУНАРОДНОЕ СОТРУДНИЧЕСТВО</a></li>
+<li class="leaf"><a href="/%D0%BE%D1%82%D0%B4%D0%B5%D0%BB-%D0%BC%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D1%85-%D1%81%D0%B2%D1%8F%D0%B7%D0%B5%D0%B9" title="">Отдел международных связей</a></li>
+<li class="leaf"><a href="/%D0%BF%D0%B0%D1%80%D1%82%D0%BD%D1%91%D1%80%D1%8B-%D0%BF%D0%BE%D0%BB%D0%B5%D1%81%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0" title="">ПАРТНЁРЫ ПОЛЕСГУ</a></li>
+<li class="leaf"><a href="/%D0%BC%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BD%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D0%B8" title="">МЕЖДУНАРОДНЫЕ КОНФЕРЕНЦИИ</a></li>
+<li class="leaf"><a href="https://www.polessu.by/?q=%D0%B8%D0%BD%D0%B2%D0%B5%D1%81%D1%82%D0%B8%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B#" title="Инвестиционные проекты">ИНВЕСТИЦИОННЫЕ ПРОЕКТЫ</a></li>
+<li class="leaf"><a href="/%D0%BF%D0%BE%D0%BB%D0%B5%D1%81%D0%B3%D1%83-%D0%B2-%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D1%8B%D1%85-%D1%80%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%D0%B0%D1%85" title="">ПОЛЕСГУ В МИРОВЫХ РЕЙТИНГАХ</a></li>
+<li class="leaf"><a href="/%D0%B8%D0%BD%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC-%D0%B3%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D0%B0%D0%BC" title="">ИНОСТРАННЫМ ГРАЖДАНАМ</a></li>
+<li class="leaf"><a href="http://edu.gov.by/sistema-obrazovaniya/upravlenie-mezhdunarodnogo-sotrudnichestva/proposals-for-the-education-of-foreign-citizens/priem-inostrannykh-abiturientov-na-russkom-yazyke/index.php" title="">ПРИЕМ ИНОСТРАННЫХ АБИТУРИЕНТОВ (НА РУССКОМ ЯЗЫКЕ)</a></li>
+<li class="leaf"><a href="/foreign-citizens" title="">FOR FOREIGN CITIZENS</a></li>
+<li class="leaf"><a href="/%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%BE-%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D0%B2%D0%BE%D0%B5-%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D0%B5" title="">Нормативно-правовое обеспечение</a></li>
+<li class="leaf"><a href="/%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%D0%B4%D0%BB%D1%8F-%D0%B3%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD-%D0%BA%D0%BD%D1%80" title="">Информация для граждан КНР</a></li>
+<li class="last leaf"><a href="/%D0%BB%D0%B5%D1%82%D0%BD%D0%B8%D0%B5%D0%B7%D0%B8%D0%BC%D0%BD%D0%B8%D0%B5-%D1%88%D0%BA%D0%BE%D0%BB%D1%8B-%D0%BF%D0%BE%D0%BB%D0%B5%D1%81%D0%B3%D1%83" title="">ЛЕТНИЕ/ЗИМНИЕ ШКОЛЫ ПОЛЕСГУ</a></li>
+</ul></li>
+<li class="expanded"><a href="/%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B" title="">ОДНО ОКНО</a><ul class="menu"><li class="first leaf"><a href="/%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B" title="">КОНТАКТЫ</a></li>
+<li class="leaf"><a href="/%D0%BF%D0%B5%D1%80%D0%B5%D1%87%D0%B5%D0%BD%D1%8C-%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D1%85-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D0%B4%D1%83%D1%80" title="">Перечень административных процедур </a></li>
+<li class="leaf"><a href="/%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA-%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BF%D1%80%D0%B8%D0%B5%D0%BC%D0%B0-%D0%B3%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD-%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%D0%BC-%D1%83%D1%87%D1%80%D0%B5%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%C2%AB%D0%BF%D0%BE%D0%BB%D0%B5%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-0" title="">График личного приема должностными лицами университета</a></li>
+<li class="leaf"><a href="/%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA-%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BF%D1%80%D1%8F%D0%BC%D1%8B%D1%85-%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D0%BD%D1%8B%D1%85-%D0%BB%D0%B8%D0%BD%D0%B8%D0%B9-%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%D0%BC-%D0%BF%D0%BE%D0%BB%D0%B5%D1%81%D0%B3%D1%83" title="">График проведения прямых телефонных линий руководством ПолесГУ</a></li>
+<li class="leaf"><a href="/%D0%B2%D1%8B%D1%88%D0%B5%D1%81%D1%82%D0%BE%D1%8F%D1%89%D0%B0%D1%8F-%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F" title="">ВЫШЕСТОЯЩАЯ ОРГАНИЗАЦИЯ</a></li>
+<li class="leaf"><a href="/%D0%BC%D0%B5%D1%81%D1%82%D0%B0-%D0%BD%D0%B0%D1%85%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3-%D0%B7%D0%B0%D0%BC%D0%B5%D1%87%D0%B0%D0%BD%D0%B8%D0%B9-%D0%B8-%D0%BF%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9" title="">Места нахождения книг замечаний и предложений</a></li>
+<li class="leaf"><a href="/%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BE%D0%B1%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D1%8F" title="">Электронные обращения </a></li>
+<li class="leaf"><a href="/%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81-%D0%BE%D1%82%D0%B2%D0%B5%D1%82" title="">ВОПРОС-ОТВЕТ</a></li>
+<li class="last leaf"><a href="/%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B-%D0%BF%D1%80%D0%B8%D1%91%D0%BC%D0%BD%D0%BE%D0%B9-%D0%BA%D0%BE%D0%BC%D0%B8%D1%81%D1%81%D0%B8%D0%B8" title="">Приёмная комиссия </a></li>
+</ul></li>
+<li class="leaf"><a href="/%D0%BE%D0%B1%D1%8A%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8" title="">Новости</a></li>
+<li class="last expanded"><a href="/%D0%BE%D0%BF%D0%BB%D0%B0%D1%82%D0%B0-%D1%83%D1%81%D0%BB%D1%83%D0%B3-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%83-%C2%AB%D1%80%D0%B0%D1%81%D1%87%D0%B5%D1%82%C2%BB-%D0%B5%D1%80%D0%B8%D0%BF-0" title="">УСЛУГИ</a><ul class="menu"><li class="first leaf"><a href="/%D0%B7%D0%B0%D1%8F%D0%B2%D0%BA%D0%B0-%D0%BD%D0%B0-%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5-%D1%83%D1%81%D0%BB%D1%83%D0%B3-0" title="">Заявка на оказание услуг</a></li>
+<li class="leaf"><a href="/%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-0" title="">Сроки и порядок оплаты за обучение</a></li>
+<li class="leaf"><a href="/%D0%BE%D0%BF%D0%BB%D0%B0%D1%82%D0%B0-%D1%83%D1%81%D0%BB%D1%83%D0%B3-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%83-%C2%AB%D1%80%D0%B0%D1%81%D1%87%D0%B5%D1%82%C2%BB-%D0%B5%D1%80%D0%B8%D0%BF-0" title="">Оплата услуг через систему «расчет» (ЕРИП</a></li>
+<li class="leaf"><a href="/%D1%80%D0%B5%D0%BA%D0%B2%D0%B8%D0%B7%D0%B8%D1%82%D1%8B-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0" title="">Реквизиты университета</a></li>
+<li class="leaf"><a href="/%D0%BF%D1%80%D0%BE%D0%BC%D0%BE%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%86%D0%B8%D1%8F" title="">Промопродукция</a></li>
+<li class="expanded"><a href="/%D0%BD%D0%B0%D1%83%D1%87%D0%BD%D0%BE-%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F-%D0%BB%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8%D1%8F-%D0%BB%D0%BE%D0%BD%D0%B3%D0%B8%D1%82%D1%83%D0%B4%D0%B8%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85-%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9-1" title="">Прейскурант цен</a><ul class="menu"><li class="first leaf"><a href="/%D0%BD%D0%B0%D1%83%D1%87%D0%BD%D0%BE-%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F-%D0%BB%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8%D1%8F-%D0%BB%D0%BE%D0%BD%D0%B3%D0%B8%D1%82%D1%83%D0%B4%D0%B8%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85-%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9-1" title="">Отраслевая лаборатория &quot;Лонгитудинальные исследования&quot;</a></li>
+<li class="leaf"><a href="/%D0%BE%D1%82%D1%80%D0%B0%D1%81%D0%BB%D0%B5%D0%B2%D0%B0%D1%8F-%D0%BB%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8%D1%8F-%D0%B4%D0%BD%D0%BA-%D0%B8-%D0%BA%D0%BB%D0%B5%D1%82%D0%BE%D1%87%D0%BD%D1%8B%D1%85-%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9-%D0%B2-%D1%80%D0%B0%D1%81%D1%82%D0%B5%D0%BD%D0%B8%D0%B5%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%B5-%D0%B8-%D0%B6%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%B5-1" title="">Отраслевая лаборатория &quot;ДНК и клеточных технологий в растениеводстве и животноводстве&quot;</a></li>
+<li class="leaf"><a href="/%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D0%BE-%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%C2%A0-%D1%86%D0%B5%D0%BD%D1%82%D1%80" title="">Учебно – медицинский центр</a></li>
+<li class="leaf"><a href="https://www.polessu.by/sites/default/files/images/26-shestakova/%D0%9F%D0%A0%D0%90%D0%99%D0%A1%20%D1%86%D0%B5%D0%BD.docx" title="">Учебно-опытный участок</a></li>
+<li class="last leaf"><a href="/%D0%B3%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B8%D1%86%D0%B0-%C2%AB%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F%C2%BB" title="">Гостиница «Университетская»</a></li>
+</ul></li>
+<li class="last expanded"><a href="/%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81-%D0%BF%D0%BE%D0%BB%D0%B5%D1%81%D0%B3%D1%83-%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B0%D1%80%D0%B5%D0%BD%D0%B0-0" title="">Cпорткомплекс ПолесГУ</a><ul class="menu"><li class="first leaf"><a href="/%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81-%D0%BF%D0%BE%D0%BB%D0%B5%D1%81%D0%B3%D1%83-%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B0%D1%80%D0%B5%D0%BD%D0%B0-0" title="">Ледовая арена</a></li>
+<li class="leaf"><a href="/%D0%BF%D0%BB%D0%B0%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B1%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD-1" title="">Плавательный бассейн</a></li>
+<li class="leaf"><a href="/%D1%81%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD-0" title="">Стадион</a></li>
+<li class="leaf"><a href="/%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9-%D0%B7%D0%B0%D0%BB-0" title="">Универсальный спортивный зал</a></li>
+<li class="leaf"><a href="/%D0%B3%D1%80%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F-%D0%B1%D0%B0%D0%B7%D0%B0-%E2%84%961-0" title="">Гребная база №1</a></li>
+<li class="leaf"><a href="/%D0%B3%D1%80%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F-%D0%B1%D0%B0%D0%B7%D0%B0-%E2%84%962" title="">Гребная база №2</a></li>
+<li class="last leaf"><a href="/%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5-%D1%81%D0%B5%D0%BA%D1%86%D0%B8%D0%B8" title="">Спортивные секции</a></li>
+</ul></li>
+</ul></li>
+</ul>      </div>
+    </div>
+
+  </div>
+  <!-- EOF: #header-menu-inside -->
+
+</div>
+<!-- EOF: #header-menu -->
+  <div class="region region-new-region-proba">
+    <div id="block-views-j-block" class="block block-views">
+
+
+<div class="content">
+<div class="view view--j view-id-_j view-display-id-block view-dom-id-44ced62b2b866cb2b114adb4d9ac331d">
+        
+  
+  
+      <div class="view-content">
+      <div class="views-nivo-slider-view slider-wrapper theme-default">
+      
+  
+    <div id="views-nivo-slider-j-block" class="views-nivo-slider clearfix">
+              <img typeof="foaf:Image" src="https://www.polessu.by/sites/default/files/styles/proba/public/images/22-foto/04/%D0%91%D0%90%D0%9D%D0%95%D0%A0%D0%A0%D0%A0_0.png?itok=hN8dZaqa" alt="" title="#-j-block-title-0" />              <img typeof="foaf:Image" src="https://www.polessu.by/sites/default/files/styles/proba/public/images/22-foto/04/%D1%80%D1%82%D1%82%D1%82.png?itok=BjtTR5DA" alt="" title="#-j-block-title-1" />              <img typeof="foaf:Image" src="https://www.polessu.by/sites/default/files/styles/proba/public/images/22-foto/04/%D0%98%D1%82%D0%BE%D0%B3%D0%B8%20%D0%BF%D1%80%D0%B5%D0%B4%D0%B2.%D1%8D%D1%82%D0%B0%D0%BF%D0%B0%20%D0%BE%D0%BB%D0%B8%D0%BC%D0%BF%D0%B8%D0%B0%D0%B4%D1%8B.png?itok=RAh9XNgL" alt="" title="#-j-block-title-2" />                                                                                </div>
+                  <div id="-j-block-title-0" class="nivo-html-caption">
+          <a href="/2026-%D0%B3%D0%BE%D0%B4-%D0%BE%D0%B1%D1%8A%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD-%D0%B3%D0%BE%D0%B4%D0%BE%D0%BC-%D0%B1%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B9-%D0%B6%D0%B5%D0%BD%D1%89%D0%B8%D0%BD%D1%8B">2026 год объявлен Годом белорусской женщины</a>        </div>
+              <div id="-j-block-title-1" class="nivo-html-caption">
+          <a href="/%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA-%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F-2-%D1%8D%D1%82%D0%B0%D0%BF%D0%B0-%D1%80%D0%B5%D0%BF%D0%B5%D1%82%D0%B8%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B2-%D1%83%D0%BE-%D0%BF%D0%BE%D0%BB%D0%B5%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82">График проведения 2 этапа репетиционного тестирования в УО &quot;Полесский государственный университет&quot;</a>        </div>
+              <div id="-j-block-title-2" class="nivo-html-caption">
+          <a href="/%D0%B8%D1%82%D0%BE%D0%B3%D0%B8-%D0%BF%D1%80%D0%B5%D0%B4%D0%B2%D0%B0%D1%80%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE-%D1%8D%D1%82%D0%B0%D0%BF%D0%B0-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D1%81%D0%BA%D0%BE%D0%B9-%D0%BE%D0%BB%D0%B8%D0%BC%D0%BF%D0%B8%D0%B0%D0%B4%D1%8B">Итоги предварительного этапа Университетской олимпиады</a>        </div>
+              <div id="-j-block-title-3" class="nivo-html-caption">
+          <a href="/%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-%D0%BF%D1%83%D0%BD%D0%BA%D1%82%D0%B0-%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8-%D0%BD%D0%B0-%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D0%B8%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5">График работы пункта регистрации на централизованное тестирование</a>        </div>
+              <div id="-j-block-title-4" class="nivo-html-caption">
+          <a href="/%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA-%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F-1-%D1%8D%D1%82%D0%B0%D0%BF%D0%B0-%D1%80%D0%B5%D0%BF%D0%B5%D1%82%D0%B8%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B2-2023-2024-%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D0%BE%D0%BC-%D0%B3%D0%BE%D0%B4%D1%83">График проведения 1 этапа репетиционного тестирования в 2023-2024 учебном году</a>        </div>
+              <div id="-j-block-title-5" class="nivo-html-caption">
+          <a href="/%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%D1%8B-%D0%B2%D1%81%D1%82%D1%83%D0%BF%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B8%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%BF%D1%80%D0%B5%D0%B4%D0%BC%D0%B5%D1%82%D1%83-%E2%80%9D%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0-%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8%E2%80%9C-0">Результаты вступительного испытания по предмету ”Экономика организации“</a>        </div>
+              <div id="-j-block-title-6" class="nivo-html-caption">
+          <a href="/%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%D1%8B-%D0%B2%D1%81%D1%82%D1%83%D0%BF%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B8%D1%81%D0%BF%D1%8B%D1%82%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%BF%D1%80%D0%B5%D0%B4%D0%BC%D0%B5%D1%82%D1%83-%E2%80%9D%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0-%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8%E2%80%9C">Результаты вступительного испытания по предмету ”Экономика организации“</a>        </div>
+              <div id="-j-block-title-7" class="nivo-html-caption">
+          <a href="/%D0%BE%D1%81%D0%B5%D0%BD%D0%BD%D0%B8%D0%B9-%D1%81%D1%82%D0%B0%D1%80%D1%82%D0%B0%D0%BF-%D0%BB%D0%B0%D0%B3%D0%B5%D1%80%D1%8C-%D0%B4%D0%BB%D1%8F-%D1%83%D1%87%D0%B0%D1%89%D0%B8%D1%85%D1%81%D1%8F-10-%D0%B8-11-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%BE%D0%B2">Осенний стартап-лагерь для учащихся 10 и 11 классов!</a>        </div>
+          
+  
+</div>     </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+</div><div id="block-block-76" class="block block-block">
+
+
+<div class="content">
+<style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+#probr
+{
+width: 100% !important;
+position: relative !important;
+overflow: hidden !important;
+box-sizing: border-box !important;  
+}
+
+/*--><!]]>*/
+</style><link href="https://www.polessu.by/sites/all/themes/corporateclean/css/styles_services.css" rel="stylesheet" /><!-- #buttonServices --><div class="buttonServices" id="probr">
+<h2 class="section-title-services">Наши услуги</h2>
+<div class="buttons-grid-services"><a class="btn-services" href="https://www.polessu.by/node/111">Спорткомплекс</a> <a class="btn-services" href="https://www.polessu.by/расписание-бассейн-ледовая-тренажёрный-зал">Расписание спорткомплекса</a> <a class="btn-services" href="https://www.polessu.by/гостиница-«университетская»">Гостиница</a> <a class="btn-services" href="https://www.polessu.by/node/1139">Медицинские анализы</a> <a class="btn-services" href="https://www.polessu.by/node/7503">Учебно-медицинский центр</a> <a class="btn-services" href="https://www.polessu.by/node/11417">Курсы и переподготовка</a></div>
+<!-- #EndbuttonServices --></div>
+</div>
+</div>  </div>
+<!-- #banner -->
+<div id="banner">
+
+		
+      
+
+</div><!-- EOF: #banner -->
+
+
+<!-- #content -->
+<div id="content">
+	<!-- #content-inside -->
+    <div id="content-inside" class="container_12 clearfix">
+    
+                
+                <div id="main" class="grid_12">    
+                    
+         
+            
+                   
+                 
+                        
+                        
+			                        <h1>Polessu</h1>
+                                    
+                        
+              <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+
+<div class="content">
+<div id="node-16674" class="node node-01" about="/polessu" typeof="sioc:Item foaf:Document">
+
+  
+      <span property="dc:title" content="Polessu" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p></p>
+<style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+@media screen and (min-width: 1920px) and (max-width: 2190px) {
+    div #views-nivo-slider-j-block.views-nivo-slider.clearfix.nivo-slider-processed.nivoSlider
+
+{
+    min-height: 600px !important;
+}
+#main > h1:nth-child(1){
+    visibility: hidden;
+    font-size: 1px;}
+}
+
+
+@media screen and (min-width: 1680px) and (max-width: 1920px) {
+#dhtml_menu-3389
+{
+border-top-style: solid;
+  border-top-width: 3px;
+  border-top-color: #FF6600;
+}
+#dhtml_menu-3385
+{
+border-top-style: solid;
+  border-top-width: 3px;
+  border-top-color: #FF6600;
+}
+    div #views-nivo-slider-j-block.views-nivo-slider.clearfix.nivo-slider-processed.nivoSlider
+
+{
+    min-height: 600px !important;
+}
+#main > h1:nth-child(1){
+    visibility: hidden;
+    font-size: 1px;}
+}
+
+@media only screen and (max-width: 1680px) {
+  div #views-nivo-slider-j-block.views-nivo-slider.clearfix.nivo-slider-processed.nivoSlider {
+    min-height: 500px !important;
+  }
+#main > h1:nth-child(1){
+    visibility: hidden;
+    font-size: 1px;}
+
+div#navigation.clearfix ul.menu li.last.expanded ul.menu li.expanded ul.menu
+
+{
+ margin-left: -450px;
+}
+}
+
+@media screen and (min-width: 600px) and (max-width: 1280px) {
+  div #views-nivo-slider-j-block.views-nivo-slider.clearfix.nivo-slider-processed.nivoSlider 
+{
+     height: 400px !important;
+    }
+#probr {
+  width: 60% !important;
+  position: relative !important;
+  overflow:
+hidden !important;
+  box-sizing: border-box !important;
+}
+div.nimages a img {
+ 
+  width: 200px;
+}
+div.field-content img
+{
+ width: 150px;
+}
+#header-menu ul.menu li a {
+font-size: 13px;
+margin: 0px;
+
+}
+div#navigation.clearfix {
+    width: 1240px !important;
+    padding-left: 0px;
+    margin-left: -20px;
+}
+}
+/*----------------*/
+#dhtml_menu-3389
+{
+border-top-style: solid;
+  border-top-width: 3px;
+  border-top-color: #FF6600;
+}
+#dhtml_menu-3385
+{
+border-top-style: solid;
+  border-top-width: 3px;
+  border-top-color: #FF6600;
+}
+
+#header-inside-left > div:nth-child(2) > div:nth-child(2) {
+    margin-left: 250px;
+}
+
+
+div#views-nivo-slider-j-block.views-nivo-slider.clearfix.nivo-slider-processed.nivoSlider {
+    width: 100% !important;
+    
+  height: 100% !important;
+}
+  
+}
+
+}
+#main > h1:nth-child(1){
+    visibility: hidden;
+    font-size: 1px;}
+
+/*------------------*/
+#block-views-nnlenta-block > div.content > div > div.view-content > table > tbody > tr > td.col-3.nlent > div.views-field.views-field-title > span > a
+{
+
+}
+
+/*--><!]]>*/
+</style></div></div></div>  </div>
+
+  <div class="clearfix">
+          <div class="links"></div>
+    
+      </div>
+
+</div></div>
+</div>  </div>
+            
+                        
+        </div><!-- EOF: #main -->
+        
+          
+
+    </div><!-- EOF: #content-inside -->
+  
+
+
+</div><!-- EOF: #content -->
+       <div class="region region-footer-news">
+    <div id="block-views-nnlenta-block" class="block block-views">
+
+<h2>НОВОСТИ</h2>
+
+<div class="content">
+<div class="view view-nnlenta view-id-nnlenta view-display-id-block view-dom-id-49996cada12ea1e7efcba4cc4496db16">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid cols-5">
+  
+  <tbody>
+          <tr  class="row-1 row-first row-last">
+                  <td  class="col-1 col-first nlent">
+              
+  <div>        <div class="nimages"><a href="/%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D0%B5%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D1%8C-%D0%BF%D0%B0%D0%BB%D0%B0%D1%82%D1%8B-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9-%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE-%D1%81%D0%BE%D0%B1%D1%80%D0%B0%D0%BD%D0%B8%D1%8F-%D1%81%D0%B5%D1%80%D0%B3%D0%B5%D0%B5%D0%BD%D0%BA%D0%BE-%D0%B8%D0%B3%D0%BE%D1%80%D1%8C-%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87-%D0%BF%D0%BE%D1%81%D0%B5%D1%82%D0%B8%D0%BB-%D0%B2%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D1%83"><img typeof="foaf:Image" src="https://www.polessu.by/sites/default/files/styles/fnl/public/images/22-foto/04/%D0%BF%D0%B0%D0%B2%D0%B2_0.jpg?itok=sYxeB0y6" width="250" height="200" alt="" /></a></div>  </div>  
+  <div>        <div class="time">2026-01-28 <a href="/" class="views-more-link">| </a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D0%B5%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D1%8C-%D0%BF%D0%B0%D0%BB%D0%B0%D1%82%D1%8B-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9-%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE-%D1%81%D0%BE%D0%B1%D1%80%D0%B0%D0%BD%D0%B8%D1%8F-%D1%81%D0%B5%D1%80%D0%B3%D0%B5%D0%B5%D0%BD%D0%BA%D0%BE-%D0%B8%D0%B3%D0%BE%D1%80%D1%8C-%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87-%D0%BF%D0%BE%D1%81%D0%B5%D1%82%D0%B8%D0%BB-%D0%B2%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D1%83">Председатель Палаты представителей Национального собрания Сергеенко Игорь Петрович посетил выставку научных достижений ПолесГУ</a></span>  </div>          </td>
+                  <td  class="col-2 nlent">
+              
+  <div>        <div class="nimages"><a href="/%D0%B2%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B0%C2%A0%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D0%B5%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D1%8F-%D0%BF%D0%B0%D0%BB%D0%B0%D1%82%D1%8B-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9-%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE-%D1%81%D0%BE%D0%B1%D1%80%D0%B0%D0%BD%D0%B8%D1%8F-%D1%81%D0%B5%D1%80%D0%B3%D0%B5%D0%B5%D0%BD%D0%BA%D0%BE-%D0%B8%D0%B3%D0%BE%D1%80%D1%8F-%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87%D0%B0-%D1%81"><img typeof="foaf:Image" src="https://www.polessu.by/sites/default/files/styles/fnl/public/images/22-foto/04/%D1%81%D1%81%D1%81_15.jpg?itok=m1LNrArk" width="250" height="200" alt="" /></a></div>  </div>  
+  <div>        <div class="time">2026-01-27 <a href="/" class="views-more-link">| </a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/%D0%B2%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B0%C2%A0%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D0%B5%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D1%8F-%D0%BF%D0%B0%D0%BB%D0%B0%D1%82%D1%8B-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9-%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE-%D1%81%D0%BE%D0%B1%D1%80%D0%B0%D0%BD%D0%B8%D1%8F-%D1%81%D0%B5%D1%80%D0%B3%D0%B5%D0%B5%D0%BD%D0%BA%D0%BE-%D0%B8%D0%B3%D0%BE%D1%80%D1%8F-%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87%D0%B0-%D1%81">Встреча Председателя Палаты представителей Национального собрания Сергеенко Игоря Петровича с преподавателями и студентами</a></span>  </div>          </td>
+                  <td  class="col-3 nlent">
+              
+  <div>        <div class="nimages"><a href="/%D0%BF%D0%BE%D0%BB%D0%B5%D1%81%D0%B3%D1%83-%D0%B8-%D0%B4%D0%B0%D1%87%D0%B6%D0%BE%D1%83%D1%81%D0%BA%D0%B8%D0%B9-%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE-%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%BE%D0%BB%D0%BB%D0%B5%D0%B4%D0%B6-%D0%BD%D0%B0%D0%BC%D0%B5%D1%82%D0%B8%D0%BB%D0%B8-%D0%BF%D1%83%D1%82%D0%B8-%D0%BF%D0%BB%D0%BE%D0%B4%D0%BE%D1%82%D0%B2%D0%BE%D1%80%D0%BD%D0%BE%D0%B3%D0%BE-%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B0"><img typeof="foaf:Image" src="https://www.polessu.by/sites/default/files/styles/fnl/public/images/22-foto/04/%D0%91%D0%B5%D0%B7%20%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1_269.jpg?itok=nl7_NULD" width="250" height="200" alt="" /></a></div>  </div>  
+  <div>        <div class="time">2026-01-27 <a href="/" class="views-more-link">| </a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/%D0%BF%D0%BE%D0%BB%D0%B5%D1%81%D0%B3%D1%83-%D0%B8-%D0%B4%D0%B0%D1%87%D0%B6%D0%BE%D1%83%D1%81%D0%BA%D0%B8%D0%B9-%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE-%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%BE%D0%BB%D0%BB%D0%B5%D0%B4%D0%B6-%D0%BD%D0%B0%D0%BC%D0%B5%D1%82%D0%B8%D0%BB%D0%B8-%D0%BF%D1%83%D1%82%D0%B8-%D0%BF%D0%BB%D0%BE%D0%B4%D0%BE%D1%82%D0%B2%D0%BE%D1%80%D0%BD%D0%BE%D0%B3%D0%BE-%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B0">ПолесГУ и Дачжоуский профессионально-технический колледж наметили пути плодотворного сотрудничества</a></span>  </div>          </td>
+                  <td  class="col-4 nlent">
+              
+  <div>        <div class="nimages"><a href="/%D0%BC%D0%B8%D1%82%D0%B8%D0%BD%D0%B3-%D1%80%D0%B5%D0%BA%D0%B2%D0%B8%D0%B5%D0%BC-%D0%BF%D1%80%D0%B8%D1%83%D1%80%D0%BE%D1%87%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BA-%D0%BC%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%BC%D1%83-%D0%B4%D0%BD%D1%8E-%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%B8-%D0%B6%D0%B5%D1%80%D1%82%D0%B2-%D1%85%D0%BE%D0%BB%D0%BE%D0%BA%D0%BE%D1%81%D1%82%D0%B0"><img typeof="foaf:Image" src="https://www.polessu.by/sites/default/files/styles/fnl/public/images/22-foto/04/%D0%B8%D1%82%D1%80.jpg?itok=_7XBErLR" width="250" height="200" alt="" /></a></div>  </div>  
+  <div>        <div class="time">2026-01-26 <a href="/" class="views-more-link">| </a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/%D0%BC%D0%B8%D1%82%D0%B8%D0%BD%D0%B3-%D1%80%D0%B5%D0%BA%D0%B2%D0%B8%D0%B5%D0%BC-%D0%BF%D1%80%D0%B8%D1%83%D1%80%D0%BE%D1%87%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BA-%D0%BC%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%BC%D1%83-%D0%B4%D0%BD%D1%8E-%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%B8-%D0%B6%D0%B5%D1%80%D1%82%D0%B2-%D1%85%D0%BE%D0%BB%D0%BE%D0%BA%D0%BE%D1%81%D1%82%D0%B0">Митинг-реквием, приуроченный к Международному дню памяти жертв Холокоста</a></span>  </div>          </td>
+                  <td  class="col-5 col-last nlent">
+              
+  <div>        <div class="nimages"><a href="/%D1%8F%D1%80%D0%BC%D0%B0%D1%80%D0%BA%D0%B0-%D1%86%D0%B5%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9-%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B8-%D0%B2%D1%8B%D0%B1%D0%B8%D1%80%D0%B0%D1%8F-%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D1%8E-%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F%D0%B5%D0%BC-%D0%B1%D1%83%D0%B4%D1%83%D1%89%D0%B5%D0%B5"><img typeof="foaf:Image" src="https://www.polessu.by/sites/default/files/styles/fnl/public/images/22-foto/04/%D0%B6%D0%B6%D0%B6%D0%B6_0.jpg?itok=dmNjVkKH" width="250" height="200" alt="" /></a></div>  </div>  
+  <div>        <div class="time">2026-01-25 <a href="/" class="views-more-link">| </a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/%D1%8F%D1%80%D0%BC%D0%B0%D1%80%D0%BA%D0%B0-%D1%86%D0%B5%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9-%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B8-%D0%B2%D1%8B%D0%B1%D0%B8%D1%80%D0%B0%D1%8F-%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D1%8E-%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F%D0%B5%D0%BC-%D0%B1%D1%83%D0%B4%D1%83%D1%89%D0%B5%D0%B5">Ярмарка целевой подготовки &quot;Выбирая профессию, определяем будущее&quot;</a></span>  </div>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+      <h2 class="element-invisible">Страницы</h2><div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a title="На страницу номер 2" href="/polessu?page=1">2</a></li>
+<li class="pager-item"><a title="На страницу номер 3" href="/polessu?page=2">3</a></li>
+<li class="pager-item"><a title="На страницу номер 4" href="/polessu?page=3">4</a></li>
+<li class="pager-item"><a title="На страницу номер 5" href="/polessu?page=4">5</a></li>
+<li class="pager-ellipsis">…</li>
+<li class="pager-next"><a title="На следующую страницу" href="/polessu?page=1">следующая ›</a></li>
+<li class="pager-last last"><a title="На последнюю страницу" href="/polessu?page=1178">последняя »</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div></div>
+</div><div id="block-views-nnovl-block" class="block block-views">
+
+<h2>ОБЪЯВЛЕНИЯ</h2>
+
+<div class="content">
+<div class="view view-nnovl view-id-nnovl view-display-id-block view-dom-id-07684dbac0e4bbe423563a3a01151cd6">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid cols-7">
+  
+  <tbody>
+          <tr  class="row-1 row-first row-last">
+                  <td  class="col-1 col-first nlent">
+              
+  <div class="views-field views-field-field-nlenta">        <div class="field-content"><img typeof="foaf:Image" src="https://www.polessu.by/sites/default/files/styles/new_pertner/public/images/22-foto/04/%D1%85%D1%85_4.jpg?itok=Xd0F53Gm" width="200" height="160" alt="" /></div>  </div>  
+  <div>        <div class="time">2026-02-10 <a href="/" class="views-more-link">|</a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/2026-%D0%B3%D0%BE%D0%B4-%D0%BE%D0%B1%D1%8A%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD-%D0%B3%D0%BE%D0%B4%D0%BE%D0%BC-%D0%B1%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B9-%D0%B6%D0%B5%D0%BD%D1%89%D0%B8%D0%BD%D1%8B">2026 год объявлен Годом белорусской женщины</a></span>  </div>          </td>
+                  <td  class="col-2 nlent">
+              
+  <div class="views-field views-field-field-nlenta">        <div class="field-content"><img typeof="foaf:Image" src="https://www.polessu.by/sites/default/files/styles/new_pertner/public/images/22-foto/04/diplom_0.jpg?itok=7nPMwkU8" width="200" height="160" alt="" /></div>  </div>  
+  <div>        <div class="time">2026-01-28 <a href="/" class="views-more-link">|</a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/%D0%BF%D1%80%D0%B8%D0%B3%D0%BB%D0%B0%D1%88%D0%B0%D0%B5%D0%BC-%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D1%8C-%D0%B2%D1%82%D0%BE%D1%80%D1%83%D1%8E-%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C-1">Приглашаем получить вторую специальность!</a></span>  </div>          </td>
+                  <td  class="col-3 nlent">
+              
+  <div class="views-field views-field-field-nlenta">        <div class="field-content"><img typeof="foaf:Image" src="https://www.polessu.by/sites/default/files/styles/new_pertner/public/images/22-foto/04/%D0%BD%D0%BD%D0%B5%D0%BA%D0%BA.jpg?itok=iVzKFvsj" width="200" height="160" alt="" /></div>  </div>  
+  <div>        <div class="time">2026-01-26 <a href="/" class="views-more-link">|</a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA-%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F-2-%D1%8D%D1%82%D0%B0%D0%BF%D0%B0-%D1%80%D0%B5%D0%BF%D0%B5%D1%82%D0%B8%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B2-%D1%83%D0%BE-%D0%BF%D0%BE%D0%BB%D0%B5%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82">График проведения 2 этапа репетиционного тестирования в УО &quot;Полесский государственный университет&quot;</a></span>  </div>          </td>
+                  <td  class="col-4 nlent">
+              
+  <div class="views-field views-field-field-nlenta">        <div class="field-content"><img typeof="foaf:Image" src="https://www.polessu.by/sites/default/files/styles/new_pertner/public/images/22-foto/04/%D0%B4%D0%B4%D0%B4%D0%B4%D0%B4%D1%82%D1%82%D1%82.jpg?itok=6GU_JFcM" width="200" height="160" alt="" /></div>  </div>  
+  <div>        <div class="time">2026-01-23 <a href="/" class="views-more-link">|</a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/%D1%81%D0%BE%D0%B1%D0%BB%D1%8E%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%B2-%D0%BE%D0%B1%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D1%85-%D0%BC%D0%B5%D1%81%D1%82%D0%B0%D1%85">Соблюдение безопасности в общественных местах</a></span>  </div>          </td>
+                  <td  class="col-5 nlent">
+              
+  <div class="views-field views-field-field-nlenta">        <div class="field-content"><img typeof="foaf:Image" src="https://www.polessu.by/sites/default/files/styles/new_pertner/public/images/22-foto/04/%D0%BC%D0%B8%D0%B4.jpg?itok=H8f3KDBn" width="200" height="160" alt="" /></div>  </div>  
+  <div>        <div class="time">2026-01-21 <a href="/" class="views-more-link">|</a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/%D0%BA%D0%BE%D0%BD%D0%BA%D1%83%D1%80%D1%81-%D1%8D%D1%81%D1%81%D0%B5-%D1%80%D0%B0%D0%B1%D0%BE%D1%82-%C2%AB%D1%85%D0%BE%D1%87%D1%83-%D0%B1%D1%8B%D1%82%D1%8C-%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0%D1%82%D0%BE%D0%BC%C2%BB"> Конкурс эссе-работ «Хочу быть дипломатом»</a></span>  </div>          </td>
+                  <td  class="col-6 nlent">
+              
+  <div class="views-field views-field-field-nlenta">        <div class="field-content"><img typeof="foaf:Image" src="https://www.polessu.by/sites/default/files/styles/new_pertner/public/images/22-foto/04/%D1%8F%D1%8F%D1%8F%D1%8F%D1%8F%D1%8F%D1%8F%D1%8F%D1%8F%D1%8F%D1%8F%D1%8F%D1%8F%D1%8F%D1%8F.jpg?itok=uJmgWYUp" width="200" height="160" alt="" /></div>  </div>  
+  <div>        <div class="time">2026-01-08 <a href="/" class="views-more-link">|</a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/%D0%B0%D0%B2%D1%82%D0%BE%D0%BD%D0%BE%D0%BC%D0%BD%D1%8B%D0%B9-%D0%BF%D0%BE%D0%B6%D0%B0%D1%80%D0%BD%D1%8B%D0%B9-%D0%B8%D0%B7%D0%B2%D0%B5%D1%89%D0%B0%D1%82%D0%B5%D0%BB%D1%8C-%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F-%D0%B8-%D0%BD%D0%B0%D0%B4%D0%B5%D0%B6%D0%BD%D0%B0%D1%8F-%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0-%D0%B2%D0%B0%D1%88%D0%B5%D0%B3%D0%BE-%D0%B4%D0%BE%D0%BC%D0%B0">Автономный пожарный извещатель - эффективная и надежная защита вашего дома!</a></span>  </div>          </td>
+                  <td  class="col-7 col-last nlent">
+              
+  <div class="views-field views-field-field-nlenta">        <div class="field-content"><img typeof="foaf:Image" src="https://www.polessu.by/sites/default/files/styles/new_pertner/public/images/22-foto/04/%D0%BC%D0%BF%D0%BD.jpg?itok=wEAWjzKU" width="200" height="160" alt="" /></div>  </div>  
+  <div>        <div class="time">2026-01-07 <a href="/" class="views-more-link">|</a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/%D0%BA%D0%BE%D0%B6%D0%BD%D0%B0%D1%8F-%D0%BF%D1%8F%D1%82%D0%BD%D1%96%D1%86%D0%B0-%E2%80%93-%D1%80%D0%BE%D0%B4%D0%BD%D0%B0%D0%B5-%D1%81%D0%B2%D0%B0%D1%91-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B8%D0%B2%D0%B0%D0%B5%D0%BC-%D0%B1%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B5-%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%B5">&quot;Кожная пятніца – роднае, сваё&quot;: поддерживаем белорусское вместе </a></span>  </div>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+      <h2 class="element-invisible">Страницы</h2><div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a title="На страницу номер 2" href="/polessu?page=1">2</a></li>
+<li class="pager-item"><a title="На страницу номер 3" href="/polessu?page=2">3</a></li>
+<li class="pager-item"><a title="На страницу номер 4" href="/polessu?page=3">4</a></li>
+<li class="pager-item"><a title="На страницу номер 5" href="/polessu?page=4">5</a></li>
+<li class="pager-item"><a title="На страницу номер 6" href="/polessu?page=5">6</a></li>
+<li class="pager-item"><a title="На страницу номер 7" href="/polessu?page=6">7</a></li>
+<li class="pager-next"><a title="На следующую страницу" href="/polessu?page=1">следующая ›</a></li>
+<li class="pager-last last"><a title="На последнюю страницу" href="/polessu?page=6">последняя »</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div></div>
+</div>  </div>
+ 
+<!-- #footer -->    
+<div id="footer">
+	<!-- #footer-inside -->
+    <div id="footer-inside" class="container_12 clearfix">
+    
+        <div class="footer-area grid_4">
+          <div class="region region-footer-first">
+    <div id="block-menu-menu-01-" class="block block-menu">
+
+
+<div class="content">
+<ul class="menu"><li class="first leaf dhtml-menu" id="dhtml_menu-3385"><a href="/%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D1%8D%D0%BA%D1%81%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8F" title="">3D тур</a></li>
+<li class="leaf dhtml-menu" id="dhtml_menu-2687"><a href="/foreign-citizens" title="">Preparatory course of the Russian language online</a></li>
+<li class="last leaf dhtml-menu" id="dhtml_menu-3386"><a href="/%D0%B8%D0%BD%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D1%8B-%D0%BE-%D0%BF%D0%BE%D0%BB%D0%B5%D1%81%D0%B3%D1%83" title="">Иностранные студенты о ПолесГУ</a></li>
+</ul></div>
+</div>  </div>
+        </div><!-- EOF: .footer-area -->
+        
+        <div class="footer-area grid_4">
+          <div class="region region-footer-second">
+    <div id="block-menu-menu-02-" class="block block-menu">
+
+
+<div class="content">
+<ul class="menu"><li class="first leaf dhtml-menu" id="dhtml_menu-3389"><a href="https://ojs.polessu.by/" title="">Научные журналы ПолесГУ</a></li>
+<li class="leaf dhtml-menu" id="dhtml_menu-3388"><a href="/%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0-%D0%BF%D1%80%D0%B5%D0%BF%D0%BE%D0%B4%D0%B0%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F" title="">Персональные страницы преподавателей</a></li>
+<li class="last leaf dhtml-menu" id="dhtml_menu-3398"><a href="https://moodle.polessu.by/login/index.php" title="">E-learning ПолесГУ</a></li>
+</ul></div>
+</div>  </div>
+        </div><!-- EOF: .footer-area -->
+        
+        <div class="footer-area grid_4">
+          <div class="region region-footer-third">
+    <div id="block-menu-menu-03-" class="block block-menu">
+
+
+<div class="content">
+<ul class="menu"><li class="first leaf dhtml-menu" id="dhtml_menu-2717"><a href="/%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B" title="">Единый день информирования</a></li>
+<li class="leaf dhtml-menu" id="dhtml_menu-3390"><a href="https://www.polessu.by/%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5-%D0%BA%D0%BE%D1%80%D1%80%D1%83%D0%BF%D1%86%D0%B8%D0%B8" title="">Противодействие коррупции</a></li>
+<li class="leaf dhtml-menu" id="dhtml_menu-3391"><a href="/%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB%D0%B8%D0%BA%D0%B0-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0" title="">Символика университета</a></li>
+<li class="last leaf dhtml-menu" id="dhtml_menu-3395"><a href="/%D0%BA%D0%BE%D0%BC%D0%B8%D1%81%D1%81%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%BE%D0%B7%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8E-%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-%D0%BE%D0%B1%D1%83%D1%87%D0%B0%D1%8E%D1%89%D0%B8%D1%85%D1%81%D1%8F-%D0%BD%D0%B0-%D0%B4%D0%BD%D0%B5%D0%B2%D0%BD%D0%BE%D0%B9-%D1%84%D0%BE%D1%80%D0%BC%D0%B5-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B8-%D1%83%D1%87%D0%B0%D1%89%D0%B8%D1%85%D1%81%D1%8F-%D0%BB%D0%B8%D1%86%D0%B5%D1%8F" title="">Оздоровление</a></li>
+</ul></div>
+</div>  </div>
+        </div><!-- EOF: .footer-area -->
+
+      <div class="footer-area grid_4">
+        <div class="region region-footer-four">
+    <div id="block-menu-menu-04-" class="block block-menu">
+
+
+<div class="content">
+<ul class="menu"><li class="first leaf dhtml-menu" id="dhtml_menu-2705"><a href="/%D0%BC%D0%B5%D0%BD%D1%8E" title="">Центр общественного питания</a></li>
+<li class="leaf dhtml-menu" id="dhtml_menu-2704"><a href="https://www.polessu.by/sites/default/files/files/02-glav/03/76-zaavka.doc" title="">Комплекс услуг</a></li>
+<li class="last leaf dhtml-menu" id="dhtml_menu-3393"><a href="/%D0%BF%D1%80%D0%BE%D0%BC%D0%BE%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%86%D0%B8%D1%8F" title="">Промопродукция</a></li>
+</ul></div>
+</div>  </div>
+    </div><!-- EOF: .footer-area -->
+
+    <div class="footer-area grid_4">
+      <div class="region region-footer-five">
+    <div id="block-menu-menu-05-" class="block block-menu">
+
+
+<div class="content">
+<ul class="menu"><li class="first leaf dhtml-menu" id="dhtml_menu-2706"><a href="https://webmail.polessu.by/?_task=mail&amp;_mbox=INBOX" title="">Почта ПолесГУ</a></li>
+<li class="leaf dhtml-menu" id="dhtml_menu-3392"><a href="/%D0%B3%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D1%8F-0" title="">Галерея </a></li>
+<li class="last leaf dhtml-menu" id="dhtml_menu-3394"><a href="/%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9-%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA" title="">Телефонный справочник</a></li>
+</ul></div>
+</div>  </div>
+    </div>
+      <!-- EOF: .footer-area -->
+      
+      
+      <!-- EOF: .footer-area -->
+       
+    </div><!-- EOF: #footer-inside -->
+
+</div><!-- EOF: #footer -->
+      
+          <div class="region region-footer-news-2">
+    <div id="block-block-70" class="block block-block">
+
+
+<div class="content">
+<div class="container_12 clearfix"><a href="http://edu.gov.by/" rel="nofollow" target="_blank"><img src="/sites/default/files/images/01-news/22/44.jpg" style="margin: 25px 5px; float: left; height: 120px; width: 240px;" /></a><a href="http://studyinby.com/" rel="nofollow" target="_blank"><img src="https://edu.gov.by/upload/medialibrary/b6c/b6c9d020a8d98865ed811f64277eddcc.gif" style="margin: 25px 5px; float: left; height: 120px; width: 434px;" /></a><a href="https://www.polessu.by/node/16682"><img src="/sites/default/files/images/01-news/35/09876.jpg" style="margin: 25px 5px; float: left; height: 120px; width: 345px;" /></a><a href="/node/14828" rel="nofollow" target="_blank"><img src="/sites/default/files/images/01-news/34/49.jpg" style="margin: 25px 5px; float: left; height: 120px;" /></a>
+<div style="clear:both"> </div>
+<div class="marquee">
+<ul><li class="lib"><span><a href="https://president.gov.by/ru"><img src="https://www.polessu.by/sites/default/files/images/01-news/33/19.jpg" style="height: 55px; width: 140px; margin: 3px 5px; float: left;" /></a></span></li>
+<li class="lib"><span><a href="https://pravo.by/o-portale/bannery/"><img alt=" " src="/sites/default/files/images/01-news/31/70.png" style="height: 55px; width: 117px; margin: 3px 5px; float: left;" /></a></span></li>
+<li class="lib"><span><a href="https://forumpravo.by/?utm_source=pravoby&amp;utm_medium=banner&amp;utm_campaign=promo&amp;utm_content=block230%C3%9790"><img alt=" " src="/sites/default/files/images/01-news/31/69.png" style="height: 55px; width: 117px; margin: 3px 5px; float: left;" /></a></span></li>
+<li class="lib"><span><a href="http://www.pac.by/"><img alt=" " src="https://www.polessu.by/sites/default/files/images/01-news/19/06.jpg" style="height: 55px; width: 110px; margin: 3px 5px; float: left;" /></a></span></li>
+<li class="lib"><span><a href="https://www.nbrb.by/"><img alt="" src="/sites/default/files/images/01-news/22/45.jpg" style="float: left; height: 55px; width: 110px; margin: 3px 5px;" /></a></span></li>
+<li class="lib"><span><a href="http://www.abiturient.by/university/wlsu.html"><img src="https://www.polessu.by/sites/default/files/images/00-fon/08.jpg" style="margin: 3px 5px; float: left; height: 55px; width: 110px;" /></a></span></li>
+<li class="lib"><span><a href="http://www.nlb.by/content/uslugi/virtualnye-servisy/virtualnyy-chitalnyy-zal/"><img src="https://www.polessu.by/sites/default/files/images/00-fon/06-vzal.jpg" style="height: 55px; width: 110px; margin: 3px 5px; float: left;" /></a></span></li>
+<li class="lib"><span><a href="http://elibrary.ru/defaultx.asp"><img src="https://www.polessu.by/sites/default/files/images/00-fon/05-elibrary.gif" style="height: 55px; width: 110px; margin: 3px 5px; float: left;" /></a></span></li>
+<li class="lib"><span><a href="http://export.by/company/14323"><img src="https://www.polessu.by/sites/default/files/images/01-news/01/01/01/16/02.jpg" style="height: 55px; margin: 3px 5px; float: left; width: 110px;" /></a></span></li>
+<li class="lib"><span><a href="http://www.institutemvd.by"><img alt="" src="/sites/default/files/images/01-news/22/96.jpg" style="height: 55px; width: 110px; margin: 3px 5px; float: left;" /></a></span></li>
+<li class="lib"><span><a href="https://www.amia.by/"><img src="/sites/default/files/images/01-news/23/33.png" style="height: 55px; width: 38px; margin: 3px 5px; float: left;" /></a></span></li>
+<li class="lib"><span><a href="http://www.sportbass.by/"><img src="/sites/default/files/images/01-news/23/44.jpg" style="height: 55px; width: 55px; margin: 3px 5px; border-width: 1px; border-style: solid; float: left;" /></a></span></li>
+<li class="lib"><span><a href="https://vsu.by/"><img src="/sites/default/files/images/01-news/24/01.png" style="height: 55px; margin: 3px 5px; border-width: 1px; border-style: solid; float: left;" /></a></span></li>
+<li class="lib"><span><a href="https://www.gstu.by/"><img src="/sites/default/files/images/01-news/27/41.png" style="height: 55px; margin: 3px 5px; border-width: 1px; border-style: solid; float: left;" /></a></span></li>
+<li class="lib"><span><a href="https://www.barsu.by/"><img src="/sites/default/files/images/01-news/27/41.JPG" style="height: 55px; margin: 3px 5px; border-width: 1px; border-style: solid; float: left;" /></a></span></li>
+<li class="lib"><span><a href="https://www.msu.by/"><img src="/sites/default/files/images/01-news/27/47.png" style="height: 55px; margin: 3px 5px; border-width: 1px; border-style: solid; float: left;" /></a></span></li>
+<li class="lib"><span><a href="http://www.mspu.by/"><img src="/sites/default/files/images/01-news/27/43.png" style="height: 55px; margin: 3px 5px; border-width: 1px; border-style: solid; float: left;" /></a></span></li>
+<li class="lib"><span><a href="https://www.ggau.by/"><img src="/sites/default/files/images/01-news/27/44.png" style="height: 55px; margin: 3px 5px; border-width: 1px; border-style: solid; float: left;" /></a></span></li>
+<li class="lib"><span><a href="https://www.vsmu.by/"><img src="/sites/default/files/images/01-news/27/45.png" style="height: 55px; margin: 3px 5px; border-width: 1px; border-style: solid; float: left;" /></a></span></li>
+<li class="lib"><span><a href="https://www.grsu.by/"><img src="/sites/default/files/images/01-news/27/46.png" style="height: 55px; margin: 3px 5px; border-width: 1px; border-style: solid; float: left;" /></a></span></li>
+<li class="lib"><span><a href="https://bspu.by/"><img src="/sites/default/files/images/01-news/27/48.jpg" style="height: 55px; margin: 3px 5px; border-width: 1px; border-style: solid; float: left;" /></a></span></li>
+<li class="lib"><span><a href="http://ucp.by/"><img src="/sites/default/files/images/01-news/27/49.png" style="height: 55px; margin: 3px 5px; border-width: 1px; border-style: solid; float: left;" /></a></span></li>
+<li class="lib"><span><a href="http://www.grsmu.by/"><img src="/sites/default/files/images/01-news/27/51.png" style="height: 55px; margin: 3px 5px; border-width: 1px; border-style: solid; float: left;" /></a></span></li>
+<li class="lib"><span><a href="https://intcenter.by/informacionno-konsultacionni-punkt"><img src="/sites/default/files/images/01-news/29/62.png" style="height: 60px; margin: 3px 5px; border-width: 1px; border-style: solid; float: left;" /></a></span></li>
+<li class="lib"><span><a href="http://xn----7sbgfh2alwzdhpc0c.xn--90ais/"><img src="/sites/default/files/images/01-news/30/72.png" style="height: 60px; margin: 3px 5px; border-width: 1px; border-style: solid; float: left;" /></a></span></li>
+<li class="lib"><span><a href="http://xn--d1acdremb9i.xn--90ais/informatsiya-po-vazhnym-voprosam/uchashcheysya-i-studencheskoy-molodyezhi/molodyezh-protiv-narkotikov/"><img src="/sites/default/files/images/01-news/30/25.jpg" style="height: 60px; margin: 3px 5px; border-width: 1px; border-style: solid; float: left;" /></a></span></li>
+<li class="lib"><span><a href="https://www.mintrud.gov.by/ru/trud-molodezh-ru"><img src="/sites/default/files/images/01-news/31/14.png" style="height: 60px; margin: 3px 5px; border-width: 1px; border-style: solid; float: left;" /></a></span></li>
+<li class="lib"><span><a href="https://www.bstu.by/"><img src="/sites/default/files/images/01-news/34/64_0.png" style="height: 60px; margin: 3px 5px; border-width: 1px; border-style: solid; float: left; width: 56px;" /></a></span></li>
+<li class="lib"><span><a href="https://unan.by/"><img src="https://www.polessu.by/sites/default/files/images/01-news/34/60.png" style="height: 60px; margin: 3px 5px; border-width: 1px; border-style: solid; float: left;" /></a></span></li>
+<li class="lib"><span><a href="http://bseu.by/"><img src="https://www.polessu.by/sites/default/files/images/01-news/34/61.png" style="height: 60px; margin: 3px 5px; border-width: 1px; border-style: solid; float: left;" /></a></span></li>
+<li class="lib"><span><a href="http://www.pncge.rcge.by/zdorovyie-goroda-i-poselki#gsc.tab=0"><img src="/sites/default/files/images/01-news/34/sdorov_city_2022.png" style="height: 60px; margin: 3px 5px; border-width: 1px; border-style: solid; float: left;" /></a></span></li>
+<li class="lib"><span><a href="https://молодежь.бел"><img src="/sites/default/files/images/01-news/34/009.PNG" style="height: 60px; margin: 3px 5px; border-width: 1px; border-style: solid; float: left;" /></a></span></li>
+<li class="lib"><span><a href="https://patriot.rcek.by/"><img src="/sites/default/files/images/01-news/34/65.PNG" style="height: 60px; margin: 3px 5px; border-width: 1px; border-style: solid; float: left;" /></a></span></li>
+<li class="lib"><span><a href="https://www.xn----7sbgfh2alwzdhpc0c.xn--90ais/organization/9951/org-page"><img src="/sites/default/files/images/01-news/35/38.PNG" style="height: 60px; margin: 3px 5px; border-width: 1px; border-style: solid; float: left;" /></a></span></li>
+<li class="lib"><span><a href="https://www.polessu.by/node/16479"><img src="/sites/default/files/images/01-news/35/37.jpg" style="height: 60px; margin: 3px 5px; border-width: 1px; border-style: solid; float: left;" /></a></span></li>
+<li class="lib"><span><a href=""><img src="/sites/default/files/images/01-news/35/EAIC.jpg" style="height: 60px; margin: 3px 5px; border-width: 1px; border-style: solid; float: left;" /></a></span></li>
+</ul></div>
+<style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+.marquee{text-align:left;width:100%;overflow:hidden;white-space: nowrap;}
+.marquee ul{ display:inline-block;width:100%;text-indent:0;animation: marquee 35s linear  infinite}
+.marquee ul:hover{animation-play-state: paused}
+@keyframes marquee {
+0%  { transform: translate(100%, 0); }
+100% { transform: translate(-400%, 0); }
+}
+
+}
+
+/*--><!]]>*/
+</style></div>
+</div>
+</div>  </div>
+ 
+     
+<!-- #footer-bottom -->    
+<div id="footer-bottom">
+
+	<!-- #footer-bottom-inside --> 
+    <div id="footer-bottom-inside" class="container_12 clearfix">
+    	<!-- #footer-bottom-left --> 
+    	<div id="footer-bottom-left" class="grid_8">
+        
+
+            
+              <div class="region region-footer">
+    <div id="block-block-49" class="block block-block">
+
+
+<div class="content">
+<p> </p>
+<p><span style="font-size:16px;">© 2012-2025 Полесский государственный университет</span></p>
+<p><span style="font-size:16px;">Республика Беларусь, 225710 г. Пинск, Брестская обл., ул. Днепровской флотилии, 23<br />
+Tел.: + 375 (165) 36 37 01  |   Факс: + 375 (165) 36 37 36   |   E-mail: <a href="mailto:box@polessu.by" style="color:#2F4F4F;">box@polessu.by</a></span></p>
+<p><span style="font-size:16px;">Режим работы: Пн – Пт: 8:30 - 17:00; Обед: 13:00 - 13:30; Выходные: суббота, воскресенье.</span></p>
+<p><span style="font-size:16px;"><a href="https://yandex.ru/maps/?um=constructor%3A28d5821f1bafac9fcf634722316e6105d0da7f24078443946d6b5a362382d631&amp;source=constructorLink" style="color:#2F4F4F;">Расположение объектов</a>   |   <a href="/policy" style="color:#2F4F4F;">Политика обработки персональных данных</a>   |   <a href="/cookie-policy" style="color:#2F4F4F;">Настройка cookies</a></span></p>
+</div>
+</div>  </div>
+            
+        </div>
+    	<!-- #footer-bottom-right --> 
+        <div id="footer-bottom-right" class="grid_4">
+        
+        	  <div class="region region-footer-bottom-right">
+    <div id="block-block-53" class="block block-block">
+
+
+<div class="content">
+<div style="margin-top: 15px; margin-left: 0px; margin-bottom: 10px; width: 350px;"><a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F682655668862263%2F%2F" target="_blank"><img alt="" src="/sites/default/files/images/01-news/35/02/24.png" style="width: 35px; height: 35px; display: inline-block; margin-left: 10px;" /></a> <a href="https://vk.com/bypolessu" target="_blank"><img alt="" src="/sites/default/files/images/01-news/35/02/28.png" style="width: 35px; height: 35px; display: inline-block; margin-left: 10px;" /></a> <a href="https://www.instagram.com/polessu_official/" target="_blank"><img alt="" src="/sites/default/files/images/01-news/35/02/25.png" style="width: 35px; height: 35px; display: inline-block; margin-left: 10px;" /></a> <a href="https://www.youtube.com/channel/UCSIEZ8h5jpApMUTa707UbaA" target="_blank"><img alt="" src="/sites/default/files/images/01-news/35/02/29.png" style="width: 35px; height: 35px; display: inline-block; margin-left: 10px;" /></a> <a href="https://t.me/polessu_official" target="_blank"><img alt="" src="/sites/default/files/images/01-news/35/02/26.png" style="width: 35px; height: 35px; display: inline-block; margin-left: 10px;" /></a></div>
+<style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+#footer-bottom-right
+{
+width: 300px;
+}
+
+/*--><!]]>*/
+</style></div>
+</div><div id="block-block-71" class="block block-block">
+
+
+<div class="content">
+<style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+@media screen and (max-width: 600px) {
+
+.col-1, .col-2,.col-3,.col-4,.col-5,.col-6,.col-7
+{
+width: 100% !important;
+}
+
+
+    #header-inside-left > div:nth-child(2) > div:nth-child(2) {
+        margin-left: 0px;
+    }
+
+    #header-inside-left > a:nth-child(1) > img:nth-child(1) {
+        float: none;
+    }
+
+    #site-name {
+        line-height: 1.1 !important;
+    }
+
+    div#header-inside-left.grid_8 div.clearfix span#site-name a {
+        font-size: 34px !important;
+    }
+
+    /*div#navigation.clearfix ul li {*/
+       /* padding-left: 35px;*/
+   /* }*/
+
+#navigation {
+	max-width: 350px !important;
+	padding-left: 0px !important;
+	margin-left: -20px !important;
+}
+
+
+    div#views-nivo-slider-j-block.views-nivo-slider.clearfix.nivo-slider-processed.nivoSlider {
+        min-height: 150px !important;
+    }
+
+    #block-views-clone-11-of-block > div > div > div.view-content > table {
+        border: 2px solid #eeeeee !important;
+    }
+
+    div.nimages a img {
+    }
+
+    #block-views-clone-11-of-block > div {
+        padding-left: 60px;
+    }   
+.marquee{text-align:left;width:100%;overflow:hidden;white-space: nowrap;}
+.marquee ul{ display:inline-block;width:270%;text-indent:0;animation: marquee 35s linear  infinite}
+.marquee ul:hover{animation-play-state: paused}
+@keyframes marquee {
+0%  { transform: translate100%, 0); }
+100% { transform: translate(-400%, 0); }
+}
+}
+
+/*---------------*/
+
+
+
+#navigation
+{
+	width: 1500px !important;
+	padding-left: 0px;
+	margin-left: -110px;
+}
+
+#site-name {
+    line-height: 1.2;
+    font-family: Arial;
+}
+
+div#header-inside-left.grid_8 div.clearfix span#site-name a {
+    font-size: 34px;
+}
+
+#header-inside-left > a > img {  
+    width: 180px;
+    margin-right: 0px;
+}
+/*Боковое меню------------------*/
+div#navigation.clearfix ul.menu li.last.expanded ul.menu li.expanded ul.menu
+
+{
+ margin-left: -450px;
+}
+#header-menu
+{
+      padding-top: 0px;
+    padding-bottom: 0px;
+}
+#header-menu-inside
+{
+margin-left: auto;
+}
+}
+}
+/*Шапка------------------------------------------------------------------------------------------------*/
+#header-inside {
+    margin-top: 25px !important;
+    margin-bottom: 20px !important;
+}
+/*Шапка конец-----------------------------------------------------------------------------------------*/
+
+/*--><!]]>*/
+</style></div>
+</div>  </div>
+        
+        </div><!-- EOF: #footer-bottom-right -->
+       
+    </div><!-- EOF: #footer-bottom-inside -->
+    
+        <!-- #credits -->   
+    <div id="credits" class="container_12 clearfix">
+      
+    </div>
+    <!-- EOF: #credits -->
+    
+</div><!-- EOF: #footer -->
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) {
+	var ww = document.body.clientWidth;
+
+	var adjustMenu = function() {
+		if (ww < 768) {
+			$(".toggleMenu").css("display", "inline-block");
+			if (!$(".toggleMenu").hasClass("active")) {
+				$(".nav").hide();
+			} else {
+				$(".nav").show();
+			}
+			$(".nav li").unbind("mouseenter mouseleave");
+			$(".nav li a.parent").unbind("click").bind("click", function(e) {
+				e.preventDefault();
+				$(this).parent("li").toggleClass("hover");
+			});
+		}
+		else if (ww >= 768) {
+			$(".toggleMenu").css("display", "none");
+			$(".nav").show();
+			$(".nav li").removeClass("hover");
+			$(".nav li a").unbind("click");
+			$(".nav li").unbind("mouseenter mouseleave").bind("mouseenter mouseleave", function() {
+				$(this).toggleClass("hover");
+			});
+		}
+	}
+
+	$(".nav li a").each(function() {
+		if ($(this).next().length > 0) {
+			$(this).addClass("parent");
+		}
+	})
+
+	$(".toggleMenu").click(function(e) {
+		e.preventDefault();
+		$(this).toggleClass("active");
+		$(".nav").toggle();
+	});
+
+	adjustMenu();
+
+	$(window).bind("resize orientationchange", function() {
+		ww = document.body.clientWidth;
+		adjustMenu();
+	});
+
+	});
+//--><!]]>
+</script>
+</body>
+</html>

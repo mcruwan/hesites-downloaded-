@@ -1,0 +1,2203 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+
+<head>
+	<meta name="viewport" content="width=device-width initial-scale=1.0 shrink-to-fit=no" charset="utf-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, follow" />
+<script data-skip-moving="true">(function(w, d, n) {var cl = "bx-core";var ht = d.documentElement;var htc = ht ? ht.className : undefined;if (htc === undefined || htc.indexOf(cl) !== -1){return;}var ua = n.userAgent;if (/(iPad;)|(iPhone;)/i.test(ua)){cl += " bx-ios";}else if (/Windows/i.test(ua)){cl += ' bx-win';}else if (/Macintosh/i.test(ua)){cl += " bx-mac";}else if (/Linux/i.test(ua) && !/Android/i.test(ua)){cl += " bx-linux";}else if (/Android/i.test(ua)){cl += " bx-android";}cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");cl += w.devicePixelRatio && w.devicePixelRatio >= 2? " bx-retina": " bx-no-retina";if (/AppleWebKit/.test(ua)){cl += " bx-chrome";}else if (/Opera/.test(ua)){cl += " bx-opera";}else if (/Firefox/.test(ua)){cl += " bx-firefox";}ht.className = htc ? htc + " " + cl : cl;})(window, document, navigator);</script>
+
+
+<link href="/bitrix/cache/css/s1/bsmu/template_2c059095d23be94228bd3f42eeaaa14c/template_2c059095d23be94228bd3f42eeaaa14c_v1.css?176303572911056" type="text/css"  data-template-style="true" rel="stylesheet" />
+
+
+
+
+
+
+
+    <link rel="stylesheet" href='/bitrix/components/aprof/lenta_zoom/templates/fancybox_custom/style.css'>
+	<link rel="shortcut icon" href="/local/templates/bsmu/assets/images/logo/favicon.svg" type="image/x-icon">
+	<!-- <link href="/local/templates/bsmu/common.css" type="text/css" rel="stylesheet" />
+	<link href="/local/templates/bsmu/colors.css" type="text/css" rel="stylesheet" /> -->
+	<link href="/local/templates/bsmu/assets/libs/swiper/swiper.min.css" type="text/css" rel="stylesheet" />
+	<!-- <link href="/local/templates/bsmu/assets/css/style.css" type="text/css" rel="stylesheet" /> -->
+	<link href="/design/css/sience_style.css?rnd=178" type="text/css" rel='stylesheet'>
+	<link href="/design/css/video_slider.css?rnd=497" type="text/css" rel='stylesheet'>
+	<link href="/design/css/educational_style.css?rnd=939" type="text/css" rel='stylesheet'>
+	<link href="/design/css/sience_style.css?rnd=653" type="text/css" rel='stylesheet'>
+	<link href="/design/css/graduates.css?rnd=992" type="text/css" rel="stylesheet" />
+	<link href="/design/css/museum_style.css?rnd=705" type="text/css" rel="stylesheet" />
+	<link href="/design/css/style.css?rnd=393" type="text/css" rel="stylesheet" />
+	<link href="/design/css/style_custom.css?rnd=705" type="text/css" rel="stylesheet" />
+	<link href="/design/css/media.css?rnd=8" type="text/css" rel="stylesheet" />
+	<link href="/design/css/media_custom.css?rnd=411" type="text/css" rel="stylesheet" />
+	<link href="/design/css/style-galleryView.css?rnd=172" type="text/css" rel="stylesheet" />
+	<link href="/design/css/facultet-history.css?rnd=910" type="text/css" rel="stylesheet" />
+	<link href="/design/css/history_slider_style.css?rnd=862" type="text/css" rel="stylesheet" />
+	<link href="/design/css/events-new.css?rnd=448" type="text/css" rel="stylesheet" />
+	<!-- <link href="/local/templates/bsmu/assets/css/media.css" type="text/css" rel="stylesheet" /> -->
+
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+	<script type="text/javascript" src="/design/libs/jquery/jquery-3.7.min.js" data-skip-moving="true"></script>
+    <link rel="stylesheet" href='/bitrix/components/aprof/lenta_zoom/templates/fancybox_custom/lib/jquery.fancybox.css'>
+
+	<!--[if lte IE 6]>
+	<style type="text/css">
+		
+		#banner-overlay { 
+			background-image: none;
+			filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/local/templates/bsmuimages/overlay.png', sizingMethod = 'crop'); 
+		}
+		
+		div.product-overlay {
+			background-image: none;
+			filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/local/templates/bsmuimages/product-overlay.png', sizingMethod = 'crop');
+		}
+		
+	</style>
+	<![endif]-->
+
+	<title>
+		Белорусский государственный медицинский университет	</title>
+	<link href="/local/templates/bsmu/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div id="panel">
+			</div>
+
+	<header>
+		<div class="container">
+			<div class="header-top w-100 d-flex al-center jc-sb">
+				<div class="logo">
+					<a href="/" title="">
+						<img src="/include/logo/logo.svg" alt="logo" title="logo">					</a>
+				</div>
+				<div class="header-icons socials d-flex jc-sb al-center">
+					<a href="" class="circle-link searching-icon"></a>
+					<div class="dropdown-lang">
+												<a class="circle-link lang-icon d-flex al-center">RU</a>
+						<div class="dropdown-lang-content">
+							<div class="wrap-dropdown-lang">
+								<div class="inner-dropdown-lang">
+									<div class="circle-link-wrap d-flex jc-center">
+										<a href="/en/" class="circle-link lang-icon">EN</a>
+									</div>								
+									<div class="circle-link-wrap d-flex jc-center">
+										<a href="/bel/" class="circle-link lang-icon">BY</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="/?special_version=Y" class="circle-link eye-icon"></a>
+					<a href="/kontakty/" class="circle-link phone-icon"></a>
+				</div>
+			</div>
+			<div class="header-wrap w-100 d-flex al-center jc-sb">
+								<div id="menu-opener" class="desc-menu-icon-wrap d-flex al-center">
+					<div class="menu-icon"><span></span></div>
+					<span class="text">Меню</span>
+				</div>				<div id="mobile-menu-opener" class="desc-menu-icon-wrap d-flex al-center">
+					<div class="menu-icon"><span></span></div>
+				</div>
+				<div class="menu menu-nav hidden-xs">
+					
+					<div class="menu-list d-flex al-center">
+						<div class="menu-item col-100-xs dropdown">
+ <a class="text" href="/universitet/">Университет</a>
+	<div class="dropdown-content">
+		<div class="wrap-dropdown d-flex col-100">
+			<div class="col-75 inner-dropdown">
+ <a href="/universitet/uchebnaya-deyatelnost/" class="fm-link-xs text-xs-dark">Образовательная деятельность</a> <a href="/universitet/nauchnaya-deyatelnost/" class="fm-link-xs text-xs-dark">Научная деятельность</a> <a href="/universitet/molodyezhnaya-politika/" class="fm-link-xs text-xs-dark">Молодежная политика</a> <a href="/universitet/lechebnaya-deyatelnost/" class="fm-link-xs text-xs-dark">Медицинская деятельность</a> <a href="/universitet/mezhdunarodnoe-sotrudnichestvo/" class="fm-link-xs text-xs-dark">Международное сотрудничество</a> <a href="/universitet/podrazdeleniya/upravlenie-obrazovatelnoy-deyatelnosti/otdel-monitoringa-menedjmenta-kachestva/" class="fm-link-xs text-xs-dark">СМК</a> <a href="/universitet/odno-okno/" class="fm-link-xs text-xs-dark">Одно окно</a> <a href="/universitet/rukovodstvo/" class="fm-link-xs text-xs-dark">Руководство</a> <a href="/universitet/sovety/" class="fm-link-xs text-xs-dark">Советы</a> <a href="/universitet/podrazdeleniya/" class="fm-link-xs text-xs-dark">Подразделения</a> <a href="/universitet/fakultety-institut/" class="fm-link-xs text-xs-dark">Факультеты, институты</a> <a href="https://lib.bsmu.by/" class="fm-link-xs text-xs-dark">Библиотека</a> <a href="/universitet/istoriya/" class="fm-link-xs text-xs-dark">История</a> <a href="/nagrady/" class="fm-link-xs text-xs-dark">Награды</a> <a href="/universitet/pochetnye-doktora/" class="fm-link-xs text-xs-dark">Почетные доктора</a> <a href="/universitet/gordost-universiteta/" class="fm-link-xs text-xs-dark">Гордость университета</a> <a href="/universitet/izdaniya-universiteta/" class="fm-link-xs text-xs-dark">Издания университета</a> <a href="/universitet/ustav-i-simvolika/" class="fm-link-xs text-xs-dark">Устав и Символика</a>
+			</div>
+			<div class="col-25 dropdown-contacts menu-bottom-col">
+				<div class="theme-text">
+					 Контактная информация
+				</div>
+				<div class="menu-bottom-info">
+					<div class="mb-info-item text-xs">
+						 220083, г. Минск, пр. Дзержинского, 83
+					</div>
+					<div class="mb-info-item text-xs">
+						 Тел: <a href="tel:+375172521201">+375 17 252-12-01</a>.
+					</div>
+					<div class="mb-info-item text-xs">
+						 Эл. почта: <a href="mailto:bsmu@bsmu.by"></a><a href="mailto:bsmu@bsmu.by">bsmu@bsmu.by</a>
+					</div>
+				</div>
+				<div class="dropdown-socials menu-bottom-socials d-flex">
+ <a href="https://vk.com/bsmu_official" class="social-link vk" target="_blank" rel="nofollow"></a> <a href="https://www.facebook.com/BSMU.BY" class="social-link fb" target="_blank" rel="nofollow"></a> <a href="https://www.instagram.com/bsmuniversity/" class="social-link inst" target="_blank" rel="nofollow"></a> <a href="https://www.youtube.com/user/BSMUniversity" class="social-link yt" target="_blank" rel="nofollow"></a> <a href="https://www.linkedin.com/school/belarusian-state-medical-university/" class="social-link lin" target="_blank" rel="nofollow"></a> <a href="https://twitter.com/bsmu_by" class="social-link twi" target="_blank" rel="nofollow"></a> <a href="https://t.me/BSMU_official" class="social-link tg" target="_blank" rel="nofollow"></a><a href="https://www.tiktok.com/@bsmu_official?_t=8q16jiMhGCM&_r=1" class="social-link tiktok" target="_blank" rel="nofollow"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="menu-item col-100-xs dropdown">
+ <a class="text" href="/abiturientu/">Абитуриентам</a>
+	<div class="dropdown-content">
+		<div class="wrap-dropdown d-flex col-100">
+			<div class="col-75 inner-dropdown">
+ <a href="https://www.bsmu.by/pk/" class="fm-link-xs text-xs-dark">Ход приема документов</a> <a href="/abiturientu/territoriya-postupleniya/" class="fm-link-xs text-xs-dark">Траектория поступления 2026</a> <a href="https://abitur.bsmu.by/" class="fm-link-xs text-xs-dark">Личный кабинет абитуриента</a> <a href="/abiturientu/pravila-i-poryadok-priema/poryadok-priema-inostrannykh-grazhdan" class="fm-link-xs text-xs-dark">Иностранным гражданам</a> <a href="/abiturientu/tsentralizovannoe-testirovanie/" class="fm-link-xs text-xs-dark">Централизованное тестирование</a> <a href="/abiturientu/kontrolnye-cifry-i-bally/" class="fm-link-xs text-xs-dark">Контрольные цифры приема</a> <a href="https://abitur.bsmu.by/" class="fm-link-xs text-xs-dark">&nbsp;</a><a href="/abiturientu/podgotovitelnoe-obuchenie/" class="fm-link-xs text-xs-dark">Подготовительное обучение</a> <a href="/abiturientu/onlayn-kursy/" class="fm-link-xs text-xs-dark">Онлайн-курсы для иностранных граждан</a> <a href="https://abitur.bsmu.by/" class="fm-link-xs text-xs-dark">Заполнить заявление абитуриента</a> <a href="https://abitur.bsmu.by/" class="fm-link-xs text-xs-dark">&nbsp;</a>
+			</div>
+			<div class="col-25 dropdown-contacts menu-bottom-col">
+				<div class="theme-text">
+					 Контактная информация
+				</div>
+				<div class="menu-bottom-info">
+					<div class="mb-info-item text-xs">
+						 220083, г. Минск, пр. Дзержинского, 83
+					</div>
+					<div class="mb-info-item text-xs">
+						 Тел: <a href="tel:+375291160147">+375 29 116-01-47</a>,&nbsp;<a href="tel:+375173481094">+375 17 348-10-94</a>.
+					</div>
+					<div class="mb-info-item text-xs">
+						 Эл. почта: <a href="mailto:bsmu@bsmu.by"></a><a href="mailto:bsmu@bsmu.by">bsmu@bsmu.by</a>
+					</div>
+				</div>
+				<div class="dropdown-socials menu-bottom-socials d-flex">
+ <a href="https://vk.com/bsmu_official" class="social-link vk" target="_blank" rel="nofollow"></a> <a href="https://www.facebook.com/BSMU.BY" class="social-link fb" target="_blank" rel="nofollow"></a> <a href="https://www.instagram.com/bsmuniversity/" class="social-link inst" target="_blank" rel="nofollow"></a> <a href="https://www.youtube.com/user/BSMUniversity" class="social-link yt" target="_blank" rel="nofollow"></a> <a href="https://www.linkedin.com/school/belarusian-state-medical-university/" class="social-link lin" target="_blank" rel="nofollow"></a> <a href="https://twitter.com/bsmu_by" class="social-link twi" target="_blank" rel="nofollow"></a> <a href="https://t.me/BSMU_official" class="social-link tg" target="_blank" rel="nofollow"></a><a href="https://www.tiktok.com/@bsmu_official?_t=8q16jiMhGCM&_r=1" class="social-link tiktok" target="_blank" rel="nofollow"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="menu-item col-100-xs dropdown">
+ <a class="text" href="/student/">Обучающимся</a>
+	<div class="dropdown-content">
+		<div class="wrap-dropdown d-flex col-100">
+			<div class="col-75 inner-dropdown">
+ <a href="https://lk.bsmu.by/login/student" class="fm-link-xs text-xs-dark">Личный кабинет</a> <a href="/student/raspisanie/" class="fm-link-xs text-xs-dark">Расписание</a> <a href="/student/kafedry/" class="fm-link-xs text-xs-dark">Кафедры</a> <a href="/student/polezno/" class="fm-link-xs text-xs-dark">Полезно</a> <a href="/student/pervokursniku/" class="fm-link-xs text-xs-dark">Первокурснику</a> <a href="http://rep.bsmu.by/" class="fm-link-xs text-xs-dark">Репозиторий</a> <a href="/universitet/uchebnaya-deyatelnost/obuchayushchie-elektronnye-informatsionnye-resursy-universiteta/" class="fm-link-xs text-xs-dark">Дистанционное обучение</a> <a href="/student/platnoe-obuchenie/" class="fm-link-xs text-xs-dark">Платное обучение</a> <a href="/universitet/podrazdeleniya/upravlenie-obrazovatelnoy-deyatelnosti/uchebniy-otdel/praktika/" class="fm-link-xs text-xs-dark">Практика студентов</a> <a href="/student/perevod-i-vosstanovlenie-studentov/" class="fm-link-xs text-xs-dark">Перевод и восстановление студентов</a> <a href="https://www.bsmu.by/universitet/podrazdeleniya/respublikanskiy-tsentr-professionalnoy-attestatsii-i-simulyatsionnogo-obucheniya-meditsinskikh-farma/" class="fm-link-xs text-xs-dark">Республиканский центр профессиональной<br>
+				 аттестации и симуляционного обучения<br>
+				 медицинских, фармацевтических работников</a> <a href="/student/studencheskiy-gorodok/" class="fm-link-xs text-xs-dark">Студенческий городок</a> <a href="/student/studencheskiy-klub/" class="fm-link-xs text-xs-dark">Студенческий клуб</a> <a href="/student/sportivniy-klub/" class="fm-link-xs text-xs-dark">Спортивный клуб</a> <a href="/student/zdorovie/" class="fm-link-xs text-xs-dark">Здоровье</a>
+			</div>
+			<div class="col-25 dropdown-contacts menu-bottom-col">
+				<div class="theme-text">
+					 Контактная информация
+				</div>
+				<div class="menu-bottom-info">
+					<div class="mb-info-item text-xs">
+						 220083, г. Минск, пр. Дзержинского, 83
+					</div>
+					<div class="mb-info-item text-xs">
+						 Тел: <a href="tel:+375172521201">+375 17 252-12-01</a>.
+					</div>
+					<div class="mb-info-item text-xs">
+						 Эл. почта: <a href="mailto:bsmu@bsmu.by"></a><a href="mailto:bsmu@bsmu.by">bsmu@bsmu.by</a>
+					</div>
+				</div>
+				<div class="dropdown-socials menu-bottom-socials d-flex">
+ <a href="https://vk.com/bsmu_official" class="social-link vk" target="_blank" rel="nofollow"></a> <a href="https://www.facebook.com/BSMU.BY" class="social-link fb" target="_blank" rel="nofollow"></a> <a href="https://www.instagram.com/bsmuniversity/" class="social-link inst" target="_blank" rel="nofollow"></a> <a href="https://www.youtube.com/user/BSMUniversity" class="social-link yt" target="_blank" rel="nofollow"></a> <a href="https://www.linkedin.com/school/belarusian-state-medical-university/" class="social-link lin" target="_blank" rel="nofollow"></a> <a href="https://twitter.com/bsmu_by" class="social-link twi" target="_blank" rel="nofollow"></a> <a href="https://t.me/BSMU_official" class="social-link tg" target="_blank" rel="nofollow"></a><a href="https://www.tiktok.com/@bsmu_official?_t=8q16jiMhGCM&_r=1" class="social-link tiktok" target="_blank" rel="nofollow"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="menu-item col-100-xs dropdown">
+ <a class="text" href="/vypusknikam/">Выпускникам</a>
+	<div class="dropdown-content">
+		<div class="wrap-dropdown d-flex col-100">
+			<div class="col-75 inner-dropdown">
+ <a href="/vypusknikam/internatura/" class="fm-link-xs text-xs-dark">Интернатура</a> <a href="/vypusknikam/podderzhka-molodykh-spetsialistov-i-internov/" class="fm-link-xs text-xs-dark">Поддержка молодых специалистов и интернов</a> <a href="/vypusknikam/doctorantura-aspirantura/" class="fm-link-xs text-xs-dark">Докторантура/Аспирантура</a> <a href="/vypusknikam/klinicheskaya-ordinatura/" class="fm-link-xs text-xs-dark">Клиническая ординатура</a> <a href="/vypusknikam/yurist-vypuskniku/" class="fm-link-xs text-xs-dark">Юрист выпускнику</a> <a href="/vypusknikam/raspredelenie-pereraspredelenie/" class="fm-link-xs text-xs-dark">Распределение, перераспределение</a> <a href="/vypusknikam/associaciya-vypusknikov-bgmu/" class="fm-link-xs text-xs-dark">Ассоциация выпускников МГМИ/БГМУ</a> <a href="/vypusknikam/associaciya-inostrannyh-vypusknikov-bgmu/" class="fm-link-xs text-xs-dark">Ассоциация иностранных выпускников</a> <a href="/vypusknikam/platnoe-obuchenie/" class="fm-link-xs text-xs-dark">Платное обучение</a>
+			</div>
+			<div class="col-25 dropdown-contacts menu-bottom-col">
+				<div class="theme-text">
+					 Контактная информация
+				</div>
+				<div class="menu-bottom-info">
+					<div class="mb-info-item text-xs">
+						 220083, г. Минск, пр. Дзержинского, 83
+					</div>
+					<div class="mb-info-item text-xs">
+						 Тел: <a href="tel:+375172521201">+375 17 252-12-01</a>.
+					</div>
+					<div class="mb-info-item text-xs">
+						 Эл. почта: <a href="mailto:bsmu@bsmu.by"></a><a href="mailto:bsmu@bsmu.by">bsmu@bsmu.by</a>
+					</div>
+				</div>
+				<div class="dropdown-socials menu-bottom-socials d-flex">
+ <a href="https://vk.com/bsmu_official" class="social-link vk" target="_blank" rel="nofollow"></a> <a href="https://www.facebook.com/BSMU.BY" class="social-link fb" target="_blank" rel="nofollow"></a> <a href="https://www.instagram.com/bsmuniversity/" class="social-link inst" target="_blank" rel="nofollow"></a> <a href="https://www.youtube.com/user/BSMUniversity" class="social-link yt" target="_blank" rel="nofollow"></a> <a href="https://www.linkedin.com/school/belarusian-state-medical-university/" class="social-link lin" target="_blank" rel="nofollow"></a> <a href="https://twitter.com/bsmu_by" class="social-link twi" target="_blank" rel="nofollow"></a> <a href="https://t.me/BSMU_official" class="social-link tg" target="_blank" rel="nofollow"></a><a href="https://www.tiktok.com/@bsmu_official?_t=8q16jiMhGCM&_r=1" class="social-link tiktok" target="_blank" rel="nofollow"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="menu-item col-100-xs dropdown">
+ <a class="text" href="/vrachu-provizoru/">Врачу/Провизору</a>
+	<div class="dropdown-content">
+		<div class="wrap-dropdown d-flex col-100">
+			<div class="col-75 inner-dropdown">
+ <a href="https://www.bsmu.by/universitet/fakultety-institut/institut-povysheniya-kvalifikatsii-i-perepodgotovki-kadrov-zdravookhraneniya/perepodgotovka-i-povyshenie-kvalifikatsii-vrachey-ipkipkz/" class="fm-link-xs text-xs-dark">Переподготовка и повышение квалификации врачей</a> <a href="/vrachu-provizoru/protokoly-obsledovaniya-i-lecheniya/" class="fm-link-xs text-xs-dark">Протоколы обследования и лечения</a> <a href="/vrachu-provizoru/instrukcii-po-primeneniyu/" class="fm-link-xs text-xs-dark">Инструкции по применению</a> <a href="/publikacii/" class="fm-link-xs text-xs-dark">Публикации</a> <a href="https://pneu.bsmu.by/" target="_blank" class="fm-link-xs text-xs-dark">Диагностика врожденной пневмонии</a> <a href="https://sdo.bsmu.by/login/index.php" target="_blank" class="fm-link-xs text-xs-dark">Дистанционное обучение</a> <a href="https://www.bsmu.by/universitet/podrazdeleniya/respublikanskiy-tsentr-professionalnoy-attestatsii-i-simulyatsionnogo-obucheniya-meditsinskikh-farma/" class="fm-link-xs text-xs-dark">Республиканский центр профессиональной<br>
+				 аттестации и симуляционного обучения<br>
+				 медицинских, фармацевтических работников</a> <a class="fm-link-xs text-xs-dark" href="/vrachu-provizoru/shkola-organizatora-zdravookhraneniya">Школа организатора здравоохранения</a> <a href="/vrachu-provizoru/vrachu-stomatologu" class="fm-link-xs text-xs-dark">Врачу-стоматологу </a> <a href="/vrachu-provizoru/belorusskaya-associaciya-hirurgov/" class="fm-link-xs text-xs-dark">Белорусская ассоциация хирургов</a><a href="/vrachu-provizoru/belorusskoe-nauchnoe-obshchestvo-morfologov/" class="fm-link-xs text-xs-dark">Белорусское научное общество морфологов</a> <a href="https://www.bsmu.by/universitet/podrazdeleniya/respublikanskiy-tsentr-professionalnoy-attestatsii-i-simulyatsionnogo-obucheniya-meditsinskikh-farma/otdel-attestatsii-rabotnikov-zdravookhraneniya/" class="fm-link-xs text-xs-dark">Аттестация</a> <a href="/vrachu-provizoru/oo-protivoepilepticheskaya-liga/" class="fm-link-xs text-xs-dark">Противоэпилептическая лига</a>
+			</div>
+			<div class="col-25 dropdown-contacts menu-bottom-col">
+				<div class="theme-text">
+					 Контактная информация
+				</div>
+				<div class="menu-bottom-info">
+					<div class="mb-info-item text-xs">
+						 220083, г. Минск, пр. Дзержинского, 83
+					</div>
+					<div class="mb-info-item text-xs">
+						 Тел: <a href="tel:+375172521201">+375 17 252-12-01</a>.
+					</div>
+					<div class="mb-info-item text-xs">
+						 Эл. почта: <a href="mailto:bsmu@bsmu.by"></a><a href="mailto:bsmu@bsmu.by">bsmu@bsmu.by</a>
+					</div>
+				</div>
+				<div class="dropdown-socials menu-bottom-socials d-flex">
+ <a href="https://vk.com/bsmu_official" class="social-link vk" target="_blank" rel="nofollow"></a> <a href="https://www.facebook.com/BSMU.BY" class="social-link fb" target="_blank" rel="nofollow"></a> <a href="https://www.instagram.com/bsmuniversity/" class="social-link inst" target="_blank" rel="nofollow"></a> <a href="https://www.youtube.com/user/BSMUniversity" class="social-link yt" target="_blank" rel="nofollow"></a> <a href="https://www.linkedin.com/school/belarusian-state-medical-university/" class="social-link lin" target="_blank" rel="nofollow"></a> <a href="https://twitter.com/bsmu_by" class="social-link twi" target="_blank" rel="nofollow"></a> <a href="https://t.me/BSMU_official" class="social-link tg" target="_blank" rel="nofollow"></a><a href="https://www.tiktok.com/@bsmu_official?_t=8q16jiMhGCM&_r=1" class="social-link tiktok" target="_blank" rel="nofollow"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="menu-item col-100-xs dropdown">
+ <a class="text" href="/meropriyatiya/">Мероприятия</a>
+</div>
+ <br>					</div>
+				</div>
+				<div class="auth-link-wrap dropdown-login">
+					<a class="theme-link-b auth-link d-flex al-center">Войти</a>
+					<div class="dropdown-login-content">
+						<div class="wrap-dropdown-login">
+							<div class="inner-dropdown-login">
+								<a href="https://student.bsmu.by" target="_blank" class="link-login-wrap d-flex">
+									<div class="drowpdown-login-item-wrap">
+										<div class="drowpdown-login-link drowpdown-login-student">
+											<div class="drowpdown-login-item">Студенту</div>
+										</div>
+									</div>
+								</a>
+								<a href="https://lk.bsmu.by/login/student" target="_blank" class="link-login-wrap d-flex">
+									<div class="drowpdown-login-item-wrap">
+										<div class="drowpdown-login-link drowpdown-login-student">
+											<div class="drowpdown-login-item">Личный кабинет</div>
+										</div>
+									</div>
+								</a> 
+								<a href="https://my.bsmu.by/" target="_blank" class="link-login-wrap d-flex">
+									<div class="drowpdown-login-item-wrap">
+										<div class="drowpdown-login-link drowpdown-login-employee">
+											<div class="drowpdown-login-item">Сотруднику</div>
+										</div>
+									</div>
+								</a>
+								<a href="https://cloud.bsmu.by/index.php/login" target="_blank" class="link-login-wrap d-flex">
+									<div class="drowpdown-login-item-wrap">
+										<div class="drowpdown-login-link drowpdown-login-cloud">
+											<div class="drowpdown-login-item">Облако</div>
+										</div>
+									</div>
+								</a>
+								<a href="https://webmail16.bsmu.by/owa" target="_blank" class="link-login-wrap d-flex">
+									<div class="drowpdown-login-item-wrap">
+										<div class="drowpdown-login-link drowpdown-login-mail">
+											<div class="drowpdown-login-item">Почта</div>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div id="menu-fixed" class="menu-fixed">
+		<div class="container">
+			<div class="menu-wrap">
+	<div class="menu-top w-100 d-flex jc-sb">
+		<div class="title-2">
+			 Меню		</div>
+		<div class="d-flex al-center">
+			<div class="header-icons socials d-flex jc-sb al-center">
+ <a href="/?special_version=Y" class="circle-link eye-icon"></a> <a href="/kontakty/" class="circle-link phone-icon"></a>
+			</div>
+			<div id="menu-closer" class="closer-xl">
+			</div>
+		</div>
+	</div>
+	<div class="menu-search-wrap">
+		 <form action="/search/index.php" class="rel w-100 d-flex al-center">
+	<IFRAME
+	style="width:0px; height:0px; border: 0px;"
+	src="javascript:''"
+	name="qplSKIW_div_frame"
+	id="qplSKIW_div_frame"
+></IFRAME><input
+			size="15"
+		name="q"
+	id="qplSKIW"
+	placeholder="Поиск..."
+	value=""
+	class="search-suggest search-input w-100"
+	type="text"
+	autocomplete="off"
+/>&nbsp;<input name="s" type="submit" value="" class="search-btn" />
+</form>	</div>
+	<div class="site-navigation d-flex">
+		<div class="tab-wrap menu-left-col col-100-xs">
+			<div class="tab sidebar-tab active">
+				 Университет
+			</div>
+			<div class="tab sidebar-tab">
+				 Абитуриентам
+			</div>
+			<div class="tab sidebar-tab">
+				 Обучающимся
+			</div>
+			<div class="tab sidebar-tab">
+				 Выпускникам
+			</div>
+			<div class="tab sidebar-tab">
+				 Врачу/Провизору
+			</div>
+			<div class="ml-bottom">
+				<div class="fm-link">
+ <a href="/kontakty/" class="theme-text">Контакты</a>
+				</div>
+				<div class="fm-link">
+ <a href="/faq/vopros-otvet/" class="theme-text">Вопрос-ответ</a>
+				</div>
+				<div class="fm-link">
+ <a href="/map/" class="theme-text">Карта сайта</a>
+				</div>
+			</div>
+		</div>
+		<div class="tab-content-wrap menu-content-wrap">
+			<div class="tab-content opened">
+				<div class="menu-content">
+ <a href="/universitet/uchebnaya-deyatelnost/" class="fm-link-xs text-xs-dark">Образовательная деятельность</a> <a href="/universitet/nauchnaya-deyatelnost/" class="fm-link-xs text-xs-dark">Научная деятельность</a> <a href="/universitet/molodyezhnaya-politika/" class="fm-link-xs text-xs-dark">Молодежная политика</a> <a href="/universitet/lechebnaya-deyatelnost/" class="fm-link-xs text-xs-dark">Медицинская деятельность</a> <a href="/universitet/mezhdunarodnoe-sotrudnichestvo/" class="fm-link-xs text-xs-dark">Международное сотрудничество</a> <a href="/universitet/podrazdeleniya/upravlenie-obrazovatelnoy-deyatelnosti/otdel-monitoringa-menedjmenta-kachestva/" class="fm-link-xs text-xs-dark">СМК</a> <a href="/universitet/odno-okno/" class="fm-link-xs text-xs-dark">Одно окно</a> <a href="/universitet/rukovodstvo/" class="fm-link-xs text-xs-dark">Руководство</a> <a href="/universitet/sovety/" class="fm-link-xs text-xs-dark">Советы</a> <a href="/universitet/podrazdeleniya/" class="fm-link-xs text-xs-dark">Подразделения</a> <a href="/universitet/fakultety-institut/" class="fm-link-xs text-xs-dark">Факультеты, институты</a> <a href="https://lib.bsmu.by/" class="fm-link-xs text-xs-dark">Библиотека</a> <a href="/universitet/istoriya/" class="fm-link-xs text-xs-dark">История</a> <a href="/nagrady/" class="fm-link-xs text-xs-dark">Награды</a> <a href="/universitet/pochetnye-doktora/" class="fm-link-xs text-xs-dark">Почетные доктора</a> <a href="/universitet/gordost-universiteta/" class="fm-link-xs text-xs-dark">Гордость университета</a> <a href="/universitet/ustav-i-simvolika/" class="fm-link-xs text-xs-dark">Устав и символика</a> <a href="/universitet/izdaniya-universiteta/" class="fm-link-xs text-xs-dark">Издания университета</a> <a href="/universitet/virtualnaya-ekskursiya/muzey-istorii-bgmu/" class="fm-link-xs text-xs-dark">Музей истории</a> <a href="/universitet/mezhdunarodnoe-sotrudnichestvo/universitet-v-mejdunarodnih-reytingah-i-organizaciyah/" class="fm-link-xs text-xs-dark">Международные рейтинги</a>
+				</div>
+			</div>
+			<div class="tab-content">
+				<div class="menu-content">
+ <a href="https://www.bsmu.by/pk/" class="fm-link-xs text-xs-dark">Ход приема документов</a> <a href="https://www.bsmu.by/abiturientu/territoriya-postupleniya/" class="fm-link-xs text-xs-dark">Траектория поступления 2026</a> <a href="https://abitur.bsmu.by/" class="fm-link-xs text-xs-dark">Личный кабинет абитуриента</a> <a href="https://www.bsmu.by/abiturientu/territoriya-postupleniya/podgotovka-abiturientov-zainteresovannykh-v-tselevoy-podgotovke/" class="fm-link-xs text-xs-dark">Целевая подготовка</a> <a href="/abiturientu/pravila-i-poryadok-priema/poryadok-priema-inostrannykh-grazhdan" class="fm-link-xs text-xs-dark">Иностранным гражданам</a> <a href="/abiturientu/tsentralizovannoe-testirovanie/" class="fm-link-xs text-xs-dark">Централизованное тестирование</a> <a href="/abiturientu/onlayn-kursy/" class="fm-link-xs text-xs-dark">Онлайн-курсы</a> <a href="/abiturientu/podgotovitelnoe-obuchenie/" class="fm-link-xs text-xs-dark">Подготовительное обучение</a> <a href="/abiturientu/normativnye-dokumenty/" class="fm-link-xs text-xs-dark">Нормативные документы</a> <a href="/abiturientu/kontrolnye-cifry-i-bally/" class="fm-link-xs text-xs-dark">Контрольные цифры приема</a> <a href="https://abitur.bsmu.by/" class="fm-link-xs text-xs-dark">Заполнить заявление абитуриента</a>
+				</div>
+			</div>
+			<div class="tab-content">
+				<div class="menu-content">
+ <a href="/student/raspisanie/" class="fm-link-xs text-xs-dark">Расписание</a> <a href="/student/kafedry/" class="fm-link-xs text-xs-dark">Кафедры</a> <a href="/student/polezno/" class="fm-link-xs text-xs-dark">Полезная информация</a> <a href="/student/pervokursniku/" class="fm-link-xs text-xs-dark">Первокурсник</a> <a href="http://rep.bsmu.by/" class="fm-link-xs text-xs-dark">Репозиторий</a> <a href="/universitet/uchebnaya-deyatelnost/obuchayushchie-elektronnye-informatsionnye-resursy-universiteta/" class="fm-link-xs text-xs-dark">Дистанционное обучение</a> <a href="/student/platnoe-obuchenie/" class="fm-link-xs text-xs-dark">Платное обучение</a> <a href="/universitet/podrazdeleniya/upravlenie-obrazovatelnoy-deyatelnosti/uchebniy-otdel/praktika/" class="fm-link-xs text-xs-dark">Практика</a> <a href="/student/perevod-i-vosstanovlenie-studentov/" class="fm-link-xs text-xs-dark">Перевод и восстановление студентов</a> <a href="https://www.bsmu.by/universitet/podrazdeleniya/respublikanskiy-tsentr-professionalnoy-attestatsii-i-simulyatsionnogo-obucheniya-meditsinskikh-farma/" class="fm-link-xs text-xs-dark">Республиканский центр профессиональной <br>
+					 аттестации и симуляционного обучения<br>
+					 медицинских, фармацевтических работников</a> <a href="/student/studencheskiy-gorodok/" class="fm-link-xs text-xs-dark">Студенческий городок</a> <a href="/student/studencheskiy-klub/" class="fm-link-xs text-xs-dark">Студенческий клуб</a> <a href="/student/sportivniy-klub/" class="fm-link-xs text-xs-dark">Спортивный клуб</a> <a href="/student/zdorovie/" class="fm-link-xs text-xs-dark">Здоровье</a> <a href="https://lk.bsmu.by/login/student" class="fm-link-xs text-xs-dark">Личный кабинет студента</a>
+				</div>
+			</div>
+			<div class="tab-content">
+				<div class="menu-content">
+ <a href="/vypusknikam/internatura/" class="fm-link-xs text-xs-dark">Интернатура</a> <a href="/vypusknikam/podderzhka-molodykh-spetsialistov-i-internov/" class="fm-link-xs text-xs-dark">Поддержка молодых специалистов и интернов</a> <a href="/vypusknikam/doctorantura-aspirantura/" class="fm-link-xs text-xs-dark">Докторантура/Аспирантура</a> <a href="/vypusknikam/klinicheskaya-ordinatura/" class="fm-link-xs text-xs-dark">Клиническая ординатура</a> <a href="/vypusknikam/yurist-vypuskniku/" class="fm-link-xs text-xs-dark">Юрист выпускнику</a> <a href="/vypusknikam/raspredelenie-pereraspredelenie/" class="fm-link-xs text-xs-dark">Распределние/Перераспределение</a> <a href="/vypusknikam/associaciya-vypusknikov-bgmu/" class="fm-link-xs text-xs-dark">Ассоциация выпускников БГМУ</a> <a href="/vypusknikam/associaciya-inostrannyh-vypusknikov-bgmu/" class="fm-link-xs text-xs-dark">Ассоциация иностранных выпускников</a> <a href="/vypusknikam/platnoe-obuchenie/" class="fm-link-xs text-xs-dark">Платное обучение</a>
+				</div>
+			</div>
+			<div class="tab-content">
+				<div class="menu-content">
+ <a href="https://www.bsmu.by/universitet/fakultety-institut/institut-povysheniya-kvalifikatsii-i-perepodgotovki-kadrov-zdravookhraneniya/perepodgotovka-i-povyshenie-kvalifikatsii-vrachey-ipkipkz/" class="fm-link-xs text-xs-dark">Переподготовка и повышение квалификации врачей</a> <a href="/vrachu-provizoru/protokoly-obsledovaniya-i-lecheniya/" class="fm-link-xs text-xs-dark">Протоколы обследования и лечения</a> <a href="/vrachu-provizoru/instrukcii-po-primeneniyu/" class="fm-link-xs text-xs-dark">Инструкции по применению</a> <a href="/publikacii/" class="fm-link-xs text-xs-dark">Публикации</a> <a href="https://pneu.bsmu.by/" class="fm-link-xs text-xs-dark">Диагностика врожденной пневмонии</a> <a href="https://sdo.bsmu.by/login/index.php" class="fm-link-xs text-xs-dark">Дистанционное обучение</a> <a href="/vrachu-provizoru/shkola-organizatora-zdravookhraneniya" class="fm-link-xs text-xs-dark">Школа организатора здравоохранения</a> <a href="/vrachu-provizoru/vrachu-stomatologu" class="fm-link-xs text-xs-dark">Врачу-стоматологу</a> <a href="/vrachu-provizoru/belorusskaya-associaciya-hirurgov/" class="fm-link-xs text-xs-dark">Белорусская ассоциация хирургов</a> <a href="/vrachu-provizoru/belorusskoe-nauchnoe-obshchestvo-morfologov/" class="fm-link-xs text-xs-dark">Белорусское научное общество морфологов</a> <a href="https://www.bsmu.by/universitet/podrazdeleniya/respublikanskiy-tsentr-professionalnoy-attestatsii-i-simulyatsionnogo-obucheniya-meditsinskikh-farma/otdel-attestatsii-rabotnikov-zdravookhraneniya/" class="fm-link-xs text-xs-dark">Аттестация</a> <a href="https://www.bsmu.by/universitet/podrazdeleniya/respublikanskiy-tsentr-professionalnoy-attestatsii-i-simulyatsionnogo-obucheniya-meditsinskikh-farma/" class="fm-link-xs text-xs-dark">Республиканский центр профессиональной <br>
+					 аттестации и симуляционного обучения<br>
+					 медицинских, фармацевтических работников</a> <a href="/vrachu-provizoru/oo-protivoepilepticheskaya-liga/" class="fm-link-xs text-xs-dark">ОО «Противоэпилептическая лига»</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="menu-bottom w-100 d-flex jc-sb">
+		<div class="menu-bottom-col col-100-xs">
+			<div class="theme-text">
+				 Контактная информация
+			</div>
+			<div class="menu-bottom-info mt-24">
+				<div class="mb-info-item text-xs">
+					 220083, г. Минск, пр. Дзержинского, 83
+				</div>
+				<div class="mb-info-item text-xs">
+					 Тел: <a href="tel:+375172521201">+375 17 252-12-01</a>
+				</div>
+				<div class="mb-info-item text-xs">
+					 Эл. почта: <a href="mailto:bsmu@bsmu.by"> bsmu@bsmu.by </a>
+				</div>
+ <a href="mailto:bsmu@bsmu.by"> </a>
+			</div>
+ <a href="mailto:bsmu@bsmu.by"> </a>
+		</div>
+ <a href="mailto:bsmu@bsmu.by">
+		<div class="menu-bottom-col col-100-xs">
+			<div class="text-xs">
+ <span class="text-xs-dark">© 1921—2023 Учреждение образования «Белорусский государственный медицинский университет».</span><br>
+				 При перепечатке текстовой информации и фотографий гиперссылка на сайт обязательна. Все права на графические и текстовые материалы принадлежат их авторам.
+			</div>
+			<div class="text-xs-dark mt-24">
+				 Разработано в Итач-софт
+			</div>
+		</div>
+ </a>
+		<div class="menu-bottom-col col-100-xs">
+ <a href="mailto:bsmu@bsmu.by"> </a>
+			<div class="menu-bottom-socials d-flex">
+ <a href="mailto:bsmu@bsmu.by"> </a><a href="https://vk.com/bsmu_official" class="social-link vk" target="_blank" rel="nofollow"></a> <a href="https://www.facebook.com/BSMU.BY" class="social-link fb" target="_blank" rel="nofollow"></a> <a href="https://www.instagram.com/bsmuniversity/" class="social-link inst" target="_blank" rel="nofollow"></a> <a href="https://www.youtube.com/user/BSMUniversity" class="social-link yt" target="_blank" rel="nofollow"></a> <a href="https://www.linkedin.com/school/belarusian-state-medical-university/" class="social-link lin" target="_blank" rel="nofollow"></a> <a href="https://twitter.com/bsmu_by" class="social-link twi" target="_blank" rel="nofollow"></a>
+				<!-- <a href="" class="social-link ok" target="_blank" rel="nofollow"></a> --> <a href="https://t.me/BSMU_official" class="social-link tg" target="_blank" rel="nofollow"></a><a href="https://www.tiktok.com/@bsmu_official?_t=8q16jiMhGCM&_r=1" class="social-link tiktok" target="_blank" rel="nofollow"></a>
+			</div>
+		</div>
+	</div>
+</div>
+ <br>		</div>
+	</div>
+
+	<div id="mobile-menu-fixed" class="mobile-menu-fixed menu-fixed hidden-mobile">
+		<div class="container">
+			<div class="mobile-menu-wrap menu-wrap">
+				<div class="mobile-menu-top menu-top w-100 d-flex jc-sb">
+					<div class="mobile-menu-search-wrap menu-search-wrap">
+						<form action="/search/index.php" class="rel w-100 d-flex al-center">
+	<IFRAME
+	style="width:0px; height:0px; border: 0px;"
+	src="javascript:''"
+	name="qT1YQ8m_div_frame"
+	id="qT1YQ8m_div_frame"
+></IFRAME><input
+			size="15"
+		name="q"
+	id="qT1YQ8m"
+	placeholder="Поиск..."
+	value=""
+	class="search-suggest search-input w-100"
+	type="text"
+	autocomplete="off"
+/>&nbsp;<input name="s" type="submit" value="" class="search-btn" />
+</form>					</div>
+					<div class="d-flex al-center jc-sb mt-24 w-100">
+						<div class="header-icons socials d-flex jc-sb al-center">
+	<a href="/en/" class="circle-link">EN</a>
+	<a href="/bel/" class="circle-link">BY</a>
+	<a href="/?special_version=Y" class="circle-link eye-icon"
+		rel="nofollow"></a>
+	<a href="/kontakty/" class="circle-link phone-icon" rel="nofollow"></a>
+</div>
+<div class="auth-link-wrap">
+	<a href="#" class="theme-link-b auth-link auth-link_mob d-flex al-center">Войти</a>
+</div>						<div id="mobile-menu-closer" class="closer-xl"></div>
+					</div>
+				</div>
+
+				<div class="dropdown-login-content_mobile">
+    <div class="wrap-dropdown-login">
+        <div class="inner-dropdown-login">
+            <a href="https://student.bsmu.by" target="_blank" class="link-login-wrap d-flex">
+                <div class="drowpdown-login-item-wrap">
+                    <div class="drowpdown-login-link drowpdown-login-student">
+                        <div class="drowpdown-login-item">Студенту</div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://lk.bsmu.by/login/student" target="_blank" class="link-login-wrap d-flex">
+                <div class="drowpdown-login-item-wrap">
+                    <div class="drowpdown-login-link drowpdown-login-student">
+                        <div class="drowpdown-login-item">Личный кабинет</div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://my.bsmu.by/" target="_blank" class="link-login-wrap d-flex">
+                <div class="drowpdown-login-item-wrap">
+                    <div class="drowpdown-login-link drowpdown-login-employee">
+                        <div class="drowpdown-login-item">Сотруднику</div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://cloud.bsmu.by/index.php/login" target="_blank" class="link-login-wrap d-flex">
+                <div class="drowpdown-login-item-wrap">
+                    <div class="drowpdown-login-link drowpdown-login-cloud">
+                        <div class="drowpdown-login-item">Облако</div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://webmail16.bsmu.by/owa" target="_blank" class="link-login-wrap d-flex">
+                <div class="drowpdown-login-item-wrap">
+                    <div class="drowpdown-login-link drowpdown-login-mail">
+                        <div class="drowpdown-login-item">Почта</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+				<div class="mobile-site-navigation site-navigation d-flex">
+ <a href="/universitet/" сlass="mobile-menu-item-link">Университет</a>
+	<div class="mobile-menu-item-line accordion">
+	</div>
+	<ul class="panel col-100-xs">
+		<li><a href="/universitet/uchebnaya-deyatelnost/" class="fm-link-xs text-xs-dark">Образовательная деятельность</a></li>
+		<li><a href="/universitet/nauchnaya-deyatelnost/" class="fm-link-xs text-xs-dark">Научная деятельность</a></li>
+		<li><a href="/universitet/molodyezhnaya-politika/" class="fm-link-xs text-xs-dark">Молодёжная политика</a></li>
+		<li><a href="/universitet/lechebnaya-deyatelnost/" class="fm-link-xs text-xs-dark">Медицинская деятельность</a></li>
+		<li><a href="/universitet/mezhdunarodnoe-sotrudnichestvo/" class="fm-link-xs text-xs-dark">Международное сотрудничество</a></li>
+		<li><a href="/universitet/podrazdeleniya/upravlenie-obrazovatelnoy-deyatelnosti/otdel-monitoringa-menedjmenta-kachestva/" class="fm-link-xs text-xs-dark">СМК</a></li>
+		<li><a href="/universitet/odno-okno/" class="fm-link-xs text-xs-dark">Одно окно</a> </li>
+		<li><a href="/universitet/rukovodstvo/" class="fm-link-xs text-xs-dark">Руководство</a></li>
+		<li><a href="/universitet/sovety/" class="fm-link-xs text-xs-dark">Советы</a></li>
+		<li><a href="/universitet/podrazdeleniya/" class="fm-link-xs text-xs-dark">Подразделения</a> </li>
+		<li><a href="/universitet/fakultety-institut/" class="fm-link-xs text-xs-dark">Факультеты, институты</a></li>
+		<li><a href="https://lib.bsmu.by/" class="fm-link-xs text-xs-dark">Библиотека</a></li>
+		<li><a href="/universitet/istoriya/" class="fm-link-xs text-xs-dark">История</a></li>
+		<li><a href="/nagrady/" class="fm-link-xs text-xs-dark">Награды</a></li>
+		<li> <a href="/universitet/pochetnye-doktora/" class="fm-link-xs text-xs-dark">Почетные доктора</a></li>
+		<li><a href="/universitet/gordost-universiteta/" class="fm-link-xs text-xs-dark">Гордость университета</a></li>
+		<li><a href="/universitet/izdaniya-universiteta/" class="fm-link-xs text-xs-dark">Издания университета</a></li>
+		<li> <a href="/universitet/ustav-i-simvolika/" class="fm-link-xs text-xs-dark">Устав и Символика</a></li>
+	</ul>
+ <a href="/abiturientu/" сlass="mobile-menu-item-link">Абитуриентам</a>
+	<div class="mobile-menu-item-line accordion">
+	</div>
+	<ul class="panel col-100-xs">
+                <li> <a href="https://www.bsmu.by/pk/" class="fm-link-xs text-xs-dark">Ход приема документов</a></li>		
+                <li><a href="/abiturientu/territoriya-postupleniya/" class="fm-link-xs text-xs-dark">Траектория поступления 2026</a></li>
+		<li><a href="https://abitur.bsmu.by/" class="fm-link-xs text-xs-dark">Личный кабинет абитуриента</a></li>
+		<li><a href="/abiturientu/territoriya-postupleniya/podgotovka-abiturientov-zainteresovannykh-v-tselevoy-podgotovke/" class="fm-link-xs text-xs-dark">Целевая подготовка</a></li>
+		<li><a href="/abiturientu/pravila-i-poryadok-priema/poryadok-priema-inostrannykh-grazhdan/" class="fm-link-xs text-xs-dark">Иностранным гражданам</a></li>
+		<li><a href="/abiturientu/tsentralizovannoe-testirovanie/" class="fm-link-xs text-xs-dark">Централизованное тестирование</a></li>
+		<li><a href="/abiturientu/onlayn-kursy/" class="fm-link-xs text-xs-dark">Онлайн-курсы</a></li>
+		<li><a href="/abiturientu/podgotovitelnoe-obuchenie/" class="fm-link-xs text-xs-dark">Подготовительное обучение</a></li>
+		<li><a href="/abiturientu/normativnye-dokumenty/" class="fm-link-xs text-xs-dark">Нормативные документы</a></li>
+		<li> <a href="/abiturientu/kontrolnye-cifry-i-bally/" class="fm-link-xs text-xs-dark">Контрольные цифры приема</a></li>
+		<li> <a href="https://abitur.bsmu.by/" class="fm-link-xs text-xs-dark">Заполнить заявление абитуриента</a></li>
+		
+	</ul>
+ <a href="/student/" сlass="mobile-menu-item-link">Обучающимся</a>
+	<div class="mobile-menu-item-line accordion">
+	</div>
+	<ul class="panel col-100-xs">
+		<li><a href="https://lk.bsmu.by/login/student" class="fm-link-xs text-xs-dark">Личный кабинет</a></li>
+		<li><a href="/student/raspisanie/" class="fm-link-xs text-xs-dark">Расписание</a></li>
+		<li><a href="/student/kafedry/" class="fm-link-xs text-xs-dark">Кафедры</a></li>
+		<li><a href="/student/polezno/" class="fm-link-xs text-xs-dark">Полезно</a></li>
+		<li><a href="/student/pervokursniku/" class="fm-link-xs text-xs-dark">Первокурснику</a></li>
+		<li><a href="http://rep.bsmu.by/" class="fm-link-xs text-xs-dark">Репозиторий</a></li>
+		<li> <a href="/universitet/uchebnaya-deyatelnost/obuchayushchie-elektronnye-informatsionnye-resursy-universiteta/?bitrix_include_areas=N" class="fm-link-xs text-xs-dark">Дистанционное обучение</a></li>
+		<li> <a href="/student/platnoe-obuchenie/" class="fm-link-xs text-xs-dark">Платное обучение</a></li>
+		<li><a href="/universitet/podrazdeleniya/upravlenie-obrazovatelnoy-deyatelnosti/uchebniy-otdel/praktika/" class="fm-link-xs text-xs-dark">Практика студентов</a></li>
+		<li><a href="/student/perevod-i-vosstanovlenie-studentov/" class="fm-link-xs text-xs-dark">Перевод и восстановление студентов</a></li>
+		<li><a href="https://www.bsmu.by/universitet/podrazdeleniya/respublikanskiy-tsentr-professionalnoy-attestatsii-i-simulyatsionnogo-obucheniya-meditsinskikh-farma/" class="fm-link-xs text-xs-dark">Республиканский центр профессиональной <br>
+		 аттестации и симуляционного обучения<br>
+		 медицинских, фармацевтических работников</a> </li>
+		<li> <a href="/student/studencheskiy-gorodok/" class="fm-link-xs text-xs-dark">Студенческий городок</a> </li>
+		<li><a href="/student/studencheskiy-klub/" class="fm-link-xs text-xs-dark">Студенческий клуб</a> </li>
+		<li><a href="/student/sportivniy-klub/" class="fm-link-xs text-xs-dark">Спортивный клуб</a></li>
+		<li><a href="/student/zdorovie/" class="fm-link-xs text-xs-dark">Здоровье</a></li>
+	</ul>
+ <a href="/vypusknikam/" сlass="mobile-menu-item-link">Выпускникам</a>
+	<div class="mobile-menu-item-line accordion">
+	</div>
+	<ul class="panel col-100-xs">
+		<li><a href="/vypusknikam/internatura/" class="fm-link-xs text-xs-dark">Интернатура</a></li>
+		<li><a href="/vypusknikam/podderzhka-molodykh-spetsialistov-i-internov/" class="fm-link-xs text-xs-dark">Поддержка молодых специалистов и интернов</a></li>
+		<li><a href="/vypusknikam/doctorantura-aspirantura/" class="fm-link-xs text-xs-dark">Аспирантура/Докторантура</a></li>
+		<li><a href="/vypusknikam/klinicheskaya-ordinatura/" class="fm-link-xs text-xs-dark">Клиническая ординатура</a></li>
+		<li><a href="/vypusknikam/yurist-vypuskniku/" class="fm-link-xs text-xs-dark">Юрист выпускнику</a></li>
+		<li><a href="/vypusknikam/raspredelenie-pereraspredelenie/" class="fm-link-xs text-xs-dark">Распределение, перераспределение</a></li>
+		<li><a href="/vypusknikam/associaciya-vypusknikov-bgmu/" class="fm-link-xs text-xs-dark">Ассоциация выпускников МГМИ/БГМУ</a></li>
+		<li> <a href="/vypusknikam/associaciya-inostrannyh-vypusknikov-bgmu/" class="fm-link-xs text-xs-dark">Ассоциация иностранных выпускников</a></li>
+		<li> <a href="/vypusknikam/platnoe-obuchenie/" class="fm-link-xs text-xs-dark">Платное обучение</a></li>
+	</ul>
+ <a href="/vrachu-provizoru/" сlass="mobile-menu-item-link">Врачу/Провизору</a>
+	<div class="mobile-menu-item-line accordion">
+	</div>
+	<ul class="panel col-100-xs">
+		<li><a href="https://www.bsmu.by/universitet/podrazdeleniya/respublikanskiy-tsentr-professionalnoy-attestatsii-i-simulyatsionnogo-obucheniya-meditsinskikh-farma/" class="fm-link-xs text-xs-dark">Республиканский центр профессиональной <br>
+		 аттестации и симуляционного обучения<br>
+		 медицинских, фармацевтических работников</a></li>
+		<li> <a href="/vrachu-provizoru/protokoly-obsledovaniya-i-lecheniya/" class="fm-link-xs text-xs-dark">Протоколы обследования и лечения</a></li>
+		<li> <a href="/vrachu-provizoru/instrukcii-po-primeneniyu/" class="fm-link-xs text-xs-dark">Инструкции по применению</a> </li>
+		<li><a href="/vrachu-provizoru/publikatsii/" class="fm-link-xs text-xs-dark">Публикации</a></li>
+		<li><a href="https://pneu.bsmu.by/" target="_blank" class="fm-link-xs text-xs-dark">Диагностика врожденной пневмонии</a></li>
+		<li><a href="https://ipk.bsmu.by/perepodgotovka-i-povyishenie-kvalifikaczii.html" class="fm-link-xs text-xs-dark">Повышение квалификации</a></li>
+		<li><a href="https://sdo.bsmu.by/login/index.php" target="_blank" class="fm-link-xs text-xs-dark">Дистанционное обучение</a></li>
+		<li><a href="/vrachu-provizoru/shkola-organizatora-zdravookhraneniya/" class="fm-link-xs text-xs-dark">Школа организатора здравоохранения </a></li>
+		<li><a href="/vrachu-provizoru/vrachu-stomatologu" class="fm-link-xs text-xs-dark">Врачу-стоматологу</a></li>
+		<li><a href="/vrachu-provizoru/belorusskaya-associaciya-hirurgov/" class="fm-link-xs text-xs-dark">Белорусская ассоциация хирургов</a></li>
+		<li> <a href="/vrachu-provizoru/belorusskoe-nauchnoe-obshchestvo-morfologov/" class="fm-link-xs text-xs-dark">Белорусское научное общество морфологов</a></li>
+		<li> <a href="/vrachu-provizoru/oo-protivoepilepticheskaya-liga/" class="fm-link-xs text-xs-dark">ОО «Противоэпилептическая лига»</a></li>
+		<li> <a href="https://www.bsmu.by/universitet/podrazdeleniya/respublikanskiy-tsentr-professionalnoy-attestatsii-i-simulyatsionnogo-obucheniya-meditsinskikh-farma/otdel-attestatsii-rabotnikov-zdravookhraneniya/" class="fm-link-xs text-xs-dark">Аттестация</a></li>
+	</ul>
+ <a href="/meropriyatiya" сlass="mobile-menu-item-link">Мероприятия</a>
+</div>
+<div class="ml-bottom">
+	<div class="fm-link">
+ <a href="/kontakty/" class="theme-text">Контакты</a>
+	</div>
+	<div class="fm-link">
+ <a href="/faq/vopros-otvet/" class="theme-text">Вопрос-ответ</a>
+	</div>
+	 <!--	<div class="fm-link"><a href="" class="theme-text">Электронные обращения граждан</a></div> -->
+	<div class="fm-link">
+ <a href="/map/" class="theme-text">Карта сайта</a>
+	</div>
+</div>
+<div class="mobile-menu-bottom-col menu-bottom-col col-100-xs bb-styled">
+	<div class="mobile-menu-bottom-socials menu-bottom-socials d-flex w-100 jc-sb">
+ <a href="https://vk.com/bsmu_official" class="social-link vk" target="_blank" rel="nofollow"></a> <a href="https://www.facebook.com/BSMU.BY" class="social-link fb" target="_blank" rel="nofollow"></a> <a href="https://www.instagram.com/bsmuniversity/" class="social-link inst" target="_blank" rel="nofollow"></a> <a href="https://www.youtube.com/user/BSMUniversity" class="social-link yt" target="_blank" rel="nofollow"></a> <a href="https://www.linkedin.com/school/belarusian-state-medical-university/" class="social-link lin" target="_blank" rel="nofollow"></a> <a href="https://twitter.com/bsmu_by" class="social-link twi" target="_blank" rel="nofollow"></a>
+		<!-- <a href="" class="social-link ok" target="_blank" rel="nofollow"></a> --> <a href="https://t.me/BSMU_official" class="social-link tg" target="_blank" rel="nofollow"></a> <a href="https://www.tiktok.com/@bsmu_official?_t=8q16jiMhGCM&_r=1" class="social-link tiktok" target="_blank" rel="nofollow"></a>
+	</div>
+</div>
+<div class="mobile-menu-bottom menu-bottom w-100 d-flex jc-sb">
+	<div class="mobile-menu-bottom-col menu-bottom-col col-100-xs">
+		<div class="theme-text">
+			 Контактная информация
+		</div>
+		<div class="mobile-menu-bottom-info menu-bottom-info mt-24">
+			<div class="mb-info-item text-xs">
+				 220083, г. Минск, пр. Дзержинского, 83
+			</div>
+			<div class="mb-info-item text-xs">
+				 Тел: <a href="tel:+375172521201">+375 17 252-12-01</a>
+			</div>
+			<div class="mb-info-item text-xs">
+				 Эл. почта: <a href="mailto:bsmu@bsmu.by"> bsmu@bsmu.by </a>
+			</div>
+ <a href="mailto:bsmu@bsmu.by"> </a>
+		</div>
+	</div>
+ <a href="mailto:bsmu@bsmu.by"> </a>
+	<div class="mobile-menu-bottom-col menu-bottom-col col-100-xs">
+ <a href="mailto:bsmu@bsmu.by">
+		<div class="text-xs">
+ <span class="text-xs-dark">© 1921—2023 Учреждение образования «Белорусский государственный медицинский университет».</span><br>
+			 При перепечатке текстовой информации и фотографий гиперссылка на сайт обязательна. Все права на графические и текстовые материалы принадлежат их авторам.
+		</div>
+ </a>
+		<div class="text-xs-dark mt-24">
+ <a href="mailto:bsmu@bsmu.by"></a><a href="https://itach.by/" target="_blank">Разработано в Итач-софт</a>
+		</div>
+	</div>
+</div>
+ <br>
+			</div>
+		</div>
+	</div>
+         <h1 style="display: none" id="pagetitle">Белорусский государственный медицинский университет</h1>
+        <div class="mainpage">
+
+<div class="top-slider-wrap">
+	<div class="top-slider swiper-container">
+		<div class="swiper-wrapper">
+							<div class="top-slide swiper-slide">
+									<a href="https://www.bsmu.by/universitet/molodyezhnaya-politika/vii-vsebelorusskoe-narodnoe-sobranie/">					<div class="top-banner hidden-xs w-100">
+						<img src="/upload/dev2fun.imagecompress/webp/iblock/d32/s08rv302o6uk1c7bdtc7ygp7qpaz6zl6/vns3.webp" title="VII Всебелорусское народное собрание" alt="VII Всебелорусское народное собрание" />
+					</div>
+					<div class="top-banner top-mobile-banner visible-xs w-100">
+													<img src="/upload/dev2fun.imagecompress/webp/iblock/b80/mdux14by4zudzhtcfy2qdwxsit9p80o5/vns3_3.webp" title="VII Всебелорусское народное собрание" alt="VII Всебелорусское народное собрание" />
+											</div>
+					<div class="top-slider-info w-100">
+						<div class="container">
+							<div class="title top-banner-title">VII Всебелорусское народное собрание</div>
+							<div class="text top-banner-text mt-32">Подробнее...</div>
+						</div>
+					</div>
+					</a>				</div>
+							<div class="top-slide swiper-slide">
+									<div class="top-banner hidden-xs w-100">
+						<img src="/upload/dev2fun.imagecompress/webp/iblock/e20/hxf4mg7k0zqw3f8zztoxtyarehv9qz2k/Group_640_1_.webp" title="БГМУ —  ведущий белорусский медицинский университет" alt="БГМУ —  ведущий белорусский медицинский университет" />
+					</div>
+					<div class="top-banner top-mobile-banner visible-xs w-100">
+													<img src="/upload/dev2fun.imagecompress/webp/iblock/2fe/ftsd030luz6qxh6rfb83jx33ozjqtwy0/bg-_2_-_3_.webp" title="БГМУ —  ведущий белорусский медицинский университет" alt="БГМУ —  ведущий белорусский медицинский университет" />
+											</div>
+					<div class="top-slider-info w-100">
+						<div class="container">
+							<div class="title top-banner-title">БГМУ —  ведущий белорусский медицинский университет</div>
+							<div class="text top-banner-text mt-32">В стенах университета за столетнее существование подготовлено более 50 тысяч высококвалифицированных специалистов.</div>
+						</div>
+					</div>
+									</div>
+							<div class="top-slide swiper-slide">
+									<div class="top-banner hidden-xs w-100">
+						<img src="/upload/dev2fun.imagecompress/webp/iblock/5de/cj9a3ywj1v058ak87xafu7a326b4eqcn/main_slider_2-_1_.webp" title="БГМУ  —  сплав науки и практики" alt="БГМУ  —  сплав науки и практики" />
+					</div>
+					<div class="top-banner top-mobile-banner visible-xs w-100">
+													<img src="/upload/dev2fun.imagecompress/webp/iblock/425/21nc3406c2gc1w72xjqu8373ubt1ftp1/main_slider_2.webp" title="БГМУ  —  сплав науки и практики" alt="БГМУ  —  сплав науки и практики" />
+											</div>
+					<div class="top-slider-info w-100">
+						<div class="container">
+							<div class="title top-banner-title">БГМУ  —  сплав науки и практики</div>
+							<div class="text top-banner-text mt-32">Ежегодно высококвалифицированным преподавательским составом разрабатываются и внедряются уникальные методики лечения, а также выполняется существенное количество сложных операций, консультаций, различных манипуляций.<br></div>
+						</div>
+					</div>
+									</div>
+							<div class="top-slide swiper-slide">
+									<div class="top-banner hidden-xs w-100">
+						<img src="/upload/dev2fun.imagecompress/webp/iblock/89a/wdlykc7z2xw4k7x4hr6ny31gvqy6is3d/bg-_5_.webp" title="БГМУ — научный лидер" alt="БГМУ — научный лидер" />
+					</div>
+					<div class="top-banner top-mobile-banner visible-xs w-100">
+													<img src="/upload/dev2fun.imagecompress/webp/iblock/f34/4428lr6fkr081a73cbhl4ifuy83pw7q2/main_slider_4_mob.webp" title="БГМУ — научный лидер" alt="БГМУ — научный лидер" />
+											</div>
+					<div class="top-slider-info w-100">
+						<div class="container">
+							<div class="title top-banner-title">БГМУ — научный лидер</div>
+							<div class="text top-banner-text mt-32">На протяжении многих лет университет является организацией-лидером по результатам научной деятельности.</div>
+						</div>
+					</div>
+									</div>
+					</div>
+		<div class="top-slider-nav-container rel">
+			<div class="top-slider-nav">
+				<div class="swiper-button swiper-button-prev swiper-btn-custom-prev"></div>
+				<div class="swiper-button swiper-button-next swiper-btn-custom-next"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<style>
+	.top-slider-wrap .swiper-button,
+	.top-slider-wrap .navButtons li a {
+		border: 1px solid #ffffff;
+		background-image: url(/images/icons/link-arr-wh.svg);
+	}
+</style>    <div class="theme-1">
+        <div class="container">
+            <div class="title-wrap d-flex al-end jc-sb">
+                <h2 class="title">Новости</h2>
+                <div class="d-flex al-center jc-sb news-section-list-wrap news-section-main">
+                    
+<div class="d-flex al-center news-section-list">
+	
+	<ul class='d-flex al-center news-section-list'>
+			<li class='d-flex news-section-link-wrap'>			<a class="text news-section-link col-100-xs " href="/novosti/?">Все</a>
+			</li><li class='d-flex news-section-link-wrap'><a class='text news-section-link' href='/anonsy/'>Анонсы</a></li>		
+			<li id="bx_1847241719_12" class="d-flex news-section-link-wrap">
+			<a class="text news-section-link" href="/novosti/vospitatelnye/?">Идеологические и воспитательные</a>		</li>		
+			<li id="bx_1847241719_9" class="d-flex news-section-link-wrap">
+			<a class="text news-section-link" href="/novosti/mezhdunarodnye/?">Международные</a>		</li>		
+			<li id="bx_1847241719_10" class="d-flex news-section-link-wrap">
+			<a class="text news-section-link" href="/novosti/obshcheuniversitetskie/?">Общеуниверситетские</a>		</li>		
+			<li id="bx_1847241719_445" class="d-flex news-section-link-wrap">
+			<a class="text news-section-link" href="/novosti/sportivnye/?">Спортивные</a>		</li>		
+			<li id="bx_1847241719_11" class="d-flex news-section-link-wrap">
+			<a class="text news-section-link" href="/novosti/uchebnye/?">Учебные</a>		</li>
+	</ul>
+</div>                    <div class="news-link-wrap">
+                        <a class="theme-link" href="/novosti/">Все новости</a>
+                    </div>
+                </div>
+            </div>
+            <div class="news-wrap bb-styled d-flex w-100">
+                
+
+	<a href="/novosti/uchebnye/naznachenie-ezhemesyachnykh-stipendiy-uchenym-bgmu-na-2026-god/" class="news-item col-100-xs">
+		<div class="news-pic">
+							<img class="lazy" data-src="/upload/dev2fun.imagecompress/webp/iblock/d17/4g6wl8519pug7be2dnpkwkdtbjhnysu7/main_0.webp" alt="Назначение ежемесячных стипендий ученым БГМУ на 2026 год"
+					title="Назначение ежемесячных стипендий ученым БГМУ на 2026 год">
+					</div>
+		<div class="news-info">
+					<div class="news-date text-xs">
+				28.01.2026			</div>
+					<h3 class="subtitle news-name w-100">
+				Назначение ежемесячных стипендий ученым БГМУ на 2026 год			</h3>
+		</div>
+	</a>
+	<a href="/novosti/vospitatelnye/otkrytyy-dialog-s-igorem-marzalyukom/" class="news-item col-100-xs">
+		<div class="news-pic">
+							<img class="lazy" data-src="/upload/dev2fun.imagecompress/webp/iblock/441/sz524xnvowegom2qklem6i9gxyezj2hu/mraz_0.webp" alt="Открытый диалог с Игорем Марзалюком"
+					title="Открытый диалог с Игорем Марзалюком">
+					</div>
+		<div class="news-info">
+					<div class="news-date text-xs">
+				27.01.2026			</div>
+					<h3 class="subtitle news-name w-100">
+				Открытый диалог с Игорем Марзалюком			</h3>
+		</div>
+	</a>
+	<a href="/novosti/obshcheuniversitetskie/kogda-nauka-vstrechaet-iskusstvo-priglashaem-dlya-uchastiya-v-tvorcheskom-konkurse-posvyashchyennom-/" class="news-item col-100-xs">
+		<div class="news-pic">
+							<img class="lazy" data-src="/upload/dev2fun.imagecompress/webp/iblock/27c/szyvl50kzkrp5crln5i1thsemrwszkv0/main.webp" alt="Когда наука встречает искусство: приглашаем для участия в творческом конкурсе, посвящённом 105-летию Белорусского государственного медицинского университета!"
+					title="Когда наука встречает искусство: приглашаем для участия в творческом конкурсе, посвящённом 105-летию Белорусского государственного медицинского университета!">
+					</div>
+		<div class="news-info">
+					<div class="news-date text-xs">
+				27.01.2026			</div>
+					<h3 class="subtitle news-name w-100">
+				Когда наука встречает искусство: приглашаем для участия в творческом конкурсе, посвящённом 105-летию Белорусского государственного медицинского университета!			</h3>
+		</div>
+	</a>
+
+                <div class="news-link-wrap  news-section-main-link">
+                    <a class="theme-link" href="/novosti/">Все новости</a>
+                </div>
+            </div>
+            <div class="news-section-main">
+                                <div id="comp_9ece564aef2a8e5609ff91ff0997e21e">
+<div class="news-wrap-xs d-flex w-100 mt-32">
+			<a href="/novosti/mezhdunarodnye/sovet-po-zashchite-dissertatsiy/" class="news-item-xs col-100-xs">
+							<div class="news-date text-xs">27.01.2026</div>
+						<h3 class="subtitle-2 news-name w-100">Совет по защите диссертаций</h3>
+		</a>
+			<a href="/novosti/uchebnye/nauchnaya-sessiya-v-bgmu-dostizheniya-i-perspektivy/" class="news-item-xs col-100-xs">
+							<div class="news-date text-xs">26.01.2026</div>
+						<h3 class="subtitle-2 news-name w-100">Научная сессия в БГМУ: достижения и перспективы</h3>
+		</a>
+			<a href="/novosti/obshcheuniversitetskie/nauka-budushchego-studenty-bgmu-sredi-finalistov-i-pobediteley-konkursa/" class="news-item-xs col-100-xs">
+							<div class="news-date text-xs">26.01.2026</div>
+						<h3 class="subtitle-2 news-name w-100">Наука будущего: студенты БГМУ среди финалистов и победителей конкурса</h3>
+		</a>
+			<a href="/novosti/vospitatelnye/uvazhaemye-studenty-i-sotrudniki-belorusskogo-gosudarstvennogo-meditsinskogo-universiteta/" class="news-item-xs col-100-xs">
+							<div class="news-date text-xs">23.01.2026</div>
+						<h3 class="subtitle-2 news-name w-100">Уважаемые студенты и сотрудники Белорусского государственного медицинского университета!</h3>
+		</a>
+	</div></div>            </div>
+        </div>
+    </div>
+    <div class="theme-1">
+        <div class="container">
+            <div class="d-flex about-wrap w-100">
+                <div class="col-50 col-100-xs">
+                    <div class="video-col rel">
+	<div class="pulse-elem pulse-elem-1 hidden-xs">
+		 <!-- <span class="pulse-rings"></span> --> <span class="pulse-rings"></span> <span class="pulse-rings"></span>
+		<div class="pulse-item-info t-right">
+			<div class="number-xl">
+				 9
+			</div>
+			<div class="theme-text mt-8">
+				 факультетов и 3&nbsp;института
+			</div>
+		</div>
+	</div>
+	<div class="pulse-elem pulse-elem-2 hidden-xs active">
+		 <!-- <span class="pulse-rings"></span> --> <span class="pulse-rings"></span> <span class="pulse-rings"></span>
+		<div class="pulse-item-info">
+			<div class="number-xl">
+				 100+
+			</div>
+			<div class="theme-text mt-8">
+				 лет со дня основания
+			</div>
+		</div>
+	</div>
+	<div class="pulse-elem pulse-elem-3 hidden-xs">
+		 <!-- <span class="pulse-rings"></span> --> <span class="pulse-rings"></span> <span class="pulse-rings"></span>
+		<div class="pulse-item-info">
+			<div class="number-xl">
+				 7000+
+			</div>
+			<div class="theme-text mt-8">
+				 обучающихся
+			</div>
+		</div>
+	</div>
+	<div class="pulse-elem pulse-elem-4 hidden-xs">
+		 <!-- <span class="pulse-rings"></span> --> <span class="pulse-rings"></span> <span class="pulse-rings"></span>
+		<div class="pulse-item-info">
+			<div class="number-xl">
+				 1550+
+			</div>
+			<div class="theme-text mt-8">
+				 преподавателей
+			</div>
+		</div>
+	</div>
+ <a data-fslightbox="video" href="https://www.youtube.com/watch?v=VVk-w2FNeIo" class="video-player animated"></a>
+</div>
+ <br>                </div>
+                <div class="col-50 col-100-xs">
+                    <div class="title">
+                        Об университете
+                    </div>
+                    <div class="d-flex w-100 about-top-block">
+                        <div class="col-50 col-100-xs about-top-col mob-pd-0">
+                            <div class="subtitle">
+                                Ведущее учреждение высшего медицинского образования в Республики Беларусь, имеющее заслуженный международный авторитет и признание.                            </div>
+                        </div>
+                        <div class="col-50 col-100-xs about-top-col mob-pd-0">
+                            <div class="subtitle">
+                                Начало истории датируется 1921 годом, когда было объявлено об открытии медицинского факультета.                            </div>
+                        </div>
+                    </div>
+                    <div class="text-xs about-text">
+                        Сегодня образовательный процесс в университете организован на 9 факультетах: лечебном; стоматологическом; педиатрическом; медико-профилактическом; фармацевтическом; медицинском факультете иностранных учащихся; профориентации и довузовской подготовки, военно-медицинский факультет, факультет дополнительного образования работников здравоохранения и 3 институтах: военно-медицинском и повышения квалификации и переподготовки кадров здравоохранения, научно-исследовательском институте экспериментальной и клинической медицины. В университете обучаются свыше 7500 студентов, аспирантов, клинических ординаторов, в том числе более 2000 иностранных граждан из более 50 стран мира получают образование на русском и английском языках.                    </div>
+                    <div class="link-wrap">
+                        <a class="theme-link" href="/universitet/">Подробнее об университете</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="theme-back info-slider-wrap rel">
+	<div class="info-slider swiper-container">
+		<div class="swiper-wrapper">
+										<div class="info-slide swiper-slide d-flex w-100">
+					<div class="info-slide-content d-flex w-100">
+						<div class="info-slider-elem  info-slider-elem-2  hidden-xs"></div>
+						<div class="info-slide-text col-50 col-100-xs">
+														<div class="title">Аттестация медицинских, фармацевтических и иных работников здравоохранения</div>
+							<div class="text-xs info-slider-text content-text" style="max-width: 579px;">
+															</div>
+							<div class="link-wrap">
+								<a class="theme-link theme-link-xl" href="https://www.bsmu.by/universitet/podrazdeleniya/respublikanskiy-tsentr-professionalnoy-attestatsii-i-simulyatsionnogo-obucheniya-meditsinskikh-farma/otdel-attestatsii-rabotnikov-zdravookhraneniya/">Подробнее</a>
+							</div>
+						</div>
+						<div class="info-slide-pic pic-wrap col-50 col-100-xs">
+							<svg height="100%" width="100%" viewbox="0,0,650,490">
+								<defs>
+									<filter id="blur5">
+										<feGaussianBlur in="SourceGraphic" stdDeviation="5" />
+									</filter>
+									<filter id="blur4">
+										<feGaussianBlur in="SourceGraphic" stdDeviation="4.4" />
+									</filter>
+									<filter id="blur3">
+										<feGaussianBlur in="SourceGraphic" stdDeviation="4" />
+									</filter>
+									<filter id="blur2">
+										<feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+									</filter>
+									<filter id="blur1">
+										<feGaussianBlur in="SourceGraphic" stdDeviation="1" />
+									</filter>
+									<mask id="mask10">
+										<rect x="0.5%" y="0.5%" width="99.5%" height="99.5%" fill="white" />
+									</mask>
+									<mask id="mask20">
+										<rect x="1%" y="1%" width="99%" height="99%" fill="white" />
+									</mask>
+									<mask id="mask30">
+										<rect x="1.5%" y="1.5%" width="97%" height="97%" fill="white" />
+									</mask>
+									<mask id="mask40">
+										<rect x="2%" y="2%" width="96%" height="96%" fill="white" />
+									</mask>
+									<mask id="mask50">
+										<rect x="2.5%" y="2.5%" width="95%" height="95%" fill="white" />
+									</mask>
+									<image id="img0" width="100%" height="100%" xlink:href="/upload/dev2fun.imagecompress/webp/iblock/6aa/k65zmy3lykro1j0962lwtzozz7ugq74z/attestatsiya2.webp" />
+								</defs>
+
+
+								<use xlink:href="#img0" filter="url(#blur5)" />
+								<use xlink:href="#img0" mask="url(#mask10)" filter="url(#blur5)" />
+								<use xlink:href="#img0" mask="url(#mask20)" filter="url(#blur4)" />
+								<use xlink:href="#img0" mask="url(#mask30)" filter="url(#blur3)" />
+								<use xlink:href="#img0" mask="url(#mask50)" />
+							</svg>
+							<!--<img src="/upload/dev2fun.imagecompress/webp/iblock/6aa/k65zmy3lykro1j0962lwtzozz7ugq74z/attestatsiya2.webp" alt="Аттестация медицинских, фармацевтических и иных работников здравоохранения" title="Аттестация медицинских, фармацевтических и иных работников здравоохранения" /> -->
+						</div>
+					</div>
+				</div>
+											<div class="info-slide swiper-slide d-flex w-100">
+					<div class="info-slide-content d-flex w-100">
+						<div class="info-slider-elem  hidden-xs"></div>
+						<div class="info-slide-text col-50 col-100-xs">
+														<div class="title">2026 год белорусской женщины</div>
+							<div class="text-xs info-slider-text content-text" style="max-width: 579px;">
+															</div>
+							<div class="link-wrap">
+								<a class="theme-link theme-link-xl" href="https://www.bsmu.by/universitet/molodyezhnaya-politika/2026-god-belorusskoy-zhenshchiny/">Подробнее</a>
+							</div>
+						</div>
+						<div class="info-slide-pic pic-wrap col-50 col-100-xs">
+							<svg height="100%" width="100%" viewbox="0,0,650,490">
+								<defs>
+									<filter id="blur5">
+										<feGaussianBlur in="SourceGraphic" stdDeviation="5" />
+									</filter>
+									<filter id="blur4">
+										<feGaussianBlur in="SourceGraphic" stdDeviation="4.4" />
+									</filter>
+									<filter id="blur3">
+										<feGaussianBlur in="SourceGraphic" stdDeviation="4" />
+									</filter>
+									<filter id="blur2">
+										<feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+									</filter>
+									<filter id="blur1">
+										<feGaussianBlur in="SourceGraphic" stdDeviation="1" />
+									</filter>
+									<mask id="mask10">
+										<rect x="0.5%" y="0.5%" width="99.5%" height="99.5%" fill="white" />
+									</mask>
+									<mask id="mask20">
+										<rect x="1%" y="1%" width="99%" height="99%" fill="white" />
+									</mask>
+									<mask id="mask30">
+										<rect x="1.5%" y="1.5%" width="97%" height="97%" fill="white" />
+									</mask>
+									<mask id="mask40">
+										<rect x="2%" y="2%" width="96%" height="96%" fill="white" />
+									</mask>
+									<mask id="mask50">
+										<rect x="2.5%" y="2.5%" width="95%" height="95%" fill="white" />
+									</mask>
+									<image id="img1" width="100%" height="100%" xlink:href="/upload/dev2fun.imagecompress/webp/iblock/c62/men9eea4b46gydqv91kt2dfhs47ixp6c/2026.webp" />
+								</defs>
+
+
+								<use xlink:href="#img1" filter="url(#blur5)" />
+								<use xlink:href="#img1" mask="url(#mask10)" filter="url(#blur5)" />
+								<use xlink:href="#img1" mask="url(#mask20)" filter="url(#blur4)" />
+								<use xlink:href="#img1" mask="url(#mask30)" filter="url(#blur3)" />
+								<use xlink:href="#img1" mask="url(#mask50)" />
+							</svg>
+							<!--<img src="/upload/dev2fun.imagecompress/webp/iblock/c62/men9eea4b46gydqv91kt2dfhs47ixp6c/2026.webp" alt="2026 год белорусской женщины" title="2026 год белорусской женщины" /> -->
+						</div>
+					</div>
+				</div>
+											<div class="info-slide swiper-slide d-flex w-100">
+					<div class="info-slide-content d-flex w-100">
+						<div class="info-slider-elem  info-slider-elem-2  hidden-xs"></div>
+						<div class="info-slide-text col-50 col-100-xs">
+														<div class="title">Мероприятия, организуемые Конгресс-оператором БГМУ</div>
+							<div class="text-xs info-slider-text content-text" style="max-width: 579px;">
+															</div>
+							<div class="link-wrap">
+								<a class="theme-link theme-link-xl" href="https://www.bsmu.by/meropriyatiya/">Подробнее</a>
+							</div>
+						</div>
+						<div class="info-slide-pic pic-wrap col-50 col-100-xs">
+							<svg height="100%" width="100%" viewbox="0,0,650,490">
+								<defs>
+									<filter id="blur5">
+										<feGaussianBlur in="SourceGraphic" stdDeviation="5" />
+									</filter>
+									<filter id="blur4">
+										<feGaussianBlur in="SourceGraphic" stdDeviation="4.4" />
+									</filter>
+									<filter id="blur3">
+										<feGaussianBlur in="SourceGraphic" stdDeviation="4" />
+									</filter>
+									<filter id="blur2">
+										<feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+									</filter>
+									<filter id="blur1">
+										<feGaussianBlur in="SourceGraphic" stdDeviation="1" />
+									</filter>
+									<mask id="mask10">
+										<rect x="0.5%" y="0.5%" width="99.5%" height="99.5%" fill="white" />
+									</mask>
+									<mask id="mask20">
+										<rect x="1%" y="1%" width="99%" height="99%" fill="white" />
+									</mask>
+									<mask id="mask30">
+										<rect x="1.5%" y="1.5%" width="97%" height="97%" fill="white" />
+									</mask>
+									<mask id="mask40">
+										<rect x="2%" y="2%" width="96%" height="96%" fill="white" />
+									</mask>
+									<mask id="mask50">
+										<rect x="2.5%" y="2.5%" width="95%" height="95%" fill="white" />
+									</mask>
+									<image id="img2" width="100%" height="100%" xlink:href="/upload/dev2fun.imagecompress/webp/iblock/098/q37uw2u85nb55qxb18cjtmd0iilt9wjt/konf.webp" />
+								</defs>
+
+
+								<use xlink:href="#img2" filter="url(#blur5)" />
+								<use xlink:href="#img2" mask="url(#mask10)" filter="url(#blur5)" />
+								<use xlink:href="#img2" mask="url(#mask20)" filter="url(#blur4)" />
+								<use xlink:href="#img2" mask="url(#mask30)" filter="url(#blur3)" />
+								<use xlink:href="#img2" mask="url(#mask50)" />
+							</svg>
+							<!--<img src="/upload/dev2fun.imagecompress/webp/iblock/098/q37uw2u85nb55qxb18cjtmd0iilt9wjt/konf.webp" alt="Мероприятия, организуемые Конгресс-оператором БГМУ" title="Мероприятия, организуемые Конгресс-оператором БГМУ" /> -->
+						</div>
+					</div>
+				</div>
+											<div class="info-slide swiper-slide d-flex w-100">
+					<div class="info-slide-content d-flex w-100">
+						<div class="info-slider-elem  hidden-xs"></div>
+						<div class="info-slide-text col-50 col-100-xs">
+														<div class="title">Геноцид белорусского народа в годы Великой Отечественной войны</div>
+							<div class="text-xs info-slider-text content-text" style="max-width: 579px;">
+															</div>
+							<div class="link-wrap">
+								<a class="theme-link theme-link-xl" href="/universitet/genotsid-belorusskogo-naroda-v-gody-velikoy-otechestvennoy-voyny">Подробнее</a>
+							</div>
+						</div>
+						<div class="info-slide-pic pic-wrap col-50 col-100-xs">
+							<svg height="100%" width="100%" viewbox="0,0,650,490">
+								<defs>
+									<filter id="blur5">
+										<feGaussianBlur in="SourceGraphic" stdDeviation="5" />
+									</filter>
+									<filter id="blur4">
+										<feGaussianBlur in="SourceGraphic" stdDeviation="4.4" />
+									</filter>
+									<filter id="blur3">
+										<feGaussianBlur in="SourceGraphic" stdDeviation="4" />
+									</filter>
+									<filter id="blur2">
+										<feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+									</filter>
+									<filter id="blur1">
+										<feGaussianBlur in="SourceGraphic" stdDeviation="1" />
+									</filter>
+									<mask id="mask10">
+										<rect x="0.5%" y="0.5%" width="99.5%" height="99.5%" fill="white" />
+									</mask>
+									<mask id="mask20">
+										<rect x="1%" y="1%" width="99%" height="99%" fill="white" />
+									</mask>
+									<mask id="mask30">
+										<rect x="1.5%" y="1.5%" width="97%" height="97%" fill="white" />
+									</mask>
+									<mask id="mask40">
+										<rect x="2%" y="2%" width="96%" height="96%" fill="white" />
+									</mask>
+									<mask id="mask50">
+										<rect x="2.5%" y="2.5%" width="95%" height="95%" fill="white" />
+									</mask>
+									<image id="img3" width="100%" height="100%" xlink:href="/upload/dev2fun.imagecompress/webp/iblock/635/1mdxljac257iespu2mnjqz1zk19sea89/genocid.webp" />
+								</defs>
+
+
+								<use xlink:href="#img3" filter="url(#blur5)" />
+								<use xlink:href="#img3" mask="url(#mask10)" filter="url(#blur5)" />
+								<use xlink:href="#img3" mask="url(#mask20)" filter="url(#blur4)" />
+								<use xlink:href="#img3" mask="url(#mask30)" filter="url(#blur3)" />
+								<use xlink:href="#img3" mask="url(#mask50)" />
+							</svg>
+							<!--<img src="/upload/dev2fun.imagecompress/webp/iblock/635/1mdxljac257iespu2mnjqz1zk19sea89/genocid.webp" alt="Геноцид белорусского народа в годы Великой Отечественной войны" title="Геноцид белорусского народа в годы Великой Отечественной войны" /> -->
+						</div>
+					</div>
+				</div>
+									</div>
+		<div class="info-slider-pagination swiper-custom-pagination"></div>
+		<div class="info-slider-nav hidden-xs">
+			<div class="swiper-button swiper-button-next swiper-btn-custom-next"></div>
+		</div>
+	</div>
+</div>
+<div class="theme-1">
+	<div class="container">
+		<div class="title-wrap">
+			<div class="title">
+				 Виды деятельности
+			</div>
+		</div>
+	</div>
+	<div class="activities-wrap w-100 mt-32">
+		<div class="tab-wrap d-flex al-center jc-sb container">
+			<div class="tab basic-tab active">
+				 Образовательная
+			</div>
+			<div class="tab basic-tab">
+				 Научная
+			</div>
+			<div class="tab basic-tab">
+				 Медицинская
+			</div>
+			<div class="tab basic-tab">
+				 Молодежная политика
+			</div>
+			<div class="tab basic-tab">
+				 Международное сотрудничество
+			</div>
+		</div>
+		<div class="tab-content-wrap">
+			<div class="tab-content opened">
+				<div class="activities-slide">
+					<div class="container">
+						<div class="activities-slide-content rel">
+							<div class="activities-info">
+								<div class="title wh-color">
+									 Образовательная деятельность
+								</div>
+								<div class="activities-preview-list w-100 d-flex jc-sb">
+									<div class="col-100 ">
+										<div class="activities-preview-item">
+ <a href="/universitet/uchebnaya-deyatelnost/">Высшее образование</a>
+										</div>
+										<div class="activities-preview-item">
+ <a href="/vypusknikam/doctorantura-aspirantura/">Научно-ориентированное образование</a>
+										</div>
+										<div class="activities-preview-item">
+ <a href="https://www.bsmu.by/universitet/fakultety-institut/institut-povysheniya-kvalifikatsii-i-perepodgotovki-kadrov-zdravookhraneniya/perepodgotovka-i-povyshenie-kvalifikatsii-vrachey-ipkipkz/">Дополнительное образование</a>
+										</div>
+										<div class="activities-preview-item">
+ <a href="/universitet/uchebnaya-deyatelnost/cifrofoy-universitet/">Цифровой университет</a>
+										</div>
+										<div class="activities-preview-item">
+ <a href="/universitet/uchebnaya-deyatelnost/obuchayushchie-elektronnye-informatsionnye-resursy-universiteta/">Дистанционные технологии</a>
+										</div>
+										<div class="activities-preview-item">
+ <a href="/universitet/uchebnaya-deyatelnost/praktikoorientirovannost-obucheniya/">Практикоориентированность обучения</a>
+										</div>
+										<div class="activities-preview-item">
+ <a href="/student/kafedry/">Кафедры</a>
+										</div>
+									</div>
+								</div>
+								 <!--	<div class="btn-wrap d-flex al-center">
+                                    <a href="/universitet/uchebnaya-deyatelnost/"
+                                        class="theme-link wh-color">Подробнее</a>
+                                </div> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tab-content">
+				<div class="activities-slide" style="background-image: url(/upload/dev2fun.imagecompress/webp/images/activ-2.webp);">
+					<div class="container">
+						<div class="activities-slide-content rel">
+							<div class="activities-info">
+								<div class="title wh-color">
+									 Научная деятельность
+								</div>
+								<div class="activities-preview-list w-100 d-flex jc-sb">
+									<div class="col-100 ">
+										<div class="activities-preview-item">
+ <a href="https://www.bsmu.by/universitet/fakultety-institut/nauchno-issledovatelskiy-institut-eksperimentalnoy-i-klinicheskoy-meditsiny/?">Научно-исследовательский институт экспериментальной и клинической медицины</a>
+										</div>
+										<div class="activities-preview-item">
+ <a href="/vypusknikam/doctorantura-aspirantura/">Подготовка научных кадров</a>
+										</div>
+										<div class="activities-preview-item">
+ <a href="/universitet/sovety/">Советы и комиссии</a>
+										</div>
+										<div class="activities-preview-item">
+ <a href="https://www.bsmu.by/meropriyatiya/">Конференции, вебинары, семинары</a>
+										</div>
+										<div class="activities-preview-item">
+ <a href="https://www.bsmu.by/universitet/sovety/sovet-molodykh-uchenykh/">Совет молодых ученых</a>
+										</div>
+										<div class="activities-preview-item">
+ <a href="http://sno.bsmu.by/">Студенческое научное общество</a>
+										</div>
+										<div class="activities-preview-item">
+ <a href="/universitet/nauchnaya-deyatelnost/nauchnie-shkoli/">Научные школы</a>
+										</div>
+									</div>
+								</div>
+								<div class="btn-wrap d-flex al-center">
+ <a href="/universitet/nauchnaya-deyatelnost/" class="theme-link wh-color">Подробнее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tab-content">
+				<div class="activities-slide" style="background-image: url(/upload/dev2fun.imagecompress/webp/images/activ-3-new.webp);">
+					<div class="container">
+						<div class="activities-slide-content rel">
+							<div class="activities-info">
+								<div class="title wh-color">
+									 Медицинская деятельность
+								</div>
+								<div class="activities-preview-list w-100 d-flex jc-sb">
+									<div class="col-100 ">
+										<div class="activities-preview-item">
+ <a href="http://professor.bsmu.by/">Профессорский консультационный центр</a>
+										</div>
+										<div class="activities-preview-item">
+ <a href="/universitet/lechebnaya-deyatelnost/rabota-komissii-po-medicinskoy-etike-i-deontologii/">Комиссия по медицинской этике и деонтологии</a>
+										</div>
+										<div class="activities-preview-item">
+ <a href="/student/zdorovie/medicinskoe-obespechenie/">Здравпункт студентов</a>
+										</div>
+									</div>
+								</div>
+								<div class="btn-wrap d-flex al-center">
+ <a href="/universitet/lechebnaya-deyatelnost/" class="theme-link wh-color">Подробнее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tab-content">
+				<div class="activities-slide" style="background-image: url(/upload/dev2fun.imagecompress/webp/images/activ-4-2.webp);">
+					<div class="container">
+						<div class="activities-slide-content rel">
+							<div class="activities-info">
+								<div class="title wh-color">
+									 Молодежная политика
+								</div>
+								<div class="activities-preview-list w-100 d-flex jc-sb">
+									<div class="col-100 ">
+										<div class="activities-preview-item">
+ <a href="/universitet/molodyezhnaya-politika/molodegnie-organizatsii-stud-soupravlenie/">Молодежные объединения и студенческое самоуправление</a>
+										</div>
+										<div class="activities-preview-item">
+ <a href="/universitet/molodyezhnaya-politika/studencheskij-otryad/">Студенческие отряды</a>
+										</div>
+										<div class="activities-preview-item">
+ <a href="/student/sportivniy-klub/">Спорт и здоровый образ жизни</a>
+										</div>
+										<div class="activities-preview-item">
+ <a href="/student/studencheskiy-klub/">Творческая жизнь</a>
+										</div>
+										<div class="activities-preview-item">
+ <a href="/universitet/molodyezhnaya-politika/ediniy-den-informirovaniya/">Единый день информирования</a>
+										</div>
+										<div class="activities-preview-item">
+ <a href="/universitet/molodyezhnaya-politika/socialno-ped-i-psihol-podderjka/socialno-pedagogicheskaya-podderjka/">Социальная поддержка</a>
+										</div>
+										<div class="activities-preview-item">
+ <a href="/universitet/genotsid-belorusskogo-naroda-v-gody-velikoy-otechestvennoy-voyny/">Геноцид белорусского народа в годы Великой Отечественной войны</a>
+										</div>
+									</div>
+								</div>
+								<div class="btn-wrap d-flex al-center">
+ <a href="/universitet/molodyezhnaya-politika/" class="theme-link wh-color">Подробнее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tab-content">
+				<div class="activities-slide" style="background-image: url(/upload/dev2fun.imagecompress/webp/images/activ-5.webp);">
+					<div class="container">
+						<div class="activities-slide-content rel">
+							<div class="activities-info">
+								<div class="title wh-color">
+									 Международное сотрудничество
+								</div>
+								<div class="activities-preview-list w-100 d-flex jc-sb">
+									<div class="col-100 ">
+										<div class="activities-preview-item">
+ <a href="/universitet/mezhdunarodnoe-sotrudnichestvo/zarubejnoe-partnerstvo/">Зарубежное партнерство</a>
+										</div>
+										<div class="activities-preview-item">
+ <a href="/universitet/mezhdunarodnoe-sotrudnichestvo/master-klassi-seminari-lekcii-telekonferencii/">Семинары, лекции, телеконференции</a>
+										</div>
+										<div class="activities-preview-item">
+ <a href="/universitet/mezhdunarodnoe-sotrudnichestvo/podgotovka-inostrannih-specialistov/">Подготовка иностранных специалистов</a>
+										</div>
+										<div class="activities-preview-item">
+ <a href="/universitet/mezhdunarodnoe-sotrudnichestvo/universitet-v-mejdunarodnih-reytingah-i-organizaciyah/">Университет в международных рейтингах и организациях</a>
+										</div>
+									</div>
+								</div>
+								<div class="btn-wrap d-flex al-center">
+ <a href="/universitet/mezhdunarodnoe-sotrudnichestvo/" class="theme-link wh-color">Подробнее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+ <br>
+
+
+<div class="theme-1" id="videos-mp">
+	<div class="container">
+		<div class="video-slider-wrap rel">
+			<div class="video-slider-elem hidden-xs">
+			</div>
+			<div class="title-wrap d-flex al-center jc-sb">
+				<h2 class="title">Видео</h2>
+				<div class="slider-nav" id="video-slider-nav">
+				</div>
+			</div>
+			<div class="d-flex w-100 theme-wrap jc-sb">
+				<div class="video-slider medSliderMainEl">
+											<div class="video-slide">
+							<div class="video-slide-content d-flex w-100">
+								<div class="video-slide-pic col-100-xs d-flex">
+									<div class="actual-video-wrap rel">
+										<img src="/upload/dev2fun.imagecompress/webp/iblock/e52/mo3vk0uu34283ff4hr07216uhza2qo5i/maxresdefault.webp" class="previewSlidePicrure" title="От Республиканской универсиады по настольному теннису до молодежного проекта «100 идей для Беларуси»" alt="От Республиканской универсиады по настольному теннису до молодежного проекта «100 идей для Беларуси»">
+										<a data-fslightbox="videos" href="https://www.youtube.com/watch?v=PjmYsUZkwE0" class="video-player animated"></a>
+									</div>
+								</div>
+								<div class="video-slide-info col-100-xs">
+																		<div class="subtitle video-name">
+										От Республиканской универсиады по настольному теннису до молодежного проекта «100 идей для Беларуси»									</div>
+									<div class="text-xs video-text-preview">
+																			</div>
+								</div>
+							</div>
+						</div>
+											<div class="video-slide">
+							<div class="video-slide-content d-flex w-100">
+								<div class="video-slide-pic col-100-xs d-flex">
+									<div class="actual-video-wrap rel">
+										<img src="/upload/dev2fun.imagecompress/webp/iblock/c84/1y31uvw4f9n2ukdrih59gmb7qqsetiia/2025_12_30_13_13_39_2.webp" class="previewSlidePicrure" title=" С Новым 2026 годом: поздравление ректора БГМУ Сергея Рубниковича" alt=" С Новым 2026 годом: поздравление ректора БГМУ Сергея Рубниковича">
+										<a data-fslightbox="videos" href="https://www.youtube.com/watch?v=H_z9asyvy1k" class="video-player animated"></a>
+									</div>
+								</div>
+								<div class="video-slide-info col-100-xs">
+																		<div class="subtitle video-name">
+										 С Новым 2026 годом: поздравление ректора БГМУ Сергея Рубниковича									</div>
+									<div class="text-xs video-text-preview">
+																			</div>
+								</div>
+							</div>
+						</div>
+											<div class="video-slide">
+							<div class="video-slide-content d-flex w-100">
+								<div class="video-slide-pic col-100-xs d-flex">
+									<div class="actual-video-wrap rel">
+										<img src="/upload/dev2fun.imagecompress/webp/iblock/4d7/c5jy7re3qrr2b2w842fxd4o4toz35sqg/sobranie.webp" class="previewSlidePicrure" title="Всебелорусское народное собрание: Стратегия развития Беларуси 2026-2030. Главные приоритеты и цели." alt="Всебелорусское народное собрание: Стратегия развития Беларуси 2026-2030. Главные приоритеты и цели.">
+										<a data-fslightbox="videos" href="https://www.youtube.com/watch?v=QECVj_Gb4Fk" class="video-player animated"></a>
+									</div>
+								</div>
+								<div class="video-slide-info col-100-xs">
+																		<div class="subtitle video-name">
+										Всебелорусское народное собрание: Стратегия развития Беларуси 2026-2030. Главные приоритеты и цели.									</div>
+									<div class="text-xs video-text-preview">
+																			</div>
+								</div>
+							</div>
+						</div>
+											<div class="video-slide">
+							<div class="video-slide-content d-flex w-100">
+								<div class="video-slide-pic col-100-xs d-flex">
+									<div class="actual-video-wrap rel">
+										<img src="/upload/dev2fun.imagecompress/webp/iblock/74f/gob3ynskj6awei77p141247q8c9c23fc/sddefault.webp" class="previewSlidePicrure" title="Торжественная церемония посвящения выпускников в профессию врача и провизора «Гиппократ-2025»" alt="Торжественная церемония посвящения выпускников в профессию врача и провизора «Гиппократ-2025»">
+										<a data-fslightbox="videos" href="https://www.youtube.com/live/vNKdsKofOvE" class="video-player animated"></a>
+									</div>
+								</div>
+								<div class="video-slide-info col-100-xs">
+																		<div class="subtitle video-name">
+										Торжественная церемония посвящения выпускников в профессию врача и провизора «Гиппократ-2025»									</div>
+									<div class="text-xs video-text-preview">
+																			</div>
+								</div>
+							</div>
+						</div>
+											<div class="video-slide">
+							<div class="video-slide-content d-flex w-100">
+								<div class="video-slide-pic col-100-xs d-flex">
+									<div class="actual-video-wrap rel">
+										<img src="/upload/dev2fun.imagecompress/webp/iblock/4ed/005eytnte3ukwflzrzclyi03s95pwg5w/Screenshot_2.webp" class="previewSlidePicrure" title="Валерий Вечорко о Белорусском государственном медицинском университете" alt="Валерий Вечорко о Белорусском государственном медицинском университете">
+										<a data-fslightbox="videos" href="https://www.youtube.com/watch?v=T_gHHrRKO00&ab_channel=%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82" class="video-player animated"></a>
+									</div>
+								</div>
+								<div class="video-slide-info col-100-xs">
+																		<div class="subtitle video-name">
+										Валерий Вечорко о Белорусском государственном медицинском университете									</div>
+									<div class="text-xs video-text-preview">
+																			</div>
+								</div>
+							</div>
+						</div>
+											<div class="video-slide">
+							<div class="video-slide-content d-flex w-100">
+								<div class="video-slide-pic col-100-xs d-flex">
+									<div class="actual-video-wrap rel">
+										<img src="/upload/dev2fun.imagecompress/webp/iblock/949/s58z1pg6qalxivdw1bv42rcv32ureo6v/maxresdefault.webp" class="previewSlidePicrure" title=" От Республиканской студенческой волейбольной лиги до городского этапа «Студент года 2025»" alt=" От Республиканской студенческой волейбольной лиги до городского этапа «Студент года 2025»">
+										<a data-fslightbox="videos" href="https://www.youtube.com/watch?v=PTX3Zt-wliA" class="video-player animated"></a>
+									</div>
+								</div>
+								<div class="video-slide-info col-100-xs">
+																		<div class="subtitle video-name">
+										 От Республиканской студенческой волейбольной лиги до городского этапа «Студент года 2025»									</div>
+									<div class="text-xs video-text-preview">
+																			</div>
+								</div>
+							</div>
+						</div>
+											<div class="video-slide">
+							<div class="video-slide-content d-flex w-100">
+								<div class="video-slide-pic col-100-xs d-flex">
+									<div class="actual-video-wrap rel">
+										<img src="/upload/dev2fun.imagecompress/webp/iblock/3ee/ygpql4bv402k4m4g47na4420oc53lqdl/donor.webp" class="previewSlidePicrure" title="Донорство крови в Беларуси: Спасая жизни и меняя мир к лучшему!" alt="Донорство крови в Беларуси: Спасая жизни и меняя мир к лучшему!">
+										<a data-fslightbox="videos" href="https://www.youtube.com/watch?v=jQ318MTfKu4" class="video-player animated"></a>
+									</div>
+								</div>
+								<div class="video-slide-info col-100-xs">
+																		<div class="subtitle video-name">
+										Донорство крови в Беларуси: Спасая жизни и меняя мир к лучшему!									</div>
+									<div class="text-xs video-text-preview">
+																			</div>
+								</div>
+							</div>
+						</div>
+											<div class="video-slide">
+							<div class="video-slide-content d-flex w-100">
+								<div class="video-slide-pic col-100-xs d-flex">
+									<div class="actual-video-wrap rel">
+										<img src="/upload/dev2fun.imagecompress/webp/iblock/00b/zgvpik3hv0xw330isg8pm40hnpy1rzkb/konf.webp" class="previewSlidePicrure" title="Интервью с вокальной группой «Cantare»" alt="Интервью с вокальной группой «Cantare»">
+										<a data-fslightbox="videos" href="https://www.youtube.com/watch?v=n6R2XYy7BKI" class="video-player animated"></a>
+									</div>
+								</div>
+								<div class="video-slide-info col-100-xs">
+																		<div class="subtitle video-name">
+										Интервью с вокальной группой «Cantare»									</div>
+									<div class="text-xs video-text-preview">
+																			</div>
+								</div>
+							</div>
+						</div>
+											<div class="video-slide">
+							<div class="video-slide-content d-flex w-100">
+								<div class="video-slide-pic col-100-xs d-flex">
+									<div class="actual-video-wrap rel">
+										<img src="/upload/dev2fun.imagecompress/webp/iblock/086/o2zvu05w0f7ak3bzt78nw8ycwh92ag0r/0J9A9031.webp" class="previewSlidePicrure" title="Гиппократ-2023" alt="Гиппократ-2023">
+										<a data-fslightbox="videos" href="https://www.youtube.com/watch?v=zA1ieVPK3Sk&ab_channel=%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82" class="video-player animated"></a>
+									</div>
+								</div>
+								<div class="video-slide-info col-100-xs">
+																		<div class="subtitle video-name">
+										Гиппократ-2023									</div>
+									<div class="text-xs video-text-preview">
+																			</div>
+								</div>
+							</div>
+						</div>
+											<div class="video-slide">
+							<div class="video-slide-content d-flex w-100">
+								<div class="video-slide-pic col-100-xs d-flex">
+									<div class="actual-video-wrap rel">
+										<img src="/upload/dev2fun.imagecompress/webp/iblock/441/q4oywjba2yba0rlhfvaqs050ez2azdma/IMG_1478.webp" class="previewSlidePicrure" title="IV Белорусско-российский форум «Нам жить и помнить»" alt="IV Белорусско-российский форум «Нам жить и помнить»">
+										<a data-fslightbox="videos" href="https://www.youtube.com/watch?v=X58OgvaKsl8" class="video-player animated"></a>
+									</div>
+								</div>
+								<div class="video-slide-info col-100-xs">
+																		<div class="subtitle video-name">
+										IV Белорусско-российский форум «Нам жить и помнить»									</div>
+									<div class="text-xs video-text-preview">
+																			</div>
+								</div>
+							</div>
+						</div>
+											<div class="video-slide">
+							<div class="video-slide-content d-flex w-100">
+								<div class="video-slide-pic col-100-xs d-flex">
+									<div class="actual-video-wrap rel">
+										<img src="/upload/dev2fun.imagecompress/webp/iblock/89c/mm5nu1iyuiiwe7pwyadbog2buj4fs4n4/den_znaniy_2023.webp" class="previewSlidePicrure" title="Первое сентября в ведущем медицинском университете Беларуси" alt="Первое сентября в ведущем медицинском университете Беларуси">
+										<a data-fslightbox="videos" href="https://www.youtube.com/watch?v=2tteu6Lqrdc&embeds_referring_euri=https%3A%2F%2Fwww.bsmu.by%2F&source_ve_path=Mjg2NjY&feature=emb_logo" class="video-player animated"></a>
+									</div>
+								</div>
+								<div class="video-slide-info col-100-xs">
+																		<div class="subtitle video-name">
+										Первое сентября в ведущем медицинском университете Беларуси									</div>
+									<div class="text-xs video-text-preview">
+																			</div>
+								</div>
+							</div>
+						</div>
+											<div class="video-slide">
+							<div class="video-slide-content d-flex w-100">
+								<div class="video-slide-pic col-100-xs d-flex">
+									<div class="actual-video-wrap rel">
+										<img src="/upload/dev2fun.imagecompress/webp/iblock/ae1/zd7e2cm0ydwek4yy3i3p0h7h41n77gmd/4.webp" class="previewSlidePicrure" title="2024 год в БГМУ: Год качества, инноваций и мирового признания" alt="2024 год в БГМУ: Год качества, инноваций и мирового признания">
+										<a data-fslightbox="videos" href="https://www.youtube.com/watch?v=2EJF5HdxoNw" class="video-player animated"></a>
+									</div>
+								</div>
+								<div class="video-slide-info col-100-xs">
+																		<div class="subtitle video-name">
+										2024 год в БГМУ: Год качества, инноваций и мирового признания									</div>
+									<div class="text-xs video-text-preview">
+																			</div>
+								</div>
+							</div>
+						</div>
+											<div class="video-slide">
+							<div class="video-slide-content d-flex w-100">
+								<div class="video-slide-pic col-100-xs d-flex">
+									<div class="actual-video-wrap rel">
+										<img src="/upload/dev2fun.imagecompress/webp/iblock/c05/fhpedj1svn6ovpqehlctdykn6ho5uz77/goppokrat3.webp" class="previewSlidePicrure" title="«Гиппократ-2024»" alt="«Гиппократ-2024»">
+										<a data-fslightbox="videos" href="https://www.youtube.com/watch?v=0kOhsgYpcBo" class="video-player animated"></a>
+									</div>
+								</div>
+								<div class="video-slide-info col-100-xs">
+																		<div class="subtitle video-name">
+										«Гиппократ-2024»									</div>
+									<div class="text-xs video-text-preview">
+																			</div>
+								</div>
+							</div>
+						</div>
+											<div class="video-slide">
+							<div class="video-slide-content d-flex w-100">
+								<div class="video-slide-pic col-100-xs d-flex">
+									<div class="actual-video-wrap rel">
+										<img src="/upload/dev2fun.imagecompress/webp/iblock/893/zx6a15z08vrx3a5f5uxverpc9aklp7jp/Screenshot_1.webp" class="previewSlidePicrure" title="Поздравление ректора со столетием Белорусского государственного медицинского университета" alt="Поздравление ректора со столетием Белорусского государственного медицинского университета">
+										<a data-fslightbox="videos" href="https://www.youtube.com/watch?v=mvW4zcdhck0&t=147s" class="video-player animated"></a>
+									</div>
+								</div>
+								<div class="video-slide-info col-100-xs">
+																		<div class="subtitle video-name">
+										Поздравление ректора со столетием Белорусского государственного медицинского университета									</div>
+									<div class="text-xs video-text-preview">
+																			</div>
+								</div>
+							</div>
+						</div>
+											<div class="video-slide">
+							<div class="video-slide-content d-flex w-100">
+								<div class="video-slide-pic col-100-xs d-flex">
+									<div class="actual-video-wrap rel">
+										<img src="/upload/dev2fun.imagecompress/webp/iblock/547/zd5xizqhw4zgzhnyept0tpde3yrs2qca/studotryadi3.webp" class="previewSlidePicrure" title="Студенческий медицинский отряд имени В.А.Водолажского" alt="Студенческий медицинский отряд имени В.А.Водолажского">
+										<a data-fslightbox="videos" href="https://www.youtube.com/watch?v=bZUxAY9bO5Y" class="video-player animated"></a>
+									</div>
+								</div>
+								<div class="video-slide-info col-100-xs">
+																		<div class="subtitle video-name">
+										Студенческий медицинский отряд имени В.А.Водолажского									</div>
+									<div class="text-xs video-text-preview">
+										Трудовой семестр – проведенное с пользой время<br />
+									</div>
+								</div>
+							</div>
+						</div>
+											<div class="video-slide">
+							<div class="video-slide-content d-flex w-100">
+								<div class="video-slide-pic col-100-xs d-flex">
+									<div class="actual-video-wrap rel">
+										<img src="/upload/dev2fun.imagecompress/webp/iblock/99b/61zl2s2y2qy362qoh55gh65nfq7fu62c/universitet_new2.webp" class="previewSlidePicrure" title="Университет моей мечты" alt="Университет моей мечты">
+										<a data-fslightbox="videos" href="https://www.youtube.com/watch?v=4xDH7bK-i-o&list=PLnIvAkRVCMzAailNp44tWB9n5aMCKxsFl" class="video-player animated"></a>
+									</div>
+								</div>
+								<div class="video-slide-info col-100-xs">
+																		<div class="subtitle video-name">
+										Университет моей мечты									</div>
+									<div class="text-xs video-text-preview">
+										Почему иностранцы выбирают Белорусский государственный медицинский университет?									</div>
+								</div>
+							</div>
+						</div>
+											<div class="video-slide">
+							<div class="video-slide-content d-flex w-100">
+								<div class="video-slide-pic col-100-xs d-flex">
+									<div class="actual-video-wrap rel">
+										<img src="/upload/dev2fun.imagecompress/webp/iblock/31f/60bv6s2o1az8v86i3om2kr4wnorw2u9r/20230505133047obshchaya_vrachebnaya_praktika_vchera_segodnya_zavtra_4470.webp" class="previewSlidePicrure" title="Актуальные вопросы будут рассмотрены на республиканской конференция с международным участием «Общая врачебная практика: вчера, сегодня, завтра»" alt="Актуальные вопросы будут рассмотрены на республиканской конференция с международным участием «Общая врачебная практика: вчера, сегодня, завтра»">
+										<a data-fslightbox="videos" href="https://www.youtube.com/watch?v=Qn9eTu69g_Y&embeds_referring_euri=https%3A%2F%2Fwww.bsmu.by%2F&feature=emb_imp_woyt&ab_channel=%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82" class="video-player animated"></a>
+									</div>
+								</div>
+								<div class="video-slide-info col-100-xs">
+																		<div class="subtitle video-name">
+										Актуальные вопросы будут рассмотрены на республиканской конференция с международным участием «Общая врачебная практика: вчера, сегодня, завтра»									</div>
+									<div class="text-xs video-text-preview">
+																			</div>
+								</div>
+							</div>
+						</div>
+											<div class="video-slide">
+							<div class="video-slide-content d-flex w-100">
+								<div class="video-slide-pic col-100-xs d-flex">
+									<div class="actual-video-wrap rel">
+										<img src="/upload/dev2fun.imagecompress/webp/medialibrary/f6c/z0pxeom26xlrbhstm4hwab1no9k28quk/20230524104047aktualnye_voprosy_kardiologii_aritmologii_i_kardiohirurgii.webp" class="previewSlidePicrure" title="Ведущие кардиологи, кардиохирургии, ренгенэндоваскулярные хирурги, аритмологи соберутся на конференции в БГМУ" alt="Ведущие кардиологи, кардиохирургии, ренгенэндоваскулярные хирурги, аритмологи соберутся на конференции в БГМУ">
+										<a data-fslightbox="videos" href="https://www.youtube.com/watch?v=i7C5GiQjLqQ&ab_channel=%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82" class="video-player animated"></a>
+									</div>
+								</div>
+								<div class="video-slide-info col-100-xs">
+																		<div class="subtitle video-name">
+										Ведущие кардиологи, кардиохирургии, ренгенэндоваскулярные хирурги, аритмологи соберутся на конференции в БГМУ									</div>
+									<div class="text-xs video-text-preview">
+																			</div>
+								</div>
+							</div>
+						</div>
+											<div class="video-slide">
+							<div class="video-slide-content d-flex w-100">
+								<div class="video-slide-pic col-100-xs d-flex">
+									<div class="actual-video-wrap rel">
+										<img src="/upload/dev2fun.imagecompress/webp/iblock/637/q3euid5es2nty9feftr4p2ii7rs9vum5/20230613142201publichnoe_zachislenie_pervokursnikov_9874.webp" class="previewSlidePicrure" title="Онлайн-зачисление студентов бюджетной формы обучения" alt="Онлайн-зачисление студентов бюджетной формы обучения">
+										<a data-fslightbox="videos" href="https://www.youtube.com/watch?v=XT79B0EiELY&t=682s" class="video-player animated"></a>
+									</div>
+								</div>
+								<div class="video-slide-info col-100-xs">
+																		<div class="subtitle video-name">
+										Онлайн-зачисление студентов бюджетной формы обучения									</div>
+									<div class="text-xs video-text-preview">
+										Зачисление на 1-й курс студентов, которые будут проходить обучение по выбранной специальности за счет средств республиканского бюджета.									</div>
+								</div>
+							</div>
+						</div>
+									</div>
+			</div>
+			<!-- <div class="btn-wrap d-flex jc-center w-100 al-center mt-50">
+				<a href="" class="theme-link">Все видео</a>
+			</div> -->
+		</div>
+	</div>
+</div>
+
+
+
+<div class="theme-1" id="gallery-mp">
+	<div class="container">
+		<div class="gallery-wrap rel">
+			<div class="gallery-elem hidden-xs"></div>
+			<div class="title-wrap d-flex al-center jc-sb">
+				<div class="title">Фотогалерея</div>
+				<div class="slider-nav">
+					<div class="swiper-button swiper-button-prev swiper-btn-custom-prev"></div>
+					<div class="swiper-button swiper-button-next swiper-btn-custom-next"></div>
+				</div>
+			</div>
+
+			<div class="gallery-slider w-100 theme-wrap swiper-container">
+				<div class="swiper-wrapper">
+											<a href="/fotogalereya/vstrecha-s-uchastnikami-vsebelorusskogo-narodnogo-sobraniya/" class="gallery-item col-100-xs swiper-slide">
+							<div class="gallery-preview pic-wrap">
+								<img src="/upload/dev2fun.imagecompress/webp/iblock/a4c/dc7a0jheiznscfz3bsrrn5smu0v5edye/03A8633.webp" title="Встреча с участниками Всебелорусского народного собрания" alt="Встреча с участниками Всебелорусского народного собрания" />
+							</div>
+							<div class="text gallery-name">
+								Встреча с участниками Всебелорусского народного собрания							</div>
+						</a>
+											<a href="/fotogalereya/zavershenie-praktiki-studentov-iz-syuychzhouskogo-meditsinskogo-universiteta/" class="gallery-item col-100-xs swiper-slide">
+							<div class="gallery-preview pic-wrap">
+								<img src="/upload/dev2fun.imagecompress/webp/iblock/e63/m0dwo7p9piay4ek3ylbq7o37rpz59ddq/03A6399.webp" title="Завершение практики студентов из Сюйчжоуского медицинского университета" alt="Завершение практики студентов из Сюйчжоуского медицинского университета" />
+							</div>
+							<div class="text gallery-name">
+								Завершение практики студентов из Сюйчжоуского медицинского университета							</div>
+						</a>
+											<a href="/fotogalereya/respublikanskaya-nauchno-prakticheskaya-konferentsiya-s-mezhdunarodnym-uchastiem-innovatsionnye-tekh/" class="gallery-item col-100-xs swiper-slide">
+							<div class="gallery-preview pic-wrap">
+								<img src="/upload/dev2fun.imagecompress/webp/iblock/985/4t708yio79fkm6yhqo86ecbvtu6djapd/03A8112.webp" title="Республиканская научно­практическая конференция с международным участием «Инновационные технологии в акушерстве и гинекологии»" alt="Республиканская научно­практическая конференция с международным участием «Инновационные технологии в акушерстве и гинекологии»" />
+							</div>
+							<div class="text gallery-name">
+								Республиканская научно­практическая конференция с международным участием «Инновационные технологии в акушерстве и гинекологии»							</div>
+						</a>
+											<a href="/fotogalereya/xiii-mezhdunarodnaya-studencheskaya-olimpiada-po-uchebnoy-distsipline-anatomiya-cheloveka/" class="gallery-item col-100-xs swiper-slide">
+							<div class="gallery-preview pic-wrap">
+								<img src="/upload/dev2fun.imagecompress/webp/iblock/f10/q3vhkbknu7s4dhe5fz533a6l5mof0h9c/03A5539.webp" title="XIII Международная студенческая олимпиада по учебной дисциплине «Анатомия человека»" alt="XIII Международная студенческая олимпиада по учебной дисциплине «Анатомия человека»" />
+							</div>
+							<div class="text gallery-name">
+								XIII Международная студенческая олимпиада по учебной дисциплине «Анатомия человека»							</div>
+						</a>
+											<a href="/fotogalereya/kh-sezd-oftalmologov-respubliki-belarus/" class="gallery-item col-100-xs swiper-slide">
+							<div class="gallery-preview pic-wrap">
+								<img src="/upload/dev2fun.imagecompress/webp/iblock/48e/lkvwj0qxv2jutj20ttkidh0r3kete27i/03A4482.webp" title="Х Съезд офтальмологов Республики Беларусь" alt="Х Съезд офтальмологов Республики Беларусь" />
+							</div>
+							<div class="text gallery-name">
+								Х Съезд офтальмологов Республики Беларусь							</div>
+						</a>
+											<a href="/fotogalereya/diagnostika-i-lechenie-nasledstvennykh-zabolevaniy-nervnoy-sistemy-u-detey/" class="gallery-item col-100-xs swiper-slide">
+							<div class="gallery-preview pic-wrap">
+								<img src="/upload/dev2fun.imagecompress/webp/iblock/4d6/t3orp5iy2ts1hqo0t4pvoo5fnemwn527/03A0785.webp" title="Диагностика и лечение наследственных заболеваний нервной системы у детей" alt="Диагностика и лечение наследственных заболеваний нервной системы у детей" />
+							</div>
+							<div class="text gallery-name">
+								Диагностика и лечение наследственных заболеваний нервной системы у детей							</div>
+						</a>
+											<a href="/fotogalereya/20-ya-yubileynaya-shkola-prakticheskogo-kardiologa-terapevta-i-vracha-obshchey-praktiki/" class="gallery-item col-100-xs swiper-slide">
+							<div class="gallery-preview pic-wrap">
+								<img src="/upload/dev2fun.imagecompress/webp/iblock/403/8eky6ad3qvhd1iowwam7t21znvoesc20/03A1729.webp" title="20-я Юбилейная школа практического кардиолога, терапевта и врача общей практики" alt="20-я Юбилейная школа практического кардиолога, терапевта и врача общей практики" />
+							</div>
+							<div class="text gallery-name">
+								20-я Юбилейная школа практического кардиолога, терапевта и врача общей практики							</div>
+						</a>
+											<a href="/fotogalereya/podvedenie-itogov-praktiki-studentov-iz-nankinskogo-meditsinskogo-universiteta/" class="gallery-item col-100-xs swiper-slide">
+							<div class="gallery-preview pic-wrap">
+								<img src="/upload/dev2fun.imagecompress/webp/iblock/ce9/hpj87d90e7jhubwrp4huy8bm0btsjssw/03A3873.webp" title="Подведение итогов практики студентов из Нанкинского медицинского университета" alt="Подведение итогов практики студентов из Нанкинского медицинского университета" />
+							</div>
+							<div class="text gallery-name">
+								Подведение итогов практики студентов из Нанкинского медицинского университета							</div>
+						</a>
+											<a href="/fotogalereya/sovet-universiteta-11.2025/" class="gallery-item col-100-xs swiper-slide">
+							<div class="gallery-preview pic-wrap">
+								<img src="/upload/dev2fun.imagecompress/webp/iblock/39b/giwscca702e5wc2zt2bgvrn1rzjnxmio/03A0236.webp" title="Совет университета" alt="Совет университета" />
+							</div>
+							<div class="text gallery-name">
+								Совет университета							</div>
+						</a>
+											<a href="/fotogalereya/onlayn-konferentsiya-s-chanchunskim-universitetom-traditsionnoy-kitayskoy-meditsiny/" class="gallery-item col-100-xs swiper-slide">
+							<div class="gallery-preview pic-wrap">
+								<img src="/upload/dev2fun.imagecompress/webp/iblock/abc/erhecn9qgvqeh1bs6cojm4nk30gqge0v/03A0070.webp" title="Онлайн-конференция с Чанчуньским университетом традиционной китайской медицины" alt="Онлайн-конференция с Чанчуньским университетом традиционной китайской медицины" />
+							</div>
+							<div class="text gallery-name">
+								Онлайн-конференция с Чанчуньским университетом традиционной китайской медицины							</div>
+						</a>
+											<a href="/fotogalereya/nauchno-prakticheskaya-konferentsiya-dermatovenerologiya-i-kosmetologiya-soyuznogo-gosudarstva-ot-in/" class="gallery-item col-100-xs swiper-slide">
+							<div class="gallery-preview pic-wrap">
+								<img src="/upload/dev2fun.imagecompress/webp/iblock/cfd/xiqptxv1js4szg9l10kfgmiggyqzga3s/03A7215.webp" title="Научно-практическая конференция «Дерматовенерология и косметология Союзного Государства: от инновации к практике»" alt="Научно-практическая конференция «Дерматовенерология и косметология Союзного Государства: от инновации к практике»" />
+							</div>
+							<div class="text gallery-name">
+								Научно-практическая конференция «Дерматовенерология и косметология Союзного Государства: от инновации к практике»							</div>
+						</a>
+											<a href="/fotogalereya/kontsert-posvyashchennyy-104-letiyu-belorusskogo-gosudarstvennogo-meditsinskogo-universiteta/" class="gallery-item col-100-xs swiper-slide">
+							<div class="gallery-preview pic-wrap">
+								<img src="/upload/dev2fun.imagecompress/webp/iblock/ff7/gkgeyhuf0abe5d69yec8ic5fhtthzkem/03A6122.webp" title="Концерт, посвященный 104-летию Белорусского государственного медицинского университета" alt="Концерт, посвященный 104-летию Белорусского государственного медицинского университета" />
+							</div>
+							<div class="text gallery-name">
+								Концерт, посвященный 104-летию Белорусского государственного медицинского университета							</div>
+						</a>
+											<a href="/fotogalereya/seminar-s-mezhdunarodnym-uchastiem-sovremennaya-diabetologiya-svyaz-nauki-i-praktiki/" class="gallery-item col-100-xs swiper-slide">
+							<div class="gallery-preview pic-wrap">
+								<img src="/upload/dev2fun.imagecompress/webp/iblock/f82/tyf49oyurqooq0k9ns46t70le1u92kqn/03A4897.webp" title="Семинар с международным участием «Современная диабетология связь науки и практики»" alt="Семинар с международным участием «Современная диабетология связь науки и практики»" />
+							</div>
+							<div class="text gallery-name">
+								Семинар с международным участием «Современная диабетология связь науки и практики»							</div>
+						</a>
+											<a href="/fotogalereya/xi-belorusskiy-stomatologicheskiy-kongress-s-mezhdunarodnym-uchastiem/" class="gallery-item col-100-xs swiper-slide">
+							<div class="gallery-preview pic-wrap">
+								<img src="/upload/dev2fun.imagecompress/webp/iblock/237/jt33ue6t6iikgmm0ad42x54qtp0l18ay/03A2428.webp" title="XI Белорусский стоматологический конгресс с международным участием" alt="XI Белорусский стоматологический конгресс с международным участием" />
+							</div>
+							<div class="text gallery-name">
+								XI Белорусский стоматологический конгресс с международным участием							</div>
+						</a>
+											<a href="/fotogalereya/torzhestvennoe-otkrytie-sovmestnoy-vedushchey-kitaysko-belorusskoy-laboratorii-po-issledovaniyu-i-pr/" class="gallery-item col-100-xs swiper-slide">
+							<div class="gallery-preview pic-wrap">
+								<img src="/upload/dev2fun.imagecompress/webp/iblock/e3c/uoh3d022a14e2nj500ov8elsehdlf9gf/03A1819.webp" title="Торжественное открытие Совместной ведущей Китайско-Белорусской лаборатории по исследованию и профилактике заболеваний полости рта" alt="Торжественное открытие Совместной ведущей Китайско-Белорусской лаборатории по исследованию и профилактике заболеваний полости рта" />
+							</div>
+							<div class="text gallery-name">
+								Торжественное открытие Совместной ведущей Китайско-Белорусской лаборатории по исследованию и профилактике заболеваний полости рта							</div>
+						</a>
+											<a href="/fotogalereya/vizit-delegatsii-ministerstva-inostrannykh-del-indii-vo-glave-s-sibi-dzhordzhem-sekretarem-po-delam-/" class="gallery-item col-100-xs swiper-slide">
+							<div class="gallery-preview pic-wrap">
+								<img src="/upload/dev2fun.imagecompress/webp/iblock/d85/y8eeevklpfrof0kak05v9c1lya80ehlk/03A1357.webp" title="Визит делегации Министерства иностранных дел Индии во главе с Сиби Джорджем, Секретарем по делам Запада" alt="Визит делегации Министерства иностранных дел Индии во главе с Сиби Джорджем, Секретарем по делам Запада" />
+							</div>
+							<div class="text gallery-name">
+								Визит делегации Министерства иностранных дел Индии во главе с Сиби Джорджем, Секретарем по делам Запада							</div>
+						</a>
+											<a href="/fotogalereya/gorodskaya-nauchno-prakticheskaya-konferentsiya-s-mezhdunarodnym-uchastiem-terapiya-traditsii-i-inno/" class="gallery-item col-100-xs swiper-slide">
+							<div class="gallery-preview pic-wrap">
+								<img src="/upload/dev2fun.imagecompress/webp/iblock/e42/zu3x1h0asa31558eg211ryqhp7akcv8x/IMG_36.webp" title="Городская научно-практическая конференция с международным участием «Терапия: традиции и инновации», посвященная 65-летию кафедры терапии ИПКиПКЗ УО «БГМУ»" alt="Городская научно-практическая конференция с международным участием «Терапия: традиции и инновации», посвященная 65-летию кафедры терапии ИПКиПКЗ УО «БГМУ»" />
+							</div>
+							<div class="text gallery-name">
+								Городская научно-практическая конференция с международным участием «Терапия: традиции и инновации», посвященная 65-летию кафедры терапии ИПКиПКЗ УО «БГМУ»							</div>
+						</a>
+											<a href="/fotogalereya/podpisanie-soglasheniya-s-kitayskim-blagotvoritelnym-fondom-podderzhki-obucheniya-i-razvitiya-talant/" class="gallery-item col-100-xs swiper-slide">
+							<div class="gallery-preview pic-wrap">
+								<img src="/upload/dev2fun.imagecompress/webp/iblock/731/xqn7ey7pa8wyn82evkyxlp8s3m1mxs5e/IMG_31.webp" title="Подписание соглашения с китайским Благотворительным фондом поддержки обучения и развития талантливых студентов" alt="Подписание соглашения с китайским Благотворительным фондом поддержки обучения и развития талантливых студентов" />
+							</div>
+							<div class="text gallery-name">
+								Подписание соглашения с китайским Благотворительным фондом поддержки обучения и развития талантливых студентов							</div>
+						</a>
+											<a href="/fotogalereya/vizit-delegatsii-generalnogo-konsulstva-respubliki-soyuz-myanma-v-belarusi/" class="gallery-item col-100-xs swiper-slide">
+							<div class="gallery-preview pic-wrap">
+								<img src="/upload/dev2fun.imagecompress/webp/iblock/532/lsf6i5oaulsv8k02norkakyrobv67xhn/5447512325704777158.webp" title="Визит делегации Генерального консульства Республики Союз Мьянма в Беларуси" alt="Визит делегации Генерального консульства Республики Союз Мьянма в Беларуси" />
+							</div>
+							<div class="text gallery-name">
+								Визит делегации Генерального консульства Республики Союз Мьянма в Беларуси							</div>
+						</a>
+											<a href="/fotogalereya/v-ramkakh-iii-zasedaniya-belorussko-kitayskoy-assotsiatsii-universitetov-bgmu-posetil-khan-fen-dekan/" class="gallery-item col-100-xs swiper-slide">
+							<div class="gallery-preview pic-wrap">
+								<img src="/upload/dev2fun.imagecompress/webp/iblock/97b/wu5q2tqne4y1l49vjd5oaor6tbciznyt/03A7628.webp" title="В рамках  III заседания Белорусско-Китайской ассоциации университетов БГМУ посетил Хань Фэн, декан фармацевтического факультета Нанкинского медицинского университета" alt="В рамках  III заседания Белорусско-Китайской ассоциации университетов БГМУ посетил Хань Фэн, декан фармацевтического факультета Нанкинского медицинского университета" />
+							</div>
+							<div class="text gallery-name">
+								В рамках  III заседания Белорусско-Китайской ассоциации университетов БГМУ посетил Хань Фэн, декан фармацевтического факультета Нанкинского медицинского университета							</div>
+						</a>
+									</div>
+			</div>
+			<div class="btn-wrap d-flex jc-center w-100 al-center mt-50">
+				<a href="/fotogalereya/" class="theme-link">Перейти в фотогалерею</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="theme-1">
+	<div class="container">
+		<div class="brands-swiper swiper-container">
+			<div class="brands-swiper-wrapper swiper-wrapper">
+				<div class="brands-swiper-slide swiper-slide">
+ <a href="https://www.bsmu.by/universitet/lechebnaya-deyatelnost/eksperimentalnaya-virtualnaya-priemnaya-minzdrava/" target="_blank" class="resourses-link pic-wrap-con"><img src="/upload/dev2fun.imagecompress/webp/images/resourses/16.webp" title="" alt=""></a>
+				</div>
+				<div class="brands-swiper-slide swiper-slide">
+ <a href="https://professor.bsmu.by/" target="_blank" class="resourses-link pic-wrap-con"><img src="/upload/dev2fun.imagecompress/webp/images/resourses/1.webp" title="" alt=""></a>
+				</div>
+				<div class="brands-swiper-slide swiper-slide">
+ <a href="https://abiturient.by/" target="_blank" class="resourses-link pic-wrap-con"><img src="/upload/dev2fun.imagecompress/webp/images/resourses/0ece6f9fa6d15d5a2e532232d9e45e3d.webp"></a>
+				</div>
+				<div class="brands-swiper-slide swiper-slide">
+ <a href="https://www.bsmu.by/universitet/molodyezhnaya-politika/2026-god-belorusskoy-zhenshchiny/" class="resourses-link pic-wrap-con"><img src="/upload/dev2fun.imagecompress/webp/images/resourses/gbj.webp"></a>
+				</div>
+				<div class="brands-swiper-slide swiper-slide">
+ <a href="https://export.by/" target="_blank" class="resourses-link pic-wrap-con"><img src="/upload/dev2fun.imagecompress/webp/images/resourses/9.webp" title="" alt=""></a>
+				</div>
+				<div class="brands-swiper-slide swiper-slide">
+ <a href="http://studyinby.com/" target="_blank" class="resourses-link pic-wrap-con"><img src="/upload/dev2fun.imagecompress/webp/images/resourses/10.webp" title="" alt=""></a>
+				</div>
+				<div class="brands-swiper-slide swiper-slide">
+ <a href="https://xn--d1acdremb9i.xn--90ais/" target="_blank" class="resourses-link pic-wrap-con"><img src="/upload/dev2fun.imagecompress/webp/images/resourses/molodeg2024.webp"></a>
+				</div>
+				<div class="brands-swiper-slide swiper-slide">
+ <a href="https://xn--d1acdremb9i.xn--90ais/informatsiya-po-vazhnym-voprosam/uchashcheysya-i-studencheskoy-molodyezhi/molodyezh-protiv-narkotikov/" target="_blank" class="resourses-link pic-wrap-con"><img src="/upload/dev2fun.imagecompress/webp/images/resourses/12.webp" title="" alt=""></a>
+				</div>
+				<div class="brands-swiper-slide swiper-slide">
+ <a href="https://patriot.rcek.by/" target="_blank" class="resourses-link pic-wrap-con"><img src="/upload/dev2fun.imagecompress/webp/images/resourses/13.webp" title="" alt=""></a> <a href="" class="resourses-link pic-wrap-con"><img src="/upload/dev2fun.imagecompress/webp/images/resourses/14.webp" title="" alt=""></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+ <br>
+ <br>    </div>
+<footer>
+    <div class="container">
+        <div class="footer-top d-flex jc-sb w-100">
+            <div class="logo f-logo">
+                <a href="/" title="">
+                    <div class="container">
+	<div class="brands">
+		<div class="brand">
+ <img alt="logo" src="/include/logo/logo-2.svg" title="logo" align="left" style="margin-right:750px;">
+		</div>
+		<div class="brand">
+ <img alt="logo" src="/upload/dev2fun.imagecompress/webp/include/logo/lt2025.webp" title="logo" align="right">
+		</div>
+		
+		<div class="brand">
+ <img alt="logo" src="/upload/dev2fun.imagecompress/webp/include/logo/ppp3.webp" title="logo" align="right">
+		</div>
+	</div>
+</div>
+ <br>                </a>
+            </div>
+            <div class="to-top-wrap">
+                <a href="#" class="to-top"></a>
+            </div>
+        </div>
+        <div class="footer-body w-100">
+            <div class="footer-menu-wrap d-flex w-100">
+                <div class="footer-col col-100-xs">
+                    <div class="f-title"><br></div>                    <div class="f-menu">
+                        <div class="f-menu-item">г. Минск, пр. Дзержинского, 83
+    220083, Республика Беларусь
+</div>                        <div class="f-menu-item">Тел: <a href="tel:+375172521201">+375 17 252-12-01</a></div>                                                <div class="f-menu-item">Эл. почта: <a href="mailto:bsmu@bsmu.by">bsmu@bsmu.by</a></div>                    </div>
+                </div>
+                <div class="footer-col col-100-xs">
+                    <div class="f-title">Приемная комиссия</div>                    <div class="f-menu">
+                        <div class="f-menu-item">
+	 г. Минск, пр. Дзержинского, 83-18 220083, Республика Беларусь
+</div>
+                        <div class="f-menu-item">
+	 Тел: <a href="tel:+375291160147">+375 29 116-01-47</a>
+</div>
+ <br>                                                <div class="f-menu-item">Эл. почта: <a href="mailto:pk@bsmu.by">pk@bsmu.by</a></div>                    </div>
+                </div>
+                <div class="footer-col col-100-xs">
+                    <div class="f-title">Пресс-служба БГМУ</div>                    <div class="f-menu">
+                        <div class="f-menu-item">г. Минск, пр. Дзержинского, 83-15, 220083, Республика Беларусь 
+</div>                        <div class="f-menu-item">
+	 Тел: <a href="tel:+375172794244">+375 17 279-42-44</a>
+</div>
+ <br>                                                <div class="f-menu-item">Эл. почта: <a href="mailto:pressa@bsmu.by">pressa@bsmu.by</a></div>                    </div>
+                </div>
+                <div class="footer-col col-100-xs">
+                    <div class="f-menu">
+                        <div class="f-menu-item-2">
+ <a href="/kontakty/">Все контакты</a>
+</div>
+<div class="f-menu-item-2">
+ <a href="/universitet/odno-okno/">Одно окно</a>
+</div>
+<div class="f-menu-item-2">
+ <a href="/universitet/odno-okno/uchreditelnye-dokumenty/politika.pdf">Политика в отношении обработки персональных данных в УО «БГМУ»</a>
+</div>
+
+ <br>                    </div>
+                    <div class="menu-bottom-socials footer-socials d-flex">
+ <a href="https://vk.com/bsmu_official" class="social-link social-link-light vk" target="_blank" rel="nofollow"></a> <a href="https://www.facebook.com/BSMU.BY" class="social-link social-link-light fb" target="_blank" rel="nofollow"></a> <a href="https://www.instagram.com/bsmuniversity/" class="social-link social-link-light inst" target="_blank" rel="nofollow"></a> <a href="https://www.youtube.com/user/BSMUniversity" class="social-link social-link-light yt" target="_blank" rel="nofollow"></a> <a href="https://www.linkedin.com/school/belarusian-state-medical-university/" class="social-link social-link-light lin" target="_blank" rel="nofollow"></a> <a href="https://twitter.com/bsmu_by" class="social-link social-link-light twi" target="_blank" rel="nofollow"></a> <!-- <a href="" class="social-link social-link-light ok" target="_blank" rel="nofollow"></a> --> <a href="https://t.me/BSMU_official" class="social-link social-link-light tg" target="_blank" rel="nofollow"></a> <a href="https://www.tiktok.com/@bsmu_official?_t=8q16jiMhGCM&_r=1" class="social-link social-link-light tiktok" target="_blank" rel="nofollow"></a>
+</div>
+ <br>                </div>
+            </div>
+        </div>
+        
+<div class="f-links d-flex al-center w-100">
+			<a href="https://abiturient.by/" class="f-link" target="_blank" rel="nofollow">Справочный ресурс для поступающих</a>
+			<a href="https://edu.gov.by/" class="f-link" target="_blank" rel="nofollow">Министерство образования</a>
+			<a href="https://minzdrav.gov.by/" class="f-link" target="_blank" rel="nofollow">Министерство здравоохранения</a>
+			<a href="https://pravo.by/" class="f-link" target="_blank" rel="nofollow">Национальный правовой портал</a>
+			<a href="https://president.gov.by/ru" class="f-link" target="_blank" rel="nofollow">Портал Президента Республики Беларусь</a>
+	</div>
+        <div class="footer-bottom w-100 d-flex">
+            <div class="f-bottom-text-col col-100-xs">
+                <div class="f-bottom-text copyright">
+	 © Учреждение образования «Белорусский государственный медицинский университет».
+</div>
+ <br>
+<div class="f-bottom-text copyright">
+	<p>
+ <span style="font-size:13px;">Рег. свидетельство №178222 от 11.02.2022 в БелГИЭ.<br>
+		 Рег. свидетельство №1760800571 от 29.04.2008 в ГРИРиИС.</span>
+	</p>
+</div>
+ <br>            </div>
+            <div class="f-bottom-text-col col-100-xs">
+                <div class="f-bottom-text">
+	 При перепечатке текстовой информации и фотографий гиперссылка на сайт обязательна. Все права на материалы принадлежат их авторам.
+</div>
+
+
+ <br>            </div>
+            <div class="f-bottom-text-col col-100-xs">
+                <span class="f-bottom-text">Дизайн и разработка</span>
+<a href="https://itach.by/" class="created-by f-bottom-text" target="_blank" rel="nofollow">Итач-софт</a>            </div>
+        </div>
+    </div>
+    </div>
+</footer>
+
+<div id="cookies-popup" class="cookies-popup">
+    <div class="container">
+        <div class="d-flex jc-sb al-center w-100 cookie-content">
+            <div class="cookie-text text">Мы обрабатываем данные посетителей и используем Cookies для аналитики согласно
+                <a href="/universitet/odno-okno/uchreditelnye-dokumenty/politika.pdf" class="link"
+                   target="_blank">политике в отношении обработки персональных данных в УО БГМУ</a>.
+            </div>
+            <div class="cookie-button"><button class="btn js-cookie__reject">Отклонить</button><button
+                        class="btn js-cookie__accept">Принять</button></div>
+        </div>
+    </div>
+</div>
+
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<div class="query-popup" id='query-popup'>
+    <div class="query-scroll">
+        <div class="query-container">
+            <div class="query-close circle-link-wrap d-flex" id="query-close">
+                <div class="circle-link close-icon">
+                    <div class="close-button"></div>
+                </div>
+            </div>
+            <div id='popup-search' class="search-controller" data-container='popup-render'>
+                <div class="query-input">
+                    <input size="40" placeholder="Поиск"
+                           class="search-suggest input w-100 query-input-form" type="text">
+                    <input type="submit" value="" class="search-btn-custom">
+                </div>
+
+                                    <div class="radio-buttons">
+                        <div id="section-search" class="query-radio d-flex al-center">
+                            <div class="input-wrap">
+                                <label class="custom-radio-label" for="option1">
+                                    Весь сайт                                </label>
+                                <input class="custom-radio-input" type="radio" id="option1" name="radio-popup" value="all"
+                                       checked>
+                            </div>
+                            <div class="input-wrap">
+                                <label class="custom-radio-label" for="option2">
+                                    В новостях и событиях                                </label>
+                                <input class="custom-radio-input" type="radio" id="option2" name="radio-popup" value="news">
+                            </div>
+                            <div class="input-wrap">
+                                <label class="custom-radio-label" for="option3">
+                                    Подразделения                                </label>
+                                <input class="custom-radio-input" type="radio" id="option3" name="radio-popup"
+                                       value="divisions">
+                            </div>
+                                                            <div class="input-wrap">
+                                    <label class="custom-radio-label" for="option4">
+                                        Персоналии                                    </label>
+                                    <input class="custom-radio-input" type="radio" id="option4" name="radio-popup"
+                                           value="personalii">
+                                </div>
+                                                    </div>
+                    </div>
+                
+            </div>
+            <div id='popup-render' class="section-block">
+
+            </div>
+        </div>
+    </div>
+</div>
+<script>if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script>(window.BX||top.BX).message({"JS_CORE_LOADING":"Загрузка...","JS_CORE_NO_DATA":"- Нет данных -","JS_CORE_WINDOW_CLOSE":"Закрыть","JS_CORE_WINDOW_EXPAND":"Развернуть","JS_CORE_WINDOW_NARROW":"Свернуть в окно","JS_CORE_WINDOW_SAVE":"Сохранить","JS_CORE_WINDOW_CANCEL":"Отменить","JS_CORE_WINDOW_CONTINUE":"Продолжить","JS_CORE_H":"ч","JS_CORE_M":"м","JS_CORE_S":"с","JSADM_AI_HIDE_EXTRA":"Скрыть лишние","JSADM_AI_ALL_NOTIF":"Показать все","JSADM_AUTH_REQ":"Требуется авторизация!","JS_CORE_WINDOW_AUTH":"Войти","JS_CORE_IMAGE_FULL":"Полный размер"});</script><script src="/bitrix/js/main/core/core.min.js?1763035466229643"></script><script>BX.Runtime.registerExtension({"name":"main.core","namespace":"BX","loaded":true});</script>
+<script>BX.setJSList(["\/bitrix\/js\/main\/core\/core_ajax.js","\/bitrix\/js\/main\/core\/core_promise.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/loadext\/loadext.js","\/bitrix\/js\/main\/loadext\/extension.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/includes\/js\/includes.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/ui\/polyfill\/closest\/js\/closest.js","\/bitrix\/js\/main\/polyfill\/fill\/main.polyfill.fill.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/core\/core.js","\/bitrix\/js\/main\/polyfill\/intersectionobserver\/js\/intersectionobserver.js","\/bitrix\/js\/main\/lazyload\/dist\/lazyload.bundle.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/parambag\/dist\/parambag.bundle.js"]);
+</script>
+<script>BX.Runtime.registerExtension({"name":"fx","namespace":"window","loaded":true});</script>
+<script>(window.BX||top.BX).message({"LANGUAGE_ID":"ru","FORMAT_DATE":"DD.MM.YYYY","FORMAT_DATETIME":"DD.MM.YYYY HH:MI:SS","COOKIE_PREFIX":"BITRIX_SM","SERVER_TZ_OFFSET":"10800","UTF_MODE":"Y","SITE_ID":"s1","SITE_DIR":"\/","USER_ID":"","SERVER_TIME":1769647399,"USER_TZ_OFFSET":0,"USER_TZ_AUTO":"Y","bitrix_sessid":"99cf3600b61a784c551780fa65a1a013"});</script><script  src="/bitrix/cache/js/s1/bsmu/kernel_main/kernel_main_v1.js?1763036689159756"></script>
+<script>BX.setJSList(["\/bitrix\/js\/main\/core\/core_fx.js","\/bitrix\/js\/main\/session.js","\/bitrix\/js\/main\/pageobject\/dist\/pageobject.bundle.js","\/bitrix\/js\/main\/core\/core_window.js","\/bitrix\/js\/main\/date\/main.date.js","\/bitrix\/js\/main\/core\/core_date.js","\/bitrix\/js\/main\/utils.js","\/local\/templates\/bsmu\/components\/bitrix\/search.suggest.input\/menu_search_input\/script.js"]);</script>
+<script>BX.setCSSList(["\/local\/templates\/bsmu\/components\/bitrix\/search.suggest.input\/menu_search_input\/style.css","\/local\/templates\/bsmu\/styles.css","\/local\/templates\/bsmu\/template_styles.css"]);</script>
+<script>;window.ww_metrics_check=false;setInterval(function(){window.ww_metrics_check=false;},5000);function ww_metrics_postcheck(){if(!window.ww_metrics_check){window.ww_metrics_check=true;let request=new XMLHttpRequest();let formData='sessid='+BX.bitrix_sessid()+'&cur_page=/index.php&use_chat='+window.ww_is_webchat_show;request.responseType='json';request.open('POST','/bitrix/components/webway/metrics.simple/wwcheckmetrics.php',true);request.setRequestHeader('Content-type','application/x-www-form-urlencoded');request.addEventListener('readystatechange',function(){if(request.readyState===4 && request.status===200){let data=request.response;}});request.send(formData);}};document.addEventListener('mousemove',function(){ww_metrics_postcheck();});document.addEventListener('touchmove',function(){ww_metrics_postcheck();});document.addEventListener('scroll',function(){ww_metrics_postcheck();});window.addEventListener('beforeunload',function(){window.ww_metrics_check=false;ww_metrics_postcheck();});window.ww_metrics_check=false;setInterval(function(){window.ww_metrics_check=false;},5000);document.cookie="WW_BX_USER_ID=bxed1b9270a00f31e8a02e90f0b209e23d;path=/;max-age=946857600";</script>
+
+
+
+<script  src="/bitrix/cache/js/s1/bsmu/template_23d99bced5f017e50ee72cee7cc22ac1/template_23d99bced5f017e50ee72cee7cc22ac1_v1.js?176303572912917"></script>
+
+<script>
+  cookies = {
+        /**
+         * get() - получить куки
+         */
+        get: function(name,defo) {
+            if(document.cookie.length > 0) {
+                var start = document.cookie.indexOf(name + '=');
+                if(start != -1) {
+                    start = start + name.length + 1;
+                    var end = document.cookie.indexOf(';', start);
+                    if(end == -1) end = document.cookie.length;
+                    return encodeURI(document.cookie.substring(start, end));
+                }
+            }
+            return defo;
+        },
+        /**
+         * set() - установить куки
+         */
+        set: function(name, value, expiredays) {
+            var exdate = new Date();
+            exdate.setDate(exdate.getDate() + expiredays);
+            document.cookie = name + '=' + decodeURI(value) +
+                ((expiredays == null) ? '' : '; expires=' + exdate.toUTCString()) + '; path=/';
+        },
+        /**
+         * check() - Проверка установлен ли параметр куки
+         */
+        check: function(name) {
+            name = this.cookie.get(name);
+            if(name != null && name != '') return true;
+            else return false;
+        }
+    }
+</script>
+
+
+<script>
+	BX.ready(function(){
+		var input = BX("qplSKIW");
+		if (input)
+			new JsSuggest(input, 'pe:10,md5:,site:s1');
+	});
+</script>
+<script>
+	BX.ready(function(){
+		var input = BX("qT1YQ8m");
+		if (input)
+			new JsSuggest(input, 'pe:10,md5:,site:s1');
+	});
+</script>
+<script>if (window.location.hash != '' && window.location.hash != '#') top.BX.ajax.history.checkRedirectStart('bxajaxid', '9ece564aef2a8e5609ff91ff0997e21e')</script><script>if (top.BX.ajax.history.bHashCollision) top.BX.ajax.history.checkRedirectFinish('bxajaxid', '9ece564aef2a8e5609ff91ff0997e21e');</script><script>top.BX.ready(BX.defer(function() {window.AJAX_PAGE_STATE = new top.BX.ajax.component('comp_9ece564aef2a8e5609ff91ff0997e21e'); top.BX.ajax.history.init(window.AJAX_PAGE_STATE);}))</script><script>
+    document.addEventListener('DOMContentLoaded', function () {
+        //	$('img').Lazy();
+        // функция возвращает cookie с именем name, если есть, если нет, то undefined
+        function getCookie(name) {
+            let matches = document.cookie.match(new RegExp(
+                "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+            ));
+            return matches ? decodeURIComponent(matches[1]) : undefined;
+        }
+        let cookiecook = getCookie("cookiecook"),
+            cookiewin = document.getElementsByClassName('cookies-popup')[0];
+        // проверяем, есть ли у нас cookie, с которой мы не показываем окно и если нет, запускаем показ
+        if (cookiecook != "no") {
+            // показываем
+            cookiewin.classList.toggle("visible");
+            // закрываем по клику
+            document.getElementsByClassName("js-cookie__reject")[0].addEventListener("click", function () {
+                cookiewin.classList.toggle("visible");
+                // записываем cookie на 1 день, с которой мы не показываем окно
+                let date = new Date;
+                date.setDate(date.getDate() + 1);
+                document.cookie = "cookiecook=no; path=/; expires=" + date.toUTCString();
+            });
+            document.getElementsByClassName("js-cookie__accept")[0].addEventListener("click", function () {
+                cookiewin.classList.toggle("visible");
+                // записываем cookie на 7 день, с которой мы не показываем окно
+                let date = new Date;
+                date.setDate(date.getDate() + 30);
+                document.cookie = "cookiecook=no; path=/; expires=" + date.toUTCString();
+            });
+        }
+    }, false);
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script><script type="text/javascript" src="/design/libs/jquery/jquery-3.7.min.js"></script><script type="text/javascript" src='libs/jqui/jquery-ui.min.js'></script><script type="text/javascript" src="/design/libs/lazy/jquery.lazy.min.js"></script>
+<script type="text/javascript" src="/design/libs/jquery/galleryview/jquery.easing.1.3.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+<script type="text/javascript" src="/design/libs/fslightbox.js"></script>
+<script type="text/javascript" src="libs/jquery/galleryview/jquery.min.js"></script><script type="text/javascript" src="/design/libs/swiper/swiper.min.js"></script>
+<script type="text/javascript" src='/design/js/classes/MedSlider.js'></script>
+<script type="text/javascript" src='/design/js/classes/MedSliderB.js'></script>
+<script type="text/javascript" src='/design/js/classes/MedSliderC.js'></script>
+<script type="text/javascript" src='/design/js/classes/TestDataAdder.js'></script>
+<script type="text/javascript" src="/design/js/accordeon.js?rnd=641"></script>
+<script type="text/javascript" src="/design/js/vi.js?rnd=145"></script>
+<script type="text/javascript" src="/design/js/script.js?rnd=114"></script>
+<script type="text/javascript" src='/design/js/sold1.js'></script>
+<script type="text/javascript" src='/design/js/timeline.js'></script>
+<script type="text/javascript" src='/design/js/search.js'></script>
+<script type="text/javascript" src='/design/js/events.js'></script>
+<script type="text/javascript"
+        src='/bitrix/components/aprof/lenta_zoom/templates/fancybox_custom/lib/jquery.fancybox.pack.js'></script>
+<script type="text/javascript" src='/bitrix/components/aprof/lenta_zoom/templates/fancybox_custom/script.js'></script>
+</body>
+
+</html>

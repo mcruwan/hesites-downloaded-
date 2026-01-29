@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-188227528-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-188227528-1');
+</script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(80575930, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/80575930" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <title>Ведущий научно-практический журнал в области права - Национальный центр правовой информации Республики Беларусь</title>
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="/bitrix/js/ui/design-tokens/dist/ui.design-tokens.min.css?172978266923463" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/js/ui/fonts/opensans/ui.font.opensans.min.css?16735074552320" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/js/main/popup/dist/main.popup.bundle.min.css?176476119828056" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/cache/css/s1/journal/template_3a56cc8228b2e8b9e592ef59868bbbea/template_3a56cc8228b2e8b9e592ef59868bbbea_v1.css?1769602914479807" type="text/css"  data-template-style="true" rel="stylesheet" />
+<script>if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script>(window.BX||top.BX).message({"JS_CORE_LOADING":"Загрузка...","JS_CORE_NO_DATA":"- Нет данных -","JS_CORE_WINDOW_CLOSE":"Закрыть","JS_CORE_WINDOW_EXPAND":"Развернуть","JS_CORE_WINDOW_NARROW":"Свернуть в окно","JS_CORE_WINDOW_SAVE":"Сохранить","JS_CORE_WINDOW_CANCEL":"Отменить","JS_CORE_WINDOW_CONTINUE":"Продолжить","JS_CORE_H":"ч","JS_CORE_M":"м","JS_CORE_S":"с","JSADM_AI_HIDE_EXTRA":"Скрыть лишние","JSADM_AI_ALL_NOTIF":"Показать все","JSADM_AUTH_REQ":"Требуется авторизация!","JS_CORE_WINDOW_AUTH":"Войти","JS_CORE_IMAGE_FULL":"Полный размер"});</script>
+
+<script src="/bitrix/js/main/core/core.min.js?1764761284229643"></script>
+
+<script>BX.Runtime.registerExtension({"name":"main.core","namespace":"BX","loaded":true});</script>
+<script>BX.setJSList(["\/bitrix\/js\/main\/core\/core_ajax.js","\/bitrix\/js\/main\/core\/core_promise.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/loadext\/loadext.js","\/bitrix\/js\/main\/loadext\/extension.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/includes\/js\/includes.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/ui\/polyfill\/closest\/js\/closest.js","\/bitrix\/js\/main\/polyfill\/fill\/main.polyfill.fill.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/core\/core.js","\/bitrix\/js\/main\/polyfill\/intersectionobserver\/js\/intersectionobserver.js","\/bitrix\/js\/main\/lazyload\/dist\/lazyload.bundle.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/parambag\/dist\/parambag.bundle.js"]);
+</script>
+<script>BX.Runtime.registerExtension({"name":"ui.design-tokens","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.fonts.opensans","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"main.popup","namespace":"BX.Main","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"popup","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"jquery","namespace":"window","loaded":true});</script>
+<script>(window.BX||top.BX).message({"LANGUAGE_ID":"ru","FORMAT_DATE":"DD.MM.YYYY","FORMAT_DATETIME":"DD.MM.YYYY HH:MI:SS","COOKIE_PREFIX":"BITRIX_SM","SERVER_TZ_OFFSET":"10800","UTF_MODE":"Y","SITE_ID":"s1","SITE_DIR":"\/","USER_ID":"","SERVER_TIME":1769647460,"USER_TZ_OFFSET":0,"USER_TZ_AUTO":"Y","bitrix_sessid":"ccdf86286c01f1b5df5a78cafdcd3bf8"});</script>
+
+
+<script src="/bitrix/js/main/popup/dist/main.popup.bundle.min.js?176476128867480"></script>
+<script src="/bitrix/js/main/jquery/jquery-1.12.4.min.js?167350746397163"></script>
+<script>BX.setJSList(["\/local\/templates\/journal\/assets\/js\/jquery-3.2.1.min.js","\/local\/templates\/journal\/assets\/js\/jquery-migrate.min.js","\/local\/templates\/journal\/assets\/js\/popper.min.js","\/local\/templates\/journal\/assets\/js\/bootstrap.min.js","\/local\/templates\/journal\/assets\/js\/plugins\/gijgo.js","\/local\/templates\/journal\/assets\/js\/plugins\/vegas.min.js","\/local\/templates\/journal\/assets\/js\/plugins\/isotope.min.js","\/local\/templates\/journal\/assets\/js\/plugins\/owl.carousel.min.js","\/local\/templates\/journal\/assets\/js\/plugins\/waypoints.min.js","\/local\/templates\/journal\/assets\/js\/plugins\/counterup.min.js","\/local\/templates\/journal\/assets\/js\/plugins\/mb.YTPlayer.js","\/local\/templates\/journal\/assets\/js\/plugins\/magnific-popup.min.js","\/local\/templates\/journal\/assets\/js\/plugins\/slicknav.min.js","\/local\/templates\/journal\/assets\/js\/main.js","\/local\/templates\/journal\/assets\/js\/google-translate.js","\/local\/templates\/journal\/components\/ittas\/cookie.banner\/.default\/script.js"]);</script>
+<script>BX.setCSSList(["\/local\/templates\/journal\/assets\/css\/bootstrap.min.css","\/local\/templates\/journal\/assets\/css\/plugins\/slicknav.min.css","\/local\/templates\/journal\/assets\/css\/plugins\/magnific-popup.css","\/local\/templates\/journal\/assets\/css\/plugins\/animate.css","\/local\/templates\/journal\/assets\/css\/plugins\/owl.carousel.min.css","\/local\/templates\/journal\/assets\/css\/plugins\/gijgo.css","\/local\/templates\/journal\/assets\/css\/font-awesome.css","\/local\/templates\/journal\/assets\/css\/reset.css","\/local\/templates\/journal\/style.css","\/local\/templates\/journal\/assets\/css\/responsive.css","\/local\/components\/cvr\/widget.form\/templates\/subscribe\/style.css","\/local\/templates\/journal\/components\/ittas\/cookie.banner\/.default\/style.css","\/local\/templates\/journal\/template_styles.css"]);</script>
+<link rel="shortcut icon" href="/local/templates/journal/favicon.ico" type="image/x-icon" />
+
+
+
+<script  src="/bitrix/cache/js/s1/journal/template_9c5e5db9c6ab668c35487ad13158e863/template_9c5e5db9c6ab668c35487ad13158e863_v1.js?17647613271024495"></script>
+
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+	<script src="//translate.google.com/translate_a/element.js?cb=TranslateInit"></script>
+	
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->	
+	
+</head>
+
+<body class="loader-active">
+	<div id="panel"></div>
+	<header id="header-area" class="fixed-top">
+		<div id="header-top" class="d-xl-block">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 text-left">
+						<a href="/" class="logo">
+							<img src="/local/templates/journal/assets/img/logo.png" alt="НЦПИ">
+						</a>
+					</div>
+					<div class="col-lg-6 text-right">
+						<div class="header-social-icons">
+							<div class="search">
+								<form action="/search/" method="get">
+								<input type="search" class="search-box" name="q" value=""/>
+
+								</form>
+								<span class="search-button">
+									<span class="search-icon"></span>
+								</span>
+							</div>
+							<a style="cursor: pointer;"><img src="/local/templates/journal/assets/img/ru.png" alt="ru" data-google-lang="ru"></a>
+<a style="cursor: pointer;"><img src="/local/templates/journal/assets/img/be.png" alt="be" data-google-lang="be"></a>
+<a style="cursor: pointer;"><img src="/local/templates/journal/assets/img/en.png" alt="en" data-google-lang="en"></a>
+<a href="/?special=Y""><img src="/local/templates/journal/assets/img/eye.png"></a>						</div>
+                        <div class="header-social-icons">
+                            
+<button id="click_test" style="cursor: pointer;" href="javascript:void(0)">
+    Подписаться на рассылку
+</button>
+
+<div id="add_answer">
+    <div class="content">
+        <div class="form_title">
+            <p class="title_text">Подписка на рассылку</p>
+            <button class="close_icon" id="subscribe_form_close_icon">&#10006;</button>
+        </div>
+        <form class="form_ajax">
+            <div class="form_content">
+                <label class="subscribe_label" for="subscribe_email">Email<span class="red">*</span></label>
+                <input id="subscribe_email" class="subscribe_input" type="email" name="FORM[PROPERTY][EMAIL]" value="" required size="50">
+				<div id="subscribe_error_double_message">Пользователь с данным email уже подписан</div>
+			</div>
+			<input type="hidden" name="FORM[PROPERTY][SUBSCRIBE]" value="yes"/>
+			<input type="hidden" name="PARAMS_HASH" value="77a70769b3bdae022aa2e98ac71c3e4c"/>
+			<input type="hidden" name="submit"  value="Y"/>
+			                <div class="captcha_area">
+                    <input type="hidden" name="captcha_sid" id="subscribe_hidden_captcha" value="048a4742653bf89aa7d5a0e2a9b37d35">
+                    <img id="subscribe_captcha_image" src="/bitrix/tools/captcha.php?captcha_sid=048a4742653bf89aa7d5a0e2a9b37d35" width="180" height="38" alt="CAPTCHA">
+                    <button type="button" class="reload_captcha_button" id="subscribe_reload_captcha_button">
+						<img class="reload_image" src="/local/components/cvr/widget.form/templates/subscribe/images/reloadCaptcha.png"/>
+					</button>
+                </div>
+                <div class="form_content">
+                    <label class="subscribe_captcha_label" for="subscribe_captcha">Введите символы с картинки <span class="red">*</span></label>
+                    <input type="text" id="subscribe_captcha" if="mainFeedback_captcha" class="subscribe_captcha_input" name="captcha_word" size="30" maxlength="50" required value=""/>
+					<div id="subscribe_error_captcha_message">Символы введены неверно. Повторите попытку</div>
+                </div>
+            			<div class="form_actions">
+				<button class="subscribe_button" type="submit">
+					Подписаться
+				</button>
+			</div>
+        </form>
+    </div>
+</div>
+
+<!--<div id="success_subscribe_message">
+    <div class="content">
+        <div class="success_area">
+            <div class="success_icon">
+                <svg class="svg" viewBox="0 0 48 48">
+                    <path class="success_drawing" d="M 18 32.34 l -8.34 -8.34 -2.83 2.83 11.17 11.17 24 -24 -2.83 -2.83 z" stroke="#0082c9" fill="transparent"/>
+                </svg>
+            </div>
+            <p class="success_message">
+                Поздравляем, вы успешно подписались на рассылку новостей!
+            </p>
+            <button class="success_button">
+                Отлично!
+            </button>
+        </div>
+    </div>
+</div>-->
+
+<div id="success_subscribe_message">
+    <div class="content">
+		<div class="form_title">
+            <p class="title_text">Подписка на рассылку</p>
+            <button class="close_icon" id="subscribe_message_close_icon">&#10006;</button>
+        </div>
+        <div class="success_area">
+            <p class="success_message">
+                Вы успешно подписались на рассылку новостей!
+            </p>
+        </div>
+    </div>
+</div>
+
+<div id="wrong_subscribe_message">
+    <div class="content">
+        <div class="success_area">
+            <div class="success_icon">
+                <svg class="svg" viewBox="0 0 48 48">
+                    <path class="wrong_drawing" d="M 0 0 l 4 0 18 18 18 -18 4 0 -18 20 18 20 -4 0 -18 -18 -18 18 -4 0 18 -20 -18 -20" stroke="darkred" fill="transparent"/>
+                </svg>
+            </div>
+            <p class="success_message">
+                Некорректна введенная информация.
+            </p>
+            <button class="success_button">
+                Понятно
+            </button>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    BX.ready(function (){
+        let addAnswer = new BX.PopupWindow(
+            "my_answer",
+            null,
+            {
+                content: BX('add_answer'),
+                zIndex: 0,
+                offsetLeft: 0,
+                offsetTop: 40,
+                closeByEsc: true,
+                autoHide: true,
+                overlay:{
+                    backgroundColor: 'black', opacity: '5'
+                },
+                events:{
+                    onPopupShow: function (){
+                        $('body').css({"overflow": "hidden", "position": "static"});
+                    },
+                    onPopupClose: function (){
+                        $('body').css("overflow", "visible");
+            			$('.subscribe_input')[0].value = "";
+                        $('.subscribe_label').removeClass('active_label');
+                        $('.subscribe_input').removeAttr('placeholder');
+						$('#subscribe_error_double_message').css("display","none");
+													$('.subscribe_captcha_input')[0].value = "";
+							$('.subscribe_captcha_label').removeClass('active_label');
+							$('#subscribe_error_captcha_message').css("display","none");
+						                    }
+                }
+            }
+        );
+
+        let subscribeSuccessMessage = new BX.PopupWindow(
+            "success_message_window",
+            null,
+            {
+                content: BX('success_subscribe_message'),
+                zIndex: 0,
+                offsetLeft: 0,
+                offsetTop: 40,
+                closeByEsc: true,
+                autoHide: true,
+                overlay:{
+                    backgroundColor: 'black', opacity: '5'
+                },
+                events:{
+                    onPopupShow: function (){
+						$('body').css({"overflow": "hidden", "position": "static"});
+                    },
+                    onPopupClose: function (){
+                        $('body').css("overflow", "visible");
+                    }
+                }
+            }
+        );
+
+		let subscribeWrongMessage = new BX.PopupWindow(
+            "wrong_message_window",
+            null,
+            {
+                content: BX('wrong_subscribe_message'),
+                zIndex: 0,
+                offsetLeft: 0,
+                offsetTop: 40,
+                closeByEsc: true,
+                autoHide: true,
+                overlay:{
+                    backgroundColor: 'black', opacity: '5'
+                },
+                events:{
+                    onPopupShow: function (){
+                        $('body').css({"overflow": "hidden", "position": "static"});
+                    },
+                    onPopupClose: function (){
+                        $('body').css("overflow", "visible");
+                    }
+                }
+            }
+        );
+
+        $('.subscribe_input').on('focusin',function(){
+            $(this).parent().find('.subscribe_label').addClass('active_label');
+            $(this).attr('placeholder', 'yourmail@gmail.com');
+			$('#subscribe_error_double_message').css("display","none");
+        });
+        $('.subscribe_input').on('focusout',function(){
+            if(!this.value){
+                $(this).parent().find('.subscribe_label').removeClass('active_label');
+                $(this).removeAttr('placeholder');
+            }
+        });
+		$('.subscribe_captcha_input').on('focusin',function(){
+            $(this).parent().find('.subscribe_captcha_label').addClass('active_label');
+			$('#subscribe_error_captcha_message').css("display","none");
+        });
+        $('.subscribe_captcha_input').on('focusout',function(){
+            if(!this.value){
+                $(this).parent().find('.subscribe_captcha_label').removeClass('active_label');
+            }
+        });
+        $('#subscribe_form_close_icon').click(function (){
+            addAnswer.close();
+        });
+        $('#click_test').click(function (){
+            addAnswer.show();
+        });
+
+        $('.form_ajax').submit(function(e){
+            e.preventDefault();
+            let form  = $(this).serialize();
+
+            if('Y'==='Y'){
+                const captchaValue = $('.subscribe_captcha_input')[0].value;
+                $('.subscribe_captcha_input')[0].value = "";
+                $('.subscribe_captcha_label').removeClass('active_label');
+
+                $.ajax({
+                    url:'/local/components/cvr/widget.form/templates/subscribe/checkCaptcha.php',
+                    type: 'post',
+                    data: 'captcha_word='+captchaValue+'&captcha_sid='+$('#subscribe_hidden_captcha')[0].value,
+                    success: function (data){
+                        if(data){
+							$.ajax({
+								url:'/local/components/cvr/widget.form/templates/subscribe/checkDoubles.php',
+								type: 'post',
+								data: 'email='+$('.subscribe_input')[0].value+'&status=Y',
+								success: function (data){
+									if(parseInt(data)){
+										$('#subscribe_error_double_message').css("display","block");
+										$('.subscribe_input')[0].value = "";
+										$('.subscribe_input').removeAttr('placeholder');
+										$('.subscribe_label').removeClass('active_label');
+									}else{
+										subscribeSuccessMessage.show();
+				//$('.svg').addClass("animate");
+										$.post(window.location.href, form);
+										addAnswer.close();
+										$('body').css({"overflow": "hidden", "position": "static"});
+									}
+								}
+							});
+                        }else{
+							$('#subscribe_error_captcha_message').css("display","block");
+                        }
+                        $.ajax({
+                            url:'/local/components/cvr/widget.form/templates/subscribe/updateCaptcha.php',
+                            type: 'post',
+                            success: function (data){
+                                $('#subscribe_captcha_image').attr('src','/bitrix/tools/captcha.php?captcha_sid=' + data);
+                                $('#subscribe_hidden_captcha').val(data);
+                            }
+                        });
+                    }
+                });
+            }else{
+				$.ajax({
+					url:'/local/components/cvr/widget.form/templates/subscribe/checkDoubles.php',
+					type: 'post',
+					data: 'email='+$('.subscribe_input')[0].value+'&status=Y',
+					success: function (data){
+						if(parseInt(data)){
+							$('#subscribe_error_double_message').css("display","block");
+							$('.subscribe_input')[0].value = "";
+							$('.subscribe_input').removeAttr('placeholder');
+							$('.subscribe_label').removeClass('active_label');
+						}else{
+							subscribeSuccessMessage.show();
+				//$('.svg').addClass("animate");
+							$.post(window.location.href, form);
+							addAnswer.close();
+							$('body').css({"overflow": "hidden", "position": "static"});
+						}
+					}
+				});
+            }
+        });
+
+        $('#subscribe_message_close_icon').click(function (){
+            subscribeSuccessMessage.close();
+			//subscribeWrongMessage.close();
+        });
+        $('#subscribe_reload_captcha_button').click(function (){
+            $.ajax({
+                url:'/local/components/cvr/widget.form/templates/subscribe/updateCaptcha.php',
+                type: 'post',
+                success: function (data){
+                    $('#subscribe_captcha_image').attr('src','/bitrix/tools/captcha.php?captcha_sid=' + data);
+                    $('#subscribe_hidden_captcha').val(data);
+                }
+            });
+        });
+    })
+
+</script>
+
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>	
+			
+	   
+
+		<div id="header-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 d-xl-block">
+						<nav class="mainmenu">
+							<ul>
+				
+		<li>					
+			<a class="active" href="/">Главная</a>
+								
+		<li class="has-sub">					
+			<a  href="/about/">О журнале</a>
+			<ul>												
+			<li >												
+				<a href="/about/general-information/">Общая информация</a>												
+												
+			<li >												
+				<a href="/about/editorial-team/">Редакционная коллегия</a>												
+												
+			<li >												
+				<a href="/about/15-let-zhurnalu/">15 лет журналу</a>												
+												
+			<li >												
+				<a href="/about/10-years/">10 лет журналу</a>												
+												
+			<li >												
+				<a href="/about/priobresti-zhurnal/">Приобрести журнал</a>												
+												
+			<li >												
+				<a href="/about/ob-izdatelstve">Об издательстве</a>												
+												
+			<li >												
+				<a href="/about/o-glavnom-redaktore">О главном редакторе</a>												
+												
+			<li >												
+				<a href="/about/personal-data-policy">Политика в отношении обработки персональных данных</a>												
+							
+		  </ul>			
+					
+		<li class="has-sub">					
+			<a  href="/for-authors/">Авторам</a>
+			<ul>												
+			<li >												
+				<a href="/for-authors/ethics-of-scientific-publications/">Этика научных публикаций</a>												
+												
+			<li >												
+				<a href="/for-authors/requirements-for-materials/">Требования к материалам</a>												
+												
+			<li >												
+				<a href="/for-authors/poryadok-retsenzirovaniya-materialov/">Порядок рецензирования материалов</a>												
+												
+			<li >												
+				<a href="/for-authors/submit-an-article/">Подать статью</a>												
+							
+		  </ul>			
+					
+		<li class="has-sub">					
+			<a  href="/articles/">Статьи</a>
+			<ul>												
+			<li >												
+				<a href="/articles/tematicheskiy-ukazatel-rubriki/">Тематический указатель (рубрики)</a>												
+												
+			<li >												
+				<a href="/articles/soderzhanie-nomerov/">Содержание номеров</a>												
+												
+			<li >												
+				<a href="/articles/tematicheskie-nomera/">Тематические номера</a>												
+							
+		  </ul>			
+					
+		<li>					
+			<a  href="/contacts/">Контакты</a>
+												</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>		
+		
+	</header>
+
+
+<section id="slider-area">
+    <div class="single-slide-item overlay">
+        <div class="col-lg-12">
+            <div class="row">
+<div class="col-lg-3">
+	<div class="book-a-car">
+		<div class="book-a-car_wrapper">
+			<ul class="list_button">
+				<li><a title="Подать статью" href="/for-authors/submit-an-article/"><img alt="icon_1" src="/local/templates/journal/assets/img/ic_11.png"></a></li>
+				<li><a title="Оформление статьи" href="/upload/oformlenie_stati_primer.doc"><img alt="icon_2" src="/local/templates/journal/assets/img/ic_12.png"></a></li>
+				<li><a title="Приобрести журнал" href="/about/priobresti-zhurnal/"><img alt="icon_3" src="/local/templates/journal/assets/img/ic_13.png"></a></li>
+			</ul>
+			<div class="hello_wds">
+				<p>
+					Приветствуем вас на сайте научно-практического журнала "ПРАВО.by" <a href="/privetstvennoe-slovo/" style="color:white;">&gt;&gt;</a>
+				</p>
+
+				<div class="hello_img">
+ <img src="/local/templates/journal/assets/img/111.png">
+					<h4>Ольга Ивановна</br> Чуприс⁠</h4>
+					<p>
+						Главный редактор
+					</p>
+				</div>
+			</div>
+			<div class="about_izd">
+				<h4>ОБ ИЗДАНИИ  <a href="/about/" style="color:white; font-size:14px;">&gt;&gt;</a></h4>
+				<p>
+					В журнале публикуются материалы ведущих ученых, практиков, преподавателей, аспирантов, магистрантов, освещающие актуальные вопросы теории и практики юридической деятельности...
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<br><div class="col-lg-7">
+    <div class="overall-container">
+
+        <!-- Основная колонка -->
+        <div class="main-slider-container">
+
+            <!-- Слайдер -->
+            <div class="welcome-slider-area white font16">
+                                    <div class="welcome-single-slide">
+                        <div class="slide-bg-two slide-bg-overlay"></div>
+                        <div class="welcome-area">
+                            <div class="slider_overlay flex-v-center" style="background-image: url(/upload/resize_cache/iblock/239/1330_680_2/cbas6nrqopt61f136d3trv6eok3jy1p3.jpg)">
+                                <div class="welcome-text">
+                                    <h4>В свежем номере</h4>
+                                    <a href="https://journal.pravo.by/articles/aktualno/normotvorcheskaya-deyatelnost-evolyutsiya-aktualnye-zadachi-i-perspektivy-razvitiya/"><h2><span style="font-family: Arial Black, Gadget; color: #ffffff;"><b><span style="font-size: 28pt;">Нормотворческая деятельность: эволюция, актуальные задачи и перспективы развития</span></b></span></h2></a>
+                                    <div class="home-button">
+                                        <a href="https://journal.pravo.by/articles/aktualno/normotvorcheskaya-deyatelnost-evolyutsiya-aktualnye-zadachi-i-perspektivy-razvitiya/">
+                                            <img src="/upload/resize_cache/iblock/fdd/166_235_2/fhjcimjgh9aapy3qszj10kcbsqv0s2i6.jpg" alt="Нормотворческая деятельность: эволюция, актуальные задачи и перспективы развития">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="welcome-single-slide">
+                        <div class="slide-bg-two slide-bg-overlay"></div>
+                        <div class="welcome-area">
+                            <div class="slider_overlay flex-v-center" style="background-image: url(/upload/resize_cache/iblock/dbc/1330_680_2/qsfeznvmom4vq6o7yugvjbs14s4ic5tu.jpg)">
+                                <div class="welcome-text">
+                                    <h4>В свежем номере</h4>
+                                    <a href="https://journal.pravo.by/articles/grazhdanskoe-pravo-predprinimatelskoe-pravo/nekotorye-aspekty-optimizatsii-osushchestvleniya-gosudarstvennykh-zakupok/"><h2><span style="font-family: Arial Black, Gadget;"><b><span style="font-size: 30pt; color: #ffffff;">Некоторые аспекты оптимизации осуществления государственных закупок</span></b></span></h2></a>
+                                    <div class="home-button">
+                                        <a href="https://journal.pravo.by/articles/grazhdanskoe-pravo-predprinimatelskoe-pravo/nekotorye-aspekty-optimizatsii-osushchestvleniya-gosudarstvennykh-zakupok/">
+                                            <img src="/upload/resize_cache/iblock/fdd/166_235_2/fhjcimjgh9aapy3qszj10kcbsqv0s2i6.jpg" alt="Некоторые аспекты оптимизации осуществления государственных закупок">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="welcome-single-slide">
+                        <div class="slide-bg-two slide-bg-overlay"></div>
+                        <div class="welcome-area">
+                            <div class="slider_overlay flex-v-center" style="background-image: url(/upload/resize_cache/iblock/6eb/1330_680_2/ave2qtrlhpuy7g2h6j8amtkl94eco46i.jpg)">
+                                <div class="welcome-text">
+                                    <h4>В свежем номере</h4>
+                                    <a href="https://journal.pravo.by/articles/zemelnoe-pravo-prirodoresursnoe-pravo-ekologicheskoe-pravo-agrarnoe-pravo-/pravovoe-regulirovanie-prirodoresursnykh-otnosheniy-v-svete-razrabotki-ekologicheskogo-kodeksa-respu/"><h2><span style="font-family: Arial Black, Gadget;"><b><span style="color: #ffffff; font-size: 24pt;">Правовое регулирование природоресурсных отношений в свете разработки Экологического кодекса Республики Беларусь</span></b></span></h2></a>
+                                    <div class="home-button">
+                                        <a href="https://journal.pravo.by/articles/zemelnoe-pravo-prirodoresursnoe-pravo-ekologicheskoe-pravo-agrarnoe-pravo-/pravovoe-regulirovanie-prirodoresursnykh-otnosheniy-v-svete-razrabotki-ekologicheskogo-kodeksa-respu/">
+                                            <img src="/upload/resize_cache/iblock/fdd/166_235_2/fhjcimjgh9aapy3qszj10kcbsqv0s2i6.jpg" alt="Правовое регулирование природоресурсных отношений в свете разработки Экологического кодекса Республики Беларусь">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="welcome-single-slide">
+                        <div class="slide-bg-two slide-bg-overlay"></div>
+                        <div class="welcome-area">
+                            <div class="slider_overlay flex-v-center" style="background-image: url(/upload/resize_cache/iblock/d99/1330_680_2/wda4v6sq1dpzamrbcmv94tislt553ole.jpg)">
+                                <div class="welcome-text">
+                                    <h4>В свежем номере</h4>
+                                    <a href="https://journal.pravo.by/articles/natsionalnaya-bezopasnost/kiberbezopasnost-kriticheski-vazhnykh-obektov-informatizatsii-kak-prioritetnoe-napravlenie-obespeche/"><div style="text-align: justify;">
+ <span style="font-family: Arial Black, Gadget; font-size: 22pt;"><span style="color: #ffffff;"><b><span style="font-family: Arial Black, Gadget;">Кибербезопасность критически важных объектов информатизации как приоритетное направление обеспечения национальной безопасности</span></b></span></span>
+</div></a>
+                                    <div class="home-button">
+                                        <a href="https://journal.pravo.by/articles/natsionalnaya-bezopasnost/kiberbezopasnost-kriticheski-vazhnykh-obektov-informatizatsii-kak-prioritetnoe-napravlenie-obespeche/">
+                                            <img src="/upload/resize_cache/iblock/fdd/166_235_2/fhjcimjgh9aapy3qszj10kcbsqv0s2i6.jpg" alt="Кибербезопасность критически важных объектов информатизации как приоритетное направление обеспечения национальной безопасности">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                            </div>
+</div>        
+
+    </div>
+</div>
+
+<div class="col-lg-2">
+    <div style="display: flex; flex-direction: column-reverse;">
+                                        				<a href="https://journal.pravo.by/for-authors/requirements-for-materials/">
+                <div class="below">
+                    <img src="/upload/iblock/640/bo02eu88cck6v1f3nfedpz0ux7365r2h.jpg" alt="Нижний баннер">
+                </div>
+		</a>
+                                            				<a href="https://bookpravo.by/catalog/nauchno-prakticheskiy-zhurnal-pravo-by/pechatnaya-versiya/nauchno-prakticheskiy-zhurnal-pravo-by-4-2025/">
+                <div class="above">
+                    <img src="/upload/iblock/f45/n0b5eoa1iisfhdru0vffwc1d3opric0p.jpg" alt="Верхний баннер">
+                </div>
+		</a>
+                                                        </div>
+</div>            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Секция с новостями -->
+<div class="content-wrap-container">
+	<section id="choose-car" class="section-padding">
+    	<div class="container">
+        	<div class="row">
+            	  <div class="col-lg-8">
+                    <div class="section-title">
+						<h4>АКТУАЛЬНО <a href="/news/" style="color:white;">>></a></h4>
+                    </div>
+                    <div class="choose-content-wrap">
+                        <div class="" id="myTabContent">
+                            <div class="" id="popular_cars">
+                                <div class="popular-cars-wrap">
+                                    <div class="row">
+									
+									
+									
+                                        <div class="col-lg-4 col-sm-6 col-12 con suv mpv">
+                                            <div class="single-popular-car">
+                                                <div class="p-car-thumbnails">
+                                                    <a class="car-hover" href="/news/s-dnem-belorusskoy-nauki/">
+                                                        <img src="/upload/resize_cache/iblock/965/330_205_2/wjl5kat2anncs9jcxtc9tms369k7wwjg.jpg" alt="В НЦЗПИ состоялось торжественное собрание трудового коллектива, приуроченное к празднованию Дня белорусской науки">
+                                                    </a>
+                                                </div>
+                                                <div class="p-car-content">
+                                                    <h3>
+                                                        <a href="/news/s-dnem-belorusskoy-nauki/">В НЦЗПИ состоялось торжественное собрание трудового коллектива, приуроченное к празднованию Дня белорусской науки</a>
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+
+									
+									
+                                        <div class="col-lg-4 col-sm-6 col-12 con suv mpv">
+                                            <div class="single-popular-car">
+                                                <div class="p-car-thumbnails">
+                                                    <a class="car-hover" href="/news/novyy-nomer-zhurnala-pravo-by-4-96-2025/">
+                                                        <img src="/upload/resize_cache/iblock/fdd/330_205_2/fhjcimjgh9aapy3qszj10kcbsqv0s2i6.jpg" alt="Новый номер журнала «Право.by»! (№ 4 [96] 2025)">
+                                                    </a>
+                                                </div>
+                                                <div class="p-car-content">
+                                                    <h3>
+                                                        <a href="/news/novyy-nomer-zhurnala-pravo-by-4-96-2025/">Новый номер журнала «Право.by»! (№ 4 [96] 2025)</a>
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+
+									
+									
+                                        <div class="col-lg-4 col-sm-6 col-12 con suv mpv">
+                                            <div class="single-popular-car">
+                                                <div class="p-car-thumbnails">
+                                                    <a class="car-hover" href="/news/kruglyy-teoretiko-prikladnye-voprosy-obespecheniya-sotsialno-trudovykh-prav-uyazvimykh-kategoriy-rab/">
+                                                        <img src="/upload/resize_cache/iblock/27f/330_205_2/iwyz6f4ywjt5cpof6axvke34j8pi2174.jpg" alt="Круглый «Теоретико-прикладные вопросы обеспечения социально-трудовых прав уязвимых категорий работников в Республике Беларусь» прошел в Минске">
+                                                    </a>
+                                                </div>
+                                                <div class="p-car-content">
+                                                    <h3>
+                                                        <a href="/news/kruglyy-teoretiko-prikladnye-voprosy-obespecheniya-sotsialno-trudovykh-prav-uyazvimykh-kategoriy-rab/">Круглый «Теоретико-прикладные вопросы обеспечения социально-трудовых прав уязвимых категорий работников в Республике Беларусь» прошел в Минске</a>
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<div class="col-lg-4">
+	<div class="list_button">
+	<div class="widget-container">
+    <div class="square"><a title="Подать статью" class="ref-button" href="/for-authors/submit-an-article/"><img alt="icon_1" src="/local/templates/journal/assets/img/ic_11.png"></a></div>
+    <div class="rectangle" <div onclick="window.location.href='/for-authors/submit-an-article/';"><h4>ПОДАТЬ СТАТЬЮ</h4></div>
+  </div>
+
+  <div class="widget-container">
+    <div class="square"><a title="Оформление статьи" class="ref-button" href="/for-authors/requirements-for-materials/"><img alt="icon_2" src="/local/templates/journal/assets/img/ic_12.png"></a></div>
+    <div class="rectangle" <div onclick="window.location.href='/for-authors/requirements-for-materials/';"><h4>ТРЕБОВАНИЯ К СТАТЬЯМ</h4></div>
+  </div>
+
+  <div class="widget-container">
+    <div class="square"><a title="Приобрести журнал" class="ref-button" href="/about/priobresti-zhurnal/"><img alt="icon_3" src="/local/templates/journal/assets/img/ic_13.png"></a></div>
+	  <div class="rectangle" <div onclick="window.location.href='/about/priobresti-zhurnal/';"><h4>ПРИОБРЕСТИ ЖУРНАЛ</h4></div>
+  </div>
+
+
+			</div>
+										</div>        	</div>
+    	</div>
+	</section>
+</div>
+
+
+
+	<div id="partner-area">
+		<div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="partner-content-wrap">
+				
+								
+                    <div class="single-partner">
+                        <div class="display-table">
+                            <div class="display-table-cell">
+                                <a target="_blank" href="https://mir.pravo.by/"><img src="/upload/iblock/82f/82fc26ed36100474cdaf1ca6c53788b9.png" alt="Детский правовой сайт"></a>
+                            </div>
+                        </div>
+                    </div>
+					
+								
+                    <div class="single-partner">
+                        <div class="display-table">
+                            <div class="display-table-cell">
+                                <a target="_blank" href="https://pravo.by"><img src="/upload/medialibrary/dbf/dbfce6ded41d1efdbf95a746feb1180c.png" alt="Национальный правовой интернет-портал"></a>
+                            </div>
+                        </div>
+                    </div>
+					
+								
+                    <div class="single-partner">
+                        <div class="display-table">
+                            <div class="display-table-cell">
+                                <a target="_blank" href="https://ncpi.gov.by/"><img src="/upload/medialibrary/024/n41qsndb24abq0wf80d0t3vdcgpgpcup.jpg" alt="НЦЗПИ"></a>
+                            </div>
+                        </div>
+                    </div>
+					
+									
+                </div>
+            </div>
+        </div>
+		</div>
+    </div>						
+		<div id="single_banner-area">
+			<a target="_blank" href="https://journal.pravo.by/for-authors/requirements-for-materials/"><img src="/upload/resize_cache/iblock/640/1920_170_2/bo02eu88cck6v1f3nfedpz0ux7365r2h.jpg" alt="Нижний баннер"></a>
+		</div>
+				
+							
+   
+	
+				
+    <section id="tips-article-area" class="section-padding">
+        <div class="container">
+            <div class="row">
+				<div class="singe_articales">
+
+									
+                    <article class="single-article">
+                        <div class="row">
+                            <div class="article-body">
+                                <h3><a href="/articles/aktualno/normotvorcheskaya-deyatelnost-evolyutsiya-aktualnye-zadachi-i-perspektivy-razvitiya/">Нормотворческая деятельность: эволюция, актуальные задачи и перспективы развития</a></h3>
+                                <div class="article-meta">
+                                    <a class="author">Бортникова А.С., Полящук Н.А., Семашко Е.В., Станкевич О.Г., Шумак А.В. </a>
+                                </div>
+                                <p>№4/2025</p>
+                                <a href="/articles/aktualno/normotvorcheskaya-deyatelnost-evolyutsiya-aktualnye-zadachi-i-perspektivy-razvitiya/" class="readmore-btn">читать статью</a>
+                            </div>
+                        </div>
+                    </article>
+
+									
+                    <article class="single-article">
+                        <div class="row">
+                            <div class="article-body">
+                                <h3><a href="/articles/preemstvennost-belorusskoy-yuridicheskoy-nauki-i-praktiki/aksiologiya-trudovogo-prava-v-nasledii-v-i-semenkova-tsennosti-kontekst-sovremennoe-prochtenie/">Аксиология трудового права в наследии В.И.Семенкова: ценности, контекст, современное прочтение</a></h3>
+                                <div class="article-meta">
+                                    <a class="author">Чичина Е.В. </a>
+                                </div>
+                                <p>№3/2025</p>
+                                <a href="/articles/preemstvennost-belorusskoy-yuridicheskoy-nauki-i-praktiki/aksiologiya-trudovogo-prava-v-nasledii-v-i-semenkova-tsennosti-kontekst-sovremennoe-prochtenie/" class="readmore-btn">читать статью</a>
+                            </div>
+                        </div>
+                    </article>
+
+									
+                    <article class="single-article">
+                        <div class="row">
+                            <div class="article-body">
+                                <h3><a href="/articles/zemelnoe-pravo-prirodoresursnoe-pravo-ekologicheskoe-pravo-agrarnoe-pravo-/kodifikatsiya-ekologicheskogo-zakonodatelstva-kak-faktor-evolyutsionirovaniya-pravovoy-sistemy-respu/">Кодификация экологического законодательства как фактор эволюционирования правовой системы Республики Беларусь</a></h3>
+                                <div class="article-meta">
+                                    <a class="author">Макарова Т.И. </a>
+                                </div>
+                                <p>№2/2025</p>
+                                <a href="/articles/zemelnoe-pravo-prirodoresursnoe-pravo-ekologicheskoe-pravo-agrarnoe-pravo-/kodifikatsiya-ekologicheskogo-zakonodatelstva-kak-faktor-evolyutsionirovaniya-pravovoy-sistemy-respu/" class="readmore-btn">читать статью</a>
+                            </div>
+                        </div>
+                    </article>
+
+									
+                    <article class="single-article">
+                        <div class="row">
+                            <div class="article-body">
+                                <h3><a href="/articles/informatsionnoe-pravo-pravovaya-informatizatsiya/tsifrovoe-pravo-kak-novaya-yuridicheskaya-realnost/">Цифровое право как новая юридическая реальность</a></h3>
+                                <div class="article-meta">
+                                    <a class="author">Мательский А.Ф. </a>
+                                </div>
+                                <p>№1/2025</p>
+                                <a href="/articles/informatsionnoe-pravo-pravovaya-informatizatsiya/tsifrovoe-pravo-kak-novaya-yuridicheskaya-realnost/" class="readmore-btn">читать статью</a>
+                            </div>
+                        </div>
+                    </article>
+
+									
+                    <article class="single-article">
+                        <div class="row">
+                            <div class="article-body">
+                                <h3><a href="/articles/aktualno/aktualnye-voprosy-renovatsii-zakonodatelstva-respubliki-belarus/">Актуальные вопросы реновации законодательства Республики Беларусь</a></h3>
+                                <div class="article-meta">
+                                    <a class="author">Чуприс О.И. </a>
+                                </div>
+                                <p>№6/2024</p>
+                                <a href="/articles/aktualno/aktualnye-voprosy-renovatsii-zakonodatelstva-respubliki-belarus/" class="readmore-btn">читать статью</a>
+                            </div>
+                        </div>
+                    </article>
+
+									
+                    <article class="single-article">
+                        <div class="row">
+                            <div class="article-body">
+                                <h3><a href="/articles/ugolovnoe-pravo-kriminologiya-ugolovno-ispolnitelnoe-pravo/o-primenenii-spetsialnoy-konfiskatsii-transportnykh-sredstv-ispolzovannykh-pri-sovershenii-prestuple/">О применении специальной конфискации транспортных  средств, использованных при совершении преступления</a></h3>
+                                <div class="article-meta">
+                                    <a class="author">Марчук В.В. </a>
+                                </div>
+                                <p>№ 5/2024</p>
+                                <a href="/articles/ugolovnoe-pravo-kriminologiya-ugolovno-ispolnitelnoe-pravo/o-primenenii-spetsialnoy-konfiskatsii-transportnykh-sredstv-ispolzovannykh-pri-sovershenii-prestuple/" class="readmore-btn">читать статью</a>
+                            </div>
+                        </div>
+                    </article>
+
+									
+                    <article class="single-article">
+                        <div class="row">
+                            <div class="article-body">
+                                <h3><a href="/articles/ugolovnoe-pravo-kriminologiya-ugolovno-ispolnitelnoe-pravo/ugolovnaya-otvetstvennost-za-ispolzovanie-dipfeykov-sovremennoe-sostoyanie-i-perspektivy/">Уголовная ответственность за использование дипфейков: современное состояние и перспективы</a></h3>
+                                <div class="article-meta">
+                                    <a class="author">Полещук Д.Г. </a>
+                                </div>
+                                <p>№ 4/2024</p>
+                                <a href="/articles/ugolovnoe-pravo-kriminologiya-ugolovno-ispolnitelnoe-pravo/ugolovnaya-otvetstvennost-za-ispolzovanie-dipfeykov-sovremennoe-sostoyanie-i-perspektivy/" class="readmore-btn">читать статью</a>
+                            </div>
+                        </div>
+                    </article>
+
+									
+                    <article class="single-article">
+                        <div class="row">
+                            <div class="article-body">
+                                <h3><a href="/articles/informatsionnoe-pravo-pravovaya-informatizatsiya/teoreticheskie-i-prikladnye-aspekty-mashinnoy-intellektualizatsii-protsessa-podgotovki-normativnykh-/">Теоретические и прикладные аспекты машинной интеллектуализации процесса подготовки нормативных правовых актов</a></h3>
+                                <div class="article-meta">
+                                    <a class="author">Браусов А.М. </a>
+                                </div>
+                                <p>№ 3/2024</p>
+                                <a href="/articles/informatsionnoe-pravo-pravovaya-informatizatsiya/teoreticheskie-i-prikladnye-aspekty-mashinnoy-intellektualizatsii-protsessa-podgotovki-normativnykh-/" class="readmore-btn">читать статью</a>
+                            </div>
+                        </div>
+                    </article>
+
+									
+                    <article class="single-article">
+                        <div class="row">
+                            <div class="article-body">
+                                <h3><a href="/articles/preemstvennost-belorusskoy-yuridicheskoy-nauki-i-praktiki/aktualnye-voprosy-normotvorchestva-v-respublike-belarus-sokhranyaya-traditsii-k-80-letiyu-so-dnya-ro/">Актуальные вопросы нормотворчества  в Республике Беларусь: сохраняя традиции  (к 80-летию со дня рождения профессора А.М.Абрамовича)</a></h3>
+                                <div class="article-meta">
+                                    <a class="author">Чуприс О.И.</a>
+                                </div>
+                                <p>№2/2024</p>
+                                <a href="/articles/preemstvennost-belorusskoy-yuridicheskoy-nauki-i-praktiki/aktualnye-voprosy-normotvorchestva-v-respublike-belarus-sokhranyaya-traditsii-k-80-letiyu-so-dnya-ro/" class="readmore-btn">читать статью</a>
+                            </div>
+                        </div>
+                    </article>
+
+									
+                    <article class="single-article">
+                        <div class="row">
+                            <div class="article-body">
+                                <h3><a href="/articles/aktualno/k-30-letiyu-prinyatiya-konstitutsii-respubliki-belarus/">К  30-летию  принятия  Конституции Республики  Беларусь</a></h3>
+                                <div class="article-meta">
+                                    <a class="author">Ипатов В.Д.</a>
+                                </div>
+                                <p>№2/2024</p>
+                                <a href="/articles/aktualno/k-30-letiyu-prinyatiya-konstitutsii-respubliki-belarus/" class="readmore-btn">читать статью</a>
+                            </div>
+                        </div>
+                    </article>
+
+	
+				</div>
+            </div>
+        </div>
+    </section>
+    <section id="about-area" class="section-padding">
+        <div class="container">
+            <div class="row">
+			
+			
+                <div class="col-lg-8">
+                    <div class="about-video big_video">
+                        <iframe width="100%" height="550" src="https://www.youtube.com/embed/7Nl8FWOUqT8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+				<div class="col-lg-3">
+				
+		
+                    <div class="about-video small_video">
+                        <iframe width="100%" height="260" src="https://www.youtube.com/embed/CEKCrwPDZnM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+		
+		
+                    <div class="about-video small_video">
+                        <iframe width="100%" height="260" src="https://www.youtube.com/embed/z8bE91Ogktw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+		
+							
+				</div>				
+                <div class="col-lg-1">
+                    <a href="/video/" class="button_link"><img src="/local/templates/journal/assets/img/link.png"></a>
+                </div>
+            </div>
+        </div>
+    </section>					
+
+	<section id="testimonial-area" class="section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 m-auto">
+					<div class="testimonial-content">
+					
+										
+						<div class="single-testimonial">
+							<a target="_blank" href="http://president.gov.by/"><p>Портал Президента Республики Беларусь</p></a>
+						</div>
+						
+										
+						<div class="single-testimonial">
+							<a target="_blank" href="http://www.government.by/ru/"><p>Совет Министров Республики Беларусь</p></a>
+						</div>
+						
+										
+						<div class="single-testimonial">
+							<a target="_blank" href="https://pravo.by/"><p>Национальный правовой Интернет-портал</p></a>
+						</div>
+						
+										
+						<div class="single-testimonial">
+							<a target="_blank" href="https://forumpravo.by/"><p>Правовой форум Беларуси </p></a>
+						</div>
+						
+										
+						<div class="single-testimonial">
+							<a target="_blank" href="https://vak.gov.by/"><p>Высшая аттестационная комиссия Республики Беларусь</p></a>
+						</div>
+						
+										
+						<div class="single-testimonial">
+							<a target="_blank" href="https://elibrary.ru/defaultx.asp"><p>Научная электронная библиотека eLIBRARY.RU</p></a>
+						</div>
+						
+										
+						<div class="single-testimonial">
+							<a target="_blank" href="https://bookpravo.by/"><p>Интернет-магазин юридической литературы</p></a>
+						</div>
+						
+						
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>	
+	<section id="footer-area">
+		<div class="footer-widget-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-4">
+						<div class="single-footer-widget">
+							<div class="widget-body">
+								<img src="/local/templates/journal/assets/img/icons/logo.png" alt="logo">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-8 col-md-9">
+						<div class="single-footer-widget">
+							<div class="contact-info">
+								<span class="contact-info-inner">
+									<span class="text">
+<p>
+	 ©&nbsp;Национальный центр законодательства и правовой информации <br>
+	 Республики Беларусь, 2020-2025
+</p>
+<p>
+ <a href="/politika-v-otnoshenii-obrabotki-cookie-fajlov/">
+	Политика обработки файлов cookie </a>
+</p>
+<p>
+ <a href="#" id="cookie-setting-link">
+	Настройки обработки файлов cookie </a>
+</p>
+ </span> <span class="adress">
+<p>
+ <img src="/local/templates/journal/assets/img/icons/address.png"> 220030, г. Минск, ул. Берсона, 1а, каб. 208, 209
+</p>
+ </span>
+<p>
+ <img src="/local/templates/journal/assets/img/icons/phone.png"> <a href="tel:+375(17)226-44-09 ">+375 (17) 226-44-09</a>
+</p>
+<p>
+ <img src="/local/templates/journal/assets/img/icons/mts.png"> <a href="tel:+375(33)323-02-40">+375 (33) 323-02-40</a>
+</p>
+<p>
+ <img src="/local/templates/journal/assets/img/icons/a1.png"> <a href="tel:+375(44)536-57-40">+375 (44) 536-57-40</a>
+</p>
+ <span class="email">
+<p>
+ <img src="/local/templates/journal/assets/img/icons/email.png"> <a href="mailto:journal@center.gov.by" class="email">journal@center.gov.by</a>
+</p>
+ </span>								</span>
+							</div>
+						</div>
+						<span class="copy2"><a href="http://cvr.by/" target="_blank" class="cvr" data-title="Центр выгодных решений: эффективные решения для вашего дела"><span>Разработка и поддержка сайта:<br>Группа компаний «ЦВР «ОКТЯБРЬСКИЙ»</span></a></span>					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    <!--    COOKIE BANNER    -->
+<div class="cookie-container">
+    <div class="cookie-banner" id="main-form">
+        <p>Для обеспечения удобства пользователей данный сайт использует файлы cookie</p>
+        <div class="buttons">
+            <div class="cookie-button" id="accept-all"><div>ПРИНЯТЬ ВСЕ</div></div>
+            <div class="cookie-button" id="reject-all"><div>ОТКЛОНИТЬ ВСЕ <br /><span>(кроме&nbspнеобходимых)</span></div></div>
+        </div>
+        <div class="cookie-settings-link" id="settings"><a href="#">Настроить</a></div>
+        <div class="cookie-link-doc"><a href="/politika-v-otnoshenii-obrabotki-cookie-fajlov/">Политика в отношении обработки cookie-файлов на сайте</a></div>
+    </div>
+    <div class="cookie-banner" id="settings-form">
+        <h3>Настройка обработки файлов cookie</h3>
+        <span>
+            Вы можете настроить, какие типы файлов cookie будут сохраняться на Вашем устройстве, за исключением необходимых cookie, без которых невозможно функционирование сайта. Полное или частичное отключение cookie может привести к ограничению доступа к функционалу сайта
+        </span>
+        <div class="checboxes">
+            <input type="checkbox" id="technical" class="customCheckbox" disabled checked> <label for="technical">Необходимые (технические)</label>
+            <input type="checkbox" id="functional" class="customCheckbox" checked> <label for="functional">Функциональные</label>
+            <input type="checkbox" id="analytical" class="customCheckbox" checked> <label for="analytical">Аналитические</label>
+        </div>
+        <div class="buttons">
+            <div class="cookie-button large-button" id="accept-selected"><div>СОХРАНИТЬ</div></div>
+            <div class="cookie-button large-button"  id="close"><div>ЗАКРЫТЬ</div></div>
+        </div>
+        <div class="cookie-link-doc"><a href="/politika-v-otnoshenii-obrabotki-cookie-fajlov/">Политика в отношении обработки cookie-файлов на сайте</a></div>
+    </div>
+</div>
+<!--    END COOKIE BANNER    -->
+	<div class="scroll-top">
+		<img src="/local/templates/journal/assets/img/icons/arrow_top.png" alt="">
+	</div>
+</body>
+</html>

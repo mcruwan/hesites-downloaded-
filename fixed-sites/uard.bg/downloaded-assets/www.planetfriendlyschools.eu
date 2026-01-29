@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="">
+
+	<title>Planet Friendly Schools</title>
+
+		<link rel="shortcut icon" href="/user_uploads/logo_PFS.png" type="image/x-icon">
+
+	<link href="/dist/frontend/vendor-style.bbd8c6cac3798a95efd3.css" rel="stylesheet">
+	<link href="/dist/frontend/app-style.de8ec7f4c264ebb9a31a.css" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="app-container-homepage action-index">
+
+<div id="app">
+
+	<div id="app-container">
+
+		<div id="header">
+			<div class="logo"><a href="/"><img src="/images/logo.png" alt="Planet friendly schools logo"></a></div>
+			<div class="menu"><ul class="level1"><li class="selected"><a href="/">Home</a></li><li class="has-submenu"><a href="/take-part">Take part</a><ul class="level2"><li><a href="/take-part/get-inspired">Get inspired...</a></li><li><a href="/take-part/get-going">Get going...</a></li><li><a href="/take-part/get-involved">Get involved...</a></li></ul></li><li><a href="/projects">Projects</a></li><li><a href="/take-part/get-inspired">Films</a></li><li class="has-submenu"><a href="/about-us">About us</a><ul class="level2"><li><a href="/about-the-project">About the project</a></li><li><a href="/learning-opportunities">Learning opportunities</a></li><li><a href="/disadvantaged-groups">Disadvantaged groups</a></li><li><a href="/teacher-skills">Teacher skills</a></li><li><a href="/project-partners">Project Partners</a></li></ul></li></ul></div>
+
+			<div id="nav-buttons">
+				<div id="search-btn" class="nav-btn">
+					<i class="fa fa-lg fa-search"></i><span>Search</span>
+				</div>
+				<div id="lang-btn" class="nav-btn">
+					<i class="fa fa-lg fa-globe"></i><span>United Kingdom<i class="fas fa-caret-down"></i></span>
+
+                    <div class="languages dropdown">
+            			<ul>
+                            <li ><a href="/bg">България</a></li>
+                            <li ><a href="/cs">Česko</a></li>
+                            <li ><a href="/dk">Danmark</a></li>
+                            <li ><a href="/de">Deutschland</a></li>
+                            <li ><a href="/it">Italia</a></li>
+                            <li ><a href="/at">Österreich</a></li>
+                            <li ><a href="/pl">Polska</a></li>
+                            <li ><a href="/si">Slovenija</a></li>
+                            <li class="selected"><a href="/">United Kingdom</a></li>
+            			</ul>
+            		</div>
+				</div>
+				<button class="hamburger hamburger--slider" type="button">
+					<span class="hamburger-box">
+						<span class="hamburger-inner"></span>
+					</span>
+				</button>
+			</div>
+		</div>
+
+		<div class="search">
+			<form class="search-form" method="GET" action="/search">
+				<input id="query" type="text" name="query" placeholder="Search" required>
+				<button type="submit">
+					<i class="fa fa-chevron-right fa-lg"></i>
+				</button>
+		    </form>
+		</div>
+
+		<div id="content">
+<div id="breadcrumb">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                
+
+        <span class="last-item">Planet friendly schools</span>
+
+
+            </div>
+        </div>
+    </div>
+</div>    <section id="hero">
+        <div class="container">
+            <div class="text">
+                <h1>Tackle climate change and environmental damage through inspiring practical projects</h1>
+                <p>We share the experience of schools in nine European countries – delivering inspiring projects in school, with their communities and multiplying their work through national initiatives.</p>
+                <a class="btn btn-primary" href="/projects/by-topic">
+                    Teacher projects
+                </a>
+            </div>
+        </div>
+
+        <picture>
+            <source media="(max-width: 768px)" srcset="/images/hero-mobile.jpg">
+            <source media="(min-width: 768px)" srcset="/images/hero.png">
+            <img src="/images/hero.png" alt="Planet Friendly School">
+        </picture>
+    </section>
+
+    <section id="our-project" class="centered-content">
+        <div class="container">
+            <h1>Be the change you want to see</h1>
+            <p>Climate change and environmental issues are affecting all of us. In the face of the huge global crisis we see in the media, many people feel powerless to act and make a difference. Planet Friendly Schools show how we can all make small changes in our lifestyles and inspire people to be the change they want to see. We want to empower schools, together with the communities they serve, to make change happen!</p>
+            <a class="btn btn-dark" href="/about-the-project">About us</a>
+        </div>
+    </section>
+
+    <section id="inspiration" class="centered-content">
+        <div class="container">
+            <h1>Get inspired</h1>
+            <p>Why not start your journey to becoming a Planet Friendly School? Get inspired to work on projects in your school, reach out to your community and join a movement of schools across Europe that are looking after our planet.</p>
+
+            <a class="btn btn-default" href="/projects/listing">
+                Browse projects
+            </a>
+        </div>
+    </section>
+
+    <section id="connect">
+        <div class="container">
+            <h1>Stay in touch</h1>
+
+                <div class="fb-feed">
+                    <div class="fb-page" data-href="https://www.facebook.com/planetfriendlyschools/" data-tabs="timeline" data-width="500" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                        <blockquote cite="https://www.facebook.com/planetfriendlyschools/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/planetfriendlyschools/">Planet Friendly Schools</a></blockquote>
+                    </div>
+                </div>
+
+        </div>
+    </section>
+		</div>
+
+		<footer>
+			<div class="row">
+
+				<div class="footer-col col">
+					<a class="logo" href="/"><img src="/images/logo.png" alt="Planet friendly schools logo"></a>
+				</div>
+
+				<div class="footer-col col col-lg-4 col-xl-4">
+					<h4>Planet Friendly Schools</h4>
+<ul class="level1"><li><a href="/take-part">Take part</a></li><li><a href="/projects">Projects</a></li><li><a href="/take-part/get-inspired">Films</a></li><li><a href="/about-us">About us</a></li></ul>				</div>
+
+                <div class="footer-col col col-sm-4 col-md-3 col-lg-2">
+                    <h4>School</h4>
+					<ul>
+                            <li>
+                                <a href="/projects/listing?focus%5B0%5D=school&amp;topic%5B0%5D=food">
+                                    Food
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/projects/listing?focus%5B0%5D=school&amp;topic%5B0%5D=growing">
+                                    Growing
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/projects/listing?focus%5B0%5D=school&amp;topic%5B0%5D=environmental">
+                                    Environmental
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="footer-col col col-sm-4 col-md-3 col-lg-2">
+                    <h4>Community</h4>
+					<ul>
+                            <li>
+                                <a href="/projects/listing?focus%5B0%5D=community&amp;topic%5B0%5D=food">
+                                    Food
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/projects/listing?focus%5B0%5D=community&amp;topic%5B0%5D=growing">
+                                    Growing
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/projects/listing?focus%5B0%5D=community&amp;topic%5B0%5D=environmental">
+                                    Environmental
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="footer-col col col-sm-4 col-md-3 col-lg-2">
+                    <h4>National</h4>
+					<ul>
+                            <li>
+                                <a href="/projects/listing?focus%5B0%5D=national&amp;topic%5B0%5D=food">
+                                    Food
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/projects/listing?focus%5B0%5D=national&amp;topic%5B0%5D=growing">
+                                    Growing
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/projects/listing?focus%5B0%5D=national&amp;topic%5B0%5D=environmental">
+                                    Environmental
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+
+				<div class="social footer-col col col-md-2">
+					<h4>Social</h4>
+					<ul>
+						<li><a target="_blank" href="https://www.facebook.com/planetfriendlyschools/"><i class="fab fa-facebook"></i></a></li>
+						<li><a target="_blank" href="https://www.youtube.com/channel/UCHYgRtqCuxErpNzXHYbh4BQ"><i class="fab fa-youtube"></i></a></li>
+					</ul>
+
+				</div>
+			</div>
+
+
+			<div id="footer-notes" class="row">
+				<div id="erasmus" class="col-md-7">
+					<img src="/images/erasmus.png" alt="Erasmus Programme of the European Union">
+					<p>The European Commission support for the production of this publication does not constitute endorsement of the contents which reflects the views only of the authors, and the Commission cannot be held responsible for any use which may be made of the information contained therein.</p>
+				</div>
+				<div id="cca" class="col-md-5">
+					<img src="/images/cca.png" alt="Creative Commons Attribution">
+					<p>Except where otherwise noted, content on this site is licensed under a Creative Commons Attribution 4.0 International license.
+						<a target="_blank" href="https://creativecommons.org/licenses/">Creative Commons License</a>
+					</p>
+				</div>
+			</div>
+
+		</footer>
+
+	</div>
+
+	<div id="mobile-nav">
+<ul class="level1"><li class="selected"><a href="/">Home</a></li><li class="has-submenu"><a href="/take-part">Take part</a><ul class="level2"><li><a href="/take-part/get-inspired">Get inspired...</a></li><li><a href="/take-part/get-going">Get going...</a></li><li><a href="/take-part/get-involved">Get involved...</a></li></ul></li><li><a href="/projects">Projects</a></li><li><a href="/take-part/get-inspired">Films</a></li><li class="has-submenu"><a href="/about-us">About us</a><ul class="level2"><li><a href="/about-the-project">About the project</a></li><li><a href="/learning-opportunities">Learning opportunities</a></li><li><a href="/disadvantaged-groups">Disadvantaged groups</a></li><li><a href="/teacher-skills">Teacher skills</a></li><li><a href="/project-partners">Project Partners</a></li></ul></li></ul>	</div>
+
+</div>
+
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v12.0" nonce="j5hURfkh"></script>
+
+<script defer src="/dist/frontend/runtime.4fce8acba625f3176e0e.js"></script>
+<script defer src="/dist/frontend/vendor.9f08b4fe092bc4ead23c.js"></script>
+<script defer src="/dist/frontend/app.97e5d4c0fa6916aadc40.js"></script>
+
+</body>
+</html>

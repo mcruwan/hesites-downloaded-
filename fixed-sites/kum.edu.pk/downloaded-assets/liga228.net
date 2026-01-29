@@ -1,0 +1,420 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+<!-- Start Head_Tags_1_liga228_net of liga228.net domain -->
+<meta name="google-site-verification" content="kvCYSpP9T6JT1DV4iE-kAY5rEY0KrZBuvVWkgsQsTFM" />
+    <meta name="google-site-verification" content="lsFirLOj1awnq63i0k-Mhh8xhCrF-_HpuBfGqtzxFgg" />
+    <meta name="google-site-verification" content="08TNt7_CEcnAlv_Ar45s85s71UEauYzqYPCk3fhxP7w" />
+    <meta name="google-site-verification" content="T-_c3StHBFhKkWnDr8g-dDampzpZk9Fksnq6e6TcP4Q" />
+    <link rel="canonical" href="https://liga228.net/" />
+    <title>Liga228 Pusat Mix Parlay Terpercaya Di Indonesia</title>
+    <meta name="description" content="Mix Parlay adalah jenis taruhan yang menggabungkan beberapa pertandingan dalam satu kupon taruhan. Keuntungan utama dari Mix Parlay adalah potensi kemenangan yang lebih besar" />
+    <meta name="keywords" content="Liga228, Situs Liga228, Agen Liga228, MixParlay Liga228, Liga 228, Parlay Liga228, casino Liga228, togel Liga228, poker Liga228, tangkas online, slot online" />
+ 
+<link rel="amphtml" href="https://inibarugacor.com/liga228/" />
+    <meta name="language" content="ID" />
+    <meta name="geo.region" content="ID" />
+    <meta name="geo.placename" content="Indonesia" />
+    <meta name="categories" content="Liga228" />
+    <meta name="robots" content="INDEX, FOLLOW" />
+    <meta name="viewport" content="width=1100" />
+<!-- End Head_Tags_1_liga228_net of liga228.net domain -->
+
+<!-- Start Head_Tags_1_liga228_net of all domains -->
+
+<!-- End Head_Tags_1_liga228_net of all domains -->
+
+
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116749842-2"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag() { dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'UA-116749842-2');
+            </script> 
+
+
+    <link rel="Shortcut Icon" href="Images/favicon.ico" />
+    <link rel="stylesheet" href="Images/theme/v1/header.css" />
+    <link rel="stylesheet" href="Images/theme/v1/footer.css?v=1" />
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:500,500i,800,800i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Play:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="Images/theme/v1/css/nyroModal.full.css" />
+    <script type="text/javascript" src="Images/theme/v1/js/jQuery.js"></script>
+    <script type="text/javascript" src="Images/theme/v1/js/jquery.nyroModal-1.6.2.pack.js"></script>
+
+    <script type="text/javascript" src="js/common.js?v=20241218"></script>
+    <script type="text/javascript" src="js/header.js?v=20250106"></script>
+    <script type="text/javascript" src="js/login.js?v=20250303"></script>
+
+    <script language="javascript" type="text/javascript">	       
+        $().ready(function () {
+            $('#btnReg').click(function () {
+                popUpRegister('');
+            });
+            $('#btnPromo').click(function () {
+                var url = 'Images/theme/v1/promo/promo.html?v=3'
+                popUpPromo(url, 1000, 1000);
+            });
+        });
+    </script>
+    <style type="text/css">
+        .hasil {
+            position: absolute;
+            right: 75px;
+            top: 160px;
+            text-align: center
+        }
+
+        .TogelBall {
+            color: #ffffff;
+            font-family: Impact, Arial, Serif;
+            font-size: 60px;
+            letter-spacing: 14px;
+        }
+
+        .menu > li > a {
+            padding: 0px 9px !important;
+        }
+    </style>
+    <script type="text/javascript">
+
+        /***********************************************
+            * Local Time script- © Dynamic Drive (http://www.dynamicdrive.com)
+            * This notice MUST stay intact for legal use
+            * Visit http://www.dynamicdrive.com/ for this script and 100s more.
+            ***********************************************/
+
+        var weekdaystxt = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+        //var monthstxt = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+        var monthstxt = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"];
+
+        function showLocalTime(container, servermode, offsetMinutes, displayversion) {
+            if (!document.getElementById || !document.getElementById(container)) return;
+            this.container = document.getElementById(container);
+            this.displayversion = displayversion;
+
+            var servertimestring = (servermode == "server-php") ? '<? print date("F d, Y H:i:s", time())?>' : (servermode == "server-ssi") ? '<!--#config timefmt="%B %d, %Y %H:%M:%S"--><!--#echo var="DATE_LOCAL" -->' : '01/29/2026 08:41:43';
+            this.localtime = this.serverdate = new Date(servertimestring);
+            this.localtime.setTime(this.serverdate.getTime() + offsetMinutes * 60 * 1000); //add user offset to server time
+            this.updateTime();
+            this.updateContainer();
+        };
+
+        showLocalTime.prototype.updateTime = function () {
+            var thisobj = this;
+            this.localtime.setSeconds(this.localtime.getSeconds() + 1);
+            setTimeout(function () { thisobj.updateTime() }, 1000); //update time every second
+        };
+
+        showLocalTime.prototype.updateContainer = function () {
+            var thisobj = this;
+            if (this.displayversion == "long")
+                this.container.innerHTML = this.localtime.toLocaleString();
+            else if (this.displayversion == "short") {
+                var hour = this.localtime.getHours();
+                var minutes = this.localtime.getMinutes();
+                var seconds = this.localtime.getSeconds();
+                var ampm = (hour >= 12) ? "PM" : "AM";
+                if (hour > 12) {
+                    hour = hour - 12;
+                }
+                var dayofweek = weekdaystxt[4]; //weekdaystxt[this.localtime.getDay()]
+                var monthofyear = monthstxt[this.localtime.getMonth()];
+                var day = this.localtime.getDate();
+                var year = this.localtime.getFullYear();
+
+                //this.container.innerHTML = formatField(hour, 1) + ":" + formatField(minutes) + ":" + formatField(seconds) + " " + ampm + " " + dayofweek + ""
+                this.container.innerHTML = monthofyear + "/" + day + "/" + year + "/" + formatField(hour) + ":" + formatField(minutes) + ":" + formatField(seconds) + " " + '(GMT+7)'// + " " + ampm 
+                //this.container.innerHTML = day + " " + monthofyear + " " + year + " - " + formatField(hour) + ":" + formatField(minutes) + ":" + formatField(seconds)
+            } else if (this.displayversion == "timeonly") {
+                var hour = this.localtime.getHours();
+                var minutes = this.localtime.getMinutes();
+                var seconds = this.localtime.getSeconds();
+                var ampm = (hour >= 12) ? "PM" : "AM";
+                this.container.innerHTML = formatField(hour, 1) + ":" + formatField(minutes) + ":" + formatField(seconds) + "" + ampm;
+                ;
+            } else if (this.displayversion == "datetimegmt") {
+                var monthofyear = monthstxt[this.localtime.getMonth()];
+                var day = this.localtime.getDate();
+                var year = this.localtime.getFullYear();
+                var hour = this.localtime.getHours();
+                /*var ampm = (hour >= 12) ? "PM" : "AM"
+                if (hour > 12) {
+                    hour = hour - 12;
+                }*/
+                var minutes = this.localtime.getMinutes();
+                var seconds = this.localtime.getSeconds();
+
+                var dayofweek = weekdaystxt[this.localtime.getDay()];
+                //this.container.innerHTML = hour + ":" + formatField(minutes) + ":" + formatField(seconds) + formatField(ampm) + "  " + monthofyear + " " + day + ", " + year + " GMT+7"
+                this.container.innerHTML = monthofyear + "/" + day + "/" + year + " " + hour + ":" + formatField(minutes) + ":" + seconds /*+ formatField(ampm)*/ + "  (GMT+8)";
+            }
+            setTimeout(function () { thisobj.updateContainer() }, 1000); //update container every second
+        };
+
+        function formatField(num, isHour) {
+            if (typeof isHour != "undefined") { //if this is the hour field
+                var hour = (num > 12) ? num - 12 : num;
+                return (hour == 0) ? 12 : hour;
+            }
+            return (num <= 9) ? "0" + num : num; //if this is minute or sec field
+        }
+    </script>
+    <script type="text/javascript">
+        function popupPanduan() {
+            window.open('Images/panduan/panduan.html', 'Panduan', 'width=1200,height=1200,toolbars=no,scrollbars=no,status=no,resizable=no');
+
+        }
+    </script>
+
+    
+    <link rel="stylesheet" href="css/header.submenu.css?v=1762746734915" />
+    <style type="text/css">
+        .menu > li > a {
+            padding: 0px 10px !important;
+        }
+
+        .sub-menu .gameNav li:hover {
+            text-decoration: underline !important
+        }
+
+        .main_width {
+            width: 956px;
+            background-color: #284883
+        }
+
+        .arrow-down {
+            margin-top: -21px;
+            margin-right: 6px;
+        }
+
+        .sub-menu {
+            top: 160px;
+            padding-top: 14px;
+            padding-bottom: 23px
+        }
+
+        .arrow-down-submenu {
+            font-size: 13px;
+            color: #fff
+        }
+
+        .slot365-game {
+            width: 103px;
+        }
+
+        .slot365txt {
+            margin-left: -16px;
+        }
+
+        .slot-game {
+            width: 70px;
+        }
+
+        .slottxt {
+            margin-left: -16px;
+        }
+
+        .casino-game {
+            width: 90px;
+        }
+
+        .casinotxt {
+            margin-left: -15px;
+        }
+
+        .fish-game {
+            width: 65px;
+        }
+
+        .fishtxt {
+            margin-left: -14px;
+        }
+        .sub-menu .gameNav li {
+            margin: 10px -9px 0 0 !important;
+        }
+    </style>
+    
+</head>
+<body style="min-width: 1024px;">
+    <a href="#advertise" class="popup_ads" id="popup_ads"></a>
+    <div style="background-color: #fff; position: absolute; width: 100%; height: 41px; top: 133px"></div>
+    <form name="form1" method="post" action="Defaults/Default75.aspx" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type='text/javascript'>var timerId = null;var today = new Date();var time_start = today.getTime();function countdown(){var time_left =300 - parseInt(((new Date()).getTime() - time_start) / 1000);clearTimeout(timerId);if(time_left > 0){timerId = setTimeout('countdown()', 1000);}else{document.location.href = '//liga228.net/';}}function handleError(){return true;}window.onload=countdown;window.onerror=handleError;</SCRIPT><!-- popup event May 2021 was hidden --><script>
+                        $().ready(function () {
+                            $('body').append(`<a style='z-index: 999999; width: 140px; height: 83px; position: fixed; left:0; top: 0px;' href='#'>
+                                <img width='120px' height='60px' src='css/Banner_ASF.png?v=2'/></a>`);
+                        });
+                    </script><script>localStorage.setItem('cdnImageHost','https://imgshare.porta-assist.com');</script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="49D3013D" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="PJW57vuKJjeGLl2aAsCPIuYz/O5eCOsygJNUJf1ounjdUiC606PLbyS7DvVa58Slby1u3ASxQ7IN69KgjfIz8iavNPvn6qerT/Cm2Y1IOkl2IJfgEPAiUqRWXko03CwxkFJqCa+J6n4VdyHf0OfxK6m5gBIoebBlMVORkV52ftNYXWrOkipYlAmQ+mbBDHPlty8JNI0cG8eclgtxuPh57HbEJIMiQHldt4M7B64TjeG13Pi4eN+ErOefUNA47nYa6EwhFY6LqwCnUBFdT5uLPQ==" />
+</div>
+        <div class="wrapper" style="width: 100%; position: relative;">
+            <div class="header" style="margin: 0 auto; width: 955px;">
+                <table border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td rowspan="2" style="vertical-align: top; padding-top: 8px">
+                            <a href="#">
+                                <img src="Images/logo.png" alt="LIGA228" title="LIGA228" /></a>
+                        </td>
+                        <td>
+                            <table border="0" cellspacing="0" cellpadding="0" align="right">
+                                <tr>
+                                    <td>
+                                        <table border="0" cellspacing="0" cellpadding="0" align="right" style="width: 545px; height: 50px">
+                                            <tr>
+                                                <td>
+                                                    <input name="txtUserName" type="text" id="txtUserName" onfocus="clearText(this)" onblur="clearText(this)" value="User Name" tabindex="1" maxLength="12" />
+                                                </td>
+                                                <td>
+                                                    <div id="div1">
+                                                        <input name="Text1" type="text" id="Text1" value="Password" onfocus="changeBox()" tabindex="2" title="Password" />
+                                                    </div>
+                                                    <div id="div2" style="display: none">
+                                                        <input name="txtPassword" type="password" id="txtPassword" onblur="restoreBox()" tabindex="2" />
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <input name="txtCode" type="text" id="txtCode" onfocus="clearText(this)" onblur="clearText(this)" tabindex="3" maxlength="4" title="Code" />
+                                                </td>
+                                                <td>
+                                                    <img border="0" align="absmiddle" src="public/img.aspx" width="80px"
+                                                        height="30px" alt="" style="border-radius: 5px;" />
+                                                </td>
+                                                <td>
+                                                    <input name="btnSignIn" type="button" id="btnSignIn" tabindex="4" class="btnLogin" style="text-decoration: none; cursor: pointer; border: 0;" />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: right; height: 30px; padding-right: 4px"><a href="#" id="btnReg" class="btnReg"></a></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <img src="Images/theme/v1/css/images/contact.png?v=1" usemap="#map1" />
+                            <map id="map1" name="map1">
+                                <area alt="" shape="rect" coords="584,0,688,50" href="#" onclick="OpenLHNChat();return false;" />
+                                <area alt="" shape="rect" coords="0,2,105,48" href="#" id="btnPromo" />
+                            </map>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                             <ul id="main-menu"
+                                tag-parent-sub-menu="a"
+                                data-id="main-menu"
+                                data-is-guest="true"
+                                class="menu" style="height: 41px">
+                                <li style="width: 55px"><a href="#">
+                                    <img style="margin-left: -7px;" src="Images/theme/v1/css/images/home.png" /></a></li>
+                                <li v-for="(key, index) in Object.keys(menus)" class="">
+                                    <menu-item class-name="" :is-guest="isGuest"
+                                        :name="menus[key][0].GameType">
+                                        {{ getGameMenuDisplayNameByLang(menus[key][0]) }}
+                                        <down-arrow type="text" :has-sub-game="menus[key][0].HasSubGame" :game-type="menus[key][0].GameType"
+                                            :is-guest="isGuest">
+                                        </down-arrow>
+                                        <submenu class-name="" :submenu-data="menus[key]" :is-guest="isGuest" :cache-version="cacheVersion">
+                                        </submenu>
+                                    </menu-item>
+                                </li>
+                                <li><a href="#" style="background: none" onclick="popupPanduan()">PANDUAN</a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <table border="0" cellspacing="0" cellpadding="0" style="height: 30px; background: url(Images/theme/v1/css/images/marquee.png) no-repeat">
+                                <tr>
+                                    <td style="width: 305px; text-align: center">
+                                        <span id="timecontainer"></span>
+                                        <script type="text/javascript">
+                                            new showLocalTime("timecontainer", "server-asp", 0, "short")
+                                        </script>
+                                    </td>
+                                    <td>
+                                        <div id="div-marquee" style="width: 650px">
+                                            <input id="text-marquee" type="hidden" value="SELAMAT DATANG  DI LIGA228 AGEN JUDI BOLA ONLINE TERBESAR DAN TERPERCAYA DI INDONESIA&#10;PROMO LIGA228 BONUS CASHBACK 5% DAN UNTUK BONUS TURN OVER DI GAME POKER-QQ 0.3%&#10;CUKUP 1 AKUN UNTUK SEMUA PERMAINAN. BOLA, CASINO, TANGKAS, TOGEL, POKER ,BANDARQ, ADU Q, DOMINOQQ, CAPSA SUSUN, SLOT DAN PERANG BACCARAT." />
+                                            <script type="text/javascript">
+                                                initMarquee()
+                                            </script>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div style="margin: 0 auto; width: 955px; height: 650px; background: transparent; position: absolute; top: 207px; left: 0; right: 0">
+                <iframe style="background: transparent" src="Images/theme/v1/index.html?v=07052025" allowtransparency="true" width="100%" frameborder="0" scrolling="no" height="640px"></iframe>
+                
+                <div id="livechat">
+                    <a href="#" onclick="OpenLHNChat();return false;">
+                        <img src="Images/theme/v1/css/images/livechat.gif"></a>
+                </div>
+                <div style="top: 180px; position: absolute; right: 0; margin-right: -42px;">
+                    <a href="https://bqg0.short.gy/RTPLG228" target="_blank">
+                        <img src="Images/theme/v1/css/images/Liga228Rtp.gif"></a>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            
+<!-- Start WL_Footer_liga228_net of liga228.net domain -->
+<h1 style="text-align: center; font-size: 26px; color: white;">Liga228 Agen Judi Bola Bandar Bola Slot Online Terbaik di Indonesia</h1>
+        <p style="text-align: center; justify; font-size: 13px; color: white;">Liga228 merupakan situs judi bola online resmi yang sangat terkenal dan paling banyak diminati oleh banyak kalangan pengemar <a href="https://webliga228.com/"><strong>judi bola</strong></a> online dari masa ke masa sampai sekarang ini. Sebagai agen bandar bola terpercaya, liga228 sebagai agen judi bola juga menyediakan berbagai macam permainan seperti yang sekarang ini sedang ramai dan digemari para bettors adalah <a href="https://webliga228.com/"><strong>slot online</strong></a> terbesar di tanah air, dan masih banyak permainan yang dapat dimainkan dalam 1 ID, yaitu poker online, togel online, live casino, tembak ikan, sabung ayam dan tangkas online. Liga228 memberikan kemudahan pada para bettors untuk melakukan transaksi deposit dan withdraw yang dapat dilakukan 24 jam online, serta dibantu dengan layanan customer service yang ramah, cekatan dan profesional. Jika anda mencari <a href="https://webliga228.com/"><strong>agen judi bola</strong></a> online, bandar bola terbaik dan terpercaya, anda dapat memilih Liga228 dengan sistem deposit dan withdraw yang cepat, sehingga anda tidak perlu takut untuk ketinggalan taruhan bola berjalan anda.</p>
+        <h2 style="text-align: center; font-size: 23px; color: white;">Bonus Dan Keuntungan Bergabung Bersama Situs Judi Online Terpercaya</h2>
+        <p style="text-align: center; justify; font-size: 13px; color: white;">Keuntungan bermain di situs <a href="https://webliga228.com/"><strong>judi online</strong></a> online liga228, ada memberikan bonus-bonus besar untuk para bettorsnya yang suka bermain taruhan bola online dengan bonus cashback terbesar sebesar 5% dan bukan hanya cashback yang diberikan akan tetapi juga memberikan bonus referral 1% seumur hidup, dan masih ada lagi yaitu bonus rollingan turn over 0.3% untuk permainan poker online yang akan di bagikan setiap hari senin, dan tentunya jika anda mereferensikan teman dan kerabat anda bermain bersama agen judi bola terpercaya yaitu Liga228.serta komisi 0.8% khusus live casino secara otomatis langsung masuk ke ID anda.  Liga228 merupakan situs judi online resmi dengan pasaran bola terlengkap, mulai dari liga terbaik benua Eropa hingga Asia dengan jadwal yang selalu ada setiap harinya. jadi pastikan segera bergabung bersama Liga228 saat ini juga. Dapatkan keuntungan dan bonus besarnya hanya di Liga228.</p>
+        <h3 style="text-align: center; font-size: 20px; color: White;">Liga228 Agen Bandar Bola Diskon Togel Online Terbesar</h3>
+        <p style="text-align: center; justify; font-size: 13px; color: white;">Liga228 agen bandar bola terpercaya dan jika anda mencari pasaran bola online dengan pasaran terbaik dan terlengkap untuk melakukan betting atau <a href="https://webliga228.com/"><strong>taruhan bola</strong></a>, liga228 adalah pilihan yang paling tepat. Liga228 ialah situs judi bola online resmi juga menyediakan permainan seperti togel online dengan diskon togel terbesar untuk 4D diskon 66%, 3D diskon 59%, 2D diskon 29%. Semua dapat anda lakukan atau mainkan cukup dengan daftarkan 1 ID untuk bermain semua permainan yang disediakan liga228. Dan liga228 sebagai <a href="https://webliga228.com/"><strong>bandar bola online</strong></a> juga memberikan kemudahan dalam bertransaksi deposit dan withdraw, di support oleh Bank lokal di Indonesia terbaik dan terpercaya, serta deposit pulsa dan e-wallet, minimal deposit hanya 25 ribu.  Kepuasan dan kenyamanan para bettors liga228 merupakan prioritas utama kami.</p>
+<!-- End WL_Footer_liga228_net of liga228.net domain -->
+
+<!-- Start WL_Footer_liga228_net of all domains -->
+
+<!-- End WL_Footer_liga228_net of all domains -->
+        </div>
+        <div style="display: none">
+            <!-- This code must be installed within the body tags -->
+            <script type="text/javascript">
+                var lhnAccountN = "34870-1";
+                var lhnButtonN = 8955;
+                var lhnChatPosition = 'default';
+                var lhnInviteEnabled = 1;
+                var lhnWindowN = 41389;
+                var lhnInviteN = 42582;
+                var lhnDepartmentN = 41234;
+            </script>
+            <a href="http://www.livehelpnow.net/help-desk-software" target="_blank" style="font-size: 10px;" id="lhnHelp">help desk software</a>
+            <script src="//www.livehelpnow.net/lhn/widgets/chatbutton/lhnchatbutton-current.min.js" type="text/javascript" id="lhnscript"></script>
+        </div>
+
+        <a style="width: 150px; height: 150px; position: absolute; left: 0; top: 212px;" href="https://bqg0.short.gy/bannerpokerqq" target="_blank">
+            <img title="" alt="" width="150px" height="150px" src="Images/HOTGAME(2).gif" /></a>
+        <a style="width: 150px; height: 150px; position: absolute; left: 0; top: 380px;" href="https://bqg0.short.gy/DEMOSLOTLG228" target="_blank">
+            <img title="" alt="" width="150px" height="150px" src="Images/BENNERLG228.gif?v=20112025" /></a>
+
+    </form>
+    <script src="js/vue3.3.7.global.js"></script>
+    <script>const mountEl = document.querySelector("#main-menu");</script>
+    <script src="js/header.menu.vue.js?v=1762746734915"></script>
+    <script>menu.mount("#main-menu");</script>
+</body>
+</html>

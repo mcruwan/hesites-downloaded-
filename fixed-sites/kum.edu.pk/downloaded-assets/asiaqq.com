@@ -1,0 +1,393 @@
+
+
+<!DOCTYPE html>
+
+<html id="master" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Asiaqq Situs Judi DominoQQ Online | PKV Games Online Terpercaya</title>
+<meta name="description" content="Asiaqq situs judi dominoqq terpercaya no.1 dengan menggunakan server pkv games terbaik dan terbesar di Indonesia, memberikan pelayanan online 24 jam." />
+<meta name="keywords" content="judi online, dominoqq, dominoqq online, pkv games, pkv games online, situs pkv games, login dominoqq, login pkv games, qq online, agen bandarq, poker qq, bandarqq, poker qq" />
+<meta name="google-site-verification" content="kyFxy030Lc4ZFlO3x-vKYzHz4awv_FIfvriptfyuYx0" />
+<link rel="canonical" href="https://asiaqq.com" />
+<link rel="alternate" href="https://asiaqq.com" hreflang="id-id" />
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116749842-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'UA-116749842-1');
+	</script>
+
+	<!--<script>if (document.referrer.search(/(\.link)/g) != -1) location.href = "/app/img/phishing.html?url=" + document.referrer;</script>-->
+	<!--<script>var version = window.location.hostname == "localhost" ? (new Date()).getTime() : "55.196.0"</script>-->
+	<style>.SITELOGIN[method=login], .SITELOGIN[method=register], .SITELOGIN[method=forgotpass], .SITELOGIN[method=chat]{visibility:hidden}</style>
+	<style>.loading{padding:3px;background:#ebebeb;display:none}.loading > div { border:1px solid #383838;padding:5px 10px; }.loading > div > div{display:inline-block;vertical-align:middle}</style>
+	<script type="text/javascript">
+		
+        var disableAutoMobile = false;
+		
+
+        function close_popup()
+        {
+            document.getElementById('popup_coming_soon').style.visibility = 'hidden';
+            document.getElementById('popup_coming_soon').style.opacity = 0;
+
+        }
+        document.addEventListener("DOMContentLoaded", function(event) { 
+            if (window.location.pathname !== '/app/Default0.aspx' && window.location.pathname != '/') {
+                document.getElementById('popup_coming_soon').style.visibility = 'hidden';
+                document.getElementById('popup_coming_soon').style.opacity = 0;
+            }
+        });
+
+
+        //alert();
+	</script>
+	<script data-main="/core/Scripts/RequireConfig.js?v=55.196.0" data-sub="Default0" src="/core/Scripts/lib/require-2.1.15.min.js?v=55.196.0" data-version="55.196.0" data-iframe="off"></script>
+    
+
+
+
+	<style type="text/css">
+	html,body { -webkit-text-size-adjust:none; }
+	</style>
+
+	<link rel='stylesheet' href="img/css/style.css"/>
+	<link rel='stylesheet' href="img/css/common.css"/>
+	<script type="text/javascript" src="img/js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="img/js/script.js"></script>
+	<script src="img/js/modernizr.js" type="text/javascript" charset="utf-8"></script>
+	<script src="img/js/cute/cute.slider.js" type="text/javascript" charset="utf-8"></script>
+	<script src="img/js/cute/cute.transitions.all.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" href="img/style/slider-style.css" type="text/css" media="screen"  charset="utf-8"/>
+	<script src="img/js/respond.min.js" type="text/javascript" charset="utf-8"></script>
+
+	<style>
+	body
+	{
+	background-size:100% 980px;
+	}
+	#the-marquee0 {
+	line-height: 32px;
+	overflow: hidden;
+	color: #fe0000;
+	font-size: 18px;
+	padding: 10px 0;
+	/*background: red;*/
+	}
+	</style>
+
+
+
+    <style>
+        #asf_logo
+        {
+            z-index:999999 !important;
+            position: absolute; 
+            top: 15px; 
+            right: 15px; 
+            width: 150px; 
+            height: auto;
+        }
+
+        /*.box {
+          width: 40%;
+          margin: 0 auto;
+          background: rgba(255,255,255,0.2);
+          padding: 35px;
+          border: 2px solid #fff;
+          border-radius: 20px/50px;
+          background-clip: padding-box;
+          text-align: center;
+        }
+
+        .button {
+          font-size: 1em;
+          padding: 10px;
+          color: #fff;
+          border: 2px solid #06D85F;
+          border-radius: 20px/50px;
+          text-decoration: none;
+          cursor: pointer;
+          transition: all 0.3s ease-out;
+        }
+        .button:hover {
+          background: #06D85F;
+        }
+
+        .overlay {
+          position: fixed;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background: rgba(0, 0, 0, 0.7);
+          transition: opacity 500ms;
+          visibility:visible;
+          opacity: 1;
+          z-index:99999;
+        }
+        .overlay:target {
+          visibility: visible;
+          opacity: 1;
+        }
+
+        .popup {
+          margin: 70px auto;
+          top:20%;
+          padding: 20px;
+          background: #fff;
+          border-radius: 5px;
+          width: 610px;
+          height:500px;
+          position: relative;
+          transition: all 5s ease-in-out;
+        }
+
+        .popup h2 {
+          margin-top: 0;
+          color: #333;
+          font-family: Tahoma, Arial, sans-serif;
+        }
+        .popup .close {
+          position: absolute;
+          top: 20px;
+          right: 30px;
+          transition: all 200ms;
+          font-size: 30px;
+          font-weight: bold;
+          text-decoration: none;
+          color: #333;
+        }
+        .popup .close:hover {
+          color: #06D85F;
+        }
+        .popup .popup_content {
+            width:100%;
+            text-align:center;
+        }
+        .popup .popup_content img{
+            margin:0 auto;
+        }
+        .btn_popup{
+            outline: none;
+            border: none;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            width:200px;
+            border-radius: 6px;
+            height: 30px;
+            font-size: 16px;
+            -webkit-transition: all 0.6s ease-in-out;
+            transition: all 0.6s ease-in-out;
+            background: #000;
+            color: #fff;
+            margin-right: 4px;
+            cursor:pointer;
+            line-height:30px;
+            text-align:center;
+        }
+        .img-close
+        {
+            font-size:20px;
+            font-weight:bold;
+        }
+        /*
+        .img-close:before
+        {
+            content:"×";
+        }
+        .popup_footer
+        {
+            margin-top:10px;
+            text-align:center;
+        }
+        @media screen and (max-width: 700px){
+          .box{
+            width: 70%;
+          }
+          .popup{
+            width: 70%;
+          }
+        }*/
+    </style>
+</head>
+<body>
+	<div style="width:100%;position:fixed;top:0;left:0;text-align:center;z-index:999">
+		<div id="login_loading" class="loading">
+			<div style="display:inline-block">
+				<div style="margin-right:5px;width:16px;height:16px;">
+					<img src="/core/Images/loading.gif" />
+				</div>
+				<div style="color:#000">loading...</div>
+			</div>
+		</div>
+	</div>
+    <div id="asf_logo">
+	<img src="/core/Images/asf_light-bg.png" border="0" width="150px">
+</div>
+    
+
+	
+
+	<div id="header">
+		<div class="page-inside">
+			<img src="img/css/images/logo.png" id="logo">
+			<div id="login-banner">
+				<input name="login-username" type="text" class="SITELOGIN" method="username"/>
+				<input name="login-password" type="password" class="SITELOGIN" method="password"/>
+			</div>
+
+			<a href="#" id="btn-login" class="SITELOGIN" method="login">&nbsp;</a>
+			<a href="#" id="btn-daftar" class="SITELOGIN" method="register">&nbsp;</a>
+		</div>
+	</div>
+
+	<div id="menus-wrapper">
+		<div id="menus" class="page-inside">
+			<a href="#" id="link-reg" class="SITELOGIN" method="register">&nbsp;</a>
+			<a href="img/bonuspromo0.jpg" target="_blank" id="link-promo">&nbsp;</a>
+			<a href="img/jadwal-bank.jpg" target="_blank" id="link-jadwal">&nbsp;</a>
+			<a href="https://indo365.info/" id="link-sports" target="_blank">&nbsp;</a>
+		</div>
+	</div>
+
+	<div id="the-marquee0" class="page-inside" style="padding:0;height:32px;">
+		<marquee class="SITEAPI" method="message"></marquee>		
+	</div>
+
+	<div id="mid-body" class="page-inside">
+		<iframe id="slider-frame" scrolling="no" src="https://lalajo.org/asiaqq/slider/" frameborder="0" seamless="seamless"></iframe>
+		<div id="slider-border"></div>
+
+		<div id="kontak">
+			<a href="#" class="SITELOGIN" method="chat" id="link-livechat" style="background-image:url(img/livechat.gif);">&nbsp;</a>
+		</div>
+
+		<div id="games" style="background-image:url(img/css/images/latestbg.png);">
+			<table cellpadding="2" cellspacing="3">
+				<tr>
+					<td>
+						<div id="wddepo">
+							<table>
+								<tr>
+									<td id="last-depo" width="290px">
+										<div class="wddepo-item">
+											<div class='item-row'>
+												<div class="SITEAPI" method="deposit-name-1"></div>
+												<div class="SITEAPI" method="deposit-date-1"></div>
+												<div class="SITEAPI" method="deposit-amt-1"></div>
+											</div>
+											<div class='item-row'>
+												<div class="SITEAPI" method="deposit-name-2"></div>
+												<div class="SITEAPI" method="deposit-date-2"></div>
+												<div class="SITEAPI" method="deposit-amt-2"></div>
+											</div>
+											<div class='item-row'>
+												<div class="SITEAPI" method="deposit-name-3"></div>
+												<div class="SITEAPI" method="deposit-date-3"></div>
+												<div class="SITEAPI" method="deposit-amt-3"></div>
+											</div>
+											<div class='item-row'>
+												<div class="SITEAPI" method="deposit-name-4"></div>
+												<div class="SITEAPI" method="deposit-date-4"></div>
+												<div class="SITEAPI" method="deposit-amt-4"></div>
+											</div>
+											<div class='item-row'>
+												<div class="SITEAPI" method="deposit-name-5"></div>
+												<div class="SITEAPI" method="deposit-date-5"></div>
+												<div class="SITEAPI" method="deposit-amt-5"></div>
+											</div>
+										</div>
+									</td>
+									<td id="jackpots">
+										<div id="jackpot-poker"><span class="SITEAPI" method="jackpot" param="poker228" separator=","></span></div>
+										<div id="jackpot-domino"><span class="SITEAPI" method="jackpot" param="domino99" separator=","></span></div>
+										<div id="jackpot-domino-2"><span class="SITEAPI" method="jackpot" param="capsa13cards" separator=","></span></div>
+									</td>
+									<td id="last-wd">
+										<div class="wddepo-item">
+											<div class='item-row'>
+												<div class="SITEAPI" method="withdraw-name-1"></div>
+												<div class="SITEAPI" method="withdraw-date-1"></div>
+												<div class="SITEAPI" method="withdraw-amt-1"></div>
+											</div>
+											<div class='item-row'>
+												<div class="SITEAPI" method="withdraw-name-2"></div>
+												<div class="SITEAPI" method="withdraw-date-2"></div>
+												<div class="SITEAPI" method="withdraw-amt-2"></div>
+											</div>
+											<div class='item-row'>
+												<div class="SITEAPI" method="withdraw-name-3"></div>
+												<div class="SITEAPI" method="withdraw-date-3"></div>
+												<div class="SITEAPI" method="withdraw-amt-3"></div>
+											</div>
+											<div class='item-row'>
+												<div class="SITEAPI" method="withdraw-name-4"></div>
+												<div class="SITEAPI" method="withdraw-date-4"></div>
+												<div class="SITEAPI" method="withdraw-amt-4"></div>
+											</div>
+											<div class='item-row'>
+												<div class="SITEAPI" method="withdraw-name-5"></div>
+												<div class="SITEAPI" method="withdraw-date-5"></div>
+												<div class="SITEAPI" method="withdraw-amt-5"></div>
+											</div>
+										</div>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+	<div id="banks" class="page-inside">
+		<img src=""/>
+	</div>
+
+<p><br /><br /><br /></p><div id="texts" class="page-inside" style="margin-bottom: 50px;"><h1 style="font-size: 18pt; color: black; text-align: center;">AsiaQQ: Agen BandarQ, BandarQQ, DominoQQ, PokerQQ, PKV Games Terpercaya</h1><span style="font-size: 9pt; color: black; text-align: center;">AsiaQQ adalah situs judi poker qq online dengan uang asli yang sudah terpercaya di Indonesia, sebagai Situs <a href="https://asiaqq.com"><span style="color: #0000ff;">Pokerqq</span></a> online terlengkap mulai dari Poker, Bandarqq, Aduq, Bandarq, Capsa Susun, Sakong, Bandar Poker dan Bandar66 paling besar serta terpercaya saat ini di Indonesia. Dengan Server <a href="https://asiaqq.com"><span style="color: #0000ff;"> PKV Games</span></a> terbaik dan teraman. Dengan Deposit Rp.25.000 anda sudah bisa bermain Delapan game dengan menggunakan 1 ID. Semua permainan bisa di mainkan dan di akses melalui perangkat komputer, smartphone dan Tab. Tentunya kami juga memberikan kualitaas permainan yang FAIRPLAY tanpa sitem robot atau admin. Permainan 100% murni di mainkan antara member vs member secara langsung.</span><br /><br /><h2 style="font-size: 18pt; color: black; text-align: center;">Keuntungan Bermain DominoQQ, BandarQQ Dan PokerQQ PKV Games</h2><span style="font-size: 9pt; color: black; text-align: center;">AsiaQQ Merupakan situs judi poker qq Online terpercaya karena memiliki system keamanan yang sangat canggih. Kami Sangat menjamin keamanan akun anda dalam bermain taruhan kartu Dominoqq, <a href="https://asiaqq.com"><span style="color: #0000ff;"> Bandarqq</span></a> dan Pokerqq. Kami memberikan berbagai macam bonus menarik yang bisa anda dapatkan disini. Nikmati bonus referral 20% Berlaku seumur Hidup dan Bonus Turn Over sebesar 0,5% yang kami bagikan setiap minggunya. Mari segera daftarkan diri anda bersama kami AsiaQQ dan dapatkan segala keuntungannya. </span><h3 style="font-size: 18pt; color: black; text-align: center;">AsiaQQ Situs PKV Games Memberikan Pelayanan Terbaik</h3><span style="font-size: 9pt; color: black; text-align: center;">AsiaQQ Selalu memperhatikan kenyamanan bagi Semua membernya yang ingin main games judi online <a href="https://asiaqq.com"><span style="color: #0000ff;">Dominoqq</span></a>, Bandarqq dan online terpercaya ini. kami siap membantu kesulitan yang di hadapi oleh para pemain dengan customer service Profesional yang selalu online 24 jam bisa di Hubungi kapanpun anda butuhkan. Untuk kemudahan dlam setiap bertransaksi kami telah menyediakan 6 Jenis bank diantaranya bank BCA, BNI, BRI, MANDIRI DANAMON dan CIMB yang bisa di gunakan Untuk melakukan transaksi. </span></div>
+
+	<div id="footer" class="page-inside">
+		<div id="ft-4">Copyright &copy; BandarQ Online | Poker Online | Capsa Uang Asli . All Rights Reserved.</div>
+	</div>
+
+<div style="position:fixed; top:150px; right:20px;">
+<a href="https://bos228.net/" target="_blank"><img src="img/banner/bos228-banner.gif" border="0" style="max-width:150px;" />
+</a></div>
+
+<div style="position:fixed; top:320px; right:20px;">
+<a href="https://bqg0.short.gy/bannerindo365" target="_blank"><img src="img/banner/banner-20240523-a.gif" border="0" />
+</a></div>
+<div style="position: absolute; top: 15px; right: 15px; width: 150px; height: auto;z-index:-1">
+	<img src="/core/Images/asf_light-bg.png" border="0" width="150px">
+</div>
+
+
+<script type="text/javascript">
+function close_logo()
+{
+    //document.getElementById('popup_msg').style.visibility = 'hidden';
+    //document.getElementById('popup_msg').style.opacity = 0;
+    var elementToRemove = document.getElementById('asf_logo');
+    if (elementToRemove) {
+    // Get the parent of the element
+        var parentElement = elementToRemove.parentNode;
+
+        // Remove the element from its parent
+        parentElement.removeChild(elementToRemove);
+    }
+
+}
+
+document.addEventListener("DOMContentLoaded", function(event) { 
+ setTimeout(close_logo, 100);
+
+});
+</script>
+
+</body>
+</html>

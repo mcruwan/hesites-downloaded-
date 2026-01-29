@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<title>Hospital Jose Maria gomendio</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Hospital Jose Maria gomendio &raquo; Feed" href="http://hospitalgomendio.com.ar" />
+<link rel="alternate" type="application/rss+xml" title="Hospital Jose Maria gomendio &raquo; RSS de los comentarios" href="http://hospitalgomendio.com.ar/?feed=comments-rss2" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/hospitalgomendio.com.ar\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.5.17"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='http://hospitalgomendio.com.ar/wp-includes/css/dist/block-library/style.min.css?ver=5.5.17' type='text/css' media='all' />
+<link rel='stylesheet' id='cb70d11b8-css'  href='http://hospitalgomendio.com.ar/wp-content/uploads/essential-addons-elementor/cb70d11b8.min.css?ver=1769647288' type='text/css' media='all' />
+<link rel='stylesheet' id='onepress-fonts-css'  href='https://fonts.googleapis.com/css?family=Raleway%3A400%2C500%2C600%2C700%2C300%2C100%2C800%2C900%7COpen+Sans%3A400%2C300%2C300italic%2C400italic%2C600%2C600italic%2C700%2C700italic&#038;subset=latin%2Clatin-ext&#038;ver=2.2.5' type='text/css' media='all' />
+<link rel='stylesheet' id='onepress-animate-css'  href='http://hospitalgomendio.com.ar/wp-content/themes/onepress/assets/css/animate.min.css?ver=2.2.5' type='text/css' media='all' />
+<link rel='stylesheet' id='onepress-fa-css'  href='http://hospitalgomendio.com.ar/wp-content/themes/onepress/assets/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='onepress-bootstrap-css'  href='http://hospitalgomendio.com.ar/wp-content/themes/onepress/assets/css/bootstrap.min.css?ver=2.2.5' type='text/css' media='all' />
+<link rel='stylesheet' id='onepress-style-css'  href='http://hospitalgomendio.com.ar/wp-content/themes/onepress/style.css?ver=5.5.17' type='text/css' media='all' />
+<style id='onepress-style-inline-css' type='text/css'>
+#main .video-section section.hero-slideshow-wrapper{background:transparent}.hero-slideshow-wrapper:after{position:absolute;top:0px;left:0px;width:100%;height:100%;background-color:rgba(0,0,0,0.3);display:block;content:""}.body-desktop .parallax-hero .hero-slideshow-wrapper:after{display:none!important}#parallax-hero>.parallax-bg::before{background-color:rgba(0,0,0,0.3);opacity:1}.body-desktop .parallax-hero .hero-slideshow-wrapper:after{display:none!important}a,.screen-reader-text:hover,.screen-reader-text:active,.screen-reader-text:focus,.header-social a,.onepress-menu a:hover,.onepress-menu ul li a:hover,.onepress-menu li.onepress-current-item>a,.onepress-menu ul li.current-menu-item>a,.onepress-menu>li a.menu-actived,.onepress-menu.onepress-menu-mobile li.onepress-current-item>a,.site-footer a,.site-footer .footer-social a:hover,.site-footer .btt a:hover,.highlight,#comments .comment .comment-wrapper .comment-meta .comment-time:hover,#comments .comment .comment-wrapper .comment-meta .comment-reply-link:hover,#comments .comment .comment-wrapper .comment-meta .comment-edit-link:hover,.btn-theme-primary-outline,.sidebar .widget a:hover,.section-services .service-item .service-image i,.counter_item .counter__number,.team-member .member-thumb .member-profile a:hover,.icon-background-default{color:#87cb00}input[type="reset"],input[type="submit"],input[type="submit"],input[type="reset"]:hover,input[type="submit"]:hover,input[type="submit"]:hover .nav-links a:hover,.btn-theme-primary,.btn-theme-primary-outline:hover,.section-testimonials .card-theme-primary,.woocommerce #respond input#submit,.woocommerce a.button,.woocommerce button.button,.woocommerce input.button,.woocommerce button.button.alt,.pirate-forms-submit-button,.pirate-forms-submit-button:hover,input[type="reset"],input[type="submit"],input[type="submit"],.pirate-forms-submit-button,.contact-form div.wpforms-container-full .wpforms-form .wpforms-submit,.contact-form div.wpforms-container-full .wpforms-form .wpforms-submit:hover,.nav-links a:hover,.nav-links a.current,.nav-links .page-numbers:hover,.nav-links .page-numbers.current{background:#87cb00}.btn-theme-primary-outline,.btn-theme-primary-outline:hover,.pricing__item:hover,.section-testimonials .card-theme-primary,.entry-content blockquote{border-color:#87cb00}.site-footer{background-color:#87cb00}.site-footer .footer-connect .follow-heading,.site-footer .footer-social a{color:rgba(255,255,255,0.9)}#footer-widgets{}.gallery-carousel .g-item{padding:0px 1px}.gallery-carousel{margin-left:-1px;margin-right:-1px}.gallery-grid .g-item,.gallery-masonry .g-item .inner{padding:1px}.gallery-grid,.gallery-masonry{margin:-1px}
+</style>
+<link rel='stylesheet' id='onepress-gallery-lightgallery-css'  href='http://hospitalgomendio.com.ar/wp-content/themes/onepress/assets/css/lightgallery.css?ver=5.5.17' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css'  href='http://hospitalgomendio.com.ar/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-animations-css'  href='http://hospitalgomendio.com.ar/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.0.13' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-legacy-css'  href='http://hospitalgomendio.com.ar/wp-content/plugins/elementor/assets/css/frontend-legacy.min.css?ver=3.0.13' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='http://hospitalgomendio.com.ar/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.0.13' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-58-css'  href='http://hospitalgomendio.com.ar/wp-content/uploads/elementor/css/post-58.css?ver=1698934611' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-global-css'  href='http://hospitalgomendio.com.ar/wp-content/uploads/elementor/css/global.css?ver=1698934612' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-1367-css'  href='http://hospitalgomendio.com.ar/wp-content/uploads/elementor/css/post-1367.css?ver=1722854274' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Varela+Round%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.5.17' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css'  href='http://hospitalgomendio.com.ar/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.12.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css'  href='http://hospitalgomendio.com.ar/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.12.0' type='text/css' media='all' />
+<script type='text/javascript' src='http://hospitalgomendio.com.ar/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<link rel="https://api.w.org/" href="http://hospitalgomendio.com.ar/index.php?rest_route=/" /><link rel="alternate" type="application/json" href="http://hospitalgomendio.com.ar/index.php?rest_route=/wp/v2/pages/1367" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://hospitalgomendio.com.ar/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://hospitalgomendio.com.ar/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.5.17" />
+<link rel="canonical" href="http://hospitalgomendio.com.ar/" />
+<link rel='shortlink' href='http://hospitalgomendio.com.ar/' />
+<link rel="alternate" type="application/json+oembed" href="http://hospitalgomendio.com.ar/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=http%3A%2F%2Fhospitalgomendio.com.ar%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://hospitalgomendio.com.ar/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=http%3A%2F%2Fhospitalgomendio.com.ar%2F&#038;format=xml" />
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="http://hospitalgomendio.com.ar/wp-content/uploads/2023/11/cropped-logo-hosp-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="http://hospitalgomendio.com.ar/wp-content/uploads/2023/11/cropped-logo-hosp-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="http://hospitalgomendio.com.ar/wp-content/uploads/2023/11/cropped-logo-hosp-1-180x180.png" />
+<meta name="msapplication-TileImage" content="http://hospitalgomendio.com.ar/wp-content/uploads/2023/11/cropped-logo-hosp-1-270x270.png" />
+</head>
+
+<body class="home page-template page-template-elementor_header_footer page page-id-1367 wp-custom-logo elementor-default elementor-template-full-width elementor-kit-58 elementor-page elementor-page-1367">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Saltar al contenido</a>
+	<div id="header-section" class="h-on-top no-transparent">		<header id="masthead" class="site-header header-contained is-sticky no-scroll no-t h-on-top" role="banner">
+			<div class="container">
+				<div class="site-branding">
+				<div class="site-brand-inner has-logo-img no-desc"><div class="site-logo-div"><a href="http://hospitalgomendio.com.ar/" class="custom-logo-link  no-t-logo" rel="home" itemprop="url"><img width="320" height="72" src="http://hospitalgomendio.com.ar/wp-content/uploads/2023/11/cropped-Gomendio-1374-Ramallo-Bs.-As.-1.png" class="custom-logo" alt="Hospital Jose Maria gomendio" loading="lazy" itemprop="logo" srcset="http://hospitalgomendio.com.ar/wp-content/uploads/2023/11/cropped-Gomendio-1374-Ramallo-Bs.-As.-1.png 320w, http://hospitalgomendio.com.ar/wp-content/uploads/2023/11/cropped-Gomendio-1374-Ramallo-Bs.-As.-1-300x68.png 300w" sizes="(max-width: 320px) 100vw, 320px" /></a></div></div>				</div>
+				<div class="header-right-wrapper">
+					<a href="#0" id="nav-toggle">Menú<span></span></a>
+					<nav id="site-navigation" class="main-navigation" role="navigation">
+						<ul class="onepress-menu">
+							<li id="menu-item-28" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-28"><a href="http://hospitalgomendio.com.ar/" aria-current="page">Inicio</a></li>
+<li id="menu-item-2066" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2066"><a target="_blank" rel="noopener noreferrer" href="https://67d406237445.sn.mynetname.net/hg_portal_paciente">Portal Pacientes</a></li>
+<li id="menu-item-2041" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2041"><a target="_blank" rel="noopener noreferrer" href="https://67d406237445.sn.mynetname.net/drey">INTRANET</a></li>
+<li id="menu-item-1443" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1443"><a href="http://hospitalgomendio.com.ar/webmail/">WEBMAIL</a></li>
+<li id="menu-item-1779" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1779"><a href="http://hospitalgomendio.com.ar/?page_id=1770">Situación Económica Financiera</a></li>
+<li id="menu-item-2005" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2005"><a href="http://hospitalgomendio.com.ar/?page_id=1984">Boletín Oficial</a></li>
+						</ul>
+					</nav>
+					<!-- #site-navigation -->
+				</div>
+			</div>
+		</header><!-- #masthead -->
+		</div>		<div data-elementor-type="wp-page" data-elementor-id="1367" class="elementor elementor-1367" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-0787a49 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0787a49" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:2006,&quot;url&quot;:&quot;http:\/\/hospitalgomendio.com.ar\/wp-content\/uploads\/2023\/11\/IMG-20231101-WA0063.jpg&quot;}],&quot;shape_divider_top&quot;:&quot;opacity-tilt&quot;,&quot;shape_divider_bottom&quot;:&quot;opacity-tilt&quot;,&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500}">
+							<div class="elementor-background-overlay"></div>
+						<div class="elementor-shape elementor-shape-top" data-negative="false">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2600 131.1" preserveAspectRatio="none">
+	<path class="elementor-shape-fill" d="M0 0L2600 0 2600 69.1 0 0z"/>
+	<path class="elementor-shape-fill" style="opacity:0.5" d="M0 0L2600 0 2600 69.1 0 69.1z"/>
+	<path class="elementor-shape-fill" style="opacity:0.25" d="M2600 0L0 0 0 130.1 2600 69.1z"/>
+</svg>		</div>
+				<div class="elementor-shape elementor-shape-bottom" data-negative="false">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2600 131.1" preserveAspectRatio="none">
+	<path class="elementor-shape-fill" d="M0 0L2600 0 2600 69.1 0 0z"/>
+	<path class="elementor-shape-fill" style="opacity:0.5" d="M0 0L2600 0 2600 69.1 0 69.1z"/>
+	<path class="elementor-shape-fill" style="opacity:0.25" d="M2600 0L0 0 0 130.1 2600 69.1z"/>
+</svg>		</div>
+					<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cca75d7" data-id="cca75d7" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-740b657 elementor-widget elementor-widget-spacer" data-id="740b657" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-0e79dc0 elementor-widget elementor-widget-heading" data-id="0e79dc0" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Hospital Municipal <br>José María Gomendio</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e7dc0c8 elementor-widget elementor-widget-heading" data-id="e7dc0c8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">- Cuidando a todos los ramallenses <br>desde el 25 de Marzo de 1903 -</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6d33d11 elementor-align-center elementor-widget elementor-widget-button" data-id="6d33d11" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="tel:+543407421555" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-buzz-out" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-left">
+				<i aria-hidden="true" class="fas fa-phone-volume"></i>			</span>
+						<span class="elementor-button-text">Emergencias</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-e707b4f elementor-widget elementor-widget-spacer" data-id="e707b4f" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-43d9bfe elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="43d9bfe" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5081604" data-id="5081604" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-527a468 elementor-widget elementor-widget-text-editor" data-id="527a468" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center; font-size: 30px;"><span style="color: #333333;"><strong>Portal de Telemedicina</strong></span></p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-9643ffd elementor-button-success elementor-align-center elementor-widget elementor-widget-button" data-id="9643ffd" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://ramallo.itconsultsa.com/login" target="_blank" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Ingrese y Registrese</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-d1450c6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d1450c6" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-886f3a1" data-id="886f3a1" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-f25b615 content-align-cta-center elementor-widget elementor-widget-eael-cta-box" data-id="f25b615" data-element_type="widget" data-widget_type="eael-cta-box.default">
+				<div class="elementor-widget-container">
+					<div class="eael-call-to-action bg-lite">
+        <h4 class="sub-title"><img src="https://67d406237445.sn.mynetname.net/hg_portal_paciente/_lib/img/logos/2024HGPortalPaciente.png" ></h4><h2 class="title">Nuevo Portal Paciente</h2><p><p>Regístrate y accede a tus Laboratorios e Imágenes.</p><p>Próximamente turnos online!!!</p></p><a href="https://67d406237445.sn.mynetname.net/hg_portal_paciente/app_Login/"   class="cta-button ">Ingresar al Portal Paciente</a>	</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-a601f7f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a601f7f" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b904e49" data-id="b904e49" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-4da30b0 elementor-widget elementor-widget-spacer" data-id="4da30b0" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-67c7143 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="67c7143" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cf2a6cc" data-id="cf2a6cc" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-93742e1 elementor-widget elementor-widget-alert" data-id="93742e1" data-element_type="widget" data-widget_type="alert.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-alert elementor-alert-info" role="alert">
+			<span class="elementor-alert-title">Nuevo Coronavirus (COVID-19)</span>
+							<span class="elementor-alert-description">Conocé toda la información necesaria en https://portal-coronavirus.gba.gob.ar/.</span>
+										<button type="button" class="elementor-alert-dismiss">
+					<span aria-hidden="true">&times;</span>
+					<span class="elementor-screen-only">Descartar alerta</span>
+				</button>
+					</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-68457c0 elementor-widget elementor-widget-spacer" data-id="68457c0" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-cafdb42 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="cafdb42" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-f3b77c9" data-id="f3b77c9" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-e89a2e7 elementor-view-stacked elementor-shape-circle elementor-widget elementor-widget-icon" data-id="e89a2e7" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="fas fa-hospital-alt"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-43bf0ae elementor-widget elementor-widget-heading" data-id="43bf0ae" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Unidades Sanitarias</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-21979f5 elementor-align-center elementor-widget elementor-widget-button" data-id="21979f5" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="http://hospitalgomendio.com.ar/?page_id=1496" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-pulse-grow" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Ver aquí</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e1d915a" data-id="e1d915a" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-f424300 elementor-view-stacked elementor-shape-circle elementor-widget elementor-widget-icon" data-id="f424300" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="fas fa-map-marker-alt"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-1d0fbc1 elementor-widget elementor-widget-heading" data-id="1d0fbc1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Ubicación</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6923bd4 elementor-align-center elementor-widget elementor-widget-button" data-id="6923bd4" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="http://hospitalgomendio.com.ar/?page_id=1505" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-pulse-grow" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Ver aquí</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-ec3f784 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ec3f784" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-69963a9" data-id="69963a9" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-dc2efcb elementor-widget elementor-widget-spacer" data-id="dc2efcb" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-e98b1f5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e98b1f5" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6d70ad1" data-id="6d70ad1" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-7b0101f elementor-view-stacked elementor-shape-circle elementor-widget elementor-widget-icon" data-id="7b0101f" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="fas fa-user-md"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-2340666 elementor-widget elementor-widget-heading" data-id="2340666" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Listado de profesionales</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6381187 elementor-align-center elementor-widget elementor-widget-button" data-id="6381187" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="http://hospitalgomendio.com.ar/?page_id=1570" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-pulse-grow" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Ver aquí</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7239366" data-id="7239366" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-a6240f6 elementor-view-stacked elementor-shape-circle elementor-widget elementor-widget-icon" data-id="a6240f6" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="fas fa-bullhorn"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-d7dcd80 elementor-widget elementor-widget-heading" data-id="d7dcd80" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Promoción de la Salud</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4db67e7 elementor-align-center elementor-widget elementor-widget-button" data-id="4db67e7" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://www.instagram.com/hospital_gomendio/" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-pulse-grow" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Ver aquí</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-5e06190 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5e06190" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ffa5355" data-id="ffa5355" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1437196 elementor-view-stacked elementor-shape-circle elementor-widget elementor-widget-icon" data-id="1437196" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="fas fa-archive"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-3e4f53a elementor-widget elementor-widget-heading" data-id="3e4f53a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Boletín Oficial</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4ae966c elementor-align-center elementor-widget elementor-widget-button" data-id="4ae966c" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="http://hospitalgomendio.com.ar/?page_id=1984" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-pulse-grow" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Ver aquí</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1083994" data-id="1083994" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-fc1b58d elementor-view-stacked elementor-shape-circle elementor-widget elementor-widget-icon" data-id="fc1b58d" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="fas fa-file-invoice-dollar"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-65a61b1 elementor-widget elementor-widget-heading" data-id="65a61b1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Comprobantes proveedores</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7f3ae5c elementor-align-center elementor-widget elementor-widget-button" data-id="7f3ae5c" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="http://hospitalgomendio.com.ar/?page_id=1943" class="elementor-button-link elementor-button elementor-size-sm elementor-animation-pulse-grow" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Ver aquí</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-7580ea5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7580ea5" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a40ad7c" data-id="a40ad7c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-59bab96 elementor-widget elementor-widget-spacer" data-id="59bab96" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-3eb813d elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="3eb813d" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-6b3e03e elementor-widget elementor-widget-heading" data-id="6b3e03e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Novedades</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-b7f9eca elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="b7f9eca" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a8dd2b3 elementor-widget elementor-widget-eael-facebook-feed" data-id="a8dd2b3" data-element_type="widget" data-widget_type="eael-facebook-feed.default">
+				<div class="elementor-widget-container">
+			<div id="eael-facebook-feed-a8dd2b3" class="eael-facebook-feed eael-col-3 eael-facebook-feed-card">
+            
+        </div>
+        <div class="clearfix"></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-246efe7 elementor-widget elementor-widget-wp-widget-custom_html" data-id="246efe7" data-element_type="widget" data-widget_type="wp-widget-custom_html.default">
+				<div class="elementor-widget-container">
+			<div class="textwidget custom-html-widget"><div class="powr-social-feed" id="904c3b62_1641222829"></div></div>		</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-22f8592 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="22f8592" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-874beeb" data-id="874beeb" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-fdb92b7 elementor-grid-eael-col-3 elementor-grid-tablet-eael-col-2 elementor-grid-mobile-eael-col-1 elementor-widget elementor-widget-eael-post-grid" data-id="fdb92b7" data-element_type="widget" data-settings="{&quot;eael_post_grid_columns&quot;:&quot;eael-col-3&quot;,&quot;eael_post_grid_columns_tablet&quot;:&quot;eael-col-2&quot;,&quot;eael_post_grid_columns_mobile&quot;:&quot;eael-col-1&quot;}" data-widget_type="eael-post-grid.default">
+				<div class="elementor-widget-container">
+			<div id="eael-post-grid-fdb92b7" class="eael-post-grid-container">
+            <div class="eael-post-grid eael-post-appender eael-post-appender-fdb92b7 eael-post-grid-style-default" data-layout-mode="masonry"><article class="eael-grid-post eael-post-grid-column" data-id="2119">
+        <div class="eael-grid-post-holder">
+            <div class="eael-grid-post-holder-inner"><div class="eael-entry-media"><div class="eael-entry-overlay fade-in"><i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i><a
+                            href="http://hospitalgomendio.com.ar/?p=2119"
+                            
+                            
+                        ></a></div><div class="eael-entry-thumbnail">
+                                <img src="http://hospitalgomendio.com.ar/wp-content/uploads/2020/11/hospital-png-300x300.png" alt="">
+                            </div></div><div class="eael-entry-wrapper"><header class="eael-entry-header"><h2 class="eael-entry-title"><a
+                        class="eael-grid-post-link"
+                        href="http://hospitalgomendio.com.ar/?p=2119"
+                        title="REGISTRO DE PROVEEDORES"
+                        
+                        
+                        >REGISTRO DE PROVEEDORES</a></h2></header><div class="eael-entry-meta"><span class="eael-posted-on"><time datetime="25 marzo, 2025">25 marzo, 2025</time></span></div><div class="eael-entry-content">
+                        <div class="eael-grid-post-excerpt"><p>La administración del Hospital José María Gomendio informa que se...</p><a
+                            href="http://hospitalgomendio.com.ar/?p=2119"
+                            class="eael-post-elements-readmore-btn"
+                            
+                            
+                            >Leer más</a></div>
+                    </div></div></div>
+        </div>
+    </article><article class="eael-grid-post eael-post-grid-column" data-id="2030">
+        <div class="eael-grid-post-holder">
+            <div class="eael-grid-post-holder-inner"><div class="eael-entry-media"><div class="eael-entry-overlay fade-in"><i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i><a
+                            href="http://hospitalgomendio.com.ar/?p=2030"
+                            
+                            
+                        ></a></div><div class="eael-entry-thumbnail">
+                                <img src="http://hospitalgomendio.com.ar/wp-content/uploads/2023/11/1dd0caf6-0123-4843-be67-cd2c1c3680bc-300x169.jpg" alt="">
+                            </div></div><div class="eael-entry-wrapper"><header class="eael-entry-header"><h2 class="eael-entry-title"><a
+                        class="eael-grid-post-link"
+                        href="http://hospitalgomendio.com.ar/?p=2030"
+                        title="Solicitud de nómina de Médicos pediatras y terapistas al Círculo Médico"
+                        
+                        
+                        >Solicitud de nómina de Médicos pediatras y terapistas al Círculo Médico</a></h2></header><div class="eael-entry-meta"><span class="eael-posted-on"><time datetime="13 noviembre, 2023">13 noviembre, 2023</time></span></div><div class="eael-entry-content">
+                        <div class="eael-grid-post-excerpt"><p></p><a
+                            href="http://hospitalgomendio.com.ar/?p=2030"
+                            class="eael-post-elements-readmore-btn"
+                            
+                            
+                            >Leer más</a></div>
+                    </div></div></div>
+        </div>
+    </article><article class="eael-grid-post eael-post-grid-column" data-id="1795">
+        <div class="eael-grid-post-holder">
+            <div class="eael-grid-post-holder-inner"><div class="eael-entry-media"><div class="eael-entry-overlay fade-in"><i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i><a
+                            href="http://hospitalgomendio.com.ar/?p=1795"
+                            
+                            
+                        ></a></div><div class="eael-entry-thumbnail">
+                                <img src="http://hospitalgomendio.com.ar/wp-content/uploads/2020/11/image-300x144.png" alt="">
+                            </div></div><div class="eael-entry-wrapper"><header class="eael-entry-header"><h2 class="eael-entry-title"><a
+                        class="eael-grid-post-link"
+                        href="http://hospitalgomendio.com.ar/?p=1795"
+                        title="Llamado a Proveedores"
+                        
+                        
+                        >Llamado a Proveedores</a></h2></header><div class="eael-entry-meta"><span class="eael-posted-on"><time datetime="4 enero, 2022">4 enero, 2022</time></span></div><div class="eael-entry-content">
+                        <div class="eael-grid-post-excerpt"><p>El Hospital José María Gomendio de Ramallo invita a inscribirse...</p><a
+                            href="http://hospitalgomendio.com.ar/?p=1795"
+                            class="eael-post-elements-readmore-btn"
+                            
+                            
+                            >Leer más</a></div>
+                    </div></div></div>
+        </div>
+    </article><article class="eael-grid-post eael-post-grid-column" data-id="1519">
+        <div class="eael-grid-post-holder">
+            <div class="eael-grid-post-holder-inner"><div class="eael-entry-media"><div class="eael-entry-overlay fade-in"><i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i><a
+                            href="http://hospitalgomendio.com.ar/?p=1519"
+                            
+                            
+                        ></a></div><div class="eael-entry-thumbnail">
+                                <img src="http://hospitalgomendio.com.ar/wp-content/uploads/2020/11/image-300x144.png" alt="">
+                            </div></div><div class="eael-entry-wrapper"><header class="eael-entry-header"><h2 class="eael-entry-title"><a
+                        class="eael-grid-post-link"
+                        href="http://hospitalgomendio.com.ar/?p=1519"
+                        title="Llamado a proveedores"
+                        
+                        
+                        >Llamado a proveedores</a></h2></header><div class="eael-entry-meta"><span class="eael-posted-on"><time datetime="6 mayo, 2020">6 mayo, 2020</time></span></div><div class="eael-entry-content">
+                        <div class="eael-grid-post-excerpt"><p>El Hospital José María Gomendio de Ramallo invita a inscribirse...</p><a
+                            href="http://hospitalgomendio.com.ar/?p=1519"
+                            class="eael-post-elements-readmore-btn"
+                            
+                            
+                            >Leer más</a></div>
+                    </div></div></div>
+        </div>
+    </article></div>
+            <div class="clearfix"></div>
+        </div>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+			<footer id="colophon" class="site-footer" role="contentinfo">
+						<div class="footer-connect">
+			<div class="container">
+				<div class="row">
+					 <div class="col-md-8 offset-md-2 col-sm-12 offset-md-0">		<div class="footer-social">
+			<h5 class="follow-heading">Seguinos #DesdeCasa</h5><div class="footer-social-icons"><a target="_blank" href="https://www.facebook.com/hjmg.ramallo" title="Facebook"><i class="fa  fa-facebook"></i></a></div>		</div>
+		</div>				</div>
+			</div>
+		</div>
+	
+		<div class="site-info">
+			<div class="container">
+									<div class="btt">
+						<a class="back-to-top" href="#page" title="Volver arriba"><i class="fa fa-angle-double-up wow flash" data-wow-duration="2s"></i></a>
+					</div>
+										Copyright &copy; 2026 Hospital Jose Maria gomendio		<span class="sep"> &ndash; </span>
+		<a href="https://www.famethemes.com/themes/onepress">OnePress</a> tema por FameThemes					</div>
+		</div>
+		<!-- .site-info -->
+
+	</footer><!-- #colophon -->
+	</div><!-- #page -->
+
+
+<link rel='stylesheet' id='font-awesome-5-all-css'  href='http://hospitalgomendio.com.ar/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=4.3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shim-css'  href='http://hospitalgomendio.com.ar/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=4.3.5' type='text/css' media='all' />
+<script type='text/javascript' id='cb70d11b8-js-extra'>
+/* <![CDATA[ */
+var localize = {"ajaxurl":"http:\/\/hospitalgomendio.com.ar\/wp-admin\/admin-ajax.php","nonce":"ac4e71f828"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://hospitalgomendio.com.ar/wp-content/uploads/essential-addons-elementor/cb70d11b8.min.js?ver=1769647288' id='cb70d11b8-js'></script>
+<script type='text/javascript' src='http://hospitalgomendio.com.ar/wp-content/themes/onepress/assets/js/plugins.js?ver=2.2.5' id='onepress-js-plugins-js'></script>
+<script type='text/javascript' src='http://hospitalgomendio.com.ar/wp-content/themes/onepress/assets/js/bootstrap.min.js?ver=2.2.5' id='onepress-js-bootstrap-js'></script>
+<script type='text/javascript' src='http://hospitalgomendio.com.ar/wp-content/themes/onepress/assets/js/isotope.pkgd.min.js?ver=2.2.5' id='onepress-gallery-masonry-js'></script>
+<script type='text/javascript' id='onepress-theme-js-extra'>
+/* <![CDATA[ */
+var onepress_js_settings = {"onepress_disable_animation":"","onepress_disable_sticky_header":"","onepress_vertical_align_menu":"","hero_animation":"flipInX","hero_speed":"5000","hero_fade":"750","hero_duration":"5000","hero_disable_preload":"","is_home":"","gallery_enable":"1","is_rtl":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://hospitalgomendio.com.ar/wp-content/themes/onepress/assets/js/theme.js?ver=2.2.5' id='onepress-theme-js'></script>
+<script type='text/javascript' id='jquery.bully-js-extra'>
+/* <![CDATA[ */
+var Onepress_Bully = {"enable_label":"1","disable_mobile":"","sections":{"hero":{"id":"hero","_id":"hero","inverse":1,"enable":true,"title":"Home"},"features":{"id":"features","_id":"features","inverse":false,"enable":true,"title":"Caracter\u00edsticas"},"services":{"id":"services","_id":"services","inverse":false,"enable":true,"title":"Nuestros servicios"}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://hospitalgomendio.com.ar/wp-content/themes/onepress/assets/js/jquery.bully.js?ver=5.5.17' id='jquery.bully-js'></script>
+<script type='text/javascript' src='http://hospitalgomendio.com.ar/wp-includes/js/wp-embed.min.js?ver=5.5.17' id='wp-embed-js'></script>
+<script type='text/javascript' src='http://hospitalgomendio.com.ar/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=4.3.5' id='font-awesome-4-shim-js'></script>
+<script type='text/javascript' src='http://hospitalgomendio.com.ar/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.0.13' id='elementor-frontend-modules-js'></script>
+<script type='text/javascript' src='http://hospitalgomendio.com.ar/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4' id='jquery-ui-position-js'></script>
+<script type='text/javascript' src='http://hospitalgomendio.com.ar/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1' id='elementor-dialog-js'></script>
+<script type='text/javascript' src='http://hospitalgomendio.com.ar/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2' id='elementor-waypoints-js'></script>
+<script type='text/javascript' src='http://hospitalgomendio.com.ar/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6' id='swiper-js'></script>
+<script type='text/javascript' src='http://hospitalgomendio.com.ar/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.0.13' id='share-link-js'></script>
+<script type='text/javascript' id='elementor-frontend-js-before'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"i18n":{"shareOnFacebook":"Compartir en Facebook","shareOnTwitter":"Compartir en Twitter","pinIt":"Fijarlo","download":"Descargar","downloadImage":"Descargar imagen","fullscreen":"Pantalla completa","zoom":"Zoom","share":"Compartir","playVideo":"Reproducir v\u00eddeo","previous":"Anterior","next":"Siguiente","close":"Cerrar"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"3.0.13","is_static":false,"legacyMode":{"elementWrappers":true},"urls":{"assets":"http:\/\/hospitalgomendio.com.ar\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":1367,"title":"Hospital%20Jose%20Maria%20gomendio","excerpt":"","featuredImage":false}};
+</script>
+<script type='text/javascript' src='http://hospitalgomendio.com.ar/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.0.13' id='elementor-frontend-js'></script>
+<script type='text/javascript' src='http://hospitalgomendio.com.ar/wp-includes/js/underscore.min.js?ver=1.8.3' id='underscore-js'></script>
+<script type='text/javascript' id='wp-util-js-extra'>
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://hospitalgomendio.com.ar/wp-includes/js/wp-util.min.js?ver=5.5.17' id='wp-util-js'></script>
+<script type='text/javascript' id='wpforms-elementor-js-extra'>
+/* <![CDATA[ */
+var wpformsElementorVars = {"recaptcha_type":"v2"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://hospitalgomendio.com.ar/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.6.3.1' id='wpforms-elementor-js'></script>
+
+<p><a style="display: none;" href="https://www.detikriau.com/budaya/">agen228</a></p>
+<p><a style="display: none;" href="https://www.detikriau.com/pariwisata/">agen228</a></p>
+<p><a style="display: none;" href="https://www.detikriau.com/menu/">agen228</a></p>
+<p><a style="display: none;" href="https://www.detikriau.com/bandarqq/">bandarqq</a></p>
+<p><a style="display: none;" href="https://www.soccer-news.co.uk/">agen228</a></p>
+<p><a style="display: none;" href="https://difootball.com/">agen228</a></p>
+<p><a style="display: none;" href="https://sbobet4bet.com/">sbobet</a></p>
+<p><a style="display: none;" href="https://bola228.it.com/">bola228</a></p>
+<p><a style="display: none;" href="https://bola-228.it.com/">bola228</a></p>
+<p><a style="display: none;" href="https://tuckertigersfootball.com/">bola228</a></p>
+<p><a style="display: none;" href="https://verifiedsoccertipster.com/">bola228</a></p>
+<p><a style="display: none;" href="https://elparaisoelgin.com/">liga88</a></p>
+<p><a style="display: none;" href="https://mobile.riversidepiratesfootball.com/">liga88</a></p>
+<p><a style="display: none;" href="https://mobile.agen228poker.com/">agen228</a></p>
+<p><a style="display: none;" href="https://mobile.batikkerinci.com/">olb228</a></p>
+<p><a style="display: none;" href="https://sbobettor.com/">sbobet</a></p>
+<p><a style="display: none;" href="https://www.genujuancbd.com/">judi bola</a></p>
+<p><a style="display: none;" href="https://www.atxrazorrick.com/">judi bola</a></p>
+<p><a style="display: none;" href="https://shopmofumofu.com/">olb228</a></p>
+<p><a style="display: none;" href="https://olb228live.org/">olb228</a></p>
+<p><a style="display: none;" href="https://amongusonline.co/">dewaqq</a></p>
+<p><a style="display: none;" href="https://detikriau.com/">https://detikriau.com/</a></p>
+<p><a style="display: none;" href="https://agen-228.it.com/">agen228</a></p>
+<p><a style="display: none;" href="https://soccer10tips.com/">judi bola</a></p>
+<p><a style="display: none;" href="https://agen228.media/">agen228</a></p>
+<p><a style="display: none;" href="https://agen228.com/">agen228</a></p>
+<p><a style="display: none;" href="https://agen228.net/">agen228</a></p>
+<p><a style="display: none;" href="https://agen228.ac.id/">agen228</a></p>
+<p><a style="display: none;" href="https://www.defendersofeden.com/">https://www.defendersofeden.com/</a></p>
+<p><a style="display: none;" href="https://www.defendersofeden.com/doe-comic">judi bola</a></p>
+<p><a style="display: none;" href="https://whitetailsofoklahoma.net/">https://whitetailsofoklahoma.net/</a></p>
+<p><a style="display: none;" href="https://whitetailsofoklahoma.net/Contact/">agen228</a></p>
+<p><a style="display: none;" href="https://whitetailsofoklahoma.net/join-today.html">agen228</a></p>
+<p><a style="display: none;" href="https://www.smithforcps.com/">https://www.smithforcps.com/</a></p>
+<p><a style="display: none;" href="https://www.smithforcps.com/in-the-news">agen228</a></p>
+<p><a style="display: none;" href="https://www.usafocs62a.net/">https://www.usafocs62a.net/</a></p>
+<p><a style="display: none;" href="https://www.usafocs62a.net/about/">agen228</a></p>
+<p><a style="display: none;" href="https://www.towingpinole.com/">agen228</a></p>
+<p><a style="display: none;" href="https://www.towingpinole.com/emergency-towing">agen228</a></p>
+<p><a style="display: none;" href="https://oswegocountygovernments.com/">https://oswegocountygovernments.com/</a></p>
+<p><a style="display: none;" href="https://oswegocountygovernments.com/rummy-bonus-apps/">agen228</a></p>
+<p><a style="display: none;" href="https://oswegocountygovernments.com/contact/">agen228</a></p>
+<p><a style="display: none;" href="https://esdrasacademy.com/contacto/">https://esdrasacademy.com/contacto/</a></p>
+<p><a style="display: none;" href="https://esdrasacademy.com/cursos/">https://esdrasacademy.com/cursos/</a></p>
+<p><a style="display: none;" href="https://www.studydestinationusa.com/about-us/">https://www.studydestinationusa.com/about-us/</a></p>
+<p><a style="display: none;" href="https://www.studydestinationusa.com/contact-us/">https://www.studydestinationusa.com/contact-us/</a></p>
+<p><a style="display: none;" href="https://bakersfieldblackdollarinitiative.com/contact/">https://bakersfieldblackdollarinitiative.com/contact/</a></p>
+<p><a style="display: none;" href="https://www.ret2.go.th/ict/">judi bola</a></p>
+
+</body>
+</html>

@@ -1,0 +1,2244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Trường Đại học Đại Nam">
+    
+                  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WLVW45M');</script>
+<!-- End Google Tag Manager -->
+              <title>
+              Dai Nam University          </title>
+    <link rel="icon" type="image/png" href="/img/logo/dai-nam-logo-img.svg"/>
+
+    <!-- Preload Bootstrap và Common CSS -->
+    <link rel="preload" href="/font/Manrope-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" href="/font/Manrope-SemiBold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" href="/css/lib/bootstrap.min.css" as="style">
+    <link rel="preload" href="/css/common.css" as="style">
+    <link rel="preload" href="/css/header.css" as="style">
+
+    <!-- Load ngay Bootstrap và Common CSS -->
+    <link rel="stylesheet" href="/css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/common.css">
+
+    <!-- Hoãn tải các CSS khác để ưu tiên hiển thị nội dung -->
+    <link rel="stylesheet" href="/css/lib/swiper-bundle.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="/css/new-event.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="/css/register-form.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="/css/styles.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="/css/tuyen-sinh.css" media="print" onload="this.media='all'" />
+
+  </head>
+  <body>
+                  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLVW45M"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+          
+    <!-- Header -->
+    <script src="/js/header.js" defer></script>
+
+
+
+
+                                                                
+
+<!-- Top Header -->
+<div class="top-nav-container">
+  <div
+    class="top-nav container-fluid container-xxl fw-semibold justify-content-between d-block d-xl-flex"
+  >
+    <div class="dropdown click-dropdown top-left-nav pt-xl-0 pt-3 ms-2 ms-xl-1">
+      <a
+        class="dropdown-toggle d-xxl-none d-flex align-items-center h-100 gap-2 user-select-none justify-content-between"
+        id="kvtt-dropdown"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+        role="button"
+      >
+        Faculty - Institute - Center
+        <span class="chevron-down"></span>
+      </a>
+      <ul
+        class="d-xxl-flex kvtt-dropdown-menu dropdown-click-menu gap-2"
+        aria-labelledby="kvtt-dropdown"
+      >
+                                <li class="nav-item dropdown">
+                  <a
+                    href="#"
+                    class="nav-link px-2 dropdown-toggle d-xxl-block d-flex justify-content-between align-items-center pe-xxl-2 pe-3"
+                    id="dropdown-24434"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Health Sector
+                    <span class="chevron-down d-xl-none"></span>
+                  </a>
+                  <ul
+                    class="dropdown-menu khxhnv-dropdown-menu ps-3 ps-xl-0 pt-0 pt-xl-2"
+                    aria-labelledby="dropdown-24434"
+                  >
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/faculty-of-medicine" >
+                              Faculty of Medicine 
+                            </a>
+                        </li>
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/faculty-of-pharmacy" >
+                              Faculty of Pharmacy
+                            </a>
+                        </li>
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/faculty-of-nursing" >
+                              Faculty of Nursing
+                            </a>
+                        </li>
+                                      </ul>
+              </li>
+                                          <li class="nav-item dropdown">
+                  <a
+                    href="#"
+                    class="nav-link px-2 dropdown-toggle d-xxl-block d-flex justify-content-between align-items-center pe-xxl-2 pe-3"
+                    id="dropdown-24436"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    T&amp;E Sector
+                    <span class="chevron-down d-xl-none"></span>
+                  </a>
+                  <ul
+                    class="dropdown-menu khxhnv-dropdown-menu ps-3 ps-xl-0 pt-0 pt-xl-2"
+                    aria-labelledby="dropdown-24436"
+                  >
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/faculty-of-information-technology-1" >
+                              Faculty of Information Technology
+                            </a>
+                        </li>
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/faculty-of-electrical-and-electronics-engineering-technology" >
+                              Faculty of Electrical and Electronics Engineering Technology 
+                            </a>
+                        </li>
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/faculty-of-semiconductor-technology" >
+                              Faculty of Semiconductor Technology 
+                            </a>
+                        </li>
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/faculty-of-automotive-engineering-technology" >
+                              Faculty of Automotive Engineering Technology
+                            </a>
+                        </li>
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/faculty-of-architecture-and-construction" >
+                              Faculty of Architecture and Construction
+                            </a>
+                        </li>
+                                      </ul>
+              </li>
+                                          <li class="nav-item dropdown">
+                  <a
+                    href="#"
+                    class="nav-link px-2 dropdown-toggle d-xxl-block d-flex justify-content-between align-items-center pe-xxl-2 pe-3"
+                    id="dropdown-24437"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    B&amp;E Sector
+                    <span class="chevron-down d-xl-none"></span>
+                  </a>
+                  <ul
+                    class="dropdown-menu khxhnv-dropdown-menu ps-3 ps-xl-0 pt-0 pt-xl-2"
+                    aria-labelledby="dropdown-24437"
+                  >
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/faculty-of-business-administration-and-marketing" >
+                              Faculty of Business Administration and Marketing 
+                            </a>
+                        </li>
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/fintech-academy" >
+                              Fintech Academy 
+                            </a>
+                        </li>
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/faculty-of-economics-and-management" >
+                              Faculty of Economics and Management 
+                            </a>
+                        </li>
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/faculty-of-accounting-1" >
+                              Faculty of Accounting
+                            </a>
+                        </li>
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/faculty-of-logistics-and-international-business" >
+                              Faculty of Logistics and International Business
+                            </a>
+                        </li>
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/faculty-of-finance-and-banking" >
+                              Faculty of Finance and Banking 
+                            </a>
+                        </li>
+                                      </ul>
+              </li>
+                                          <li class="nav-item dropdown">
+                  <a
+                    href="#"
+                    class="nav-link px-2 dropdown-toggle d-xxl-block d-flex justify-content-between align-items-center pe-xxl-2 pe-3"
+                    id="dropdown-24438"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    H&amp;S Sector
+                    <span class="chevron-down d-xl-none"></span>
+                  </a>
+                  <ul
+                    class="dropdown-menu khxhnv-dropdown-menu ps-3 ps-xl-0 pt-0 pt-xl-2"
+                    aria-labelledby="dropdown-24438"
+                  >
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/faculty-of-english-language" >
+                              Faculty of English Language
+                            </a>
+                        </li>
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/faculty-of-chinese-language-and-culture" >
+                              Faculty of Chinese Language and Culture
+                            </a>
+                        </li>
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/faculty-of-japanese-language-and-culture" >
+                              Faculty of Japanese Language and Culture
+                            </a>
+                        </li>
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/faculty-of-korean-language-and-culture" >
+                              Faculty of Korean Language and Culture
+                            </a>
+                        </li>
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/faculty-of-law" >
+                              Faculty of Law
+                            </a>
+                        </li>
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/faculty-of-tourism-1" >
+                              Faculty of Tourism 
+                            </a>
+                        </li>
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/faculty-of-communication" >
+                              Faculty of Communication
+                            </a>
+                        </li>
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/faculty-of-psychology-and-educational-sciences" >
+                              Faculty of Psychology and Educational Sciences 
+                            </a>
+                        </li>
+                                      </ul>
+              </li>
+                                          <li class="nav-item dropdown">
+                  <a
+                    href="#"
+                    class="nav-link px-2 dropdown-toggle d-xxl-block d-flex justify-content-between align-items-center pe-xxl-2 pe-3"
+                    id="dropdown-36241"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    A&amp;D Sector
+                    <span class="chevron-down d-xl-none"></span>
+                  </a>
+                  <ul
+                    class="dropdown-menu khxhnv-dropdown-menu ps-3 ps-xl-0 pt-0 pt-xl-2"
+                    aria-labelledby="dropdown-36241"
+                  >
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/faculty-of-fine-arts-and-design" >
+                              Faculty of Fine Arts and Design
+                            </a>
+                        </li>
+                                      </ul>
+              </li>
+                                          <li class="nav-item dropdown">
+                  <a
+                    href="#"
+                    class="nav-link px-2 dropdown-toggle d-xxl-block d-flex justify-content-between align-items-center pe-xxl-2 pe-3"
+                    id="dropdown-24435"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    FS Sector
+                    <span class="chevron-down d-xl-none"></span>
+                  </a>
+                  <ul
+                    class="dropdown-menu khxhnv-dropdown-menu ps-3 ps-xl-0 pt-0 pt-xl-2"
+                    aria-labelledby="dropdown-24435"
+                  >
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/the-faculty-of-general-english" >
+                              The Faculty of General English
+                            </a>
+                        </li>
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/faculty-of-soft-skills-training-and-development" >
+                              Faculty of Soft Skills Training and Development
+                            </a>
+                        </li>
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/faculty-of-political-education-national-defense-and-physical-education" >
+                              Faculty of Political Education, National Defense, and Physical Education
+                            </a>
+                        </li>
+                                      </ul>
+              </li>
+                                          <li class="nav-item dropdown">
+                  <a
+                    href="#"
+                    class="nav-link px-2 dropdown-toggle d-xxl-block d-flex justify-content-between align-items-center pe-xxl-2 pe-3"
+                    id="dropdown-24439"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Institutes - Centers
+                    <span class="chevron-down d-xl-none"></span>
+                  </a>
+                  <ul
+                    class="dropdown-menu khxhnv-dropdown-menu ps-3 ps-xl-0 pt-0 pt-xl-2"
+                    aria-labelledby="dropdown-24439"
+                  >
+                                            <li class="dropdown-item">
+                            <a href="https://med.dainam.edu.vn/en" target="_blank" rel="noopener noreferrer">
+                              International Medical Training Institute (IMTI)
+                            </a>
+                        </li>
+                                            <li class="dropdown-item">
+                            <a href="https://cec.dainam.edu.vn/" target="_blank" rel="noopener noreferrer">
+                              Career &amp; Entrepreneurship Center
+                            </a>
+                        </li>
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/institute-of-international-education" >
+                              Institute of International Education
+                            </a>
+                        </li>
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/institute-of-post-graduate-training" >
+                              Institute of Post Graduate Training 
+                            </a>
+                        </li>
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/the-bachelor-of-international-business-administration-program-from-walsh-university-usa" >
+                              The Bachelor of International Business Administration program from Walsh University (USA)
+                            </a>
+                        </li>
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/center-of-continuing-pharmacy-education" >
+                              Center of Continuing Pharmacy Education 
+                            </a>
+                        </li>
+                                            <li class="dropdown-item">
+                            <a href="/en/departments/e-learning-training-center" >
+                              E-learning Training Center
+                            </a>
+                        </li>
+                                      </ul>
+              </li>
+                        </ul>
+    </div>
+
+    <!-- Right Navigation -->
+    <div class="ms-1 ms-xl-0">
+      <ul class="row top-right-nav gap-xl-2 me-0">
+                                          <li class="col-6 col-xl p-xl-0 ms-0 nav-item border-0">
+              <a href="https://dainam.edu.vn/en" class="nav-link px-xl-2">
+                Home page
+              </a>
+            </li>
+                                  <li class="col-6 col-xl p-xl-0 ms-0 nav-item border-0">
+              <a href="https://dainam.edu.vn/vi/tin-tuc/thong-tin-nganh-hoc-dai-hoc-dai-nam" class="nav-link px-xl-2">
+                Majors
+              </a>
+            </li>
+                                  <li class="col-6 col-xl p-xl-0 ms-0 nav-item border-0">
+              <a href="https://vrtour.dainam.edu.vn/" class="nav-link px-xl-2">
+                VR Tour
+              </a>
+            </li>
+                                  <li class="col-6 col-xl p-xl-0 ms-0 nav-item border-0">
+              <a href="https://tuyensinh.dainam.edu.vn/en/contact" class="nav-link px-xl-2">
+                Contact
+              </a>
+            </li>
+                  
+        <!-- Language Dropdown -->
+        <li
+          class="col-12 col-xl ps-xl-3 p-xl-0 ms-0 nav-item dropdown click-dropdown d-none d-xl-block"
+        >
+          <a
+            class="nav-link ps-xl-2 dropdown-toggle gap-2 d-flex align-items-center"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+                            <img src="/img/icon/language-english-flag.svg" alt="English Flag" class="lazy-on-mobile language-flag-img" />
+                English
+                        <span class="chevron-down"></span>
+          </a>
+          <ul class="dropdown-menu dropdown-click-menu w-25">
+            <li class="dropdown-item">
+              <a href="/vi" class="d-flex align-items-center gap-1">
+                <img
+                  src="/img/icon/language-flag.svg"
+                  alt="Vietnamese Flag"
+                  loading="lazy"
+                />
+                Tiếng Việt
+              </a>
+            </li>
+            <li class="dropdown-item">
+              <a href="/en" class="d-flex align-items-center gap-1">
+                <img
+                  src="/img/icon/language-english-flag.svg"
+                  alt="English Flag"
+                  loading="lazy"
+                />
+                English
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Bottom Header -->
+<nav class="bot-nav-container navbar bot-nav navbar-expand-xl">
+  <div class="container-fluid container-xxl">
+    <!-- Logo -->
+    <a
+      class="navbar-brand zoom-105 overflow-visible ps-3 ps-xl-0"
+      href="https://tuyensinh.dainam.edu.vn/en"
+    >
+      <img
+        src="/img/logo/logo-ios-3.svg"
+        alt="Dai Nam"
+        class="header-logo"
+        width="217"
+        height="55"
+      />
+    </a>
+
+    <div
+      class="d-flex align-items-center justify-content-end mobile-search-container position-relative"
+    >
+      <!-- Language Dropdown -->
+      <a
+        class="nav-link dropdown-toggle gap-2 d-flex align-items-center language-dropdown-sm d-xl-none"
+        href="#"
+        role="button"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+                    <img src="/img/icon/language-english-flag.svg" alt="English Flag" class="lazy-on-mobile language-flag-img" width="26" height="16" />
+                <span class="chevron-down icon-language"></span>
+      </a>
+      <ul class="dropdown-menu dropdown-click-menu d-xl-none" style="left: -1.2rem">
+        <li class="dropdown-item">
+          <a href="/vi" class="language-dropdown-item-sm d-flex align-items-center gap-2">
+            <img
+              src="/img/icon/language-flag.svg"
+              alt="Vietnamese Flag"
+              loading="lazy"
+              width="26" 
+              height="16"
+            />
+            Tiếng Việt
+          </a>
+        </li>
+        <li class="dropdown-item">
+          <a href="/en" class="language-dropdown-item-sm d-flex align-items-center gap-2">
+            <img
+              src="/img/icon/language-english-flag.svg"
+              alt="English Flag"
+              loading="lazy"
+              width="26" 
+              height="16"
+            />
+            English
+          </a>
+        </li>
+      </ul>
+
+      <!-- mobile search -->
+      <div class="px-3 py-2 nav-search-icon d-xl-none me-2" role="button">
+        <img src="/img/icon/search-sm.svg" alt="Search icon" />
+      </div>
+
+      <div class="search-container d-none nav-search flex-fill">
+        <img
+          src="/img/icon/input-search.svg"
+          class="mx-3"
+          alt="Search icon"
+          width="18"
+          height="18"
+        />
+
+        <input
+          type="text"
+          class="search-input fw-semibold border-0 nav-search-input"
+          placeholder="Bạn đang tìm kiếm gì?"
+        />
+        <span class="py-3 px-4 clear-search-icon" role="button">
+          <img
+            src="/img/icon/menu-close.svg"
+            class="close-menu"
+            alt="Icon close"
+            width="18"
+            height="18"
+          />
+        </span>
+      </div>
+
+      <!-- Mobile Menu Toggle Button -->
+      <div
+        class="navbar-toggler border-0 fs-2 p-1"
+        style="margin-right: 18px"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#bottom-nav"
+      >
+        <img
+          src="/img/icon/hamburger.svg"
+          class="open-menu"
+          alt="Icon open"
+          width="26"
+          height="26"
+        />
+        <img
+          src="/img/icon/menu-close.svg"
+          class="close-menu d-none"
+          alt="Icon close"
+          width="22"
+          height="22"
+        />
+      </div>
+    </div>
+
+    <!-- Bottom Nav Links -->
+      <div class="collapse navbar-collapse" id="bottom-nav">
+                    <ul class="main-nav navbar-nav ms-auto fw-bold fs-5">
+                                                                                                      <li class="nav-item submenu-parent" data-level="1">
+                          <a
+                              href="/en/the-second-international-fintech-conference-dainam-universitys-pioneering-global-financial-technology-trends"
+                                  class="nav-link bot-nav-link py-3 pe-xl-0 pe-3 submenu-toggle d-flex align-items-center justify-content-between"
+                                  data-submenu-toggle="submenu-1"
+                                  role="button"
+                              >
+                                  <span>Explore DNU</span>
+                                  <span class="chevron-icon chevron-right level-1-chevron"></span>
+                          </a>
+                          <ul class="submenu-list main-submenu" id="submenu-1" style="display: none;">
+                                                                                              <li class="nav-item submenu-item" data-level="2">
+                    <a class="nav-link bot-nav-link py-3 submenu-link" href="/en/Explore DNU/why-choose-dai-nam-university">
+                        Why choose Dai Nam University?
+                    </a>
+                </li>
+                                                                                    <li class="nav-item submenu-item" data-level="2">
+                    <a class="nav-link bot-nav-link py-3 submenu-link" href="/en/Explore DNU/facilities">
+                        Facilities
+                    </a>
+                </li>
+                                                                                    <li class="nav-item submenu-item" data-level="2">
+                    <a class="nav-link bot-nav-link py-3 submenu-link" href="/en/Explore DNU/quality-of-training">
+                        Quality of training
+                    </a>
+                </li>
+                                                                                    <li class="nav-item submenu-item" data-level="2">
+                    <a class="nav-link bot-nav-link py-3 submenu-link" href="/en/Explore DNU/job-opportunities">
+                        Job Opportunities
+                    </a>
+                </li>
+                                                                                    <li class="nav-item submenu-item" data-level="2">
+                    <a class="nav-link bot-nav-link py-3 submenu-link" href="/en/Explore DNU/frequently-asked-questions">
+                        Frequently asked questions
+                    </a>
+                </li>
+                        
+                          </ul>
+                      </li>
+                                                                                                                          <li class="nav-item" data-level="1">
+                          <a class="nav-link py-3 bot-nav-link" href="/en/new-categories/university-program">University</a>
+                      </li>
+                                                                                                                          <li class="nav-item" data-level="1">
+                          <a class="nav-link py-3 bot-nav-link" href="/en/new-categories/master-s-program">Master</a>
+                      </li>
+                                                                                                                          <li class="nav-item" data-level="1">
+                          <a class="nav-link py-3 bot-nav-link" href="/en/new-categories/phd-program">PhD</a>
+                      </li>
+                                                                                                                          <li class="nav-item" data-level="1">
+                          <a class="nav-link py-3 bot-nav-link" href="/en/new-categories/international-joint-program">International Joint Program</a>
+                      </li>
+                                                                                                                          <li class="nav-item" data-level="1">
+                          <a class="nav-link py-3 bot-nav-link" href="/en/new-categories/pathways-2nd-degree-online">Pathways - 2nd Degree - Online</a>
+                      </li>
+                                                                                                                          <li class="nav-item" data-level="1">
+                          <a class="nav-link py-3 bot-nav-link" href="/en/lookup">Lookup</a>
+                      </li>
+                                                  
+              <!-- Search Icon -->
+              <li
+                class="nav-item nav-search-icon d-none d-xl-block"
+                selected
+              >
+                <img
+                  class="nav-link py-3 bot-nav-link"
+                  src="/img/icon/search.svg"
+                  alt="Icon search"
+                />
+              </li>
+
+              <div class="search-container d-none nav-search">
+                <img
+                  src="/img/icon/input-search.svg"
+                  class="search-icon pe-3 ps-4"
+                  alt="Icon search"
+                />
+
+                <input
+                  type="text"
+                  class="search-input fw-semibold border-0 nav-search-input"
+                  placeholder="Bạn đang tìm kiếm gì?"
+                />
+                <span class="py-3 px-4 clear-search-icon" role="button">
+                  <img
+                    src="/img/icon/menu-close.svg"
+                    class="close-menu"
+                    alt="Icon close"
+                    width="18"
+                    height="18"
+                  />
+                </span>
+              </div>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+    <main>
+      <!-- Main content -->
+      
+
+
+
+
+                                    <div class="pimcore_area_banner-slide pimcore_area_content ">
+            
+                                    <!-- Banner Slide -->
+                            
+<!-- Chọn số lượng slide cho Desktop -->
+
+<!-- Chọn số lượng slide cho Mobile -->
+
+
+
+                                                                                                
+
+                
+                
+                                
+                
+                                
+                
+                                
+                
+                                
+                
+                                
+                
+                                
+                
+                                
+                
+                
+
+
+
+        
+<div class="swiper-container ">
+    <!-- Desktop Banner (luôn hiển thị trong editmode) -->
+    <div>
+                <div class="swiper banner-swiper desktop overflow-hidden desktop-select d-none d-md-block">
+            <div class="swiper-wrapper">
+                                    <div class="swiper-slide desktop-swipe-slide zoom-105">
+                                                                                                                                                                                                                            
+                                                        
+                                                                                                <link rel="preload" as="image" href="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/banners/z6553463194227_6224da0ce918bc47405df602402b0de9_1_3.jpg">
+                                                                <img src="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/banners/z6553463194227_6224da0ce918bc47405df602402b0de9_1_3.jpg"
+                                        alt="slide banner"
+                                    />
+                                                        
+                                                                        </div>
+                                    <div class="swiper-slide desktop-swipe-slide zoom-105">
+                                                                                                                                                                                                                            
+                                                        
+                                                                                            <img src="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/banners/TR%C3%81N%20WEB%20T%E1%BB%90T%20NGHI%E1%BB%86P%20NHANH%20VI%E1%BB%86C%20L%C3%80M%20NGAY%20B%E1%BA%A2N%20TA-01_2.jpg"
+                                        alt="slide banner"
+                                     loading="lazy" />
+                                                        
+                                                                        </div>
+                            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-border-bottom"></div>
+        </div>
+    </div>
+
+    <!-- Mobile Banner (luôn hiển thị trong editmode) -->
+    <div class="d-block d-md-none  mobile-select">
+                <div class="swiper banner-swiper overflow-hidden">
+            <div class="swiper-wrapper">
+                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+                                
+                                                                                                                
+                                                                                
+                                                                                                                                                                
+                                                                                
+                                                                                                                                                                
+                                                                                
+                                                                                                                                                                
+                                                                                
+                                                                                                                                                                
+                                                                                
+                                                                                                                                                                
+                                                                                
+                                                                                                                                                                
+                                                                                
+                                                                                                                                                                
+                                                                                
+                                                                                
+                                
+                                                
+                                                
+                                                                                                                        
+                                    <div class="swiper-slide mobile-swipe-slide zoom-105">
+                                                                                                                                                                                                                            
+                                                        
+                                                                                                <link rel="preload" as="image" href="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/banners/z6553476125947_a34e39787dafb2093e6b704d38533742_2.jpg">
+                                                                <img src="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/banners/z6553476125947_a34e39787dafb2093e6b704d38533742_2.jpg"
+                                        alt="slide banner"
+                                    />
+                                                        
+                                                                        </div>
+                                    <div class="swiper-slide mobile-swipe-slide zoom-105">
+                                                                                                                                                                                                                            
+                                                        
+                                                                                            <img src="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/banners/TR%C3%81N%20WEB%20T%E1%BB%90T%20NGHI%E1%BB%86P%20NHANH%20VI%E1%BB%86C%20L%C3%80M%20NGAY%20B%E1%BA%A2N%20TA-02_1.jpg"
+                                        alt="slide banner"
+                                     loading="lazy" />
+                                                        
+                                                                        </div>
+                            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-border-bottom"></div>
+        </div>
+    </div>
+</div>
+
+                
+                            </div>
+                    
+
+
+
+
+                                    <div class="pimcore_area_admission-new pimcore_area_content ">
+            
+                                    
+
+
+
+<!-- Thông báo/tin tức tuyển sinh -->
+<section class="notice py-5 my-xl-3">
+  <div class="container" id="admission-news-container" data-base-url="/en/news/">
+    <div class="row notice-row gutter-3-5">
+
+      <div class="col-xl-6 col-12 position-relative col-left-xl-690">
+          <h2 class="fw-extra mb-2 mb-xl-3">Admission announcement</h2>
+          
+          <div id="notice-list"></div>
+          
+          <a class="position-absolute notice-see-all hover-f666 d-flex gap-2 fw-extra fs-5" 
+                            href="/en/new-categories/admission-announcement"
+                      >
+              <div class="fw-bold">See all announcements</div>
+              <img src="/img/icon/see-all-plus.svg" alt="Icon see all"/>
+          </a>
+      </div>
+
+      <div class="col-xl-6 col-12 position-relative mt-5 mt-xl-0 col-right-xl-690">
+        <h2 class="fw-extra mb-2 mb-xl-3">Admissions news</h2>
+          
+          <div id="admission-new-list"></div>
+          
+          <a class="position-absolute notice-see-all hover-f666 d-flex gap-2 fw-extra fs-5" 
+                            href="/en/new-categories/admissions-news-1"
+                      >
+              <div class="fw-bold">See all news</div>
+              <img src="/img/icon/see-all-plus.svg" alt="Icon see all"/>
+          </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const noticeList = document.getElementById("notice-list");
+    const admissionNewList = document.getElementById("admission-new-list");
+    let newsContainer = document.getElementById("admission-news-container");
+    let baseUrl = newsContainer.getAttribute("data-base-url");
+
+    let noticeCategoryId = 34529
+    if (noticeCategoryId !== 0){
+      fetchNews(noticeList, noticeCategoryId);
+    }
+
+    let admissionNewCategoryId = 34530
+    if (admissionNewCategoryId !== 0){
+      fetchNews(admissionNewList, admissionNewCategoryId);
+    }
+
+    function fetchNews(newsList, categoryId) {
+        let url = `/api/news/all?category=${categoryId}&lan=en`;
+
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                renderNews(newsList, data);
+            })
+            .catch(error => console.error("Error fetching news:", error));
+    }
+
+    function formatDate(timestamp) {
+        if (!timestamp) return "";
+        const date = new Date(timestamp * 1000);
+        return date.toLocaleDateString("vi-VN");
+    }
+    
+    function isToday(timestamp) {
+        if (!timestamp) return false;
+        const date = new Date(timestamp * 1000);
+        const today = new Date();
+        return date.getDate() === today.getDate() &&
+              date.getMonth() === today.getMonth() &&
+              date.getFullYear() === today.getFullYear();
+    }
+    
+    function createNewsItem(news) {
+        const newsItem = document.createElement("a");
+        newsItem.classList.add("notice-item");
+        newsItem.href = baseUrl + news.slug;
+    
+        const formattedDate = formatDate(news.created_date);
+        const highlightClass = isToday(news.created_date) ? "new" : "";
+    
+        const imgHtml = news.banner
+            ? `<div class="notice-item-img-container">
+                  <div class="zoom-105 rounded-12">
+                      <img src="${news.banner}" width="100%" alt="New Banner" loading="lazy" />
+                  </div>
+              </div>`
+            : "";
+    
+        newsItem.innerHTML = `
+            ${imgHtml}
+            <div class="notice-item-content-container">
+                <div class="color-primary notice-item-date fs-6 fw-medium mb-lg-2">
+                    ${formattedDate}
+                </div>
+                <div class="color-primary fw-extra notice-item-content ${highlightClass}">
+                    ${news.title}
+                </div>
+            </div>
+        `;
+    
+        return newsItem;
+    }
+    
+    function renderNews(newsList, newsData) {
+        newsList.innerHTML = ""; // Xóa danh sách cũ
+    
+        if (!newsData || newsData.length === 0) {
+            newsList.innerHTML = "<p>Không có tin tức nào.</p>";
+            return;
+        }
+    
+        newsData.forEach(news => newsList.appendChild(createNewsItem(news)));
+    }
+  
+});
+
+
+</script>
+                
+                            </div>
+                    
+
+
+
+
+                                    <div class="pimcore_area_admission-application pimcore_area_content ">
+            
+                                    <!-- Tuyển sinh Đại học chính quy -->
+<section class="university position-relative bg-blue py-4 py-xl-5">
+  <div class="container">
+    <h2 class="fw-extra text-white mb-xl-4" style="line-height: 42px">
+      <p>Regular University Admissions</p>
+    </h2>
+    <div class="row gutter-3-5">
+      <div class="col-xl-6 col-12 col-left-xl-690">
+        <div
+          class="color-light-blue fw-medium fs-5-5 mb-3"
+          style="line-height: 28.8px"
+        >
+          <p>Admissions for regular undergraduate programs are based on National High School Exam score or High School Academic Transcript Evaluation. <span class="fw-extra"> Eligibility</span>: High school graduates.</p>
+        </div>
+
+        <!-- Image highlight Mobile -->
+                  <div class="admission-application-img d-xl-none">
+            <img src="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/admissions/tin%20tuc%20ts_3_1.jpg" alt="admission banner"/>
+          </div>
+        
+        <div class="fs-4-5 fw-extra text-white mb-3">
+                                                
+            <a
+              href="https://beta.dainam.edu.vn/vi/tin-tuc?page=1&amp;category=thong-bao-tuyen-sinh"
+              class="university-item d-flex justify-content-between hover-ff77 py-3"
+            >
+              <div class="">
+                Admission notice 
+                              </div>
+              <img
+                src="/img/icon/see-all-plus.svg"
+                alt="Icon see all"
+                class="see-all-plus"
+              />
+              <img
+                src="/img/icon/see-all-plus-white.svg"
+                class="see-all-plus-white"
+                alt="Icon see all white"
+              />
+            </a>
+                                                
+            <a
+              href="https://xettuyen.dainam.edu.vn/?gad_source=1&amp;gclid=Cj0KCQjwy46_BhDOARIsAIvmcwOs9MjNkP58IRKMMTKsUztyXZYQ0qRC4YOJvdoxMk1pyuCNGn9hrGEaAoq8EALw_wcB"
+              class="university-item d-flex justify-content-between hover-ff77 py-3"
+            >
+              <div class="">
+                Admission conditions 
+                              </div>
+              <img
+                src="/img/icon/see-all-plus.svg"
+                alt="Icon see all"
+                class="see-all-plus"
+              />
+              <img
+                src="/img/icon/see-all-plus-white.svg"
+                class="see-all-plus-white"
+                alt="Icon see all white"
+              />
+            </a>
+                                                
+            <a
+              href="/news/Năm 2024- trường Đại học Đại Nam tuyển sinh những ngành học nào--6731"
+              class="university-item d-flex justify-content-between hover-ff77 py-3"
+            >
+              <div class="">
+                Admissions industry 
+                              </div>
+              <img
+                src="/img/icon/see-all-plus.svg"
+                alt="Icon see all"
+                class="see-all-plus"
+              />
+              <img
+                src="/img/icon/see-all-plus-white.svg"
+                class="see-all-plus-white"
+                alt="Icon see all white"
+              />
+            </a>
+                                                
+            <a
+              href="https://hosoxettuyen.dainam.edu.vn/"
+              class="university-item d-flex justify-content-between hover-ff77 py-3"
+            >
+              <div class="">
+                Profile and registration 
+                              </div>
+              <img
+                src="/img/icon/see-all-plus.svg"
+                alt="Icon see all"
+                class="see-all-plus"
+              />
+              <img
+                src="/img/icon/see-all-plus-white.svg"
+                class="see-all-plus-white"
+                alt="Icon see all white"
+              />
+            </a>
+                                                
+            <a
+              href="https://hosoxettuyen.dainam.edu.vn/"
+              class="university-item d-flex justify-content-between hover-ff77 py-3"
+            >
+              <div class="">
+                Registration form 
+                              </div>
+              <img
+                src="/img/icon/see-all-plus.svg"
+                alt="Icon see all"
+                class="see-all-plus"
+              />
+              <img
+                src="/img/icon/see-all-plus-white.svg"
+                class="see-all-plus-white"
+                alt="Icon see all white"
+              />
+            </a>
+                                                
+            <a
+              href="https://xettuyen.dainam.edu.vn/?gad_source=1&amp;gclid=Cj0KCQjwy46_BhDOARIsAIvmcwN0AR7QqRWBMeJc5zbj3W8lIKy4pPiLbTBi6qdYmBIi-PQH_NrcqEkaAvqhEALw_wcB"
+              class="university-item d-flex justify-content-between hover-ff77 py-3"
+            >
+              <div class="">
+                Register for admissions consultation 
+                              </div>
+              <img
+                src="/img/icon/see-all-plus.svg"
+                alt="Icon see all"
+                class="see-all-plus"
+              />
+              <img
+                src="/img/icon/see-all-plus-white.svg"
+                class="see-all-plus-white"
+                alt="Icon see all white"
+              />
+            </a>
+                  </div>
+      </div>
+      <div class="col-6 d-xl-flex d-none col-right-xl-690 admission-application-img">
+        <!-- Image highlight -->
+                    <img src="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/admissions/tin%20tuc%20ts_3_1.jpg" alt="admission banner"/>
+              </div>
+    </div>
+  </div>
+
+  <img
+    src="/img/icon/university-bg-icon.svg"
+    class="bg-icon end-0 bottom-0 university-bg-icon"
+    alt="Background image"
+  />
+</section>
+                
+                            </div>
+                    
+
+
+
+
+                                    <div class="pimcore_area_admission-training pimcore_area_content ">
+            
+                                    
+<!-- Chương trình đào tạo -->
+
+<section class="training py-xl-5 pt-4 pb-2 bg-off-white">
+  <div class="container">
+    <div class="position-relative">
+      <div class="nav-wrapper overflow-x-auto text-nowrap">
+        <nav class="nav nav-tabs training-nav flex-nowrap" role="tablist">
+                      <div
+              data-bs-toggle="tab"
+              data-bs-target="#nav-24446-dai-hoc"
+              type="button"
+              role="tab"
+              aria-controls="nav-24446-dai-hoc"
+              aria-selected="true"
+              id="nav-24446-dai-hoc-tab"
+              class="nav-link fw-medium active"
+            >
+              Undergraduate Programs
+            </div>
+                      <div
+              data-bs-toggle="tab"
+              data-bs-target="#nav-24448-dai-hoc"
+              type="button"
+              role="tab"
+              aria-controls="nav-24448-dai-hoc"
+              aria-selected="false"
+              id="nav-24448-dai-hoc-tab"
+              class="nav-link fw-medium "
+            >
+              Master&#039;s Programs
+            </div>
+                      <div
+              data-bs-toggle="tab"
+              data-bs-target="#nav-24447-dai-hoc"
+              type="button"
+              role="tab"
+              aria-controls="nav-24447-dai-hoc"
+              aria-selected="false"
+              id="nav-24447-dai-hoc-tab"
+              class="nav-link fw-medium "
+            >
+              Doctoral Programs
+            </div>
+                      <div
+              data-bs-toggle="tab"
+              data-bs-target="#nav-35610-dai-hoc"
+              type="button"
+              role="tab"
+              aria-controls="nav-35610-dai-hoc"
+              aria-selected="false"
+              id="nav-35610-dai-hoc-tab"
+              class="nav-link fw-medium "
+            >
+              International Joint Programs
+            </div>
+                      <div
+              data-bs-toggle="tab"
+              data-bs-target="#nav-35611-dai-hoc"
+              type="button"
+              role="tab"
+              aria-controls="nav-35611-dai-hoc"
+              aria-selected="false"
+              id="nav-35611-dai-hoc-tab"
+              class="nav-link fw-medium "
+            >
+              Pathways - 2nd Degree - Online
+            </div>
+                  </nav>
+      </div>
+    </div>
+
+    <div class="tab-content mt-4">
+              <div
+          class="tab-pane fade show active"
+          id="nav-24446-dai-hoc"
+          role="tabpanel"
+          aria-labelledby="nav-24446-dai-hoc-tab"
+        >
+          <div class="row gutter-3-5 align-items-center">
+            <div class="col-xl-6 col-12">
+              <img
+                src="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/enrollment_programs/VVT_8245.jpg"
+                width="100%"
+                class="rounded-4 program-banner"
+                alt="Program banner"
+                loading="lazy"
+              />
+            </div>
+            <div class="col-xl-6 col-12 ps-xl-3 mt-xl-0 mt-2">
+              <ul class="fw-extra fs-4-5 universiy-tab-content">
+                                                    
+                  <li class="hover-f666 ms-xl-3 ">
+                    <a href="/en/news/what-to-do-after-graduating-from-medical-school-where-to-work-how-much-salary">
+                      <img src="/img/icon/guide-list-style.svg" alt="Icon guide" />
+                      What to do after graduating from medical school, where to work, how much salary?
+                    </a>
+                  </li>
+                                                    
+                  <li class="hover-f666 ms-xl-3 ">
+                    <a href="/en/news/additional-admission-information-for-the-first-round-of-regular-training-in-2025">
+                      <img src="/img/icon/guide-list-style.svg" alt="Icon guide" />
+                      Additional admission information for the first round of regular training in 2025
+                    </a>
+                  </li>
+                                                    
+                  <li class="hover-f666 ms-xl-3 ">
+                    <a href="/en/news/instructions-for-confirming-admission-on-the-portal-of-the-ministry-of-education-and-training">
+                      <img src="/img/icon/guide-list-style.svg" alt="Icon guide" />
+                      Instructions for confirming admission on the portal of the Ministry of Education and Training
+                    </a>
+                  </li>
+                                                    
+                  <li class="hover-f666 ms-xl-3 ">
+                    <a href="/en/news/instructions-for-02-forms-of-admission-for-new-students-of-k19-of-dai-nam-university-in-2025">
+                      <img src="/img/icon/guide-list-style.svg" alt="Icon guide" />
+                      Instructions for 02 forms of admission for new students of K19 of Dai Nam University in 2025
+                    </a>
+                  </li>
+                                                    
+                  <li class="hover-f666 ms-xl-3 ">
+                    <a href="/en/news/instructions-for-writing-student-resumes-2025">
+                      <img src="/img/icon/guide-list-style.svg" alt="Icon guide" />
+                      Instructions for writing student resumes 2025
+                    </a>
+                  </li>
+                              </ul>
+            </div>
+          </div>
+        </div>
+              <div
+          class="tab-pane fade "
+          id="nav-24448-dai-hoc"
+          role="tabpanel"
+          aria-labelledby="nav-24448-dai-hoc-tab"
+        >
+          <div class="row gutter-3-5 align-items-center">
+            <div class="col-xl-6 col-12">
+              <img
+                src="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/enrollment_programs/6kgl2q039x2se9jamza920250104044536_thump.jpg"
+                width="100%"
+                class="rounded-4 program-banner"
+                alt="Program banner"
+                loading="lazy"
+              />
+            </div>
+            <div class="col-xl-6 col-12 ps-xl-3 mt-xl-0 mt-2">
+              <ul class="fw-extra fs-4-5 universiy-tab-content">
+                                                    
+                  <li class="hover-f666 ms-xl-3 ">
+                    <a href="/en/news/announcement-of-master-degree-enrollment-in-2025-phase-1">
+                      <img src="/img/icon/guide-list-style.svg" alt="Icon guide" />
+                      Announcement of Master degree enrollment in 2025, phase 1
+                    </a>
+                  </li>
+                                                    
+                  <li class="hover-f666 ms-xl-3 ">
+                    <a href="/en/news/information-technology-students-of-dai-nam-university-won-100-master-scholarship-to-study-in-taiwan">
+                      <img src="/img/icon/guide-list-style.svg" alt="Icon guide" />
+                      Information Technology students of Dai Nam University won 100% Master scholarship to study in Taiwan
+                    </a>
+                  </li>
+                                                    
+                  <li class="hover-f666 ms-xl-3 ">
+                    <a href="/en/news/announcement-of-enrollment-for-master-degree-training-phase-1-2024">
+                      <img src="/img/icon/guide-list-style.svg" alt="Icon guide" />
+                      Announcement of enrollment for master degree training, phase 1, 2024
+                    </a>
+                  </li>
+                                                    
+                  <li class="hover-f666 ms-xl-3 ">
+                    <a href="/en/news/dai-nam-university-awards-master-degrees-to-graduate-students-in-2024-batch-1">
+                      <img src="/img/icon/guide-list-style.svg" alt="Icon guide" />
+                      Dai Nam University awards Master degrees to graduate students in 2024 - batch 1
+                    </a>
+                  </li>
+                                                    
+                  <li class="hover-f666 ms-xl-3 ">
+                    <a href="/en/news/notice-on-the-end-of-training-period-for-master-degree-students-of-courses-6-and-7-in-2023">
+                      <img src="/img/icon/guide-list-style.svg" alt="Icon guide" />
+                      Notice on the end of training period for master degree students of courses 6 and 7 in 2023
+                    </a>
+                  </li>
+                              </ul>
+            </div>
+          </div>
+        </div>
+              <div
+          class="tab-pane fade "
+          id="nav-24447-dai-hoc"
+          role="tabpanel"
+          aria-labelledby="nav-24447-dai-hoc-tab"
+        >
+          <div class="row gutter-3-5 align-items-center">
+            <div class="col-xl-6 col-12">
+              <img
+                src="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/enrollment_programs/dwurowst1ba26db7l2hm20240702074525_thump.jpg"
+                width="100%"
+                class="rounded-4 program-banner"
+                alt="Program banner"
+                loading="lazy"
+              />
+            </div>
+            <div class="col-xl-6 col-12 ps-xl-3 mt-xl-0 mt-2">
+              <ul class="fw-extra fs-4-5 universiy-tab-content">
+                                                    
+                  <li class="hover-f666 ms-xl-3 ">
+                    <a href="/en/news/announcement-of-doctoral-training-enrollment-bound-1-in-2025">
+                      <img src="/img/icon/guide-list-style.svg" alt="Icon guide" />
+                      ANNOUNCEMENT OF DOCTORAL TRAINING ENROLLMENT BOUND 1 IN 2025
+                    </a>
+                  </li>
+                                                    
+                  <li class="hover-f666 ms-xl-3 ">
+                    <a href="/en/news/announcement-of-admission-to-doctoral-training-round-2-2024">
+                      <img src="/img/icon/guide-list-style.svg" alt="Icon guide" />
+                      Announcement of admission to doctoral training, round 2, 2024
+                    </a>
+                  </li>
+                                                    
+                  <li class="hover-f666 ms-xl-3 ">
+                    <a href="/en/news/announcement-of-enrollment-for-phd-training-in-2024-phase-1">
+                      <img src="/img/icon/guide-list-style.svg" alt="Icon guide" />
+                      Announcement of enrollment for PhD training in 2024/phase 1
+                    </a>
+                  </li>
+                                                    
+                  <li class="hover-f666 ms-xl-3 ">
+                    <a href="/en/news/announcement-of-admission-to-doctoral-training-phase-1-2024">
+                      <img src="/img/icon/guide-list-style.svg" alt="Icon guide" />
+                      Announcement of admission to doctoral training, phase 1, 2024
+                    </a>
+                  </li>
+                                                    
+                  <li class="hover-f666 ms-xl-3 ">
+                    <a href="/en/news/enrollment-for-phd-training-in-2023-phase-1">
+                      <img src="/img/icon/guide-list-style.svg" alt="Icon guide" />
+                      Enrollment for PhD training in 2023 - Phase 1
+                    </a>
+                  </li>
+                              </ul>
+            </div>
+          </div>
+        </div>
+              <div
+          class="tab-pane fade "
+          id="nav-35610-dai-hoc"
+          role="tabpanel"
+          aria-labelledby="nav-35610-dai-hoc-tab"
+        >
+          <div class="row gutter-3-5 align-items-center">
+            <div class="col-xl-6 col-12">
+              <img
+                src="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/enrollment_programs/7e2cc9e4-a47d-4e26-a00a-60de78c33f95.jpg"
+                width="100%"
+                class="rounded-4 program-banner"
+                alt="Program banner"
+                loading="lazy"
+              />
+            </div>
+            <div class="col-xl-6 col-12 ps-xl-3 mt-xl-0 mt-2">
+              <ul class="fw-extra fs-4-5 universiy-tab-content">
+                                                    
+                  <li class="hover-f666 ms-xl-3 ">
+                    <a href="/en/news/international-cooperation-dai-nam-university-and-chinese-culture-university-foundation-for-a-generation-of-global-citizens">
+                      <img src="/img/icon/guide-list-style.svg" alt="Icon guide" />
+                      International Cooperation: Dai Nam University and Chinese Culture University – Foundation for a Generation of Global Citizens
+                    </a>
+                  </li>
+                                                    
+                  <li class="hover-f666 ms-xl-3 ">
+                    <a href="/en/news/dai-nam-university-launch-pad-for-international-reach-for-students-of-semiconductor-technology">
+                      <img src="/img/icon/guide-list-style.svg" alt="Icon guide" />
+                      Dai Nam University: Launch pad for international reach for students of Semiconductor Technology
+                    </a>
+                  </li>
+                                                    
+                  <li class="hover-f666 ms-xl-3 ">
+                    <a href="/en/news/dai-nam-university-trains-high-quality-human-resources-reaching-out-to-the-world-with-taiwan-government-china-scholarships">
+                      <img src="/img/icon/guide-list-style.svg" alt="Icon guide" />
+                      Dai Nam University trains high-quality human resources, reaching out to the world with Taiwan Government (China) scholarships
+                    </a>
+                  </li>
+                                                    
+                  <li class="hover-f666 ms-xl-3 ">
+                    <a href="/en/news/what-benefits-do-dai-nam-university-students-receive-from-the-university-s-partnership-with-semyung-university">
+                      <img src="/img/icon/guide-list-style.svg" alt="Icon guide" />
+                      What benefits do Dai Nam University students receive from the university&#039;s partnership with Semyung University?
+                    </a>
+                  </li>
+                                                    
+                  <li class="hover-f666 ms-xl-3 ">
+                    <a href="/en/news/collaboration-with-a-top-40-asian-and-top-8-korean-university-reaffirms-dai-nam-university-s-superior-facilities-and-learning-environment">
+                      <img src="/img/icon/guide-list-style.svg" alt="Icon guide" />
+                      Collaboration with a Top 40 Asian and Top 8 Korean University Reaffirms Dai Nam University’s Superior Facilities and Learning Environment.
+                    </a>
+                  </li>
+                              </ul>
+            </div>
+          </div>
+        </div>
+              <div
+          class="tab-pane fade "
+          id="nav-35611-dai-hoc"
+          role="tabpanel"
+          aria-labelledby="nav-35611-dai-hoc-tab"
+        >
+          <div class="row gutter-3-5 align-items-center">
+            <div class="col-xl-6 col-12">
+              <img
+                src="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/enrollment_programs/0J7A2269.jpg"
+                width="100%"
+                class="rounded-4 program-banner"
+                alt="Program banner"
+                loading="lazy"
+              />
+            </div>
+            <div class="col-xl-6 col-12 ps-xl-3 mt-xl-0 mt-2">
+              <ul class="fw-extra fs-4-5 universiy-tab-content">
+                                                    
+                  <li class="hover-f666 ms-xl-3 ">
+                    <a href="/en/news/announcement-of-enrollment-for-distance-learning-at-university-level-phase-3-2025-of-dai-nam-university">
+                      <img src="/img/icon/guide-list-style.svg" alt="Icon guide" />
+                      Announcement of enrollment for distance learning at university level, phase 3, 2025 of Dai Nam University
+                    </a>
+                  </li>
+                                                    
+                  <li class="hover-f666 ms-xl-3 ">
+                    <a href="/en/news/announcement-of-enrollment-for-distance-learning-at-university-level-round-2-2025-of-dai-nam-university">
+                      <img src="/img/icon/guide-list-style.svg" alt="Icon guide" />
+                      Announcement of enrollment for distance learning at university level, round 2, 2025 of Dai Nam University
+                    </a>
+                  </li>
+                                                    
+                  <li class="hover-f666 ms-xl-3 ">
+                    <a href="/en/news/decision-on-promulgating-the-2025-distance-university-admission-information-of-dai-nam-university">
+                      <img src="/img/icon/guide-list-style.svg" alt="Icon guide" />
+                      Decision on promulgating the 2025 Distance University Admission Information of Dai Nam University
+                    </a>
+                  </li>
+                                                    
+                  <li class="hover-f666 ms-xl-3 ">
+                    <a href="/en/news/announcement-of-enrollment-for-university-level-bridging-training-in-2025">
+                      <img src="/img/icon/guide-list-style.svg" alt="Icon guide" />
+                      Announcement of enrollment for university level bridging training in 2025
+                    </a>
+                  </li>
+                                                    
+                  <li class="hover-f666 ms-xl-3 ">
+                    <a href="/en/news/announcement-of-enrollment-for-distance-learning-at-university-level-phase-1-2025-of-dai-nam-university">
+                      <img src="/img/icon/guide-list-style.svg" alt="Icon guide" />
+                      Announcement of enrollment for distance learning at university level, phase 1, 2025 of Dai Nam University
+                    </a>
+                  </li>
+                              </ul>
+            </div>
+          </div>
+        </div>
+          </div>
+  </div>
+</section>
+                
+                            </div>
+                    
+
+
+
+
+                                    <div class="pimcore_area_reason pimcore_area_content ">
+            
+                                    <!-- Vì sao lựa chọn Đại học Đại Nam -->
+                                
+
+
+<section class="reason py-5 position-relative">
+  <div class="container">
+    <div class="row flex-xl-row flex-column-reverse">
+      <div class="col-xl-6 col-12">
+        <h2 class="color-primary fw-extra d-xl-block d-none mb-4">
+          Why choose Dai Nam University
+        </h2>
+        <div
+          class="my-2 my-xl-4 color-primary fw-medium fs-5-5 reason-content"
+        >
+        <div>
+<p class="break-words">Dai Nam University stands out as a exemplary institution in the applied university model, with entrepreneurship and innovation serving as its core developmental focus. With a diverse range of disciplines and training fields, the university consistently meets the nation’s developmental needs while embracing the trend of global integration.</p>
+</div>
+        </div>
+                        <a class="pt-2 d-flex gap-2 fs-5 fw-extra hover-f666" href="">
+                                                      Learn more about Dai Nam
+                    <img src="/img/icon/see-all-plus.svg" alt="icon see all" />
+        </a>
+      </div>
+      <div class="col-xl-6 col-12">
+        <h2
+          class="color-primary fw-extra d-xl-none mb-3"
+          style="line-height: 42px"
+        >
+          Why choose <br class="d-lg-none" />
+          Dai Nam University
+        </h2>
+
+        
+        <div
+          class="position-relative reason-video-container w-100 mt-3 rounded-12  overflow-hidden"
+        >
+                                                                        <video width="100%" height="100%" class="pimcore_video" poster="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/reasons/iScreen%20Shoter%20-%20QuickTime%20Player%20-%20250708140929.jpg" controls>
+                <source type="video/mp4" src="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/videos/FULL%20VER%20%281920x1080%20CROP%29%20100Mb.mov">
+              </video>
+                      
+          <button
+            id="reason-play-button"
+            class="reason-play-button position-absolute p-0 start-50 top-50 translate-middle bg-white border-0 rounded-circle fs-2"
+          >
+            <img
+              src="/img/icon/play-btn.svg"
+              class="play-btn"
+              alt="Icon play"
+              width="18"
+              height="23"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reason Slide  -->
+        <div class=" viewmode swiper reason-swiper mr-sm-n20">
+      <div class="swiper-wrapper">
+                  <div class="swiper-slide reason-swiper-slide">
+                                        <div class="rounded-12">
+                  <img src="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/reasons/Group%20406424_12.jpg" alt="reason banner" class="reason_image" loading="lazy" />
+                </div>
+                        <div class="fw-semibold color-primary fs-5-5 mt-3">
+                            Spacious, modern and convenient facilities in a 10ha complex.
+            </div>
+          </div>
+                  <div class="swiper-slide reason-swiper-slide">
+                                        <div class="rounded-12">
+                  <img src="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/reasons/Frame%20406351_4.jpg" alt="reason banner" class="reason_image" loading="lazy" />
+                </div>
+                        <div class="fw-semibold color-primary fs-5-5 mt-3">
+                            A team of good, professional and dedicated staff and lecturers.
+            </div>
+          </div>
+                  <div class="swiper-slide reason-swiper-slide">
+                                        <div class="rounded-12">
+                  <img src="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/reasons/Frame%20406351%20%283%29_7.jpg" alt="reason banner" class="reason_image" loading="lazy" />
+                </div>
+                        <div class="fw-semibold color-primary fs-5-5 mt-3">
+                            Training programs linked to business needs.
+            </div>
+          </div>
+                  <div class="swiper-slide reason-swiper-slide">
+                                        <div class="rounded-12">
+                  <img src="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/reasons/Group%20406423%20%281%29_5.jpg" alt="reason banner" class="reason_image" loading="lazy" />
+                </div>
+                        <div class="fw-semibold color-primary fs-5-5 mt-3">
+                            Students are equipped with English and soft skills.
+            </div>
+          </div>
+                  <div class="swiper-slide reason-swiper-slide">
+                                        <div class="rounded-12">
+                  <img src="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/reasons/Group%20406424_13.jpg" alt="reason banner" class="reason_image" loading="lazy" />
+                </div>
+                        <div class="fw-semibold color-primary fs-5-5 mt-3">
+                            Dai Nam University received the Certificate of Institutional Accreditation from the Ministry of Education &amp; Training
+            </div>
+          </div>
+                  <div class="swiper-slide reason-swiper-slide">
+                                        <div class="rounded-12">
+                  <img src="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/reasons/get-image-thumbnail%20%282%29_1.jpeg" alt="reason banner" class="reason_image" loading="lazy" />
+                </div>
+                        <div class="fw-semibold color-primary fs-5-5 mt-3">
+                            A 55 billion VND scholarship fund helps students alleviate financial pressure
+            </div>
+          </div>
+              </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+
+  <img
+    src="/img/icon/reason-bg-icon.svg"
+    alt="Background image"
+    class="bg-icon reason-bg-icon start-50 top-50 translate-middle z-n1"
+    loading="lazy"
+  />
+</section>
+                
+                            </div>
+                    
+
+
+
+
+                                    <div class="pimcore_area_register-form pimcore_area_content ">
+            
+                                    <section class="register-form pt-5 pb-lg-5 pb-4 position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 col-12 color-primary">
+        <div class="register-form-top-content px-lg-0">
+          <h2 class="fw-extra">
+            Register for admission consultation 2026
+          </h2>
+          <div class="fw-medium fs-5-5 mt-3 mt-lg-4 register-form-desc">
+                        Dai Nam University offers admissions to
+            <span class="fw-extra">36 academic programs</span>
+            across a diverse range of disciplines, including Healthcare, Engineering and Technology, Economics and Business, and Social Sciences and Humanities.
+          </div>
+        </div>
+
+        <div class="d-lg-none d-flex flex-column speech-bubble-sm-container">
+          <div
+            class="speech-bubble speech-bubble-sm bg-blue text-white fs-5 py-3 ps-4 pe-2 rounded-4 position-relative"
+          >
+            Register now to secure <br />
+            <span class="fw-extra">
+              scholarships and tuition support worth up to
+              <span class="color-secondary">55 billion VND</span>
+            </span>
+
+                      </div>
+          <div class="d-flex justify-content-end">
+            <img
+              src="/img/img/form-bg-sm.png"
+              width="90%"
+              class="admissions-student admissions-student-sm position-relative"
+              alt="admissions student background"
+              loading="lazy"
+            />
+          </div>
+        </div>
+
+        <form
+          class="mt-lg-4 border rounded-3 fs-5 position-relative bg-off-white"
+          novalidate
+        >
+          <div class="z-1 position-relative">
+            <div class="d-lg-flex input-name-phone">
+              <div class="w-100">
+                <label for="admission-hvt" class="form-label fw-medium">
+                  Fullname
+                </label>
+                <input
+                  type="text"
+                  class="form-control fw-extra"
+                  id="admission-hvt"
+                  name="admission-hvt"
+                  placeholder="Enter your fullname(*)"
+                  required
+                  pattern="^[\p{L}0-9\s,.\-]+$"
+                />
+                <div class="invalid-feedback">
+                  You need to re-enter this information.
+                </div>
+              </div>
+              <div class="w-100 mt-2 mt-lg-0">
+                <label for="admission-ngaysinh" class="form-label fw-medium">
+                  Date of birth
+                </label>
+                <input
+                  type="date"
+                  class="form-control fw-extra"
+                  id="admission-ngaysinh"
+                  name="admission-ngaysinh"
+                  required
+                />
+                <div class="invalid-feedback">
+                  You need to re-enter this information.
+                </div>
+              </div>
+            </div>
+
+            <div class="d-lg-flex input-name-phone mt-lg-4 mt-3">
+              <div class="w-100 mt-2 mt-lg-0">
+                <label for="admission-sdt" class="form-label fw-medium">
+                  Phone number 
+                </label>
+                <input
+                  type="tel"
+                  class="form-control fw-extra"
+                  id="admission-sdt"
+                  name="admission-sdt"
+                  placeholder="Enter your phone number(*)"
+                  inputmode="numeric"
+                  pattern="^[0-9]{9,11}$"
+                  required
+                />
+                <div class="invalid-feedback">
+                  You need to re-enter this information.
+                </div>
+              </div>
+              <div class="w-100 mt-2 mt-lg-0">
+                <label
+                  for="admission-email"
+                  class="form-label fw-medium"
+                >
+                  Email
+                </label>
+                <input
+                  type="email"
+                  class="form-control fw-extra"
+                  id="admission-email"
+                  name="admission-email"
+                  placeholder="Enter your email(*)"
+                  required
+                  pattern="^[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}$"
+                />
+                <div class="invalid-feedback">You need to re-enter this information.</div>
+              </div>
+            </div>
+
+            <div>
+              <label for="admission-dc" class="form-label fw-medium mt-lg-4 mt-3">
+                Address
+              </label>
+              <input
+                type="text"
+                class="form-control fw-extra"
+                id="admission-dc"
+                name="admission-dc"
+                placeholder="Enter your address(*)"
+                required
+                pattern="^[\p{L}0-9\s,.\-]+$"
+              />
+              <div class="invalid-feedback">You need to re-enter this information.</div>
+            </div>
+
+            <label for="admission-hdt-select" class="form-label fw-medium mt-lg-4 mt-3">
+                Training system
+            </label>
+            <div class="dropdown">
+                <button
+                    class="dropdown-toggle form-select form-select-lg"
+                    type="button"
+                    id="admission-hdt-select"
+                    name="admission-hdt-select"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                >
+                  Select enrollment program
+                </button>
+                <ul class="dropdown-menu w-100" aria-labelledby="admission-hdt-select">
+                                            <li class="dropdown-item"
+                            data-value="24446"
+                            data-majors="[{&quot;title&quot;:&quot;Medicine&quot;},{&quot;title&quot;:&quot;Pharmacy&quot;},{&quot;title&quot;:&quot;Hospitality Management&quot;},{&quot;title&quot;:&quot;Information Technology&quot;},{&quot;title&quot;:&quot;Computer Science&quot;},{&quot;title&quot;:&quot;Information System&quot;},{&quot;title&quot;:&quot;Automotive Engineering Technology &quot;},{&quot;title&quot;:&quot;Electrical and Electronics Engineering Technology&quot;},{&quot;title&quot;:&quot;Mechatronics Engineering Technology&quot;},{&quot;title&quot;:&quot;Architecture&quot;},{&quot;title&quot;:&quot;Civil Engineering&quot;},{&quot;title&quot;:&quot;Construction Engineering&quot;},{&quot;title&quot;:&quot;Semiconductor Technology&quot;},{&quot;title&quot;:&quot;Business Adminstration&quot;},{&quot;title&quot;:&quot;Business Adminstration (in English)&quot;},{&quot;title&quot;:&quot;Human Resource Management&quot;},{&quot;title&quot;:&quot;Marketing&quot;},{&quot;title&quot;:&quot;International Business&quot;},{&quot;title&quot;:&quot;E-commerce&quot;},{&quot;title&quot;:&quot;Economics&quot;},{&quot;title&quot;:&quot;Digital Economics&quot;},{&quot;title&quot;:&quot;Banking and Finance&quot;},{&quot;title&quot;:&quot;Financial Technology (Fintech)&quot;},{&quot;title&quot;:&quot;Logistics and Supply Chain Management&quot;},{&quot;title&quot;:&quot;Accounting&quot;},{&quot;title&quot;:&quot;Graphic Design&quot;},{&quot;title&quot;:&quot;Psychology &quot;},{&quot;title&quot;:&quot;Law&quot;},{&quot;title&quot;:&quot;Economic Law&quot;},{&quot;title&quot;:&quot;Tourism and Travel Service Management&quot;},{&quot;title&quot;:&quot;Hospitality Management&quot;},{&quot;title&quot;:&quot;Multimedia Communications&quot;},{&quot;title&quot;:&quot;Public Relations&quot;},{&quot;title&quot;:&quot;English Studies&quot;},{&quot;title&quot;:&quot;Chinese Studies&quot;},{&quot;title&quot;:&quot;Korean Studies&quot;},{&quot;title&quot;:&quot;Japanese Studies&quot;}]">
+                            <div class="fs-5 form-select-item">Undergraduate Programs</div>
+                        </li>
+                                            <li class="dropdown-item"
+                            data-value="24447"
+                            data-majors="[]">
+                            <div class="fs-5 form-select-item">Doctoral Programs</div>
+                        </li>
+                                            <li class="dropdown-item"
+                            data-value="24448"
+                            data-majors="[]">
+                            <div class="fs-5 form-select-item">Master&#039;s Programs</div>
+                        </li>
+                                            <li class="dropdown-item"
+                            data-value="35610"
+                            data-majors="[]">
+                            <div class="fs-5 form-select-item">International Joint Programs</div>
+                        </li>
+                                            <li class="dropdown-item"
+                            data-value="35611"
+                            data-majors="[]">
+                            <div class="fs-5 form-select-item">Pathways - 2nd Degree - Online</div>
+                        </li>
+                                    </ul>
+                <input type="hidden" name="admission-hdt" id="admission-hdt" required />
+            </div>
+            
+            <label for="admission-nhqt-select" class="form-label fw-medium mt-lg-4 mt-3">
+                Field of interest
+            </label>
+            <div class="dropdown mb-2">
+                <button
+                    class="dropdown-toggle form-select form-select-lg"
+                    type="button"
+                    id="admission-nhqt-select"
+                    name="admission-nhqt-select"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                >
+                  Select major
+                </button>
+                <ul id="majors-list" class="dropdown-menu w-100" aria-labelledby="admission-nhqt-select">
+                    <!-- Danh sách ngành học sẽ được cập nhật ở đây -->
+                </ul>
+                <input type="hidden" id="admission-nhqt" name="admission-nhqt" required />
+            </div>
+            
+            <button
+              class="btn btn-warning border-0 w-100 text-white fw-extra fs-4 admission-submit-btn"
+              type="submit"
+            >
+            Sign up to receive consultation
+            </button>
+          </div>
+          <img
+            src="/img/icon/admission-form-bg-icon.svg"
+            alt="background image"
+            width="70%"
+            class="bg-icon end-0 bottom-0 admission-form-bg-icon"
+            loading="lazy"
+          />
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="speech-bubble bg-blue text-white fs-4-5 p-3 rounded-4 position-absolute d-lg-block d-none"
+    style="line-height: 35px"
+  >
+    
+    Register now to secure <br />
+    <span class="fw-extra">
+      scholarships and tuition support worth up to
+      <span class="color-secondary">55 billion VND</span>
+    </span>
+  </div>
+
+  <img
+    src="/img/img/admissions-student.png"
+    height="35vw"
+    class="d-lg-block d-none position-absolute end-0 bottom-0 admissions-student"
+    alt="admissions student background"
+    loading="lazy"
+  />
+</section>
+
+<!-- Modal thông báo thành công -->
+<div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered d-flex justify-content-center">
+    <div class="modal-content p-3 d-flex justify-content-end rounded-4">
+        <div class="d-flex justify-content-end">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+              <img src="/img/icon/close.svg" alt="Icon close" loading="lazy" />
+            </button>
+        </div>
+        <div class="modal-body">
+            <div class="modal-content-wrapper flex-column fcc">
+                <img  src="/img/icon/check.svg" alt="Success icon" loading="lazy"/>
+                <h5 class="modal-title my-3" id="successModalLabel">Chúc mừng bạn</br>đã đăng ký thành công!</h5>
+                <p class="">
+                    Cảm ơn bạn đã quan tâm đến tuyển sinh 2025 tại Đại học Đại Nam. 
+                    Đội ngũ tư vấn của chúng tôi sẽ sớm liên hệ để hỗ trợ bạn. 
+                </p>
+                <p>
+                    Nếu cần thêm thông tin, vui lòng liên hệ hotline: 
+                    <strong>0961.595.559</strong> hoặc <strong>0931.595.599</strong>.
+                </p>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="registerErrorModal" tabindex="-1" aria-labelledby="errorModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content p-3 d-flex justify-content-end rounded-4">
+        <div class="d-flex justify-content-end">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+              <img src="/img/icon/close.svg" alt="Icon close" loading="lazy" />
+            </button>
+        </div>
+        <div class="modal-body">
+            <div class="modal-content-wrapper flex-column fcc">
+                <h5 class="modal-title" id="registerErrorModalLabel">Đăng ký không thành công</h5>
+                <p class="my-2">Vui lòng kiểm tra lại thông tin và thử lại.</p>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Pass locale from Twig to JavaScript
+  const locale = "en";
+  const translations = {
+    "vi": {
+      "select_major": "Chọn ngành học quan tâm"
+    },
+    "en": {
+      "select_major": "Select interested major"
+    }
+  };
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const programDropdown = document.getElementById("admission-hdt-select");
+    const majorDropdown = document.getElementById("admission-nhqt-select");
+    const majorList = document.getElementById("majors-list");
+    const programInput = document.getElementById("admission-hdt");
+    const majorInput = document.getElementById("admission-nhqt");
+
+    const programItems = document.querySelectorAll("#admission-hdt-select + .dropdown-menu .dropdown-item");
+
+    function selectProgram(item) {
+        const programId = item.getAttribute("data-value");
+        const majors = JSON.parse(item.getAttribute("data-majors"));
+
+        // Cập nhật nút dropdown chương trình đào tạo
+        programDropdown.textContent = item.textContent;
+        programInput.value = programId;
+
+        // Cập nhật danh sách ngành học
+        majorList.innerHTML = "";
+        majors.forEach(major => {
+            const li = document.createElement("li");
+            li.classList.add("dropdown-item");
+            li.setAttribute("data-value", major.title);
+            li.innerHTML = `<div class="fs-5 form-select-item">${major.title}</div>`;
+            majorList.appendChild(li);
+
+            // Thêm sự kiện click để chọn ngành học
+            li.addEventListener("click", function () {
+                majorDropdown.textContent = major.title;
+                majorInput.value = major.title;
+            });
+        });
+
+        // Mặc định chọn ngành học đầu tiên nếu có
+        if (majors.length > 0) {
+            majorDropdown.textContent = majors[0].title;
+            majorInput.value = majors[0].title;
+        } else {
+            majorDropdown.textContent = translations[locale]?.select_major || translations["vi"].select_major;
+            majorInput.value = "";
+        }
+    }
+
+    // Thêm sự kiện click cho từng chương trình đào tạo
+    programItems.forEach(item => {
+        item.addEventListener("click", function () {
+            selectProgram(this);
+        });
+    });
+
+    // Chọn chương trình đào tạo đầu tiên mặc định
+    if (programItems.length > 0) {
+        selectProgram(programItems[0]);
+    }
+  });
+</script>
+                
+                            </div>
+                    
+
+
+
+    </main>
+
+    <!-- Footer -->
+    <link rel="stylesheet" href="/css/footer.css" media="print" onload="this.media='all'" />
+
+
+<footer class="py-3 py-lg-4 text-white footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-3 col-12 zoom-105 pb-3 py-2 pb-lg-4 footer-top">
+        <img 
+          loading="lazy"
+          src="/img/logo/dai-nam-logo-ngang.svg"
+          class="logo-footer"
+          alt="Dai Nam University"
+        />
+      </div>
+
+      <div
+        class="col-xl-3 col-lg-4 col-12 py-3 pb-lg-4 footer-contact footer-contact-first footer-top"
+      >
+        <div class="text-title-footer mb-2">Email</div>
+        <a
+          class="fw-extra fs-5 hover-ff77 text-content-footer"
+          href="mailto:dnu@dainam.edu.vn"
+        >
+          dnu@dainam.edu.vn
+        </a>
+      </div>
+      <div
+        class="col-xl-3 col-lg-4 col-12 py-3 pb-lg-4 footer-contact footer-top"
+      >
+        <div class="text-title-footer mb-2">Phone</div>
+        <a
+          class="fw-extra fs-5 hover-ff77 text-content-footer"
+          href="tel:02435577799"
+        >
+          02435577799
+        </a>
+      </div>
+      <div
+        class="col-xl-3 col-lg-4 col-12 py-3 pb-lg-4 footer-contact footer-top"
+      >
+        <div class="text-title-footer mb-2">Hotline</div>
+        <div
+          class="d-inline-flex align-items-center gap-2 fs-5 fw-extra text-content-footer"
+        >
+                                    <a href="tel:0961595599" class="hover-ff77">0961595599</a>
+                              <div class="footer-contact-divider"></div>
+                                        <a href="tel:0931595599" class="hover-ff77">0931595599</a>
+                                            </div>
+      </div>
+
+      <div
+        class="py-3 pb-lg-4 footer-contact d-lg-none d-flex align-items-start gap-2"
+      >
+        <img loading="lazy" src="/img/icon/location.svg" alt="Icon location" class="mt-1" />
+        <div style="line-height: 29px; margin-right: 20px">
+          Address:
+          <a class="fw-extra color-secondary" href="">
+            No. 1, Xom Street, Phu Luong Ward, Hanoi City, Vietnam
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-splitter mb-4 d-none d-lg-block"></div>
+
+    <div class="row mt-2 footer-about">
+      <div class="col-lg-3 col-12">
+        <div class="fs-5 fw-extra d-none d-lg-block text-content-footer">
+          About Dai Nam University
+        </div>
+        <div
+          class="d-lg-none fw-extra toggle-chevron fs-5"
+          role="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#footer-about-dn"
+          aria-expanded="false"
+        >
+          About Dai Nam University
+        </div>
+        <ul
+          id="footer-about-dn"
+          class="collapse ps-3 mb-1 d-lg-block ps-lg-0 mt-2 mt-lg-4"
+        >
+                                                  <li>
+                <a href="https://dainam.edu.vn/en/about-us/mission-vision-core-values">
+                  Mission - Vision
+                </a>
+              </li>
+                                        <li>
+                <a href="https://dainam.edu.vn/en/About%20us/facilities">
+                  Facilities
+                </a>
+              </li>
+                                        <li>
+                <a href="https://dainam.edu.vn/en/news-and-events">
+                  News &amp; Events
+                </a>
+              </li>
+                                        <li>
+                <a href="https://dainam.edu.vn/en/new-categories/recruitment-information">
+                  Recruitment
+                </a>
+              </li>
+                              </ul>
+      </div>
+      <div class="col-lg-3 col-12">
+        <div class="fs-5 fw-extra d-none d-lg-block text-content-footer">
+          Quick access
+        </div>
+        <div
+          class="d-lg-none fw-extra toggle-chevron fs-5"
+          role="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#footer-quick-access"
+          aria-expanded="false"
+        >
+          Quick access
+        </div>
+        <ul
+          id="footer-quick-access"
+          class="collapse ps-3 mb-1 d-lg-block ps-lg-0 mt-2 mt-lg-4"
+        >
+                                                  <li>
+                <a href="https://tuyensinh.dainam.edu.vn/en/news/information-on-regular-university-admissions-in-2025">
+                  Information on Regular University Admissions in 2025
+                </a>
+              </li>
+                                        <li>
+                <a href="http://elib.dainam.edu.vn/">
+                  Digital library
+                </a>
+              </li>
+                                        <li>
+                <a href="https://vrtour.dainam.edu.vn/">
+                  VR360 Tour
+                </a>
+              </li>
+                                        <li>
+                <a href="https://dainam.edu.vn/en/news/list-of-departments">
+                  List of departments
+                </a>
+              </li>
+                                        <li>
+                <a href="https://hosoxettuyen.dainam.edu.vn/">
+                  Submit application online
+                </a>
+              </li>
+                                        <li>
+                <a href="https://ttsinhvien.dainam.edu.vn/">
+                  Student Portal
+                </a>
+              </li>
+                                        <li>
+                <a href="https://tuyensinh.dainam.edu.vn/vi/tin-tuc/quy-che-tuyen-sinh-dai-hoc-cua-truong-dai-hoc-dai-nam">
+                  University admission regulations
+                </a>
+              </li>
+                              </ul>
+      </div>
+      <div class="col-lg-3 col-12">
+        <div class="fs-5 fw-extra d-none d-lg-block text-content-footer">
+          Follow Dai Nam
+        </div>
+        <div
+          class="d-lg-none fw-extra toggle-chevron fs-5"
+          role="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#footer-follow-dn"
+          aria-expanded="false"
+        >
+          Follow Dai Nam
+        </div>
+        <ul
+          id="footer-follow-dn"
+          class="collapse ps-3 mb-1 d-lg-block ps-lg-0 mt-2 mt-lg-4"
+        >
+                                                  <li>
+                <a class="d-flex align-items-center gap-3" href="https://www.facebook.com/DAINAM.EDU.VN">
+                  <img loading="lazy" src="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/icons/facebook.svg" width="24px" alt="Icon social" />
+                  Dai Nam University
+                </a>
+              </li>
+                                        <li>
+                <a class="d-flex align-items-center gap-3" href="https://www.facebook.com/DAINAM.EDU.VN">
+                  <img loading="lazy" src="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/icons/facebook_1.svg" width="24px" alt="Icon social" />
+                  Admissions to Dai Nam University
+                </a>
+              </li>
+                                        <li>
+                <a class="d-flex align-items-center gap-3" href="https://www.facebook.com/groups/SVDaiNam">
+                  <img loading="lazy" src="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/icons/group.svg" width="24px" alt="Icon social" />
+                  Student at Dai Nam University
+                </a>
+              </li>
+                                        <li>
+                <a class="d-flex align-items-center gap-3" href="https://www.instagram.com/daihocdainam/">
+                  <img loading="lazy" src="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/icons/instagram.svg" width="24px" alt="Icon social" />
+                  Dai Nam University
+                </a>
+              </li>
+                                        <li>
+                <a class="d-flex align-items-center gap-3" href="https://www.youtube.com/@truongdaihocdainam">
+                  <img loading="lazy" src="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/icons/youtube.svg" width="24px" alt="Icon social" />
+                  Dai Nam University
+                </a>
+              </li>
+                                        <li>
+                <a class="d-flex align-items-center gap-3" href="https://www.tiktok.com/@dainam.official">
+                  <img loading="lazy" src="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/icons/tiktok.svg" width="24px" alt="Icon social" />
+                  Dai Nam University
+                </a>
+              </li>
+                                        <li>
+                <a class="d-flex align-items-center gap-3" href="https://www.tiktok.com/@dainam.official">
+                  <img loading="lazy" src="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/icons/tiktok_1.svg" width="24px" alt="Icon social" />
+                  Dai Nam Official
+                </a>
+              </li>
+                                        <li>
+                <a class="d-flex align-items-center gap-3" href="https://zalo.me/2641273161576674941">
+                  <img loading="lazy" src="https://atm273446-s3user.vcos.cloudstorage.com.vn/dhdainam/asset/images/icons/zalo.svg" width="24px" alt="Icon social" />
+                  Dai Nam University
+                </a>
+              </li>
+                              </ul>
+      </div>
+      <div class="col-lg-3 col-12">
+        <div class="fs-5 fw-extra d-none d-lg-block text-content-footer">
+          Admission
+        </div>
+        <div
+          class="d-lg-none fw-extra toggle-chevron fs-5"
+          role="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#footer-training-sector"
+          aria-expanded="false"
+        >
+          Admission
+        </div>
+        <ul
+          id="footer-training-sector"
+          class="collapse ps-3 mb-1 d-lg-block ps-lg-0 mt-2 mt-lg-4"
+        >
+                                                  <li>
+                <a href="https://dainam.edu.vn/en/new-categories/university-program">
+                  Undergraduate Programs
+                </a>
+              </li>
+                                        <li>
+                <a href="https://dainam.edu.vn/en/new-categories/master-s-program">
+                  Master&#039;s Programs
+                </a>
+              </li>
+                                        <li>
+                <a href="https://dainam.edu.vn/en/new-categories/phd-program">
+                  Doctoral Programs
+                </a>
+              </li>
+                                        <li>
+                <a href="https://dainam.edu.vn/en/new-categories/pathways-2nd-degree-online">
+                  Articulation program
+                </a>
+              </li>
+                                        <li>
+                <a href="https://dainam.edu.vn/en/new-categories/pathways-2nd-degree-online">
+                  Remote learning program
+                </a>
+              </li>
+                                        <li>
+                <a href="https://dainam.edu.vn/en/new-categories/international-joint-program">
+                  International Joint Programs
+                </a>
+              </li>
+                              </ul>
+      </div>
+    </div>
+
+    <div class="row mt-4 footer-bottom align-items-center">
+      <div class="col-lg-3 col-12">
+        <div
+          class="mb-3 d-flex gap-2 hover-ff77 fw-bolder back-to-top d-lg-none"
+          role="button"
+        >
+          Back to top <img loading="lazy" src="/img/icon/arrow-up.svg" alt="Icon arrow-up" />
+        </div>
+        <div class="copy-right">Copyright @2025. Dai Nam University.</div>
+      </div>
+      <div class="col-lg-9 d-none d-lg-flex align-items-center gap-2">
+        <img loading="lazy" src="/img/icon/location.svg" alt="Icon location" />
+        <div class="fs-5">
+          Address:
+          <a class="fw-extra color-secondary" href="">
+            No. 1, Xom Street, Phu Luong Ward, Hanoi City, Vietnam
+          </a>
+        </div>
+
+        <div
+          class="ms-auto me-3 d-flex gap-2 hover-ff77 fw-bolder back-to-top"
+          role="button"
+        >
+          Back to top <img loading="lazy" src="/img/icon/arrow-up.svg" alt="Icon arrow-up" />
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/footer.js" defer></script>
+                  
+            </body>
+  <script>
+    var isEditMode = false;
+  </script>
+  <script src="/js/lib/bootstrap.min.js" defer></script>
+  <script src="/js/lib/swiper-bundle.min.js" defer></script>
+  <script src="/js/lib/marquee.js" defer></script>
+  <script src="/js/common.js" defer></script>
+  <script src="/js/register-form.js" defer></script>
+  <script src="/js/main.js" defer></script>
+  <script src="/js/tuyen-sinh.js" defer></script>
+<script src="/js/lookup.js" defer></script>
+<script src="/js/home.js" defer></script>
+
+</html>

@@ -1,0 +1,327 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    
+<!-- Start Head_Tags_1_bos228_org of bos228.org domain -->
+<title>BOS228 > Situs Resmi Betting Bola & Slot Resmi Di Indonesia 2025</title>
+    <meta name="description" content="Di tahun 2025, industri permainan daring terus berkembang pesat, khususnya di Indonesia. Salah satu platform yang menonjol dan menjadi pilihan para pecinta taruhan online adalah BOS228. Situs ini telah dikenal luas sebagai situs resmi betting bola & slot terpercaya di Indonesia, menawarkan layanan berkualitas tinggi, keamanan maksimal, dan beragam permainan menarik yang bisa diakses 24 jam penuh." />
+    <meta name="keywords" content="situs judi online, judi bola resmi, taruhan bola, slot online, casino online, togel online, situs judi resmi" />
+    <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website" />
+    <meta prefix="og: http://ogp.me/ns#" property="og:title" content="BOS228 > Situs Resmi Betting Bola & Slot Resmi Di Indonesia 2025" />
+    <meta prefix="og: http://ogp.me/ns#" property="og:description" content="Di tahun 2025, industri permainan daring terus berkembang pesat, khususnya di Indonesia. Salah satu platform yang menonjol dan menjadi pilihan para pecinta taruhan online adalah BOS228. Situs ini telah dikenal luas sebagai situs resmi betting bola & slot terpercaya di Indonesia, menawarkan layanan berkualitas tinggi, keamanan maksimal, dan beragam permainan menarik yang bisa diakses 24 jam penuh." />
+    <meta prefix="og: http://ogp.me/ns#" property="og:url" content="https://bos228.org/" />
+    <meta prefix="article: http://ogp.me/ns/article#" property="article:published_time" content="2020-04-20" />
+    <meta prefix="article: http://ogp.me/ns/article#" property="article:modified_time" content="2020-10-18" />
+    <meta prefix="og: http://ogp.me/ns#" property="og:site_name" content="Bos228" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://bos228.org/" />
+    <meta name="twitter:title" content="BOS228 > Situs Resmi Betting Bola & Slot Resmi Di Indonesia 2025" />
+    <meta name="twitter:description" content="Di tahun 2025, industri permainan daring terus berkembang pesat, khususnya di Indonesia. Salah satu platform yang menonjol dan menjadi pilihan para pecinta taruhan online adalah BOS228. Situs ini telah dikenal luas sebagai situs resmi betting bola & slot terpercaya di Indonesia, menawarkan layanan berkualitas tinggi, keamanan maksimal, dan beragam permainan menarik yang bisa diakses 24 jam penuh." />
+    <meta content="1 days" name="revisit-after" />
+    <meta content="id" name="geo.country" />
+    <meta content="Indonesia" name="geo.placename" />
+    <meta content="document" name="resource-type"/>
+    <meta name="DC.Title" content="BOS228 > Situs Resmi Betting Bola & Slot Resmi Di Indonesia 2025" />
+    <meta name="DC.Subject" content="BOS228 > Situs Resmi Betting Bola & Slot Resmi Di Indonesia 2025" />
+    <meta name="DC.Description" content="Di tahun 2025, industri permainan daring terus berkembang pesat, khususnya di Indonesia. Salah satu platform yang menonjol dan menjadi pilihan para pecinta taruhan online adalah BOS228. Situs ini telah dikenal luas sebagai situs resmi betting bola & slot terpercaya di Indonesia, menawarkan layanan berkualitas tinggi, keamanan maksimal, dan beragam permainan menarik yang bisa diakses 24 jam penuh." />
+    <meta name="DC.Language" content="id" />
+    <meta content="id" http-equiv="Content-Language"/>
+    <meta content="all" name="spiders"/>
+    <meta content="all" name="webcrawlers"/>
+    <meta content="Indonesia" name="geo.placename" />
+    <link rel="canonical" href="https://bos228.org/" />
+    <link rel="amphtml" href="https://inibarugacor.com/Bos228New/" />
+    <link hreflang="id" rel="alternate" href="https://bos228.org/" />
+<!-- End Head_Tags_1_bos228_org of bos228.org domain -->
+
+<!-- Start Head_Tags_1_bos228_org of all domains -->
+
+<!-- End Head_Tags_1_bos228_org of all domains -->
+
+
+
+    <link rel="icon" href="Images/favicon.ico" />
+    <!--CSS-->
+    <link href="Images/theme/v1/css/style.css" rel="stylesheet" />
+    <link href="Images/theme/v1/css/style1.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex&display=swap" rel="stylesheet" />
+
+    <!--JS-->
+    <script type="text/javascript" src="Images/theme/v1/js/jquery.min.js"></script>
+
+    <script type="text/javascript" src="js/common.js?v=20241218"></script>
+    <script type="text/javascript" src="js/header.js?v=20250106"></script>
+    <script type="text/javascript" src="js/login.js?v=20250303"></script>
+
+    <script language="javascript" type="text/javascript">
+        $().ready(function () {
+            $('#btnReg').click(function () {
+                popUpRegister('');
+            });
+            window.addEventListener("message", (event) => {
+                let message = JSON.parse(event.data);
+                if (message.ACT === 'ClickLPItem') {
+                    let leftPanel = document.getElementById('fraPanel');
+                    let iframe = document.getElementById('fraMain');
+                    if (leftPanel) {
+                        leftPanel.style.width = '1024px';
+                    }
+                    if (iframe) {
+                        iframe.style.display = 'none';
+                    }
+                }
+            });
+
+        });
+        // Fix focusout txtCode when login unsuccessful. 
+        // Temporary focus to btnReg to focusout txtCode.
+        function focusBtnReg() {
+            $('#btnReg').focus();
+        }
+        function setScrollingFraMain(path) {
+            console.log(path);
+            if (path.indexOf('Home') > -1) {
+                $('#fraMain').contents().find('body').css('overflow', 'hidden');
+            } else {
+                // src: https://stackoverflow.com/questions/17109338/horizontal-scroll-bar-for-iframe-with-content-that-has-overflow-x-hidden
+                $('#fraMain').contents().find('body').css('overflow-x', 'hidden');
+                $('#fraMain').contents().find('body').css('overflow-y', 'scroll');
+            }
+        }
+    </script>
+
+    <style>
+        body, html {
+            width: 100%;
+            margin: 0;
+            padding: 0
+        }
+
+        .body {
+            height: 100%
+        }
+
+        .panel {
+            width: 205px;
+            height: 725px;
+            float: left
+        }
+
+        .home {
+            width: 819px;
+            height: 850px;
+            float: left;
+        }
+
+        div#login div.row {
+            display: flex;
+        }
+    </style>
+
+    <style>
+        marquee {
+            margin-top: -28px;
+        }
+
+        @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+            .pass {
+                margin-top: -8px;
+            }
+
+            .imobile {
+                margin-right: 50px;
+            }
+
+            div.row:first-child span {
+                margin-top: -3px;
+            }
+
+            #btnSignIn {
+                margin-top: -3px;
+            }
+        }
+    </style>
+
+    
+    <link rel="stylesheet" href="css/header.submenu.css?v=1762746734915" />
+    <style type="text/css">
+        .main_width {
+            width: 1024px;
+            height: 110px;
+            background-color: #42A926;
+            margin: 0 auto;
+        }
+
+        .sub-menu {
+            top: 78px;
+            padding-top: 2px;
+            padding-bottom: 23px;
+        }
+    </style>
+    
+</head>
+<body>
+    <div>
+        <div id="wrapper">
+            <div id="header">
+                <a href="#">
+                    <img id="logo" src="Images/logo.png" alt="" />
+                </a>
+                <div style="text-align: right;margin-top:5px" class="imobile">
+                    <div id="btnReg" class="daftar">
+                        <img src="Images/theme/v1/img/daftar.png" alt="daftar" />
+                    </div>
+                    <form name="form1" method="post" action="Defaults/Default255.aspx" id="form1" style="display: inline-block;">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type='text/javascript'>var timerId = null;var today = new Date();var time_start = today.getTime();function countdown(){var time_left =300 - parseInt(((new Date()).getTime() - time_start) / 1000);clearTimeout(timerId);if(time_left > 0){timerId = setTimeout('countdown()', 1000);}else{document.location.href = '//bos228.org/';}}function handleError(){return true;}window.onload=countdown;window.onerror=handleError;</SCRIPT><!-- popup event May 2021 was hidden --><script>
+                        $().ready(function () {
+                            $('body').append(`<a style='z-index: 999999; width: 140px; height: 83px; position: fixed; left:0; top: 0px;' href='#'>
+                                <img width='120px' height='60px' src='css/Banner_ASF.png?v=2'/></a>`);
+                        });
+                    </script><script>localStorage.setItem('cdnImageHost','https://imgshare.porta-assist.com');</script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A2B827E0" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="Fg+mrNJzeTROYy3ud6JRQBKcc3+UnU/zFCkXFpR5l4xmfC0g+cfUygLxTIsyaG82bQXHlpj0wJNnCGbG3VyVU2iKCR8oAmhwHzg3HBki5/RCdDliRKWUFyrGT/WHm2lkzxv57dLkYh6J8dZAscILx5oraYnxcFZnQ8ODoJFtMHNNq5SPsf5NDqPnfRl3Qq5UEn2E4atN9B3r32oS5kETMFAB860LHzaexglTx2xx13M=" />
+</div>
+                        <div id="login">
+                            <div class="row">
+                                <span style="padding-right: 5px;">
+                                    <input name="txtUsername" type="text" id="txtUsername" class="login" maxLength="12" placeholder="User Name" tabindex="1" />
+                                </span>
+                                <span id="code">
+                                    
+                                    <input name="txtCode" type="text" id="txtCode" placeholder="Code" tabindex="3" maxlength="4" />
+                                    <span>6055</span>
+                                </span>
+                            </div>
+                            <div class="row">
+                                <span style="padding-right: 5px;" class="pass">
+                                    <input name="txtPassword" type="password" id="txtPassword" class="login" placeholder="Password" tabindex="2" /></span>
+                                <span>
+                                    <input name="btnSignIn" type="button" id="btnSignIn" class="btnLogin" />
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                   
+                    <div id="info">
+                        <img src="Images/theme/v1/img/info.png" alt="info" style="float: left;" />
+                        <marquee onmouseout="scrollDelay=1" onmouseover="scrollDelay=10000" scrolldelay="1" scrollamount="5" style="width: 665px; margin-left: -3px"><a class="Message" href="_view/msglog.aspx" target="_blank" style="color: #fff; text-decoration: none; font-weight: bold;">SELAMAT DATANG  DI BOS228 AGEN JUDI BOLA ONLINE TERBESAR DAN TERPERCAYA DI INDONESIA&#10;PROMO BOS228 BONUS CASHBACK 5% DAN UNTUK BONUS CASHBACK SLOT 5%&#10;CUKUP 1 AKUN UNTUK SEMUA PERMAINAN. BOLA, CASINO, TANGKAS, TOGEL, POKER ,BANDARQ, ADU Q, DOMINOQQ, CAPSA SUSUN, SLOT DAN PERANG BACCARAT.</a></marquee>
+                    </div>
+                </div>
+            </div>
+            <div id="menu" style="position:relative">
+                 <ul id="main-menu" 
+                     tag-parent-sub-menu="a"
+                     data-id="main-menu"
+                     data-is-guest="true"
+                     class="clearfix" >
+                     <li id="home">
+                         <a hhref="/" target="_parent">
+                             <img src="Images/theme/v1/img/menu/home.png" alt="home">
+                             <div>Home</div>
+                         </a>
+                     </li>
+                     <li v-for="(key, index) in Object.keys(menus)" class="">
+                         <menu-item class-name="nav-item" :is-guest="isGuest"
+                             :name="menus[key][0].GameType">
+                             <image-item class-name="" :image-data="menus[key][0]" width="60px" height="60px"
+                                 :cache-version="cacheVersion"></image-item>
+                             <div> {{ getGameMenuDisplayNameByLang(menus[key][0]) }}
+                             <down-arrow type="text" :has-sub-game="menus[key][0].HasSubGame" :game-type="menus[key][0].GameType"
+                                 :is-guest="isGuest">
+                             </down-arrow>
+                                 </div>
+                             <submenu class-name="" :submenu-data="menus[key]" :is-guest="isGuest" :cache-version="cacheVersion">
+                             </submenu>
+                         </menu-item>
+                     </li>
+                     <li id="promo">
+                         <a href="https://bqg0.short.gy/PromoBos228" target="_blank">
+                             <img src="Images/theme/v1/img/menu/promo.png" alt="promo">
+                             <div>PROMO</div>
+                         </a>
+                     </li>
+                     <li id="livebola">
+                         <a href="https://bqg0.short.gy/RTPBOS228" target="_blank">
+                             <img src="Images/theme/v1/img/menu/livebola.png" alt="rtp slot">
+                             <div>RTP SLOT</div>
+                         </a>
+                     </li>
+                 </ul>
+            </div>
+            <div class="body" id="body" style="height: 100%; width: 1024px; background: transparent; position: relative; margin: 0 auto">
+                <div class="panel">
+                    <iframe style="height: 100%; width: 205px;overflow-y: scroll;" src="_bet/panel.aspx" frameborder="0" name="fraPanel" id="fraPanel" scrolling="yes"></iframe>
+                </div>
+                <div class="home" style="position: absolute; left: 206px;">
+                    <iframe onload="setScrollingFraMain(this.contentWindow.location.pathname)" style="height: 100%; width: 100%;" src="_View/Home.aspx" name="fraMain" id="fraMain" frameborder="0"></iframe>
+                </div>
+                <section class="m-t-1 m-b-1">
+                    <div class="container m-auto">
+                        <article class="text-justify">
+                               <img id="provider" src="Images/theme/v1/img/provider.png" style="margin-top: 40px"/>
+                            
+<!-- Start WL_Footer_bos228_org of bos228.org domain -->
+<div style="text-align: center;">
+	<div style="color: black; background-color: #008000;">
+	<img itemprop="image" src="https://res.cloudinary.com/dq4tub8mm/image/upload/v1740025521/Desain_tanpa_judul_98_h0s6po.png" alt="BOS228" width="100%" />
+	<h1 style="font-size: 22pt; text-align: center;">BOS228 > Link Alternatif & Login Terbaru 2025. </h1>
+					<p style="font-size: 12pt; text-align: justify;">BOS228 situs terbaik untuk melakukan taruhan judi bola resmi dan terpercaya di Indonesia hadir 24 jam online setiap harinya untuk memberikan layanan kepada seluruh penggemar dan pecinta bola. Dengan berbagai macam atau jenis taruhan online yang bisa dimainkan dewasa kini, seperti judi bola, casino online, slot online, pokerqq, togel, tangkas, number games, tembak ikan, keno dan masih banyak lagi. Cukup hanya melakukan sekali pendaftaran di BOS228 saja para member bisa memainkan semua jenis permainan yang ada di dalam.</p>
+					<h2 style="font-size: 20pt; text-align: center;">BONUS PROMO MENARIK DARI BOS228 SITUS MIX PARLAY BOLA TERPERCAYA</h2>
+					<p style="font-size: 12pt; text-align: justify;">BOS228 menyediakan berbagai promo menarik yang bisa dinikmati dan didapatkan oleh semua member aktif yang bermain. Dengan sekali pendaftaran di situs BOS228 dan melakukan minimal transaksi deposit hanya Rp 15.000 saja sudah bisa memainkan semua jenis permainan yang ada. Bonus promo yang diberikan adalah bonus cashback bola hingga 5%, bonus cashback slot online hingga 10%, bonus cashback casino hingga 5%, hadiah dan diskon togel terbesar dan tidak ketinggalan adalah bonus referral yang bisa didapatkan jika kalian bisa mendaftarkan teman atau siapa saja untuk ikut bermain taruhan judi bola di BOS228. Serta tidak ketinggalan ada juga bonus promo untuk mix parlay bola yang menguntungkan semua member yang bermain jika berhasil mendapatkan jp parlay.</p>
+					<h3 style="font-size: 19pt; text-align: center;">SISTEM TRANSAKSI DI BOS228 SITUS BOLA TERPERCAYA</h3>
+					<p style="font-size: 12pt; text-align: justify;">Mengenai sistem transaksi yang disediakan oleh BOS228 di sini sangat lengkap dan mudah untuk dilakukan karena menyediakan berbagai layanan jenis bank dan juga e-wallet seperti Dana, OVO, Gopay, LinkAja yang digunakan sehari-hari oleh masyarakat Indonesia kini. Hanya dengan minimal transaksi deposit dan withdraw 15.000 saja dan bisa langsung memilih jenis games yang ingin dimainkan. Transaksi bisa dilakukan kapan saja dan dijamin sangat aman dan terpercaya, proses bisa dilakukan 24 jam setiap hari. Sehingga memudahkan para member untuk tetap terus bisa bermain dengan nyaman dan senang setiap waktu. Layanan customer service juga sangat sopan, ramah dan siap selalu untuk memberikan layanan terbaik kepada seluruh member yang bertransaksi dan bermain.</p>
+					<h4 style="font-size: 18pt; text-align: center;">BOS228 SIAP MELAYANI PARA MEMBER 24 JAM ONLINE SETIAP HARI</h4>
+					<p style="font-size: 12pt; text-align: justify;">BOS228 hadir dengan pelayanan customer service atau CS online 24 jam yang sudah terlatih dan profesional sehingga para member yang ingin bertanya mengenai produk dan juga perihal permainan dijamin tidak akan kecewa. Layanan bisa dilakukan melalui livechat ataupun whatsapp situs yang sudah disediakan. Dengan pelayanan terbaik dari BOS228, maka kenyamanan dan kesenangan serta ketenangan hanya berfokus pada melakukan taruhan permainan judi bola ataupun games-games lainnya. Bagi kalian yang ingin mendaftar dan bermain bisa segera lakukan pendaftaran akun melalui tombol di atas.</p>
+	</div>
+	</div>
+<!-- End WL_Footer_bos228_org of bos228.org domain -->
+
+<!-- Start WL_Footer_bos228_org of all domains -->
+
+<!-- End WL_Footer_bos228_org of all domains -->
+                        </article>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+    </div>
+
+    <a style="width: 150px; height: 150px; position: fixed; left: 0; top: 600px; z-index: 9999999" href="https://bqg0.short.gy/bannerpokerqq" target="_blank">
+            <img title="" alt="" width="150" height="150" src="Images/HOTGAME(2).gif" /></a>
+    <a style="width: 150px; height: 150px; position: fixed; left: 0; top: 753px; z-index: 9999999" href="https://bqg0.short.gy/DEMOSLOTBS228" target="_blank">
+        <img title="" alt="" width="150" height="150" src="Images/DEMOSLOTBOS228.gif" /></a>
+
+    <div style="position: fixed; bottom: 0; right: 0">
+        <!-- This code must be installed within the body tags -->
+        <script type="text/javascript">
+            var lhnAccountN = "34870-1";
+            var lhnButtonN = 9764;
+            var lhnChatPosition = 'default';
+            var lhnInviteEnabled = 0;
+            var lhnWindowN = 58389;
+            var lhnDepartmentN = 51302;
+        </script>
+        <script src="//www.livehelpnow.net/lhn/widgets/chatbutton/lhnchatbutton-current.min.js" type="text/javascript" id="lhnscript"></script>    
+    </div>
+
+    <script type="text/javascript" src="Images/theme/v1/js/wowslider.js"></script>
+    <script type="text/javascript" src="Images/theme/v1/js/script.js"></script>
+
+    <script src="js/vue3.3.7.global.js" type="text/javascript"></script>
+    <script type="text/javascript">const mountEl = document.querySelector("#main-menu");</script>
+    <script src="js/header.menu.vue.js?v=1762746734915" type="text/javascript"></script>
+    <script type="text/javascript">menu.mount("#main-menu");</script>
+
+</body>
+</html>

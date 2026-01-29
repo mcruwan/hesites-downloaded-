@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	 <title>Creare pagină web, site-uri web, dezvoltare aplicaţii calculator, fotografie, ture virtuale- BTZ webdesign</title>
+		<base href='https://btz.ro/'>
+		<meta property='og:image' content='https://btz.ro/img/fbpic.jpg' />
+		<link rel='image_src' href='https://btz.ro/img/fbpic.jpg' />
+		<meta name='keywords' content='pagina web, creare, creare siteuri, creare site-uri web, dezvoltare, creare pagini web, programe, optimizare, seo, search engine optimizer, online marketing'>
+		<meta name='description' content='BTZ web se ocupa cu creare paginilor web de 10 ani. In portofoliul nostru gasiti toata gama site-urilor de la site-uri minimale pana la site-uri complexe.'>
+		<meta name="google-site-verification" content="IAugpdxduuLnb0rp7t8b3NOvebt13EWnyQU8Jy460G4" />
+		<meta name='robots' content='index, follow'>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="css/main.css?v=20181102"> 
+		<script Type='text/javascript' src='js/jquery-1.8.2.js'></script>
+		<script Type='text/javascript' src='js/functions.js?v=52199977'></script>
+		<link rel='shortcut icon' href='favicon.ico'>
+		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<script type='text/javascript' src='js/bxslide/plugins/jquery.easing.1.3.js'></script>
+		<script type='text/javascript' src='js/bxslide/jquery.bxslider.min.js'></script>
+		<link rel='stylesheet' type='text/css' href='js/bxslide/jquery.bxslider.css'>
+
+ 
+		
+<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-RRBGWKXSV7"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-RRBGWKXSV7'); </script>
+	
+		
+	</head>
+	<body style='background-image: url(content/images/btz-creare-pagini-web-588045.jpg); '>
+	<H1>creare pagina web, creare site-uri web, creare siteuri web, pagini web, site web, optimizare motori de cautare, seo, web marketing, banner</H1>
+	<H2>creare pagina web</H2>
+ 
+  <div id='fb-root'></div>
+			<script>(function(d, s, id) {
+					var js, fjs = d.getElementsByTagName(s)[0];
+					if (d.getElementById(id)) return;
+					js = d.createElement(s); js.id = id;
+					js.src = '//connect.facebook.net/en_GB/all.js#xfbml=1';
+					fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+			
+  
+			
+		<div class='top' id='menutopmain' >
+			 <div class='top-content'>
+					<div class='logo'><a href='https://btz.ro/ro'><img src='img/btz-webdesign-logo.png'></a></div>
+					<div class='menu'>
+	    	<a href='javascript:;'  onclick=" $('html, body').animate({scrollTop: $('#menutoprefe').offset().top}, 750, 'swing');" class='mnu' style=' padding: 0 18px'>Referinţe</a>
+						<a href='javascript:;'  onclick=" $('html, body').animate({scrollTop: $('#menutopcont').offset().top}, 750, 'swing');" class='mnu' style=' padding: 0 22px'>Contact</a>
+						<a href='javascript:;'  onclick=" $('html, body').animate({scrollTop: $('#menutopserv').offset().top}, 750, 'swing');" class='mnu' style=' padding: 0 24px'>Servicii</a>
+						<a href='javascript:;'  onclick=" $('html, body').animate({scrollTop: $('#menutopmain').offset().top}, 750, 'swing');" class='mnu-a' id='homemenu-a' style=' padding: 0 37px'>&nbsp;&nbsp;&nbsp;</a>
+						<div class="spacer" style="height : 1px">&nbsp;</div>
+							</div>
+				</div> <!-- top-content -->
+			</div> <!-- top -->
+						
+				
+ 
+   <div id='home_content'>
+			 			 <div class="spacer" style="height : 17px">&nbsp;</div>
+			  <div id='slogan'>BTZ web - professional solutions - creare site-uri web</div>
+					<div id='lg1'>
+						<img class='lg-flag' src='img/hu.png'>
+						<a href='https://btz.ro/hu' class='lg-link'>Magyar verzió</a>
+					</div>
+
+					<div class="spacer" style="height : 110px">&nbsp;</div>
+			  <div id='slogan-main'>Creare site-uri web</div><div class="spacer" style="height : 24px">&nbsp;</div>
+			  <div id='slogan-link'><a class='sw' href='javascript:;' onclick=" $('html, body').animate({scrollTop: $('#menutoprefe').offset().top}, 750, 'swing');">vedeţi referinţele noastre</a></div><div class="spacer" style="height : 110px">&nbsp;</div>
+					
+					<a id='cere_oferta' class='btnmain' href='javascript:;' onclick="ShowC('2'); $('html, body').animate({scrollTop: $('#menutopcont').offset().top}, 750, 'swing');">Cere ofertă</a>
+					<a id='scrieti' class='btnmain' href='javascript:;' onclick="ShowC('1'); $('html, body').animate({scrollTop: $('#menutopcont').offset().top}, 750, 'swing');">Scrieţi-ne</a>
+					<div class="spacer" style="height : 70px">&nbsp;</div>
+					
+					<Div id='home-content-neces'>
+							<div style='width: 97px; height: 20px; overflow: hidden; float: right; text-align: right; '><div class='fb-like' data-href='https://btz.ro/ro' data-layout='standard' data-width='97' data-action='like' data-show-faces='false' data-share='true'></div></div>
+							<div class="spacer" style="height : 20px">&nbsp;</div>
+							<div id='home-contact-slogan'>BTZ web - professional solutions, creare pagini web, hosting, grafică</div>
+							<div class="spacer" style="height : 20px">&nbsp;</div>
+							<div id='home-contact-contact'>Contact</div><div class="spacer" style="height : 5px">&nbsp;</div>
+							<div id='home-contact-info'>contact<span><span></span>@<span></span></span>btz.<span>ro</span></div>
+							<div id='home-legal'>
+							 <a href='https://btz.ro/creare-pagina-site-web/ro/Politica-de-confidentialitate'>Politica de confidentialitate</a>
+								<br>
+								<a href='https://btz.ro/creare-pagina-site-web/ro/Politica-cookie'>Politica cookie</a>
+							</div>	
+					</Div>		
+			</div> <!-- home-content -->
+			
+			
+		<div class='top' id='menutopserv' >
+			 <div class='top-content'>
+					<div class='logo'><a href='https://btz.ro/ro'><img src='img/btz-webdesign-logo.png'></a></div>
+					<div class='menu'>
+	    	<a href='javascript:;'  onclick=" $('html, body').animate({scrollTop: $('#menutoprefe').offset().top}, 750, 'swing');" class='mnu' style=' padding: 0 18px'>Referinţe</a>
+						<a href='javascript:;'  onclick=" $('html, body').animate({scrollTop: $('#menutopcont').offset().top}, 750, 'swing');" class='mnu' style=' padding: 0 22px'>Contact</a>
+						<a href='javascript:;'  onclick=" $('html, body').animate({scrollTop: $('#menutopserv').offset().top}, 750, 'swing');" class='mnu-a' style=' padding: 0 24px'>Servicii</a>
+						<a href='javascript:;'  onclick=" $('html, body').animate({scrollTop: $('#menutopmain').offset().top}, 750, 'swing');" class='mnu' id='homemenu' style=' padding: 0 37px'>&nbsp;&nbsp;&nbsp;</a>
+						<div class="spacer" style="height : 1px">&nbsp;</div>
+							</div>
+				</div> <!-- top-content -->
+			</div> <!-- top -->
+						
+			
+			
+   <div id='servicii_content'>
+			 			 <div class="spacer" style="height : 17px">&nbsp;</div>
+					<div id='servicii_content_tartalom'>	
+ 	    
+									<div class='servicii' style='background-color: #66c538'>
+									 <div class='servicii-ikon' style='background-image: url(content/images/ikon1.png);'></div>
+										<div class='servicii-title'><div>Creare pagină web</div></div>
+										<div class='servicii-head'><div>Prezentaţi activitatea sau produsele firmei dvs. prin metoda cea mai eficientă: pagina web.</div></div>
+										<div class='servicii-ikon2' style='background-image: url(content/images/ikon1.png);'></div>
+									</div>
+									<div style='float: left; width: 70px'>&nbsp;</div>
+
+									<div class='servicii' style='background-color: #00bfc2'>
+									 <div class='servicii-ikon' style='background-image: url(content/images/ikon4.png);'></div>
+										<div class='servicii-title'><div>Aplicaţii calculator</div></div>
+										<div class='servicii-head'><div>Simplificaţi administrarea produselor, serviciilor sau gestiunea cu ajutorul unei aplicaţii online.</div></div>
+										<div class='servicii-ikon2' style='background-image: url(content/images/ikon4.png);'></div>
+									</div>
+									<div style='float: left; width: 70px'>&nbsp;</div>
+
+									<div class='servicii' style='background-color: #03a6df'>
+									 <div class='servicii-ikon' style='background-image: url(content/images/whost.png);'></div>
+										<div class='servicii-title'><div>Web hosting</div></div>
+										<div class='servicii-head'><div>Stocarea datelor pe serverele noastre garantează că nu veţi pierde datele dvs. niciodată.</div></div>
+										<div class='servicii-ikon2' style='background-image: url(content/images/whost.png);'></div>
+									</div>
+									<div class="spacer" style="height : 50px">&nbsp;</div>
+									<div class='servicii' style='background-color: #7b63c0'>
+									 <div class='servicii-ikon' style='background-image: url(content/images/ikon2.png);'></div>
+										<div class='servicii-title'><div>Tur virtual 360°</div></div>
+										<div class='servicii-head'><div>Prezentaţi hotelul sau magazinul dvs. printr-un tur virtual 360°.</div></div>
+										<div class='servicii-ikon2' style='background-image: url(content/images/ikon2.png);'></div>
+									</div>
+									<div style='float: left; width: 70px'>&nbsp;</div>
+
+									<div class='servicii' style='background-color: #ff7d37'>
+									 <div class='servicii-ikon' style='background-image: url(content/images/ikon5.png);'></div>
+										<div class='servicii-title'><div>Fotografie</div></div>
+										<div class='servicii-head'><div>Alegeţi serviciile noastre de fotografie şi creare bannere pentru pagina web.</div></div>
+										<div class='servicii-ikon2' style='background-image: url(content/images/ikon5.png);'></div>
+									</div>
+									<div style='float: left; width: 70px'>&nbsp;</div>
+
+									<div class='servicii' style='background-color: #be7245'>
+									 <div class='servicii-ikon' style='background-image: url(content/images/ikon3.png);'></div>
+										<div class='servicii-title'><div>Cataloage, print design</div></div>
+										<div class='servicii-head'><div>Prezentaţi gama produselor sau serviciilor cu un catalog modern digital (PDF) sau imprimat.</div></div>
+										<div class='servicii-ikon2' style='background-image: url(content/images/ikon3.png);'></div>
+									</div>
+									<div class="spacer" style="height : 50px">&nbsp;</div>
+					</div>	
+			</div> <!-- servicii_content -->
+			
+			
+		<div class='top' id='menutopcont' >
+			 <div class='top-content'>
+					<div class='logo'><a href='https://btz.ro/ro'><img src='img/btz-webdesign-logo.png'></a></div>
+					<div class='menu'>
+	    	<a href='javascript:;'  onclick=" $('html, body').animate({scrollTop: $('#menutoprefe').offset().top}, 750, 'swing');" class='mnu' style=' padding: 0 18px'>Referinţe</a>
+						<a href='javascript:;'  onclick=" $('html, body').animate({scrollTop: $('#menutopcont').offset().top}, 750, 'swing');" class='mnu-a' style=' padding: 0 22px'>Contact</a>
+						<a href='javascript:;'  onclick=" $('html, body').animate({scrollTop: $('#menutopserv').offset().top}, 750, 'swing');" class='mnu' style=' padding: 0 24px'>Servicii</a>
+						<a href='javascript:;'  onclick=" $('html, body').animate({scrollTop: $('#menutopmain').offset().top}, 750, 'swing');" class='mnu' id='homemenu' style=' padding: 0 37px'>&nbsp;&nbsp;&nbsp;</a>
+						<div class="spacer" style="height : 1px">&nbsp;</div>
+							</div>
+				</div> <!-- top-content -->
+			</div> <!-- top -->
+						
+			
+			
+   <div id='contact_content'>
+			 <div class="spacer" style="height : 17px">&nbsp;</div>
+ 			<div id='contact_content_tartalom'>	
+ 	    <Div id='cont_left'>
+       <div class='title-z'>Contact</div>
+       <div class='info-1'>S.C. BTZ WEB PROFESSIONAL S.R.L.</div>
+       <div class='info-1'>J19/276/2017, CUI. 37442125</div>
+       <div class='info-1'>Str. Stadion, Nr. 1</div>
+       <div class='info-1'>Miercurea Ciuc, jud. HR</div>
+       <div class='info-1'>contact<span><span></span>@<span></span></span>btz.<span>ro</span></div>
+							
+      </Div>						
+ 	    <Div id='cont_right'>
+						 <a class='clabel' href='javascript:;' onclick="ShowC('2')" id='cs2'>Cere ofertă</a>
+						 <a class='clabel' href='javascript:;' onclick="ShowC('1')" id='cs1'>Scrieţi-ne</a>
+						
+						 <div class="spacer" style="height : 30px">&nbsp;</div>
+ 
+						
+       <div id='fcont1'><div class="spacer" style="height : 1px">&nbsp;</div>
+							 <div class='form_div'>
+							  <form method='post' action='' id='cfrms1'>
+									 <input type='text' name='subject' value='' id='subject'>
+							 	  
+										
+										 <div class='cf-lbl'>Nume:</div>
+										 <input class='cf-inp kotelezo1' type='text' name='nev'>	
+
+											<div class='cf-lbl'>Adresa de e-mail:</div>
+										 <input class='cf-inp kotelezo1' id='emailscrieti' type='text' name='email'>
+											
+											<div class='cf-lbl'>Număr telefon (optional):</div>
+										 <input class='cf-inp' type='text' name='tel'>
+											
+											<div class='cf-lbl'>Mesaj:</div>
+										 <textarea class='cf-txt kotelezo1' name='msg'></textarea>
+											
+											<div class='cf-lbl'><input type='checkbox' id='accfc1'> <label for='accfc1'>Accept Politica de confidentialitate <a href="creare-pagina-site-web/ro/Politica-de-confidentialitate" target="_blank">(vizualizare politica)</a></label></div>
+											
+											<input type='submit' value='Trimite' class='cf-smb'><img id='cloader' src='img/377.gif'>
+											<input type='hidden' name='lng' value='ro'>
+											<div class="spacer" style="height : 30px">&nbsp;</div>
+										 
+								 </form>
+									
+									<script type='text/javascript'>
+										$('#cfrms1').submit(function(event) {
+											event.preventDefault();
+											if(!document.getElementById('accfc1').checked) { alert('Pentru a trimite formularul trebuie sa acceptati politica de confidentialitate. Pentru mai multe detalii dati click la linkuk vizualizare.'); return false; }
+											var myData = $('#cfrms1').serialize(); 
+											$('#cloader').css('display','block');
+																$.ajax({
+																					type: 'POST', 
+																					url: 'ajax_send_form_scrieti.php',  
+																					data: myData,  
+																					success: function( data )  
+																					{
+																					 if(data=='FAIL' || data=='') {	alert('Eroare: Mesajul dvs. nu poate fi trimis. Va rugam scrieti-ne pe adresa afisata (contact@btz.ro). va multumim.');  }
+																					 if(data=='1')
+                       {
+  																							alert('Formular trimis!');
+																									var fx = document.getElementById('cfrms1');
+																									for(i=1;i<fx.length;i++) {   if(fx.elements[i].type=='text' || fx.elements[i].type=='textarea') fx.elements[i].value=''; }
+																							}		
+																							
+																					 if(data=='noa')
+                       {
+																							  $('.kotelezo1').each( function() { if($(this).val()=='') $(this).css('box-shadow','0px 0px 8px #f34f4f'); });
+  																							alert('Completaţi toate câmpurile obligatorii!');
+																							}				
+																							
+																						if(data=='emh')
+                       {
+																							  $('#emailscrieti').css('box-shadow','0px 0px 8px #f34f4f');
+  																							alert('Adresa de e-mail nu este validă!');
+																							}		
+																							
+																							$('#cloader').css('display','none');
+																							return false;
+																					}
+																});
+																return false;  
+									});
+									</script>
+ 
+									
+							 </div> <!--form div--><div class="spacer" style="height : 1px">&nbsp;</div>
+							</div> <!-- fcont1-->
+
+							<div id='fcont2'><div class="spacer" style="height : 1px">&nbsp;</div>
+							 <div class='form_div'>
+							  <form method='post' action='' id='cfrms2'>
+									 <input type='text' name='subject' value='' id='subject'>
+							 	  
+										
+										 <div class='cf-lbl'>Nume:</div>
+										 <input class='cf-inp kotelezo2' type='text' name='nev'>	
+
+											<div class='cf-lbl'>Adresa de e-mail:</div>
+										 <input class='cf-inp kotelezo2' type='text' id='emailoferta' name='email'>
+											
+											<div class='cf-lbl'>Număr telefon (optional):</div>
+										 <input class='cf-inp' type='text' name='tel'>
+
+                      
+											
+											<div class='cf-lbl'>Detalii proiect:</div>
+										 <textarea class='cf-txt kotelezo2' name='msg'></textarea>
+											
+											<div class='cf-lbl'><input type='checkbox' id='accfc2'> <label for='accfc2'>Accept Politica de confidentialitate <a href="creare-pagina-site-web/ro/Politica-de-confidentialitate" target="_blank">(vizualizare politica)</a></label></div>
+											
+											<input type='submit' value='Trimite' class='cf-smb'><img id='cloader2' src='img/377.gif'>
+											<input type='hidden' name='lng' value='ro'>
+											<div class="spacer" style="height : 30px">&nbsp;</div>
+									 
+								 </form>
+									
+									<script type='text/javascript'>
+										$('#cfrms2').submit(function(event) {
+											event.preventDefault();
+											if(!document.getElementById('accfc2').checked) { alert('Pentru a trimite formularul trebuie sa acceptati politica de confidentialitate. Pentru mai multe detalii dati click la linkuk vizualizare.'); return false; }
+											var myData = $('#cfrms2').serialize(); 
+											$('#cloader2').css('display','block');
+																$.ajax({
+																					type: 'POST', 
+																					url: 'ajax_send_form_oferta.php',  
+																					data: myData,  
+																					success: function( data )  
+																					{
+																					 if(data=='FAIL') {	alert('Eroare: Mesajul dvs. nu poate fi trimis. Va rugam scrieti-ne pe adresa afisata (contact@btz.ro). va multumim.'); return false; }
+																				  if(data=='1')
+                       {
+  																							alert('Formular trimis!');
+																									var fx = document.getElementById('cfrms2');
+																									for(i=1;i<fx.length;i++) {   if(fx.elements[i].type=='text' || fx.elements[i].type=='textarea') fx.elements[i].value=''; }
+																							}
+																					 if(data=='noa')
+                       {
+																							  $('.kotelezo2').each( function() { if($(this).val()=='') $(this).css('box-shadow','0px 0px 8px #f34f4f'); });
+  																							alert('Completaţi toate câmpurile obligatorii!');
+																							}			
+																						if(data=='emh')
+                       {
+																							  $('#emailoferta').css('box-shadow','0px 0px 8px #f34f4f');
+  																							alert('Adresa de e-mail nu este validă!');
+																							}
+																							$('#cloader2').css('display','none');
+																							return false;
+																					}
+																});
+																return false;  
+									});
+									</script>
+							 </div> <!--form div--><div class="spacer" style="height : 1px">&nbsp;</div>
+							</div> <!-- fcont2-->
+      </Div>						
+			  	<div class="spacer" style="height : 1px">&nbsp;</div>
+						
+				</div>	
+			</div> <!-- contact_content -->
+			
+			
+		<div class='top' id='menutoprefe' >
+			 <div class='top-content'>
+					<div class='logo'><a href='https://btz.ro/ro'><img src='img/btz-webdesign-logo.png'></a></div>
+					<div class='menu'>
+	    	<a href='javascript:;'  onclick=" $('html, body').animate({scrollTop: $('#menutoprefe').offset().top}, 750, 'swing');" class='mnu-a' style=' padding: 0 18px'>Referinţe</a>
+						<a href='javascript:;'  onclick=" $('html, body').animate({scrollTop: $('#menutopcont').offset().top}, 750, 'swing');" class='mnu' style=' padding: 0 22px'>Contact</a>
+						<a href='javascript:;'  onclick=" $('html, body').animate({scrollTop: $('#menutopserv').offset().top}, 750, 'swing');" class='mnu' style=' padding: 0 24px'>Servicii</a>
+						<a href='javascript:;'  onclick=" $('html, body').animate({scrollTop: $('#menutopmain').offset().top}, 750, 'swing');" class='mnu' id='homemenu' style=' padding: 0 37px'>&nbsp;&nbsp;&nbsp;</a>
+						<div class="spacer" style="height : 1px">&nbsp;</div>
+							</div>
+				</div> <!-- top-content -->
+			</div> <!-- top -->
+						
+			
+						
+   <div id='refer_content'>
+  	 <div class="spacer" style="height : 17px">&nbsp;</div>
+ 			<div id='refer_content_tartalom'>	
+				 
+     
+					<div class='pagetit'>Din lucrările noastre</div>
+					<a id='refe-prev' href='javascript:;'></a><div style='float: left; width: 850px; margin-left: 40px; margin-right: 40px; '><ul id='bx_slider'><li><div class='refer-site'><a href='http://sapientia.ro' target='_blank'>www.sapientia.ro</a></div><div class='refer-descr'>Universitatea Sapientia</div><a href='http://sapientia.ro' target='_blank'><img src='content/images/btz-sapientia-egyetem.png' width='850' height='260'></a><div class="spacer" style="height : 45px">&nbsp;</div></li><li><div class='refer-site'><a href='http://homeparadise.ro' target='_blank'>www.homeparadise.ro</a></div><div class='refer-descr'>Home Paradise
+Piese de mobilier excepționale</div><a href='http://homeparadise.ro' target='_blank'><img src='content/images/btz-home-paradise-mobila.png' width='850' height='260'></a><div class="spacer" style="height : 45px">&nbsp;</div></li><li><div class='refer-site'><a href='http://hunguest-fenyo.ro/tura_spa/' target='_blank'>hunguest-fenyo.ro</a></div><div class='refer-descr'>Hotel Hunguest Fenyő SPA</div><a href='http://hunguest-fenyo.ro/tura_spa/' target='_blank'><img src='content/images/btz-hunguest-fenyo-360-virtualis-tura.png' width='850' height='260'></a><div class="spacer" style="height : 45px">&nbsp;</div></li><li><div class='refer-site'><a href='http://penna.ro/' target='_blank'>www.penna.ro</a></div><div class='refer-descr'>Penna - stilouri din lemn</div><a href='http://penna.ro/' target='_blank'><img src='content/images/btz-penna-manufaktura.png' width='850' height='260'></a><div class="spacer" style="height : 45px">&nbsp;</div></li><li><div class='refer-site'><a href='http://mokkacake.ro' target='_blank'>www.mokkacake.ro</a></div><div class='refer-descr'>Cofetaria Mokka Miercurea Ciuc</div><a href='http://mokkacake.ro' target='_blank'><img src='content/images/btz-mokka-cukraszda.png' width='850' height='260'></a><div class="spacer" style="height : 45px">&nbsp;</div></li><li><div class='refer-site'><a href='http://modernline.ro' target='_blank'>www.modernline.ro</a></div><div class='refer-descr'>Mânere și capace din plastic destinate îmbuteliatorilor de băuturi răcoritoare și apei precum și industriei berii</div><a href='http://modernline.ro' target='_blank'><img src='content/images/btz-modernlinestone.png' width='850' height='260'></a><div class="spacer" style="height : 45px">&nbsp;</div></li><li><div class='refer-site'><a href='http://xo-interiors.com/' target='_blank'>www.xo-interiors.com</a></div><div class='refer-descr'>International furniture wholesale</div><a href='http://xo-interiors.com/' target='_blank'><img src='content/images/btz-xo-interiors-619703.png' width='850' height='260'></a><div class="spacer" style="height : 45px">&nbsp;</div></li>
+					</ul></div><a id='refe-next' href='javascript:;'></a>
+					
+					<div class="spacer" style="height : 60px">&nbsp;</div>
+					<div class='pagetit' style='margin-bottom: 4px'>Lucrări de referinţe</div>
+					<div class='pagetit2'>Site-uri web, clienţi</div>
+					<div class="spacer" style="height : 20px">&nbsp;</div>
+					
+					
+					<div style='margin-left: 20px'>
+					
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(210, 218, 38, 0.7);' href='http://hektar.ro/' target='_blank'></a>
+							 <a class='referen-image' href='http://hektar.ro/' target='_blank'><img src='content/images/hektar-btz-nonc.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://hektar.ro/'>www.hektar.ro</a>
+							 <div class='referen-descr'>Hektar<br />
+Semințe profesionale</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(114, 174, 81, 0.7);' href='http://partium.ro/' target='_blank'></a>
+							 <a class='referen-image' href='http://partium.ro/' target='_blank'><img src='content/images/partium-btz-nonc.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://partium.ro/'>www.partium.ro</a>
+							 <div class='referen-descr'>Partium<br />
+Universitate privată acreditată în limba maghiară din România</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(8, 212, 143, 0.7);' href='http://sapientia.ro' target='_blank'></a>
+							 <a class='referen-image' href='http://sapientia.ro' target='_blank'><img src='content/images/sapientia-btz.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://sapientia.ro'>www.sapientia.ro</a>
+							 <div class='referen-descr'>Universitatea Sapientia</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(65,80,103, 0.7);' href='http://homeparadise.ro' target='_blank'></a>
+							 <a class='referen-image' href='http://homeparadise.ro' target='_blank'><img src='content/images/home-paradise-mobila-romania.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://homeparadise.ro'>www.homeparadise.ro</a>
+							 <div class='referen-descr'>Home Paradise<br />
+Piese de mobilier excepționale</div>
+							</div>
+						 <div class="spacer" style="height : 50px">&nbsp;</div>
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(220,212,16, 0.7);' href='http://hunguest-fenyo.ro/tura_spa/' target='_blank'></a>
+							 <a class='referen-image' href='http://hunguest-fenyo.ro/tura_spa/' target='_blank'><img src='content/images/btz-virtualis-tura-3D-Hunguest-Fenyo-159814.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://hunguest-fenyo.ro/tura_spa/'>hunguest-fenyo.ro</a>
+							 <div class='referen-descr'>Hotel Hunguest Fenyő SPA</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(210, 131, 10, 0.7);' href='http://penna.ro/' target='_blank'></a>
+							 <a class='referen-image' href='http://penna.ro/' target='_blank'><img src='content/images/btz-penna-manufaktura-Erdely.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://penna.ro/'>www.penna.ro</a>
+							 <div class='referen-descr'>Penna - stilouri din lemn</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(44,162,75, 0.7);' href='http://icdcrm-repeat.ro/' target='_blank'></a>
+							 <a class='referen-image' href='http://icdcrm-repeat.ro/' target='_blank'><img src='content/images/icdcrm-repeat-btz-webdesign.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://icdcrm-repeat.ro/'>www.icdcrm-repeat.ro</a>
+							 <div class='referen-descr'>ICDCRM - RePeat</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(241,229,214, 0.7);' href='http://www.impralemn.ro/' target='_blank'></a>
+							 <a class='referen-image' href='http://www.impralemn.ro/' target='_blank'><img src='content/images/impralemn-service-btz-webdesign.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://www.impralemn.ro/'>www.impralemn.ro</a>
+							 <div class='referen-descr'>Impralemn Service</div>
+							</div>
+						 <div class="spacer" style="height : 50px">&nbsp;</div>
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(98,36,121, 0.7);' href='http://acta.sapientia.ro' target='_blank'></a>
+							 <a class='referen-image' href='http://acta.sapientia.ro' target='_blank'><img src='content/images/acta-sapientia-btz-webdesign-ro.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://acta.sapientia.ro'>acta.sapientia.ro</a>
+							 <div class='referen-descr'>Acta Universitatis Sapientiae<br />
+scientific research on a high professional level</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(191,169,158, 0.7);' href='http://scientiakiado.ro' target='_blank'></a>
+							 <a class='referen-image' href='http://scientiakiado.ro' target='_blank'><img src='content/images/scientia-kiado-sapientia-btz-webdesign-ro-2.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://scientiakiado.ro'>scientiakiado.ro</a>
+							 <div class='referen-descr'>Editura Scientia este editura Universității „Sapientia” din Cluj-Napoca</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(201,82,108, 0.7);' href='http://tucan.ro' target='_blank'></a>
+							 <a class='referen-image' href='http://tucan.ro' target='_blank'><img src='content/images/tucan---slipstop---pantofi-antialunecare---csuszasgatlo-cipok.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://tucan.ro'>www.tucan.ro</a>
+							 <div class='referen-descr'>Pantofi antialunecare SLIPSTOP, protecție confortabilă și cu stil.</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(101,129,44, 0.7);' href='http://www.tulipartdesign.ro' target='_blank'></a>
+							 <a class='referen-image' href='http://www.tulipartdesign.ro' target='_blank'><img src='content/images/tulipart-btz-webdesign2.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://www.tulipartdesign.ro'>www.tulipartdesign.ro</a>
+							 <div class='referen-descr'>Tulipart Design<br />
+Genti din piele și materiale textile impermeabile</div>
+							</div>
+						 <div class="spacer" style="height : 50px">&nbsp;</div>
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(171,153,94, 0.7);' href='http://www.hunguest-fenyo.ro' target='_blank'></a>
+							 <a class='referen-image' href='http://www.hunguest-fenyo.ro' target='_blank'><img src='content/images/hunguest-hotel-fenyo-btz.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://www.hunguest-fenyo.ro'>www.hunguest-fenyo.ro</a>
+							 <div class='referen-descr'>Hotelul Hunguest Fenyő**** Miercurea Ciuc</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(150,153,82, 0.7);' href='http://www.piposzbirtok.ro' target='_blank'></a>
+							 <a class='referen-image' href='http://www.piposzbirtok.ro' target='_blank'><img src='content/images/piposz-birtok-tanya-btz.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://www.piposzbirtok.ro'>www.piposzbirtok.ro</a>
+							 <div class='referen-descr'>Proprietatea Piposz, Ardeal, Făgețel</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(75,75,75, 0.7);' href='http://www.purestsupply.ro' target='_blank'></a>
+							 <a class='referen-image' href='http://www.purestsupply.ro' target='_blank'><img src='content/images/purest-supply-suplimente-alimentare-btz.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://www.purestsupply.ro'>www.purestsupply.ro</a>
+							 <div class='referen-descr'>Purest Supply suplimente alimentare</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(240,75,83, 0.7);' href='http://mokkacake.ro' target='_blank'></a>
+							 <a class='referen-image' href='http://mokkacake.ro' target='_blank'><img src='content/images/mokka-cukraszda-csikszereda-cofetarie.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://mokkacake.ro'>www.mokkacake.ro</a>
+							 <div class='referen-descr'>Cofetaria Mokka Miercurea Ciuc</div>
+							</div>
+						 <div class="spacer" style="height : 50px">&nbsp;</div>
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(12,178,159, 0.7);' href='http://modernline.ro' target='_blank'></a>
+							 <a class='referen-image' href='http://modernline.ro' target='_blank'><img src='content/images/modernline-csikszereda.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://modernline.ro'>www.modernline.ro</a>
+							 <div class='referen-descr'>Mânere și capace din plastic destinate îmbuteliatorilor de băuturi răcoritoare și apei precum și industriei berii</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(58,180,74, 0.7);' href='http://www.statiuneaborsec.ro' target='_blank'></a>
+							 <a class='referen-image' href='http://www.statiuneaborsec.ro' target='_blank'><img src='content/images/Borszek-Borsec.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://www.statiuneaborsec.ro'>www.statiuneaborsec.ro</a>
+							 <div class='referen-descr'>Stațiunea Borsec</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(149, 167, 141, 0.7);' href='http://xo-interiors.com/' target='_blank'></a>
+							 <a class='referen-image' href='http://xo-interiors.com/' target='_blank'><img src='content/images/xo-interiors-btz.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://xo-interiors.com/'>www.xo-interiors.com</a>
+							 <div class='referen-descr'>International furniture wholesale</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(162,44,51, 0.7);' href='http://www.gosserpub.ro' target='_blank'></a>
+							 <a class='referen-image' href='http://www.gosserpub.ro' target='_blank'><img src='content/images/gosser-btz-177841.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://www.gosserpub.ro'>www.gosserpub.ro</a>
+							 <div class='referen-descr'>Gösserpub - Pub and pizza Miercurea Ciuc</div>
+							</div>
+						 <div class="spacer" style="height : 50px">&nbsp;</div>
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(82,141,34, 0.7);' href='http://www.computertrade.ro' target='_blank'></a>
+							 <a class='referen-image' href='http://www.computertrade.ro' target='_blank'><img src='content/images/computertrade-csikszereda.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://www.computertrade.ro'>www.computertrade.ro</a>
+							 <div class='referen-descr'>Computer Trade<br />
+service, magazin PC</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(173,153,121, 0.7);' href='http://www.textilholding.ro/' target='_blank'></a>
+							 <a class='referen-image' href='http://www.textilholding.ro/' target='_blank'><img src='content/images/textilholding-btz-web.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://www.textilholding.ro/'>www.textilholding.ro</a>
+							 <div class='referen-descr'>Textilholding - Hăinuţe pentru copii și huse de canapele</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(240,129,0, 0.7);' href='http://www.travel-to-transylvania.ro' target='_blank'></a>
+							 <a class='referen-image' href='http://www.travel-to-transylvania.ro' target='_blank'><img src='content/images/travel-to-transylvania-terepjaros-turak-Csikszereda-kornyeken.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://www.travel-to-transylvania.ro'>www.travel-to-transylvania.ro</a>
+							 <div class='referen-descr'>Travel to Transylvania - ture off-road, observarea ursului, cazare Ardeal</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(239, 58, 67, 0.7);' href='http://octogonchoco.ro/' target='_blank'></a>
+							 <a class='referen-image' href='http://octogonchoco.ro/' target='_blank'><img src='content/images/octogon-choco---btz-709089.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://octogonchoco.ro/'>www.octogonchoco.ro</a>
+							 <div class='referen-descr'>Octogon Choco - importator si distribuitor Bonbonetti</div>
+							</div>
+						 <div class="spacer" style="height : 50px">&nbsp;</div>
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(62, 174, 77, 0.7);' href='http://aliasforest.ro' target='_blank'></a>
+							 <a class='referen-image' href='http://aliasforest.ro' target='_blank'><img src='content/images/iris-pine-farm.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://aliasforest.ro'>www.aliasforest.ro</a>
+							 <div class='referen-descr'>Iris Alias Forest<br />
+brazi din semințe de calitate</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(51,170,238, 0.7);' href='http://silloreka.ro/' target='_blank'></a>
+							 <a class='referen-image' href='http://silloreka.ro/' target='_blank'><img src='content/images/sillo-reka-btz-web-660122.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://silloreka.ro/'>www.silloreka.ro</a>
+							 <div class='referen-descr'>Dr. Réka Silló<br />
+Cabinet stomatologic</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(224,35,48, 0.7);' href='http://www.erotic-center.ro' target='_blank'></a>
+							 <a class='referen-image' href='http://www.erotic-center.ro' target='_blank'><img src='content/images/erotic-center-m-ciuc.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://www.erotic-center.ro'>www.erotic-center.ro</a>
+							 <div class='referen-descr'>Produse erotice Miercurea Ciuc</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(57,113,64, 0.7);' href='http://www.kassay.ro' target='_blank'></a>
+							 <a class='referen-image' href='http://www.kassay.ro' target='_blank'><img src='content/images/kassay.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://www.kassay.ro'>www.kassay.ro</a>
+							 <div class='referen-descr'>Hanul Kassay<br />
+Frumoasa</div>
+							</div>
+						 <div class="spacer" style="height : 50px">&nbsp;</div>
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(111, 91, 71, 0.7);' href='http://www.tojkoslabradors.ro/' target='_blank'></a>
+							 <a class='referen-image' href='http://www.tojkoslabradors.ro/' target='_blank'><img src='content/images/btz-tojkos-labradors.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://www.tojkoslabradors.ro/'>www.tojkoslabradors.ro</a>
+							 <div class='referen-descr'>Tojkos Labradors</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(199, 193, 4, 0.7);' href='http://hkleader.ro/' target='_blank'></a>
+							 <a class='referen-image' href='http://hkleader.ro/' target='_blank'><img src='content/images/GAL-Homorod-Kukullo-LEADER-Egyesulet.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://hkleader.ro/'>www.hkleader.ro</a>
+							 <div class='referen-descr'>Asociatia GAL Homoród-Küküllő LEADER</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(229, 166, 86, 0.7);' href='http://www.pergamentoffice.ro/' target='_blank'></a>
+							 <a class='referen-image' href='http://www.pergamentoffice.ro/' target='_blank'><img src='content/images/btz-pergament-office.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://www.pergamentoffice.ro/'>www.pergamentoffice.ro</a>
+							 <div class='referen-descr'>Pergament Office - Solutii de birotica si papetarie pentru birou, scoala si casa</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(3, 111, 175, 0.7);' href='http://www.autosport-service.ro/' target='_blank'></a>
+							 <a class='referen-image' href='http://www.autosport-service.ro/' target='_blank'><img src='content/images/btz-autosport.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://www.autosport-service.ro/'>www.autosport-service.ro</a>
+							 <div class='referen-descr'>Autosport - Miercurea Ciuc<br />
+Magazin piese auto si service</div>
+							</div>
+						 <div class="spacer" style="height : 50px">&nbsp;</div>
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(140,140,140, 0.7);' href='http://www.fordharghita.ro/' target='_blank'></a>
+							 <a class='referen-image' href='http://www.fordharghita.ro/' target='_blank'><img src='content/images/btz-ford.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://www.fordharghita.ro/'>www.fordharghita.ro</a>
+							 <div class='referen-descr'>Magyari Engineering SRL<br />
+Ford Harghita</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(253, 146, 0, 0.7);' href='http://www.proktohelp.ro' target='_blank'></a>
+							 <a class='referen-image' href='http://www.proktohelp.ro' target='_blank'><img src='content/images/prokto.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://www.proktohelp.ro'>www.proktohelp.ro</a>
+							 <div class='referen-descr'>Dr. Lőkös Barna Csaba<br />
+Tratamentul bolii hemoroidale</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(203,117,76, 0.7);' href='http://www.lokosibolya.ro' target='_blank'></a>
+							 <a class='referen-image' href='http://www.lokosibolya.ro' target='_blank'><img src='content/images/btz-lokosibolya.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://www.lokosibolya.ro'>www.lokosibolya.ro</a>
+							 <div class='referen-descr'>Dr. Lőkös Ibolya<br />
+Cabinet stomatologic</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(92,159,234, 0.7);' href='http://kassay.ro/tura/' target='_blank'></a>
+							 <a class='referen-image' href='http://kassay.ro/tura/' target='_blank'><img src='content/images/tura.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://kassay.ro/tura/'>www.kassay.ro/tura</a>
+							 <div class='referen-descr'>Tur virtual<br />
+Hanul Kassay </div>
+							</div>
+						 <div class="spacer" style="height : 50px">&nbsp;</div>
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(86,68,47, 0.7);' href='http://monikapilates.ro/' target='_blank'></a>
+							 <a class='referen-image' href='http://monikapilates.ro/' target='_blank'><img src='content/images/Monikapilates.png' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://monikapilates.ro/'>www.monikapilates.ro</a>
+							 <div class='referen-descr'>Tompos Mónika<br />
+Cursuri Pilates</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(106,55,37, 0.7);' href='http://semineu-ceramic.ro/' target='_blank'></a>
+							 <a class='referen-image' href='http://semineu-ceramic.ro/' target='_blank'><img src='content/images/semineu.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://semineu-ceramic.ro/'>www.semineu-ceramic.ro</a>
+							 <div class='referen-descr'>Semineu ceramic<br />
+sobe teracote, seminee</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(72,94,136, 0.7);' href='http://szekelykaroly.ro/' target='_blank'></a>
+							 <a class='referen-image' href='http://szekelykaroly.ro/' target='_blank'><img src='content/images/szk-489222.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://szekelykaroly.ro/'>www.szekelykaroly.ro</a>
+							 <div class='referen-descr'>Szekely Karoly<br />
+Liceul Technologic M-Ciuc</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(65, 86, 132, 0.7);' href='http://www.activcar.ro' target='_blank'></a>
+							 <a class='referen-image' href='http://www.activcar.ro' target='_blank'><img src='content/images/btz-rent-a-car-activcar.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://www.activcar.ro'>www.activcar.ro</a>
+							 <div class='referen-descr'>Rent a car<br />
+Miercurea Ciuc</div>
+							</div>
+						 <div class="spacer" style="height : 50px">&nbsp;</div>
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(132, 195, 38, 0.7);' href='http://www.authelp.ro' target='_blank'></a>
+							 <a class='referen-image' href='http://www.authelp.ro' target='_blank'><img src='content/images/authelp.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://www.authelp.ro'>www.authelp.ro</a>
+							 <div class='referen-descr'>Asociaţia AutHelp<br />
+Miercurea Ciuc</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(9,51,17, 0.7);' href='http://www.ludas.ro' target='_blank'></a>
+							 <a class='referen-image' href='http://www.ludas.ro' target='_blank'><img src='content/images/ludas.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://www.ludas.ro'>www.ludas.ro</a>
+							 <div class='referen-descr'>Ludas.ro<br />
+Pal,MDF,HDF,Canturi</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(187,175,146, 0.7);' href='http://peterpater.com/' target='_blank'></a>
+							 <a class='referen-image' href='http://peterpater.com/' target='_blank'><img src='content/images/pp.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://peterpater.com/'>www.peterpater.com</a>
+							 <div class='referen-descr'>Péter Páter<br />
+Sebestyén Péter Atya</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(228,132,79, 0.7);' href='http://prestareacoop-mciuc.ro/' target='_blank'></a>
+							 <a class='referen-image' href='http://prestareacoop-mciuc.ro/' target='_blank'><img src='content/images/prestarea.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://prestareacoop-mciuc.ro/'>www.prestareacoop-mciuc.ro</a>
+							 <div class='referen-descr'>Societatea Cooperativa<br />
+Prestarea</div>
+							</div>
+						 <div class="spacer" style="height : 50px">&nbsp;</div>
+							<div class='referen'>
+							 <a class='referen-hover' style='background-color: rgba(51,120,68, 0.7);' href='http://tralehar-agro.ro/' target='_blank'></a>
+							 <a class='referen-image' href='http://tralehar-agro.ro/' target='_blank'><img src='content/images/traleharagro.jpg' width='192' height='250'></a>
+								<div class="spacer" style="height : 9px">&nbsp;</div>
+								<a class='referen-link' target='_blank' href='http://tralehar-agro.ro/'>www.tralehar-agro.ro</a>
+							 <div class='referen-descr'>Tralehar Agro<br />
+Combine, tractoare</div>
+							</div>
+						 <div style='float: left; width: 50px'>&nbsp;</div>
+<div class="spacer" style="height : 1px">&nbsp;</div><div class="spacer" style="height : 20px">&nbsp;</div>
+					</div>
+ 			
+				
+				
+				</div>		  <!-- refer content tartalom -->
+			</div> <!-- refer_content -->
+							<style type='text/css'>
+
+							#gdpr5_bar { background-color: #3c7d1e; position: fixed;  padding: 20px 10px 10px 10px;  box-shadow: 1px 0 4px 1px rgba(0,0,0,0.4); line-height: 32px;  left:0; right: 0; bottom:0; z-index: 16000005; text-align: center; }
+							#gdpr5_bar div { color: #f0f0f0; font-size: 16px; line-height: 22px;  }
+							#gdpr5_bar a { color: #ffffff; font-size: 16px; line-height: 22px; display: inline-block; margin-top: 11px;  }
+							#gdpr5_bar a:hover { color: #c0c0c0; font-size: 16px; line-height: 22px;  }
+							#gdpr5_bar button { display: inline-block; margin-top: 11px; padding: 8px 30px 6px 30px; font-size: 16px;  border: 1px solid #000; background-color: #e0e0e0; cursor : pointer;  }
+							#gdpr5_bar button:hover {  background-color: #c5c4c4;   }
+								
+
+							</style>
+
+
+							<script type='text/javascript'>
+
+							$(document).ready( function() 
+
+							{
+								
+								$('body').append('<div id=\'gdpr5_bar\'><div>Acest site foloseste cookie-uri si prelucreaza datele cu caracter personal.<br> Continuarea navigarii implica acceptarea prelucrarii datelor dvs. si acceptarea cookie-urilor.</div><button type=\'button\'>ACCEPT</button><br><a href=\'https://btz.ro/creare-pagina-site-web/ro/Politica-de-confidentialitate\'>Politica de confidentialitate</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=\'https://btz.ro/creare-pagina-site-web/ro/Politica-cookie\'>Politica cookie</a></div>');
+								
+								$('#gdpr5_bar button').on('click' , function() { 
+								
+									$.ajax({url:'gdpr5_acc.php?accept=1', success: function() { $('#gdpr5_bar').slideUp();  } });
+								
+								});
+								
+							}
+							);
+
+							</script>
+							
+		<DIV id='bottom'>
+		 <Div id='bottom-c'>
+		  <a href='https://btz.ro/creare-pagina-site-web/ro/Politica-de-confidentialitate'>Politica de confidentialitate</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='https://btz.ro/creare-pagina-site-web/ro/Politica-cookie'>Politica cookie</a>
+		 </Div>
+		</DIV>
+		
+		</body>
+	
+</html>

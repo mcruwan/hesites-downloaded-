@@ -1,0 +1,775 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <title>Loading...</title>
+  <link href="/luca/css/hou-me-op-de-hoogte-|-nl" rel="stylesheet">
+  <link href="/luca/favicon/hou-me-op-de-hoogte-|-nl" rel="icon" type="image/x-icon" />
+    <script>
+      window.env = 'production';
+      window.alias = 'luca';
+      window.form = 'hou-me-op-de-hoogte-|-nl';
+      window.landingId = '7dc1c9a4-4da2-43ce-aaf0-800b945a4561';
+      window.formConfiguration = 'eyJTZWxlY3RlZFN0dWR5UHJvZ3JhbUlkIjpudWxsfQ';
+      window.prospectId = '';
+      window.culture = 'nl-NL';
+    </script>
+
+
+
+</head>
+
+<body>
+  <div>
+    <div class="container bg-white border rounded p-0 mt-sm-3 mb-2 shadow-sm">
+      <div id="forms-header" class="mb-3 mb-sm-4">
+        <img class="d-block img-fluid" alt="banner" src="/luca/banner/hou-me-op-de-hoogte-|-nl" />
+      </div>
+      <div id="forms-content" class="content mb-3 mb-sm-4 px-md-5 px-sm-4 px-2" style="min-height:50vh;">
+        <form id="survey" class="survey" data-bind="loadingOverlay: isLoading">
+  <!-- ko if: navigation.stepCounter.steps().length > 1 || cultureSelect().length > 0-->
+  <div class="d-flex justify-content-end">    
+    <!-- ko if: navigation.stepCounter.steps().length > 1 -->
+    <ul class="d-none d-sm-flex pagination pagination-sm mb-1 mb-sm-3" data-bind="foreach: navigation.stepCounter.steps" >
+      <li class="page-item cursor-pointer" data-bind="css: {
+        active : css.active(),
+        disabled: css.disabled()
+      },
+      click: click"><span class="page-link" data-bind="text:label"></span></li>
+    </ul>
+    <!-- /ko -->     
+    <!-- ko if: cultureSelect().length > 0 -->
+    <div class="d-flex flex-column justify-content-center align-items-end ml-1 ml-sm-3 mb-1 mb-sm-3 dropdown">
+        <div id="smt-culture" class="btn btn-default p-0 collapse-button text-right" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <!-- ko foreach: cultureSelect -->
+          <!-- ko if: active -->
+          <strong class="text-primary" data-bind="text: short"></strong>              
+          <!-- /ko -->
+          <!-- /ko -->
+          <span class="collapsed ion-chevron-down"></span>
+          <span class="not-collapsed ion-chevron-up"></span>
+        </div>
+        <div aria-labelledby="smt-culture" class="dropdown-menu dropdown-menu-right shadow">
+            <!-- ko foreach: cultureSelect -->
+            <span><a class="dropdown-item" data-bind="attr: { href: href }, text:label, css: {'active': active}"></a></span>
+            <!-- /ko -->
+        </div>
+    </div>  
+    <!-- /ko -->   
+    
+  </div>
+  <!-- /ko -->
+  <!-- ko if: page.header -->
+  <div id="header" class="form-group"><span class="align-top" data-bind="html:page.header"></span></div>
+  <!-- /ko -->
+  <div class="form-group" id="questions">
+    <fieldset data-bind="template:{ name: 'questiontemplate', foreach: questionsInView }"></fieldset>
+  </div>
+  <!-- ko if: page.footer -->
+  <div id="footer" class="form-group"><span data-bind="html:page.footer"></span></div>
+  <!-- /ko -->
+  
+  <!-- ko template: { name: 'navigation', data: navigation, if: navigation.isInitialized } --><!-- /ko -->
+
+  <!-- ko foreach: feedback -->
+  <div class="smt-feedback form-group" style="text-align:center;">
+    <fieldset class="templateContainer" data-bind='template: { name: template }'></fieldset>
+  </div>
+  <!-- /ko -->
+  <!-- ko if: page.pagefooter() || page.max() > 0 -->
+  <div id="page-footer" class="d-flex justify-content-between align-items-end flex-wrap">
+    <span data-bind="html:page.pagefooter"></span>
+    <!-- ko if: page.max() > 0 -->
+    <small><span class="text-muted d-none d-sm-block p-2" data-bind="text: pageInformation"></span></small>
+    <!-- /ko -->
+  </div>
+  <!-- /ko -->
+</form>
+<script src="/js/forms5.0.1.js"></script>
+
+<script type="text/html" id="questiontemplate">
+  <div class="smt-question form-group">
+    <div data-bind="attr: {'id': '/Question/' + identifier}">
+      <!-- ko if: header -->
+      <div class="row pt-3 pb-2">
+        <div class="col-sm-12" data-bind="css:{'inline': inline}"><span data-bind="html:header"></span></div>
+      </div>
+      <!-- /ko -->
+      <div class="row">
+        <div data-bind="css:{'inline': inline, 'col-sm-4': inline, 'col-sm-12': !inline}">
+          <label class="col-form-label forms-label" data-bind="css: {'text-danger': validation.display() && !validation.isValid()}" >
+              <span class="position-absolute text-danger ml-n2 ml-sm-n3" data-bind="visible:required">*</span>
+              <div><span data-bind="html:label"></span></div>            
+          </label>
+          <!-- ko if: help -->
+          <div class="mt-n2"><small><em data-bind="html:help"></em></small></div>
+          <!-- /ko -->
+        </div>
+        <fieldset class="templateContainer" data-bind="template: { name: template }, css:{'inline': inline, 'col-sm-6': inline, 'col-sm-12': !inline}"></fieldset>
+      </div>
+      <!-- ko foreach: feedback -->
+        <div class="row">
+          <fieldset class="templateContainer" data-bind="template: { name: template },css:{'inline': $parent.inline, 'col-sm-6': $parent.inline, 'offset-sm-4': $parent.inline, 'col-sm-12': !$parent.inline}"></fieldset>
+        </div>
+      <!-- /ko -->
+      <!-- ko if: footer -->
+      <div class="row pt-2 pb-3">
+        <div class="col-sm-12" data-bind="css:{'inline': inline}"><span data-bind="html:footer"></span></div>
+      </div>
+      <!-- /ko -->
+    </div>
+  </div>
+</script><script type="text/html" id="navigation">
+  <div class="navigation d-flex flex-column-reverse flex-sm-row justify-content-sm-end" data-bind="template: { foreach: [previous, next, confirm], name: 'navigationButton' }"></div>
+
+  <div class="modal" tabindex="-1" data-bind="bsModalVisible: { visible: conflictModalVisible }" data-backdrop="static">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">
+            <span class="ion-alert-circled text-warning"></span>
+            Bij het controleren is het volgende gebleken:
+          </h5>
+        </div>
+        <div class="modal-body">
+          <p></p>
+          <p>1 of meerdere van je gekozen sessies zijn ondertussen vol geraakt. Dit kan ontstaan doordat iemand anders eerder de gekozen sessie(s) heeft gekozen en de registratie heeft afgerond. Door op &#x27;herladen&#x27; te klikken wordt het formulier opnieuw gestart, en kan er een alternatieve keuze worden gemaakt. De rest van de ingevulde gegevens blijft opgeslagen. Onze excuses voor het ongemak.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bind="click: conflictModalDismiss">Herladen</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</script>
+
+<script type="text/html" id="navigationButton">
+  <button type="button" data-bind="css: css, text:label, value: name, click: click, enable: canClick(), visible: visible"></button>
+</script><script type="text/html" id="radio-template">
+  <div class="answers radio row" data-bind="foreach: availableAnswers" >
+    <div class="answer" data-bind="css:$parent.layoutcolumnsClass">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" data-bind="attr: {name: $parent.name, id: 'q'+$parent.identifier+'a'+identifier}, disable: $parent.readonly, value: identifier, checked:$parent.chosen.value" />
+        <label class="form-check-label" data-bind="text: label, attr: {for: 'q'+$parent.identifier+'a'+identifier}"></label>
+      </div>
+    </div>
+  </div>
+</script><script type="text/html" id="checkbox-template">
+  <div class="answers checkbox row" data-bind="foreach: availableAnswers">
+    <div class="answer" data-bind="css:$parent.layoutcolumnsClass">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" data-bind="attr: {name: $parent.name, id: 'q'+$parent.identifier+'a'+identifier}, disable: $parent.readonly, checkedValue: identifier, checked:$parent.chosen.value" />
+        <label class="form-check-label" data-bind="text: label, attr: {for: 'q'+$parent.identifier+'a'+identifier}"></label>
+      </div>
+    </div>
+  </div>
+</script><script type="text/html" id="filterablecheckbox-template">
+  <!-- ko if: availableAnswers().length === 0 -->
+    <!-- ko template: { name: 'filterable-no-answers' } --><!-- /ko -->
+  <!-- /ko -->
+
+  <!-- ko template: { name: 'filterable-feedback' } --><!-- /ko -->
+
+  <div class="d-none d-lg-block smt-filterablecheckbox">
+    <!-- ko template: { name: 'filterablecheckbox-desktop' } --><!-- /ko -->
+  </div>
+
+  <div class="d-block d-lg-none smt-filterablecheckbox">
+    <!-- ko template: { name: 'filterablecheckbox-mobile' } --><!-- /ko -->
+  </div>
+</script>
+
+<script type="text/html" id="filterable-no-answers">
+  <div role="warning" class="alert alert-warning" data-bind="text: resources['validation-noanswers']"></div>
+</script>
+
+<script type="text/html" id="filterable-feedback">
+  <div role="alert" class="alert alert-danger" data-bind="visible: feedback().length">
+    <!-- ko foreach: feedback -->
+    <div data-bind="text: message"></div>
+    <!-- /ko -->
+  </div>
+</script>
+
+<script type="text/html" id="filterable-search">
+  <div class="input-group">
+    <input class="form-control-plaintext border rounded-left py-3 px-3" type="text" data-bind="textInput: $parent.search, attr: {placeholder: textProperties.search }" />
+    <div class="input-group-append">
+      <span class="ion-search input-group-text bg-primary text-white border-primary px-3"></span>
+    </div>
+  </div>
+</script>
+
+<script type="text/html" id="filterablecheckbox-layout-panel">
+  <div class="mb-1 mb-sm-2">
+    <!-- ko template: { name: 'selected-modal' } --><!-- /ko -->
+    <!-- ko template: { name: 'suggestions', data: suggestions } --><!-- /ko -->
+    <!-- ko foreach: pagedGroups -->
+      <!-- ko template: { name: layout, data: { group: $data, answers: filteredAnswers, isCollapsed: $data.isCollapsed } } --><!-- /ko -->
+    <!-- /ko -->
+  </div>
+  <div data-bind="visible: pages().length > 1">
+    <nav aria-label="Page navigation">
+      <ul class="pagination pagination-sm">
+        <li class="page-item cursor-pointer" data-bind="click: setPreviousPage, css: { disabled: currentPage() === 0 }">
+          <span class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></span>
+        </li>
+        <!-- ko foreach: new Array(pages().length) -->
+        <li class="page-item cursor-pointer" data-bind="css: { active: $parent.currentPage() === $index() }, click: $parent.setPage.bind($parent, $index())">
+          <span class="page-link" data-bind="text: $index() + 1"></span>
+        </li>
+        <!-- /ko -->
+        <li class="page-item cursor-pointer" data-bind="click: setNextPage, css: { disabled: currentPage() === pages().length - 1 }">
+          <span class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></span>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</script>
+
+<script type="text/html" id="selected-modal">
+  <div class="modal" tabindex="-1" role="dialog" data-bind="bsModalVisible: displaySelected, css: { fade: fadeSelected }">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header d-flex justify-content-between">
+          <h4 class="modal-title font-weight-bold" data-bind="text: displayModel.textProperties.headerChoices"></h4>
+          <button type="button" class="btn btn-default ion-close-round display-4" data-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- ko foreach: { data: selectedGroups } -->
+            <!-- ko template: { name: layout, data: { group: $data, answers: selectedAnswers, isCollapsed: false } } --><!-- /ko -->
+          <!-- /ko -->
+          <em data-bind="visible: selectedGroups().length <= 0, text: displayModel.textProperties.noChoices"></em>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-lg btn-default" data-dismiss="modal" data-bind="text: displayModel.textProperties.closeChoices"></button>
+          <!-- ko if: navigation -->
+            <span data-bind="click: closeSelected, template: { name: 'navigationButton', foreach: [navigation.next, navigation.confirm] }"></span>
+          <!-- /ko -->
+        </div>
+      </div>
+    </div>
+  </div>
+</script>
+
+<script type="text/html" id="suggestions">
+  <!-- ko if: $data.length > 0 -->
+<!-- ko foreach: $data -->
+<div class="d-flex">
+  <span class="text-warning ion-star position-absolute ml-n2 ml-sm-n4 py-1 py-sm-2"></span>
+  <div class="rounded flex-fill pl-2 pl-sm-0">
+    <!-- ko template: { name: layout, data: { group: $data, answers: filteredAnswers, isCollapsed: ko.observable(false) } } -->
+    <!-- /ko -->
+  </div>
+</div>
+<!-- /ko -->
+<!-- /ko -->
+</script>
+
+<script type="text/html" id="answer-group-single">
+  <div>
+    <!-- ko template: { name: 'answer', foreach: answers } --><!-- /ko -->
+  </div>
+</script>
+
+<script type="text/html" id="answer-group-multi">
+  <div class="border-bottom pb-2 mb-2 cursor-pointer">
+    <div class="pl0 py-1 py-sm-2 collapse-button" data-bind="toggleCollapse: isCollapsed">
+      <span class="collapsed ion-plus text-primary float-right"></span>
+      <span class="not-collapsed ion-minus text-primary float-right"></span>
+      <strong data-bind="text: group.label"></strong>
+        <!-- ko if: ko.unwrap(answers).length > 0 -->
+        <div class="d-block d-sm-inline-block">
+          <!-- ko template: { name: 'answer-labels', data: ko.unwrap(answers)[0] } --><!-- /ko -->
+        </div>
+        <!-- /ko -->
+    </div>
+    <div class="answers" data-bind="template: { name: 'answer', foreach: answers }"></div>
+  </div>
+</script>
+
+<script type="text/html" id="answer">
+  <div class="answer mb-2 rounded cursor-pointer" 
+        data-bind="
+        clickAndFireChange: toggleSelect, 
+        style: { 'border-right': answer.displayModel.borderRightStyle }, 
+        childActions: { class: 'number-input', focus: true, select: true }">
+    <div class="card shadow-sm rounded-0"  data-bind="css:  { 
+                                                            'alert-primary': isSelected, 
+                                                            'bg-light': !isSelected(), 
+                                                            'text-muted': answer.disabled
+                                                          }">
+      <div class="card-header p-sm-2 px-sm-3">
+        <!-- ko if: answer.choicesAllowed === 1 || !answer.choicesAllowed -->
+          <!-- ko template: { name: 'answer-header' } --><!-- /ko -->
+        <!-- /ko -->
+        <!-- ko if: answer.choicesAllowed > 1 -->
+          <!-- ko template: { name: 'answer-header--multiple' } --><!-- /ko -->
+        <!-- /ko -->
+      </div>      
+      <div class="card-body p-sm-2 px-sm-3">
+        <!-- ko ifnot: answer.feedback -->
+        <div class="d-flex flex-column flex-sm-row justify-content-between align-items-sm-start">
+          <!-- ko template: { name: 'answer-body' } --><!-- /ko -->
+          <!--ko if: answer.displayModel.info -->
+            <!-- ko template: { name: 'answer-body--info' } --><!-- /ko -->
+          <!-- /ko -->    
+        </div>
+        <!-- /ko -->
+        <!-- ko if: answer.feedback -->
+          <!-- ko template: { name: 'answer-body--feedback' } --><!-- /ko -->
+        <!-- /ko -->
+      </div>
+      <!--ko if: answer.displayModel.info -->
+      <div class="card-footer p-0">
+        <!-- ko template: { name: 'answer-footer' } --><!-- /ko -->
+      </div>
+      <!-- /ko -->
+    </div>
+  </div>
+</script>
+
+<script type="text/html" id="answer-header">
+  <div class="d-flex align-items-center">
+    <div class="form-check flex-fill">
+      <input type="checkbox" class="form-check-input mr-2" data-bind="disable: answer.disabled, checkedValue: answer.identifier, checked: chosen.value, stopBubble" />
+      <label class="form-check-label">
+        <strong data-bind="text: answer.label"></strong>
+        <!-- ko template: { name: 'answer-labels', if: displayLabels } --><!-- /ko -->
+      </label>
+    </div>
+    <span class="badge my-1 mr-1" data-bind="visible: answer.hasAvailability, text: formattedAvailability, css: { 'badge-success': answer.available > 0, 'badge-dark': answer.available <= 0 }"></span>
+    <span class="badge badge-success my-1 mx-sm-1" data-bind="visible: answer.required, text: textProperties.required" />
+  </div>
+</script>
+
+<script type="text/html" id="answer-header--multiple">
+  <div class="d-flex align-items-center">
+    <div class="flex-fill d-flex align-items-center">
+      <div class="col-2 col-sm-1 pl-0 pr-sm-3 ">
+        <select data-bind="disable: answer.disabled, options: answer.allowedChoicesOptions(), value: wrappedNumber"></select>
+      </div>
+      <div class="flex-fill">
+        <strong data-bind="text: answer.label"></strong>
+        <!-- ko template: { name: 'answer-labels', if: displayLabels } --><!-- /ko -->
+      </div>
+    </div>
+    <span class="badge my-1 mr-1" data-bind="visible: answer.hasAvailability, text: formattedAvailability, css: { 'badge-success': answer.available > 0, 'badge-dark': answer.available <= 0 }"></span>
+    <span class="badge badge-success my-1 mx-sm-1" data-bind="visible: answer.required, text: textProperties.required" />
+  </div>
+</script>
+
+<script type="text/html" id="answer-body">
+  <div data-bind="foreach: { data: displayKeys, as: 'key' }">
+    <!-- ko with: $parent.answer.displayModel.findProperty(key) -->
+    <div class="d-block d-sm-inline-block pr-sm-2" >
+      <span data-bind="css: css"></span>
+      <span data-bind="text: label" ></span>
+    </div>
+    <!-- /ko -->
+  </div>
+</script>
+
+<script type="text/html" id="answer-body--info">
+  <a class="text-nowrap text-primary small" data-bind="click: toggleCollapse, 
+    formsResource: isCollapsed() ? 'filterablecheckbox-moreInfo' : 'filterablecheckbox-lessInfo', 
+    stopBubble">
+  </a>
+</script>
+
+<script type="text/html" id="answer-body--feedback">
+  <div class="d-flex flex-column flex-sm-row justify-content-between align-items-sm-start">
+    <small><em class="text-danger" data-bind="text: answer.feedback"></em></small>
+  </div>
+</script>
+
+<script type="text/html" id="answer-footer">
+  <div data-bind="collapseTarget: isCollapsed, stopBubble">
+    <div class="p-1 pl-sm-3 d-flex"><small data-bind="html: answer.displayModel.info"></small></div>
+  </div>
+</script>
+
+<script type="text/html" id="answer-labels">
+  <!-- ko foreach: { data: labelKeys, as: 'key' } -->
+<!-- ko with: $parent.answer.displayModel.findProperty(key) -->
+<small class="text-secondary">
+  (<!-- ko text: label --><!-- /ko -->)
+</small>
+<!-- /ko -->
+<!-- /ko -->
+</script>
+
+<script type="text/html" id="filterablecheckbox-desktop">
+    <div class="row mt-2">
+        <!-- ko if: displayModel.displayFilters -->
+            <div id="filter-pane" class="col-4 col-xl-3">
+                <h5 class="font-weight-bold">Filters:</h5>
+                <div class="mb-4" data-bind="template: { name: 'filterablecheckbox-desktop--filter' }"></div>
+            </div>
+            <div id="result-pane" class="col-8 col-xl-9 pl-5">
+                <!-- ko with: displayModel -->
+                    <div class="mb-4" data-bind="template: { name: 'filterable-search' }"></div>
+                    <div class="d-flex justify-content-between align-items-center flex-nowrap mb-3">
+                        <div data-bind="template: { name: 'filterablecheckbox-desktop--found-results' }"></div>
+                        <div data-bind="template: { name: 'filterablecheckbox-desktop--choices' }"></div>
+                    </div>
+                <!-- /ko -->
+                <div data-bind="template: { name: 'filterablecheckbox-layout-panel' }"></div>
+            </div>
+        <!-- /ko -->
+        <!-- ko ifnot: displayModel.displayFilters -->
+            <div id="result-pane" class="col-12"  data-bind="template: { name: 'filterablecheckbox-layout-panel' }"></div>
+        <!-- /ko -->
+    </div>
+</script>
+
+<script type="text/html" id="filterablecheckbox-desktop--filter">
+    <!-- ko with: displayModel -->
+        <div class="w-100">
+            <!-- ko foreach: filterableProperties -->
+            <div class="mb-4">
+                <div class="mb-2 w-100">
+                    <strong class="h5 font-weight-bold" data-bind="text:label"></strong>
+                </div>
+                <div class="pl-2">
+                <!-- ko foreach: filteredFilterItems -->
+                    <div class="form-check mb-1">
+                        <input class="form-check-input" type="checkbox" data-bind="checked: selected, enable: canSelect, attr: {id: 'f'+$index()+'-'+label}" />
+                        <label class="form-check-label" data-bind="attr: {for: 'f'+$index()+'-'+label}">
+                        <span><span data-bind="text:label"></span> (<span data-bind="text: count"></span>)</span>
+                        </label>
+                    </div>
+                <!-- /ko -->
+                </div>
+                <!-- ko if: showCollapse -->
+                <div class="pl-2">
+                    <div class="cursor-pointer btn btn-link p-0 text-primary" data-bind="click: toggleCollapse">
+                        <!-- ko if: isCollapsed -->
+                         <span class="mr-1 ion-chevron-down"></span>
+                         <span data-bind="formsResource: 'filterablecheckbox-filterUncollapse'"></span>
+                         <span data-bind="text: '(' + filterItems().length + ')'"></span>
+                        <!-- /ko -->
+                        <!-- ko ifnot: isCollapsed -->
+                         <span class="mr-1 ion-chevron-up"></span>
+                         <span data-bind="formsResource: 'filterablecheckbox-filterCollapse'"></span>
+                        <!-- /ko -->
+                    </div>
+                </div>
+                <!-- /ko -->
+            </div>
+            <!-- /ko -->
+        </div>
+    <!-- /ko -->
+</script>
+
+<script type="text/html" id="filterablecheckbox-desktop--choices">
+  <div class="text-primary cursor-pointer" data-bind="click: $parent.showSelected.bind($parent)">
+    <u data-bind="text: textProperties.showChoices"></u>
+    <span class="badge badge-lg badge-primary" data-bind="text: $parent.chosen.selectedAnswers().length"></span>
+  </div>
+</script>
+
+<script type="text/html" id="filterablecheckbox-desktop--found-results">
+    <span class="font-weight-bold display-4">
+        <span data-bind="text: $parent.nrOfAnswers"></span>
+        <span data-bind="formsResource: 'filterablecheckbox-foundResults'"></span>
+    </span>
+</script><script type="text/html" id="filterablecheckbox-mobile">
+    <div style="position:relative">
+        <!-- ko with: displayModel -->
+          <!-- ko if: displayFilters -->
+            <div class="mb-3" data-bind="template: { name: 'filterable-search' }"></div>
+            <div class="mb-2" data-bind="template: { name: 'filterablecheckbox-mobile--filter-btn' }"></div>
+            <div class="mb-3" data-bind="template: { name: 'filterablecheckbox-mobile--choices-btn' }"></div>
+            <!-- ko if: selectedFilterItems().length > 0 -->
+              <div class="mb-3" data-bind="template: { name: 'filterablecheckbox-mobile--filter-active' }"></div>
+            <!-- /ko -->
+            <div class="mb-3" data-bind="template: { name: 'filterablecheckbox-mobile--found-results' }"></div>
+          <!-- /ko -->
+        <!-- /ko -->
+        <div data-bind="template: { name: 'filterablecheckbox-layout-panel' }"></div>
+        <!-- ko with: displayModel -->
+          <div data-bind="template: { name: 'filterablecheckbox-mobile--choices-btn' }"></div>
+        <!-- /ko -->
+    </div>
+    <!-- ko template: { name: 'filterablecheckbox-mobile--filter-modal' } --><!-- /ko -->
+</script>
+
+<script type="text/html" id="filterablecheckbox-mobile--filter-btn">
+  <button type="button" class="btn btn-lg btn-primary w-100" data-bind="click: $parent.showFilterModal.bind($parent)">
+    <span class="ion-android-options"></span>
+    <span class="pl-1" data-bind="formsResource: 'filterablecheckbox-filterBtn'">Filters</span>
+  </button>
+</script>
+
+<script type="text/html" id="filterablecheckbox-mobile--choices-btn">
+  <!-- ko if: $parent.chosen.selectedAnswers().length > 0 -->
+  <button type="button" class="btn btn-lg btn-secondary w-100" data-bind="click: $parent.showSelected.bind($parent), disable: $parent.chosen.selectedAnswers().length === 0">
+      <span data-bind="text: textProperties.showChoices"></span>
+      <span class="badge badge-lg bg-white text-secondary ml-2" data-bind="text: $parent.chosen.selectedAnswers().length"></span>
+  </button>
+  <!-- /ko -->
+</script>
+
+<script type="text/html" id="filterablecheckbox-mobile--filter-modal">
+  <div class="modal fade forms-drawer-modal" tabindex="-1" role="dialog" data-bind="bsModalVisible: displayFilter">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-body w-100">
+            <!-- ko with: displayModel -->
+                <div class="mb-4 w-100" data-bind="template: { name: 'filterable-search' }"></div>
+
+                <!-- ko foreach: filterableProperties -->
+                <div class="mb-4">
+                    <div class="mb-2 w-100">
+                        <strong class="h5 font-weight-bold" data-bind="text:label"></strong>
+                    </div>
+                    <div class="pl-2">
+                    <!-- ko foreach: filteredFilterItems -->
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="checkbox" data-bind="checked: selected, enable: canSelect, attr: {id: 'f'+$index()+'-'+label}" />
+                            <label class="form-check-label" data-bind="attr: {for: 'f'+$index()+'-'+label}">
+                            <span><span data-bind="text:label"></span> (<span data-bind="text: count"></span>)</span>
+                            </label>
+                        </div>
+                    <!-- /ko -->
+                    </div>
+                    <!-- ko if: showCollapse -->
+                    <div class="pl-2">
+                        <div class="cursor-pointer btn btn-link p-0 text-primary" data-bind="click: toggleCollapse">
+                          <!-- ko if: isCollapsed -->
+                          <span class="mr-1 ion-chevron-down"></span>
+                          <span data-bind="formsResource: 'filterablecheckbox-filterUncollapse'"></span>
+                          <span data-bind="text: '(' + filterItems().length + ')'"></span>
+                          <!-- /ko -->
+                          <!-- ko ifnot: isCollapsed -->
+                          <span class="mr-1 ion-chevron-up"></span>
+                          <span data-bind="formsResource: 'filterablecheckbox-filterCollapse'"></span>
+                          <!-- /ko -->
+                        </div>
+                    </div>
+                    <!-- /ko -->
+                </div>
+                <!-- /ko -->
+
+            <!-- /ko -->
+        </div>
+        <div class="modal-footer bg-white" style="position:sticky; bottom:0;">
+          <button type="button" class="btn btn-primary btn-lg w-100" data-dismiss="modal">
+            <span data-bind="formsResource: 'filterablecheckbox-showResults'"></span> (<span data-bind="text: nrOfAnswers"></span>)
+          </button>
+        </div>
+      </div>
+    </div>
+    <button type="button" style="position:fixed; top:0; right:0; font-size:1.2em; color: #eee; padding-right:0;" class="btn ion-close-round" data-dismiss="modal" aria-label="Close"></button>
+  </div>
+</script>
+
+
+<script type="text/html" id="filterablecheckbox-mobile--filter-active">
+  <div class="d-flex align-items-center flex-wrap">
+    <!-- ko foreach: selectedFilterItems -->
+    <div class="lead mb-1 mr-2">
+      <a class="badge badge-default shadow-sm deselect-button cursor-pointer" role="button" data-bind="click: deselect, ">
+        <span data-bind="text: label"></span>
+        &times;
+      </a>
+    </div>
+    <!-- /ko -->
+  </div>
+</script>
+
+<script type="text/html" id="filterablecheckbox-mobile--found-results">
+    <h5 class="font-weight-bold">
+        <span data-bind="text: $parent.nrOfAnswers"></span>
+        <span data-bind="formsResource: 'filterablecheckbox-foundResults'"></span>
+    </h5>
+</script><script type="text/html" id="select-template">
+  <div class="answers">
+    <select class="answer select form-control" data-bind="attr: {name: name}, disable: readonly, valueAfterChildren: chosen.value, css: {'is-invalid': validation.display() && !validation.isValid()}">
+      <option value=""></option>
+      <!-- ko foreach: availableAnswers -->
+      <option data-bind="value: identifier, text: label, attr: { selected: $parent.chosen.containsAnswer($data) }"></option>
+      <!-- /ko -->
+      <!-- Fix for truncated options on iOS-devices -->
+      <optgroup label="" style="display:none"></optgroup> 
+    </select>
+  </div>
+</script><script type="text/html" id="info-template">
+  <div class="answers">
+    <div class="answer info">
+      <textarea class="form-control" rows="4" data-bind="attr: {name: $parent.name, placeholder: '', readonly: readonly, autocomplete: autocompletekey }, textInput: value"></textarea>
+    </div>
+  </div>
+</script><script type="text/html" id="text-template">
+  <div class="answers">
+    <div class="answer text">
+      <input class="form-control" type="text" 
+      data-bind="
+        attr: {
+          name: name, 
+          placeholder: '', 
+          readonly: readonly, 
+          autocomplete: autocompletekey,
+          list: 'suggestedValues' + identifier
+        },
+        textInput: value,
+        event: { blur: onBlurValidation },
+        css: {'is-invalid': validation.display() && !validation.isValid()}
+      " />
+
+      <datalist data-bind="attr: { id: 'suggestedValues' + identifier }, foreach: suggestedAnswers">
+        <option data-bind="attr: { value: value }">
+      </datalist>
+    </div>
+  </div>
+</script><script type="text/html" id="password-template">
+  <div class="answers">
+    <div class="answer text">
+      <input class="form-control" data-bind="attr: {name:name, placeholder: '', readonly: readonly}, textInput: value, event: { blur: onBlurValidation }, css: {'is-invalid': validation.display() && !validation.isValid()}" type="password" autocomplete="off"/>
+    </div>
+  </div>
+</script><script type="text/html" id="matrix-template">
+  <div class="fluid-container">
+    <div data-bind="with:matrix, css: validation.css">
+      <div class="row d-none d-sm-flex">
+          <div class="col-sm-4"></div>
+          <div class="col-sm-8">
+            <div class="row" data-bind="foreach: headers">
+              <div class="d-flex justify-content-sm-center" data-bind="css:$parents[1].layoutcolumnsClass">
+                <label class="small"><span data-bind="text:$data, css:{'text-muted': $parents[1].readonly}"></span></label>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div data-bind="foreach:subQuestions">
+        <div class="row py-1">
+          <div class="col-sm-4">
+            <label><span data-bind="text:label, css: {'text-danger': validation.display() && !validation.isValid()}"></span></label>
+          </div>
+          <fieldset class="col-sm-8">
+            <div class="answers radio row" data-bind="foreach: availableAnswers" >
+              <div class="answer d-flex justify-content-sm-center" data-bind="css:$parent.layoutcolumnsClass">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" data-bind="attr: {name: $parent.name, id: 'q'+$parent.identifier+'a'+identifier}, disable: $parent.readonly, value: identifier, checked:$parent.chosen.value" />
+                  <label class="form-check-label d-sm-none" data-bind="text: label, attr: {for: 'q'+$parent.identifier+'a'+identifier}"></label>
+                </div>
+              </div>
+            </div>
+          </fieldset>   
+        </div>
+      </div>
+    </div>
+  </div>
+</script><script type="text/html" id="searchabledropdown-template">
+  <div class="answers">
+    <select class="answer select form-control" 
+    data-bind="
+    selectPicker: { 
+      value: chosen.value, 
+      customAction: true, 
+      customSearch: searchString, 
+      refresh: forceRefresh, 
+      placeholder: 'Zoeken...', 
+      clearText: 'Wis keuze',
+      isReadonly: readonly,
+      isInvalid: validation.display() && !validation.isValid()
+    }, 
+    attr: {name: name }, disable: readonly">
+      <!-- ko with: selectedAnswer -->
+      <option data-bind="text: label, value: identifier" selected></option>
+      <!-- /ko -->      
+      <!-- ko foreach: searchAnswers -->
+      <option data-bind="text: label, value: identifier"></option>
+      <!-- /ko -->
+      <!-- ko if: displayFallbackAnswers -->
+      <!-- ko foreach: fallbackAnswers -->
+      <option data-bind="text: label, value: identifier"></option>
+      <!-- /ko -->
+      <!-- /ko -->
+    </select>
+  </div>
+</script><script type="text/html" id="date-template">
+  <div class="answer" data-target-input="nearest" data-bind="attr: { id: 'date_'+identifier}, datepicker: {}">
+      <input type="text" class="cursor-pointer form-control" data-bind="attr:{
+        'data-target':'#date_'+identifier,
+        readonly: readonly, 
+        autocomplete: autocompletekey
+      }, textInput: value" data-toggle="datetimepicker"/>
+  </div>
+</script><script type="text/html" id="dateofbirth-template">
+    <div class="answer text">
+      <input class="form-control" type="text" 
+      data-bind="
+        attr: {
+          name: name, 
+          placeholder: help, 
+          readonly: readonly, 
+          autocomplete: autocompletekey,
+          list: 'suggestedValues' + identifier
+        },
+        textInput: value,
+        event: { blur: onBlurValidation },
+        css: {'is-invalid': validation.display() && !validation.isValid()}
+      " />
+    </div>
+</script><script type="text/html" id="email-template">
+  <div class="answers">
+    <div class="answer email">
+      <input class="form-control" type="email" autocorrect="off"
+      data-bind="attr: {name:name, placeholder: '', readonly: readonly, autocomplete: autocompletekey }, textInput: value, event: { blur: onBlurValidation }, css: {'is-invalid': validation.display() && !validation.isValid()}" />
+    </div>
+  </div>
+</script><script type="text/html" id="phone-template">
+  <div class="answers">
+    <div class="answer phone">
+      <input class="form-control" type="tel" autocorrect="off"
+      data-bind="attr: {name:name, placeholder: '', readonly: readonly, autocomplete: autocompletekey }, textInput: value, event: { blur: onBlurValidation }, css: {'is-invalid': validation.display() && !validation.isValid()}" />
+    </div>
+  </div>
+</script><script type="text/html" id="name-template">
+  <div class="answers">
+    <div class="answer text">
+      <input class="form-control" type="text" autocorrect="off" autocapitalize="on" 
+       data-bind="attr: {name:name, placeholder: '', readonly: readonly, autocomplete: autocompletekey }, textInput: value, event: { blur: onBlurValidation }, css: {'is-invalid': validation.display() && !validation.isValid()}" />
+    </div>
+  </div>
+</script><script type="text/html" id="rating-template">
+  <div class="answers radio row" data-bind="foreach: options" >
+    <div class="answer" data-bind="css:$parent.layoutcolumnsClass">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" data-bind="attr: { name: $parent.name, id: 'q'+$parent.identifier+$data }, disable: $parent.readonly, value: $data, checked:$parent.value"></input>
+        <label class="form-check-label" data-bind="text: $data, attr: {for: 'q'+$parent.identifier+$data}"></label>
+      </div>
+    </div>
+  </div>
+</script><script type="text/html" id="error-template">
+  <div class="small">
+    <span class="text-danger" data-bind="html:message" style="line-height:30px;"></span>
+    <br/>
+    <a href="#" data-bind="if: action, click:retryAction"><span data-bind="text: $parent.resources['error-tryAgain']"></span></a>        
+  </div>
+</script><script type="text/html" id="loading-template">
+  <div class="spinner-border spinner-border-sm text-muted my-3" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+</script><script type="text/html" id="validation-template">
+  <div>
+    <span class="d-inline invalid-tooltip" data-bind="html:message"></span>
+  </div>
+</script><script type="text/html" id="loading-overlay">
+    <div class="spinner-border text-secondary mb-4" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+</script>
+      </div>
+    </div>
+  </div>
+
+  <div id="app-info" class="fixed-bottom text-black-50 d-none d-sm-block"><small><small>5.0.1</small></small>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="凱克博網頁設計-客製化網站-不需綁主機-最符合需求！" />
+<title>凱克博網頁設計-客製化網站-不需綁主機-最符合需求！</title>
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<link href="plugins/style.css" rel="stylesheet" type="text/css">
+<link href="plugins/home.css" rel="stylesheet" type="text/css">
+<link href="plugins/rwd.css" rel="stylesheet" type="text/css">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KM2XK5B');</script>
+<!-- End Google Tag Manager -->
+<link href='plugins/flexslider/flexslider.css' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class="layout-full top" id="top">	<div class="telephone">
+        <div class="layout-center"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;諮詢專線 (04)2320-0760</div>
+    </div>
+	<div class="layout-center top">
+    	<a href="/"><img src="/images/logo.png" alt="凱克博網頁設計公司-客製化網頁製作與設計" class="logo"></a>
+        <a href="javascript:;" onClick="callnav(this);" class="nav-swtich"><i class="fa fa-bars" aria-hidden="true"></i></a>
+        <div class="nav-other">
+        	<a href="http://www.facebook.com/pages/%E5%87%B1%E5%85%8B%E5%8D%9A%E7%B6%B2%E9%A0%81%E8%A8%AD%E8%A8%8804-2320-0760/368675909822629" target="_blank" class="button"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
+            <a href="skype:capable168?chat" class="button"><i class="fa fa-skype" aria-hidden="true"></i></a>
+            <a href="javascript:;" class="button search" onClick="callsearch(this);"><i class="fa fa-search" aria-hidden="true"></i></a>    
+        </div>
+        <div class="search-table">
+        	<div class="box">
+                <input type="text" name="keyword" placeholder="案例搜尋">
+                <a href="javascript:;" onClick="searchSend(this);" class="send"><i class="fa fa-search" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="nav">
+        	<ul>
+                <li><a href="/compare/" class="button">專案費用</a></li>
+                <li><a href="/works/choice-%E7%B2%BE%E9%81%B8%E7%B6%B2%E7%AB%99/" class="button">客戶案例</a></li>
+                <li><a href="/article/" class="button">資訊分享</a></li>
+                <li><a href="/faq/" class="button">常見問題</a></li>
+                <li><a href="/companies/" class="button">配合廠商</a></li>
+                <li><a href="/contact/" class="button">聯絡我們</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="layout-full content">
+	<div class="flexslider"><ul class="slides">
+			            <li class="imgs" style="background-image: url(/upload/slide_20180712_0bab0.jpg);"><a href="/compare/"><img src="/upload/slide_20180712_0bab0.jpg"></a></li>
+                        <li class="imgs" style="background-image: url(/upload/slide_20170526_1e474.jpg);"><a><img src="/upload/slide_20170526_1e474.jpg"></a></li>
+                        <li class="imgs" style="background-image: url(/upload/slide_20180712_5f2b9.jpg);"><a href="/compare/"><img src="/upload/slide_20180712_5f2b9.jpg"></a></li>
+            	</ul></div>
+	<div class="layout-center home">    	
+      	<div class="article abouts">
+        	<div class="block-title"><i class="c">客製化設計</i><i class="e">- CUSTOMIZED -</i></div>
+            <div class="info"><strong>客製化網頁設計</strong>更貼近客戶需求「<strong>形象網站</strong>、<strong>企業網站</strong>、<strong>購物網站</strong>、<strong>RWD 網頁設計</strong>、活動網頁…等」皆能製作。多種專案供客戶挑選，網站製作費用彈性、透明，為您的預算精打細算，免費諮詢提供專業建議，架設專屬網頁輕鬆簡單。<br>
+<div><a href="/compare/" class="home-btns">瞭解網頁製作費用</a></div></div>
+        </div>
+        <div class="abouts-effect">
+        	<div class="list">
+                <div class="item-hover circle effects from_left_and_right">
+                    <div class="box">
+                        <div class="img"><img src="/images/home-abouts-1.jpg" alt="img"></div>
+                        <div class="info">
+                            <div class="info-back">
+                                <h3>高標準的專業設計力</h3>
+                                <p>CREATIVE DESIGN</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="subject">創意不間斷</p>
+                <p class="content">作品皆為客製化，以低成本、高效率為團隊核心，讓客戶以有限的預算達到優質的設計</p>
+            </div>
+            <div class="list">
+                <div class="item-hover circle effects from_left_and_right">
+                    <div class="box">
+                        <div class="img"><img src="/images/home-abouts-2.jpg" alt="img"></div>
+                        <div class="info">
+                            <div class="info-back">
+                                <h3>高素質的專業團隊</h3>
+                                <p>PROFESSIONAL TEAM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="subject">專業團隊服務</p>
+                <p class="content">每個案件皆有專業團隊為您服務，與客戶溝通、說明，設計出最符合客戶所需要的網站</p>
+            </div>
+            <div class="list">
+                <div class="item-hover circle effects from_left_and_right">
+                    <div class="box">
+                        <div class="img"><img src="/images/home-abouts-3.jpg" alt="img"></div>
+                        <div class="info">
+                            <div class="info-back">
+                                <h3>介面直覺簡單好操作</h3>
+                                <p>EASY TO OPERATE</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="subject">簡單好操作</p>
+                <p class="content">協助客戶藉由網站後臺管理系統，自行編輯網頁內容和商品上下架，邁向e化網路世界</p>
+            </div>
+        </div>
+        <div class="article advantage">
+        	<div class="box">
+            	<div class="L"><i class="c">凱克博絕對優勢</i><br><i class="e">ABSOLUTE ADVANTAGE</i></div>
+                <div class="R">
+                	<div class="list"><i class="fa fa-check-square-o" aria-hidden="true"></i>提供免費網頁諮詢服務，設計價格透明化</div>
+                    <div class="list"><i class="fa fa-check-square-o" aria-hidden="true"></i>網頁專案皆贈基礎SEO、專屬網址</div>
+                    <div class="list"><i class="fa fa-check-square-o" aria-hidden="true"></i>提供優質穩定的主機空間及維護備份</div>
+                    <div class="list"><i class="fa fa-check-square-o" aria-hidden="true"></i>即時線上校稿，讓您隨時掌握製作進度</div>
+                    <div class="list"><i class="fa fa-check-square-o" aria-hidden="true"></i>完整售後服務，專人教學網站操作流程</div>
+                    <div class="list"><i class="fa fa-check-square-o" aria-hidden="true"></i>網頁含後台管理系統，讓您隨時更新內容</div>
+                    <div class="list"><i class="fa fa-check-square-o" aria-hidden="true"></i>網站上線後，可提供網頁原始檔</div>
+                </div>
+            </div>
+        </div>
+        <div class="article wt-rwd">        	
+        	<img src="/images/home-rwd-1.png" alt="什麼是 RWD 響應式網頁設計" class="image">  
+            <div class="box">
+            	<p class="text-1"><strong style="color: #D64016;">RWD</strong> 響應式網頁設計</p>
+                <p class="text-2">桌機+手機+平板 三機一體完美呈現</p>
+                <p class="text-3">響應式網頁設計(Responsive Web Design)簡稱RWD，又稱適應性網頁、自適應網頁設計、回應式網頁設計、多螢網頁設計，可在不同解析度下改變網頁頁面的佈局排版，例如手機、平板在相同的網站中，都可以看到符合自己畫面的比例網頁，不同的設備都可以正常瀏覽同一網站，提供最佳的視覺體驗。</p>
+                <a href="/article/view/21/" class="home-btns l">瞭解更多關於響應式網站</a>
+                <a href="/works/rwd-%E9%9F%BF%E6%87%89%E5%BC%8F%E7%B6%B2%E9%A0%81%E8%A8%AD%E8%A8%88/" class="home-btns">響應式案例</a>
+            </div>          
+        </div>
+      	<div class="article works">
+        	<div class="block-title"><i class="c">精選網站</i><i class="e">- OUR WORKS -</i></div>
+                        <a href="https://www.ztoolssystems.com/" target="_blank" class="list">
+            	<img src="/upload/works/works_20250603_cb8a3.jpg" alt="利圖爾斯" class="image">  
+                <i class="cover">
+                	<i class="box">
+                    	<i class="company">利圖爾斯 / CNC 加工</i>
+                    	<i class="type">網頁完成</i>
+                        <i class="button">View</i>
+                    </i>
+                </i>          
+          	</a>
+			            <a href="https://www.summit-resort.com/" target="_blank" class="list">
+            	<img src="/upload/works/works_20200318_747e8.jpg" alt="新社古堡" class="image">  
+                <i class="cover">
+                	<i class="box">
+                    	<i class="company">新社古堡 / 觀光園區</i>
+                    	<i class="type">網頁完成</i>
+                        <i class="button">View</i>
+                    </i>
+                </i>          
+          	</a>
+			            <a href="https://www.truefullland.com/" target="_blank" class="list">
+            	<img src="/upload/works/works_20210826_927de.jpg" alt="竹風建設" class="image">  
+                <i class="cover">
+                	<i class="box">
+                    	<i class="company">竹風建設 / 建設公司</i>
+                    	<i class="type">網頁完成</i>
+                        <i class="button">View</i>
+                    </i>
+                </i>          
+          	</a>
+			            <a href="https://www.whosteatw.com/" target="_blank" class="list">
+            	<img src="/upload/works/works_20250507_cd360.jpg" alt="鬍子茶官網" class="image">  
+                <i class="cover">
+                	<i class="box">
+                    	<i class="company">鬍子茶官網 / 茶飲專賣</i>
+                    	<i class="type">網頁完成</i>
+                        <i class="button">View</i>
+                    </i>
+                </i>          
+          	</a>
+			            <a href="https://www.chuan-ching.com.tw/" target="_blank" class="list">
+            	<img src="/upload/works/works_20220704_94da5.jpg" alt="船慶機械" class="image">  
+                <i class="cover">
+                	<i class="box">
+                    	<i class="company">船慶機械 / 指南針專賣</i>
+                    	<i class="type">網頁完成</i>
+                        <i class="button">View</i>
+                    </i>
+                </i>          
+          	</a>
+			            <a href="https://www.gueitzu.com.tw/" target="_blank" class="list">
+            	<img src="/upload/works/works_20241004_1260d.jpg" alt="台灣貴族茶園" class="image">  
+                <i class="cover">
+                	<i class="box">
+                    	<i class="company">台灣貴族茶園 / 茶葉販售</i>
+                    	<i class="type">網頁完成</i>
+                        <i class="button">View</i>
+                    </i>
+                </i>          
+          	</a>
+			            <a href="https://www.junshou2013.com.tw/" target="_blank" class="list">
+            	<img src="/upload/works/works_20241004_b224b.jpg" alt="俊首建設" class="image">  
+                <i class="cover">
+                	<i class="box">
+                    	<i class="company">俊首建設 / 建築工程</i>
+                    	<i class="type">網頁完成</i>
+                        <i class="button">View</i>
+                    </i>
+                </i>          
+          	</a>
+			            <a href="https://www.vastalent.tech/" target="_blank" class="list">
+            	<img src="/upload/works/works_20240410_f3569.jpg" alt="睿洋綠能" class="image">  
+                <i class="cover">
+                	<i class="box">
+                    	<i class="company">睿洋綠能 / 節能玻璃</i>
+                    	<i class="type">網頁完成</i>
+                        <i class="button">View</i>
+                    </i>
+                </i>          
+          	</a>
+			            <a href="https://www.lsbiotek.com/" target="_blank" class="list">
+            	<img src="/upload/works/works_20240223_96ed0.jpg" alt="生立生物科技" class="image">  
+                <i class="cover">
+                	<i class="box">
+                    	<i class="company">生立生物科技 / 寵物用品</i>
+                    	<i class="type">網頁完成</i>
+                        <i class="button">View</i>
+                    </i>
+                </i>          
+          	</a>
+			            <a href="https://www.petservice.org.tw/" target="_blank" class="list">
+            	<img src="/upload/works/works_20231130_a4fe0.jpg" alt="臺中市寵物職業工會" class="image">  
+                <i class="cover">
+                	<i class="box">
+                    	<i class="company">臺中市寵物職業工會 / 工會官網</i>
+                    	<i class="type">網頁完成</i>
+                        <i class="button">View</i>
+                    </i>
+                </i>          
+          	</a>
+			            <a href="https://www.yuanjheng.com.tw/" target="_blank" class="list">
+            	<img src="/upload/works/works_20240408_8a53b.jpg" alt="元証企業" class="image">  
+                <i class="cover">
+                	<i class="box">
+                    	<i class="company">元証企業 / 精密機械零件加工</i>
+                    	<i class="type">網頁完成</i>
+                        <i class="button">View</i>
+                    </i>
+                </i>          
+          	</a>
+			            <a href="https://www.asahi-sg.com.tw/" target="_blank" class="list">
+            	<img src="/upload/works/works_20231103_ce2ca.jpg" alt="朝日中部" class="image">  
+                <i class="cover">
+                	<i class="box">
+                    	<i class="company">朝日中部 / 包裝封口機</i>
+                    	<i class="type">網頁完成</i>
+                        <i class="button">View</i>
+                    </i>
+                </i>          
+          	</a>
+			            
+          	<div class="more"><a href="/works/choice-%E7%B2%BE%E9%81%B8%E7%B6%B2%E7%AB%99/" class="button">MORE</a></div>            
+        </div>
+        
+        <div class="contact">
+            <div class="box">
+            	<i class="info">歡迎撥打電話04-2320-0760或填寫表單諮詢</i>
+                <i class="tag">- CONTACT US -</i>
+                <i class="icons">
+                    <a href="mailto:cb@cb-design.com.tw" class="hovicon"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                    <a href="/contact/" class="hovicon"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                </i>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="layout-full bottom">	<div class="layout-center bottom">
+    	<div class="list contact">
+        	<div class="tag">CONTACT</div>
+            <div class="content"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;營業時間 W1-W5 09:00-18:00<br><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;04-2320-0760<br><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;台中市公益路349號7F-12</div>
+        </div>
+        <div class="list service">
+        	<div class="tag">SERVICE</div>
+            <div class="content nav-bottom">
+            	<ul>
+                	<li><a href="/compare/" class="button">專案費用</a></li>
+                    <li><a href="/works/choice-%E7%B2%BE%E9%81%B8%E7%B6%B2%E7%AB%99/" class="button">客戶案例</a></li>
+                    <li><a href="/article/" class="button">資訊分享</a></li>
+                </ul>
+                <ul>
+                	<li><a href="/faq/" class="button">常見問題</a></li>
+                    <li><a href="/companies/" class="button">配合廠商</a></li>
+                    <li><a href="/contact/" class="button">聯絡我們</a></li>
+                </ul>
+                <ul>
+                	<li><a href="/sitemap.html" class="button">網站地圖</a></li>
+                    <li><a href="//www.businessdirectory.com.tw/" target="_blank" class="button">工商名錄</a></li>
+                    <li><a href="/" class="button">返回首頁</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="list share">
+        	<div class="tag">SHARE</div>
+            <div class="content share-icon">
+            	            	<a href="//www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.cb-design.com.tw" target="_blank" title="分享到Facebook" class="button l"><img src="/images/bottom-icon-facebook-share.png" alt="facebook share"></a>
+                <a href="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.cb-design.com.tw" target="_blank" title="分享到Facebook" class="button"><img src="/images/bottom-icon-facebook-like.png" alt="facebook like"></a>
+                <a href="//www.twitter.com/share?url=https%3A%2F%2Fwww.cb-design.com.tw" target="_blank" title="分享到Twitter" class="button"><img src="/images/bottom-icon-twitter.png" alt="twitter"></a>
+                                <a href="//plurk.com/?qualifier=shares&status=https%3A%2F%2Fwww.cb-design.com.tw" target="_blank" title="分享到plurk" class="button"><img src="/images/bottom-icon-plurk.png" alt="plurk"></a>
+                            </div>
+            <div class="tag">客服諮詢</div>
+            <div class="content share-icon">
+         		<a href="https://line.me/ti/p/83zz7VGU8p" target="_blank" class="button l"><img src="/images/bottom-icon-line-1.png" alt="customer service 1"></a>
+                <a href="https://line.me/ti/p/-dIx8Xa_k8" target="_blank" class="button l"><img src="/images/bottom-icon-line-2.png" alt="customer service 2"></a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">COPYRIGHT ©  凱克博實業有限公司 ALL RIGHTS RESERVED .</div>
+</div>
+<div class="layout-full nav-mobile">
+	<div class="layout-center nav-mobile">
+    	<ul>
+        	<li><a href="tel:+886-4-23200760" class="button"><img src="/images/mobile-nav-1.png" alt="phone">撥打</a></li>
+            <li><a href="https://line.me/ti/p/83zz7VGU8p" target="_blank" class="button"><img src="/images/mobile-nav-2.png" alt="line 1">客服1</a></li>
+            <li><a href="https://line.me/ti/p/-dIx8Xa_k8" target="_blank" class="button"><img src="/images/mobile-nav-2.png" alt="line 2">客服2</a></li>
+            <li><a href="#top" class="button"><img src="/images/mobile-nav-3.png" alt="back top">TOP</a></li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript" src="/plugins/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="/plugins/jquery.masonry.min.js"></script>
+<script type="text/javascript" src="/plugins/laziestloader/jquery.laziestloader.js"></script>
+<script type="text/javascript" src="/plugins/action.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-42080973-7', 'auto');
+  ga('require', 'GTM-MTNGT6R');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Google 再营销代码的内容 -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 845129126;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/845129126/?guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<!-- Google 再营销代码的内容 -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KM2XK5B"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<a href="#top" class="go-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+<script type="text/javascript" src="/plugins/stellar.js-master/jquery.stellar.js"></script>
+<script type="text/javascript" src="/plugins/flexslider/jquery.flexslider.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.layout-full').scrolly({bgParallax: true});	
+});
+(function($) {	
+	$('.flexslider').flexslider({
+        animation: "slide",
+		slideshowSpeed: 6000,
+		animationSpeed: 1500, 
+		initDelay: 1,
+		randomize: false,  
+		controlNav: true, 
+		directionNav: true, 
+		pauseOnHover: true,
+		pauseOnAction: false, 
+		prevText: '<img src="/images/slider-p.png">',
+		nextText: '<img src="/images/slider-n.png">',
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+   	});
+})(jQuery);
+</script>
+</body>
+</html>

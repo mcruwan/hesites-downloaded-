@@ -1,0 +1,2073 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="yandex-verification" content="435bc1c91942b565" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="БГЭУ, факультет, студент, экономический, тестирование, централизованное тестирование белорусский, университет, Минск, Республика Беларусь, курсы, образование, план приема, расписание занятий, Порядок приема, стоимость обучения"/>
+<meta name="description" content="Официальный сайт БГЭУ, ведущего в Беларуси ВУЗа в области подготовки экономистов, бухгалтеров, менеджеров, маркетологов и других специалистов. Информация для абитуриентов, студентов, аспирантов. Высшая школа управления и бизнеса."/>
+<base href="//bseu.by">
+<title>БГЭУ - главная страница</title>
+<link rel="SHORTCUT ICON" href="/favicon.ico"/>
+<link href="main.css" rel="stylesheet" type="text/css">
+<link href="/css/slider.css" rel="stylesheet" type="text/css">
+<link href="/css/fonts.css" rel="stylesheet" type="text/css">
+<!--link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Roboto+Condensed:300,400&amp;subset=cyrillic"-->
+<script language="javascript" src="/js/jssor.slider-21.1.6.min.js"></script>
+<script language="javascript" src="/js/main.js"></script>
+<script language="javascript" src="/js/jquery.min.js"></script>
+<script language="javascript" src="/js/carousel.js"></script>
+<script language="javascript" src="/js/transition.js"></script>
+<script language="javascript" src="/js/pushups.js"></script>
+<link href="/css/carousel.css" rel="stylesheet" type="text/css">
+<link href="/css/form.css" rel="stylesheet" type="text/css">
+
+<script language="javascript" src="/js/events.js"></script>
+
+<script language="javascript" src="/js/videoRoller.js"></script>
+
+<script type="text/javascript" src="/js/jquery.fancybox-1.3.1.js"></script>
+<link rel="stylesheet" type="text/css" href="/js/jquery.fancybox-1.3.1.css" media="screen" />
+<script type="text/javascript" src="/js/jquery.easing-1.3.pack.js"></script>
+<script type="text/javascript" src="/js/jquery.mousewheel-3.0.2.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$(".popup").fancybox({'transitionIn':'elastic','transitionOut':'elastic','easingIn':'easeOutBack','easingOut':'easeInBack'});
+});
+</script>
+
+</head>
+
+<body>
+<div id="header">
+	<div id="base" class="first">
+		<div><p>&nbsp;<br>
+<span class="h1">&nbsp;</span></p>
+<p>&nbsp;</p>
+        </div>
+	</div>
+	<div id="best3">
+		<div>
+		<p>&nbsp;<br>
+&nbsp;</p>
+		</div>
+	</div>
+	<div id="logobar">
+		<div id="title">
+			<div id="languages"><img src="/images/t.gif" style="height:15px;width:1px;margin:2px 0"><a href="/belarusian/"><img src="images/flagBy.png">Бел</a>&nbsp;
+				<a href="/english/"><img src="images/flagEn.png">En</a>
+				<a href="/chinese/"><img src="images/flagCn.png">Cn</a>
+			</div>
+			<form action="/scripts/search.asp" id="searchfrm"><input type="text" value="Искать по сайту" id="SearchString" name="SearchString"><a href="#"><img src="/images/iconSearch.png"></a></form>
+			<a href="javascript:void(0)" id="lnk-spec" aria-label="Перейти на версию сайта для слабовидящих" title="Перейти на версию сайта для слабовидящих"><svg class="icon-spec-on" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 1792 1792" width="24"><path fill="white" d="M1664 960q-152-236-381-353 61 104 61 225 0 185-131.5 316.5t-316.5 131.5-316.5-131.5-131.5-316.5q0-121 61-225-229 117-381 353 133 205 333.5 326.5t434.5 121.5 434.5-121.5 333.5-326.5zm-720-384q0-20-14-34t-34-14q-125 0-214.5 89.5t-89.5 214.5q0 20 14 34t34 14 34-14 14-34q0-86 61-147t147-61q20 0 34-14t14-34zm848 384q0 34-20 69-140 230-376.5 368.5t-499.5 138.5-499.5-139-376.5-368q-20-35-20-69t20-69q140-229 376.5-368t499.5-139 499.5 139 376.5 368q20 35 20 69z"></path></svg><span class="spec-on">Версия для слабовидящих</span><svg class="icon-spec-off" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 1792 1792" width="24"><path d="M555 1335l78-141q-87-63-136-159t-49-203q0-121 61-225-229 117-381 353 167 258 427 375zm389-759q0-20-14-34t-34-14q-125 0-214.5 89.5t-89.5 214.5q0 20 14 34t34 14 34-14 14-34q0-86 61-147t147-61q20 0 34-14t14-34zm363-191q0 7-1 9-105 188-315 566t-316 567l-49 89q-10 16-28 16-12 0-134-70-16-10-16-28 0-12 44-87-143-65-263.5-173t-208.5-245q-20-31-20-69t20-69q153-235 380-371t496-136q89 0 180 17l54-97q10-16 28-16 5 0 18 6t31 15.5 33 18.5 31.5 18.5 19.5 11.5q16 10 16 27zm37 447q0 139-79 253.5t-209 164.5l280-502q8 45 8 84zm448 128q0 35-20 69-39 64-109 145-150 172-347.5 267t-419.5 95l74-132q212-18 392.5-137t301.5-307q-115-179-282-294l63-112q95 64 182.5 153t144.5 184q20 34 20 69z"></path></svg><span class="spec-off">Обычная версия</span></a>
+			<div class="links"><a href="https://umo.bseu.by/" target="_blank">УМО по экономическому образованию </a><br><a href="https://umodo.bseu.by/" target="_blank">УМО по дополнительному образованию взрослых</a><br><a href="https://elearning.bseu.by">Образовательный портал</a><br><a href="https://test.bseu.by">Тестирование студентов</a><br>
+<a href="http://edoc.bseu.by">Электронная&nbsp;библиотека</a><br><!--a href="https://cabinet.bseu.by">Кабинет&nbsp;студента</a><br--></div>
+			<img src="/images/logo.png" class="logo"><h1><span class="smaller">БЕЛОРУССКИЙ ГОСУДАРСТВЕННЫЙ</span><br>
+ЭКОНОМИЧЕСКИЙ УНИВЕРСИТЕТ</h1>
+		</div>
+	</div>
+	<div id="menu">
+	  <div id="items">
+		<ul id="leftcol">
+			<li class="groupend" submenu="about"><a href="javascript:void(0)">ОБ УНИВЕРСИТЕТЕ</a></li>
+			<li submenu="education"><a href="javascript:void(0)">ОБРАЗОВАТЕЛЬНАЯ ДЕЯТЕЛЬНОСТЬ</a></li>
+			<li><a href="http://nir.bseu.by">НАУЧНАЯ ДЕЯТЕЛЬНОСТЬ</a></li>
+			<li submenu="booksmenu"><a href="javascript:void(0)">ИЗДАТЕЛЬСКАЯ ДЕЯТЕЛЬНОСТЬ</a></li>
+			<li submenu="international"><a href="javascript:void(0)">МЕЖДУНАРОДНОЕ СОТРУДНИЧЕСТВО</a></li>
+			<li submenu="ideology" class="groupend"><a href="javascript:void(0)">ИДЕОЛОГИЧЕСКАЯ И 
+ВОСПИТАТЕЛЬНАЯ РАБОТА</a></li>
+			<li submenu="service"><a href="javascript:void(0)">УСЛУГИ</a></li>
+			<li submenu="purchases"><a href="javascript:void(0)">ЗАКУПКИ</a></li>
+		</ul>
+		  <div id="ball"><div></div></div>
+		<ul id="rightcol">
+			<li submenu="abit"><a href="javascript:void(0)">АБИТУРИЕНТУ</a></li>
+			<li submenu="student"><a href="javascript:void(0)">СТУДЕНТУ</a></li>
+			<li submenu="master"><a href="javascript:void(0)">МАГИСТРАНТУ</a></li>
+			<li><a href="//nir.bseu.by/podgotovka/aspirantura.htm">АСПИРАНТУ</a></li>
+			<li><a href="//graduates.bseu.by">ВЫПУСКНИКУ</a></li>
+			<li submenu="employers" class="groupend"><a href="javascript:void(0)">ЗАКАЗЧИКАМ СПЕЦИАЛИСТОВ</a></li>
+
+			<li submenu="foreigners" class="groupend"><a href="javascript:void(0)">ИНОСТРАННЫМ ГРАЖДАНАМ</a></li>
+			<li submenu="upgrade" class="groupend"><a href="javascript:void(0)">КУРСЫ И ПЕРЕПОДГОТОВКА</a></li>
+			<li submenu="onewindow"><a href="javascript:void(0)">ЭЛЕКТРОННЫЕ ОБРАЩЕНИЯ</a></li>
+			<li submenu="contacts"><a href="javascript:void(0)">КОНТАКТЫ</a></li>
+		</ul>
+		</div>
+        <div class="subMenuItems left" style="display:none;" id="about">
+        	          <ul>
+            <li class="top">О нас
+                  <ul>
+                    <li><a href="/russian/general/history.htm">История</a></li>
+                    <li><a href="/russian/general/about.htm">Университет сегодня</a></li>
+					<li><a href="/russian/international/webometrics.pdf">БГЭУ в мировых рейтингах</a></li>
+       				<li><a href="/russian/general/Structure.pdf">Структура университета</a></li>
+       				<li><a href="/russian/tsur/default.htm">БГЭУ на пути достижения Целей <br>
+   				    устойчивого развития</a></li>
+                  </ul>
+				  
+  <li>Документы
+        		  <ul>
+        			<li><a href="/russian/general/documents/ustav.pdf">Устав</a></li>
+        			<li><a href="/russian/general/documents/ustav_1.pdf">Изменения №1 в Устав</a></li>
+        			<li><a href="/russian/general/documents/ustav_2.pdf">Изменения №2 в Устав</a></li>
+        			<li><a href="/russian/general/documents/ustav_3.pdf">Изменения №3 в Устав</a></li>
+        			<li><a href="/russian/general/documents/zadachi.pdf">Задачи и функции университета</a></li>
+        			<li><a href="/russian/general/sertif_lic.htm">Сертификаты и лицензии</a></li>
+        			<li><a href="/cmk/poli.htm">СМК</a></li>
+        			<li><a href="/russian/general/documents.htm">Нормативные документы</a></li>
+        		  </ul>
+				</li>
+                <li>Материалы
+                  <ul>
+                    <li><a href="/russian/general/video.htm">Видео и презентации о нас</a></li>
+                    <li><a href="https://youtu.be/jsb6PfZsP84">Виртуальная экскурсия по универистету</a></li>
+                    <li><a href="/russian/general/anniver/now8then.htm">Университет вчера и сегодня</a></li>
+                    <li><a href="/russian/general/gratitudes.htm">Благодарности</a></li>
+                  </ul>
+				  <a href="/russian/general/corruption/index.htm">Противодействие коррупции</a>
+                </li>
+			</ul>
+       		<ul>
+              <li class="col2">Управление
+                <ul>
+                    <li><a href="/russian/general/rectorsbiographies.htm">Ректор</a></li>
+                    <li><a href="/russian/general/sovet/sostav_s.htm">Совет университета</a></li>
+                    <li><a href="/russian/general/prorectors.htm">Ректорат</a></li>
+                </ul>
+                Институты и факультеты
+                <ul>
+                  <li><a href="/russian/faculty12/faculty12.htm">«Высшая школа управления и бизнеса»</a></li>
+                  <li><a href="/russian/faculty17/faculty17.htm">Институт повышения квалификации и переподготовки экономических кадров</a></li>
+				  <li><a href="/russian/faculty9/faculty9.htm">Коммерции и туристической индустрии</a></li>
+                  <li><a href="/russian/faculty4/faculty4.htm">Маркетинга и логистики</a></li>
+                  <li><a href="/russian/faculty7/faculty7.htm">Международных бизнес-коммуникаций</a></li>
+                  <li><a href="/russian/faculty3/faculty3.htm">Международных экономических отношений</a></li>
+                  <li><a href="/russian/faculty6/faculty6.htm">Права</a></li>
+                  <li><a href="/russian/faculty18/faculty18.htm">Cоциально-экономический</a></li>
+                  <li><a href="/russian/faculty5/faculty5.htm">Учетно-экономический</a></li>
+                  <li><a href="/russian/faculty1/faculty1.htm">Финансов и банковского дела</a></li>
+				  <li><a href="/russian/faculty8/faculty8.htm">Цифровой экономики</a></li>
+                  <li><a href="/russian/faculty2/faculty2.htm">Экономики и менеджмента</a></li>
+                </ul>
+			    <a href="/russian/international/dekanat.htm" class="green normal">УМУ по координации обучения иностранных граждан</a><br>
+				<a href="/russian/faculty10/faculty10.htm" class="green normal">Центр довузовской подготовки и профессиональной ориентации</a>
+              </li>
+                <li class="col2">
+                Филиал
+                  <ul>
+      				<li><a href="https://ntek.by">Новогрудский торгово-экономический колледж</a></li>
+                  </ul>
+                <br>
+                <a href="/russian/general/library.htm" class="green">Библиотека</a><br>
+                <a href="/russian/general/hostels.htm" class="green">Студенческий городок</a><br>
+                Общественные организации
+                  <ul>
+                    <li><a href="/russian/general/brsm.htm">Первичная организация БРСМ</a></li>
+                    <li><a href="/russian/general/osvod/osvod.htm">Первичная организация ОСВОД</a></li>
+                    <li><a href="/russian/general/ppo.htm">Первичная профсоюзная организация работников</a></li>
+                    <li><a href="/russian/general/wruss/history.htm">РОО «Белая Русь»</a></li>
+                    <li><a href="http://bseu.by/ppo">Студенческий профсоюз</a></li>
+                  </ul>
+                </li>
+</ul>
+
+
+		</div>
+        <div class="subMenuItems left" style="display:none;" id="education">
+        	        <ul>
+			<li class="top">Довузовское обучение
+				<ul>
+					<li><a href="/russian/teaching/abcours.htm">Подготовка к ЦЭ и ЦТ</a></li>
+					<li><a href="/russian/teaching/abSpecCourses.htm" class="disabled">Курсы подготовки по предметам<br>внутренних испытаний</a></li>     
+				</ul>
+				Общее высшее образование
+				<ul>
+					<li><a href="/russian/teaching/srok.htm">Формы и сроки обучения</a></li>
+					<li><a href="/russian/teaching/specialities.htm">Специальности</a></li>
+					<li><a href="/russian/abiturient/freeplaces.htm">Информация о свободных местах по специальностям и курсам </a></li>
+			  </ul>
+				Магистратура
+				<ul>
+					<li><a href="/russian/teaching/magistr/srok.htm">Формы и сроки обучения</a></li>
+					<li><a href="http://bseu.by/russian/teaching/magistr/profil.htm">Специальности</a></li>
+					<li><a href="/russian/teaching/magistr/magistr_in.htm">Англоязычная магистратура</a></li>
+				</ul>
+  </li>
+			<li>Аспирантура и докторантура
+				<ul>
+					<li><a href="http://nir.bseu.by/podgotovka/aspr2.htm">Специальности</a></li>
+					<li><a href="http://nir.bseu.by/podgotovka/sovet.htm">Советы по защите</a></li>
+				</ul>
+				Повышение квалификации и<br>переподготовка
+				<ul>
+					<li><a href="/russian/faculty17/courses.htm">Курсы (подготовка специалистов)</a></li>
+					<li><a href="/russian/faculty17/buch.doc">Курсы по бухгалтерскому учёту</a></li>
+					<li><a href="/russian/teaching/retraining.htm">Переподготовка</a></li>
+					<li><a href="/russian/faculty17/train.htm">Повышение квалификации</a></li>
+					<li><a href="/russian/faculty17/stazh.htm">Стажировки руководящих работников и специалистов</a></li>
+				</ul>
+			</li>
+		</ul>
+
+
+		</div>
+		<div class="subMenuItems left" style="display:none;" id="international">
+        	          <ul>
+			<li>Координация
+				<ul>
+					<li><a href="/russian/international/umoms/umoms.htm">Отдел по международным связям</a></li>
+					<li><a href="/russian/international/dekanat.htm">Учебно-методическое  управление<br>
+					координации обучения иностранных граждан </a></li>
+				</ul>
+				<a href="https://edu.gov.by/sistema-obrazovaniya/upravlenie-mezhdunarodnogo-sotrudnichestva/proposals-for-the-education-of-foreign-citizens/priem-inostrannykh-abiturientov-na-russkom-yazyke/index.php" class="green">Информационно-консультационный пункт</a>
+				<ul>
+					<li><a href="https://Export.by">Портал информационной поддержки экспорта</a></li>
+					<li><a href="https://Studyinby.com">Учеба в Беларуси</a></li>
+				</ul>
+			</li>  
+		  </ul>
+      	  <ul>
+			<li class="col2"><a href="/russian/international/activities.htm" class="green">Международные связи</a><br>
+				<a href="/russian/international/axhibition.htm" class="green">Выставочная деятельность</a><br>
+				Партнеры
+				<ul>
+					<li><a href="/russian/international/partners.htm">Университеты-партнеры</a></li>
+					<li><a href="/russian/international/partner_comp.htm">Компании-партнеры по набору иностранных<br>граждан на обучение в БГЭУ</a></li>
+				</ul>
+			</li>
+			<li class="col2">Направление за границу
+				<p>сотрудников</p>
+				<ul class="topmargin5">
+					<li><a href="/russian/international/direction_staff.htm">Порядок направления работников УО БГЭУ в<br> служебные командировки за границу</a></li>
+				</ul>
+				<p>студентов и аспирантов</p>
+				<ul class="topmargin5">
+					<li><a href="/russian/international/direction_stud.htm">Порядок направления студентов и<br>аспирантов УО БГЭУ за границу</a></li>
+					<li><a href="/russian/international/documents.htm">Образцы документов</a></li>
+				</ul>	
+			</li>
+		  </ul>
+
+		</div>
+		<div class="subMenuItems left" style="display:none;" id="booksmenu">
+        	      		<ul>
+				<li>Издательский центр БГЭУ<br>
+					<ul class="col2">
+						<li><a href="//books.bseu.by/about.htm">О нас</a></li>      				
+						<li><a href="//books.bseu.by/authors.htm">Авторам</a></li>					
+						<li><a href="//books.bseu.by/contacts.htm">Контакты</a></li>									
+					</ul>
+					<ul class="col2">
+						<li><nobr><a href="//books.bseu.by/plans/2025.pdf">План изданий на 2025 год</a></nobr></li>
+						<li><a href="//books.bseu.by/">Интернет-витрина «Книги БГЭУ»</a></li>
+						<li><a href="//books.bseu.by/price.rar">Прайс&nbsp;лист</a></li>
+					</ul>
+				</li>
+			</ul>
+     		<ul>
+     			<li>
+      			Периодические издания
+      			<ul>
+      				<li><a href="//bem.bseu.by">Белорусский экономический журнал</a></li>
+					<li><a href="/russian/scientific/herald.htm" target="_blank">Журнал «Вестник БГЭУ»</a></li>
+					<li><a href="/economist.htm">Газета «Экономист»</a></li>
+      			</ul>				
+				</li>
+			</ul>
+     		<!--ul>
+				<li><a href="#" target="_blank" class="disabled">Наши издания в библиотеке</a></li>
+      		</ul-->
+
+		</div>
+     	<div class="subMenuItems left" style="display:none;" id="ideology">
+        	<ul>
+	<li><a href="/russian/general/uvr/info.htm" class="green">Управление по идеологической и воспитательной работе</a>
+		<ul class="topmargin5">
+		  <li><a href="/russian/general/uvr/otdelvmr.htm">Отдел воспитательной и методической работы</a></li>
+		  <li><a href="/russian/general/uvr/otdir.htm">Отдел идеологической работы</a></li>
+		  <li><a href="/russian/general/uvr/soc_ped.htm">Отдел социально-педагогической и психологической работы</a></li>
+			<li><a href="/russian/general/uvr/museum.htm">Музейная экспозиция истории БГЭУ</a></li>		
+			<li><a href="/russian/general/uvr/studclub.htm">Студенческий клуб</a></li>
+			<li><a href="/russian/general/uvr/sport.htm">Спортивный клуб</a></li>
+		</ul>
+	</li>
+</ul>
+<ul>
+	<li>Акции и мероприятия
+		<ul>
+      		<li><a href="/russian/general/uvr/day_inf.htm">Единый день информирования</a></li>
+			<li><a href="/russian/general/wruss/akcii.htm">Акции ПО РОО «Белая Русь» УО «БГЭУ»</a></li>
+			<li><a href="/russian/general/uvr/volunteers.htm">Волонтерская деятельность</a></li>
+			<li><a href="/russian/general/uvr/patrioticEduc.htm">Патриотическое воспитание</a></li>
+			<li><a href="/russian/general/uvr/turizm.htm">Образовательный туризм</a></li>
+			<li><a href="/russian/general/uvr/events.htm">Мероприятия студсовета</a></li>
+		</ul>
+  </li>
+	<li>Материалы
+      	<ul>
+      		<li><a href="/russian/general/uvr/Kuratoru.htm">Куратору учебной группы</a></li>
+      		<li><a href="/russian/general/uvr/docs.htm">Нормативные документы и<br>организационно-методическое<br>обеспечение</a></li>
+			<li><a href="/russian/general/uvr/fight.htm">Ответственность за нарушение <br>
+		    порядка проведения массовых мероприятий</a></li>
+			<li><a href="/russian/news/202111263.htm">Профилактика наркомании среди молодежи</a></li>
+		</ul>
+	</li>
+</ul>
+
+		</div>
+		<div class="subMenuItems left" style="display:none;" id="service">
+        			<ul>
+			<li><a href="/russian/faculty4/department1.htm#service" class="green">Научно-исследовательская работа 
+		    под заказ организаций</a> </li>
+			<li><a href="/russian/general/eduServices.htm" class="marginTop20 green">Образовательные услуги</a><br>
+				Студенческая юридическая консультация
+				<ul>
+					<li><a href="/russian/teaching/mortuary.htm">Общие положения </a></li>
+					<li><a href="/russian/teaching/mortuary_day.htm">Порядок работы </a></li>
+					<li><a href="/russian/teaching/mortuary_mediac.htm">Медиация в деятельности СЮК</a></li>
+					<li><a href="/russian/teaching/prav_educ.htm">Правовое просвещение</a></li>
+				</ul>
+				Переводы
+				<ul><li><a href="/russian/teaching/translat.htm">Студенческое бюро переводов</a></li></ul>
+			</li>
+		</ul>
+		<ul>
+			<li>Физкультурно-оздоровительный центр
+				<ul>
+					<li><a href="http://www.bseu.by/sc/">Абонементы на посещение</a></li>
+				</ul>
+			</li>
+		</ul>
+		</div>
+		<div class="subMenuItems left" style="display:none;" id="purchases">
+        				<ul>
+				<li>Закупки
+					<ul>
+					<!--li><a href="javascript:void(0)" class="disabled">Текущие</a></li>
+					<li><a href="javascript:void(0)" class="disabled">Планируемые</a></li-->
+					<li><a href="https://goszakupki.by/purchases/62930" class="green" target="_blank">План на год</a></li>
+					</ul>
+				</li>
+				<li>Порядок закупок
+					<ul><li><a href="/russian/general/documents/20210713-zakupki.pdf">Положение о проведении закупок <br>
+				    товаров (работ, услуг)</a></li>
+						<li><a href="/russian/general/documents/20220805-zakupkiStroy.pdf">Положение о порядке проведения закупок <br>
+					    товаров (работ, услуг) при строительстве за счет собственных средств</a></li>
+					</ul>
+				</li>
+			</ul>
+
+		</div>
+        <div class="subMenuItems" style="display:none;" id="abit">
+        	        	<ul>
+              	<li>Подготовка
+					<p><a href="https://profitest.ripo.by/public/main" target="_blank" rel="nofollow noreferrer">Профориентационная диагностика «Профитест»</a>              		</p>
+					<p>Подготовительные курсы:</p>
+   					<ul class="topmargin5">
+					  <!--li><a href="/russian/news/202408210.htm">Набор на курсы по подготовке к ЦЭ и ЦТ</a></li-->
+					  <!--li><a href="/russian/abiturient/fdpdod.htm" class="green" data-enddate="5.09.2024">День открытых дверей центра довузовской<br>
+ подготовки и профессиональной ориентации</a></li-->
+						<li data-enddate="5.09.2024"><a href="/russian/abiturient/abcours.htm">Подготовка к ЦЭ и ЦТ</a></li>
+						<!--li><a href="/russian/abiturient/abSpecCourses.htm">Курсы для поступающих на сокращенную <br>
+					    форму получения образования</a></li-->
+						<li><a href="/russian/abiturient/planFDP.pdf">Контрольные цифры приёма на подготовку за <br>
+					    счет средств республиканского бюджета</a></li>
+					</ul>
+					Тестирования
+					<p><a href="/rtest.htm" class="green">Репетиционное</a></p>
+				  <p>Централизованное</p>
+					<ul class="topmargin5">			
+						<li><a href="/russian/abiturient/ctsched.htm" >График проведения ЦЭ и ЦТ</a></li>
+						<li><a href="/russian/test06/schedRoom.htm">График работы пункта регистрации</a></li>
+						<li><a href="/russian/test06/testing.htm">Порядок регистрации на ЦТ</a></li>
+						<li><a href="/russian/test06/paymInstr.htm">Инструкция по оплате регистрационного взноса</a></li>
+						<li><a href="https://rikc.by/">Регистрация иностранных  граждан</a></li>
+						<li><a href="/russian/test06/rules.htm"><u>Выдача сертификатов ЦТ</u></a></li>
+						<li><a href="/russian/test06/memo.htm">Памятка участнику ЦТ</a></li>
+						<!--li><a href="/russian/test06/ctque.htm">Электроная очередь</a></li-->
+						<li><a href="/ctrooms/" class="disabled">Аудитории проведения <br>централизованного экзамена и тестирования</a></li>
+					</ul>
+					<!--a href="/russian/news/202505140.htm" pdate="14.05.2025">День открытых дверей</a><br>&nbsp;<br-->
+					<!--a href="https://cabinet.bseu.by" class="green">Кабинет абитуриента</a><br>&nbsp;<br-->
+					Результаты прошлых лет
+					<p class="subheader">Проходные баллы:</p>
+					<ul class="topmargin5">
+						<li><a href="/russian/abiturient/plan1.htm">- на дневную форму</a></li>
+						<li><a href="/russian/abiturient/plan2.htm">- на заочную форму</a></li>
+						<li><a href="/russian/abiturient/plan3.htm">- на платную форму</a></li>
+					</ul>
+
+				</li>
+				<li>
+					Поступление
+					<ul>
+						<li><a href="/russian/abiturient/general.htm">Общие правила приема</a></li>
+						<li><a href="/russian/abiturient/pravila2026.pdf">Порядок приема в БГЭУ</a></li>
+						<li><a href="/russian/abiturient/abitRF.htm">Поступление граждан Российской Федерации</a></li>
+						<!--li><a href="/russian/abiturient/ktsp2025.pdf">Контрольные цифры приёма</a></li-->
+						<!--li><a href="/russian/abiturient/tsp2025.pdf">Цифры приёма</a></li-->
+						<!--li><a href="/russian/abiturient/plan.pdf">План приема</a></li-->
+						<!--li><a href="/russian/abiturient/sroki.pdf">Сроки проведения вступительной кампании</a></li-->
+						<!--li><a href="/russian/abiturient/pamjatka.pdf">Памятка абитуриенту</a></li-->
+						<li><a href="/russian/abiturient/documents.htm">Документы подаваемые в приемную комиссию</a></li>
+						<li><a href="/russian/abiturient/forms.htm">Формы и образцы документов </a></li>
+						<li><a href="https://edu.gov.by/abiturientu-2024/otvety-na-voprosy-goryachey-linii/">Часто задаваемые вопросы</a></li>
+						<!--li><a href="/abiturient" class="blue">Ход подачи документов</a></li-->
+					    <!--li><a href="/russian/abiturient/graphik.pdf">График работы приемной комиссии</a></li-->
+						<!--li><a href="/russian/abiturient/rooms.pdf">Размещение приемных комиссий</a></li-->
+						
+						<!--li><a href="/russian/abiturient/abschedule.htm">Графики зачисления</a></li>
+						<li><a href="/abitpassed" class="orange">Списки рекомендованных к зачислению</a></li-->
+
+					</ul>
+					<!--strong>Абитуриент 2023</strong> 						
+					<ul>
+						<li><a href="/abiturient" class="blue">Ход подачи документов</a></li>
+
+						<li><a href="/russian/abiturient/examsched.htm">Расписание консультаций и экзаменов<br> 
+						(для поступающих на заочное с сокращенным сроком)</a></li>
+						<li><a href="/abitexams" class="green">Результаты вступительных испытаний<br><span class="smaller italic">(заочное с сокращенным сроком)</span></a></li>
+						<li><a href="/russian/abiturient/abschedule.htm">Графики зачисления</a></li>
+						<li><a href="/abitpassed" class="orange">Списки рекомендованных к зачислению</a></li>
+
+					</ul-->
+					Целевая подготовка
+					<ul>
+						<!--li><a href="/russian/abiturient/aboutTargeted.htm">О целевой подготовке</a></li-->
+						<!--li><a href="/russian/abiturient/planTargeted.pdf">Количество мест на условиях целевой подготовки <br>
+					    специалистов в 2025 году</a></li-->
+						<!--li><a href="https://www.google.com/maps/d/u/0/viewer?mid=1Zh5YUuI4iZkNKIqgEeiVjfR3WD8zVe4&ll=53.897038500000015,27.495060499999997&z=8">Интерактивная карта для абитуриентов, <br>
+					    поступающих
+					    на условиях целевой подготовки</a></li-->
+						<!--li><a href="/russian/abiturient/compainTargeted.htm">Сроки проведения вступительной кампании</a></li-->
+						<!--li><a href="/russian/abiturient/targ2025/examPamjatka.pdf">Памятка о правилах участия во вступительном <br>
+				      испытании </a></li-->
+					    <!--li><a href="/russian/abiturient/notesTargeted.htm">О целевой подготовке &mdash; 2025</a></li-->
+						<!--li><a href="/russian/abiturient/targ2025/documents.pdf">Перечень документов для поступающих <br>на условиях 
+					    целевой подготовки</a></li>
+					    <li><a href="/russian/abiturient/targDocuments.htm">Формы и образцы документов</a></li>
+					    <li><a href="/russian/abiturient/targ2025/pamjatka.pdf">Памятка абитуриенту</a></li-->
+					    <li><a href="/russian/abiturient/porjadokAV.pdf">Порядок хранения аудио- и видеоматериалов при <br>
+				        проведении вступительных испытаний</a></li>
+					    <li><a href="/russian/abiturient/interviews.htm">Интервью студентов, обучающихся на условиях <br>
+				        целевой подготовки</a></li>
+					    <!--li><a href="/russian/abiturient/targ2025/graphik.pdf">График работы приемной комиссии</a></li-->
+					    <!--li><a href="/russian/abiturient/tgtConsSched.pdf">График консультирования по вопросам<br>вступительной кампании</a></li-->
+						<!--li><a href="/abittarget" class="disabled .blue">Ход подачи документов на <br>
+				      целевую подготовку</a></li-->
+						<!--li><a href="https://edu.gov.by/abiturientu-2024/tselevoy-nabor/voprosy-k-vstupitelnym-ekzamenam-po-tselevym-dogovoram/index.php">Вопросы для вступительных испытаний <br>
+					    на условиях целевой подготовки</a></li-->
+						
+						<!--li><a href="/russian/abiturient/examsched.htm">Расписание консультаций и экзаменов<br><span class="smaller italic">(приём на условиях целевой подготовки)</span></a></li-->
+						<!--li><a href="https://goo.su/k18C1">Организации-заказчики</a></li-->
+
+					</ul>
+					
+					Сокращенная форма
+					<ul>
+						<li><a href="/russian/abiturient/specForByCorLite.pdf">Список специальностей</a>,<br>&nbsp;&nbsp;<span class="smaller italic">дающих право поступления</span></li>
+						<li><a href="/russian/abiturient/aboutSSO.htm">О сокращенной форме</a></li>
+						<li><a href="/russian/abiturient/examslist.htm">Предметы и программы экзаменов</a></li>
+						<!--li><a href="/russian/abiturient/examsched.htm#sso">Расписание консультаций и экзаменов<br> 
+						(для поступающих на заочное с сокращенным сроком)</a></li-->
+						<!--li><a href="/ctrooms/" class="green">Аудитории проведения <br>вступительных испытаний</a></li-->
+						<!--li><a href="/abitexams" class="blue">Результаты вступительных испытаний</a></li-->
+						<!--li><a href="/russian/abiturient/abschedule.htm#sso">График зачисления</a></li-->
+					</ul>
+					<!--Магистратура
+					<ul>
+						<li><a href="/russian/teaching/magistr/default.htm">Магистерская подготовка</a></li>
+						<li><a href="/russian/teaching/magistr/generalnew1.htm">Магистранту-абитуриенту</a></li>
+       			  		<li><a href="/russian/teaching/magistr/rulesgeneral.pdf">Правила приема</a></li>
+						<li><a href="/russian/teaching/magistr/questions.htm">Программы вступительных испытаний</a></li>
+				  </ul-->
+					Второе высшее образование
+					<ul>
+						<li><a href="/russian/teaching/SecondEduc.htm">Порядок получения</a></li>
+						<!--li class="groupend"><a href="/russian/abiturient/plan_svo.pdf">План приема</a></li-->
+					</ul>
+					Дистанционное обучение
+					<ul>
+						<li><a href="//i.bseu.by/promo/index.html">Порядок получения</a></li>
+					</ul>
+				</li>
+			</ul>
+
+				<!--li>
+					<strong>Абитуриент 2023</strong> 
+				  <ul>
+						<li><a href="/abiturient" class="blue">Ход подачи документов на <br>
+				      целевую подготовку</a></li>
+						<li><a href="/abitexams" class=".green disabled">Результаты вступительных испытаний<br><span class="smaller italic disabled">(заочное с сокращенным сроком)</span></a></li>
+						<!--li><a href="/russian/abiturient/abschedule.htm" class="disabled">Графики зачисления</a></li-->
+						<!--li><a href="/abitpassed" class=".orange disabled">Списки рекомендованных к зачислению</a></li-->
+						<!--li><a href="/russian/abiturient/rooms.htm" class="disabled">Размещение приемных комиссий</a></li-->
+					<!--/ul>
+					Результаты прошлых лет
+					<p class="subheader">Проходные баллы:</p>
+					<ul class="topmargin5">
+						<li><a href="/russian/abiturient/plan1.htm">- на дневную форму</a></li>
+						<li><a href="/russian/abiturient/plan2.htm">- на заочную форму</a></li>
+						<li><a href="/russian/abiturient/plan3.htm">- на платную форму</a></li>
+					</ul>
+				</li-->
+       <ul>  <li><span class="blue">Контакты</span>
+				<ul>
+					<li><a href="mailto://rector@bseu.by">Почта ректора</a></li>
+		   		</ul>
+		   <p class="subheader">Приёмная комиссия</p>
+		   <ul class="topmargin5">
+                    <li><a href="mailto://atp@bseu.by">Электронная почта</a><br>
+				    <a href="http://bseu.by/feedback/feedback.dll/form#3">Форма  обратной связи</a><br>
+				    Телефон: +375 17 209 88 99<br>				    
+				    Факс: +375 17 209 88 16
+			        </li> 
+		   </ul>
+		   <p class="subheader">Время работы: </p>
+		   <ul class="topmargin5">
+                   <li>Пн-Чт: 8:30-13:00, 14:00-17:30,<br>
+	                  Пятница: 8:30-13:30, 14:00-17:00<br>
+	                  Выходной: суббота-воскресенье</li>
+                 </ul>
+		      </li>
+		     <!--li><span class="blue">Горячая линия</span>
+									
+				 <p class="subheader">С 07.04.2025 г. в УО БГЭУ</p>
+                <ul class="topmargin5">
+				    <li>Время работы:<br>
+				         Пн-Пт: 8:30-13:00, 14:00-17:30<br>
+	                     Телефон: +375 17 209 88 99</li>
+				 </ul>
+	              <p class="subheader">С 09.04.2025 г. в Министерстве<br>
+					  образования Республики Беларусь:</p>
+				 <ul class="topmargin5">
+				    <li>Время работы: <br>
+                      Пн-Пт: 9:00-13:00, 14:00-18:00,<br>
+	                  Телефон: +375 17 222 43 12</li>
+                </ul> 
+	         </li-->
+       </ul>
+
+			<ul>
+			<li>Обучение
+			  <ul>
+			    <li><a href="/russian/student/disciplines.htm">Перечень изучаемых дисциплин по специальностям</a></li>
+			    <li><a href="/russian/student/movement.pdf">Перевод и восстановление</a></li>				
+			    <li><a href="/russian/abiturient/srok.htm">Сроки обучения</a></li>
+			    <li><a href="/russian/abiturient/pay.htm">Стоимость обучения студентов</a></li>
+			    <li><a href="/russian/student/costRF.htm">Стоимость обучения граждан Российской Федерации</a></li>	
+				<li><a href="/russian/teaching/magistr/prikaz_pay.htm">Стоимость обучения магистрантов</a></li>
+		      </ul>
+				</li>
+			  <li>
+			    Общежития
+			    <ul>
+			      <!--li><a href="/russian/student/polog_magis.htm">Положение о заселения</a></li-->
+			      <li><a href="/russian/student/sched_hostel.pdf">График заселения общежития</a></li>
+			      <li><a href="/russian/abiturient/hostel.htm">Памятка по заселению</a></li>
+		        </ul>
+			  </li>
+</ul>
+
+        </div>
+        <div class="subMenuItems" style="display:none;" id="student">
+        			<ul>
+            <li class="top">Общая информация
+				<ul>
+                <li><a href="/russian/student/kodeks.doc">Кодекс студента</a></li>
+                <li><a href="/russian/student/pvr/2022.08.31-767-pvr.pdf">Правила внутреннего распорядка для обучающихся</a></li>
+                <li><a href="/russian/general/dogov2022.pdf">Соглашение ППО студентов<br>и УО БГЭУ на 2022-2025 гг.</a></li>
+                <li><a href="/russian/student/2021.06.29-709a-polozhenie.pdf">Положение по переводу на бюджет</a></li>
+                <li><a href="/russian/student/movement.pdf">Перевод, отчисление и восстановление</a></li>
+                <li><a href="/russian/student/polog_proezhd.htm">Об оказании материальной<br>помощи на проезд</a></li>
+                <li><a href="/russian/student/medhelp.htm">Медицинская помощь</a></li>
+                <li><a href="/russian/student/student.rar">Образцы документов</a></li>
+				</ul>        		
+				Стипендии
+<ul>
+	  <li><a href="http://www.pravo.by/pdf/2011-102/2011-102(004-014).pdf#page=1">Положение о стипендиях Президента <br>
+      Республики Беларусь</a></li>
+           		<li><a href="/russian/student/stipen.htm">Положение о стипендии Совета БГЭУ</a></li>
+           		<li><a href="/russian/student/stipkan.htm">Порядок выдвижения кандидатов</a></li>
+           		<li><a href="/russian/general/dogov2022.pdf#page=13">О надбавках к стипендиям, стимулирующих <br>
+       		    выплатах и материальной помощи</a> </li>
+			  </ul>
+           		Стоимость
+           		<ul>
+           			<li><a href="/russian/student/pay.htm">Стоимость обучения в БГЭУ</a></li>
+           			<li><a href="/russian/student/2025.07.02-496-skidki.pdf">Положение о скидках за обучение</a></li>
+	         		<li><a href="/russian/student/zadolzh.htm">Стоимость ликвидации академической<br>разницы</a></li>
+          			<li><a href="/russian/student/costs.htm">Стоимость карт доступа, дубликатов<br>студенческого и зачетной книжки</a></li>
+          			<li><a href="/russian/student/pay_doc.htm">Нормативные документы</a></li>
+				</ul>
+         		
+           		<a href="/russian/general/hostels.htm" class="green">Общежития</a>
+           		<ul>
+           		<li><a href="/russian/student/members.htm">Жилищно-бытовая комиссия</a></li>
+           		<li><a href="/russian/student/polog_hostel.htm">Положение об общежитиях</a></li>
+           		<li><a href="/russian/student/sched_hostel.pdf">График заселения</a></li>
+           		<li><a href="/russian/student/dor_doc.htm">Нормативные документы</a></li>
+           		</ul>
+			</li>
+          	<li>
+         		Обучение
+           		<ul>
+           		<li><a href="/russian/student/grafz.htm">График учебного процесса ЗФО</a></li>
+				<li><a href="/russian/teaching/disciplins/order.htm">Порядок выбора студентами учебных дисциплин</a></li>
+           		<li><a href="/russian/teaching/disciplins/discipl.htm">Дисциплины по выбору</a></li>
+
+			  </ul>          		
+           		<a href="/schedule/" class="green" >Расписание занятий</a><br>
+           		<a href="//edoc.bseu.by" class="green">Электронная библиотека</a><br>
+           		<a href="https://cabinet.bseu.by/" class="marginTop20 green">Электронный кабинет</a><br>
+          		Аттестация
+          		<ul>
+           		<li><a href="/russian/student/reyting.htm">Положение о рейтинговой системе..</a></li>
+           		<li><a href="/russian/student/2023.10.13-319-pravilaAttestacii.pdf">Правила проведения аттестации студентов</a></li>
+           		<li><a href="/russian/student/perezach.htm">Порядок перезачета дисциплин</a></li>
+           		<li><a href="/russian/student/2025.12.30-reglament_plagt.pdf">Регламент проверки дипломных работ,<br>
+       		    магистерских диссертаций на наличие заимствований</a></li>
+				</ul>
+				Тестирование
+           		<ul>
+           		<li><a href="/russian/student/reminderTesting.pdf">Памятка студентам набора 2021-24 гг</a></li>
+       		  </ul>
+				Практика
+				<ul>
+					<li><a href="//job.bseu.by/practice/general.htm">Положение о практике</a></li>
+					<li><a href="//job.bseu.by/practice/duty3.htm">Обязанности студента</a></li>
+					<li><a href="//job.bseu.by/handle/job/1">Программы практик</a></li>
+					<li><a href="//job.bseu.by/practice/list.htm">Нормативные документы</a></li>
+				</ul>
+				Бизнес инкубаторы
+				<ul>
+				<li><a href="http://nir.bseu.by/incubator/fcti.htm">Студенческий бизнес-инкубатор ФКТИ</a></li>
+				<li><a href="http://nir.bseu.by/incubator/fm.htm">Студенческий бизнес-инкубатор ФЭМ</a></li>
+				</ul>			
+          		
+            </li>
+          </ul>
+		</div>
+       	<div class="subMenuItems" style="display:none;" id="master">
+        	       	  <ul>
+       		<li class="top">Магистерская подготовка<ul>
+				<li><a href="/russian/teaching/magistr/default.htm">О нас</a></li>
+				<li><a href="/russian/teaching/magistr/default.htm#present">Презентации магистерских программ<br>и отзывы выпускников</a></li>
+       		  </ul>
+       		  <span class="marginTop20">Поступление</span>
+       			<ul>
+       			  <li><a href="/russian/teaching/magistr/generalnew1.htm">Магистранту-абитуриенту</a></li>
+       			  <li><a href="/russian/teaching/magistr/rulesgeneral.pdf">Правила приема</a></li>
+       			  <li><a href="/russian/teaching/magistr/rules-2024.pdf" class="disaabled">Порядок приёма</a></li>
+       			  <li><a href="/russian/teaching/magistr/plan.pdf">План приёма</a></li>
+       			  <li><a href="/russian/teaching/magistr/questions.htm">Программы вступительных испытаний</a></li>
+                  <li><a href="/russian/teaching/magistr/examSchedule.pdf" class="disaabled">Расписание экзаменов</a></li>
+                  <!--li><a href="/russian/teaching/magistr/results-2022.pdf">Результаты приёма документов</a></li-->
+                  <li><a href="/abitmag/" class="disabled .blue">Ход подачи документов</a></li>
+		      </ul>
+				Специальности
+				<ul>
+				 <li><a href="/russian//teaching/magistr/profil.htm" target="_blank">Русскоязычная магистратура</a></li>
+				  <li><a href="/russian/teaching/magistr/magistr_in.htm">Англоязычная магистратура</a></li>
+			  </ul>
+				<!--p>Двойные дипломы</p>
+       			<ul class="topmargin5">
+        		<li><a href="/russian/teaching/magistr/doubleD.htm">Бизнес-администрирование</a></li>
+       			</ul-->
+				
+				Стоимость обучения и стипендии
+           		<ul>
+           		  <li class="groupend"><a href="/russian/teaching/magistr/prikaz_pay.htm">Стоимость обучения магистрантов</a></li>
+           		  <li><a href="http://www.pravo.by/webnpa/text.asp?RN=P39600343">Положение о стипендиях Президента Республики Беларусь</a></li>
+           		  <li><a href="/russian/student/stipen.htm">Положение о стипендии Совета БГЭУ</a></li>
+           		  <li><a href="/russian/student/stipkan.htm">Порядок выдвижения кандидатов</a></li>
+       		  </ul>					
+			</li>
+     		<li>Общая информация
+				<ul>
+                <li><a href="/russian/student/kodeks.doc">Кодекс студента</a></li>
+                <li><a href="/russian/student/pvr/2022.08.31-767-pvr.pdf">Правила внутреннего распорядка для обучающихся</a></li>
+                <li><a href="/russian/general/dogov2019.pdf">Соглашение ППО студентов<br>
+                и УО БГЭУ на 2022-2025 гг.</a></li>
+                <li><a href="/russian/student/2021.06.29-709a-polozhenie.pdf">Положение по переводу на бюджет</a></li>
+                <li><a href="/russian/student/polog_proezhd.htm">Об оказании материальной<br>помощи на проезд</a></li>
+                <li><a href="/russian/student/medhelp.htm">Медицинская помощь</a></li>
+				</ul>
+      			Обучение
+       			<ul>
+       			<!--li><a href="/russian/teaching/magistr/education.htm">Организация обучения</a></li>
+				<li><a href="/russian/teaching/magistr/disciplines.htm">Дисциплины по выбору</a></li>
+       			<li><a href="/russian/teaching/magistr/Codes.htm">Кафедры профилизаций, коды групп</a></li>
+       			<li><a href="/russian/teaching/magistr/studyShed.htm">График образовательного процесса</a></li>
+				<li class="groupend"><a href="//job.bseu.by/handle/job/2">Программы практик</a></li-->
+       			<li class="groupend"><a href="/schedule">Расписание занятий</a></li>
+				</ul>
+				Практика
+				<ul>
+					<li><a href="//job.bseu.by/practice/general.htm">Положение о практике</a></li>
+					<li><a href="//job.bseu.by/practice/duty3.htm">Обязанности студента</a></li>
+					<li><a href="//job.bseu.by/handle/job/1">Программы практик</a></li>
+					<li><a href="//job.bseu.by/practice/list.htm">Нормативные документы</a></li>
+				</ul>
+				Перевод, восстановление и отпуска
+          		<ul>
+          		  <!--li><a href="/russian/student/otpusk.htm">Об академических отпусках</a></li-->
+          		  <li><a href="/russian/teaching/student/movement.pdf">Перевод, отчисление и восстановление</a></li>
+          		  <li><a href="/russian/student/zadolzh.htm">Стоимость ликвидации академической<br>
+          		    разницы</a></li>
+       		  </ul>
+       		  Аттестация
+<ul>
+	  <!--li><a href="/russian/student/currentValidation.htm">Текущая аттестация</a></li>
+           		<li><a href="/russian/student/finalValidation.htm">Итоговая аттестация</a></li-->
+	  <li><a href="/russian/student/perezach.htm">Порядок перезачета дисциплин</a></li>
+	  </ul>
+				<a href="/russian/general/hostels.htm" class="green">Общежития</a>
+           		<ul>
+           		<li><a href="/russian/student/members.htm">Жилищно-бытовая комиссия</a></li>
+           		<li><a href="/russian/student/polog_hostel.htm">Положение об общежитиях</a></li>
+           		<li><a href="/russian/student/sched_hostel.pdf">График заселения</a></li>
+           		<li><a href="/russian/student/dor_doc.htm">Нормативные документы</a></li>
+       			</ul>
+			  </li>
+			</ul>
+
+		</div>
+        <div class="subMenuItems" style="display:none;" id="foreigners">
+        	<ul>
+        		<li><a href="/russian/international/default.htm" class="green">Иностранным гражданам</a></li>
+			</ul>
+       		<ul>
+				<li>Координация
+        			<ul>
+        				<li><a href="/russian/international/dekanat.htm">Учебно методическое управление<br>координации обучения иностранных граждан</a></li>
+						<!--li><a href="/russian/international/160502-447А.pdf">Положение о работе с иностранными учащимися</a></li-->
+					</ul>
+				</li>
+			</ul>
+		   	<ul>
+        		<li><a href="/russian/international/eduForeigners.htm" class="green">Информация об образовательных услугах для иностранных граждан</a></li>
+			</ul>
+			<ul>
+				<li>Подготовка к поступлению
+        			<ul>
+					<li><a href="/russian/faculty10/faculty10.htm">Центр довузовской подготовки <br>
+                       и профессиональной ориентации</a></li>
+        				<!--li><a href="/russian/international/preparatory.htm" class="disabled">Подготовительное отделение</a></li>
+        				<li><a href="/russian/international/russiancourses.htm">Курсы русского языка</a></li-->
+        			</ul>
+          			Поступление
+          			<ul>
+						<!--li><a href="/russian/international/specialities.htm" class="disabled">Возможности и условия приема в 2022 г.</a></li-->
+						<li><a href="/russian/international/por_int.htm">Порядок приема в БГЭУ иностранных граждан <br>
+					    на курсы подготовки и для получения общего <br>
+					    высшего образования</a></li>
+						<li><a href="/russian/teaching/magistr/rules-2023.pdf">Порядок приема в магистратуру</a>	</li>
+     					<li><a href="http://nir.bseu.by/podgotovka/aspr2.htm">Порядок приема в аспирантуру</a></li>
+   					</ul>
+			      <p><a href="https://fcab.bseu.by">Кабинет иностранного абитуриента</a></p>
+				</li>
+				<li>Обучение
+			  </li>
+			</ul>
+			<ul>
+			  <ul>
+			    <li class="subhead">Обучение на английском языке:<br>
+			      <p>- <a href="/russian/international/eduForeigners.htm">Программы бакалавриата</a></p>
+			      <p>- <a href="/russian/teaching/magistr/magistr_in.htm">Магистерские программы</a></p>
+			      <p>- <a href="https://nir.bseu.by/podgotovka/aspir/spec_inostr.pdf">Аспирантура и докторантура</a></p>
+		        </li>
+			    <li><a href="/russian/international/internship.htm">Стажировки</a></li>
+			    <li><a href="/russian/international/schools.htm">Летние и зимние школы</a></li>
+			    <li><a href="https://www.youtube.com/playlist?list=PLL65NKdB-kSwaebKjC1RJH7UTCBW-nm4x">Отзывы иностранных студентов</a></li>
+			    <li><a href="https://youtu.be/jsb6PfZsP84">Виртуальная экскурсия по универистету</a></li>
+			    
+		      </ul>
+</ul>
+			<blockquote>
+			  <p>		      Проживание и досуг
+		      </p>
+</blockquote>
+			<ul>
+			  <ul>
+			    <li><a href="/russian/international/dos.htm">Проживание</a></li>
+			    <li><a href="/russian/international/leisure.htm">Досуг и отдых</a></li>
+			    </ul>
+</ul>
+			<blockquote>
+			  <p>		      Стоимость обучения
+		      </p>
+</blockquote>
+			<ul>
+			  <ul>
+			    <li><a href="/russian/student/prikaz478int.htm">Общее высшее образование</a></li>
+			    <!--li><a href="/russian/international/costBakEngl.htm">Общее высшее образование на английском языке</a></li-->
+			    <li><a href="/russian/teaching/magistr/magistrforeigner.htm">Магистратура</a></li>
+			    <!--li><a href="/russian/teaching/magistr/magistrforeigner.htm">Русскоязычная магистратура</a></li>
+        				<li><a href="/russian/teaching/magistr/magistrForeignerEng.htm">Англоязычная магистратура</a></li-->
+			    <li><a href="/russian/student/prikaz344int.htm">Курсы подготовки иностранных граждан</a></li>
+			    <!--li><a href="/russian/international/intRu.htm">Языковые курсы</a></li-->
+			    <!--li><a href="/russian/international/coursesCost.htm">Переподготовка ИПК и ПЭК</a></li-->
+			    </ul>      
+</ul>
+       		<ul>
+        		<li>Въезд и пребывание в Республике Беларусь
+        			<ul>
+        				<li><a href="/russian/international/umoms/infa.htm">Правила пребывания и проживания</a></li>
+        				<li><a href="/russian/international/documents.htm">Документы для оформления виз и разрешений</a></li>
+        				<li><a href="/russian/international/poort.htm">Ответственность за нарушение правил пребывания</a></li>
+                        <li><a href="https://etalonline.by/document/?regnum=H11000105">Закон Республики Беларусь О правовом положении иностранных граждан</a></li>
+					<li><a href="https://docs.google.com/spreadsheets/d/1ysV9JG0tuF64f-XK9_y3rIOBSiY6SXR2imB_hrUA9m4" target="_blank" class="yellow">Информация о готовности приглашений</a></li></ul>
+					<ul><li><a href="/russian/international/metodOnEmployment.pdf">Работа для иностранных студентов</a></li></ul>
+
+			  </li>  			
+</ul>
+		</div>
+        <div class="subMenuItems" style="display:none;" id="employers">
+        	<ul><li>Заказчикам  специалистов с высшим образованием
+  <ul>
+  <li><a href="/russian/employers/documents/Нормативные правовые акты.docx">Нормативные  правовые акты</a></li>
+  <li><a href="https://etalonline.by/document/?regnum=c22200572&q_id=4006728">Постановление Совета Министров Республики Беларусь от 31.08.2022  №&nbsp;572</a></li>
+  <li><a href="https://edu.gov.by/urovni-obrazovaniya/vysshee-obrazovanie/zakazchikam-spetsialistov/podgotovka-spetsialista/index.php">Заказ на  подготовку специалистов с высшим образование</a></li>
+  <li><a href="https://edu.gov.by/urovni-obrazovaniya/vysshee-obrazovanie/zakazchikam-spetsialistov/tselevaya-podgotovka/index.php">Целевая  подготовка специалистов с высшим образование</a></li>
+  <li><a href="https://zakaz.unibel.by/require/registration">Инструкция  по работе с базой данных «Заказ на подготовку кадров»</a></li>
+  <li><a href="/russian/employers/documents/ДОГОВОР о взаимодействии с организацией-заказчиком кадров.pdf">ДОГОВОР о  взаимодействии с организацией-заказчиком кадров</a></li>
+  </ul>
+</li>
+<li><strong>Контакты</strong>
+<ul><li>Отдел сопровождения приемной кампании
+<p>Адрес: 220070, г. Минск, пр-т Партизанский, <br>
+  26,  уч.корп. 3, аудитория 248<br>
+  Тел.: +375 17 209 88 99<br>
+  Почта: <a href="mailto:atp@bseu.by">atp@bseu.by</a></p>
+<p>График работы:<br>
+  8:30—13:00, 14:00—17:30<br>
+  Пятница:<br>
+  8:30—13:00, 13:30—17:00<br>
+  Выходной:<br>
+  суббота, воскресенье</p>
+</li></ul>
+</li>
+</ul>
+
+
+		</div>
+		<div class="subMenuItems" style="display:none;" id="upgrade">
+        				<ul>
+	           	<li>Курсы
+
+					<ul>
+     				  <li><a href="/russian/faculty17/courses.htm">Обучающие курсы</a></li>
+						<!--li><a href="/russian/faculty17/programm_C_2010.doc">Программы</a></li>
+						<li><a href="/russian/faculty17/cost_ku.doc">Стоимость курсов и сроки обучения</a></li-->
+					</ul>
+					Переподготовка на базе высшего
+      				<ul>
+						<li><a href="/russian/faculty17/retraining.htm">О переподготовке</a></li>
+						<li><a href="/russian/faculty17/furthertrain.htm">Порядок приема</a></li>
+						<li><a href="/russian/faculty17/furthertrain.htm">Сроки приема документов</a></li>
+						<li><a href="/russian/faculty17/retrainingCosts.htm">Стоимость обучения</a></li>
+      				</ul>
+				</li>
+     			<li>
+      				Повышение квалификации
+       				<ul>
+						<li><a href="/russian/faculty17/train.htm">Повышение квалификации<br>
+       					руководителей и специалистов</a></li>
+						<li><a href="/russian/faculty17/programm_PV.htm">Программы, сроки и стоимость обучения</a></li>
+						<li><a href="/russian/faculty17/nalog.htm">Подготовка к сдаче экзамена на сертификат налогового консультанта</a></li>
+						<li><a href="/russian/faculty17/seminar.htm">Тематические семинары</a></li>
+       				</ul>
+				</li>
+			</ul>
+		</div>
+        <div class="subMenuItems right" style="display:none;" id="onewindow">
+        			<ul>
+            <li class="top">Электронные обращения
+            	<ul><li><a href="/russian/psinglewindow/2023.06.13-172-ukaz.pdf">Директива Президента Республики Беларусь от 27.12.2006 № 2 «О дебюрократизации государственного аппарата и повышении качества обеспечения жизнедеятельности населения»</a></li>
+				</ul>
+           		<p>Административные процедуры</p>
+			  <ul class="topmargin5"><li><a href="/russian/psinglewindow/proclist.htm">Перечень административных процедур</a></li>
+       		  </ul>
+           		<ul>
+			  	<li><a href="/russian/psinglewindow/persSched.htm">Порядок и график личного приема граждан руководством университета</a></li>
+			  	<li><a href="/russian/psinglewindow/appeals.htm">Порядок рассмотрения обращений граждан, в том числе индивидуальных предпринимателей, и юридических лиц в БГЭУ</a></li>
+			  	<li> <a href="/russian/psinglewindow/hotLinesSched.htm">График проведения прямых телефонных линий 
+		  	      руководством университета</a></li>
+           		<li><a href="/russian/general/uvr/hot.htm">Книга замечаний и предложений</a></li>
+           		<li><a href="/russian/psinglewindow/emessage.htm" class="green">Электронное обращение</a></li>
+				</ul>
+           		<p>Официальные сайты</p>
+       		  <ul class="topmargin5">
+           		<li><a href="http://www.president.gov.by">Сайт Президента Республики Беларусь</a></li>
+           		<li><a href="http://www.government.by">Сайт Совета Министров Республики Беларусь</a></li>
+           		<li><a href="http://www.minedu.unibel.by/">Сайт Министерства образования Республики Беларусь</a></li>
+       		  </ul>
+		</ul>		
+<ul>
+  <li>Вышестоящий государственный орган
+  	<p><a href="https://edu.gov.by/">Министерство образования Республики Беларусь</a></p>
+	<ul>
+	  <li>Адрес: 220010, г. Минск, ул. Советская, 9 </li>
+	  <li>Режим работы: Понедельник — Пятница: 9.00 — 13.00; 14.00 — 18.00</li>
+	</ul>
+  </li>
+
+</ul>
+		</div>
+        <div class="subMenuItems right" style="display:none;" id="contacts">
+        				
+<ul>
+		      <li>			  
+			  	Формы обратной связи
+             	<ul>
+			  	<li><a href="/russian/psinglewindow/hotLinesSched.htm">Прямые телефонные линии 
+		  	      руководства университета</a></li>
+			  	<li><a href="/russian/psinglewindow/persSched.htm">Личный приём граждан руководством университета</a></li>
+           		<li><a href="/russian/psinglewindow/emessage.htm" class="green">Электронное обращение</a></li>
+				</ul>
+				<p>Сайт:</p>
+				<ul>
+				  <li><a href="https://bseu.by">bseu.by</a></li>
+			    </ul>
+				<p>Электронная почта:</p>
+				<ul class="topmargin5"><li><a href="mailto://rector@bseu.by">rector@bseu.by</a></li>
+																   
+															
+					<li><a href="/russian/general/prorectors.htm">Ректорат</a></li>
+					<li><a href="mailto://atp@bseu.by">Приёмная комиссия</a></li>
+				</ul>
+				<p><a href="/feedback/feedback.dll/form">Электронная форма обратной связи</a></p>
+				<p>&nbsp;</p>
+			</li>
+			  <li>Телефоны
+				<p>Прямые телефонные линии</p>
+				  <ul>
+				    <li><a href="/russian/psinglewindow/hotLinesSched.htm">График проведения прямых телефонных c<br>
+			        линий 
+		  	      руководством университета</a></li></ul>
+				<p>Приёмная комиссия</p>
+				<ul class="topmargin5">
+				  <li>Тел.:&nbsp;(+375 17) 209-88-99</li>
+				</ul>
+				<p>Отдел документационного обеспечения</p>
+				<ul class="topmargin5">
+				  <li>Тел./факс.:&nbsp;&nbsp;(+375 17) 209-88-16</li>
+			    </ul>
+				<p><a href="/russian/psinglewindow/allTelef.htm" class="green">Все телефоны</a></p>
+			  </li>
+			</ul>
+			<ul><li>Юридический адрес
+           		<ul>
+				<li>Учреждение высшего образования "Белорусский государственный экономический университет"</li>
+           		<li>220070, Республика Беларусь, г. Минск, пр. Партизанский 26</li>
+				</ul>
+				<a href="/russian/general/documents/2019.05.02-467A.pdf" class="green">Банковские реквизиты</a><br>
+				Адреса
+				  <ul><li><a href="/russian/postal.htm">Учебные корпуса</a></li>
+					  <li><a href="/russian/general/hostels.htm#contacts">Общежития</a></li>
+				  </ul>
+                Режим работы:
+                <ul><li>Понедельник-четверг:  8:30 - 13:00, 14:00 - 17:30,</li>
+                  <li>пятница: с 8:30 - 13:00, 13:30 - 17:00</li>
+                  <li> выходной: суббота, воскресенье.</li>
+				</ul>
+				Занятия
+				<ul>
+                  <li>понедельник - суббота: 8:15 - 20:35  <a href="/schedule">по расписанию</a></li>
+					<li>выходной: воскресенье.</li>
+				</ul>
+				</li>
+</ul>
+<ul>
+			  <li>Филиал &quot;Новогрудский торгово-экономический колледж&quot;
+				  <p>Юридический адрес:</p>  
+					<ul><li>231400, Республика Беларусь, Гродненская обл., г. Новогрудок, ул. Мицкевича, 15</li></ul>
+			    <p>Приёмная директора</p>
+			    <ul>
+			      <li> (01597) 4-90-88</li>
+		        </ul>
+				  <p>Приёмная комиссия</p>
+			    <ul>
+			      <li>(01597) 4-93-02 </li>
+			    </ul>
+			    <ul><li>Факс: (01597) 4 90 88</li>
+					<li>Web-сайт: <a href="https://www.ntek.by">www.ntek.by</a></li>
+			    <li>E-mail: <a href="mailto://ngtek@bseu.by">ngtek@bseu.by</a></li>
+				</ul>
+              </li>
+		</ul>
+<ul>
+  <li>Вышестоящий государственный орган
+  	<p><a href="https://edu.gov.by/">Министерство образования Республики Беларусь</a></p>
+	<ul>
+	  <li>Адрес: 220010, г. Минск, ул. Советская, 9 </li>
+	  <li>Режим работы: Понедельник — Пятница: 9.00 — 13.00; 14.00 — 18.00</li>
+	</ul>
+  </li>
+
+</ul>
+
+				
+		</div>
+	</div><!--Menu-->
+    <div id="adspanel"  style="position: relative; overflow: hidden; visibility: hidden; width: 1293px; height: 176px;"><!-- не делать перенос строки между блоками - не влезет последний блок!-->
+	<div class="slides" data-u="slides"  style="cursor: default; position: relative; left: 55px; width: 1179px; height: 170px; overflow: hidden;">
+		<div data-p="125.00" class="alt ct2 green">
+        	<a href="/russian/abiturient/prepcourses.htm">
+            <h2 style="margin-top: 74px">ПОДГОТОВИТЕЛЬНЫЕ КУРСЫ</h2>
+            <p class="center">к сдаче централизованных экзамена (ЦЭ) и тестирования (ЦТ) в 2026 году</p>
+            </a>
+			<!--span class="campaing"><a href="/russian/abiturient/abcours.htm">Набор!</a></span-->
+        </div><!--div data-p="125.00" class="alt course green">
+        	<a href="/russian/abiturient/fdpdod.htm">
+            <h2 style="margin-top: 74px">День открытых дверей</h2>
+            <p class="center">для абитуриентов 2026 и учащихся 9-10-х классов</p>
+            </a>
+			<span class="campaing"><a href="/russian/abiturient/fdpdod.htm">26 апреля</a></span>
+        </div--><!--div data-p="125.00" class="rtest green">
+        	<a href="/russian/news/2024120210.htm">
+            <h2 style="margin-top: 74px">День открытых дверей</h2>
+            <p class="center">Магистратура, дистанционное обучение, второе высшее</p>
+            </a>
+			<span class="campaing"><a href="/russian/abiturient/fdpdod.htm">7 декабря</a></span>
+        </div--><!--div data-p="125.00" class="alt rtest green">
+        	<a href="/ctrooms/">
+            <h2 style="margin-top: 74px">Абитуриенту</h2>
+            <p class="center">Распределение по аудиториям для сдачи вступительного испытания</p>
+            </a>
+        </div--><!--div data-p="125.00" class="alt rtest green">
+        	<a href="/ctrooms/">
+            <h2 style="margin-top: 74px">Централизованное тестирование</h2>
+            <p class="center">Распределение по аудиториям</p>
+            </a>
+        </div><div data-p="125.00" class="alt rtest green">
+        	<a href="/russian/news/docs/20250528-ПамяткаЦТ.docx">
+            <h2 style="margin-top: 74px">Централизованное тестирование</h2>
+            <p class="center">Памятка участнику</p>
+            </a>
+        </div><div data-p="125.00" class="alt rtest green">
+        	<a href="/russian/news/docs/20250528-ПамяткаЦЭ.docx">
+            <h2 style="margin-top: 74px">Централизованный экзамен</h2>
+            <p class="center">Памятка участнику</p>
+            </a>
+        </div--><!--div data-p="125.00" class="alt hsmb">
+			<a href="/russian/teaching/SecondEduc.htm">
+            <h2>ВТОРОЕ ВЫСШЕЕ&nbsp;&mdash;</h2>
+            <p class="center">Ваш верный шаг в карьерном росте!</p>
+            </a>
+			<span class="campaing"><a href="/russian/teaching/SecondEduc.htm">Приёмная<br>кампания!</a></span>
+        </div><div data-p="125.00" class="do">
+		 <a href="//i.bseu.by/promo/index.html">
+          <h2>Дистанционное обучение &mdash;</h2>
+         <p class="center">нам важны ваши цели!</p>
+		 </a>
+		 <span class="campaing"><a href="/russian/teaching/do.htm">Приёмная<br>кампания!</a></span>
+		</div><div data-p="125.00" class="alt abitur green">
+		 <a href="/abiturient">
+          <h2>Абитуриенту</h2>
+         <p class="center">Ход подачи документов</p>
+		 </a>
+		 <span class="campaing"><a href="/abiturient">Приёмная<br>кампания!</a></span>
+        </div--><!--div data-p="125.00" class="hsmb green">
+        	<a href="http://bseu.by/russian/abiturient/notesTargeted.htm">
+            <h2 style="margin-top: 74px">Целевая подготовка &mdash; 2025!</h2>
+            <p class="center"></p>
+            </a>
+        </div--><!--div data-p="125.00">
+        	<a href="/russian/news/images/20250402-abit-1.jpg" class="popup">
+            <img src="/russian/news/images/20250402-abit.jpg">
+            </a>
+			<span class="campaing"><a href="/russian/abiturient/abcours.htm">Набор!</a></span>
+        </div--><!--div data-p="125.00" class="ct2 green">
+        	<a href="/russian/teaching/magistr/generalnew1.htm">
+            <h2 style="margin-top: 74px">Магистратура 2024!</h2>
+            <p class="center">Приёмная кампания продлится по 5 июля</p>
+            </a>
+			<span class="campaing"><a href="/russian/teaching/magistr/generalnew1.htm">Приёмная кампания!</a></span>
+        </div--><div data-p="125.00" class="trud green dark">
+        	<a href="http://graduates.bseu.by/news/20240327-trud.htm">
+            <h2>Трудоустройство молодежи</h2>
+			<p class="center"></p>
+            </a>
+        </div><div data-p="125.00" class="alt inter">
+        	<a href="/russian/international/default.htm">
+            <h2>Иностранным абитуриентам</h2>
+			<p class="center"></p>
+            </a>
+        </div><div data-p="125.00">
+        	<a href="https://меркаванне.бел/">
+            <img src="/images/panels/merkavanne.jpg">
+            </a>
+        </div><!--div data-p="125.00" class="alt rtest green">
+        	<a href="/russian/news/docs/20250528-ПамяткаЦТ.docx">
+            <h2 style="margin-top: 74px">Централизованное тестирование</h2>
+            <p class="center">Памятка участнику</p>
+            </a>
+        </div><div data-p="125.00" class="alt rtest green">
+        	<a href="/russian/news/docs/20250528-ПамяткаЦЭ.docx">
+            <h2 style="margin-top: 74px">Централизованный экзамен</h2>
+            <p class="center">Памятка участнику</p>
+            </a>
+        </div--><!--div data-p="125.00" class="blank">
+        	<a href="http://xn--d1acdremb9i.xn--90ais/informatsiya-po-vazhnym-voprosam/uchashcheysya-i-studencheskoy-molodyezhi/molodyezh-protiv-narkotikov/">
+            <img src="/images/panels/agdrugs.jpg" width="236">
+            </a>
+        </div--><!--div data-p="125.00" class="rtest green">
+        	<a href="/russian/test06/testing.htm">
+            <h2>Регистрация</h2>
+            <p class="center">на централизованное тестирование</p>
+            </a>
+        </div--><div data-p="125.00" class="alt rtest green">
+        	<a href="/rtest.htm">
+            <h2>РЕПЕТИЦИОННОЕ ТЕСТИРОВАНИЕ</h2>
+            <p class="center">График проведения</p>
+            </a>
+			<span class="campaing"><a href="/rtest.htm">Запись!</a></span>
+        </div><!--div data-p="125.00" class="rtest green">
+        	<a href="//bseu.by/russian/test06/testing.htm">
+            <h2>ЦЕНТРАЛИЗОВАННОЕ ТЕСТИРОВАНИЕ</h2>
+            <p class="center">О прохождении тестирования</p>
+            </a>
+        </div--><!--div data-p="125.00" class="tk green dark">
+        	<a href="/russian/news/202011235.htm">
+            <h2>Торговый комплекс</h2>
+            <p class="center">предлагает кулинарную продукцию на заказ</p>
+            </a>
+        </div--><!--div data-p="125.00" class="alt abitur green">
+		 <a href="/abiturient">
+          <h2>Абитуриенту</h2>
+         <p class="center">Ход подачи документов на целевую подготовку</p>
+		 </a>
+		 <span class="campaing"><a href="/abiturient">Приёмная<br>кампания!</a></span>
+        </div--><!--div data-p="125.00" class="rtest">
+        	<a href="/russian/test06/rules.htm#sched">
+            <h2>ЦЕНТРАЛИЗОВАННОЕ ТЕСТИРОВАНИЕ</h2>
+            <p class="center">График выдачи сертификатов</p>
+            </a>
+        </div--><!--div data-p="125.00" class="rtest green">
+        	<a href="//bseu.by/russian/test06/rules.htm#sched">
+            <h2>Выдача сертификатов ЦТ</h2>
+            <p class="center">График выдачи и электронная очередь</p>
+            </a>
+			<span class="campaing"><a href="/russian/test06/rules.htm#sched">C 16 июля!</a></span>
+        </div--><!--div data-p="125.00" class="abitur">
+        	<a href="/cabinets">
+            <h2>КАБИНЕТ АБИТУРИЕНТА &mdash;</h2>
+            <p class="center">сделай шаг к поступлению уже сейчас!</p>
+            </a>
+			<span class="campaing"><a href="/cabinets">Приёмная<br>кампания!</a></span>
+        </div--><!--div data-p="125.00" class="jarmarka green">
+		 <a href="/russian/news/201912120.htm">
+          <h2>Ярмарка вакансий</h2>
+         <p class="center"></p>
+		 </a>
+		 <span class="campaing center" style="margin-left:-20px"><a href="/russian/news/201912120.htm">Не<br>пропусти!</a></span>
+        </div--><!--div data-p="125.00" class="job green">
+				<a href="/russian/news/202004011.htm">
+            <h2>Распределение</h2>
+			<p class="center">выпускников БГЭУ<br>на сайте "Старт-карьера"</p>
+            </a>
+        </div--><!--div data-p="125.00" class="rtest green">
+        	<a href="//bseu.by/russian/test06/rules.htm#sched">
+            <h2>Выдача сертификатов ЦТ</h2>
+            <p class="center">График выдачи и электронная очередь</p>
+            </a>
+			<span class="campaing"><a href="/russian/test06/rules.htm#sched">C 16 июля!</a></span>
+        </div--><!--div data-p="125.00" class="alt course green">
+        	<a href="/russian/news/202505140.htm">
+            <h2 style="margin-top: 74px">День открытых дверей</h2>
+            <p class="center">для абитуриентов и учащихся 9-10-х классов</p>
+            </a>
+			<span class="campaing"><a href="/russian/abiturient/fdpdod.htm">26 апреля</a></span>
+        </div--><!--div data-p="125.00" class="alt course green">
+        	<a href="/russian/news/202501170.htm">
+            <h2 style="margin-top: 74px">День открытых дверей</h2>
+            <p class="center">для выпускников и учащихся средних специальных учебных заведений</p>
+            </a>
+			<span class="campaing"><a href="/russian/abiturient/fdpdod.htm">1 февраля</a></span>
+        </div--><!--div data-p="125.00" class="alt ct2 green">
+        	<a href="/russian/abiturient/holidays.htm">
+            <h2 style="margin-top: 74px">Каникулы с БГЭУ</h2>
+            <p class="center"></p>
+            </a>
+			<span class="campaing"><a href="/russian/abiturient/abcours.htm">Набор!</a></span>
+        </div--><!--div data-p="125.00" data-nEndDate="30.10.2025" class="abit green">
+				<a href="https://nir.bseu.by/podgotovka/aspr2.htm">
+            <h2>АСПИРАНТУРА</h2>
+			<p class="center">Бюджетные места<br>
+			Стипендия - 1100 руб/мес.<br>
+			Набор по 30 сентября</p>
+            </a>
+        </div--><div data-p="125.00" data-nEndDate="12.31.2026" class="blank" style="vertical-align: center">
+				<img src="/images/panels/woman.jpg" width="236" >
+        </div><div data-p="125.00" data-nEndDate="25.08.2023" class="alt dip green">
+				<a href="/russian/faculty17/retraining.htm">
+            <h2>ПЕРЕПОДГОТОВКА</h2>
+			<p class="center">по специальностям экономического профиля!</p>
+            </a>
+			<span class="campaing"><a href="/russian/faculty17/retraining.htm">Приём c<br>1 апреля!</a></span>
+        </div><!--div data-p="125.00" data-nEndDate="1.04.2023" class="blank">
+			<a href="/russian/general/uvr/letopis.pdf">
+				<img src="/images/panels/action.jpg" width="236">
+			</a>
+        </div--><!--div data-p="125.00" class="dep">
+				<a href="/russian/news/202105191.htm">
+            <h2>Информация</h2>
+			<p class="center">департамента по гражданству и миграции</p>
+            </a>
+        </div--><!--div data-p="125.00" class="uvrm green dark">
+		 <a href="/russian/general/uvr/project.htm">
+          <h2>Творчество студентов</h2>
+         <p class="center">&nbsp;</p>
+		 </a-->
+		 <!--span class="campaing"><a href="/russian/teaching/do.htm">Приёмная<br>кампания!</a></span-->
+		<!--/div--><div data-p="125.00" class="stazhirovki">
+				<a href="/russian/faculty17/stazh.htm">
+            <h2>СТАЖИРОВКИ</h2>
+			<p class="center">руководящих работников и специалистов</p>
+            </a>
+        </div><!--div data-p="125.00" class="rtest green">
+        	<a href="/russian/test06/testing.htm">
+            <h2>Регистрация</h2>
+            <p class="center">на централизованное тестирование</p>
+            </a>
+        </div--><!--div data-p="125.00" class="print pushup">
+            <h2>Издательский<br>центр</h2>
+            <p class="center">«Книги БГЭУ»</p>
+			<ul class="col2">
+				<li><a href="//books.bseu.by/about.htm">О нас</a></li>      				
+				<li><a href="//books.bseu.by/">Книги&nbsp;БГЭУ</a></li>
+				<li><a href="//books.bseu.by/authors.htm">Авторам</a></li>					
+				<li><a href="//books.bseu.by/contacts.htm">Контакты</a></li>
+			</ul>
+			<ul class="col2">
+				<li>План&nbsp;изданий<br>
+				<a href="//books.bseu.by/plans/plan2021.pdf">-&nbsp;на&nbsp;2021&nbsp;год</a><br>
+				<a href="//books.bseu.by/plans/plan2020.pdf">-&nbsp;на&nbsp;2020&nbsp;год</a><br>
+				<a href="//books.bseu.by/plans/plan2019.pdf">-&nbsp;на&nbsp;2019&nbsp;год</a></li>
+				<li><a href="//books.bseu.by/price.rar">Прайс&nbsp;лист</a></li>
+			</ul>
+        </div--><div data-p="125.00" class="alt upgrade">
+        	<a href="/russian/faculty17/train.htm">
+            <h2>ПОВЫШЕНИЕ КВАЛИФИКАЦИИ&nbsp;&mdash;</h2>
+            <p class="center">путь к лидерству!</p>
+            </a>
+        </div><div data-p="125.00" class="alt psycho">
+        	<a href="/russian/general/uvr/soc_ped.htm">
+            <h2>ПСИХОЛОГИЧЕСКАЯ ПОМОЩЬ</h2>
+            
+            </a>
+        </div><div data-p="125.00" class="blank">
+				<img src="/images/panels/quality.jpg" width="236">            
+		</div><div data-p="125.00" class="blank">
+        	<a href="https://prokuratura.gov.by/ru/activity/rassledovanie-ugolovnogo-dela-o-genotside/">
+				<img src="/images/panels/henocide.jpg" width="236">
+            </a>
+        </div><!--div data-p="125.00" class="blank">
+        	<a href="https://info-center.by">
+				<img src="/images/banners/rupiits.png" width="236">
+            </a>
+        </div--><!--div data-p="125.00" class="orvi green">
+        	<a href="/russian/student/virprofilactics.htm">
+            <h2>Профилактика COVID-19 </h2>
+            <p class="center">и других ОРВИ</p>
+            </a>
+        </div--><!--div data-p="125.00" class="besh">
+        	<a href="//bseu.by/russian/general/beshenstvo.htm">
+            <h2>Бешенство: </h2>
+			<p class="center">один укус – нешуточные последствия</p>
+            </a>
+        </div--><!--div data-p="125.00" class="sport">
+        	<a href="/sc/" target="_blank">
+            <h2>Спорткомплекс</h2>
+			<p class="center">В здоровом теле &mdash; здоровый дух!</p>
+            </a>
+        </div-->
+		</div> 
+   		<span data-u="arrowleft" class="jssora03l" style="top:0px;left:0px;width:55px;height:55px;" data-autocenter="2"></span>
+		<span data-u="arrowright" class="jssora03r" style="top:0px;right:0px;width:55px;height:55px;" data-autocenter="2"></span>
+    </div><!--adspanel-->
+</div><!--Header-->
+<script language="javascript" src="js/roller.js"></script>
+<div id="body">
+	
+	<div id="rmenu">
+    	<div class="ltblue">
+    	  <h2>Популярное</h2>
+			<ul>
+				<!--li><a href="/abitmag/"><strong>Ход подачи документов</strong> в магистратуру</a></li-->
+				<!--li><a href="/ctrooms/"><strong>ЦТ</strong>: распределение по аудиториям для сдачи централизованного теста</a></li-->
+				<!--li><a href="/abiturient"><strong class="orange">Ход подачи документов</strong> на целевую подготовку</a></li-->
+				<li class="groupend"><a href="/russian/abiturient/prepcourses.htm"><strong>Набор на курсы по подготовке к ЦЭ и ЦТ на 2026 год</strong></a></li>
+				
+				<!--li class="strong groupend "><a href="/ctrooms/">Репетиция централизованного экзамена - распредедения по аудиториям</a></li-->
+				<li class="groupend strong"><a href="/rtest.htm">Репетиционное тестирование</a></li>
+
+				<li><a href="http://bseu.by/schedule/"><strong>Расписание занятий</strong></a></li>
+				<li class="groupend"><a href="/russian/student/pay.htm"><strong class="orng">Стоимость обучения</strong> и размеры этапов оплаты</a></li> 
+
+				<li class="groupend"><a href="https://docs.google.com/spreadsheets/d/1ysV9JG0tuF64f-XK9_y3rIOBSiY6SXR2imB_hrUA9m4" target="_blank"><strong>О готовности приглашений</strong> для иностранных граждан</a></li>
+
+				<li><a href="/PersonalPages">Персональные страницы</a></li>		
+				<li><a href="/russian/general/documents/20220610-410-rules.htm">Правила педагогических работников</a></li>
+				<li class="groupend"><a href="/russian/employees/academWr.htm"><strong>Интерактивный сервис обучающих материалов по подготовке научных публикаций для ППС</strong></a></li>
+				<!--li><a href="//bseu.by/russian/test06/rules.htm#sched" class="strong">График выдачи сертификатов ЦТ</a></li-->
+				<!--li><a href="/russian/abiturient/abcours.htm"><strong>Набор на 6-месячные курсы по подготовке к ЦТ</strong> на факультете довузовской подготовки начнется 26 октября</a></li-->
+				<!--li><a href="//bseu.by/russian/general/vibory.htm">Молодой избиратель</a></li-->
+                <!--li><a href="/russian/abiturient/abcours.htm" class="green"><strong>Краткосрочные подготовительные курсы</strong> для поступающих в вузы. Запись проводится с 07.05.2018 г.</a></li-->
+				<!--li><strong>Проходные баллы на <a href="/russian/abiturient/ball_p.pdf" class="orange">дневную</a>, <a href="/russian/abiturient/ball_pz.pdf" >заочную</a>, <a href="/russian/abiturient/ball_ps.pdf" >заочную форму с сокращенным сроком</a></strong> обучения на платной основе</li-->
+				<!--li><a href="/abitpassed">Списки рекомендованных к зачислению</a></li-->
+				<!--li><a href="/abitexams/"><strong>Результаты вступительных испытаний</strong>, поступающих на заочное с сокращенным сроком.</a>.</li-->
+				<!--li><a href="/russian/abiturient/pamiatka2021.pdf">Памятка абитуриенту</a>.</li>
+				<li><a href="/russian/abiturient/pravila2021.pdf"><strong>Порядок приема</strong> на 1-ю ступень</a>.</li>
+				<li class="groupend"><a href="/russian/abiturient/plan2021.pdf">План приема на 1-ю ступень</a>.</li>
+				<li><a href="//bseu.by/cabinets/"><strong>Кабинет абитуриента</strong></a>.</li-->
+				<!--li><a href="/russian/abiturient/day.htm"><strong>День открытых дверей</strong></a></li>
+				<li><a href="/russian/abiturient/abschedule.htm"></strong>Графики зачисления</strong></a></li>
+				<li><a href="/russian/abiturient/specForByCorLite.pdf"><strong>Список специальностей ССУЗ</strong>, дающих право поступать на заочное с сокращенным сроком.</a></li>
+				<li><a href="/russian/abiturient/examslist.htm"><strong>Предметы и программы экзаменов</strong></a>, поступающим на заочное с сокращенным сроком.</li>
+				<li><a href="/russian/abiturient/examsched.pdf"><strong>Расписание консультаций и экзаменов</strong></a><br>&nbsp;&nbsp;<span class="smaller italic">(заочное с сокращенным сроком)</span></li>
+				<!--li><a href="/russian/teaching/magistr/generalnew1.htm"><strong>Приёмная кампания</strong> в магистратуру</a></li>
+				<li><a href="/abitmag/">Мониторинг <strong>подачи документов</strong> в магистратуру</a></li-->
+				<!--li><a href="/russian/general/documents/2021.05.19-557-olympiada.pdf"><strong>Положение о проведении вузовского (отборочного) этапа Международной олимпиады по финансовой безопасности</strong></a></li-->
+				<!--li><a href="/rtest.htm">Репетиционное тестирование</a></li-->
+				<!--li class="groupend"><a href="/russian/test06/testing.htm">Регистрация на <strong class="orng">централизованное тестирование</strong></a></li-->
+				
+				<!--li class="groupend"><a href="/russian/test06/rules.htm#eQue">Электронная очередь для регистрации на централизованное тестирование</a></li-->
+
+				<li class="groupend"><a href="/russian/news/docs/20251104-dream.pdf">Концепция республиканского социального проекта по поддержке спорта и здорового образа жизни  "Дотянись до мечты"</a></li>
+				
+				<li><a href="/russian/student/reyting.htm">Положение о рейтинговой системе оценки знаний</a></li>
+				<!--li><a href="/russian/student/currentValidation.htm">Положение о текущей аттестации студентов</a></li-->
+				<li><a href="/russian/student/pvr/2022.08.31-767-pvr.pdf">Правила внутреннего распорядка для обучающихся</a></li>
+				<li class="groupend"><a href="/russian/student/hostelsPvr-20200515.pdf">Правила внутреннего распорядка в общежитиях</a></li>
+			
+				<li><a href="https://clck.ru/3MBvfb">Профилактика и противодействие киберпреступлениям</a></li>
+				<li><a href="/russian/news/docs/20240716-extremism.pdf">Внимание! В чем заключена опасность экстремизма?</a></li>
+				<!--li><a href="/russian/news/docs/20230529-center.pdf">Построим Республиканский центр патриотического воспитания молодежи в Брестской крепости вместе!</a></li-->
+				<li><a href="/russian/news/docs/20231214-profilaktika.pdf">Это надо знать! Профилактика травматизма!</a></li>
+				<li><a href="/russian/news/docs/20250812-mchs.pdf" class="strong">Информация МЧС: Спасатели напоминают, как уберечь ребенка от падения из окна</a></li>
+				<li><a href="/russian/news/202403299.htm" class="strong">Информация Министерства Внутренних Дел Республики Беларусь</a></li>
+				<li><a href="/russian/news/docs/20250324-mns.pdf" class="strong">Информация МНС: это полезно знать</a></li>
+				<li class="groupend"><a href="/russian/temp/file_bfcae2ff29ff29e7679875ad94f1f8ad.pdf">Республиканский список экстремистских материалов</a></li>
+
+				
+				<li><a href="https://www.youtube.com/watch?v=w8Ddk95TJio" class="strong">Полезно знать: Диспансеризация</a></li>
+				<li class="groupend"><a href="/russian/student/medhelp.htm">Медицинская помощь студентам дневного отделения</a></li>
+
+				<!--li><a href="/russian/news/docs/20171121-plan.pdf">План подготовки к 85-летию УО БГЭУ</a></li-->
+				<!--li class="groupend"><a href="//bseu.by/tempusiv/polozhenie.htm">Положение о взаимодействии УО БГЭУ с предприятиями и организациями реального сектора экономики.</a></li-->
+				
+				<li><a href="/russian/general/ppo/project-koldog-20251028.pdf">Изменения и дополнения в коллективный договор между первичной профсоюзной организацией работников учреждения образования «Белорусский государственный экономический университет» и БГЭУ на 2023 – 2026 гг.</a></li>
+				<li><a href="http://bseu.by/russian/general/koldog-2023-2026.pdf">Коллективный договор между ППО работников и УО БГЭУ на 2023-2026 г.г.</a></li>
+				<li><a href="/russian/general/koldog-changes-2024.pdf">Изменения и дополнения в Коллективный договор между ППО работников БГЭУ и БГЭУ на 2023 – 2026 гг.</a></li>
+				<li class="groupend"><a href="/russian/general/internalRoutine.pdf">Правила внутреннего трудового распорядка</a></li>
+				<!--li><a href="/russian/general/monitoring.htm">Мониторинг применения новой системы оплаты труда работников</a></li-->
+				<li><a href="https://mail.bseu.by/owa"><strong class="outlook">Почта БГЭУ</strong></a></li>
+          </div>
+		  <div class="ltblue">
+          	<h2>Наши вакансии</h2>
+            <a href="/russian/konkurs.htm"><ul>
+				<!--li>Заведующих кафедрами</li>
+				<li>Профессоров кафедр</li>
+				<li>Доцентов кафедр</li>
+				<li>Преподавателей</li>
+				<hr-->
+				<li>Воспитатель</li>
+				<li>водитель гаража</li>
+				<li>дежурный по этажу</li>
+				<li>заведующий общежитием</li>
+				<li>инженер по охране окружающей среды 2 категории</li>
+				<li>инструктор по физической культуре</li>
+				<li>педагог-организатор</li>
+				<li>уборщик помещений 2 разряда</li>
+				<li>уборщик территорий 2 разряда</li>
+				<li class="more"><a href="/russian/konkurs.htm">и другие вакансии..</a></li>				
+			</ul></a>
+		  </div>
+		
+		<!--div class="ltblue">
+		  <h2>Наши гости</h2>
+		  <div class="carousel slide" data-ride="carousel" data-interval=3300 id="guests">
+		  <div class="carousel-inner">
+		  <div class="item active"><a href="https://www.youtube.com/watch?v=psyqNydraas"><img src="/images/guests/nechajev.jpg"></a></div>
+		  <div class="item"><a href="https://www.youtube.com/watch?v=OVj1TtHs2Mg"><img src="/images/guests/jaluner.jpg"></a></div>
+		  <div class="item"><a href="https://www.youtube.com/watch?v=RDBzZ-uhklQ"><img src="/images/guests/sales.jpg"></a></div>
+		  </div>
+		  </div>
+		</div-->
+		  <div class="ltblue books">
+			<h2>Наши издания</h2>
+			<div  id="myCarousel" class="carousel slide" data-ride="carousel">
+			<h4>Учебная литература</h4>
+			<div class="carousel-inner">
+			<div class="item active">
+			<a href="http://books.bseu.by/#267">
+<img src="http://books.bseu.by//images/books/2023-Ekonomikatorgovli-th.jpg"><strong>Экономика торговли</strong>
+<p>Под редакцией Р.П. Валевич, И.М. Микулич</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#277">
+<img src="http://books.bseu.by//images/books/2023-Oliefirienkoidr_Analizkhozdiejatielnosti_Rieklama_-th.jpg"><strong>Анализ хозяйственной деятельности в торговле и общественном питании</strong>
+<p>Олефиренко Т.А., Ускевич Т.Г., Вялых Д.С.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#284">
+<img src="http://books.bseu.by//images/books/2023-JegorovA.V.SPvRB-th.jpg"><strong>Сравнительное правоведение в Республике Беларусь: интеграционно-правовые основания</strong>
+<p>Егоров А.В.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#280">
+<img src="http://books.bseu.by//images/books/2023-OzhiginaV.V.Oblozhka-th.jpg"><strong>Теория и практика международной экономической интеграции и интеграционной политики. Анализ прошлого и проектирование будущего</strong>
+<p>Ожигина В.В.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#268">
+<img src="http://books.bseu.by//images/books/2023-Finansyifinansovyjrynok_2023god-th.jpg"><strong>Финансы и финансовый рынок</strong>
+<p>Под редакцией О.А. Пузанкевич</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#287">
+<img src="http://books.bseu.by//images/books/2023-Ulasievich-FinansyOblozhka-th.jpg"><strong>Финансы. Практикум</strong>
+<p>Уласевич Ю.М., Бондарь Т.Е.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#275">
+<img src="http://books.bseu.by//images/books/2023-Ekonomichieskajatieorija.Konspiektliektsij.Oblozhka-th.jpg"><strong>Экономическая теория. Конспект лекций для иностранных учащихся</strong>
+<p>Гляцевич Ж.П., Сакович А.И., Шахан Е.А.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#276">
+<img src="http://books.bseu.by//images/books/2023-Rabochajatietrad_Gliatsievich_Ekonomichieskajatieorija_Oblozhka_-th.jpg"><strong>Экономическая теория. Рабочая тетрадь для иностранных учащихся</strong>
+<p>Гляцевич Ж.П., Сакович А.И., Шахан Е.А.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#278">
+<img src="http://books.bseu.by//images/books/2023-Tieorijavierojatnostiej-th.jpg"><strong>Теория вероятностей. Практикум</strong>
+<p>Станишевская Л.В., Барковская Л.С.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#279">
+<img src="http://books.bseu.by//images/books/2023-Sud.-bukh.ekspiertizaoblozhka-th.jpg"><strong>Судебно-бухгалтерская экспертиза. Практикум</strong>
+<p>Березовский В.А., Тарловская И.Н., Соловьёва А.В.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#274">
+<img src="http://books.bseu.by//images/books/2023-Glushakov_Stratiegichieskijmarkieting_Oblozhka_-th.jpg"><strong>Стратегический маркетинг. Сборник кейсов</strong>
+<p>Глушаков В.Е.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#273">
+<img src="http://books.bseu.by//images/books/2023-RieklamavsietiIntierniet,Shavruk-th.jpg"><strong>Реклама в сети Интернет</strong>
+<p>Шаврук Е.Ю.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#271">
+<img src="http://books.bseu.by//images/books/2023-Prakt.auditnapried-itransportaOblozhka.pdf-th.jpg"><strong>Практический аудит на предприятии транспорта. Практикум</strong>
+<p>Горбач Н.Ф., Киреенко Н.Н., Пупко Г.М.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#270">
+<img src="http://books.bseu.by//images/books/2023-Bukh.upravl.uchietOblozhka-th.jpg"><strong>Бухгалтерский управленческий учет на предприятии транспорта. Практикум</strong>
+<p>Лагуновская Е.О., Анищенко В.С.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#269">
+<img src="http://books.bseu.by//images/books/2023-Laputskaja-th.jpg"><strong>Русский язык как иностранный. Практика устной и письменной речи</strong>
+<p>Лапуцкая И.И.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#272">
+<img src="http://books.bseu.by//images/books/2023-Prav.riegul.khoz.diejat.Oblozhka-th.jpg"><strong>Правовое регулирование хозяйственной деятельности</strong>
+<p>авторы-составители: Говзич В.Г., Тибец И.С.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#266">
+<img src="http://books.bseu.by//images/books/2023-Danilkova_Finansovyjkontrol_-th.jpg"><strong>Финансовый контроль</strong>
+<p>Данилкова С.А.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#265">
+<img src="http://books.bseu.by//images/books/2023-KsienzovOBLOZhKAEkonomikazarubiezhnykhstran-th.jpg"><strong>Экономика зарубежных стран</strong>
+<p>Ксензов С.В.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#259">
+<img src="http://books.bseu.by//images/books/2022-Ekonomichieskajatieorija-th.jpg"><strong>Экономическая теория</strong>
+<p>Под редакцией А.В. Бондаря</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#263">
+<img src="http://books.bseu.by//images/books/2023-Ekonomikaniedvizhimosti-th.jpg"><strong>Экономика недвижимости</strong>
+<p>Микулич И.М., Леднёва И.А., Владыко А.В.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#260">
+<img src="http://books.bseu.by//images/books/2023-Finansyorganizatsii-th.jpg"><strong>Финансы организации</strong>
+<p>Под редакцией О.А. Пузанкевич</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#264">
+<img src="http://books.bseu.by//images/books/2022-FinansovojeNalogovojepravoOblozhka-th.jpg"><strong>Финансовое право. Налоговое право</strong>
+<p>Ананевич Е.В., Сербун П.П.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#262">
+<img src="http://books.bseu.by//images/books/2022-Logistikaoblozhka-th.jpg"><strong>Логистика</strong>
+<p>Под редакцией О.В. Ерчак</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#261">
+<img src="http://books.bseu.by//images/books/2022-Upr.riekl.diejat.Oblozhka-th.jpg"><strong>Управление рекламной деятельностью</strong>
+<p>О.И. Карпеко, Ю.Е. Анкинович</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#258">
+<img src="http://books.bseu.by//images/books/2022-Tsygankov_2022-th.jpg"><strong>Административное право</strong>
+<p>Цыганков Д.Г., Пехота Т.М.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#256">
+<img src="http://books.bseu.by//images/books/2022-Vieriezubova_Tieorijafinansov-th.jpg"><strong>Теория финансов</strong>
+<p>Под редакцией Т.А. Верезубовой</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#250">
+<img src="http://books.bseu.by//images/books/2022-Polietajeva-th.jpg"><strong>Предприниматели Беларуси в конце XIX - начале ХХ века и в 1920-е годы</strong>
+<p>Полетаева Н.И.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#248">
+<img src="http://books.bseu.by//images/books/2022-Statistika(1)-th.jpg"><strong>Статистика</strong>
+<p>Под редакцией Н.В. Агабековой</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#247">
+<img src="http://books.bseu.by//images/books/2022-Biezopasnostzhizniediejatielnosti-th.jpg"><strong>Безопасность жизнедеятельности человека</strong>
+<p>авторы-составители: Антоненков А.И., Брайкова А.М., Саевич К.Ф.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#243">
+<img src="http://books.bseu.by//images/books/2022-Filosofija_(1)-th.jpg"><strong>Философия</strong>
+<p>Под редакцией Н.В. Пуховой</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#242">
+<img src="http://books.bseu.by//images/books/Папковская_Бух фин учет в АПК-th.jpg"><strong>Бухгалтерский финансовый учет в АПК</strong>
+<p>Под редакцией П.Я. Папковской</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#240">
+<img src="http://books.bseu.by//images/books/2022-Konkurientosposobnost(1)-th.jpg"><strong>Конкурентоспособность организации</strong>
+<p>Белова С.О., Микулич И.М., Леднёва И.А.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#238">
+<img src="http://books.bseu.by//images/books/2022-Astrovskij_Dymkov_Vysshajamatiematika_2022god_(1)-th.jpg"><strong>Высшая математика</strong>
+<p>Астровский А.И., Дымков М.П.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#239">
+<img src="http://books.bseu.by//images/books/2022-EnglishGrammarBasics_Chast2_(1)-th.jpg"><strong>Грамматика английского языка: просто и понятно = English Grammar: Basic Course</strong>
+<p>Сидорчук И.С., Заяц О.И., Французова О.Н.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#234">
+<img src="http://books.bseu.by//images/books/2022-Tovaroviedienijepishchievykhzhirovimolochnykhtovarov(1)-th.jpg"><strong>Товароведение и экспертиза пищевых жиров и мо&shy;лочных товаров</strong>
+<p>Лилишенцева А.Н.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#231">
+<img src="http://books.bseu.by//images/books/2022-Audit-th.jpg"><strong>Аудит</strong>
+<p>Лемеш В.Н., Малиновская О.В.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#230">
+<img src="http://books.bseu.by//images/books/2022-Statistika-th.jpg"><strong>Статистика инвестиций и строительства</strong>
+<p>Тарловская В.А., Тарловская И.Н.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#229">
+<img src="http://books.bseu.by//images/books/2023-Rus.iaz.2021--th.jpg"><strong>Русский язык как иностранный. Экономический профиль</strong>
+<p>С. Г. Барбук, М. И. Божкова, О. Е. Ефимчик, З. П. Козорог, С. В. Кухта, И. И. Лапуцкая, Ю. Г. Павловская, В. И. Тихонюк, В. Н. Черкас, Л. И. Шпаковская</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#223">
+<img src="http://books.bseu.by//images/books/Экономика общественного питания-th.jpg"><strong>Экономика общественного питания</strong>
+<p>авторы-составители: Белова С.О., Микулич И.М.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#222">
+<img src="http://books.bseu.by//images/books/2022-Tovaroviedienijenieprodovolstviennykhtovarov-th.jpg"><strong>Товароведение непродовольственных товаров. Практикум</strong>
+<p>Под редакцией В.В. Садовского, В.Е. Сыцко</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#220">
+<img src="http://books.bseu.by//images/books/2022-Miezhdunarodnajainviestitsionnajadiejatielnost-th.jpg"><strong>Международная инвестиционная деятельность</strong>
+<p>Под редакцией Е.Н. Петрушкевич</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#217">
+<img src="http://books.bseu.by//images/books/2022-Inviestitsionnojeprojektirovanije-th.jpg"><strong>Инвестиционное проектирование</strong>
+<p>Лысенкова М.В.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#210">
+<img src="http://books.bseu.by//images/books/2023-Rus.iaz.kaknostrannyj2020--th.jpg"><strong>Русский язык как иностранный</strong>
+<p>Под редакцией С. Г. Барбук</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#207">
+<img src="http://books.bseu.by//images/books/2022-Strakhovojedielo-th.jpg"><strong>Страховое дело</strong>
+<p>Под редакцией М.А. Зайцевой</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#202">
+<img src="http://books.bseu.by//images/books/2022-Upravlienijezatratami_-th.jpg"><strong>Управление затратами</strong>
+<p>Кузнецова Т.В., Цыганков А.А.</p>
+</a>
+</div>
+<div class="item">
+<a href="http://books.bseu.by/#196">
+<img src="http://books.bseu.by//images/books/2022-Savina_Animatsionnajadiejatielnost-th.jpg"><strong>Анимационная деятельность и сервис в туристической индустрии</strong>
+<p>Савина Н.В.</p>
+</a>
+			</div>
+		</div><!-- carousel inner-->
+    </div><!--carousel-->
+	<!--script language="javascript">$("#myCarousel").carousel()</script-->
+	<hr>
+	<h4>Периодика</h4>
+	        <ul>
+				<li><a href="http://bem.bseu.by/">«Белорусский экономический журнал»</a></li>
+				<li><a href="/russian/scientific/herald.htm">Журнал «Вестник БГЭУ»</a></li>
+				<li><a href="/russian/general/economist.htm">Газета "Экономист"</a></li>
+			</ul>
+	<!--hr>
+	<h4><a href="/russian/news/202107020.htm">11-й номер газеты «Экономист»</a></h4> 
+	<div><img src="/russian/news/images/20210702-economist.jpg"> <p class="strong">Читайте в номере:</p>
+<ol><li>3 июля – День республики. Поздравляем!<br>
+Новости, события последних дней.</li>
+<li>Продолжаем рассказывать про лучшие академические группы и проекты прошедшего учебного года.</li>
+<li>Июль – жаркая пора для абитуриентов. После сдачи ЦТ надо определиться с выбором факультета. Студенты ФМБК рассказывают,  чем престижна учеба на этом факультете.</li>
+<li>О наших звездах: подиума и спорта. Интервью с  победителями конкурса и престижных соревнований в Беларуси.<br>
+Как молодежь отметила свой особый праздник.</li>
+</ol>
+ <a href="/russian/news/docs/20210702.pdf">Подробнее..</a>
+ </div-->
+		  </div><!--books-->
+          <div class="ltblue">
+          	<h2>Наши конкурсы</h2>
+            <ul>
+				<!--li><a href="info/them_1.doc">Конкурс на установление персональных надбавок</a></li-->
+				<li><a href="/russian/news/docs/20190422-ukaz-425-10.01.2018.docx">Гранты президента Республики Беларусь в науке, образовании, здравоохранении, культуре</a></li>                
+				<li><a href="/russian/news/docs/20190422-ukaz-367-10.01.2018.docx">Республиканский конкурс для назначения стипендий Президента Республики Беларусь талантливым молодым ученым</a></li>                
+				<li><a href="http://nir.bseu.by/podgotovka/stipendium.htm">Открытый конкурс по назначению стипендий Президента Республики Беларусь аспирантам</a></li>                
+				<li><a href="info/brffi.htm">Конкурсы БРФФИ</a></li> 
+				<li><a href="http://nir.bseu.by/scientific/study/grant.htm">Конкурс на соискание грантов докторантами, аспирантами и студентами</a></li>
+				<li><a href="http://nir.bseu.by/scientific/study/respubkonk.htm">Республиканский конкурс научных работ студентов</a></li>                                               
+                                           
+            </ul>
+		  </div>
+
+          <div class="ltblue">
+		    <h2>Наш спорт</h2>
+		    <h4><a href="http://www.bseu.by/sc/">Физкультурно-оздоровительный центр</a></h4>
+			<ul>
+		      <li><a href="/russian/general/uvr/sport.htm">Спортклуб</a></li>
+	       </ul>
+            <h4>Спартакиада работников УО БГЭУ</h4>
+<ul>
+  <li><a href="/russian/sport/polosh.pdf">Положение о спартакиаде работников</a></li>
+  <li><a href="/russian/sport/kalend.pdf">Календарный план</a></li>
+</ul>
+
+          </div>
+	</div><!--rmenu-->
+<style>.top5 h4, .top5 h4~:not(:last-child), #news>div.top5>h4~a{display: none}</style>
+<div id="news">
+	<h2><a href="/russian/news/news.htm">Новости</a></h2>
+
+<div id="calendar">
+<h2><a href="/russian/news/cal.htm">События</a></h2>
+<script type="text/javascript" src="/js/fancybox.3.5.7/fancybox.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/js/fancybox.3.5.7/fancybox.min.css">
+<!--div pdate="9.05.2021"><p class="date">09<span>.05</span></p><p><a href="/russian/news/images/20210507-9may.jpg" data-fancybox="images"><strong>Уважаемые сотрудники и студенты!<br>
+Приглашаем вас на районное праздничное мероприятие!​</strong><img src="/russian/news/images/20210507-9may.jpg" class="span"></a></p></div-->
+<!--div><p class="date"><nobr class="orange">31<span>.08</span></nobr></p> <p><a href="/russian/news/images/20220823-meeting-1.jpg" data-fancybox="images"><img src="/russian/news/images/20220823-meeting.jpg"><strong>31 августа в 11:00 состоится встреча ректора университета с представителями трудового коллектива</strong></a></p></div-->
+
+
+<div pDate="27.01.2026" pEndDate="05.02.2026      "><p class="date">27<span>.01</span></p> <p><a href="/russian/news/202601261.htm">Спартакида работников пройдет в БГЭУ</a></p></div>
+
+<!--p class="more"><a href="#">Все события...</a></p-->
+
+</div><!--calendar-->
+
+<!--include here-->
+
+
+<div><p class="date">27.01.2026</p> <h4><a href="/russian/news/202601270.htm">Вышел новый номер газеты «Эканаміст»</a></h4> <img class="" src="/russian/news/images/20251230-economist.jpg" /> <p class="strong">Как построить успешную научную карьеру: интервью с заведующим кафедрой политологии Олегом Казаком.</p>
+<p>Стать доктором наук до 40 лет: история профессора кафедры экономической теории БГЭУ Сергея Кристиневича.</p>
+<p>Совет молодых ученых: руководитель рассказала о планах на 2026 г.</p>
+<p>Преподаватель-стажер кафедры товароведения и экспертизы товаров Карина Колесенко: «Современное образование должно быть интерактивным».</p>
+<p>Путь в профессию: интервью с молодым специалистом Центра системного анализа.</p>
+<p>Президентские стипендиаты-2026 — кто они?</p>
+ <a href="/russian/news/202601270.htm">Подробнее..</a></div>
+<div><p class="date">23.01.2026</p> <h4><a href="/russian/news/202601231.htm">Научно-популярная лекция «Информационные ресурсы и услуги Национальной библиотеки Беларуси» в БГЭУ</a></h4> <img class="" src="/russian/news/images/20260123-lecture.jpg" /> <p class="strong">23 января в  Белорусском государственном экономическом  университете состоялась встреча с представителем Национальной библиотеки  Республики&nbsp;Беларусь.</p> <a href="/russian/news/202601231.htm">Подробнее..</a></div>
+
+      <div class="ltBiezh">
+        <h2>Ресурсы и сайты БГЭУ</h2>
+        <ul class="col2">
+			<li><a href="//library.bseu.by" target="_blank">Библиотека БГЭУ</a></li>
+			<li><a href="http://confucius.bseu.by/" target="_blank">Кабинет Конфуция</a></li>
+   			<li class="groupend"><a href="//graduates.bseu.by/" target="_blank">"Выпускник БГЭУ"</a></li>
+			<li><a href="//bseu.by/personalpages/alphabetic.htm" target="_blank">Персональные страницы</a></li>
+		</ul>
+		<ul class="col2">
+			<li><a href="//i.bseu.by" target="_blank">Портал для студентов ДО</a></li>
+			<li><a href="//edoc.bseu.by:8080" target="_blank">Электроная библиотека</a></li>
+			<li><a href="https://www.youtube.com/c/БГЭУБДЭУ" target="_blank">Youtube-канал БГЭУ</a>
+            <li class="more"><a href="russian/sites.htm" target="_blank">все сайты..</a></li>
+        </ul>
+		<div></div>
+      </div>
+	  <div class="ltBiezh">
+					<h2>Цели устойчивого развития</h2>
+            <ul>
+				<li><a href="/russian/tsur/default.htm">БГЭУ на пути достижения Целей устойчивого развития</a></li>
+				<li><a href="/russian/tsur/default.htm#rec1497966901">Вклад университета в достижение ЦУР  </a></li>
+				<li><a href="/russian/tsur/default.htm#rec1499495981">Студенческие инициативы</a></li>
+				<li><a href="/russian/tsur/default.htm#rec1497966921">Наши партнеры</a></li>
+            </ul>
+
+
+
+      </div>
+<div><p class="date">23.01.2026</p> <h4><a href="/russian/news/202601230.htm">Заседание Совета молодых учёных БГЭУ</a></h4> <img class="" src="/russian/news/images/20260123-sys.jpg" /> <p class="strong">22 января в БГЭУ прошло заседание Совета молодых учёных «О приоритетных направлениях научной деятельности в 2026 году».</p> <a href="/russian/news/202601230.htm">Подробнее..</a></div>
+<div><p class="date">22.01.2026</p> <h4><a href="/russian/news/202601220.htm">Международный круглый стол «Затраты-Выпуск» в БГЭУ</a></h4> <img class="" src="/russian/news/images/20260122-table.jpg" /> <p class="strong"><strong>21 января в Белорусском государственном  экономическом университете прошёл круглый стол «Затраты–Выпуск», приуроченный к  120-летию со дня рождения выдающегося экономиста, лауреата Нобелевской премии  Василия Леонтьева.</strong> Его  научное наследие оказало огромное влияние на развитие мировой экономической  мысли и практику построения межотраслевых балансов.</p> <a href="/russian/news/202601220.htm">Подробнее..</a></div>
+<div><p class="date">21.01.2026</p> <h4><a href="/russian/news/202601211.htm">«Участие студентов в научных проектах и конкурсах полезно, даже если они не станут учёными»: большое интервью с проректором по научной работе БГЭУ Алексеем  Александровичем Быковым</a></h4> <img class="" src="/russian/news/images/20260121-interview.jpg" /> <p class="strong">В преддверии Дня белорусской науки проректор по научной  работе БГЭУ Алексей Александрович Быков рассказал о том, какие исследования  сегодня приносят университету репутацию и ресурсы, как растут молодые команды и  какие вызовы встречаются на пути превращения идей в практические решения.</p> <a href="/russian/news/202601211.htm">Подробнее..</a></div>
+
+
+
+
+
+<div id="newsfooter"><!--a href="/russian/news/news.htm">Все новости..</a--></div>
+
+</div><!--news-->
+
+<div id="smi">
+<h2><a href="/russian/news/smi.htm">Университет в СМИ</a></h2>
+<div><p class="date">11.12.2025</p> <h4><a href="/russian/news/202512110.htm">Узница нацистских концлагерей встретилась с учащимися БГЭУ
+</a></h4> <p class="strong">Накануне Международного дня памяти жертв геноцида учащиеся Белорусского государственного экономического университета встретились с бывшей узницей нацистских концлагерей Евгенией Иванюк, чтобы больше узнать о трагедии белорусского народа, сформировать объективную картину геноцида и увидеть истинную роль фашистов и их пособников.</p>
+ <a href="/russian/news/202512110.htm">Подробнее..</a></div>
+<div><p class="date">08.12.2025</p> <h4><a href="/russian/news/202512084.htm">Молодежный саммит Союзного государства состоялся в Минске</a></h4> <p class="strong">Мероприятия молодежного российско-белорусского саммита «История. Память. Победа» прошли на площадке Белорусского государственного экономического университета, сообщает корреспондент агентства «Минск-Новости».</p>
+ <a href="/russian/news/202512084.htm">Подробнее..</a></div>
+<div><p class="date">08.12.2025</p> <h4><a href="/russian/news/202512083.htm">Концерты, выставки, мастер-классы: БСЖ Минска провел ряд мероприятий в поддержку людей с инвалидностью</a></h4> <p class="strong">Молодежное крыло БСЖ БГЭУ вместе с председателем Заводской райорганизации союза женщин Натальей Будник приняли участие в открытии творческой выставки во Дворце детей и молодежи «Золак».</p>
+ <a href="/russian/news/202512083.htm">Подробнее..</a></div>
+</div><!--smi-->
+
+
+
+<div id="gallery" style="width:76%">
+<div id="ingallery" style="position: relative; overflow: hidden; visibility: hidden; width: 1200px; height: 450px;">
+<h2>Университет в фотографиях</h2>
+<div data-u="slides"  style="cursor: default; position: relative; top: 50px; left: 2%; width: 1200px; height: 400px; overflow: hidden;">
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/85.jpg" alt=""><p>Студенты БГЭУ - волонтеры II Европейских игр</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/84.jpg" alt=""><p>Визит посла Доминиканской Республики Франка Ханса Данненберга Кастельяноса в БГЭУ</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/83.jpg" alt=""><p>Шестидесятилетие студотрядовского движения в БГЭУ</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/82.jpg" alt=""><p>Министр образования Андрей Иванович Иванец проверяет работу приемных комиссий БГЭУ</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/81.jpg" alt=""><p>Выпуск студентов Высшей школы управления и бизнеса дистанционной формы получения образования по специальности «Правоведение»</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/80.jpg" alt=""><p>Праздник «Масленица блинная, веселая, старинная» в студенческом городке БГЭУ</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/79.jpg" alt=""><p>В БГЭУ собрались участники Республиканского информационно-просветительского проекта «ЗАчетный разговор»</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/78.jpg" alt=""><p>Лекция для студентов БГЭУ советника Посольства Доминиканской Республики в Российской Федерации Нельсона Ортега.</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/77.jpg" alt=""><p>Молодежный камерный хор «GIOCOSO» БГЭУ (руководитель – Ольга Варкулевич-Карпова).</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/76.jpg" alt=""><p>Официальный визит делегации Федеративной Республики Бразилия в БГЭУ.</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/75.jpg" alt=""><p>Министр образования Андрей Иванец пишет Республиканский диктант со студентами БГЭУ.</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/74.jpg" alt=""><p>Святочны канцэрт да юбілею народнага ансамбля «Горліца» (кіраўнік – Святлана Карчэня)</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/73.jpg" alt=""><p>Студенты БГЭУ участвуют в праздновании Дня города Минска.</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/72.jpg" alt=""><p>Студенты БГЭУ на Новогоднем балу во Дворце Независимости.</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/71.jpg" alt=""><p>Студенты БГЭУ помогают собирать урожай яблок.</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/70.jpg" alt=""><p>Студент ФП Никита Ермоченко на городском этапе «Студента года — 2022»</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/69.jpg" alt=""><p>Финал первенства по волейболу БГЭУ среди сборных женских команд.</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/68.jpg" alt=""><p>«Студент года БГЭУ - 2022»</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/67.jpg" alt=""><p>Республиканская универсиада по гребле на байдарках. Егор Чуянов (1 курс, ФМК) принес команде заслуженное золото!</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/66.jpg" alt=""><p>Святочны канцэрт да юбілею народнага ансамбля «Горліца» (кіраўнік – Святлана КАРЧЭНЯ). Самаму самабытнаму творчаму калектыву студэнцкага клуба БДЭУ споўнілася 30 год!</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/65.jpg" alt=""><p>Министр образования Республики Беларусь Андрей Иванович ИВАНЕЦ на торжественной линейке ко Дню знаний 1 сентября 2022 года</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/64.jpg" alt=""><p>Министр образования Республики Беларусь Андрей Иванович ИВАНЕЦ оставляет запись в Книге Почетных гостей БГЭУ 1 сентября 2022 года</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/44.jpg" alt=""><p>Сотрудники и студенты Белорусского государственного экономического университета посетили мемориальный комплекс «Тростенец» и урочище «Благовщина».</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/45.jpg" alt=""><p>Волонтеры БГЭУ принимают участие в Республиканской благотворительной акции «Наши дети» во Дворце Независимости.</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/46.jpg" alt=""><p>Визит делегации Санкт-Петербургского государственного экономического университета в БГЭУ.</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/47.jpg" alt=""><p>Новый вектор международного сотрудничества: БГЭУ посетила делегация дипломатов Доминиканской Республики.</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/48.jpg" alt=""><p>Встреча с председателем Конституционного Суда Республики Беларусь Петром Миклашевичем.</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/49.jpg" alt=""><p>Участники Республиканского новогоднего бала получают памятные подарки из рук ректора БГЭУ.</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/50.jpg" alt=""><p>Встреча студентов учетно-экономического факультета с председателем Белорусского союза блокадников Ленинграда Марией Ягодницыной.</p></div>	
+	<!--div data-p="125.00"><img data-u="image" src="/russian/news/gallery/51.jpg" alt=""><p>БГЭУ на республиканском празднике «Витебск – молодежная столица Республики Беларусь–2022 »</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/52.jpg" alt=""><p>22 марта 2022 года. День памяти жертв Хатынской трагедии.</p></div-->	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/53.jpg" alt=""><p>Подписание Меморандума о намерениях между РУП «Национальный центр обмена трафиком» и Белорусским государственным экономическим университетом о сотрудничестве в области информационно-коммуникационных технологий.</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/54.jpg" alt=""><p>Встреча заместителя Министра экономики Республики Беларусь Дмитрия Ярошевича со студентами БГЭУ.</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/55.jpg" alt=""><p>Кафедра экономики и управления туристической индустрией ФКТИ совместно с филиалом кафедры ГУ "Национальное агентство по туризму" на экскурсии в индустриальном парке «Великий камень»</p></div>	
+	<!--div data-p="125.00"><img data-u="image" src="/russian/news/gallery/57.jpg" alt=""><p>I Молодежный логистический форум «Будущее логистики-2022»</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/56.jpg" alt=""><p>Торжественная церемония закрытия выставки китайского художника-живописца Дун Цзяхуэйя «Арт-тур в Беларуси», приуроченная к 30-летию дипломатических отношений Китайской Народной Республики и Республики Беларусь.</p></div-->	
+	<!--div data-p="125.00"><img data-u="image" src="/russian/news/gallery/59.jpg" alt=""><p>Ректор БГЭУ Алексей Владимирович Егоров посадил дерево вместе со студентами ФЭМ на общереспубликанском субботнике.</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/58.jpg" alt=""><p>Делегация БГЭУ приняла участие в Шествии поколений во главе с Президентом Беларуси Александром Лукашенко.</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/60.jpg" alt=""><p>Визит делегации Воронежского государственного университета в БГЭУ.</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/61.jpg" alt=""><p>Визит делегации Санкт-Петербургского политехнического университета в БГЭУ.</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/62.jpg" alt=""><p>Визит Чрезвычайного и Полномочного Посла Республики Куба в Республике Беларусь Сантьяго Переса Бенитеса в БГЭУ.</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/63.jpg" alt=""><p>Награждение победителей конкурса «Виват, первокурсник!-2022»</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/43.jpg" alt=""><p>Ректор БГЭУ Алексей Владимирович Егоров поздравляет ректора БГУ Андрея Дмитриевича Короля со 100-летием университета</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/41.jpg" alt=""><p>Победитель конкурса "Виват, первокурсник!-2021" Анастасия Белявская (факультет права)</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/38.jpg" alt=""><p>Лекция профессора банковской деятельности и мировой экономики Ричарда Вернера (Великобритания)</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/35.jpg" alt=""><p>Межвузовский фестиваль "Я люблю Беларусь!"</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/32.jpg" alt=""><p>Открытие XII Международной научно-практической конференции «Экономический рост Республики Беларусь глобализация, инновационность, устойчивость»</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/30.jpg" alt=""><p>Мисс Беларусь-2018 Мария Василевич,<br>выпускница факультета экономики и менеджмента БГЭУ</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/26.jpg" alt=""><p>Министр образования Беларуси И.В.Карпенко на торжественном вечере, посвящённом юбилею БГЭУ</p></div>	
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/19.jpg" alt=""><p>Встреча с выпускницей БГЭУ Светланой Сахоненко,<br>трехкратной чемпионкой Зимних Паралимпийских игр</p></div>
+	<div data-p="125.00"><img data-u="image" src="/russian/news/gallery/17.jpg" alt=""><p>Агульнаўніверсітэцкая дыктоўка да Міжнароднага дня роднай мовы</p></div-->
+			</ul>
+</div>
+<span data-u="arrowleft" class="jssora03l" style="top:0px;left:2.4%;width:55px;height:55px;" data-autocenter="2"></span>
+<span data-u="arrowright" class="jssora03r" style="top:0px;right:8px;width:55px;height:55px;" data-autocenter="2"></span>
+</div><!--ingallery-->
+</div><!-- gallery--><script language="javascript">jssor_1_slider_init();</script>
+
+
+
+<div id="videos">
+<h2>Видео</h2>
+	<div id="videocarousel" style="position: relative; overflow: hidden; visibility: hidden; width: 1068px; height: 360px;">
+	<div class="slides" data-u="slides" style="cursor: default; position: relative; left: 1%; width: 1068px; height: 360px; overflow: hidden;">
+	
+		<div data-p="125.00" class="blank">
+			<p class="date">29.12.25</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/MtrjvP2TA-Y?si=R23zRdJef2Z56NtM" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+		<div data-p="125.00" class="blank">
+			<p class="date">29.12.25</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/JWZ3GDfF_pQ?si=CM4wNRjYiEMmRa1J" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+		<div data-p="125.00" class="blank">
+			<p class="date">17.09.25</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/MtrjvP2TA-Y?si=R23zRdJef2Z56NtM" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+		<div data-p="125.00" class="blank">
+			<p class="date">17.09.25</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/HhFrODg95uU?si=HuJazm_M0bR0FqtN" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+		<div data-p="125.00" class="blank">
+			<p class="date">20.06.25</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/gyRTsyo1izM?si=Xpn6eTEt8CHd61P1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+		<div data-p="125.00" class="blank">
+			<p class="date">20.06.25</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/dsTL-GXLHtw?si=MjdzDY__39NLqYJv" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+		<div data-p="125.00" class="blank">
+			<p class="date">25.03.25</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/IYTtE6Hygwg?si=kjpLxErDDtlyicaL" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+		<div data-p="125.00" class="blank">
+			<p class="date">25.03.25</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/uoK0Zwysw4g?si=N_dEWPD2WFQaJNm-" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+		<div data-p="125.00" class="blank">
+			<p class="date">23.12.24</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/QpAj2PvSXD4?si=jxnGaygWWJvXPoRu" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+		<div data-p="125.00" class="blank">
+			<p class="date">23.12.24</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/qKMuq4MQDCI?si=zfi-dR6tSbN_ieT2" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+		<div data-p="125.00" class="blank">
+			<p class="date">04.10.24</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/ZR2bUhWT4cc" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+		<div data-p="125.00" class="blank">
+			<p class="date">04.10.24</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/z3DwJ2qYAxA" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+		<div data-p="125.00" class="blank">
+			<p class="date">24.06.24</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/rivT2PTYxRg" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+		<div data-p="125.00" class="blank">
+			<p class="date">24.06.24</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/Da3y86rhlZ8" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+		<div data-p="125.00" class="blank">
+			<p class="date">23.02.2024</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/sI0f6Zc6yZE" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+		<div data-p="125.00" class="blank">
+			<p class="date">23.02.2024</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/lPxWl2vtvL8" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+		<div data-p="125.00" class="blank">
+			<p class="date">21.11.2023</p>
+			<iframe width="560" height="330" src="https://www.youtube.com/embed/cVSWvGhcnoo" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+		<div data-p="125.00" class="blank">
+			<p class="date">21.11.2023</p>
+			<iframe width="560" height="330" src="https://www.youtube.com/embed/anfIhXXQATA" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+		<div data-p="125.00" class="blank">
+			<p class="date">25.09.2023</p>
+			<iframe width="560" height="330" src="https://www.youtube.com/embed/xbf0Vqp3I-Q" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+		<div data-p="125.00" class="blank">
+			<p class="date">25.09.2023</p>
+			<iframe width="560" height="330" src="https://www.youtube.com/embed/tv0CEdgRZTI" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>			
+		<div data-p="125.00" class="blank">
+			<p class="date">28.04.2023</p>
+			<iframe width="560" height="330" src="https://www.youtube.com/embed/LLBH48Hx0NM" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>			
+		<div data-p="125.00" class="blank">
+			<p class="date">28.04.2023</p>
+			<iframe width="560" height="330" src="https://www.youtube.com/embed/XvQk2uf6xxM" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>			
+		<div data-p="125.00" class="blank">
+			<p class="date">17.01.2023</p>
+			<iframe width="560" height="330" src="https://www.youtube.com/embed/gHfxw98euKw" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+		<div data-p="125.00" class="blank">
+			<p class="date">17.01.2023</p>
+			<iframe width="560" height="330" src="https://www.youtube.com/embed/JM5JZtP5TrI" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+		<div data-p="125.00" class="blank">
+			<p class="date">24.10.2022</p>
+			<iframe width="560" height="330" src="https://www.youtube.com/embed/RxyTgL9lMuE" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+		<div data-p="125.00" class="blank">
+			<p class="date">24.10.2022</p>
+			<iframe width="560" height="330" src="https://www.youtube.com/embed/dJkYfFKNT0A" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+	</div>
+	<span data-u="arrowleft" class="jssora03l" style="top:0px;left:2.4%;width:55px;height:55px;" data-autocenter="2"></span>
+	<span data-u="arrowright" class="jssora03r" style="top:0px;right:2.5%;width:55px;height:55px;" data-autocenter="2"></span>
+	</div>
+</div><!--videos-->
+	  <div class="ltBiezh">
+        <h2>Официальные сайты</h2>
+        <ul class="smaller">
+		    <li><a href="http://www.president.gov.by/" target="_blank">Сайт Президента Республики Беларусь</a></li>
+			<li><a href="https://edu.gov.by/" target="_blank">Сайт Министерства образования Республики Беларусь</a></li>
+        	<li><a href="//srrb.niks.by" target="_blank">Сайт Совета ректоров Республики Беларусь</a></li>
+			<li><a href="https://belarus.by/" target="blank">Сайт Республики Беларусь</a></li>
+		</ul>
+        <ul class="smaller">
+			<li><a href="/russian/general/uvr/statesymbols.pdf" target="blank">Государственная символика Республики Беларусь</a></li>
+           	<li><a href="http://www.pravo.by/" rel="nofollow">Национальный правовой интернет-портал Республики Беларусь</a> и <a href="https://forumpravo.by" rel="nofollow">Правовой форум</a></li>
+			<li><a href="https://abiturient.by/" target="blank" rel="nofollow">Абитуриент.by</a></li>
+ 			<li><a href="/russian/partners.htm">Наши партнеры</a></li>
+       </ul>
+        <ul class="smaller">
+			<li><a href="//studyinby.com"><img src="/images/banners/studyinby.jpg" style="margin-top: 5px;max-width: 150px;vertical-align: top;"></a></li>
+        </ul>      
+		<ul class="smaller"><li><a href="/russian/news/202401999.htm"><img src="/images/banners/znak_k.png" style="max-width: 50px; vertical-align: top;"></a></li></ul>
+       </div>
+</div><!--body-->
+<div id="footer">
+<div class="inner">
+<h3>Белорусский государственный<br>экономический университет<br>
+<div class="social"><a href="https://www.facebook.com/profile.php?id=61566499541261&locale=ru_RU"><img src="/images/facebook.png"></a><a href="https://instagram.com/bseu_official/"><img src="/images/instagram.png"></a><a href="https://t.me/bseu_official"><img src="/images/interface/tg.svg" height="17"></a><a href="https://www.youtube.com/c/БГЭУБДЭУ" target="_blank"><img src="/images/interface/youtube.svg" height="17"></a>
+</div></h3>
+<span>Регистрационное св-во<br>№1141814003 от 4.01.2018</span>
+<div id="social">
+<p><a href="/russian/general/smi/smi.htm">Информация для СМИ</a></p>
+<p class="phone">Приёмная комиссия<BR>
+<span class="w32">Тел.</span>: (+375 17) 209-88-99</p>
+<p class="pin">Республика Беларусь<br>220070, г. Минск, пр. Партизанский 26</p>
+</div>
+<div id="contacts">
+<p>Отдел документационного обеспечения<br>
+<span style="width:56px">Почта</span>: <a href="mailto://rector@bseu.by">rector@bseu.by</a>
+<br><span style="width:56px">Тел./факс</span>: (+375 17) 209-88-16<br><span class="except">(кроме вопросов поступления),</span></p>
+<p>Режим работы: <nobr><span>Понедельник-четверг:</span>  8:30 - 13:00, 14:00 - 17:30,</nobr>
+<nobr><span>пятница:</span> с 8:30 - 13:00, 13:30 - 17:00,</nobr> 
+<span>выходной:</span> суббота, воскресенье.</p>
+<p>Занятия: <nobr><span>понедельник-суббота:</span> 8:15 - 20:35 <a href="/schedule">по расписанию</a>,</nobr>
+<span>выходной:</span> воскресенье.</p>
+<p><a href="javascript:void(0)" id="cksettingslnk">Настройки куки</a></p>
+</div>
+</div><div><div><a href="http://качество-услуг.бел/organization/1020/org-page&amp;4&amp;0"><img src="/images/banners/bannerRatingPrtl.jpg" width="226"></a>
+<div><img srcset="/images/banners/qrRating.svg" width="88" heigth="88" id="qrRating"><span>БГЭУ на<br>портале<br>рейтинговой<br>оценки</span></div></div><a href="https://moladz.by"><img src="/images/banners/moladzby.png" width="270" style="float: left; margin-top: -1px;"></a><!--a href="https://fest-sbv.by"><img src="/images/banners/slavjanski.jpg" style="width:178px; vertical-align:top;"></a--><a href="http://молодежь.бел/"><img src="/images/banners/belYouth.png" width="226" style="
+    /* margin-top: 5px; */
+"></a><a href="https://www.mintrud.gov.by/ru/trud-molodezh-ru"><img src="/images/banners/bannerMinTrud.jpg" width="226" style="width: calc(28% - 44px);float: left;clear: left;margin-top: -23px;"></a><!--a href="https://info-center.by"><img src="/images/banners/rupiits.jpg" width="270" style="float: left;"></a--><a href="http://молодежь.бел/informatsiya-po-vazhnym-voprosam/uchashcheysya-i-studencheskoy-molodyezhi/molodyezh-protiv-narkotikov/"><img src="/images/banners/bannerAgainsDrugs.jpg" width="270" style="margin-top: -10px;margin-left: 6px;"></a><a href="https://patriot.rcek.by"><img src="/images/banners/patriot126.jpg" width="270" style="margin-left: 10px; margin-top: -25px;"></a>
+</div>
+	  
+</div><!--footer-->
+
+	<div id="partners">
+<!-- Yandex.Metrika informer -->
+<!--a href="https://metrika.yandex.ru/stat/?id=37422005&amp;from=informer"
+target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/37422005/1_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+style="width:80px; height:15px; border:0;float:right;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры)" class="ym-advanced-informer" data-cid="37422005" data-lang="ru" /></a-->
+<!-- /Yandex.Metrika informer -->
+		<a href="http://www.buk.by/" target="_blank"><img src="/images/partners/buk.png" alt="Белорусский государственный университет культуры и искусств"></a>
+	    <a href="http://belmapo.by/" target="_blank" rel="nofollow"><img src="/images/partners/belmapo.gif" alt="Белорусская медицинская академия последипломного образования"></a>
+	    <a href="http://bsmu.by/" target="_blank"><img src="/images/partners/bsmu.png" alt="Белорусский государственный медицинский университет"></a>
+	    <a href="http://vsavm.by/" target="_blank"><img src="/images/partners/vsavm.png" alt="Витебская ордена «Знак Почёта» государственная академия ветеринарной медицины"></a>
+		<a href="http://www.bstu.by/" target="_blank"><img src="/images/partners/bstu.jpg" style="height:40px" alt="Брестский государственный технический университет"></a>
+		<a href="http://www.brsu.by/" target="_blank"><img src="/images/partners/brsu.png" alt="Брестский государственный университет имени А.С.Пушкина"></a>
+		<a href="http://vsmu.by/" target="_blank"><img src="/images/partners/vsmu.png" alt="Витебский государственный ордена Дружбы народов медицинский университет" /></a>
+		<a href="https://www.gstu.by/" target="_blank" rel="noopener noreferrer"><img src="/images/partners/gstu.jpg" alt="Гомельский государственный университет имени П.О.Сухого"></a>
+		<a href="http://www.ggau.by/" target="_blank" rel="noopener noreferrer"><img src="/images/partners/ggau.png" alt="Гродненский государственный аграрный университет"></a>
+		<a href="http://www.grsmu.by/" target="_blank"><img src="/images/partners/grsmu.png" alt="Гродненский государственный медицинский университет"></a>
+		<a href="http://www.grsu.by/" target="_blank"><img src="/images/partners/grsu.gif" alt="Гродненский государственный университет имени Я.Купалы"></a>
+		<a href="http://www.mgup.mogilev.by/" target="_blank"><img src="/images/partners/mgup.gif" alt="Могилёвский государственный университет продовольствия"></a>
+		<a href="http://mspu.by/" target="_blank"><img src="/images/partners/mspu.png" alt="Мозырский государственный педагогический университет им. И.П. Шамякина"></a>
+		<a href="http://ucp.by/" target="_blank"><img src="/images/partners/kii.gif" alt="Университет гражданской защиты МЧС РБ"></a>
+		<a href="//www.institutemvd.by" target="_blank"><img src="/images/partners/mimvd.jpg" alt="Могилевский институт МВД"></a>
+		<a href="http://pac.by/" target="_blank"><img src="/images/t.gif" border="0" width="3" alt="Академия управления при Президенте Республики Беларусь"></a>
+	</div>
+	<noscript>
+	<div><img src="https://mc.yandex.ru/watch/37422005" style="position:absolute; left:-9999px;" alt="" /></div>
+	<div><img src="//top-fwz1.mail.ru/counter?id=2916502;js=na" style="border:0;position:absolute;left:-9999px;" alt="" /></div>
+	<!--img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2145060149054087&ev=PageView&noscript=1" /-->
+	</noscript><div id="cookie" style="display:none">
+<a href="javascript:" class="button right">Принять</a><a href="javascript:" class="right" style="margin:17px 10px 0">Настроить</a><a href="javascript:" class="button right clear">Отклонить</a>
+<p>Данный сайт использует «файлы cookie» для удобства пользования сайтом и сбора статистики. Нажав кнопку "Принять" вы даёте согласие на сохранение информации в «файлах Cookie» в соответствии с <a href="/russian/general/documents/20240917-polozhcookie.pdf">Политикой.</a></p>
+<div id="ckSettings" style="display:none">
+<div><p>Функциональные куки: <input type="checkbox" checked name="fcookie" id="fcookie"></p></div>
+<div><p>Статистические куки: <input type="checkbox" checked name="scookie" id="scookie"></p></div>
+</div>
+</div>
+
+<script language="javascript" src="/js/consnt.js"></script>
+</body>
+</html>

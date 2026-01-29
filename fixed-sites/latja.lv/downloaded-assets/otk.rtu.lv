@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="lv-LV" class="html_stretched responsive av-preloader-disabled  html_header_top html_logo_left html_main_nav_header html_menu_right html_large html_header_sticky html_header_shrinking html_mobile_menu_phone html_header_searchicon_disabled html_content_align_center html_header_unstick_top_disabled html_header_stretch_disabled html_minimal_header html_elegant-blog html_modern-blog html_av-overlay-side html_av-overlay-side-classic html_av-submenu-noclone html_entry_id_36 av-cookies-no-cookie-consent av-no-preview av-default-lightbox html_text_menu_active av-mobile-menu-switch-default">
+<head>
+<meta charset="UTF-8" />
+<meta name="robots" content="index, follow" />
+
+
+<!-- mobile setting -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Scripts/CSS and wp_head hook -->
+<title>RTU Olaines Tehnoloģiju koledža &#8211; Valsts akreditēta profesionālās augstākās izglītības iestāde</title>
+<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel="alternate" hreflang="lv" href="https://wpweb2-prod.rtu.lv/otk/" />
+<link rel="alternate" hreflang="x-default" href="https://wpweb2-prod.rtu.lv/otk/" />
+<link rel='dns-prefetch' href='//otk.rtu.lv' />
+<link rel="alternate" type="application/rss+xml" title="RTU Olaines Tehnoloģiju koledža &raquo; Feed" href="https://otk.rtu.lv/feed/" />
+<link rel="alternate" type="application/rss+xml" title="RTU Olaines Tehnoloģiju koledža &raquo; Comments Feed" href="https://otk.rtu.lv/comments/feed/" />
+<link rel="alternate" type="text/calendar" title="RTU Olaines Tehnoloģiju koledža &raquo; iCal Feed" href="https://otk.rtu.lv/events/?ical=1" />
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v9.4.1 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=G-TBGDY2N50G"  data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var mi_version = '9.4.1';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+								var MonsterInsightsDefaultLocations = {"page_location":"https:\/\/otk.rtu.lv\/"};
+				if ( typeof MonsterInsightsPrivacyGuardFilter === 'function' ) {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsPrivacyGuardFilter( MonsterInsightsExcludeQuery ) : MonsterInsightsPrivacyGuardFilter( MonsterInsightsDefaultLocations );
+				} else {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsExcludeQuery : MonsterInsightsDefaultLocations;
+				}
+
+								var disableStrs = [
+										'ga-disable-G-TBGDY2N50G',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = monsterinsights_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
+								MonsterInsightsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+						} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+					if ( MonsterInsightsLocations.page_location ) {
+						__gtagTracker('set', MonsterInsightsLocations);
+					}
+										__gtagTracker('config', 'G-TBGDY2N50G', {"forceSSL":"true","link_attribution":"true"} );
+															window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+									'referrer' : 'page_referrer',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+		
+<!-- google webfont font replacement -->
+
+			<script type='text/javascript'>
+
+				(function() {
+
+					/*	check if webfonts are disabled by user setting via cookie - or user must opt in.	*/
+					var html = document.getElementsByTagName('html')[0];
+					var cookie_check = html.className.indexOf('av-cookies-needs-opt-in') >= 0 || html.className.indexOf('av-cookies-can-opt-out') >= 0;
+					var allow_continue = true;
+					var silent_accept_cookie = html.className.indexOf('av-cookies-user-silent-accept') >= 0;
+
+					if( cookie_check && ! silent_accept_cookie )
+					{
+						if( ! document.cookie.match(/aviaCookieConsent/) || html.className.indexOf('av-cookies-session-refused') >= 0 )
+						{
+							allow_continue = false;
+						}
+						else
+						{
+							if( ! document.cookie.match(/aviaPrivacyRefuseCookiesHideBar/) )
+							{
+								allow_continue = false;
+							}
+							else if( ! document.cookie.match(/aviaPrivacyEssentialCookiesEnabled/) )
+							{
+								allow_continue = false;
+							}
+							else if( document.cookie.match(/aviaPrivacyGoogleWebfontsDisabled/) )
+							{
+								allow_continue = false;
+							}
+						}
+					}
+
+					if( allow_continue )
+					{
+						var f = document.createElement('link');
+
+						f.type 	= 'text/css';
+						f.rel 	= 'stylesheet';
+						f.href 	= 'https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=auto';
+						f.id 	= 'avia-google-webfont';
+
+						document.getElementsByTagName('head')[0].appendChild(f);
+					}
+				})();
+
+			</script>
+			<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/otk.rtu.lv\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.4"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://otk.rtu.lv/wp-includes/css/dist/block-library/style.min.css?ver=6.7.4' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--metallic-red: #b02b2c;--wp--preset--color--maximum-yellow-red: #edae44;--wp--preset--color--yellow-sun: #eeee22;--wp--preset--color--palm-leaf: #83a846;--wp--preset--color--aero: #7bb0e7;--wp--preset--color--old-lavender: #745f7e;--wp--preset--color--steel-teal: #5f8789;--wp--preset--color--raspberry-pink: #d65799;--wp--preset--color--medium-turquoise: #4ecac2;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 1rem;--wp--preset--font-size--medium: 1.125rem;--wp--preset--font-size--large: 1.75rem;--wp--preset--font-size--x-large: clamp(1.75rem, 3vw, 2.25rem);--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:root { --wp--style--global--content-size: 800px;--wp--style--global--wide-size: 1130px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-metallic-red-color{color: var(--wp--preset--color--metallic-red) !important;}.has-maximum-yellow-red-color{color: var(--wp--preset--color--maximum-yellow-red) !important;}.has-yellow-sun-color{color: var(--wp--preset--color--yellow-sun) !important;}.has-palm-leaf-color{color: var(--wp--preset--color--palm-leaf) !important;}.has-aero-color{color: var(--wp--preset--color--aero) !important;}.has-old-lavender-color{color: var(--wp--preset--color--old-lavender) !important;}.has-steel-teal-color{color: var(--wp--preset--color--steel-teal) !important;}.has-raspberry-pink-color{color: var(--wp--preset--color--raspberry-pink) !important;}.has-medium-turquoise-color{color: var(--wp--preset--color--medium-turquoise) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-metallic-red-background-color{background-color: var(--wp--preset--color--metallic-red) !important;}.has-maximum-yellow-red-background-color{background-color: var(--wp--preset--color--maximum-yellow-red) !important;}.has-yellow-sun-background-color{background-color: var(--wp--preset--color--yellow-sun) !important;}.has-palm-leaf-background-color{background-color: var(--wp--preset--color--palm-leaf) !important;}.has-aero-background-color{background-color: var(--wp--preset--color--aero) !important;}.has-old-lavender-background-color{background-color: var(--wp--preset--color--old-lavender) !important;}.has-steel-teal-background-color{background-color: var(--wp--preset--color--steel-teal) !important;}.has-raspberry-pink-background-color{background-color: var(--wp--preset--color--raspberry-pink) !important;}.has-medium-turquoise-background-color{background-color: var(--wp--preset--color--medium-turquoise) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-metallic-red-border-color{border-color: var(--wp--preset--color--metallic-red) !important;}.has-maximum-yellow-red-border-color{border-color: var(--wp--preset--color--maximum-yellow-red) !important;}.has-yellow-sun-border-color{border-color: var(--wp--preset--color--yellow-sun) !important;}.has-palm-leaf-border-color{border-color: var(--wp--preset--color--palm-leaf) !important;}.has-aero-border-color{border-color: var(--wp--preset--color--aero) !important;}.has-old-lavender-border-color{border-color: var(--wp--preset--color--old-lavender) !important;}.has-steel-teal-border-color{border-color: var(--wp--preset--color--steel-teal) !important;}.has-raspberry-pink-border-color{border-color: var(--wp--preset--color--raspberry-pink) !important;}.has-medium-turquoise-border-color{border-color: var(--wp--preset--color--medium-turquoise) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://otk.rtu.lv/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='cms-navigation-style-base-css' href='https://otk.rtu.lv/wp-content/plugins/wpml-cms-nav/res/css/cms-navigation-base.css?ver=1.5.5' type='text/css' media='screen' />
+<link rel='stylesheet' id='cms-navigation-style-css' href='https://otk.rtu.lv/wp-content/plugins/wpml-cms-nav/res/css/cms-navigation.css?ver=1.5.5' type='text/css' media='screen' />
+<link rel='stylesheet' id='mediaelement-css' href='https://otk.rtu.lv/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css' href='https://otk.rtu.lv/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=6.7.4' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-merged-styles-css' href='https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/dynamic_avia/avia-merged-styles-d984fd045a7a5de1a68ce9554bcbaee8.css' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-single-post-36-css' href='https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/dynamic_avia/avia_posts_css/post-36.css?ver=ver-1761550029' type='text/css' media='all' />
+<script type="text/javascript" src="https://otk.rtu.lv/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://otk.rtu.lv/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://otk.rtu.lv/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.js?ver=9.4.1" id="monsterinsights-frontend-script-js" async="async" data-wp-strategy="async"></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id='monsterinsights-frontend-script-js-extra'>/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/otk.rtu.lv","hash_tracking":"false","v4_id":"G-TBGDY2N50G"};/* ]]> */
+</script>
+<script type="text/javascript" src="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/dynamic_avia/avia-head-scripts-8346f0b9d3430c18cf7f2039930b2666.js" id="avia-head-scripts-js"></script>
+<link rel="https://api.w.org/" href="https://otk.rtu.lv/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://otk.rtu.lv/wp-json/wp/v2/pages/36" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://otk.rtu.lv/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.7.4" />
+<link rel="canonical" href="https://otk.rtu.lv/" />
+<link rel='shortlink' href='https://otk.rtu.lv/' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://otk.rtu.lv/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fotk.rtu.lv%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://otk.rtu.lv/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fotk.rtu.lv%2F&#038;format=xml" />
+<script src='https://wpweb2-prod.rtu.lv/?dm=fcc228d2e455b1cd3f70a350079f22ea&amp;action=load&amp;blogid=29&amp;siteid=1&amp;t=948827028&amp;back=https%3A%2F%2Fotk.rtu.lv%2F' type='text/javascript'></script><meta name="generator" content="WPML ver:4.7.3 stt:31;" />
+<meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://otk.rtu.lv"><link rel="alternate" href="https://otk.rtu.lv/wp-json/tribe/events/v1/" />
+<link rel="icon" href="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2020/04/rtu-80x80.gif" type="image/gif">
+<!--[if lt IE 9]><script src="https://otk.rtu.lv/wp-content/themes/enfold/js/html5shiv.js"></script><![endif]--><link rel="profile" href="https://gmpg.org/xfn/11" />
+<link rel="alternate" type="application/rss+xml" title="RTU Olaines Tehnoloģiju koledža RSS2 Feed" href="https://otk.rtu.lv/feed/" />
+<link rel="pingback" href="https://otk.rtu.lv/xmlrpc.php" />
+
+<!-- To speed up the rendering and to display the site as fast as possible to the user we include some styles and scripts for above the fold content inline -->
+<script type="text/javascript">'use strict';var avia_is_mobile=!1;if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)&&'ontouchstart' in document.documentElement){avia_is_mobile=!0;document.documentElement.className+=' avia_mobile '}
+else{document.documentElement.className+=' avia_desktop '};document.documentElement.className+=' js_active ';(function(){var e=['-webkit-','-moz-','-ms-',''],n='',o=!1,a=!1;for(var t in e){if(e[t]+'transform' in document.documentElement.style){o=!0;n=e[t]+'transform'};if(e[t]+'perspective' in document.documentElement.style){a=!0}};if(o){document.documentElement.className+=' avia_transform '};if(a){document.documentElement.className+=' avia_transform3d '};if(typeof document.getElementsByClassName=='function'&&typeof document.documentElement.getBoundingClientRect=='function'&&avia_is_mobile==!1){if(n&&window.innerHeight>0){setTimeout(function(){var e=0,o={},a=0,t=document.getElementsByClassName('av-parallax'),i=window.pageYOffset||document.documentElement.scrollTop;for(e=0;e<t.length;e++){t[e].style.top='0px';o=t[e].getBoundingClientRect();a=Math.ceil((window.innerHeight+i-o.top)*0.3);t[e].style[n]='translate(0px, '+a+'px)';t[e].style.top='auto';t[e].className+=' enabled-parallax '}},50)}}})();</script><link rel="icon" href="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2020/05/faviconLV.png" sizes="32x32" />
+<link rel="icon" href="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2020/05/faviconLV.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2020/05/faviconLV.png" />
+<meta name="msapplication-TileImage" content="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2020/05/faviconLV.png" />
+<style type="text/css">
+		@font-face {font-family: 'entypo-fontello-enfold'; font-weight: normal; font-style: normal; font-display: auto;
+		src: url('https://otk.rtu.lv/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello-enfold/entypo-fontello-enfold.woff2') format('woff2'),
+		url('https://otk.rtu.lv/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello-enfold/entypo-fontello-enfold.woff') format('woff'),
+		url('https://otk.rtu.lv/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello-enfold/entypo-fontello-enfold.ttf') format('truetype'),
+		url('https://otk.rtu.lv/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello-enfold/entypo-fontello-enfold.svg#entypo-fontello-enfold') format('svg'),
+		url('https://otk.rtu.lv/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello-enfold/entypo-fontello-enfold.eot'),
+		url('https://otk.rtu.lv/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello-enfold/entypo-fontello-enfold.eot?#iefix') format('embedded-opentype');
+		}
+
+		#top .avia-font-entypo-fontello-enfold, body .avia-font-entypo-fontello-enfold, html body [data-av_iconfont='entypo-fontello-enfold']:before{ font-family: 'entypo-fontello-enfold'; }
+		
+		@font-face {font-family: 'entypo-fontello'; font-weight: normal; font-style: normal; font-display: auto;
+		src: url('https://otk.rtu.lv/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello/entypo-fontello.woff2') format('woff2'),
+		url('https://otk.rtu.lv/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello/entypo-fontello.woff') format('woff'),
+		url('https://otk.rtu.lv/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello/entypo-fontello.ttf') format('truetype'),
+		url('https://otk.rtu.lv/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello/entypo-fontello.svg#entypo-fontello') format('svg'),
+		url('https://otk.rtu.lv/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello/entypo-fontello.eot'),
+		url('https://otk.rtu.lv/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello/entypo-fontello.eot?#iefix') format('embedded-opentype');
+		}
+
+		#top .avia-font-entypo-fontello, body .avia-font-entypo-fontello, html body [data-av_iconfont='entypo-fontello']:before{ font-family: 'entypo-fontello'; }
+		</style>
+
+<!--
+Debugging Info for Theme support: 
+
+Theme: Enfold
+Version: 7.1
+Installed: enfold
+AviaFramework Version: 5.6
+AviaBuilder Version: 6.0
+aviaElementManager Version: 1.0.1
+ML:512-PU:52-PLA:16
+WP:6.7.4
+Compress: CSS:all theme files - JS:all theme files
+Updates: disabled
+PLAu:15
+-->
+</head>
+
+<body id="top" class="home page-template-default page page-id-36 stretched rtl_columns av-curtain-numeric open_sans tribe-no-js post-type-page translation_priority-optional avia-responsive-images-support" itemscope="itemscope" itemtype="https://schema.org/WebPage" >
+
+	
+	<div id='wrap_all'>
+
+	
+<header id='header' class='all_colors header_color light_bg_color  av_header_top av_logo_left av_main_nav_header av_menu_right av_large av_header_sticky av_header_shrinking av_header_stretch_disabled av_mobile_menu_phone av_header_searchicon_disabled av_header_unstick_top_disabled av_minimal_header av_bottom_nav_disabled  av_alternate_logo_active av_header_border_disabled' aria-label="Header" data-av_shrink_factor='50' role="banner" itemscope="itemscope" itemtype="https://schema.org/WPHeader" >
+
+		<div  id='header_main' class='container_wrap container_wrap_logo'>
+
+        <div class='container av-logo-container'><div class='inner-container'><span class='logo avia-standard-logo'><a href='https://otk.rtu.lv/' class='' aria-label='RTU Olaines Tehnoloģiju koledža' ><img src="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2019/12/Logo-Olaines-Tehnoloģiju-Koledža-300x219.png" height="100" width="300" alt='RTU Olaines Tehnoloģiju koledža' title='' /></a></span><nav class='main_menu' data-selectname='Select a page'  role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" ><div class="avia-menu av-main-nav-wrap av_menu_icon_beside"><ul role="menu" class="menu av-main-nav" id="avia-menu"><li role="menuitem" id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-36 current_page_item menu-item-has-children menu-item-top-level menu-item-top-level-1"><a href="https://otk.rtu.lv/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Sākums</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
+
+
+<ul class="sub-menu">
+	<li role="menuitem" id="menu-item-8961" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/lapas-karte/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Lapas karte</span></a></li>
+	<li role="menuitem" id="menu-item-8942" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/pieklustamibas-pazinojums/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Piekļūstamības paziņojums</span></a></li>
+</ul>
+</li>
+<li role="menuitem" id="menu-item-790" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-top-level menu-item-top-level-2"><a itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Par mums</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
+
+
+<ul class="sub-menu">
+	<li role="menuitem" id="menu-item-156" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/vesture-un-tradicijas/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Vēsture un tradīcijas</span></a></li>
+	<li role="menuitem" id="menu-item-157" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/misija-un-vertibas/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Misija un vērtības</span></a></li>
+	<li role="menuitem" id="menu-item-155" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/normativie-dokumenti/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Dokumenti</span></a></li>
+	<li role="menuitem" id="menu-item-154" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/maksas-pakalpojumi/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Maksas pakalpojumi</span></a></li>
+	<li role="menuitem" id="menu-item-151" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/vakances/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Vakances</span></a></li>
+	<li role="menuitem" id="menu-item-152" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/iepirkumi/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Iepirkumi</span></a></li>
+	<li role="menuitem" id="menu-item-2628" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/trauksmes-celsana/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Trauksmes celšana</span></a></li>
+	<li role="menuitem" id="menu-item-150" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/partneri/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Sadarbības partneri</span></a></li>
+</ul>
+</li>
+<li role="menuitem" id="menu-item-732" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-top-level menu-item-top-level-3"><a itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Koledža</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
+
+
+<ul class="sub-menu">
+	<li role="menuitem" id="menu-item-57" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/uznemsana-koledza/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Uzņemšana koledžā</span></a></li>
+	<li role="menuitem" id="menu-item-13897" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/studiju-programmas/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Studiju programmas</span></a></li>
+	<li role="menuitem" id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/lekciju-saraksts/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Lekciju saraksts</span></a></li>
+	<li role="menuitem" id="menu-item-107" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/koledzas-pasnovertejums/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Koledžas ziņojumi</span></a></li>
+</ul>
+</li>
+<li role="menuitem" id="menu-item-733" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-top-level menu-item-top-level-4"><a itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Vidusskola</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
+
+
+<ul class="sub-menu">
+	<li role="menuitem" id="menu-item-14259" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/pusdienas/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Pusdienas</span></a></li>
+	<li role="menuitem" id="menu-item-55" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/uznemsana-vidusskola/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Uzņemšana profesionālajā vidusskolā</span></a></li>
+	<li role="menuitem" id="menu-item-13940" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://otk.rtu.lv/macibu-programmas/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Mācību programmas</span></a>
+	<ul class="sub-menu">
+		<li role="menuitem" id="menu-item-13947" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/macibu-programmas/analitiskas-kimijas-tehnikis/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Analītiskās ķīmijas tehniķis</span></a></li>
+		<li role="menuitem" id="menu-item-13946" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/macibu-programmas/parfimerijas-un-kosmetikas-procesu-tehnikis/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Parfimērijas un kosmētikas procesu tehniķis</span></a></li>
+		<li role="menuitem" id="menu-item-13945" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/macibu-programmas/farmaceitisko-procesu-tehnikis/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Farmaceitisko procesu tehniķis</span></a></li>
+		<li role="menuitem" id="menu-item-13944" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/macibu-programmas/biotehnologisko-procesu-tehnikis/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Biotehnoloģisko procesu tehniķis</span></a></li>
+		<li role="menuitem" id="menu-item-13943" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/macibu-programmas/vides-tehnikis/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Vides tehniķis</span></a></li>
+		<li role="menuitem" id="menu-item-13942" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/macibu-programmas/rupniecisko-iekartu-mehanikis/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Rūpniecisko iekārtu mehāniķis</span></a></li>
+		<li role="menuitem" id="menu-item-13941" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/macibu-programmas/partikas-kvalitates-kontrolieris/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Pārtikas kvalitātes kontrolieris</span></a></li>
+	</ul>
+</li>
+	<li role="menuitem" id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/stundu-saraksts/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Stundu saraksts</span></a></li>
+	<li role="menuitem" id="menu-item-1074" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/skolenu-arpusstundu-aktivitates/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Ārpusstundu aktivitātes</span></a></li>
+	<li role="menuitem" id="menu-item-114" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/vidusskolas-pasnovertejums/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Vidusskolas pašnovērtējums</span></a></li>
+</ul>
+</li>
+<li role="menuitem" id="menu-item-12290" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-5"><a href="https://otk.rtu.lv/talakizglitiba-2/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Tālākizglītība</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li role="menuitem" id="menu-item-734" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-top-level menu-item-top-level-6"><a itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Projekti</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
+
+
+<ul class="sub-menu">
+	<li role="menuitem" id="menu-item-1172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://otk.rtu.lv/erasmus-koledza/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">ERASMUS+ koledža</span></a>
+	<ul class="sub-menu">
+		<li role="menuitem" id="menu-item-14151" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/augstakas-izglitibas-sektora-mobilitates-projekts-nr-2023-1-lv01-ka131-hed-000126352/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Augstākās izglītības sektora mobilitātes (Projekts Nr.2023-1-LV01-KA131-HED-000126352)</span></a></li>
+		<li role="menuitem" id="menu-item-12077" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/augstakas-izglitibas-sektora-mobilitates-projekts-nr-2022-1-lv01-ka131-hed-000060622/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Augstākās izglītības sektora mobilitātes (Projekts Nr.2022-1-LV01-KA131-HED-000060622)</span></a></li>
+		<li role="menuitem" id="menu-item-9961" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/augstakas-izglitibas-sektora-mobilitates-projekts-nr-2021-1-lv01-ka131-hed-000010481/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Augstākās izglītības sektora mobilitātes (Projekts Nr.2021-1-LV01-KA131-HED-000010481)</span></a></li>
+	</ul>
+</li>
+	<li role="menuitem" id="menu-item-1175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://otk.rtu.lv/erasmus-profesionala-vidusskola/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">ERASMUS+ profesionālā vidusskola</span></a>
+	<ul class="sub-menu">
+		<li role="menuitem" id="menu-item-13189" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/erasmus-mobilitates-projekts-stazesanas-arzemes-ieguldijums-nozares-attistiba-nr-2023-1-lv01-ka122-vet-000132287/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Erasmus+ mobilitātes projekts „Stažēšanās ārzemēs – ieguldījums nozares attīstībā” (Nr. 2023-1-LV01-KA122-VET-000132287)</span></a></li>
+		<li role="menuitem" id="menu-item-10594" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/erasmus-mobilitates-projekts-prakse-arzemes-ieguldijums-kimijas-farmacijas-un-biotehnologijas-nozaru-attistiba/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Erasmus+ mobilitātes projekts „Prakse ārzemēs – ieguldījums ķīmijas, farmācijas un biotehnoloģijas nozaru attīstībā”(Nr. 2022-1-LV01-KA122-VET-000077350)</span></a></li>
+		<li role="menuitem" id="menu-item-7979" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/erasmus-mobilitates-projekts-kvalifikacijas-prakses-arzemes-ieguldijums-nozares-attistiba-nr-2020-1-lv01-ka116-077399/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Erasmus+ mobilitātes projekts „Kvalifikācijas prakses ārzemēs – ieguldījums nozares attīstībā” (Nr.2020-1-LV01-KA116-077399)</span></a></li>
+	</ul>
+</li>
+	<li role="menuitem" id="menu-item-8832" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/9-karta/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">9.kārta</span></a></li>
+	<li role="menuitem" id="menu-item-8831" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/macibas-pieaugusajiem/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Mācības pieaugušajiem</span></a></li>
+	<li role="menuitem" id="menu-item-9271" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/https-wpweb2-prod-rtu-lv-otk-wp-content-uploads-sites-29-2023-08-projekts_sam851-olaines-koledza-pdf/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">ESF projekts «Profesionālo izglītības iestāžu audzēkņu dalība darba vidē balstītās mācībās un mācību praksēs uzņēmumos» Nr. 8.5.1.0/16/I/001</span></a></li>
+	<li role="menuitem" id="menu-item-7187" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2022/09/ESF-projekta-Nr.-8.4.1._info.pdf" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">SAM 8.4.1. “Nodarbināto Personu Profesionālās Kompetences Pilnveide”</span></a></li>
+	<li role="menuitem" id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="https://otk.rtu.lv/eraf-projekti/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">ERAF projekti</span></a>
+	<ul class="sub-menu">
+		<li role="menuitem" id="menu-item-1393" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/projekts-nr-1/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Projekts Nr.8.1.4.0.</span></a></li>
+		<li role="menuitem" id="menu-item-1349" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/projekts-nr-4-2-1-2/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Projekts Nr.4.2.1.2.</span></a></li>
+	</ul>
+</li>
+	<li role="menuitem" id="menu-item-122" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/pumpurs/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">PuMPuRS</span></a></li>
+	<li role="menuitem" id="menu-item-4607" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/latvijas-skolas-soma/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Latvijas skolas soma</span></a></li>
+	<li role="menuitem" id="menu-item-118" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/citi-projekti/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Pilot PoVE Water</span></a></li>
+</ul>
+</li>
+<li role="menuitem" id="menu-item-3173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-7"><a href="https://otk.rtu.lv/laboratorijas/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Laboratorijas</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li role="menuitem" id="menu-item-2735" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-top-level menu-item-top-level-8"><a href="https://otk.rtu.lv/biblioteka/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Bibliotēka</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
+
+
+<ul class="sub-menu">
+	<li role="menuitem" id="menu-item-2752" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/par-biblioteku/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Par bibliotēku</span></a></li>
+	<li role="menuitem" id="menu-item-7811" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/datubazes/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Datubāzes</span></a></li>
+	<li role="menuitem" id="menu-item-2770" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/aktualitates-jaunumi-izstades/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Aktualitātes (Jaunumi, izstādes)</span></a></li>
+	<li role="menuitem" id="menu-item-2784" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/bibliotekas-lietosanas-noteikumi/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Bibliotēkas normatīvie dokumenti</span></a></li>
+	<li role="menuitem" id="menu-item-2787" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/ieskats-tematiskaja-kataloga/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Ieskats tematiskajā katalogā</span></a></li>
+	<li role="menuitem" id="menu-item-2791" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://otk.rtu.lv/kontakti-un-darba-laiks/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Kontakti un darba laiks</span></a></li>
+</ul>
+</li>
+<li role="menuitem" id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-9"><a href="https://otk.rtu.lv/kontakti/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Kontakti</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li class='av-language-switch-item language_lv avia_current_lang'><a href="https://wpweb2-prod.rtu.lv/otk/"><span class='language_flag'><img title='Latviešu' src='https://otk.rtu.lv/wp-content/plugins/sitepress-multilingual-cms/res/flags/lv.png' /></span></a></li><li class="av-burger-menu-main menu-item-avia-special " role="menuitem">
+	        			<a href="#" aria-label="Menu" aria-hidden="false">
+							<span class="av-hamburger av-hamburger--spin av-js-hamburger">
+								<span class="av-hamburger-box">
+						          <span class="av-hamburger-inner"></span>
+						          <strong>Menu</strong>
+								</span>
+							</span>
+							<span class="avia_hidden_link_text">Menu</span>
+						</a>
+	        		   </li></ul></div><ul class='noLightbox social_bookmarks icon_count_3'><li class='social_bookmarks_instagram av-social-link-instagram social_icon_1 avia_social_iconfont'><a  target="_blank" aria-label="Link to Instagram" href='https://www.instagram.com/olaineskoledza/' data-av_icon='' data-av_iconfont='entypo-fontello' title="Link to Instagram" desc="Link to Instagram" title='Link to Instagram'><span class='avia_hidden_link_text'>Link to Instagram</span></a></li><li class='social_bookmarks_facebook av-social-link-facebook social_icon_2 avia_social_iconfont'><a  target="_blank" aria-label="Link to Facebook" href='https://www.facebook.com/education.otk/' data-av_icon='' data-av_iconfont='entypo-fontello' title="Link to Facebook" desc="Link to Facebook" title='Link to Facebook'><span class='avia_hidden_link_text'>Link to Facebook</span></a></li><li class='social_bookmarks_youtube av-social-link-youtube social_icon_3 avia_social_iconfont'><a  target="_blank" aria-label="Link to Youtube" href='https://www.youtube.com/@rtuolainestehnologijukoled1037' data-av_icon='' data-av_iconfont='entypo-fontello' title="Link to Youtube" desc="Link to Youtube" title='Link to Youtube'><span class='avia_hidden_link_text'>Link to Youtube</span></a></li></ul></nav></div> </div> 
+		<!-- end container_wrap-->
+		</div>
+<div class="header_bg"></div>
+<!-- end header -->
+</header>
+
+	<div id='main' class='all_colors' data-scroll-offset='116'>
+
+	<div   class='main_color container_wrap_first container_wrap fullsize'  ><div class='container av-section-cont-open' ><main  role="main" itemprop="mainContentOfPage"  class='template-page content  av-content-full alpha units'><div class='post-entry post-entry-type-page post-entry-36'><div class='entry-content-wrapper clearfix'><div  class='flex_column av-mpo-ddb4d538777cb888ce472d86b1e2fbdd av_one_full  avia-builder-el-0  el_before_av_layout_row  avia-builder-el-no-sibling  first flex_column_div av-zero-column-padding  '     ><section  class='av_textblock_section av-k364s45y-c3fbd1493d0dad9f191d14d5875f652e '   itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><div class='avia_textblock'  itemprop="text" ><h1 style="text-align: center; color: #808080; font-size: 25px;">RTU Olaines Tehnoloģiju koledža</h1>
+<h2 style="text-align: center; color: #808080; font-size: 18px;">Valsts akreditēta profesionālās augstākās izglītības iestāde ar struktūrvienību profesionālā vidusskola</h2>
+</div></section></div>
+</div></div></main><!-- close content main element --></div></div><div id='av-layout-grid-1'  class='av-layout-grid-container av-kafj00q2-46d18b24aab3d70e7be7b6700ac6878e entry-content-wrapper alternate_color av-border-top-bottom av-border-cells av-flex-cells av-break-at-tablet  avia-builder-el-2  el_after_av_one_full  el_before_av_one_full  grid-row-not-first  container_wrap fullsize'  >
+<a class="av-screen-reader-only" href="https://otk.rtu.lv/uznemsana-vidusskola/" >Link to: Uzņemšana profesionālajā vidusskolā</a><div class='flex_cell av-kaficsdv-a2a5d77b5e5d042531e199f2546008a3 av-gridrow-cell av_one_half no_margin  avia-builder-el-3  el_before_av_cell_one_half  avia-builder-el-first  content-align-top avia-link-column av-cell-link avia-link-column-hover'  data-link-column-url="https://otk.rtu.lv/uznemsana-vidusskola/"  ><div class='flex_cell_inner'>
+
+<style type="text/css" data-created_by="avia_inline_auto" id="style-css-av-kafikgza-fed37f28330e26613f5e8136089681f3">
+.avia-image-container.av-kafikgza-fed37f28330e26613f5e8136089681f3 img.avia_image{
+box-shadow:none;
+}
+.avia-image-container.av-kafikgza-fed37f28330e26613f5e8136089681f3 .av-image-caption-overlay-center{
+color:#ffffff;
+}
+</style>
+<div  class='avia-image-container av-kafikgza-fed37f28330e26613f5e8136089681f3 av-styling- avia-align-center  avia-builder-el-4  el_before_av_textblock  avia-builder-el-first '   itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject" ><div class="avia-image-container-inner"><div class="avia-image-overlay-wrap"><img decoding="async" fetchpriority="high" class='wp-image-11950 avia-img-lazy-loading-not-11950 avia_image ' src="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/05/Profesionala-videja-izglitiba-pec-9.klases-212x300.png" alt='' title='Profesionālā vidējā izglītība (pēc 9.klases)'  height="300" width="212"  itemprop="thumbnailUrl" srcset="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/05/Profesionala-videja-izglitiba-pec-9.klases-212x300.png 212w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/05/Profesionala-videja-izglitiba-pec-9.klases-728x1030.png 728w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/05/Profesionala-videja-izglitiba-pec-9.klases-768x1086.png 768w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/05/Profesionala-videja-izglitiba-pec-9.klases-1086x1536.png 1086w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/05/Profesionala-videja-izglitiba-pec-9.klases-1448x2048.png 1448w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/05/Profesionala-videja-izglitiba-pec-9.klases-1060x1500.png 1060w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/05/Profesionala-videja-izglitiba-pec-9.klases-498x705.png 498w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/05/Profesionala-videja-izglitiba-pec-9.klases.png 1587w" sizes="(max-width: 212px) 100vw, 212px" /></div></div></div>
+<section  class='av_textblock_section av-kafidrw0-d4e23117538f58ee42f048c28fe7cdda '   itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><div class='avia_textblock av_inherit_color'  itemprop="text" ><h3 style="text-align: center;">PROFESIONĀLĀ VIDĒJĀ IZGLĪTĪBA</h3>
+<p style="text-align: center;">Uzņemšanas noteikumi</p>
+</div></section>
+</div></div><a class="av-screen-reader-only" href="https://otk.rtu.lv/uznemsana-koledza/" >Link to: Uzņemšana koledžā</a><div class='flex_cell av-kafir0k5-62bfab8feca5743bf382311e4aa876c7 av-gridrow-cell av_one_half no_margin  avia-builder-el-6  el_after_av_cell_one_half  avia-builder-el-last  content-align-top avia-link-column av-cell-link avia-link-column-hover'  data-link-column-url="https://otk.rtu.lv/uznemsana-koledza/"  ><div class='flex_cell_inner'>
+
+<style type="text/css" data-created_by="avia_inline_auto" id="style-css-av-kafikgza-2-62de13bbdb28dacbfc9ba73f0b532a89">
+.avia-image-container.av-kafikgza-2-62de13bbdb28dacbfc9ba73f0b532a89 img.avia_image{
+box-shadow:none;
+}
+.avia-image-container.av-kafikgza-2-62de13bbdb28dacbfc9ba73f0b532a89 .av-image-caption-overlay-center{
+color:#ffffff;
+}
+</style>
+<div  class='avia-image-container av-kafikgza-2-62de13bbdb28dacbfc9ba73f0b532a89 av-styling- avia-align-center  avia-builder-el-7  el_before_av_textblock  avia-builder-el-first '   itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject" ><div class="avia-image-container-inner"><div class="avia-image-overlay-wrap"><img decoding="async" fetchpriority="high" class='wp-image-11966 avia-img-lazy-loading-not-11966 avia_image ' src="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/05/Isa-cikla-profesionala-izglitiba-pec-12.klases-212x300.png" alt='' title='Īsā cikla profesionālā izglītība (pēc 12.klases)'  height="300" width="212"  itemprop="thumbnailUrl" srcset="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/05/Isa-cikla-profesionala-izglitiba-pec-12.klases-212x300.png 212w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/05/Isa-cikla-profesionala-izglitiba-pec-12.klases-728x1030.png 728w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/05/Isa-cikla-profesionala-izglitiba-pec-12.klases-768x1086.png 768w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/05/Isa-cikla-profesionala-izglitiba-pec-12.klases-1086x1536.png 1086w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/05/Isa-cikla-profesionala-izglitiba-pec-12.klases-1448x2048.png 1448w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/05/Isa-cikla-profesionala-izglitiba-pec-12.klases-1060x1500.png 1060w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/05/Isa-cikla-profesionala-izglitiba-pec-12.klases-498x705.png 498w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/05/Isa-cikla-profesionala-izglitiba-pec-12.klases.png 1587w" sizes="(max-width: 212px) 100vw, 212px" /></div></div></div>
+<section  class='av_textblock_section av-kafidrw0-1-117ebf694aa0e34eedddc229188b2f5e '   itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><div class='avia_textblock av_inherit_color'  itemprop="text" ><h4 style="text-align: center;">AUGSTĀKĀ IZGLĪTĪBA</h4>
+<p style="text-align: center;">Uzņemšanas noteikumi</p>
+<p style="text-align: center;">
+</div></section>
+</div></div>
+</div><div id='after_grid_row_1'  class='main_color av_default_container_wrap container_wrap fullsize'  ><div class='container av-section-cont-open' ><div class='template-page content  av-content-full alpha units'><div class='post-entry post-entry-type-page post-entry-36'><div class='entry-content-wrapper clearfix'>
+<div  class='flex_column av-22jto-41d0d29ca129c4a60d5c820055080256 av_one_full  avia-builder-el-9  el_after_av_layout_row  el_before_av_image  avia-builder-el-first  first flex_column_div av-zero-column-padding  '     ><section  class='av_textblock_section av-k7c3x9s9-f5b077b0040211e4def1a34adb6cebb8 '   itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><div class='avia_textblock'  itemprop="text" ><h1 style="text-align: center;">JAUNUMI</h1>
+</div></section>
+<div  data-slideshow-options="{&quot;animation&quot;:&quot;fade&quot;,&quot;autoplay&quot;:false,&quot;loop_autoplay&quot;:&quot;once&quot;,&quot;interval&quot;:5,&quot;loop_manual&quot;:&quot;manual-endless&quot;,&quot;autoplay_stopper&quot;:false,&quot;noNavigation&quot;:false,&quot;show_slide_delay&quot;:90}" class='avia-content-slider avia-content-grid-active avia-content-slider1 avia-content-slider-odd  avia-builder-el-11  el_after_av_textblock  avia-builder-el-last  av-slideshow-ui av-control-default   av-no-slider-navigation av-slideshow-manual av-loop-once av-loop-manual-endless '  itemscope="itemscope" itemtype="https://schema.org/Blog" ><div class="avia-content-slider-inner"><div class="slide-entry-wrap"><article class='slide-entry flex_column  post-entry post-entry-14272 slide-entry-overview slide-loop-1 slide-parity-odd  av_one_third first real-thumbnail posttype-post post-format-standard'  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><a href='https://otk.rtu.lv/pusdienas-rtu-otk/' data-rel='slide-1' class='slide-image' title='Pusdienas RTU OTK sākot ar 19.11.2025.'><img decoding="async" fetchpriority="high" width="495" height="400" src="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2025/11/pusdienas_informacija-495x400.png" class="wp-image-14263 avia-img-lazy-loading-not-14263 attachment-portfolio size-portfolio wp-post-image" alt="" srcset="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2025/11/pusdienas_informacija-495x400.png 495w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2025/11/pusdienas_informacija-845x684.png 845w" sizes="(max-width: 495px) 100vw, 495px" /></a><div class="slide-content"><header class="entry-content-header" aria-label="Slide: Pusdienas RTU OTK sākot ar 19.11.2025."><h3 class='slide-entry-title entry-title '  itemprop="headline" ><a href='https://otk.rtu.lv/pusdienas-rtu-otk/' title='Pusdienas RTU OTK sākot ar 19.11.2025.'>Pusdienas RTU OTK sākot ar 19.11.2025.</a></h3><span class="blog-categories minor-meta"><a href="https://otk.rtu.lv/category/aktualitates/" rel="tag">Aktualitātes</a> </span><span class="av-vertical-delimiter"></span></header><div class='slide-entry-excerpt entry-content'  itemprop="text" >
+
+
+
+</div></div><footer class="entry-footer"><div class="slide-meta"><time class='slide-meta-time updated'  itemprop="datePublished" datetime="2025-11-10T19:57:42+03:00" >10/11/2025</time></div></footer><span class='hidden'>
+				<span class='av-structured-data'  itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject" >
+						<span itemprop='url'>https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2025/11/pusdienas_informacija.png</span>
+						<span itemprop='height'>788</span>
+						<span itemprop='width'>940</span>
+				</span>
+				<span class='av-structured-data'  itemprop="publisher" itemtype="https://schema.org/Organization" itemscope="itemscope" >
+						<span itemprop='name'>webotk</span>
+						<span itemprop='logo' itemscope itemtype='https://schema.org/ImageObject'>
+							<span itemprop='url'>https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2019/12/Logo-Olaines-Tehnoloģiju-Koledža-300x219.png</span>
+						</span>
+				</span><span class='av-structured-data'  itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Person" ><span itemprop='name'>webotk</span></span><span class='av-structured-data'  itemprop="datePublished" datetime="2019-10-29T14:44:06+03:00" >2025-11-10 19:57:42</span><span class='av-structured-data'  itemprop="dateModified" itemtype="https://schema.org/dateModified" >2025-11-10 20:08:35</span><span class='av-structured-data'  itemprop="mainEntityOfPage" itemtype="https://schema.org/mainEntityOfPage" ><span itemprop='name'>Pusdienas RTU OTK sākot ar 19.11.2025.</span></span></span></article><article class='slide-entry flex_column  post-entry post-entry-14069 slide-entry-overview slide-loop-2 slide-parity-even  av_one_third  real-thumbnail posttype-post post-format-standard'  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><a href='https://otk.rtu.lv/studentiem-pieteiksanas-socialajai-stipendijai-studetgods-no-2025-gada-1-lidz-20-septembrim/' data-rel='slide-1' class='slide-image' title='Studentiem pieteikšanās sociālajai stipendijai &#8220;Studētgods&#8221; no 2025. gada 1. līdz 20.septembrim.'><img decoding="async" fetchpriority="high" width="495" height="364" src="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2025/09/Studetgods_09_2025-495x364.jpg" class="wp-image-14070 avia-img-lazy-loading-not-14070 attachment-portfolio size-portfolio wp-post-image" alt="" /></a><div class="slide-content"><header class="entry-content-header" aria-label="Slide: Studentiem pieteikšanās sociālajai stipendijai &quot;Studētgods&quot; no 2025. gada 1. līdz 20.septembrim."><h3 class='slide-entry-title entry-title '  itemprop="headline" ><a href='https://otk.rtu.lv/studentiem-pieteiksanas-socialajai-stipendijai-studetgods-no-2025-gada-1-lidz-20-septembrim/' title='Studentiem pieteikšanās sociālajai stipendijai &#8220;Studētgods&#8221; no 2025. gada 1. līdz 20.septembrim.'>Studentiem pieteikšanās sociālajai stipendijai &#8220;Studētgods&#8221; no 2025. gada 1. līdz 20.septembrim.</a></h3><span class="blog-categories minor-meta"><a href="https://otk.rtu.lv/category/aktualitates/" rel="tag">Aktualitātes</a> </span><span class="av-vertical-delimiter"></span></header><div class='slide-entry-excerpt entry-content'  itemprop="text" >
+No 1. līdz 20. septembrim Latvijas augstskolu pilna laika klātienes bakalaura un koledžas līmeņa studenti līdz 25 gadu vecumam (ieskaitot) var pieteikties sociālajai stipendijai. Pieteikums jāiesniedz elektroniski portālā Latvija.lv…</div></div><footer class="entry-footer"><div class="slide-meta"><time class='slide-meta-time updated'  itemprop="datePublished" datetime="2025-09-04T07:24:31+03:00" >04/09/2025</time></div></footer><span class='hidden'>
+				<span class='av-structured-data'  itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject" >
+						<span itemprop='url'>https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2025/09/Studetgods_09_2025.jpg</span>
+						<span itemprop='height'>364</span>
+						<span itemprop='width'>647</span>
+				</span>
+				<span class='av-structured-data'  itemprop="publisher" itemtype="https://schema.org/Organization" itemscope="itemscope" >
+						<span itemprop='name'>webotk</span>
+						<span itemprop='logo' itemscope itemtype='https://schema.org/ImageObject'>
+							<span itemprop='url'>https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2019/12/Logo-Olaines-Tehnoloģiju-Koledža-300x219.png</span>
+						</span>
+				</span><span class='av-structured-data'  itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Person" ><span itemprop='name'>webotk</span></span><span class='av-structured-data'  itemprop="datePublished" datetime="2019-10-29T14:44:06+03:00" >2025-09-04 07:24:31</span><span class='av-structured-data'  itemprop="dateModified" itemtype="https://schema.org/dateModified" >2025-09-04 07:25:41</span><span class='av-structured-data'  itemprop="mainEntityOfPage" itemtype="https://schema.org/mainEntityOfPage" ><span itemprop='name'>Studentiem pieteikšanās sociālajai stipendijai &#8220;Studētgods&#8221; no 2025. gada 1. līdz 20.septembrim.</span></span></span></article><article class='slide-entry flex_column  post-entry post-entry-14052 slide-entry-overview slide-loop-3 slide-parity-odd  av_one_third  real-thumbnail posttype-post post-format-standard'  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><a href='https://otk.rtu.lv/sveicam-jaunaja-macibu-gada-2/' data-rel='slide-1' class='slide-image' title='Sveicam jaunajā mācību gadā!'><img decoding="async" fetchpriority="high" width="495" height="400" src="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2025/08/SVEICAM-JAUNAJA-MACIBU-GADA-1-495x400.jpg" class="wp-image-14045 avia-img-lazy-loading-not-14045 attachment-portfolio size-portfolio wp-post-image" alt="" srcset="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2025/08/SVEICAM-JAUNAJA-MACIBU-GADA-1-495x400.jpg 495w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2025/08/SVEICAM-JAUNAJA-MACIBU-GADA-1-845x684.jpg 845w" sizes="(max-width: 495px) 100vw, 495px" /></a><div class="slide-content"><header class="entry-content-header" aria-label="Slide: Sveicam jaunajā mācību gadā!"><h3 class='slide-entry-title entry-title '  itemprop="headline" ><a href='https://otk.rtu.lv/sveicam-jaunaja-macibu-gada-2/' title='Sveicam jaunajā mācību gadā!'>Sveicam jaunajā mācību gadā!</a></h3><span class="blog-categories minor-meta"><a href="https://otk.rtu.lv/category/aktualitates/" rel="tag">Aktualitātes</a> </span><span class="av-vertical-delimiter"></span></header></div><footer class="entry-footer"><div class="slide-meta"><time class='slide-meta-time updated'  itemprop="datePublished" datetime="2025-09-04T07:24:31+03:00" >04/09/2025</time></div></footer><span class='hidden'>
+				<span class='av-structured-data'  itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject" >
+						<span itemprop='url'>https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2025/08/SVEICAM-JAUNAJA-MACIBU-GADA-1.jpg</span>
+						<span itemprop='height'>788</span>
+						<span itemprop='width'>940</span>
+				</span>
+				<span class='av-structured-data'  itemprop="publisher" itemtype="https://schema.org/Organization" itemscope="itemscope" >
+						<span itemprop='name'>webotk</span>
+						<span itemprop='logo' itemscope itemtype='https://schema.org/ImageObject'>
+							<span itemprop='url'>https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2019/12/Logo-Olaines-Tehnoloģiju-Koledža-300x219.png</span>
+						</span>
+				</span><span class='av-structured-data'  itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Person" ><span itemprop='name'>webotk</span></span><span class='av-structured-data'  itemprop="datePublished" datetime="2019-10-29T14:44:06+03:00" >2025-08-27 05:49:35</span><span class='av-structured-data'  itemprop="dateModified" itemtype="https://schema.org/dateModified" >2025-08-27 05:50:51</span><span class='av-structured-data'  itemprop="mainEntityOfPage" itemtype="https://schema.org/mainEntityOfPage" ><span itemprop='name'>Sveicam jaunajā mācību gadā!</span></span></span></article></div><div class="slide-entry-wrap"><article class='slide-entry flex_column  post-entry post-entry-13850 slide-entry-overview slide-loop-4 slide-parity-odd  av_one_third first real-thumbnail posttype-post post-format-standard'  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><a href='https://otk.rtu.lv/rtu-olaines-tehnologiju-koledza-tavs-cels-uz-pieprasitu-profesiju/' data-rel='slide-1' class='slide-image' title='RTU Olaines Tehnoloģiju koledžā – Tavs ceļš uz pieprasītu profesiju!'><img decoding="async" fetchpriority="high" width="495" height="400" src="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2025/07/IMG-PI-495x400.jpg" class="wp-image-13834 avia-img-lazy-loading-not-13834 attachment-portfolio size-portfolio wp-post-image" alt="" srcset="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2025/07/IMG-PI-495x400.jpg 495w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2025/07/IMG-PI-845x684.jpg 845w" sizes="(max-width: 495px) 100vw, 495px" /></a><div class="slide-content"><header class="entry-content-header" aria-label="Slide: RTU Olaines Tehnoloģiju koledžā – Tavs ceļš uz pieprasītu profesiju!"><h3 class='slide-entry-title entry-title '  itemprop="headline" ><a href='https://otk.rtu.lv/rtu-olaines-tehnologiju-koledza-tavs-cels-uz-pieprasitu-profesiju/' title='RTU Olaines Tehnoloģiju koledžā – Tavs ceļš uz pieprasītu profesiju!'>RTU Olaines Tehnoloģiju koledžā – Tavs ceļš uz pieprasītu profesiju!</a></h3><span class="blog-categories minor-meta"><a href="https://otk.rtu.lv/category/aktualitates/" rel="tag">Aktualitātes</a> </span><span class="av-vertical-delimiter"></span></header><div class='slide-entry-excerpt entry-content'  itemprop="text" >
+2025 gada 4. jūlijā svinējām izlaidumu – mūsu absolventi jau ir soli tuvāk veiksmīgai karjerai Eiropas Savienībā!
+
+
+
+
+
+
+</div></div><footer class="entry-footer"><div class="slide-meta"><time class='slide-meta-time updated'  itemprop="datePublished" datetime="2025-07-11T17:02:35+03:00" >11/07/2025</time></div></footer><span class='hidden'>
+				<span class='av-structured-data'  itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject" >
+						<span itemprop='url'>https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2025/07/IMG-PI.jpg</span>
+						<span itemprop='height'>1066</span>
+						<span itemprop='width'>1600</span>
+				</span>
+				<span class='av-structured-data'  itemprop="publisher" itemtype="https://schema.org/Organization" itemscope="itemscope" >
+						<span itemprop='name'>webotk</span>
+						<span itemprop='logo' itemscope itemtype='https://schema.org/ImageObject'>
+							<span itemprop='url'>https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2019/12/Logo-Olaines-Tehnoloģiju-Koledža-300x219.png</span>
+						</span>
+				</span><span class='av-structured-data'  itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Person" ><span itemprop='name'>webotk</span></span><span class='av-structured-data'  itemprop="datePublished" datetime="2019-10-29T14:44:06+03:00" >2025-07-11 17:02:35</span><span class='av-structured-data'  itemprop="dateModified" itemtype="https://schema.org/dateModified" >2025-07-11 17:06:12</span><span class='av-structured-data'  itemprop="mainEntityOfPage" itemtype="https://schema.org/mainEntityOfPage" ><span itemprop='name'>RTU Olaines Tehnoloģiju koledžā – Tavs ceļš uz pieprasītu profesiju!</span></span></span></article><article class='slide-entry flex_column  post-entry post-entry-13833 slide-entry-overview slide-loop-5 slide-parity-even  av_one_third  real-thumbnail posttype-post post-format-standard'  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><a href='https://otk.rtu.lv/isa-cikla-profesionala-augstaka-izglitiba-ir-ieguta/' data-rel='slide-1' class='slide-image' title='Īsā cikla profesionālā augstākā izglītība ir iegūta!'><img decoding="async" fetchpriority="high" width="495" height="400" src="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2025/07/IMG-AI1-495x400.jpg" class="wp-image-13836 avia-img-lazy-loading-not-13836 attachment-portfolio size-portfolio wp-post-image" alt="" srcset="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2025/07/IMG-AI1-495x400.jpg 495w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2025/07/IMG-AI1-845x684.jpg 845w" sizes="(max-width: 495px) 100vw, 495px" /></a><div class="slide-content"><header class="entry-content-header" aria-label="Slide: Īsā cikla profesionālā augstākā izglītība ir iegūta!"><h3 class='slide-entry-title entry-title '  itemprop="headline" ><a href='https://otk.rtu.lv/isa-cikla-profesionala-augstaka-izglitiba-ir-ieguta/' title='Īsā cikla profesionālā augstākā izglītība ir iegūta!'>Īsā cikla profesionālā augstākā izglītība ir iegūta!</a></h3><span class="blog-categories minor-meta"><a href="https://otk.rtu.lv/category/aktualitates/" rel="tag">Aktualitātes</a> </span><span class="av-vertical-delimiter"></span></header><div class='slide-entry-excerpt entry-content'  itemprop="text" >
+2025. gada 4. jūlijā RTU Olaines Tehnoloģiju koledžā notika PĀRTIKAS PRODUKTU KVALITĀTES KONTROLES specialitātes absolventu izlaidums!
+
+
+
+
+
+
+</div></div><footer class="entry-footer"><div class="slide-meta"><time class='slide-meta-time updated'  itemprop="datePublished" datetime="2025-07-11T16:29:28+03:00" >11/07/2025</time></div></footer><span class='hidden'>
+				<span class='av-structured-data'  itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject" >
+						<span itemprop='url'>https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2025/07/IMG-AI1.jpg</span>
+						<span itemprop='height'>1066</span>
+						<span itemprop='width'>1600</span>
+				</span>
+				<span class='av-structured-data'  itemprop="publisher" itemtype="https://schema.org/Organization" itemscope="itemscope" >
+						<span itemprop='name'>webotk</span>
+						<span itemprop='logo' itemscope itemtype='https://schema.org/ImageObject'>
+							<span itemprop='url'>https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2019/12/Logo-Olaines-Tehnoloģiju-Koledža-300x219.png</span>
+						</span>
+				</span><span class='av-structured-data'  itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Person" ><span itemprop='name'>webotk</span></span><span class='av-structured-data'  itemprop="datePublished" datetime="2019-10-29T14:44:06+03:00" >2025-07-11 16:29:28</span><span class='av-structured-data'  itemprop="dateModified" itemtype="https://schema.org/dateModified" >2025-07-11 16:56:47</span><span class='av-structured-data'  itemprop="mainEntityOfPage" itemtype="https://schema.org/mainEntityOfPage" ><span itemprop='name'>Īsā cikla profesionālā augstākā izglītība ir iegūta!</span></span></span></article><article class='slide-entry flex_column  post-entry post-entry-13475 slide-entry-overview slide-loop-6 slide-parity-odd  post-entry-last  av_one_third  real-thumbnail posttype-post post-format-standard'  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><a href='https://otk.rtu.lv/rtu-atvertas-durvju-dienas-ir-klat/' data-rel='slide-1' class='slide-image' title='RTU Atvērtās durvju dienas ir klāt!'><img decoding="async" fetchpriority="high" width="495" height="400" src="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2025/02/Atvertas-durvis-495x400.png" class="wp-image-13476 avia-img-lazy-loading-not-13476 attachment-portfolio size-portfolio wp-post-image" alt="" srcset="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2025/02/Atvertas-durvis-495x400.png 495w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2025/02/Atvertas-durvis-845x684.png 845w" sizes="(max-width: 495px) 100vw, 495px" /></a><div class="slide-content"><header class="entry-content-header" aria-label="Slide: RTU Atvērtās durvju dienas ir klāt!"><h3 class='slide-entry-title entry-title '  itemprop="headline" ><a href='https://otk.rtu.lv/rtu-atvertas-durvju-dienas-ir-klat/' title='RTU Atvērtās durvju dienas ir klāt!'>RTU Atvērtās durvju dienas ir klāt!</a></h3><span class="blog-categories minor-meta"><a href="https://otk.rtu.lv/category/aktualitates/" rel="tag">Aktualitātes</a> </span><span class="av-vertical-delimiter"></span></header><div class='slide-entry-excerpt entry-content'  itemprop="text" >
+Vai esi gatavs spert soli tuvāk saviem sapņiem? Nāc un iepazīsti RTU Olaines Tehnoloģijas koledžu tuvplānā!
+</div></div><footer class="entry-footer"><div class="slide-meta"><time class='slide-meta-time updated'  itemprop="datePublished" datetime="2025-02-22T19:10:32+03:00" >22/02/2025</time></div></footer><span class='hidden'>
+				<span class='av-structured-data'  itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject" >
+						<span itemprop='url'>https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2025/02/Atvertas-durvis.png</span>
+						<span itemprop='height'>1500</span>
+						<span itemprop='width'>2000</span>
+				</span>
+				<span class='av-structured-data'  itemprop="publisher" itemtype="https://schema.org/Organization" itemscope="itemscope" >
+						<span itemprop='name'>webotk</span>
+						<span itemprop='logo' itemscope itemtype='https://schema.org/ImageObject'>
+							<span itemprop='url'>https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2019/12/Logo-Olaines-Tehnoloģiju-Koledža-300x219.png</span>
+						</span>
+				</span><span class='av-structured-data'  itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Person" ><span itemprop='name'>webotk</span></span><span class='av-structured-data'  itemprop="datePublished" datetime="2019-10-29T14:44:06+03:00" >2025-02-22 19:10:32</span><span class='av-structured-data'  itemprop="dateModified" itemtype="https://schema.org/dateModified" >2025-02-22 19:10:39</span><span class='av-structured-data'  itemprop="mainEntityOfPage" itemtype="https://schema.org/mainEntityOfPage" ><span itemprop='name'>RTU Atvērtās durvju dienas ir klāt!</span></span></span></article></div></div><div class='pagination-wrap pagination-slider'><nav class='pagination'><span class='pagination-meta'>Page 1 of 16</span><span class='current'>1</span><a href='https://otk.rtu.lv/?avia-element-paging=2' class='inactive next_page' >2</a><a href='https://otk.rtu.lv/?avia-element-paging=3' class='inactive' >3</a><a href='https://otk.rtu.lv/?avia-element-paging=2'>&rsaquo;</a><a href='https://otk.rtu.lv/?avia-element-paging=16'>&raquo;</a></nav>
+</div></div></div>
+
+<style type="text/css" data-created_by="avia_inline_auto" id="style-css-av-lrs35yr6-a6bccd02512bdd95334f8a77763a71a7">
+.avia-image-container.av-lrs35yr6-a6bccd02512bdd95334f8a77763a71a7 img.avia_image{
+box-shadow:none;
+}
+.avia-image-container.av-lrs35yr6-a6bccd02512bdd95334f8a77763a71a7 .av-image-caption-overlay-center{
+color:#ffffff;
+}
+</style>
+<div  class='avia-image-container av-lrs35yr6-a6bccd02512bdd95334f8a77763a71a7 av-styling- av-img-linked avia_animated_image av-animated-when-visible-95 left-to-right avia-align-right  avia-builder-el-12  el_after_av_one_full  el_before_av_image '   itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject" ><div class="avia-image-container-inner"><div class="avia-image-overlay-wrap"><a href="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/01/418439653_18251812330235115_8129542623776352782_n-1030x1030.jpg" data-srcset="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/01/418439653_18251812330235115_8129542623776352782_n-1030x1030.jpg 1030w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/01/418439653_18251812330235115_8129542623776352782_n-300x300.jpg 300w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/01/418439653_18251812330235115_8129542623776352782_n-80x80.jpg 80w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/01/418439653_18251812330235115_8129542623776352782_n-768x768.jpg 768w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/01/418439653_18251812330235115_8129542623776352782_n-36x36.jpg 36w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/01/418439653_18251812330235115_8129542623776352782_n-180x180.jpg 180w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/01/418439653_18251812330235115_8129542623776352782_n-705x705.jpg 705w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/01/418439653_18251812330235115_8129542623776352782_n.jpg 1080w" data-sizes="(max-width: 1030px) 100vw, 1030px" class='avia_image '  aria-label='418439653_18251812330235115_8129542623776352782_n'><img decoding="async" fetchpriority="high" class='wp-image-10480 avia-img-lazy-loading-not-10480 avia_image ' src="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/01/418439653_18251812330235115_8129542623776352782_n-180x180.jpg" alt='' title='418439653_18251812330235115_8129542623776352782_n'  height="180" width="180"  itemprop="thumbnailUrl" srcset="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/01/418439653_18251812330235115_8129542623776352782_n-180x180.jpg 180w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/01/418439653_18251812330235115_8129542623776352782_n-300x300.jpg 300w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/01/418439653_18251812330235115_8129542623776352782_n-1030x1030.jpg 1030w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/01/418439653_18251812330235115_8129542623776352782_n-80x80.jpg 80w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/01/418439653_18251812330235115_8129542623776352782_n-768x768.jpg 768w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/01/418439653_18251812330235115_8129542623776352782_n-36x36.jpg 36w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/01/418439653_18251812330235115_8129542623776352782_n-705x705.jpg 705w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2024/01/418439653_18251812330235115_8129542623776352782_n.jpg 1080w" sizes="(max-width: 180px) 100vw, 180px" /></a></div></div></div>
+
+<style type="text/css" data-created_by="avia_inline_auto" id="style-css-av-khc8475s-215199b0e5a7bd839a12dbc37cf65f63">
+.avia-image-container.av-khc8475s-215199b0e5a7bd839a12dbc37cf65f63 img.avia_image{
+box-shadow:none;
+}
+.avia-image-container.av-khc8475s-215199b0e5a7bd839a12dbc37cf65f63 .av-image-caption-overlay-center{
+color:#ffffff;
+}
+</style>
+<div  class='avia-image-container av-khc8475s-215199b0e5a7bd839a12dbc37cf65f63 av-styling- av-img-linked avia-align-left  avia-builder-el-13  el_after_av_image  avia-builder-el-last '   itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject" ><div class="avia-image-container-inner"><div class="avia-image-overlay-wrap"><a href="https://www.swedbank.lv/private/home/segments/youth?language=LAT&amp;WT.mc_id=202008_ISICparentsWithKids_OTKRSU_1000_lv_lat" class='avia_image '  target="_blank"  rel="noopener noreferrer" aria-label='960x320 SK'><img decoding="async" fetchpriority="high" class='wp-image-3551 avia-img-lazy-loading-not-3551 avia_image ' src="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2021/03/960x320-SK-300x100.jpg" alt='' title='960x320 SK'  height="100" width="300"  itemprop="thumbnailUrl" srcset="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2021/03/960x320-SK-300x100.jpg 300w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2021/03/960x320-SK-768x256.jpg 768w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2021/03/960x320-SK-705x235.jpg 705w, https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/2021/03/960x320-SK.jpg 960w" sizes="(max-width: 300px) 100vw, 300px" /></a></div></div></div>
+</div></div></div><!-- close content main div --> <!-- section close by builder template -->		</div><!--end builder template--></div><!-- close default .container_wrap element -->				<div class='container_wrap footer_color' id='footer'>
+
+					<div class='container'>
+
+						<div class='flex_column av_one_half  first el_before_av_one_half'><section id="text-2" class="widget clearfix widget_text"><h3 class="widgettitle">Kontakti:</h3>			<div class="textwidget"><p>DATU AIZSARDZĪBAS SPECIĀLISTS<br />
+<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="7d191c09080e0d181e141c11140e090e3d12091653110b">[email&#160;protected]</a></p>
+<p>TRAUKSMES CELŠANA<br />
+<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="93e7e1f2e6f8e0fef6d3fce7f8bdffe5">[email&#160;protected]</a></p>
+</div>
+		<span class="seperator extralight-border"></span></section><section id="text-3" class="widget clearfix widget_text">			<div class="textwidget"></div>
+		<span class="seperator extralight-border"></span></section></div><div class='flex_column av_one_half  el_after_av_one_half el_before_av_one_half '><section id="search-3" class="widget clearfix widget_search"><h3 class="widgettitle">Meklētājs</h3>
+<search>
+	<form action="https://otk.rtu.lv/" id="searchform" method="get" class="av_disable_ajax_search">
+		<div>
+<span class='av_searchform_search avia-svg-icon avia-font-svg_entypo-fontello' data-av_svg_icon='search' data-av_iconset='svg_entypo-fontello'><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="25" height="32" viewBox="0 0 25 32" preserveAspectRatio="xMidYMid meet" aria-labelledby='av-svg-title-7' aria-describedby='av-svg-desc-7' role="graphics-symbol" aria-hidden="true">
+<title id='av-svg-title-7'>Search</title>
+<desc id='av-svg-desc-7'>Search</desc>
+<path d="M24.704 24.704q0.96 1.088 0.192 1.984l-1.472 1.472q-1.152 1.024-2.176 0l-6.080-6.080q-2.368 1.344-4.992 1.344-4.096 0-7.136-3.040t-3.040-7.136 2.88-7.008 6.976-2.912 7.168 3.040 3.072 7.136q0 2.816-1.472 5.184zM3.008 13.248q0 2.816 2.176 4.992t4.992 2.176 4.832-2.016 2.016-4.896q0-2.816-2.176-4.96t-4.992-2.144-4.832 2.016-2.016 4.832z"></path>
+</svg></span>			<input type="submit" value="" id="searchsubmit" class="button" title="Click to start search" />
+			<input type="search" id="s" name="s" value="" aria-label='Search' placeholder='Search' required />
+		</div>
+	<input type='hidden' name='lang' value='lv' /></form>
+</search>
+<span class="seperator extralight-border"></span></section></div>
+					</div>
+
+				<!-- ####### END FOOTER CONTAINER ####### -->
+				</div>
+
+	
+
+			<!-- end main -->
+		</div>
+
+		<!-- end wrap_all --></div>
+<a href='#top' title='Scroll to top' id='scroll-top-link' class='avia-svg-icon avia-font-svg_entypo-fontello' data-av_svg_icon='up-open' data-av_iconset='svg_entypo-fontello' tabindex='-1' aria-hidden='true'>
+	<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="19" height="32" viewBox="0 0 19 32" preserveAspectRatio="xMidYMid meet" aria-labelledby='av-svg-title-8' aria-describedby='av-svg-desc-8' role="graphics-symbol" aria-hidden="true">
+<title id='av-svg-title-8'>Scroll to top</title>
+<desc id='av-svg-desc-8'>Scroll to top</desc>
+<path d="M18.048 18.24q0.512 0.512 0.512 1.312t-0.512 1.312q-1.216 1.216-2.496 0l-6.272-6.016-6.272 6.016q-1.28 1.216-2.496 0-0.512-0.512-0.512-1.312t0.512-1.312l7.488-7.168q0.512-0.512 1.28-0.512t1.28 0.512z"></path>
+</svg>	<span class="avia_hidden_link_text">Scroll to top</span>
+</a>
+
+<div id="fb-root"></div>
+
+		<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		
+ <script type='text/javascript'>
+ /* <![CDATA[ */  
+var avia_framework_globals = avia_framework_globals || {};
+    avia_framework_globals.frameworkUrl = 'https://otk.rtu.lv/wp-content/themes/enfold/framework/';
+    avia_framework_globals.installedAt = 'https://otk.rtu.lv/wp-content/themes/enfold/';
+    avia_framework_globals.ajaxurl = 'https://otk.rtu.lv/wp-admin/admin-ajax.php?lang=lv';
+/* ]]> */ 
+</script>
+ 
+ <script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};/* ]]> */ </script><script type="text/javascript" src="https://otk.rtu.lv/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://otk.rtu.lv/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://otk.rtu.lv/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.4" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-before">
+/* <![CDATA[ */
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/otk.rtu.lv\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    }
+};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://otk.rtu.lv/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.4" id="contact-form-7-js"></script>
+<script type="text/javascript" id="mediaelement-core-js-before">
+/* <![CDATA[ */
+var mejsL10n = {"language":"lv","strings":{"mejs.download-file":"Download File","mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen":"Fullscreen","mejs.play":"Play","mejs.pause":"Pause","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.live-broadcast":"Live Broadcast","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://otk.rtu.lv/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.17" id="mediaelement-core-js"></script>
+<script type="text/javascript" src="https://otk.rtu.lv/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=6.7.4" id="mediaelement-migrate-js"></script>
+<script type="text/javascript" id="mediaelement-js-extra">
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive","audioShortcodeLibrary":"mediaelement","videoShortcodeLibrary":"mediaelement"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://otk.rtu.lv/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=6.7.4" id="wp-mediaelement-js"></script>
+<script type="text/javascript" src="https://wpweb2-prod.rtu.lv/otk/wp-content/uploads/sites/29/dynamic_avia/avia-footer-scripts-1aa6dd4650586c5349c8291987c0969c.js" id="avia-footer-scripts-js"></script>
+
+<script type='text/javascript'>
+
+	(function($) {
+
+			/*	check if google analytics tracking is disabled by user setting via cookie - or user must opt in.	*/
+
+			var analytics_code = "<!-- Global site tag (gtag.js) - Google Analytics -->\n\n<script async src=\"https:\/\/www.googletagmanager.com\/gtag\/js?id=UA-122198068-1\"><\/script>\n\n<script>\n\n  window.dataLayer = window.dataLayer || [];\n\n  function gtag(){dataLayer.push(arguments);}\n\n  gtag('js', new Date());\n\n \n\n  gtag('config', 'UA-122198068-1');\n\n<\/script>\n\n<!-- Meta Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window, document,'script',\n'https:\/\/connect.facebook.net\/en_US\/fbevents.js');\nfbq('init', '742520558256793');\nfbq('track', 'PageView');\n<\/script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https:\/\/www.facebook.com\/tr?id=742520558256793&ev=PageView&noscript=1\"\n\/><\/noscript>\n<!-- End Meta Pixel Code -->".replace(/\"/g, '"' );
+			var html = document.getElementsByTagName('html')[0];
+
+			$('html').on( 'avia-cookie-settings-changed', function(e)
+			{
+					var cookie_check = html.className.indexOf('av-cookies-needs-opt-in') >= 0 || html.className.indexOf('av-cookies-can-opt-out') >= 0;
+					var allow_continue = true;
+					var silent_accept_cookie = html.className.indexOf('av-cookies-user-silent-accept') >= 0;
+					var script_loaded = $( 'script.google_analytics_scripts' );
+
+					if( cookie_check && ! silent_accept_cookie )
+					{
+						if( ! document.cookie.match(/aviaCookieConsent/) || html.className.indexOf('av-cookies-session-refused') >= 0 )
+						{
+							allow_continue = false;
+						}
+						else
+						{
+							if( ! document.cookie.match(/aviaPrivacyRefuseCookiesHideBar/) )
+							{
+								allow_continue = false;
+							}
+							else if( ! document.cookie.match(/aviaPrivacyEssentialCookiesEnabled/) )
+							{
+								allow_continue = false;
+							}
+							else if( document.cookie.match(/aviaPrivacyGoogleTrackingDisabled/) )
+							{
+								allow_continue = false;
+							}
+						}
+					}
+
+					//	allow 3-rd party plugins to hook (see enfold\config-cookiebot\cookiebot.js)
+					if( window['wp'] && wp.hooks )
+					{
+						allow_continue = wp.hooks.applyFilters( 'aviaCookieConsent_allow_continue', allow_continue );
+					}
+
+					if( ! allow_continue )
+					{
+//						window['ga-disable-UA-122198068-1'] = true;
+						if( script_loaded.length > 0 )
+						{
+							script_loaded.remove();
+						}
+					}
+					else
+					{
+						if( script_loaded.length == 0 )
+						{
+							$('head').append( analytics_code );
+						}
+					}
+			});
+
+			$('html').trigger( 'avia-cookie-settings-changed' );
+
+	})( jQuery );
+
+</script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9c54a69ded97ce73',t:'MTc2OTY0NjkzOQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

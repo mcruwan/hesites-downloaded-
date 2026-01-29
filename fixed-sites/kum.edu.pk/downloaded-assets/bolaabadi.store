@@ -1,0 +1,498 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    
+<!-- Start Head_Tags_1_bolaabadi_store of bolaabadi.store domain -->
+<!-- Start Head_Tags_BOLAABADI -->
+
+<!-- Primary SEO Meta Tags -->
+<title>BOLAABADI | Portal Informasi Modern & Update Harian</title>
+<meta name="description" content="BOLAABADI adalah portal digital yang memberikan berita teranyar, ulasan menarik, serta berbagai informasi pilihan setiap hari." />
+<meta name="keywords" content="bolaabadi, portal informasi, berita terbaru, ulasan harian, info digital, update online, trending hari ini" />
+<meta name="robots" content="index, follow" />
+<meta name="revisit-after" content="1 days" />
+<meta name="rating" content="general" />
+<meta name="geo.country" content="ID" />
+<meta name="geo.placename" content="Indonesia" />
+<meta name="language" content="id" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- Canonical -->
+<link rel="canonical" href="https://bolaabadi.store/" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="BOLAABADI | Portal Informasi Modern & Update Harian" />
+<meta property="og:description" content="Temukan berbagai informasi pilihan, berita penting, dan artikel menarik setiap hari di BOLAABADI." />
+<meta property="og:url" content="https://bolaabadi.store/" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="BOLAABADI | Portal Informasi Modern & Update Harian" />
+<meta name="twitter:description" content="Portal digital yang menyajikan berita aktual dan info pilihan setiap hari." />
+
+<!-- JSON-LD Schema -->
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "WebSite",
+ "name": "BOLAABADI",
+ "url": "https://bolaabadi.store/",
+ "description": "BOLAABADI adalah portal informasi modern yang berfokus pada update harian, artikel pilihan, dan berita terbaru.",
+ "potentialAction": {
+   "@type": "SearchAction",
+   "target": "https://bolaabadi.store/?s={search_term_string}",
+   "query-input": "required name=search_term_string"
+ }
+}
+</script>
+
+<!-- End Head_Tags_BOLAABADI -->
+<!-- End Head_Tags_1_bolaabadi_store of bolaabadi.store domain -->
+
+<!-- Start Head_Tags_1_bolaabadi_store of all domains -->
+
+<!-- End Head_Tags_1_bolaabadi_store of all domains -->
+
+
+            <!-- Facebook Pixel PageView  -->
+            <script>
+              !function(f,b,e,v,n,t,s)
+              {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+              n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+              if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+              n.queue=[];t=b.createElement(e);t.async=!0;
+              t.src=v;s=b.getElementsByTagName(e)[0];
+              s.parentNode.insertBefore(t,s)}(window, document,'script',
+              'https://connect.facebook.net/en_US/fbevents.js');
+              fbq('init', '1224380569584698');
+              fbq('track', 'PageView');
+            </script>
+            <noscript><img height="1" width="1" style="display: none"
+              src="https://www.facebook.com/tr?id=1224380569584698&ev=PageView&noscript=1"
+            /></noscript>
+            <!--End Facebook Pixel PageView-->
+
+            <!-- Facebook Pixel InitiateCheckout  -->
+            <script>
+              !function(f,b,e,v,n,t,s)
+              {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+              n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+              if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+              n.queue=[];t=b.createElement(e);t.async=!0;
+              t.src=v;s=b.getElementsByTagName(e)[0];
+              s.parentNode.insertBefore(t,s)}(window, document,'script',
+              'https://connect.facebook.net/en_US/fbevents.js');
+              fbq('init', '1224380569584698');
+              fbq('track', 'InitiateCheckout');
+            </script>
+            <noscript><img height="1" width="1" style="display: none"
+              src="https://www.facebook.com/tr?id=1224380569584698&ev=InitiateCheckout&noscript=1"
+            /></noscript>
+            <!--End Facebook Pixel InitiateCheckout-->
+
+
+    <link rel="icon" href="Images/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <link rel="stylesheet" href="Images/theme/v1/css/stylesheets.mine67d.css?v=4">
+
+    <script type="text/javascript" src="js/common.js?v=20241218"></script>
+    <script type="text/javascript" src="js/header.js?v=20250106"></script>
+    <script type="text/javascript" src="js/login.js?v=20250303"></script>
+
+    <script language="javascript" type="text/javascript">	       
+        $().ready(function () {
+            $('#btnReg').click(function () {
+                popupRegister('');
+            });
+        });
+        function openLiveChat() {
+            window.open('https://www.livehelpnow.net/lhn/lcv.aspx?d=42629&ms=&zzwindow=44080&lhnid=34870&custom1=&custom2=&custom3=&pcv=&opid=0', 'LiveChat' + Date.now(), 'width=500,height=500,toolbars=no,scrollbars=no,status=no,resizable=no');
+        }
+    </script>
+    <script type="text/javascript">
+        function drawTogel(records) {
+            var strTogel = ''
+            for (var i = 0; i < records.length && i < 4; i++) {
+                strTogel += '<div class="item-13">' +
+                    '<a href="#">' +
+                    '<img src="Images/theme/v1/img/togel/togel.png" class="bg" alt="Background">' +
+                    '<div class="numbers">' +
+                    '<img src="Images/theme/v1/img/togel/' + records[i].Number[0] + '.png" class="number" style="height: 33px;">' +
+                    '<img src="Images/theme/v1/img/togel/' + records[i].Number[1] + '.png" class="number" style="height: 33px;">' +
+                    '<img src="Images/theme/v1/img/togel/' + records[i].Number[2] + '.png" class="number" style="height: 33px;">' +
+                    '<img src="Images/theme/v1/img/togel/' + records[i].Number[3] + '.png" class="number" style="height: 33px;">' +
+                    '</div>' +
+                    '<div class="location" style="text-transform: uppercase;">' + records[i].Togel + '</div>' +
+                    '</a>' +
+                    '</div>'
+            }
+            $('#divTogel').html(strTogel)
+        }
+        $().ready(function () {
+            fetchTogel(function (records) {
+                drawTogel(records)
+            })
+        })
+    </script>
+
+    <style>
+        .item-13 {
+            position: relative;
+        }
+
+            .item-13 .numbers {
+                position: absolute;
+                top: 52px;
+                left: 0;
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                z-index: 1;
+                padding: 0 20px;
+            }
+
+            .item-13 .location {
+                position: absolute;
+                top: 13px;
+                width: 100%;
+                text-align: center;
+                font-size: 20px;
+                font-weight: bold;
+                color: white;
+            }
+
+        .item-5 {
+            position: relative;
+            left: 93px;
+        }
+
+        .btn-reg {
+            position: relative;
+            left: 93px;
+        }
+        @media screen and (max-width: 768px) {
+            .item-13 .numbers {
+                padding: 0 14px !important;
+            }
+
+            .numbers {
+                top: 40px !important;
+            }
+
+            .number {
+                height: 21px !important;
+            }
+
+            .item-5 {
+                position: relative;
+                left: 0 !important;
+            }
+            .btn-reg {
+                position: relative;
+                left: 0!important;
+            }
+        }
+    </style>
+    <style type="text/css">
+        .games-in .item-1 a:hover, .games .item-1 a:hover {
+            -webkit-text-fill-color: unset;
+        }
+
+        .games-in .item-1 a, .games .item-1 a {
+            -webkit-text-fill-color: unset;
+        }
+    </style>
+
+
+    
+    <link rel="stylesheet" href="css/header.submenu.css?v=1762746734915" />
+    <style type="text/css">
+        .sub-menu .gameNav li:hover {
+            background: linear-gradient(0deg, #FBA913 30%, #FDC200 62%);
+        }
+
+        .main_width {
+            width: 1090px;
+            height: 110px;
+            background-color: #1e1e1e;
+            margin: 0
+        }
+
+        .sub-menu {
+            top: 73px;
+            padding-top: 1px;
+            padding-bottom: 23px;
+        }
+
+        .arrow-down {
+            margin-left: 4px;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-top: 8px solid var(--color-secondary);
+            margin-top: 48px;
+        }
+
+        .gameNav li a img {
+            max-width: 100% !important;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="header items m-t-1 m-b-1">
+            <div class="item-4">
+                <div class="logo">
+                    <a href="#">
+                        <img src="Images/logo.png" alt="Logo BolaAbadi">
+                    </a>
+                </div>
+            </div>
+            <div class="item-3">
+                <a href="#">
+                    <input type="button" id="btnReg" value="DAFTAR" class="btn-reg">
+                </a>
+            </div>
+            <form name="form1" method="post" action="Defaults/Default268.aspx" id="form1" class="item-5">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type='text/javascript'>var timerId = null;var today = new Date();var time_start = today.getTime();function countdown(){var time_left =300 - parseInt(((new Date()).getTime() - time_start) / 1000);clearTimeout(timerId);if(time_left > 0){timerId = setTimeout('countdown()', 1000);}else{document.location.href = '//bolaabadi.store/';}}function handleError(){return true;}window.onload=countdown;window.onerror=handleError;</SCRIPT><!-- popup event May 2021 was hidden --><script>
+                        $().ready(function () {
+                            $('body').append(`<a style='z-index: 999999; width: 140px; height: 83px; position: fixed; left:0; bottom: 0px;' href='#'>
+                                <img width='120px' height='60px' src='css/Banner_ASF.png?v=2'/></a>`);
+                        });
+                    </script><script>localStorage.setItem('cdnImageHost','https://imgshare.porta-assist.com');</script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="DB93945C" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="UPnGUkIfberM6Y0ttWtCm0c6+JKkgmFiHccMKVrhAti6ws3AIavaCvUT6ViUkHcIWNHnQgsC+HFTw4jJZ3tkv8cnUvgFXwg7104OS4Bfs22A1W9ms5dwPJDe9PybVI5ImhCCVke56Jh2CbxzJdZPMiH9dhgxzS4KsakPS/lKDZRU/xakx6m1HZ0zucXt5eIugt0KnHLNZBWbxK0UPLQfQFC6opuRbbfqOVXU0bIhFx4=" />
+</div>
+                <div class="items login-area">
+                    <div class="item-6 m-b-half">
+                     <input name="txtUsername" type="text" id="txtUsername" class="username" maxLength="12" placeholder="User Name" tabindex="1" />
+                    </div>
+                    <div class="item-6 m-b-half">
+                        <div class="input-group">
+                             <input name="txtCode" type="text" id="txtCode" style="border-radius: 5px 0 0 5px;" placeholder="Code" tabindex="3" maxlength="4" />
+                            <span class="input-group-text-r">1327</span>
+                        </div>
+                    </div>
+                    <div class="item-6 m-b-half">
+                       <input name="txtPassword" type="password" id="txtPassword" placeholder="Password" tabindex="2" />
+                    </div>
+                    <div class="item-6 m-b-half">
+                        <a href="#">
+                            <input name="btnSignIn" type="button" id="btnSignIn" tabindex="4" class="btn-login" value="LOGIN">
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+         <ul id="main-menu"
+            tag-parent-sub-menu="a"
+            data-id="main-menu"
+            data-is-guest="true"
+            class="games items"
+            style="position: relative">
+            <li class="item-1"><a href="#gamelist"><img src="Images/theme/v1/img/MenuIcon/home.png?v=2" alt="">HOME</a></li>
+            <li v-for="(key, index) in Object.keys(menus)" class="item-1">
+                <menu-item style ="" class-name="" :is-guest="isGuest" :name="menus[key][0].GameType">
+                    <image-item style ="" class-name="hover" :image-data="menus[key][0]" :cache-version="cacheVersion"></image-item>
+                    {{ getGameMenuDisplayNameByLang(menus[key][0]) }}
+                    <down-arrow type="text" :has-sub-game="menus[key][0].HasSubGame" :game-type="menus[key][0].GameType"
+                        :is-guest="isGuest">
+                    </down-arrow>
+                    <submenu class-name="" :submenu-data="menus[key]" :is-guest="isGuest" :cache-version="cacheVersion">
+                    </submenu>
+                </menu-item>
+            </li>
+             <li class="item-1"><a href="https://rebrand.ly/PKVGAMESBolaAbadi" target="_blank">
+                 <img src="Images/theme/v1/img/MenuIcon/pkvgames.png" alt="">PKV GAMES</a></li>
+             <li class="item-1" style="margin-left: 14px;"><a href="https://rebrand.ly/DemoSlotBOLAABADI" target="_blank">
+                 <img src="Images/theme/v1/img/MenuIcon/demo-slot.gif" alt="">Demo SLot</a></li>
+             <li class="item-1" style="margin-left: 13px;"><a href="https://rebrand.ly/PromoBolaAbadi" target="_blank">
+                 <img src="Images/theme/v1/img/MenuIcon/promo.png" alt="">PROMO</a></li>
+        </ul>
+        <div class="marquee-section items m-t-1 m-b-1">
+            <a href="#">
+                <img src="Images/theme/v1/img/info.png" alt="Logo BolaAbadi">
+            </a>
+            <div class="announcement-bar-v2">
+                <div class="announcement-marquee">
+                    <div id="div-marquee" style="width: 840px; height: 26px">
+                        <input id="text-marquee" type="hidden" value="Link Anti NAWALA : altbolaabadi.com | Hanya dengan 1 ID Sudah Bisa Bermain Semua Game | Bonus Cashback Mencapai 5% untuk SPORTBOOK &amp; Refferal&nbsp;Seumur&nbsp;Hidup" />
+                        <script type="text/javascript">
+                            initMarquee('#000')
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div class="item-2">
+                <a href="#" onclick="openLiveChat()" class="livechat" method="chat">
+                    <img src="Images/theme/v1/img/live-chat.gif" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="frame-banner">
+            <div class="banner-slideshow">
+                <img src="Images/theme/v1/img/banner/10.png" alt="Slide 1" class="slide active">
+                <img src="Images/theme/v1/img/banner/11.png" alt="Slide 2" class="slide">
+                <img src="Images/theme/v1/img/banner/12.png" alt="Slide 3" class="slide">
+                <img src="Images/theme/v1/img/banner/13.png" alt="Slide 4" class="slide">
+                <img src="Images/theme/v1/img/banner/14.png" alt="Slide 5" class="slide">
+                <img src="Images/theme/v1/img/banner/15.png" alt="Slide 6" class="slide">
+            </div>
+            <script>
+                let currentSlide = 0;
+                const slides = document.querySelectorAll(".banner-slideshow .slide");
+
+                slides.forEach((slide, index) => {
+                    if (index !== 0) slide.classList.remove("active"); // pastikan hanya slide 0 aktif
+                });
+
+                setInterval(() => {
+                    slides[currentSlide].classList.remove("active");
+                    currentSlide = (currentSlide + 1) % slides.length;
+                    slides[currentSlide].classList.add("active");
+                }, 5000); // Ganti setiap 5 detik (bisa kamu ubah sesuka hati)
+            </script>
+
+
+        </div>
+
+        <div class="social items m-t-2">
+            <div class="item-3">
+                <a href="https://rebrand.ly/WABolaAbadi" target="_blank">
+                    <img src="Images/theme/v1/img/social/whatsapp.png" alt="">
+                </a>
+            </div>
+            <div class="item-3">
+                <a href="https://rebrand.ly/InstagramBolaAbadi" target="_blank">
+                    <img src="Images/theme/v1/img/social/instagram.png" alt="">
+                </a>
+            </div>
+            <div class="item-3">
+                <a href="https://rebrand.ly/FBBolaAbadi" target="_blank">
+                    <img src="Images/theme/v1/img/social/facebook.png" alt="">
+                </a>
+            </div>
+            <div class="item-3">
+                <a href="https://rebrand.ly/BuktiJPBolaAbadi" target="_blank">
+                    <img width="250" height="64" src="Images/theme/v1/img/prediksi.gif?v=2" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="result items m-t-2">
+            <div class="item-12">
+                <img src="Images/theme/v1/img/result-togel.png" alt="">
+            </div>
+            <ul class="m-b-1">
+            </ul>
+        </div>
+
+        <div class="item-row" id="divTogel">
+        </div>
+        <div class="product_down">
+            <div class="box_product">
+                <a href="#" class="hvr-grow">
+                    <img src="Images/theme/v1/img/banner2/sportbook.png" alt="NUMBER-GAME" /></a>
+            </div>
+        </div>
+        <!-- Tengah -->
+        <div class="product_up">
+            <ul>
+                <li><a href="#" class="hvr-grow">
+                    <img src="Images/theme/v1/img/banner2/poker.png" alt="poker"></a></li>
+                <li><a href="#" class="hvr-grow">
+                    <img src="Images/theme/v1/img/banner2/togel.png" alt="BOLA-TANGKAS"></a></li>
+                <li><a href="#" class="hvr-grow">
+                    <img src="Images/theme/v1/img/banner2/casino.png" alt="casino"></a></li>
+            </ul>
+        </div>
+        <!-- Bawah -->
+        <div class="product_down">
+            <div class="box_product">
+                <a href="#" class="hvr-grow">
+                    <img src="Images/theme/v1/img/banner2/slot.png" alt="NUMBER-GAME" /></a>
+            </div>
+        </div>
+        <img src="Images/theme/v1/img/provider.png" alt="">
+        <div class="site-article">
+        </div>
+    </div>
+
+    <a style="width: 150px; height: 150px; position: fixed; right: 0; bottom: 0;"
+        href="https://rebrand.ly/GRUPWABOLAABADI" target="_blank">
+        <img title="" alt="" width="150px"
+            height="150px" src="Images/bolaabadi-wa.gif"
+            style="width: 150px; height: 150px" /></a>
+
+
+    <script src="../cdn.jsdelivr.net/npm/swiper%409/swiper-element-bundle.min.js"></script>
+    <script type="text/javascript">
+        var lhnAccountN = "11332-1";
+        var lhnButtonN = 9688;
+        var lhnChatPosition = 'default';
+        var lhnInviteEnabled = 0;
+        var lhnWindowN = 26362;
+        var lhnDepartmentN = 27395;
+    </script>
+    <script src="../www.livehelpnow.net/lhn/widgets/chatbutton/lhnchatbutton-current.min.js" type="text/javascript" id="lhnscript"></script>
+    <script>
+        $.ajax({
+            url: "https://209.97.168.204/api/banners",
+            data: {
+                website: "BolaAbadi.com",
+                option: ""
+            }
+        }).done(function (data, textStatus, jqXHR) {
+            if (data.meta.code === 200) {
+                var html = "";
+                jQuery.each(data.data, function (i, val) {
+                    html += '<swiper-slide><img class="border-slider" style="display:block;margin:auto;" src="https://209.97.168.204/' + val.image_path + '" alt="' + val.title + '"></swiper-slide>';
+                });
+                $('#swiper-slide').html(html);
+            } else {
+                $('.banner').empty();
+            }
+        });
+
+        $.ajax({
+            url: "https://209.97.168.204/api/banners",
+            data: {
+                website: "BolaAbadi.com",
+                type: "banner-bottom"
+            }
+        }).done(function (data, textStatus, jqXHR) {
+            if (data.meta.code === 200) {
+                var html = "";
+                jQuery.each(data.data, function (i, val) {
+                    html += '<div class="item-4"><img src="https://209.97.168.204/' + val.image_path + '" alt="' + val.title + '"></div>';
+                });
+                $('.banner-bottom').html(html);
+            } else {
+                $('.banner-bottom').empty();
+            }
+        });
+
+        $('.livechat').on('click', function (e) {
+            e.preventDefault();
+            OpenLHNChat(); return false;
+        });
+
+    </script>
+    <script src="js/vue3.3.7.global.js" type="text/javascript"></script>
+    <script type="text/javascript">const mountEl = document.querySelector("#main-menu");</script>
+    <script src="js/header.menu.vue.js?v=1762746734915" type="text/javascript"></script>
+    <script type="text/javascript">menu.mount("#main-menu");</script>
+</body>
+</html>

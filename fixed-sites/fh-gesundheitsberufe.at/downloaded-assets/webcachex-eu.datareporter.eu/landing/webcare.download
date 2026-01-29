@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <title>Datareporter WebCare</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" href="./assets/favicon-CQGfRBuZ.ico" sizes="32x32">
+  <link rel="icon" href="./assets/favicon-BlVSSxTH.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./assets/apple-touch-icon-Dujh6CNu.png">
+  <script src="https://webcachex-eu.datareporter.eu/docview/v1/docview.js" type="text/javascript" charset="utf-8" defer=""></script>
+  <script type="module" crossorigin src="./assets/index-DJTuBvuE.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-qLIFyGd1.css">
+</head>
+<body class="bg-neutral-990 god-background">
+
+  <div class="flex gap-8 flex-col justify-stretch w-full h-[100vh] p-8 text-neutral-50">
+
+    <div class="w-full top-0 left-0 flex items-center gap-4 grow-0">
+      <img src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20id='Layer_2'%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20200%20200'%3e%3cdefs%3e%3cstyle%3e.cls-1{fill:%23fff;}%3c/style%3e%3c/defs%3e%3cpath%20class='cls-1'%20d='m165.28,63.05c.07.11.13.23.19.34-.07-.11-.13-.22-.2-.33h.01Z'/%3e%3cpath%20class='cls-1'%20d='m100,0H26.57C11.9,0,0,11.9,0,26.57v146.86C0,188.11,11.9,200,26.57,200h73.43c27.62,0,52.62-11.19,70.71-29.29,18.1-18.09,29.29-43.09,29.29-70.71C200,44.77,155.23,0,100,0Zm71.63,122.3c-.55,1.76-1.16,3.5-1.83,5.2-3.81,9.65-9.56,18.33-16.77,25.53-13.57,13.58-32.32,21.97-53.03,21.97-41.42,0-75-33.58-75-75S58.58,25,100,25c.56,0,1.12.01,1.68.02-1.43,3.98-2.21,8.28-2.21,12.75,0,10.43,4.23,19.87,11.06,26.7,6.84,6.83,16.28,11.06,26.71,11.06,11.13,0,21.13-4.82,28.03-12.47h.01c.07.1.13.22.19.33.12.22.24.43.35.65.06.09.12.19.16.29.28.51.55,1.02.81,1.53.28.54.55,1.08.81,1.63.27.55.53,1.1.77,1.65.26.55.5,1.11.73,1.67l.54,1.29c.13.33.26.67.39,1,.12.31.24.63.35.94.25.65.48,1.29.69,1.95.23.68.45,1.37.67,2.07.18.59.35,1.18.51,1.77.12.41.24.83.34,1.25.06.22.12.44.17.66.11.44.22.88.32,1.32.26,1.13.5,2.26.7,3.41.07.33.12.67.18,1,.02.12.04.25.06.37.06.34.11.69.16,1.04.06.4.12.8.17,1.21.04.29.08.58.11.87.06.52.12,1.05.17,1.57.06.57.11,1.13.15,1.7.05.63.09,1.27.12,1.91.03.45.04.9.06,1.35,0,.07,0,.14.01.21,0,.27.01.55.01.82.02.49.02.99.02,1.48,0,6.47-.82,12.75-2.36,18.74-.31,1.2-.65,2.39-1.01,3.56Z'/%3e%3cpath%20class='cls-1'%20d='m100,100c0,6.9-2.8,13.15-7.32,17.68-4.53,4.52-10.77,7.32-17.68,7.32-13.8,0-25-11.2-25-25,0-6.9,2.8-13.16,7.33-17.68,4.52-4.52,10.77-7.32,17.67-7.32s13.15,2.8,17.68,7.32c4.52,4.52,7.32,10.78,7.32,17.68Z'/%3e%3cpath%20class='cls-1'%20d='m125,137.5c0,3.45-1.4,6.58-3.66,8.84s-5.39,3.66-8.84,3.66c-6.9,0-12.5-5.6-12.5-12.5,0-3.46,1.4-6.58,3.66-8.84,2.27-2.26,5.39-3.66,8.84-3.66s6.58,1.4,8.84,3.66,3.66,5.38,3.66,8.84Z'/%3e%3c/svg%3e" alt="WebCare Logo" class="w-14"/>
+      <div class="flex flex-col">
+        <div class="font-serif font-bold text-4xl">WebCare</div>
+        <div class="font-serif text-datareporter">by Datareporter</div>
+      </div>
+    </div>
+
+    <div class="w-full md:w-1/2 grow flex flex-col items-center justify-center rounded-lg">
+      <div>
+        <h1 class="text-3xl sm:text-5xl font-serif font-bold text-shadow-lg">
+          Datenschutz, dem Götter zustimmen
+        </h1>
+        <p class="my-4 text-lg text-shadow-md">Cookie Banner, Datenschutzerklärung, Impressum und vieles mehr</p>
+        <button onclick="doclick()" class="bg-datareporter w-full md:w-auto px-16 py-2 mt-4 text-lg font-bold rounded-lg cursor-pointer hover:opacity-100 opacity-80 transition-all">Mehr erfahren</button>
+
+
+      </div>
+    </div>
+
+    <div class="flex gap-4 text-sm text-neutral-400 mt-8 pb-4 w-full justify-end">
+      <a href="javascript:window.drShowDocumentViewer('025cf622-aba5-4850-93fb-e23c508e9b7f.Ey1sy7yreWON.q0e.privacynotice')">Datenschutzerklärung</a>
+      <a href="javascript:window.drShowDocumentViewer('025cf622-aba5-4850-93fb-e23c508e9b7f.Ey1sy7yreWON.imprint')">Impressum</a>
+    </div>
+  </div>
+
+<script>
+  function doclick() {
+    window.location.href = "https://www.datareporter.eu/products/cookiebanner";
+  }
+
+</script>
+</body>
+</html>

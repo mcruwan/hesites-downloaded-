@@ -1,0 +1,1164 @@
+<!doctype html>
+<html xml:lang="ru" lang="ru">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Государственный информационно-правовой ресурс</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+                <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="Правовой форум Беларуси, общественные обсуждения проектов НПА, правовой мониторинг НПА, сбора предложений граждан по вопросам совершенствования законодательства, устранения коллизий и правовой неопределенности, важно ваше мнение" />
+<meta name="description" content="Официальная площадка для публичного обсуждения проектов нормативных правовых актов, сбора предложений граждан по вопросам совершенствования законодательства, устранения коллизий и правовой неопределенности, общения по вопросам в области права и правовой информатизации" />
+<link href="/local/templates/forumNew/components/bitrix/news.list/discussion_process/style.css?1764848809173" type="text/css"  rel="stylesheet" />
+<link href="/local/templates/forumNew/swiper/swiper-bundle.min.css?176484879018451" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/forumNew/lightbox/src/css/lightbox.css?17648487903114" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/forumNew/aos/aos.css?176484880928765" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/forumNew/css/styles.css?1765782871485816" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/forumNew/iconfont/style.css?17648488092892" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/forumNew/components/ittas/cookie.banner/.default/style.css?17682055225902" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/forumNew/styles.css?176959737962" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<script>if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script>(window.BX||top.BX).message({"JS_CORE_LOADING":"Загрузка...","JS_CORE_NO_DATA":"- Нет данных -","JS_CORE_WINDOW_CLOSE":"Закрыть","JS_CORE_WINDOW_EXPAND":"Развернуть","JS_CORE_WINDOW_NARROW":"Свернуть в окно","JS_CORE_WINDOW_SAVE":"Сохранить","JS_CORE_WINDOW_CANCEL":"Отменить","JS_CORE_WINDOW_CONTINUE":"Продолжить","JS_CORE_H":"ч","JS_CORE_M":"м","JS_CORE_S":"с","JSADM_AI_HIDE_EXTRA":"Скрыть лишние","JSADM_AI_ALL_NOTIF":"Показать все","JSADM_AUTH_REQ":"Требуется авторизация!","JS_CORE_WINDOW_AUTH":"Войти","JS_CORE_IMAGE_FULL":"Полный размер"});</script>
+
+<script src="/bitrix/js/main/core/core.min.js?1764848755225181"></script>
+
+<script>BX.Runtime.registerExtension({"name":"main.core","namespace":"BX","loaded":true});</script>
+<script>BX.setJSList(["\/bitrix\/js\/main\/core\/core_ajax.js","\/bitrix\/js\/main\/core\/core_promise.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/loadext\/loadext.js","\/bitrix\/js\/main\/loadext\/extension.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/includes\/js\/includes.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/ui\/polyfill\/closest\/js\/closest.js","\/bitrix\/js\/main\/polyfill\/fill\/main.polyfill.fill.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/core\/core.js","\/bitrix\/js\/main\/polyfill\/intersectionobserver\/js\/intersectionobserver.js","\/bitrix\/js\/main\/lazyload\/dist\/lazyload.bundle.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/parambag\/dist\/parambag.bundle.js"]);
+</script>
+<script>BX.Runtime.registerExtension({"name":"pull.protobuf","namespace":"BX","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"rest.client","namespace":"window","loaded":true});</script>
+<script>(window.BX||top.BX).message({"pull_server_enabled":"N","pull_config_timestamp":0,"pull_guest_mode":"N","pull_guest_user_id":0});(window.BX||top.BX).message({"PULL_OLD_REVISION":"Для продолжения корректной работы с сайтом необходимо перезагрузить страницу."});</script>
+<script>BX.Runtime.registerExtension({"name":"pull.client","namespace":"BX","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"pull","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"jquery3","namespace":"window","loaded":true});</script>
+<script>(window.BX||top.BX).message({"LANGUAGE_ID":"ru","FORMAT_DATE":"DD.MM.YYYY","FORMAT_DATETIME":"DD.MM.YYYY HH:MI:SS","COOKIE_PREFIX":"BITRIX_SM","SERVER_TZ_OFFSET":"10800","UTF_MODE":"Y","SITE_ID":"s1","SITE_DIR":"\/","USER_ID":"","SERVER_TIME":1769647410,"USER_TZ_OFFSET":0,"USER_TZ_AUTO":"Y","bitrix_sessid":"d2968665e339ea513892ea9c65337236"});</script>
+
+
+<script src="/bitrix/js/pull/protobuf/protobuf.min.js?176484875476433"></script>
+<script src="/bitrix/js/pull/protobuf/model.min.js?176484875414190"></script>
+<script src="/bitrix/js/rest/client/rest.client.min.js?17648487549240"></script>
+<script src="/bitrix/js/pull/client/pull.client.min.js?176484875449664"></script>
+<script src="/bitrix/js/main/jquery/jquery-3.6.0.min.js?176484875589501"></script>
+<script>
+					(function () {
+						"use strict";
+
+						var counter = function ()
+						{
+							var cookie = (function (name) {
+								var parts = ("; " + document.cookie).split("; " + name + "=");
+								if (parts.length == 2) {
+									try {return JSON.parse(decodeURIComponent(parts.pop().split(";").shift()));}
+									catch (e) {}
+								}
+							})("BITRIX_CONVERSION_CONTEXT_s1");
+
+							if (cookie && cookie.EXPIRE >= BX.message("SERVER_TIME"))
+								return;
+
+							var request = new XMLHttpRequest();
+							request.open("POST", "/bitrix/tools/conversion/ajax_counter.php", true);
+							request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+							request.send(
+								"SITE_ID="+encodeURIComponent("s1")+
+								"&sessid="+encodeURIComponent(BX.bitrix_sessid())+
+								"&HTTP_REFERER="+encodeURIComponent(document.referrer)
+							);
+						};
+
+						if (window.frameRequestStart === true)
+							BX.addCustomEvent("onFrameDataReceived", counter);
+						else
+							BX.ready(counter);
+					})();
+				</script>
+
+
+
+<script src="/local/templates/forumNew/swiper/swiper-bundle.min.js?1764848790143046"></script>
+<script src="/local/templates/forumNew/js/cookie-script.js?17404826283914"></script>
+<script src="/local/templates/forumNew/lightbox/src/js/lightbox.js?176484879020822"></script>
+<script src="/local/templates/forumNew/js/bootstrap.bundle.min.js?176484880980496"></script>
+<script src="/local/templates/forumNew/js/app.js?1764848809831"></script>
+<script src="/local/templates/forumNew/aos/aos.js?176484880913800"></script>
+<script>var _ba = _ba || []; _ba.push(["aid", "688963be18a2f148d62303c41b5ba6d7"]); _ba.push(["host", "forumpravo.by"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-T6TNJX2V');</script>
+    <!-- End Google Tag Manager -->
+</head>
+
+
+<div style="z-index: 999999" class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <form method="get" action="/adv_search/" >
+                    <input name="q" type="text" placeholder="Ищете что-то конкретное?">
+                    <button class="modal-btn" type="submit"><i class="icon-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="panel"></div>
+<body style="overflow-x:hidden;" class="mainpage lang-ru">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T6TNJX2V"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="bg-ornament">
+</div>
+<header>
+    <div id="burger-wrap">
+        <div id="close-burger">
+            <i class="icon-close-big"></i>
+        </div>
+        <div class="menu">
+            <a href="/">Главная</a>
+            <a href="/publichnoe-obsuzhdenie-proektov-npa/forum15/">Обсудить проекты нормативных правовых актов</a>
+            <a href="/pravovoy-monitoring/forum35/">Обсудить действующее законодательство</a>
+            <a href="/opinion/">Обсудить правовые коллизии и предложить улучшения НПА</a>
+            <a href="/news/">Новости</a>
+            <a href="/o-forume/">Как все устроено</a>
+        </div>
+        <div class="personal-wrap">
+            <a href="/personal/" class="personal mb-3">
+                <i class="icon-user"></i> Личный кабинет <i class="icon-arr-right-sm"></i>
+            </a>
+                    </div>
+
+        <div class="search">
+            <div class="search-name">
+                Поиск по сайту
+            </div>
+            <form>
+                <div class="wrap-1">
+                    <div class="wrap-2">
+                        <input type="text" placeholder="Поиск темы">
+                        <button type="submit"><i class="icon-search"></i></button>
+                    </div>
+                </div>
+
+            </form>
+            <a class="adv-search" href="/adv_search/">Расширенный поиск <i class="icon-arr-right-sm"></i>
+            </a>
+        </div>
+    </div>
+    <div class="top-wrap-mob">
+        <a class="mob-logo" href="/">
+            <img src="/assets/img/logo-mob.png">
+            Правовой форум<br> Беларуси
+        </a>
+        <div id="burger-btn">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.33334 5.83334H25.6667V8.16668H2.33334V5.83334ZM2.33334 12.8333H25.6667V15.1667H2.33334V12.8333ZM25.6667 19.8333H2.33334V22.1667H25.6667V19.8333Z" fill="#21273A"/>
+            </svg>
+        </div>
+
+    </div>
+    <div id="forum-sticky-header" class="desktop-header-wrap">
+        <div class="container">
+            <div class="top-wrap">
+                <div class="logo">
+                    <a href="/"><img src="/assets/img/vasilek.png"><div class="slogan-warap"> <div class="slogan">Правовой форум Беларуси</div><div class="slogan-desc">государственный информационно-правовой ресурс</div></div> </a>
+                </div>
+                <div class="links">
+
+                    <a class="how-it-works" href="/o-forume/"><span class="icon-list"></span> Как всё устроено</a>
+                    <div class="adv-search-link" data-bs-toggle="modal" data-bs-target="#searchModal"><span class="icon-search"></span></div>
+
+                    <div class="dropdown">
+                                                    <button class="btn btn-lk dropdown-toggle" type="button" id="dropdownMenuLogin" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="icon-user"></span> Личный кабинет
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLogin">
+                                <li><a class="dropdown-item" href="/personal/">Вход</a></li>
+                                <li><a class="dropdown-item" href="/personal/?register=yes">Регистрация</a></li>
+                            </ul>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+
+                <div class="page-title">
+            <h1>Государственный информационно-правовой ресурс</h1>
+        </div>
+    </div>
+</header>
+<main>
+<div class="container ">    <!-- Search Block -->
+    <div class="search-block" data-aos="fade-up">
+        <div class="utp">
+            <p>Разрабатываем законодательство вместе</p>
+        </div>
+        <div class="explain">
+            <p>Найдите интересующую Вас тему и&nbsp;предложите нововведение</p>
+        </div>
+        <div class="mp-search-wrap">
+            <form method="post" action="/adv_search/" class="mp-search-form">
+                <input name="q" type="text" placeholder="Поиск темы">
+                <button type="submit"><span class="icon-search"></span></button>
+            </form>
+            <div class="mp-adv-search">
+                <a href="/adv_search/"><span class="icon-search-advanced"></span></a>
+            </div>
+        </div>
+        <div class="mob-adv-search-only">
+            <a href="/adv_search/">Расширенный поиск <span class="icon-search-advanced"></span></a>
+        </div>
+        <div class="prompts">
+            <a href="#" class="prompt">Торговля</a>
+            <a href="#" class="prompt">Пассажироперевозки</a>
+            <a href="#" class="prompt">Безопасность</a>
+            <a href="#" class="prompt">Образование</a>
+            <a href="#" class="prompt">Жилье</a>
+        </div>
+        <div class="ext-search"></div>
+    </div>
+    <div class="mp-first" data-aos="fade-up">
+        <div class="plashka">
+            <div class="pic">
+                <img src="/assets/img/state-icon.png">
+            </div>
+            <div class="name">
+                Инициативы государства
+            </div>
+            <div class="desc">
+                Здесь государственные органы ждут Вашего мнения о&nbsp;разрабатываемых актах законодательства, а также о&nbsp;практике применения действующих норм
+            </div>
+            <div class="links">
+
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front">
+                            <a class="to-flip" href="/publichnoe-obsuzhdenie-proektov-npa/forum15/">
+              <span class="name">
+                  Обсудить проекты нормативных правовых актов
+              </span>
+                                <span class="img-icon img1">
+                </span>
+                            </a>
+                        </div>
+                        <div class="back">
+                            <a class="to-flip" href="/publichnoe-obsuzhdenie-proektov-npa/forum15/">
+              <span class="name">
+                 Публичное обсуждение проектов НПА
+              </span>
+                                <span class="img-icon img1">
+                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front">
+                            <a class="to-flip to-flip-2" href="/pravovoy-monitoring/forum35/">
+              <span class="name">
+                  Обсудить практику применения действующего законодательства
+              </span>
+                                <span class="img-icon img2">
+                </span>
+                            </a>
+                        </div>
+                        <div class="back">
+                            <a class="to-flip" href="/pravovoy-monitoring/forum35/">
+              <span class="name">
+                  Правовой мониторинг
+              </span>
+                                <span class="img-icon img2">
+                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="plashka plashka-right">
+            <div class="pic">
+                <img src="/assets/img/people-icon.png">
+            </div>
+            <div class="name">
+                Предложения граждан и&nbsp;юридических лиц
+            </div>
+            <div class="desc">
+                Участвуйте в&nbsp;обсуждении актуальных правовых тем и&nbsp;сборе предложений граждан. Предлагайте конкретные
+                изменения в&nbsp;законодательство
+            </div>
+            <div class="links">
+
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front">
+                            <a href="/opinion/">
+              <span class="name">
+                 Предложить изменения в&nbsp;законодательство
+              </span>
+                                <span class="img-icon img3">
+                </span>
+                            </a>
+                        </div>
+                        <div class="back">
+                            <a href="/opinion/">
+              <span class="name">
+                  Важно Ваше мнение
+              </span>
+                                <span class="img-icon img3">
+                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                            </div>
+        </div>
+    </div>
+
+
+    <div class="navigator-wrap" data-aos="fade-up">
+        <div class="navigator-head">
+            Навигатор обсуждений
+        </div>
+        <ul class="nav nav-mp" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+                        role="tab" aria-controls="home" aria-selected="true">Обсуждаются сейчас
+                </button>
+            </li>
+                        <li class="nav-item" role="presentation">
+                <button class="nav-link " id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+                        role="tab" aria-controls="profile" aria-selected="false">Лидеры обсуждений
+                </button>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="clearfix event-block_inner">
+    <div class="swiper mySwiper">
+       
+        <div class="swiper-wrapper with-gap">
+
+
+                    <div class="inner-box swiper-slide">
+                <div class="topic-card monit">
+                    <div class="organizer">
+                        <div class="picture">
+                            <img src="/upload/iblock/2e8/898u22rjv9rt0d2ghxux3gubnht17h8v.png">
+                        </div>
+                        <div class="text">
+                            <div class="org-desc">
+                                Организатор обсуждения: <br>
+                                Минобразование                            </div>
+                        </div>
+                    </div>
+                    <div class="lower-content">
+                        <div class="">
+                            <div class="topic-link">
+                                <span class="nadstrochnik">Постановление Совета Министров </span>
+                                <a href="/pravovoy-monitoring/forum35/17896">О комплексной реабилитации несовершеннолетних</a>
+                            </div>
+                        </div>
+                        <div class="event-left">
+                            <div class="d-flex timebar">
+                                <div class="passed-time" style="width: 18.277739959156%"></div>
+                                <div class="left-7day" style="width: 81.722260040844%"></div>
+                            </div>
+                            <p data-inf="6" data-id="17830">До конца
+                                обсуждения 25 дней</p>
+                        </div>
+
+                        <div class="stats">
+                            <div class="views">
+                                <span class="icon-eye"></span> 389                      </div>
+                            <div class="messages">
+                                <span class="icon-messages">
+                                </span> 1                           </div>
+                        </div>
+                        <div>
+                            <a class="btn-topic-link" href="/pravovoy-monitoring/forum35/17896">Участвовать <span class="icon-answer"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+                    <div class="inner-box swiper-slide">
+                <div class="topic-card ">
+                    <div class="organizer">
+                        <div class="picture">
+                            <img src="/upload/iblock/a97/58vpryzttv4bx4jn51x95wbx1evjsrj5.png">
+                        </div>
+                        <div class="text">
+                            <div class="org-desc">
+                                Организатор обсуждения: <br>
+                                МЧС                            </div>
+                        </div>
+                    </div>
+                    <div class="lower-content">
+                        <div class="">
+                            <div class="topic-link">
+                                <span class="nadstrochnik">Проект Закона </span>
+                                <a href="/publichnoe-obsuzhdenie-proektov-npa/forum15/17887">По вопросам социальной защиты граждан, пострадавших от радиационных аварий</a>
+                            </div>
+                        </div>
+                        <div class="event-left">
+                            <div class="d-flex timebar">
+                                <div class="passed-time" style="width: 82.64265638277%"></div>
+                                <div class="left-7day" style="width: 17.35734361723%"></div>
+                            </div>
+                            <p data-inf="6" data-id="17830">До конца
+                                обсуждения 1 день</p>
+                        </div>
+
+                        <div class="stats">
+                            <div class="views">
+                                <span class="icon-eye"></span> 1354                      </div>
+                            <div class="messages">
+                                <span class="icon-messages">
+                                </span> 4                           </div>
+                        </div>
+                        <div>
+                            <a class="btn-topic-link" href="/publichnoe-obsuzhdenie-proektov-npa/forum15/17887">Участвовать <span class="icon-answer"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+                    <div class="inner-box swiper-slide">
+                <div class="topic-card ">
+                    <div class="organizer">
+                        <div class="picture">
+                            <img src="/upload/iblock/fea/c4x7b8kan310xhtczh7lsrx0gj5jma8a.png">
+                        </div>
+                        <div class="text">
+                            <div class="org-desc">
+                                Организатор обсуждения: <br>
+                                Минэкономики                            </div>
+                        </div>
+                    </div>
+                    <div class="lower-content">
+                        <div class="">
+                            <div class="topic-link">
+                                <span class="nadstrochnik">Проект Закона </span>
+                                <a href="/publichnoe-obsuzhdenie-proektov-npa/forum15/17888">Об изменении Закона «О&nbsp;лицензировании»</a>
+                            </div>
+                        </div>
+                        <div class="event-left">
+                            <div class="d-flex timebar">
+                                <div class="passed-time" style="width: 82.64265638277%"></div>
+                                <div class="left-7day" style="width: 17.35734361723%"></div>
+                            </div>
+                            <p data-inf="6" data-id="17830">До конца
+                                обсуждения 1 день</p>
+                        </div>
+
+                        <div class="stats">
+                            <div class="views">
+                                <span class="icon-eye"></span> 3236                      </div>
+                            <div class="messages">
+                                <span class="icon-messages">
+                                </span> 17                           </div>
+                        </div>
+                        <div>
+                            <a class="btn-topic-link" href="/publichnoe-obsuzhdenie-proektov-npa/forum15/17888">Участвовать <span class="icon-answer"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+                    <div class="inner-box swiper-slide">
+                <div class="topic-card ">
+                    <div class="organizer">
+                        <div class="picture">
+                            <img src="/upload/iblock/33d/4cabzmi4szunl130a9ljr52nflpw21nn.png">
+                        </div>
+                        <div class="text">
+                            <div class="org-desc">
+                                Организатор обсуждения: <br>
+                                Минфин                            </div>
+                        </div>
+                    </div>
+                    <div class="lower-content">
+                        <div class="">
+                            <div class="topic-link">
+                                <span class="nadstrochnik">Проект постановления Совета Министров</span>
+                                <a href="/publichnoe-obsuzhdenie-proektov-npa/forum15/17883">О&nbsp;совершенствовании порядка аттестации специалистов рынка ценных бумаг</a>
+                            </div>
+                        </div>
+                        <div class="event-left">
+                            <div class="d-flex timebar">
+                                <div class="passed-time" style="width: 85.507272019534%"></div>
+                                <div class="left-7day" style="width: 14.492727980466%"></div>
+                            </div>
+                            <p data-inf="6" data-id="17830">До конца
+                                обсуждения 2 дня</p>
+                        </div>
+
+                        <div class="stats">
+                            <div class="views">
+                                <span class="icon-eye"></span> 932                      </div>
+                            <div class="messages">
+                                <span class="icon-messages">
+                                </span> 4                           </div>
+                        </div>
+                        <div>
+                            <a class="btn-topic-link" href="/publichnoe-obsuzhdenie-proektov-npa/forum15/17883">Участвовать <span class="icon-answer"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div><div class="swiper-pagination"></div></div></div>
+
+            </div>
+                        <div class="tab-pane fade " id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="row clearfix event-block_inner">            <div class="inner-box col">
+                <div class="topic-card">
+                    <div class="organizer">
+                        <div class="picture">
+                            <img src="/upload/iblock/131/o0s9f1le2a576rqfse8yul2bebr9bs1s.png">
+                        </div>
+                        <div class="text">
+                            <div class="org-desc">
+                                Организатор обсуждения: <br>
+                                МЖКХ                            </div>
+                        </div>
+                    </div>
+                    <div class="lower-content">
+
+                            <div class="topic-link">
+                                <span class="nadstrochnik">Проект постановления Совета Министров</span>
+                                <a href="/publichnoe-obsuzhdenie-proektov-npa/forum15/17843">О мерах по реализации Закона от 1 апреля 2024 г. №&nbsp;361-З «Об&nbsp;ответственном обращении с&nbsp;животными»</a>
+                            </div>
+
+                        <div class="event-left">
+
+                                                            Обсуждение закрыто
+                            
+
+                        </div>
+
+                        <div class="stats">
+                            <div class="views">
+                                <span class="icon-eye"></span> 407151                      </div>
+                            <div class="messages">
+                                <span class="icon-messages">
+                                </span> 2476                           </div>
+                        </div>
+                        <div>
+                                                            <a class="btn-topic-link" href="/publichnoe-obsuzhdenie-proektov-npa/forum15/17843">Ознакомиться</a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+                    <div class="inner-box col">
+                <div class="topic-card">
+                    <div class="organizer">
+                        <div class="picture">
+                            <img src="/upload/iblock/529/zpoyeo3e0yw1msi2pemeybrbnqpnm3w0.png">
+                        </div>
+                        <div class="text">
+                            <div class="org-desc">
+                                Организатор обсуждения: <br>
+                                Минприроды                            </div>
+                        </div>
+                    </div>
+                    <div class="lower-content">
+
+                            <div class="topic-link">
+                                <span class="nadstrochnik">Проект</span>
+                                <a href="/publichnoe-obsuzhdenie-proektov-npa/forum15/17813">Экологического кодекса</a>
+                            </div>
+
+                        <div class="event-left">
+
+                                                            Обсуждение закрыто
+                            
+
+                        </div>
+
+                        <div class="stats">
+                            <div class="views">
+                                <span class="icon-eye"></span> 9240                      </div>
+                            <div class="messages">
+                                <span class="icon-messages">
+                                </span> 65                           </div>
+                        </div>
+                        <div>
+                                                            <a class="btn-topic-link" href="/publichnoe-obsuzhdenie-proektov-npa/forum15/17813">Ознакомиться</a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+                    <div class="inner-box col">
+                <div class="topic-card">
+                    <div class="organizer">
+                        <div class="picture">
+                            <img src="/upload/iblock/bfb/8lhli65trlcxcn5dxngnjngtgksgcuyb.png">
+                        </div>
+                        <div class="text">
+                            <div class="org-desc">
+                                Организатор обсуждения: <br>
+                                Белгосприщепром                            </div>
+                        </div>
+                    </div>
+                    <div class="lower-content">
+
+                            <div class="topic-link">
+                                <span class="nadstrochnik">Проект Закона</span>
+                                <a href="/publichnoe-obsuzhdenie-proektov-npa/forum15/17750">О табачном сырье, табачных, нетабачных никотиносодержащих изделиях, электронных системах курения и&nbsp;жидкостях для них, системах для потребления табака</a>
+                            </div>
+
+                        <div class="event-left">
+
+                                                            Обсуждение закрыто
+                            
+
+                        </div>
+
+                        <div class="stats">
+                            <div class="views">
+                                <span class="icon-eye"></span> 13908                      </div>
+                            <div class="messages">
+                                <span class="icon-messages">
+                                </span> 75                           </div>
+                        </div>
+                        <div>
+                                                            <a class="btn-topic-link" href="/publichnoe-obsuzhdenie-proektov-npa/forum15/17750">Ознакомиться</a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+                    <div class="inner-box col">
+                <div class="topic-card">
+                    <div class="organizer">
+                        <div class="picture">
+                            <img src="/upload/iblock/18d/hvvrpcze09v0tbpd27lu0o9as5gzedg8.png">
+                        </div>
+                        <div class="text">
+                            <div class="org-desc">
+                                Организатор обсуждения: <br>
+                                ГТК                            </div>
+                        </div>
+                    </div>
+                    <div class="lower-content">
+
+                            <div class="topic-link">
+                                <span class="nadstrochnik">Проект Закона</span>
+                                <a href="/publichnoe-obsuzhdenie-proektov-npa/forum15/17735">Об&nbsp;изменении Закона «О&nbsp;таможенном регулировании в&nbsp;Республике Беларусь»</a>
+                            </div>
+
+                        <div class="event-left">
+
+                                                            Обсуждение закрыто
+                            
+
+                        </div>
+
+                        <div class="stats">
+                            <div class="views">
+                                <span class="icon-eye"></span> 13186                      </div>
+                            <div class="messages">
+                                <span class="icon-messages">
+                                </span> 82                           </div>
+                        </div>
+                        <div>
+                                                            <a class="btn-topic-link" href="/publichnoe-obsuzhdenie-proektov-npa/forum15/17735">Ознакомиться</a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>            </div>
+        </div>
+    </div>
+    <div class="mp-news-wrap" data-aos="fade-up">
+        <div class="news-head">
+            Новое на сайте <a href="/news/">Посмотреть все <span class="icon-arr-right-sm"></span> </a>
+        </div>
+        <div class="cols-wrap">
+            <div class="row">
+<div class="col-md-4">
+    <div class="mp-col">
+        <div class="news-inner-box type1">
+            <a href="/news/npa/41784/" class="name">
+                На общественное обсуждение вынесен проект закона по вопросам социальной защиты граждан, пострадавших от радиационных аварий            </a>
+            <div class="preview-text">
+                На общественное обсуждение вынесен проект Закона Республики Беларусь «Об изменении законов по вопросам социальной защиты граждан, пострадавших от катастрофы на Чернобыльской АЭС, других радиационных аварий».            </div>
+            <div class="bottom">
+                <div class="date">20.01.2026</div>
+                <svg width="6" height="7" viewBox="0 0 6 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="3" cy="3.25977" r="3" fill="#59738F"/>
+                </svg>
+                <div class="tag">
+                    <a href="/news/npa/">Проекты НПА</a>
+                </div>
+            </div>
+        </div>
+        <div class="news-inner-box type2">
+            <div class="second-type">
+                <img src="/upload/iblock/d96/oysyqh6ote3fm5uu32hrbjalpk2e5xly.jpg">
+                <a href="/news/npa/41783/" class="name">
+                    Минэкономики предлагает обсудить проект изменений в Закон о лицензировании                </a>
+            </div>
+            <div class="bottom">
+                <div class="date">20.01.2026</div>
+                <svg width="6" height="7" viewBox="0 0 6 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="3" cy="3.25977" r="3" fill="#59738F"/>
+                </svg>
+                <div class="tag">
+                    <a href="/news/npa/">Проекты НПА</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="col-md-4">
+        <div class="mp-col">
+            <div class="news-inner-box type3">
+                <img src="/upload/iblock/712/2xszb64k7uywe64x4b3wa6nk0ozuspbf.jpg">
+
+                <a href="/news/npa/41750/" class="name">
+                    Минприроды предлагает обсудить проект постановления о национальных парках «Браславские озера» и «Припятский»                </a>
+                <div class="bottom">
+                    <div class="date">13.01.2026</div>
+                    <svg width="6" height="7" viewBox="0 0 6 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="3" cy="3.25977" r="3" fill="#59738F"/>
+                    </svg>
+                    <div class="tag">
+                        <a href="/news/npa/">Проекты НПА</a>
+                    </div>
+                </div>
+            </div>
+            <div class="news-inner-box">
+                <a href="/news/npa/41749/" class="name">
+                    Минфин предлагает обсудить проект постановления о совершенствовании порядка аттестации специалистов рынка ценных бумаг                </a>
+                <div class="bottom">
+                    <div class="date">12.01.2026</div>
+                    <svg width="6" height="7" viewBox="0 0 6 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="3" cy="3.25977" r="3" fill="#59738F"/>
+                    </svg>
+                    <div class="tag">
+                        <a href="/news/npa/">Проекты НПА</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="news-inner-box">
+            <a href="/news/npa/41230/" class="name">
+                МЧС предлагает обсудить проект решения о внесении изменений в регламент о безопасности взрывчатых веществ и изделий на их основе            </a>
+            <div class="bottom">
+                <div class="date">22.12.2025</div>
+                <svg width="6" height="7" viewBox="0 0 6 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="3" cy="3.25977" r="3" fill="#59738F"/>
+                </svg>
+                <div class="tag">
+                    <a href="/news/npa/">Проекты НПА</a>
+                </div>
+            </div>
+        </div>
+        <div class="news-inner-box">
+            <a href="/news/monitoring/41229/" class="name">
+                На Правовом форуме Беларуси открыт правовой мониторинг постановления о программах подготовки водителей. Принимайте участие!            </a>
+            <div class="bottom">
+                <div class="date">22.12.2025</div>
+                <svg width="6" height="7" viewBox="0 0 6 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="3" cy="3.25977" r="3" fill="#59738F"/>
+                </svg>
+                <div class="tag">
+                    <a href="/news/monitoring/">Правовой мониторинг</a>
+                </div>
+            </div>
+        </div>
+        <div class="news-inner-box">
+            <a href="/news/npa/41227/" class="name">
+                Обсуждение изменений в регламент по вопросам безопасности маломерных судов. Вносите предложения на Правовом форуме Беларуси!            </a>
+            <div class="bottom">
+                <div class="date">22.12.2025</div>
+                <svg width="6" height="7" viewBox="0 0 6 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="3" cy="3.25977" r="3" fill="#59738F"/>
+                </svg>
+                <div class="tag">
+                    <a href="/news/npa/">Проекты НПА</a>
+                </div>
+            </div>
+        </div>
+        <div class="news-inner-box">
+            <a href="/news/npa/40269/" class="name">
+                Участвуйте в общественном обсуждении о преобразовании памятника природы республиканского значения клены ложноплатановые «Бобовнянские»            </a>
+            <div class="bottom">
+                <div class="date">12.12.2025</div>
+                <svg width="6" height="7" viewBox="0 0 6 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="3" cy="3.25977" r="3" fill="#59738F"/>
+                </svg>
+                <div class="tag">
+                    <a href="/news/npa/">Проекты НПА</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+
+<img class="how-ornament" src="/assets/img/ornament2.png" data-aos="fade-up">
+    <img class="how-ornament-mob" src="/assets/img/bottom-ornament-mob.png" data-aos="fade-up">
+
+        
+<div class="how-to" data-aos="fade-up">
+    <div class="header">
+	<h2> Как принять участие в обсуждении проектов <br>
+	 нормативных правовых актов </h2>
+</div>
+                    <div class="items row text-start">
+                                            <div class="item col-md-3" id="bx_651765591_40263">
+                    <div class="top">
+                                                    <div class="how-to-badge">
+                                ПРАВИЛА                            </div>
+                         <img src="/assets/img/arrow7.svg">                      </div>
+                    <div class="desc">
+                        С правилами можно ознакомиться <a href="/o-forume/#accordionExample">здесь</a>.                    </div>
+                </div>
+
+                                            <div class="item col-md-3" id="bx_651765591_40264">
+                    <div class="top">
+                                                    <div class="how-to-badge">
+                                РЕГИСТРАЦИЯ                            </div>
+                         <img src="/assets/img/arrow7.svg">                      </div>
+                    <div class="desc">
+                        Высказать замечания и&nbsp;(или)&nbsp;предложения можно после <a href="/personal/?register=yes">регистрации</a>.                    </div>
+                </div>
+
+                                            <div class="item col-md-3" id="bx_651765591_40265">
+                    <div class="top">
+                                                    <div class="how-to-badge">
+                                ОБСУЖДЕНИЕ                            </div>
+                         <img src="/assets/img/arrow7.svg">                      </div>
+                    <div class="desc">
+                        Оставляйте сообщения с&nbsp;замечаниями и (или) предложениями в&nbsp;интересующей Вас теме <a href="/publichnoe-obsuzhdenie-proektov-npa/forum15/">публичного обсуждения</a>. Сообщения публикуются только после предварительной модерации.<br>                    </div>
+                </div>
+
+                                            <div class="item col-md-3" id="bx_651765591_40266">
+                    <div class="top">
+                                                    <div class="how-to-badge">
+                                ИТОГИ                            </div>
+                                            </div>
+                    <div class="desc">
+                        Обобщённая информация о&nbsp;результатах обсуждения размещается в каждой теме.                    </div>
+                </div>
+
+                    </div>
+    </div>
+
+    <img class="how-ornament-mob" src="/assets/img/bottom-ornament-mob.png" data-aos="fade-up">
+</div><div class="bg-ornament-mob">
+    <img src="/assets/img/bottom-ornament-mob.png">
+    <img class="white-bottom" src="/assets/img/bottom-white-ornament-mob.png">
+</div>
+<footer>
+
+    <div class="container">
+        
+
+<!-- Slider main container -->
+<div class="swiper footer-links mob">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper ">
+        <!-- Slides -->
+                <div class="swiper-slide"> <a  target="_blank"                    href="https://pravo.by/" class="link swiper-slide">
+                <div class="top">
+                                    </div>
+                <div class="desc">
+                    Национальный правовой Интернет-портал Республики Беларусь                </div>
+            </a></div>
+                <div class="swiper-slide"> <a                     href="https://center.gov.by/" class="link swiper-slide">
+                <div class="top">
+                                    </div>
+                <div class="desc">
+                    Национальный центр законодательства и правовой информации                </div>
+            </a></div>
+                <div class="swiper-slide"> <a  target="_blank"                    href="https://etalonline.by/" class="link swiper-slide">
+                <div class="top">
+                                    </div>
+                <div class="desc">
+                    Информационно-поисковая система по законодательству                </div>
+            </a></div>
+                <div class="swiper-slide"> <a  target="_blank"                    href="https://bookpravo.by/" class="link swiper-slide">
+                <div class="top">
+                                    </div>
+                <div class="desc">
+                    Интернет-магазин юридической литературы                </div>
+            </a></div>
+                <div class="swiper-slide"> <a  target="_blank"                    href="https://journal.pravo.by/" class="link swiper-slide">
+                <div class="top">
+                                    </div>
+                <div class="desc">
+                    Научно-практический журнал «ПРАВО.BY»                </div>
+            </a></div>
+                <div class="swiper-slide"> <a  target="_blank"                    href="https://mir.pravo.by/" class="link swiper-slide">
+                <div class="top">
+                                    </div>
+                <div class="desc">
+                    Детский правовой сайт                </div>
+            </a></div>
+        
+    </div>
+</div>
+<script>
+
+    document.addEventListener('DOMContentLoaded', function () {
+        // Check if screen width is for mobile (typically 768px or less)
+        if (window.innerWidth <= 768) {
+            const swiper = new Swiper('.swiper', {
+                loop: true,
+                slidesPerView: 2,
+                spaceBetween: 10,
+            });
+        }
+    });
+
+</script>
+
+<div class="footer-links desktop">
+
+                            <a  target="_blank"                        href="https://pravo.by/" class="link swiper-slide">
+                    <div class="top">
+                                            </div>
+                    <div class="desc">
+                        Национальный правовой Интернет-портал Республики Беларусь                    </div>
+                </a>
+                            <a                         href="https://center.gov.by/" class="link swiper-slide">
+                    <div class="top">
+                                            </div>
+                    <div class="desc">
+                        Национальный центр законодательства и правовой информации                    </div>
+                </a>
+                            <a  target="_blank"                        href="https://etalonline.by/" class="link swiper-slide">
+                    <div class="top">
+                                            </div>
+                    <div class="desc">
+                        Информационно-поисковая система по законодательству                    </div>
+                </a>
+                            <a  target="_blank"                        href="https://bookpravo.by/" class="link swiper-slide">
+                    <div class="top">
+                                            </div>
+                    <div class="desc">
+                        Интернет-магазин юридической литературы                    </div>
+                </a>
+                            <a  target="_blank"                        href="https://journal.pravo.by/" class="link swiper-slide">
+                    <div class="top">
+                                            </div>
+                    <div class="desc">
+                        Научно-практический журнал «ПРАВО.BY»                    </div>
+                </a>
+                            <a  target="_blank"                        href="https://mir.pravo.by/" class="link swiper-slide">
+                    <div class="top">
+                                            </div>
+                    <div class="desc">
+                        Детский правовой сайт                    </div>
+                </a>
+            
+</div>
+<script>
+
+
+</script>    </div>
+    <div class="container">
+        <div class="contact-info">
+            <div class="left">
+                <div class="cont-item">
+                    <div class="image">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.366 10.682C10.3043 12.3305 11.6695 13.6957 13.318 14.634L14.202 13.396C14.3442 13.1969 14.5543 13.0569 14.7928 13.0023C15.0313 12.9478 15.2814 12.9825 15.496 13.1C16.9103 13.8729 18.4722 14.3378 20.079 14.464C20.3298 14.4839 20.5638 14.5975 20.7345 14.7823C20.9052 14.9671 21 15.2094 21 15.461V19.923C21.0001 20.1706 20.9083 20.4094 20.7424 20.5932C20.5765 20.777 20.3483 20.8927 20.102 20.918C19.572 20.973 19.038 21 18.5 21C9.94 21 3 14.06 3 5.5C3 4.962 3.027 4.428 3.082 3.898C3.10725 3.6517 3.22298 3.42352 3.40679 3.25763C3.5906 3.09175 3.82941 2.99995 4.077 3H8.539C8.79056 2.99997 9.0329 3.09475 9.21768 3.26545C9.40247 3.43615 9.51613 3.67022 9.536 3.921C9.66222 5.52779 10.1271 7.08968 10.9 8.504C11.0175 8.71856 11.0522 8.96874 10.9977 9.2072C10.9431 9.44565 10.8031 9.65584 10.604 9.798L9.366 10.682ZM6.844 10.025L8.744 8.668C8.20478 7.50409 7.83535 6.26884 7.647 5H5.01C5.004 5.166 5.001 5.333 5.001 5.5C5 12.956 11.044 19 18.5 19C18.667 19 18.834 18.997 19 18.99V16.353C17.7312 16.1646 16.4959 15.7952 15.332 15.256L13.975 17.156C13.4287 16.9437 12.898 16.6931 12.387 16.406L12.329 16.373C10.3676 15.2567 8.74328 13.6324 7.627 11.671L7.594 11.613C7.30691 11.102 7.05628 10.5713 6.844 10.025Z" fill="#CED3C3"/>
+                        </svg>
+                    </div>
+                    <div class="info">
+
+                        <a href="tel:+375 (17) 279-99-42">
+                            +375 (17) 279-99-42
+                        </a><br>
+                        <a href="tel:+375 (17) 279-99-47">+375 (17) 279-99-47</a>
+                    </div>
+                </div>
+                <div class="cont-item">
+                    <div class="image">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 20.007C21.9982 20.2696 21.8931 20.521 21.7075 20.7068C21.5219 20.8926 21.2706 20.9979 21.008 21H2.992C2.72881 20.9997 2.4765 20.895 2.29049 20.7088C2.10448 20.5226 2 20.2702 2 20.007V19H20V7.3L12 14.5L2 5.5V4C2 3.73478 2.10536 3.48043 2.29289 3.29289C2.48043 3.10536 2.73478 3 3 3H21C21.2652 3 21.5196 3.10536 21.7071 3.29289C21.8946 3.48043 22 3.73478 22 4V20.007ZM4.434 5L12 11.81L19.566 5H4.434ZM0 15H8V17H0V15ZM0 10H5V12H0V10Z" fill="#CED3C3"/>
+                        </svg>
+                    </div>
+                    <div class="info">
+
+                        <a href="mailto:mail@center.gov.by">
+                            mail@center.gov.by
+                        </a>
+                    </div>
+                </div>
+                <div class="cont-item">
+                    <div class="image">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 23.7279L5.636 17.3639C4.37734 16.1052 3.52019 14.5016 3.17293 12.7558C2.82567 11.0099 3.00391 9.20035 3.6851 7.55582C4.36629 5.91129 5.51984 4.50569 6.99988 3.51677C8.47992 2.52784 10.22 2 12 2C13.78 2 15.5201 2.52784 17.0001 3.51677C18.4802 4.50569 19.6337 5.91129 20.3149 7.55582C20.9961 9.20035 21.1743 11.0099 20.8271 12.7558C20.4798 14.5016 19.6227 16.1052 18.364 17.3639L12 23.7279ZM16.95 15.9499C17.9289 14.9709 18.5955 13.7236 18.8656 12.3658C19.1356 11.0079 18.9969 9.60052 18.4671 8.32148C17.9373 7.04244 17.04 5.94923 15.8889 5.18009C14.7378 4.41095 13.3844 4.00043 12 4.00043C10.6156 4.00043 9.26222 4.41095 8.11109 5.18009C6.95996 5.94923 6.06275 7.04244 5.53292 8.32148C5.00308 9.60052 4.86442 11.0079 5.13445 12.3658C5.40449 13.7236 6.07111 14.9709 7.05 15.9499L12 20.8999L16.95 15.9499ZM12 12.9999C11.4696 12.9999 10.9609 12.7892 10.5858 12.4141C10.2107 12.0391 10 11.5304 10 10.9999C10 10.4695 10.2107 9.96078 10.5858 9.58571C10.9609 9.21064 11.4696 8.99992 12 8.99992C12.5304 8.99992 13.0391 9.21064 13.4142 9.58571C13.7893 9.96078 14 10.4695 14 10.9999C14 11.5304 13.7893 12.0391 13.4142 12.4141C13.0391 12.7892 12.5304 12.9999 12 12.9999Z" fill="#CED3C3"/>
+                        </svg>
+                    </div>
+                    <div class="info">
+
+                        220030, г. Минск, ул. Берсона, 1а<br>
+                        (станция метро «Площадь Ленина»)
+                    </div>
+                </div>
+            </div>
+            <div class="soc">
+                <div class="text">
+                    Будьте с нами в соцсетях
+                </div>
+                <div class="soc-list">
+                    <a href="https://vk.com/pravoby"><img src="/assets/img/social-vkontakte.svg"> </a>
+                    <a href="https://t.me/pravoby"><img src="/assets/img/social-telegram.svg"> </a>
+                    <a href="https://ok.ru/pravoby"><img src="/assets/img/ok.svg"> </a>
+                    <a href="https://www.facebook.com/pravoby"><img src="/assets/img/fb-icon.svg"> </a>
+                    <a href="https://www.instagram.com/nczpi.by?igsh=MW1rdHRmdGNqNWwyNg"><img src="/assets/img/insta.svg"> </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-under">
+            <div class="left">
+                <div class="text">
+                    © Национальный центр законодательства и правовой информации Республики Беларусь, 2013-2025
+                </div>
+                <div class="links">
+                    <a href="https://forumpravo.by/politika-v-otnoshenii-obrabotki-cookie-fajlov/">
+                        Политика обработки файлов cookie
+                    </a>
+                    <a id="cookie-setting-link" href="#">Настройки обработки файлов cookie</a>
+                    <script>
+                        let cookieSettingLink = document.querySelector('#cookie-setting-link');
+                        cookieSettingLink.addEventListener('click', function(event) {
+                            event.preventDefault();
+                            $.post("/ajax/deleteCookies.php?allowedCookies", function(data){window.location.reload()});
+                        });
+                    </script>
+                </div>
+
+            </div> <div class="right">
+                <a href="https://genshtab.by">
+                    <svg width="149" height="40" viewBox="0 0 149 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.0962 13.8534L20.6781 2.80231C20.4479 2.56137 20.3087 2.22941 20.3087 1.86532C20.3087 1.11038 20.9191 0.5 21.674 0.5C22.4289 0.5 23.0393 1.11038 23.0393 1.86532C23.0393 2.5346 22.5628 3.09143 21.931 3.20923L18.349 14.2603C18.5793 14.5012 18.7185 14.8332 18.7185 15.1973C18.7185 15.9522 18.1081 16.5626 17.3532 16.5626C16.5982 16.5626 15.9878 15.9522 15.9878 15.1973C15.9878 14.528 16.4644 13.9712 17.0962 13.8534ZM14.4405 22.554C15.1954 22.554 15.8058 23.1643 15.8058 23.9193C15.8058 24.6742 15.1954 25.2846 14.4405 25.2846C13.6855 25.2846 13.0752 24.6742 13.0752 23.9193C13.0752 23.8604 13.0805 23.8068 13.0859 23.7479L0.680176 14.9028L10.0982 14.9189C10.3284 14.5012 10.7782 14.2121 11.2922 14.2121C12.0471 14.2121 12.6575 14.8278 12.6575 15.5828C12.6575 16.3324 12.0471 16.9481 11.2922 16.9481C10.7728 16.9481 10.3231 16.659 10.0929 16.236L4.79756 16.2253L8.3581 18.7632L19.6126 18.7739L21.674 12.4077L23.7407 18.7739L26.7391 18.7685C26.9318 18.2492 27.4351 17.8744 28.0187 17.8744C28.7737 17.8744 29.3894 18.4901 29.3894 19.2451C29.3894 19.9946 28.7737 20.6104 28.0187 20.6104C27.5797 20.6104 27.1888 20.4016 26.9425 20.0803L22.7823 20.0857L21.674 16.6643L20.5657 20.0857L10.2053 20.0803L13.8569 22.6825C14.0336 22.6021 14.2317 22.554 14.4405 22.554ZM10.8317 37.2191C11.0513 37.4601 11.1798 37.7813 11.1798 38.1293C11.1798 38.8843 10.5694 39.5 9.81444 39.5C9.0595 39.5 8.44912 38.8843 8.44912 38.1293C8.44912 37.4547 8.94171 36.8925 9.58957 36.7854L11.9186 29.7018C11.6777 29.4555 11.5331 29.1182 11.5331 28.7488C11.5331 27.9938 12.1435 27.3834 12.8985 27.3834C13.6534 27.3834 14.2638 27.9938 14.2638 28.7488C14.2638 29.4073 13.798 29.9588 13.1715 30.0873L10.8317 37.2191ZM14.9491 32.834C15.099 32.834 15.249 32.8608 15.3828 32.909L21.6793 28.4168L32.12 35.9984L31.0546 32.7591L21.7597 25.5791L15.8165 29.5358L18.6114 22.6664L19.8322 23.1643L18.6489 26.0717L21.8186 23.9621L30.3264 30.5371L28.099 23.7694L34.1064 19.4432C34.1011 19.3843 34.0957 19.3307 34.0957 19.2718C34.0957 18.5169 34.7061 17.9065 35.4611 17.9065C36.216 17.9065 36.8317 18.5169 36.8317 19.2718C36.8317 20.0268 36.216 20.6371 35.4611 20.6371C35.2523 20.6371 35.0541 20.5943 34.8721 20.5087L29.6518 24.2673L33.7477 36.7372H33.7531C34.508 36.7372 35.1184 37.3476 35.1184 38.1026C35.1184 38.5577 34.8989 38.9592 34.5562 39.2055L34.417 39.2965C34.2242 39.409 33.994 39.4679 33.7531 39.4679C32.9981 39.4679 32.3878 38.8575 32.3878 38.1026C32.3878 38.0115 32.3985 37.9259 32.4145 37.8402L21.6686 30.0391L16.277 33.8834C16.3037 33.9852 16.3144 34.0923 16.3144 34.1993C16.3144 34.9543 15.7041 35.57 14.9491 35.57C14.1942 35.57 13.5838 34.9543 13.5838 34.1993C13.5838 33.4444 14.1942 32.834 14.9491 32.834ZM40.6118 14.196C41.3667 14.196 41.9771 14.8118 41.9771 15.5614C41.9771 16.3163 41.3667 16.932 40.6118 16.932C40.0978 16.932 39.648 16.6429 39.4125 16.2253L25.6468 16.2467L22.868 7.67998C22.2362 7.56219 21.7597 7.00535 21.7597 6.33608C21.7597 5.58114 22.37 4.97076 23.125 4.97076C23.8799 4.97076 24.4903 5.58114 24.4903 6.33608C24.4903 6.70016 24.3511 7.03213 24.1209 7.27306L26.6052 14.9349L39.4125 14.9082C39.6427 14.4852 40.0924 14.196 40.6118 14.196Z" fill="#6F89A4"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M49.406 13.4407H58.1248L59.0461 16.6908H52.6194V27.8083H49.406V13.4407ZM75.8993 27.7859V13.3735L79.1801 13.3511V19.1115H83.6293V13.3511L86.8876 13.3959V27.7634H83.6293V22.2271H79.1801V27.7859H75.8993ZM62.2594 27.6738V13.4407H71.4725L72.3938 16.6684H65.4728V19.1564H72.2815V22.1823H65.4728V24.5358H72.4163L71.7197 27.6514H62.2594V27.6738Z" fill="#6F89A4"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M113.648 27.8083V16.5737H109.595L110.518 13.3511H120.493L121.417 16.5737H117.138V27.8083H113.648ZM90.6583 13.3958L93.9232 13.4406V24.5185H97.0756V13.3735H100.431V24.5185H103.673L103.651 13.4406L106.916 13.4182V27.7411H90.6357V13.3958H90.6583ZM141.322 25.3018H142.695C143.596 25.3018 144.226 25.257 144.587 25.1675C144.947 25.078 145.285 24.8765 145.555 24.5632C145.825 24.2723 145.96 23.8695 145.96 23.4219C145.96 22.7729 145.735 22.3029 145.262 21.9896C144.767 21.6987 143.979 21.542 142.83 21.542H141.322V25.3018ZM138.417 13.3511H147.559L148.482 16.529H141.344V19.1474H143.776C144.857 19.1474 145.735 19.2817 146.433 19.5278C147.154 19.7964 147.739 20.2887 148.257 20.9825C148.752 21.6763 149 22.5043 149 23.4443C149 24.4066 148.752 25.257 148.234 25.9284C147.739 26.6222 147.154 27.0921 146.523 27.3607C145.87 27.6069 144.947 27.7188 143.754 27.7188H138.417V13.3511ZM130.626 21.6315L129.027 16.7751L127.429 21.6315H130.626ZM136.323 27.7859H132.81L131.572 24.5185H126.528L125.312 27.7859H121.799L127.429 13.3958H130.513L136.323 27.7859Z" fill="#6F89A4"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M49.406 33.8137H50.5104V36.0621L52.5387 33.8137H53.8685L51.8175 35.9925L53.9586 38.9596H52.6514L51.0963 36.7575L50.5104 37.3833V38.9596H49.406V33.8137ZM147.828 36.3634C147.828 35.4826 147.197 34.7408 146.318 34.7408C145.439 34.7408 144.808 35.4594 144.808 36.3634C144.808 37.2443 145.439 37.986 146.318 37.986C147.22 37.9628 147.828 37.2443 147.828 36.3634ZM143.681 36.3634C143.681 34.9031 144.808 33.6978 146.341 33.6978C147.873 33.6978 149 34.8799 149 36.3634C149 37.8237 147.873 39.0291 146.341 39.0291C144.785 39.0059 143.681 37.8237 143.681 36.3634ZM141.112 37.9396C141.608 37.9396 141.901 37.7542 141.901 37.3602C141.901 37.0125 141.653 36.8038 141.089 36.8038H139.827V37.9396H141.112ZM140.819 35.8535C141.315 35.8535 141.608 35.6912 141.608 35.2972C141.608 34.9495 141.36 34.764 140.886 34.764H139.805V35.8535H140.819ZM138.745 33.7905H141.067C141.63 33.7905 142.081 33.9527 142.374 34.2541C142.599 34.4859 142.712 34.764 142.712 35.1349C142.712 35.7144 142.419 36.0389 142.058 36.2475C142.644 36.4793 142.982 36.827 142.982 37.5224C142.982 38.4728 142.239 38.9364 141.112 38.9364H138.745V33.7905ZM135.275 34.8336H133.765V33.7905H137.911V34.8336H136.401V38.9364H135.297V34.8336H135.275ZM128.626 36.3634C128.626 34.9031 129.685 33.6978 131.24 33.6978C132.187 33.6978 132.705 34.0686 133.179 34.5322L132.525 35.3203C132.142 34.9495 131.804 34.7408 131.24 34.7408C130.406 34.7408 129.798 35.4594 129.798 36.3634C129.798 37.2443 130.384 37.986 131.24 37.986C131.804 37.986 132.164 37.7542 132.548 37.3833L133.246 38.1483C132.728 38.7046 132.164 39.0291 131.195 39.0291C129.708 39.0059 128.626 37.8469 128.626 36.3634ZM125.583 34.8336H124.051V33.7905H128.198V34.8336H126.688V38.9364H125.583V34.8336ZM119.002 33.7905H120.107V35.8303H122.135V33.7905H123.239V38.9364H122.135V36.8734H120.107V38.9364H119.002V33.7905ZM114.202 33.7905H117.966V34.7872H115.306V35.8303H117.65V36.827H115.306V37.9165H118.011V38.9132H114.202V33.7905ZM111.047 38.9364H109.942V33.7905H113.436V34.8104H111.047V38.9364ZM107.17 36.7807L106.516 35.1117L105.863 36.7807H107.17ZM106.021 33.7441H107.035L109.176 38.9132H108.027L107.576 37.7542H105.457L105.006 38.9132H103.88L106.021 33.7441ZM96.0815 33.8137H99.8679V34.8336H97.1859V35.8766H99.5523V36.8966H97.1859V37.986H99.913V39.0059H96.1041V33.8137H96.0815ZM93.963 36.3866C93.963 35.5058 93.332 34.764 92.453 34.764C91.574 34.764 90.943 35.4826 90.943 36.3866C90.943 37.2674 91.574 38.0092 92.453 38.0092C93.332 38.0092 93.963 37.2906 93.963 36.3866ZM89.771 36.3866C89.771 34.9263 90.8979 33.7209 92.453 33.7209C94.0081 33.7209 95.1124 34.9031 95.1124 36.3866C95.1124 37.8469 93.9855 39.0523 92.4304 39.0523C90.8979 39.0523 89.771 37.8701 89.771 36.3866ZM84.5648 33.8137H85.6691V35.8535H87.6975V33.8137H88.8019V38.9827H87.6975V36.8966H85.6691V38.9596H84.5648V33.8137ZM81.7701 37.986C82.2659 37.986 82.5589 37.8006 82.5589 37.4065C82.5589 37.0588 82.311 36.8502 81.7476 36.8502H80.4629V37.986H81.7701ZM81.4771 35.8998C81.973 35.8998 82.2659 35.7376 82.2659 35.3435C82.2659 34.9958 82.018 34.8104 81.5447 34.8104H80.4629V35.8998H81.4771ZM79.3811 33.8137H81.725C82.2885 33.8137 82.7392 33.9759 83.0322 34.2772C83.2576 34.509 83.3703 34.8104 83.3703 35.1581C83.3703 35.7376 83.0773 36.0621 82.7167 36.2707C83.3027 36.5025 83.6633 36.8502 83.6633 37.5456C83.6633 38.496 82.9195 38.9596 81.7927 38.9596H79.4037V33.8137H79.3811ZM78.1866 38.9827H77.1048V35.5985L74.9187 38.9827H73.8819V33.8137H74.9637V37.1979L77.1724 33.8137H78.1866V38.9827ZM70.4111 34.8567H68.8786V33.8137H73.0255V34.8567H71.4929V38.9827H70.3886V34.8567H70.4111ZM67.0981 36.8038L66.422 35.1349L65.7458 36.8038H67.0981ZM65.9487 33.7673L63.8076 38.9596H64.9345L65.3852 37.8006H67.5038L67.9545 38.9596H69.1039L66.9629 33.7673H65.9487ZM59.4353 33.8137H63.2216V34.8336H60.5396V35.8766H62.9061V36.8966H60.5396V37.986H63.2441V39.0059H59.4353V33.8137ZM56.6181 36.4098C57.1815 36.4098 57.497 36.0621 57.497 35.6217C57.497 35.1117 57.159 34.8336 56.5955 34.8336H55.7391V36.4098H56.6181ZM54.6347 33.8137H56.6857C57.8802 33.8137 58.6014 34.5554 58.6014 35.6217C58.6014 36.8038 57.6999 37.4297 56.573 37.4297H55.7391V38.9827H54.6347V33.8137Z" fill="#6F89A4"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!--    COOKIE BANNER    -->
+<div class="cookie-container">
+    <div class="cookie-banner" id="main-form">
+        <p>Для обеспечения удобства пользователей данный сайт использует файлы cookie</p>
+        <div class="buttons">
+            <div class="cookie-button" id="accept-all"><div>ПРИНЯТЬ ВСЕ</div></div>
+            <div class="cookie-button" id="reject-all"><div>ОТКЛОНИТЬ ВСЕ <span>(кроме&nbspнеобходимых)</span></div></div>
+        </div>
+        <div class="cookie-settings-link" id="settings"><a href="#">Настроить</a></div>
+        <div class="cookie-link-doc"><a href="/politika-v-otnoshenii-obrabotki-cookie-fajlov/">Политика в отношении обработки cookie-файлов на сайте</a></div>
+    </div>
+    <div class="cookie-banner" id="settings-form">
+        <h3>Настройка обработки файлов cookie</h3>
+        <span>
+            Вы можете настроить, какие типы файлов cookie будут сохраняться на Вашем устройстве, за исключением необходимых cookie, без которых невозможно функционирование сайта. Полное или частичное отключение cookie может привести к ограничению доступа к функционалу сайта
+        </span>
+        <div class="checboxes">
+            <input type="checkbox" id="technical" class="customCheckbox" disabled checked> <label for="technical">Необходимые (технические)</label>
+            <input type="checkbox" id="functional" class="customCheckbox" checked> <label for="functional">Функциональные</label>
+            <input type="checkbox" id="analytical" class="customCheckbox" checked> <label for="analytical">Аналитические</label>
+        </div>
+        <div class="buttons">
+            <div class="cookie-button large-button" id="accept-selected"><div>СОХРАНИТЬ</div></div>
+            <div class="cookie-button large-button"  id="close"><div>ЗАКРЫТЬ</div></div>
+        </div>
+        <div class="cookie-link-doc"><a href="/politika-v-otnoshenii-obrabotki-cookie-fajlov/">Политика в отношении обработки cookie-файлов на сайте</a></div>
+    </div>
+</div>
+<!--    END COOKIE BANNER    -->
+<!--Google Analytics-->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-42820808-1', 'forumpravo.by');
+    ga('send', 'pageview');
+</script>
+<!--/Google Analytics-->
+<!-- Yandex.Metrika counter -->
+<script >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(80573374, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+    });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/80573374" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</main>
+</body>
+
+</html>

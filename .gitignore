@@ -1,0 +1,3 @@
+﻿# Exclude downloaded-assets with very long paths
+fixed-sites/*/downloaded-assets/static.wixstatic.com/
+fixed-sites/*/downloaded-assets/cdn-*.nitrocdn.com/

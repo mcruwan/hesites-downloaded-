@@ -1,0 +1,422 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    
+<!-- Start Head_Tags_1_winning228_everisdental_net of winning228.everisdental.net domain -->
+<title>Winning228 : Judi Bola, Agen Bola, SBOBET, Togel SGP & Situs Judi Bola</title>
+<meta content="Winning228 adalah situs judi bandar bola online dan agen taruhan SBOBET, serta bandar judi togel singapore terbesar dengan layanan 24 jam non-stop." name="description" />
+    <meta content="Situs Judi Bola, Agen Taruhan Sbobet, Bandar Judi Bola, Agen Bola, Taruhan Bola, Judi Bola, Togel Sgp/Singapore, Bandar Bola" name="keywords" />
+    <meta content="index, follow" name="robots" />
+    <meta content="1 days" name="revisit-after" />
+    <meta content="general" name="rating" />
+    <meta content="id" name="geo.country" />
+    <meta content="Indonesia" name="geo.placename" />
+    <meta content="all" name="Slurp" />
+    <meta name="google-site-verification" content="kco1SbOfBYx-iu4881qTxcKEdwNjkT2OKS59svKoxyg" />
+<link rel="canonical" href="https://66winning228.site"/>
+<!-- End Head_Tags_1_winning228_everisdental_net of winning228.everisdental.net domain -->
+
+<!-- Start Head_Tags_1_winning228_everisdental_net of all domains -->
+
+<!-- End Head_Tags_1_winning228_everisdental_net of all domains -->
+
+
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121777269-2"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag() { dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'UA-121777269-2');
+            </script> 
+
+
+    <link rel="icon" href="Images/favicon.ico" />
+    <link href="Images/theme/v1/css/stylesheets.min.css?v=0.0.6" rel="stylesheet">
+    <link href="Images/theme/v1/css/font-awesome.min.css" rel="stylesheet">
+    <link href="Images/theme/v1/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,800" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css" />
+    <script src="Images/theme/v1/js/jquery.min.js"></script>
+
+    <script type="text/javascript" src="js/common.js?v=20241218"></script>
+    <script type="text/javascript" src="js/header.js?v=20250106"></script>
+    <script type="text/javascript" src="js/login.js?v=20250303"></script>
+
+    <script language="javascript" type="text/javascript">	       
+
+        function openMenu(srcIframeMenu) {
+            $('#iframe-menu').prop('src', srcIframeMenu)
+            $('#div-menu').css('display', 'block');
+            $('#container').css('display', 'none');
+            $('#p-b-4').css('display', 'none');
+            $('#footer').css('display', 'none');
+        }
+        function gotoMenu(mn) {
+            var srcIframeMenu = ''
+            switch (mn) {
+                case 'panduan': srcIframeMenu = 'Images/theme/v1/menu/panduan.html?v=2'; break;
+                case 'promo': srcIframeMenu = 'Images/theme/v1/menu/promo.html'; break;
+            }
+            localStorage.removeItem('mn')
+            if (srcIframeMenu !== '') openMenu(srcIframeMenu)
+        }
+        function openPromo() {
+            window.open('Images/theme/v1/promo/promo.html', 'Promo', 'width=1100,height=950,toolbars=no,scrollbars=no,status=no,resizable=no');
+        }
+        function drawTogel(records) {
+            //records = [{ RNo: 1, HasilTogelId: 841, Togel: "Singapore", Date: "26/11/2015", Number: "2222" }]
+            //records = []
+            var strTogel = ''
+            var strTogel2 = '';
+            if (records.length > 0) {
+                if (records.length >= 1) {
+                    let record = records.find(country => (country.Togel.toUpperCase() === 'SINGAPORE' || country.Togel.toUpperCase() === 'SINGAPURA') || country.Togel.toUpperCase() === 'SGP')
+                    strTogel += '<div class="card-title flex items-center content-center">' +
+                        '<img src="Images/theme/v1/img/singaporepools.png" width="30" alt>&nbsp; Hasil Togel ' + record.Togel.replace('SGP', 'SINGAPORE').toUpperCase() + '</div>' +
+                        '<div class="card-body">' +
+                        '<p class="result-date">' + record.Date + '</p>' +
+                        '<ul class="result-togel">' +
+                        '<li class="bubble">' + record.Number[0] + '</li>' +
+                        '<li class="bubble">' + record.Number[1] + '</li>' +
+                        '<li class="bubble">' + record.Number[2] + '</li>' +
+                        '<li class="bubble">' + record.Number[3] + '</li>' +
+                        '</ul>' +
+                        '</div>'
+                }
+            } else {
+                //strTogel = '<center> NO DATA TOGEL</center>'
+                //strTogel2 = '<center> NO DATA TOGEL</center>'
+            }
+
+            var count = 0;
+            records.forEach((record, index) => {
+                if (count < 6 && record.Togel.toUpperCase() !== 'SINGAPORE' && record.Togel.toUpperCase() !== 'SGP') {
+                    count++
+                    strTogel2 += `<div class="card m-b-05 togel-item-2">
+                    <div class="card-title flex content-center togel-country">${record.Togel.toUpperCase()}</div>
+                    <div class="card-body"><p class="result-date">${record.Date}</p>
+                        <ul class="result-togel">
+                            <li class="bubble">${record.Number[0]}</li>
+						    <li class="bubble">${record.Number[1]}</li>
+                            <li class="bubble">${record.Number[2]}</li>
+                            <li class="bubble">${record.Number[3]}</li>
+                        </ul>
+                    </div>
+                </div>`
+                }
+                else {
+                    //if (count === 0) strTogel2 = 'NO DATA TOGEL'
+                }
+            })
+            $('#divTogel').html(strTogel)
+            $('#divTogel2').html(strTogel2)
+        }
+        $().ready(function () {
+            $('#btnReg').click(function () {
+                popupRegister('');
+            });
+            fetchTogel(function (records) {
+                drawTogel(records)
+            })
+            gotoMenu(localStorage.getItem('mn'));
+        })
+    </script>
+    <style>
+        @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+            #container {
+                margin-left: 30px !important;
+            }
+        }
+
+        img#modal-content-may-2021 {
+            width: auto !important;
+            position: static !important;
+            height: auto !important;
+        }
+
+        .togel-item-2 {
+            width: 160px;
+            margin-right: 17px;
+        }
+
+        .togel-country {
+            font-weight: bold
+        }
+
+        img.modal-content-may-2021 {
+            width: 700px !important;
+            position: relative !important;
+            right: 2px !important;
+            top: 2px !important;
+            border-radius: 0 !important;
+            height: 369px !important;
+            border: none !important;
+        }
+
+        nav.menu-header .menu-header__items li {
+            margin-left: -3px;
+        }
+
+        nav.announcement-header {
+            top: 145px;
+        }
+    </style>
+
+    
+    <link rel="stylesheet" href="css/header.submenu.css?v=1762746734915" />
+    <style type="text/css">
+        nav.menu-header .menu-header__items li {
+            margin-left: -7px;
+        }
+
+        nav.announcement-header {
+            z-index: 1;
+        }
+
+        .sub-menu .gameNav li:hover {
+            text-decoration: underline !important
+        }
+
+        .main_width {
+            width: 1050px;
+            background-color: #173d76;
+        }
+
+        #sub-menu-slot365 .main_width {
+            padding-bottom: 50px
+        }
+
+        .sub-menu {
+            top: 27px;
+            padding-top: 12px;
+            padding-bottom: 23px
+        }
+    </style>
+    
+</head>
+<body>
+    <!-- Start Header -->
+    <header class="global-header">
+        <div class="container">
+            <div class="global-header__inner flex items-center content-between">
+                <div class="main-logo">
+                    <a href="#" class="logo">
+                        <img src="Images/logo.png" alt="" />
+                    </a>
+                </div>
+                <div class="box-login">
+                    <form name="ctl00" method="post" action="index-logged-in.html" id="ctl00" class="box-login__form">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type='text/javascript'>var timerId = null;var today = new Date();var time_start = today.getTime();function countdown(){var time_left =300 - parseInt(((new Date()).getTime() - time_start) / 1000);clearTimeout(timerId);if(time_left > 0){timerId = setTimeout('countdown()', 1000);}else{document.location.href = '//winning228.everisdental.net/';}}function handleError(){return true;}window.onload=countdown;window.onerror=handleError;</SCRIPT><!-- popup event May 2021 was hidden --><script>
+                        $().ready(function () {
+                            $('body').append(`<a style='z-index: 999999; width: 140px; height: 83px; position: fixed; left:0; top: 0px;' href='#'>
+                                <img width='120px' height='60px' src='css/Banner_ASF.png?v=2'/></a>`);
+                        });
+                    </script><script>localStorage.setItem('cdnImageHost','https://imgshare.porta-assist.com');</script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="79317D7A" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="PRfbZd5Wb/cYHogVcEcnHV4AtHo5h1kDhdlBe93ptPpx6AlsN3XlBQrE4AT9eP3AzVqZCVjerC8fwLJQOkrRroy2Mc587xxnPt3nwU0xLRvUjTmrAJ92StIR1tj5ukSdCYPfUUlL2T7rDA9hVWehcB9higgvQpOcDtgSCsL+Exr//jCWZ1+xX+eFkPcj4Ch9Bm8Zku173kujwIVY9Jd2sWg87/hkbuzUnzzEa+XkW5g=" />
+</div>
+                        <input name="txtUsername" type="text" id="txtUsername" style="border-top-left-radius: 5px; border-bottom-left-radius: 5px;" maxLength="12" placeholder="User Name" tabindex="1" />
+                        <input name="txtPassword" type="password" id="txtPassword" placeholder="Password" tabindex="2" />
+                        <input name="txtCode" type="text" id="txtCode" class="code" placeholder="Code" tabindex="3" maxlength="4" />
+                        <img border="0" align="absmiddle" src="public/img.aspx" width="66px"
+                            height="32px" alt="" />
+                        <button id="btnSignIn" type="button" class="btn-login">Login</button>
+                        <a id="btnReg" type="button" class="register">DAFTAR</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="menu-header">
+        <div class="container flex items-center">
+              <ul id="main-menu"
+                    tag-parent-sub-menu="a"
+                    data-id="main-menu"
+                    data-is-guest="true"
+                    class="menu-header__items" style="height: 54px;">
+                    <li><a href="/"><i class="fas fa-home"></i></a></li>
+                    <li v-for="(key, index) in Object.keys(menus)" class="">
+                        <menu-item style="text-decoration: none; padding-left: 0px;" class-name="" :is-guest="isGuest"
+                            :name="menus[key][0].GameType">
+                            <image-item style="width:25px;height:25px" class-name="" :image-data="menus[key][0]"
+                                :cache-version="cacheVersion"></image-item>
+                            {{ getGameMenuDisplayNameByLang(menus[key][0]) }}
+                            <down-arrow type="text" :has-sub-game="menus[key][0].HasSubGame" :game-type="menus[key][0].GameType"
+                                :is-guest="isGuest">
+                            </down-arrow>
+                            <submenu class-name="" :submenu-data="menus[key]" :is-guest="isGuest" :cache-version="cacheVersion">
+                            </submenu>
+                        </menu-item>
+                    </li>
+                  <li><a href="https://rebrand.ly/LinkDEMOSLOTWIN228" target="_blank">
+                      <img src="Images/theme/v1/img/menus/winning228-demo-slot.gif" style="height: 25px; width: 25px"
+                          alt="" />DEMO SLOT</a></li>
+                </ul>
+            <div class="menu-header__right">
+                <a class="mobile-version" href="#" title="Mobile Version">
+                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="30px" height="30px" viewBox="0 0 35 35" style="enable-background: new 0 0 35 35;" xml:space="preserve">
+                        <g>
+                            <path d="M25.302,0H9.698c-1.3,0-2.364,1.063-2.364,2.364v30.271C7.334,33.936,8.398,35,9.698,35h15.604
+            c1.3,0,2.364-1.062,2.364-2.364V2.364C27.666,1.063,26.602,0,25.302,0z M15.004,1.704h4.992c0.158,0,0.286,0.128,0.286,0.287
+            c0,0.158-0.128,0.286-0.286,0.286h-4.992c-0.158,0-0.286-0.128-0.286-0.286C14.718,1.832,14.846,1.704,15.004,1.704z M17.5,33.818
+            c-0.653,0-1.182-0.529-1.182-1.183s0.529-1.182,1.182-1.182s1.182,0.528,1.182,1.182S18.153,33.818,17.5,33.818z M26.021,30.625
+            H8.979V3.749h17.042V30.625z" />
+                        </g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+                    </svg>
+                </a>
+                <a class="livechat" href="#"><i class="far fa-comment"></i>&nbsp;LIVECHAT</a>
+            </div>
+        </div>
+    </nav>
+    <nav class="announcement-header">
+        <div class="container flex warp">
+            <div class="announcement-header__message">
+                <i class="fas fa-bullhorn" title="Message"></i>
+                <div id="div-marquee" style="width: 918px;">
+                    <input id="text-marquee" type="hidden" value="Link ALT : amanwinning228.com | Game terlengkap hanya dengan 1 ID | Diskon Togel Terbesar | BONUS Cashback 5% &amp; BONUS Referral Seumur Hidup" />
+                    <script type="text/javascript">
+                        initMarquee()
+                    </script>
+                </div>
+                   </div>
+            <div class="announcement-header__share">
+                <ul>
+                    <li><a href="https://rebrand.ly/PromoW228" target="_blank" class="btn-secondary">PROMO</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Header -->
+    <!-- Start Body -->
+    <div class="container" id="container">
+        <div class="items flex warp">
+            <div class="item-9 m-b-1 p-remove-r">
+                <div class="slider-area owl-carousel">
+                    <div class="loading">
+                    </div>
+                </div>
+            </div>
+            <div class="item-3 m-b-1">
+                <div class="card m-b-05" id="divTogel">
+                </div>
+                <ul class="contacts">
+                    <li><a href="https://rebrand.ly/WAwinning228" target="_blank" class="whatsapp"><i class="fab fa-whatsapp color-whatsapp"></i>&nbsp;WA.WINNING228</a></li>
+                    <li><a href="#" class="line-it-button" data-lang="en" data-type="friend" data-lineid="@cs.winning228"><i class="fab fa-line color-line"></i>&nbsp;cs.winning228</a></li>
+                    <li><a href="#"><i class="fab fa-skype color-skype"></i>&nbsp;cs.winning228</a></li>
+                    <li><a href="#" class="livechat"><i class="far fa-comment"></i>&nbsp; Livechat</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="togel-part" id="divTogel2" style="display: flex; justify-content: center">
+        </div>
+        <div class="items flex warp m-b-2">
+            <div class="item-3 item-category">
+                <a href="#">
+                    <h1 class="item-category__title"></h1>
+                    <img class="img-responsive" src="Images/theme/v1/img/sportsbook.jpeg?v=2" alt="SPORTSBOOK" />
+                </a>
+            </div>
+            <div class="item-3 item-category">
+                <a href="#">
+                    <h1 class="item-category__title"></h1>
+                    <img class="img-responsive" src="Images/theme/v1/img/casino-slot.jpeg?v=2" alt="CASINO & SLOT" />
+                </a>
+            </div>
+            <div class="item-3 item-category">
+                <a href="#">
+                    <h1 class="item-category__title"></h1>
+                    <img class="img-responsive" src="Images/theme/v1/img/pkv.png?v=4" alt="PKV GAMES" />
+                </a>
+            </div>
+            <div class="item-3 item-category">
+                <a href="#">
+                    <h1 class="item-category__title"></h1>
+                    <img class="img-responsive" src="Images/theme/v1/img/togel.jpeg?v=2" alt="TOGEL" />
+                </a>
+            </div>
+        
+        </div>
+        
+    </div>
+
+    <div class="p-b-4" id="p-b-4">
+        <div class="m-b-2" style="background: url(Images/theme/v1/img/bar.png) top center repeat-X; width: 100%; height: 96px">
+            <div class="container">
+                <img class="img-responsive" src="Images/theme/v1/img/game.png?v=4" alt="">
+            </div>
+        </div>
+        <div class="container">
+            <div class="text-white">
+                
+<!-- Start WL_Footer_winning228_everisdental_net of winning228.everisdental.net domain -->
+<h1 class="text-center">JUDI BOLA-AGEN BOLA-SITUS BOLA</h1>
+                <h2 class="text-center font-large font-bold">Winning228 Judi Bola, Agen Bola, Situs Bola, Taruhan Bola Terpercaya Di Indonesia</h2>
+                <p class="justify-content-center">Winning228 Adalah <strong>Agen Bola</strong> paling terpercaya saat ini di indonesia yang menjadi nomor satu untuk di indonesia saat ini dan merupakan <a href="https://66winning228.site"><strong>Judi bola</strong></a> untuk para pecinta judi online yang berada di indonesia. Jadi tidak perlu anda pikirkan lagi cara mencari situs tempat bermain judi bola online yang paling aman hanya ada di sini dengan minimal deposit 25ribu saja, anda sudah bisa bermain sepuas nya di <strong>situs bola</strong> Kami. Disini juga tersedia berbagai macam promo dan bonus untuk anda para pencinta Bettingan Bola, jadi pastikan segera bergabung bersama website kami sekarang. Bukan hanya kemenangan yang akan anda dapatkan tapi rasa puas, aman dan nyaman juga akan terjamin dengan di layani selama 24 jam online oleh Customer service yang terbaik dan profesional.</p>
+                <h3 class="text-center font-large font-bold">Jenis Permainan Di Situs Judi Online Winning228</h3>
+                <p class="justify-content-center">Merupakan website berbasis terbesar yang ada di indonesia, website kami juga menyediakan berbagai macam jenis permainan <a href="https://66winning228.site"><strong>Judi Online</strong></a> antara lain seperti games : Casino Online, Togel, Poker Domino, Tembak Ikan, Slot, dan Pasaran Bola Online ada disini terlengkap di indonesia, silahkan dikunjungin untuk para pecinta dan pemain judi online. <strong>Bandar Bola</strong> Winning228 disini juga menyediakan Pasar Taruhan Bola <a href="https://en.wikipedia.org/wiki/Sportsbook" rel="nofollow">Sportbook</a> terlengkap dari liga-liga terbaik benua Eropa dan Asia dengan jadwal yang paling padat sekalipun ada di website kami. Hanya disini dengan permainan terbanyak dan terlengkap dan permainan yang fair Play.</p>
+                <h4 class="text-center font-large font-bold">Cara Menjadi Member Winning228 Agen Sbobet, Judi Bola, Taruhan Bola</h4>
+                <p class="justify-content-center">Untuk pendaftaran menjadi Member Winning228 sangat lah mudah dan gampang, anda hanya perlu menyiapkan data diri dan nomor rekening yang aktif, maka anda sudah bisa menjadi member setia di website <a href="https://66winning228.site"><strong>Taruhan Bola</strong></a> Winning228. Bukan hanya itu ketika anda menjadi member setia kami, anda juga bisa mendapatkan berbagai macam bonus menarik antara lain seperti bonus referral bagi anda yang berhasil mengajak teman-teman anda bermain bersama kami dan untuk bonus referral anda berlaku seumur hidup tanpa ada syarat apapun dan juga ada berbagai jenis bonus promo setiap minggu nya yang akan hadir dan memanjakan anda member setia kami <strong>Winning228.</strong></p>
+<!-- End WL_Footer_winning228_everisdental_net of winning228.everisdental.net domain -->
+
+<!-- Start WL_Footer_winning228_everisdental_net of all domains -->
+
+<!-- End WL_Footer_winning228_everisdental_net of all domains -->
+            </div>
+        </div>
+    </div>
+    <!-- End Body -->
+    <footer id="footer">
+        <div class="bg-dark-soft p-t-1 p-b-1">
+            <div class="container text-center">
+                <span class="m-0 text-white">Copyright © Winning228 <span id="year"></span></span>
+            </div>
+        </div>
+    </footer>
+
+    <div id="div-menu" style="margin: 0 auto; background: transparent; position: relative; display: none; position: absolute; left: 423px;">
+        <iframe id="iframe-menu" style="background: transparent; height: 1100px; width: 1049px" src="" allowtransparency="true" width="100%" height="100%" frameborder="0" scrolling="yes"></iframe>
+    </div>
+
+   <a style="width: 150px; height: 150px; position: fixed; left: 0px; top: 187px; z-index: 99;" href="https://rebrand.ly/altBANDARQ228" target="_blank">
+        <img title="" alt="" src="Images/bandarq228-banner.gif"></a>
+    <a style="width: 150px; height: 150px; position: fixed; left: 0px; top: 340px; z-index: 99;" href="https://rebrand.ly/altGarenaQQ" target="_blank">
+        <img title="" alt="" src="Images/garenaqq-banner.gif"></a>
+
+    <a style="width: 150px; height: 150px; position: fixed; right: 0; bottom: 0;"
+        href="https://rebrand.ly/GRUPWAWIN228" target="_blank">
+        <img title="" alt="" width="150px"
+            height="150px" src="Images/winning228-wa.gif"
+            style="width: 150px; height: 150px" /></a>
+
+    <script src="Images/theme/v1/js/owl.carousel.min.js"></script>
+    <script src="Images/theme/v1/js/main.js?v=0.0.9"></script>
+    <input id="ext-version" type="hidden" value="1.0">
+    <!-- This code must be installed within the body tags -->
+    <script type="text/javascript">
+        var lhnAccountN = "34870-1";
+        var lhnButtonN = 9001;
+        var lhnChatPosition = 'default';
+        var lhnInviteEnabled = 0;
+        var lhnDepartmentN = 41588;
+        var lhnWindowN = 42110;
+    </script>
+    <script src="https://www.livehelpnow.net/lhn/widgets/chatbutton/lhnchatbutton-current.min.js" type="text/javascript" id="lhnscript"></script>
+ 
+    <script src="js/vue3.3.7.global.js"></script>
+    <script>const mountEl = document.querySelector("#main-menu");</script>
+    <script src="js/header.menu.vue.js?v=1762746734915"></script>
+    <script>menu.mount("#main-menu");</script>
+</body>
+</html>

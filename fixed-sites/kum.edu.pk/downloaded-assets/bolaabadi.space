@@ -1,0 +1,462 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    
+<!-- Start Head_Tags_1_bolaabadi_soccer of bolaabadi.soccer domain -->
+<!-- Primary SEO Meta Tags -->
+<title>BOLAABADI | Situs Judi Bola, Slot Gacor & Togel Resmi Terpercaya</title>
+<meta name="description" content="BOLAABADI adalah situs judi bola resmi dan terpercaya di Indonesia. Menyediakan pasaran taruhan bola terlengkap, slot gacor RTP tinggi, dan togel Singapore & Hongkong online." />
+<meta name="keywords" content="bolaabadi, situs bola abadi, situs judi bola terpercaya, taruhan bola resmi, slot gacor hari ini, judi bola online, togel online terpercaya, agen sbobet, bola abadi" />
+<meta name="robots" content="index, follow" />
+<meta name="revisit-after" content="1 days" />
+<meta name="rating" content="general" />
+<meta name="geo.country" content="ID" />
+<meta name="geo.placename" content="Indonesia" />
+<meta name="Slurp" content="all" />
+<meta name="language" content="id" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="google-site-verification" content="ZkmKSt2F0c41lWoVHkDK52Fvq9UDGNHNwAIqQpOVAEU" />
+
+<!-- Canonical & AMP -->
+<link rel="canonical" href="https://bolaabadi.pro/" />
+<link rel="icon" type="image/x-icon" href="https://res.cloudinary.com/dkdjjrw9u/image/upload/v1745052202/FAVICON_BOLA_ABADI_leyg86.png" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="BOLAABADI | Situs Judi Bola, Slot Gacor & Togel Resmi Terpercaya" />
+<meta property="og:description" content="BOLAABADI adalah situs judi bola resmi dan terpercaya di Indonesia. Menyediakan pasaran taruhan bola terlengkap, slot gacor RTP tinggi, dan togel Singapore & Hongkong online" />
+<meta property="og:url" content="https://bolaabadi.pro/" />
+<meta property="og:image" content="https://res.cloudinary.com/dkdjjrw9u/image/upload/v1745052202/FAVICON_BOLA_ABADI_leyg86.png" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="BOLAABADI | Situs Judi Bola, Slot Gacor & Togel Resmi Terpercaya" />
+<meta name="twitter:description" content="BOLAABADI adalah situs judi bola resmi dan terpercaya di Indonesia. Menyediakan pasaran taruhan bola terlengkap, slot gacor RTP tinggi, dan togel Singapore & Hongkong online" />
+<meta name="twitter:image" content="https://res.cloudinary.com/dkdjjrw9u/image/upload/v1745052202/FAVICON_BOLA_ABADI_leyg86.png" />
+
+<!-- JSON-LD Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "BOLAABADI",
+  "url": "https://bolaabadi.pro/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://bolaabadi.pro/?s={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<!-- End Head_Tags_1_bolaabadi_soccer of bolaabadi.soccer domain -->
+
+<!-- Start Head_Tags_1_bolaabadi_soccer of all domains -->
+
+<!-- End Head_Tags_1_bolaabadi_soccer of all domains -->
+
+
+
+    <link rel="icon" href="Images/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <link rel="stylesheet" href="Images/theme/v1/css/stylesheets.mine67d.css?v=4">
+
+    <script type="text/javascript" src="js/common.js?v=20241218"></script>
+    <script type="text/javascript" src="js/header.js?v=20250106"></script>
+    <script type="text/javascript" src="js/login.js?v=20250303"></script>
+
+    <script language="javascript" type="text/javascript">	       
+        $().ready(function () {
+            $('#btnReg').click(function () {
+                popupRegister('');
+            });
+        });
+        function openLiveChat() {
+            window.open('https://www.livehelpnow.net/lhn/lcv.aspx?d=42629&ms=&zzwindow=44080&lhnid=34870&custom1=&custom2=&custom3=&pcv=&opid=0', 'LiveChat' + Date.now(), 'width=500,height=500,toolbars=no,scrollbars=no,status=no,resizable=no');
+        }
+    </script>
+    <script type="text/javascript">
+        function drawTogel(records) {
+            var strTogel = ''
+            for (var i = 0; i < records.length && i < 4; i++) {
+                strTogel += '<div class="item-13">' +
+                    '<a href="#">' +
+                    '<img src="Images/theme/v1/img/togel/togel.png" class="bg" alt="Background">' +
+                    '<div class="numbers">' +
+                    '<img src="Images/theme/v1/img/togel/' + records[i].Number[0] + '.png" class="number" style="height: 33px;">' +
+                    '<img src="Images/theme/v1/img/togel/' + records[i].Number[1] + '.png" class="number" style="height: 33px;">' +
+                    '<img src="Images/theme/v1/img/togel/' + records[i].Number[2] + '.png" class="number" style="height: 33px;">' +
+                    '<img src="Images/theme/v1/img/togel/' + records[i].Number[3] + '.png" class="number" style="height: 33px;">' +
+                    '</div>' +
+                    '<div class="location" style="text-transform: uppercase;">' + records[i].Togel + '</div>' +
+                    '</a>' +
+                    '</div>'
+            }
+            $('#divTogel').html(strTogel)
+        }
+        $().ready(function () {
+            fetchTogel(function (records) {
+                drawTogel(records)
+            })
+        })
+    </script>
+
+    <style>
+        .item-13 {
+            position: relative;
+        }
+
+            .item-13 .numbers {
+                position: absolute;
+                top: 52px;
+                left: 0;
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                z-index: 1;
+                padding: 0 20px;
+            }
+
+            .item-13 .location {
+                position: absolute;
+                top: 13px;
+                width: 100%;
+                text-align: center;
+                font-size: 20px;
+                font-weight: bold;
+                color: white;
+            }
+
+        .item-5 {
+            position: relative;
+            left: 93px;
+        }
+
+        .btn-reg {
+            position: relative;
+            left: 93px;
+        }
+        @media screen and (max-width: 768px) {
+            .item-13 .numbers {
+                padding: 0 14px !important;
+            }
+
+            .numbers {
+                top: 40px !important;
+            }
+
+            .number {
+                height: 21px !important;
+            }
+
+            .item-5 {
+                position: relative;
+                left: 0 !important;
+            }
+            .btn-reg {
+                position: relative;
+                left: 0!important;
+            }
+        }
+    </style>
+    <style type="text/css">
+        .games-in .item-1 a:hover, .games .item-1 a:hover {
+            -webkit-text-fill-color: unset;
+        }
+
+        .games-in .item-1 a, .games .item-1 a {
+            -webkit-text-fill-color: unset;
+        }
+    </style>
+
+
+    
+    <link rel="stylesheet" href="css/header.submenu.css?v=1762746734915" />
+    <style type="text/css">
+        .sub-menu .gameNav li:hover {
+            background: linear-gradient(0deg, #FBA913 30%, #FDC200 62%);
+        }
+
+        .main_width {
+            width: 1090px;
+            height: 110px;
+            background-color: #1e1e1e;
+            margin: 0
+        }
+
+        .sub-menu {
+            top: 73px;
+            padding-top: 1px;
+            padding-bottom: 23px;
+        }
+
+        .arrow-down {
+            margin-left: 4px;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-top: 8px solid var(--color-secondary);
+            margin-top: 48px;
+        }
+
+        .gameNav li a img {
+            max-width: 100% !important;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="header items m-t-1 m-b-1">
+            <div class="item-4">
+                <div class="logo">
+                    <a href="#">
+                        <img src="Images/logo.png" alt="Logo BolaAbadi">
+                    </a>
+                </div>
+            </div>
+            <div class="item-3">
+                <a href="#">
+                    <input type="button" id="btnReg" value="DAFTAR" class="btn-reg">
+                </a>
+            </div>
+            <form name="form1" method="post" action="Defaults/Default268.aspx" id="form1" class="item-5">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="b2RxP9dVPLM6qaKnvEU18MOWtlAw1ny+P3/4FxDCYMcgJS3Q6PvpoRgykt8r6Mhr2d2fI/CmW6Ett22R9LVaELOWr0U8Np5MF0eqVeXTn3LuvMl/jiTOFPe6Xc+wyq4P5xS6dyCWYhE1QIGTM4Xf7RJkN6eVNzWbdqngL1TA64eIYohsd2RDpoIoCiDe10KNWPaBHWrHUP8KOPIuOkyMt6kG6dnvk2OjJeFZc4z83QPorl92qbfLSLy0zpi0r1OfWzesIibMfh6toUZPi7XL1bVStOUmBjJFM83Xl6hhA+7+kMCt39FH0f/rY1b6niyq+Gw7qKSB4UxO4HeHNqDoiYGovT/5gmJDuR6RY0D2KcE5JtySIgXBKtEjX7ffy0qfwmMUaqJa4CbuuWckrXhhNAqdXJIZEbMC9rc2YFTJmNJxe2KMXMUf0F+XDkaHt6a/8QaXfZndlCR/tbKW9lRQTX5CgyrtJZUgOwhKnHHmNkXduBfW6zPndjlRLIyPoeBxeZoEvEo7MMLdan2ZAi6M4BlT9VUZUs9hZqhkZTK/uzOIjAW7KLPdC2vlQ65mcLISfYQBMCVo0/Br1dSPH0u+fQsJUNJxDEpgYpc01gjuehVd77otYa1fMFYkWQH0kLhhCUN6V+IYCpNK6m8uJf55I/Bke0QigF+HtOdjK1P+HavIppUT91f5ZVWLDwn0690mocdVOjgRCPdzylzzLhVfHZDzP+OeB1dAW81ueMVYR7wGhBE0ao86EwBUddfyh3ppO/F9Gg/GIATRK19Adf+tFIuWyIjCtYAGkvZjtUpc6GTh14y6wLunuWnFqIzd5XNhIwaCrnri666vDy8qWAf0h/Y6jkR6C+KbRZ+0Q/oExsLU8sDSQswV9XhmwJftfl/O12zNEKAEcmYb2hIdzAIOoov3J5cZ0y2bRHU5eSfPrYkD/wBu7LgJLG3VOc1keZn5jrQHzOydOXCBL4HZGNDk+XzrkZVI541Xv+e0ZH6bKZbAZGhXZJ7hDwSIKcnMgQAWeUUs7jGjegPO1pf6mzu+YXpadM6o61Ir0iCV4Yx69JHDodniSIk4kl7fppLdoW38WSaCHdrc8gfQhAjMDFoOu4mN7aZuhC+qPTS/0AnjWmxdXXuukBv9gWTdQpV1juSF0AEzWI1ldhW/lW6yiKddTJOVCjGg11h6nmfOQz+Xmi5ZnvP8cENzN5uKo7jU2MJRoJsJwxURcJMwnAagSMntOiFd36OgCHqyYX+r27E2rVo3ED0NR9gAor2rBe70ylCB+YLWbk2dsWuIFfsRPFdDgyDlVw/DxELjidG/efUSs7M/e56GvkKf5IkL539NAdt9s9SphpS39SPHPlMvYz9Y0UEqjlnzGVdm9f+mJGymuPkeH/cATnMd5eo/uFy040MaQKxW6Fs86ye0L0VTU0vLOPuLh3PlYi3DLQZH2Ue+raYkpqxPvMZKMomiU3y3JaXWlCtd15FZ1GbeIprB0cy9N52hykP/s5zOV7mF7wCA26xiGgsA3u3OMq5j2CofsKvIzlXk6M+p+OhQV70PrxhBF4nMkB6B5aT+bszAfm6TwhwM/e2vYg05YT0BhIFvAJPVgneRjt4wz9GLMqLs9mfVKli3zZmVcBZrEcfwGEqZcgmeglVDJRet3+UFrFmxL9YdXfPu3mbCWk+DuBa5qAHxFMrbR5i7z3DQrUVKjRVE+vGeDu2BUh4++gKRvEkYJyTqm1Nq7ox3wR3rRASme1tzCifQ3HFI84wP9S54zii+uI2l0+pyE8J0NC41/m0eahF0putwS9LX74NOCniRdWaLzCxhZ5nCodZBe4WEojv5kANeZYGay5ESbPbYAetVPeSq5sS6yGtlzRvnOS2ObLXdyvR/GX8jqTvOoDKUN1/duzdwyRrZ7qdBd4tvlckJaQCFHN3KxPFR5gy3g6mjgfYDyomqStaMpymoaLwxap12qTFzk35baW1cs+GeiLxIDnc01njprPebkGvzQA3qU9g9OF98PxFy0FcFUze3MpzpKKVjPPB90+hbgYLqGukbbhUlBMS3+8qQ0Xs90OLIKKhid5W1XCtKm2Gejed7aE3rwgtVw1VnCjdvFqpEsRqliJfs4t8SYVSR/kZ9NcHbSzUEBmCbdGiGZwsjoNuxaeIJEP53yq/jzUaKd99PILSeE52qAbSoiuw+WzffUv7ACMMmRnigrsycfeNLeMXrS1muK6W8Ghfpf46S2nU/n4vBwKWHMK61e2e4OUCoinn51vWkLuo95NA7joBmHGfTrrh9GGN06B1csyfNa7ptrljXFY78bHuBqqCNSCZcZmcANKB9baM+ff365zr146WlymadpP+AOtJG5d2Gvh3LgdjXuJLlmJokcrMSmz3KPeId9Zmfo+PvFXQNuxI1JlyUXikB8A1f95jvd9eOMpeQNrarqBSTcHMoxJFG9YwZvykjw+UhYit9antNZ/qFpVDcCV4c9PjO7evXx9L6QplYor4JIQQBa0dlo4EdFBoYmWSeo6Gb1cMiApz5eFD/qjotAhORzexxXM7qPrFkcc6y9NPRYXwny5BMID53eeuKQRnBtwhXGkCR/85nufbKkggPMbDToXTbyZYaDsVAeEmXvOqaCQkZYhcQGAjPtRaNWhOahG351LFksOUx31u2G0gJeyDDFRUn+HXhyzV8Tdih2/WpFefQTGVH2MldoUtBOSzg7bP4GMZWUyw5+mfLzNOz01FfktNWcUXXnWir6PHjLVbkJUZwxgTg56fVcupk6fpfUpuMLe975HVTwIwRyG9hmRfQw6028QpaAvpd0rqoB2O4lYDy7blePL/djPTc717NrIIRi1SNDoFoDi98oVDnPQrJbsiVn51joBx4S8EuKmy+diCkcAlPRGEf6Nb01xvwx2fHeCqPnS9dMkoxWlxZFwuAzRVOThccx1IFLcuHEst/Ba4jJftLZa17aybDqb/rTGzOuu1soYLky6QHLZ1RQGhshaYaOd3x5xvfr/3pUwZ9er0C3Lqq7P9YaVqbeTzHhqb/IviOcdYy2vCHS/alcxOX/r2pNdfK0jXIAL4g5G8Wj6Ynp0qSMl5YmWExMwdKJTee4n4hu7tIBRLQx+uyE8cE06BsMuzyftAkwSLa+8tKww9X4bxfTFBXVS6+PYcjkpixRZYeF29QGNQEdYEisr2pYGRGOsHja+a6kRmsmG3IvCunf8CAuqpjmtXyEXJfuQRVUOkHzy04Pc3VjKZBonPuPK6yDlTOVdS471ZSibpqQb1ObhGfqENEidcZodVULyQanz7Cn3iamszweehLu3vtmAWTELQnNzlkwl5W+WiFpgOy7d/oPhcVxK4QNRLKP7NpLln4+R1QkCRRwttVqt24QYaLIC13G5VkJls/PFJLcaR9L2/9ewDU7wEMKwp4pl1k88FDaMn6UESkHcPt2sOVqb2g/+Q2DLvCdfDgQlc5XpxO3pWu0lE+3YXv3roaYdGxBqgrRZVPjjtv5IsueiEzAgCvS5MOJ2FutflGm2Fn0IerfpxkrirbZV+zTmGwUQ8JavnFQQ9xMvhuA4yToi6qYkzD9zDgSOKDgpG3PPu2SvR9Je/kmHABhYrZNMhQw9rVA2qi2XSHiezLdg0gdEvJLj+GyWUqJrOaQH3RW5sN7jyT5QKkxJK3cbbDDmmnYPxSKtTQvxBYcMNn+QO3MvrTmfF6VF9yIVQCw/c7BranfpoYdaO0JPQFuSGWSSeLQOjc1vLA7JsmMnOmq2Ois7lCyKsI+65zy1KcIccpaRv4wUimBsRoBy1hgBz2uuh357OdIXBA4MlrZhLPO48UaYJdb8G2uipXXHl9Oi3FtYkmSqVo93I6LehPucAp3nUchV32r0ItvFhSlY9ZsEIHFjVlFM4rBcHXsrrADJeNPsde9IDpDevY14MpLmafj6HQ9azwafhmSbOyny2orm6C6tmClky8pN9yBRVuEU3Jse0FIXJmGlpaPHpeiOsWv4n7OdejFkYeYq7AYhCa59W/hbArytHUNhVxpnAjVcEdyIRV4DsPyQmS2AxPKoFPMhRQzMBXZDlM3IdmAREvVtIJdz2FtXimn44YPbV3no0VPr0mRIGun60PeHCOqiXw39jYi+8mmpWiWB0mo805t1tQksy0MBTzjMMlyoirWM0H5DJnC/Veg9JIcoudfazcVamS6rGQfo3FzHZwoVzVxbrdk5RKcwmKNYLnZn42GIenxgey5DMXI5c6Lna0KC6p4sjMPbvqj+nvgp1VSSaHiJE+YdAAdcKSB++jUZwX8rKj86tm/x8JGDgH9Ec+qJz4PhR959ojbQ==" />
+</div>
+
+<script type='text/javascript'>var timerId = null;var today = new Date();var time_start = today.getTime();function countdown(){var time_left =300 - parseInt(((new Date()).getTime() - time_start) / 1000);clearTimeout(timerId);if(time_left > 0){timerId = setTimeout('countdown()', 1000);}else{document.location.href = '//bolaabadi.soccer/';}}function handleError(){return true;}window.onload=countdown;window.onerror=handleError;</SCRIPT><!-- popup event May 2021 was hidden --><script>
+                        $().ready(function () {
+                            $('body').append(`<a style='z-index: 999999; width: 140px; height: 83px; position: fixed; left:0; bottom: 0px;' href='#'>
+                                <img width='120px' height='60px' src='css/Banner_ASF.png?v=2'/></a>`);
+                        });
+                    </script><script>localStorage.setItem('cdnImageHost','https://imgshare.porta-assist.com');</script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="DB93945C" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="273hlDTJDmkHcIGpTw8vaUfPpTkNvvQ/1UgfpSTDAhY+uJk7ce/kQeKmMQMDooyNKjmF7g+0iZ+KiVrD6GRHoHhXy4GXJUAF2iENK5nyQHM4MHD0vOBH+EQ2M+hLQUjy+VSUy2xfuI0q6g9lpcoKS66oltsddx3CFOCmcZ/AZexYXJhkd6fU5IX85fAM196ErhrO5qFJTsslFabj2yHrxkcChRsqM9WovioawamTL2A=" />
+</div>
+                <div class="items login-area">
+                    <div class="item-6 m-b-half">
+                     <input name="txtUsername" type="text" id="txtUsername" class="username" maxLength="12" placeholder="User Name" tabindex="1" />
+                    </div>
+                    <div class="item-6 m-b-half">
+                        <div class="input-group">
+                             <input name="txtCode" type="text" id="txtCode" style="border-radius: 5px 0 0 5px;" placeholder="Code" tabindex="3" maxlength="4" />
+                            <span class="input-group-text-r">1435</span>
+                        </div>
+                    </div>
+                    <div class="item-6 m-b-half">
+                       <input name="txtPassword" type="password" id="txtPassword" placeholder="Password" tabindex="2" />
+                    </div>
+                    <div class="item-6 m-b-half">
+                        <a href="#">
+                            <input name="btnSignIn" type="button" id="btnSignIn" tabindex="4" class="btn-login" value="LOGIN">
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+         <ul id="main-menu"
+            tag-parent-sub-menu="a"
+            data-id="main-menu"
+            data-is-guest="true"
+            class="games items"
+            style="position: relative">
+            <li class="item-1"><a href="#gamelist"><img src="Images/theme/v1/img/MenuIcon/home.png?v=2" alt="">HOME</a></li>
+            <li v-for="(key, index) in Object.keys(menus)" class="item-1">
+                <menu-item style ="" class-name="" :is-guest="isGuest" :name="menus[key][0].GameType">
+                    <image-item style ="" class-name="hover" :image-data="menus[key][0]" :cache-version="cacheVersion"></image-item>
+                    {{ getGameMenuDisplayNameByLang(menus[key][0]) }}
+                    <down-arrow type="text" :has-sub-game="menus[key][0].HasSubGame" :game-type="menus[key][0].GameType"
+                        :is-guest="isGuest">
+                    </down-arrow>
+                    <submenu class-name="" :submenu-data="menus[key]" :is-guest="isGuest" :cache-version="cacheVersion">
+                    </submenu>
+                </menu-item>
+            </li>
+             <li class="item-1"><a href="https://rebrand.ly/PKVGAMESBolaAbadi" target="_blank">
+                 <img src="Images/theme/v1/img/MenuIcon/pkvgames.png" alt="">PKV GAMES</a></li>
+             <li class="item-1" style="margin-left: 14px;"><a href="https://rebrand.ly/DemoSlotBOLAABADI" target="_blank">
+                 <img src="Images/theme/v1/img/MenuIcon/demo-slot.gif" alt="">Demo SLot</a></li>
+             <li class="item-1" style="margin-left: 13px;"><a href="https://rebrand.ly/PromoBolaAbadi" target="_blank">
+                 <img src="Images/theme/v1/img/MenuIcon/promo.png" alt="">PROMO</a></li>
+        </ul>
+        <div class="marquee-section items m-t-1 m-b-1">
+            <a href="#">
+                <img src="Images/theme/v1/img/info.png" alt="Logo BolaAbadi">
+            </a>
+            <div class="announcement-bar-v2">
+                <div class="announcement-marquee">
+                    <div id="div-marquee" style="width: 840px; height: 26px">
+                        <input id="text-marquee" type="hidden" value="Link Anti NAWALA : altbolaabadi.com | Hanya dengan 1 ID Sudah Bisa Bermain Semua Game | Bonus Cashback Mencapai 5% untuk SPORTBOOK &amp; Refferal&nbsp;Seumur&nbsp;Hidup" />
+                        <script type="text/javascript">
+                            initMarquee('#000')
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div class="item-2">
+                <a href="#" onclick="openLiveChat()" class="livechat" method="chat">
+                    <img src="Images/theme/v1/img/live-chat.gif" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="frame-banner">
+            <div class="banner-slideshow">
+                <img src="Images/theme/v1/img/banner/10.png" alt="Slide 1" class="slide active">
+                <img src="Images/theme/v1/img/banner/11.png" alt="Slide 2" class="slide">
+                <img src="Images/theme/v1/img/banner/12.png" alt="Slide 3" class="slide">
+                <img src="Images/theme/v1/img/banner/13.png" alt="Slide 4" class="slide">
+                <img src="Images/theme/v1/img/banner/14.png" alt="Slide 5" class="slide">
+                <img src="Images/theme/v1/img/banner/15.png" alt="Slide 6" class="slide">
+            </div>
+            <script>
+                let currentSlide = 0;
+                const slides = document.querySelectorAll(".banner-slideshow .slide");
+
+                slides.forEach((slide, index) => {
+                    if (index !== 0) slide.classList.remove("active"); // pastikan hanya slide 0 aktif
+                });
+
+                setInterval(() => {
+                    slides[currentSlide].classList.remove("active");
+                    currentSlide = (currentSlide + 1) % slides.length;
+                    slides[currentSlide].classList.add("active");
+                }, 5000); // Ganti setiap 5 detik (bisa kamu ubah sesuka hati)
+            </script>
+
+
+        </div>
+
+        <div class="social items m-t-2">
+            <div class="item-3">
+                <a href="https://rebrand.ly/WABolaAbadi" target="_blank">
+                    <img src="Images/theme/v1/img/social/whatsapp.png" alt="">
+                </a>
+            </div>
+            <div class="item-3">
+                <a href="https://rebrand.ly/InstagramBolaAbadi" target="_blank">
+                    <img src="Images/theme/v1/img/social/instagram.png" alt="">
+                </a>
+            </div>
+            <div class="item-3">
+                <a href="https://rebrand.ly/FBBolaAbadi" target="_blank">
+                    <img src="Images/theme/v1/img/social/facebook.png" alt="">
+                </a>
+            </div>
+            <div class="item-3">
+                <a href="https://rebrand.ly/BuktiJPBolaAbadi" target="_blank">
+                    <img width="250" height="64" src="Images/theme/v1/img/prediksi.gif?v=2" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="result items m-t-2">
+            <div class="item-12">
+                <img src="Images/theme/v1/img/result-togel.png" alt="">
+            </div>
+            <ul class="m-b-1">
+            </ul>
+        </div>
+
+        <div class="item-row" id="divTogel">
+        </div>
+        <div class="product_down">
+            <div class="box_product">
+                <a href="#" class="hvr-grow">
+                    <img src="Images/theme/v1/img/banner2/sportbook.png" alt="NUMBER-GAME" /></a>
+            </div>
+        </div>
+        <!-- Tengah -->
+        <div class="product_up">
+            <ul>
+                <li><a href="#" class="hvr-grow">
+                    <img src="Images/theme/v1/img/banner2/poker.png" alt="poker"></a></li>
+                <li><a href="#" class="hvr-grow">
+                    <img src="Images/theme/v1/img/banner2/togel.png" alt="BOLA-TANGKAS"></a></li>
+                <li><a href="#" class="hvr-grow">
+                    <img src="Images/theme/v1/img/banner2/casino.png" alt="casino"></a></li>
+            </ul>
+        </div>
+        <!-- Bawah -->
+        <div class="product_down">
+            <div class="box_product">
+                <a href="#" class="hvr-grow">
+                    <img src="Images/theme/v1/img/banner2/slot.png" alt="NUMBER-GAME" /></a>
+            </div>
+        </div>
+        <img src="Images/theme/v1/img/provider.png" alt="">
+        <div class="site-article">
+        </div>
+    </div>
+
+    <a style="width: 150px; height: 150px; position: fixed; right: 0; bottom: 0;"
+        href="https://rebrand.ly/GRUPWABOLAABADI" target="_blank">
+        <img title="" alt="" width="150px"
+            height="150px" src="Images/bolaabadi-wa.gif"
+            style="width: 150px; height: 150px" /></a>
+
+
+    <script src="../cdn.jsdelivr.net/npm/swiper%409/swiper-element-bundle.min.js"></script>
+    <script type="text/javascript">
+        var lhnAccountN = "11332-1";
+        var lhnButtonN = 9688;
+        var lhnChatPosition = 'default';
+        var lhnInviteEnabled = 0;
+        var lhnWindowN = 26362;
+        var lhnDepartmentN = 27395;
+    </script>
+    <script src="../www.livehelpnow.net/lhn/widgets/chatbutton/lhnchatbutton-current.min.js" type="text/javascript" id="lhnscript"></script>
+    <script>
+        $.ajax({
+            url: "https://209.97.168.204/api/banners",
+            data: {
+                website: "BolaAbadi.com",
+                option: ""
+            }
+        }).done(function (data, textStatus, jqXHR) {
+            if (data.meta.code === 200) {
+                var html = "";
+                jQuery.each(data.data, function (i, val) {
+                    html += '<swiper-slide><img class="border-slider" style="display:block;margin:auto;" src="https://209.97.168.204/' + val.image_path + '" alt="' + val.title + '"></swiper-slide>';
+                });
+                $('#swiper-slide').html(html);
+            } else {
+                $('.banner').empty();
+            }
+        });
+
+        $.ajax({
+            url: "https://209.97.168.204/api/banners",
+            data: {
+                website: "BolaAbadi.com",
+                type: "banner-bottom"
+            }
+        }).done(function (data, textStatus, jqXHR) {
+            if (data.meta.code === 200) {
+                var html = "";
+                jQuery.each(data.data, function (i, val) {
+                    html += '<div class="item-4"><img src="https://209.97.168.204/' + val.image_path + '" alt="' + val.title + '"></div>';
+                });
+                $('.banner-bottom').html(html);
+            } else {
+                $('.banner-bottom').empty();
+            }
+        });
+
+        $('.livechat').on('click', function (e) {
+            e.preventDefault();
+            OpenLHNChat(); return false;
+        });
+
+    </script>
+    <script src="js/vue3.3.7.global.js" type="text/javascript"></script>
+    <script type="text/javascript">const mountEl = document.querySelector("#main-menu");</script>
+    <script src="js/header.menu.vue.js?v=1762746734915" type="text/javascript"></script>
+    <script type="text/javascript">menu.mount("#main-menu");</script>
+</body>
+</html>

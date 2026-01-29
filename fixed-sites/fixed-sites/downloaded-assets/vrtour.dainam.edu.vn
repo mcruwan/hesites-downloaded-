@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<!--Thay đổi tên địa điểm ở tag này-->
+<title>ĐẠI HỌC ĐẠI NAM 360°</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="cache-control" content="no-cache">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta charset="utf-8">
+<meta property="og:locale" content="vi_VN">
+<meta property="fb:app_id" content="128990640458592">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Đại học Đại Nam">
+<meta property="og:description" content="Đại học Đại Nam 360°">
+<meta property="og:rich_attachment" content="true">
+<meta property="og:image" content="https://store360.vingg.vn/ha-noi/dai-hoc-dai-nam/data/bg.jpg">
+<meta name="description" content="Đại học Đại Nam là trường đại học ứng dụng, phát triển theo định hướng khởi nghiệp và đổi mới sáng tạo; đa ngành, đa lĩnh vực linh hoạt theo yêu cầu phát triển của đất nước và hội nhập quốc tế.">
+<meta property="og:image:width" content="606">
+<meta property="og:image:height" content="528">
+<meta property="og:url" content="https://dainam.edu.vn/vi">
+
+<link rel="icon" type="image/png" href="https://dainam.edu.vn/favicon.png">
+<style>
+@font-face {
+	font-family: Regular-font;
+	src: url("./data/font/UTM Avo.ttf")
+}
+@font-face {
+	font-family: bold-font;
+	src: url("./data/font/UTM AvoBold.ttf");
+}
+@font-face {
+	font-family: menufont3;
+	src: url("./data/font/UTM AvoItalic.ttf");
+}
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+	background-color: #000000;
+}
+
+
+
+</style>
+<audio id="myAudio"  autoplay loop>
+  <source src="./data/editsource/bgsound.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.</audio>
+<script>
+var x = document.getElementById("myAudio");
+	x.load();
+	 x.volume = 1;
+	
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+}
+
+	
+</script>
+</head>
+<body>
+<script src="./data/index.js"></script>
+
+
+
+<div id="pano" style="width:100%;height:100%;">
+  <noscript>
+  <table style="width:100%;height:100%;">
+    <tr style="vertical-align:middle;">
+      <td><div style="text-align:center;">Lỗi:<br/>
+          <br/>
+          Bật javascript lên các bạn ơi<br/>
+          <br/>
+        </div></td>
+    </tr>
+  </table>
+  </noscript>
+  <script>
+		/*thay đổi đường "tendiadiem" thành tên giống như tên thư mục gốc*/ 
+		embedpano({swf:"./data/index.swf", xml:"./data/projects/gigapixel/index.xml", target:"pano", html5:"auto", mobilescale:1.0, passQueryParameters:true});
+  </script> 
+</div>
+</body>
+</html>

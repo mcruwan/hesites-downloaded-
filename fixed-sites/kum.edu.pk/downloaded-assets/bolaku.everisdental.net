@@ -1,0 +1,460 @@
+
+<!DOCTYPE html
+                        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    
+<!-- Start Head_Tags_1_bolaku_everisdental_net of bolaku.everisdental.net domain -->
+<title>Bolaku: Situs Bandar Judi Bola Online Terpercaya</title>
+    <meta name="description" content="Bolaku adalah Situs judi bola online terpercaya serta bandar slot, togel online terpercaya dan pasaran bola terlengkap di Indonesia." />
+    <meta name="keywords" content="judi online, agen bola, bandar bola, slot online, judi bola" />
+    <link rel="canonical" href="https://44bolaku.site/" />
+<meta name="google-site-verification" content="9g39xxT0_9BQaL7a_1CzyvrIUv1xQFyayGGAtlLEp9o" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Bolaku: Situs Bandar Judi Bola Online Terpercaya" />
+    <meta property="og:description" content="Bolaku adalah Situs judi bola online terpercaya serta bandar slot, togel online terpercaya dan pasaran bola terlengkap di Indonesia." />
+    <meta property="og:url" content="https://44bolaku.site/" />
+    <meta property="og:site_name" content="Bolaku" />
+    <meta content="1 days" name="revisit-after" />
+    <meta content="general" name="rating" />
+    <meta name="language" content="ID" />
+    <meta name="geo.region" content="ID" />
+    <meta name="geo.placename" content="Indonesia" />
+    <meta name="robots" content="index, follow, NOODP" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="viewport" content="width=1024" />
+
+    <script type="application/ld+json">
+            {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "url": "https://44bolaku.site/",
+            "name": "Bolaku: Situs Bandar Judi Bola Online Terpercaya",
+            "description": "Bolaku adalah Situs judi bola online terpercaya serta bandar slot, togel online terpercaya dan pasaran bola terlengkap di Indonesia."
+            }
+    </script>
+<!-- End Head_Tags_1_bolaku_everisdental_net of bolaku.everisdental.net domain -->
+
+<!-- Start Head_Tags_1_bolaku_everisdental_net of all domains -->
+
+<!-- End Head_Tags_1_bolaku_everisdental_net of all domains -->
+
+
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126009905-1"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag() { dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'UA-126009905-1');
+            </script> 
+
+
+    <link rel="icon" type="image/png" href="Images/theme/v1/img/favicon.png" sizes="32x32" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo:Semi-Bold:italic" />
+    <link rel="stylesheet" href="Images/theme/v1/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="Images/theme/v1/css/common.css?v=5" />
+    <script type="text/javascript" src="Images/theme/v1/js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="Images/theme/v1/js/jquery.easing.1.3.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.center.js"></script>
+    <script type="text/javascript" src="Images/theme/v1/js/common.js"></script>
+
+    <link rel="stylesheet" href="css/common.css" />
+
+    <script type="text/javascript" src="js/common.js?v=20241218"></script>
+    <script type="text/javascript" src="js/header.js?v=20250106"></script>
+    <script type="text/javascript" src="js/login.js?v=20250303"></script>
+    <style>
+        .togel-item {
+            margin-left: 21px;
+            float: left;
+        }
+
+        .row-1 {
+            margin-top: 30px;
+        }
+
+        .togel-number {
+            display: flex;
+            text-align: center;
+        }
+
+        img.ball {
+            margin: 4px 4px;
+        }
+
+        .togel-country {
+            font-size: 21px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+    <script type="text/javascript">
+        function drawTogel(records) {
+            //records = [{ RNo: 1, HasilTogelId: 841, Togel: "Singapore", Date: "26/11/2015", Number: "2222" }]
+            //records = []
+            var strTogel = ''
+            records.forEach((record, index) => {
+                var pathBall = 'Images/theme/v1/img/number';
+                var pathCountry = 'Images/theme/v1/img/pool/'
+                strTogel += `<div class="togel-item row-${index > 4 ? 2 : 1}">
+                                        <div class="togel-country">
+                                            ${(record ? record.Togel.toUpperCase() : 'NODATA')}
+                                        </div>
+                                        <div class="togel-number">
+                                                <img class="ball" src="${pathBall}/${(record ? record.Number[0] : 'NODATA')}.png"/>
+                                                <img class="ball" src="${pathBall}/${(record ? record.Number[1] : 'NODATA')}.png"/>
+                                                <img class="ball" src="${pathBall}/${(record ? record.Number[2] : 'NODATA')}.png"/>
+                                                <img class="ball" src="${pathBall}/${(record ? record.Number[3] : 'NODATA')}.png"/>
+                                        </div>
+                                    </div>`
+            })
+            if (records.length === 0) strTogel = '<br /><br /><br /><h1 style="margin:0 auto; width:200px; color:#fff">NO DATA</h1>';
+
+            $('#divTogel').html(strTogel)
+        }
+        $().ready(function () {
+            $('#btnReg').click(function () {
+                popupRegister('');
+            });
+            fetchTogel(function (records) {
+                drawTogel(records)
+            })
+            $('#btnPromo').click(function () {
+                var url = 'https://rebrand.ly/PromoBolaku'
+                popUpPromo(url, 900, 900);
+            });
+        })
+    </script>
+    <script type="text/javascript">
+
+        /***********************************************
+            * Local Time script- © Dynamic Drive (http://www.dynamicdrive.com)
+            * This notice MUST stay intact for legal use
+            * Visit http://www.dynamicdrive.com/ for this script and 100s more.
+            ***********************************************/
+
+        var weekdaystxt = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+        //var monthstxt = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+        var monthstxt = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"];
+
+        function showLocalTime(container, servermode, offsetMinutes, displayversion) {
+            if (!document.getElementById || !document.getElementById(container)) return;
+            this.container = document.getElementById(container);
+            this.displayversion = displayversion;
+
+            var servertimestring = (servermode == "server-php") ? '<? print date("F d, Y H:i:s", time())?>' : (servermode == "server-ssi") ? '<!--#config timefmt="%B %d, %Y %H:%M:%S"--><!--#echo var="DATE_LOCAL" -->' : '01/29/2026 08:40:20';
+            this.localtime = this.serverdate = new Date(servertimestring);
+            this.localtime.setTime(this.serverdate.getTime() + offsetMinutes * 60 * 1000); //add user offset to server time
+            this.updateTime();
+            this.updateContainer();
+        };
+
+        showLocalTime.prototype.updateTime = function () {
+            var thisobj = this;
+            this.localtime.setSeconds(this.localtime.getSeconds() + 1);
+            setTimeout(function () { thisobj.updateTime() }, 1000); //update time every second
+        };
+
+        showLocalTime.prototype.updateContainer = function () {
+            var thisobj = this;
+            if (this.displayversion == "long")
+                this.container.innerHTML = this.localtime.toLocaleString();
+            else if (this.displayversion == "short") {
+                var hour = this.localtime.getHours();
+                var minutes = this.localtime.getMinutes();
+                var seconds = this.localtime.getSeconds();
+                var ampm = (hour >= 12) ? "PM" : "AM";
+                if (hour > 12) {
+                    hour = hour - 12;
+                }
+                var dayofweek = weekdaystxt[4]; //weekdaystxt[this.localtime.getDay()]
+                var monthofyear = monthstxt[this.localtime.getMonth()];
+                var day = this.localtime.getDate();
+                var year = this.localtime.getFullYear();
+
+                //this.container.innerHTML = formatField(hour, 1) + ":" + formatField(minutes) + ":" + formatField(seconds) + " " + ampm + " " + dayofweek + ""
+                this.container.innerHTML = monthofyear + "/" + day + "/" + year + "/" + formatField(hour) + ":" + formatField(minutes) + ":" + formatField(seconds) + " " + '(GMT+7)'// + " " + ampm 
+                //this.container.innerHTML = day + " " + monthofyear + " " + year + " - " + formatField(hour) + ":" + formatField(minutes) + ":" + formatField(seconds)
+            } else if (this.displayversion == "timeonly") {
+                var hour = this.localtime.getHours();
+                var minutes = this.localtime.getMinutes();
+                var seconds = this.localtime.getSeconds();
+                var ampm = (hour >= 12) ? "PM" : "AM";
+                this.container.innerHTML = formatField(hour, 1) + ":" + formatField(minutes) + ":" + formatField(seconds) + "" + ampm;
+                ;
+            } else if (this.displayversion == "datetimegmt") {
+                var monthofyear = monthstxt[this.localtime.getMonth()];
+                var day = this.localtime.getDate();
+                var year = this.localtime.getFullYear();
+                var hour = this.localtime.getHours();
+                /*var ampm = (hour >= 12) ? "PM" : "AM"
+                if (hour > 12) {
+                    hour = hour - 12;
+                }*/
+                var minutes = this.localtime.getMinutes();
+                var seconds = this.localtime.getSeconds();
+
+                var dayofweek = weekdaystxt[this.localtime.getDay()];
+                //this.container.innerHTML = hour + ":" + formatField(minutes) + ":" + formatField(seconds) + formatField(ampm) + "  " + monthofyear + " " + day + ", " + year + " GMT+7"
+                this.container.innerHTML = monthofyear + "/" + day + "/" + year + " " + hour + ":" + formatField(minutes) + ":" + seconds /*+ formatField(ampm)*/ + "  (GMT+8)";
+            }
+            setTimeout(function () { thisobj.updateContainer() }, 1000); //update container every second
+        };
+
+        function formatField(num, isHour) {
+            if (typeof isHour != "undefined") { //if this is the hour field
+                var hour = (num > 12) ? num - 12 : num;
+                return (hour == 0) ? 12 : hour;
+            }
+            return (num <= 9) ? "0" + num : num; //if this is minute or sec field
+        }
+    </script>
+    <style type="text/css">
+        #sectionWrapper #sectionMenu ul li {
+               padding: 0 10px;
+        }
+    </style>
+
+    
+    <link rel="stylesheet" href="css/header.submenu.css?v=1762746734915" />
+    <style type="text/css">
+        .sub-menu .gameNav li:hover {
+            text-decoration: underline
+        }
+
+        .main_width {
+            width: 981px;
+            background-color: #5363B8;
+            padding-bottom: 40px
+        }
+
+        .arrow-down {
+            margin-top: 41px;
+        }
+
+        .sub-menu {
+            top: 60px;
+            left: -21px;
+            padding-top: 7px;
+            padding-bottom: 23px
+        }
+
+        .arrow-down-submenu {
+            font-size: 13px;
+            color: #fff
+        }
+
+        .sub-menu .gameNav li {
+            margin: 10px -21px 0 0 !important;
+        }
+
+        .sub-menu a {
+            font-size: .770rem !important;
+        }
+
+        .sub-menu .gameNav li {
+            width: 139px !important;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div id="sectionWrapper">
+        <!--Header-->
+        <div id="sectionHeader">
+            <div class="container">
+                <div id="sectionLogo">
+                    <h1><a href="">
+                        <img src="Images/logo.png" alt="Bolaku" title="Bolaku" /></a>
+                    </h1>
+                </div>
+                <div class="login">
+                    <form name="form1" method="post" action="Defaults/Default73.aspx" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<SCRIPT LANGUAGE='JavaScript'>var timerId = null;var today = new Date();var time_start = today.getTime();function countdown(){var time_left =300 - parseInt(((new Date()).getTime() - time_start) / 1000);clearTimeout(timerId);if(time_left > 0){timerId = setTimeout('countdown()', 1000);}else{document.location.href = 'Default.aspx?lang=';}}function handleError(){return true;}window.onload=countdown;window.onerror=handleError;</SCRIPT><!-- popup event May 2021 was hidden --><script>
+                        $().ready(function () {
+                            $('body').append(`<a style='z-index: 999999; width: 140px; height: 83px; position: fixed; left:0; top: 0px;' href='#'>
+                                <img width='120px' height='60px' src='css/Banner_ASF.png?v=2'/></a>`);
+                        });
+                    </script><script>localStorage.setItem('cdnImageHost','https://imgshare.porta-assist.com');</script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="FE916879" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="APE6JiVePYtVx1RprHgkTLeRVzwwej7lXr9q0gZN/CdB7nuF3rIXm4ojGw8GOaWQTwQN15YKJzwJaTi8Oz33CHySQSU7CtAwtviqZqmFRhnAWtMUiQvMGgQmce81PMvAgzDyztsoLUOGQ4bxcs1T6ypxyLoTISBVm/Cu1oNvCvQYBFQDltIk0Xp+CBUC7upw99p5G88srTiYkCV8djaCndms3I1ssCfR9ClN6kdzZpcW8XcHW0NevlQ8p95JCVAhoV43WWdA5SnfMH2k3Qaf5A==" />
+</div>
+                        <input name="txtUserName" type="text" id="txtUserName" class="username" onfocus="clearText(this)" onblur="clearText(this)" value="User Name" maxLength="12" />
+                        <div id="div1">
+                            <input name="Text1" type="text" id="Text1" onfocus="changeBox()" style="margin-top: 35px; margin-left: 145px" title="Password" value="Password" />
+                        </div>
+                        <div id="div2" style="display: none">
+                            <input name="txtPassword" type="password" id="txtPassword" class="password" onblur="restoreBox()" />
+                        </div>
+                        <input name="txtCode" type="text" id="txtCode" class="code" onfocus="clearText(this)" onblur="clearText(this)" title="Code" />
+                        <img border="0" align="absmiddle" src="Public/img.aspx" width="79px"
+                            height="31px" style="margin-left: 284px; margin-top: 34px" alt="" />
+                        <input name="btnSignIn" type="button" id="btnSignIn" tabindex="4" class="btnSignIn" style="text-decoration: none; margin-right: 0px; cursor: pointer; border: 0" />
+                        <input id="btnReg" type="button" />
+                        <a href="#" id="btnPromo">
+                            <img src="Images/theme/v1/img/promo.png"
+                                class="promo" alt="" /></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="sectionMenu">
+                <style>
+                    #main-menu li a {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        text-align: center;
+                        font-family: bambino;
+                        font-size: 16px;
+                        color: #fff;
+                    }
+
+                    .menu-content {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        text-align: center;
+                    }
+
+                </style>
+                <ul id="main-menu"
+                    tag-parent-sub-menu="a"
+                    data-id="main-menu"
+                    data-is-guest="true"
+                    class="">
+                    <li><a href="#">
+                        <img src="Images/theme/v1/img/menu0.png" alt="" />HOME</a></li>
+                    <li v-for="(key, index) in Object.keys(menus)" class="">
+                        <menu-item  class-name="" :is-guest="isGuest"
+                            :name="menus[key][0].GameType">
+                                <image-item style="height: 28px;" class-name="hover" :image-data="menus[key][0]"
+                                    :cache-version="cacheVersion"></image-item>
+                               {{ getGameMenuDisplayNameByLang(menus[key][0]) }}
+                                <down-arrow type="text" :has-sub-game="menus[key][0].HasSubGame" :game-type="menus[key][0].GameType"
+                                    :is-guest="isGuest">
+                                </down-arrow>
+                                <submenu class-name="" :submenu-data="menus[key]" :is-guest="isGuest" :cache-version="cacheVersion">
+                                </submenu>
+                        </menu-item>
+                    </li>
+                    <li><a href="https://rebrand.ly/LinkDEMOSLOTBLK" target="_blank">
+                        <img src="Images/theme/v1/img/demo-slot.gif"
+                            alt="" style="width: 29px; height: 28px" />DEMO SLOT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container clearfix" style="margin-top: 5px;">
+            <div class="contact">
+                <a onclick="OpenLHNChat()" href="#">
+                    <img src="Images/theme/v1/img/livechat.gif"
+                        alt="" style="margin: 5px 0 13px 0" /></a>
+                <a href="#">
+                    <img src="Images/theme/v1/img/line.png" alt="" /></a>
+                <a href="skype:live:cs.bolaku?chat">
+                    <img src="Images/theme/v1/img/skype.png"
+                        alt="" /></a>
+                <a href="https://rebrand.ly/WABolaku" target="_blank">
+                    <img src="Images/theme/v1/img/whatapp.png?v=12052025" alt="" /></a>
+            </div>
+            <div id="slider" style="position: relative;">
+                <iframe id="slider-frame" scrolling="no"
+                    src="https://lalajo.org/bolaku/slider/index.html" frameborder="0"
+                    seamless="seamless" style="width: 100%; height: 100%;"></iframe>
+            </div>
+        </div>
+        <div class="container" style="margin: 5px 0">
+            <div id="sectionInfo">
+                <div id="jam" class="datetime">
+                    <script type="text/javascript">
+                        new showLocalTime("jam", "server-asp", 0, "short")
+                    </script>
+                </div>
+                <div class="info">
+                    <div id="div-marquee">
+                        <input id="text-marquee" type="hidden" value="Link Anti NAWALA : www.altbolaku.cc  | Bandar Bola Terbaik Dan Terpercaya Di Indonesia Menyediakan Permainan SportBook - Casino - SLOT - Numbergame -  Togel -&nbsp;Poker&nbsp;&amp;&nbsp;Tangkas" />
+                        <script type="text/javascript">
+                            initMarquee('#000', 'Arial')
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="divTogel"
+            style="width: 1024px; height: 169px; background: url(Images/theme/v1/img/togel-background.png?v=2) no-repeat; margin: 10px 0;">
+            <div></div>
+        </div>
+        <div class="container" style="width: 982px; height: 170px">
+            <img src="Images/theme/v1/img/img1.jpg?v=3" style="float: left" alt="" />
+            <div style="float: left; width: 322px; margin: 0 4px;">
+                <a href="https://bdq228.com/" target="_blank">
+                    <img
+                        src="Images/theme/v1/img/bandarq228-banner.png" /></a>
+                <a href="https://altgarenaqq.com/" target="_blank">
+                    <img
+                        src="Images/theme/v1/img/garenaqq-banner.png" /></a>
+            </div>
+            <img src="Images/theme/v1/img/img3.jpg?v=2" style="float: left; margin-left: 8px; margin-top: -1px"
+                alt="" />
+        </div>
+        <div class="container" style="text-align: center">
+            <img src="Images/theme/v1/img/footer.png?v=4" alt="" />
+        </div>
+        
+<!-- Start WL_Footer_bolaku_everisdental_net of bolaku.everisdental.net domain -->
+<div style="width: 978px; margin: 0 auto; text-align: center; color: #5363b8; border: solid 1px white; margin-bottom: 18px;"><h1 style="text-align: center;"><span style="font-size: 18pt; color: #5363b8;">Bolaku Situs Judi Agen Bola Online Terpercaya</span></h1><p> <strong><a href="https://44bolaku.site/">Bolaku</a></strong> merupakan situs judi bola terpercaya di indonesia yang memberikan layanan pasaran bola terlengkap dengan nilai value paling terjamin resmi asia. Situs bolaku bukan hanya sedekar memberikan pasaran bola online, namun juga menyajikan berbagai macam jenis permainan seperti judi slot online, Togel, Tembak Ikan, Poker QQ dan masih banyak lagi yang disertai keuntungan besar. Dengan pilihan yang begitu banyak, para bettor dapat mudah memilih permainan hoki sendiri yang peluang kemenangan berbeda-beda. Bolaku berinovasi menyediakan macam-macam permainan dalam 1 situs judi online agar bettor bisa memainkan games secara instan dengan minimal pasangan yang bervarian.</p><p>Situs yang mempunyai waktu jeda dalam update seluruh fitur setiap minggu dimana membuat website Bolaku bisa dimainkan secara terbaru pengakses atau tampilan mobile friendly. Tentu yang dimaksud tidak lain bettor bisa memainkan semua judi online melalui platform apapun dari Smartphone atau PC yang terhubung dengan internet. Hanya cukup mendaftarkan 1 akun di <strong>agen bola</strong> terpercaya ini, kalian sudah bisa memainkan games yang disukai tanpa bertele-tele atau mengonta-ganti akun setiap masing-masing judi online.</p><h2 style="text-align: center;"><span style="font-size: 16pt; color: #5363b8;">Situs Bandar Bola Online Transaksi Bank Lokal Asia</span></h2><p>Bolaku menjadi salah satu provider bandar agen taruhan judi bola online24jam terpercaya 2021 karena mempunyai prinsip besar dalam sistem pelayanan yang profesional dan cekatan membantu seluruh member dalam masalah apapun baik akses ke website atau lainnya oleh customer service. Adanya teknologi canggih bettor sudah bisa berkomunikasi lewat live support yang telah disediakan website bolaku.</p><p>Dengan transaksi bank lokal Asia tepatnya Indonesia secara tidak langsung mempermudah bettor dapat melakukan transaksi tanpa harus berpergian jauh ke mesin transkasi. Dimana metode deposit bandar bola terpercaya mulai lewat dari aplikasi ataupun dana lainnya, Bolaku menyertai pembayaran E-money dan bank lokal Indonesia seperti BCA, BRI, BNI, MANDIRI, CIMB NIAGA, DANAMON, MANDIRI dan adapun DANA, OVO, GOPAY atau LINKAJA. Sistem deposit yang diberikan website BOLAKU dapat membuat kenyamanan bagi seluruh member judi bola dan hanya memerlukan waktu selama 1-2 menit saja.</p><h3 style="text-align: center;"><span style="font-size: 14pt; color: #5363b8;">Agen Judi Bola Bonus Cashback & Referral Terbesar</span></h3><p>Situs judi bola terbesar dengan kumpulan provider paling resmi tentu memberikan segenap apresiasi besar terhadap seluruh member. BOLAKU memberikan banyak bonus khusus judi bola setiap 1 minggu sekali dengan masing-masing ketentuan bonus mulai dari Bonus Cashback Kekalahan 5% & Referral Seumur Hidup 1%. Tentu bandar judi bola resmi asia selalu mengutamakan hal ini karena situs web BOLAKU tahu betul jika bonus ini dapat membantu memutar kembali hasil peruntungan bermain taruhan <strong><a href="https://id.wikipedia.org/wiki/Situs_web">situs web</a></strong> online lagi.</p><p>Namun BOLAKU terus mengupdate segala event yang akan diadakan setiap waktu nya agar dapat memastikan kenyamanan penggemar bola agar nyaman bermain semua <strong><a href="https://44bolaku.site/">judi online</a></strong> seperti Win Streak, Free Spin Slot, dan masih banyak lainnya. Agen bandar bola juga telah mempersiapkan segala jenis pengaksesan dengan memberikan alternatif link paling aman dan lengkap upaya tidak menghambat bettor mendapatkan sejumlah keuntungan uang asli. Jadi apa yang harus ditunggu lagi dan gabung sekarang juga.</p></div>
+<!-- End WL_Footer_bolaku_everisdental_net of bolaku.everisdental.net domain -->
+
+<!-- Start WL_Footer_bolaku_everisdental_net of all domains -->
+
+<!-- End WL_Footer_bolaku_everisdental_net of all domains -->
+    </div>
+
+   
+
+    <a style="width: 150px; height: 150px; position: fixed; right: 0; bottom: 0;"
+        href="https://rebrand.ly/GRUPWABLK" target="_blank">
+        <img title="" alt="" width="150px"
+            height="150px" src="Images/bolaku-wa.gif"
+            style="width: 150px; height: 150px" /></a>
+
+    <div style="position: fixed; right: 0px; bottom: 0; display: none">
+        <!-- This code must be installed within the body tags -->
+        <script type="text/javascript">
+            var lhnAccountN = "34870-1";
+            var lhnButtonN = 8982;
+            var lhnChatPosition = 'default';
+            var lhnInviteEnabled = 0;
+            var lhnWindowN = 41392;
+            var lhnDepartmentN = 41237;
+        </script>
+        <a href="http://www.livehelpnow.net/help-desk-software" target="_blank"
+            style="font-size: 10px;" id="lhnHelp">help desk software</a>
+        <script src="//www.livehelpnow.net/lhn/widgets/chatbutton/lhnchatbutton-current.min.js"
+            type="text/javascript" id="lhnscript"></script>
+    </div>
+
+    <script src="js/vue3.3.7.global.js"></script>
+    <script>const mountEl = document.querySelector("#main-menu");</script>
+    <script src="js/header.menu.vue.js?v=1762746734915"></script>
+    <script>menu.mount("#main-menu");</script>
+</body>
+</html>

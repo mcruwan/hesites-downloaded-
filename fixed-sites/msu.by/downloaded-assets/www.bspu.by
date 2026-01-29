@@ -1,0 +1,2566 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="ru-RU">
+    <meta charset="UTF-8">
+    <meta name="geo.placename" content="Беларусь" />
+    <meta name="geo.position" content="53.7098070;27.9533890" />
+    <meta name="geo.region" content="BY-" />
+    <meta name="ICBM" content="53.7098070, 27.9533890" />
+    <meta name="AUTHOR" content="bspu.by">
+    <meta name="revisit-after" content="1 days">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="Description" content="Официальный сайт Белорусского государственного педагогического университета имени Максима Танка - ведущего учреждения высшего педагогического образования" />
+<meta name="Keywords" content="вуз, университет, высшее образование в Беларуси, цт, централизованное тестирование, абитуриент, студент, наука, аспирантура, магистратура, педагогический, БГПУ" />
+<title>БГПУ им. М. Танка</title>
+	<meta name='yandex-verification' content='68c9afc4a61be9d5' />
+	<meta name="yandex-verification" content="edbfc50d1d3013a0" />
+    <meta name="google-site-verification" content="IGBGEVNUJSbqmnTWlxWsiw7q3-pgaOAgmf8JZvD-AUc" />
+    <script type="text/javascript" src="https://bspu.by/eye/special.js"></script>
+    <style>
+		/*div - контейнер для новости*/
+		.rss{font-size:10px;  padding-bottom: 5px;}
+		
+		/*div - контейнер для всей ленты*/
+		.rss_container{padding:0px; background: #fff;}
+		
+		.rss h3, .h3 {
+    font-size: 10px;
+}
+.rss {
+	margin-bottom: -20px!important;
+	margin-left: -10px !important;
+}
+		
+		/*div - контейнер для медиа-файлов*/
+		.media{background-color:#f0f0f0; background-image:url(https://www.rss-script.ru/img/skrepka.gif); background-repeat:no-repeat; padding-top: 5px;padding-bottom: 5px;padding-left: 0px}
+		
+		/*div - ссылка на медиа-файл*/
+		.media a{color:#000000;font-size:0.7em}
+		
+		/*div - изображение медиа-файл*/
+		.media a img{height:16px; border:0px; vertical-align: middle; text-decoration: none; margin:3px;}
+		
+		/*div - контейнер даты новости и заголовка rss-канала*/
+		.rssdate{font-size:0.7em; color:#c0c0c0; margin:7px; margin-top:-10px; }
+		
+		/*div - ссылка даты новости и заголовка rss-канала*/
+		.rssdate a{color:#000000;}
+		
+		</style>
+		
+		<?php
+$location = $_GET["location"];
+    
+    if($location=="facebook")
+        header("Location: https://www.facebook.com/bgputanka");
+    elseif($location=="youtube")
+        header("Location: https://www.youtube.com/bspuby");
+    elseif ($location=="vk")
+        header("Location: https://vk.com/bspuby");
+    elseif($location=="instagram")
+        header("Location: https://www.instagram.com/bspuby/");
+    elseif($location=="telegram")
+        header("Location: https://t.me/bspu_official");
+    elseif($location=="ok")
+        header("Location: https://ok.ru/group/52683687788767");
+    elseif($location=="president")
+        header("Location: https://president.gov.by/ru");
+    elseif($location=="edu")
+        header("Location: https://edu.gov.by/");
+    elseif($location=="adm_mo")
+        header("Location: https://mosk.minsk.gov.by/");
+    elseif ($location=="brsm")
+        header("Location: https://brsm.by/about/info/");
+    elseif ($location=="pravo")
+        header("Location: https://www.pravo.by/");
+    elseif ($location=="patriot")
+        header("Location: https://patriot.rcek.by/");
+    elseif ($location=="tempus")
+        header("Location: https://euapu.ru/");
+    elseif ($location=="abiturient")
+        header("Location: https://www.abiturient.by/");
+    elseif ($location=="amia")
+        header("Location: https://www.amia.by/");
+    elseif ($location=="belarus_by")
+        header("Location: https://www.belarus.by/ru");
+    elseif ($location=="sportbass")
+        header("Location: http://www.sportbass.by/");
+    elseif ($location=="unifi")
+        header("Location: https://www.unifi.it/");
+    elseif ($location=="leu")
+        header("Location: https://leu.lt/lt/pradzia.html");
+    elseif ($location=="vdu")
+        header("Location: https://www.vdu.lt/ru/");
+    elseif ($location=="fontys")
+        header("Location: https://fontys.edu/");
+    elseif ($location=="nord")
+        header("Location: https://www.nord.no/en/Pages/default.aspx");
+    elseif ($location=="rovd")
+        header("Location: https://vk.com/idn_okt_rovd");
+    elseif ($location=="nspu")
+        header("Location: https://nspu.ru/");
+    elseif ($location=="molodezh")
+        header("Location: https://молодежь.бел/");
+    elseif ($location=="stolitsa")
+        header("Location: https://edu.gov.by/vitebsk-molodyezhnaya-stolitsa-2022/");
+    elseif ($location=="protiv_nark")
+        header("Location: http://xn--d1acdremb9i.xn--90ais/informatsiya-po-vazhnym-voprosam/uchashcheysya-i-studencheskoy-molodyezhi/molodyezh-protiv-narkotikov/");
+    elseif ($location=="mintrud")
+        header("https://www.mintrud.gov.by/ru/trud-molodezh-ru");
+    elseif ($location=="pac")
+        header("Location: https://www.pac.by/ru/");
+        
+    else
+        header("Location: https://bspu.by");
+
+    endif; ?>
+
+    <!-- VK.COM -->
+   <!--<script type="text/javascript" src="//vk.com/js/api/openapi.js?116"></script>
+    <script type="text/javascript">
+        VK.init({apiId: 4994169, onlyWidgets: true});
+    </script>-->
+</head>
+<body>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter26224965 = new Ya.Metrika({id:26224965,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    ut:"noindex"});
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/26224965?ut=noindex" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter28061124 = new Ya.Metrika({id:28061124,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/28061124" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<!-- Google Analytics counter -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-59464111-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+<!-- Google Analytics counter -->
+<!-- Akavita counter start-->
+<script type="text/javascript">var AC_ID=64721;var AC_TR=false;
+    (function(){var l='//adlik.akavita.com/acode.js'; var
+            t='text/javascript';
+        try
+        {var h=document.getElementsByTagName('head')[0]; var s=document.createElement('script'); s.src=l;s.type=t;h.appendChild(s);}
+        catch(e){
+            document.write(unescape('%3Cscript src="'l'"
+            type="'t'"%3E%3C/script%3E'));}})();
+</script><span id="AC_Image"></span>
+<noscript><a target='_blank' href='https://akavita.com/ru/'>
+        <img src='//adlik.akavita.com/bin/lik?id=64721&it=1'
+             border='0' height='1' width='1' alt='Akavita'/>
+    </a></noscript>
+<!-- Akavita counter end -->
+<!-- begin of Top100 code -->
+<!-- end of Top100 code -->
+
+
+<div class="main-container">
+
+    <!--***********************MENU-TOP***************************-->
+
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="menu-top">
+                <div class="row pull-right">
+                    <div class="col-xs-12 col-sm-12 col-lg-12">
+                        <div class="navbar-header" id="collapse-top">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-top">
+                                <span class="sr-only">Посетителям</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+
+                        <div id="menu-top" class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav" id="yw0">
+<li class="active first"><a class="active first dropdown-toggle" data-toggle="dropdown">Абитуриенту<span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li class="first"><a class="first" href="/lichnyi-kabinet-abiturienta">Личный кабинет абитуриента</a></li>
+<li><a href="/abiturientu">Приемная кампания</a></li>
+<li><a href="/upravleniya-i-podrazdeleniya/otdel-mezhdunarodnogo-sotrudnichestva/inostrannym-abiturientam">Иностранным абитуриентам</a></li>
+<li><a href="/news/universitet/podgotovitelnye-kursy">Подготовительное отделение</a></li>
+<li><a href="/abiturientu/centralizovannoe-testirovanie">Централизованное тестирование</a></li>
+<li class="last"><a class="last" href="/pravila-priema-magistratura">Поступление в магистратуру</a></li>
+</ul>
+</li>
+<li><a class=" dropdown-toggle" data-toggle="dropdown" href="/oprosy">Обучающимся<span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li class="first"><a class="first" href="/studentu">Студенту</a></li>
+<li><a href="/obrazovanie/magistratura">Магистранту</a></li>
+<li><a href="/aspirantu">Аспиранту</a></li>
+<li><a href="/abiturientu/stoimost-obucheniya">Платное обучение</a></li>
+<li class="last"><a class="last" href="/admin-panel/vendor/kcfinder/upload/files/Правила%20внутреннего%20распорядка%20для%20обучающихся%20с%20изменениями%202022.pdf">Правила внутреннего распорядка для студентов</a></li>
+</ul>
+</li>
+<li><a class=" dropdown-toggle" data-toggle="dropdown" href="#">For international students <span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li class="first last"><a class="first last" href="https://international.bspu.by/">Personal account</a></li>
+</ul>
+</li>
+<li class="active"><a class="active dropdown-toggle" data-toggle="dropdown">Выпускникам<span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li class="first"><a class="first" href="https://ipkip.bspu.by/">Повышение квалификации</a></li>
+<li class="last"><a class="last" href="https://kursy.bspu.by/">Обучающие курсы</a></li>
+</ul>
+</li>
+<li><a class=" dropdown-toggle" data-toggle="dropdown" href="/platnye-uslugi">Услуги<span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li class="first"><a class="first" href="/platnye-uslugi">Платные услуги</a></li>
+<li><a href="/upravleniya-i-podrazdeleniya/torgovyi-kompleks">Торговый комплекс</a></li>
+<li><a href="/admin-panel/vendor/kcfinder/upload/files/Platnye%20Uslugi/2025/1.Preyskurant_gostinitsi_s_15.04.25..PDF">Гостиница БГПУ</a></li>
+<li><a href="/admin-panel/vendor/kcfinder/upload/files/Platnye%20Uslugi/2024/trans.PDF">Транспорт БГПУ</a></li>
+<li><a href="/admin-panel/vendor/kcfinder/upload/files/Platnye%20Uslugi/2025/6.Preyskurant_pl.usl.bibl.s_30.04.25..PDF">Услуги библиотеки</a></li>
+<li><a href="/admin-panel/vendor/kcfinder/upload/files/Platnye%20Uslugi/2025/Preyskurant_pl.usl._s_05.05.25.PDF">Услуги ЦРИТ</a></li>
+<li><a href="/sistema-antiplagiatvuz">Антиплагиат</a></li>
+<li><a href="/admin-panel/vendor/kcfinder/upload/files/Platnye%20Uslugi/2025/7.Preysk.pl.usl.v_ramkah_proekta_Nauchnaya_lavka.PDF">Белорусская научная лавка</a></li>
+<li class="last"><a class="last" href="https://kursy.bspu.by/">Обучающие курсы</a></li>
+</ul>
+</li>
+<li><a href="https://ttable.bspu.by/">Электронное расписание</a></li>
+<li><a href="/sistema-antiplagiatvuz">Антиплагиат</a></li>
+<li class="active last"><a class="active last dropdown-toggle" data-toggle="dropdown">Сотруднику<span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li class="first"><a class="first" href="/sotrudniku">Сотруднику</a></li>
+<li><a href="/admin-panel/vendor/kcfinder/upload/files/dokumenty/2025/pravila_vnutr.pdf">Правила внутреннего трудового распорядка</a></li>
+<li><a href="https://lkp.bspu.by/">Журнал учета педагогической нагрузки</a></li>
+<li><a href="/admin-panel/vendor/kcfinder/upload/files/news/2022/10.2022/pravila_ped_rabotnikov.pdf">Правила педагогических работников</a></li>
+<li><a href="/admin-panel/vendor/kcfinder/upload/files/news/2022/04.2022/propusk04.04.22.pdf"> Инструкция об организации пропускного режима в БГПУ</a></li>
+<li><a href="/sotrudniku/nauchnaya-karera">Научная карьера</a></li>
+<li><a href="/sotrudniku/podderzhka-nauchnyh-proektov-issledovanii">Поддержка научных проектов, исследований</a></li>
+<li><a href="/sotrudniku/socialnaya-podderzhka">Социальная поддержка работников</a></li>
+<li><a href="/sotrudniku/profsoyuz">Профсоюз</a></li>
+<li><a href="/sotrudniku/roo-belaya-rus">ПО БГПУ РОО &quot;БЕЛАЯ РУСЬ&quot;</a></li>
+<li><a href="/pervichnaya-organizaciya--uchrezhdeniya-obrazovaniya-belorusskii-gosudarstvennyi-pedagogicheskii-universitet-imeni-maksima-tanka--obshchestvennogo-obedineniya-belorusskii-soyuz-zhenshchin">ПО БГПУ ОО «Белорусский союз женщин»</a></li>
+<li><a href="/shtab-grazhdanskoi-oborony">Штаб гражданской обороны</a></li>
+<li class="last"><a class="last" href="https://bspu.by/blog/admin-blog/src/#/login">Личный кабинет преподавателя</a></li>
+</ul>
+</li>
+</ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--***********************MENU-TOP***************************-->
+<!--<a href="http://newbspu.bspu.by/" class="sticky-button">
+  <span class="bg-color"></span>
+  <span class="bg-shadow"></span>
+  <span class="text"><span class="inside">Новая версия сайта</span></span>
+</a>-->
+
+    <div id="search_header">
+    <div class="portlet" id="yw1">
+<div class="portlet-decoration">
+<div class="portlet-title"></div>
+</div>
+<div class="portlet-content">
+<form id="search_form" action="/search" method="get"><input id="search_field" placeholder="Поиск по сайту..." type="text" value="" name="q" /><input id="search_button" type="submit" name="yt0" value="поиск" /><div class="search-category-wrap"><div class="search-category"><input id="cat1" value="news" name="cat" type="radio" /><span class="search_cat_label"> Новости </span><input id="cat2" value="events" name="cat" type="radio" /><span class="search_cat_label"> События </span><input id="cat3" value="rest" name="cat" checked="checked" type="radio" /><span class="search_cat_label"> Общее </span><div style="clear:both"></div></div></div></form></div>
+</div>
+</div>
+    <div id="header"><!-- header start -->
+        <div id="top-header"><!-- top header start -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2 visible-lg visible-md" id="logo">
+                        <div class="border"></div>
+                        <div class="borders">
+                            <a href="/">
+                                <p><img alt="" src="data:image/png;base64,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" /><img alt="" src="/admin-panel/vendor/kcfinder/upload/images/logo/BGPU-150.png" style="height: 107px; width: 78px;" /></p>
+
+<p>&nbsp;</p>
+
+                            </a>
+                        </div>
+                        <div class="border"></div>
+                    </div>
+                    <div class="col-lg-1 visible-lg" id="foundation">
+                        <div  class="foundation">
+                            <span class="foundation-year">1914</span>
+                            <span class="foundation-text">год основания</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xs-10 col-sm-10 col-md-10">
+                        <div class="border visible-lg"></div>
+                        <div class="borders-name">
+                                                            <h1 id="uni-name">Белорусский государственный педагогический университет имени Максима Танка</h1>
+                                                    </div>
+                    </div>
+                    <div class="col-lg-3 col-xs-2 col-md-2 col-sm-2" id="lang">
+                        <div class="search-button dropdown">
+                            <a href="#" class="glyphicon glyphicon-search"></a>
+                        </div>
+                        <div class="languages hidden-xs hidden-sm">
+                            <a href="https://bspu.by">ru</a>|<a href="https://by.bspu.by">by</a>|<a href="https://en.bspu.by">en</a>|<a href="https://cn.bspu.by">cn</a>|<a href="https://tm.bspu.by">tm</a></a>
+                        </div>
+                        <div class="languages visible-lg visible-md" style="width: 110px;">
+                                                    </div>
+                    </div>
+                </div>
+                <div id="top-menu" class="visible-xs">
+                   <!-- <a href=""><span class="glyphicon glyphicon-book"></span>Информационная безопасность</a> -->
+                    <a href="https://bspu.by/admin-panel/vendor/kcfinder/upload/files/crit/7Wi-Fi.pdf">
+                        <img class="rss-icon" src="/images/social/social-38-rss.png" alt="Новости БГПУ">WI-FI</a>
+                </div>
+                <div id="top-menu" class="hidden-xs">
+                    <!--<a href="https://bspu.by/admin-panel/vendor/kcfinder/upload/files/dokumenty/2024/wifi.pdf"><span class="glyphicon glyphicon-book"></span>WI-FI</a>-->
+                    <a href="https://bspu.by/admin-panel/vendor/kcfinder/upload/files/dokumenty/2024/wifi.pdf">
+                        <img class="rss-icon" src="/images/social/social-38-rss.png" alt="Новости БГПУ">WI-FI</a>
+                    <!--<a href="https://feedfry.com/rss/11e8cd4fe77eb59cbddcbbc42949b2b3">
+                        <img class="rss-icon" src="/images/social/social-38-rss.png" alt="Новости БГПУ">RSS</a>-->
+                    <a href="https://elib.bspu.by"><span class="glyphicon glyphicon-book"></span>Репозиторий</a>
+                    <a href="https://bspu.by/mail"><span class="glyphicon glyphicon-envelope"></span>Почта</a>
+                    <a href="/contacts">
+                        <span class="glyphicon glyphicon-phone-alt"></span>
+                        Электронные обращения
+                    </a>
+                    <a href="https://bspu.by/odno-okno"><span class="glyphicon glyphicon-briefcase"></span>Одно Окно</a>
+                    <a href="/kontakty"><span class="glyphicon glyphicon-envelope"></span>Контакты</a>
+                </div>
+            </div>
+        </div> <!-- end top-header -->
+        <div id="mainmenu"> <!-- main menu starts -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-9 col-lg-6">
+                        <div class="navbar-header" id="collapse-left">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-left">
+                                <span class="sr-only">Университет</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div id="menu-left" class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav" id="yw2">
+<li class="first"><a class="first dropdown-toggle" data-toggle="dropdown" href="/universitet">Университет<span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li class="first"><a class="first" href="/universitet">Университет</a></li>
+<li><a href="/universitet/rukovodstvo-bgpu">Руководство БГПУ</a></li>
+<li><a href="/razreshitelnye-dokumenty">Разрешительные документы</a></li>
+<li><a href="/universitet/fakultety-i-kafedry">Факультеты, институты</a></li>
+<li><a href="/struktura">Управления и подразделения</a></li>
+<li><a href="/gimn-bgpu">Гимн БГПУ</a></li>
+<li><a href="/universitet/missiya-bgpu2">Миссия БГПУ</a></li>
+<li><a href="/universitet/istoriya-bgpu">История БГПУ</a></li>
+<li><a href="/admin-panel/vendor/kcfinder/upload/files/ustav/ustav.pdf">Устав БГПУ</a></li>
+<li><a href="/admin-panel/vendor/kcfinder/upload/files/dokumenty/2025/ezhegodnik-2023-2024.pdf">Годовой отчет</a></li>
+<li><a href="/universitet/edinyi-den-informirovaniyast">Единый день информирования</a></li>
+<li><a href="https://nastaunik.bspu.by">Газета «НАСТАЎНІК»</a></li>
+<li><a href="/universitet/bgpu-v-mezhdunarodnyh-reitingah">БГПУ в международных рейтингах</a></li>
+<li><a href="/admin-panel/vendor/kcfinder/upload/files/dokumenty/2025/Politika_v_otnoshenii_obrabotki_personalnih_dannih.pdf">Политика БГПУ в отношении обработки  персональных данных</a></li>
+<li class="last"><a class="last" href="/protivodeistvie-korrupcii">Противодействие коррупции</a></li>
+</ul>
+</li>
+<li><a class=" dropdown-toggle" data-toggle="dropdown" href="/obrazovanie">Образование<span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li class="first"><a class="first" href="/obrazovanie">Образование</a></li>
+<li><a href="/dopolnitelnoe-obrazovanie">Дополнительное образование</a></li>
+<li><a href="/obrazovanie/magistratura">Магистратура</a></li>
+<li><a href="/obrazovanie/aspirantura---doktorantura">Аспирантура / Докторантура</a></li>
+<li><a href="/obrazovanie/kachestvo-obrazovaniya">Качество образования</a></li>
+<li><a href="/upravleniya-i-podrazdeleniya/otdel-mezhdunarodnogo-sotrudnichestva/inostrannym-abiturientam">Иностранному абитуриенту</a></li>
+<li><a href="/obrazovanie/vysshee-obrazovanie">Высшее образование</a></li>
+<li><a href="/moodle/">Дистанционное обучение</a></li>
+<li class="last"><a class="last" href="/obrazovanie/douniversitetskaya-podgotovka">Довузовская подготовка</a></li>
+</ul>
+</li>
+<li class="last"><a class="last dropdown-toggle" data-toggle="dropdown" href="/nauka">Наука<span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li class="first"><a class="first" href="/nauka">Наука</a></li>
+<li><a href="/nauka/studencheskaya-nauka">Студенческая наука</a></li>
+<li><a href="/nauka/sovet-molodyh-uchenyh">Совет молодых ученых</a></li>
+<li><a href="/nauka/nauchno-issledovatelskii-sektor">Научно-исследовательский сектор</a></li>
+<li><a href="/nauka/nauchno-issledovatelskii-sektor/nauchno-tehnicheskii-sovet">Научно-технический совет</a></li>
+<li><a href="/nauka/sovety-po-zashchite-dissertacii">Диссертационные советы</a></li>
+<li><a href="/nauka/nauchno-pedagogicheskie-shkoly-bgpu">Научно-педагогические школы БГПУ</a></li>
+<li><a href="https://crpo.bspu.by/umo_po/umo-main/">УМО по педагогическому образованию</a></li>
+<li><a href="/zhurnal-vesti-bdpu">Журнал &quot;Весцi БДПУ&quot; </a></li>
+<li><a href="/nauka/eksperimentalnaya-i-innovacionnaya-deyatelnost">Экспериментальная и инновационная деятельность</a></li>
+<li><a href="/nauka/nauchno-issledovatelskii-sektor/nauchnye-proekty-realizuemye-sotrudnikami-bgpu">Научные проекты, реализуемые сотрудниками БГПУ</a></li>
+<li class="last"><a class="last" href="/nauka/dekada-studencheskoi-nauki-2025">Декада студенческой науки в БГПУ</a></li>
+</ul>
+</li>
+</ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-3 col-lg-6">
+                        <div class="navbar-header" id="collapse-right">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-right">
+                                <span class="sr-only">Посетителям</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div id="menu-right" class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav" id="yw3">
+<li class="first"><a class="first dropdown-toggle" data-toggle="dropdown" href="/">Международное сотрудничество<span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li class="first"><a class="first" href="/universitet/bgpu-v-mezhdunarodnyh-reitingah">БГПУ в рейтингах</a></li>
+<li><a href="/upravleniya-i-podrazdeleniya/otdel-mezhdunarodnogo-sotrudnichestva/nashi-partnery">Наши партнеры</a></li>
+<li><a href="/upravleniya-i-podrazdeleniya/otdel-mezhdunarodnogo-sotrudnichestva/zhizn-inostrannogo-studenta">Жизнь иностранного студента</a></li>
+<li><a href="/upravleniya-i-podrazdeleniya/otdel-mezhdunarodnogo-sotrudnichestva/inostrannym-grazhdanam">Иностранным гражданам</a></li>
+<li><a href="/upravleniya-i-podrazdeleniya/otdel-mezhdunarodnogo-sotrudnichestva/inostrannym-abiturientam">Иностранным абитуриентам</a></li>
+<li><a href="/mezhdunarodnye-centry-bgpu">Международные центры БГПУ</a></li>
+<li><a href="https://brrcenter.bspu.by/">Белорусско-российский ресурсный центр</a></li>
+<li><a href="/sotrudniku/normativno-pravovoe-obespechenie-spnk">Нормативно-правовое обеспечение</a></li>
+<li><a href="/poryadok-oformleniya-dokumentov">Порядок оформления документов</a></li>
+<li><a href="/upravleniya-i-podrazdeleniya/otdel-mezhdunarodnogo-sotrudnichestva/videoteka">Видеотека</a></li>
+<li class="last"><a class="last" href="https://intcenter.by/ekskysii_bel">Экскурсионные туры по Беларуси</a></li>
+</ul>
+</li>
+<li class="last"><a class="last dropdown-toggle" data-toggle="dropdown" href="/">Идеологическая и воспитательная работа<span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li class="first"><a class="first" href="/upravleniya-i-podrazdeleniya/upravlenie-vospitatelnoi-raboty-s-molodezhyu/patrioticheskoe-vospitanie">Гражданское и патриотическое воспитание</a></li>
+<li><a href="/upravleniya-i-podrazdeleniya/upravlenie-vospitatelnoi-raboty-s-molodezhyu/internacionalnye-zvezdnye-pohody">Интернациональные Звёздные походы</a></li>
+<li><a href="/upravleniya-i-podrazdeleniya/sportivnyi-klub">Спорт в университете</a></li>
+<li><a href="/upravleniya-i-podrazdeleniya/centr-studencheskogo-tvorchestva">Творческая жизнь</a></li>
+<li><a href="/otdel-po-ideologicheskoi-i-vospitatelnoi-rabote/sektor-socialno-pedagogicheskoi-i-psihologicheskoi-raboty">Социально-педагогическая поддержка и психологическая помощь</a></li>
+<li><a href="/upravleniya-i-podrazdeleniya/upravlenie-vospitatelnoi-raboty-s-molodezhyu/pravovoe-informirovanie">Правовое воспитание</a></li>
+<li class="last"><a class="last" href="/upravleniya-i-podrazdeleniya/upravlenie-vospitatelnoi-raboty-s-molodezhyu/volonterskii-centr-bgpu">Волонтерский центр БГПУ</a></li>
+</ul>
+</li>
+</ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- main menu starts -->
+    </div> <!-- header end -->
+    <style type="text/css">
+
+/*Виджеты начало*/
+
+@media (min-width: 600px) {
+.container1 {
+	display: none;
+}
+}
+
+@media (max-width: 600px) {
+ul.sidebar-items1, li.sidebar-item1 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 125px;
+
+}
+
+@media (min-width: 601px) {
+ul.sidebar-items1, li.sidebar-item1 {
+display: none;
+}
+
+}
+
+@media (max-width: 600px) {
+img.sidebar-icon1 {
+    width: 200px !important;
+    height: 200px !important;
+    margin: 2px
+}
+}
+
+@media (max-width: 600px) {
+img.sidebar-icon1-2 {
+    width: 144px !important;
+    height: 123px !important;
+    margin: 2px;
+    padding: 0;
+}
+}
+
+@media (min-width: 601px) {
+img.sidebar-icon1-2 {
+    display: none; 
+}
+}
+
+@media (max-width: 600px) {
+a.sidebar__link1 {
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    text-decoration: none;
+    letter-spacing: -0.3px;
+
+}
+}
+
+@media (min-width: 601px) {
+a.sidebar__link1 {
+    display: none;
+}
+}
+
+@media (max-width: 600px) {
+li.sidebar-item1 {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+
+}
+}
+
+@media (min-width: 601px) {
+li.sidebar-item1 {
+display: none;
+}
+}
+
+@media (max-width: 600px) {
+li.sidebar-item1:hover {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.25), 0 2px 10px 0 rgba(0,0,0,.25);
+    transform: translateX(2px);
+    transition: 0.2s;
+
+}
+}
+
+@media (min-width: 601px) {
+li.sidebar-item1:hover {
+display: none;
+}
+}
+
+/*Виджеты конец*/
+@media (max-width: 600px) {
+.sidebar__link1 span {
+    display: flex;
+    height: 54px;
+    align-items: center;
+    color: #458bc7 !important;
+    background-color: #f9f9f9 !important;
+
+}
+}
+
+@media (min-width: 601px) {
+.sidebar__link1 span {
+    display: none;
+}
+}
+
+@media (max-width: 600px) {
+.main-widjet .news-item img {
+margin-top: 0px!important;
+}
+}
+
+@media (max-width: 600px) {
+.sidebar__link1 span:hover, a.sidebar__link span:focus {
+    color: #2a6496;
+}
+}
+
+@media (min-width: 601px) {
+.sidebar__link1 span:hover, a.sidebar__link span:focus {
+    display: none;
+}
+}
+
+</style>
+
+
+
+    <div id="slider">
+        <div id="full_width" class="container">
+            <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+                <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-slider" data-slide-to="1"></li>
+                <li data-target="#carousel-slider" data-slide-to="2"></li>
+                <li data-target="#carousel-slider" data-slide-to="3"></li>
+                <li data-target="#carousel-slider" data-slide-to="4"></li>
+                <li data-target="#carousel-slider" data-slide-to="5"></li>
+                <li data-target="#carousel-slider" data-slide-to="6"></li>
+                <li data-target="#carousel-slider" data-slide-to="7"></li>
+            </ol>
+
+    <!-- Slides -->
+
+    <div class="carousel-inner">
+                <div class="item active "  >
+
+            <img class="slide-img" src="/images/slides/Mehvk5lf6xJ9cV7.webp"  alt="БЕЛОРУССКИЙ ГОСУДАРСТВЕННЫЙ ПЕДАГОГИЧЕСКИЙ УНИВЕРСИТЕТ ИМЕНИ МАКСИМА ТАНКА">
+
+                    </div>
+                <div class="item  guide "   onclick="window.location='https://kursy.bspu.by/news1/podgotovka-k-tst/';" >
+
+            <img class="slide-img" src="/images/slides/QdxRmCjaLOl8ekU.jpg"  alt="БЕЛОРУССКИЙ ГОСУДАРСТВЕННЫЙ ПЕДАГОГИЧЕСКИЙ УНИВЕРСИТЕТ ИМЕНИ МАКСИМА ТАНКА">
+
+                    </div>
+                <div class="item  guide "   onclick="window.location='https://pool.bspu.by';" >
+
+            <img class="slide-img" src="/images/slides/8OVe6RkGco4yjTr.jpg"  alt="БЕЛОРУССКИЙ ГОСУДАРСТВЕННЫЙ ПЕДАГОГИЧЕСКИЙ УНИВЕРСИТЕТ ИМЕНИ МАКСИМА ТАНКА">
+
+                    </div>
+                <div class="item  guide "   onclick="window.location='https://bspu.by/upravleniya-i-podrazdeleniya/upravlenie-vospitatelnoi-raboty-s-molodezhyu/internacionalnye-zvezdnye-pohody';" >
+
+            <img class="slide-img" src="/images/slides/fAlUjTr0ES1IM8N.jpg"  alt="БЕЛОРУССКИЙ ГОСУДАРСТВЕННЫЙ ПЕДАГОГИЧЕСКИЙ УНИВЕРСИТЕТ ИМЕНИ МАКСИМА ТАНКА">
+
+                    </div>
+                <div class="item  guide "   onclick="window.location='https://kursy.bspu.by';" >
+
+            <img class="slide-img" src="/images/slides/MhfoqFjbOIy0Ssk.jpg"  alt="БЕЛОРУССКИЙ ГОСУДАРСТВЕННЫЙ ПЕДАГОГИЧЕСКИЙ УНИВЕРСИТЕТ ИМЕНИ МАКСИМА ТАНКА">
+
+                    </div>
+                <div class="item  guide "   onclick="window.location='http://качество-услуг.бел/';" >
+
+            <img class="slide-img" src="/images/slides/opLZAcCtlVUS5wH.jpg"  alt="БЕЛОРУССКИЙ ГОСУДАРСТВЕННЫЙ ПЕДАГОГИЧЕСКИЙ УНИВЕРСИТЕТ ИМЕНИ МАКСИМА ТАНКА">
+
+                    </div>
+                <div class="item "  >
+
+            <img class="slide-img" src="/images/slides/lLhJU4K3fe0H26j.jpg"  alt="БЕЛОРУССКИЙ ГОСУДАРСТВЕННЫЙ ПЕДАГОГИЧЕСКИЙ УНИВЕРСИТЕТ ИМЕНИ МАКСИМА ТАНКА">
+
+                    </div>
+                <div class="item "  >
+
+            <img class="slide-img" src="/images/slides/uUNcYjgK3zx8yHi.jpg"  alt="БЕЛОРУССКИЙ ГОСУДАРСТВЕННЫЙ ПЕДАГОГИЧЕСКИЙ УНИВЕРСИТЕТ ИМЕНИ МАКСИМА ТАНКА">
+
+                    </div>
+            </div>
+
+    <!-- Controls buttons-->
+    <a class="left carousel-control" href="#carousel-slider" role="button" data-slide="prev"></a>
+    <a class="right carousel-control" href="#carousel-slider" role="button" data-slide="next"></a>
+
+</div>
+
+        </div>
+    </div>
+    <div class="line-for-ol hidden-xs hidden-sm"></div>
+    <div id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 cross-news">
+                                            <div class="top-content">
+                            <div class="block-header"><span>Новости</span></div>
+<ul class="nav nav-tabs" role="tablist">
+    <li class="active"><a href="#university" role="tab" data-toggle="tab">Университет</a></li>
+    <li><a href="#science" role="tab" data-toggle="tab">Наука</a></li>
+    <li><a href="#students" role="tab" data-toggle="tab">Студенчество</a></li>
+    <li><a href="#smi" role="tab" data-toggle="tab">СМИ о БГПУ</a></li>
+</ul>
+<div class="tab-content">
+    <div class="tab-pane active" id="university">
+        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+
+                    <div class="read" onclick="window.location = '/news/universitet/delegaciya-shandunskogo-professionalnogo-instituta-kulturnoi-industrii-posetila-v-bgpu'">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/delegaciya-shandunskogo-professionalnogo-instituta-kulturnoi-industrii-posetila-v-bgpu-8515517.jpg" alt="Делегация Шаньдунского профессионального института культурной индустрии посетила в БГПУ"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Делегация Шаньдунского профессионального института культурной индустрии посетила в БГПУ</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>27 января 2026 года</strong> БГПУ посетила делегация Шаньдунского профессионального института культурной индустрии (Китайская Народная Республика), в состав которой вошли <strong>Сюй Юйго</strong> &ndash; проректор по учебной работе и международному образованию, <strong>Ци Дэнхун</strong> &ndash; декан факультета международного образования, <strong>Сунь Гаоцзе</strong> &ndash; секретарь комитета Коммунистического союза молодежи.</p>
+</div>
+                    </div>
+
+                    </div>
+                    <div itemprop="datePublished" class="news-date" style="float: left">2026-01-27</div>
+                    <a class="read-more"  href="/news/universitet/delegaciya-shandunskogo-professionalnogo-instituta-kulturnoi-industrii-posetila-v-bgpu">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+
+                    <div class="read" onclick="window.location = '/news/universitet/v-bgpu-dan-start-internacionalnomu-61-mu-zvezdnomu-pohodu'">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/v-bgpu-dan-start-internacionalnomu-61-mu-zvezdnomu-pohodu-6275094.jpg" alt="В БГПУ дан старт интернациональному 61-му Звездному походу"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">В БГПУ дан старт интернациональному 61-му Звездному походу</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>27 января 2026 года </strong>состоялся торжественный митинг, посвященный старту 61-го интернационального Звёздного похода БГПУ по местам боевой и трудовой славы белорусского народа, который объединил 11 отрядов &ndash; более 250 студентов и преподавателей. Девиз этого похода &ndash; &laquo;Молодежь для Беларуси: помним, гордимся, созидаем!&raquo;.</p>
+</div>
+                    </div>
+
+                    </div>
+                    <div itemprop="datePublished" class="news-date" style="float: left">2026-01-27</div>
+                    <a class="read-more"  href="/news/universitet/v-bgpu-dan-start-internacionalnomu-61-mu-zvezdnomu-pohodu">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+
+                    <div class="read" onclick="window.location = '/news/universitet/predstaviteli-bgpu---uchastniki-meropriyatii-posvyashchennyh-dnyu-belorusskoi-nauki'">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/predstaviteli-bgpu---uchastniki-meropriyatii-posvyashchennyh-dnyu-belorusskoi-nauki-6571446.jpg" alt="Представители БГПУ – участники мероприятий, посвященных Дню белорусской науки"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Представители БГПУ – участники мероприятий, посвященных Дню белорусской науки</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>23 января 2026 года</strong> в Минском международном выставочном центре состоялись мероприятия, посвященные Дню белорусской науки. Представители БГПУ во главе с ректором <strong>Александром&nbsp;Ивановичем Жуком</strong> приняли участие в торжественном собрании научной общественности Республики Беларусь и работе панельной секции &laquo;Состояние и перспективы развития научных исследований в университетах&raquo;.</p>
+</div>
+                    </div>
+
+                    </div>
+                    <div itemprop="datePublished" class="news-date" style="float: left">2026-01-26</div>
+                    <a class="read-more"  href="/news/universitet/predstaviteli-bgpu---uchastniki-meropriyatii-posvyashchennyh-dnyu-belorusskoi-nauki">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+
+                    <div class="read" onclick="window.location = '/news/universitet/pozdravlenie-rektora-bgpu-ai-zhuka-s-dnem-belorusskoi-nauki'">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/pozdravlenie-rektora-bgpu-ai-zhuka-s-dnem-belorusskoi-nauki-2400036.jpg" alt="Поздравление ректора БГПУ А.И.Жука с Днем белорусской науки"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Поздравление ректора БГПУ А.И.Жука с Днем белорусской науки</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;">Уважаемые коллеги, молодые ученые, аспиранты,&nbsp;магистранты, студенты! Дорогие друзья!</p>
+</div>
+                    </div>
+
+                    </div>
+                    <div itemprop="datePublished" class="news-date" style="float: left">2026-01-25</div>
+                    <a class="read-more"  href="/news/universitet/pozdravlenie-rektora-bgpu-ai-zhuka-s-dnem-belorusskoi-nauki">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+
+                    <div class="read" onclick="window.location = '/news/universitet/studenty-i-prepodavateli-bgpu-posetili-sorevnovaniya-po-biatlonu-kubok-sodruzhestva'">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/studenty-i-prepodavateli-bgpu-posetili-sorevnovaniya-po-biatlonu-kubok-sodruzhestva-6528886.jpg" alt="Студенты и преподаватели БГПУ посетили соревнования по биатлону «Кубок содружества»"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Студенты и преподаватели БГПУ посетили соревнования по биатлону «Кубок содружества»</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>С 23 по 25 января 2026 года</strong> на базе учреждения &laquo;Республиканский центр олимпийской подготовки по зимним видам спорта &laquo;Раубичи&raquo; прошли Международные соревнования по биатлону &laquo;Кубок Содружества&raquo;, в которых приняли участие сильнейшие спортсмены из Республики Беларусь и Российской Федерации.</p>
+</div>
+                    </div>
+
+                    </div>
+                    <div itemprop="datePublished" class="news-date" style="float: left">2026-01-24</div>
+                    <a class="read-more"  href="/news/universitet/studenty-i-prepodavateli-bgpu-posetili-sorevnovaniya-po-biatlonu-kubok-sodruzhestva">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+
+                    <div class="read" onclick="window.location = '/news/universitet/bgpu-i-namgpi-ukreplyayut-sotrudnichestvo-v-sfere-pedagogicheskogo-obrazovaniya'">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/bgpu-i-namgpi-ukreplyayut-sotrudnichestvo-v-sfere-pedagogicheskogo-obrazovaniya-4465858.jpg" alt="БГПУ и НамГПИ укрепляют сотрудничество в сфере педагогического образования"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">БГПУ и НамГПИ укрепляют сотрудничество в сфере педагогического образования</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>22 января 2026</strong> года в БГПУ состоялась рабочая встреча с представителями Наманганского государственного педагогического института (Республика Узбекистан), посвящённая разработке механизмов реализации совместных образовательных программ.</p>
+</div>
+                    </div>
+
+                    </div>
+                    <div itemprop="datePublished" class="news-date" style="float: left">2026-01-23</div>
+                    <a class="read-more"  href="/news/universitet/bgpu-i-namgpi-ukreplyayut-sotrudnichestvo-v-sfere-pedagogicheskogo-obrazovaniya">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+
+                    <div class="read" onclick="window.location = '/news/universitet/vizit-delegacii-severo-zapadnogo-pedagogicheskogo-universiteta-v-bgpu'">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/vizit-delegacii-severo-zapadnogo-pedagogicheskogo-universiteta-v-bgpu-5608464.jpg" alt="Визит делегации Северо-западного педагогического университета в БГПУ"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Визит делегации Северо-западного педагогического университета в БГПУ</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>20 января 2026 года</strong> в БГПУ состоялся официальный визит делегации Северо-Западного педагогического университета (г. Ланьчжоу, Китайская Народная Республика). Визит направлен на развитие двустороннего академического сотрудничества, обмен опытом и укрепление международных связей в области педагогического образования.</p>
+</div>
+                    </div>
+
+                    </div>
+                    <div itemprop="datePublished" class="news-date" style="float: left">2026-01-22</div>
+                    <a class="read-more"  href="/news/universitet/vizit-delegacii-severo-zapadnogo-pedagogicheskogo-universiteta-v-bgpu">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+
+                    <div class="read" onclick="window.location = '/news/universitet/zavershilis-sorevnovaniya-po-plavaniyu-v-ramkah-kruglogodichnoi-spartakiady-sredi-rabotnikov-bgpu22012026'">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/zavershilis-sorevnovaniya-po-plavaniyu-v-ramkah-kruglogodichnoi-spartakiady-sredi-rabotnikov-bgpu22012026-6476931.jpg" alt="Завершились соревнования по плаванию в рамках круглогодичной спартакиады среди работников БГПУ"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Завершились соревнования по плаванию в рамках круглогодичной спартакиады среди работников БГПУ</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>21 января 2026 года</strong> в бассейне нашего университета прошли соревнования по плаванию, в которых приняли участие 33 преподавателя и работника университета (18 женщин и 15 мужчин).</p>
+</div>
+                    </div>
+
+                    </div>
+                    <div itemprop="datePublished" class="news-date" style="float: left">2026-01-22</div>
+                    <a class="read-more"  href="/news/universitet/zavershilis-sorevnovaniya-po-plavaniyu-v-ramkah-kruglogodichnoi-spartakiady-sredi-rabotnikov-bgpu22012026">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+
+                    <div class="read" onclick="window.location = '/news/universitet/v-minske-nachala-rabotu-iii-shkola-molodogo-uchenogo'">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/JYM47NCQjerpn5d.jpg" alt="В Минске начала работу III Школа молодого ученого"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">В Минске начала работу III Школа молодого ученого</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>С 20 января по 22 января 2026 года</strong> в рамках празднования Дня белорусской науки в г. Минске открыта III Школа молодого ученого.</p>
+</div>
+                    </div>
+
+                    </div>
+                    <div itemprop="datePublished" class="news-date" style="float: left">2026-01-21</div>
+                    <a class="read-more"  href="/news/universitet/v-minske-nachala-rabotu-iii-shkola-molodogo-uchenogo">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+
+                    <div class="read" onclick="window.location = '/news/universitet/itogi-prosmotrov-gotovnosti-otryadov-k-61mu-zvezdnomu-pohodu-bgpu20012026'">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/itogi-prosmotrov-gotovnosti-otryadov-k-61mu-zvezdnomu-pohodu-bgpu20012026-5381049.jpg" alt="Итоги просмотров готовности отрядов к 61-му Звездному походу БГПУ"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Итоги просмотров готовности отрядов к 61-му Звездному походу БГПУ</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>С 12 по 16 января 2026 года</strong> состоялись просмотры готовности отрядов к участию в интернациональном 61-ом Звездном походе студентов и преподавателей БГПУ по местам боевой и трудовой славы белорусского народа.</p>
+</div>
+                    </div>
+
+                    </div>
+                    <div itemprop="datePublished" class="news-date" style="float: left">2026-01-20</div>
+                    <a class="read-more"  href="/news/universitet/itogi-prosmotrov-gotovnosti-otryadov-k-61mu-zvezdnomu-pohodu-bgpu20012026">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+
+                    <div class="read" onclick="window.location = '/news/universitet/rezultaty-sorevnovanii-po-nastolnomu-tennisu-v-ramkah-spartakiady-rabotnikov-bgpu-2026'">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/rezultaty-sorevnovanii-po-nastolnomu-tennisu-v-ramkah-spartakiady-rabotnikov-bgpu-2026-7918782.jpg" alt="Результаты соревнований по настольному теннису в рамках спартакиады работников БГПУ"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Результаты соревнований по настольному теннису в рамках спартакиады работников БГПУ</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>15 января 2026 года </strong>в спортивном зале БГПУ прошли соревнования по настольному теннису, в которых приняли участие 26 человек (13 мужчин и 13 женщин).&nbsp;</p>
+</div>
+                    </div>
+
+                    </div>
+                    <div itemprop="datePublished" class="news-date" style="float: left">2026-01-16</div>
+                    <a class="read-more"  href="/news/universitet/rezultaty-sorevnovanii-po-nastolnomu-tennisu-v-ramkah-spartakiady-rabotnikov-bgpu-2026">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+
+                    <div class="read" onclick="window.location = '/news/universitet/itogi-turnira-po-shashkam-sredi-rabotnikov-bgpu-1601'">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/itogi-turnira-po-shashkam-sredi-rabotnikov-bgpu-1601-1993316.png" alt="Итоги турнира по шашкам среди работников БГПУ"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Итоги турнира по шашкам среди работников БГПУ</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>14 января 2026 года </strong>прошли соревнования по шашкам среди мужских и женских команд. В турнирах приняли участие 29 человек (12 мужчин и 17 женщин).</p>
+</div>
+                    </div>
+
+                    </div>
+                    <div itemprop="datePublished" class="news-date" style="float: left">2026-01-16</div>
+                    <a class="read-more"  href="/news/universitet/itogi-turnira-po-shashkam-sredi-rabotnikov-bgpu-1601">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                    </div>
+        <a class="read-more" href="/news/universitet/">Все новости рубрики &laquo;Университет&raquo;</a>
+        <div class="clearfix"></div>
+    </div>
+    <div class="tab-pane" id="science">
+        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                    <a class="read-more" style="text-decoration: none; color: #333" target="_blank" href="/news/nauka/intellektualnyi-kviz-pro-belarus-ko-dnyu-belorusskoi-nauki">
+                                        <div class="thumbnail">
+                        <img  itemprop="image" src="images/article/medium/BGFOX4vItZWRnrL.JPG" alt="Интеллектуальный квиз «PRO Беларусь» ко Дню белорусской науки"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Интеллектуальный квиз «PRO Беларусь» ко Дню белорусской науки</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>23 января 2026 года</strong> В БГПУ состоялся интеллектуальный квиз &laquo;PRO Беларусь&raquo;, приуроченный ко Дню белорусской науки.</p>
+</div>
+                    </div>
+                    </a>
+                    <div itemprop="datePublished" class="news-date" style="float: left">2026-01-24</div>
+                    <a class="read-more"  href="/news/nauka/intellektualnyi-kviz-pro-belarus-ko-dnyu-belorusskoi-nauki">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                    <a class="read-more" style="text-decoration: none; color: #333" target="_blank" href="/news/nauka/itogovoe-zasedanie-konkursnoi-komissii--xxxii-respublikanskogo-konkursa-nauchnyh-rabot-studentov">
+                                        <div class="thumbnail">
+                        <img  itemprop="image" src="images/article/medium/itogovoe-zasedanie-konkursnoi-komissii--xxxii-respublikanskogo-konkursa-nauchnyh-rabot-studentov-8418704.jpg" alt="Итоговое заседание конкурсной комиссии  XXXII Республиканского конкурса научных работ студентов"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Итоговое заседание конкурсной комиссии  XXXII Республиканского конкурса научных работ студентов</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>22 января 2026 года</strong> состоялось итоговое заседание конкурсной комиссии &laquo;Педагогика, теория и методика обучения и воспитания. Социальные проблемы воспитания. Информационные технологии в образовании. Воинское обучение и воспитание&raquo; XXXII Республиканского конкурса научных работ студентов учреждений высшего образования Республики Беларусь.</p>
+</div>
+                    </div>
+                    </a>
+                    <div itemprop="datePublished" class="news-date" style="float: left">2026-01-22</div>
+                    <a class="read-more"  href="/news/nauka/itogovoe-zasedanie-konkursnoi-komissii--xxxii-respublikanskogo-konkursa-nauchnyh-rabot-studentov">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                    <a class="read-more" style="text-decoration: none; color: #333" target="_blank" href="/news/nauka/bgpu-formiruet-utochnennyi-plan-priema-v-aspiranturu-i-doktoranturu-na-2026-god">
+                                        <div class="thumbnail">
+                        <img  itemprop="image" src="images/article/medium/bgpu-formiruet-utochnennyi-plan-priema-v-aspiranturu-i-doktoranturu-na-2026-god-1422563.jpg" alt="БГПУ формирует уточненный план приема в аспирантуру и докторантуру на 2026 год"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">БГПУ формирует уточненный план приема в аспирантуру и докторантуру на 2026 год</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;">БГПУ формирует уточненный план приема в аспирантуру и докторантуру за счет средств республиканского бюджета на 2026 год на основании заявок организаций, имеющих потребность в подготовке научных работников высшей квалификации.<o:p></o:p></p>
+</div>
+                    </div>
+                    </a>
+                    <div itemprop="datePublished" class="news-date" style="float: left">2026-01-22</div>
+                    <a class="read-more"  href="/news/nauka/bgpu-formiruet-utochnennyi-plan-priema-v-aspiranturu-i-doktoranturu-na-2026-god">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                    <a class="read-more" style="text-decoration: none; color: #333" target="_blank" href="/news/nauka/itogi-molodezhnogo-konkursa-nauchnyh-i-tvorcheskih-rabot-nauka-budushchego">
+                                        <div class="thumbnail">
+                        <img  itemprop="image" src="images/article/medium/itogi-molodezhnogo-konkursa-nauchnyh-i-tvorcheskih-rabot-nauka-budushchego-7561691.jpg" alt="Итоги молодежного конкурса научных и творческих работ «Наука будущего»"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Итоги молодежного конкурса научных и творческих работ «Наука будущего»</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>20 января 2026 года</strong> в Национальной академии наук Беларуси состоялась торжественная церемония награждения лауреатов и финалистов молодежного конкурса научных и творческих работ &laquo;Наука будущего&raquo;.</p>
+</div>
+                    </div>
+                    </a>
+                    <div itemprop="datePublished" class="news-date" style="float: left">2026-01-21</div>
+                    <a class="read-more"  href="/news/nauka/itogi-molodezhnogo-konkursa-nauchnyh-i-tvorcheskih-rabot-nauka-budushchego">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                    <a class="read-more" style="text-decoration: none; color: #333" target="_blank" href="/news/nauka/pozdravlyaem-soiskatelya-s-prisuzhdeniem-uchenoi-stepeni-1501">
+                                        <div class="thumbnail">
+                        <img  itemprop="image" src="images/article/medium/EOo4ceg5bCFSNDl.png" alt="Поздравляем соискателя с присуждением ученой степени!"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Поздравляем соискателя с присуждением ученой степени!</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>14 января 2026 года</strong> Президиум ВАК Беларуси присудил ученую степень кандидата филологических наук <strong>Дедович Ольге Геннадьевне</strong>.</p>
+</div>
+                    </div>
+                    </a>
+                    <div itemprop="datePublished" class="news-date" style="float: left">2026-01-15</div>
+                    <a class="read-more"  href="/news/nauka/pozdravlyaem-soiskatelya-s-prisuzhdeniem-uchenoi-stepeni-1501">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                    <a class="read-more" style="text-decoration: none; color: #333" target="_blank" href="/news/nauka/priglashennyi-professor-obmen-znaniyami-i-opytom">
+                                        <div class="thumbnail">
+                        <img  itemprop="image" src="images/article/medium/priglashennyi-professor-obmen-znaniyami-i-opytom-2396358.jpg" alt="Приглашенный профессор: обмен знаниями и опытом"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Приглашенный профессор: обмен знаниями и опытом</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>С 1 по 3 декабря</strong><strong> 2025 года</strong> в рамках реализации программы &laquo;Развитие системы высшего образования&raquo; на факультете дошкольного образования для студентов, магистрантов и преподавателей БГПУ прошли лекции и мастер-классы по современным проблемам дошкольной педагогики приглашенного профессора <strong>Раисы Михайловны Чумичевой</strong>, доктора педагогических наук, профессора, профессора кафедры дошкольного образования Академии психологии и педагогики Федерального государственного автономного образовательного учреждения высшего образования &laquo;Южный федеральный университет&raquo; (Российская Федерация, г.&nbsp;Ростов-на-Дону).</p>
+</div>
+                    </div>
+                    </a>
+                    <div itemprop="datePublished" class="news-date" style="float: left">2025-12-05</div>
+                    <a class="read-more"  href="/news/nauka/priglashennyi-professor-obmen-znaniyami-i-opytom">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                    <a class="read-more" style="text-decoration: none; color: #333" target="_blank" href="/news/nauka/itogi-universitetskogo-otborochnogo-etapa-proekta-100-idei-dlya-belarusi-27112025">
+                                        <div class="thumbnail">
+                        <img  itemprop="image" src="images/article/medium/itogi-universitetskogo-otborochnogo-etapa-proekta-100-idei-dlya-belarusi-27112025-7994527.jpg" alt="Итоги университетского отборочного этапа проекта «100 идей для Беларуси»"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Итоги университетского отборочного этапа проекта «100 идей для Беларуси»</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>27 ноября 2025 года</strong> в БГПУ состоялся первый отборочный этап республиканского молодёжного проекта &laquo;100 идей для Беларуси&raquo;.</p>
+</div>
+                    </div>
+                    </a>
+                    <div itemprop="datePublished" class="news-date" style="float: left">2025-11-27</div>
+                    <a class="read-more"  href="/news/nauka/itogi-universitetskogo-otborochnogo-etapa-proekta-100-idei-dlya-belarusi-27112025">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                    <a class="read-more" style="text-decoration: none; color: #333" target="_blank" href="/news/nauka/sovremennye-problemy-estestvoznaniya-obsudili-v-hode-konferencii">
+                                        <div class="thumbnail">
+                        <img  itemprop="image" src="images/article/medium/sovremennye-problemy-estestvoznaniya-obsudili-v-hode-konferencii-4523496.jpg" alt="Современные проблемы естествознания обсудили в ходе конференции "/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Современные проблемы естествознания обсудили в ходе конференции </h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>25 ноября 2025 года </strong>на факультете естествознания прошла Международная научно-практическая конференция &laquo;Современные проблемы естествознания в науке и образовательном процессе&raquo;, в которой результаты своих исследований представили более 150 участников из Беларуси, России, Казахстана, Узбекистана и Китая. Конференция проходила в смешанном (онлайн-офлайн) режиме.</p>
+</div>
+                    </div>
+                    </a>
+                    <div itemprop="datePublished" class="news-date" style="float: left">2025-11-27</div>
+                    <a class="read-more"  href="/news/nauka/sovremennye-problemy-estestvoznaniya-obsudili-v-hode-konferencii">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                    <a class="read-more" style="text-decoration: none; color: #333" target="_blank" href="/news/nauka/zasedanie-nauchno-tehnicheskogo-soveta-bgpu-19112025">
+                                        <div class="thumbnail">
+                        <img  itemprop="image" src="images/article/medium/zasedanie-nauchno-tehnicheskogo-soveta-bgpu-19112025-5046455.jpg" alt="Заседание научно-технического совета БГПУ"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Заседание научно-технического совета БГПУ</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>18 ноября 2025 года&nbsp;</strong>под руководством проректора по научной работе БГПУ&nbsp;<strong>Гюльнары Мансуровны Юстинской&nbsp;</strong>состоялось заседание научно-технического совета университета.</p>
+</div>
+                    </div>
+                    </a>
+                    <div itemprop="datePublished" class="news-date" style="float: left">2025-11-19</div>
+                    <a class="read-more"  href="/news/nauka/zasedanie-nauchno-tehnicheskogo-soveta-bgpu-19112025">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                    <a class="read-more" style="text-decoration: none; color: #333" target="_blank" href="/news/nauka/bgpu---uchastnik-iii-mezhdunarodnoi-nauchno-metodicheskoi-konferencii-po-voprosam-kachestva-obrazovaniya">
+                                        <div class="thumbnail">
+                        <img  itemprop="image" src="images/article/medium/xjwoibGMVnc03u2.jpg" alt="БГПУ – участник III Международной научно-методической конференции по вопросам качества образования"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">БГПУ – участник III Международной научно-методической конференции по вопросам качества образования</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>12 ноября 2025 года</strong>&nbsp;БГПУ принял участие в III&nbsp;Международной научно-методической конференции &laquo;Обеспечение качества образования: состояние, проблемы и перспективы&raquo;, состоявшейся в штаб-квартире Содружества Независимых Государств.</p>
+</div>
+                    </div>
+                    </a>
+                    <div itemprop="datePublished" class="news-date" style="float: left">2025-11-14</div>
+                    <a class="read-more"  href="/news/nauka/bgpu---uchastnik-iii-mezhdunarodnoi-nauchno-metodicheskoi-konferencii-po-voprosam-kachestva-obrazovaniya">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                    <a class="read-more" style="text-decoration: none; color: #333" target="_blank" href="/news/nauka/osnovnye-aspekty-metakognitivnoi-psihologii-obrazovatelnoi-deyatelnosti-obsuzhdeny-v-ramkah-programmy-priglashennyi-professor">
+                                        <div class="thumbnail">
+                        <img  itemprop="image" src="images/article/medium/osnovnye-aspekty-metakognitivnoi-psihologii-obrazovatelnoi-deyatelnosti-obsuzhdeny-v-ramkah-programmy-priglashennyi-professor-2443706.jpg" alt="Основные аспекты метакогнитивной психологии образовательной деятельности обсуждены в рамках программы «Приглашенный профессор» "/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Основные аспекты метакогнитивной психологии образовательной деятельности обсуждены в рамках программы «Приглашенный профессор» </h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>11-12 ноября 2025 года</strong> в Институте психологии для преподавателей и студентов состоялись открытые лекции &laquo;Метакогнитивная психология образовательной деятельности. Новые вызовы и задачи&raquo; и &laquo;Эволюционная психология&raquo; доктора психологических наук, профессора РАО, профессора кафедры психологии труда и организационной психологии Ярославского государственного университета им. П.Г.&nbsp;Демидова <strong>Александра Анатольевича Карпова</strong> (г. Ярославль, Россия).</p>
+</div>
+                    </div>
+                    </a>
+                    <div itemprop="datePublished" class="news-date" style="float: left">2025-11-12</div>
+                    <a class="read-more"  href="/news/nauka/osnovnye-aspekty-metakognitivnoi-psihologii-obrazovatelnoi-deyatelnosti-obsuzhdeny-v-ramkah-programmy-priglashennyi-professor">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                    <a class="read-more" style="text-decoration: none; color: #333" target="_blank" href="/news/nauka/zavershilsya-priem-v-aspiranturu-i-doktoranturu-bgpu-06112025">
+                                        <div class="thumbnail">
+                        <img  itemprop="image" src="images/article/medium/zavershilsya-priem-v-aspiranturu-i-doktoranturu-bgpu-06112025-7903875.jpg" alt="Завершился прием в аспирантуру и докторантуру БГПУ"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Завершился прием в аспирантуру и докторантуру БГПУ</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;">С 1 ноября 2025 года на обучение за счет средств республиканского бюджета зачислены 30 человек (16 &ndash; на обучение в дневной форме, 14 &ndash; в форме соискательства). Это в 1,5 раза больше, чем в 2024 году. На обучение на платной основе зачислены 7 человек, из них 6 иностранных граждан из Китайской Народной Республики.</p>
+</div>
+                    </div>
+                    </a>
+                    <div itemprop="datePublished" class="news-date" style="float: left">2025-11-06</div>
+                    <a class="read-more"  href="/news/nauka/zavershilsya-priem-v-aspiranturu-i-doktoranturu-bgpu-06112025">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                    </div>
+        <a class="read-more" href="/news/nauka/">Все новости рубрики &laquo;Наука&raquo;</a>
+        <div class="clearfix"></div>
+    </div>
+    <div class="tab-pane" id="students">
+        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                    <a class="read-more" style="text-decoration: none; color: #333" target="_blank" href="/news/studenchestvo/gotovim-uchitelya-vmeste-s-profi-seriya-prakticheskih-zanyatii-dlya-studentov-zaochnikov">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/gotovim-uchitelya-vmeste-s-profi-seriya-prakticheskih-zanyatii-dlya-studentov-zaochnikov-9963538.jpg" alt="Готовим учителя вместе с профи: серия практических занятий для студентов-заочников"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Готовим учителя вместе с профи: серия практических занятий для студентов-заочников</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;">В целях обеспечения качественной практической подготовки студентов заочной формы обучения кафедрой педагогики организована серия практических занятий для студентов-заочников с участием учителе-практиков. Занятия для студентов 2 курса исторического факультета по учебной дисциплине &laquo;Педагогические технологии&raquo; прошли под руководством доцента <strong>Л.А.Козинец</strong>.<strong> </strong></p>
+</div>
+                    </div>
+                        </a>
+                        <div itemprop="datePublished" class="news-date" style="float: left">2026-01-22</div>
+                    <a class="read-more"  href="/news/studenchestvo/gotovim-uchitelya-vmeste-s-profi-seriya-prakticheskih-zanyatii-dlya-studentov-zaochnikov">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                    <a class="read-more" style="text-decoration: none; color: #333" target="_blank" href="/news/studenchestvo/yaryca-s-koncertnoi-programmoi-svyatkі-kalyadkі291220225">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/yaryca-s-koncertnoi-programmoi-svyatkі-kalyadkі291220225-798513.jpg" alt="«Ярыца» с концертной программой «Святкі-Калядкі»"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">«Ярыца» с концертной программой «Святкі-Калядкі»</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>25 декабря</strong> народный ансамбль белорусской музыки и песни &quot;Ярыца&quot; БГПУ (руководитель &ndash; доцент А.М.Шугаев) принял участие с концертной программой &laquo;Святкi-Калядкi&raquo;, которая состоялась у Дворца Спорта.</p>
+</div>
+                    </div>
+                        </a>
+                        <div itemprop="datePublished" class="news-date" style="float: left">2025-12-29</div>
+                    <a class="read-more"  href="/news/studenchestvo/yaryca-s-koncertnoi-programmoi-svyatkі-kalyadkі291220225">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                    <a class="read-more" style="text-decoration: none; color: #333" target="_blank" href="/news/studenchestvo/miss-zima--2025-studgorodka-bgpu">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/miss-zima--2025-studgorodka-bgpu-7546975.jpg" alt="Мисс Зима -2025 студгородка БГПУ"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Мисс Зима -2025 студгородка БГПУ</h6>
+                        <div itemprop="description" class="text-desc"><p class="1" style="text-align: justify;">В Арт-пространстве БГПУ прошел конкурс &laquo;Мисс Зима-2025. В нем приняли участие очаровательные студентки, проживающие в общежитиях № 1, № 2, № 3, № 4 и № 5 студгородка. Инициаторами мероприятия стали представители педагогического коллектива и студенческого актива общежития №&nbsp;2. <o:p></o:p></p>
+</div>
+                    </div>
+                        </a>
+                        <div itemprop="datePublished" class="news-date" style="float: left">2025-12-23</div>
+                    <a class="read-more"  href="/news/studenchestvo/miss-zima--2025-studgorodka-bgpu">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                    <a class="read-more" style="text-decoration: none; color: #333" target="_blank" href="/news/studenchestvo/dlya-uchastiya-v-sleduyushchem-etape-respublikanskogo-molodezhnogo-proekta-100-idei-dlya-belarusi-otobrano-chetyre-proekta">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/dlya-uchastiya-v-sleduyushchem-etape-respublikanskogo-molodezhnogo-proekta-100-idei-dlya-belarusi-otobrano-chetyre-proekta-7391274.jpg" alt="Для участия в следующем этапе республиканского молодёжного проекта «100 идей для Беларуси» отобрано четыре проекта "/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Для участия в следующем этапе республиканского молодёжного проекта «100 идей для Беларуси» отобрано четыре проекта </h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>20 декабря&nbsp;2025 года</strong> прошел межуниверситетский этап республиканского молодежного проекта &laquo;100 идей для Беларуси&raquo;.</p>
+</div>
+                    </div>
+                        </a>
+                        <div itemprop="datePublished" class="news-date" style="float: left">2025-12-23</div>
+                    <a class="read-more"  href="/news/studenchestvo/dlya-uchastiya-v-sleduyushchem-etape-respublikanskogo-molodezhnogo-proekta-100-idei-dlya-belarusi-otobrano-chetyre-proekta">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                    <a class="read-more" style="text-decoration: none; color: #333" target="_blank" href="/news/studenchestvo/itogi-sorevnovanii-po-dartsu-v-ramkah-kruglogodichnoi-spartakiady-bgpu-23122025">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/itogi-sorevnovanii-po-dartsu-v-ramkah-kruglogodichnoi-spartakiady-bgpu-23122025-9977268.jpg" alt="Итоги соревнований по дартсу в рамках круглогодичной спартакиады БГПУ "/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Итоги соревнований по дартсу в рамках круглогодичной спартакиады БГПУ </h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;">Завершающими в первом семестре этого учебного года стали соревнования по дартсу, которые прошли <strong>16</strong> и <strong>18 декабря</strong>. В соревнованиях приняли участие 158 человек (105 девушек и 53 юноши).</p>
+</div>
+                    </div>
+                        </a>
+                        <div itemprop="datePublished" class="news-date" style="float: left">2025-12-23</div>
+                    <a class="read-more"  href="/news/studenchestvo/itogi-sorevnovanii-po-dartsu-v-ramkah-kruglogodichnoi-spartakiady-bgpu-23122025">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                    <a class="read-more" style="text-decoration: none; color: #333" target="_blank" href="/news/studenchestvo/zavershilis-sorevnovaniya-po-dartsu-19122025">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/zavershilis-sorevnovaniya-po-dartsu-19122025-9802098.jpg" alt="Завершились соревнования по дартсу  "/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Завершились соревнования по дартсу  </h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>17 декабря 2025 года</strong> в рамках спартакиады студенческого городка БГПУ прошли соревнования по дартсу среди мужских и женских команд, в которых приняли участие 38 человек (18 юношей и 20 девушек). Соревнования проходили по системе &laquo;Большой круг&raquo;: каждый участник выполняет поочередно серии по 3 броска в сектора с 1-го по 20-ый и 21-ую серию &ndash; в центральный круг мишени.</p>
+</div>
+                    </div>
+                        </a>
+                        <div itemprop="datePublished" class="news-date" style="float: left">2025-12-19</div>
+                    <a class="read-more"  href="/news/studenchestvo/zavershilis-sorevnovaniya-po-dartsu-19122025">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                    <a class="read-more" style="text-decoration: none; color: #333" target="_blank" href="/news/studenchestvo/mezhdisciplinarnyi-dialog-reshaem-zadachi-vmeste">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/mezhdisciplinarnyi-dialog-reshaem-zadachi-vmeste-342200.jpg" alt="Междисциплинарный диалог: решаем задачи вместе"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Междисциплинарный диалог: решаем задачи вместе</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;">В рамках межфакультетского взаимодействия на базе Центра современных методик дошкольного образования состоялась серия лабораторных занятий для студентов Института инклюзивного образования по учебной дисциплине &laquo;Коррекционно-образовательные технологии в дошкольном образовании&raquo;. Занятия прошли под руководством старшего преподавателя кафедры методик дошкольного образования <strong>Любови Борисовны Богданович</strong>.</p>
+</div>
+                    </div>
+                        </a>
+                        <div itemprop="datePublished" class="news-date" style="float: left">2025-12-16</div>
+                    <a class="read-more"  href="/news/studenchestvo/mezhdisciplinarnyi-dialog-reshaem-zadachi-vmeste">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                    <a class="read-more" style="text-decoration: none; color: #333" target="_blank" href="/news/studenchestvo/zavershilos-pervenstvo-bgpu-po-badmintonu-12122025">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/zavershilos-pervenstvo-bgpu-po-badmintonu-12122025-3502787.jpg" alt="Завершилось первенство БГПУ по бадминтону"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Завершилось первенство БГПУ по бадминтону</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>Со 2 по 11 декабря 2025 года</strong> в спортивном зале университета прошли соревнования по бадминтону в рамках круглогодичной спартакиады БГПУ. В мужском турнире приняли участие 7 команд. Желающих побороться за пьедестал в соревнованиях среди девушек набралось 8 команд.</p>
+</div>
+                    </div>
+                        </a>
+                        <div itemprop="datePublished" class="news-date" style="float: left">2025-12-12</div>
+                    <a class="read-more"  href="/news/studenchestvo/zavershilos-pervenstvo-bgpu-po-badmintonu-12122025">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                    <a class="read-more" style="text-decoration: none; color: #333" target="_blank" href="/news/studenchestvo/zavershilis-sorevnovaniya-po-bilyardu-sredi-studentov-prozhivayushchih-v-obshchezhitiyah-bgpu-05112025">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/zavershilis-sorevnovaniya-po-bilyardu-sredi-studentov-prozhivayushchih-v-obshchezhitiyah-bgpu-05112025-2513440.jpg" alt="Завершились соревнования по бильярду среди студентов, проживающих в общежитиях БГПУ"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Завершились соревнования по бильярду среди студентов, проживающих в общежитиях БГПУ</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>3 декабря 2025 года</strong> в общежитии № 1 в рамках Спартакиады студенческого городка БГПУ прошли соревнования по бильярду, в которых приняли участие 12 человек из 7 команд.</p>
+</div>
+                    </div>
+                        </a>
+                        <div itemprop="datePublished" class="news-date" style="float: left">2025-12-05</div>
+                    <a class="read-more"  href="/news/studenchestvo/zavershilis-sorevnovaniya-po-bilyardu-sredi-studentov-prozhivayushchih-v-obshchezhitiyah-bgpu-05112025">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                    <a class="read-more" style="text-decoration: none; color: #333" target="_blank" href="/news/studenchestvo/da-95-goddzya-uladzіmіra-karatkevіcha">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/da-95-goddzya-uladzіmіra-karatkevіcha-4257339.jpg" alt="Да 95-годдзя Уладзіміра Караткевіча"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Да 95-годдзя Уладзіміра Караткевіча</h6>
+                        <div itemprop="description" class="text-desc"><div>
+<p style="text-align: justify;">Увесь тыдзень удзельнікі Народнага літаратурнага тэатра &ldquo;Жывое слова&rdquo; ўдзельнічалі ў мерапрыемствах, прысвечаных 95-годдзю з дня нараджэння Уладзіміра Караткевіча. Кіраўнікі тэатра <strong>Алеся Сівохіна</strong> і <strong>Алесь Мойскі</strong> ўсклалі кветкі да помніка пісьменніку.&nbsp;</p>
+</div>
+</div>
+                    </div>
+                        </a>
+                        <div itemprop="datePublished" class="news-date" style="float: left">2025-12-01</div>
+                    <a class="read-more"  href="/news/studenchestvo/da-95-goddzya-uladzіmіra-karatkevіcha">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                    <a class="read-more" style="text-decoration: none; color: #333" target="_blank" href="/news/studenchestvo/vmeste-za-zhizn">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/vmeste-za-zhizn-9676016.jpg" alt="Вместе за жизнь"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Вместе за жизнь</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>18 ноября 2025 года</strong> представители факультета дошкольного образования БГПУ приняли участие в работе Открытого форума в защиту жизни детей до рождения &laquo;Да! Будет жизнь!&raquo;, который состоялся в минском Центре духовного просвещения и социального служения Белорусского Экзархата &laquo;Всех скорбящих Радость&raquo;. Мероприятие было организовано в рамках XII Фестиваля социальной рекламы в защиту жизни и семьи &laquo;Ладошка&raquo; и международной акции в защиту жизни нерожденных детей &laquo;Неделя за жизнь &ndash; Михайловские дни&raquo;.</p>
+</div>
+                    </div>
+                        </a>
+                        <div itemprop="datePublished" class="news-date" style="float: left">2025-11-25</div>
+                    <a class="read-more"  href="/news/studenchestvo/vmeste-za-zhizn">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                    <a class="read-more" style="text-decoration: none; color: #333" target="_blank" href="/news/studenchestvo/zavershilis-sorevnovaniya-po-shashkam-sredi-studentov-prozhivayushchih-v-obshchezhitiyah-bgpu-21112025">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/zavershilis-sorevnovaniya-po-shashkam-sredi-studentov-prozhivayushchih-v-obshchezhitiyah-bgpu-21112025-9058070.jpeg" alt="Завершились соревнования по шашкам среди студентов, проживающих в общежитиях БГПУ "/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Завершились соревнования по шашкам среди студентов, проживающих в общежитиях БГПУ </h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;"><strong>17 и 18 ноября</strong> в рамках спартакиады студенческого городка БГПУ прошли соревнования по шашкам. В мужском турнире приняли участие 7 команд, в женском &ndash; 8 команд.</p>
+</div>
+                    </div>
+                        </a>
+                        <div itemprop="datePublished" class="news-date" style="float: left">2025-11-21</div>
+                    <a class="read-more"  href="/news/studenchestvo/zavershilis-sorevnovaniya-po-shashkam-sredi-studentov-prozhivayushchih-v-obshchezhitiyah-bgpu-21112025">
+                        Подробнее                     </a>
+                    <div class="clearfix"></div>
+                </div>
+                    </div>
+        <a class="read-more" href="/news/studenchestvo/">Все новости рубрики &laquo;Студенчество&raquo;</a>
+        <div class="clearfix"></div>
+    </div>
+    <div class="tab-pane" id="smi">
+        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/informacionnoe-agentstvo-belta-v-minske-startoval-61-i-zvezdnyi-pohod-po-mestam-boevoi-i-trudovoi-slavy-belorusskogo-naroda-8968731.png" alt="Информационное агентство БЕЛТА. В Минске стартовал 61-й &quot;Звездный поход&quot; по местам боевой и трудовой славы белорусского народа"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Информационное агентство БЕЛТА. В Минске стартовал 61-й &quot;Звездный поход&quot; по местам боевой и трудовой славы белорусского народа</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;">Интернациональный 61-й &quot;Звездный поход&quot; по местам боевой и трудовой славы белорусского народа стартовал в Белорусском государственном педагогическом университете им. Максима Танка, передает корреспондент БЕЛТА.</p>
+</div>
+                    </div>
+                    <a class="read-more"  href="/news/smi-o-bgup/informacionnoe-agentstvo-belta-v-minske-startoval-61-i-zvezdnyi-pohod-po-mestam-boevoi-i-trudovoi-slavy-belorusskogo-naroda">
+                        Подробнее                     </a>
+                    <div itemprop="datePublished" class="news-date">2026-01-28</div>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/radio-mir-po-mestam-boevoi-i-trudovoi-slavy-v-belarusi-startoval-zvezdnyi-pohod-5253586.png" alt="Радио &quot;Мир&quot;. По местам боевой и трудовой славы. В Беларуси стартовал «Звёздный поход» "/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Радио &quot;Мир&quot;. По местам боевой и трудовой славы. В Беларуси стартовал «Звёздный поход» </h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;">В Беларуси стартовал 61-ый &laquo;Звездный поход&raquo;. Это интернациональный патриотический молодежный проект Белорусского государственного педагогического университета им. Максима Танка.</p>
+</div>
+                    </div>
+                    <a class="read-more"  href="/news/smi-o-bgup/radio-mir-po-mestam-boevoi-i-trudovoi-slavy-v-belarusi-startoval-zvezdnyi-pohod">
+                        Подробнее                     </a>
+                    <div itemprop="datePublished" class="news-date">2026-01-27</div>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/telekanal-ont-pomnim-gordimsya-sozidaem-zvezdnyi-pohod-po-mestam-boevoi-i-trudovoi-slavy-4994061.png" alt="Телеканал ОНТ. Помним, гордимся, созидаем. «Звездный поход» по местам боевой и трудовой славы "/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Телеканал ОНТ. Помним, гордимся, созидаем. «Звездный поход» по местам боевой и трудовой славы </h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;">27 января 2026 года состоялся торжественный митинг, посвященный старту 61-го интернационального Звёздного похода БГПУ по местам боевой и трудовой славы белорусского народа, который объединил 11 отрядов &ndash; более 250 студентов и преподавателей. Девиз этого похода &ndash; &laquo;Молодежь для Беларуси: помним, гордимся, созидаем!&raquo;.</p>
+</div>
+                    </div>
+                    <a class="read-more"  href="/news/smi-o-bgup/telekanal-ont-pomnim-gordimsya-sozidaem-zvezdnyi-pohod-po-mestam-boevoi-i-trudovoi-slavy">
+                        Подробнее                     </a>
+                    <div itemprop="datePublished" class="news-date">2026-01-27</div>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/telekanal-mir-zvezdnyi-pohod-po-mestam-boevoi-slavy-v-belarusi-otpravilis-studenty-iz-stran-sng-i-kitaya-5283992.png" alt="Телеканал МИР. «Звездный поход». По местам боевой славы в Беларуси отправились студенты из стран СНГ и Китая"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Телеканал МИР. «Звездный поход». По местам боевой славы в Беларуси отправились студенты из стран СНГ и Китая</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;">В Беларуси стартовал 61-й &laquo;Звездный поход&raquo;. Это международный патриотический молодежный проект педагогического университета. К нему присоединилась и корреспондент &laquo;МИР 24&raquo; Полина Бабук.</p>
+</div>
+                    </div>
+                    <a class="read-more"  href="/news/smi-o-bgup/telekanal-mir-zvezdnyi-pohod-po-mestam-boevoi-slavy-v-belarusi-otpravilis-studenty-iz-stran-sng-i-kitaya">
+                        Подробнее                     </a>
+                    <div itemprop="datePublished" class="news-date">2026-01-27</div>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/telekanal-stv-zvezdnyi-pohod-po-mestam-boevoi-i-trudovoi-slavy-belorusskogo-naroda-startoval-v-bgpu-9111879.png" alt="Телеканал СТВ. «Звёздный поход» по местам боевой и трудовой славы белорусского народа стартовал в БГПУ"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Телеканал СТВ. «Звёздный поход» по местам боевой и трудовой славы белорусского народа стартовал в БГПУ</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;">В Белорусском государственном педагогическом университете имени Максима Танка стартовал 61-й интернациональный &laquo;Звездный поход&raquo; студентов и преподавателей вуза, сообщили в программе Новости &laquo;24 часа&raquo; на СТВ.</p>
+</div>
+                    </div>
+                    <a class="read-more"  href="/news/smi-o-bgup/telekanal-stv-zvezdnyi-pohod-po-mestam-boevoi-i-trudovoi-slavy-belorusskogo-naroda-startoval-v-bgpu">
+                        Подробнее                     </a>
+                    <div itemprop="datePublished" class="news-date">2026-01-27</div>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/informacionnyi-gorodskoi-portal-minsk-novosti-v-bgpu-dali-start-internacionalnomu-61-mu-zvezdnomu-pohodu-1120308.png" alt="Информационный городской портал «Минск-Новости». В БГПУ дали старт интернациональному 61-му «Звездному походу»"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Информационный городской портал «Минск-Новости». В БГПУ дали старт интернациональному 61-му «Звездному походу»</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;">Интернациональный 61-й &laquo;Звездный поход&raquo; БГПУ по местам боевой и трудовой славы белорусского народа в 2026 году объединил 11 отрядов &mdash; более 250 студентов и преподавателей. Торжественный митинг, посвященный старту проекта, прошел в главном корпусе университета 27 января, передает корреспондент агентства &laquo;Минск-Новости&raquo;.</p>
+</div>
+                    </div>
+                    <a class="read-more"  href="/news/smi-o-bgup/informacionnyi-gorodskoi-portal-minsk-novosti-v-bgpu-dali-start-internacionalnomu-61-mu-zvezdnomu-pohodu">
+                        Подробнее                     </a>
+                    <div itemprop="datePublished" class="news-date">2026-01-27</div>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/portal-sbby-v-minske-startoval-61-i-zvezdnyi-pohod-bgpu-po-mestam-boevoi-i-trudovoi-slavy-belorusskogo-naroda-170107.png" alt="Портал sb.by. В Минске стартовал 61-й «Звездный поход» БГПУ по местам боевой и трудовой славы белорусского народа"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Портал sb.by. В Минске стартовал 61-й «Звездный поход» БГПУ по местам боевой и трудовой славы белорусского народа</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;">Сегодня, 27 января, в Минске стартовал интернациональный 61-й &laquo;Звездный поход&raquo; БГПУ по местам боевой и трудовой славы белорусского народа. 250 юношей и девушек в ближайшие три дня посетят города и районы Минской, Гродненской и Брестской областей.</p>
+</div>
+                    </div>
+                    <a class="read-more"  href="/news/smi-o-bgup/portal-sbby-v-minske-startoval-61-i-zvezdnyi-pohod-bgpu-po-mestam-boevoi-i-trudovoi-slavy-belorusskogo-naroda">
+                        Подробнее                     </a>
+                    <div itemprop="datePublished" class="news-date">2026-01-27</div>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/telekanal-stv-po-mestam-boevoi-i-trudovoi-slavy---rasskazyvaem-o-proekte-zvezdnyi-pohod-8557379.PNG" alt="Телеканал СТВ. По местам боевой и трудовой славы – рассказываем о проекте «Звёздный поход»"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Телеканал СТВ. По местам боевой и трудовой славы – рассказываем о проекте «Звёздный поход»</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;">В студии программы &laquo;Новое утро&raquo; на РТР-Беларусь &ndash; <strong>Елена Викторовна Журавская</strong>, начальник Центра студенческого творчества БГПУ, и <strong>София Смоликова</strong>, участница похода, студентка БГПУ.</p>
+</div>
+                    </div>
+                    <a class="read-more"  href="/news/smi-o-bgup/telekanal-stv-po-mestam-boevoi-i-trudovoi-slavy---rasskazyvaem-o-proekte-zvezdnyi-pohod">
+                        Подробнее                     </a>
+                    <div itemprop="datePublished" class="news-date">2026-01-26</div>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/informacionnyi-portal-zhodino-zhodinonewsby-zvezdnyi-pohod-studentov-bgpu-pridet-v-zhodino-9043439.png" alt="Информационный портал Жодино zhodinonews.by. «Звездный поход» студентов БГПУ придет в Жодино"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Информационный портал Жодино zhodinonews.by. «Звездный поход» студентов БГПУ придет в Жодино</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;">Для гражданского и патриотического воспитания студенческой молодежи с 27 по 30 января состоится интернациональный 61-й Звёздный поход БГПУ по местам боевой и трудовой славы белорусского народа.</p>
+</div>
+                    </div>
+                    <a class="read-more"  href="/news/smi-o-bgup/informacionnyi-portal-zhodino-zhodinonewsby-zvezdnyi-pohod-studentov-bgpu-pridet-v-zhodino">
+                        Подробнее                     </a>
+                    <div itemprop="datePublished" class="news-date">2026-01-23</div>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/sait-gazety-nyasvіzhskіya-navіny-61-i-zvezdnyi-pohod-bgpu-3710184.png" alt="Сайт газеты &quot;Нясвіжскія навіны&quot;. 61-й Звездный поход БГПУ"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Сайт газеты &quot;Нясвіжскія навіны&quot;. 61-й Звездный поход БГПУ</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;">С целью гражданского и патриотического воспитания студенческой молодежи в период зимних каникул с 27 по 30 января 2026 года в БГПУ состоится интернациональный 61-й Звёздный поход БГПУ по местам боевой и трудовой славы белорусского народа.</p>
+</div>
+                    </div>
+                    <a class="read-more"  href="/news/smi-o-bgup/sait-gazety-nyasvіzhskіya-navіny-61-i-zvezdnyi-pohod-bgpu">
+                        Подробнее                     </a>
+                    <div itemprop="datePublished" class="news-date">2026-01-23</div>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/telekanal-belarus-2-programma-pin_kod-uchimsya-otdyhat-effektivno-vse-pro-taim-menedzhment-7698141.png" alt="Телеканал &quot;Беларусь 2&quot;. Программа &quot;ПИН_КОД&quot;. Учимся отдыхать эффективно. Всё про тайм-менеджмент "/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Телеканал &quot;Беларусь 2&quot;. Программа &quot;ПИН_КОД&quot;. Учимся отдыхать эффективно. Всё про тайм-менеджмент </h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;">Гуру планирования: своим опытом как все успеть поделилась студентка Института психологии БГПУ Милена Молоканова.</p>
+</div>
+                    </div>
+                    <a class="read-more"  href="/news/smi-o-bgup/telekanal-belarus-2-programma-pin_kod-uchimsya-otdyhat-effektivno-vse-pro-taim-menedzhment">
+                        Подробнее                     </a>
+                    <div itemprop="datePublished" class="news-date">2026-01-21</div>
+                    <div class="clearfix"></div>
+                </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-sm-6 news-item" itemscope itemtype="http://schema.org/NewsArticle">
+                                        <div class="thumbnail">
+                        <img itemprop="image" src="images/article/medium/sait-gazety-krupskі-vestnіk-v-krupskii-raion-priedet-61-i-zvezdnyi-pohod-bgpu-3805727.png" alt="Сайт газеты &quot;Крупскі вестнік&quot;. В Крупский район приедет 61-й Звёздный поход БГПУ"/>
+                    </div>
+                                        <div class="warp-news">
+                        <h6 itemprop="headline">Сайт газеты &quot;Крупскі вестнік&quot;. В Крупский район приедет 61-й Звёздный поход БГПУ</h6>
+                        <div itemprop="description" class="text-desc"><p style="text-align: justify;">БГПУ проведет 61-й Звёздный поход по местам боевой и трудовой славы белорусского народа.</p>
+</div>
+                    </div>
+                    <a class="read-more"  href="/news/smi-o-bgup/sait-gazety-krupskі-vestnіk-v-krupskii-raion-priedet-61-i-zvezdnyi-pohod-bgpu">
+                        Подробнее                     </a>
+                    <div itemprop="datePublished" class="news-date">2026-01-21</div>
+                    <div class="clearfix"></div>
+                </div>
+                    </div>
+        <a class="read-more" href="/news/smi-o-bgup/">Все новости рубрики &laquo;СМИ о БГПУ&raquo;</a>
+        <div class="clearfix"></div>
+    </div>
+</div>
+                        </div>
+                        <div class="block-header"><span><p>Абитуриенту/ For applicants</p>
+  </span></div>
+                        <div class="abitur-content">
+                            <div class="row">
+                                <div class="col-4-from-10">
+                                    <p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/QtWwQDzk6e4?si=lNAoZTHub1-XaJD0" title="YouTube video player" width="250px"></iframe></p>
+
+                                </div>
+                                <div class="col-6-from-10" style="padding: 10px;">
+                                    <p><strong>Информация для абитуриентов</strong>
+                                    </p>
+                                    <div style="/* margin-bottom: 22px; */"><p style="/* margin-bottom: 22px; */">Воспользуйтесь сервисом электронной регистрации личного кабинета абитуриента и сократите время подачи документов в приемную комиссию БГПУ</p>
+
+<p style="margin-bottom: 0px;">Видеоинструкция по заполнению<span>&nbsp;личного кабинета абитуриента</span></p>
+
+                                    </div>
+                                    <a href="https://www.youtube.com/watch?v=u4s6eU7CPTE">Подробнее</a></div>
+
+                                <div class="col-3-from-10" style="padding: 10px;">
+                                    <p><strong>Прием 2026</strong></p>
+
+                                    <div class="priem-link">
+                                        <span class="glyphicon glyphicon-file"></span>
+                                        <a href="https://bspu.by/admin-panel/vendor/kcfinder/upload/files/Priem_2026/Poryadok_priyoma_-_2026.pdf">Порядок приема</a>
+                                    </div>
+                                    <div class="priem-link">
+                                        <span class="glyphicon glyphicon-calendar"></span>
+                                        <a href="/admin-panel/vendor/kcfinder/upload/files/Priem_2026/01/Pravila_priema_v_VUZ_ot_31.12.2025.pdf">Правила приема</a>
+                                    </div>
+                                    <div class="priem-link">
+                                        <span class="glyphicon glyphicon-question-sign"></span>
+                                        <a href="/abiturientu/specialnosti-2026">Специальности 2026</a>
+                                    </div>
+                                    <div class="priem-link">
+                                        <span class="glyphicon glyphicon-time"></span>
+                                        <a href="https://bspu.by/abiturientu/stoimost-obucheniya">Стоимость обучения</a>
+                                    </div>
+                                    <!--<div class="priem-link">
+                                        <span class="glyphicon glyphicon-list"></span>
+                                        <a href="https://bspu.by/abiturientu/repeticionnoe-testirovanie">Репетиционное тестирование</a>
+                                    </div>-->
+                                     <div class="priem-link">
+                                        <span class="glyphicon glyphicon-file"></span>
+                                        <a href="https://bspu.by/upravleniya-i-podrazdeleniya/otdel-mezhdunarodnogo-sotrudnichestva/inostrannym-abiturientam">Иностранным абитуриентам</a>
+                                    </div>
+                                     <div class="priem-link">
+                                        <span class="glyphicon glyphicon-file"></span>
+                                        <a href="https://cn.bspu.by">對於外國人</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                    </div>
+                <div class="col-xs-3 visible-md visible-lg">
+                    <div class="site-news">
+                        <div class="main-widjet">
+                            <div class="block-header"><span>Анонс событий</span></div>
+<div class="news-item news-events">
+    <div id="events" class="eventsModule">
+        <div class="viewport">
+            <ul class="overview">
+                                    <li>
+                        <div class="dt">янв <span>29</span></div>
+                        <div class="dd">
+                            <p>
+                                <a href="/events/pasyadzhenne-saveta-unіversіteta">Пасяджэнне Савета ўніверсітэта</a>
+                                <span>10:00</span>
+                            </p>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="dt">янв <span>29</span></div>
+                        <div class="dd">
+                            <p>
+                                <a href="/events/spartakiada-rabotnikov-bgpu-2026">Спартакиада работников БГПУ 2026 </a>
+                                <span>12:00</span>
+                            </p>
+                        </div>
+                    </li>
+                                    <li>
+                        <div class="dt">янв <span>30</span></div>
+                        <div class="dd">
+                            <p>
+                                <a href="/events/internacionalnyi-61-i-zvezdnyi-pohod-po-mestam-boevoi-i-trudovoi-slavy-belorusskogo-naroda">Интернациональный 61-й Звёздный поход по местам боевой и трудовой славы белорусского народа</a>
+                                <span>11:00</span>
+                            </p>
+                        </div>
+                    </li>
+                            </ul>
+        </div>
+        <div style="width:50%; float:right">
+            <div class="text-right">
+                <a href="/events/">Все события</a>
+            </div>
+        </div>
+        <div style="width:50%; float:left">
+            <a class="buttons prev" href="#">&nbsp;</a>
+            <a class="buttons next" href="#">&nbsp;</a>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+                        </div>
+                            <div class="main-widjet">
+    <div class="this-is-link">
+
+        <a href="https://bspu.by/upravleniya-i-podrazdeleniya/otdel-mezhdunarodnogo-sotrudnichestva/inostrannym-grazhdanam">
+            <div class="block-header">
+                <span>Иностранный абитуриент</span>
+            </div>
+            <div class="news-item">
+                <p><a href="https://bspu.by/upravleniya-i-podrazdeleniya/otdel-mezhdunarodnogo-sotrudnichestva/inostrannym-grazhdanam"><img alt="" src="/admin-panel/vendor/kcfinder/upload/images/UMS/2020/depositphotos_6507619-stock-illustration-business-team-communicartion-with-flags.jpg" style="width: 250px; height: 190px;" /></a></p>
+
+                <div class="clearfix"></div>
+            </div>
+        </a>
+
+    </div>
+</div>
+<div class="main-widjet">
+    <div class="this-is-link">
+
+        <a href="https://bspu.by/moodle3/">
+            <div class="block-header">
+                <span>Интернет-олимпиада</span>
+            </div>
+            <div class="news-item">
+                <p style="text-align: center;"><a href="https://bspu.by/moodle3/"><img alt="" src="/admin-panel/vendor/kcfinder/upload/images/news/2019/olimp.png" style="width: 250px; height: 156px;" /></a></p>
+
+                <div class="clearfix"></div>
+            </div>
+        </a>
+
+    </div>
+</div>
+<div class="main-widjet">
+    <div class="this-is-link">
+
+        <a href="http://studyinby.com/">
+            <div class="block-header">
+                <span>&nbsp;</span>
+            </div>
+            <div class="news-item">
+                <p><a href="https://www.belarus.by/ru/"><img alt="" src="/admin-panel/vendor/kcfinder/upload/images/news/2022/08.2022/Belarus.jpg" style="width: 250px; height: 59px;" /></a></p>
+
+<p><a href="https://studyinby.com/"><img alt="" src="/admin-panel/vendor/kcfinder/upload/images/news/2022/05.2022/study_by.jpg" style="width: 250px; height: 69px;" /></a></p>
+
+<p><a href="https://export.by/services"><img alt="" src="/admin-panel/vendor/kcfinder/upload/files/news/2021/10.2021/ExportBY.jpg" style="width: 240px; height: 50px;" /></a></p>
+
+                <div class="clearfix"></div>
+            </div>
+        </a>
+
+    </div>
+</div>
+<div class="main-widjet">
+    <div class="this-is-link">
+
+        <a href="https://ipkip.bspu.by/perepodgotovka/vtoraya-specialnost">
+            <div class="block-header">
+                <span>&nbsp;</span>
+            </div>
+            <div class="news-item">
+                <!--НЕ ТРОГАТЬ!!! Все вопросы по телефону 8(017) 327-77-13. Отдел web-программирования ЦРИТ -->
+<style type="text/css">.training a { 
+    display:block;   
+    background:#f5f5f5;  
+    color: #2157a0 !important; 
+    font-size: 14px; 
+    font-weight: bold; 
+    padding: 4px 10px;
+}
+
+.description ul{
+    margin: 0;
+    padding:0;
+  }
+
+.description1 a {
+    display: block;
+    padding-left: 36px;
+    position: relative;
+    text-decoration: underline;
+}
+.description1 a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 15px;
+    width: 15px;
+    top: 3px;
+    left: 9px;
+    background-position: -5px -7px;
+    opacity: .6;
+}
+.panel-head a:hover, a:focus {
+    text-decoration: none;
+}
+
+.popular-spec {
+    margin-bottom:20px
+}
+
+
+.popular-spec a{
+    color: black !important;
+    display: block;
+    padding: 5px;
+    margin: 0;
+    padding-left: 57px;
+    text-decoration: none;
+    border: 1px solid #e4e4e4;
+    border-radius: 4px;
+    margin-bottom: -1px;
+}
+
+.popular-spec a:hover{
+    cursor:pointer;
+    background:#e8e8e8;
+    text-decoration: underline;
+
+}
+
+
+.description a{
+    display:block;
+    padding:4px 0 4px 50px;
+    text-decoration:none;
+    list-style:none;
+    color:black !important;
+  }
+
+.description1 {
+    padding: 10px;
+  }
+
+.description .active:hover{
+    cursor:pointer;
+    background:#e8e8e8;
+    text-decoration: underline;
+
+  }
+  .description .noactive:hover{
+    cursor:pointer;
+    cursor: default;
+  }
+
+.modal-dialog h4 {
+    color:black;
+}
+.modal-body {
+    padding:10px;
+}
+
+a.contacts {    
+    display: block;
+    padding: 7px;
+    border: 1px solid;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+a.contacts:hover {   
+    background:red;
+}
+
+
+.left {
+    float: left; 
+    margin: 0 1em 1em 0;
+} 
+.right {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+.img-center {
+    float: left;
+    margin: 0 1.5% 0 1.5%;
+    max-width: 37%;
+}
+.center {
+    display: block;
+    margin: 0 auto 1.5%;
+}
+
+
+
+
+/*Виджеты начало*/
+ul.sidebar-items, li.sidebar-item {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img.sidebar-icon {
+    width: 50px !important;
+    height: 50px !important;
+    margin: 2px
+}
+img.sidebar-icon-2 {
+    width: 50px !important;
+    height: 50px !important;
+    margin: 2px;
+    padding: 0;
+}
+
+@media(max-width: 600px) {
+img.sidebar-icon-2 {
+    width: 200px !important;
+    height: 200px !important;
+    margin: 2px;
+    padding: 0;
+}
+}
+
+a.sidebar__link {
+    display: block;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 13px;
+    text-decoration: none;
+    letter-spacing: -0.3px;
+
+}
+
+li.sidebar-item {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+}
+li.sidebar-item:hover {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.25), 0 2px 10px 0 rgba(0,0,0,.25);
+    transform: translateX(2px);
+    transition: 0.2s;
+
+}
+
+
+/*Виджеты конец*/
+.sidebar__link span {
+    display: flex;
+    height: 54px;
+    align-items: center;
+    margin-left: 58px;
+    color: #458bc7 !important;
+    background-color: #f9f9f9 !important;
+
+}
+
+.main-widjet .news-item img {
+margin-top: 0px!important;
+}
+
+.sidebar__link span:hover, a.sidebar__link span:focus {
+    color: #2a6496;
+}
+
+@media handheld and (max-width: 600px){
+	.training a { 
+    display:block;   
+    background:#f5f5f5;  
+    color: #2157a0 !important; 
+    font-size: 14px; 
+    font-weight: bold; 
+    padding: 4px 10px;
+}
+}
+
+@media handheld and (max-width: 600px){
+.description ul{
+    margin: 0;
+    padding:0;
+  }
+}
+
+@media handheld and (max-width: 600px){
+.description1 a {
+    display: block;
+    padding-left: 36px;
+    position: relative;
+    text-decoration: underline;
+}
+	}
+	
+@media handheld and (max-width: 600px){
+.description1 a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 15px;
+    width: 15px;
+    top: 3px;
+    left: 9px;
+    background-position: -5px -7px;
+    opacity: .6;
+}
+}
+
+@media handheld and (max-width: 600px){
+.panel-head a:hover, a:focus {
+    text-decoration: none;
+}
+}
+
+@media handheld and (max-width: 600px){
+.popular-spec {
+    margin-bottom:20px
+}
+}
+
+@media handheld and (max-width: 600px){
+.popular-spec a{
+    color: black !important;
+    display: block;
+    padding: 5px;
+    margin: 0;
+    padding-left: 57px;
+    text-decoration: none;
+    border: 1px solid #e4e4e4;
+    border-radius: 4px;
+    margin-bottom: -1px;
+}
+}
+
+@media handheld and (max-width: 600px){
+.popular-spec a:hover{
+    cursor:pointer;
+    background:#e8e8e8;
+    text-decoration: underline;
+
+}
+}
+
+@media handheld and (max-width: 600px){
+.description a{
+    display:block;
+    padding:4px 0 4px 50px;
+    text-decoration:none;
+    list-style:none;
+    color:black !important;
+  }
+}
+
+@media handheld and (max-width: 600px){
+.description1 {
+    padding: 10px;
+  }
+}
+
+@media handheld and (max-width: 600px){
+.description .active:hover{
+    cursor:pointer;
+    background:#e8e8e8;
+    text-decoration: underline;
+	}
+  }
+  
+  @media handheld and (max-width: 600px){
+  .description .noactive:hover{
+    cursor:pointer;
+    cursor: default;
+  }
+}
+
+@media handheld and (max-width: 600px){
+.modal-dialog h4 {
+    color:black;
+}
+.modal-body {
+    padding:10px;
+}
+}
+
+@media handheld and (max-width: 600px){
+a.contacts {    
+    display: block;
+    padding: 7px;
+    border: 1px solid;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+}
+
+@media handheld and (max-width: 600px){
+a.contacts:hover {   
+    background:red;
+}
+}
+
+
+@media handheld and (max-width: 600px){
+.left {
+    float: left; 
+    margin: 0 1em 1em 0;
+} 
+}
+
+@media handheld and (max-width: 600px){
+.right {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+}
+
+@media handheld and (max-width: 600px){
+.img-center {
+    float: left;
+    margin: 0 1.5% 0 1.5%;
+    max-width: 37%;
+}
+}
+
+@media handheld and (max-width: 600px){
+.center {
+    display: block;
+    margin: 0 auto 1.5%;
+}
+}
+
+
+
+/*Виджеты начало*/
+@media handheld and (max-width: 600px) {
+ul.sidebar-items, li.sidebar-item {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+}
+
+@media handheld and (max-width: 600px) {
+img.sidebar-icon {
+    width: 200px !important;
+    height: 200px !important;
+    margin: 2px
+}
+}
+
+@media(max-width: 600px) {
+img.sidebar-icon-2 {
+    width: 200px !important;
+    height: 200px !important;
+    margin: 2px;
+    padding: 0;
+}
+}
+
+@media handheld and (max-width: 600px) {
+a.sidebar__link {
+    display: block;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 13px;
+    text-decoration: none;
+    letter-spacing: -0.3px;
+
+}
+}
+
+@media handheld and (max-width: 600px) {
+li.sidebar-item {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+}
+}
+
+@media handheld and (max-width: 600px) {
+li.sidebar-item:hover {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.25), 0 2px 10px 0 rgba(0,0,0,.25);
+    transform: translateX(2px);
+    transition: 0.2s;
+
+}
+}
+
+/*Виджеты конец*/
+@media handheld and (max-width: 600px) {
+.sidebar__link span {
+    display: flex;
+    height: 54px;
+    align-items: center;
+    margin-left: 58px;
+    color: #458bc7 !important;
+    background-color: #f9f9f9 !important;
+
+}
+}
+
+@media handheld and (max-width: 600px) {
+.main-widjet .news-item img {
+margin-top: 0px!important;
+}
+}
+
+@media handheld and (max-width: 600px) {
+.sidebar__link span:hover, a.sidebar__link span:focus {
+    color: #2a6496;
+}
+}
+</style>
+<ul class="sidebar-items">
+	<li class="sidebar-item"><a class="sidebar__link" href="https://hotel.bspu.by"><img class="sidebar-icon-2 left" src="https://ipkip.bspu.by/admin-panel/vendor/kcfinder/upload/images/hostel1/%D0%B3%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B8%D1%86%D0%B0-%D0%BD%D0%B0-%D0%91%D0%93%D0%9F%D0%A3.jpg" /><span>Гостиница &laquo;Университетская&raquo;</span></a></li>
+	<li class="sidebar-item"><a class="sidebar__link" href="https://kursy.bspu.by"><img class="sidebar-icon-2 left" src="https://ipkip.bspu.by/admin-panel/vendor/kcfinder/upload/images/right menu/cdo.jpg" /><span>ЦДО &laquo;Альтернатива&raquo;</span></a></li>
+	<li class="sidebar-item"><a class="sidebar__link" href="https://ipkip.bspu.by/perepodgotovka/vtoraya-specialnost"><img class="sidebar-icon-2 left" src="/admin-panel/vendor/kcfinder/upload/images/news/2022/04.2022/4cHAS1VqpfY(1).jpg" /><span>Переподготовка студентов</span></a></li>
+</ul>
+
+<p><a href="https://nastaunik.bspu.by/"><img alt="" src="/admin-panel/vendor/kcfinder/upload/images/news/2025/08.2025/QR-kod_1.jpg" style="width: 400px;" /></a></p>
+
+                <div class="clearfix"></div>
+            </div>
+        </a>
+
+    </div>
+</div>
+<div class="main-widjet">
+    <div class="this-is-link">
+
+        <a href="/onlain-platforma-talk2okby">
+            <div class="block-header">
+                <span>Онлайн-платформа Talk2ok.by</span>
+            </div>
+            <div class="news-item">
+                <p><a href="/onlain-platforma-talk2okby"><img alt="" src="/admin-panel/vendor/kcfinder/upload/images/news/2025/06.2025/inf.jpg" style="width: 250px; height: 128px;" /></a></p>
+
+                <div class="clearfix"></div>
+            </div>
+        </a>
+
+    </div>
+</div>
+<div class="main-widjet">
+    <div class="this-is-link">
+
+        <a href="https://pedklassy.bspu.by/">
+            <div class="block-header">
+                <span>Педагогические классы</span>
+            </div>
+            <div class="news-item">
+                <p><img alt="" src="/admin-panel/vendor/kcfinder/upload/images/profklassy.jpg" style="width: 250px; height: 177px;" /></p>
+
+                <div class="clearfix"></div>
+            </div>
+        </a>
+
+    </div>
+</div>
+<div class="main-widjet">
+    <div class="this-is-link">
+
+        <a href="https://bosng.bspu.by/">
+            <div class="block-header">
+                <span>Базовая организация СНГ</span>
+            </div>
+            <div class="news-item">
+                <p><img alt="" src="/admin-panel/vendor/kcfinder/upload/images/news/2019/02.2019/SNG_picture.jpg" style="width: 250px; height: 125px;" /></p>
+
+                <div class="clearfix"></div>
+            </div>
+        </a>
+
+    </div>
+</div>
+<div class="main-widjet">
+    <div class="this-is-link">
+
+        <a href="https://bspu.by/upravleniya-i-podrazdeleniya/upravlenie-vospitatelnoi-raboty-s-molodezhyu/internacionalnye-zvezdnye-pohody">
+            <div class="block-header">
+                <span>&nbsp;</span>
+            </div>
+            <div class="news-item">
+                <p><a href="https://bspu.by/upravleniya-i-podrazdeleniya/upravlenie-vospitatelnoi-raboty-s-molodezhyu/internacionalnye-zvezdnye-pohody"><img alt="" src="/admin-panel/vendor/kcfinder/upload/images/news/2022/06.2022/image.jpg" style="width: 250px; height: 173px;" /></a></p>
+
+                <div class="clearfix"></div>
+            </div>
+        </a>
+
+    </div>
+</div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="post-content" class="hidden-xs hidden-sm">
+        <div class="container">
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="block-header"><span>Следуйте за нами</span></div>
+                        <div class="follow-us">
+                            <div class="row">
+                                <div class="col-xs-2">
+                                    <a target="_blank" href="https://bspu.by/redirect.php?location=facebook">
+                                        <img class="thumbnail" src="/images/follow-us/Facebook-logo.png" alt="Сообщество БГПУ в Facebook"/>
+                                    </a>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="col-xs-2">
+                                    <a target="_blank" href="//youtube.com/bspuby">
+                                        <img class="thumbnail" src="/images/follow-us/youtube-logo.png" alt="Канал БГПУ"/>
+                                    </a>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="col-xs-2">
+                                    <a target="_blank" href="https://vk.com/bspuby">
+                                        <img class="thumbnail" src="/images/follow-us/vk-logo.png" alt="Сообщество БГПУ в Вконтакте"/>
+                                    </a>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="col-xs-2">
+                                    <a target="_blank" href="https://www.instagram.com/bspu.by/   ">
+                                        <img class="thumbnail" src="/images/follow-us/instagram-logo.png" alt="БГПУ в Instagram"/>
+                                    </a>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="col-xs-2">
+                                    <a target="_blank" href="//t.me/bspu_official">
+                                        <img class="thumbnail" src="/images/follow-us/telegram_blue.png" alt="БГПУ в Telegram"/>
+                                    </a>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="col-xs-2">
+                                    <a target="_blank" href="//ok.ru/group/52683687788767">
+                                        <img class="thumbnail" src="/images/follow-us/ok.png" alt="БГПУ в Одноклассниках"/>
+                                    </a>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="partners">
+                            <a class="buttons prev" href="#">&nbsp;</a>
+                            <a class="buttons next" href="#">&nbsp;</a>
+                            <div class="col-xs-12">
+                                <div class="viewport">
+                                    <ul class="overview">
+                                        <li><a href="https://president.gov.by/ru" rel="nofollow" target="_blank"><img src="http://bspu.by/admin-panel/vendor/kcfinder/upload/files/news/2022/03.2022/president2.jpg" alt="Официальный интернет-портал Президента Республики Беларусь"/></a></li>
+                                        <li><a href="https://edu.gov.by/" rel="nofollow" target="_blank"><img src="http://bspu.by/admin-panel/vendor/kcfinder/upload/files/news/2022/03.2022/minobr.jpg" alt="Министерство образования Республики Беларусь"/></a></li>
+                                        <li><a href="https://mosk.minsk.gov.by/" rel="nofollow" target="_blank"><img src="/images/gov/admin_mos.jpg" alt="Администрация Московского района г.Минска"/></a></li>
+                                        <li><a href="https://brsm.by/about/info/" rel="nofollow" target="_blank"><img src="http://bspu.by/admin-panel/vendor/kcfinder/upload/files/news/2022/03.2022/brsm.jpg" alt="Белорусский республиканский союз молодежи"/></a></li>
+                                        <li><a href="https://www.pravo.by/" rel="nofollow" target="_blank"><img src="http://bspu.by/admin-panel/vendor/kcfinder/upload/files/news/2022/03.2022/pravo.jpg" alt="Национальный правовой Интернет-портал Республики Беларусь"/></a></li>
+                                       <li><a href="https://patriot.rcek.by/" rel="nofollow" target="_blank"><img src="/images/gov/patriotby.jpg" alt="Интерактивная платформа патриотического воспитания"/></a></li>
+                                        <li><a href="https://euapu.ru/" rel="nofollow"target="_blank" ><img src="/images/gov/gov6.jpg" alt="Офис программы TEMPUS в Республике Беларусь"/></a></li> -->
+                                        <li><a href="https://www.abiturient.by/" rel="nofollow" target="_blank"><img src="/images/gov/gov7.jpg" alt="Сайт Абитуриент.by"/></a></li>
+                                        <li><a href="https://www.belarus.by/ru" rel="nofollow" target="_blank"><img src="/images/gov/sm.gif" alt="Официальный сайт Республики Беларусь"/></a></li>
+                                        <!-- <li><a href="https://nihe.bsu.by/index.php/ru/vs" rel="nofollow" target="_blank"><img src="/images/gov/55.jpg">--></a></li>
+                                        <li><a href="https://www.amia.by/" rel="nofollow" target="_blank"><img src="http://bspu.by/admin-panel/vendor/kcfinder/upload/files/news/2022/03.2022/amia.jpg"></a></li>
+                                        <li><a href="http://www.sportbass.by/" rel="nofollow" target="_blank"><img src="https://bspu.by/admin-panel/vendor/kcfinder/upload/files/news/2020/05.2020/bass.jpg"></a></li>
+                                       <li><a href="https://www.bstu.by/" rel="nofollow" target="_blank"><img src="/admin-panel/vendor/kcfinder/upload/images/news/2024/02/logo_BrGTU_400.jpg"></a></li>
+                                        <!--<li><a href="https://www.unifi.it/" rel="nofollow" target="_blank"><img src="/images/gov/5.jpg"></a></li>-->
+                                        <!--<li><a href="https://leu.lt/lt/pradzia.html" rel="nofollow" target="_blank"><img src="/images/gov/6.jpg"></a></li>-->
+                                        <!--<li><a href="https://www.vdu.lt/ru/" rel="nofollow" target="_blank"><img src="/images/gov/7.jpg"></a></li>-->
+                                        <!--<li><a href="https://fontys.edu/" rel="nofollow" target="_blank"><img src="/images/gov/8.jpg"></a></li>-->
+                                        <!--<li><a href="https://www.nord.no/en/Pages/default.aspx" rel="nofollow" target="_blank"><img src="/images/gov/9.jpg"></a></li>-->
+                                        <!--<li><a href="https://www.ukw.edu.pl/strona/english" rel="nofollow" target="_blank"><img src="/images/gov/10.jpg"></a></li>-->
+                                        <!--<li><a href="https://www.en.uj.edu.pl/en" rel="nofollow" target="_blank"><img src="/images/gov/11.jpg"></a></li>-->
+                                        <!--<li><a href="https://www.uph.edu.pl/en/" rel="nofollow" target="_blank"><img src="/images/gov/12.jpg"></a></li>-->
+                                        <li><a href="https://www.herzen.spb.ru/" rel="nofollow" target="_blank"><img src="/images/gov/13.jpg"></a></li>
+                                        <li><a href="https://www.kantiana.ru/" rel="nofollow" target="_blank"><img src="/images/gov/14.jpg"></a></li> -->
+                                        <li><a href="https://vk.com/idn_okt_rovd" rel="nofollow" target="_blank"><img src="/images/gov/insp.jpg"></a></li>
+                                        <!--<li><a href="https://www.kolomna-kgpi.ru/" rel="nofollow" target="_blank"><img src="/images/gov/16.png"></a></li>-->
+                                        <!--<li><a href="https://www.uspu.ru" rel="nofollow" target="_blank"><img src="/images/gov/17.jpg"></a></li>-->
+                                        <li><a href="https://nspu.ru/" rel="nofollow" target="_blank"><img src="/images/gov/18.jpg"></a></li>
+                                        <li><a href="https://молодежь.бел/" rel="nofollow" target="_blank"><img src="/admin-panel/vendor/kcfinder/upload/files/BSPU/logo.png"></a></li>
+                                        <!--<li><a href="https://edu.gov.by/vitebsk-molodyezhnaya-stolitsa-2022/" rel="nofollow" target="_blank"><img src="/admin-panel/vendor/kcfinder/upload/files/BSPU/vitebsk2022.jpg"></a></li>-->
+                                        <li><a href="http://xn--d1acdremb9i.xn--90ais/informatsiya-po-vazhnym-voprosam/uchashcheysya-i-studencheskoy-molodyezhi/molodyezh-protiv-narkotikov/" rel="nofollow" target="_blank"><img src="/admin-panel/vendor/kcfinder/upload/files/BSPU/stop_narc.jpg"></a></li>
+                                        <li><a href="https://www.mintrud.gov.by/ru/trud-molodezh-ru" rel="nofollow" target="_blank"><img src="http://bspu.by/admin-panel/vendor/kcfinder/upload/files/BSPU/sl_zan.jpg"></a></li>
+                                        <!--<li><a href="https://www.npu.edu.ua/en/" rel="nofollow" target="_blank"><img src="/images/gov/26.jpg"></a></li>
+                                        <li><a href="https://www.donnu.edu.ua/ru-ru/Pages/%D0%94%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D1%8F.aspx" rel="nofollow" target="_blank"><img src="/images/gov/27.jpg"></a></li>-->
+                                        <li><a href="https://www.pac.by/ru/" rel="nofollow" target="_blank"><img src="/images/gov/AUPP.jpg"></a></li>
+                                        <li><a href="https://t.me/ucheba_by" rel="nofollow" target="_blank"><img src="/admin-panel/vendor/kcfinder/upload/images/news/2025/08.2025/Telega.jpg"></a></li>
+                                        <!--<li><a href="http://www.kpi.kharkov.ua/ru/" rel="nofollow" target="_blank"><img src="/images/gov/28.jpg"></a></li>-->
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="rss-block">
+                            <div class="block-header"><a href="http://president.gov.by/"><span>Новости</span> портала Президента Республики Беларусь</a><span></div>
+                           <!-- <div id="rss1" class="rss"><script type="text/javascript">var charset='UTF-8';var t=document.getElementsByTagName('meta');for(var i=0; i<t.length; i++){var rg=/charset=["']?([^"']*)/g;if(t[i].content.indexOf('charset')!=-1){charset=rg.exec(t[i].content)[1];break;}}document.write('<script type="text/javascript" src="https://www.commafeed.com/rest/feed/entriesAsFeed?id=141453074&apiKey=65fd2e3de5b27914e16221cc13029a0fbd097b16"><\/script>');</script>
+</div>-->
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="rss-block">
+                            <div class="block-header"><a href="http://edu.gov.by/news/index.php"><span>Новости</span> Министерства образования Республики Беларусь</a><span></div>
+                           <!--  <div id="rss2" class="rss"><script type="text/javascript">var charset='UTF-8';var t=document.getElementsByTagName('meta');for(var i=0; i<t.length; i++){var rg=/charset=["']?([^"']*)/g;if(t[i].content.indexOf('charset')!=-1){charset=rg.exec(t[i].content)[1];break;}}document.write('<script type="text/javascript" src="https://www.rss-script.ru/rss-script.php?charset='+charset+'&rss[]=https%3A%2F%2Fedu.gov.by%2Fbitrix%2Frss.php%3FID%3D1%26LANG%3Dru%26TYPE%3Dnews%26LIMIT%3D3&media=1&notext=1&notitle=1&count=5"><\/script>');</script>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END Partners -->
+
+        </div>
+    <div id="footer">
+        <div id="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-3">
+                        <div class="row">
+                            <div class="col-lg-6 visible-lg" id="logo-footer">
+                                <p><a href="/"><img alt="" src="/admin-panel/vendor/kcfinder/upload/images/logo/BGPU-150.png" style="width: 79px; height: 108px;" /></a></p>
+
+                            </div>
+                            <div class="col-lg-6 visible-lg" id="foundation-footer">
+                                <span class="foundation-year">1914</span>
+                                <span class="foundation-text">год основания</span>
+                            </div>
+                           
+                            <div class="col-xs-12">
+                                <div class="clearfix"></div>
+                                <p>Республика Беларусь, 220030, г. Минск, ул. Советская, 18<br />
+<span style="line-height: 1.6em;">+375 (17) </span>311-20-97 (документооборот)<br />
+bspu@bspu.by<br />
+&nbsp;</p>
+
+<p>Приёмная комиссия:<br />
++375 (17) 311-21-28</p>
+
+<p>Регистрационное свидетельство №1141816985 от 26.11.2018 Государственного регистра информационных ресурсов</p>
+
+<p>Отзывы, пожелания по работе сайта&nbsp;можно посылать администратору: <a href="mailto:webmaster@bspu.by">webmaster@bspu.by</a></p>
+
+<p><a href="https://bspu.by/mail/">Почта</a></p>
+
+                                <div id="footer-social-links">
+                                 <div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'ru', includedLanguages: 'en,kk,zh-TW', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+                                        <span class="visible-lg-inline">Мы в социальных сетях: &nbsp;</span>
+                                        <a rel="nofollow" target="_blank" href="https://bspu.by/redirect.php?location=facebook"><img src="/images/social/fb_icon.png" alt="Сообщество БГПУ в Facebook"/></a>
+                                        <a rel="nofollow" target="_blank" href="https://vk.com/bspuby"><img src="/images/social/vk_icon.png" alt="Сообщество БГПУ в Вконтакте"/></a>
+                                        <a rel="nofollow" target="_blank" href="//youtube.com/bspuby"><img src="/images/social/yo_icon.png" alt="Канал БГПУ на Youtube"/></a>
+                                        <a rel="nofollow" target="_blank" href="https://www.instagram.com/bspu.by/   "><img src="/images/social/in_icon.png" alt="Сообщество БГПУ в Instagram"/></a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-sm-9">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <ul id="yw4">
+<li><a href="/obrazovanie/aspirantura---doktorantura">Аспирантура / Докторантура</a></li>
+<li><a href="/obrazovanie/vysshee-obrazovanie">Высшее образование</a></li>
+<li><a href="https://www.bspu.by/moodle/">Дистанционное обучение</a></li>
+<li><a href="/obrazovanie/douniversitetskaya-podgotovka">Доуниверситетская подготовка</a></li>
+<li><a href="/universitet/karta-korpusov">Карта корпусов</a></li>
+<li><a href="/obrazovanie/magistratura">Магистратура</a></li>
+<li><a href="/universitet/rukovodstvo-bgpu">Руководство БГПУ</a></li>
+<li><a href="/universitet/upravleniya-i-podrazdeleniya">Управления и подразделения</a></li>
+<li><a href="/universitet/fakultety-i-kafedry">Факультеты, институты</a></li>
+<li><a href="https://bspu-by.antiplagiat.ru/">Антиплагиат БГПУ</a></li>
+</ul>
+                            </div>
+                            <div class="col-sm-4">
+                                <ul id="yw5">
+<li><a href="/sotrudnichestvo/mezhdunarodnoe-sotrudnichestvo">Международное сотрудничество</a></li>
+<li><a href="/sotrudnichestvo/nauchnoe-sotrudnichestvo">Научное сотрудничество</a></li>
+<li><a href="/nauka/nauchno-issledovatelskii-sektor">Научно-исследовательский сектор</a></li>
+<li><a href="/sotrudnichestvo/sotrudnichestvo-s-biznesom">Сотрудничество с бизнесом</a></li>
+<li><a href="/nauka/sovet-molodyh-uchenyh">Совет молодых ученых</a></li>
+<li><a href="https://crit.bspu.by/">Центр развития информационных технологий</a></li>
+<li><a href="/nauka/centr-razvitiya-pedagogicheskogo-obrazovaniya">Центр развития педагогического образования</a></li>
+<li><a href="/odno-okno">Одно окно</a></li>
+<li><a href="/resursy-i-uslugi">Ресурсы и услуги</a></li>
+</ul>
+                            </div>
+                            <div class="col-sm-4">
+                                <ul id="yw6">
+<li><a href="/studentu/studencheskie-organizacii/brsm">ПО ОО БРСМ</a></li>
+<li><a href="/studentu/studencheskie-organizacii/profkom-studentov-bgpu">Профком студентов БГПУ</a></li>
+<li><a href="/sotrudniku/profsoyuz">Профсоюз работников БГПУ</a></li>
+<li><a href="/sotrudniku/roo-belaya-rus">РОО Белая русь</a></li>
+<li><a href="https://bpo.bspu.by/">ОО «Белорусское педагогическое общество»</a></li>
+<li><a href="/studentu/studencheskie-organizacii/studencheskii-sovet">Студенческий совет</a></li>
+<li><a href="/zhurnal-vesti-bdpu">Журнал &quot;Весцi БДПУ&quot;</a></li>
+<li><a href="https://kursy.bspu.by/">Центр дополнительного образования «Альтернатива»</a></li>
+<li><a href="/nashi-bannery">Наши баннеры</a></li>
+<li><a href="https://bsj.bspu.by/">ПО БГПУ ОО «Белорусский союз женщин»</a></li>
+</ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright row">
+                    <div class="col-md-9 col-xs-9">
+                        <span class="glyphicon glyphicon-copyright-mark"></span> 2014,
+                        <span class="visible-md-inline visible-lg-inline">Учреждение образования «белорусский государственный педагогический университет имени Максима Танка»
+</span>
+                        <span class="hidden-md hidden-lg">БГПУ им. Максима Танка</span>
+                    </div>
+                    <div class="col-md-3 col-xs-3 snami-block">
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,700&amp;subset=latin,cyrillic-ext,cyrillic,latin-ext' rel='stylesheet' property="stylesheet" type='text/css'>
+    <link rel="stylesheet" property="stylesheet" href="/css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" property="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" property="stylesheet" href="/css/typography.css">
+    <link rel="stylesheet" property="stylesheet" href="/css/rss.css">
+    <link rel="stylesheet" property="stylesheet" href="/css/stiky_button.css">
+    <link rel="stylesheet" property="stylesheet" href="/css/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+    <!-- custom js -->
+
+    <!-- Put this script tag to the <head> of your page -->
+        
+
+    <script src="/js/jquery-1.11.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.zrssfeed.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/jquery.tinycarousel.min.js"></script>
+    <script type="text/javascript" src="https://vkontakte.ru/js/api/share.js?9" charset="windows-1251"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script type="text/javascript" src="/js/source/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="/js/jquery.easing-1.3.pack.js"></script>
+    <link rel="stylesheet" property="stylesheet" type="text/css" href="/js/source/jquery.fancybox.css"/>
+    <!--<script src="google28d2dc7b2625192e.html"></script>-->
+    <script type="text/javascript">
+    $(document).ready(function() {
+         /*$('#rss1').rssfeed('http://president.gov.by/ru/rss_ru/', {
+            limit: 10,
+            // titletag: 'div',
+            dateformat:'dd/MM/yyyy'
+          }, function(){
+                    $("#rss1").tinycarousel({
+                    axis: "y",
+                    animationTime: 350
+                });
+          });*/
+
+       
+        /*$('#rss2').rssfeed('http://www.edu.gov.by/rss.aspx?guid=29983', {
+            limit: 10,
+            dateformat:'dd/MM/yyyy'
+
+          }, function(){
+                    $("#rss2").tinycarousel({
+                    axis: "y",
+                    animationTime: 350
+                });
+          });*/
+		   /* <!-- $.get("http://president.gov.by/ru/rss_ru/", 
+		  function(data, status){
+			var html = '',
+				date,
+				items = data.query.results.rss.channel.item;
+			for(var i = 0; i < 5; i++){
+				date = new Date(items[i].pubDate);
+				date = date.toLocaleDateString() + " " + date.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+				html += '<p style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;"><a class="news-line-rss" href="' + items[i].guid + '" title="'+ items[i].title + '">'+ items[i].title +"</a><br/>";
+				html += '<span class="date">' + date + "</span></p>";
+			}
+			$("#rss1").html(html);
+		  }); -->
+		  
+		  $.get("https://edu.gov.by/bitrix/rss.php?ID=1&LANG=ru&TYPE=news&LIMIT=3", 
+		  function(data, status){
+			var html = '',
+				date,
+				items = data.query.results.rss.channel.item;
+			for(var i = 0; i < 5; i++){
+				date = new Date(items[i].pubDate);
+				date = date.toLocaleDateString() + " " + date.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+				html += '<p style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;"><a class="news-line-rss" href="' + items[i].link + '" title="'+ items[i].title + '">'+ items[i].title +"</a><br/>";
+				html += '<span class="date">' + date + "</span></p>";
+			}
+			$("#rss2").html(html);
+		  }); -->  */
+
+        $("#partners").tinycarousel({
+            animationTime: 500,
+            interval: true,
+            intervalTime: 2000,
+            animation: true,
+            infinite: true
+        });
+
+	var height = $("#events .viewport").height();
+	    if($("#events .overview").height() > height) {
+		$("#events").tinycarousel({
+		    axis   : "y"
+		});
+	    }
+	    else {
+		$("#events .buttons").hide();
+	    }
+    	});
+
+        $('.search-button').click(function(){ $('#search_header').slideToggle(600) });
+
+
+</script>
+<div id="fb-root"></div>
+
+<script>
+    $(document).ready(function () {
+        $("img.gallery-up").each(function () {
+            var _ = $(this);
+            _.wrap("<a href=\"" + _.attr("src") + "\"></a>");
+            _.parent().fancybox({ "scrolling": "yes" });
+        });
+        $("#menu-right .dropdown-menu").addClass("pull-right");
+
+    });
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $(".gallery a.group").fancybox({
+    "scrolling": "yes"
+    });
+});
+</script>
+<script>
+$(document).ready(function(){
+    $("#gallery a.image").fancybox({
+    'transitionIn'  :   'elastic',
+    'transitionOut' :   'elastic',
+    'speedIn'       :   600,
+    'speedOut'      :   200,
+    'overlayShow'   :   false
+    });
+});
+</script>
+
+</body>
+</html>
+

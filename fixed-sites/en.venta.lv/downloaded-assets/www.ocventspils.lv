@@ -1,0 +1,609 @@
+<!DOCTYPE html> 
+<html lang="lv">
+<head>
+	<meta charset="UTF-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+	
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="author" content="OC Ventspils">
+
+	<title>Olimpiskais centrs "Ventspils"</title>
+	<link rel="alternate" hreflang="en" href="/en" />
+	<link rel="alternate" hreflang="lv" href="/lv" />
+	<link rel="canonical" href="/lv" />
+	<link rel="alternate" hreflang="ru" href="/ru" />
+	
+	
+	
+	<link rel="stylesheet" href="https://use.typekit.net/kao1nqk.css">
+	<link rel="stylesheet" href="/assets/css/main.min.css?v=1.0.8">
+	<link rel="stylesheet" href="/assets/css/cookies.css?v=1.0.1">
+
+	<!--[if lt IE 9]>
+	<script src="/bower_components/html5shiv/dist/html5shiv.min.js"></script>
+	<![endif]-->
+
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/favicons/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/favicons/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/favicons/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/favicons/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/favicons/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/favicons/apple-touch-icon-152x152.png" />
+	<link rel="icon" type="image/png" href="/favicons/favicon-196x196.png" sizes="196x196" />
+	<link rel="icon" type="image/png" href="/favicons/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/png" href="/favicons/favicon-128.png" sizes="128x128" />
+	<meta name="application-name" content="&nbsp;"/>
+	<meta name="msapplication-TileColor" content="#A9263D" />
+	<meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png" />
+	<meta name="msapplication-square70x70logo" content="/favicons/mstile-70x70.png" />
+	<meta name="msapplication-square150x150logo" content="/favicons/mstile-150x150.png" />
+	<meta name="msapplication-wide310x150logo" content="/favicons/mstile-310x150.png" />
+	<meta name="msapplication-square310x310logo" content="/favicons/mstile-310x310.png" />
+	<meta name="theme-color" content="#A9263D">
+
+	<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+	
+	
+	<link rel="stylesheet" type="text/css" href="/bower_components/slick-carousel/slick/slick.css"/>
+	<script src="/bower_components/slick-carousel/slick/slick.min.js"></script>
+	
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-75345877-28"></script>
+	<script>
+		var sys_lang = 'lv';
+		var cookieconsent_href = '/sikdatnu-politika';
+	</script>
+	<script src="/js/dictionary/"></script>
+	<script src="/assets/scripts/init.js?v=1.0.3"></script>
+
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+	<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+	<script>
+		initCookieConsent();
+	</script>
+</head>
+
+<body class="homepage">
+	
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = 'https://connect.facebook.net/lv_LV/sdk.js#xfbml=1&version=v2.12&appId=194459244697520&autoLogAppEvents=1';
+	fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	
+
+	<!--[if lt IE 9]>
+	<p class="legacy-browser">You are using an <b>outdated</b> browser. Please <a href="http://outdatedbrowser.com/" target="_blank" rel="nofollow">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+
+	
+	<div class="main-top-search-block clearfix">
+		<div class="l-wrap">
+			<form id="top-search-form" action="/mekletajs" method="get">
+				<div class="input-block clearfix">
+					<input name="q" class="input-search" placeholder="Meklēt" onfocus="this.placeholder=''" onblur="this.placeholder='Meklēt'" type="text">
+					<a href="#" class="submit-search">
+						<svg class="icon icon-search" role="img" width="25" height="25" viewBox="0 0 20 20">
+							<use xlink:href="/assets/images/svg-defs.svg#icon-search"/>
+						</svg>
+					</a>
+				</div>
+			</form>
+		</div>
+	</div>
+	
+	
+	<header class="main-header clearfix">
+		<div class="l-wrap clearfix">
+			<a href="/lv" class="main-logo">
+				<img src="/assets/images/ocv-logo.svg" alt="">
+			</a>
+
+			<a href="#" class="mob-hamburger">
+				<svg class="icon icon-hamburger" role="img" width="35" height="19" viewBox="0 0 35 19">
+					<use xlink:href="/assets/images/svg-defs.svg#icon-hamburger"/>
+				</svg>
+			</a>
+
+			<div class="right-block clearfix">
+				<a class="close-mob-main-menu" href="#">
+					<svg class="icon icon-close-menu" role="img" width="25" height="25" viewBox="0 0 25 25">
+						<use xlink:href="/assets/images/svg-defs.svg#icon-close-menu"/>
+					</svg>
+				</a>
+				<nav class="small-navigation clearfix">
+					
+					<a class="link" href="/kontakti">Kontakti</a>
+					
+					
+					<a class="link search-link" href="#">
+						<svg class="icon icon-search" role="img" width="20" height="20" viewBox="0 0 20 20">
+							<use xlink:href="/assets/images/svg-defs.svg#icon-search"/>
+						</svg>
+					</a>
+					
+					
+					<a class="link lang-link" href="/en">en</a>
+					
+					<a class="link lang-link" href="/ru">ru</a>
+					
+					
+				</nav>
+				
+				
+				<nav class="main-navigation clearfix">
+					
+					<a href="/jaunumi" class="link">Jaunumi</a>
+					
+					<a href="/par-mums" class="link">Par mums</a>
+					
+					<a href="/kompleksi" class="link">Kompleksi</a>
+					
+					<a href="https://www.hotelocventspils.lv/lv" class="link" target="_blank" rel="nofollow">Viesnīca</a>
+					
+					<a href="/dk" class="link">Dāvanu kartes</a>
+					
+					<a href="/galerija" class="link">Galerija</a>
+					
+					<a href="/iepirkumi" class="link">Iepirkumi</a>
+					
+					
+				</nav>
+				
+			</div>
+		</div>
+	</header>
+		
+	<main>
+		
+
+<div class="home-slider-section clearfix">
+	<div class="l-wrap">
+		<div class="home-slider">
+			<div class="home-slider-inner">
+				
+				<div class="slide">
+					 <a href="https://www.ocventspils.lv/jaunumi/slidotava" target="https://www.ocventspils.lv/jaunumi/slidotava"><img src="/uploads/home-blocks/lv/461771563-966586838609963-2189736854545983953-n.png" alt=""></a><div class="slide-message"><span class="slide-message-text">Slidotavas apmeklējuma laiki</span> <a href="https://www.ocventspils.lv/jaunumi/slidotava" class="link" target="https://www.ocventspils.lv/jaunumi/slidotava">Uzzināt vairāk</a></div>
+				</div>
+				
+				<div class="slide">
+					 <a href="https://www.ocventspils.lv/jaunumi/svinam-kopa-olimpiska-centra-ventspils-30-gadu-jubileju" target="https://www.ocventspils.lv/jaunumi/svinam-kopa-olimpiska-centra-ventspils-30-gadu-jubileju"><img src="/uploads/home-blocks/lv/tv-reklamas-oc.png" alt=""></a><div class="slide-message"><span class="slide-message-text">Piedalies video konkursā!</span> <a href="https://www.ocventspils.lv/jaunumi/svinam-kopa-olimpiska-centra-ventspils-30-gadu-jubileju" class="link" target="https://www.ocventspils.lv/jaunumi/svinam-kopa-olimpiska-centra-ventspils-30-gadu-jubileju">Uzzināt vairāk</a></div>
+				</div>
+				
+				<div class="slide">
+					 <a href="https://www.ocventspils.lv/dk" target="https://www.ocventspils.lv/dk"><img src="/uploads/home-blocks/lv/blue-and-black-simple-promotion-billboard-landscape.jpg" alt=""></a><div class="slide-message"><span class="slide-message-text">Uzdāvini Olimpiskā centra “Ventspils” dāvanu karti! <br>Tā būs lietderīga un piemērota dāvana, kas vairo pozitīvu enerģiju, uzlabo veselību un dod spēku!</span> <a href="https://www.ocventspils.lv/dk" class="link" target="https://www.ocventspils.lv/dk">Uzzināt vairāk</a></div>
+				</div>
+				
+				<div class="slide">
+					 <a href="https://www.ocventspils.lv/jaunumi/atletikas-zales-visam-gaumem" target="https://www.ocventspils.lv/jaunumi/atletikas-zales-visam-gaumem"><img src="/uploads/home-blocks/lv/blue-and-black-simple-promotion-billboard-landscape1.jpg" alt=""></a><div class="slide-message"><span class="slide-message-text">Atlētikas zāles visām gaumēm! <br>Olimpiskais centrs "Ventspils" piedāvā apmeklēt atlētikas zāles Basketbola hallē, Pārventas sporta kompleksā vai Ūdens piedzīvojumu parkā.</span> <a href="https://www.ocventspils.lv/jaunumi/atletikas-zales-visam-gaumem" class="link" target="https://www.ocventspils.lv/jaunumi/atletikas-zales-visam-gaumem">Uzzināt vairāk</a></div>
+				</div>
+				
+				<div class="slide">
+					 <a href="https://www.ocventspils.lv/jaunumi/sportojam-briva-daba" target="https://www.ocventspils.lv/jaunumi/sportojam-briva-daba"><img src="/uploads/home-blocks/lv/blue-and-black-simple-promotion-billboard-landscape-3.jpg" alt=""></a><div class="slide-message"><span class="slide-message-text">Aicinām sportot brīvā dabā!</span> <a href="https://www.ocventspils.lv/jaunumi/sportojam-briva-daba" class="link" target="https://www.ocventspils.lv/jaunumi/sportojam-briva-daba">Uzzināt vairāk</a></div>
+				</div>
+				
+				<div class="slide">
+					<img src="/uploads/home-blocks/lv/blue-and-black-simple-promotion-billboard-landscape2.png" alt=""><div class="slide-message"><span class="slide-message-text">20% atlaide Olimpiskā centra "Ventspils" viesnīcas viesiem</span></div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="home-slider-info-block clearfix">
+			<div class="home-slider-dots clearfix"></div>
+			<div class="home-slider-message clearfix"></div>
+		</div>
+	</div>
+</div>
+
+
+
+<section class="section clearfix">
+	<div class="l-wrap">
+		<header class="section-header with-button clearfix">
+			<h1 class="section-title with-ocv-logo medium-title-com">Jaunumi</h1>
+			<a href="/jaunumi" class="section-header-link small-title">Visas ziņas</a>
+		</header>
+	</div>
+	<div class="news-list no-margin l-wrap l-grid">
+		<div class="news-outer-block l-third l-full-small">
+					<article class="news-inner-block">
+						<a href="/jaunumi/ventspils-sportisti-ieklauti-latvijas-olimpiskas-vienibas-vasaras-sastava-2" class="thumb">
+							<img class="image" src="/assets/images/placeholder-img.svg" alt="">
+							<span class="bg-filter"></span>
+						</a>
+						<div class="news-text-content clearfix">
+							<a class="title c-primary" href="/jaunumi/ventspils-sportisti-ieklauti-latvijas-olimpiskas-vienibas-vasaras-sastava-2"><h2 class="medium-title">Ventspils sportisti iekļauti Latvijas Olimpiskās vienības vasaras sastāvā</h2></a><div class="category-list clearfix"><a class="category small-title tt-uppercase" href="/jaunumi?c=2">Sports</a></div><time class="date small-title tt-uppercase" datetime="2026-01-26">26 Jan</time>
+						</div>
+					</article>
+				</div><div class="news-outer-block l-third l-full-small">
+					<article class="news-inner-block">
+						<a href="/jaunumi/nosledzies-3x3-vahl-turnira-3posms" class="thumb">
+							<img class="image" src="/uploads/news/2073/thumb/hokejs.jpg" alt="">
+							<span class="bg-filter"></span>
+						</a>
+						<div class="news-text-content clearfix">
+							<a class="title c-primary" href="/jaunumi/nosledzies-3x3-vahl-turnira-3posms"><h2 class="medium-title">Noslēdzies 3x3 VAHL turnīra 3.posms</h2></a><div class="category-list clearfix"><a class="category small-title tt-uppercase" href="/jaunumi?c=2">Sports</a></div><time class="date small-title tt-uppercase" datetime="2026-01-26">26 Jan</time>
+						</div>
+					</article>
+				</div><div class="news-outer-block l-third l-full-small">
+					<article class="news-inner-block">
+						<a href="/jaunumi/ritvaram-suharevam-uzvar-vacijas-bundesligas-sacensibas" class="thumb">
+							<img class="image" src="/uploads/news/2074/thumb/ritvars-s.jpg" alt="">
+							<span class="bg-filter"></span>
+						</a>
+						<div class="news-text-content clearfix">
+							<a class="title c-primary" href="/jaunumi/ritvaram-suharevam-uzvar-vacijas-bundesligas-sacensibas"><h2 class="medium-title">Ritvaram Suharevam uzvar Vācijas Bundeslīgas sacensībās</h2></a><div class="category-list clearfix"><a class="category small-title tt-uppercase" href="/jaunumi?c=4">Sacensības</a></div><time class="date small-title tt-uppercase" datetime="2026-01-26">26 Jan</time>
+						</div>
+					</article>
+				</div>
+	</div>
+</section>
+
+
+<div class="section no-padding">
+	<div class="l-wrap l-grid">
+		
+		<div class="l-third l-full-medium">
+			<section class="section no-padding-top clearfix">
+				<header class="section-header with-button clearfix">
+					<h1 class="section-title with-fb-logo medium-title-com">Facebook plūsma</h1>
+					<a href="https://www.facebook.com/ocventspils" class="section-header-link small-title" target="_blank" rel="nofollow">Iet uz profilu</a>
+				</header>
+				<div class="fb-page" data-href="https://www.facebook.com/ocventspils/" data-tabs="timeline" data-width="380" data-height="340" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"></div>
+			</section>
+		</div>
+	</div>
+</div>
+
+
+<section class="section bg-gray-light clearfix">
+	<div class="l-wrap">
+		<header class="section-header with-button with-filter clearfix">
+			<h1 class="section-title with-ocv-logo medium-title-com">Kompleksi</h1>
+			
+			<a href="/kompleksi#complexes-map-section" class="section-header-link small-title">Skatīt kartē</a>
+			
+			<div class="complex-filter-block" data-filter-list="complexes-list"><a href="#" class="filter active small-title" data-filter="all">Visi objekti</a><span class="filter-seperator small-title">—</span><a href="#" class="filter small-title" data-filter="7">Atpūtas objekti</a><span class="filter-seperator small-title">—</span><a href="#" class="filter small-title" data-filter="8">Sporta objekti</a></div>
+		</header>
+	</div>
+	<div id="complexes-list" class="complexes-home-list l-wrap l-grid">
+		
+		<div class="complex-outer-block l-third l-full-small" data-category="8">
+			<a href="/kompleksi/basketbola-halle" class="complex-inner-block" style="background-image: url('/uploads/complexes/2/thumb/resized-555-2oc-2015-272.jpg');">
+				<span class="complex-text">
+					<span class="complex-letters xlarge-title-com">BH</span>
+					<span class="complex-title regular-title">Basketbola halle</span>
+				</span>
+				<span class="bg-filter"></span>
+			</a>
+		</div>
+		
+		<div class="complex-outer-block l-third l-full-small" data-category="8">
+			<a href="/kompleksi/bmx-trase" class="complex-inner-block" style="background-image: url('/uploads/complexes/3/thumb/resized-studio-555-bmx-65.jpg');">
+				<span class="complex-text">
+					<span class="complex-letters xlarge-title-com">BT</span>
+					<span class="complex-title regular-title">BMX trase</span>
+				</span>
+				<span class="bg-filter"></span>
+			</a>
+		</div>
+		
+		<div class="complex-outer-block l-third l-full-small" data-category="8">
+			<a href="/kompleksi/centralais-sporta-komplekss" class="complex-inner-block" style="background-image: url('/uploads/complexes/4/thumb/oc-resized.jpg');">
+				<span class="complex-text">
+					<span class="complex-letters xlarge-title-com">SK</span>
+					<span class="complex-title regular-title">Centrālais sporta komplekss</span>
+				</span>
+				<span class="bg-filter"></span>
+			</a>
+		</div>
+		
+		<div class="complex-outer-block l-third l-full-small" data-category="8">
+			<a href="/kompleksi/fizioterapijas-centrs" class="complex-inner-block" style="background-image: url('/uploads/complexes/5/thumb/ab2a4480-2.jpg');">
+				<span class="complex-text">
+					<span class="complex-letters xlarge-title-com">FC</span>
+					<span class="complex-title regular-title">Fizioterapijas centrs</span>
+				</span>
+				<span class="bg-filter"></span>
+			</a>
+		</div>
+		
+		<div class="complex-outer-block l-third l-full-small" data-category="8">
+			<a href="/kompleksi/futbola-stadions-katolu-iela-40" class="complex-inner-block" style="background-image: url('/uploads/complexes/6/thumb/katolu-iela-futbola-laukums-2.jpg');">
+				<span class="complex-text">
+					<span class="complex-letters xlarge-title-com">FS</span>
+					<span class="complex-title regular-title">Futbola stadions (Katoļu iela 40)</span>
+				</span>
+				<span class="bg-filter"></span>
+			</a>
+		</div>
+		
+		<div class="complex-outer-block l-third l-full-small" data-category="8">
+			<a href="/kompleksi/ielu-vingrosanas-stadions" class="complex-inner-block" style="background-image: url('/uploads/complexes/7/thumb/555-vn-l-18-555-web.jpg');">
+				<span class="complex-text">
+					<span class="complex-letters xlarge-title-com">IV</span>
+					<span class="complex-title regular-title">Ielu vingrošanas stadions</span>
+				</span>
+				<span class="bg-filter"></span>
+			</a>
+		</div>
+		
+		<div class="complex-outer-block l-third l-full-small" data-category="8">
+			<a href="/kompleksi/ledus-halle" class="complex-inner-block" style="background-image: url('/uploads/complexes/8/thumb/o.jura.jpg');">
+				<span class="complex-text">
+					<span class="complex-letters xlarge-title-com">LH</span>
+					<span class="complex-title regular-title">Ledus halle</span>
+				</span>
+				<span class="bg-filter"></span>
+			</a>
+		</div>
+		
+		<div class="complex-outer-block l-third l-full-small" data-category="8">
+			<a href="/kompleksi/vieglatletikas-maneza" class="complex-inner-block" style="background-image: url('/uploads/complexes/9/thumb/dsc-1836-copy1.jpg');">
+				<span class="complex-text">
+					<span class="complex-letters xlarge-title-com">VM</span>
+					<span class="complex-title regular-title">Vieglatlētikas manēža</span>
+				</span>
+				<span class="bg-filter"></span>
+			</a>
+		</div>
+		
+		<div class="complex-outer-block l-third l-full-small" data-category="7">
+			<a href="/kompleksi/olimpiska-centra-ventspils-viesnica" class="complex-inner-block" style="background-image: url('/uploads/complexes/10/thumb/hotel-vasara-min2.jpg');">
+				<span class="complex-text">
+					<span class="complex-letters xlarge-title-com">VN</span>
+					<span class="complex-title regular-title">Olimpiskā centra "Ventspils" viesnīca</span>
+				</span>
+				<span class="bg-filter"></span>
+			</a>
+		</div>
+		
+		<div class="complex-outer-block l-third l-full-small" data-category="8">
+			<a href="/kompleksi/parventas-sporta-komplekss" class="complex-inner-block" style="background-image: url('/uploads/complexes/11/thumb/oc-1-resized.jpg');">
+				<span class="complex-text">
+					<span class="complex-letters xlarge-title-com">PK</span>
+					<span class="complex-title regular-title">Pārventas sporta komplekss</span>
+				</span>
+				<span class="bg-filter"></span>
+			</a>
+		</div>
+		
+		<div class="complex-outer-block l-third l-full-small" data-category="7">
+			<a href="/kompleksi/piedzivojumu-parks" class="complex-inner-block" style="background-image: url('/uploads/complexes/12/thumb/16797749-1885520715025507-5689061434776860736-o.jpg');">
+				<span class="complex-text">
+					<span class="complex-letters xlarge-title-com">PP</span>
+					<span class="complex-title regular-title">Piedzīvojumu parks</span>
+				</span>
+				<span class="bg-filter"></span>
+			</a>
+		</div>
+		
+		<div class="complex-outer-block l-third l-full-small" data-category="7">
+			<a href="/kompleksi/pludmales-akvaparks" class="complex-inner-block" style="background-image: url('/uploads/complexes/13/thumb/img-5572-oscar-web.jpg');">
+				<span class="complex-text">
+					<span class="complex-letters xlarge-title-com">PA</span>
+					<span class="complex-title regular-title">Pludmales akvaparks</span>
+				</span>
+				<span class="bg-filter"></span>
+			</a>
+		</div>
+		
+		<div class="complex-outer-block l-third l-full-small" data-category="8">
+			<a href="/kompleksi/pludmales-volejbola-stadions" class="complex-inner-block" style="background-image: url('/uploads/complexes/14/thumb/resized-dji-0029t.jpg');">
+				<span class="complex-text">
+					<span class="complex-letters xlarge-title-com">PV</span>
+					<span class="complex-title regular-title">Pludmales volejbola stadions</span>
+				</span>
+				<span class="bg-filter"></span>
+			</a>
+		</div>
+		
+		<div class="complex-outer-block l-third l-full-small" data-category="7">
+			<a href="/kompleksi/skeitparks" class="complex-inner-block" style="background-image: url('/uploads/complexes/15/thumb/skeitparks-10.jpg');">
+				<span class="complex-text">
+					<span class="complex-letters xlarge-title-com">VS</span>
+					<span class="complex-title regular-title">Vasaras skeitparks</span>
+				</span>
+				<span class="bg-filter"></span>
+			</a>
+		</div>
+		
+		<div class="complex-outer-block l-third l-full-small" data-category="8">
+			<a href="/kompleksi/sporta-nams-centrs" class="complex-inner-block" style="background-image: url('/uploads/complexes/16/thumb/centrs.jpg');">
+				<span class="complex-text">
+					<span class="complex-letters xlarge-title-com">SC</span>
+					<span class="complex-title regular-title">Sporta nams "Centrs"</span>
+				</span>
+				<span class="bg-filter"></span>
+			</a>
+		</div>
+		
+		<div class="complex-outer-block l-third l-full-small" data-category="8">
+			<a href="/kompleksi/tenisa-korti" class="complex-inner-block" style="background-image: url('/uploads/complexes/17/thumb/tenis-20.jpg');">
+				<span class="complex-text">
+					<span class="complex-letters xlarge-title-com">TK</span>
+					<span class="complex-title regular-title">Tenisa korti</span>
+				</span>
+				<span class="bg-filter"></span>
+			</a>
+		</div>
+		
+		<div class="complex-outer-block l-third l-full-small" data-category="7">
+			<a href="/kompleksi/udens-piedzivojumu-parks" class="complex-inner-block" style="background-image: url('/uploads/complexes/18/thumb/resized-akvaparks-mbp-5020.jpg');">
+				<span class="complex-text">
+					<span class="complex-letters xlarge-title-com">ŪP</span>
+					<span class="complex-title regular-title">Ūdens piedzīvojumu parks</span>
+				</span>
+				<span class="bg-filter"></span>
+			</a>
+		</div>
+		
+		<div class="complex-outer-block l-third l-full-small" data-category="7">
+			<a href="/kompleksi/veikparks" class="complex-inner-block" style="background-image: url('/uploads/complexes/19/thumb/resized-pp-blaze-petersone-639.jpg');">
+				<span class="complex-text">
+					<span class="complex-letters xlarge-title-com">VP</span>
+					<span class="complex-title regular-title">Veikparks</span>
+				</span>
+				<span class="bg-filter"></span>
+			</a>
+		</div>
+		
+	</div>
+</section>
+
+
+
+<section class="section dark clearfix">
+	<div class="l-wrap">
+		<header class="section-header with-button clearfix">
+			<h1 class="section-title with-ocv-logo medium-title-com">Galerija</h1>
+			<a href="/galerija" class="section-header-link small-title">Visi albumi</a>
+		</header>
+	</div>
+	<div class="gallery-list l-wrap l-grid">
+		<div class="gallery-outer-block home-large l-full">
+					<article class="gallery-inner-block">
+						<a href="/galerija/eurobasket-2025-trofeja-ventspils-piedzivojumu-parka" class="thumb">
+							<img class="image" src="/uploads/gallery/33/resized-dsc04572-fotomikusklavins.jpg" alt="">
+							<span class="bg-filter"></span>
+							<div class="gallery-text-content clearfix">
+								<h2 class="title xlarge-title">''EuroBasket 2025'' trofeja Ventspils Piedzīvojumu parkā</h2><time class="date small-title tt-uppercase" datetime="2024-11-05">5 Nov 2024</time>
+							</div></a>
+					</article>
+				</div><div class="gallery-outer-block l-third l-full-small">
+					<article class="gallery-inner-block"><a href="/galerija/starptautiskas-treninnometnes-jaunajiem-svarcelajiem-sviniga-atklasana" class="thumb">
+							<img class="image" src="/uploads/gallery/30/thumb/vhrs-011-0924-3-web.jpg" alt=""><div class="gallery-text-content clearfix">
+								<h2 class="title medium-title">Starptautiskas treniņnometnes jaunajiem svarcēlājiem svinīgā atklāšana</h2><time class="date small-title tt-uppercase" datetime="2024-08-27">27 Aug 2024</time>
+							</div><span class="bg-filter"></span>
+						</a>
+					</article>
+				</div><div class="gallery-outer-block l-third l-full-small">
+					<article class="gallery-inner-block"><a href="/galerija/atklata-ventspils-rodelu-trase" class="thumb">
+							<img class="image" src="/uploads/gallery/29/thumb/resized-vhrs-025-0623-1-web.jpg" alt=""><div class="gallery-text-content clearfix">
+								<h2 class="title medium-title">Atklāta Ventspils rodeļu trase</h2><div class="category-list clearfix"><span class="category small-title tt-uppercase">Kompleksi</span></div><time class="date small-title tt-uppercase" datetime="2023-06-12">12 Jūn 2023</time>
+							</div><span class="bg-filter"></span>
+						</a>
+					</article>
+				</div><div class="gallery-outer-block l-third l-full-small">
+					<article class="gallery-inner-block"><a href="/galerija/rodelu-trase" class="thumb">
+							<img class="image" src="/uploads/gallery/28/thumb/resized-rodelis-2.jpg" alt=""><div class="gallery-text-content clearfix">
+								<h2 class="title medium-title">Rodeļu trase</h2><div class="category-list clearfix"><span class="category small-title tt-uppercase">Kompleksi</span></div><time class="date small-title tt-uppercase" datetime="2023-06-01">1 Jūn 2023</time>
+							</div><span class="bg-filter"></span>
+						</a>
+					</article>
+				</div>
+	</div>
+</section>
+
+
+
+		
+		<section class="section partners-section clearfix">
+			<div class="l-wrap">
+				<div class="partners-list">
+					<header class="section-header clearfix">
+						<h1 class="section-title with-ocv-logo medium-title-com">Partneri</h1>
+					</header>
+					<div class="partner-divider"></div>
+					
+					<a href="https://www.olimpiade.lv/lv/sakums" class="partner" target="_blank" rel="nofollow">
+						<img src="/uploads/partners/8/lok-logo.png" alt="" class="partner-logo">
+					</a>
+					
+					<a href="https://www.izm.gov.lv/lv/" class="partner" target="_blank" rel="nofollow">
+						<img src="/uploads/partners/9/izm-logo.jpg" alt="" class="partner-logo">
+					</a>
+					
+					<a href="http://godagimene.lv/" class="partner" target="_blank" rel="nofollow">
+						<img src="/uploads/partners/11/red-lgg-sq.jpg" alt="" class="partner-logo">
+					</a>
+					
+					<a href="https://www.gribuatpusties.lv/lv/viesnica/olimpiska-centra-venstpils-viesnica" class="partner" target="_blank" rel="nofollow">
+						<img src="/uploads/partners/12/3-ga-blue.png" alt="" class="partner-logo">
+					</a>
+					
+					<a href="https://kafijaspasaule.lv/" class="partner" target="_blank" rel="nofollow">
+						<img src="/uploads/partners/14/images.png" alt="" class="partner-logo">
+					</a>
+					
+					<a href="http://www.ventspils.lv/" class="partner" target="_blank" rel="nofollow">
+						<img src="/uploads/partners/2/partner-2.png" alt="" class="partner-logo">
+					</a>
+					
+					<a href="http://www.visitventspils.com/lv/sakums/" class="partner" target="_blank" rel="nofollow">
+						<img src="/uploads/partners/5/venti-logo.jpg" alt="" class="partner-logo">
+					</a>
+					
+				</div>
+			</div>
+		</section>
+		
+	</main>
+		
+	
+	<footer class="main-footer">
+		<div class="footer-inner-block l-wrap">
+			<div class="left-block">
+				<img src="/assets/images/ocv-footer-logo.svg" alt="OC Ventspils logo" class="footer-logo">
+			</div>
+			
+			<div class="right-block">
+				
+				<nav class="footer-nav clearfix">
+					
+					<a class="link" href="/par-mums">Par mums</a>
+					
+					<a class="link" href="/publiskojama-informacija">Publiskojamā informācija</a>
+					
+					<a class="link" href="/iepirkumi">Iepirkumi</a>
+					
+					<a class="link" href="/privatuma-politika">Privātuma politika</a>
+					
+					<a class="link" href="/sikdatnu-politika">Sīkdatņu politika</a>
+					
+				</nav>
+				
+				
+				<div class="footer-social-block clearfix">
+					<a href="https://www.facebook.com/ocventspils" class="link" target="_blank" rel="nofollow">
+			<svg class="icon icon-facebook" role="img" width="34" height="34" viewBox="0 0 34 34">
+				<use xlink:href="/assets/images/svg-defs.svg#icon-facebook"/>
+			</svg>
+		</a><a href="https://twitter.com/OC_Ventspils" class="link" target="_blank" rel="nofollow">
+			<svg class="icon icon-twitter" role="img" width="34" height="34" viewBox="0 0 34 34">
+				<use xlink:href="/assets/images/svg-defs.svg#icon-twitter"/>
+			</svg>
+		</a><a href="https://www.instagram.com/ocventspils" class="link" target="_blank" rel="nofollow">
+			<svg class="icon icon-instagram" role="img" width="34" height="34" viewBox="0 0 34 34">
+				<use xlink:href="/assets/images/svg-defs.svg#icon-instagram"/>
+			</svg>
+		</a><a href="https://www.youtube.com/user/OCVentspils" class="link" target="_blank" rel="nofollow">
+			<svg class="icon icon-youtube" role="img" width="34" height="34" viewBox="0 0 34 34">
+				<use xlink:href="/assets/images/svg-defs.svg#icon-youtube"/>
+			</svg>
+		</a>
+				</div>
+				
+				<p class="copyright">&copy; 2026 SIA Olimpiskais centrs Ventspils <span class="website-made-by">Mājaslapa: <a href="https://graftik.lv" target="_blank">Graftik</a></span></p>
+			</div>
+		</div>
+	</footer>
+	
+	
+	
+	<script src="/bower_components/svg4everybody/dist/svg4everybody.min.js"></script>
+	<script>svg4everybody();</script>
+</body>
+</html>

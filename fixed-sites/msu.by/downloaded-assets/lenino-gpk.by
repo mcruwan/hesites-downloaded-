@@ -1,0 +1,395 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "https://www.w3.org/TR/html4/frameset.dtd">
+<head><title>Горецкий педагогический колледж</title>
+
+
+<style type="text/css">
+   A {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+   }
+   A:hover {
+    text-decoration: underline; /* Добавляем подчеркивание при наведении курсора на ссылку */
+    color: red; /* Ссылка красного цвета */
+   }
+</style>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+<script type="text/javascript">
+        ymaps.ready(init);
+        var myMap,
+            myPlacemark;
+
+        function init(){
+            myMap = new ymaps.Map("map", {center: [54.40769171, 31.12597908],
+                zoom: 16
+            });
+
+            myPlacemark = new ymaps.Placemark([55.75399400, 37.62209300], {
+                hintContent: 'Горецкий педагогический колледж',
+                balloonContent: 'ГПК'
+            });
+            var myPlacemark = new ymaps.GeoObject({geometry: {type: "Point", coordinates: [54.40769171, 31.12597908]}});
+            myMap.geoObjects.add(myPlacemark);
+        }
+</script>
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?121"></script>
+
+
+
+</head>
+<body>
+
+ <table width="100%" align="center">
+    <tr>
+        <td colspan="3"><!DOCTYPE HTML>
+<html>
+<head >
+<link rel="icon" type="image/png" href="https://lenino-gpk.by/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="https://lenino-gpk.by/favicon/favicon.svg" />
+<link rel="shortcut icon" href="https://lenino-gpk.by/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://lenino-gpk.by/favicon/apple-touch-icon.png" />
+<link rel="manifest" href="https://lenino-gpk.by/favicon/site.webmanifest" />
+  <!--style>
+.example2 {
+    display:;
+    position:relative;
+
+}
+.example2 span {
+    display:inline-block;
+    position:absolute;
+    top:10px;
+    right:10px;
+
+    /* ?????????? ?????? */
+    color:#FFF;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:12px;
+
+    /* ??? */
+    background-color:rgba(0,0,0,.4);
+    padding:10px 30px;
+}
+</style-->
+<style>
+   button {
+    background: ;
+    background: linear-gradient(to top, #486899 0%, #486899 100%);
+    font-size: 16px; /* Размер шрифта */
+    padding: 5px 10px; /* Поля вокруг текста */
+    color: #fff; /* Цвет текста */
+    border: 0px solid #333; /* Параметры рамки */
+    border-radius: 0px; /* Радиус скругления */
+   }
+  </style>
+<link rel="stylesheet" href="https://lenino-gpk.by/menu_files/mbcsmbmcp.css" type="text/css" />
+<!-- Button visually impaired CSS -->
+        <link rel="stylesheet" href="https://lenino-gpk.by/dist/css/bvi.min.css" type="text/css">
+
+        <!-- Button visually impaired Font Awesome Free CSS -->
+        <link rel="stylesheet" href="https://lenino-gpk.by/dist/css/bvi-font.min.css" type="text/css">
+
+<!-- GTranslate: https://gtranslate.io/ -->
+<!--a href="#" onclick="doGTranslate('ru|be');return false;" title="Belarusian" class="gflag nturl" style="background-position:-0px -600px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Belarusian" /></a><a href="#" onclick="doGTranslate('ru|en');return false;" title="English" class="gflag nturl" style="background-position:-0px -0px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="English" /></a><a href="#" onclick="doGTranslate('ru|ru');return false;" title="Russian" class="gflag nturl" style="background-position:-500px -200px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Russian" /></a>
+<style type="text/css">
+<!--
+a.gflag {vertical-align:middle;font-size:16px;padding:1px 0;background-repeat:no-repeat;background-image:url(//gtranslate.net/flags/16.png);}
+a.gflag img {border:0;}
+a.gflag:hover {background-image:url(//gtranslate.net/flags/16a.png);}
+#goog-gt-tt {display:none !important;}
+.goog-te-banner-frame {display:none !important;}
+.goog-te-menu-value:hover {text-decoration:none !important;}
+body {top:0 !important;}
+#google_translate_element2 {display:none!important;}
+-->
+</style>
+<div id="google_translate_element2"></div>
+<script type="text/javascript">
+function googleTranslateElementInit2() {new google.translate.TranslateElement({pageLanguage: 'ru',autoDisplay: false}, 'google_translate_element2');}
+</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('6 7(a,b){n{4(2.9){3 c=2.9("o");c.p(b,f,f);a.q(c)}g{3 c=2.r();a.s(\'t\'+b,c)}}u(e){}}6 h(a){4(a.8)a=a.8;4(a==\'\')v;3 b=a.w(\'|\')[1];3 c;3 d=2.x(\'y\');z(3 i=0;i<d.5;i++)4(d[i].A==\'B-C-D\')c=d[i];4(2.j(\'k\')==E||2.j(\'k\').l.5==0||c.5==0||c.l.5==0){F(6(){h(a)},G)}g{c.8=b;7(c,\'m\');7(c,\'m\')}}',43,43,'||document|var|if|length|function|GTranslateFireEvent|value|createEvent||||||true|else|doGTranslate||getElementById|google_translate_element2|innerHTML|change|try|HTMLEvents|initEvent|dispatchEvent|createEventObject|fireEvent|on|catch|return|split|getElementsByTagName|select|for|className|goog|te|combo|null|setTimeout|500'.split('|'),0,{}))
+/* ]]> */
+</script>
+</head>
+<body>
+<table width="100%">
+<tr>
+ <td  width="20%" align="center"  valign="bottom" bgcolor="#486899"><!-- GTranslate: https://gtranslate.io/ -->
+<a href="#" onclick="doGTranslate('ru|be');return false;" title="Belarusian" class="gflag nturl" style="background-position:-0px -600px;"><img src="//gtranslate.net/flags/blank.png" height="0" width="32" alt="Belarusian" /></a><a href="#" onclick="doGTranslate('ru|en');return false;" title="English" class="gflag nturl" style="background-position:-0px -0px;"><img src="//gtranslate.net/flags/blank.png" height="0" width="32" alt="English" /></a><a href="#" onclick="doGTranslate('ru|ru');return false;" title="Russian" class="gflag nturl" style="background-position:-500px -200px;"><img src="//gtranslate.net/flags/blank.png" height="0" width="32" alt="Russian" /></a>
+<style type="text/css">
+<!--
+a.gflag {vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-repeat;background-image:url(//gtranslate.net/flags/24.png);}
+a.gflag img {border:0;}
+a.gflag:hover {background-image:url(//gtranslate.net/flags/24a.png);}
+#goog-gt-tt {display:none !important;}
+.goog-te-banner-frame {display:none !important;}
+.goog-te-menu-value:hover {text-decoration:none !important;}
+body {top:0 !important;}
+#google_translate_element2 {display:none!important;}
+-->
+</style>
+<div id="google_translate_element2"></div>
+<script type="text/javascript">
+function googleTranslateElementInit2() {new google.translate.TranslateElement({pageLanguage: 'ru',autoDisplay: false}, 'google_translate_element2');}
+</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('6 7(a,b){n{4(2.9){3 c=2.9("o");c.p(b,f,f);a.q(c)}g{3 c=2.r();a.s(\'t\'+b,c)}}u(e){}}6 h(a){4(a.8)a=a.8;4(a==\'\')v;3 b=a.w(\'|\')[1];3 c;3 d=2.x(\'y\');z(3 i=0;i<d.5;i++)4(d[i].A==\'B-C-D\')c=d[i];4(2.j(\'k\')==E||2.j(\'k\').l.5==0||c.5==0||c.l.5==0){F(6(){h(a)},G)}g{c.8=b;7(c,\'m\');7(c,\'m\')}}',43,43,'||document|var|if|length|function|GTranslateFireEvent|value|createEvent||||||true|else|doGTranslate||getElementById|google_translate_element2|innerHTML|change|try|HTMLEvents|initEvent|dispatchEvent|createEventObject|fireEvent|on|catch|return|split|getElementsByTagName|select|for|className|goog|te|combo|null|setTimeout|500'.split('|'),0,{}))
+/* ]]> */
+</script>
+<br />
+
+<font size="3" face="verdana" color="white" ><a href="#" class="bvi-open" title="Версия сайта для слабовидящих"><img src="https://lenino-gpk.by/dist/bvi.jpg" width="100%" /> </a></font>
+
+</td>
+
+
+ <td bgcolor="#486899">
+ <img src="https://lenino-gpk.by/index/top_zima_ny2022.jpg" width="100%">
+ <!--img src="https://lenino-gpk.by/index/50+.gif" width="100%">
+ <img src="https://lenino-gpk.by/index/8m25.jpg" width="100%"  onmouseover="this.src='https://lenino-gpk.by/index/top_vesna_23.jpg';"
+onmouseout="this.src='https://lenino-gpk.by/index/8m25.jpg';" alt="Горецкий педагогический колледж учреждения образования «МГУ имени А.А.Кулешова»"/--></td>
+
+<td bgcolor="#486899" width="20%">
+ <font  size="2" face="verdana" color="white">
+ <center><img src="https://lenino-gpk.by/index/email.png" width="25" height="25" alt="" /><br />
+<a href="mailto:gpk@lenino-gpk.by" style="color: white">gpk@lenino-gpk.by</a> </center> </font>
+  <hr align="center" width="80%" size="2" color="white" />
+
+ <button><font size="2" face="verdana" color="white" > Поиск по сайту </font>
+<div class="ya-site-form ya-site-form_inited_no" onclick="return {'action':'https://lenino-gpk.by/find.htm','arrow':false,'bg':'transparent','fontsize':12,'fg':'#01B0D6','language':'ru','logo':'rb','publicname':'Поиск по сайту','suggest':true,'target':'_blank','tld':'ru','type':2,'usebigdictionary':true,'searchid':2331585,'input_fg':'#000000','input_bg':'#ffffff','input_fontStyle':'normal','input_fontWeight':'normal','input_placeholder':'Введите запрос','input_placeholderColor':'#000000','input_borderColor':'#7f9db9'}"><form action="https://yandex.ru/search/site/" method="get" target="_blank" accept-charset="utf-8"><input type="hidden" name="searchid" value="2331585"/><input type="hidden" name="l10n" value="ru"/><input type="hidden" name="reqenc" value=""/><input type="search" name="text" value=""/><input type="submit" value="Найти"/></form></div><style type="text/css">.ya-page_js_yes .ya-site-form_inited_no { display: none; }</style><script type="text/javascript">(function(w,d,c){var s=d.createElement('script'),h=d.getElementsByTagName('script')[0],e=d.documentElement;if((' '+e.className+' ').indexOf(' ya-page_js_yes ')===-1){e.className+=' ya-page_js_yes';}s.type='text/javascript';s.async=true;s.charset='utf-8';s.src=(d.location.protocol==='https:'?'https:':'https:')+'//site.yandex.net/v2.0/js/all.js';h.parentNode.insertBefore(s,h);(w[c]||(w[c]=[])).push(function(){Ya.Site.Form.init()})})(window,document,'yandex_site_callbacks');</script>
+</button>
+ </td> </tr>
+ <tr bgcolor="#486899">
+ <td colspan="3" align="right">
+ <div id="mbmcpebul_wrapper" style="max-width: 1078px;">
+  <ul id="mbmcpebul_table" class="mbmcpebul_menulist css_menu">
+  <li><div class="buttonbg gradient_button gradient58" style="width: 110px;"><a href="https://lenino-gpk.by" class="button_1">Главная</a></div></li>
+<li><div class="buttonbg gradient_button gradient58" style="width: 110px;"><div class="arrow"><a class="button_8">Колледж</a></div></div>
+    <ul>
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/target.html" target="_blank">О колледже</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/adm" target="_blank">Руководство колледжа</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/pkr" target="_blank">Первичная профсоюзная организация работников</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/ggp/" >Газета "Голос педколледжа"</a></li>
+    <li class="gradient_menuitem gradient31 first_item last_item"><a href="https://www.youtube.com/watch?v=KSJ2y64qUbw&t" target="_blank" title="Смотреть на Youtube">Видеовизитка-2023</a></li>
+    <!--li class="gradient_menuitem gradient31 first_item last_item"><a href="https://youtu.be/HR5kpMkr6KM" target="_blank" title="Смотреть на Youtube">Видеовизитка-2021</a></li>
+    <li class="gradient_menuitem gradient31 first_item last_item"><a href="https://youtu.be/jtIuTTlxXKU" target="_blank" title="Смотреть на Youtube">Видеовизитка-2019</a></li-->
+    <li class="gradient_menuitem gradient31 first_item last_item"><a href="https://youtu.be/_iRSLw7LKtk" target="_blank" title="Смотреть на Youtube">Док. фильм "Быть учителем душа им подсказала..."</a></li>
+    <li class="gradient_menuitem gradient31 first_item last_item"><a href="https://lenino-gpk.by/buklet/buklet_2015.html" title="">Фотобуклет "Нам - 40 лет!"</a></li>
+    <li class="gradient_menuitem gradient31 first_item last_item"><a href="https://lenino-gpk.by/ivr/simv.htm" title="">Символика колледжа</a></li>
+    <li class="gradient_menuitem gradient31 first_item last_item"><a href="https://lenino-gpk.by/ivr/hist.htm" title="">Страницы истории</a></li>
+    <li class="gradient_menuitem gradient31 first_item last_item"><a href="https://lenino-gpk.by/vyp" title="">Наши выпускники - наша гордость!</a></li>
+    <!--/ul></li-->
+</ul></li>
+   <li><div class="buttonbg gradient_button gradient58" style="width: 110px;"><div class="arrow"><a class="button_8">Обучение</a></div></div>
+     <ul>
+    <li class="gradient_menuitem gradient31"><a class="with_arrow" title="">Расписание занятий</a>
+    <ul  class="gradient_menu gradient33">
+    <li class="gradient_menuitem gradient31 first_item last_item"><a href="https://lenino-gpk.by/mk/rasp1k_1s_25_26.pdf" target="_blank">1 курс</a></li>
+    <li class="gradient_menuitem gradient31 first_item last_item"><a href="https://lenino-gpk.by/mk/rasp2k_1s_25_26.pdf" target="_blank">2 курс</a></li>
+    <li class="gradient_menuitem gradient31 first_item last_item"><a href="https://lenino-gpk.by/mk/rasp3k_1s_25_26.pdf" target="_blank">3 курс</a></li>
+    </ul></li>
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/mk/zvonki24.pdf" target="_blank">Расписание звонков</a></li>
+    <li class="gradient_menuitem gradient31"><a class="with_arrow" title="">Выпускнику</a>
+    <ul  class="gradient_menu gradient33">
+    <li class="gradient_menuitem gradient31 first_item last_item"><a href="https://lenino-gpk.by/mk/popr.pdf" target="_blank">Положение о порядке распределения</a></li>
+    <li class="gradient_menuitem gradient31 first_item last_item"><a href="https://lenino-gpk.by/mk/povs.pdf" target="_blank">Положение о порядке возмещения средств, затраченных государством на подготовку</a></li>
+    </ul></li>   </ul>
+   </li>
+   <li><div class="buttonbg gradient_button gradient58" style="width: 150px;"><div class="arrow"><a class="button_5"> Методическая<br />работа</a></div></div>
+    <ul>
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/mk" title="">Методический кабинет</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/nid" title="">Научно-исследовательская деятельность</a></li>
+    <!--li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/index/imp_k_nachalu_2023_2024.pdf" target="_blank">Инструктивно-методическое письмо <br />
+    к началу 2023-2024 уч.года</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/index/imp_fizkult_2023_2024.pdf" target="_blank">Инструктивно-методическое письмо <br />
+    об организации физического воспитания обучающихся, <br />
+    осваивающих образовательные программы профессионально-технического <br />
+    и среднего специального образования в 2023-2024 учебном году</a></li-->
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/mk/gr_op25.pdf" target="_blank">График образовательного процесса</a></li>
+
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/praktika" ">Практика </a> </li>
+   </ul>
+   </li>
+
+  <li><div class="buttonbg gradient_button gradient58" style="width: 150px;"><div class="arrow"><a href="https://lenino-gpk.by/ivr/" class="button_2">Воспитательная и<br />идеологическая<br />работа</a></div></div>
+    <ul>
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/ivr/knkkp.pdf"  target="_blank"> Концепция развития национального культурного пространства</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/ivr/sbg.htm" title=""> Оформление белорусской национальной государственности</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/ivr/vpv" title=""> Военно-патриотическое воспитание</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/ivr/genocid" title=""> Геноцид белорусского народа. Горецкий район</a></li>
+    <!--li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/ivr/artvakacyi" title="">АРТ-вакацыі-2023</a></li-->
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/pp/" title="">Профилактика правонарушений и кибербезопасность</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/spps/" title="">Социально-педагогическая поддержка и психологическая помощь</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/ivr/gbgh.htm" title="">Год белорусской женщины</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/ivr/shag.htm" title="">Школа активного гражданина</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/ivr/brsm.htm" title="">Первичная организация ОО "БРСМ"</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/ivr/pku.htm" title="">Первичная профсоюзная организация</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/ivr/moop.htm" title="">Молодежные отряды охраны правопорядка</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/ivr/opi.htm" title="">Объединения по интересам</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/ivr/obshch.htm" title="">Общежитие</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/ivr/kur.htm" title="">В помощь куратору</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/ivr/mr.htm" title="">Методические разработки</a></li>
+    <li class="gradient_menuitem gradient32 last_item"><a href="https://lenino-gpk.by/ivr/for.htm" title="">Физкультурно-оздоровительная работа</a></li>
+    <!--li><a href="https://lenino-gpk.by/ivr/mmig.htm" target="_blank" title="">Методические материалы для информационных групп</a></li>
+    <li><a href="https://lenino-gpk.by/ivr/80letie.htm" target="_blank" title="">К 80-летию со дня освобождения Беларуси</a></li-->       
+    </ul></li>
+    <li><div class="buttonbg gradient_button gradient58" style="width: 110px;"><div class="arrow"><a href="https://lenino-gpk.by/abiturient/" class="button_8" >Абитуриенту</a></div> </div>
+      <ul>
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/abiturient/kcp.htm"  target="_blank">Контрольные цифры приема</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.lenino-gpk.by/abiturient/pp2025.pdf" target="_blank" >Порядок приёма</a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/abiturient/plan_cp.pdf"  target="_blank"> План целевого приёма </a></li>
+    <li class="gradient_menuitem gradient32"><a href="https://www.lenino-gpk.by/abiturient/pvi2023.pdf"  target="_blank" >Программа вступительного испытания <br />
+    по специальности "Обучение физической культуре"</a></li>
+
+    </ul>   </li>
+
+    <li><div class="buttonbg gradient_button gradient58" style="width: 110px;"><div class="arrow"><a class="button_8">Одно окно</a></div></div>
+    <ul>
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/eo.htm" title="">Электронное обращение</a></li>
+    <li class="gradient_menuitem gradient32 last_item"><a href="https://lenino-gpk.by/oo.html" >Одно окно</a></li>
+    <!--li class="gradient_menuitem gradient32 last_item"><a href="https://vk.com/lenino_gpk"  target="_blank" title="">Задать вопрос в ВК</a></li-->
+    </ul></li>
+
+  <!--li><div class="buttonbg gradient_button gradient58" style="width: 87px;"><div class="arrow"><a class="button_7">Скачать</a></div></div>
+    <ul>
+    <li class="gradient_menuitem gradient32"><a href="https://lenino-gpk.by/umm/" title="">Учебно-методические материалы</a></li-->
+    <!--li class="gradient_menuitem gradient32 last_item"><a href="https://lenino-gpk.by/mpp/index.html" title="">Материалы по педагогической практике</a></li>
+    </ul></li-->
+
+	<li><div class="buttonbg gradient_button gradient58" style="width: 110px;"><a href="https://lenino-gpk.by/contacts.html">Контакты</a></div></li>
+
+  </ul>
+</div>
+ </td>
+ </tr>
+</table>
+</body>
+<!--img src="https://lenino-gpk.by/index//garland.gif" width="25%" /><img src="https://lenino-gpk.by/index/garland.gif" width="25%" /><img src="https://lenino-gpk.by/index/garland.gif" width="25%" /><img src="https://lenino-gpk.by/index/garland.gif" width="25%" /-->
+<!-- Button visually impaired JS -->
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="https://lenino-gpk.by/dist/js/responsivevoice.min.js"></script>
+        <script src="https://lenino-gpk.by/dist/js/js.cookie.js"></script>
+        <script src="https://lenino-gpk.by/dist/js/bvi-init.js"></script>
+        <script src="https://lenino-gpk.by/dist/js/bvi.min.js"></script>
+
+	<link rel="import" href="top.html">
+</td>
+    </tr>
+
+   <tr>
+        <td width="20%" bgcolor="#486899"><font face="verdana" color="white" size="3"><center>Полезные ссылки</center></font></td>
+        <td width="60%" bgcolor="#486899"><font face="verdana" color="white" size="3"><center>Новости колледжа</center></font></td>
+        <td width="20%" bgcolor="#486899"><font face="verdana" color="white" size="3"><center>Погода в Ленино</center></font></td>
+    </tr>
+    <tr>
+        <td width="15%" valign="top" align="center">
+        <!--Полезные ссылки--->
+<center>
+<a href="https://t.me/leninogpk" target="_blank"><img src="index/tgme.jpg" width="20%"  alt="" /></a>
+<a href="https://www.instagram.com/leninogpk/" target="_blank"><img src="index/ins.jpg"" width="20%" alt="" /></a>
+<a href="https://vk.com/lenino_gpk" target="_blank"><img src="index/vk.jpg" width="20%"  alt="" /></a>
+<a href="https://www.youtube.com/@lenino_gpk" target="_blank"><img src="index/yout.png" width="20%"  alt="" /></a>
+<hr align="center" width="200" size="2" color="#8080FF" />
+<a href=https://adu.by/ru/pedagogam/natsionalnoe-issledovanie-kachestva-obrazovaniya-niko.html target="_blank"><img src="index/niko.jpg" width="220" alt="" /></a>
+<hr align="center" width="200" size="2" color="#8080FF" />
+<a href="ivr/gbgh.htm" target="_blank"><img title="Год белорусской женщины" src="ivr/gbgh.jpg" width="220"  /></a>
+<hr align="center" width="200" size="2" color="#8080FF" />
+<a href="https://www.lenino-gpk.by/index/nsm09092025.pdf"  target="_blank"><img src="https://www.lenino-gpk.by/index/nsm.jpg" width="220" alt="" /></a>
+<hr align="center" width="200" size="2" color="#8080FF" />
+<font face="verdana" size="2">
+<a href="https://president.gov.by/" target="_blank"><img  src="index/pr.jpg" width="220"  /></a>
+<hr align="center" width="200" size="2" color="#8080FF" />
+<a href="https://president.gov.by/ru/gosudarstvo/simvolika/" target="_blank"><img  src="index/gsrb_.jpg" width="220"  /></a>
+<hr align="center" width="200" size="2" color="#8080FF" />
+<a href="https://edu.gov.by/" target="_blank"><img title="Министерство образования Республики Беларусь" src="index/mo.jpg" width="220"  /></a>
+<hr align="center" width="200" size="2" color="#8080FF" />
+<a href="https://www.msu.by/" target="_blank"><img title="Могилевский государственный университет имени А.А.Кулешова"  src="index/msu.png" width="220" /></a>
+<hr align="center" width="200" size="2" color="#8080FF" />
+<a href="http://ripo.unibel.by/" target="_blank"><img title="Республиканский институт профессионального образования" src="index/ripo.jpg" width="220" /></a>
+<hr align="center" width="200" size="2" color="#8080FF" />
+<a href="https://adu.by" target="_blank"><img title="Национальный образовательный портал" src="index/aduby.jpg" width="220" /></a>
+<hr align="center" width="200" size="2" color="#8080FF" />
+<a href="https://www.pravo.by" target="_blank"><img title="Национальный правовой Интернет-портал" src="index/pravoby2.jpg" width="220"  /></a>
+<hr align="center" width="200" size="2" color="#8080FF" />
+<a href="https://www.p-shkola.by" target="_blank"><img title="Издательство "Пачатковая школа"" src="index/p-sh.jpg" width="220"/></a>
+<hr align="center" width="200" size="2" color="#8080FF" />
+<a href="https://www.mir.pravo.by" target="_blank"><img title="Детский правовой сайт" src="index/mirpravo.gif" alt="" width="220"/></a>
+<hr align="center" width="200" size="2" color="#8080FF" />
+ </font>
+  </center>
+        </td>
+        <td valign="top" align="center">
+        <!--НОВОСТИ--->
+<!--center><a href="https://lenino-gpk.by/abiturient/"><img src="https://lenino-gpk.by/index/top_abitur_1.jpg" width="100%"></center>
+</a>  <hr align="center" width="300" size="2" color="#8080FF" /-->
+<iframe seamless src="https://lenino-gpk.by/news.html"  width="720" height="2100" frameborder="0" scrolling="yes" >Ваш браузер не поддерживает плавающие фреймы!</iframe><br />
+<br />
+<!--center><a href="https://lenino-gpk.by/news/" target="_blank"><font face="verdana" size="2">Архив новостей</font></a></center-->
+        </td>
+        <td  width=""valign="top" align="center">
+          <table  width="300" ><tr><td>
+          <!-- Погода -->
+
+     <div id="_MI_b3344e7b3dcaf0e1c2274cb48dea9895"><a href="https://ru.meteotrend.com/">Погода</a></div> <script type='text/javascript'>(function(d,w,t,k){function l(){if(typeof(w._MIOB_)=='undefined'){w._MIOB_={};}var m=w._MIOB_[t]=k;var s=d.createElement('script');m.p=('https:'==d.location.protocol?'https:':'http:');s.type='text/javascript';s.async=true;s.src=m.p+'//info.meteotrend.com/mt/'+m.t+'.js';d.body.appendChild(s);}if(d.readyState=='complete')l();else{if(w.attachEvent)w.attachEvent('onload',l);else w.addEventListener('load',l,false);}})(document,window,'b3344e7b3dcaf0e1c2274cb48dea9895',{t:'4x6',sw:{"pname":0,"ccond":1,"ccdesc":0,"dayblock":1,"tblank":1},css:['{p}//info.meteotrend.com/mt/{t}.css','{p}//info.meteotrend.com/cs/21607b3a86d38c2f65945f087b15ea35f18ecfde.css'],source:'meteotrend'});</script>
+</td>
+</tr>
+
+ </table>
+
+
+
+
+<!--Карта Yandex-->
+<table  width="100%" ><tr><td bgcolor="#486899"><font face="verdana" color="white" size="3"><b><center>Где мы находимся</b><br />
+на картах Yandex</center></font></td></tr>
+<tr>
+<td align="center"><div id="map" style="width: 300px; height: 300px"></div> </td>
+</tr>
+
+ </table>
+ <table  width="100%" ><tr><td bgcolor="#486899"><font face="verdana" color="white" size="3"><b><center>Как добраться</center></font></td></tr>
+<tr>
+<td><a href="abiturient/avto2025.jpg" target="_blank"><img src="abiturient/avto2025.jpg" width="100%" /></a>
+<a href="index/mt.jpg" target="_blank"><img src="index/mt.jpg" width="100%" /></td>
+</tr>
+
+ </table>
+ <hr align="center" width="200" size="2" color="#8080FF" />  <hr align="center" width="200" size="2" color="#8080FF" />
+ <font face="verdana"  size="2">
+<a href="https://lenino-gpk.by/spps/" target="_blank"><img title="Социально-педагогическая поддержка и психологическая помощь" src="index/spps2025.jpg" alt="" width="220"/></a> <br />
+Социально-педагогическая поддержка и психологическая помощь<hr align="center" width="200" size="2" color="#8080FF" />
+<a href="https://lenino-gpk.by/spps/td.pdf" target="_blank"><img title="Телефоны доверия в Беларуси" src="index/td2025.jpg" alt="" width="220"/></a> <br />
+Телефоны доверия<br />в Беларуси<hr align="center" width="200" size="2" color="#8080FF" />
+<a href="https://gsz.gov.by" target="_blank"><img title="Трудоустройство молодежи в свободное от учебы время" src="index/gsz.jpg" alt="" width="220"/></a> <br />
+Трудоустройство молодежи <br />в свободное от учебы время <hr align="center" width="200" size="2" color="#8080FF" />
+<a href="index/mintrud-vypusknikam.pdf" target="_blank"><img title="Выпускникам" src="index/vypusknikam!.jpg" width="220" /></a><br />
+Письмо Министерства труда<br />и социальной защиты<hr align="center" width="200" size="2" color="#8080FF" />
+<a href="https://profitest.ripo.by/public/main" target="_blank"><img title="Онлайн-платформа профориентационной поддержки" src="index/pt.jpg" width="220" /></a><br />
+Онлайн-платформа<br />профориентационной поддержки<hr align="center" width="200" size="2" color="#8080FF" />
+<!--a href="https://mogilev.gas.by" target="_blank"><img title="РУП "Могилевоблгаз"" src="index/gaz.jpg" alt="" width="220"/></a> <br />
+РУП "Могилевоблгаз"<hr align="center" width="200" size="2" color="#8080FF" />
+<a href="https://lenino-gpk.by/index/105.zip" target="_blank"><img  src="https://lenino-gpk.by/index/105.gif" width="220"  /></a><br />
+<hr align="center" width="200" size="2" color="#8080FF" /-->
+</font>
+<tr>
+<td colspan="3"><table width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td  width="100%" bgcolor="#486899"  align="right">
+<font color="white" face="tahoma" size="2">
+<!--Разработка и поддержка сайта: Хмарский С.И. it@lenino-gpk.by&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--><br />
+Copyright  ©  2012 - 2026 Горецкий педагогический колледж&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />
+учреждения образования "Могилевский государственный университет имени А.А. Кулешова"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font><br /><br />
+
+
+</td>
+
+
+</tr></table>
+</td>
+</tr>
+</table> <br />
+<br />
+
+
+</body></html>

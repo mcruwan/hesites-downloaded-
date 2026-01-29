@@ -1,0 +1,612 @@
+<!DOCTYPE html> <html class="ltr " dir="ltr" lang="en-GB" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"> <head> <link href="/general-opac-theme/_common/images/favicon.ico" rel="Shortcut Icon" /> <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" /> <meta content="initial-scale=1.0, width=device-width" name="viewport" /> <title>Partium Christian University</title> <meta property="og:title" content="Partium Christian University"/> <meta name="keywords" content="Library OPAC"> <meta property="og:site_name" content="Partium Christian University" /> <meta property="og:description" content="Visit our website!" /> <meta property="og:url" content="https://opac3.partium.qulto.ro/en/en/search/-/search/clearform"/> <meta property="og:type" content="website" /> <meta property="og:image" content="https://opac3.partium.qulto.ro/image/layout_set_logo?img_id=50018&amp;t=1769647599023"/> <meta property="og:image:width" content="200"/> <meta property="og:image:height" content="200"/> <meta property="og:locale" content="en_GB" /> <meta property="og:locale:alternate" content="hu_HU" /> <meta property="og:locale:alternate" content="ro_RO" /> <meta property="og:locale:alternate" content="de_DE" /> <!-- Default jquery --> <script type="text/javascript" src="https://opac3.partium.qulto.ro/general-opac-theme/_vendor/js/jquery/jquery.js"></script> <script type="text/javascript" src="https://opac3.partium.qulto.ro/general-opac-theme/_vendor/js/jquery/jquery-ui.min.js"></script> <!-- Bootstrap --> <script type="text/javascript" src="https://opac3.partium.qulto.ro/general-opac-theme/_vendor/js/bootstrap/bootstrap.min.js"></script> <script type="text/javascript" src="https://opac3.partium.qulto.ro/general-opac-theme/_vendor/js/bootstrap/bootstrap-select.min.js"></script> <!--akf deependency --> <link type="text/css" rel="stylesheet" href="/akfweb/css/jquery-ui/jquery-ui-1.9.2.custom.min.css"/> <script type="text/javascript" src="/akfweb/js/lib/jquery/jquery-1.8.3.js"></script> <script type="text/javascript">var jqOpac=jQuery.noConflict(true);</script> <script type="text/javascript" src="/akfweb/js/lib/jquery-ui/jquery-ui-1.9.2.custom.min.js"></script> <!-- top_head_include --> <meta content="text/html; charset=UTF-8" http-equiv="content-type" /> <meta content="Library OPAC" lang="en-GB" name="robots" /> <meta content="Library OPAC" lang="en-GB" name="description" /> <meta content="Library OPAC" lang="en-GB" name="keywords" /> <link href="https&#x3a;&#x2f;&#x2f;opac3&#x2e;partium&#x2e;qulto&#x2e;ro&#x2f;search&#x2f;-&#x2f;search&#x2f;clearform" rel="canonical" /> <link href="&#x2f;html&#x2f;css&#x2f;main&#x2e;css&#x3f;browserId&#x3d;other&#x26;themeId&#x3d;generallibraryopactheme_WAR_generalopactheme&#x26;minifierType&#x3d;css&#x26;languageId&#x3d;en_GB&#x26;b&#x3d;6102&#x26;t&#x3d;1482314688000" rel="stylesheet" type="text/css" /> <link href="https://opac3.partium.qulto.ro/akfweb/css/layout/akf_global_layout.css?browserId=other&amp;themeId=generallibraryopactheme_WAR_generalopactheme&amp;minifierType=css&amp;languageId=en_GB&amp;b=6102&amp;t=1761728652000" rel="stylesheet" type="text/css" /> <link href="https://opac3.partium.qulto.ro/akfweb/css/layout/search_layout.css?browserId=other&amp;themeId=generallibraryopactheme_WAR_generalopactheme&amp;minifierType=css&amp;languageId=en_GB&amp;b=6102&amp;t=1761728652000" rel="stylesheet" type="text/css" /> <link href="https://opac3.partium.qulto.ro/akfweb/css/tagsinput/bootstrap-tagsinput.css?browserId=other&amp;themeId=generallibraryopactheme_WAR_generalopactheme&amp;minifierType=css&amp;languageId=en_GB&amp;b=6102&amp;t=1761728652000" rel="stylesheet" type="text/css" /> <link href="https://opac3.partium.qulto.ro/akfweb/css/layout/map_search_layout.css?browserId=other&amp;themeId=generallibraryopactheme_WAR_generalopactheme&amp;minifierType=css&amp;languageId=en_GB&amp;b=6102&amp;t=1761728652000" rel="stylesheet" type="text/css" /> <link href="https://opac3.partium.qulto.ro/akfweb/js/lib/leaflet/leaflet.css?browserId=other&amp;themeId=generallibraryopactheme_WAR_generalopactheme&amp;minifierType=css&amp;languageId=en_GB&amp;b=6102&amp;t=1761728652000" rel="stylesheet" type="text/css" /> <link href="https://opac3.partium.qulto.ro/html/portlet/journal_content/css/main.css?browserId=other&amp;themeId=generallibraryopactheme_WAR_generalopactheme&amp;minifierType=css&amp;languageId=en_GB&amp;b=6102&amp;t=1761728513000" rel="stylesheet" type="text/css" /> <script type="text/javascript">var Liferay={Browser:{acceptsGzip:function(){return true},getMajorVersion:function(){return 537.36},getRevision:function(){return"537.36"},getVersion:function(){return"537.36"},isAir:function(){return false},isChrome:function(){return false},isFirefox:function(){return false},isGecko:function(){return false},isIe:function(){return false},isIphone:function(){return false},isLinux:function(){return false},isMac:function(){return false},isMobile:function(){return false},isMozilla:function(){return false},isOpera:function(){return false},isRtf:function(){return false},isSafari:function(){return false},isSun:function(){return false},isWap:function(){return false},isWapXhtml:function(){return false},isWebKit:function(){return true},isWindows:function(){return true},isWml:function(){return false}},Data:{isCustomizationView:function(){return false},notices:[null]},ThemeDisplay:{getCDNDynamicResourcesHost:function(){return""},getCDNBaseURL:function(){return"https://opac3.partium.qulto.ro"},getCDNHost:function(){return""},getCompanyId:function(){return"10154"},getCompanyGroupId:function(){return"10192"},getUserId:function(){return"10158"},getDoAsUserIdEncoded:function(){return""},getPlid:function(){return"49833"},getLayoutId:function(){return"1"},getLayoutURL:function(){return"https://opac3.partium.qulto.ro/en/search"},isPrivateLayout:function(){return"false"},getParentLayoutId:function(){return"0"},isVirtualLayout:function(){return false},getScopeGroupId:function(){return"49828"},getScopeGroupIdOrLiveGroupId:function(){return"49828"},getParentGroupId:function(){return"49828"},isImpersonated:function(){return false},isSignedIn:function(){return false},getDefaultLanguageId:function(){return"hu_HU"},getLanguageId:function(){return"en_GB"},isAddSessionIdToURL:function(){return true},isFreeformLayout:function(){return false},isStateExclusive:function(){return false},isStateMaximized:function(){return false},isStatePopUp:function(){return false},getPathContext:function(){return""},getPathImage:function(){return"/image"},getPathJavaScript:function(){return"/html/js"},getPathMain:function(){return"/en/c"},getPathThemeImages:function(){return"https://opac3.partium.qulto.ro/general-opac-theme/library/images"},getPathThemeRoot:function(){return"/general-opac-theme/library"},getURLControlPanel:function(){return"/en/group/control_panel;jsessionid=F10186431CD1F93D7EB0629E79EDBCB0?doAsGroupId=49828&refererPlid=49833"},getURLHome:function(){return"https\x3a\x2f\x2fopac3\x2epartium\x2equlto\x2ero\x2fweb\x2fguest"},getSessionId:function(){return"F10186431CD1F93D7EB0629E79EDBCB0"},getPortletSetupShowBordersDefault:function(){return false}},PropsValues:{NTLM_AUTH_ENABLED:false}};var themeDisplay=Liferay.ThemeDisplay;Liferay.AUI={getAvailableLangPath:function(){return"available_languages.jsp?browserId=other&themeId=generallibraryopactheme_WAR_generalopactheme&colorSchemeId=glot-01&minifierType=js&languageId=en_GB&b=6102&t=1482314692000"},getBaseURL:function(){return"https://opac3.partium.qulto.ro/html/js/aui/"},getCombine:function(){return true},getComboPath:function(){return"/combo/?browserId=other&minifierType=&languageId=en_GB&b=6102&t=1482314692000&p=/html/js&"},getFilter:function(){return{replaceStr:function(c,b,a){return b+"m="+(c.split("/html/js")[1]||"")},searchExp:"(\\?|&)/([^&]+)"}},getJavaScriptRootPath:function(){return"/html/js"},getLangPath:function(){return"aui_lang.jsp?browserId=other&themeId=generallibraryopactheme_WAR_generalopactheme&colorSchemeId=glot-01&minifierType=js&languageId=en_GB&b=6102&t=1482314692000"},getRootPath:function(){return"/html/js/aui/"}};window.YUI_config={base:Liferay.AUI.getBaseURL(),comboBase:Liferay.AUI.getComboPath(),fetchCSS:true,filter:Liferay.AUI.getFilter(),root:Liferay.AUI.getRootPath(),useBrowserConsole:false};Liferay.authToken="O8EQEbKN";Liferay.currentURL="\x2fen\x2fsearch\x2f-\x2fsearch\x2fclearform";Liferay.currentURLEncoded="%2Fen%2Fsearch%2F-%2Fsearch%2Fclearform";</script> <script src="/html/js/barebone.jsp?browserId=other&amp;themeId=generallibraryopactheme_WAR_generalopactheme&amp;colorSchemeId=glot-01&amp;minifierType=js&amp;minifierBundleId=javascript.barebone.files&amp;languageId=en_GB&amp;b=6102&amp;t=1482314692000" type="text/javascript"></script> <script type="text/javascript">Liferay.Portlet.list=["GenericSearch_WAR_akfweb","56_INSTANCE_ZuebFi5NZi5v","56_INSTANCE_EC6opEslPt79","Statistic_WAR_akfweb_INSTANCE_yTctLpTAzA4z"];</script> <script src="https://opac3.partium.qulto.ro/akfweb/js/lib/validation/dist/jquery.validate.min.js?browserId=other&amp;minifierType=js&amp;languageId=en_GB&amp;b=6102&amp;t=1761728652000" type="text/javascript"></script> <script src="https://opac3.partium.qulto.ro/akfweb/js/lib/leaflet/leaflet.js?browserId=other&amp;minifierType=js&amp;languageId=en_GB&amp;b=6102&amp;t=1761728652000" type="text/javascript"></script> <script src="https://opac3.partium.qulto.ro/akfweb/js/lib/qulto-semantic/locationMapper.js?browserId=other&amp;minifierType=js&amp;languageId=en_GB&amp;b=6102&amp;t=1761728652000" type="text/javascript"></script> <script src="https://opac3.partium.qulto.ro/akfweb/js/autocompletePaginationHandler.js?browserId=other&amp;minifierType=js&amp;languageId=en_GB&amp;b=6102&amp;t=1761728652000" type="text/javascript"></script> <script src="https://opac3.partium.qulto.ro/akfweb/js/searchbroker.js?browserId=other&amp;minifierType=js&amp;languageId=en_GB&amp;b=6102&amp;t=1761728652000" type="text/javascript"></script> <script src="https://opac3.partium.qulto.ro/akfweb/js/lib/tagsinput/bootstrap-tagsinput.js?browserId=other&amp;minifierType=js&amp;languageId=en_GB&amp;b=6102&amp;t=1761728652000" type="text/javascript"></script> <script src="https://opac3.partium.qulto.ro/akfweb/js/portlet/opacSearch.js?browserId=other&amp;minifierType=js&amp;languageId=en_GB&amp;b=6102&amp;t=1761728652000" type="text/javascript"></script> <link class="lfr-css-file" href="https&#x3a;&#x2f;&#x2f;opac3&#x2e;partium&#x2e;qulto&#x2e;ro&#x2f;general-opac-theme&#x2f;library&#x2f;css&#x2f;main&#x2e;css&#x3f;browserId&#x3d;other&#x26;themeId&#x3d;generallibraryopactheme_WAR_generalopactheme&#x26;minifierType&#x3d;css&#x26;languageId&#x3d;en_GB&#x26;b&#x3d;6102&#x26;t&#x3d;1753343067000" rel="stylesheet" type="text/css" /> <style type="text/css"></style> <!-- Cookie --> <script type="text/javascript">var cookie={theme:"https://opac3.partium.qulto.ro/general-opac-theme/_vendor/css/cookie/cookie.css",language:"en-GB"};</script> <script type="text/javascript" src="https://opac3.partium.qulto.ro/general-opac-theme/_vendor/js/cookie/cookie-message.js"></script> <script type="text/javascript" src="https://opac3.partium.qulto.ro/general-opac-theme/_vendor/js/cookie/cookie.js"></script> <!-- Common --> <script type="text/javascript" src="https://opac3.partium.qulto.ro/general-opac-theme/_common/js/dialog.js"></script> <script type="text/javascript" src="https://opac3.partium.qulto.ro/general-opac-theme/_common/js/main_header.js"></script> <link type="text/css" rel="stylesheet" href="https://opac3.partium.qulto.ro/general-opac-theme/_vendor/css/font-awesome/css/font-awesome.min.css"/> <link type="text/css" rel="stylesheet" href="https://opac3.partium.qulto.ro/general-opac-theme/library/css/index.min.css?browserId=other&amp;themeId=generallibraryopactheme_WAR_generalopactheme&amp;minifierType=css&amp;speedFilter=none&amp;languageId=en_GB&amp;b=6102&amp;t=1753343067000"/> <script type="text/javascript" src="https://opac3.partium.qulto.ro/general-opac-theme/_vendor/js/bootstrap/bootstrap-select.min.js"></script> <style> .taglib-language-list-text[lang="en-GB"]{ display: none !important; } #fullsize-header #fullsize-header-bg{ height: 200px; background-repeat: no-repeat; background-size: cover; background-position: left top; background-image: url(''); } @media (min-width: 992px){ #fullsize-header #fullsize-header-bg{ background-image: url(''); } } @media (min-width: 1200px){ #fullsize-header #fullsize-header-bg{ background-image: url(''); } } </style> <!-- Theme colors design --> <style> body, body input, body select, body textarea{ background-color: #ffffff; color: #000000; font-family: Arial,Helvetica,Verdana,sans-serif; } .form-control{ color: #000000; } a, .opac-portlet.opac-browse-portlet #biblSearchButton, .recordRow span.reference:hover, .recordRow span.reference, span[role="link"], span[role="link"]:hover, .recordContent span.reference:hover, .recordContent span.reference{ color: #578fdd; } a:hover, a:focus{ color: #578fdd; } header .light-background{ background-color: #ececec; } header .light-border-bottom{ border-bottom: 1px solid #ffffff; } header .light-border-top{ border-top: 1px solid #ffffff; } header .light-border-left{ border-left: 1px solid #ffffff; } header .light-border-right{ border-right: 1px solid #ffffff; } header .dark-border-top{ border-top: 1px solid #cacaca; } header .dark-border-left{ border-left: 1px solid #cacaca; } header .dark-border-right{ border-right: 1px solid #cacaca; } header .dark-border-bottom{ border-bottom: 1px solid #cacaca; } header #opac-header-column-1 i, header .own-color, header #selected-language, header a, header a:hover, header a:focus{ color: #000000; } header .header-button:hover, header .header-button:focus, header button:hover, header button:focus, header #opac-header-column-1 a:hover, header #opac-header-column-1 a:focus, header .menu-block, header .dropdown-menu, header .navbar.navbar-default ul.navbar-nav .portlet-body.open a, header .navbar.navbar-default ul.navbar-nav .portlet-body:hover a, header .navbar.navbar-default ul.navbar-nav li.dropdown.open a, header .navbar.navbar-default ul.navbar-nav li.dropdown:hover a{ background-color: #ffffff; } header #opac-header-column-1 .menu-block a:hover, header #opac-header-column-1 .menu-block a:focus, header #opac-header-column-1 .dropdown-menu a:hover, header #opac-header-column-1 .dropdown-menu a:focus{ background-color: #ececec; } footer { background-color: #ececec; color: #000000; } #site-title{ color: #000000; } .monguz-tab-item>div, .light-background:focus, .light-background{ background-color: #ececec; color: #000000; } .light-background .form-control{ color: #000000; } .light-border { border: 1px solid #ffffff; } .light-border-bottom{ border-bottom: 1px solid #ffffff; } .light-border-top{ border-top: 1px solid #ffffff; } .light-border-left{ border-left: 1px solid #ffffff; } .light-border-right{ border-right: 1px solid #ffffff; } .dark-border { border: 1px solid #cacaca; } .boostrap-table .boostrap-table-row, #browse-header, .dark-border-bottom{ border-bottom: 1px solid #cacaca; } .opac-separator-line, #browse-header, .dark-border-top{ border-top: 1px solid #cacaca; } #browse-header, .dark-border-left{ border-left: 1px solid #cacaca; } #browse-header, .dark-border-right{ border-right: 1px solid #cacaca; } .opac-box .box-separator{ border-bottom: 1px dotted #cacaca; } /* Gombok */ .btn.modal-positive-button, .btn-primary, .opac-portlet .opac-function-button.opac-positive-button{ color: #ffffff; background: #578fdd; border: 1px solid #cacaca; } .btn.modal-positive-button:hover, .btn-primary:hover, .opac-portlet .opac-function-button.opac-positive-button:hover, .opac-portlet .opac-function-button.opac-positive-button:visited{ color: #ffffff; background: #57abdd; border: 1px solid #a5a5a5; } .btn.modal-negative-button, .opac-portlet .opac-function-button.opac-negative-button{ color: #d74e28; background: #ececec; border: 1px solid #cacaca; } .btn.modal-negative-button:hover .opac-portlet .opac-function-button.opac-negative-button:hover, .opac-portlet .opac-function-button.opac-negative-button:visited{ color: #d74e28; background: #F3F3F3; border: 1px solid #a5a5a5; } .btn.modal-neutral-button, .btn-default, .opac-portlet .opac-function-button.opac-neutral-button{ color: #000000; background: #ececec; border: 1px solid #cacaca; } .btn.modal-neutral-button:hover, .btn-default:hover, .opac-portlet .opac-function-button.opac-neutral-button:hover, .opac-portlet .opac-function-button.opac-neutral-button:visited{ color: #000000; background: #F3F3F3; border: 1px solid #a5a5a5; } /* Advanced search */ .opac-portlet.opac-search-portlet #advanced-search-container #filters-wrapper #filters{ background-image: -webkit-gradient(top,#d0dde6,#ececec); background-image: -webkit-linear-gradient(top,#d0dde6,#ececec); background-image: -moz-linear-gradient(top,#d0dde6,#ececec); background-image: -o-linear-gradient(top,#d0dde6,#ececec); background-image: linear-gradient(to bottom,#d0dde6,#ececec); color: #000000; border-top: 1px solid #ffffff; } .opac-portlet.opac-search-portlet #advanced-search-container #filters-wrapper #filters:before { background-image: -webkit-gradient(top, #ffffff, #ececec); background-image: -webkit-linear-gradient(top, #ffffff, #ececec); background-image: -moz-linear-gradient(top, #ffffff, #ececec); background-image: -o-linear-gradient(top, #ffffff, #ececec); background-image: linear-gradient(to bottom, #ffffff, #ececec); } .opac-portlet.opac-search-portlet #advanced-search-container #filters-wrapper #filters:after { background-image: -webkit-gradient(top, #ffffff, #ececec); background-image: -webkit-linear-gradient(top, #ffffff, #ececec); background-image: -moz-linear-gradient(top, #ffffff, #ececec); background-image: -o-linear-gradient(top, #ffffff, #ececec); background-image: linear-gradient(to bottom, #ffffff, #ececec); } .opac-portlet.opac-search-portlet #advanced-search-container #filters-wrapper:before { background-image: -webkit-gradient(top, #cacaca, #ececec); background-image: -webkit-linear-gradient(top, #cacaca, #ececec); background-image: -moz-linear-gradient(top, #cacaca, #ececec); background-image: -o-linear-gradient(top, #cacaca, #ececec); background-image: linear-gradient(to bottom, #cacaca, #ececec); } .opac-portlet.opac-search-portlet #advanced-search-container #filters-wrapper:after { background-image: -webkit-gradient(top, #cacaca, #ececec); background-image: -webkit-linear-gradient(top, #cacaca, #ececec); background-image: -moz-linear-gradient(top, #cacaca, #ececec); background-image: -o-linear-gradient(top, #cacaca, #ececec); background-image: linear-gradient(to bottom, #cacaca, #ececec); } /* Inactive links: */ .huMonguzRestGallery .previous, .huMonguzRestGallery .next{ color: #578fdd; } .opac-portlet.opac-facets-portlet .facet-block.active .facetData, .opac-portlet.opac-facets-portlet .activeFilters .facet-type-name, .opac-portlet.opac-facets-portlet .facetData-wrapper .facetCounter, .huMonguzRestGallery .previous.inactive, .huMonguzRestGallery .next.inactive{ color: #939393; } /* ikonok */ .icon-color, .icon-color:hover, .icon-color.no-button-style, .icon-color.no-button-style:hover{ color: #000000; } #browse-header, .table-striped thead tr, table[name="itemList"] thead tr{ background: #cacaca; color: #ffffff; } #results-list .tiled-background, .results-record-outside-wrapper:nth-of-type(odd){ background: #f6f6f6; } </style> </head> <body class=" yui3-skin-sam controls-visible signed-out public-page site opac-portal loginmode-Default search_page"> <div style="display: none"> <img src="https://opac3.partium.qulto.ro/image/layout_set_logo?img_id=50018&amp;t=1769647599023" alt="Partium Christian University" /> <input type="hidden" name="layout-groupid" value="49828">
+      </div>
+      <div id="theme-translation-block" style="display: none;">
+        <div id="translation-cancel">Close</div>
+        <div id="translation-opac3-help">Help</div>
+      </div>
+
+      
+                        <nav id="navigation" role="navigation" class="fixedNavbar">
+        
+<div style="display: none;">
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_82_  portlet-static portlet-static-end portlet-borderless portlet-language " id="p_p_id_82_INSTANCE_0_" >
+		<span id="p_82_INSTANCE_0"></span>
+
+		<div class="portlet-body">
+
+
+
+	
+	
+	
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+		
+
+		
+			
+			
+
+				
+
+				<div class="portlet-borderless-container" style="">
+					
+
+					
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+					
+						
+
+
+	
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		
+
+			
+				
+					<a class="taglib-language-list-text" href="https://opac3.partium.qulto.ro/en/search;jsessionid=F10186431CD1F93D7EB0629E79EDBCB0?p_p_auth=v8CvOwKi&amp;p_p_id=82&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;_82_struts_action=%2Flanguage%2Fview&amp;_82_redirect=%2Fen%2Fsearch%2F-%2Fsearch%2Fclearform&amp;languageId=hu_HU" lang="hu-HU" >HU</a>
+				
+				
+			
+
+		
+
+			
+				
+					<a class="taglib-language-list-text" href="https://opac3.partium.qulto.ro/en/search;jsessionid=F10186431CD1F93D7EB0629E79EDBCB0?p_p_auth=v8CvOwKi&amp;p_p_id=82&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;_82_struts_action=%2Flanguage%2Fview&amp;_82_redirect=%2Fen%2Fsearch%2F-%2Fsearch%2Fclearform&amp;languageId=en_GB" lang="en-GB" >EN (GB)</a>
+				
+				
+			
+
+		
+
+			
+				
+					<a class="taglib-language-list-text" href="https://opac3.partium.qulto.ro/en/search;jsessionid=F10186431CD1F93D7EB0629E79EDBCB0?p_p_auth=v8CvOwKi&amp;p_p_id=82&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;_82_struts_action=%2Flanguage%2Fview&amp;_82_redirect=%2Fen%2Fsearch%2F-%2Fsearch%2Fclearform&amp;languageId=en_US" lang="en-US" >EN (US)</a>
+				
+				
+			
+
+		
+
+			
+				
+					<a class="taglib-language-list-text" href="https://opac3.partium.qulto.ro/en/search;jsessionid=F10186431CD1F93D7EB0629E79EDBCB0?p_p_auth=v8CvOwKi&amp;p_p_id=82&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;_82_struts_action=%2Flanguage%2Fview&amp;_82_redirect=%2Fen%2Fsearch%2F-%2Fsearch%2Fclearform&amp;languageId=de_DE" lang="de-DE" >DE</a>
+				
+				
+			
+
+		
+
+			
+				
+					<a class="taglib-language-list-text" href="https://opac3.partium.qulto.ro/en/search;jsessionid=F10186431CD1F93D7EB0629E79EDBCB0?p_p_auth=v8CvOwKi&amp;p_p_id=82&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;_82_struts_action=%2Flanguage%2Fview&amp;_82_redirect=%2Fen%2Fsearch%2F-%2Fsearch%2Fclearform&amp;languageId=ro_RO" lang="ro-RO" >RO</a>
+				
+				
+			
+
+		
+
+			
+				
+					<a class="taglib-language-list-text" href="https://opac3.partium.qulto.ro/en/search;jsessionid=F10186431CD1F93D7EB0629E79EDBCB0?p_p_auth=v8CvOwKi&amp;p_p_id=82&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;_82_struts_action=%2Flanguage%2Fview&amp;_82_redirect=%2Fen%2Fsearch%2F-%2Fsearch%2Fclearform&amp;languageId=sk_SK" lang="sk-SK" >SK</a>
+				
+				
+			
+
+		
+
+			
+				
+					<a class="taglib-language-list-text" href="https://opac3.partium.qulto.ro/en/search;jsessionid=F10186431CD1F93D7EB0629E79EDBCB0?p_p_auth=v8CvOwKi&amp;p_p_id=82&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;_82_struts_action=%2Flanguage%2Fview&amp;_82_redirect=%2Fen%2Fsearch%2F-%2Fsearch%2Fclearform&amp;languageId=pl_PL" lang="pl-PL" >PL</a>
+				
+				
+			
+
+		
+
+			
+				
+					<a class="taglib-language-list-text" href="https://opac3.partium.qulto.ro/en/search;jsessionid=F10186431CD1F93D7EB0629E79EDBCB0?p_p_auth=v8CvOwKi&amp;p_p_id=82&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;_82_struts_action=%2Flanguage%2Fview&amp;_82_redirect=%2Fen%2Fsearch%2F-%2Fsearch%2Fclearform&amp;languageId=fi_FI" lang="fi-FI" >FI</a>
+				
+				
+			
+
+		
+
+			
+				
+					<a class="taglib-language-list-text" href="https://opac3.partium.qulto.ro/en/search;jsessionid=F10186431CD1F93D7EB0629E79EDBCB0?p_p_auth=v8CvOwKi&amp;p_p_id=82&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;_82_struts_action=%2Flanguage%2Fview&amp;_82_redirect=%2Fen%2Fsearch%2F-%2Fsearch%2Fclearform&amp;languageId=tr_TR" lang="tr-TR" >TR</a>
+				
+				
+			
+
+		
+
+			
+				
+					<a class="taglib-language-list-text last" href="https://opac3.partium.qulto.ro/en/search;jsessionid=F10186431CD1F93D7EB0629E79EDBCB0?p_p_auth=v8CvOwKi&amp;p_p_id=82&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;_82_struts_action=%2Flanguage%2Fview&amp;_82_redirect=%2Fen%2Fsearch%2F-%2Fsearch%2Fclearform&amp;languageId=bg_BG" lang="bg-BG" >BG</a>
+				
+				
+			
+
+		
+
+	
+
+	
+
+					
+				
+			
+			
+		
+	
+	
+
+
+
+	</div>
+
+				</div>
+
+				
+			
+		
+	
+
+
+	
+
+
+
+
+
+			
+		</div>
+	</div>
+
+
+
+
+
+  
+</div>
+
+<div class="container">
+   <div class="row">
+      <div class="opac-column col-xs-12 col-sm-12 col-md-12 col-lg-12" id="opac-header-column-1">
+         <div id="headerSearchVisibility" class="dark-border-bottom dark-border-left dark-border-right">
+            <div class="left-navigation header-button-row light-background light-border-bottom light-border-left light-border-right">
+               <div class="navbar navbar-default">
+                  <div class="container-fluid">
+                     <!-- Languag selector mobilon -->
+                     <div id="mobile-menu-language-selector"
+                           class="mobile-fix-button en header-button hidden-sm hidden-md hidden-lg"
+                           onclick="showheaderLanguage()">
+                        <div id="selected-language">en</div>
+                        <div id="language-selector-wrapper">
+                           <div id="language-selector" class="menu-block">
+                              <div id="language-list">
+                                                                                                         <a class="taglib-language-list-text" href="/search?p_p_id=82&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_82_struts_action=%2Flanguage%2Fview&_82_redirect=%2Fen%2Fsearch%2F-%2Fsearch%2Fclearform&languageId=hu_HU"
+                                           lang="hu-HU">hu</a>
+                                                                       <a class="taglib-language-list-text" href="/search?p_p_id=82&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_82_struts_action=%2Flanguage%2Fview&_82_redirect=%2Fen%2Fsearch%2F-%2Fsearch%2Fclearform&languageId=en_GB"
+                                           lang="en-GB">en</a>
+                                                                       <a class="taglib-language-list-text" href="/search?p_p_id=82&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_82_struts_action=%2Flanguage%2Fview&_82_redirect=%2Fen%2Fsearch%2F-%2Fsearch%2Fclearform&languageId=ro_RO"
+                                           lang="ro-RO">ro</a>
+                                                                       <a class="taglib-language-list-text" href="/search?p_p_id=82&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_82_struts_action=%2Flanguage%2Fview&_82_redirect=%2Fen%2Fsearch%2F-%2Fsearch%2Fclearform&languageId=de_DE"
+                                           lang="de-DE">de</a>
+                                                                </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Help selector mobilon -->
+                     <button id="mobile-menu-opac-help"
+                           class="no-button-style mobile-fix-button header-button hidden-sm hidden-md hidden-lg"
+                           aria-label="Help" title="Help"
+                           onclick="openHelp('OPAC-HELP-ARTICLE-V2')">
+                        <i class="fa fa-question-circle fa-fw" aria-hidden="true"></i>
+                     </button>
+                                                                             <div id="mobile-menu-login"
+                                   class="mobile-fix-button header-button hidden-sm hidden-md hidden-lg">
+                                <button class="login-logout-button-placeholder" style="display:none"></button>
+                             </div>
+                                                                     <!-- Brand and toggle get grouped for better mobile display -->
+                     <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                              data-target="#bs-example-navbar-collapse-1" aria-expanded="false"
+                              aria-label="Toggle navigation">
+                           <span class="sr-only">Toggle navigation</span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                        </button>
+                     </div>
+                     <!-- Collect the nav links, forms, and other content for toggling -->
+                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-left">
+                           <li class="catalog-menu">
+                              <a href="/search/-/search/clearform">
+                                 <span id="header-catalog-icon" class="header-nav-icon"><img
+                                       src="https://opac3.partium.qulto.ro/general-opac-theme/library/images/catalog.png" alt="" /></span> <span class="header-nav-label own-color">Catalog</span> </a> </li> <li class="dropdown circulationportlet-menu"> <div class="portlet-boundary portlet-boundary_CircMenu_WAR_circulationportlet_ portlet-static portlet-static-end portlet-borderless circ-menu-wrapper " id="p_p_id_CircMenu_WAR_circulationportlet_" > <span id="p_CircMenu_WAR_circulationportlet"></span> <div class="portlet-body"> <div class="portlet-borderless-container" style=""> <div class="portlet-body"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="header-nav-icon"></span> <span class="header-nav-label own-color">My library</span> <span class="caret"> <i class="fa fa-angle-down" aria-hidden="true"></i> </span> </a> <div class="dropdown-menu-wrapper"> <ul class="dropdown-menu"> <li> <a href="#" onclick="sendToLogin('Please log in to access this function!', '/circulation#/reader');"> <span class="header-nav-icon"></span> <span class="header-nav-label own-color">Personal data</span> </a> </li> <li> <a href="#" onclick="sendToLogin('Please log in to access this function!', '/circulation#/items');"> <span class="header-nav-icon"></span> <span class="header-nav-label own-color">My books</span> </a> </li> <li> <a href="#" onclick="sendToLogin('Please log in to access this function!', '/circulation#/reader-history');"> <span class="header-nav-icon"></span> <span class="header-nav-label own-color">Reader history</span> </a> </li> </ul> </div> </div> </div> </div> </div> </li> <li> <form id="navbarSearchForm" method="post" class="navbar-form" action="/search?p_p_id=GenericSearch_WAR_akfweb&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_GenericSearch_WAR_akfweb_searchType=simple#displayResult" onsubmit="submitHeaderSearch(); return false" > <span class="empty-cell"></span> <div class="navbar-search-wrapper input-group"> <input type="text" class="form-control" name="term" id="navbarSearch" minlength="3" placeholder="Search" /> <span class="input-group-addon" onclick="clearHeaderSearchField('navbarSearch')"> <i class="headerSearchIcons fa fa-search" onclick="submitHeaderSearch()"></i> </span> <i class="clear-input-header fa fa-times-circle" onclick="clearHeaderSearchField('navbarSearch')"></i> </div> <i id="showAdvancedSearch" class="headerSearchIcons fa fa-sliders" type="button" onclick="toggleSearchPortlet()" title="Advanced search" > </i> <input type="hidden" name="type" id="type" value="allFields" /> <input type="hidden" name="dbid" id="dbid" value="solr" /> <input type="hidden" name="formclosestatus" id="formclosestatus" value="true" /> </form> </li> </ul> <ul class="nav navbar-nav navbar-right hidden-xs header-button-row"> <!-- LOGIN --> <li> <div id="patron-display-name"></div> </li> <li> <div id="logout-countdown-clock"></div> </li> <li> <button class="login-logout-button-placeholder" style="display:none"></button> </li> <!-- HELP --> <li> <button id="opac-help" class="no-button-style header-button" aria-label="Help" title="Help" onclick="openHelp('OPAC-HELP-ARTICLE-V2')"> <i class="fa fa-question-circle fa-fw" aria-hidden="true"></i> </button> </li> <!-- Language --> <li class="dropdown"> <a href="#" class="dropdown-toggle en language-header-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Language" aria-label="Language selector"> <span id="selected-language" class="header-nav-label own-color">en</span> </a> <div id="header-language-selector" class="language-dropdown-menu-wrapper dropdown-menu-wrapper"> <ul class="dropdown-menu"> <li> <a class="taglib-language-list-text" href="/search?p_p_id=82&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_82_struts_action=%2Flanguage%2Fview&_82_redirect=%2Fen%2Fsearch%2F-%2Fsearch%2Fclearform&languageId=hu_HU" lang="hu-HU" aria-label="Magyar"> <span class="header-nav-label own-color">hu</span> </a> </li> <li> <a class="taglib-language-list-text" href="/search?p_p_id=82&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_82_struts_action=%2Flanguage%2Fview&_82_redirect=%2Fen%2Fsearch%2F-%2Fsearch%2Fclearform&languageId=en_GB" lang="en-GB" aria-label="English"> <span class="header-nav-label own-color">en</span> </a> </li> <li> <a class="taglib-language-list-text" href="/search?p_p_id=82&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_82_struts_action=%2Flanguage%2Fview&_82_redirect=%2Fen%2Fsearch%2F-%2Fsearch%2Fclearform&languageId=ro_RO" lang="ro-RO" aria-label="Român"> <span class="header-nav-label own-color">ro</span> </a> </li> <li> <a class="taglib-language-list-text" href="/search?p_p_id=82&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_82_struts_action=%2Flanguage%2Fview&_82_redirect=%2Fen%2Fsearch%2F-%2Fsearch%2Fclearform&languageId=de_DE" lang="de-DE" aria-label="Deutsch"> <span class="header-nav-label own-color">de</span> </a> </li> </ul> </div> </li> <!-- ACCESSIBILITY --> <li> <button id="accessibility-icon" class="no-button-style not-accessibility header-button" aria-label="Accessibility" title="Accessibility" onclick="window.location='?accessibility=true'"> <i class="fa fa-eye fa-fw" aria-hidden="true"></i> </button> </li> </ul> </div> </div> </div> </div> </div> </div> </div> </div> <div id="hidden-login" style="display: none;"> <input type="hidden" name="liferay-login-in-modal" value="false" /> <input type="hidden" name="liferay-login-label" value="Administrator login" /> <div class="portlet-boundary portlet-boundary_Login_WAR_circulationportlet_ portlet-static portlet-static-end portlet-borderless circulation-login-wrapper " id="p_p_id_Login_WAR_circulationportlet_" > <span id="p_Login_WAR_circulationportlet"></span> <div class="portlet-body"> <div class="portlet-borderless-container" style=""> <div class="portlet-body"> <script src="/circulation-portlet/js/tokenRefresher.js"></script> <script src="/circulation-portlet/js/tokenProvider.js"></script> <button id="header-login" class="no-button-style login-button header-button theme-function-button" title="Login" onclick="openLoginModal();" > <i class="fa fa-share"></i> <i class="fa fa-user"></i> <span>Login</span> </button> <div id="login-portlet-wrapper"> <div id="login-portlet"> <div class="login-wrapper login-full"> <script type="text/javascript">jqOpac(document).ready(function(){jqOpac("#login-form").find("#processLoginForm").on("keyup",function(b){var a=b.keyCode||b.which;if(a===13){b.preventDefault();postProcessLoginForm()}})});function postProcessLoginForm(){var g=jqOpac("#login-form").find("#error-row");g.hide();var f=jqOpac("#login-form").find("#lockout-row");f.hide();var a="partium";var d="Missing login data";var b=jqOpac("#login-form").find("#patronIdentifier").val();var c=jqOpac("#login-form").find("#patronPassword").val();var e=jqOpac("#login-form").find("#discoveryId").val()||a;if(jqOpac.trim(b).length<1||jqOpac.trim(c).length<1){jqOpac(g).find("#error-message").html(d);g.show();return}var h=Liferay.component("hooks:circulation");var j;if(!h||!h.preLogin){j=jqOpac.Deferred().resolve()}else{j=h.preLogin()}var i=jqOpac("#login-form .modal-content");i.addClass("loading");j.then(function(){jqOpac.ajax({type:"POST",url:"/circulation-proxy/rest/_authentication?tenant_id="+e,contentType:"application/json",data:JSON.stringify({institutionId:"1",discoveryIdentifier:e,originalTenantId:a,patronIdentifier:b,patronPassword:c,language:"en-GB"}),dataType:"html",success:function(k){processPortletLogin()},error:function(l){i.removeClass("loading");if(l.status!==404){var n=JSON.parse(l.responseText);var m=false;if(n.lockoutTries!=null){jqOpac(f).find("#lockout-message").text("Login attempts remaining:"+n.lockoutTries);m=true}if(n.lockoutSeconds!=null){var k=new Date();k.setSeconds(k.getSeconds()+n.lockoutSeconds);jqOpac(f).find("#lockout-message").text("Lockout ends at:"+k.toLocaleString());m=true}if(m){f.show()}jqOpac(g).find("#error-message").html(checkErrorMessage(n.message));g.show()}else{jqOpac(g).find("#error-message").html("Proxy Not Found");g.show()}}})})}function checkErrorMessage(a){if(a==undefined||a==null||a==""){return"Login failed"}else{return a}}function processPortletLogin(){jqOpac("#login-form").find("#processLoginForm").submit()}function initForgottenPasswordModal(){var b="https://opac3.partium.qulto.ro/en/search;jsessionid=F10186431CD1F93D7EB0629E79EDBCB0?p_p_id=Login_WAR_circulationportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=forgottenPasswordForm&p_p_cacheability=cacheLevelPage";var c=true;var a={modalTitle:"Create new password",processButtonLabel:"Send",backButtonLabel:"Back"};openForgottenPasswordModal(b,c,a)};</script> <script>var informationText;var language="en-GB";if(language==="sr-RS"){language="sr-SR"}jqOpac.ajax({type:"POST",url:"/circulation-proxy/rest/circulation/login-information-text?tenant_id=partium",contentType:"application/json",dataType:"html",data:JSON.stringify({institutionId:"1",language:language}),success:function(a){if(!a){return}var b=JSON.parse(a);if(b.loginInformationText){informationText=b.loginInformationText;document.getElementById("loginInformationText").innerHTML=informationText}},error:function(a){console.error(a)}});</script> <div id="login-form" class="circulation-portlet circulation-login-portlet"> <!-- Begin error block --> <div id="error-row" class="row row-fluid" style="display:none"> <div class="span12 col-md-12 error-message-wrapper"> <div id="error-message"> </div> </div> </div> <div id="warning-row" class="row row-fluid" style="display:none"> <div class="span12 col-md-12 warning-message-wrapper"> <div class="alert alert-warning" role="alert"> </div> </div> </div> <div id="lockout-row" class="row row-fluid" style="display:none"> <div class="span12 col-md-12 lockout-message-wrapper"> <div id="lockout-message" class="info-message"> </div> </div> </div> <div> <p id="loginInformationText"> In case of forgotten barcode, please ask for the librarian`s assistance. <br> In case of forgotten password click on the Forgot your password? link. </p> </div> <div id="login-input-row" class="row row-fluid"> <div class="span12 col-xs-12 col-sm-12 col-md-12 col-lg-12"> <form id="processLoginForm" name="processLoginForm" method="post" action="https://opac3.partium.qulto.ro/en/search;jsessionid=F10186431CD1F93D7EB0629E79EDBCB0?p_auth=O8EQEbKN&p_p_id=Login_WAR_circulationportlet&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_Login_WAR_circulationportlet_javax.portlet.action=processLogin"> <input type="hidden" name="redirectProp" value="" /> <table> <tr> <td valign="middle"> <span class="login-label"> Barcode: </span> </td> <td valign="middle"> <input type="text" name="patronIdentifier" id="patronIdentifier"
+                                    placeholder="Barcode" /> </td> </tr> <tr> <td valign="middle"> <span class="login-label"> Password: </span> </td> <td valign="middle"> <input type="password" name="patronPassword" id="patronPassword"
+                                    placeholder="Password" /> </td> </tr> <tr> <td colspan="2"> <span class="login-label"> <a href="javascript: initForgottenPasswordModal()"> Forgot your password? </a> </span> </td> </tr> <tr> <td colspan="2" valign="middle"> <div id="login-form-button" class="circulation-button circulation-label-button" value="Login" onclick="postProcessLoginForm();"> <div class="circulation-label"> Login </div> <div class="circulation-icon circulation-login-icon"></div> </div> </td> </tr> </table> </form> </div> </div> </div> <div id="loginTranslations" style="display:none;"> <div id="login-portlet-title">Login</div> <div id="login-portlet-login-button">Login</div> <div id="login-portlet-cancel-button">Cancel</div> <div id="login-portlet-registration-label">Registration</div> </div> </div> </div> </div> <script>if("false"==="false"){window.tokenRefresher=createTokenRefresher("https://opac3.partium.qulto.ro/en/search;jsessionid=F10186431CD1F93D7EB0629E79EDBCB0?p_p_id=Login_WAR_circulationportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=whoAmI&p_p_cacheability=cacheLevelPage","partium","","Session expired","Please log in again!");window.tokenRefresher.start()}var loggedIn=false;showLoginPortletMenu(loggedIn);function showLoginPortletMenu(a){if(a){jqOpac(".logged-in-menu").replaceAll(".login-logout-button-placeholder").show()}else{if(jqOpac(".logged-in-menu").length>0){jqOpac("#header-login").replaceAll(".logged-in-menu");jqOpac("#patron-display-name").text("")}jqOpac("#header-login").replaceAll(".login-logout-button-placeholder")}};</script> </div> </div> </div> </div> </div> </nav> <header id="opac-header" role="heading"> <script>var headerSelector=$("#headerSearchVisibility");$("#opac-header").css("margin-top",headerSelector.height());</script> <div class="container"> <div class="row"> <div class="opac-column col-xs-12 col-sm-12 col-md-12 col-lg-12" id="opac-header-column-wrapper"> <div id="header-main-row"> <div id="simple-header" class="row"> <div class="opac-column col-xs-12 col-sm-12 col-md-12 col-lg-12" id="opac-header-column-2"> <div class="header-padding-wrapper"> <div class="logo-block"> <div class="logo-row"> <a id="logo-link" href="/search/-/search/clearform" aria-label="Partium Christian University"> <div class="logo-cell logo-image"> <div id="site-logo-wrapper"> <div id="site-logo" role="img" aria-label="Partium Christian University" style="background: url('/image/layout_set_logo?img_id=50018&amp;t=1769647599023') no-repeat left center; background-size: contain;"></div> </div> </div> <div class="logo-cell logo-label"> <div id="site-title" class="own-text-shadow"> Partium Christian University </div> </div> </a> </div> </div> </div> </div> </div> </div> </div> </div> <div id="header-funcion-container"> <div class="row"> <div class="opac-column col-xs-12 col-sm-12 col-md-12 col-lg-12 text-right" id="opac-header-column-6"> <div class="header-extra-button-row"> <div class="theme-table-wrapper"> <div class="theme-table"> <button id="opac-history-show-button" class="no-button-style icon-color header-extra-button own-border theme-table-row" style="display: none"> <div class="theme-table-cell"> <div class="theme-icon"> <i class="fa fa-history" aria-hidden="true"></i> </div> </div> <div class="theme-table-cell theme-label">Search history</div> <div class="history-count-wrapper"> <div id="history-count" class="history-count"></div> </div> </button> </div> </div> </div> </div> </div> </div> </div> </header> <main role="main"> <div id="content"> <div class="portlet-boundary portlet-boundary_103_ portlet-static portlet-static-end portlet-borderless " id="p_p_id_103_" > <span id="p_103"></span> <div class="portlet-body"> </div> </div> <div class="layout opac-home-3box" id="main-content"> <div class="container"> <div class="row"> <div class="opac-column col-xs-12 col-sm-12 col-md-12 col-lg-12 row-with-one-column" id="column-1"> <div class="portlet-dropzone portlet-column-content portlet-column-content-only" id="layout-column_column-1"> <div class="portlet-boundary portlet-boundary_GenericSearch_WAR_akfweb_ portlet-static portlet-static-end portlet-borderless " id="p_p_id_GenericSearch_WAR_akfweb_" > <span id="p_GenericSearch_WAR_akfweb"></span> <div class="portlet-body"> <div class="portlet-borderless-container" style=""> <div class="portlet-body"> <script type="text/javascript"
+  src="/akfweb/js/lib/qulto-semantic/literaryPlaceService.js"></script> <script type="text/javascript" src="/akfweb/js/lib/qulto-semantic/mapUtils.js"></script> <script type="text/javascript">var _GenericSearch_WAR_akfweb_enabledShowQuestion=undefined;function createValidatorErrorMessage(f,d,c){var a="_GenericSearch_WAR_akfweb__errorMessageContainer"+c;if(jqOpac("#"+a).length===0){var b=jqOpac("<div></div>");var g=jqOpac("<div></div>").addClass("error-message").text(f);b.append(g);var h="Error";var e={};e.buttons={};e.buttons.okbutton={};e.buttons.okbutton.label="Ok";e.buttons.okbutton.primary=true;if(d&&d!==""){e.closeevent=function(){jqOpac("#"+d).focus()};e.buttons.okbutton.event=function(){jqOpac("#"+d).focus()}}createDialogInTheme(a,h,b,e)}showDialogInTheme(a)}function generalSearchIsInStrictFields(a,b,c){return c==="***"&&a.indexOf(b)>=0}function validateSimple(b){var a=document.getElementById(b).value;var c=document.getElementById("type").value;if(a.replace(/\s*/,"").length===0&&3>0){createValidatorErrorMessage("Please enter search criteria!",b,1)}else{if(a.length<3){createValidatorErrorMessage("Please enter a longer search terms!",b,2)}else{if(generalSearchIsInStrictFields("[allFields]",c,a)){createValidatorErrorMessage("&#39;***&#39; search is not allowed in the specific field!",b,3)}else{return true}}}$("#"+b).addClass("invalid-search-term");return false}function validateBrowse(a){if(document.getElementById(a).value.replace(/\s*/,"").length===0){if(jqOpac("#_GenericSearch_WAR_akfweb__errorMessageContainer4").length===0){createValidatorErrorMessage("Please enter search criteria!",a,4)}showDialogInTheme("_GenericSearch_WAR_akfweb__errorMessageContainer3");return false}else{return true}}function validateAdvanced(){if(jqOpac("#fancytree_filter_tree").length){if(false===true&&getSelectedNodesLength()===0){jqOpac("#errorMessageContainer").text("Please select collection.");jqOpac("#errorMessageContainer").dialog({autoOpen:true,modal:true});return false}appendSelectedNodes("#advSearchFormPlaceholderBottom")}return isAdvancedSearchFieldsValid()}function isAdvancedSearchFieldsValid(){jqOpac.each(jqOpac("#advSearchForm").find(".keresoSor"),function(e,f){if(!jqOpac(f).is(":visible")){jqOpac(f).find(".osszetettkeresoPluszMinusz").trigger("click")}});jqOpac.each(jqOpac("#advSearchForm").find("select"),function(e,f){if(!jqOpac(f).is(":visible")){jqOpac(f).val(null)}});jqOpac.each(jqOpac("#advSearchForm").find("input"),function(e,f){if($(this).hasClass("tagInput")||$(this).hasClass("tagPaginationInput")){return true}if(!jqOpac(f).is(":visible")){if($(f).attr("type")==="text"||$(f).attr("type")==="date"||$(f).attr("type")==="datetime-local"||$(f).attr("type")==="email"||$(f).attr("type")==="number"){$(f).val("")}if($(f).attr("type")==="checkbox"){$(f).removeAttr("checked")}if($(f).attr("type")==="radio"){}}});var b=true;var a=false;var d=false;var c=false;$("#adv_search_rows .advanced-row input[type=text]").each(function(){var e=$(this).val();var f=$("#type"+$(this).attr("id").slice(-1)).val();if(generalSearchIsInStrictFields("[allFields]",f,e)){b=false;d=true;$(this).addClass("invalid-search-term")}if(e.length>=3){a=true}else{if(e.length!==0){b=false;c=true;$(this).addClass("invalid-search-term")}}});if(b){$(".opac-search-portlet .bootstrap-tagsinput span.tag").each(function(){a=true;return false})}if(b){$(".opac-search-portlet select.opac-search-select").each(function(){var e=$(this).val();if(e&&e.length){a=true;return false}})}if(b){$(".opac-search-portlet #advSearchFormPlaceholderBottom input[type=hidden]").each(function(){if($(this).attr("name")!=="subscribedFormIdentifier"&&$(this).val().length>0){a=true;return false}})}if(b){$(".opac-search-portlet input[type=checkbox]:checked").each(function(){a=true;return false})}if(b){if($("#periodsearch").length){a=true}}if(b){$("#adv_filter input[type=text]").each(function(){if($(this).val().length>0){a=true;return false}})}if(!a||!b){if(c){createValidatorErrorMessage("Longer (min. 3 character) search term needed in the specific field(s)!","",7)}else{if(d){createValidatorErrorMessage("&#39;***&#39; search is not allowed in the specific field!","",6)}else{createValidatorErrorMessage("Please enter one or more search criteria!","",5)}}}return a&&b}function restoreAdvanced(a){jqOpac("#input-view-close-button").hide();getSearch("advanced",true,"",a||false);if(jqOpac("#fancytree_filter_tree").length){reloadTree()}}function hideErrorMessage(){var a=document.getElementById("searchErrorMessage");a.style.display="none"}(function(){var b=new huMonguz_SearchContentCache.ContentCache("searchForms");function a(h,g,c,f,k){var e={type:h,reset:!!g,searchId:c||""};var i=$.extend({tab:h},e);if(k){j(h,e).done(function(l){k(l);window.searchBroker.setActiveTab(i)});return}if(g||window.searchBroker.getActiveTab()!==h){jqOpac("#searchContent").find(".searchContentTab").empty();jqOpac("#searchContent").find(".searchContentTab").attr("id","tab-"+h);var d=jqOpac("#_GenericSearch_WAR_akfweb_").find("form[name=changeTypeForm]");d.find('li[aria-selected="true"]').attr("aria-selected","false");d.find("#"+h).attr("aria-selected","true");jqOpac("#searchPortlet").removeClass().addClass("genericSearch mainPortlet portlet-view-mode "+h);j(h,e).done(function(l){if(g){$("#adv_search_rows").find(".accent_checkbox_input").each(function(){$(this).prop("checked",false)})}if(window._GenericSearch_WAR_akfweb_enabledShowQuestion!==undefined){disabledQuestionShow()}jqOpac("#searchContent").find(".searchContentTab").html(l);window.searchBroker.setActiveTab(i);if(f){showAdvancedQuestionFullForm()}})}function j(l,m){if(m.reset){b.clear()}else{if(b.hasContent(l)){$.ajax({type:"POST",url:"https://opac3.partium.qulto.ro/en/search;jsessionid=F10186431CD1F93D7EB0629E79EDBCB0?p_p_id=GenericSearch_WAR_akfweb&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=setLastSearchType&p_p_cacheability=cacheLevelPage&p_p_col_id=column-1&p_p_col_count=1",data:{type:l}});return $.Deferred().resolve(b.getContent(l))}}return $.ajax({type:"POST",url:"https://opac3.partium.qulto.ro/en/search;jsessionid=F10186431CD1F93D7EB0629E79EDBCB0?p_p_id=GenericSearch_WAR_akfweb&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=getSearch&p_p_cacheability=cacheLevelPage&p_p_col_id=column-1&p_p_col_count=1",data:m,dataType:"html"}).done(function(n){if(!m.reset){b.setContent(n,l)}return n})}}window.getSearch=a})();function setSearchBorder(a){if(a=="advanced"){jqOpac("#advanced_search_end").addClass("genericSearch").addClass("end")}else{jqOpac("#advanced_search_end").attr("class","")}}window.searchBroker=new SearchBroker();function showQuestionLabel(){if(!isEnabledQuestionShow()){showQuestionForm();return}jqOpac("#search-tabs-row").hide();jqOpac("#input-view-close-button-wrapper").hide();jqOpac("#searchContent").hide();jqOpac("#active-search-query").show()}function showQuestionForm(){if(_GenericSearch_WAR_akfweb_enabledShowQuestion===undefined){_GenericSearch_WAR_akfweb_enabledShowQuestion=false}jqOpac("#active-search-query").hide();jqOpac("#search-tabs-row").show();if(isEnabledQuestionShow()){jqOpac("#input-view-close-button-wrapper").show()}jqOpac("#searchContent").show()}function disabledQuestionShow(){_GenericSearch_WAR_akfweb_enabledShowQuestion=false;jqOpac("#input-view-close-button-wrapper").hide()}function isEnabledQuestionShow(){if(_GenericSearch_WAR_akfweb_enabledShowQuestion===undefined||_GenericSearch_WAR_akfweb_enabledShowQuestion){_GenericSearch_WAR_akfweb_enabledShowQuestion=true;return true}else{return false}}Liferay.component("akf:search",{changeSearch:getSearch});</script> <div id="searchPortlet" class="genericSearch mainPortlet portlet-view-mode"> <div class="dark-border-bottom dark-border-top dark-border-left dark-border-right"> <div class="light-background light-border-bottom light-border-top light-border-left light-border-right"> <div id="_GenericSearch_WAR_akfweb_" class="opac-portlet opac-search-portlet"> <!-- End error block --> <div id="input-view-block"> <!-- Begin search tabs --> <div id="search-tabs-row" class="row row-fluid"> <div class="span12 col-xs-12 col-sm-12 col-md-12 col-lg-12 monguz-tabs-row"> <form name="changeTypeForm" method="post" action="https://opac3.partium.qulto.ro/en/search;jsessionid=F10186431CD1F93D7EB0629E79EDBCB0?p_p_id=GenericSearch_WAR_akfweb&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-1&p_p_col_count=1"> <input type="hidden" name="action" value="changeFormat" /> <ul id="record-tabs-row" class="tablist" role="tablist"> <li id="simple" class="tab" role="tab" aria-selected="true" aria-controls="tab-simple" onclick="getSearch('simple'); hideErrorMessage();"> <div class="dark-border-top dark-border-left dark-border-right monguz-tab-item"> <div class="light-border-top light-border-left light-border-right ">Simple search</div> </div> </li> <li id="advanced" class="tab" role="tab" aria-selected="false" aria-controls="tab-advanced" onclick="getSearch('advanced'); hideErrorMessage();"> <div class="dark-border-top dark-border-left dark-border-right monguz-tab-item"> <div class="light-border-top light-border-left light-border-right ">Advanced search</div> </div> </li> <li id="ccl" class="tab" role="tab" aria-selected="false" aria-controls="tab-ccl" onclick="getSearch('ccl'); hideErrorMessage();"> <div class="dark-border-top dark-border-left dark-border-right monguz-tab-item"> <div class="light-border-top light-border-left light-border-right ">CCL search</div> </div> </li> <li id="browse" class="tab" role="tab" aria-selected="false" aria-controls="tab-browse" onclick="getSearch('browse'); hideErrorMessage();"> <div class="dark-border-top dark-border-left dark-border-right monguz-tab-item"> <div class="light-border-top light-border-left light-border-right ">Browse</div> </div> </li> </ul> </form> </div> </div> <!-- Begin error block --> <div id="error-row" class="row row-fluid"> <div id="searchErrorMessage" class="span12 col-md-12 error-message-wrapper"> </div> </div> <!-- End search tabs --> <div id="active-search-query" style="display: none;"> <div class="row row-fluid"> <div class="span12 col-xs-12 col-sm-12 col-md-12 col-lg-12"> <div id="active-search-query-label">Active search questions: </div> </div> </div> <div class="row row-fluid"> <div id="active-search-query-info" class="span12 col-xs-12 col-sm-12 col-md-12 col-lg-12"> <div class="opac-table"> <div class="opac-table-row"> <div id="active-search-query-value" class="opac-table-cell"> <span></span> </div> <div id="active-search-query-action-cell" class="text-left opac-table-cell"> <div id="active-search-query-button" class="opac-function-button own-border" title="Edit search" onclick="showQuestionForm()"> <div class="opac-icon"></div> </div> </div> </div> </div> </div> </div> </div> <!-- Begin search container --> <div id="gensearch"> <div id="input-view-close-button-wrapper" style="display: none"> <div class="row row-fluid"> <div class="text-right span12 col-xs-12 col-sm-12 col-md-12 col-lg-12"> <div id="input-view-close-button" class="own-border" onclick="showQuestionLabel()"></div> </div> </div> </div> <!-- here visible search container --> <div id="searchContent" style="display: none"> <div id="tab-simple" class="searchContentTab" role="tabpanel"> </div> </div> <script type="text/javascript">getSearch("simple");</script> <div id="advanced_search_end" class=""></div> <script type="text/javascript">setSearchBorder("simple");</script> </div> </div> <div id="search-portlet-facet-row"></div> <!-- End search container --> <div id="errorMessageContainer-wrapper" style="display: none"> <div id="errorMessageContainer"> <div class="error-message"></div> </div> </div> </div> </div> </div> </div> <span style="display:none;">https://opac3.partium.qulto.ro/en/search;jsessionid=F10186431CD1F93D7EB0629E79EDBCB0?p_auth=O8EQEbKN&p_p_id=GenericSearch_WAR_akfweb&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_GenericSearch_WAR_akfweb_javax.portlet.action=processPivotQuery</span> <script>function setSearchPortletVisibility(){var b=document.getElementById("navbarSearchForm");if(!b||b.dataset.updated==="true"){return}b.style.display="block";var d=document.getElementById("searchPortlet");var c=sessionStorage.getItem("searchPortletStyle");var a=document.getElementById("navbarSearch");a.value=sessionStorage.getItem("headerSearchValue");b.dataset.updated=true;sessionStorage.removeItem("headerSearchValue");d.style.display="none";if(c==="none"){d.style.display="none"}else{if(c==="block"){d.style.display="block"}}}sessionStorage.setItem("searchPortletStyle","block");setSearchPortletVisibility();if(sessionStorage.getItem("searchPortletStyle")==="none"&&$("#searchErrorMessage #error-message").text().length){$("#headerSearchVisibility").after('<div id="header-search-error" class="span12 col-md-12 error-message-wrapper">There is no result!</div>')};</script> </div> </div> </div> </div> </div> </div> </div> <div class="row"> <div class="opac-column col-xs-12 col-sm-12 col-md-4 col-lg-4" id="column-2"> <div class="portlet-dropzone portlet-column-content portlet-column-content-first" id="layout-column_column-2"> <div class="portlet-boundary portlet-boundary_56_ portlet-static portlet-static-end portlet-borderless portlet-journal-content " id="p_p_id_56_INSTANCE_ZuebFi5NZi5v_" > <span id="p_56_INSTANCE_ZuebFi5NZi5v"></span> <div class="portlet-body"> <div class="portlet-borderless-container" style=""> <div class="portlet-body"> <div class="journal-content-article"> <div id="opac-box-OPAC-ABOUT-ARTICLE" class="opac-box-wrapper"> <div class="dark-border-bottom dark-border-top dark-border-left dark-border-right"> <div class="light-background light-border-bottom light-border-top light-border-left light-border-right"> <div class="opac-box"> <div class="row row-fluid"> <div class="span12 col-xs-12 col-sm-12 col-md-12 col-lg-12"> <h2 class="box-main-title">About the library</h2> <div class="box-separator"></div> <div class="box-row-wrapper"> <div class="box-row"> <p class="box-about box-text"><b>Partium Christian University</b> <br><br> Further information on the university webpage: <br> <a href= "https://www.partium.ro/hu" target= "_blanck">https://www.partium.ro/en</a></p> </div> </div> </div> </div> </div> </div> </div> </div> </div> <div class="entry-links"> </div> </div> </div> </div> </div> </div> </div> <div class="opac-column col-xs-12 col-sm-12 col-md-4 col-lg-4" id="column-3"> <div class="portlet-dropzone portlet-column-content" id="layout-column_column-3"> <div class="portlet-boundary portlet-boundary_56_ portlet-static portlet-static-end portlet-borderless portlet-journal-content " id="p_p_id_56_INSTANCE_EC6opEslPt79_" > <span id="p_56_INSTANCE_EC6opEslPt79"></span> <div class="portlet-body"> <div class="portlet-borderless-container" style=""> <div class="portlet-body"> <div class="journal-content-article"> <div id="default-box-template-OPAC-CONTACT-ARTICLE" class="default-box-template opac-box-wrapper"> <div class="dark-border-bottom dark-border-top dark-border-left dark-border-right"> <div class="light-background light-border-bottom light-border-top light-border-left light-border-right"> <div class="opac-box"> <div class="row row-fluid"> <div class="span12 col-xs-12 col-sm-12 col-md-12 col-lg-12"> <h2 class="box-main-title">Contact</h2> <div class="box-separator"></div> <div class="box-row-wrapper"> <div class="box-row"> <p class="box-about box-text"><p> <span style="font-weight: 700;">Address:&nbsp;</span>RO 410209 Oradea, Sulyok István Street, No. 14-16.</p> <p> <span style="font-weight: 700;">E-mail:</span>&nbsp;<a href="mailto:konyvtar@partium.ro">konyvtar@partium.ro</a></p> <p> <span style="font-weight: 700;">Telefon:</span>&nbsp;(+40) 259-451430</p> <p> <span style="font-weight: 700;">Facebook:</span>&nbsp;<a href="https://www.facebook.com/search/top?q=Partiumi%20Kereszt%C3%A9ny%20Egyetem%20K%C3%B6nyvt%C3%A1ra">Partiumi Keresztény Egyetem Könyvtára</a></p> <p> &nbsp;</p> <p> <strong>Opening hours:</strong></p> <div> <strong>Monday - Friday: </strong>8.00-16.00</div> <div> &nbsp;</div> </p> </div> </div> </div> </div> </div> </div> </div> </div> </div> <div class="entry-links"> </div> </div> </div> </div> </div> </div> </div> <div class="opac-column col-xs-12 col-sm-12 col-md-4 col-lg-4" id="column-4"> <div class="portlet-dropzone portlet-column-content portlet-column-content-last" id="layout-column_column-4"> <div class="portlet-boundary portlet-boundary_Statistic_WAR_akfweb_ portlet-static portlet-static-end portlet-borderless " id="p_p_id_Statistic_WAR_akfweb_INSTANCE_yTctLpTAzA4z_" > <span id="p_Statistic_WAR_akfweb_INSTANCE_yTctLpTAzA4z"></span> <div class="portlet-body"> <div class="portlet-borderless-container" style=""> <div class="portlet-body"> <div id="opac-box-OPAC_INFORMATION" class="opac-box-wrapper portlet-view-mode"> <div class="dark-border-bottom dark-border-top dark-border-left dark-border-right"> <div class="light-background light-border-bottom light-border-top light-border-left light-border-right"> <div class="opac-box"> <div class="row row-fluid"> <div class="span12 col-xs-12 col-sm-12 col-md-12 col-lg-12"> <h2 class="box-main-title">Catalog</h2> <div class="box-separator"></div> <!-- Visible count --> <div class="box-row-wrapper"> <div class="box-row visible-count"> <span class="box-main-label">Number of visitors:</span> <span class="box-label">154290</span> </div> <!-- Number of search --> <div class="box-row number-of-search"> <span class="box-main-label">Number of search:</span> <span class="box-label">28853</span> </div> </div> <!-- Databases: --> <div class="box-row-wrapper"> <div class="box-row catalog-name-solr"> <span class="box-main-label">Number of records:</span> </div> <div class="box-row box-subrow catalog-name-solr statistic-database-withoutfacet-solr"> <span class="box-label">Catalog:</span> <span class="box-label">38428</span> </div> </div> <!-- Last import date --> <div class="box-row-wrapper"> <div class="box-row last-import-date"> <span class="box-main-label">Last import date:</span> <span class="box-label"> 2026-01-28 08:57 </span> </div> </div> </div> </div> </div> </div> </div> </div> </div> </div> </div> </div> </div> </div> </div> </div> </div> <form action="#" id="hrefFm" method="post" name="hrefFm"> <span></span> </form> </div> </main> <footer role="contentinfo"> <div class="footer-content"> <div class="aside"> </div> <div class="copyright"> <span>Copyright ©</span> <span>2016 - 2026</span> </div> <a class="aside logo" href="https://qulto.eu" target="_blank"> <img src="/general-opac-theme/_common/images/qulto_logo.png" alt="Qulto Logo"/> </a> </div> </footer> </body> <link href="https://opac3.partium.qulto.ro/circulation-portlet/css/login_layout.css?browserId=other&amp;themeId=generallibraryopactheme_WAR_generalopactheme&amp;minifierType=css&amp;languageId=en_GB&amp;b=6102&amp;t=1761728686000" rel="stylesheet" type="text/css" /> <link href="https://opac3.partium.qulto.ro/circulation-portlet/css/circmenu_layout.css?browserId=other&amp;themeId=generallibraryopactheme_WAR_generalopactheme&amp;minifierType=css&amp;languageId=en_GB&amp;b=6102&amp;t=1761728686000" rel="stylesheet" type="text/css" /> <script src="https://opac3.partium.qulto.ro/circulation-portlet/js/sendtologin.js?browserId=other&amp;minifierType=js&amp;languageId=en_GB&amp;b=6102&amp;t=1761728686000" type="text/javascript"></script> <script type="text/javascript">Liferay.Util.addInputFocus();Liferay.Portlet.runtimePortletIds=["103","Login_WAR_circulationportlet","CircMenu_WAR_circulationportlet"];</script> <script type="text/javascript">Liferay.Portlet.onLoad({canEditTitle:false,columnPos:0,isStatic:"end",namespacedId:"p_p_id_56_INSTANCE_EC6opEslPt79_",portletId:"56_INSTANCE_EC6opEslPt79",refreshURL:"\x2fen\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d49833\x26p_p_id\x3d56_INSTANCE_EC6opEslPt79\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d1\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-3\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fen\x252Fsearch\x252F-\x252Fsearch\x252Fclearform"});Liferay.Portlet.onLoad({canEditTitle:false,columnPos:0,isStatic:"end",namespacedId:"p_p_id_103_",portletId:"103",refreshURL:"\x2fen\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d49833\x26p_p_id\x3d103\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d1\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d0\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fen\x252Fsearch\x252F-\x252Fsearch\x252Fclearform"});Liferay.Portlet.onLoad({canEditTitle:false,columnPos:0,isStatic:"end",namespacedId:"p_p_id_Statistic_WAR_akfweb_INSTANCE_yTctLpTAzA4z_",portletId:"Statistic_WAR_akfweb_INSTANCE_yTctLpTAzA4z",refreshURL:"\x2fen\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d49833\x26p_p_id\x3dStatistic_WAR_akfweb_INSTANCE_yTctLpTAzA4z\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d1\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-4\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fen\x252Fsearch\x252F-\x252Fsearch\x252Fclearform"});Liferay.Portlet.onLoad({canEditTitle:false,columnPos:0,isStatic:"end",namespacedId:"p_p_id_56_INSTANCE_ZuebFi5NZi5v_",portletId:"56_INSTANCE_ZuebFi5NZi5v",refreshURL:"\x2fen\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d49833\x26p_p_id\x3d56_INSTANCE_ZuebFi5NZi5v\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d1\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-2\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fen\x252Fsearch\x252F-\x252Fsearch\x252Fclearform"});Liferay.Portlet.onLoad({canEditTitle:false,columnPos:0,isStatic:"end",namespacedId:"p_p_id_GenericSearch_WAR_akfweb_",portletId:"GenericSearch_WAR_akfweb",refreshURL:"\x2fen\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d49833\x26p_p_id\x3dGenericSearch_WAR_akfweb\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d1\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fen\x252Fsearch\x252F-\x252Fsearch\x252Fclearform\x26_GenericSearch_WAR_akfweb_action\x3dclearForm"});Liferay.Portlet.onLoad({canEditTitle:false,columnPos:0,isStatic:"end",namespacedId:"p_p_id_Login_WAR_circulationportlet_",portletId:"Login_WAR_circulationportlet",refreshURL:"\x2fen\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d49833\x26p_p_id\x3dLogin_WAR_circulationportlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d1\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d0\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fen\x252Fsearch\x252F-\x252Fsearch\x252Fclearform"});Liferay.Portlet.onLoad({canEditTitle:false,columnPos:0,isStatic:"end",namespacedId:"p_p_id_CircMenu_WAR_circulationportlet_",portletId:"CircMenu_WAR_circulationportlet",refreshURL:"\x2fen\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d49833\x26p_p_id\x3dCircMenu_WAR_circulationportlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d1\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d0\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fen\x252Fsearch\x252F-\x252Fsearch\x252Fclearform"});Liferay.Portlet.onLoad({canEditTitle:false,columnPos:0,isStatic:"end",namespacedId:"p_p_id_82_INSTANCE_0_",portletId:"82_INSTANCE_0",refreshURL:"\x2fen\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d49833\x26p_p_id\x3d82_INSTANCE_0\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d1\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d0\x26p_p_isolated\x3d1\x26currentURL\x3d\x252Fen\x252Fsearch\x252F-\x252Fsearch\x252Fclearform"});AUI().use("aui-base","liferay-menu","liferay-notice","liferay-poller","liferay-session",function(a){(function(){Liferay.Util.addInputType();Liferay.Portlet.ready(function(b,c){Liferay.Util.addInputType(c)})})();(function(){new Liferay.Menu();var b=Liferay.Data.notices;for(var c=1;c<b.length;c++){new Liferay.Notice(b[c])}})();(function(){Liferay.Session=new Liferay.SessionBase({autoExtend:true,sessionLength:30,redirectOnExpire:true,redirectUrl:"https\x3a\x2f\x2fopac3\x2epartium\x2equlto\x2ero\x2fweb\x2fguest",warningLength:1});Liferay.Session.plug(Liferay.SessionDisplay)})()});</script> <script src="https://opac3.partium.qulto.ro/general-opac-theme/library/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_GB&amp;b=6102&amp;t=1753343067000" type="text/javascript"></script> <script type="text/javascript"></script> </html> 

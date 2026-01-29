@@ -1,0 +1,1628 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+
+
+
+
+
+            
+
+
+
+
+
+<title>Land Oberösterreich</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="www.land-oberoesterreich.gv.at - Alle Informationen für unsere Bürgerinnen und Bürger">
+<meta name="pageID" content="AB96641BAF38486EBBAB6B66AAF99732"> 
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="verify-v1" content="RovEOJs7YADgykbVBDQrDIz56sS2kOw7HwzmUkYrqzk=">
+<meta name="msvalidate.01" content="8E5ACCAF436810AE5202B68F196C21D4">
+<link rel="canonical" href="https://www.land-oberoesterreich.gv.at/default.htm">
+<link href="/files/ooe2015/cdneu/css/ooeGui2015.css" rel="stylesheet" type="text/css" media="screen, print">
+<link href="/files/ooe2015/cdneu/css/flexslider.css" rel="stylesheet" type="text/css" media="screen, print">
+<link href="/files/ooe2015/cdneu/css/bootstrap-3.4.1.min.css" rel="stylesheet" type="text/css" media="screen, print">
+<link href="/files/ooe2015/cdneu/fonts/fontawesome-free-5.15.1-web/css/all.css" rel="stylesheet">
+<link href="/files/ooe2015/cdneu/css/jquery.fancybox.css" rel="stylesheet" type="text/css" media="screen">
+<link href="/files/ooe2015/cdneu/css/ooe.css" rel="stylesheet" type="text/css" media="screen, print">
+<link href="/files/ooe2015/cdneu/css/ooe-socialmedia.css" rel="stylesheet" type="text/css" media="screen, print">
+<link href="/files/ooe2015/cdneu/css/ooe-druck.css" rel="stylesheet" type="text/css" media="print">
+<!--<link href="/files/ooe2015/js/jquery-ui-1.11.3/jquery-ui.css" rel="stylesheet" type="text/css" media="screen, print">-->
+<link href="/files/ooe2015/cdneu/js/bootstrap-datepicker-1.4.0/css/bootstrap-datepicker3.css" rel="stylesheet" type="text/css" media="screen, print">
+
+<script src="/files/ooe2015/cdneu/js/jquery-3.7.1.min.js"></script>
+<!--script type="text/javascript" src="/files/ooe2015/cdneu/js/jquery-migrate-1.2.1.min.js"></script-->
+<script src="/files/ooe2015/cdneu/js/bootstrap-3.4.1.min.js"></script>
+<script src="/files/ooe2015/cdneu/js/jquery.flexslider.js"></script>
+<script src="/files/ooe2015/cdneu/js/jquery.fancybox.js"></script>
+<script src="/files/ooe2015/cdneu/js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script src="/files/ooe2015/cdneu/js/jquery-listnav.js"></script>
+<script src="/files/ooe2015/cdneu/js/ergaenzung.js"></script>
+<script src="/files/ooe2015/cdneu/js/form_validator.js"></script>
+<!--<script type="text/javascript" src="/files/ooe2015/js/jquery-ui.min.js"></script>-->
+<script src="/files/ooe2015/cdneu/js/bootstrap-datepicker-1.4.0/js/bootstrap-datepicker.min.js"></script>
+<script src="/files/ooe2015/cdneu/js/bootstrap-datepicker-1.4.0/locales/bootstrap-datepicker.de.min.js"></script>
+<script src="/files/ooe2015/cdneu/js/trunk8.js"></script>
+<!--[if lt IE 9]>
+    <script type="text/javascript" src="/files/ooe2015/cdneu/js/respond.js"></script>
+    <script type="text/javascript" src="/files/ooe2015/cdneu/js/html5.js"></script>
+<![endif]-->
+<script>
+$(function() {
+    var navLevel=$('meta[name=ooeNavLevel]');
+    if (navLevel.length==0) {
+        
+        return;
+    }
+    
+    var liE3Elements=$('#ooe-unternavigation ul li.ebene3');
+    $.each( liE3Elements, function( key, liE3Element) {
+        
+        var subUL=$(liE3Element).children('ul.ooe-unternavigation_ebene4');
+        if (subUL.length==0) {
+            
+            if ($(liE3Element).hasClass('breit44')) {
+                
+                $(liE3Element).removeClass('breit44').addClass('breit44oc');
+            }
+        } else {
+        $.each(subUL, function(key, liE4Element) {
+            if ($(liE4Element).children('li').length==1) {
+                $('li.themaanzeigen').remove();
+                $('ul.ooe-unternavigation_ebene4').remove(); 
+            }
+        });
+        }
+    });
+
+    if ($('meta[name=ooeNavLevel]').attr("content")=="12") {
+        ww = $(window).width();
+        if (ww >= 992) {
+            $('.ebene3').removeClass('breit44oc');
+            if ($('.ebene3').has('ul')) {
+                $('.link').removeClass('schmal'); 
+                $('.ebene3').removeClass('breit44');
+            }
+        }
+    }
+
+    if ($('.breit44oc').hasClass('active')) {
+        $('.ebene3').addClass('hundertprozent') ;
+        $('.link').removeClass('schmal') ;
+        $('.ooe-hg-ebene2').removeClass('hidden-md hidden-lg');
+    }
+});
+
+$(function() {
+    $('.t8-toggle').trunk8({
+        fill: '...', 
+        lines: 4, 
+        tooltip: false
+    });
+    $('.t8-toggle-3').trunk8({
+        fill: '...',
+        lines: 3,
+        tooltip: false
+    });
+
+    $(window).resize(function (event) {
+        $('.t8-resize').trunk8();
+    });
+
+    if (location.hash) {
+        if (location.hash.indexOf("/") == -1) {
+            $('#panel' + location.hash.substring(1) + '.collapse').collapse('show');
+        }
+        else {
+            console.log("In location.hash kommt ein Slash vor. Es könnte sich zb um die Route einer JavaScript-SPA handeln.");
+        }
+    }
+});
+</script>
+
+<script>
+<!--
+/* Adressfenster für Doris */
+function winopen(url,size) {
+  mapw = window.open(url,"adressuche", "left=0,top=0,toolbar=yes,location=0,directories=no,status=no,menubar=no,scrollbar=no,resizable=1,width=852,height=600");
+  mapw.focus();
+}
+/* allgemeine Funktion zum Öffnen eines Fensters; zB WAP */
+function openWin (url, name, options) {
+  newwin = window.open (url, name, options);
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+//Adobe Imagetauschfunktion
+function changeImages() {
+  for (var i=0; i<changeImages.arguments.length; i+=2) {
+   document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+  }
+}
+
+function MM_validateForm() { //v4.0
+  var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+  for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=MM_findObj(args[i]);
+    if (val) { nm=val.name; if ((val=val.value)!="") {
+      if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+        if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+      } else if (test!='R') { num = parseFloat(val);
+        if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+        if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+          min=test.substring(8,p); max=test.substring(p+1);
+          if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+    } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' bitte ausfüllen.\n'; }
+  } if (errors) alert('Folgende Formularfelder müssen ausgefüllt werden:\n'+errors);
+  document.MM_returnValue = (errors == '');
+}
+//-->
+</script>
+ 
+<link rel="apple-touch-icon" sizes="57x57" href="/files/ooe2015/cdneu/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/files/ooe2015/cdneu/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/files/ooe2015/cdneu/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/files/ooe2015/cdneu/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/files/ooe2015/cdneu/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/files/ooe2015/cdneu/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/files/ooe2015/cdneu/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/files/ooe2015/cdneu/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/files/ooe2015/cdneu/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/files/ooe2015/cdneu/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/files/ooe2015/cdneu/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/files/ooe2015/cdneu/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/files/ooe2015/cdneu/favicon/favicon-16x16.png">
+<link rel="manifest" href="/files/ooe2015/cdneu/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/files/ooe2015/cdneu/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<meta name="geo.region" content="AT-4">
+<meta name="geo.placename" content="Linz">
+<meta name="geo.position" content="48.303952;14.284838">
+<meta name="ICBM" content="48.303952, 14.284838">
+<meta property="og:latitude" content="48.303952">
+<meta property="og:longitude" content="14.284838">
+
+<meta property="og:street_address" content="Landhausplatz 1">
+<meta property="og:locality" content="Linz">
+<meta property="og:region" content="Oberoesterreich">
+<meta property="og:postal_code" content="4021">
+<meta property="og:phone_number" content="+43 732 77 20">
+<meta property="og:site_name" content="Land Oberösterreich">
+<meta property="og:title" content="Land Oberösterreich">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://www.land-oberoesterreich.gv.at">
+<meta property="og:description" content="www.land-oberoesterreich.gv.at - Alle Informationen für unsere Bürgerinnen und Bürger">
+<meta property="og:image" content="https://www.land-oberoesterreich.gv.at/files/ooe2015/cdneu/schema/schema_land_ooe_logo.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<script type="application/ld+json">{ 
+    "@context": "http://schema.org/",
+    "@type": "Organization",
+      "url": "http://www.land-oberoesterreich.gv.at",
+    "logo": "https://www.land-oberoesterreich.gv.at/files/ooe2015/cdneu/schema/schema_land_ooe_logo.jpg"
+    }   
+</script>
+<script type="application/ld+json">{ 
+    "@context": "http://schema.org/",
+     "@type": "Place",
+      "address": {
+ "@type": "PostalAddress",
+"addressLocality": "Linz",
+"postalCode": "4021",
+"streetAddress": "landhausplatz 1"
+}   
+}
+</script>
+
+<script>
+  $(window).on("load", function (e) {
+    $('.flexslider').flexslider({
+        touch:true, 
+        slideshow: true,
+        pauseOnHover:true,
+        pauseOnAction:true,
+        pauseInvisible:true
+    });
+    
+  if($('ul.slides li.slide').length === 1) {
+    $('.flex-pauseplay').remove();
+    }
+  });
+</script>
+
+
+</head>
+<body id="land">
+
+<p id="top_link"><a href="#top" title="zum Seitenanfang springen"><span></span>Nach oben</a></p>
+<div id="header_druck" class="d-none d-print-flex justify-content-between">
+  <p><strong>Amt der <abbr title="oberösterreichisch">Oö.</abbr> Landesregierung</strong><br>4021 Linz • Landhausplatz 1<br>
+  Telefon (+43 732) 77 20-0
+  <span lang="en">E-Mail</span> post@ooe.gv.at<br>www.land-oberoesterreich.gv.at
+  </p>
+  <img src="/files/ooe2015/cdneu/strukturbilder/ooe_wappen_kl.png" alt="Landeswappen Oberöstereich">
+</div>
+<!-- Header Start -->
+<div id="header" class="navbar navbar-default ooe-navbar weiss-hg" role="navigation">
+  <div class="container-fluid ooe-container position-relative">
+    <div class="row ooe-nowrap">
+      <div class="panel-group ooe-panel-accesskeys col-sm-12 hidden-xs" id="accordion">
+        <div class="panel panel-default ooe-panel-accesskeys">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="ooe-dreieck-klein"></span>Accesskeys</a>
+        </div>
+      </div>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse">
+      <div class="panel-body ooe-panel-accesskeys">
+        <ul class="accesskey" aria-label="Liste Accesskeys">
+          <li><a href="#hauptrubriken" title="Direkt zu den Hauptrubriken springen" accesskey="1">Zu den Hauptrubriken springen - Taste 1</a><span class="ooe-hidden">.</span></li>
+          <li><a href="#service" title="Direkt zu den Service-Links springen" accesskey="2">Zu den Service-Links (Kontakt, Telefon, Suche) springen - Taste 2</a><span class="ooe-hidden">.</span></li>
+          <li><a href="#inhalt" title="Direkt zum Inhalt der Seite springen" accesskey="3">Zum Inhalt springen - Taste 3</a><span class="ooe-hidden">.</span></li>
+          <li><a href="#serviceinfos" title="Direkt zu den Serviceinformationen springen" accesskey="4">Zu den Zusatzinformationen springen - Taste 4</a><span class="ooe-hidden">.</span></li>
+          <li><a href="#fusszeile" title="Direkt in die Fußzeile springen" accesskey="5">Zur Fußzeile springen - Taste 5</a><span class="ooe-hidden">.</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="d-flex w-100 justify-content-between">
+      <div class="d-lg-flex flex-fill text-left align-items-end">
+        <div class="ooe-logo d-flex align-items-end justify-content-between mb-3 mb-lg-0">
+          <a href="/default.htm" class="d-flex align-items-center text-left">
+            <img src="/files/ooe2015/cdneu/strukturbilder/ooe_wappen_kl.png" class="hidden-md hidden-lg mr-2 mt-3" alt="Landeswappen Oberöstereich">
+            <img src="/files/ooe2015/cdneu/strukturbilder/ooe_wappen.png" class="hidden-sm hidden-xs mr-2" alt="Landeswappen Oberöstereich">
+            <span class="schriftzug text-grossbuchstaben mt-4">Land <br>Oberösterreich</span>
+          </a>
+          <div class="navbar-header ooe-navbar-header d-flex align-items-end">
+            <button type="button" class="navbar-toggle  ooe-navbar-toggle collapsed float-none mr-3" data-toggle="collapse" data-target=".navbar-collapse"> <span class="fas fa-bars  fs-large fs-xl-xlarge"></span> </button>
+            <button type="button" class="navbar-toggle ooe-navbar-toggle Suche collapsed float-none mr-3" data-toggle="collapse" data-target=".navbar-collapse-suche" onclick="if ($('div.navbar-collapse-suche').hasClass('in')==false) { focusSchnellsucheAfterAnimation(); }"> <span class="fas fa-search  fs-large fs-xl-xlarge"></span> </button>
+            <div class="visible-xs-inline-block visible-sm-inline-block">
+              <a href="https://www.upperaustria.at/de" target="_blank" title="Link öffnet neues Fenster"> <img src="/files/ooe2015/cdneu/strukturbilder/standortLogo_Ooe_kl.png" alt="Standortlogo Oberösterreich" class="winzig"> </a> 
+            </div>
+          </div>
+        </div>
+      <!--Header Navigation (Start)-->
+      <div class="clear_r visible-xs"></div>
+      <div class="d-lg-flex flex-fill ooe-nopadding ooe-navbar-rubrik">
+        <div class="navbar-collapse-suche collapse hidden-lg hidden-md">
+          <form class="form-horizontal ooe-suche" action="
+ 
+ 
+ 
+ 
+ /suche.htm?Reset=true
+ 
+ 
+ " method="GET" name="frmSearch">
+            <fieldset class="cont_search_daten suchformular my-3"><legend class="sr-only">Schnellsuche</legend>
+              <div class="form-group">
+                <div class="col-xs-9">
+                  <input type="hidden" name="Suche" value="Suchen">
+                  <input type="hidden" name="suchart" value="Amt">
+                  <label for="erweitertesucheSearchQueryHeader" class="sr-only">Schnellsuche</label>
+                  <input class="form-control ooe-form-control" type="search" name="suche.query" placeholder="Suchbegriff" id="erweitertesucheSearchQueryHeader">
+                </div>
+                <div class="col-xs-3 px-0">
+                  <button id="Schnellsuche" name="Schnellsuche" type="submit" class="btn btn-default" title="Schnellsuche starten">Suchen</button>
+                </div>
+              </div>
+            </fieldset>
+          </form> 
+        </div>
+        <div class="navbar-collapse collapse ooe-nopadding w-100">
+          <a id="hauptrubriken"></a>
+          <form class="form-horizontal ooe-suche ooe-suche-xxs d-none" action="
+ 
+ 
+ 
+ 
+ /suche.htm?Reset=true
+ 
+ 
+ " method="GET" name="frmSearch">
+            <fieldset class="cont_search_daten suchformular my-3"><legend class="sr-only">Schnellsuche</legend>
+              <div class="form-group">
+                <div class="col-xs-12 mb-3">
+                  <input type="hidden" name="Suche" value="Suchen">
+                  <input type="hidden" name="suchart" value="Amt">
+                  <label for="erweitertesucheSearchQueryHeaderxxs" class="sr-only">Schnellsuche</label>
+                  <input class="form-control ooe-form-control" type="search" name="suche.query" placeholder="Suchbegriff" id="erweitertesucheSearchQueryHeaderxxs">
+                </div>
+                <div class="col-xs-12">
+                  <button id="Schnellsuchexxs" name="Schnellsuche" type="submit" class="btn btn-default w-100" title="Schnellsuche starten">Suchen</button>
+                </div>
+              </div>
+            </fieldset>
+          </form> 
+          <ul class="nav navbar-nav ooe-hauptnav-header d-lg-flex">
+            
+<li><a href="/themen.htm" class="flex-fill">Themen</a><span class="ooe-hidden">.</span>
+<button class="btn btn-primary visible-xs visible-sm ooe-dropdown" title="Unternavigationspunkte anzeigen" data-toggle="dropdown">
+<span class="glyphicon glyphicon-plus"></span>
+<span class="glyphicon glyphicon-minus"></span>
+</button>
+
+    <div class="dropdown-menu ooe-dropdown-menu">
+        <div class="row">
+            <div class="container-fluid ooe-container ">
+                <div class="ooe-mouseover">
+                    <p class="hidden-xs hidden-sm">Die Themen des Landes Ober&ouml;sterreich</p>
+                    <ul>
+                        <li><a href="/bauenundwohnen.htm" class="btn ooe-btn">Bauen und Wohnen</a><span class="ooe-hidden">.</span></li><!-- /bauenundwohnen.htm -->
+ 
+ <li><a href="/133.htm" class="btn ooe-btn">Bildung und Forschung</a><span class="ooe-hidden">.</span></li><!-- /133.htm -->
+ 
+ <li><a href="/203110.htm" class="btn ooe-btn">Europa und Internationales</a><span class="ooe-hidden">.</span></li><!-- /203110.htm -->
+ 
+ <li><a href="/141017.htm" class="btn ooe-btn">Geschichte und Geografie</a><span class="ooe-hidden">.</span></li><!-- /141017.htm -->
+ 
+ <li><a href="/139.htm" class="btn ooe-btn">Gesellschaft und Soziales</a><span class="ooe-hidden">.</span></li><!-- /139.htm -->
+ 
+ <li><a href="/141.htm" class="btn ooe-btn">Gesundheit</a><span class="ooe-hidden">.</span></li><!-- /141.htm -->
+ 
+ <li><a href="/kultur.htm" class="btn ooe-btn">Kultur</a><span class="ooe-hidden">.</span></li><!-- /kultur.htm -->
+ 
+ <li><a href="/147.htm" class="btn ooe-btn">Land- und Forstwirtschaft</a><span class="ooe-hidden">.</span></li><!-- /147.htm -->
+ 
+ <li><a href="/89557.htm" class="btn ooe-btn">Sicherheit und Ordnung</a><span class="ooe-hidden">.</span></li><!-- /89557.htm -->
+ 
+ <li><a href="/151.htm" class="btn ooe-btn">Sport und Freizeit</a><span class="ooe-hidden">.</span></li><!-- /151.htm -->
+ 
+ <li><a href="/statistik.htm" class="btn ooe-btn">Statistik</a><span class="ooe-hidden">.</span></li><!-- /statistik.htm -->
+ 
+ <li><a href="/153.htm" class="btn ooe-btn">Umwelt und Natur</a><span class="ooe-hidden">.</span></li><!-- /153.htm -->
+ 
+ <li><a href="/528685.htm" class="btn ooe-btn">Verkehr</a><span class="ooe-hidden">.</span></li><!-- /528685.htm -->
+ 
+ <li><a href="/157.htm" class="btn ooe-btn">Wirtschaft, Arbeit und Tourismus</a><span class="ooe-hidden">.</span></li><!-- /157.htm -->
+ 
+ 
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</li>
+
+ 
+<li><a href="/buergerservice.htm" class="flex-fill">Service</a><span class="ooe-hidden">.</span>
+<button class="btn btn-primary visible-xs visible-sm ooe-dropdown" title="Unternavigationspunkte anzeigen" data-toggle="dropdown">
+<span class="glyphicon glyphicon-plus"></span>
+<span class="glyphicon glyphicon-minus"></span>
+</button>
+
+    <div class="dropdown-menu ooe-dropdown-menu">
+        <div class="row">
+            <div class="container-fluid ooe-container ">
+                <div class="ooe-mouseover">
+                    <p class="hidden-xs hidden-sm"><span lang="en">Online</span>-Service rund um die Uhr</p>
+                    <ul>
+                        <li><a href="/amtstafel.htm" class="btn ooe-btn">Amtstafel</a><span class="ooe-hidden">.</span></li><!-- /amtstafel.htm -->
+ 
+ <li><a href="/egov.htm" class="btn ooe-btn"><span lang="en">E-Government</span></a><span class="ooe-hidden">.</span></li><!-- /egov.htm -->
+ 
+ <li><a href="/foerderungen.htm" class="btn ooe-btn">Förderungen</a><span class="ooe-hidden">.</span></li><!-- /foerderungen.htm -->
+ 
+ <li><a href="/formulare.htm" class="btn ooe-btn">Formulare</a><span class="ooe-hidden">.</span></li><!-- /formulare.htm -->
+ 
+ <li><a href="/12427.htm" class="btn ooe-btn">Info- und Beratungsstellen</a><span class="ooe-hidden">.</span></li><!-- /12427.htm -->
+ 
+ <li><a href="/12090.htm" class="btn ooe-btn">Medien</a><span class="ooe-hidden">.</span></li><!-- /12090.htm -->
+ 
+ <li><a href="/141018.htm" class="btn ooe-btn">Serviceangebote</a><span class="ooe-hidden">.</span></li><!-- /141018.htm -->
+ 
+ <li><a href="/opendata.htm" class="btn ooe-btn">Open Data</a><span class="ooe-hidden">.</span></li><!-- /opendata.htm -->
+ 
+ <li><a href="https://www2.land-oberoesterreich.gv.at/internetpub/InternetPubPublikationenKategorien.jsp?SessionID=SID-6ECD08E4-7CEAF621&amp;xmlid=Seiten%2Fdefault.htm&amp;dest=ooe" class="btn ooe-btn">Publikationen</a><span class="ooe-hidden">.</span></li><!-- /was_internetpub.htm -->
+ 
+ <li><a href="/veranstaltungen.htm" class="btn ooe-btn">Veranstaltungen</a><span class="ooe-hidden">.</span></li><!-- /veranstaltungen.htm -->
+ 
+ 
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</li>
+
+ 
+<li><a href="/45462.htm" class="flex-fill">Politik</a><span class="ooe-hidden">.</span>
+<button class="btn btn-primary visible-xs visible-sm ooe-dropdown" title="Unternavigationspunkte anzeigen" data-toggle="dropdown">
+<span class="glyphicon glyphicon-plus"></span>
+<span class="glyphicon glyphicon-minus"></span>
+</button>
+
+    <div class="dropdown-menu ooe-dropdown-menu">
+        <div class="row">
+            <div class="container-fluid ooe-container ">
+                <div class="ooe-mouseover">
+                    <p class="hidden-xs hidden-sm">Ober&ouml;sterreich und seine Politik</p>
+                    <ul>
+                        <li><a href="/landtag.htm" class="btn ooe-btn">Landtag</a><span class="ooe-hidden">.</span></li><!-- /landtag.htm -->
+ 
+ <li><a href="/12160.htm" class="btn ooe-btn">Landesregierung</a><span class="ooe-hidden">.</span></li><!-- /12160.htm -->
+ 
+ <li><a href="/12161.htm" class="btn ooe-btn">Recht</a><span class="ooe-hidden">.</span></li><!-- /12161.htm -->
+ 
+ <li><a href="/wahlen.htm" class="btn ooe-btn">Wahlen</a><span class="ooe-hidden">.</span></li><!-- /wahlen.htm -->
+ 
+ <li><a href="/12162.htm" class="btn ooe-btn">Budget</a><span class="ooe-hidden">.</span></li><!-- /12162.htm -->
+ 
+ 
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</li>
+
+ 
+<li><a href="/12118.htm" class="flex-fill">Verwaltung</a><span class="ooe-hidden">.</span>
+<button class="btn btn-primary visible-xs visible-sm ooe-dropdown" title="Unternavigationspunkte anzeigen" data-toggle="dropdown">
+<span class="glyphicon glyphicon-plus"></span>
+<span class="glyphicon glyphicon-minus"></span>
+</button>
+
+    <div class="dropdown-menu ooe-dropdown-menu">
+        <div class="row">
+            <div class="container-fluid ooe-container ">
+                <div class="ooe-mouseover">
+                    <p class="hidden-xs hidden-sm"><abbr title="oberösterreichisch">O&ouml;.</abbr> Landesverwaltung im Dienste der B&uuml;rgerinnen und B&uuml;rger</p>
+                    <ul>
+                        <li><a href="/12735.htm" class="btn ooe-btn">Amt der <abbr title="oberösterreichisch">Oö.</abbr> Landesregierung</a><span class="ooe-hidden">.</span></li><!-- /12735.htm -->
+ 
+ <li><a href="/12737.htm" class="btn ooe-btn">Bezirkshauptmannschaften</a><span class="ooe-hidden">.</span></li><!-- /12737.htm -->
+ 
+ <li><a href="/38526.htm" class="btn ooe-btn">Gemeinden</a><span class="ooe-hidden">.</span></li><!-- /38526.htm -->
+ 
+ <li><a href="/141020.htm" class="btn ooe-btn">Sonstige Einrichtungen</a><span class="ooe-hidden">.</span></li><!-- /141020.htm -->
+ 
+ <li><a href="/141021.htm" class="btn ooe-btn">Landesdienst</a><span class="ooe-hidden">.</span></li><!-- /141021.htm -->
+ 
+ 
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</li>
+
+ 
+<li class="visible-xs visible-sm"><a href="/12086.htm">Kontakt</a><span class="ooe-hidden">.</span>
+<button class="btn btn-primary visible-xs visible-sm ooe-dropdown" title="Unternavigationspunkte anzeigen" data-toggle="dropdown">
+<span class="glyphicon glyphicon-plus"></span>
+<span class="glyphicon glyphicon-minus"></span>
+</button>
+    <div class="dropdown-menu ooe-dropdown-menu">
+        <div class="row">
+            <div class="container-fluid ooe-container">
+                <div class="ooe-mouseover">
+                    <ul>
+                        <li><a href="/520918.htm" class="btn ooe-btn">Kontaktmöglichkeiten</a><span class="ooe-hidden">.</span></li><!-- /520918.htm -->
+ 
+ <li><a href="/190686.htm" class="btn ooe-btn"><span lang="en">E-Mail</span>-Verschlüsselung</a><span class="ooe-hidden">.</span></li><!-- /190686.htm -->
+ 
+ <li><a href="/amtssignatur.htm" class="btn ooe-btn">Amtssignatur </a><span class="ooe-hidden">.</span></li><!-- /amtssignatur.htm -->
+ 
+ <li><a href="/externemeldestelle.htm" class="btn ooe-btn">Meldung nach <abbr title="oberösterreichisch">Oö.</abbr> HSchG</a><span class="ooe-hidden">.</span></li><!-- /externemeldestelle.htm -->
+ 
+ <li><a href="/termin.htm" class="btn ooe-btn"><span lang="en">Online</span>-Terminvereinbarung</a><span class="ooe-hidden">.</span></li><!-- /termin.htm -->
+ 
+ <li><a href="https://www2.land-oberoesterreich.gv.at/internettel/Start.jsp?SessionID=SID-6ECD08E4-7CEAF621" class="btn ooe-btn">Telefonbuch</a><span class="ooe-hidden">.</span></li><!-- /was_internettel.htm -->
+ 
+ <li><a href="/240736.htm" class="btn ooe-btn">Barrierefreiheit</a><span class="ooe-hidden">.</span></li><!-- /240736.htm -->
+ 
+ <li><a href="/nutzungsbedingungen.htm" class="btn ooe-btn">Nutzungsbedingungen</a><span class="ooe-hidden">.</span></li><!-- /nutzungsbedingungen.htm -->
+ 
+ <li><a href="/13001.htm" class="btn ooe-btn">Impressum</a><span class="ooe-hidden">.</span></li><!-- /13001.htm -->
+ 
+ <li><a href="/datenschutz.htm" class="btn ooe-btn">Datenschutz</a><span class="ooe-hidden">.</span></li><!-- /datenschutz.htm -->
+ 
+ 
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>         
+    
+ 
+ 
+ 
+ 
+          </ul>
+        </div>
+      </div><!--Header Navigation (Ende)-->
+      <!--SERVICE (Start)-->
+      <div class="service d-none d-lg-flex ooe-nopaddings">  
+        <a id="service"></a>
+        <ul class="nav navbar-nav ooe-metanav-header d-flex w-100">
+          <li class="Kontakt"><a href="/12086.htm"><span class="fas fa-envelope fs-large fs-xl-xlarge"></span>
+        <span class="hidden-md hidden-sm">
+            <br>Kontakt</span></a><span class="ooe-hidden">.</span></li><!-- /12086.htm --><li class="Telefonbuch"><a href="https://www2.land-oberoesterreich.gv.at/internettel/Start.jsp?SessionID=SID-6ECD08E4-7CEAF621"><span class="fas fa-phone-alt fs-large fs-xl-xlarge"></span>
+        <span class="hidden-md hidden-sm">
+            <br>Telefon</span></a><span class="ooe-hidden">.</span></li><!-- /was_internettel.htm --><li class="Suche"><a href="/suche.htm?Reset=true"><span class="fas fa-search fs-large fs-xl-xlarge"></span>
+        <span class="hidden-md hidden-sm">
+            <br>Suche</span></a><span class="ooe-hidden">.</span></li><!-- /suche.htm -->
+        </ul>
+      </div><!-- SERVICE Ende --> 
+        <div class="d-none d-lg-flex">
+          <a href="https://www.upperaustria.at/de" target="_blank" title="Link öffnet neues Fenster"> 
+            <img src="/files/ooe2015/cdneu/strukturbilder/standortLogo_Ooe.png" alt="Standortlogo Oberösterreich"> 
+          </a> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!-- Header Ende --> 
+<!--Inhaltsbereich-->
+<div id="content">
+  
+  
+  <!-- Schaufenster Slider Start -->
+  <div class="container-fluid p-0">
+    <div class="schaufenster">
+      <div class="flexslider">
+        
+        <ul class="slides">
+          
+
+
+<li class="slide">
+  
+      <div class="schaufenster-icon d-flex justify-content-center align-items-center">
+        <div class="d-lg-flex align-items-end justify-content-start flex-fill ooe-container p-3">
+          <div class="schaufenster-v-align pb-4 p-lg-0 w-100">
+            <p class="d-flex align-items-end ueberschrift mb-4 mb-lg-5">
+              <img src=" /Bilder/PraesD%20Abt_Pr/icon_egov_rdax_148x150.png" class="icon mr-3 mr-lg-5" alt="Icon E-Government">
+              <span>E-Government</span>
+            </p>
+            <p class="hidden-xs anreisser-text mb-md-0 mb-lg-3">
+              Erledigen Sie Ihren Amtsweg einfach <span lang="en">online</span>.
+            </p>
+          </div>
+          <div class="flex-shrink-1 mwidth-lg-50">
+            <ul class="pl-lg-5 pb-4 pb-lg 0 d-flex flex-wrap">
+              <li>
+              
+                <a href="/222301.htm" class="btn ooe-btn">
+                
+                  <span lang="en">App</span> &quot;Mein O&Ouml;&quot;
+                
+                </a><span class="ooe-hidden">.</span>
+              
+              </li><!-- /222301.htm --><li>
+              
+                <a href="/foerderungen.htm" class="btn ooe-btn">
+                
+                  F&ouml;rdermap <abbr title="Oberösterreich">O&Ouml;</abbr>
+                
+                </a><span class="ooe-hidden">.</span>
+              
+              </li><!-- /foerderungen.htm --><li>
+              
+                <a href="https://e-gov.ooe.gv.at/efsbuerger/StartDienste.jsp?SessionID=SID-6ECD08E4-7CEAF621" class="btn ooe-btn">
+                
+                  <span lang="en">Online</span>-Formulare
+                
+                </a><span class="ooe-hidden">.</span>
+              
+              </li><!-- /was_efsbuerger.htm --><li>
+              
+                <a href="/139394.htm" class="btn ooe-btn">
+                
+                  <span lang="en">e-Rechnung</span>
+                
+                </a><span class="ooe-hidden">.</span>
+              
+              </li><!-- /139394.htm -->       
+            </ul> 
+          </div>
+        </div>
+      </div>
+    
+</li>
+
+
+ 
+
+
+<li class="slide">
+  
+      <div class="schaufenster-icon d-flex justify-content-center align-items-center">
+        <div class="d-lg-flex align-items-end justify-content-start flex-fill ooe-container p-3">
+          <div class="schaufenster-v-align pb-4 p-lg-0 w-100">
+            <p class="d-flex align-items-end ueberschrift mb-4 mb-lg-5">
+              <img src=" /Bilder/PraesD%20Abt_Pr/icon_buergerservice_rdax_139x150.png" class="icon mr-3 mr-lg-5" alt="Icon Bürgerservice">
+              <span>Bürgerservice rund um die Uhr</span>
+            </p>
+            <p class="hidden-xs anreisser-text mb-md-0 mb-lg-3">
+              Auch außerhalb der Dienstzeiten ist das Land Oberösterreich für Sie da.
+            </p>
+          </div>
+          <div class="flex-shrink-1 mwidth-lg-50">
+            <ul class="pl-lg-5 pb-4 pb-lg 0 d-flex flex-wrap">
+              <li>
+              
+                <a href="/termin.htm" class="btn ooe-btn">
+                
+                  <span lang="en">Online</span>-Terminvereinbarung
+                
+                </a><span class="ooe-hidden">.</span>
+              
+              </li><!-- /termin.htm --><li>
+              
+                <a href="/12434.htm" class="btn ooe-btn">
+                
+                  <abbr title="häufig gestellte Fragen">FAQ</abbr>
+                
+                </a><span class="ooe-hidden">.</span>
+              
+              </li><!-- /12434.htm --><li>
+              
+                <a href="/formulare.htm" class="btn ooe-btn">
+                
+                  Formulare
+                
+                </a><span class="ooe-hidden">.</span>
+              
+              </li><!-- /formulare.htm --><li>
+              
+                <a href="/foerderungen.htm" class="btn ooe-btn">
+                
+                  F&ouml;rdermap <abbr title="Oberösterreich">O&Ouml;</abbr>
+                
+                </a><span class="ooe-hidden">.</span>
+              
+              </li><!-- /foerderungen.htm --><li>
+              
+                <a href="/kundmachungen.htm" class="btn ooe-btn">
+                
+                  Kundmachungen 
+                
+                </a><span class="ooe-hidden">.</span>
+              
+              </li><!-- /kundmachungen.htm -->       
+            </ul> 
+          </div>
+        </div>
+      </div>
+    
+</li>
+
+
+ 
+        </ul>
+      </div> 
+    </div>
+  </div><!-- Schaufenster Slider Ende -->
+  <div class="container-fluid ooe-container">
+    <div class="row"><a id="inhalt"></a>
+      
+        <div class="col-md-9 col-sm-12">
+        
+      
+        <h1 class="sr-only">Startseite</h1>
+        
+        
+
+<div class="row ooe-schlagzeilen d-flex flex-wrap si-525142">
+
+    <!--/553769.htm-->
+
+    <div class="col-sm-6 ooe-presseschlagzeile"><a href="/553768.htm">
+        <p class="bereich"><span>Presseinformation</span> <span class="ooe-datum">28. J&auml;nner 2026</span></p>
+        <p aria-hidden="true">
+            <span class="foto">
+                <picture>
+                    <source srcset="/Bilder/Raster/LK/Landhaus_Fahne_Landooe_Liedl_rdax_600x400_90.webp" type="image/webp">
+                    <source srcset="/Bilder/Raster/LK/Landhaus_Fahne_Landooe_Liedl_rdax_600x400_90.jpeg" type="image/jpeg">
+                    <img src="/Bilder/Raster/LK/Landhaus_Fahne_Landooe_Liedl_rdax_600x400_90.jpeg" class="img-responsive" alt="Über dem Südportal des Linzer Landhauses weht eine Oberösterreich-Fahne" loading="lazy">
+                </picture>                
+            </span>
+            <span class="fotoquelle">Quelle: Sabrina Liedl, Land <abbr title="Oberösterreich">OÖ</abbr></span>
+        </p>
+        <h2>Themen im Landtag am 29. Jänner 2026</h2>
+        <p>Bei der ersten Landtagssitzung im heurigen Jahr, am 29. Jänner 2026, werden unter anderem das Projekt „<abbr title="oberösterreichisch">Oö.</abbr> Hausordnung - Das kleine 1x1 des Zusammenlebens“, die Neuerrichtung und Finanzierung des <abbr title="Oberösterreich">OÖ</abbr> Landesarchivs und  „Wohnen für Lehrlinge leistbar machen“  thematisiert. Hier geht es zum Sitzungsablauf und am 29. Jänner ab 10:00 Uhr zu Landtag <span lang="en">online</span>.</p>
+    </a></div>
+        
+  
+
+    <!--/553761.htm-->
+
+    <div class="col-sm-6 ooe-presseschlagzeile"><a href="/553760.htm">
+        <p class="bereich"><span>Presseinformation</span> <span class="ooe-datum">28. J&auml;nner 2026</span></p>
+        <p aria-hidden="true">
+            <span class="foto">
+                <picture>
+                    <source srcset="/Bilder/Raster/LK/Screenshot%202026-01-28%20091214_rdax_90.webp" type="image/webp">
+                    <source srcset="/Bilder/Raster/LK/Screenshot%202026-01-28%20091214_rdax_90s.jpg" type="image/jpeg">
+                    <img src="/Bilder/Raster/LK/Screenshot%202026-01-28%20091214_rdax_90s.jpg" class="img-responsive" alt="Zwei Plakate der Kommunikationsschiene der OÖ Hausordnung stehen nebeneinander, darauf ist jeweils ein Mann bzw. Bursche und eine der Regeln der Hausordnung zu sehen.  " loading="lazy">
+                </picture>                
+            </span>
+            <span class="fotoquelle">Quelle: Land <abbr title="Oberösterreich">OÖ</abbr></span>
+        </p>
+        <h2>Landesweite Ausrollung der <abbr title="Oberösterreich">OÖ</abbr> Hausordnung </h2>
+        <p>Die <abbr title="Oberösterreich">OÖ</abbr> Hausordnung definiert 13 zentrale Regeln für ein gelingendes Zusammenleben in Oberösterreich. In den nächsten Wochen und Monaten soll die <abbr title="Oberösterreich">OÖ</abbr> Hausordnung Schritt für Schritt in ganz Oberösterreich sichtbar und im Alltag wirksam werden – als gemeinsame Wertebasis, die Orientierung bietet, Verbindlichkeit schafft und das gesellschaftliche Miteinander nachhaltig stärkt.</p>
+    </a></div>
+        
+  
+
+    <!--/553603.htm-->
+
+    <div class="col-sm-6 ooe-presseschlagzeile"><a href="/553602.htm">
+        <p class="bereich"><span>Presseinformation</span> <span class="ooe-datum">26. J&auml;nner 2026</span></p>
+        <p aria-hidden="true">
+            <span class="foto">
+                <picture>
+                    <source srcset="/Bilder/Raster/LK/Junge%20Frauen%20beim%20Laufen%20_grafikwerk21%20adobe%20stock_rdax_600x400_90.webp" type="image/webp">
+                    <source srcset="/Bilder/Raster/LK/Junge%20Frauen%20beim%20Laufen%20_grafikwerk21%20adobe%20stock_rdax_600x400_90.jpeg" type="image/jpeg">
+                    <img src="/Bilder/Raster/LK/Junge%20Frauen%20beim%20Laufen%20_grafikwerk21%20adobe%20stock_rdax_600x400_90.jpeg" class="img-responsive" alt="Junge Frauen beim Laufen" loading="lazy">
+                </picture>                
+            </span>
+            <span class="fotoquelle">Quelle: @grafikwerk21 – stock.adobe.com</span>
+        </p>
+        <h2>Let’s start moving!</h2>
+        <p>Zu viel Sitzen, hoher Leistungsdruck und wenig Bewegung sind für viele Jugendliche Alltag. Mit dem Schwerpunkt „move.it“ setzt das JugendService des Landes <abbr title="Oberösterreich">OÖ</abbr> ein bewusst einfaches Zeichen: nicht lange planen, sondern einfach starten. Das Projekt bringt Bewegung, Entspannung und mentale Stärke direkt in Schule, Jugendzentrum und Freizeit.</p>
+    </a></div>
+        
+  
+
+    <!--/553487.htm-->
+
+    <div class="col-sm-6 ooe-presseschlagzeile"><a href="/553486.htm">
+        <p class="bereich"><span>Presseinformation</span> <span class="ooe-datum">22. J&auml;nner 2026</span></p>
+        <p aria-hidden="true">
+            <span class="foto">
+                <picture>
+                    <source srcset="/Bilder/Raster/LK/poxrucker-sisters-live-01_rdax_600x450_90.webp" type="image/webp">
+                    <source srcset="/Bilder/Raster/LK/poxrucker-sisters-live-01_rdax_600x450_90p.jpg" type="image/jpeg">
+                    <img src="/Bilder/Raster/LK/poxrucker-sisters-live-01_rdax_600x450_90p.jpg" class="img-responsive" alt="Die Band „Poxrucker Sisters“ bei einem Live-Auftritt, die drei Frauen stehen miteinander auf der Bühne und musizieren. " loading="lazy">
+                </picture>                
+            </span>
+            <span class="fotoquelle">Quelle: Poxrucker Sisters</span>
+        </p>
+        <h2>Konzert zum Weltfrauentag</h2>
+        <p>Zur Einstimmung auf den Weltfrauentag lädt die <abbr title="oberösterreichisch">oö.</abbr> Dialektpop-Band „Poxrucker Sisters“ gemeinsam mit anderen Künstlerinnen am 1. März zum Konzertformat #weare ins Linzer Musiktheater. Unter dem Motto „Laut im Dialekt“ erwartet das Publikum ein besonderen Abend, der ausschließlich Frauenacts auf die Bühne bringt: kraftvolle Stimmen, berührende Texte und Musik, die verbindet und bestärkt.</p>
+    </a></div>
+        
+  
+
+    <!--/553430.htm-->
+
+    <div class="col-sm-6 ooe-presseschlagzeile"><a href="/553429.htm">
+        <p class="bereich"><span>Presseinformation</span> <span class="ooe-datum">21. J&auml;nner 2026</span></p>
+        <p aria-hidden="true">
+            <span class="foto">
+                <picture>
+                    <source srcset="/Bilder/Raster/LK/C%20Davids_peopleimages.com%20AdobeStock_560060526_rdax_600x351_90.webp" type="image/webp">
+                    <source srcset="/Bilder/Raster/LK/C%20Davids_peopleimages.com%20AdobeStock_560060526_rdax_600x351_90.jpeg" type="image/jpeg">
+                    <img src="/Bilder/Raster/LK/C%20Davids_peopleimages.com%20AdobeStock_560060526_rdax_600x351_90.jpeg" class="img-responsive" alt="Hände einer Pflegekraft halten die Hände einer älteren Person " loading="lazy">
+                </picture>                
+            </span>
+            <span class="fotoquelle">Quelle: @C Davids/peopleimages.com- stock.adobe.com</span>
+        </p>
+        <h2>Deutsch-Offensive für internationale Pflegekräfte</h2>
+        <p>Die Gewinnung von Pflegekräften hat in Oberösterreich hohe Priorität. Deutschkenntnisse sind dabei ein grundlegender Baustein für eine gelingende Integration. Mit einer Deutsch-Offensive machen die <abbr title="oberösterreichisch">oö.</abbr> Alten- und Pflegeheime und der Integrationsfonds nun internationale Fachkräfte schneller einsatzfähig.</p>
+    </a></div>
+        
+  
+
+  <div class="col-sm-6 col-xs-12">
+    <div class="ooe-presseschlagzeile-news">
+        <p class="bereich"><span>Aktuelle Medieninformationen</span></p>
+        <p><span class="foto">
+            <img class="img-responsive" alt="Logo Medieninfo des Landes Oberösterreich" src="/files/ooe2015/cdneu/strukturbilder/LKGrafik_Medieninfo2023.png" loading="lazy">
+        </span></p>
+        
+        <ul id="apaliste"></ul>
+        <a href="https://www.ots.at/pressemappe/33834/amt-der-ooe-landesregierung" target="_blank" title="Link öffnet neues Fenster" class="btn ooe-btn">Alle Medieninformationen lesen <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a> 
+        <script>
+            //fetch("https://www.ots.at/api/liste?app=bb06a6f04997425d6143f475f13147d0&query=%28EMITTENTID%3D33834%29&inhalt=alle&anz=5&sourcetype=ALL&format=json")
+            fetch("https://www.land-oberoesterreich.gv.at/UIModules/ots.htm")
+                .then(response => response.json())
+                .then(data => {
+                    const apaList = document.querySelector("#apaliste");
+                    const ergebnis = data.ergebnisse;
+                    for(const item of ergebnis){
+                        const apaItem = document.createElement("li");
+                        //const apaLink = item.WEBLINK;
+                        apaItem.innerHTML = '<a href="' + item.WEBLINK + '" target="_blank" title="Link öffnet neues Fenster" class="extern"><h2>' + item.TITEL + ' <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></h2></a><span class="ooe-hidden">.</span>';
+                        apaList.appendChild(apaItem);
+                    }
+                })
+                .catch(error => {
+                    console.log("error: " + error);
+                });
+              
+          </script> 
+    </div>
+  </div>
+</div>
+
+<div class="row ooe-schlagzeilen d-flex flex-wrap" id="ooe-rubrikensz">
+
+<!--/291089.htm-->
+
+    <div class="col-lg-4 col-md-12 ooe-rubrikenschlagzeile mb-5 mb-lg-0">
+    
+
+    
+    
+    <a href="/118266.htm">
+    
+    <div class="col-lg-12 col-md-4 col-sm-4 p-0 pr-md-3">
+        <p class="bereich"><span>Ausschreibungen und Wettbewerbe</span></p>
+        <p><span class="foto"><img src="/Bilder/PraesD%20Abt_Praes/KiJA-OOe_Liberto-2026_Instagram_1080x1350px_rdax_300x375s.jpg" class="img-responsive" alt="OÖ Kinderschutzpreis Liberto 2026 " title="OÖ Kinderschutzpreis Liberto 2026 " loading="lazy"></span>
+           <span class="fotoquelle">Quelle: <abbr title="Kinder- und Jugendanwaltschaft">KiJA</abbr> <abbr title="Oberösterreich">OÖ</abbr> / Grafik: bayer / sub. communication design / Foto: Adobe Stock</span>
+        </p>
+    </div>
+    <div class="col-lg-12 col-md-8 col-sm-8 p-0">
+        <h2>Liberto Kinderschutzpreis</h2>
+        <p class="grau">Die <abbr title="Kinder- und Jugendanwaltschaft">KiJA</abbr> <abbr title="Oberösterreich">O&Ouml;</abbr> sucht den coolsten Kinderrechte-Song! Alle unter 21 Jahren k&ouml;nnen bis 15. M&auml;rz 2025 einreichen und haben die Chance, 1.500 Euro und eine Liberto-Statue zu gewinnen!</p>
+    </div>
+    </a>
+    
+
+</div>
+
+<!--/543058.htm-->
+
+    <div class="col-lg-4 col-md-12 ooe-rubrikenschlagzeile mb-5 mb-lg-0">
+    
+
+    
+    
+    <a href="/35254.htm">
+    
+    <div class="col-lg-12 col-md-4 col-sm-4 p-0 pr-md-3">
+        <p class="bereich"><span>Gesellschaft und Soziales</span></p>
+        <p><span class="foto"><img src="/Bilder/KGD%20Abt_Geft/jugendliche_gelb_239541510_rdax_300x200s.jpg" class="img-responsive" alt="Jugendliche in selbstsicherer Pose" title="Jugendliche in selbstsicherer Pose" loading="lazy"></span>
+           <span class="fotoquelle">Quelle: ©luismolinero – stock.adobe.com</span>
+        </p>
+    </div>
+    <div class="col-lg-12 col-md-8 col-sm-8 p-0">
+        <h2>JugendService</h2>
+        <p class="grau">Von Ausbildungsm&ouml;glichkeiten &uuml;ber Lernhilfe bis hin zu Auslandsaufenthalten und pers&ouml;nlichen Anliegen – das JugendService ist die Anlaufstelle f&uuml;r Jugendliche in Ober&ouml;sterreich.</p>
+    </div>
+    </a>
+    
+
+</div>
+
+<!--/551318.htm-->
+
+    <div class="col-lg-4 col-md-12 ooe-rubrikenschlagzeile mb-5 mb-lg-0">
+    
+
+    
+    
+    <a href="/energieausweisdatenbank.htm">
+    
+    <div class="col-lg-12 col-md-4 col-sm-4 p-0 pr-md-3">
+        <p class="bereich"><span>Umwelt und Natur</span></p>
+        <p><span class="foto"><img src="/Bilder/PraesD%20Abt_Pr/AdobeStock_1776033245_rdax_300x180s.jpg" class="img-responsive" alt="Energieverbrauchskennzeichnung für Häuser" title="Energieverbrauchskennzeichnung für Häuser" loading="lazy"></span>
+           <span class="fotoquelle">Quelle: ©Micro Vector Market – stock.adobe.com</span>
+        </p>
+    </div>
+    <div class="col-lg-12 col-md-8 col-sm-8 p-0">
+        <h2>Datenbank f&uuml;r Energieausweise</h2>
+        <p class="grau">In der Energieausweis-Datenbank werden Energieausweise zentral registriert. Damit werden Beh&ouml;rden- und F&ouml;rderungswege vereinfacht und eine wichtige Datengrundlage &uuml;ber die Energieeffizienz der Geb&auml;ude in Ober&ouml;sterreich geschaffen.</p>
+    </div>
+    </a>
+    
+
+</div>
+
+</div>
+ 
+ 
+        <!-- lis_nav_main BEGINN -->
+        <!-- <div class="unsichtbar">/themen.htm/buergerservice.htm/45462.htm/12118.htm/12086.htm/suche.htm/arbeiten-fuers-land.htm/sitemap.xml/relaunch-sitemap.htm</div> -->
+        <!-- lis_nav_main ENDE -->
+        
+      </div>
+      <!-- Info-Leiste rechts (Start) -->
+      
+         <div class="col-md-3 col-sm-12">
+        
+        <a id="serviceinfos"></a>
+        <div class="row ooe-serviceinfos d-flex flex-wrap">
+          
+          
+
+
+      <div class="col-md-12 col-sm-6 ooe-zusatzinfo">
+    
+
+
+
+
+
+
+
+
+    
+    
+        
+    <a class="mit-bild startseite" href="/arbeiten-fuers-land.htm" title="Interner Link">
+        
+    
+    
+        
+        <p class="zi-bild pr-4"><span class="maxheight"><img src="/Bilder/PersD%20Abt_Pers/ooe_agm_schwarz_kl.jpg" alt="Arbeitgebermarkte Land Oberösterreich: Arbeiten fürs Land" class="img-responsive" loading="lazy"></span><span class="fotoquelle">(Quelle: Land <abbr title="Oberösterreich">OÖ</abbr>)</span></p>
+        <p class="text-top"><span class="ueberschrift">Karriereportal des Landes <abbr title="Oberösterreich">O&Ouml;</abbr></span>
+        
+    
+    Rund 11.000 Mitarbeitende machen das Land <abbr title="Oberösterreich">O&Ouml;</abbr> zu einem der gr&ouml;&szlig;ten Arbeitgeber der Region. Arbeiten Sie hier, machen Sie mehr als blo&szlig; einen <span lang="en">Job</span>. Gemeinsam schaffen wir Lebensqualit&auml;t. Klingt gut? Sehen Sie sich um auf unserem Karriereportal!</p>
+
+    
+    <div class="clear_l"></div></a>
+    
+    
+
+
+
+
+</div>
+
+
+      <div class="col-md-12 col-sm-6 ooe-zusatzinfo">
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <a href="https://sozialratgeber.ooe.gv.at" target="_self" class="mit-bild  startseite" title="Link zu einer dynamischen Seite">
+    
+    
+    
+        
+        <p class="zi-bild"><span class="maxheight"><img src="/Bilder/PraesD%20Abt_Pr/AdobeStock_404410054_soraChatbot_rdax_275x183p.jpg" alt="Eine Frau tippt auf dem Laptop" class="img-responsive" loading="lazy"></span><span class="fotoquelle">(Quelle: ©Monster Ztudio - stock.adobe.com)</span></p>
+        <p class="text-top"><span class="ueberschrift">Sozialratgeber-Chatbot</span>
+        
+    
+    Unb&uuml;rokratisch und rund um die Uhr Antworten auf alle Fragen rund um Unterst&uuml;tzungsleistungen und soziale Angebote f&uuml;r Menschen in <abbr title="Oberösterreich">O&Ouml;.</abbr></p>
+    <div class="clear_l"></div></a>
+    
+
+
+
+</div>
+
+
+      <div class="col-md-12 col-sm-6 ooe-zusatzinfo">
+    
+
+
+
+
+
+
+
+
+    
+    
+        
+    <a class="mit-bild startseite" href="/termin.htm" title="Interner Link">
+        
+    
+    
+        
+        <p class="zi-bild pr-4"><span class="maxheight"><img src="/Bilder/PraesD%20Abt_Pr/Adobe_418896935_MH_SprechblaseKalender_rdax_275x163.png" alt="eckige Sprechblase mit Kalenderblatt" class="img-responsive" loading="lazy"></span><span class="fotoquelle">(Quelle: ©MH – stock.adobe.com)</span></p>
+        <p class="text-top"><span class="ueberschrift">Online Termin vereinbaren</span>
+        
+    
+    Nutzen Sie die <span lang="en">Online</span>-Terminvereinbarung und ersparen Sie sich lange Wartezeiten f&uuml;r einen pers&ouml;nlichen Kontakt. Sie k&ouml;nnen auch schnell, einfach und direkt eine <span lang="en">Online</span>-Anfrage an uns richten.</p>
+
+    
+    <div class="clear_l"></div></a>
+    
+    
+
+
+
+
+</div>
+
+
+      <div class="col-md-12 col-sm-6 ooe-zusatzinfo">
+    
+
+
+
+
+
+
+
+
+    
+    
+        
+    <a class="mit-bild startseite" href="/foerderungen.htm" title="Interner Link">
+        
+    
+    
+        
+        <p class="zi-bild pr-4"><span class="maxheight"><img src="/Bilder/PraesD%20Abt_Pr/ZI_Bild_FoeMap__rdax_275x195s.jpg" alt="Landeswebsite mit Landkarte und rotem Markierungsbutton" class="img-responsive" loading="lazy"></span><span class="fotoquelle">(Quelle: ©LightAndShare – stock.adobe.com, Land <abbr title="Oberösterreich">OÖ</abbr>)</span></p>
+        <p class="text-top"><span class="ueberschrift">F&ouml;rderMap <abbr title="Oberösterreich">O&Ouml;</abbr></span>
+        
+    
+    Finden Sie mit der F&ouml;rderMap <abbr title="Oberösterreich">O&Ouml;</abbr> schnell und einfach Ihre passende F&ouml;rderung. </p>
+
+    
+    <div class="clear_l"></div></a>
+    
+    
+
+
+
+
+</div>
+
+
+      <div class="col-md-12 col-sm-6 ooe-zusatzinfo">
+    
+
+
+
+
+
+
+
+
+    
+    
+        
+    <a class="mit-bild startseite" href="/wirtschaftsportal.htm" title="Interner Link">
+        
+    
+    
+        
+        <p class="zi-bild pr-4"><span class="maxheight"><img src="/Bilder/PraesD%20Abt_Pr/Wirtschaftsportal_OOE_AdobeStock_323633201_rdax_275x179.jpeg" alt="Abstrakter Hintergrund mit verschiedenen einander überlappenden Formen" class="img-responsive" loading="lazy"></span><span class="fotoquelle">(Quelle: ©antishock – stock.adobe.com)</span></p>
+        <p class="text-top"><span class="ueberschrift">Wirtschaftsportal <abbr title="Oberösterreich">O&Ouml;</abbr></span>
+        
+    
+    Das Wirtschaftsportal Ober&ouml;sterreich steht allen Unternehmen als zentrale Anlaufstelle f&uuml;r elektronische Beh&ouml;rdenverfahren zur Verf&uuml;gung.</p>
+
+    
+    <div class="clear_l"></div></a>
+    
+    
+
+
+
+
+</div>
+
+
+      <div class="col-md-12 col-sm-6 ooe-zusatzinfo">
+    
+
+
+
+
+
+
+
+
+    
+    
+        
+    <a class="mit-bild startseite" href="/222301.htm" title="Interner Link">
+        
+    
+    
+        
+        <p class="zi-bild pr-4"><span class="maxheight"><img src="/Bilder/PraesD%20Abt_Pr/AppIcon_MeinOOe_LHP_rdax_275x139.png" alt="App-Icon: Mein Oberösterreich" class="img-responsive" loading="lazy"></span><span class="fotoquelle">(Quelle: Land <abbr title="Oberösterreich">OÖ</abbr>)</span></p>
+        <p class="text-top"><span class="ueberschrift">&quot;MEIN O&Ouml;&quot; App</span>
+        
+    
+    Jetzt die &quot;Mein O&Ouml;&quot;-<span lang="en">App</span> herunterladen und Beh&ouml;rdenwege elektronisch erledigen.</p>
+
+    
+    <div class="clear_l"></div></a>
+    
+    
+
+
+
+
+</div><div class="col-md-12 ooe-zusatzinfo linkliste float-none">
+
+
+<div class="serviceinfos">
+<p class="ueberschrift">Servicetipps</p>
+<ul>
+
+
+
+
+
+
+
+<li>
+<span class="stretched-link-box">
+
+
+<a href="/was_osis_geovis_topbaustellen.htm" class="stretched-link" title="Interner Link">    
+
+<span class="ooe-ueberschrift-link">Verkehrsbehinderungen</span></a><span class="ooe-hidden">.</span>
+
+
+</span>
+
+
+
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+<span class="stretched-link-box">
+
+
+<a href="/webcam.htm" class="stretched-link" title="Interner Link">    
+
+<span class="ooe-ueberschrift-link">Webcam - Portal <abbr title="Oberösterreich">O&Ouml;</abbr></span></a><span class="ooe-hidden">.</span>
+
+
+</span>
+
+
+
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+<span class="stretched-link-box">
+
+
+<a href="/lawinenwarndienst.htm" class="stretched-link" title="Interner Link">    
+
+<span class="ooe-ueberschrift-link">Lawinenwarndienst</span></a><span class="ooe-hidden">.</span>
+
+
+</span>
+
+
+
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+<span class="stretched-link-box">
+
+
+<a href="/657.htm" class="stretched-link" title="Interner Link">    
+
+<span class="ooe-ueberschrift-link">Luftg&uuml;te- und meteorologische Messwerte</span></a><span class="ooe-hidden">.</span>
+
+
+</span>
+
+
+
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+<span class="stretched-link-box">
+
+
+<a href="/hydro.htm" class="stretched-link" title="Interner Link">    
+
+<span class="ooe-ueberschrift-link">Wasserst&auml;nde</span></a><span class="ooe-hidden">.</span>
+
+
+</span>
+
+
+
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+<span class="stretched-link-box">
+
+
+<a href="/was_internetfoto.htm" class="stretched-link" title="Interner Link">    
+
+<span class="ooe-ueberschrift-link">Eventfotos</span></a><span class="ooe-hidden">.</span>
+
+
+</span>
+
+
+
+</li>
+
+
+
+
+
+
+</ul>
+<div class="clearfix"></div>
+</div>
+
+
+</div><div class="clearfix"></div>
+
+
+ 
+ 
+ 
+ 
+ <div class="col-md-12 ooe-zusatzinfo linkliste float-none">
+
+
+<div class="serviceinfos">
+<p class="ueberschrift">Aus dem Landtag</p>
+<ul>
+
+
+
+
+
+
+
+<li>
+<span class="stretched-link-box">
+
+
+<a href="/12184.htm" class="stretched-link" title="Interner Link">    
+
+<span class="ooe-ueberschrift-link"><abbr title="oberösterreichisch">O&ouml;.</abbr> Landtag Online</span></a><span class="ooe-hidden">.</span>
+
+
+</span>
+
+
+
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+<span class="stretched-link-box">
+
+
+<a href="/12226.htm" class="stretched-link" title="Interner Link">    
+
+<span class="ooe-ueberschrift-link">Begutachtungsentw&uuml;rfe von Landesgesetzen </span></a><span class="ooe-hidden">.</span>
+
+
+</span>
+
+
+
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+<span class="stretched-link-box">
+
+
+<a href="/12159.htm" class="stretched-link" title="Interner Link">    
+
+<span class="ooe-ueberschrift-link">Beschl&uuml;sse des <abbr title="oberösterreichisch">O&ouml;.</abbr> Landtags</span></a><span class="ooe-hidden">.</span>
+
+
+</span>
+
+
+
+</li>
+
+
+
+
+
+
+</ul>
+<div class="clearfix"></div>
+</div>
+
+
+</div><div class="clearfix"></div>
+
+
+ 
+ 
+ 
+ 
+ 
+<a id="204493" class="sr-only-focusable clear"></a>
+
+<script>
+$('div.ooe-serviceinfos div.serviceinfos a').click(function(e) { trackZusatzinfoKlick(e) });
+
+function trackZusatzinfoKlick(e) {
+   var $a = $(e.delegateTarget); //hole den <a>-Link, auf den geklickt wurde
+   var $spanList = $a.find('span');// hole alle <span>s aus dem <a>-Link
+   var $span;
+   if ($spanList.length > 0) {
+       $span = $($spanList[0]);
+   }
+
+   _paq.push(['trackEvent', 'Startseite', $span.text(), $a.attr('href')]);
+}
+</script>
+
+
+        </div>
+        
+      </div><!-- Info-Leiste rechts (Ende) -->
+    </div><!-- row ENDE -->
+    
+<a id="195463" class="sr-only-focusable clear"></a>
+
+<div id="ooe-socialmedia" class="col-sm-offset-11 col-sm-1 col-xs-12">
+    <ul class="btn-group-vertical" id="ooe-socialmedia-ul">
+ <li class="col-xs-4 col-sm-12">
+           <a href="https://www.land-oberoesterreich.gv.at/was_internetfoto.htm" class="ooe-icon Foto" title="Zur Eventgalerie">
+            <img src="/files/ooe2015/css/img/iconTransparent.png" alt="Icon für Eventfotos (Quelle: ®skarin - stock.adobe.com)" class="hidden-xs">
+            <span class="ooe-linktext hidden-xs">Eventfotos</span>
+           </a><span class="ooe-hidden">.</span>
+        </li>
+        <li class="col-xs-4 col-sm-12">
+           <a href="https://www.facebook.com/ooe.gv.at" id="sozialemedien" class="ooe-icon facebook" target="_blank" title="Das Facebook-Profil von Land Oberösterreich öffnet sich in einem neuen Fenster">
+            <img src="/files/ooe2015/css/img/iconFBhover.jpg" alt="Facebook Logo (Quelle: facebook.com)" class="hidden-xs">
+            <img src="/files/ooe2015/css/img/iconFBhover_xs.png" alt="Facebook Logo (Quelle: facebook.com)" class="visible-xs">
+            <span class="ooe-linktext sr-only">Finden Sie uns auf Facebook</span>
+           </a><span class="ooe-hidden">.</span>
+        </li>
+        <li class="col-xs-4 col-sm-12">
+            <a href="https://www.instagram.com/landoberoesterreich" class="ooe-icon instagram" target="_blank" title="Land Oberösterreich auf Instagram">
+            <img src="/files/ooe2015/css/img/iconinstagramhover.jpg" alt="Instagram Logo (Quelle: instagram.com)" class="hidden-xs">
+            <img src="/files/ooe2015/css/img/iconinstagramhover_xs.png" alt="Instagram Logo (Quelle: instagram.com)" class="visible-xs">
+            <span class="ooe-linktext sr-only">Instagram</span>
+           </a><span class="ooe-hidden">.</span>
+        </li>
+
+      
+    </ul>
+</div>
+
+
+  </div>
+</div>
+<div class="weiss-hg pb-5 text-left">
+
+<div class="container-fluid ooe-container">
+
+
+  <div class="row fusszeile" role="complementary" aria-label="Fußzeile"><a id="fusszeile" class="sr-only-focusable"></a>
+    <div class="col-md-5 col-md-push-7 col-xs-12 ooe-metanav-fusszeile">
+      <ul>
+        <li><a href="/13001.htm">Impressum</a><span class="ooe-hidden">.</span></li><!-- /13001.htm --><li><a href="/datenschutz.htm">Datenschutz</a><span class="ooe-hidden">.</span></li><!-- /datenschutz.htm --><li><a href="/240736.htm">Barrierefreiheit</a><span class="ooe-hidden">.</span></li><!-- /240736.htm -->
+      </ul>
+    </div>
+    <!-- Leiste mit Links auf bestimmte Inhaltsseiten -->
+    <div class="col-md-7 col-md-pull-5 hidden-xs">
+      <ul>
+        <li><a href="/amtstafel.htm">Amtstafel</a><span class="ooe-hidden">.</span></li><li><a href="/kampagnen.htm">Kampagnen</a><span class="ooe-hidden">.</span></li><li><a href="/12737.htm">Bezirkshauptmannschaften</a><span class="ooe-hidden">.</span></li><li><a href="/38526.htm">Gemeinden</a><span class="ooe-hidden">.</span></li><li><a href="/12090.htm">Medien</a><span class="ooe-hidden">.</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="row adresse">
+    <div class="col-md-9 col-xs-12">
+      <p>Amt der Oö.&nbsp;Landesregierung • 4021&nbsp;Linz, Landhausplatz&nbsp;1 <span class="ooe-nobreak">• Telefon <a href="tel:+437327720">(+43 732) 77 20-0</a></span> <span class="ooe-nobreak">• E-Mail</span>&nbsp;<a href="mailto:post@ooe.gv.at">post@ooe.gv.at</a></p>
+    </div>
+    <div class="col-md-3 col-xs-12">
+      <p class="text-right"><a href="/default.htm" target="_self">www.land-oberoesterreich.gv.at</a></p>
+    </div>
+  </div>
+  
+</div><!-- Ende container (Basis) -->
+ </div><!-- was auch immer -->
+ </div>
+ </div>
+<div id="footer">
+  <div class="container-fluid ooe-container" role="complementary" aria-label="Partner-Logos">
+    
+    <ul class="text-center">
+      
+<li>
+
+
+    <a href="http://www.ooe-landtag.at" target="_blank" title="Link öffnet neues Fenster"><img src="/Bilder/Struktur/verf_Logo_Landtag.jpg" alt="Logo des Oö. Landtags" title="Logo des Oö. Landtags" loading="lazy">
+        <span><abbr title="oberösterreichisch">O&ouml;.</abbr> Landtag</span></a><span class="ooe-hidden">.</span>
+    
+</li>
+
+ 
+<li>
+
+
+    <a href="https://www.lrh-ooe.at" target="_blank" title="Link öffnet neues Fenster"><img src="/Bilder/PraesD%20Abt_Pr/LRH_Logo.jpg" alt="Logo Oö. Landesrechnungshof" title="Logo Oö. Landesrechnungshof" loading="lazy">
+        <span><abbr title="oberösterreichisch">O&ouml;.</abbr> Landesrechnungshof</span></a><span class="ooe-hidden">.</span>
+    
+</li>
+
+ 
+<li>
+
+
+    <a href="https://www.lvwg-ooe.gv.at" target="_blank" title="Link öffnet neues Fenster"><img src="/Bilder/PraesD%20Abt_Pr/LVwG_Logo_Kurzform_RGB.jpg" alt="Logo des Oö. Landesverwaltungsgerichtshofes" title="Logo des Oö. Landesverwaltungsgerichtshofes" loading="lazy">
+        <span><abbr title="oberösterreichisch">O&ouml;.</abbr> Landesverwaltungsgericht</span></a><span class="ooe-hidden">.</span>
+    
+</li>
+
+ 
+<li>
+
+
+    <a href="http://www.europainfo.at" target="_blank" title="Link öffnet neues Fenster"><img src="/Bilder/VerfD/verf_eu_europeDirect_ooe_rdax_80x80s.jpg" alt="Logo Europe Direct Oberösterreich" title="Logo Europe Direct Oberösterreich" loading="lazy">
+        <span>Europe Direct <abbr title="Oberösterreich">O&Ouml;</abbr></span></a><span class="ooe-hidden">.</span>
+    
+</li>
+
+ 
+<li>
+
+
+    <a href="http://www.ooe-zukunftsakademie.at" target="_blank" title="Link öffnet neues Fenster"><img src="/Bilder/PraesD%20Abt_Praes/Zukunft_Oberoesterreich_inkl_Schutzzone_rdax_215x80s.jpg" alt="Logo Oö. Zukunftsakademie" title="Logo Oö. Zukunftsakademie" loading="lazy">
+        <span><abbr title="oberösterreichisch">O&ouml;.</abbr> Zukunftsakademie</span></a><span class="ooe-hidden">.</span>
+    
+</li>
+
+ 
+    </ul>
+  </div>
+  </div>
+
+
+
+</div>
+
+
+
+
+
+<!-- Piwik (Teil1) -->
+<script>
+  var _paq = _paq || [];
+  try {
+      _paq.push(["setDocumentTitle", 'Startseite']);
+  }
+  catch (e) {
+    _paq.push(["setDocumentTitle", '36 - Fehler bei JavaScript-Auswertung des DocumentTitle']);
+  }
+  
+  var searchHits=$('#searchHits');
+  if (searchHits.length > 0) {
+    var searchCount=searchHits.html();
+    _paq.push(['setCustomUrl', document.URL + '&search_count=' + searchCount]);
+  }  
+  
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+</script>
+<!-- End Piwik Code (Teil1) -->
+
+<!-- Piwik (Teil2) -->
+<script>
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://pw-p.ooe.gv.at/piwik/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "41"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code (Teil2) -->
+            
+
+</body>
+</html>
+ 

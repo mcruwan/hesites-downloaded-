@@ -1,0 +1,332 @@
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+<!-- Start Head_Tags_1_hokibet228_everisdental_net of hokibet228.everisdental.net domain -->
+<title>Hokibet228: Situs Judi Bola, Slot Gacor & Togel Online Resmi</title>
+<meta content="Hokibet228 merupakan situs judi bola resmi dari provider label bola yang telah dipercaya sejak lama di Indonesia dengan menyediakan pasaran bola, slot online dan togel." name="description" />
+    <meta content="Situs Judi Bola, Agen Taruhan Sbobet, Bandar Judi Bola, Agen Bola, Taruhan Bola, Judi Bola, Togel Sgp/Singapore, Bandar Bola" name="keywords" />
+    <meta content="index, follow" name="robots" />
+    <meta content="1 days" name="revisit-after" />
+    <meta content="general" name="rating" />
+    <meta content="id" name="geo.country" />
+    <meta content="Indonesia" name="geo.placename" />
+    <meta content="all" name="Slurp" />
+<link rel="canonical" href="https://hokibet228.com/"/>
+<link rel="icon" type="image/x-icon" href="https://i.ibb.co/XZWkGF4Z/favicon.png"/>
+<!-- End Head_Tags_1_hokibet228_everisdental_net of hokibet228.everisdental.net domain -->
+
+<!-- Start Head_Tags_1_hokibet228_everisdental_net of all domains -->
+
+<!-- End Head_Tags_1_hokibet228_everisdental_net of all domains -->
+
+
+            <!-- Facebook Pixel PageView  -->
+            <script>
+              !function(f,b,e,v,n,t,s)
+              {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+              n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+              if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+              n.queue=[];t=b.createElement(e);t.async=!0;
+              t.src=v;s=b.getElementsByTagName(e)[0];
+              s.parentNode.insertBefore(t,s)}(window, document,'script',
+              'https://connect.facebook.net/en_US/fbevents.js');
+              fbq('init', '1546935549563288');
+              fbq('track', 'PageView');
+            </script>
+            <noscript><img height="1" width="1" style="display: none"
+              src="https://www.facebook.com/tr?id=1546935549563288&ev=PageView&noscript=1"
+            /></noscript>
+            <!--End Facebook Pixel PageView-->
+
+
+    <link rel="Shortcut Icon" href="Images/favicon.ico" />
+    <link href="Images/theme/v1/css/style.css?v=23052024" rel="stylesheet">
+    <link href="Images/theme/v1/css/style1.css?v=23052024" rel="stylesheet">
+    <script src="Images/theme/v1/js/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="js/common.js?v=20241218"></script>
+    <script src="js/header.js?v=20250106"></script>
+    <script src="js/login.js?v=20250303"></script>
+
+    <script language="javascript" type="text/javascript">
+        $().ready(function () {
+            $('#btnReg').click(function () {
+                popupRegister('');
+            });
+        })
+        function openLiveChat() {
+            window.open('https://www.livehelpnow.net/lhn/livechatvisitor.aspx?lhnid=34870&zzwindow=54319&d=49070&custom1=&custom2=&custom3=', 'LiveChat' + Date.now(), 'width=500,height=500,toolbars=no,scrollbars=no,status=no,resizable=no');
+        }
+    </script>
+    <style type="text/css">
+        div#toto span.pool {
+            text-transform: uppercase
+        }
+
+        div#toto img {
+            margin-left: -17px;
+        }
+        #lhnContainerDone {
+            text-align: right !important;
+        }
+        .menu {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
+    <script type="text/javascript">
+        function drawTogel(records) {
+            var strTogel = ''
+            for (var i = 0; i < records.length && i < 6; i++) {
+                strTogel +=
+                    '<div>' +
+                    '<span class="pool">' + records[i].Togel + '</span>' +
+                    '<span>' +
+                    '<img src="Images/theme/v1/img/balls/' + records[i].Number[0] + '.png" border="0">' +
+                    '<img src="Images/theme/v1/img/balls/' + records[i].Number[1] + '.png" border="0">' +
+                    '<img src="Images/theme/v1/img/balls/' + records[i].Number[2] + '.png" border="0">' +
+                    '<img src="Images/theme/v1/img/balls/' + records[i].Number[3] + '.png" border="0">' +
+                    '</span>' +
+                    '</div>'
+            }
+            $('#divTogel').html(strTogel)
+        }
+        $().ready(function () {
+            fetchTogel(function (records) {
+                drawTogel(records)
+            })
+        })
+    </script>
+
+    
+    <link rel="stylesheet" href="css/header.submenu.css?v=1762746734915" />
+    <style type="text/css">
+        .sub-menu .gameNav li {
+            position: relative;
+            width: 142px !important;
+        }
+
+        .main_width {
+            width: 1000px;
+            background-color: #181818;
+            padding-bottom: 42px;
+            margin: 0 auto;
+        }
+
+        .sub-menu {
+            top: 190px;
+            padding-top: 10px;
+            padding-bottom: 30px
+        }
+
+        .arrow-down-submenu {
+            font-size: 13px;
+            color: #fff
+        }
+
+        .slot-365-game div.arrow-down {
+            margin-top: 20px;
+        }
+
+        a.amm {
+            background: none !important;
+            padding: 2px !important
+        }
+
+        img.mm {
+            vertical-align: text-top;
+            margin-right: 2px;
+            margin-top: -1px;
+        }
+
+        li.lmm {
+            height: 36px !important;
+        }
+
+        #menu li {
+            width: 100px;
+            text-align: center;
+        }
+    </style>
+    
+</head>
+<body>
+    <form name="ctl00" method="post" action="Defaults/Default226.aspx" id="ctl00">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type='text/javascript'>var timerId = null;var today = new Date();var time_start = today.getTime();function countdown(){var time_left =300 - parseInt(((new Date()).getTime() - time_start) / 1000);clearTimeout(timerId);if(time_left > 0){timerId = setTimeout('countdown()', 1000);}else{document.location.href = '//hokibet228.everisdental.net/';}}function handleError(){return true;}window.onload=countdown;window.onerror=handleError;</SCRIPT><!-- popup event May 2021 was hidden --><script>
+                        $().ready(function () {
+                            $('body').append(`<a style='z-index: 999999; width: 140px; height: 83px; position: fixed; left:0; top: 0px;' href='#'>
+                                <img width='120px' height='60px' src='css/Banner_ASF.png?v=2'/></a>`);
+                        });
+                    </script><script>localStorage.setItem('cdnImageHost','https://imgshare.porta-assist.com');</script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="1AF76438" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="hLIVo5wsfnen239yAS19LWe+1caO8vns8VM+JHZ6fRDZ7Ppa42dr7yIcEOUfKKLGmjohiLQxz7ccR4GweWyqV/X6gRnPdpnflBQvkIVjooFZU8jxgtE3l0S7fsLRrAJNacvXHkEqUDpDx7aw5D6aZMa2UwIpHZpCTAQLvZGwBJa6Hf8xE7bBPneaHR64UgBozx0tSi064CdHs19U6Rf4+lH37YURFen2CvkfxTgfbXQ=" />
+</div>
+        <div id="page">
+            <div id="wrapper">
+                <div id="header">
+                    <a href="#">
+                        <img id="logo" src="Images/logo.png" />
+                    </a>
+                    <div id="login">
+                        <span>
+                            <input type="button" id="btnReg" class="btn" /></span>
+                        <span style="padding-right: 5px;">
+                            <input name="txtUsername" type="text" id="txtUsername" maxLength="12" placeholder="User Name" tabindex="1" /></span>
+                        <span style="padding-right: 5px;">
+                            <input name="txtPassword" type="password" id="txtPassword" placeholder="Password" tabindex="2" /></span>
+                        <span style="padding-right: 3px;">
+                            <input name="txtCode" type="text" id="txtCode" placeholder="Code" tabindex="3" maxlength="4" /></span>
+                        <span>
+                            <div class="code">1580</div>
+                        </span>
+                        <span>
+                            <input name="btnSignIn" type="button" id="btnSignIn" tabindex="4" class="btnLogin" /></span>
+                    </div>
+                </div>
+                
+                <div id="menu">
+					<ul id="main-menu"
+						class="clearfix" 
+						tag-parent-sub-menu="a"
+						data-id="main-menu"
+						data-is-guest="true">
+                        <li id="home">
+							<a href="#" class="menu">
+								<img src="Images/theme/v1/img/menu/home.png?v=2" alt="home" style="padding: 4px 1px;">HOME
+							</a>
+						</li>
+						<li class="item-1" v-for="(key, index) in Object.keys(menus)">
+							<menu-item
+								class-name="menu"
+								:is-guest="isGuest"
+								:name="menus[key][0].GameType"
+								:key="key">
+								<image-item class-name="mm" :image-data="menus[key][0]" :cache-version="cacheVersion" style="width: 40px;height: 40px;object-fit: cover;"></image-item>
+                                   {{ getGameMenuDisplayNameByLang(menus[key][0]) }}
+								<down-arrow type="text" :has-sub-game="menus[key][0].HasSubGame" :game-type="menus[key][0].GameType" :is-guest="isGuest"></down-arrow>
+								<submenu class-name="" :submenu-data="menus[key]" :is-guest="isGuest" :cache-version="cacheVersion"></submenu>
+							</menu-item>
+						</li>
+				
+						<li id="promo">
+							<div>
+								<a href="https://rebrand.ly/Promohokibet" target="_blank">
+									<img src="Images/theme/v1/img/promosi-button.png" alt="promo" style="margin-bottom: -5px;">
+								</a>
+								
+							</div>
+						</li>
+                    </ul>
+					<script src="js/vue3.3.7.global.js"></script>
+					<script>const mountEl = document.querySelector("#main-menu");</script>
+					<script src="js/header.menu.vue.js?v=1762746734915"></script>
+					<script>menu.mount("#main-menu");</script>
+                </div>
+                <div id="news">
+                    <div id="marquee">
+                        <div id="div-marquee">
+                            <input id="text-marquee" type="hidden" value="Link Anti NAWALA : althokibet228.com | Hanya dengan 1 ID Sudah Bisa Bermain Semua Game | Bonus Cashback Mencapai 5% untuk SPORTBOOK &amp; Refferal&nbsp;Seumur&nbsp;Hidup" />
+                            <script type="text/javascript">
+                                initMarquee('#000000', 'Roboto Flex')
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div id="contact">
+                        <a href="https://rebrand.ly/GRPFBHOKIBET228" target="_blank">
+                            <img src="Images/theme/v1/img/hokibet228-facebook.png" />
+                        </a>
+                        <a href=" https://rebrand.ly/INSHOKIBET228" target="_blank">
+                            <img src="Images/theme/v1/img/hokibet228-instagram.png" />
+                        </a>
+                        <a href="https://rebrand.ly/WAHokibet228" target="_blank">
+                            <img src="Images/theme/v1/img/hokibet228-whatsapp.png?v=12052025" width="234" style="margin-top: 30px;" />
+                        </a>
+                        <a href="#" onclick="openLiveChat()">
+                            <img src="Images/theme/v1/img/hokibet228-livechat.gif" />
+                        </a>                        
+                    </div>
+                    <div id="slider">
+                        <div id="wowslider-container1">
+                            <div class="ws_images">
+                                <ul>
+                                    <li><img src='Images/theme/v1/img/slideshow/01.png?v=7' id=slide0 alt='' title=''/></li><li><img src='Images/theme/v1/img/slideshow/02.png?v=7' id=slide1 alt='' title=''/></li><li><img src='Images/theme/v1/img/slideshow/03.png?v=7' id=slide2 alt='' title=''/></li><li><img src='Images/theme/v1/img/slideshow/04.png?v=7' id=slide3 alt='' title=''/></li><li><img src='Images/theme/v1/img/slideshow/05.png?v=7' id=slide4 alt='' title=''/></li><li><img src='Images/theme/v1/img/slideshow/06.png?v=7' id=slide5 alt='' title=''/></li><li><img src='Images/theme/v1/img/slideshow/07.png?v=7' id=slide6 alt='' title=''/></li><li><img src='Images/theme/v1/img/slideshow/08.png?v=7' id=slide7 alt='' title=''/></li><li><img src='Images/theme/v1/img/slideshow/09.png?v=7' id=slide8 alt='' title=''/></li><li><img src='Images/theme/v1/img/slideshow/10.png?v=7' id=slide9 alt='' title=''/></li><li><img src='Images/theme/v1/img/slideshow/11.png?v=7' id=slide10 alt='' title=''/></li><li><img src='Images/theme/v1/img/slideshow/13.png?v=7' id=slide11 alt='' title=''/></li><li><img src='Images/theme/v1/img/slideshow/14.png?v=7' id=slide12 alt='' title=''/></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <script type="text/javascript" src="Images/theme/v1/js/wowslider.js"></script>
+                    <script type="text/javascript" src="Images/theme/v1/js/script.js"></script>
+                </div>
+                <div id="lower">
+                    <div id="toto">
+                        <div id="divTogel">
+                        </div>
+                    </div>
+                    <div id="games">
+                        <img src="Images/theme/v1/img/game1.png?v=2">
+                        <img src="Images/theme/v1/img/game2.png?v=2">
+                        <img src="Images/theme/v1/img/game3.png?v=2">
+                        <img src="Images/theme/v1/img/game4.png?v=2">
+                    </div>
+                </div>
+                <div id="footer">
+                    <img src="Images/theme/v1/img/bg-footer.png?v=2" />
+                </div>
+                <div id="footer-text" style="margin-top: 0">
+                    <!-- footer text here -->
+                    
+<!-- Start WL_Footer_hokibet228_everisdental_net of hokibet228.everisdental.net domain -->
+<h1>HOKIBET228 Situs Agen Bandar Judi Bola Resmi Terbesar Di Indonesia</h1>
+
+<p>Hokibet228 merupakan agen bola terbesar di Indonesia yang sudah mendapatkan izin resmi beroperasi dalam menyediakan pasaran taruhan judi bola 88 terlengkap di Asia. Baik dalam pasaran taruhan Asia Handicap, Ods/Even, Over/Under hingga Mix Parlay dapat anda temukan dalam situs ini. Pasaran judi sepak bola terbaik pada tingkatan Grade A ini juga dapat dimaikan oleh setiap bettor online dimulai dari minimal pemasangan 10 ribu rupiah, dengan ratusan pasaran terbagus yang setiap hari nya diupdate untuk para pecinta judi bola online, dan bisa menyaksikan langsung Live Streaming laga bola yang kita pasang dari akun game.</p>
+
+<h2>Daftar HOKIBET228 Situs Bandar Bola 88 Terbaik</h2>
+
+<p>Sebagai master agen betting terbaik dari bandar bola 88, situs daftar Hokibet228 telah menjadi salah satu provider taruhan judi bola terbesar saat ini karena sudah terbukti memberikan pembayaran tanpa ada kekurangan sedikit pun kepada para petaruh nya. Meski tak menjadi yang pertama, website yang satu ini juga tidak kalah saing dari provider judi lain dan para kompetitor yang juga menyediakan pasaran judi bola.</p>
+
+<p>Situs yang terus mengikuti perkembangan internet dan up to date dengan dukungan teknologi HTML5 menjadi kan website Hokibet228 semakin mudah untuk diakses oleh para penggemar nya melalui perangkat apapun, baik PC, Laptop, Tablet & SmartPhone yang berbasis Android atau IOS. Disamping itu, website ini memiliki live support 24/7/365 dengan customer service berpengalaman dalam bidang judi online, akan siap memberikan arahan atau bantuan bagi setiap pemain yang mendapatkan kesulitan ketika mengakses ke situs atau bermain.</p>
+
+<p>Kemudahan dalam bertransaksi juga dapat dirasakan oleh setiap bettor online ketika bermain disini situs yang satu ini, karena memiliki metode dan sistem pembayaran terlengkap dari bank lokal Indonesia atau pun aplikasi pengiriman dana yang lain. Kecanggihan sistem judi Hokibet228 seperti ini dapat menghadirkan rasa aman bagi setiap pelaku judi bola yang tidak ingin memenunggu proses transaksi yang lama.</p>
+
+<h3>Bonus HOKIBET228, Bonus Taruhan Judi Bola, CashBack Bola</h3>
+
+<p>Selaku agen judi online dari situs bandar judi bola 88, Hokibet228 juga menghadirkan berbagai promosi bagi setiap pemasang taruhan judi bola di situs kami, dengan slogan Anda Kalah Kami Kembalikan Uang Anda, Hokibet228 berani memberikan Cashback kekalahan judi bola 5% - 10% setiap minggu nya. Bonus komisi taruhan pada pasaran bola Grade A juga bisa diberikan sebesar 0.35% di setiap kali pemasangan.</p>
+
+<p>Bonus Hokibet228 bukan hanya dapat dinikmati oleh setiap pejudi yang hadir di website resmi kami, karena ada sistem afiliasi yang secara khusus disediakan bagi siapa saja yang ingin mendapatkan bonus referensi dengan cara mencari atau mengajak pemain judi bola mana pun untuk bermain di website Hokibet228 dan komisi referensi ini diberikan sebesar 1% selama downline mereka masih aktif. Pelayanan terbaik dari agen bola tak dapat anda rasakan bila belum dicoba, jadi jangan ragu untuk bergabung bersama Hokibet228.</p>
+<!-- End WL_Footer_hokibet228_everisdental_net of hokibet228.everisdental.net domain -->
+
+<!-- Start WL_Footer_hokibet228_everisdental_net of all domains -->
+
+<!-- End WL_Footer_hokibet228_everisdental_net of all domains -->
+                </div>
+            </div>
+        </div>
+        <a style="position: fixed; right: 0px; top: 608px;" href="https://rebrand.ly/Hokibet228WA" target="_blank">
+            <img style="width: 150px; height: 150px" title="" alt="" src="Images/hokibet228-wa.gif"></a>
+        <a style="position: fixed; right: 0px; top: 765px;" href="https://rebrand.ly/LinkDEMOSLOTHKB228" target="_blank">
+            <img style="width: 150px; height: 150px" title="" alt="" src="Images/demo-slot.gif"></a>
+     
+    </form>        
+</body>
+</html>

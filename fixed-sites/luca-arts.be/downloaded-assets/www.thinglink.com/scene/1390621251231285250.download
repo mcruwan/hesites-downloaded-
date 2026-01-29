@@ -1,0 +1,1356 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    <!-- Google tag (gtag.js) -->
+    <script async
+        src="https://www.googletagmanager.com/gtag/js?id=G-0SE355ZWLT"
+         type="text/plain" data-cookiecategory="analytics"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-0SE355ZWLT', {'is_logged_in': 'no', 'origin_ugc': 'yes'});
+    </script>
+    <!-- End Google tag (gtag.js) -->
+
+
+<link rel="manifest" href="/pwa-manifest.json">
+	    
+	    <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="author" content="Thinglink">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="theme-color" content="#51aeff">
+		
+		<meta name="MobileOptimized" content="320">
+		<meta name="msapplication-navbutton-color" content="#51aeff">
+		
+		<link rel="icon" href="https://cdn.thinglink.me/gfx/favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon" href="https://cdn.thinglink.me/gfx/icons/tl-webclip-icon-57.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="https://cdn.thinglink.me/gfx/icons/tl-webclip-icon-72.png" />
+		<link rel="apple-touch-icon" sizes="144x144" href="https://cdn.thinglink.me/gfx/icons/tl-webclip-icon-114.png" />
+		
+		<meta name="msapplication-TileColor" content="#51aeff">
+		<meta name="msapplication-TileImage" content="https://cdn.thinglink.me/gfx/pages16/icons/msapp-150.png">
+		
+		<!-- HTML Meta Tags -->
+		<title>LUCA Menu</title>
+		<meta name="description" content="View the interactive image by LUCA School of Arts">
+		
+		<!-- Facebook Meta Tags -->
+		<meta property="fb:app_id" content='163019823751039'/>
+		<meta property="og:url" content="https://www.thinglink.com/scene/1390621251231285250">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="LUCA Menu">
+		<meta property="og:description" content="View the interactive image by LUCA School of Arts">
+		
+	    <meta property="og:image" content="https://cdn.thinglink.me/poster/1390621251231285250" />
+	    <meta property="og:image:secure_url" content="https://cdn.thinglink.me/poster/1390621251231285250" />
+		
+		<!-- Facebook domain verification -->
+		<meta name="facebook-domain-verification" content="sob3dj25bpld1pb06fdl8ookp7o74m">
+		
+	    <link rel="alternate" type="application/json+oembed"
+	          href="https://www.thinglink.com/api/oembed?format=json&url=https%3A%2F%2Fwww.thinglink.com%2Fscene%2F1390621251231285250"
+	          title="Thinglink Scene oEmbed" />
+	
+	    <link rel="canonical" href="https://www.thinglink.com/scene/1390621251231285250"/>
+	    
+	    
+	    <meta name="ROBOTS" content="NOINDEX,FOLLOW">
+	    
+	    
+
+
+
+
+
+
+
+
+
+
+    <!-- Start of Mixpanel Code -->
+        <script type="text/plain" data-cookiecategory="analytics">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
+     0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+     for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
+     window.mixpanel.init("33b33c5b4fec23e02a508e99e7e729fc", {cross_subdomain_cookie: false, upgrade: true, track_pageview: false});</script>
+    <!-- End of Mixpanel Code -->
+
+	    
+	    <link rel="stylesheet" type="text/css" href="https://cdn.thinglink.me/jsec/1769583796/css/site-bs/view/scene.css" media="screen" />
+	    <link rel="stylesheet" href="/css/ext/cookieconsent.css" media="print" onload="this.media='all'">
+	    
+	    <script>
+	        var calcIframeSize = function () {
+                var sceneW = 5000;
+                var sceneH = 2900;
+                var sceneAspect = sceneW / sceneH;
+                
+                var screenW = window.innerWidth;
+                var screenH = window.innerHeight;
+                var screenAspect = screenW / screenH;
+                
+                var isModel = "false" === "true";
+    
+                var w = 0;
+                var h = 0;
+                
+                if (screenAspect >= 1.0) {
+                    if (isModel) {
+                        w = screenW;
+                        h = window.innerHeight > 500 ? (window.innerHeight - 164) : (window.innerHeight - 68);
+                    }
+                    else {
+                        if (sceneAspect > 1.5) {
+                            w = sceneW > screenW ? screenW : Math.max(0.7*screenW, sceneW);
+                            h = w / sceneAspect;
+                        }
+                        if ((sceneAspect > 0.7) && (sceneAspect <= 1.5)) {
+                            w = sceneW > screenW ? 0.8*screenW : Math.min(0.7*screenW, sceneW);
+                            h = w / sceneAspect;
+                        }
+                        if (sceneAspect <= 0.7) {
+                            h = sceneH > screenH ? Math.min(sceneH, 2.0*screenH) : Math.max(0.8*screenH, sceneH);
+                            w = h * sceneAspect;
+                        }
+                    }
+                }
+                else {
+                    if (isModel) {
+                        w = screenW;
+                        h = 0.5*window.innerHeight;
+                    }
+                    else {
+                        if (sceneAspect > 1.5) {
+                            w = sceneW > screenW ? screenW : Math.max(screenW, sceneW);
+                            h = w / sceneAspect;
+                        }
+                        if ((sceneAspect > 0.7) && (sceneAspect <= 1.5)) {
+                            w = sceneW > screenW ? screenW : Math.max(screenW, sceneW);
+                            h = w / sceneAspect;
+                        }
+                        if (sceneAspect <= 0.7) {
+                            w = screenW;
+                            h = w / sceneAspect;
+                        }
+                    }
+                }
+                return [w, h];
+	        };
+	        var sceneSize = calcIframeSize();
+	        var sceneW = sceneSize[0];
+	        var sceneH = sceneSize[1];
+	        var style = document.createElement('style');
+	        style.type = 'text/css';
+	        style.innerHTML = '.single-scene-container .iframe-wrapper { width: ' + sceneW + 'px; height: ' + sceneH + 'px; }';
+	        document.getElementsByTagName('head')[0].appendChild(style);
+	    </script>
+	    
+	</head>
+
+	<body>
+		<article class="media-wrapper">
+			<header class="panel header-panel">
+		        <section class="panel-items-wrapper">
+		            <a href="https://www.thinglink.com" class="panel-item header-logo" aria-label="ThingLink main page"></a>
+					<div class="panel-item header-scene-info">
+						<div class="scene-avatar">
+							<a href="/user/1372298775896260610" aria-label="Profile of the scene creator"><div class="avatar">
+									<div class="loading-placeholder"></div>
+									<img
+									    class="lazyload"
+									    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw"
+										data-src="https://cdn.thinglink.me/api/avatar/1372298775896260610/180/thumbnail"
+										alt="LUCA School of Arts" />
+								</div></a>
+						</div>
+						<div class="panel-item-column overflow-ellipsis">
+							<h1 class="overflow-ellipsis">LUCA Menu</h1>
+							<div class="scene-misc-info">
+								<a href="/user/1372298775896260610" title="LUCA School of Arts" class="scene-info-item" aria-label="Profile of the scene creator">LUCA School of Arts</a>
+								<p class="scene-info-item text-muted">5 years ago</p>
+								<p class="scene-info-item text-muted">944798&nbsp;views</p>
+							</div>
+						</div>
+					</div>
+					<div class="panel-item">
+					    <div class="panel-buttons-wrapper">
+					        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.thinglink.com%2fscene%2f1390621251231285250" target="_blank" type="button" class="panel-button panel-button--small desktop-only social-icon__facebook" rel="noopener noreferrer" aria-label="Share to Facebook"></a>
+					        <a href="https://x.com/intent/tweet?url=https%3a%2f%2fwww.thinglink.com%2fscene%2f1390621251231285250&text=LUCA+Menu&related=thinglink" target="_blank" type="button" class="panel-button panel-button--small desktop-only social-icon__twitter" rel="noopener noreferrer" aria-label="Share to X"></a>
+					        <button type="button" class="panel-button non-mobile-only social-icon__share" data-toggle="modal" data-target="#share_modal" aria-label="Show share dialog"></button>
+					        <button style="display: none;" type="button" class="panel-button panel-button__question" data-toggle="clippy" aria-label="Show quick tutorial"></button>
+					        <a target="_blank" href="https://www.thinglink.com/login" type="button" class="s-loginButton tl-button tl-button--primary" rel="noopener noreferrer" aria-label="Log in ThingLink">Log in</a>      
+					    </div>
+					</div>
+			    </section>
+			</header>
+            <section class="single-scene-container loading">
+                <section class="clippy">
+                    <div class="clippy-slide active">
+                        <h4>Welcome to ThingLink!</h4>
+                        <p>This quick tutorial will show you how to create wonderfully engaging experiences with ThingLink.</p>
+                    </div>
+                    <div class="clippy-slide">
+                        <h4>Create</h4>
+                        <p>Simply click the Create button and select the type of project you want to create.</p>
+                    </div>
+                    <div class="clippy-slide">
+                        <h4>Upload</h4>
+                        <p>Select a file from your device to be your base image or video.</p>
+                    </div>
+                    <div class="clippy-slide">
+                        <h4>Edit</h4>
+                        <p>Watch this short video to learn about tag types, basic customization options and the simple publishing process
+                         - a perfect intro to editing your thinglinks!</p>
+                    </div>
+                    <div class="clippy-slide">
+                        <h4>Share</h4>
+                        <p>When you’re ready to share your thinglink, click the blue Share button in the top right corner of the page.</p>
+                    </div>
+                    <div class="clippy-slide">
+                        <h4>Track</h4>
+                        <p>Statistics help you understand how many people have seen your content, and what part was most engaging.</p>
+                    </div>
+                    <button class="clippy-btn-close" aria-label="Close quick tutorial">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="12" fill="black" fill-opacity="0.4"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16.375 8.50625L15.4937 7.625L12 11.1188L8.50625 7.625L7.625 8.50625L11.1187 12L7.625 15.4938L8.50625 16.375L12 12.8813L15.4937 16.375L16.375 15.4938L12.8812 12L16.375 8.50625Z" fill="white"/>
+                        </svg>                         
+                    </button>
+                    <div class="controls">
+                        <ul>
+                            <li class="active"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <div class="buttons-wrapper">
+                            <button type="button" class="tl-button clippy-btn-back" aria-label="Previous tutorial slide">Back</button>
+                            <button type="button" class="tl-button tl-button--primary clippy-btn-next" aria-label="Next tutorial slide">Next</button>
+                            <button type="button" class="tl-button tl-button--primary hide clippy-btn-finish" aria-label="Finish quick tutorial">Got it!</button>
+                        </div>
+                    </div>
+                </section>
+                
+                
+                    
+                    
+                        
+                    
+                
+                <div class="iframe-wrapper ">
+	                <iframe
+	                    id="media_iframe"
+	                    title="Scene content"
+	                    src="https://www.thinglink.com/mediacard/1390621251231285250"
+	                    allowfullscreen="" mozallowfullscreen=""
+	                    webkitallowfullscreen="" frameborder="0"
+	                    style="width: 100%; height: 100%;">
+	                </iframe>
+                </div>
+		    </section>
+		    <section class="panel underpanel">
+		        <div class="panel-item underpanel-share">
+                    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.thinglink.com%2fscene%2f1390621251231285250" rel="noopener noreferrer" class="panel-button social-icon__facebook" aria-label="Share to Facebook"></a>
+                    <a target="_blank" href="https://x.com/intent/tweet?url=https%3a%2f%2fwww.thinglink.com%2fscene%2f1390621251231285250&text=LUCA+Menu&related=thinglink" rel="noopener noreferrer" class="panel-button social-icon__twitter" aria-label="Share to Twitter"></a>
+                    <a target="_blank" href="https://www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.thinglink.com%2fscene%2f1390621251231285250&title=LUCA+Menu&mini=true" rel="noopener noreferrer" class="panel-button social-icon__linkedin" aria-label="Share to LinkedIn"></a>
+                    <button class="panel-button social-icon social-icon__share" data-toggle="modal" data-target="#share_modal" aria-label="Show share dialog"></button>
+                </div>
+		        <div class="panel-item underpanel-scene-card">
+                    <div class="scene-avatar">
+                        <a href="/user/1372298775896260610" aria-label="Profile of the scene creator"><div class="avatar">
+                                <img
+                                    class="lazyload"
+                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw"
+                                    data-src="https://cdn.thinglink.me/api/avatar/1372298775896260610/180/thumbnail"
+                                    alt="LUCA School of Arts" />
+                                <div class="loading-placeholder"></div>
+                            </div></a>
+                    </div>
+                    <div class="panel-item-column">
+                        <h2>LUCA Menu</h2>
+                        <div class="scene-info">
+                            <a href="/user/1372298775896260610" class="scene-info-item" aria-label="Profile of the scene creator">LUCA School of Arts</a>
+                            <p class="scene-info-item text-muted">5 years ago</p>
+                            <p class="scene-info-item text-muted">944798&nbsp;views</p>
+                        </div>
+                    </div>
+                </div>
+		    </section>
+		    <section class="section-cta">
+                <div class="cta-wrapper">
+                    <h2>Do you want to create similar content?</h2>
+                    <div class="cta-buttons-wrapper">
+                        <a href="https://www.thinglink.com/register" target="_blank" rel="noopener noreferrer" role="button" class="cta-button cta-button-start-now" aria-label="Start creating now">Start now</a>
+                        <a href="https://www.thinglink.com/" target="_blank" rel="noopener noreferrer" role="button" class="cta-button cta-button--empty cta-button-learn-more" aria-label="Learn more about ThingLink">Learn more</a>
+                    </div>
+                </div>
+            </section>
+            <section class="random-scenes-container">
+                <div class="random-scenes-wrapper">
+                    <div class="random-scenes-header">
+		                <h3>Inspiration from ThingLink users</h3>
+		                <a class="tl-link" href="https://www.thinglink.com/explore" target="_blank" rel="noopener noreferrer" aria-label="Explore more featured content">Explore more<i class="tli-chevron"></i></a>
+		            </div>
+                </div>
+                <div class="random-scenes-wrapper">
+					<div class="random-scenes-grid">
+						
+						    <div class="scene-card">
+							    <a href="https://www.thinglink.com/scene/1874526380012601830" target="_blank" rel="noopener noreferrer" aria-label="Open scene named Vaisala Vantaa Campus">
+									<div class="scene-card__image">
+									    <img
+											class="related-image-lazy"
+											src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw"
+										    data-src="https://data.thinglink.me/scene/1708064863550440228/519b5b879d29d77b8cd4ed8310fd281c/thumbnail.jpg?width=640"
+											alt="Vaisala Vantaa Campus" />
+									</div>
+									<p class="scene-title">Vaisala Vantaa Campus</p>
+									<p class="text-muted">ThingLink Media Library</p>
+									<div class="loading-placeholder"></div>
+								</a>								
+						    </div>
+						
+						    <div class="scene-card">
+							    <a href="https://www.thinglink.com/scene/1874450852547133926" target="_blank" rel="noopener noreferrer" aria-label="Open scene named Interactive Onboarding">
+									<div class="scene-card__image">
+									    <img
+											class="related-image-lazy"
+											src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw"
+										    data-src="https://data.thinglink.me/scene/1757771512753947492/8c26d1a5d9335eec4da943a994dd7c4a/thumbnail.jpg?width=640"
+											alt="Interactive Onboarding" />
+									</div>
+									<p class="scene-title">Interactive Onboarding</p>
+									<p class="text-muted">ThingLink Media Library</p>
+									<div class="loading-placeholder"></div>
+								</a>								
+						    </div>
+						
+						    <div class="scene-card">
+							    <a href="https://www.thinglink.com/scene/1850176986517864934" target="_blank" rel="noopener noreferrer" aria-label="Open scene named TextHelp's Read&amp;Write for Work">
+									<div class="scene-card__image">
+									    <img
+											class="related-image-lazy"
+											src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw"
+										    data-src="https://data.thinglink.me/scene/1591825650417664003/752abb0493c8fb014dfd4cf66d15589a/thumbnail.jpg?width=640"
+											alt="TextHelp's Read&amp;Write for Work" />
+									</div>
+									<p class="scene-title">TextHelp's Read&amp;Write for Work</p>
+									<p class="text-muted">ThingLink Media Library</p>
+									<div class="loading-placeholder"></div>
+								</a>								
+						    </div>
+						
+						    <div class="scene-card">
+							    <a href="https://www.thinglink.com/scene/1874483423020581350" target="_blank" rel="noopener noreferrer" aria-label="Open scene named Viking Longboats - Steve Archer">
+									<div class="scene-card__image">
+									    <img
+											class="related-image-lazy"
+											src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw"
+										    data-src="https://data.thinglink.me/scene/1767484696704319974/9f76e53c7637fcfdbcc7d5e2651c8ab6/thumbnail.jpg?width=640"
+											alt="Viking Longboats - Steve Archer" />
+									</div>
+									<p class="scene-title">Viking Longboats - Steve Archer</p>
+									<p class="text-muted">ThingLink Media Library</p>
+									<div class="loading-placeholder"></div>
+								</a>								
+						    </div>
+						
+						    <div class="scene-card">
+							    <a href="https://www.thinglink.com/scene/1874450636049744358" target="_blank" rel="noopener noreferrer" aria-label="Open scene named Course Outline">
+									<div class="scene-card__image">
+									    <img
+											class="related-image-lazy"
+											src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw"
+										    data-src="https://data.thinglink.me/scene/1844521661840228838/aee3825e13b4c652f24d0441c1200c4b/thumbnail.jpg?width=640"
+											alt="Course Outline" />
+									</div>
+									<p class="scene-title">Course Outline</p>
+									<p class="text-muted">ThingLink Media Library</p>
+									<div class="loading-placeholder"></div>
+								</a>								
+						    </div>
+						
+						    <div class="scene-card">
+							    <a href="https://www.thinglink.com/scene/1874450558585143782" target="_blank" rel="noopener noreferrer" aria-label="Open scene named Four Key Learning Outcomes">
+									<div class="scene-card__image">
+									    <img
+											class="related-image-lazy"
+											src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw"
+										    data-src="https://data.thinglink.me/scene/1844876535463412198/2202a677ab2614b0310b2e7197317207/thumbnail.jpg?width=640"
+											alt="Four Key Learning Outcomes" />
+									</div>
+									<p class="scene-title">Four Key Learning Outcomes</p>
+									<p class="text-muted">ThingLink Media Library</p>
+									<div class="loading-placeholder"></div>
+								</a>								
+						    </div>
+						
+						    <div class="scene-card">
+							    <a href="https://www.thinglink.com/scene/1874524814132117990" target="_blank" rel="noopener noreferrer" aria-label="Open scene named Viimatech VT04 - H installation">
+									<div class="scene-card__image">
+									    <img
+											class="related-image-lazy"
+											src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw"
+										    data-src="https://data.thinglink.me/scene/1799077084249719461/22526b10ac37948aa0f9922daa340896/thumbnail.jpg?width=640"
+											alt="Viimatech VT04 - H installation" />
+									</div>
+									<p class="scene-title">Viimatech VT04 - H installation</p>
+									<p class="text-muted">ThingLink Media Library</p>
+									<div class="loading-placeholder"></div>
+								</a>								
+						    </div>
+						
+						    <div class="scene-card">
+							    <a href="https://www.thinglink.com/scene/1874538761702867430" target="_blank" rel="noopener noreferrer" aria-label="Open scene named Virtual Field Trip Peel Park">
+									<div class="scene-card__image">
+									    <img
+											class="related-image-lazy"
+											src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw"
+										    data-src="https://data.thinglink.me/scene/1583094298679705601/2b3642722204c1033c729a93d6a26827/thumbnail.jpg?width=640"
+											alt="Virtual Field Trip Peel Park" />
+									</div>
+									<p class="scene-title">Virtual Field Trip Peel Park</p>
+									<p class="text-muted">ThingLink Media Library</p>
+									<div class="loading-placeholder"></div>
+								</a>								
+						    </div>
+						
+						    <div class="scene-card">
+							    <a href="https://www.thinglink.com/scene/1874478458084524518" target="_blank" rel="noopener noreferrer" aria-label="Open scene named Literature to Life To Kill a Mocking Bird">
+									<div class="scene-card__image">
+									    <img
+											class="related-image-lazy"
+											src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw"
+										    data-src="https://data.thinglink.me/scene/1715511326303846886/b18894a54c821228f8933d7026bcd7ba/thumbnail.jpg?width=640"
+											alt="Literature to Life To Kill a Mocking Bird" />
+									</div>
+									<p class="scene-title">Literature to Life To Kill a Mocking Bird</p>
+									<p class="text-muted">ThingLink Media Library</p>
+									<div class="loading-placeholder"></div>
+								</a>								
+						    </div>
+						
+					</div>
+				</div>
+            </section>
+            <footer>
+                
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdn.thinglink.me/css/pages16/footer-mini.css" />
+
+<div class="tl-footer-mini">
+    <div class="container">
+        <div class="wrapper">
+	        <a href='/en-us/' class="footer-logo" title="ThingLink main page"></a>
+	        <div class="footer-links">
+	            <a href="/terms" class="tl-footer-link">Terms of Use</a>
+                <a href="/privacy" class="tl-footer-link">Privacy policy</a>
+                <a href="https://support.thinglink.com/" target="_blank" rel="noopener" class="tl-footer-link">
+                    Help center
+                </a>
+                <a href="https://support.thinglink.com/hc/en-us/requests/new" target="_blank" rel="noopener" class="tl-footer-link">
+                    Contact us
+                </a>
+	        </div>
+	        <div class="footer-social">
+	           <a href="https://www.youtube.com/channel/UCoEFzyhf3bB8OyfNfHeuasQ/videos" target="_blank" rel="noopener noreferrer" class="social-icon social-icon--youtube" aria-label="ThingLink YouTube channel"></a>
+	           <a href="https://www.facebook.com/ThingLink/" target="_blank" rel="noopener noreferrer" class="social-icon social-icon--facebook" aria-label="ThingLInk Facebook account"></a>
+	           <a href="https://twitter.com/ThingLink" target="_blank" rel="noopener noreferrer" class="social-icon social-icon--twitter" aria-label="ThingLink Twitter account"></a>
+	           <a href="https://www.linkedin.com/groups/9054683/" target="_blank" rel="noopener noreferrer" class="social-icon social-icon--linkedin" aria-label="ThingLink LinkedIn account"></a>
+	           <a href="https://www.instagram.com/thinglink/" target="_blank" rel="noopener noreferrer" class="social-icon social-icon--instagram" aria-label="ThingLink Instagram account"></a>
+	        </div> 
+	    </div>
+    </div>
+</div>
+
+            </footer>
+		</article>
+		
+		<div class="modal share-modal" id="share_modal">
+		    <div class="modal-dialog">
+			    <div class="modal-content">
+			        <div class="modal-header">
+			            <h3>Share link</h3>
+			            <button type="button" class="tl-button modal-close" data-dismiss="modal">
+			                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+		                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14 1.41L12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41Z" fill="black" fill-opacity="0.4"/>
+		                    </svg>     
+			            </button>
+			        </div>
+			        <div class="modal-body">
+			            <div class="share-modal--social">
+	                        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.thinglink.com%2fscene%2f1390621251231285250" rel="noopener noreferrer" class="panel-button social-icon social-icon__facebook" aria-label="Share to Facebook"></a>
+	                        <a target="_blank" href="https://x.com/intent/tweet?url=https%3a%2f%2fwww.thinglink.com%2fscene%2f1390621251231285250&text=LUCA+Menu&related=thinglink" rel="noopener noreferrer" class="panel-button social-icon social-icon__twitter" aria-label="Share to Twitter"></a>
+	                        <a target="_blank" href="https://www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.thinglink.com%2fscene%2f1390621251231285250&title=LUCA+Menu&mini=true" rel="noopener noreferrer" class="panel-button social-icon social-icon__linkedin" aria-label="Share to LinkedIn"></a>
+	                        <a target="_blank" href="https://pinterest.com/pin/create/button?url=https%3a%2f%2fwww.thinglink.com%2fscene%2f1390621251231285250&description=LUCA+Menu&media=https%3a%2f%2fcdn.thinglink.me%2fapi%2fimage%2f1390621251231285250%2f1024%2f10%2fscaletowidth" rel="noopener noreferrer" class="panel-button social-icon social-icon__pinterest" aria-label="Share to Pinterest"></a>
+	                        <a target="_blank" href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fwww.thinglink.com%2fscene%2f1390621251231285250&t=LUCA+Menu" rel="noopener noreferrer" class="panel-button social-icon social-icon__tumblr" aria-label="Share to Tumblr"></a>
+	                        <a target="_blank" href="mailto:?subject=LUCA+Menu&body=See+it+now+at%3a+https%3a%2f%2fwww.thinglink.com%2fscene%2f1390621251231285250+via+ThingLink" rel="noopener noreferrer" class="panel-button social-icon social-icon__email" aria-label="Share by email"></a>
+	                    </div>
+			        </div>
+			        <div class="share-modal--link">
+			            <p>Your media can be shared directly to multiple social platforms. 
+			               If you haven’t found a desired platform in the list above simply share direct link below.
+			            </p>
+			            <div class="link-wrapper">
+			                <label>Shareable link</label>
+			                <input type="text" value="https://www.thinglink.com/scene/1390621251231285250" readonly />
+			                <button type="button" class="tl-button" aria-label="Copy shareable link">
+			                   Copy
+			                   <div class="tooltip">Copied!</div>
+			                </button>
+			            </div> 
+			        </div>
+			    </div>
+			</div>
+		</div>
+
+	<script>
+	    var media_iframe = document.getElementById('media_iframe');
+	    
+	    var resizeIframe = function() { 
+            var iframeSize = calcIframeSize();
+            var w = iframeSize[0];
+            var h = iframeSize[1];
+            
+            var sceneIframe = document.querySelector('.single-scene-container .iframe-wrapper');
+            if (sceneIframe.classList.has('video')) return;
+            
+            sceneIframe.style.width = w + 'px';
+            sceneIframe.style.height = h + 'px';
+        };
+	
+		var connectModals = function () {
+			var modalShowButtons = document.querySelectorAll('[data-toggle="modal"]');
+            var modalCloseButtons = document.querySelectorAll('[data-dismiss="modal"]');
+
+            for (var i = 0; i < modalShowButtons.length; i++) {
+            	modalShowButtons[i].addEventListener('click', function (e) {
+                    document.querySelector(e.target.getAttribute('data-target')).classList.add('show');
+                });
+            }
+            for (var j = 0; j < modalCloseButtons.length; j++) {
+            	modalCloseButtons[j].addEventListener('click', function () {
+            		var modals = document.querySelectorAll('.modal');
+            		for (var k = 0; k < modals.length; k++) {
+            			modals[k].classList.remove('show');
+            		}
+                });
+            }
+            
+            document.querySelector('.modal-dialog .share-modal--link').addEventListener('click', function (e) {
+                var tooltip = e.target.querySelector('button .tooltip');
+                tooltip.classList.add('show');
+                setTimeout(function () {
+                    tooltip.classList.remove('show');
+                }, 1000);
+                
+                var inp = document.querySelector('.modal-dialog .share-modal--link input');
+                inp.select();
+                document.execCommand('copy');
+                inp.blur();
+            });
+		};
+		
+		if (typeof window.__tlconfig === "undefined") {
+            window.__tlconfig = {};
+        }
+		if (typeof window.__thinglink === "undefined") {
+            window.__thinglink = {};
+        }
+		
+		media_iframe.onload = function () {
+			var images = document.querySelectorAll('img.lazyload');
+			for (var i = 0; i < images.length; i++) {
+				images[i].setAttribute('src', images[i].getAttribute('data-src'));
+			}
+			var placeholders = document.querySelectorAll('.loading-placeholder');
+			for (var j = 0; j < placeholders.length; j++) {
+				placeholders[j].style.display = 'none';
+            }
+		};
+		
+		document.addEventListener('DOMContentLoaded', function () {
+			document.querySelector('.single-scene-container .iframe-wrapper').style.opacity = '1.0';
+            document.querySelector('.single-scene-container').classList.remove('loading');
+			
+			connectModals();
+		});
+		
+		window.addEventListener('resize', function () {
+			resizeIframe();
+		});
+		
+		if (window.mixpanel) {
+			var eventsToTrack = [
+				{
+					selector: 'header .social-icon__facebook',
+					event: '[Header] Share To Facebook click'
+				},
+				{
+					selector: 'header .social-icon__twitter',
+					event: '[Header] Share to Twitter click '
+				},
+				{
+                    selector: 'header .social-icon__share',
+                    event: '[Header] Open share modal dialog click'
+                },
+                /*
+				{
+                    selector: 'header .panel-button__question',
+                    event: '[Header] Open clippy window click'
+                },
+				{
+                    selector: '.clippy .clippy-btn-close',
+                    event: '[Clippy] Close button click'
+                },
+                {
+                    selector: '.clippy .clippy-btn-next',
+                    event: '[Clippy] Next button click'
+                },
+                {
+                    selector: '.clippy .clippy-btn-finish',
+                    event: '[Clippy] Got it! button click'
+                },
+                */
+                {
+                    selector: '.section-cta .cta-button-start-now',
+                    event: '[CTA section] Start now button click'
+                },
+                {
+                    selector: '.section-cta .cta-button-learn-more',
+                    event: '[CTA section] Learn more button click'
+                },
+                {
+                    selector: '.random-scenes-container .tl-link',
+                    event: '[Featured content] Explore more link click'
+                },
+                {
+                    selector: '.random-scenes-container .scene-card',
+                    event: '[Featured content] Scene card click'
+                },
+                {
+                    selector: '.underpanel .social-icon__facebook',
+                    event: '[Underpanel] Share To Facebook click'
+                },
+                {
+                    selector: '.underpanel .social-icon__twitter',
+                    event: '[Underpanel] Share to Twitter click '
+                },
+                {
+                    selector: '.underpanel .social-icon__linkedin',
+                    event: '[Underpanel] Share to Linkedin click '
+                },
+                {
+                    selector: '.underpanel .social-icon__share',
+                    event: '[Underpanel] Open share modal dialog click'
+                },
+				
+			];
+            
+			for (var i = 0; i < eventsToTrack.length; i++) {
+				var elems = document.querySelectorAll(eventsToTrack[i].selector);
+				for (var j = 0; j < elems.length; j++) {
+					elems[j].addEventListener('click', function () {
+                        if (window.mixpanel) mixpanel.track("Perma2021: " + eventsToTrack[i]);
+                    });
+				}
+			}
+        }
+	</script>
+
+	<script>
+		window.lazySizesConfig = window.lazySizesConfig || {};
+		window.lazySizesConfig.lazyClass = 'related-image-lazy';
+	</script>
+	<script src="https://cdn.thinglink.me/js/ext/lazysizes.min.js"></script>
+	<script src="https://cdn.thinglink.me/jse/responsive.js"></script>
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Start of Mixpanel Code -->
+<script type="text/plain" data-cookiecategory="analytics">
+
+    if( document.cookie.match(new RegExp('logout_executed=true')) ) {
+        // Logout just occurred so...
+        mixpanel.reset();
+    }
+
+    mixpanel.register({'distinct_id': ''}, 30);
+    
+    
+
+    
+    mixpanel.unregister('ab_fp-feb2015');
+    
+    
+    var sceneId = "";
+    
+        // no scene id in action bean
+    
+
+    
+    var spaBetaTester = true;
+
+    function isLandingPage() {
+        var ref = document.referrer;
+        if(!ref) {
+            // no referrer info
+            return true;
+        } else if (ref.split("/")[2].search(document.domain)===-1) {
+            // coming from outside thinglink domain
+            return true;
+        } else if( isFacebookApp(ref) || 
+                   isFourDotsIframe(ref) || 
+                   isShareIframe(ref) || 
+                   isTwitterCard(ref) ) {
+            // coming from a page that is not counted as a landing page
+            // but is on thinglink domain
+            return true;
+        }
+        return false;
+    }
+
+    function isFacebookApp(path) {
+        return (path.search("facebookTab")!==-1);
+    }
+
+    function isFourDotsIframe(path) {
+        return (path.search("/embed/moreInfo")!==-1);
+    }
+
+    function isShareIframe(path) {
+        return (path.search("/embed/share")!==-1) ||
+               (path.search("/edmodoshare")!==-1);
+    }
+
+    function isTwitterCard(path) {
+        return (path.search("/card")!==-1) ||
+               (path.search("/twittercard")!==-1);
+    }
+
+    // Disable the sns tracking for now to lower our costs.
+    if(isFacebookApp(window.location.pathname)) {
+        
+//        mixpanel.track("saw image on a sns", {"sns": "facebook app", "scene": sceneId});
+
+    } else if(isTwitterCard(window.location.pathname)) {
+
+//        mixpanel.track("saw image on a sns", {"sns": "twitter card", "scene": sceneId});
+    
+    } else if(isFourDotsIframe(window.location.pathname)) {
+
+        mixpanel.track("saw fourdots content");
+
+    } else if(isShareIframe(window.location.pathname)) {
+
+        // don't track this separately
+
+    } else if(isLandingPage()) {
+        
+        var loc = document.location;
+        var eventProps = {"orig pathname":loc.pathname,"orig search":loc.search};
+
+        if(loc.search.search("utm_source=googleadwords") != -1) {
+            // adwords campaign
+            eventProps["landed via paid impressions"] = "yes";
+        }
+
+        var buttonSource = loc.search.match( /buttonSource=(\w+)/ );
+        if( buttonSource ) {
+            eventProps["buttonSource"] = buttonSource[1];
+        }
+
+        if(loc.pathname == "/") {
+            // front page, note, the condition for this is untested
+            eventProps["visitor source"] = "front page";
+            // checking ab test 
+            if ( spaBetaTester === false ) {
+                eventProps["spaBetaTester"] = "no";
+            } else {
+                eventProps["spaBetaTester"] = "yes";
+            }
+        } else if(document.body && document.body.className && document.body.className.indexOf("user")===0) {
+            // user profile
+            eventProps["visitor source"] = "user profile";
+        } else if(loc.pathname.search("/scene/") != -1) {
+            // single scene
+            eventProps["visitor source"] = "single scene";
+        } else if(loc.pathname.search("/video/") != -1) {
+            // perma video
+            eventProps["visitor source"] = "video page";
+        } else if(loc.pathname.search("/learn/") != -1) {
+            // learn more
+            eventProps["visitor source"] = "learn more";
+        } else if(loc.pathname.search("/auth/connect") != -1) {
+            // thinglink connect
+            eventProps["visitor source"] = "thinglink connect";
+        } else if(loc.pathname.search("/edu") != -1) {
+            // edu
+            eventProps["visitor source"] = "edu";
+            if ( spaBetaTester === false ) {
+                eventProps["spaBetaTester"] = "no";
+            } else {
+                eventProps["spaBetaTester"] = "yes";
+            }
+        } else if(loc.pathname.search("/login") != -1) {
+            eventProps["visitor source"] = "login";
+        } else if(loc.pathname.search("/channel") != -1) {
+            eventProps["visitor source"] = "channel";
+        } else {
+            // other landing
+            eventProps["visitor source"] = "other";
+        }
+        eventProps['mobile'] = false;
+
+        mixpanel.register_once(eventProps);
+
+        
+        mixpanel.track("visitor landed");
+    }
+    
+   
+    </script>
+<!-- End of Mixpanel Code -->
+
+
+
+
+<!-- Start of Async HubSpot Analytics Code -->
+<script type="text/plain" data-cookiecategory="analytics">
+  (function(d,s,i,r) {
+    if (d.getElementById(i)){return;}
+    var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+    n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/603436.js';
+    e.parentNode.insertBefore(n, e);
+  })(document,"script","hs-analytics",300000);
+</script>
+<!-- End of Async HubSpot Analytics Code -->
+
+
+
+
+<script type="text/plain" data-cookiecategory="analytics">
+  _linkedin_partner_id = "6776580";
+  window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+  window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script>
+<script type="text/plain" data-cookiecategory="analytics">
+  (function(l) {
+    if (!l) {window.lintrk = function(a,b){window.lintrk.q.push([a,b])}; window.lintrk.q=[]}
+    var s = document.getElementsByTagName("script")[0];
+    var b = document.createElement("script");
+    b.type = "text/javascript";
+    b.async = true;
+    b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+    s.parentNode.insertBefore(b, s);}
+  )(window.lintrk);
+</script>
+<noscript> <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=6776580&fmt=gif" /></noscript>
+
+
+
+<script type="text/plain" data-cookiecategory="analytics">
+function initApollo(){var n=Math.random().toString(36).substring(7),o=document.createElement("script"); o.src="https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache="+n,o.async=!0,o.defer=!0, o.onload=function(){window.trackingFunctions.onLoad({appId:"66eff1f8ff9f0701b3d85038"})}, document.head.appendChild(o)}initApollo();</script>
+
+<script src="https://cdn.thinglink.me/js/tl/tracker.js"></script>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+<script>
+    var COOKIES_TABLE = {
+        'necessary': [
+            {
+                col1: 'JSESSIONID',
+                col2: 'ThingLink'
+            },
+            {
+                col1: 'rememberMe',
+                col2: 'ThingLink',
+            },
+            {
+                col1: 'cookie_consent',
+                col2: 'ThingLink',
+            },
+            {
+                col1: 'AWSELB',
+                col2: 'ThingLink'
+            },
+            {
+                col1: '^AWSALBAPP',
+                col2: 'ThingLink',
+                is_regex: true
+            },
+            {
+                col1: 'paymentInProcess',
+                col2: 'ThingLink'
+            },
+            {
+                col1: '_jwpusr',
+                col2: 'ThingLink'
+            },
+            {
+                col1: '_GRECAPTCHA',
+                col2: 'Google reCaptcha',
+            }
+        ],
+        'analytics': [
+            {
+                col1: '^_ga',
+                col2: 'Google Analytics',
+                is_regex: true
+            },
+            {
+                col1: '^__utm',
+                col2: 'Google Analytics',
+                is_regex: true
+            },
+            {
+                col1: '_gid',
+                col2: 'Google Analytics',
+            },
+            {
+                col1: '^__hs',
+                col2: 'HubSpot',
+                is_regex: true
+            },
+            {
+                col1: 'hubspotutk',
+                col2: 'HubSpot',
+            },
+            {
+                col1: 'messagesUtk',
+                col2: 'HubSpot',
+            },
+            {
+                col1: '^__mp',
+                col2: 'Mixpanel',
+                is_regex: true
+            },
+            {
+                col1: 'mp_super_properties',
+                col2: 'Mixpanel'
+            },
+            {
+                col1: '_zitok',
+                col2: 'ZoomInfo'
+            },
+            {
+                col1: 'bcookie',
+                col2: 'LinkedIn Insight Tag'
+            },
+            {
+                col1: 'li_gc',
+                col2: 'LinkedIn Insight Tag'
+            },
+            {
+                col1: 'lidc',
+                col2: 'LinkedIn Insight Tag'
+            }
+        ],
+        'functional': [
+            {
+                col1: '_fbp',
+                col2: 'Facebook',
+            },
+            {
+                col1: '_omappvp',
+                col2: 'OptinMonster',
+            },
+            {
+                col1: '_omappvs',
+                col2: 'OptinMonster',
+            },
+            {
+                col1: 'om-global-cookie',
+                col2: 'OptinMonster',
+            },
+            {
+                col1: '^om(GlobalSuccessCookie|GlobalInteractionCookie|SuccessCookie|LastSeen|SessionPageviews|SessionStart|VisitsFirst)$',
+                col2: 'OptinMonster',
+                is_regex: true
+            },
+            {
+                col1: 'om-interaction-cookie',
+                col2: 'OptinMonster',
+            },
+            {
+                col1: '^om(Seen|-success|Success|SlideClosed)*-[a-zA-Z0-9]*$',
+                col2: 'OptinMonster',
+                is_regex: true
+            },
+            {
+                col1: 'om-success-cookie',
+                col2: 'OptinMonster',
+            },
+            {
+                col1: '^om-[a-zA-Z0-9]*-closed$',
+                col2: 'OptinMonster',
+                is_regex: true
+            },
+            {
+                col1: '^omCountdown-[a-zA-Z0-9]*-[a-zA-Z0-9]*$',
+                col2: 'OptinMonster',
+                is_regex: true
+            },
+            {
+                col1: '_gat_omTracker',
+                col2: 'OptinMonster',
+            },
+            {
+                col1: '_omra',
+                col2: 'OptinMonster',
+            },
+            {
+                col1: '^__stripe',
+                col2: 'Stripe',
+                is_regex: true
+            }
+        ]
+    };
+</script>
+
+<script>
+    var getAllCookies = function () {
+        var pairs = document.cookie.split(";");
+        var cookies = {};
+
+        for (var i = 0; i < pairs.length; i++) {
+            var pair = pairs[i].split("=");
+            cookies[pair[0].trim() + ''] = pair[1].trim();
+        }
+
+        return cookies;
+    }
+
+    var deleteCookie = function (cookieName) {
+        var expires = 'Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+        var domains = ['thinglink.com', '.thinglink.com', 'www.thinglink.com', '.www.thinglink.com', location.hostname, '.' + location.hostname];
+
+        for (var i = 0; i < domains.length; i++) {
+            document.cookie = cookieName + '=; path=/' +
+                (domains[i].indexOf('.') == 0 ? '; domain=' + domains[i] : '') +
+                '; ' + expires;
+        }
+    }
+
+    var startCleaner = function () {
+        var cleanScheduled = false;
+
+        Reflect.setPrototypeOf(document, new Proxy(Reflect.getPrototypeOf(document), {
+                set(target, key, value, thisArg) {
+                    if (key === 'cookie') {
+                        try {
+                            var cookieVal = value.split(";")[0].split("=")[1].trim();
+                            if (cookieVal !== '' && !cleanScheduled) {
+                                setTimeout(function () {
+                                    clearCookies();
+                                    cleanScheduled = false;
+                                }, 3000);
+                            }
+                        }
+                        catch (e) {}
+                    }
+
+                    return Reflect.set(...arguments)
+                }
+            })
+        );
+    }
+
+    var clearCookies = function () {
+        if (typeof COOKIES_TABLE !== 'undefined') {
+            var browserCookies = getAllCookies();
+
+            if (browserCookies['cookie_consent'] !== undefined) {
+                try {
+                    var cookieConsent = JSON.parse(decodeURIComponent(browserCookies['cookie_consent']));
+                    var consentedLevels = cookieConsent['categories'];
+                    var cookiesCategories = Object.keys(COOKIES_TABLE);
+
+                    for (var i = 0; i < cookiesCategories.length; i++) {
+                        if (consentedLevels.indexOf(cookiesCategories[i]) === -1) {
+                            for (var j = 0; j < COOKIES_TABLE[cookiesCategories[i]].length; j++) {
+                                var cookieDef = COOKIES_TABLE[cookiesCategories[i]][j];
+                                var browserCookiesNames = Object.keys(browserCookies);
+
+                                if (cookieDef['is_regex'] === true) {
+                                    var regexp = new RegExp(cookieDef['col1']);
+
+                                    for (var k = 0; k < browserCookiesNames.length; k++) {
+                                        if (regexp.test(browserCookiesNames[k])) {
+                                            deleteCookie(browserCookiesNames[k]);
+                                        }
+                                    }
+                                }
+                                else {
+                                    for (var k = 0; k < browserCookiesNames.length; k++) {
+                                        if (browserCookiesNames[k] === cookieDef['col1']) {
+                                            deleteCookie(browserCookiesNames[k]);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                catch (e) {
+                    console.error(e);
+                }
+            }
+        }
+    }
+</script>
+
+
+    <script defer src="/js/ext/cookieconsent.js"></script>
+    <script>
+        window.addEventListener('load', function() {
+            var cc = initCookieConsent();
+
+            function updateHsformsLinks() {
+                if (cc.allowedCategory("analytics")) {
+                    var hsformsLinks = document.querySelectorAll('.cc-hsforms-link');
+
+                    [].forEach.call(hsformsLinks, function(lnk) {
+                        if (lnk.dataset.onclick) {
+                            lnk.setAttribute('onClick', lnk.dataset.onclick);
+                            lnk.setAttribute('href', '#');
+                            lnk.removeAttribute('target');
+                        }
+                    });
+                }
+            };
+
+            cc.run({
+                current_lang: 'en',
+                autoclear_cookies: false,
+                remove_cookie_tables: true,
+                page_scripts: true,
+                auto_language: 'document',
+                cookie_name: 'cookie_consent',
+                gui_options: {
+                    consent_modal: {
+                        layout: 'cloud',
+                        position: 'bottom center',
+                        transition: 'slide',
+                        swap_buttons: true
+                    },
+                    settings_modal: {
+                        cookie_table_headers: [
+                            {col1: 'Name'},
+                            {col2: 'Description'}
+                        ]
+                    }
+                },
+                onAccept: function (cookies) {
+                    clearCookies();
+                    updateHsformsLinks();
+                },
+                languages: {
+                    'en': {
+                        consent_modal: {
+                            description: 'This site uses cookies to deliver our services. By using our site, you acknowledge that you have read and understand our <a href="https://www.thinglink.com/terms" target="_blank">Terms of Service</a> and <a href="https://www.thinglink.com/cookies" target="_blank">Cookie Policy</a>. Your use of ThingLink&apos;s Products and Services, is subject to these policies and terms.',
+                            primary_btn: {
+                                text: 'Accept',
+                                role: 'accept_all'
+                            },
+                            secondary_btn: {
+                                text: 'Manage',
+                                role: 'settings'
+                            }
+                        },
+                        settings_modal: {
+                            title: 'Cookie preferences',
+                            save_settings_btn: 'Accept selected',
+                            reject_all_btn: 'Reject all',
+                            accept_all_btn: 'Accept all',
+                            close_btn_label: 'Close',
+                            cookie_table_headers: [
+                                {col1: 'Name'},
+                                {col2: 'Service'}
+                            ],
+                            blocks: [
+                                {
+                                    title: 'Cookie usage',
+                                    description: 'This site uses cookies to deliver our services. By using our site, you acknowledge that you have read and understand our <a href="https://www.thinglink.com/terms" target="_blank">Terms of Service</a> and <a href="https://www.thinglink.com/cookies" target="_blank">Cookie Policy</a>. Your use of ThingLink&apos;s Products and Services, is subject to these policies and terms.'
+                                }, {
+                                    title: 'Strictly necessary cookies',
+                                    description: 'These essential cookies are strictly necessary for the site to function and cannot be disabled in our systems. While you can configure your browser to block or receive alerts about these cookies, certain parts of the site may not work as intended.',
+                                    toggle: {
+                                        value: 'necessary',
+                                        enabled: true,
+                                        readonly: true
+                                    },
+                                    cookie_table: COOKIES_TABLE['necessary']
+                                }, {
+                                    title: 'Performance and Analytics cookies',
+                                    description: "These cookies help us track visits and traffic sources to measure and enhance our site's performance. They provide insights into popular and less popular pages, as well as visitor navigation patterns. All data collected by these cookies is aggregated and anonymous.",
+                                    toggle: {
+                                        value: 'analytics',
+                                        enabled: true,
+                                        readonly: false
+                                    },
+                                    cookie_table: COOKIES_TABLE['analytics']
+                                }, {
+                                   title: 'Functional cookies',
+                                   description: 'These cookies enhance the functionality and personalization of the site. They can be set by us or by third-party providers whose services we have integrated into our pages. Disabling these cookies may result in some or all of these services not functioning properly.',
+                                   toggle: {
+                                       value: 'functional',
+                                       enabled: true,
+                                       readonly: false
+                                   },
+                                   cookie_table: COOKIES_TABLE['functional']
+                               }
+                            ]
+                        }
+                    }
+                }
+            });
+
+            updateHsformsLinks();
+        });
+        window.addEventListener('load', function() {
+            startCleaner();
+        });
+    </script>
+
+
+
+		
+	</body>
+
+</html>
+	

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="robots" content="all,follow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+                                <title>Suskinder - Home</title>
+        <link rel="shortcut icon" href="/uploads/favicon/82a271878aba6f2b02ae2abaeb0fcc4f-favico.png" type="image/x-icon" >
+        <link rel="stylesheet" href="/assets/4bbdcd1a4e5df88335f205ac6170b9c2.css">
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina|Raleway:300,400,600,700" rel="stylesheet">
+    </head>
+    
+    <body>
+        <!-- Google Tag Manager -->
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PRZVBBS"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PRZVBBS');</script>
+        <!-- End Google Tag Manager -->        
+        <div id="wrapper" class="home">
+            <div id="header" class="container-fluid">
+                <div class="row">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div id="nav-icon-wrap">
+                                    <i class="nav-icon"><span></span><span></span><span></span></i>
+                                </div>
+                                
+                                <div id="switch-lang">
+                                    <a href="/" class='active'>EU</a>
+                                    <a href="/cs" >CZ</a>
+                                    <a href="/de" >DE</a>
+                                    <a href="/at" >AT</a>
+                                    <a href="/bg" >BG</a>
+                                    <a href="/it" >IT</a>
+                                    <a href="/si" >SI</a>
+                                    <a href="/en" >UK</a>
+                                </div>
+                                
+                                <span class="clear"></span>
+                                
+                                <div id="logo">
+                                    <a href=" /">
+                                        <div id="logo-big">
+                                            <img src="/images/logo-smile.png" alt="Suskinder" />
+                                        </div>
+                                        <div id="logo-small">
+                                            <img src="/images/logo-smile-small.png" alt="Suskinder" />
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="top-menu-wrap" class="container-fluid">
+                <div class="row">
+                    <div class="container">
+                        <div class="row">
+                            <div id="top-menu" class="list-type col-xs-12">
+                                <ul class="level1"><li class="selected"><a href="/"><span>Home</span></a></li><li class=" has_submenu"><a href="/project"><span>Project</span></a><ul class="level2"><li><a href="/project-info"><span>Project Info</span></a></li><li><a href="/project-aims-and-outputs"><span>Project aims and outputs</span></a></li></ul></li><li class=" has_submenu"><a href="/e-learning"><span>E-learning</span></a><ul class="level2"><li><a href="/module-1-the-key-role-of-kindergarten-staff-to-change-food-habits"><span>Module 1 – The key role of kindergarten staff to change food habits</span></a></li><li><a href="/module-2-how-to-raise-quality-and-make-food-more-sustainable"><span>Module 2: How to raise quality and make food more sustainable </span></a></li><li><a href="/module-3-outdoor-learning"><span>Module 3 – Outdoor learning</span></a></li><li><a href="/module-4-food-taste-and-intercultural-eating-skills"><span>Module 4 – Food taste and intercultural eating skills</span></a></li><li><a href="/module-5-how-to-communicate-with-and-inspire-parents"><span>Module 5 – How to communicate with and inspire parents</span></a></li></ul></li><li><a href="/tests"><span>Tests</span></a></li><li class=" has_submenu"><a href="/resources"><span>Resources</span></a><ul class="level2"><li><a href="/module-1"><span>Module 1</span></a></li><li><a href="/module-2"><span>Module 2</span></a></li><li><a href="/module-3"><span>Module 3</span></a></li><li><a href="/module-4"><span>Module 4</span></a></li><li><a href="/module-5"><span>Module 5</span></a></li></ul></li><li><a href="/partners"><span>Partners</span></a></li><li><a href="/news"><span>News</span></a></li></ul>                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div id="content" class="container-fluid">
+                <div class="row">
+                    
+                    <div class="container">
+                        <div class="row">
+
+                                                            <div class="col-xs-12">
+                                    
+<div id="home-image">
+    <img src="/images/home-new.png" />
+</div>
+
+<div id="home-text">
+    <div class="col-xs-12">
+        <div class="description">
+            <h1>E-learning course and online<br />
+portal Sustainable Food in Kindergartens</h1>
+
+<p>The aim of the Strategic Partnership is to develop an e-learning course and<br />
+interactive online portal titled “Sustainable food in kindergartens”.</p>
+
+<p>The portal will offer online educational resources on sustainable food in early years settings for educators, support assistants, caterers and kitchen staff.</p>
+
+<p>The content of the course will be translated into each of the seven partner countries languages&nbsp;and adapted to fit any country specific legislation and curriculums.</p>
+            <a href="/e-learning" class="btn btn-primary">
+                <span>Start e-learning now!</span>
+            </a>
+        </div>
+    </div>
+</div>
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="footer" class="container-fluid">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="copy col-sm-4 col-xs-12">
+                            <p>&copy; 2026 Suskinder</p>
+                            <p>
+                                Except where otherwise noted, content on this site is licensed under a Creative Commons Attribution 4.0 International license<br />
+                                <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons License</a>
+                            </p>
+                            <img src="/images/cc.png" alt="Creative Commons" width="180" />
+                        </div>
+                        <div class="eu col-sm-4 col-xs-12">
+                            <img src="/images/erasmus-cofounded.png" alt="Co-founded by the Erasmus+ Programme of the European Union" />
+                        </div>
+                        <p class="conditions col-sm-4 col-xs-12">The European Commission support for the production of this publication does not constitute endorsement of the contents which reflects the views only of the authors, and the Commission cannot be held responsi­ble for any use which may be made of the information contained therein.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="sidebar_menu">
+            <ul class="level1"><li class="selected"><a href="/"><span>Home</span></a></li><li class=" has_submenu"><a href="/project"><span>Project</span></a><ul class="level2"><li><a href="/project-info"><span>Project Info</span></a></li><li><a href="/project-aims-and-outputs"><span>Project aims and outputs</span></a></li></ul></li><li class=" has_submenu"><a href="/e-learning"><span>E-learning</span></a><ul class="level2"><li class=" has_submenu"><a href="/module-1-the-key-role-of-kindergarten-staff-to-change-food-habits"><span>Module 1 – The key role of kindergarten staff to change food habits</span></a><ul class="level3"><li class=" has_submenu"><a href="/unit-1-key-role-of-kindergarten-staff-for-developing-food-culture-und-eating-habits"><span>Unit 1 – Key role of kindergarten staff for developing food culture und eating habits</span></a><ul class="level4"><li><a href="/chapter-1-food-culture-and-eating-habits-where-do-they-come-from"><span>Chapter 1 – Food culture and eating habits – where do they come from?</span></a></li><li><a href="/chapter-2-being-a-role-model-and-challenging-obsolete-rules-and-regulations"><span>Chapter 2 – Being a role model and challenging obsolete rules and regulations</span></a></li><li><a href="/chapter-3-developing-a-beneficial-framework-in-the-kindergarten"><span>Chapter 3 – Developing a beneficial framework in the kindergarten</span></a></li></ul></li><li class=" has_submenu"><a href="/unit-2-chances-and-challenges-for-kindergarten-staff-under-changing-conditions-in-kindergarten-and-primary-school"><span>Unit 2 – Chances and challenges for kindergarten staff under changing conditions in kindergarten and primary school</span></a><ul class="level4"><li><a href="/chapter-1-food-quality-in-kindergartens-is-teamwork"><span>Chapter 1 – Food quality in kindergartens is teamwork</span></a></li><li><a href="/chapter-2-set-and-pursue-realistic-objectives"><span>Chapter 2 – Set and pursue realistic objectives</span></a></li><li><a href="/chapter-3-opportunities-for-inclusion-and-cooperation-with-all-players"><span>Chapter 3 – Opportunities for inclusion and cooperation with all players</span></a></li></ul></li><li class=" has_submenu"><a href="/unit-3-what-can-be-done-areas-for-action-when-it-comes-to-food"><span>Unit 3 – What can be done: Areas for action when it comes to food? </span></a><ul class="level4"><li><a href="/chapter-1-best-practice-in-the-area-of-food-in-kindergartens"><span>Chapter 1 – Best practice in the area of food in kindergartens</span></a></li><li><a href="/chapter-2-take-action-healthy-eating-patterns"><span>Chapter 2 – Take action: Healthy eating patterns </span></a></li><li><a href="/chapter-3-guidelines-for-kindergarten-s-healthy-and-sustainable-food-program"><span>Chapter 3 – Guidelines for kindergarten’s healthy and sustainable food program </span></a></li></ul></li><li><a href="/key-actions-1"><span>Key Actions</span></a></li></ul></li><li class=" has_submenu"><a href="/module-2-how-to-raise-quality-and-make-food-more-sustainable"><span>Module 2: How to raise quality and make food more sustainable </span></a><ul class="level3"><li class=" has_submenu"><a href="/unit-1-basics-of-child-nutrition"><span>Unit 1: Basics of child nutrition</span></a><ul class="level4"><li><a href="/chapter-1-nutrient-supply-of-individual-reference-values-within-the-age-steps"><span>Chapter 1 - Nutrient supply of individual reference values ​​within the age steps</span></a></li><li><a href="/chapter-2-food-selection-for-adolescent"><span>Chapter 2 – Food selection for adolescent</span></a></li><li><a href="/chapter-3-eat-throughout-the-day-the-performance-curve"><span>Chapter 3 – Eat throughout the day - the performance curve</span></a></li></ul></li><li class=" has_submenu"><a href="/unit-2-meals-in-kindergarten"><span>Unit 2 – Meals in kindergarten</span></a><ul class="level4"><li><a href="/chapter-1-different-systems-at-a-glance"><span>Chapter 1 – Different systems at a glance</span></a></li><li class=" has_submenu"><a href="/chapter-2-food-planning"><span>Chapter 2 – food planning</span></a><ul class="level5"><li><a href="/chapter-2-food-planning-breakfast"><span>Chapter 2 - food planning breakfast</span></a></li><li><a href="/chapter-2-food-planning-lunch"><span>Chapter 2 - food planning lunch</span></a></li><li><a href="/chapter-2-food-planning-afternoon-snack"><span>Chapter 2 - food planning Afternoon Snack</span></a></li></ul></li><li><a href="/chapter-3-kindergartens-without-kitchen-staff"><span>Chapter 3 – Kindergartens without kitchen staff</span></a></li></ul></li><li class=" has_submenu"><a href="/unit-3-sustainable-cooking"><span>Unit 3 – Sustainable cooking</span></a><ul class="level4"><li><a href="/chapter-1-organic-local-seasonal-and-why-is-it-smart-to-reduce-meat-consumption"><span>Chapter 1 – Organic, local, seasonal and why is it smart to reduce meat consumption</span></a></li><li><a href="/chapter-2-background-information-on-fair-trade-food-and-fish-form-sustainable-production-msc-fish"><span>Chapter 2 – Background information on: Fair trade food and fish form sustainable production (MSC fish)</span></a></li><li><a href="/chapter-3-strategies-to-keep-the-costs-in-its-limits"><span>Chapter 3 – Strategies to keep the costs in its limits </span></a></li></ul></li><li><a href="/key-actions-2"><span>Key Actions</span></a></li></ul></li><li class=" has_submenu"><a href="/module-3-outdoor-learning"><span>Module 3 – Outdoor learning</span></a><ul class="level3"><li class=" has_submenu"><a href="/unit-1-options-for-food-related-outdoor-learning"><span>Unit 1 – Options for food related outdoor learning</span></a><ul class="level4"><li class=" has_submenu"><a href="/chapter-1-what-are-the-benefits-of-outdoor-learning"><span>Chapter 1 – What are the benefits of outdoor learning?</span></a><ul class="level5"><li><a href="/chapter-1-benefits-continued"><span>Chapter 1 - Benefits continued</span></a></li></ul></li><li><a href="/chapter-2-what-are-some-of-the-options-for-outdoor-learning"><span>Chapter 2 – What are some of the options for outdoor learning?</span></a></li></ul></li><li class=" has_submenu"><a href="/unit-2-kindergarten-gardening-practical-hints-on-setting-up-a-garden"><span>Unit 2 – Kindergarten gardening: Practical hints on setting up a garden</span></a><ul class="level4"><li class=" has_submenu"><a href="/chapter-1-what-are-some-of-the-initial-considerations-when-setting-up-a-garden"><span>Chapter 1 – What are some of the initial considerations when setting up a garden?</span></a><ul class="level5"><li><a href="/chapter-1-considerations-continued"><span>Chapter 1 - Considerations continued</span></a></li></ul></li><li class=" has_submenu"><a href="/chapter-2-how-to-manage-your-garden"><span>Chapter 2 – How to manage your garden</span></a><ul class="level5"><li><a href="/chapter-2-manage-your-garden-continued"><span>Chapter 2 - Manage your garden continued</span></a></li><li><a href="/chapter-2-manage-your-garden-continued-1"><span>Chapter 2 – Manage your garden continued</span></a></li></ul></li></ul></li><li class=" has_submenu"><a href="/unit-3-farm-visits-practical-hints-on-setting-up-a-visit"><span>Unit 3 – Farm visits: Practical hints on setting up a visit</span></a><ul class="level4"><li class=" has_submenu"><a href="/chapter-1-explore-the-main-steps-involved-in-setting-up-a-farm-visit"><span>Chapter 1 – Explore the main steps involved in setting up a farm visit</span></a><ul class="level5"><li><a href="/chapter-1-setting-up-a-farm-visit-continued"><span>Chapter 1 - Setting up a farm visit continued</span></a></li><li><a href="/chapter-1-setting-up-a-farm-visit-continued-1"><span>Chapter 1 – Setting up a farm visit continued</span></a></li></ul></li><li class=" has_submenu"><a href="/chapter-2-funding-options"><span>Chapter 2 – Funding options </span></a><ul class="level5"><li><a href="/chapter-2-funding-options-continued-1"><span>Chapter 2 – Funding options continued</span></a></li><li><a href="/chapter-2-funding-options-continued"><span>Chapter 2 – Funding options continued</span></a></li></ul></li><li class=" has_submenu"><a href="/chapter-3-consider-the-health-and-safety-implications-of-a-farm-visit"><span>Chapter 3 – Consider the health and safety implications of a farm visit</span></a><ul class="level5"><li><a href="/chapter-3-health-and-safety-continued"><span>Chapter 3 – Health and safety continued</span></a></li></ul></li></ul></li><li><a href="/key-actions-5"><span>Key Actions</span></a></li></ul></li><li class=" has_submenu"><a href="/module-4-food-taste-and-intercultural-eating-skills"><span>Module 4 – Food taste and intercultural eating skills</span></a><ul class="level3"><li class=" has_submenu"><a href="/unit-1-food-socialisation-in-kindergartens-role-of-teachers-peers-and-ambience"><span>Unit 1 – Food socialisation in kindergartens: Role of teachers, peers and ambience </span></a><ul class="level4"><li><a href="/chapter-1-first-thing-first-how-children-sense-the-taste"><span>Chapter 1 – First thing first: How children sense the taste </span></a></li><li><a href="/chapter-2-role-of-teachers"><span>Chapter 2 – Role of teachers</span></a></li><li><a href="/chapter-3-role-of-peers"><span>Chapter 3 – Role of peers</span></a></li><li><a href="/chapter-4-role-of-ambience"><span>Chapter 4 – Role of ambience</span></a></li></ul></li><li class=" has_submenu"><a href="/unit-2-matter-of-taste-taste-smell-sight-touch-and-hearing-hands-on-nutrition-pedagogic-starting-form-taste-events-to-cooking-classes-in-kindergarten"><span>Unit 2 – Matter of Taste: taste, smell, sight, touch, and hearing. Hands on nutrition pedagogic starting form taste events to cooking classes in kindergarten.</span></a><ul class="level4"><li><a href="/chapter-1-kids-and-five-senses"><span>Chapter 1 – Kids and five senses</span></a></li><li><a href="/chapter-2-changing-in-the-child-feeding-from-lactation-to-primary-school"><span>Chapter 2 – Changing in the child feeding: from lactation to primary school.</span></a></li><li><a href="/chapter-3-play-as-a-sensorial-food-experience"><span>Chapter 3 – Play as a sensorial food experience.</span></a></li></ul></li><li class=" has_submenu"><a href="/unit-3-seasonal-festivals-in-kindergartens"><span>Unit 3 – Seasonal Festivals in Kindergartens</span></a><ul class="level4"><li><a href="/chapter-1-season-festivals-enriching-children-39-s-identity-and-social-life"><span>Chapter 1 – Season Festivals enriching children&#39;s identity and social life</span></a></li><li><a href="/chapter-2-season-festivals-activities-and-foods"><span>Chapter 2 – Season Festivals activities and foods</span></a></li><li><a href="/chapter-3-food-in-season-festivals-as-an-integration-way"><span>Chapter 3 – Food in Season Festivals as an Integration Way</span></a></li></ul></li><li><a href="/key-actions-4"><span>Key Actions</span></a></li></ul></li><li class=" has_submenu"><a href="/module-5-how-to-communicate-with-and-inspire-parents"><span>Module 5 – How to communicate with and inspire parents</span></a><ul class="level3"><li class=" has_submenu"><a href="/unit-1-children-in-the-middle-how-education-works-if-pedagogues-and-parents-work-together"><span>Unit 1 – Children in the middle: how education works if pedagogues and parents work together</span></a><ul class="level4"><li><a href="/chapter-1-parents-and-teachers-what-does-an-effective-partnership-look-like"><span>Chapter 1 – Parents and Teachers: What Does an Effective Partnership Look Like?</span></a></li><li><a href="/chapter-2-communication-is-the-key"><span>Chapter 2 – Communication is the key </span></a></li><li><a href="/chapter-3-cultural-diversity"><span>Chapter 3 - Cultural Diversity</span></a></li></ul></li><li class=" has_submenu"><a href="/unit-2-events-and-innovative-ways-to-develop-a-dialogue-with-parents"><span>Unit 2 – Events and innovative ways to develop a dialogue with parents </span></a><ul class="level4"><li><a href="/chapter-1-vision-for-engaging-parents"><span>Chapter 1 – Vision for engaging parents</span></a></li><li><a href="/chapter-2-events-to-involve-parents-and-the-community-in-cooking-and-growing-activities"><span>Chapter 2 – Events to involve parents and the community in cooking and growing activities</span></a></li></ul></li><li class=" has_submenu"><a href="/unit-3-integrating-immigrant-parents-into-kindergarten-community"><span>Unit 3 – Integrating immigrant parents into kindergarten community</span></a><ul class="level4"><li><a href="/chapter-1-where-migrants-come-from-and-the-countries-of-their-stay"><span>Chapter 1 – Where migrants come from and the countries of their stay </span></a></li><li><a href="/chapter-2-starting-life-in-a-new-country"><span>Chapter 2 - Starting life in a new country</span></a></li><li><a href="/chapter-3-how-parents-can-integrate-into-kindergarten-community"><span>Chapter 3 – How parents can integrate into kindergarten community</span></a></li><li><a href="/chapter-4-strategies-to-build-ties-with-immigrant-parents"><span>Chapter 4 - Strategies to build ties with immigrant parents</span></a></li><li><a href="/chapter-5-examples-of-good-practice"><span>Chapter 5 -  Examples of good practice</span></a></li></ul></li><li><a href="/key-actions"><span>Key Actions</span></a></li></ul></li></ul></li><li><a href="/tests"><span>Tests</span></a></li><li class=" has_submenu"><a href="/resources"><span>Resources</span></a><ul class="level2"><li><a href="/module-1"><span>Module 1</span></a></li><li><a href="/module-2"><span>Module 2</span></a></li><li><a href="/module-3"><span>Module 3</span></a></li><li><a href="/module-4"><span>Module 4</span></a></li><li><a href="/module-5"><span>Module 5</span></a></li></ul></li><li><a href="/partners"><span>Partners</span></a></li><li><a href="/news"><span>News</span></a></li></ul>        </div>
+        
+        <style>
+    #cookies { position: fixed; bottom: 0; width: 100%; background-color: #fef3e6; text-align: center; z-index: 10000; }
+    .cookies_text_wrap { width: 100%; }
+    .cookies_text { display: none; width: 800px; margin: 0 auto; padding: 10px 20px; background-color: #fef3e6; }
+    .cookies_info {  }
+    .cookies_less { display: none; }
+    .cookies_close { margin: 10px; }
+</style>
+
+<div id='cookies'>
+    <div class="cookies_text_wrap">
+        <div class='cookies_text'><h3>What are cookies?</h3>
+<p>Text files that websites saves on your computer or mobile device when you visit the site. It enables the website to remember your actions and preferences (such as login, language, font size and other display preferences) over a period of time, so you don't have to keep re-entering them whenever you come back to the site or browse from one page to another.</p></div>
+    </div>
+    <div class='cookies_info'>
+        <span>By using our website you consent to to the storage of cookies.</span> 
+        <a href='' class="cookies_more">More information</a>
+        <a href='' class="cookies_less">Less information</a>
+        <button class='cookies_close btn btn-info'>I understand</button>
+        
+    </div>
+</div>
+        <script type="text/javascript" src="/assets/705ea16b6d827b930b22cc2a3045175c.js"></script>
+    
+        <script type="text/javascript">
+            var more = $('#cookies .cookies_more');
+            var less = $('#cookies .cookies_less');
+            var text_wrap = $('#cookies .cookies_text_wrap');
+            var text = $('#cookies .cookies_text');
+            
+            more.click(function() {
+                height = text.outerHeight();
+                text_wrap.css('height', 0);
+                text_wrap.animate({ height: height }, 450, function() {
+                    text.fadeIn(450)
+                });
+                more.fadeOut(450, function() {
+                    less.fadeIn(450);
+                });
+                
+                
+                return false;
+            });
+            
+            less.click(function() {
+                less.fadeOut(450, function() {
+                    more.fadeIn(450);
+                });
+                text.fadeOut(450, function() {
+                    text_wrap.animate({ height: 0 }, 450);
+                });
+                
+                return false;
+            });
+
+            $('#cookies .cookies_close').click(function() {
+                $('#cookies').animate({height: '0'}, 600, function() {
+                    $(this).hide();
+                });
+                $.cookie('cookiesAgree', 1, { expires: 7*365, path : '/' });
+            });
+        </script>
+    </body>
+</html>

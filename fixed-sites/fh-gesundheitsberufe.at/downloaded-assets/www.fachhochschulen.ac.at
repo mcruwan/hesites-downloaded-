@@ -1,0 +1,1579 @@
+<!DOCTYPE html>
+<html width=device-width, initial-scale=1>
+<head>
+
+<meta charset="utf-8">
+<!-- 
+	_____________________________________________________________________________
+	
+		                               A TYPO3 work by
+		              FONDA - Interaktive Medien und Kommunikation GmbH
+	
+		                               Besser einfach.
+	
+		                        MORE INFO @ www.fonda.at/typo3-cms
+	
+		              www.fonda.at ]|[ office@fonda.at ]|[ +43-1-8901589
+		_____________________________________________________________________________
+
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2026 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at https://typo3.org/
+-->
+
+
+<link rel="icon" href="/_assets/23c048c4e278024490c6ac1b855e5de4/img/favicon.png" type="image/png">
+
+<meta http-equiv="x-ua-compatible" content="IE=edge">
+<meta name="generator" content="TYPO3 CMS">
+<meta name="description" content="Finde dein Studium hier auf dem offiziellen Informationsportal der österreichischen (Fach)Hochschulen!">
+<meta name="robots" content="index,follow">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="author" content="FH-Studium - Fachhochschulen">
+<meta property="og:image" content="https://www.fachhochschulen.ac.at/fileadmin/content/SYSTEM/LogoSM.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.fachhochschulen.ac.at/fileadmin/content/SYSTEM/LogoSM.png">
+<meta name="google" content="notranslate">
+<meta name="google-site-verification" content="tiF98uW5FTJnMs8jKi02-tBUSLgb5L6BmFneWfeFEcs">
+
+
+<link rel="stylesheet" href="https://use.typekit.net/afb7gov.css" media="all">
+<link rel="stylesheet" href="/typo3temp/assets/compressed/merged-cc3fd52f3ddd9f87eb92461b67c1703d.css?1768815592" media="all">
+
+
+
+
+
+
+
+<script src="https://cloud.ccm19.de/app.js?apiKey=420009d6a2fdb26d1cdf5c67664437f59d2353e9c70f886e&amp;domain=68ca9b3ca7605be45604e862" referrerpolicy="origin"></script><title>Study Guide: Finde hier dein (Fach)Hochschul-Studium!</title><meta name="facebook-domain-verification" content="tf854ahh5c0dawffw27h1syxvz3fcm" />
+<link rel="canonical" href="https://www.fachhochschulen.ac.at/"/>
+
+<link rel="alternate" hreflang="de" href="https://www.fachhochschulen.ac.at/"/>
+<link rel="alternate" hreflang="en" href="https://www.fachhochschulen.ac.at/en/"/>
+<link rel="alternate" hreflang="x-default" href="https://www.fachhochschulen.ac.at/"/>
+<!-- This site is optimized with the Yoast SEO for TYPO3 plugin - https://yoast.com/typo3-extensions-seo/ -->
+<script type="application/ld+json">[{"@context":"https:\/\/www.schema.org","@type":"WebSite","url":"https:\/\/www.fachhochschulen.ac.at\/","name":"Study Guide: Finde hier dein (Fach)Hochschul-Studium!"},{"@context":"https:\/\/www.schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/www.fachhochschulen.ac.at\/","name":"Study Guide: Finde dein (Fach)Hochschul-Studium!"}}]}]</script>
+</head>
+<body class="preload home">
+
+
+
+<header>
+    <div class="container">
+        <div class="header-inner">
+            <div class="logo">
+                <a href="/" target="_self" title="FH-Studium - Fachhochschulen">
+                    <img alt="FH-Studium - Fachhochschulen" src="/_assets/23c048c4e278024490c6ac1b855e5de4/images/logo.svg" width="110" height="55" />
+                </a>
+            </div>
+     
+            
+                <div class="language-toggle">
+                    
+                        
+                            
+                    
+                        
+                                
+                                       
+                                            
+                                                <a href="/en/" role="button" class="active"  title="EN">
+                                                    EN
+                                                </a>
+                                            
+                                    
+                            
+                    
+                </div>
+            
+            <button id="nav-toggle" type="button" class="navbar-toggle " data-target="#main-navigation" aria-expanded="false">
+                <span class="sr-only">Navigation</span>
+                <span class="icon-bar top-bar"></span>
+                <span class="icon-bar middle-bar"></span>
+                <span class="icon-bar bottom-bar"></span>
+            </button>
+        </div>
+    </div>
+</header>
+<nav class="main-nav" id="main-navigation">
+    <div class="container">
+        <div class="navigation-group-list">
+            
+
+
+    
+        <div class="navigation-group-item nav">
+            <ul class="nav-list">
+    
+
+    
+            <li >
+                <a href="/studienbereiche" target="_self" title="Studienbereiche">
+                    Studienbereiche
+                </a>
+            </li>
+        
+
+    
+
+
+    
+
+    
+            <li >
+                <a href="/studiengaenge" target="_self" title="Studiengänge">
+                    Studiengänge
+                </a>
+            </li>
+        
+
+    
+
+
+    
+
+    
+            <li >
+                <a href="/fachhochschulen" target="_self" title="Alle (Fach)Hochschulen">
+                    Alle (Fach)Hochschulen
+                </a>
+            </li>
+        
+
+    
+
+
+    
+
+    
+            </ul>
+            </div>
+            <div class="navigation-group-item nav">
+                <ul class="nav-list">
+        
+
+    
+
+
+    
+
+    
+            <li >
+                <a href="/ratgeber" target="_self" title="Ratgeber">
+                    Ratgeber
+                </a>
+            </li>
+        
+
+    
+
+
+    
+
+    
+            <li >
+                <a href="/stories" target="_self" title="Stories">
+                    Stories
+                </a>
+            </li>
+        
+
+    
+
+
+    
+
+    
+            <li >
+                <a href="/infotage" target="_self" title="Infotage an (Fach)Hochschulen">
+                    Infotage an (Fach)Hochschulen
+                </a>
+            </li>
+        
+
+    
+
+
+    
+
+    
+            <li >
+                <a href="/studium-a-z" target="_self" title="Studium von A-Z">
+                    Studium von A-Z
+                </a>
+            </li>
+        
+
+    
+        </ul>
+        </div>
+    
+
+
+            <div class="break"></div>
+            <div class="navigation-group-item meta-nav">
+                <div class="form-group search">
+                    <form action="/suche" method="get">
+                        <input type="text" name="tx_solr[q]" placeholder="Suche" class="footer-search">
+                            <button type="submit">
+                                <span class="icomoon icon-search" aria-hidden="true"></span>
+                            </button>
+                    </form>
+                </div>
+                <ul class="nav-list">
+                    
+
+
+    <li>
+        <a href="/impressum" target="_self" title="Impressum">
+            Impressum
+        </a>
+    </li>
+
+    <li>
+        <a href="/datenschutz" target="_self" title="Datenschutz">
+            Datenschutz
+        </a>
+    </li>
+
+    <li>
+        <a href="/barrierefreiheitserklaerung" target="_self" title="Barrierefreiheitserklärung">
+            Barrierefreiheitserklärung
+        </a>
+    </li>
+
+                </ul>
+             </div>
+
+        </div>
+    </div>
+</nav>
+<main>
+        
+                
+                
+                
+
+                    
+            
+        <!--TYPO3SEARCH_begin--><section class="startpage-search-filter">
+    
+        
+            <div class="image-wrapper" style="background-image:url(/fileadmin/content/Startseite/fachhochschulen-disziplinen.jpg);" role="img" aria-label="Finde dein FH-Studium!"></div>
+        
+    
+    <div class="title-wrapper d-md-none">
+        <div class="container">
+            <h1>
+                Österreichs Study Guide
+            </h1>
+            <h2>
+                Finde hier dein (Fach)Hochschul-Studium!
+            </h2>
+        </div>
+    </div>
+    <div class="container search-container">
+        <div class="search-wrapper">
+            <div class="title d-none d-md-block">
+                <h1>
+                    Österreichs Study Guide
+                </h1>
+                <h2>
+                    Finde hier dein (Fach)Hochschul-Studium!
+                </h2>
+            </div>
+            
+                
+    
+<div class="tx_solr">
+	
+
+
+	
+    
+            
+
+            
+                    
+                            
+                            <form method="get" id="tx-solr-search-form-pi-results" action="/studiengaenge" data-suggest="/studiengaenge.json" data-suggest-header="Top Results" accept-charset="utf-8">
+                                <div class="form-group startpage-search">
+
+                                    
+
+                                    
+
+                                    <input type="text"
+                                           class="tx-solr-q js-solr-q tx-solr-suggest tx-solr-suggest-focus form-control"
+                                           name="tx_solr[q]" value="" class="footer-search"
+                                           placeholder="Suchbegriff eingeben..."/>
+                                    <button class="clear-input">
+                                        <span class="icomoon icon-close" aria-hidden="true"></span>
+                                    </button>
+                                    <button type="submit" class="filterSubmitBtn">
+                                        <span class="icomoon icon-search tx-solr-submit" aria-hidden="true"></span>
+                                    </button>
+                                    <span class=" glyphicon glyphicon-search"></span>
+
+                                    </button>
+                                </div>
+                            </form>
+
+                            <nav class="study-filter">
+                                <div class="filter-category-list">
+                                    
+                                        
+                                            
+                                        
+                                        
+                                        
+                                    
+                                        
+                                        
+                                                
+                                                
+                                            
+                                        
+                                            
+                                                <div class="filter-category-item" data-id="">
+                                                    <button type="button" class="course-subject" data-toggle="collapse" data-target="#filterCollapse-1" aria-expanded="false" aria-controls="filterCollapse-1">
+													<span>
+														Studienbereich
+													</span>
+                                                    </button>
+                                                </div>
+                                            
+                                        
+                                    
+                                        
+                                        
+                                        
+                                            
+                                        
+                                    
+                                        
+                                        
+                                                
+                                                
+                                            
+                                        
+                                            
+                                                <div class="filter-category-item" data-id="">
+                                                    <button type="button" class="degree" data-toggle="collapse" data-target="#filterCollapse-3" aria-expanded="false" aria-controls="filterCollapse-3">
+													<span>
+														Studienart
+													</span>
+                                                    </button>
+                                                </div>
+                                            
+                                        
+                                    
+                                        
+                                        
+                                                
+                                                
+                                            
+                                        
+                                            
+                                                <div class="filter-category-item" data-id="">
+                                                    <button type="button" class="university" data-toggle="collapse" data-target="#filterCollapse-4" aria-expanded="false" aria-controls="filterCollapse-4">
+													<span>
+														(Fach)Hochschule
+													</span>
+                                                    </button>
+                                                </div>
+                                            
+                                        
+                                    
+                                        
+                                        
+                                                
+                                                
+                                            
+                                        
+                                            
+                                                <div class="filter-category-item" data-id="">
+                                                    <button type="button" class="organisation-form" data-toggle="collapse" data-target="#filterCollapse-5" aria-expanded="false" aria-controls="filterCollapse-5">
+													<span>
+														Organisationsform
+													</span>
+                                                    </button>
+                                                </div>
+                                            
+                                        
+                                    
+                                        
+                                        
+                                                
+                                                
+                                            
+                                        
+                                            
+                                                <div class="filter-category-item" data-id="">
+                                                    <button type="button" class="language" data-toggle="collapse" data-target="#filterCollapse-6" aria-expanded="false" aria-controls="filterCollapse-6">
+													<span>
+														Sprache
+													</span>
+                                                    </button>
+                                                </div>
+                                            
+                                        
+                                    
+                                        
+                                        
+                                                
+                                                
+                                            
+                                        
+                                            
+                                                <div class="filter-category-item" data-id="">
+                                                    <button type="button" class="location" data-toggle="collapse" data-target="#filterCollapse-7" aria-expanded="false" aria-controls="filterCollapse-7">
+													<span>
+														Bundesland
+													</span>
+                                                    </button>
+                                                </div>
+                                            
+                                        
+                                    
+                                </div>
+
+
+
+                                <div class="slider-control-wrapper d-none d-md-block">
+                                    <div class="slider-control">
+                                        <a href="#" class="slider-button slider-prev" aria-label="slider">
+                                            <span class="icomoon icon-arrow-left"></span>
+                                        </a>
+                                        <a href="#" class="slider-button slider-next" aria-label="slider">
+                                            <span class="icomoon icon-arrow-right"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </nav>
+                            <div class="filter-detail-wrapper">
+                                
+                                    
+
+                                    
+                                
+                                    
+
+                                    
+                                        
+                                            <div id="filterCollapse-1" class="collapse detailFilterWrapper">
+                                                <div class="filter-wrapper">
+                                                    <div class="filter-detail-list">
+                                                        <div class="filter-detail-item">
+                                                            <button type="button" class="button closeFilter">
+                                                                <span class="icomoon icon-close"></span>
+                                                            </button>
+                                                        </div>
+                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="0" data-filter-name="Gesundheit">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=studyarea%3AGesundheit" title="Gesundheit">
+                                                                                        <span class="course-subject">Gesundheit</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="1" data-filter-name="Life Sciences">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=studyarea%3ALife+Sciences" title="Life Sciences">
+                                                                                        <span class="course-subject">Life Sciences</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="2" data-filter-name="Medien &amp; Design">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=studyarea%3AMedien+%26+Design" title="Medien &amp; Design">
+                                                                                        <span class="course-subject">Medien &amp; Design</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="3" data-filter-name="Sicherheit">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=studyarea%3ASicherheit" title="Sicherheit">
+                                                                                        <span class="course-subject">Sicherheit</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="4" data-filter-name="Soziales">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=studyarea%3ASoziales" title="Soziales">
+                                                                                        <span class="course-subject">Soziales</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="5" data-filter-name="Technik">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=studyarea%3ATechnik" title="Technik">
+                                                                                        <span class="course-subject">Technik</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="6" data-filter-name="Wirtschaft">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=studyarea%3AWirtschaft" title="Wirtschaft">
+                                                                                        <span class="course-subject">Wirtschaft</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                            
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                    
+                                
+                                    
+
+                                    
+                                        
+                                    
+                                
+                                    
+
+                                    
+                                        
+                                            <div id="filterCollapse-3" class="collapse detailFilterWrapper">
+                                                <div class="filter-wrapper">
+                                                    <div class="filter-detail-list">
+                                                        <div class="filter-detail-item">
+                                                            <button type="button" class="button closeFilter">
+                                                                <span class="icomoon icon-close"></span>
+                                                            </button>
+                                                        </div>
+                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="0" data-filter-name="Bachelor-Studiengang">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=graduation%3ABachelor-Studiengang" title="Bachelor-Studiengang">
+                                                                                        <span class="course-subject">Bachelor-Studiengang</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="1" data-filter-name="Lehrgang">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=graduation%3ALehrgang" title="Lehrgang">
+                                                                                        <span class="course-subject">Lehrgang</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="2" data-filter-name="Master-Studiengang">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=graduation%3AMaster-Studiengang" title="Master-Studiengang">
+                                                                                        <span class="course-subject">Master-Studiengang</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                            
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                    
+                                
+                                    
+
+                                    
+                                        
+                                            <div id="filterCollapse-4" class="collapse detailFilterWrapper">
+                                                <div class="filter-wrapper">
+                                                    <div class="filter-detail-list">
+                                                        <div class="filter-detail-item">
+                                                            <button type="button" class="button closeFilter">
+                                                                <span class="icomoon icon-close"></span>
+                                                            </button>
+                                                        </div>
+                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="0" data-filter-name="Fachhochschule für angewandte Militärwissenschaften">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=school%3AFachhochschule+f%C3%BCr+angewandte+Milit%C3%A4rwissenschaften" title="Fachhochschule für angewandte Militärwissenschaften">
+                                                                                        <span class="course-subject">Fachhochschule für angewandte Militärwissenschaften</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="1" data-filter-name="FH des BFI Wien">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=school%3AFH+des+BFI+Wien" title="FH des BFI Wien">
+                                                                                        <span class="course-subject">FH des BFI Wien</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="2" data-filter-name="Hochschule Burgenland">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=school%3AHochschule+Burgenland" title="Hochschule Burgenland">
+                                                                                        <span class="course-subject">Hochschule Burgenland</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="3" data-filter-name="FH Campus 02">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=school%3AFH+Campus+02" title="FH Campus 02">
+                                                                                        <span class="course-subject">FH Campus 02</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="4" data-filter-name="Hochschule Campus Wien">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=school%3AHochschule+Campus+Wien" title="Hochschule Campus Wien">
+                                                                                        <span class="course-subject">Hochschule Campus Wien</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="5" data-filter-name="Ferdinand Porsche FERNFH">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=school%3AFerdinand+Porsche+FERNFH" title="Ferdinand Porsche FERNFH">
+                                                                                        <span class="course-subject">Ferdinand Porsche FERNFH</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="6" data-filter-name="fh gesundheit">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=school%3Afh+gesundheit" title="fh gesundheit">
+                                                                                        <span class="course-subject">fh gesundheit</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="7" data-filter-name="FH Gesundheitsberufe OÖ">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=school%3AFH+Gesundheitsberufe+O%C3%96" title="FH Gesundheitsberufe OÖ">
+                                                                                        <span class="course-subject">FH Gesundheitsberufe OÖ</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="8" data-filter-name="IMC Hochschule für Angewandte Wissenschaften Krems">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=school%3AIMC+Hochschule+f%C3%BCr+Angewandte+Wissenschaften+Krems" title="IMC Hochschule für Angewandte Wissenschaften Krems">
+                                                                                        <span class="course-subject">IMC Hochschule für Angewandte Wissenschaften Krems</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="9" data-filter-name="FH JOANNEUM">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=school%3AFH+JOANNEUM" title="FH JOANNEUM">
+                                                                                        <span class="course-subject">FH JOANNEUM</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="10" data-filter-name="FH Kärnten">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=school%3AFH+K%C3%A4rnten" title="FH Kärnten">
+                                                                                        <span class="course-subject">FH Kärnten</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="11" data-filter-name="FH Kufstein Tirol">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=school%3AFH+Kufstein+Tirol" title="FH Kufstein Tirol">
+                                                                                        <span class="course-subject">FH Kufstein Tirol</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="12" data-filter-name="Lauder Business School">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=school%3ALauder+Business+School" title="Lauder Business School">
+                                                                                        <span class="course-subject">Lauder Business School</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="13" data-filter-name="MCI | Die Unternehmerische Hochschule®">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=school%3AMCI+%7C+Die+Unternehmerische+Hochschule%C2%AE" title="MCI | Die Unternehmerische Hochschule®">
+                                                                                        <span class="course-subject">MCI | Die Unternehmerische Hochschule®</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="14" data-filter-name="FH Oberösterreich">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=school%3AFH+Ober%C3%B6sterreich" title="FH Oberösterreich">
+                                                                                        <span class="course-subject">FH Oberösterreich</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="15" data-filter-name="FH Salzburg">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=school%3AFH+Salzburg" title="FH Salzburg">
+                                                                                        <span class="course-subject">FH Salzburg</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="16" data-filter-name="USTP – University of Applied Sciences St. Pölten">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=school%3AUSTP+%E2%80%93+University+of+Applied+Sciences+St.+P%C3%B6lten" title="USTP – University of Applied Sciences St. Pölten">
+                                                                                        <span class="course-subject">USTP – University of Applied Sciences St. Pölten</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="17" data-filter-name="FH Technikum Wien">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=school%3AFH+Technikum+Wien" title="FH Technikum Wien">
+                                                                                        <span class="course-subject">FH Technikum Wien</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="18" data-filter-name="FHV - Vorarlberg University of Applied Sciences">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=school%3AFHV+-+Vorarlberg+University+of+Applied+Sciences" title="FHV - Vorarlberg University of Applied Sciences">
+                                                                                        <span class="course-subject">FHV - Vorarlberg University of Applied Sciences</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="19" data-filter-name="Schloss Hofen Weiterbildungszentrum FH Vorarlberg">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=school%3ASchloss+Hofen+Weiterbildungszentrum+FH+Vorarlberg" title="Schloss Hofen Weiterbildungszentrum FH Vorarlberg">
+                                                                                        <span class="course-subject">Schloss Hofen Weiterbildungszentrum FH Vorarlberg</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="20" data-filter-name="FHWien der WKW">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=school%3AFHWien+der+WKW" title="FHWien der WKW">
+                                                                                        <span class="course-subject">FHWien der WKW</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="21" data-filter-name="FH Wiener Neustadt">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=school%3AFH+Wiener+Neustadt" title="FH Wiener Neustadt">
+                                                                                        <span class="course-subject">FH Wiener Neustadt</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                            
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                    
+                                
+                                    
+
+                                    
+                                        
+                                            <div id="filterCollapse-5" class="collapse detailFilterWrapper">
+                                                <div class="filter-wrapper">
+                                                    <div class="filter-detail-list">
+                                                        <div class="filter-detail-item">
+                                                            <button type="button" class="button closeFilter">
+                                                                <span class="icomoon icon-close"></span>
+                                                            </button>
+                                                        </div>
+                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="0" data-filter-name="Berufsbegleitend">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=organizationalform%3ABerufsbegleitend" title="Berufsbegleitend">
+                                                                                        <span class="course-subject">Berufsbegleitend</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="1" data-filter-name="Dual">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=organizationalform%3ADual" title="Dual">
+                                                                                        <span class="course-subject">Dual</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="2" data-filter-name="Fernstudium">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=organizationalform%3AFernstudium" title="Fernstudium">
+                                                                                        <span class="course-subject">Fernstudium</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="3" data-filter-name="Teilzeit">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=organizationalform%3ATeilzeit" title="Teilzeit">
+                                                                                        <span class="course-subject">Teilzeit</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="4" data-filter-name="Vollzeit">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=organizationalform%3AVollzeit" title="Vollzeit">
+                                                                                        <span class="course-subject">Vollzeit</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                            
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                    
+                                
+                                    
+
+                                    
+                                        
+                                            <div id="filterCollapse-6" class="collapse detailFilterWrapper">
+                                                <div class="filter-wrapper">
+                                                    <div class="filter-detail-list">
+                                                        <div class="filter-detail-item">
+                                                            <button type="button" class="button closeFilter">
+                                                                <span class="icomoon icon-close"></span>
+                                                            </button>
+                                                        </div>
+                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="0" data-filter-name="Deutsch">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=language%3ADeutsch" title="Deutsch">
+                                                                                        <span class="course-subject">Deutsch</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="1" data-filter-name="Englisch">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=language%3AEnglisch" title="Englisch">
+                                                                                        <span class="course-subject">Englisch</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                            
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                    
+                                
+                                    
+
+                                    
+                                        
+                                            <div id="filterCollapse-7" class="collapse detailFilterWrapper">
+                                                <div class="filter-wrapper">
+                                                    <div class="filter-detail-list">
+                                                        <div class="filter-detail-item">
+                                                            <button type="button" class="button closeFilter">
+                                                                <span class="icomoon icon-close"></span>
+                                                            </button>
+                                                        </div>
+                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="0" data-filter-name="Burgenland">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=region%3ABurgenland" title="Burgenland">
+                                                                                        <span class="course-subject">Burgenland</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="1" data-filter-name="Kärnten">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=region%3AK%C3%A4rnten" title="Kärnten">
+                                                                                        <span class="course-subject">Kärnten</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="2" data-filter-name="Niederösterreich">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=region%3ANieder%C3%B6sterreich" title="Niederösterreich">
+                                                                                        <span class="course-subject">Niederösterreich</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="3" data-filter-name="Oberösterreich">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=region%3AOber%C3%B6sterreich" title="Oberösterreich">
+                                                                                        <span class="course-subject">Oberösterreich</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="4" data-filter-name="Salzburg">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=region%3ASalzburg" title="Salzburg">
+                                                                                        <span class="course-subject">Salzburg</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="5" data-filter-name="Steiermark">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=region%3ASteiermark" title="Steiermark">
+                                                                                        <span class="course-subject">Steiermark</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="6" data-filter-name="Tirol">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=region%3ATirol" title="Tirol">
+                                                                                        <span class="course-subject">Tirol</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="7" data-filter-name="Vorarlberg">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=region%3AVorarlberg" title="Vorarlberg">
+                                                                                        <span class="course-subject">Vorarlberg</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                                    
+                                                                            
+                                                                                <div class="filter-detail-item" data-id="8" data-filter-name="Wien">
+                                                                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=region%3AWien" title="Wien">
+                                                                                        <span class="course-subject">Wien</span>
+                                                                                    </a>
+                                                                                </div>
+                                                                            
+                                                                        
+                                                                
+                                                            
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                    
+                                
+                            </div>
+                            </div>
+                            
+                        
+
+
+                
+        
+
+</div>
+
+
+            
+            <div class="suggestion-wrapper d-none">
+                <div class="suggestion-list">
+                    <!-- this markup ist added by JS -->
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="teaser-box-wrapper">
+        <div class="container">
+            <div class="teaser-box">
+                <div class="box-list">
+                    <div class="box-item">
+                        <div class="box-inner">
+                            <h2 class="title">
+                                Bist du schon Bachelor?
+                            </h2>
+                            
+                                <div class="button-wrapper">
+                                    <a href="/studiengaenge?tx_solr%5Bfilter%5D%5B0%5D=graduation%3AMaster-Studiengang" target="_self" title="Alle Master" class="button primary">
+                                        <span>
+                                            Alle Master
+                                        </span>
+                                    </a>
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="box-list stories stories-teaser"><div class="container"><div class="section-title">
+                    Stories
+                </div><div class="box-list-elements"><div class="box-item"><div class="image-wrapper"><a title="Mit Future Skills dein Studium individualisieren" href="/stories/mit-future-skills-dein-studium-individualisieren"><span class="image" style="background-image: url(/fileadmin/_processed_/a/5/csm_imc-krems-future-skills_f85ca1435a.jpg)" aria-label="Future Skills am IMC Krems: Gestalte dein Studium so, wie es für deine Karriere passt!"></span></a></div><div class="content-wrapper"><div class="content-inner"><div class="top-line">
+                                            IMC HOCHSCHULE FÜR ANGEWANDTE WISSENSCHAFTEN KREMS
+                                        </div><h3 class="title"><a class="stretched-link" title="Mit Future Skills dein Studium individualisieren" href="/stories/mit-future-skills-dein-studium-individualisieren">
+                                        Mit Future Skills dein Studium individualisieren
+                                    </a></h3><ul class="categories"><li><a href="/stories?tags=1&amp;cHash=272e2b9fcaea1cce7bd65deb1050b68f" target="_self" title="Gesundheit">
+                                                Gesundheit
+                                            </a></li><li><a href="/stories?tags=4&amp;cHash=d0536ecdf0fc9c36a09019544561b3bf" target="_self" title="Technik">
+                                                Technik
+                                            </a></li><li><a href="/stories?tags=6&amp;cHash=2d10a7503e5da25e8e416135ef3a651d" target="_self" title="Wirtschaft">
+                                                Wirtschaft
+                                            </a></li><li><a href="/stories?tags=15&amp;cHash=d2f74ebfb0e4d51dfc357e89992998be" target="_self" title="Studium">
+                                                Studium
+                                            </a></li></ul></div></div></div><div class="box-item"><div class="image-wrapper"><a title="Neuer Bachelor Green Engineering ab Herbst 2026" href="/stories/neuer-bachelor-green-engineering-ab-herbst-2026"><span class="image" style="background-image: url(/fileadmin/_processed_/d/3/csm_FH-Salzburg_Green-Engineering_Studierende_c_FH_Salzburg_wildbild_8d5583c827.jpg)" aria-label="Neues Bachelor Green Engineering startet im Herbst 2026 an der FH Salzburg"></span></a></div><div class="content-wrapper"><div class="content-inner"><div class="top-line">
+                                            FH SALZBURG
+                                        </div><h3 class="title"><a class="stretched-link" title="Neuer Bachelor Green Engineering ab Herbst 2026" href="/stories/neuer-bachelor-green-engineering-ab-herbst-2026">
+                                        Neuer Bachelor Green Engineering ab Herbst 2026
+                                    </a></h3><ul class="categories"><li><a href="/stories?tags=4&amp;cHash=d0536ecdf0fc9c36a09019544561b3bf" target="_self" title="Technik">
+                                                Technik
+                                            </a></li><li><a href="/stories?tags=15&amp;cHash=d2f74ebfb0e4d51dfc357e89992998be" target="_self" title="Studium">
+                                                Studium
+                                            </a></li><li><a href="/stories?tags=35&amp;cHash=90aa704c2336f57bd43ec929a9dedb3f" target="_self" title="Bachelor">
+                                                Bachelor
+                                            </a></li></ul></div></div></div><div class="box-item"><div class="image-wrapper"><a title="Leistbares Studieren" href="/stories/leistbares-studieren"><span class="image" style="background-image: url(/fileadmin/_processed_/6/b/csm_fernfh-leistbares-studieren_4fa16474a3.jpg)" aria-label="Ferdinand Porsche FERNFH - leistbares Studium, zeitlich flexibel und ortsunabhängig!"></span></a></div><div class="content-wrapper"><div class="content-inner"><div class="top-line">
+                                            FERDINAND PORSCHE FERNFH
+                                        </div><h3 class="title"><a class="stretched-link" title="Leistbares Studieren" href="/stories/leistbares-studieren">
+                                        Leistbares Studieren
+                                    </a></h3><ul class="categories"><li><a href="/stories?tags=6&amp;cHash=2d10a7503e5da25e8e416135ef3a651d" target="_self" title="Wirtschaft">
+                                                Wirtschaft
+                                            </a></li><li><a href="/stories?tags=15&amp;cHash=d2f74ebfb0e4d51dfc357e89992998be" target="_self" title="Studium">
+                                                Studium
+                                            </a></li><li><a href="/stories?tags=35&amp;cHash=90aa704c2336f57bd43ec929a9dedb3f" target="_self" title="Bachelor">
+                                                Bachelor
+                                            </a></li><li><a href="/stories?tags=36&amp;cHash=572dc19557d2c56e466ae7c0f5b6d9a4" target="_self" title="Master">
+                                                Master
+                                            </a></li></ul></div></div></div></div><div class="button-wrapper"><a href="/stories" target="_self" title="Alle Stories" class="button primary"><span>
+                         Alle Stories
+                    </span></a></div></div></section>
+
+
+    <section class="event-teaser"><div class="container"><div class="section-title">
+					Infotage
+				</div><div class="event-list"><div class="event-item"><div class="item-inner"><span class="top-line">
+                                
+									
+											
+													Open House,
+												
+										
+								
+									
+											
+													Master,
+												
+										
+								
+									
+											
+													Online Info,
+												
+										
+								
+									
+											
+													Bachelor
+												
+										
+								
+                            </span><h3 class="title"><a class="stretched-link" title="Online Info-Sessions" href="/infotage/online-info-sessions-1">
+										Online Info-Sessions
+									</a></h3><div class="date-info-wrapper"><div class="date"><span class="day period">
+                                                    27 - 29
+                                                </span><span class="month">
+                                            
+                                                    
+                                                    
+                                                    
+                                                            Jän.
+                                                        
+                                                
+                                        </span></div><div class="infos"><ul><li class="time">
+                                                16:00
+                                                
+                                                        - 20:00
+                                                     Uhr
+											</li><li class="location">
+												Online
+											</li><li class="organisation">
+												FH SALZBURG
+											</li></ul></div></div></div></div><div class="event-item"><div class="item-inner"><span class="top-line">
+                                
+									
+											
+													Master,
+												
+										
+								
+									
+											
+													Online Info
+												
+										
+								
+                            </span><h3 class="title"><a class="stretched-link" title="Online-Infosession Europäische Wirtschaftspolitik | Master" href="/infotage/online-infosession-europaeische-wirtschaftspolitik-master-2">
+										Online-Infosession Europäische Wirtschaftspolitik | Master
+									</a></h3><div class="date-info-wrapper"><div class="date"><span class="day single-day">
+                                                    29
+                                                </span><span class="month">
+                                            
+                                                    Jän.
+                                                
+                                        </span></div><div class="infos"><ul><li class="time">
+                                                14:00
+                                                
+                                                        - 15:00
+                                                     Uhr
+											</li><li class="location">
+												Online
+											</li><li class="organisation">
+												FH DES BFI WIEN
+											</li></ul></div></div></div></div><div class="event-item"><div class="item-inner"><span class="top-line">
+                                
+									
+											
+													Online Info,
+												
+										
+								
+									
+											
+													Bachelor
+												
+										
+								
+                            </span><h3 class="title"><a class="stretched-link" title="Online Infosession Europäische Wirtschaft und Unternehmensführung  | Bachelor" href="/infotage/online-infosession-europaeische-wirtschaft-und-unternehmensfuehrung-bachelor">
+										Online Infosession Europäische Wirtschaft und Unternehmensführung  | Bachelor
+									</a></h3><div class="date-info-wrapper"><div class="date"><span class="day single-day">
+                                                    29
+                                                </span><span class="month">
+                                            
+                                                    Jän.
+                                                
+                                        </span></div><div class="infos"><ul><li class="time">
+                                                17:00
+                                                
+                                                        - 18:30
+                                                     Uhr
+											</li><li class="location">
+												Online
+											</li><li class="organisation">
+												FH DES BFI WIEN
+											</li></ul></div></div></div></div></div><div class="button-wrapper"><a href="/infotage" target="_self" title="Alle Infotage" class="button primary"><span>
+                            Alle Infotage
+                        </span></a></div></div></section>
+
+
+    <section class="teaser questions">
+        <div class="container">
+            
+                <div class="section-title">
+                    Fragen über Fragen...
+                </div>
+            
+            <div class="question-list">
+                
+                    <div class="question-item">
+                        <div class="speech-bubble">
+                            Welches Studium passt zu dir und was kannst du an (Fach)Hochschulen studieren?
+                        </div>
+                    </div>
+                
+                    <div class="question-item">
+                        <div class="speech-bubble">
+                            Was ist der Unterschied zwischen (Fach)Hochschule und Uni?
+                        </div>
+                    </div>
+                
+            </div>
+            
+                
+                    <div class="button-wrapper">
+                        <a href="/ratgeber" target="_self" title="Antworten findest du hier im Ratgeber!" class="button primary">
+                            <span>
+                                Antworten findest du hier im Ratgeber!
+                            </span>
+                        </a>
+                    </div>
+                
+            
+        </div>
+    </section>
+
+    <section class="facts-counter">
+        <div class="container">
+            
+                <div class="section-title">
+                    (Fach)Hochschulen im Überblick
+                </div>
+            
+            <div class="facts-list">
+                
+                    <div class="facts-item">
+                            <span class="counter-number-wrapper">
+                                <span class="counter-number h1" data-count="21" data-duration="400">
+                                    0
+                                </span>
+                            </span>
+                        <p class="title h3">
+                            Fachhochschulen bzw. Hochschulen für Angewandte Wissenschaften
+                        </p>
+                    </div>
+                
+                    <div class="facts-item">
+                            <span class="counter-number-wrapper">
+                                <span class="counter-number h1" data-count="76000" data-duration="400">
+                                    0
+                                </span>
+                            </span>
+                        <p class="title h3">
+                            Studierende (inkl. Weiterbildung)
+                        </p>
+                    </div>
+                
+                    <div class="facts-item">
+                            <span class="counter-number-wrapper">
+                                <span class="counter-number h1" data-count="708" data-duration="400">
+                                    0
+                                </span>
+                            </span>
+                        <p class="title h3">
+                            Studiengänge (inkl. Lehrgänge zur Weiterbildung)
+                        </p>
+                    </div>
+                
+            </div>
+            
+                
+                    <div class="button-wrapper">
+                        <a href="/fachhochschulen" target="_self" title="Alle (Fach)Hochschulen" class="button primary">
+                            <span>
+                                Alle (Fach)Hochschulen 
+                            </span>
+                        </a>
+                    </div>
+                
+            
+        </div>
+    </section>
+<section class="teaser pdf">
+    <div class="teaser-wrapper">
+        <div class="content">
+            <div class="container pdf-container">
+                <div class="content-box">
+                    
+                        <div class="section-title">
+                            Tipps &amp; Studieninfos im neuen Study Guide 2026!
+                        </div>
+                    
+                    
+                        
+                            <div class="button-wrapper">
+                                <a href="/fileadmin/content/Ratgeber/study-guide-2026.pdf" target="_blank" title="Hier downloaden" class="button primary download">
+                                    <span>
+                                        Hier downloaden
+                                    </span>
+                                </a>
+                            </div>
+                        
+                    
+                </div>
+                
+                    
+                        <div class="pdf-box">
+                            <img title="Tipps &amp; Studieninfos im neuen Study Guide 2026!" src="/fileadmin/_processed_/8/d/csm_study-guide-2026-cover_cd67fa8781.jpg" width="376" height="500" alt="Cover der aktuellen Ausgabe des Study Guide 2026" />
+                        </div>
+                    
+                
+            </div>
+        </div>
+    </div>
+</section><!--TYPO3SEARCH_end-->
+</main>
+ <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    
+
+
+    
+        <div class="col-12 col-md-3 order-2 order-md-1">
+            <ul>
+    
+
+    
+            <li>
+                <a href="/studienbereiche" target="_self" title="Studienbereiche">
+                    Studienbereiche
+                </a>
+            </li>
+        
+
+    
+
+
+    
+
+    
+            <li>
+                <a href="/studiengaenge" target="_self" title="Studiengänge">
+                    Studiengänge
+                </a>
+            </li>
+        
+
+    
+
+
+    
+
+    
+            <li>
+                <a href="/fachhochschulen" target="_self" title="Alle (Fach)Hochschulen">
+                    Alle (Fach)Hochschulen
+                </a>
+            </li>
+        
+
+    
+
+
+    
+
+    
+            </ul>
+        </div>
+        <div class="col-12 col-md-3 order-3 order-md-2">
+                <ul>
+        
+
+    
+
+
+    
+
+    
+            <li>
+                <a href="/ratgeber" target="_self" title="Ratgeber">
+                    Ratgeber
+                </a>
+            </li>
+        
+
+    
+
+
+    
+
+    
+            <li>
+                <a href="/stories" target="_self" title="Stories">
+                    Stories
+                </a>
+            </li>
+        
+
+    
+
+
+    
+
+    
+            <li>
+                <a href="/infotage" target="_self" title="Infotage an (Fach)Hochschulen">
+                    Infotage an (Fach)Hochschulen
+                </a>
+            </li>
+        
+
+    
+
+
+    
+
+    
+            <li>
+                <a href="/studium-a-z" target="_self" title="Studium von A-Z">
+                    Studium von A-Z
+                </a>
+            </li>
+        
+
+    
+            </ul>
+        </div>
+    
+
+
+
+                    <div class="col-12 col-md-6 order-1 order-md-3">
+                        <div class="form-group footer-search">
+                            <form action="/suche" method="get">
+                                <input type="text" name="tx_solr[q]"
+                                    placeholder="Suche"
+                                    class="footer-search">
+                                <button type="submit">
+                                    <span class="icomoon icon-search" aria-hidden="true"></span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <nav class="footer-meta">
+                    <ul>
+                        
+
+
+    <li>
+        <a href="/impressum" target="_self" title="Impressum">
+            Impressum
+        </a>
+    </li>
+
+    <li>
+        <a href="/datenschutz" target="_self" title="Datenschutz">
+            Datenschutz
+        </a>
+    </li>
+
+    <li>
+        <a href="/barrierefreiheitserklaerung" target="_self" title="Barrierefreiheitserklärung">
+            Barrierefreiheitserklärung
+        </a>
+    </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+</footer>
+
+<script src="/typo3temp/assets/compressed/merged-c509b41f3df59e826f8e60cec11379fa.js?1768815592"></script>
+<script src="/_assets/948410ace0dfa9ad00627133d9ca8a23/JavaScript/Powermail/Form.min.js?1753167604" defer="defer"></script>
+
+
+
+</body>
+</html>

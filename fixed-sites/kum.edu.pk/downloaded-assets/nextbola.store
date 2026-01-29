@@ -1,0 +1,616 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    
+<!-- Start Head_Tags_1_nextbola_store of nextbola.store domain -->
+<!-- Primary SEO Meta Tags -->
+<title>NEXTBOLA | Mix Parlay, Slot Gacor & Bandar Togel Online</title>
+<meta name="description" content="NEXTBOLA adalah situs mix parlay bola online resmi terpercaya di Indonesia. Agen situs mix parlay Piala Dunia 2026, slot RTP gacor, dan bandar togel terlengkap." />
+<meta name="keywords" content="nextbola, situs nextbola, judi bola online, situs bola terpercaya, slot online gacor, taruhan bola resmi, togel online terpercaya, agen sbobet, mix parlay" />
+<meta name="robots" content="index, follow" />
+<meta name="revisit-after" content="1 days" />
+<meta name="rating" content="general" />
+<meta name="geo.country" content="ID" />
+<meta name="geo.placename" content="Indonesia" />
+<meta name="Slurp" content="all" />
+<meta name="language" content="id" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- Canonical & AMP -->
+<link rel="canonical" href="https://nextbola.net/" />
+<link rel="icon" type="image/png" href="https://res.cloudinary.com/dkdjjrw9u/image/upload/v1748015151/FAVICON_NEXTBOLA_wifg6r.png" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="NEXTBOLA | Mix Parlay, Slot Gacor & Bandar Togel Online" />
+<meta property="og:description" content="NEXTBOLA adalah situs mix parlay bola online resmi terpercaya di Indonesia. Agen situs mix parlay Piala Dunia 2026, slot RTP gacor, dan bandar togel terlengkap." />
+<meta property="og:url" content="https://nextbola.net/" />
+<meta property="og:image" content="https://res.cloudinary.com/dkdjjrw9u/image/upload/v1761975133/BANNER_NEXTBOLA_1_f1bhrn.png" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="NEXTBOLA | Mix Parlay, Slot Gacor & Bandar Togel Online" />
+<meta name="twitter:description" content="NEXTBOLA adalah situs mix parlay bola online resmi terpercaya di Indonesia. Agen situs mix parlay Piala Dunia 2026, slot RTP gacor, dan bandar togel terlengkap." />
+<meta name="twitter:image" content="https://res.cloudinary.com/dkdjjrw9u/image/upload/v1761975133/BANNER_NEXTBOLA_1_f1bhrn.png" />
+
+<!-- JSON-LD Schema -->
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "WebSite",
+ "name": "NEXTBOLA",
+ "url": "https://nextbola.net/",
+ "description": "NEXTBOLA adalah situs mix parlay bola online resmi terpercaya di Indonesia. Agen situs mix parlay Piala Dunia 2026, slot RTP gacor, dan bandar togel terlengkap.",
+ "potentialAction": {
+   "@type": "SearchAction",
+   "target": "https://nextbola.net/?s={search_term_string}",
+   "query-input": "required name=search_term_string"
+ }
+}
+</script>
+<!-- End Head_Tags_1_nextbola_store of nextbola.store domain -->
+
+<!-- Start Head_Tags_1_nextbola_store of all domains -->
+
+<!-- End Head_Tags_1_nextbola_store of all domains -->
+
+
+
+    <link rel="icon" href="Images/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="Images/theme/v1/css/style.css?v=4">
+    <script src="Images/theme/v1/js/jquery-3.4.1.min.js"></script>
+
+    <script type="text/javascript" src="js/common.js?v=20241218"></script>
+    <script type="text/javascript" src="js/header.js?v=20250106"></script>
+    <script type="text/javascript" src="js/login.js?v=20250303"></script>
+
+     <script language="javascript" type="text/javascript">
+         $().ready(function () {
+             $('#btnReg').click(function () {
+                 popupRegister('');
+            });
+         })
+
+         function popupLivechat() {
+             window.open('https://www.livehelpnow.net/lhn/lcv.aspx?d=51623&ms=&zzwindow=59091&lhnid=34870&custom1=&custom2=&custom3=&pcv=&opid=0', 'LiveChat', 'width=500,height=500,toolbars=no,scrollbars=no,status=no,resizable=no');
+         }
+     </script>
+
+
+    <script type="text/javascript">
+        function drawTogelL(records) {
+            var strTogel = ''
+            for (var i = 0; i < records.length && i < 2; i++) {
+                strTogel += '<div class="TogelItem">' +
+                    '<span class="TogelCountry">' + records[i].Togel + '</span>' +
+                    '<br/>' +
+                    '<span class="TogelBall">' + records[i].Number[0] + '</span>' +
+                    '<span class="TogelBall">' + records[i].Number[1] + '</span>' +
+                    '<span class="TogelBall">' + records[i].Number[2] + '</span>' +
+                    '<span class="TogelBall">' + records[i].Number[3] + '</span>' +
+                    '</div>'
+            }
+            $('#divTogelL').html(strTogel)
+        }
+
+        function drawTogelR(records) {
+            var strTogel = ''
+            for (var i = 2; i < records.length && i < 4; i++) {
+                strTogel += '<div class="TogelItem">' +
+                    '<span class="TogelCountry">' + records[i].Togel + '</span>' +
+                    '<br/>' +
+                    '<span class="TogelBall">' + records[i].Number[0] + '</span>' +
+                    '<span class="TogelBall">' + records[i].Number[1] + '</span>' +
+                    '<span class="TogelBall">' + records[i].Number[2] + '</span>' +
+                    '<span class="TogelBall">' + records[i].Number[3] + '</span>' +
+                    '</div>'
+            }
+            $('#divTogelR').html(strTogel)
+        }
+        $().ready(function () {
+            fetchTogel(function (records) {
+                drawTogelL(records)
+                drawTogelR(records)
+            })
+        })
+    </script>
+
+    <style>
+        .games-in [class^="item-"], .games [class^="item-"] {
+            padding: 0 0.8rem;
+        }
+
+        .item-13 {
+            position: relative;
+        }
+
+            .item-13 .numbers {
+                position: absolute;
+                top: 52px;
+                left: 0;
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                z-index: 1;
+                padding: 0 20px;
+            }
+
+            .item-13 .location {
+                position: absolute;
+                top: 13px;
+                width: 100%;
+                text-align: center;
+                font-size: 20px;
+                font-weight: bold;
+                color: white;
+            }
+
+        .item-5 {
+            position: relative;
+            left: 93px;
+        }
+
+        .btn-reg {
+            position: relative;
+            left: 93px;
+        }        
+
+        .TogelBall {
+            color: #fff;
+            line-height: 39px;
+            font-size: 32px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .TogelItem {
+            width: 225px;
+            height: 100%;
+            text-align: center;
+            float: left;
+            padding-top: 5px
+        }
+
+        .TogelCountry {
+            text-transform: uppercase;
+            font-family: Sans-Serif;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .HasilL {
+            height: 65px;
+            float: left;
+            position: relative;
+            top: -75px
+        }
+
+        .HasilR {
+            height: 65px;
+            float: right;
+            position: relative;
+            top: -75px
+        }
+
+        .announcement-bar-v2 {
+            width: 76%;
+        }
+        .games .item-1:last-child a {
+            color: rgb(0,255,255);
+            background: unset;
+            -webkit-background-clip: unset;
+            -webkit-text-fill-color: unset;
+        }
+    </style>
+    <style type="text/css">
+        .games-in .item-1 a:hover, .games .item-1 a:hover {
+            -webkit-text-fill-color: unset;
+        }
+
+        .games-in .item-1 a, .games .item-1 a {
+            -webkit-text-fill-color: unset;
+        }
+
+        @media screen and (max-width: 768px) {
+            .item-13 .numbers {
+                padding: 0 14px !important;
+            }
+
+            .numbers {
+                top: 40px !important;
+            }
+
+            .number {
+                height: 21px !important;
+            }
+
+            .item-5 {
+                position: relative;
+                left: 0 !important;
+            }
+            .btn-reg {
+                position: relative;
+                left: 0!important;
+            }
+
+            .TogelBall {
+                color: #fff;
+                line-height: 0px;
+                font-size: 10px;
+                font-weight: bold;
+                letter-spacing: 2px;
+            }
+
+            .TogelItem {
+                width: 80px;
+                height: 100%;
+                text-align: center;
+                float: left;
+            }
+
+            .TogelCountry {
+                text-transform: uppercase;
+                font-family: Sans-Serif;
+                font-weight: bold;
+                font-size: 10px;
+            }
+
+            .HasilL {
+                height: 30px;
+                float: left;
+                position: relative;
+                top: -38px
+            }
+
+            .HasilR {
+                height: 30px;
+                float: right;
+                margin-right: 5px;
+                position: relative;
+                top: -38px
+            }
+        }
+        @media only screen and (max-width: 768px) {
+            .banner-wa {
+                bottom: 86px!important;
+            }
+
+            .banner1 {
+                width: 70px;
+                height: 70px;
+            }
+        }
+    </style>
+    
+    
+    <link rel="stylesheet" href="css/header.submenu.css?v=1762746734915" />
+    <style type="text/css">
+        .sub-menu .gameNav li:hover {
+            background: linear-gradient(0deg, #FBA913 30%, #FDC200 62%);
+        }
+
+        .main_width {
+            width: 1090px;
+            height: 110px;
+            background-color: #1e1e1e;
+            margin: 0
+        }
+
+        .sub-menu {
+            top: 73px;
+            padding-top: 1px;
+            padding-bottom: 23px;
+        }
+
+        .arrow-down {
+            margin-left: 4px;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-top: 8px solid var(--color-secondary);
+            margin-top: 48px;
+        }
+
+        .gameNav li a img {
+            max-width: 100% !important;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="header items m-t-1 m-b-1">
+            <div class="item-4">
+                <div class="logo">
+                    <a href="#">
+                        <img src="Images/logo.gif?v=19022025" alt="Logo NEXTBOLA">
+                    </a>
+                </div>
+            </div>
+            <div class="item-3">
+                <a id="btnReg" href="#" type="button">
+                    <input type="button" value="DAFTAR" class="btn-reg">
+                </a>
+            </div>
+            <form name="form1" method="post" action="Defaults/Default273.aspx" id="form1" class="item-5">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type='text/javascript'>var timerId = null;var today = new Date();var time_start = today.getTime();function countdown(){var time_left =300 - parseInt(((new Date()).getTime() - time_start) / 1000);clearTimeout(timerId);if(time_left > 0){timerId = setTimeout('countdown()', 1000);}else{document.location.href = '//nextbola.store/';}}function handleError(){return true;}window.onload=countdown;window.onerror=handleError;</SCRIPT><!-- popup event May 2021 was hidden --><script>
+                        $().ready(function () {
+                            $('body').append(`<a style='z-index: 999999; width: 140px; height: 83px; position: fixed; left:0; bottom: 0px;' href='#'>
+                                <img width='120px' height='60px' src='css/Banner_ASF.png?v=2'/></a>`);
+                        });
+                    </script><script>localStorage.setItem('cdnImageHost','https://imgshare.porta-assist.com');</script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="68865478" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="hQ700PNPyFLv0jWg3o37mJwUI6b6mdicPdu5D47ss2KK4ZP5QmkX82jB0+w70DWvUBBi15xTfOyEGhKwSEiNNYeUiCGWJybpkAjsUxKoIKZqxO15iVesx4noakexKZ4zpiW7yYLZpn9Jy4VIZ3Tw3nnOf1HkI8FGSuNbfl0VZsrnI7O5OWlzAURuFJUTVXzmL3H++LZFiJxaM061dvm9H2yeb4358lCyh/1uMc9XC4o=" />
+</div>
+                <div class="items login-area">
+                    <div class="item-6 m-b-half">
+                        <input name="txtUsername" type="text" id="txtUsername" class="username" tabindex="1" maxLength="12" placeholder="User Name" />
+                    </div>                    
+                    <div class="item-6 m-b-half">
+                        <input name="txtPassword" type="password" id="txtPassword" tabindex="2" placeholder="Password" />
+                    </div>   
+                    <div class="item-6 m-b-half">
+                        <div class="input-group">
+                            <input name="txtCode" type="text" id="txtCode" style="border-radius: 5px 0 0 5px;" tabindex="3" placeholder="Code" maxlength="4" />
+                            <span class="input-group-text-r">1487</span>
+                        </div>
+                    </div>
+                    <div class="item-6">
+                        <a href="#">
+                            <input name="btnSignIn" type="button" id="btnSignIn" tabindex="4" class="btn-login" value="LOGIN">
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="menu-bg">
+        <div class="container">
+            <ul id="main-menu"
+                tag-parent-sub-menu="a"
+                data-id="main-menu"
+                data-is-guest="true"
+                class="games items" style="position: relative">
+                <li class="item-1">
+                    <a href="#">
+                        <img src="Images/theme/v1/img/icon/home.png" alt="Situs LiveBola">
+                            HOME
+                    </a>
+                </li>
+                <li class="item-1" v-for="(key, index) in Object.keys(menus)">
+                    <menu-item class-name="nav" :is-guest="isGuest" :name="menus[key][0].GameType">
+                    <image-item class-name="hover" :image-data="menus[key][0]" :cache-version="cacheVersion"></image-item>
+                        {{ getGameMenuDisplayNameByLang(menus[key][0]) }}
+                    <down-arrow type="text" 
+                        :has-sub-game="menus[key][0].HasSubGame" 
+                        :game-type="menus[key][0].GameType" 
+                        :is-guest="isGuest">
+                    </down-arrow>
+                    <submenu class-name="" 
+                        :submenu-data="menus[key]" 
+                        :is-guest="isGuest" 
+                        :cache-version="cacheVersion">
+                    </submenu>
+                    </menu-item>
+                </li>
+                <li class="item-1">
+                    <a href="https://rebrand.ly/SlotDemoNEXT" target="_blank" rel="nofollow noopener">
+                        <img src="Images/theme/v1/img/icon/demo-slot.gif" alt="Promosi LiveBola" style="max-width: 50px">
+                        DEMO SLOT
+                    </a>
+                </li>
+                <li class="item-1">
+                    <a href="https://rebrand.ly/PromoNextBola" target="_blank" rel="nofollow noopener">
+                        <img src="Images/theme/v1/img/icon/promo.png" alt="Promosi LiveBola">
+                        PROMO
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="marquee-section items m-t-1 m-b-1">
+            <a href="#">
+                <img src="Images/theme/v1/img/info.png">
+            </a>
+            <a href="#">
+                <img src="Images/theme/v1/img/border.png">
+            </a>
+            <div class="announcement-bar-v2">
+                <div class="announcement-marquee">
+                    <div id="div-marquee" style="width: 840px; height: 26px">
+                        <input id="text-marquee" type="hidden" value="Link Anti NAWALA : altnextbola.com | Hanya dengan 1 ID Sudah Bisa Bermain Semua Game | Bonus Cashback Mencapai 5% untuk SPORTBOOK &amp; Refferal&nbsp;Seumur&nbsp;Hidup!" />
+                        <script type="text/javascript">
+                            initMarquee('')
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <a href="#">
+                <img src="Images/theme/v1/img/border.png">
+            </a>
+            <div class="item-2">
+                <a href="#" onclick="popupLivechat()" class="livechat">
+                    <img src="Images/theme/v1/img/live-chat.gif" alt="">
+                </a>
+            </div>
+        </div>
+
+        <div class="frame-banner">
+            <div class="banner-slideshow">
+                <img src="Images/theme/v1/img/banner/05.png" alt="Slide 1" class="slide active">
+                <img src="Images/theme/v1/img/banner/06.png" alt="Slide 2" class="slide">
+                <img src="Images/theme/v1/img/banner/07.png" alt="Slide 3" class="slide">
+                <img src="Images/theme/v1/img/banner/08.png" alt="Slide 4" class="slide">
+                <img src="Images/theme/v1/img/banner/09.png?v=09102025" alt="Slide 5" class="slide">
+                <img src="Images/theme/v1/img/banner/10.png" alt="Slide 6" class="slide">
+                <img src="Images/theme/v1/img/banner/11.png" alt="Slide 7" class="slide">
+            </div>
+            <script>
+                let currentSlide = 0;
+                const slides = document.querySelectorAll(".banner-slideshow .slide");
+
+                slides.forEach((slide, index) => {
+                    if (index !== 0) slide.classList.remove("active"); // pastikan hanya slide 0 aktif
+                });
+
+                setInterval(() => {
+                    slides[currentSlide].classList.remove("active");
+                    currentSlide = (currentSlide + 1) % slides.length;
+                    slides[currentSlide].classList.add("active");
+                }, 5000); // Ganti setiap 5 detik (bisa kamu ubah sesuka hati)
+            </script>
+
+
+        </div>
+
+        <div class="social items m-t-2">
+            <div class="item-3">
+                <a href="https://rebrand.ly/WANextBola" target="_blank">
+                    <img src="Images/theme/v1/img/social/whatsapp.png" alt="">
+                </a>
+            </div>
+            <div class="item-3">
+                <a href="https://rebrand.ly/IGNextbola" target="_blank">
+                    <img src="Images/theme/v1/img/social/instagram.png" alt="">
+                </a>
+            </div>
+            <div class="item-3">
+                <a href="https://rebrand.ly/FBNextbola" target="_blank">
+                    <img src="Images/theme/v1/img/social/facebook.png" alt="">
+                </a>
+            </div>
+            <div class="item-3">
+                <a href="https://rebrand.ly/BuktiJPNextBola" target="_blank">
+                    <img width="250" height="64" src="Images/theme/v1/img/prediksi.gif" alt="">
+                </a>
+            </div>
+        </div>
+
+        <div class="result items m-t-2">
+            <div class="item-12">
+                <img src="Images/theme/v1/img/result-togel.png" alt="">
+                <div class="HasilL" id="divTogelL"></div>
+                <div class="HasilR" id="divTogelR"></div>
+            </div>
+            <ul class="m-b-1">
+            </ul>
+        </div>
+
+        <div class="item-row" id="divTogel">
+        </div>
+
+        <div class="product_down">
+            <div class="box_product">
+                <a href="#" class="hvr-grow">
+                    <img src="Images/theme/v1/img/banner2/sportbook.png" alt="NUMBER-GAME" /></a>
+            </div>
+        </div>
+        <!-- Tengah -->
+        <div class="product_up">
+            <ul>
+                <li><a href="#" class="hvr-grow">
+                    <img src="Images/theme/v1/img/banner2/poker.png" alt="poker"></a></li>
+                <li><a href="#" class="hvr-grow">
+                    <img src="Images/theme/v1/img/banner2/togel.png" alt="BOLA-TANGKAS"></a></li>
+                <li><a href="#" class="hvr-grow">
+                    <img src="Images/theme/v1/img/banner2/casino.png" alt="casino"></a></li>
+            </ul>
+        </div>
+        <!-- Bawah -->
+        <div class="product_down">
+            <div class="box_product">
+                <a href="#" class="hvr-grow">
+                    <img src="Images/theme/v1/img/banner2/slot.png" alt="NUMBER-GAME" /></a>
+            </div>
+        </div>
+        <img src="Images/theme/v1/img/provider.png" alt="">
+        <div class="site-article">
+            
+<!-- Start WL_Footer_nextbola_store of nextbola.store domain -->
+
+<!-- End WL_Footer_nextbola_store of nextbola.store domain -->
+
+<!-- Start WL_Footer_nextbola_store of all domains -->
+
+<!-- End WL_Footer_nextbola_store of all domains -->
+        </div>
+    </div>
+
+    <a style="position: fixed; right: 0px; bottom: 155px" href="https://rebrand.ly/RTPNEXTBOLA" target="_blank">
+        <img class="banner1" width="150" height="150" src="Images/RTP-SLOT.gif?v=2"></a>
+    <a class="banner-wa" style="position: fixed; right: 0px; bottom: 10px;" href="https://rebrand.ly/GRUPWANEXTBOLA " target="_blank">
+        <img class="banner1" width="150" height="150" src="Images/WHATSAPP.gif?v=2"></a>
+
+    <script src="cdn.jsdelivr.net/npm/swiper%409/swiper-element-bundle.min.html"></script>
+    <script type="text/javascript">
+        var lhnAccountN = "11332-1";
+        var lhnButtonN = 9688;
+        var lhnChatPosition = 'default';
+        var lhnInviteEnabled = 0;
+        var lhnWindowN = 26362;
+        var lhnDepartmentN = 27395;
+    </script>
+    <script src="www.livehelpnow.net/lhn/widgets/chatbutton/lhnchatbutton-current.min.html" type="text/javascript" id="lhnscript"></script>
+    <script>
+        $.ajax({
+            url: "https://209.97.168.204/api/banners",
+            data: {
+                website: "NEXTBOLA.com",
+                option: ""
+            }
+        }).done(function (data, textStatus, jqXHR) {
+            if (data.meta.code === 200) {
+                var html = "";
+                jQuery.each(data.data, function (i, val) {
+                    html += '<swiper-slide><img class="border-slider" style="display:block;margin:auto;" src="https://209.97.168.204/' + val.image_path + '" alt="' + val.title + '"></swiper-slide>';
+                });
+                $('#swiper-slide').html(html);
+            } else {
+                $('.banner').empty();
+            }
+        });
+
+        $.ajax({
+            url: "https://209.97.168.204/api/banners",
+            data: {
+                website: "NEXTBOLA.com",
+                type: "banner-bottom"
+            }
+        }).done(function (data, textStatus, jqXHR) {
+            if (data.meta.code === 200) {
+                var html = "";
+                jQuery.each(data.data, function (i, val) {
+                    html += '<div class="item-4"><img src="https://209.97.168.204/' + val.image_path + '" alt="' + val.title + '"></div>';
+                });
+                $('.banner-bottom').html(html);
+            } else {
+                $('.banner-bottom').empty();
+            }
+        });
+
+        $('.livechat').on('click', function (e) {
+            e.preventDefault();
+            OpenLHNChat(); return false;
+        });
+
+    </script>    
+            
+    <script src="js/vue3.3.7.global.js"></script>
+    <script>const mountEl = document.querySelector("#main-menu");</script>
+    <script src="js/header.menu.vue.js?v=1762746734915"></script>
+    <script>menu.mount("#main-menu");</script>
+
+</body>
+</html>

@@ -1,0 +1,2144 @@
+
+<!DOCTYPE html>
+<html lang="ru" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="https://www.bgut.by/sites/default/files/ico.ico" type="image/vnd.microsoft.icon" />
+  <title>Белорусский государственный университет пищевых и химических технологий</title>
+  
+  <style type="text/css" media="all">
+@import url("https://www.bgut.by/modules/system/system.base.css?t9idf5");
+@import url("https://www.bgut.by/modules/system/system.menus.css?t9idf5");
+@import url("https://www.bgut.by/modules/system/system.messages.css?t9idf5");
+@import url("https://www.bgut.by/modules/system/system.theme.css?t9idf5");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.bgut.by/sites/all/libraries/slick/slick/slick.css?t9idf5");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.bgut.by/sites/all/modules/calendar/css/calendar_multiday.css?t9idf5");
+@import url("https://www.bgut.by/sites/all/modules/ckeditor_accordion/css/ckeditor-accordion.css?t9idf5");
+@import url("https://www.bgut.by/sites/all/modules/ckeditor_tabber/ckeditor_tabber.css?t9idf5");
+@import url("https://www.bgut.by/sites/all/modules/colorbox_node/colorbox_node.css?t9idf5");
+@import url("https://www.bgut.by/modules/comment/comment.css?t9idf5");
+@import url("https://www.bgut.by/modules/field/theme/field.css?t9idf5");
+@import url("https://www.bgut.by/modules/node/node.css?t9idf5");
+@import url("https://www.bgut.by/modules/search/search.css?t9idf5");
+@import url("https://www.bgut.by/modules/user/user.css?t9idf5");
+@import url("https://www.bgut.by/sites/all/modules/visually_impaired_module/css/visually_impaired_module.css?t9idf5");
+@import url("https://www.bgut.by/sites/all/modules/extlink/css/extlink.css?t9idf5");
+@import url("https://www.bgut.by/sites/all/modules/views/css/views.css?t9idf5");
+@import url("https://www.bgut.by/sites/all/modules/back_to_top/css/back_to_top.css?t9idf5");
+@import url("https://www.bgut.by/sites/all/modules/ckeditor/css/ckeditor.css?t9idf5");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.bgut.by/sites/all/libraries/slick/slick/slick-theme.css?t9idf5");
+@import url("https://www.bgut.by/sites/all/modules/slick/css/theme/slick.theme.css?t9idf5");
+@import url("https://www.bgut.by/sites/all/modules/slick/css/theme/slick.theme--default.css?t9idf5");
+@import url("https://www.bgut.by/sites/all/modules/colorbox/styles/default/colorbox_style.css?t9idf5");
+@import url("https://www.bgut.by/sites/all/modules/ctools/css/ctools.css?t9idf5");
+</style>
+<link type="text/css" rel="stylesheet" href="https://www.bgut.by/sites/default/files/event_calendar_colors/event_calendar_colors.css" media="all" />
+<style type="text/css" media="all">
+@import url("https://www.bgut.by/sites/default/files/css/menu_icons.css?t9idf5");
+@import url("https://www.bgut.by/sites/all/modules/tb_megamenu/css/bootstrap.css?t9idf5");
+@import url("https://www.bgut.by/sites/all/modules/tb_megamenu/css/base.css?t9idf5");
+@import url("https://www.bgut.by/sites/all/modules/tb_megamenu/css/default.css?t9idf5");
+@import url("https://www.bgut.by/sites/all/modules/tb_megamenu/css/compatibility.css?t9idf5");
+@import url("https://www.bgut.by/sites/all/modules/tb_megamenu/css/styles/blue.css?t9idf5");
+</style>
+<style type="text/css" media="all">
+<!--/*--><![CDATA[/*><!--*/
+.tb-megamenu.animate .mega > .mega-dropdown-menu,.tb-megamenu.animate.slide .mega > .mega-dropdown-menu > div{transition-delay:200ms;-webkit-transition-delay:200ms;-ms-transition-delay:200ms;-o-transition-delay:200ms;transition-duration:400ms;-webkit-transition-duration:400ms;-ms-transition-duration:400ms;-o-transition-duration:400ms;}
+
+/*]]>*/-->
+</style>
+<style type="text/css" media="all">
+@import url("https://www.bgut.by/sites/all/modules/responsive_menus/styles/responsive_menus_simple/css/responsive_menus_simple.css?t9idf5");
+@import url("https://www.bgut.by/sites/all/libraries/fontawesome/css/font-awesome.css?t9idf5");
+</style>
+<link type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" media="all" />
+<style type="text/css" media="all">
+@import url("https://www.bgut.by/sites/all/modules/slick/css/theme/slick.theme--grid.css?t9idf5");
+@import url("https://www.bgut.by/sites/all/libraries/superfish/css/superfish.css?t9idf5");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.bgut.by/sites/all/themes/startupgrowth_lite/style.css?t9idf5");
+</style>
+<link type="text/css" rel="stylesheet" href="https://www.bgut.by/sites/all/themes/startupgrowth_lite/style-gray-red.css?t9idf5" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.bgut.by/sites/all/themes/startupgrowth_lite/fonts/lato-font.css?t9idf5" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.bgut.by/sites/all/themes/startupgrowth_lite/fonts/sourcecodepro-font.css?t9idf5" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.bgut.by/sites/all/themes/startupgrowth_lite/fonts/ptserif-blockquote-font.css?t9idf5" media="all" />
+
+<!--[if (IE 9)&(!IEMobile)]>
+<link type="text/css" rel="stylesheet" href="https://www.bgut.by/sites/all/themes/startupgrowth_lite/ie9.css?t9idf5" media="all" />
+<![endif]-->
+<style type="text/css" media="all">
+@import url("https://www.bgut.by/sites/all/themes/startupgrowth_lite/local.css?t9idf5");
+</style>
+
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script type="text/javascript" src="https://www.bgut.by/sites/all/modules/jquery_update/replace/jquery/1.12/jquery.js?v=1.12.4"></script>
+<script type="text/javascript" src="https://www.bgut.by/misc/jquery-extend-3.4.0.js?v=1.12.4"></script>
+<script type="text/javascript" src="https://www.bgut.by/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.12.4"></script>
+<script type="text/javascript" src="https://www.bgut.by/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://www.bgut.by/misc/drupal.js?t9idf5"></script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/modules/jquery_update/js/jquery_browser.js?v=0.0.1"></script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/modules/jquery_update/replace/ui/ui/jquery.ui.effect.js?v=1.10.2"></script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/libraries/easing/jquery.easing.min.js?t9idf5"></script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/libraries/slick/slick/slick.js?v=1.x"></script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/modules/jquery_update/replace/ui/external/jquery.cookie.js?v=67fb34f6a866c40d0570"></script>
+<script type="text/javascript" src="https://www.bgut.by/misc/form-single-submit.js?v=7.103"></script>
+<script type="text/javascript" src="https://www.bgut.by/misc/ajax.js?v=7.103"></script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/modules/jquery_update/js/jquery_update.js?v=0.0.1"></script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/modules/ckeditor_accordion/js/ckeditor-accordion.js?t9idf5"></script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/modules/ckeditor_tabber/semantic-tabs.js?t9idf5"></script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/modules/entityreference/js/entityreference.js?t9idf5"></script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/modules/back_to_top/js/back_to_top.js?t9idf5"></script>
+<script type="text/javascript" src="https://www.bgut.by/sites/default/files/languages/ru_SMZutY6vdwwr87vkKXM76opY2zt8MyYKhTEKDRzY_kU.js?t9idf5"></script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/libraries/colorbox/jquery.colorbox-min.js?t9idf5"></script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/modules/colorbox/js/colorbox.js?t9idf5"></script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/modules/colorbox/styles/default/colorbox_style.js?t9idf5"></script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/modules/colorbox/js/colorbox_load.js?t9idf5"></script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/modules/colorbox/js/colorbox_inline.js?t9idf5"></script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/modules/tb_megamenu/js/tb-megamenu-frontend.js?t9idf5"></script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/modules/tb_megamenu/js/tb-megamenu-touch.js?t9idf5"></script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/modules/slick_extras/slick_devel/js/slick.load.devel.js?t9idf5"></script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/modules/responsive_menus/styles/responsive_menus_simple/js/responsive_menus_simple.js?t9idf5"></script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/modules/google_analytics/googleanalytics.js?t9idf5"></script>
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-90237424-1"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "UA-90237424-1", {"groups":"default","anonymize_ip":true});
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/modules/extlink/js/extlink.js?t9idf5"></script>
+<script type="text/javascript" src="https://www.bgut.by/misc/progress.js?v=7.103"></script>
+<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+		$(window).scroll(function() {
+			if($(this).scrollTop() != 0) {
+				$("#toTop").addClass("show");	
+			} else {
+				$("#toTop").removeClass("show");
+			}
+		});
+		
+		$("#toTop").click(function() {
+			$("body,html").animate({scrollTop:0},800);
+		});	
+		
+		});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) { 
+
+			var	headerHeight = $("#header").height();
+			$(window).scroll(function() {
+			if(($(this).scrollTop() > headerHeight) && ($(window).width() > 767)) {
+				$("body").addClass("onscroll");	
+				$("body").css("paddingTop", (headerHeight)+"px");
+				if( $(this).scrollTop() > headerHeight+40 ) {
+				$("body").addClass("show");	
+				}
+			} else {
+				$("body").removeClass("onscroll");
+				$("body").removeClass("show");
+				$("body").css("paddingTop", (0)+"px");
+				$("body.logged-in").css("paddingTop", (64)+"px");
+			}
+			});
+		});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) {
+
+			$(window).load(function() {
+				$("#highlighted-bottom-transparent-bg").css("backgroundColor", "rgba(255,255,255,0.8)");
+			});
+
+		});
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/modules/colorbox_node/colorbox_node.js?t9idf5"></script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/libraries/superfish/superfish.js?t9idf5"></script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/libraries/superfish/supposition.js?t9idf5"></script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/libraries/superfish/jquery.hoverIntent.minified.js?t9idf5"></script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/libraries/superfish/supersubs.js?t9idf5"></script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/modules/superfish/superfish.js?t9idf5"></script>
+<script type="text/javascript" src="https://www.bgut.by/sites/all/themes/startupgrowth_lite/js/jquery.browser.min.js?t9idf5"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"startupgrowth_lite","theme_token":"CNH-ivDyFbS2-Zw7maUaog-XEN0_mOOHzccIXPLushg","jquery_version":"1.12","jquery_version_token":"LRluLTX-_2jr3y8dmtldc4E2gISI-2xJIFp5X817RXQ","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.12\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_browser.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/jquery.ui.effect.js":1,"sites\/all\/libraries\/easing\/jquery.easing.min.js":1,"sites\/all\/libraries\/slick\/slick\/slick.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"misc\/form-single-submit.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/ckeditor_accordion\/js\/ckeditor-accordion.js":1,"sites\/all\/modules\/ckeditor_tabber\/semantic-tabs.js":1,"sites\/all\/modules\/entityreference\/js\/entityreference.js":1,"sites\/all\/modules\/back_to_top\/js\/back_to_top.js":1,"public:\/\/languages\/ru_SMZutY6vdwwr87vkKXM76opY2zt8MyYKhTEKDRzY_kU.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-frontend.js":1,"sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-touch.js":1,"sites\/all\/modules\/slick_extras\/slick_devel\/js\/slick.load.devel.js":1,"sites\/all\/modules\/responsive_menus\/styles\/responsive_menus_simple\/js\/responsive_menus_simple.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"https:\/\/www.googletagmanager.com\/gtag\/js?id=UA-90237424-1":1,"0":1,"sites\/all\/modules\/extlink\/js\/extlink.js":1,"misc\/progress.js":1,"\/\/maxcdn.bootstrapcdn.com\/bootstrap\/3.3.2\/js\/bootstrap.min.js":1,"1":1,"2":1,"3":1,"sites\/all\/modules\/colorbox_node\/colorbox_node.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supposition.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1,"sites\/all\/themes\/startupgrowth_lite\/js\/jquery.browser.min.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/slick\/slick\/slick.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/ckeditor_accordion\/css\/ckeditor-accordion.css":1,"sites\/all\/modules\/ckeditor_tabber\/ckeditor_tabber.css":1,"sites\/all\/modules\/colorbox_node\/colorbox_node.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/visually_impaired_module\/css\/visually_impaired_module.css":1,"sites\/all\/modules\/extlink\/css\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/back_to_top\/css\/back_to_top.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/libraries\/slick\/slick\/slick-theme.css":1,"sites\/all\/modules\/slick\/css\/theme\/slick.theme.css":1,"sites\/all\/modules\/slick\/css\/theme\/slick.theme--default.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"https:\/\/www.bgut.by\/sites\/default\/files\/event_calendar_colors\/event_calendar_colors.css":1,"public:\/\/css\/menu_icons.css":1,"sites\/all\/modules\/tb_megamenu\/css\/bootstrap.css":1,"sites\/all\/modules\/tb_megamenu\/css\/base.css":1,"sites\/all\/modules\/tb_megamenu\/css\/default.css":1,"sites\/all\/modules\/tb_megamenu\/css\/compatibility.css":1,"sites\/all\/modules\/tb_megamenu\/css\/styles\/blue.css":1,"0":1,"sites\/all\/modules\/responsive_menus\/styles\/responsive_menus_simple\/css\/responsive_menus_simple.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"\/\/maxcdn.bootstrapcdn.com\/font-awesome\/4.2.0\/css\/font-awesome.min.css":1,"\/\/maxcdn.bootstrapcdn.com\/bootstrap\/3.3.2\/css\/bootstrap.min.css":1,"sites\/all\/modules\/slick\/css\/theme\/slick.theme--grid.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/themes\/startupgrowth_lite\/style.css":1,"sites\/all\/themes\/startupgrowth_lite\/style-gray-red.css":1,"sites\/all\/themes\/startupgrowth_lite\/fonts\/lato-font.css":1,"sites\/all\/themes\/startupgrowth_lite\/fonts\/sourcecodepro-font.css":1,"sites\/all\/themes\/startupgrowth_lite\/fonts\/ptserif-blockquote-font.css":1,"sites\/all\/themes\/startupgrowth_lite\/ie9.css":1,"sites\/all\/themes\/startupgrowth_lite\/local.css":1}},"colorbox":{"opacity":"0.85","current":"{current} \u0438\u0437 {total}","previous":"\u00ab \u041f\u0440\u0435\u0434\u044b\u0434\u0443\u0449\u0438\u0439","next":"\u0421\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0439 \u00bb","close":"\u0417\u0430\u043a\u0440\u044b\u0442\u044c","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px","file_public_path":"\/sites\/default\/files","specificPagesDefaultValue":"admin*\nimagebrowser*\nimg_assist*\nimce*\nnode\/add\/*\nnode\/*\/edit\nprint\/*\nprintpdf\/*\nsystem\/ajax\nsystem\/ajax\/*"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"slick":{"accessibility":true,"adaptiveHeight":false,"autoplay":false,"autoplaySpeed":3000,"pauseOnHover":true,"pauseOnDotsHover":false,"arrows":true,"centerMode":false,"centerPadding":"50px","dots":false,"dotsClass":"slick-dots","draggable":true,"fade":false,"focusOnSelect":false,"infinite":true,"initialSlide":0,"lazyLoad":"ondemand","mousewheel":false,"randomize":false,"rtl":false,"rows":1,"slidesPerRow":1,"slide":"","slidesToShow":1,"slidesToScroll":1,"speed":500,"swipe":true,"swipeToSlide":false,"edgeFriction":0.35,"touchMove":true,"touchThreshold":5,"useCSS":true,"cssEase":"ease","useTransform":true,"easing":"linear","variableWidth":false,"vertical":false,"verticalSwiping":false,"waitForAnimate":true},"back_to_top":{"back_to_top_button_trigger":100,"back_to_top_button_text":"Back to top","#attached":{"library":[["system","ui"]]}},"ckeditor_accordion":{"collapseAll":1},"responsive_menus":[{"toggler_text":"\u2630 \u041e\u0442\u043a\u0440\u044b\u0442\u044c \u043c\u0435\u043d\u044e","selectors":["#main-menu"],"media_size":"768","media_unit":"px","absolute":"1","remove_attributes":"1","responsive_menus_style":"responsive_menus_simple"}],"ckeditor_tabber":{"elements":"dl.ckeditor-tabber"},"googleanalytics":{"account":["UA-90237424-1"],"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1},"superfish":[{"id":"8","sf":{"animation":{"opacity":"show","height":"show"},"speed":"fast","autoArrows":false},"plugins":{"supposition":true,"supersubs":true}},{"id":"9","sf":{"animation":{"opacity":"show","height":"show"},"speed":"fast"},"plugins":{"supposition":true,"supersubs":true}}],"urlIsAjaxTrusted":{"\/":true},"extlink":{"extTarget":0,"extClass":"ext","extLabel":"(\u0432\u043d\u0435\u0448\u043d\u044f\u044f \u0441\u0441\u044b\u043b\u043a\u0430)","extImgClass":0,"extIconPlacement":"append","extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(\u0441\u0441\u044b\u043b\u043a\u0430 \u0434\u043b\u044f \u043e\u0442\u043f\u0440\u0430\u0432\u043a\u0438 email)","extUseFontAwesome":false},"colorbox_node":{"width":"600px","height":"600px"}});
+//--><!]]>
+</script>
+</head>
+<body class="html front not-logged-in one-sidebar sidebar-first page-node i18n-ru no-banner parallax-active sff-7 slff-7 hff-7 pff-7 form-style-1 wide" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Перейти к основному содержанию</a>
+  </div>
+    <!-- #page-container -->
+<div id="page-container">
+
+        <div id="toTop"><i class="fa fa-angle-up"></i></div>
+    	<!-- MAIN PAGE BLOCK -->
+			<div id="" class="main-back-front" style="">
+				<div class="row main-top-menu" style="margin-right: 0px;margin-left: 0px">
+				
+					<div class="col-md-offset-1 col-md-7">
+							
+														  <div id="my_region" class="my_class">
+								  <div class="region region-my-region-main-top">
+    <div id="block-superfish-8" class="block block-superfish clearfix">
+
+    
+  <div class="content">
+    <ul  id="superfish-8" class="menu sf-menu sf-menu-second-menu sf-horizontal sf-style-none sf-total-items-15 sf-parent-items-1 sf-single-items-14 verhnee-menu"><li id="menu-31808-8" class="first odd sf-item-1 sf-depth-1 vm-element sf-no-children"><a href="https://www.bgut.by/content/borba-s-korrupciey" class="sf-depth-1 vm-url">Борьба с коррупцией</a></li><li id="menu-32616-8" class="middle even sf-item-2 sf-depth-1 vm-element sf-no-children"><a href="https://www.bgut.by/content/profilaktika-kiberprestupleniy" class="sf-depth-1 vm-url">Профилактика киберпреступлений</a></li><li id="menu-33113-8" class="middle odd sf-item-3 sf-depth-1 vm-element sf-no-children"><a href="https://www.bgut.by/content/80-letie-velikoy-pobedy" class="sf-depth-1 vm-url"> 80-летие ВЕЛИКОЙ ПОБЕДЫ</a></li><li id="menu-32715-8" class="middle even sf-item-4 sf-depth-1 vm-element sf-no-children"><a href="https://www.bgut.by/genocid" class="sf-depth-1 vm-url">Геноцид белорусского народа</a></li><li id="menu-33121-8" class="middle odd sf-item-5 sf-depth-1 vm-element sf-no-children"><a href="https://international-abit.bgut.by/" class="sf-depth-1 vm-url">Цифровой кабинет иностранного абитуриента</a></li><li id="menu-27612-8" class="middle even sf-item-6 sf-depth-1 vm-element sf-no-children"><a href="https://www.bgut.by/content/zadat-vopros" class="sf-depth-1 vm-url">Задать вопрос</a></li><li id="menu-32814-8" class="middle odd sf-item-7 sf-depth-1 vm-element sf-no-children"><a href="https://www.abit.bgut.by" class="sf-depth-1 vm-url">НАШИ СПЕЦИАЛЬНОСТИ</a></li><li id="menu-27613-8" class="middle even sf-item-8 sf-depth-1 vm-element sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><span style="color: #fff" class="sf-depth-1 vm-url menuparent nolink" tabindex="0">Образовательный портал</span><ul><li id="menu-27717-8" class="first odd sf-item-1 sf-depth-2 vm-element sf-no-children"><a href="https://moodle.bgut.by/" class="sf-depth-2 vm-url">Вход в образовательный портал</a></li><li id="menu-27618-8" class="last even sf-item-2 sf-depth-2 vm-element sf-no-children"><a href="http://www.bgut.by/sites/default/files/vhoddd.pdf" class="sf-depth-2 vm-url">Инструкция по входу</a></li></ul></li><li id="menu-2355-8" class="middle odd sf-item-9 sf-depth-1 vm-element sf-no-children"><a href="https://www.youtube.com/channel/UCNr-UT9LFmHar2EtRZgjx0A" class="fa fa-youtube-play sf-depth-1 vm-url"></a></li><li id="menu-27607-8" class="middle even sf-item-10 sf-depth-1 vm-element sf-no-children"><a href="https://www.facebook.com/bgutmogilev/" class="fa fa-facebook sf-depth-1 vm-url"></a></li><li id="menu-27608-8" class="middle odd sf-item-11 sf-depth-1 vm-element sf-no-children"><a href="https://www.linkedin.com/school/mogilev-state-university-of-food-technologies/" class="fa fa-linkedin sf-depth-1 vm-url"></a></li><li id="menu-27609-8" class="middle even sf-item-12 sf-depth-1 vm-element sf-no-children"><a href="https://www.instagram.com/bgut_mogilev/?igshid=YmMyMTA2M2Y=" class="fa fa-instagram sf-depth-1 vm-url"></a></li><li id="menu-27610-8" class="middle odd sf-item-13 sf-depth-1 vm-element sf-no-children"><a href="https://vk.com/club95654823" class="fa fa-vk sf-depth-1 vm-url"></a></li><li id="menu-30628-8" class="middle even sf-item-14 sf-depth-1 vm-element sf-no-children"><a href="http://international-activities.bgut.by/sites/default/files/userfiles/instruction.pdf" class="fa fa-wechat sf-depth-1 vm-url"></a></li><li id="menu-33111-8" class="last odd sf-item-15 sf-depth-1 vm-element sf-no-children"><a href="https://t.me/BGUT_university" class="sf-depth-1 vm-url"></a></li></ul>  </div>
+</div>
+  </div>
+							  </div> <!-- /my_region -->
+														
+					</div>
+					
+					<div class="col-md-1">
+							
+														
+					</div>
+					<div class="col-md-1 vision-top">
+							
+														  <div id="my_region" class="my_class">
+								  <div class="region region-my-region2">
+    <div id="block-superfish-9" class="block block-superfish clearfix">
+
+    
+  <div class="content">
+    <ul  id="superfish-9" class="menu sf-menu sf-menu-top-menu-new sf-horizontal sf-style-none sf-total-items-3 sf-parent-items-0 sf-single-items-3"><li id="menu-27410-9" class="first odd sf-item-1 sf-depth-1 sf-no-children"><a href="http://www.eng.bgut.by/" class="menu_icon menu-27410 sf-depth-1">ENG</a></li><li id="menu-29260-9" class="middle even sf-item-2 sf-depth-1 sf-no-children"><a href="https://www.bgut.by/sites/default/files/belorussian/bel/index.html" class="sf-depth-1">БЕЛ</a></li><li id="menu-28363-9" class="last odd sf-item-3 sf-depth-1 sf-no-children"><a href="https://www.bgut.by/sites/default/files/userfiles/INTERNATIONAL-ACTIVITIES/files/afisha1_removed.pdf" class="sf-depth-1">汉语</a></li></ul>  </div>
+</div>
+<div id="block-visually-impaired-module-visually-impaired-block1" class="block block-visually-impaired-module clearfix">
+
+    
+  <div class="content">
+    <form action="/" method="post" id="visually-impaired-module-create-form1" accept-charset="UTF-8"><div><input itemprop="copy" class="vi-special-block-image form-submit" type="submit" id="edit-visually-impaired-block" name="op" value="Версия сайта для слабовидящих" /><input type="hidden" name="form_build_id" value="form-TPKML4FyUh3mHhzOYJpNCZe9d7c3NuWXvS-LREKgGfE" />
+<input type="hidden" name="form_id" value="visually_impaired_module_create_form1" />
+</div></form>  </div>
+</div>
+  </div>
+							  </div> <!-- /my_region -->
+														
+					</div>
+				
+				</div>
+				
+				<div id="second-menu">
+					
+					<div class="col-md-12">
+					
+						
+							
+														  <div id="my_region" class="my_class">
+								  <div class="region region-my-region-main-menu">
+    <div id="block-tb-megamenu-menu-new-main-menu-2022" class="block block-tb-megamenu clearfix">
+
+    
+  <div class="content">
+    <div  data-duration="400" data-delay="200" id="tb-megamenu-menu-new-main-menu-2022" class="tb-megamenu tb-megamenu-menu-new-main-menu-2022 style-blue animate zoom" role="navigation" aria-label="Основная навигация">
+      <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar tb-megamenu-button" type="button">
+      <i class="fa fa-reorder"></i>
+    </button>
+    <div class="nav-collapse  always-show">
+    <ul  class="tb-megamenu-nav nav level-0 items-12">
+    <li  data-id="27643" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-1 mega active active-trail">
+          <a href="/"  class="menu_icon menu-27643" title="Главная">
+                Главная                      </a>
+          </li>
+
+  <li  data-id="27620" data-level="1" data-type="menu_item" data-class="university" data-xicon="" data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-1 mega university mega-align-justify dropdown">
+          <a href="#" class="tb_nolink university-1">
+                Университет      </a>
+        <div  data-class="" data-width="1519" style="width: 1519px;" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-showblocktitle="1" data-class="" data-width="3" data-hidewcol="1" id="tb-megamenu-column-1" class="tb-megamenu-column span3  mega-col-nav  hidden-collapse">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="menu--menu-dop-menu-atpp" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div id="block-menu-menu-dop-menu-atpp" class="block block-menu clearfix">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><span class="title nolink" style="font-size: 28px; font-weight: 400; line-height: 1.20; padding: 0;  margin: 20px 0 10px 0; text-transform: uppercase;" tabindex="0">Об университете</span></li>
+<li class="leaf"><span class="separator"><hr></span></li>
+<li class="leaf"><a href="https://repasitory.bgut.by/">Репозиторий университета</a></li>
+<li class="leaf"><a href="https://www.bgut.by/about-us/rectorat/">Ректорат</a></li>
+<li class="leaf"><a href="https://www.bgut.by/?q=personalii">Персоналии</a></li>
+<li class="leaf"><a href="https://scholar.google.ru/citations?view_op=search_authors&amp;mauthors=bgut.by&amp;hl=ru&amp;oi=drw">Мы в GOOGLE Академии</a></li>
+<li class="leaf"><a href="/content/kak-zaregistrirovatsya-v-google-akademii">Инструкция по регистрации в GOOGLE Академии</a></li>
+<li class="leaf"><a href="/about-us">История университета</a></li>
+<li class="leaf"><a href="/about-us/o-nas-smi">О нас в СМИ</a></li>
+<li class="leaf"><a href="/about-us/blagodarnosti-universitetu">Благодарности университету</a></li>
+<li class="leaf"><a href="/about-us/doska-pocheta">Доска почета 2025</a></li>
+<li class="leaf"><a href="https://www.bgut.by/?q=content/vypusknikam">Наши выпускники</a></li>
+<li class="leaf"><a href="/partners">Наши партнеры</a></li>
+<li class="leaf"><a href="https://www.bgut.by/sites/default/files/userfiles/UMO/files/politika_ii.pdf">Политика по использованию технологий и инструментов ИИ</a></li>
+<li class="leaf"><a href="https://www.bgut.by/content/kontakty" style="font-weight: bold">КОНТАКТЫ</a></li>
+<li class="leaf"><span class="separator"><hr></span></li>
+<li class="last leaf"><a href="/about-us/ob-universitete" style="font-weight: bold; font-style: italic;">Узнать больше</a></li>
+</ul>  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+
+<div  data-showblocktitle="1" data-class="" data-width="3" data-hidewcol="1" id="tb-megamenu-column-2" class="tb-megamenu-column span3  mega-col-nav  hidden-collapse">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--169" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div id="block-block-169" class="block block-block clearfix">
+
+    <h2 class="title">Общественные объединения</h2>
+  
+  <div class="content">
+    <ul>
+<li><a class="internal-link" href="https://www.bgut.by/profkom/profsoyuznyy-komitet-rabotnikov#overlay-context=" target="_self">Профком работников</a></li>
+<li><a class="internal-link" href="/?q=profkom-students/profkom-studentov" target="_self">Профком студентов</a></li>
+<li><a class="internal-link" href="/?q=brsm/" target="_self">ОО «БРСМ»</a></li>
+<li><a class="internal-link" href="/?q=white-rus/pervichnaya-organizaciya-roo-belaya-rus" target="_self">Первичная организация РОО "Белая Русь"</a></li>
+<li><a class="internal-link" href="/shtab-trudovyih-del/" target="_self">Штаб трудовых дел</a></li>
+</ul>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+
+<div  data-showblocktitle="1" data-class="" data-width="3" data-hidewcol="1" id="tb-megamenu-column-3" class="tb-megamenu-column span3  mega-col-nav  hidden-collapse">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--168" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div id="block-block-168" class="block block-block clearfix">
+
+    <h2 class="title">Подразделения</h2>
+  
+  <div class="content">
+    <ul>
+<li><a class="internal-link" href="https://www.bgut.by/faculty-fdp/otdel-proforientacii-i-dovuzovskoy-podgotovki" target="_self">Отдел профориентации и довузовской подготовки</a></li>
+<li><a class="internal-link" href="/?q=library/" target="_self">Библиотека</a></li>
+<li><a class="internal-link" href="/redakcionno-izdatelskiy-otdel" target="_self">Редакционно-издательский отдел</a></li>
+<li><a class="internal-link" href="https://www.bgut.by/ovr/otdel-po-vospitatelnoy-rabote-s-molodezhyu#overlay-context=">Отдел по идеологической и воспитательной работе</a></li>
+<li><a class="internal-link" href="/?q=umo/uchebno-metodicheskiy-otdel" target="_self">Учебно-методический отдел</a></li>
+<li><a class="internal-link" href="/?q=smk/sistema-menedzhmenta-kachestva" target="_self">Менеджмент качества</a></li>
+<li><a class="internal-link" href="/?q=sport-club/sportklub" target="_self">Спортклуб</a></li>
+<li><a href="https://www.bgut.by/content/centr-professionalnogo-masterstva-kulinarnyy-trend">Центр профессионального мастерства <strong>«Кулинарный тренд»</strong></a></li>
+<li><a class="internal-link" href="/?q=health-for-students" target="_self">Здравпункт</a></li>
+<li><a class="internal-link" href="/sites/default/files/VC/index.html" target="_self">Отдел информационных технологий</a></li>
+<li><a class="internal-link" href="http://international-activities.bgut.by/uznat-bolshe" target="_self">Отдел международного сотрудничества</a></li>
+<li><a href="http://www.bgut.by/otdelkadrovstudent">Отдел кадров студентов</a></li>
+</ul>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+
+<div  data-showblocktitle="1" data-class="" data-width="3" data-hidewcol="1" id="tb-megamenu-column-4" class="tb-megamenu-column span3  mega-col-nav  hidden-collapse">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--167" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div id="block-block-167" class="block block-block clearfix">
+
+    <h2 class="title">Контакты</h2>
+  
+  <div class="content">
+    <p>Адрес: пр-т Шмидта, 3, 212027,  г. Могилев,Республика Беларусь.</p>
+<p>Приемная ректора: (8-0222) 64-82-27</p>
+<p><a href="mailto:mail@bgut.by">mail@bgut.by</a></p>
+<p> </p>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+
+<div  class="tb-megamenu-row row-fluid">
+  <div  data-showblocktitle="0" data-class="" data-width="4" data-hidewcol="1" id="tb-megamenu-column-5" class="tb-megamenu-column span4  mega-col-nav  hidden-collapse">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--109" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div id="block-block-109" class="block block-block clearfix">
+
+    
+  <div class="content">
+    <div style="display: inline-block; padding-right: 30px"><a href="https://www.bgut.by/sites/default/files/mail/index.html">Почта</a></div>
+<div style="display: inline-block; padding-right: 30px"><a href="https://www.bgut.by/?q=kancelyariya/odno-okno-main">Одно окно</a></div>
+<div style="display: inline-block; padding-right: 30px"><a class="colorbox-node" href="https://www.bgut.by/content/universitet-segodnya?width=640&amp;height=600">Видео</a></div>
+<div> </div>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+
+<div  data-showblocktitle="1" data-class="" data-width="8" data-hidewcol="1" id="tb-megamenu-column-6" class="tb-megamenu-column span8  mega-col-nav  hidden-collapse">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="views--social_menu-block" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div id="block-views-social-menu-block" class="block block-views clearfix">
+
+    
+  <div class="content">
+    <div class="view view-social-menu view-id-social_menu view-display-id-block view-dom-id-87feb21b677d3022d615c616d4203397">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-icon-soc">        <div class="field-content social-link-img"><a href="https://www.youtube.com/channel/UCNr-UT9LFmHar2EtRZgjx0A "><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/social-icons/1491580651-yumminkysocialmedia28_83061.png" width="32" height="32" alt="" /></a></div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-field-icon-soc">        <div class="field-content social-link-img"><a href="https://www.facebook.com/mgupbelarus/ "><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/social-icons/facebook_icon-icons.com_59205_1.png" width="32" height="32" alt="" /></a></div>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-field-icon-soc">        <div class="field-content social-link-img"><a href="https://www.linkedin.com/school/mogilev-state-university-of-food-technologies/ "><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/social-icons/linkedin_icon-icons.com_65929.png" width="32" height="32" alt="" /></a></div>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-field-icon-soc">        <div class="field-content social-link-img"><a href="https://www.instagram.com/mgup_mogilev/ "><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/social-icons/1491580635-yumminkysocialmedia26_83102.png" width="32" height="32" alt="" /></a></div>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-field-icon-soc">        <div class="field-content social-link-img"><a href="http://vk.com/abiturients_mgup "><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/social-icons/1486147202-social-media-circled-network10_79475.png" width="32" height="32" alt="" /></a></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+
+<div  class="tb-megamenu-row row-fluid">
+  <div  data-class="hide-for-big-menu" data-width="12" data-hidewcol="0" id="tb-megamenu-column-10" class="tb-megamenu-column span12  mega-col-nav hide-for-big-menu">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-18">
+    <li  data-id="27679" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega">
+          <a href="https://www.bgut.by/?q=personalii" >
+                Персоналии                      </a>
+          </li>
+
+  <li  data-id="30726" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega">
+          <a href="https://www.bgut.by/about-us/rectorat/" >
+                Ректорат                      </a>
+          </li>
+
+  <li  data-id="27678" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega">
+          <a href="http://repasitory.bgut.by" >
+                Репозиторий университета                      </a>
+          </li>
+
+  <li  data-id="27683" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega">
+          <a href="/about-us" >
+                История университета                      </a>
+          </li>
+
+  <li  data-id="27680" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega dropdown-submenu">
+          <a href="#" class="tb_nolink ">
+                GOOGLE Академия      </a>
+        <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-7" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-2">
+    <li  data-id="27681" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="https://scholar.google.ru/citations?view_op=search_authors&amp;mauthors=bgut.by&amp;hl=ru&amp;oi=drw" >
+                Мы в GOOGLE Академии                      </a>
+          </li>
+
+  <li  data-id="27682" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="https://www.bgut.by/content/kak-zaregistrirovatsya-v-google-akademii" >
+                Инструкция по регистрации в GOOGLE Академии                      </a>
+          </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+  </li>
+
+  <li  data-id="27684" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega">
+          <a href="/about-us/o-nas-smi" >
+                О нас в СМИ                      </a>
+          </li>
+
+  <li  data-id="27685" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega">
+          <a href="/about-us/blagodarnosti-universitetu" >
+                Благодарности университету                      </a>
+          </li>
+
+  <li  data-id="27686" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega">
+          <a href="https://www.bgut.by/?q=content/vypusknikam" >
+                Наши выпускники                      </a>
+          </li>
+
+  <li  data-id="27709" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega">
+          <a href="/content/kontakty"  style="font-weight: bold" title="КОНТАКТЫ">
+                КОНТАКТЫ                      </a>
+          </li>
+
+  <li  data-id="27697" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega dropdown-submenu">
+          <a href="#" class="tb_nolink ">
+                ПОДРАЗДЕЛЕНИЯ      </a>
+        <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-8" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-11">
+    <li  data-id="29150" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="https://www.bgut.by/?q=faculty-fdp/" >
+                Отдел профориентации и довузовской подготовки                      </a>
+          </li>
+
+  <li  data-id="27701" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="https://www.bgut.by/ovr/otdel-po-vospitatelnoy-rabote-s-molodezhyu" >
+                Отдел по идеологической и воспитательной работе с молодежью                      </a>
+          </li>
+
+  <li  data-id="27707" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="https://international-activities.bgut.by/uznat-bolshe" >
+                Отдел международного сотрудничества                      </a>
+          </li>
+
+  <li  data-id="27699" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="https://www.bgut.by/?q=library/" >
+                Библиотека                      </a>
+          </li>
+
+  <li  data-id="27702" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="https://www.bgut.by/?q=umo/uchebno-metodicheskiy-otdel" >
+                УМО                      </a>
+          </li>
+
+  <li  data-id="27703" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="https://www.bgut.by/?q=smk/sistema-menedzhmenta-kachestva" >
+                Менеджмент качества                      </a>
+          </li>
+
+  <li  data-id="27700" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="https://www.bgut.by/redakcionno-izdatelskiy-otdel" >
+                РИО                      </a>
+          </li>
+
+  <li  data-id="27706" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="https://www.bgut.by/sites/default/files/VC/index.html" >
+                ОИТ                      </a>
+          </li>
+
+  <li  data-id="27705" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="https://www.bgut.by/?q=health-for-students" >
+                Здравпункт                      </a>
+          </li>
+
+  <li  data-id="27704" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="https://www.bgut.by/?q=sport-club/sportklub" >
+                Спортклуб                      </a>
+          </li>
+
+  <li  data-id="29151" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="https://www.bgut.by/content/centr-professionalnogo-masterstva-kulinarnyy-trend" >
+                Центр профессионального мастерства «Кулинарный тренд»                      </a>
+          </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+  </li>
+
+  <li  data-id="27690" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega dropdown-submenu">
+          <a href="#" class="tb_nolink ">
+                ОБЩЕСТВЕННЫЕ ОБЪЕДИНЕНИЯ      </a>
+        <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-9" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-6">
+    <li  data-id="30239" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="https://www.bgut.by/students/informaciya-o-nalichii-svobodnyh-mest" >
+                Информация о наличии свободных мест                      </a>
+          </li>
+
+  <li  data-id="27691" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="https://www.bgut.by/profkom/profsoyuznyy-komitet-rabotnikov#overlay-context=profkom/profsoyuznyy-komitet-prepodavateley-i-sotrudnikov" >
+                Профком работников                      </a>
+          </li>
+
+  <li  data-id="27692" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="https://www.bgut.by/?q=profkom-students/profkom-studentov" >
+                Профком студентов                      </a>
+          </li>
+
+  <li  data-id="27693" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="https://www.bgut.by/?q=brsm/" >
+                ОО &quot;БРСМ&quot;                      </a>
+          </li>
+
+  <li  data-id="27694" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="https://www.bgut.by/?q=white-rus/pervichnaya-organizaciya-roo-belaya-rus" >
+                Первичная организация РОО &quot;Белая Русь&quot;                      </a>
+          </li>
+
+  <li  data-id="27695" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="/shtab-trudovyih-del/" >
+                Штаб трудовых дел                      </a>
+          </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+  </li>
+
+  <li  data-id="27689" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega">
+          <a href="https://www.bgut.by/content/universitet-segodnya?width=640&amp;height=600" >
+                Видео                      </a>
+          </li>
+
+  <li  data-id="27688" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega">
+          <a href="https://www.bgut.by/?q=kancelyariya/odno-okno-main" >
+                Одно окно                      </a>
+          </li>
+
+  <li  data-id="27687" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega">
+          <a href="https://www.bgut.by/sites/default/files/mail/index.html" >
+                Почта БГУТ                      </a>
+          </li>
+
+  <li  data-id="27708" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega">
+          <a href="https://www.bgut.by/about-us/ob-universitete"  style="font-weight: bold; font-style: italic;" title="Узнать больше">
+                Узнать больше                      </a>
+          </li>
+
+  <li  data-id="30727" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega">
+          <a href="https://www.bgut.by/about-us/rectorat/" >
+                Ректорат                      </a>
+          </li>
+
+  <li  data-id="33115" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega">
+          <a href="/about-us/doska-pocheta" >
+                Доска почета 2025                      </a>
+          </li>
+
+  <li  data-id="33117" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega">
+          <a href="https://www.bgut.by/sites/default/files/userfiles/UMO/files/politika_ii.pdf" >
+                Политика по использованию технологий и инструментов ИИ                      </a>
+          </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+  </li>
+
+  <li  data-id="27641" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="right" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-1 mega mega-align-right dropdown">
+          <a href="#" class="tb_nolink university-1">
+                Абитуриентам      </a>
+        <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="" data-hidewcol="0" id="tb-megamenu-column-11" class="tb-megamenu-column span  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-8">
+    <li  data-id="27647" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega">
+          <a href="https://www.abit.bgut.by/" >
+                Сайт Абитуриента БГУТ                      </a>
+          </li>
+
+  <li  data-id="33112" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega">
+          <a href="/content/goryachaya-liniya-po-voprosam-organizacii-i-provedeniya-vstupitelnoy-kampanii-2025" >
+                Горячая линия по вопросам организации и проведения вступительной кампании                      </a>
+          </li>
+
+  <li  data-id="27648" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega">
+          <a href="https://www.bgut.by/faculty-fdp/otdel-proforientacii-i-dovuzovskoy-podgotovki" >
+                Отдел профориентации и довузовской подготовки                      </a>
+          </li>
+
+  <li  data-id="32815" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega">
+          <a href="https://www.bgut.by/abitu" >
+                Репетиция централизованного экзамена (РЦЭ)                      </a>
+          </li>
+
+  <li  data-id="29258" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega">
+          <a href="https://www.bgut.by/content/universitetskaya-olimpiada-postuplenie-bez-vstupitelnyh-ispytaniy#overlay-context=" >
+                Университетская олимпиада                      </a>
+          </li>
+
+  <li  data-id="31806" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega">
+          <a href="https://www.bgut.by/faculty-fdp/kursy-podgotovki-k-centralizovannomu-testirovaniyu-i-profilnym-vstupitelnym-ekzamenam" >
+                Приглашаем на курсы                      </a>
+          </li>
+
+  <li  data-id="31807" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega">
+          <a href="https://www.bgut.by/faculty-fdp/repeticionnoe-testirovanie" >
+                Репетиционное тестирование                      </a>
+          </li>
+
+  <li  data-id="28259" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega">
+          <a href="https://www.bgut.by/content/zadat-vopros-abit" >
+                Задать свой вопрос                      </a>
+          </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+  </li>
+
+  <li  data-id="27642" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-1 mega mega-align-justify dropdown">
+          <a href="#" class="tb_nolink university-1">
+                Обучающимся      </a>
+        <div  data-class="" data-width="1519" style="width: 1519px;" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-showblocktitle="1" data-class="" data-width="4" data-hidewcol="1" id="tb-megamenu-column-12" class="tb-megamenu-column span4  mega-col-nav  hidden-collapse">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--57" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div id="block-block-57" class="block block-block clearfix">
+
+    <h2 class="title">Студентам</h2>
+  
+  <div class="content">
+    <ul>
+<li><a href="https://www.bgut.by/sites/default/files/spr/index.html">Справочник студента БГУТ</a></li>
+<li><a href="https://bgut.by/students/katalog-uchebnyh-disciplin">Каталог учебных дисциплин</a></li>
+<li><a href="https://www.bgut.by/students/raspisanie">Расписание</a></li>
+<li><a href="https://www.bgut.by/students/student-paid/studentu-platniku">Стоимость обучения</a></li>
+<li><a href="https://moodle.bgut.by/login/index.php">Образовательный портал</a></li>
+<li><a href="http://www.bgut.by/sites/default/files/userfiles/About-us/vhod_v_obrazovatelnyy_portal_instrukciya_sayt.pdf">Инструкция по входу в образовательный портал</a></li>
+<li><a href="https://www.bgut.by/?q=library/">Библиотека</a></li>
+</ul>
+<hr />
+<ul>
+<li><a href="https://www.bgut.by/students/informaciya-o-nalichii-svobodnyh-mest#overlay-context=node">Информация о наличии свободных мест</a></li>
+<li><a href="https://www.bgut.by/shtab-trudovyih-del/">Штаб трудовых дел</a></li>
+<li><a href="https://www.bgut.by/brsm/#overlay-context=">ОО "БРСМ"</a></li>
+<li><a href="https://www.bgut.by/profkom-students/profkom-studentov#overlay-context=">Профком студентов</a></li>
+<li><a href="https://www.bgut.by/sport-club/sportklub#overlay-context=">Спортклуб</a></li>
+<li><a href="https://www.bgut.by/white-rus/pervichnaya-organizaciya-roo-belaya-rus#overlay-context=">Первичная организация РОО "Белая Русь"</a></li>
+<li><a href="http://vk.com/abiturients_mgup">Абитуриенты online</a></li>
+</ul>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+
+<div  data-showblocktitle="0" data-class="" data-width="4" data-hidewcol="1" id="tb-megamenu-column-13" class="tb-megamenu-column span4  mega-col-nav  hidden-collapse">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--108" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div id="block-block-108" class="block block-block clearfix">
+
+    
+  <div class="content">
+    <h2><a href="https://www.bgut.by/aspirantura/aspirantam">Аспирантам</a></h2>
+<p>по вопросам обучения обращаться к заведующей аспирантурой Смагина Марина Николаевна<br />
+в а. 101а-1. (тел. +375222647914) или в Научно-исследовательский сектор в а. 209-1 (тел. +375222649806)</p>
+<ul>
+<li><a href="https://www.bgut.by/sites/default/files/userfiles/Aspirantura/specialnosti_asp._i_dokt.docx">Специальности аспирантуры и докторантуры</a></li>
+<li><a href="/sites/default/files/dokumenty_dlya_postupleniya_0.doc">Документы для поступления</a></li>
+</ul>
+<p><a href="https://www.bgut.by/aspirantura/aspirantam"><em><strong>Узнать больше</strong></em></a></p>
+<h2><a href="https://www.bgut.by/magistratura/magistrantam">Магистрантам</a></h2>
+<p>Специалист по работе с магистрантами<br />
+Шуляк Ольга Юрьевна<br />
+<strong>тел. 8(0222)70-13-80</strong></p>
+<ul>
+<li><a href="https://www.bgut.by/magistratura/pravila-priyoma-v-magistraturu">Правила приёма в магистратуру</a></li>
+<li><a href="https://www.bgut.by/magistratura/dokumenty-predostavlyaemye-licami-dlya-polucheniya-vysshego-obrazovaniya-ii-stupeni-v">Перечень документов для поступления</a></li>
+<li><a href="https://www.bgut.by/magistratura/programmy-dlya-postupayushchih-v-magistraturu-0">Программы для поступающих</a></li>
+</ul>
+<p><a href="https://www.bgut.by/magistratura/magistrantam"><em><strong>Узнать больше</strong></em></a></p>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+
+<div  data-showblocktitle="1" data-class="" data-width="4" data-hidewcol="1" id="tb-megamenu-column-14" class="tb-megamenu-column span4  mega-col-nav  hidden-collapse">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--60" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div id="block-block-60" class="block block-block clearfix">
+
+    <h2 class="title">Институт повышения квалификации и переподготовки </h2>
+  
+  <div class="content">
+    <p><a href="https://www.bgut.by/sites/default/files/userfiles/IPK/files/buklet/buklet_ipkipk_mgup.pdf">Рекламный буклет для скачивания</a></p>
+<p><em><strong><a href="https://www.bgut.by/faculty-ipk-i-pk/">Узнать больше</a></strong></em></p>
+<p><strong>2012027, г. Могилев, пр-т Шмидта, д. 3/1</strong></p>
+<p><strong>Приемная комиссия: </strong>тел. +375(222)63-18-45<br />
+<strong>тел./факс </strong>+375(222)63-18-45, 63-92-70<br />
+<strong>Директор:</strong> тел. +375(222)63-19-23<br />
+<strong>Бухгалтерия:</strong> тел. +375(222)76-39-74</p>
+<p><strong>E-mail: </strong><a href="mailto:ipk@bgut.by">ipk@bgut.by</a></p>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+
+<div  class="tb-megamenu-row row-fluid">
+  <div  data-showblocktitle="1" data-class="" data-width="" data-hidewcol="1" id="tb-megamenu-column-15" class="tb-megamenu-column span  mega-col-nav  hidden-collapse">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="views--social_menu-block" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div id="block-views-social-menu-block--2" class="block block-views clearfix">
+
+    
+  <div class="content">
+    <div class="view view-social-menu view-id-social_menu view-display-id-block view-dom-id-8d95b49e061b17cc8003ee56b5982343">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-icon-soc">        <div class="field-content social-link-img"><a href="https://www.youtube.com/channel/UCNr-UT9LFmHar2EtRZgjx0A "><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/social-icons/1491580651-yumminkysocialmedia28_83061.png" width="32" height="32" alt="" /></a></div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-field-icon-soc">        <div class="field-content social-link-img"><a href="https://www.facebook.com/mgupbelarus/ "><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/social-icons/facebook_icon-icons.com_59205_1.png" width="32" height="32" alt="" /></a></div>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-field-icon-soc">        <div class="field-content social-link-img"><a href="https://www.linkedin.com/school/mogilev-state-university-of-food-technologies/ "><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/social-icons/linkedin_icon-icons.com_65929.png" width="32" height="32" alt="" /></a></div>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-field-icon-soc">        <div class="field-content social-link-img"><a href="https://www.instagram.com/mgup_mogilev/ "><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/social-icons/1491580635-yumminkysocialmedia26_83102.png" width="32" height="32" alt="" /></a></div>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-field-icon-soc">        <div class="field-content social-link-img"><a href="http://vk.com/abiturients_mgup "><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/social-icons/1486147202-social-media-circled-network10_79475.png" width="32" height="32" alt="" /></a></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+
+<div  class="tb-megamenu-row row-fluid">
+  <div  data-class="hide-for-big-menu" data-width="" data-hidewcol="0" id="tb-megamenu-column-19" class="tb-megamenu-column span  mega-col-nav hide-for-big-menu">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-3">
+    <li  data-id="27711" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega dropdown-submenu">
+          <a href="#" class="tb_nolink ">
+                СТУДЕНТАМ      </a>
+        <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="" data-hidewcol="0" id="tb-megamenu-column-18" class="tb-megamenu-column span  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-9">
+    <li  data-id="33114" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="https://www.bgut.by/students/raspisanie" >
+                РАСПИСАНИЕ                      </a>
+          </li>
+
+  <li  data-id="27712" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega dropdown-submenu">
+          <a href="#" class="tb_nolink ">
+                Ресурсы для студентов      </a>
+        <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="" data-hidewcol="0" id="tb-megamenu-column-17" class="tb-megamenu-column span  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-3 items-4">
+    <li  data-id="27715" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-4 mega dropdown-submenu">
+          <a href="#" class="tb_nolink ">
+                Образовательный портал      </a>
+        <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="" data-hidewcol="0" id="tb-megamenu-column-16" class="tb-megamenu-column span  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-4 items-1">
+    <li  data-id="27716" data-level="5" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-5 mega">
+          <a href="http://www.bgut.by/sites/default/files/userfiles/About-us/vhod_v_obrazovatelnyy_portal_instrukciya_sayt.pdf" >
+                Инструкция по входу в образовательный портал                      </a>
+          </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+  </li>
+
+  <li  data-id="27714" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-4 mega">
+          <a href="/students/katalog-uchebnyh-disciplin" >
+                Каталог учебных дисциплин                      </a>
+          </li>
+
+  <li  data-id="27713" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-4 mega">
+          <a href="https://www.bgut.by/sites/default/files/spr/index.html" >
+                Справочник студента БГУТ                      </a>
+          </li>
+
+  <li  data-id="27727" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-4 mega">
+          <a href="https://www.bgut.by/?q=library/" >
+                Библиотека                      </a>
+          </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+  </li>
+
+  <li  data-id="27718" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="/shtab-trudovyih-del/" >
+                Штаб трудовых дел                      </a>
+          </li>
+
+  <li  data-id="27723" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="http://vk.com/abiturients_mgup" >
+                Абитуриенты online                      </a>
+          </li>
+
+  <li  data-id="27720" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="/profkom-students/profkom-studentov" >
+                Профком студентов                      </a>
+          </li>
+
+  <li  data-id="27721" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="https://www.bgut.by/sport-club/sportklub#overlay-context=" >
+                Спортклуб                      </a>
+          </li>
+
+  <li  data-id="27719" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="/brsm" >
+                ОО &quot;БРСМ&quot;                      </a>
+          </li>
+
+  <li  data-id="27722" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="https://www.bgut.by/white-rus/pervichnaya-organizaciya-roo-belaya-rus#overlay-context=" >
+                Первичная организация РОО &quot;Белая Русь&quot;                      </a>
+          </li>
+
+  <li  data-id="27724" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="/students/studentam"  style="font-weight: bold; font-style: italic;" title="Узнать больше - информация для студентов">
+                Узнать больше - информация для студентов                      </a>
+          </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+  </li>
+
+  <li  data-id="27725" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega">
+          <a href="/aspirantura/aspirantam" >
+                АСПИРАНТАМ                      </a>
+          </li>
+
+  <li  data-id="27726" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega">
+          <a href="/magistratura/magistrantam" >
+                МАГИСТРАНТАМ                      </a>
+          </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+  </li>
+
+  <li  data-id="27646" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="1" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-1 mega mega-align-justify sub-hidden-collapse dropdown">
+          <a href="#" class="tb_nolink university-1">
+                Факультеты и кафедры      </a>
+        <div  data-class="" data-width="1550" style="width: 1550px;" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-showblocktitle="0" data-class="" data-width="2" data-hidewcol="1" id="tb-megamenu-column-20" class="tb-megamenu-column span2  mega-col-nav  hidden-collapse">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--111" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div id="block-block-111" class="block block-block clearfix">
+
+    
+  <div class="content">
+    <h4>Механический факультет</h4>
+<ul>
+<li><a href="https://www.mf.bgut.by/mehanicheskiy-fakultet">Сайт механического факультета</a></li>
+<li><a href="http://www.mf.bgut.by/mehanicheskiy-fakultet">Деканат</a></li>
+</ul>
+<h5>Кафедры</h5>
+<ul>
+<li><a href="https://www.mf.bgut.by/atpp">Кафедра автоматизации технологических процессов и производств</a></li>
+<li><a href="https://www.mf.bgut.by/mapp">Кафедра оборудования пищевых производств</a></li>
+<li><a href="https://www.mf.bgut.by/pm-i-ig">Кафедра техносферной безопасности и общей физики</a></li>
+<li><a href="https://www.mf.bgut.by/tht">Кафедра теплохладотехники</a></li>
+</ul>
+<h5>Контакты</h5>
+<p><strong>8 (0222) 64-69-03 -</strong> <strong>Декан МФ</strong><br />
+Цедик Ольга Дмитриевна, <br />
+корпус №1, ауд. 412а<br />
+<strong><a href="mailto:kozlova@bgut.by" style="padding-left: 0px; font-weight: bold; color: #8FBFF9"><span style="color:#0000FF">mgup_mf@bgut.by</span></a></strong></p>
+<p><strong>8 (0222) 64-69-03</strong> деканат</p>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+
+<div  data-showblocktitle="0" data-class="" data-width="2" data-hidewcol="1" id="tb-megamenu-column-21" class="tb-megamenu-column span2  mega-col-nav  hidden-collapse">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--58" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div id="block-block-58" class="block block-block clearfix">
+
+    
+  <div class="content">
+    <h4>Инженерно-инновационный факультет</h4>
+<p><a href="https://bgut.by/faculty-ef/">Деканат</a></p>
+<h5>Кафедры</h5>
+<ul>
+<li><a href="https://bgut.by/ef/tot">Кафедра товароведения и организации торговли</a></li>
+<li><a href="https://bgut.by/ef/gd">Кафедра социально-гуманитарных дисциплин и физической культуры</a>  </li>
+<li><a href="https://bgut.by/ef/e-i-op">Кафедра экономики и организации производства</a></li>
+<li><a href="https://bgut.by/ef/bua-i-a">Кафедра бухгалтерского учета, анализа и аудита</a></li>
+</ul>
+<h5>Контакты</h5>
+<p><strong>8 (0222) 64-75-40 -</strong> <strong>Декан ИИФ</strong><br />
+Мякинькая Виолетта Викторовна <br />
+корпус №1, ауд. 309<br />
+<strong><a href="mailto:miakinkaya.violetta@mail.ru" style="padding-left: 0px; font-weight: bold; color: #8FBFF9"><span style="color:#0000FF">miakinkaya.violetta@mail.ru</span></a></strong></p>
+<p><strong>8 (0222) 64-75-40</strong> деканат</p>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+
+<div  data-showblocktitle="0" data-class="" data-width="2" data-hidewcol="1" id="tb-megamenu-column-22" class="tb-megamenu-column span2  mega-col-nav  hidden-collapse">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--59" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div id="block-block-59" class="block block-block clearfix">
+
+    
+  <div class="content">
+    <h4>Химико-технологический факультет</h4>
+<p><a href="https://www.bgut.by/?q=faculty-htf/">Деканат</a></p>
+<h5>Кафедры</h5>
+<ul>
+<li><a href="https://www.bgut.by/htf/tmmp">Кафедра технологии молока и молочных продуктов</a></li>
+<li><a href="https://www.bgut.by/htf/tpopm">Кафедра технологии продукции общественного питания и мясопродуктов</a></li>
+<li><a href="https://www.bgut.by/htf/htvms">Кафедра "Химия и технология высокомолекулярных соединений"</a></li>
+</ul>
+<h5>Контакты</h5>
+<p><strong>8 (0222) 63-35-41</strong> - <strong>Декан ХТФ</strong><br />
+Болотько Александр Юрьевич, <br />
+корпус №2, ауд. 403<br />
+<a href="mailto:mgup-htf@bgut.by" style="padding-left: 0px; font-weight: bold; color:#8FBFF9"><span style="color:#0000FF">mgup-htf@bgut.by</span></a></p>
+<p><strong>8 (0222) 63-35-41</strong> деканат</p>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+
+<div  data-showblocktitle="0" data-class="" data-width="2" data-hidewcol="1" id="tb-megamenu-column-23" class="tb-megamenu-column span2  mega-col-nav  hidden-collapse">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--110" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div id="block-block-110" class="block block-block clearfix">
+
+    
+  <div class="content">
+    <h4>Технологический факультет</h4>
+<p><a href="https://www.bgut.by/?q=faculty-tf/">Деканат</a></p>
+<h5>Кафедры</h5>
+<ul>
+<li><a href="https://www.bgut.by/tf/tpp">Кафедра технологии пищевых производств</a></li>
+<li><a href="https://www.bgut.by/tf/txp">Кафедра технологии хлебопродуктов</a></li>
+<li><a href="https://www.bgut.by/tf/vm/">Кафедра высшей математики</a></li>
+</ul>
+<h5>Контакты</h5>
+<p><strong>8 (0222) 63 35 44 -</strong> <strong>Декан ТФ</strong><br />
+Машкова Ирина Анатольевна, <br />
+корпус №1, ауд. 201<br />
+<a href="mailto:tf@bgut.by" style="padding-left: 0px; font-weight: bold; color:#8FBFF9"><span style="color:#0000FF">tf@bgut.by</span></a></p>
+<p><strong>8 (0222) 63-35-44</strong> деканат</p>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+
+<div  data-showblocktitle="0" data-class="" data-width="2" data-hidewcol="1" id="tb-megamenu-column-24" class="tb-megamenu-column span2  mega-col-nav  hidden-collapse">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--107" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div id="block-block-107" class="block block-block clearfix">
+
+    
+  <div class="content">
+    <h4>Отдел профориентации и довузовской подготовки</h4>
+<ul>
+<li><a href="https://www.bgut.by/faculty-fdp/registraciya-na-centralizovannoe-testirovanie">Регистрация на централизованное тестирование</a></li>
+<li><a href="https://www.bgut.by/faculty-fdp/centralizovannoe-testirovanie">Централизованное тестирование</a></li>
+<li><a href="https://www.bgut.by/faculty-fdp/kursy-podgotovki-k-centralizovannomu-testirovaniyu-i-profilnym-vstupitelnym-ekzamenam">Курсы подготовки к централизованному тестированию и профильным втупительным экзаменам</a></li>
+<li><a href="https://www.bgut.by/faculty-fdp/repeticionnoe-testirovanie" target="_self">Репетиционное тестирование</a></li>
+<li><a href="https://www.bgut.by/faculty-fdp/konsultativnye-uslugi-dlya-studentov">Консультативные услуги для студентов</a></li>
+<li><a href="https://www.bgut.by/faculty-fdp/plan-raboty-podgotovitelnyh-kursov">План работы подготовительных курсов</a></li>
+</ul>
+<p><a href="http://www.bgut.by/?q=faculty-fdp/"><em><strong>Узнать больше</strong></em></a></p>
+<h5>Свяжитесь с нами</h5>
+<p><strong>Время работы:</strong> 8.30 – 17.00<br />
+<strong>Обед:</strong> 12.30 – 13.00<br />
+<strong>Выходные дни:</strong> суббота, воскресенье </p>
+<p><em>За справками обращаться в ауд. 100а (1 корпус)</em></p>
+<p><strong>тел.</strong> 8(0222) 65-33-30, 8(0222) 64-81-37</p>
+<p> </p>
+<p> </p>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+
+<div  class="tb-megamenu-row row-fluid">
+  <div  data-class="hide-for-big-menu" data-width="12" data-hidewcol="0" id="tb-megamenu-column-29" class="tb-megamenu-column span12  mega-col-nav hide-for-big-menu">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-4">
+    <li  data-id="27655" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega dropdown-submenu">
+          <a href="#" class="tb_nolink ">
+                Инженерно-экономический факультет      </a>
+        <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="" data-hidewcol="0" id="tb-megamenu-column-25" class="tb-megamenu-column span  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-5">
+    <li  data-id="27660" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="/faculty-ef/" >
+                Деканат ИИФ                      </a>
+          </li>
+
+  <li  data-id="27656" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="/ef/bua-i-a" >
+                Кафедра БУАиА                      </a>
+          </li>
+
+  <li  data-id="27657" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="/ef/gd" >
+                Кафедра СГД                      </a>
+          </li>
+
+  <li  data-id="27658" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="/ef/tot" >
+                Кафедра ТОТ                      </a>
+          </li>
+
+  <li  data-id="27659" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="/ef/e-i-op/" >
+                Кафедра ЭиОП                      </a>
+          </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+  </li>
+
+  <li  data-id="27650" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega dropdown-submenu">
+          <a href="https://www.mf.bgut.by/"  class="dropdown-toggle">
+                Механический факультет                  <span class="caret"></span>
+                      </a>
+        <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="" data-hidewcol="0" id="tb-megamenu-column-26" class="tb-megamenu-column span  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-5">
+    <li  data-id="27661" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="https://www.mf.bgut.by/" >
+                Сайт Механического факультета                      </a>
+          </li>
+
+  <li  data-id="27651" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="https://www.mf.bgut.by/atpp" >
+                Кафедра АТПП                      </a>
+          </li>
+
+  <li  data-id="27652" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="https://www.mf.bgut.by/mapp" >
+                Кафедра МАПП                      </a>
+          </li>
+
+  <li  data-id="27653" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="https://www.mf.bgut.by/pm-i-ig" >
+                Кафедра ПМиИГ                      </a>
+          </li>
+
+  <li  data-id="27654" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="https://www.mf.bgut.by/tht" >
+                Кафедра ТХТ                      </a>
+          </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+  </li>
+
+  <li  data-id="27667" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega dropdown-submenu">
+          <a href="#" class="tb_nolink ">
+                Технологический факультет      </a>
+        <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="" data-hidewcol="0" id="tb-megamenu-column-27" class="tb-megamenu-column span  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-4">
+    <li  data-id="27668" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="/faculty-tf/" >
+                Деканат ТФ                      </a>
+          </li>
+
+  <li  data-id="27669" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="/tf/tpp" >
+                Кафедра ТПП                      </a>
+          </li>
+
+  <li  data-id="27670" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="/tf/txp" >
+                Кафедра ТХП                      </a>
+          </li>
+
+  <li  data-id="27671" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="/tf/vm/" >
+                Кафедра ВМ                      </a>
+          </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+  </li>
+
+  <li  data-id="27662" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-2 mega dropdown-submenu">
+          <a href="#" class="tb_nolink ">
+                Химико-технологический факультет      </a>
+        <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="" data-hidewcol="0" id="tb-megamenu-column-28" class="tb-megamenu-column span  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-4">
+    <li  data-id="27663" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="/faculty-htf/" >
+                Деканат ХТФ                      </a>
+          </li>
+
+  <li  data-id="27664" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="/htf/tmmp" >
+                Кафедра ТММП                      </a>
+          </li>
+
+  <li  data-id="27665" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="/htf/tpopm" >
+                Кафедра ТПОПМ                      </a>
+          </li>
+
+  <li  data-id="27666" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-3 mega">
+          <a href="/htf/htvms" >
+                Кафедра ХТВМС                      </a>
+          </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+  </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+  </li>
+
+  <li  data-id="27644" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-1 mega">
+          <a href="/science/nauka-i-innovacii"  class="university-1" title="Наука">
+                Наука                      </a>
+          </li>
+
+  <li  data-id="27645" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-1 mega">
+          <a href="https://international-activities.bgut.by/en"  class="university-1" title="International activities">
+                International activities                      </a>
+          </li>
+
+  <li  data-id="27741" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-1 mega">
+          <a href="https://www.bgut.by/faculty-ipk-i-pk/"  class="university-1" title="ИПК">
+                ИПК                      </a>
+          </li>
+
+  <li  data-id="32714" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-1 mega">
+          <a href="https://www.bgut.by/vospitanie-i-ideologiya/"  class="university-1" title="Воспитание и идеология">
+                Воспитание и идеология                      </a>
+          </li>
+
+  <li  data-id="31119" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-1 mega">
+          <a href="https://www.bgut.by/content/karta-sayta#overlay-context=about-us/blagodarnosti-universitetu"  class="university-1" title="Карта сайта">
+                Карта сайта                      </a>
+          </li>
+
+  <li  data-id="27728" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-inner-width="" data-inner-height="" id="" style="" class="tb-megamenu-item level-1 mega">
+          <a href="/content/kontakty"  class="university-1" title="Контакты">
+                Контакты                      </a>
+          </li>
+</ul>
+      </div>
+  </div>
+  </div>
+</div>
+  </div>
+							  </div> <!-- /my_region -->
+													<div class="logo-main">
+								
+							
+																				<div id="logo1">
+											<a href="/" title="Главная" rel="home"> <img src="https://www.bgut.by/sites/default/files/logo-bgut-2022.png" alt="Главная" /> </a>
+											</div> 
+																	
+								
+						</div>	
+					</div>
+				</div>
+				<div class="row">
+				
+					<div class="col-md-12">
+						
+						  <!-- #messages-console -->
+													<!-- EOF: #messages-console -->
+						
+													  <div id="my_region" class="my_class">
+								  <div class="region region-my-carysel">
+    <div id="block-block-180" class="block block-block clearfix">
+
+    
+  <div class="content">
+    <h3 class="rtecenter"><strong><a href="https://www.abit.bgut.by/"><span style="color:#0000FF">САЙТ АБИТУРИЕНТА БГУТ</span></a></strong></h3>
+  </div>
+</div>
+<div id="block-views-carusel-2-block" class="block block-views clearfix">
+
+    
+  <div class="content">
+    <div class="view view-carusel-2 view-id-carusel_2 view-display-id-block view-dom-id-4df2f29e39e1ac18f3a28f7a3a413488">
+        
+  
+  
+      <div class="view-content">
+            <div class="slick slick--view--carusel-2 slick--view--carusel-2--block slick--skin--default slick--optionset--default" id="slick-views-carusel-2-1" dir="ltr">
+      <div class="slick__slider" id="slick-views-carusel-2-1-slider" data-slick="{&quot;autoplay&quot;:true,&quot;dots&quot;:true}">
+  
+          <div class="slick__slide slide slide--0">      <div class="slide__content">              
+  <div class="views-field views-field-field-slide-img main-slider-img">        <div class="field-content"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/main-carusel-img-style/public/main-carusel/dod_07.02.2026.png?itok=I7lClGMM" width="620" height="580" alt="" /></div>  </div>  
+  <div class="views-field views-field-title main-carusel-title">        <span class="field-content">День Открытых Дверей!</span>  </div>  
+  <div class="views-field views-field-field-anons-carusel main-slider-anons">        <div class="field-content">Приглашаем!</div>  </div>  
+  <div class="views-field views-field-field-slide-url main-carusel-url">        <div class="field-content"></div>  </div>            
+      
+    </div>  </div>          <div class="slick__slide slide slide--1">      <div class="slide__content">              
+  <div class="views-field views-field-field-slide-img main-slider-img">        <div class="field-content"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/main-carusel-img-style/public/main-carusel/celevaya_podgotovka.jpg?itok=jOwFyCWX" width="620" height="580" alt="" /></div>  </div>  
+  <div class="views-field views-field-title main-carusel-title">        <span class="field-content">Целевая подготовка специалистов в БГУТ</span>  </div>  
+  <div class="views-field views-field-field-anons-carusel main-slider-anons">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-slide-url main-carusel-url">        <div class="field-content"><a href="https://www.bgut.by/podgotovka">ПОДРОБНОСТИ</a></div>  </div>            
+      
+    </div>  </div>          <div class="slick__slide slide slide--2">      <div class="slide__content">              
+  <div class="views-field views-field-field-slide-img main-slider-img">        <div class="field-content"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/main-carusel-img-style/public/main-carusel/photo_2025-03-25_13-18-59.jpg?itok=eg8f_N3I" width="620" height="580" alt="" /></div>  </div>  
+  <div class="views-field views-field-title main-carusel-title">        <span class="field-content">Технология наноструктурных волокнистых и пленочных материалов и изделий</span>  </div>  
+  <div class="views-field views-field-field-anons-carusel main-slider-anons">        <div class="field-content">НОВАЯ ПРОФИЛИЗАЦИЯ</div>  </div>  
+  <div class="views-field views-field-field-slide-url main-carusel-url">        <div class="field-content"><a href="https://www.bgut.by/htf/htvms">Подробнее</a></div>  </div>            
+      
+    </div>  </div>          <div class="slick__slide slide slide--3">      <div class="slide__content">              
+  <div class="views-field views-field-field-slide-img main-slider-img">        <div class="field-content"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/main-carusel-img-style/public/main-carusel/izobrazhenie_viber_2025-01-24_14-53-17-971_0.jpg?itok=-cbPXV03" width="620" height="580" alt="" /></div>  </div>  
+  <div class="views-field views-field-title main-carusel-title">        <span class="field-content">ПИЩЕВАЯ БЕЗОПАСНОСТЬ</span>  </div>  
+  <div class="views-field views-field-field-anons-carusel main-slider-anons">        <div class="field-content">НОВАЯ СПЕЦИАЛЬНОСТЬ</div>  </div>  
+  <div class="views-field views-field-field-slide-url main-carusel-url">        <div class="field-content"><a href="https://www.sb.by/articles/novaya-spetsialnost-pishchevaya-bezopasnost-poyavitsya-v-bgut.html">Подробнее</a></div>  </div>            
+      
+    </div>  </div>          <div class="slick__slide slide slide--4">      <div class="slide__content">              
+  <div class="views-field views-field-field-slide-img main-slider-img">        <div class="field-content"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/main-carusel-img-style/public/main-carusel/blue-exclamation-mark-symbol-on-a-white-button-3d-realistic-vector-design-element_363543-592.jpg?itok=WYOGxcP2" width="620" height="580" alt="" /></div>  </div>  
+  <div class="views-field views-field-title main-carusel-title">        <span class="field-content">Изменения в Правила приема</span>  </div>  
+  <div class="views-field views-field-field-anons-carusel main-slider-anons">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-slide-url main-carusel-url">        <div class="field-content"><a href="https://www.bgut.by/news/izmeneniya-v-pravila-priema">Подробнее</a></div>  </div>            
+      
+    </div>  </div>    
+      </div>
+    <nav class="slick__arrow">
+      <button type="button" data-role="none" class="slick-prev" aria-label="Previous" tabindex="0">Previous</button>
+            <button type="button" data-role="none" class="slick-next" aria-label="Next" tabindex="0">Next</button>
+    </nav>
+  </div>
+      </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+							  </div> <!-- /my_region -->
+													
+					</div>
+				
+				</div>
+				
+				
+				
+			
+				
+				
+			</div>
+    <!-- #header -->
+   
+    <!-- EOF: #header -->
+    
+	<!-- information block -->
+	
+	 <!-- #highlighted -->
+        <div id="highlighted">
+            <div class="container">
+
+                <!-- #highlighted-inside -->
+                <div id="highlighted-inside" class="clearfix">
+                    <div class="row">
+						<div class="col-md-4">
+					       							  <div id="my_region" class="my_class">
+								  <div class="region region-obyavleniya-front-page">
+    <div id="block-views-buklet-mf-block" class="block block-views clearfix">
+
+    <h2 class="title">Объявления</h2>
+  
+  <div class="content">
+    <div class="view view-buklet-mf view-id-buklet_mf view-display-id-block view-dom-id-c36abecfbbceac6d58c045442276a262">
+        
+  
+  
+      <div class="view-content">
+      
+<ul id="views-bootstrap-list-group-1" class="list-group views-bootstrap-list-group-plugin-style">
+            <li class="list-group-item">
+          
+  <div class="views-field views-field-title">        <span class="field-content list-group-item ob-url-front-page"><a href="/content/iv-mezhdunarodnyy-nauchno-prakticheskiy-simpozium-problemy-obespecheniya-ekonomicheskoy" class="colorbox-node" data-inner-width="80%" data-inner-height="80%">IV Международный научно-практический симпозиум «Проблемы обеспечения экономической, продовольственной и информационной безопасности Союзного государства Беларуси и России и в Республике Южная Осетия в современных условиях»</a></span>  </div>      </li>
+                <li class="list-group-item">
+          
+  <div class="views-field views-field-title">        <span class="field-content list-group-item ob-url-front-page"><a href="/content/dobrovolnoe-strahovanie-dopolnitelnoy-nakopitelnoy-pensii" class="colorbox-node" data-inner-width="80%" data-inner-height="80%">Добровольное страхование дополнительной накопительной пенсии</a></span>  </div>      </li>
+                <li class="list-group-item">
+          
+  <div class="views-field views-field-title">        <span class="field-content list-group-item ob-url-front-page"><a href="/content/konkurs-na-zameshchenie-vakantnyh-dolzhnostey" class="colorbox-node" data-inner-width="80%" data-inner-height="80%">Конкурс на замещение вакантных должностей </a></span>  </div>      </li>
+                <li class="list-group-item">
+          
+  <div class="views-field views-field-title">        <span class="field-content list-group-item ob-url-front-page"><a href="/content/pozdravlyaem-pobediteley-ii-universitetskoy-olimpiady-po-buhgalterskomu-uchetu-i" class="colorbox-node" data-inner-width="80%" data-inner-height="80%">Поздравляем  победителей II университетской олимпиады по бухгалтерскому учету и налогообложению «Первые шаги в профессии»</a></span>  </div>      </li>
+                <li class="list-group-item">
+          
+  <div class="views-field views-field-title">        <span class="field-content list-group-item ob-url-front-page"><a href="/content/ii-universitetskaya-olimpiada-po-buhgalterskomu-uchetu-i-nalogooblozheniyu-pervye-shagi-v" class="colorbox-node" data-inner-width="80%" data-inner-height="80%">II университетская олимпиада по бухгалтерскому учету и налогообложению «Первые шаги в профессии»</a></span>  </div>      </li>
+                <li class="list-group-item">
+          
+  <div class="views-field views-field-title">        <span class="field-content list-group-item ob-url-front-page"><a href="/content/onlayn-platforma-narodnaya-pyatiletka" class="colorbox-node" data-inner-width="80%" data-inner-height="80%">Онлайн-платформа «Народная пятилетка»</a></span>  </div>      </li>
+                <li class="list-group-item">
+          
+  <div class="views-field views-field-title">        <span class="field-content list-group-item ob-url-front-page"><a href="/content/nabor-slushateley-na-specialnosti-perepodgotovki-priem-dokumentov-do-22092025" class="colorbox-node" data-inner-width="80%" data-inner-height="80%">Набор слушателей на специальности переподготовки. Прием документов до 22.09.2025</a></span>  </div>      </li>
+                <li class="list-group-item">
+          
+  <div class="views-field views-field-title">        <span class="field-content list-group-item ob-url-front-page"><a href="/content/povyshenie-kvalifikacii-po-programme-otvetstvennye-za-sostoyanie-i-ekspluataciyu" class="colorbox-node" data-inner-width="80%" data-inner-height="80%">ПОВЫШЕНИЕ КВАЛИФИКАЦИИ ПО ПРОГРАММЕ &quot;ОТВЕТСТВЕННЫЕ ЗА СОСТОЯНИЕ И ЭКСПЛУАТАЦИЮ ОБОРУДОВАНИЯ ПОД ДАВЛЕНИЕМ АХУ&quot;</a></span>  </div>      </li>
+      </ul>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+<div id="block-block-43" class="block block-block clearfix">
+
+    
+  <div class="content">
+    <p class="rtecenter"><a href="den-infomirovaniya"><input name="День информирования" type="button" value="Дни информирования" /></a></p>
+<p class="rtecenter"><a href="https://www.bgut.by/news/kodeks-ob-obrazovanii"><input name="Кодекс об образовании" type="button" value="Кодекс об образовании" /></a></p>
+<p class="rtecenter"><a href="https://president.gov.by/ru/events/2026-god-ob-avlen-godom-belorusskoj-zensiny"><img alt="" height="186" src="/sites/default/files/izobrazhenie_viber_2026-01-13_11-46-50-611.jpg" width="277" /></a></p>
+<p class="rtecenter"> </p>
+<p style="text-align:center"><img alt="" height="156" src="https://www.bgut.by/sites/default/files/userfiles/odno_okno/logotip_105.jpg" width="288" /></p>
+<p> </p>
+<p class="rtecenter"><a class="colorbox" href="/sites/default/files/userfiles/obyavleniya/537x240njpg.jpg"><img alt="" height="240" src="/sites/default/files/userfiles/obyavleniya/537x240njpg.jpg" width="537" /></a></p>
+<p> </p>
+  </div>
+</div>
+  </div>
+							  </div> <!-- /my_region -->
+													</div>
+					
+						<div class="col-md-8">
+					 							  <div id="my_region" class="my_class">
+								  <div class="region region-highlighted">
+    <div id="block-block-94" class="block block-block clearfix">
+
+    
+  <div class="content">
+    <div style="font-weight: normal; text-transform: uppercase;">
+<h2 class="rtecenter"><a href="https://www.bgut.by/content/universitetskaya-olimpiada-postuplenie-bez-vstupitelnyh-ispytaniy#overlay-context="><span style="color:#0000FF">университетская олимпиада бгут</span></a></h2>
+</div>
+  </div>
+</div>
+<div id="block-views-actual-news-2022-block" class="block block-views clearfix">
+
+    <h2 class="title">Актуальные новости</h2>
+  
+  <div class="content">
+    <div class="view view-actual-news-2022 view-id-actual_news_2022 view-display-id-block view-dom-id-a38c81379b5dec6fbf9fcde38d2c24bd">
+        
+  
+  
+      <div class="view-content">
+      
+
+<div id="views-bootstrap-grid-1" class="views-bootstrap-grid-plugin-style">
+  
+          <div class="row">
+                  <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              
+  <div class="views-field views-field-field-news-date">        <p class="field-content actual-news-data"><span  property="dc:date" datatype="xsd:dateTime" content="2026-01-28T00:00:00+03:00" class="date-display-single">28 января</span></p>  </div>  
+  <div class="views-field views-field-field-news-date-library">        <p class="field-content date-new-an3"></p>  </div>  
+  <div class="views-field views-field-field-little-img-library">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-little-img-1">        <div class="field-content"><a href="/news/segodnya-27-yanvarya-na-sovete-universiteta-v-torzhestvennoy-obstanovke-byli-vrucheny"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/img-act-news-2022/public/news/little/izobrazhenie_viber_2026-01-27_17-57-44-549.jpg?itok=KwMiD2OD" width="400" height="220" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-field-little-img-sport-club">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-title">        <p class="field-content"><a href="/news/segodnya-27-yanvarya-na-sovete-universiteta-v-torzhestvennoy-obstanovke-byli-vrucheny">Сегодня, 27 января, на Совете университета в торжественной обстановке были вручены заслуженные награды</a></p>  </div>          </div>
+
+                                      <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              
+  <div class="views-field views-field-field-news-date">        <p class="field-content actual-news-data"><span  property="dc:date" datatype="xsd:dateTime" content="2026-01-26T00:00:00+03:00" class="date-display-single">26 января</span></p>  </div>  
+  <div class="views-field views-field-field-news-date-library">        <p class="field-content date-new-an3"></p>  </div>  
+  <div class="views-field views-field-field-little-img-library">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-little-img-1">        <div class="field-content"><a href="/news/v-osnove-vsego-trud-uchenogo-pochemu-v-bgut-delayut-stavku-na-nauku"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/img-act-news-2022/public/news/little/000057_1769330032_4993.jpg?itok=5Nb42UWi" width="400" height="220" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-field-little-img-sport-club">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-title">        <p class="field-content"><a href="/news/v-osnove-vsego-trud-uchenogo-pochemu-v-bgut-delayut-stavku-na-nauku">&quot;В основе всего - труд ученого&quot;. Почему в БГУТ делают ставку на науку </a></p>  </div>          </div>
+
+                                                              <div class="clearfix visible-sm-block"></div>
+                                                        <div class="clearfix visible-md-block"></div>
+                                                        <div class="clearfix visible-lg-block"></div>
+                                                      <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              
+  <div class="views-field views-field-field-news-date">        <p class="field-content actual-news-data"><span  property="dc:date" datatype="xsd:dateTime" content="2026-01-26T00:00:00+03:00" class="date-display-single">26 января</span></p>  </div>  
+  <div class="views-field views-field-field-news-date-library">        <p class="field-content date-new-an3"></p>  </div>  
+  <div class="views-field views-field-field-little-img-library">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-little-img-1">        <div class="field-content"><a href="/news/torzhestvennoe-sobranie-nauchnoy-obshchestvennosti"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/img-act-news-2022/public/news/little/izobrazhenie_viber_2026-01-23_18-01-42-420.jpg?itok=lPS3GV9Z" width="400" height="220" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-field-little-img-sport-club">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-title">        <p class="field-content"><a href="/news/torzhestvennoe-sobranie-nauchnoy-obshchestvennosti">Торжественное собрание научной общественности</a></p>  </div>          </div>
+
+                                                                                                                                          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              
+  <div class="views-field views-field-field-news-date">        <p class="field-content actual-news-data"><span  property="dc:date" datatype="xsd:dateTime" content="2026-01-23T00:00:00+03:00" class="date-display-single">23 января</span></p>  </div>  
+  <div class="views-field views-field-field-news-date-library">        <p class="field-content date-new-an3"></p>  </div>  
+  <div class="views-field views-field-field-little-img-library">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-little-img-1">        <div class="field-content"><a href="/news/den-belorusskoy-nauki-4"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/img-act-news-2022/public/news/little/snimok_10.png?itok=r8RigotG" width="400" height="220" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-field-little-img-sport-club">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-title">        <p class="field-content"><a href="/news/den-belorusskoy-nauki-4">День белорусской науки!</a></p>  </div>          </div>
+
+                                                              <div class="clearfix visible-sm-block"></div>
+                                                        <div class="clearfix visible-md-block"></div>
+                                                        <div class="clearfix visible-lg-block"></div>
+                                                      <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              
+  <div class="views-field views-field-field-news-date">        <p class="field-content actual-news-data"><span  property="dc:date" datatype="xsd:dateTime" content="2026-01-22T00:00:00+03:00" class="date-display-single">22 января</span></p>  </div>  
+  <div class="views-field views-field-field-news-date-library">        <p class="field-content date-new-an3"></p>  </div>  
+  <div class="views-field views-field-field-little-img-library">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-little-img-1">        <div class="field-content"><a href="/news/gribanovskiy-sp-posetil-s-proforientacionnoy-rabotoy-srednyuyu-shkolu-no-1-goroda-kricheva"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/img-act-news-2022/public/news/little/izobrazhenie_viber_2026-01-21_15-41-24-322.jpg?itok=YdA_mT6U" width="400" height="220" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-field-little-img-sport-club">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-title">        <p class="field-content"><a href="/news/gribanovskiy-sp-posetil-s-proforientacionnoy-rabotoy-srednyuyu-shkolu-no-1-goroda-kricheva">Грибановский С.П. посетил с профориентационной работой Среднюю школу № 1 города Кричева</a></p>  </div>          </div>
+
+                                                                                                                                          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              
+  <div class="views-field views-field-field-news-date">        <p class="field-content actual-news-data"><span  property="dc:date" datatype="xsd:dateTime" content="2026-01-21T00:00:00+03:00" class="date-display-single">21 января</span></p>  </div>  
+  <div class="views-field views-field-field-news-date-library">        <p class="field-content date-new-an3"></p>  </div>  
+  <div class="views-field views-field-field-little-img-library">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-little-img-1">        <div class="field-content"><a href="/news/lyubimoe-delo-v-lyubimoy-strane"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/img-act-news-2022/public/news/little/izobrazhenie_viber_2026-01-21_14-37-45-781.jpg?itok=9yT0BEiH" width="400" height="220" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-field-little-img-sport-club">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-title">        <p class="field-content"><a href="/news/lyubimoe-delo-v-lyubimoy-strane">Любимое дело в любимой стране!</a></p>  </div>          </div>
+
+                                                              <div class="clearfix visible-sm-block"></div>
+                                                        <div class="clearfix visible-md-block"></div>
+                                                        <div class="clearfix visible-lg-block"></div>
+                                                  </div>
+    
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+<div id="block-block-150" class="block block-block clearfix">
+
+    
+  <div class="content">
+    <p class="rtecenter"><a class="all-news" href="all-news">ВСЕ НОВОСТИ</a></p>
+<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+<tbody>
+<tr>
+<td>
+<p style="text-align:center"><img alt="" height="240" src="/sites/default/files/imidzh_eng_1920x1080.jpg" width="427" /></p>
+<p class="rtecenter"><a href="https://fest-sbv.gck.by/">ПОДРОБНЕЕ</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="rtecenter"> </p>
+  </div>
+</div>
+  </div>
+							  </div> <!-- /my_region -->
+													</div>
+                    </div>
+					<div class="row">
+					
+						<div class="col-md-12">
+					       							  <div id="my_region" class="my_class">
+								  <div class="region region-under-highlighted-front-page">
+    <div id="block-block-34" class="block block-block clearfix">
+
+    
+  <div class="content">
+    <div style="float: left; padding-right: 10px">
+<p><iframe frameborder="1" height="315" scrolling="yes" src="https://www.youtube.com/embed/zjZhBauA_jw" style="float: left; padding-right: 10px" width="560"></iframe></p><p> </p>
+</div>
+<p><iframe frameborder="1" height="315" scrolling="yes" src="https://www.youtube.com/embed/sYjXIQAQOU0" style=" padding-right: 10px" width="560"></iframe></p>
+<p> </p>
+<p>Мы на FaceBook - <a href="https://www.facebook.com/bgutmogilev/">https://www.facebook.com/bgutmogilev/</a><br />
+Мы в LinkedIn - <a href="https://by.linkedin.com/school/belarusian-state-university-of-food-and-chemical-technologies/">https://by.linkedin.com/school/belarusian-state-university-of-food-and-chemical-technologies/</a><br />
+Мы в Instagram - <a href="https://www.instagram.com/bgut_mogilev/">https://www.instagram.com/bgut_mogilev/</a><br />
+Мы в Vk - <a href="https://vk.com/club95654823">https://vk.com/club95654823</a><br />
+Мы в Telegram - <a href="https://t.me/MGUP_university">https://t.me/MGUP_university</a></p>
+<p> </p>
+  </div>
+</div>
+  </div>
+							  </div> <!-- /my_region -->
+													</div>
+					
+					</div>
+					
+                </div>
+                <!-- EOF:#highlighted-inside -->
+
+            </div>
+        </div>
+        <!-- EOF: #highlighted -->
+	
+	
+	
+	
+	<!-- end information block -->
+	
+    
+    
+        
+
+    <!-- #page -->
+    <div id="page" class="clearfix">
+
+      
+
+        
+       
+       
+        
+
+        <!-- #main-content -->
+        <div id="main-content">
+            <div class="container">
+
+                <div class="row">
+
+                                        <aside class="col-md-4 fix-sidebar-first">
+                        <!--#sidebar-->
+                        <section id="sidebar-first" class="sidebar clearfix">
+                          <div class="region region-sidebar-first">
+    <div id="block-block-25" class="block block-block clearfix">
+
+    <h2 class="title">качество-услуг.бел</h2>
+  
+  <div class="content">
+    <p><img alt="" height="400" src="https://www.bgut.by/sites/default/files/userfiles/MASKVl/qr-code2.jpg" width="400" /></p>
+<p> </p>
+<p> </p>
+  </div>
+</div>
+  </div>
+                        </section>
+                        <!--EOF:#sidebar-->
+                    </aside>
+                    
+                    <section class="col-md-8">
+
+                        <!-- #main -->
+                        <div id="main" class="clearfix">
+
+                                                                                    
+                            <!-- #tabs -->
+                                                            <div class="tabs">
+                                                                </div>
+                                                        <!-- EOF: #tabs -->
+
+                            
+                            <!-- #action links -->
+                                                        <!-- EOF: #action links -->
+
+                             
+                              <div class="region region-content">
+    <div id="block-block-6" class="block block-block clearfix">
+
+    <h2 class="title">Полезная информация</h2>
+  
+  <div class="content">
+    <p> </p>
+<p> </p>
+<dl class="ckeditor-accordion">
+<dt>Книга памяти</dt>
+<dd>
+<p>Год исторической памяти в период с начала апреля по сентябрь текущего года в Министерстве труда и социальной защиты проходила акция-эстафета «Горжусь подвигом ветерана-земляка».<br />
+	В рамках акции были сняты видеоролики с рассказами ветеранов ВОВ, узников, жителей блокадного Ленинграда и свидетелей войны, с воспоминаниями их родственников, с авторскими сюжетами работников социальных учреждений.</p>
+<p>Данные видеоролики легли в основу электронной «Книги памяти», которая была сформирована ко Дню народного единства. Книга, помимо ссылок на видео, содержит краткое описание о героях сюжетов, а их порядка 60. Эти истории невозможно воспринимать равнодушно. Они трогают до глубины души и навсегда врезаются в память.</p>
+<p>Видеоролики подготовили сотрудники учреждений социального обслуживания системы Минтруда и соцзащиты: самостоятельно разработали сценарии, зачастую брали интервью у очевидцев военных событий, занимались съемкой и монтажом. И все для того, чтобы сохранить невероятно ценные данные о войне.</p>
+<p>Электронная «Книга памяти» доступна по ссылке <a href="https://www.mintrud.gov.by/ru/kniga-pamyati-ru">https://www.mintrud.gov.by/ru/kniga-pamyati-ru</a> и QR-коду.</p>
+<p style="text-align:center"><img alt="" height="164" src="/sites/default/files/userfiles/obyavleniya/kniga.png" width="164" /></p>
+<p> </p>
+</dd>
+<dt>О Республике Беларусь</dt>
+<dd>
+<p><span style="font-size:14px">Респу́блика Белару́сь (белор. Рэспубліка Беларусь) — государство в Восточной Европе. По оценке на 1 января <strong>2022 года</strong>, население республики составило 9 255 524. Столица и самый крупный город государства — город Минск. Государственными языками являются белорусский и русский.</span></p>
+<p style="text-align:center"><img alt="" height="750" src="/sites/default/files/userfiles/news/1.png" width="1180" /></p>
+<p><span style="font-size:14px">Подразделяется на 6 областей, город Минск имеет особый статус города республиканского подчинения.</span></p>
+<p><span style="font-size:14px">На северо-западе республика граничит с Литвой, на западе с Польшей, на севере с Латвией, на востоке с Россией, на юге с Украиной.</span></p>
+</dd>
+<dt>Информация Министерства по налогам и сборам Республики Беларусь</dt>
+<dd>
+<p> </p>
+<ul>
+<li><a href="/sites/default/files/userfiles/news/VIDEO/prilozhenie_-_agroekoturizm_3318944_v1_3319878_v1.pptx">Деятельность по оказанию услуг в сфере агроэкотуризма - презетация</a></li>
+<li><a href="/sites/default/files/userfiles/news/VIDEO/prilozhenie_-_vidy_deyatelnosti_fizlic_s_uplatoy_ed_3318957_v1_3319879_v1.pptx">Виды деятельности, при осуществлении которых физические лица уплачивают единый налог с индивидуальных предпринимателей и иных физических лиц - презентация</a></li>
+<li><a href="/sites/default/files/userfiles/news/VIDEO/prilozhenie_-_remeslennyy_sbor_3318990_v1_3319880_v1.pptx">Ремесленная деятельность - презентация</a></li>
+</ul>
+</dd>
+<dt>Цифровая безопасность в интернете</dt>
+<dd>
+<p> </p>
+<ul>
+<li><a class="colorbox" href="https://www.bgut.by/sites/default/files/userfiles/news/prof/imwn3471.jpg">ВНИМАНИЕ!!! Цифровая безопасность в интернете</a></li>
+<li><a class="colorbox" href="https://www.bgut.by/sites/default/files/userfiles/news/prof/jetp6230.jpg">Вишинг - ОСТОРОЖНО! Мошенники в интернете!</a></li>
+<li><a class="colorbox" href="https://www.bgut.by/sites/default/files/userfiles/news/prof/rsei6060.jpg">Фишинг - ОСТОРОЖНО! Мошенники в интернете!</a></li>
+<li><a class="colorbox" href="https://www.bgut.by/sites/default/files/userfiles/news/prof/kgxh6676.jpg">Безопасность в сети Интернет</a></li>
+<li><a class="colorbox" href="https://www.bgut.by/sites/default/files/userfiles/news/prof/twoi8036.jpg">ВНИМАНИЕ! Безопасное использование соцсетей , мессенджеров и электронной почты!</a></li>
+<li><a class="colorbox" href="https://www.bgut.by/sites/default/files/userfiles/news/prof/xmnu2186.jpg">Защити свою банковскую карту</a></li>
+</ul>
+<p><iframe align="middle" frameborder="1" height="315" name="Безопасность в сети Интернет" scrolling="yes" src="https://www.youtube.com/embed/iTg8OwB2Ero" title="Безопасность в сети Интернет" width="560" id="Безопасность в сети Интернет"></iframe></p>
+<p><iframe align="middle" frameborder="1" height="315" name="Что такое вишинг?" scrolling="yes" src="https://www.youtube.com/embed/rNIGxuou4Dg" title="Что такое вишинг?" width="560" id="Что такое вишинг?"></iframe></p>
+<p><iframe frameborder="1" height="315" name="Основы безопасности в интернете" scrolling="yes" src="https://www.youtube.com/embed/LXNh3V5P5VE" title="Основы безопасности в интернете" width="560" id="Основы безопасности в интернете"></iframe></p>
+<p> </p>
+<p> </p>
+</dd>
+<dt>График консультаций педагога-психолога и педагога социального</dt>
+<dd>
+<p style="text-align:center"><img alt="" height="552" src="/sites/default/files/grafik_raboty_0.jpg" width="390" /></p>
+</dd>
+<dd> </dd>
+</dl>
+<p><a href="http://xn--d1acdremb9i.xn--90ais/informatsiya-po-vazhnym-voprosam/uchashcheysya-i-studencheskoy-molodyezhi/molodyezh-protiv-narkotikov/"><img alt="" height="83" src="/sites/default/files/userfiles/About-us/bannpn1.png" width="800" /></a></p>
+<p><a href="https://gsz.gov.by/"><img alt="" height="173" src="/sites/default/files/sites/default/files/banner_zanyatost20molodezhi.png" width="765" /></a></p>
+<p> </p>
+<p class="rtecenter"><img alt="" height="181" src="/sites/default/files/izobrazhenie_viber_2026-01-23_14-06-32-335_0.jpg" width="181" /></p>
+<p class="rtecenter"><a href="https://allbeluni.ru/"><span style="background-color:#DAA520">ПОДРОБНЕЕ</span></a></p>
+<p style="text-align:center"><a href="https://studyinby.com/"><img alt="" height="116" src="https://www.bgut.by/sites/default/files/news/news_img/b6c9d020a8d98865ed811f64277eddcc.gif" width="413" /></a></p>
+  </div>
+</div>
+  </div>
+                                                        
+                        </div>
+                        <!-- EOF:#main -->
+
+                    </section>
+
+                    
+                </div>
+
+            </div>
+        </div>
+        <!-- EOF:#main-content -->
+
+    </div>
+    <!-- EOF: #page -->
+
+    
+    
+        <!-- #footer-top -->
+    <div id="footer-top" class="clearfix">
+        <div class="container">
+
+            <!-- #footer-top-inside -->
+            <div id="footer-top-inside" class="clearfix">
+                <div class="row">
+                    <div class="col-md-12">
+                      <div class="region region-footer-top">
+    <div id="block-views-meh-title-new-block" class="block block-views clearfix">
+
+    
+  <div class="content">
+    <div class="view view-meh-title-new view-id-meh_title_new view-display-id-block view-dom-id-3cd1bb0ebf1488ff7f3e071ab79dd636">
+        
+  
+  
+      <div class="view-content">
+            <div class="slick slick--view--meh-title-new slick--view--meh-title-new--block slick--skin--grid slick--optionset--clone-of-x-grid" id="slick-views-meh-title-new-2" dir="ltr">
+      <div class="slick__slider" id="slick-views-meh-title-new-2-slider" data-slick="{&quot;autoplay&quot;:true,&quot;dots&quot;:true,&quot;infinite&quot;:false,&quot;edgeFriction&quot;:1,&quot;useTransform&quot;:false}">
+  
+          <div class="slick__slide slide slide--0">                  <ul class="slick__grid block-grid slide__content small-block-grid-1 medium-block-grid-4 large-block-grid-4">
+      <li class="slide__grid grid grid--0">
+      <div class="grid__content">                    
+  <div class="views-field views-field-field-img-side">        <div class="field-content"><a href="https://меркаванне.бел/portal/index.php"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/side_img/public/side-menu-img/vs-vosstanovleno_copy.jpg?itok=8KBGqlRO" width="300" height="120" alt="Меркаванне.бел" title="Меркаванне.бел" /></a></div>  </div>            
+      
+      </div>
+    </li>
+      <li class="slide__grid grid grid--1">
+      <div class="grid__content">                    
+  <div class="views-field views-field-field-img-side">        <div class="field-content"><a href="https://t.me/s/ucheba_by"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/side_img/public/side-menu-img/ucheba-by.jpg?itok=6IcpzQGK" width="300" height="120" alt="ucheba_by" title="ucheba_by" /></a></div>  </div>            
+      
+      </div>
+    </li>
+      <li class="slide__grid grid grid--2">
+      <div class="grid__content">                    
+  <div class="views-field views-field-field-img-side">        <div class="field-content"><a href="http://mogilevpriroda.gov.by/index.php"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/side_img/public/side-menu-img/izobrazhenie_viber_2025-01-09_09-12-18-498.jpg?itok=uF9J7X1q" width="300" height="120" alt="" /></a></div>  </div>            
+      
+      </div>
+    </li>
+      <li class="slide__grid grid grid--3">
+      <div class="grid__content">                    
+  <div class="views-field views-field-field-img-side">        <div class="field-content"><a href="https://xn--d1acdremb9i.xn--90ais/"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/side_img/public/side-menu-img/logo_0.jpg?itok=619zLf1Y" width="300" height="120" alt="" /></a></div>  </div>            
+      
+      </div>
+    </li>
+  </ul>
+            
+      
+      </div>          <div class="slick__slide slide slide--1">                  <ul class="slick__grid block-grid slide__content small-block-grid-1 medium-block-grid-4 large-block-grid-4">
+      <li class="slide__grid grid grid--0">
+      <div class="grid__content">                    
+  <div class="views-field views-field-field-img-side">        <div class="field-content"><a href="https://journal.pravo.by/"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/side_img/public/side-menu-img/141d39d44c5c8212b8a3716249557396.jpg?itok=tv69m6DK" width="300" height="120" alt="" /></a></div>  </div>            
+      
+      </div>
+    </li>
+      <li class="slide__grid grid grid--1">
+      <div class="grid__content">                    
+  <div class="views-field views-field-field-img-side">        <div class="field-content"><a href="https://fest-sbv.by/"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/side_img/public/side-menu-img/cb1000h600angl.jpg?itok=k2NSjop8" width="300" height="120" alt="" /></a></div>  </div>            
+      
+      </div>
+    </li>
+      <li class="slide__grid grid grid--2">
+      <div class="grid__content">                    
+  <div class="views-field views-field-field-img-side">        <div class="field-content"><a href="https://tibo.by/"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/side_img/public/side-menu-img/800-276.png?itok=zDbU_AR9" width="300" height="120" alt="" /></a></div>  </div>            
+      
+      </div>
+    </li>
+      <li class="slide__grid grid grid--3">
+      <div class="grid__content">                    
+  <div class="views-field views-field-field-img-side">        <div class="field-content"><a href="https://www.bgut.by/sites/default/files/news/news_img/news_1/tig.pdf"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/side_img/public/side-menu-img/na_glavnuyu_stranicu_sayta_bgut_kafedra_tot_novaya_specialnost_11.01.2023_1.jpg?itok=_Q5IwXk-" width="300" height="120" alt="" /></a></div>  </div>            
+      
+      </div>
+    </li>
+  </ul>
+            
+      
+      </div>          <div class="slick__slide slide slide--2">                  <ul class="slick__grid block-grid slide__content small-block-grid-1 medium-block-grid-4 large-block-grid-4">
+      <li class="slide__grid grid grid--0">
+      <div class="grid__content">                    
+  <div class="views-field views-field-field-img-side">        <div class="field-content"><a href="http://www.mir.pravo.by/"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/side_img/public/side-menu-img/pravo-kids.png?itok=6k22RqQ1" width="300" height="120" alt="" /></a></div>  </div>            
+      
+      </div>
+    </li>
+      <li class="slide__grid grid grid--1">
+      <div class="grid__content">                    
+  <div class="views-field views-field-field-img-side">        <div class="field-content"><a href="http://pravo.by/"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/side_img/public/side-menu-img/pravo-by.png?itok=1_mb0MnD" width="300" height="120" alt="" /></a></div>  </div>            
+      
+      </div>
+    </li>
+      <li class="slide__grid grid grid--2">
+      <div class="grid__content">                    
+  <div class="views-field views-field-field-img-side">        <div class="field-content"><a href="http://edu.gov.by/"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/side_img/public/side-menu-img/ministerstvo-obrazovaniya-rb.png?itok=FnLB-BVw" width="300" height="120" alt="" /></a></div>  </div>            
+      
+      </div>
+    </li>
+      <li class="slide__grid grid grid--3">
+      <div class="grid__content">                    
+  <div class="views-field views-field-field-img-side">        <div class="field-content"><a href="http://brsm.by/"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/side_img/public/side-menu-img/brsm.png?itok=pKcXHraP" width="300" height="120" alt="" /></a></div>  </div>            
+      
+      </div>
+    </li>
+  </ul>
+            
+      
+      </div>          <div class="slick__slide slide slide--3">                  <ul class="slick__grid block-grid slide__content small-block-grid-1 medium-block-grid-4 large-block-grid-4">
+      <li class="slide__grid grid grid--0">
+      <div class="grid__content">                    
+  <div class="views-field views-field-field-img-side">        <div class="field-content"><a href="http://nasb.gov.by/rus/"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/side_img/public/side-menu-img/academiya-nauk.png?itok=hc22QTSX" width="300" height="120" alt="" /></a></div>  </div>            
+      
+      </div>
+    </li>
+      <li class="slide__grid grid grid--1">
+      <div class="grid__content">                    
+  <div class="views-field views-field-field-img-side">        <div class="field-content"><a href="http://abiturient.by/"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/side_img/public/side-menu-img/abiturient-by.png?itok=Ly8GlKvE" width="300" height="120" alt="" /></a></div>  </div>            
+      
+      </div>
+    </li>
+      <li class="slide__grid grid grid--2">
+      <div class="grid__content">                    
+  <div class="views-field views-field-field-img-side">        <div class="field-content"><a href="https://president.gov.by/be"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/side_img/public/side-menu-img/president1.png?itok=6lDo1qym" width="300" height="120" alt="" /></a></div>  </div>            
+      
+      </div>
+    </li>
+      <li class="slide__grid grid grid--3">
+      <div class="grid__content">                    
+  <div class="views-field views-field-field-img-side">        <div class="field-content"><a href="https://www.bgut.by/sites/default/files/userfiles/MASKVl/tibo22_byklen.pdf"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/side_img/public/side-menu-img/banner_tibo_2022_800x276.png?itok=Pviykz7-" width="300" height="120" alt="" /></a></div>  </div>            
+      
+      </div>
+    </li>
+  </ul>
+            
+      
+      </div>          <div class="slick__slide slide slide--4">                  <ul class="slick__grid block-grid slide__content small-block-grid-1 medium-block-grid-4 large-block-grid-4">
+      <li class="slide__grid grid grid--0">
+      <div class="grid__content">                    
+  <div class="views-field views-field-field-img-side">        <div class="field-content"><a href="https://www.bgut.by/content/biometricheskie-dokumenty-v-ramkah-sozdaniya-belorusskoy-integrirovannoy-servisno-raschetnoy"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/side_img/public/side-menu-img/banner_0.jpg?itok=QPLdyVFM" width="300" height="120" alt="" /></a></div>  </div>            
+      
+      </div>
+    </li>
+      <li class="slide__grid grid grid--1">
+      <div class="grid__content">                    
+  <div class="views-field views-field-field-img-side">        <div class="field-content"><a href="https://www.belstu.by/tehnologicheskij-klaster.html"><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/side_img/public/side-menu-img/vs-vosstanovleno.jpg?itok=_6fzErRt" width="300" height="120" alt="" /></a></div>  </div>            
+      
+      </div>
+    </li>
+      <li class="slide__grid grid grid--2">
+      <div class="grid__content">                    
+  <div class="views-field views-field-field-img-side">        <div class="field-content"><a href="http://www.bgut.by/content/portal-reytingovoy-ocenki#overlay-context="><img typeof="foaf:Image" src="https://www.bgut.by/sites/default/files/styles/side_img/public/side-menu-img/prilozhenie_3_-_banner_pro_russk.png?itok=04P3wK_N" width="300" height="120" alt="" /></a></div>  </div>            
+      
+      </div>
+    </li>
+  </ul>
+            
+      
+      </div>    
+      </div>
+    <nav class="slick__arrow">
+      <button type="button" data-role="none" class="slick-prev" aria-label="Previous" tabindex="0">Previous</button>
+            <button type="button" data-role="none" class="slick-next" aria-label="Next" tabindex="0">Next</button>
+    </nav>
+  </div>
+      </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+                    </div>
+                </div>
+            </div>
+            <!-- EOF:#footer-top-inside -->
+
+        </div>
+    </div>
+    <!-- EOF: #footer-top -->
+        
+
+    
+        <div id="subfooter" class="clearfix">
+        <div class="container">
+
+            <!-- #subfooter-inside -->
+            <div id="subfooter-inside" class="clearfix">
+                <div class="row">
+                    <div class="col-md-4">
+                        <!-- #subfooter-left -->
+                                                <div class="subfooter-area left">
+                          <div class="region region-sub-footer-left">
+    <div id="block-block-37" class="block block-block clearfix">
+
+    
+  <div class="content">
+    <div style="padding: 0px">
+<div style="padding: 0px">
+<p class="rtecenter"><a href="https://www.abit.bgut.by/">АБИТУРИЕНТАМ</a></p>
+</div>
+<div style="padding: 0px">
+<p class="rtecenter"><a href="https://www.bgut.by/sites/default/files/spr/index.html">СТУДЕНТАМ</a></p>
+</div>
+<div style="padding: 0px">
+<p class="rtecenter"><a href="https://www.bgut.by/magistratura/magistrantam">МАГИСТРАНТАМ</a></p>
+</div>
+<div style="padding: 0px">
+<p class="rtecenter"><a href="https://www.bgut.by/aspirantura/aspirantam">АСПИРАНТАМ</a></p>
+</div>
+<div style="padding: 0px">
+<p class="rtecenter"><a href="https://www.bgut.by/about-us/ob-universitete">ABOUT US</a></p>
+</div>
+<div style="padding: 0px">
+<p class="rtecenter"><a href="https://www.bgut.by/content/kontakty">СВЯЖИТЕСЬ С НАМИ</a></p>
+</div>
+</div>
+  </div>
+</div>
+  </div>
+                        </div>
+                                                <!-- EOF: #subfooter-left -->
+                    </div>
+                    <div class="col-md-8">
+                        <!-- #subfooter-right -->
+                                                <div class="subfooter-area right">
+                          <div class="region region-footer">
+    <div id="block-block-36" class="block block-block clearfix">
+
+    
+  <div class="content">
+    <div class="row">
+<div class="col-sm-12 col-md-6 col-lg-8 ">
+<p>© Белорусский государственный университет пищевых и химических технологий<br />
+Адрес: пр-т Шмидта, 3, 212027,  г. Могилев, Республика Беларусь.<br />
+<strong><span style="font-size:16px">Тел. (8-0222) 64 82 27 Факс 64 90 11. Url: <a href="http://www.bgut.by">www.bgut.by</a>.</span></strong><br />
+<a href="user">служебный вход</a></p>
+</div>
+<div class="col-sm-12 col-md-6 col-lg-4 pull-right">
+<p><img alt="" height="70" src="/sites/default/files/logo-bgut-new.png" style="float:right" width="62" /></p>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12 col-md-2 col-lg-1 pull-right"> </div>
+<div class="col-sm-12 col-md-2 col-lg-1 pull-right"><a href="content/kontakty"><img alt="" height="30" src="/sites/default/files/footer/icon-phone.png" style="float:right" width="30" /></a></div>
+<div class="col-sm-12 col-md-2 col-lg-1 pull-right"><a href="sites/default/files/mail/index.html"><img alt="" height="30" src="/sites/default/files/footer/icon-email.png" style="float:right" width="30" /></a></div>
+<div class="col-sm-12 col-md-2 col-lg-1 pull-right"><a href="content/kontakty"><img alt="" height="30" src="/sites/default/files/footer/w128h1281385326478document.png" style="float:right" width="30" /></a></div>
+</div>
+  </div>
+</div>
+  </div>
+                        </div>
+                                                <!-- EOF: #subfooter-right -->
+                        
+                                                <!-- #credits -->  
+                        <div class="subfooter-area">
+                        <!--div class="block">
+                        <p>Startup Growth Lite is a free theme, contributed to the Drupal Community by <a href="http://www.morethanthemes.com/&mt-referral=startupgrowthlite" target="_blank">More than Themes</a>.</p></div--></div>
+                        <!-- EOF: #credits -->
+                                            
+                    </div>
+                </div>
+            </div>
+            <!-- EOF: #subfooter-inside -->
+
+        </div>
+    </div><!-- EOF:#subfooter -->
+        
+</div>
+<!-- EOF:#page-container -->    <div class="region region-page-bottom">
+    <div class="ym-counter"><!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(100857251, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/100857251" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter --></div>  </div>
+</body>
+</html>

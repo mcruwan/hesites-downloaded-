@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PAKTECH Complete ERP Solution</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/login-form/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="/css/sweetalert.min.css" rel="stylesheet" />
+    <style type="text/css">
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2ecc71;
+            --dark-color: #34495e;
+            --light-color: #ecf0f1;
+            --danger-color: #e74c3c;
+            --warning-color: #f39c12;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: url('/login-form/img/bgg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 450px;
+            width: 90%;
+        }
+        
+        .sub-container {
+            background-color: rgba(255, 255, 255, 0.93);
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            padding: 30px;
+            animation: fadeIn 0.5s ease;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .login-form {
+            text-align: center;
+        }
+        
+        .title img {
+            max-width: 180px;
+            height: auto;
+            margin-bottom: 15px;
+        }
+        
+        .title h2 {
+            color: var(--dark-color);
+            font-weight: 600;
+            margin: 10px 0 20px;
+        }
+        
+        .input-group {
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .input-group:hover {
+            transform: translateY(-2px);
+        }
+        
+        .input-group-addon {
+            background-color: var(--light-color);
+            border-color: #ddd;
+            min-width: 45px;
+        }
+        
+        .form-control {
+            height: 45px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            box-shadow: none;
+            transition: all 0.3s ease;
+        }
+        
+        .form-control:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+        }
+        
+        .btn-login {
+            background-color: var(--secondary-color);
+            border: none;
+            padding: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            margin-top: 10px;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+        }
+        
+        .btn-login:hover {
+            background-color: #27ae60;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .account-options {
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        .signup-link {
+            color: var(--primary-color);
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+        
+        .signup-link:hover {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        
+        #SpnCapsOn {
+            display: none;
+            background-color: var(--warning-color);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 13px;
+            margin: 10px 0;
+            text-align: center;
+        }
+        
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: rgba(52, 73, 94, 0.8);
+            color: white;
+            padding: 12px 0;
+            text-align: center;
+            font-size: 14px;
+        }
+        
+        .modal_waiting {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.8) url('~/images/loading.gif') 50% 50% no-repeat;
+        }
+        
+        body.loading .modal_waiting {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sub-container">
+            <div class="login-form">
+                <div class="title">
+                        <img src="/images/Logos/d4b148d6-170a-422b-b377-d5dfab6b6326-KKUK_Logo.jpg" alt="Company Logo">
+                    <h2>Welcome</h2>
+                </div>
+                
+                <div class="input-group">
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                    <input id="txtLoginName" name="forgetAnswer" placeholder="Email/Contact/CNIC/Username" class="form-control" type="text">
+                </div>
+                
+                <div class="input-group">
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                    <input id="txtPassword" name="forgetAnswer" placeholder="Password" class="form-control" type="password">
+                </div>
+                
+                <div id="SpnCapsOn"><strong>Warning!</strong> Caps Lock is on.</div>
+                
+                <button name="btnForget" id="btnLogin" class="btn btn-login btn-block">
+                    Sign In
+                </button>
+                
+                
+                <div id="txtlabel" style="text-align:center; margin-top:15px;"></div>
+            </div>
+        </div>
+    </div>
+
+    <input type="hidden" value="11" id="txtOrgId" />
+    <input type="hidden" value="0" id="txtBranchId" />
+    <input type="hidden" value="d4b148d6-170a-422b-b377" id="txtPrivateKey" />
+    
+    <div class="modal_waiting"></div>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="/login-form/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="/Js/sweetalert.min.js"></script>
+    
+    <script type="text/javascript">
+        $body = $("body");
+        
+        checkLogin = function () {
+            var accessfromIp = "";
+            var VrOrgId = $("#txtOrgId").val();
+            var VrBrnachId = $("#txtBranchId").val();
+            var loginname = $("#txtLoginName").val();
+            var Password = $("#txtPassword").val();
+            var PKey = $("#txtPrivateKey").val();
+            
+            if (loginname == "" || Password == "") {
+                $("#txtlabel").css({
+                    'color': 'var(--danger-color)',
+                    'font-weight': '600'
+                });
+                $("#txtlabel").html("Please enter both username and password");
+                $("#txtLoginName").focus();
+                return;
+            }
+            
+            $body.addClass("loading");
+            
+            $.ajax({
+                url: '/Login/CheckLogin',
+                type: 'POST',
+                data: { 
+                    LoginName: loginname, 
+                    Password: Password, 
+                    LastLoginIp: accessfromIp, 
+                    OrgId: VrOrgId, 
+                    PrivateKey: PKey, 
+                    BranchId: VrBrnachId 
+                },
+                dataType: 'json',
+                contentType: 'application/x-www-form-urlencoded',
+                success: function (json) {
+                    if (json.isRedirect) {
+                        $("#txtlabel").css({
+                            'color': 'var(--secondary-color)',
+                            'font-weight': '600'
+                        });
+                        $("#txtlabel").html(json.message);
+                        window.location.href = json.redirectUrl;
+                    }
+                    else {
+                        if (json.flage == "error" || json.flage == "NoUser") {
+                            $("#txtlabel").css({
+                                'color': 'var(--danger-color)',
+                                'font-weight': '600'
+                            });
+                        }
+                        else {
+                            $("#txtlabel").css({
+                                'color': 'var(--warning-color)',
+                                'font-weight': '600'
+                            });
+                        }
+                        $("#txtlabel").html(json.message);
+                        $("#txtLoginName").focus();
+                    }
+                    $body.removeClass("loading");
+                }
+            });
+        };
+        
+        $(document).ready(function () {
+            $("#txtLoginName").focus();
+            
+            $('#txtPassword, #txtLoginName').keypress(function (e) {
+                var s = String.fromCharCode(e.which);
+                if (s.toUpperCase() === s && s.toLowerCase() !== s && !e.shiftKey) {
+                    $('#SpnCapsOn').show();
+                }
+                else {
+                    $('#SpnCapsOn').hide();
+                }
+            });
+            
+            $("#btnLogin").click(function () {
+                checkLogin();
+            });
+            
+            $("#txtPassword").keyup(function (event) {
+                if (event.keyCode == 13) {
+                    checkLogin();
+                }
+            });
+            
+            $("#txtLoginName").keyup(function (event) {
+                if (event.keyCode == 13) {
+                    $("#txtPassword").focus();
+                }
+            });
+            
+            // Add animation to input fields
+            $('.input-group').hover(
+                function() {
+                    $(this).css('transform', 'translateY(-2px)');
+                },
+                function() {
+                    $(this).css('transform', 'translateY(0)');
+                }
+            );
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,1796 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+
+<meta charset="utf-8">
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2026 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at https://typo3.org/
+-->
+
+
+
+<title>OÖG - Oberösterreichische Gesundheitsholding  - OÖG</title>
+<meta name="generator" content="TYPO3 CMS">
+<meta name="description" content="Die Oberösterreichische Gesundheitsholding GmbH (OÖG) betreibt neben dem Kepler Universitätsklinikum in Linz 5 Regionalkliniken an 8 Standorten.
+Informieren Sie sich über unsere Kliniken und unser medizinisches Angebot!">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="stylesheet" href="/typo3temp/assets/css/e759230036af1ce4805362a75e4fb12e.css?1702971687" media="all">
+<link rel="stylesheet" href="https://webcache-eu.datareporter.eu/c/e36111d0-69e4-45c8-b2f2-cb32825762ca/429TaJYnRPwQ/ky8/banner.css" media="all">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/frontend/css/style-ooeg.css"><noscript><link rel="stylesheet" href="/frontend/css/nojs.css" /></noscript><link rel="icon" type="image/png" sizes="32x32" href="/frontend/assets/favicons/ooeg/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/frontend/assets/favicons/ooeg/favicon-16x16.png">
+<link rel="shortcut icon" href="/frontend/assets/favicons/ooeg/favicon.ico"><script>loadjs=function(){var l=function(){},c={},f={},u={};function o(e,n){if(e){var t=u[e];if(f[e]=n,t)for(;t.length;)t[0](e,n),t.splice(0,1)}}function s(e,n){e.call&&(e={success:e}),n.length?(e.error||l)(n):(e.success||l)(e)}function h(t,r,i,c){var o,s,e=document,n=i.async,f=(i.numRetries||0)+1,u=i.before||l,a=t.replace(/^(css|img)!/,"");c=c||0,/(^css!|\.css$)/.test(t)?(o=!0,(s=e.createElement("link")).rel="stylesheet",s.href=a):/(^img!|\.(png|gif|jpg|svg)$)/.test(t)?(s=e.createElement("img")).src=a:((s=e.createElement("script")).src=t,s.async=void 0===n||n),!(s.onload=s.onerror=s.onbeforeload=function(e){var n=e.type[0];if(o&&"hideFocus"in s)try{s.sheet.cssText.length||(n="e")}catch(e){18!=e.code&&(n="e")}if("e"==n&&(c+=1)<f)return h(t,r,i,c);r(t,n,e.defaultPrevented)})!==u(t,s)&&e.head.appendChild(s)}function t(e,n,t){var r,i;if(n&&n.trim&&(r=n),i=(r?t:n)||{},r){if(r in c)throw"LoadJS";c[r]=!0}!function(e,r,n){var t,i,c=(e=e.push?e:[e]).length,o=c,s=[];for(t=function(e,n,t){if("e"==n&&s.push(e),"b"==n){if(!t)return;s.push(e)}--c||r(s)},i=0;i<o;i++)h(e[i],t,n)}(e,function(e){s(i,e),o(r,e)},i)}return t.ready=function(e,n){return function(e,t){e=e.push?e:[e];var n,r,i,c=[],o=e.length,s=o;for(n=function(e,n){n.length&&c.push(e),--s||t(c)};o--;)r=e[o],(i=f[r])?n(r,i):(u[r]=u[r]||[]).push(n)}(e,function(e){s(n,e)}),t},t.done=function(e){o(e,[])},t.reset=function(){c={},f={},u={}},t.isDefined=function(e){return e in c},t}();</script>
+<link rel="canonical" href="https://www.ooeg.at/"/>
+
+</head>
+<body class="page-1 language-0 languagecontent-0 level-0 template-special">
+
+
+<div class="b-sticky-footer">
+
+  <header>
+    <div class="b-sticky-footer__content">
+      <div class="container-fluid">
+        <div class="navbar-wrapper">
+          <ul class="nav skiplinks">
+            
+                <li><a href="/" accesskey="0" tabindex="0">Startseite</a></li>
+                <li><a href="#mainmenu" accesskey="1">Hauptnavigation</a></li>
+                <li><a href="#content-inner" accesskey="2">Inhalt</a></li>
+                <li><a href="/service/suche" accesskey="3">Suche</a>
+                </li>
+              
+          </ul>
+          <div id="navbar-above" class="hidden-nojs collapse">
+            <div class="container">
+              <section>
+  <a id="c43"></a>
+	<div class="container">
+		
+				
+	<div class="row row-modern-vertical-stretch padding-top-large padding-bottom-middle">
+		<div class="col-md-3 btn-bottom-container margin-bottom-middle">
+			
+    
+        
+                
+                        <div class="h3 margin-bottom-small">
+                            <strong class="text-primary">Oberösterreichische Gesundheitsholding</strong>
+                        </div>
+                    
+            
+    
+
+	
+		<div class="h4 margin-top-0">
+			Wohnortnahe medizinische Versorgung
+    </div>
+	
+	
+
+		</div>
+
+		<div class="col-md-9 map">
+			<div class="row">
+				<div class="col-sm-8 margin-bottom-middle">
+					
+	<div class="map-image" aria-label="Karte der Standorte">
+		
+			<img src="/fileadmin/media/allg/OOE_Karte_transparent.png" class="full-width" width="0" height="0" alt="Landkarte OÖ">
+		
+
+		
+			
+				
+			
+				
+
+					
+							<a class="marker marker-primary" href="/ooe-gesundheitsholding" style="left: 68%; top: 37%;" data-group="259" title="Unternehmensleitung" target="_top" aria-labelledby="link-uid-259"></a>
+						
+				
+			
+		
+			
+				
+			
+				
+
+					
+							<a class="marker marker-red" href="https://www.kepleruniklinikum.at/" style="left: 63%; top: 38%;" data-group="328" title="Kepler Universitätsklinikum" target="_blank" aria-labelledby="link-uid-328"></a>
+						
+				
+			
+				
+
+					
+							<a class="marker marker-primary" href="/sk" style="left: 39%; top: 57%;" data-group="10" title="Salzkammergut  Klinikum" target="_top" aria-labelledby="link-uid-10"></a>
+						
+				
+			
+				
+
+					
+							<a class="marker marker-primary" href="/sk" style="left: 46%; top: 64%;" data-group="10" title="Salzkammergut Klinikum" target="_top" aria-labelledby="link-uid-10"></a>
+						
+				
+			
+				
+
+					
+							<a class="marker marker-primary" href="/sk" style="left: 39%; top: 77%;" data-group="10" title="Salzkammergut Klinikum" target="_top" aria-labelledby="link-uid-10"></a>
+						
+				
+			
+				
+			
+				
+
+					
+							<a class="marker marker-primary" href="/pek/sr" style="left: 76%; top: 54%;" data-group="408" title="Pyhrn-Eisenwurzen Klinikum Steyr" target="_top" aria-labelledby="link-uid-408"></a>
+						
+				
+			
+				
+
+					
+							<a class="marker marker-primary" href="/pek/ki" style="left: 64%; top: 64%;" data-group="408" title="Pyhrn-Eisenwurzen Klinikum Kirchdorf" target="_top" aria-labelledby="link-uid-408"></a>
+						
+				
+			
+				
+
+					
+							<a class="marker marker-primary" href="/fr" style="left: 78%; top: 23%;" data-group="1" title="Klinikum Freistadt" target="_top" aria-labelledby="link-uid-1"></a>
+						
+				
+			
+				
+
+					
+							<a class="marker marker-primary" href="/ro" style="left: 55%; top: 20%;" data-group="7" title="Klinikum Rohrbach" target="_top" aria-labelledby="link-uid-7"></a>
+						
+				
+			
+				
+
+					
+							<a class="marker marker-primary" href="/sd" style="left: 31%; top: 29%;" data-group="8" title="Klinikum Schärding" target="_top" aria-labelledby="link-uid-8"></a>
+						
+				
+			
+		
+			
+				
+			
+				
+
+					
+							<a class="marker marker-green" href="https://www.lpbz-ooeg.at/christkindl" style="left: 74%; top: 58%;" data-group="314" title="Christkindl" target="_blank" aria-labelledby="link-uid-314"></a>
+						
+				
+			
+				
+
+					
+							<a class="marker marker-green" href="https://www.lpbz-ooeg.at/schloss-cumberland" style="left: 51%; top: 64%;" data-group="315" title="Schloss Cumberland" target="_blank" aria-labelledby="link-uid-315"></a>
+						
+				
+			
+				
+
+					
+							<a class="marker marker-green" href="https://www.lpbz-ooeg.at/schloss-gschwendt" style="left: 61%; top: 51%;" data-group="316" title="Schloss Gschwendt" target="_blank" aria-labelledby="link-uid-316"></a>
+						
+				
+			
+				
+
+					
+							<a class="marker marker-green" href="https://www.lpbz-ooeg.at/schloss-haus" style="left: 78%; top: 34%;" data-group="317" title="Schloss Haus" target="_blank" aria-labelledby="link-uid-317"></a>
+						
+				
+			
+		
+			
+				
+			
+				
+
+					
+							<a class="marker marker-primary" href="https://lkv.ooeg.at/" style="left: 65%; top: 34%;" data-group="474" title="LKV Krankenhaus Errichtungs- und Vermietungs-GmbH" target="_blank" aria-labelledby="link-uid-474"></a>
+						
+				
+			
+		
+			
+				
+			
+				
+
+					
+							<a class="marker marker-primary" href="https://sim.ooeg.at/" style="left: 66%; top: 41%;" data-group="514" title="Medizinisches Simulations- und Trainingszentrum OÖ GmbH" target="_blank" aria-labelledby="link-uid-514"></a>
+						
+				
+			
+		
+			
+				
+			
+				
+
+					
+							<a class="marker marker-default" href="https://www.rehaklinikenns.at/" style="left: 77%; top: 43%;" data-group="13" title="Rehaklinik Enns" target="_blank" aria-labelledby="link-uid-13"></a>
+						
+				
+			
+				
+
+					
+							<a class="marker marker-default" href="https://www.ntgb.at/" style="left: 42%; top: 65%;" data-group="14" title="Neurologisches Therapiezentrum Gmundnerberg" target="_blank" aria-labelledby="link-uid-14"></a>
+						
+				
+			
+				
+
+					
+							<a class="marker marker-default" href="https://kokon.rehab" style="left: 51%; top: 19%;" data-group="313" title="Kinder-Reha Rohrbach-Berg " target="_blank" aria-labelledby="link-uid-313"></a>
+						
+				
+			
+		
+	</div>
+
+				</div>
+				<div class="col-sm-4 margin-bottom-middle">
+					<div class="panel-group panel-group-locations">
+
+						
+							
+								<div class="panel panel-default">
+									<div class="panel-heading" id="heading0-43">
+										<a class="" role="button" data-toggle="collapse" href="#collapse0-43" aria-expanded="true" aria-controls="collapse0-43">
+											<div class="panel-title h6 h-underline">
+												<div>
+                                                    <strong class="text-primary">GESUNDHEITSHOLDING</strong>
+                                                </div>
+											</div>
+										</a>
+									</div>
+									<div id="collapse0-43" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading0-43" aria-expanded="true">
+										<div class="panel-body">
+											<ul class="map-list list-separated">
+												
+													
+												
+													
+														<li class="">
+															<a id="link-uid-259" class="icon icon-hover icon-arrow-68" href="/ooe-gesundheitsholding" target="_top" data-group="259">Unternehmensleitung</a>
+														</li>
+													
+												
+											</ul>
+										</div>
+									</div>
+								</div>
+							
+						
+							
+								<div class="panel panel-default">
+									<div class="panel-heading" id="heading1-43">
+										<a class="" role="button" data-toggle="collapse" href="#collapse1-43" aria-expanded="true" aria-controls="collapse1-43">
+											<div class="panel-title h6 h-underline">
+												<div>
+                                                    <strong class="text-primary">KLINIKEN</strong>
+                                                </div>
+											</div>
+										</a>
+									</div>
+									<div id="collapse1-43" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1-43" aria-expanded="true">
+										<div class="panel-body">
+											<ul class="map-list list-separated">
+												
+													
+												
+													
+														<li class="">
+															<a id="link-uid-328" class="icon icon-hover icon-arrow-68" href="https://www.kepleruniklinikum.at/" target="_blank" data-group="328">Kepler Universitätsklinikum</a>
+														</li>
+													
+												
+													
+														<li class="">
+															<a id="link-uid-10" class="icon icon-hover icon-arrow-68" href="/sk" target="_top" data-group="10">Salzkammergut  Klinikum</a>
+														</li>
+													
+												
+													
+												
+													
+												
+													
+														<li class="">
+															<a id="link-uid-408" class="icon icon-hover icon-arrow-68" href="/pek" target="_top" data-group="408">Pyhrn-Eisenwurzen Klinikum</a>
+														</li>
+													
+												
+													
+												
+													
+												
+													
+														<li class="">
+															<a id="link-uid-1" class="icon icon-hover icon-arrow-68" href="/fr" target="_top" data-group="1">Klinikum Freistadt</a>
+														</li>
+													
+												
+													
+														<li class="">
+															<a id="link-uid-7" class="icon icon-hover icon-arrow-68" href="/ro" target="_top" data-group="7">Klinikum Rohrbach</a>
+														</li>
+													
+												
+													
+														<li class="">
+															<a id="link-uid-8" class="icon icon-hover icon-arrow-68" href="/sd" target="_top" data-group="8">Klinikum Schärding</a>
+														</li>
+													
+												
+											</ul>
+										</div>
+									</div>
+								</div>
+							
+						
+							
+								<div class="panel panel-default">
+									<div class="panel-heading" id="heading2-43">
+										<a class="collapsed" role="button" data-toggle="collapse" href="#collapse2-43" aria-expanded="false" aria-controls="collapse2-43">
+											<div class="panel-title h6 h-underline">
+												<div>
+                                                    <strong class="text-primary">LANDESPFLEGE- UND BETREUUNGSZENTREN</strong>
+                                                </div>
+											</div>
+										</a>
+									</div>
+									<div id="collapse2-43" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2-43" aria-expanded="false">
+										<div class="panel-body">
+											<ul class="map-list list-separated">
+												
+													
+												
+													
+														<li class="">
+															<a id="link-uid-314" class="icon icon-hover icon-arrow-68" href="https://www.lpbz-ooeg.at/christkindl" target="_blank" data-group="314">Christkindl</a>
+														</li>
+													
+												
+													
+														<li class="">
+															<a id="link-uid-315" class="icon icon-hover icon-arrow-68" href="https://www.lpbz-ooeg.at/schloss-cumberland" target="_blank" data-group="315">Schloss Cumberland</a>
+														</li>
+													
+												
+													
+														<li class="">
+															<a id="link-uid-316" class="icon icon-hover icon-arrow-68" href="https://www.lpbz-ooeg.at/schloss-gschwendt" target="_blank" data-group="316">Schloss Gschwendt</a>
+														</li>
+													
+												
+													
+														<li class="">
+															<a id="link-uid-317" class="icon icon-hover icon-arrow-68" href="https://www.lpbz-ooeg.at/schloss-haus" target="_blank" data-group="317">Schloss Haus</a>
+														</li>
+													
+												
+											</ul>
+										</div>
+									</div>
+								</div>
+							
+						
+							
+								<div class="panel panel-default">
+									<div class="panel-heading" id="heading3-43">
+										<a class="collapsed" role="button" data-toggle="collapse" href="#collapse3-43" aria-expanded="true" aria-controls="collapse3-43">
+											<div class="panel-title h6 h-underline">
+												<div>
+                                                    <strong class="text-primary">LKV</strong>
+                                                </div>
+											</div>
+										</a>
+									</div>
+									<div id="collapse3-43" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3-43" aria-expanded="true">
+										<div class="panel-body">
+											<ul class="map-list list-separated">
+												
+													
+												
+													
+														<li class="">
+															<a id="link-uid-474" class="icon icon-hover icon-arrow-68" href="https://lkv.ooeg.at/" target="_blank" data-group="474">LKV Krankenhaus Errichtungs- und Vermietungs-GmbH</a>
+														</li>
+													
+												
+											</ul>
+										</div>
+									</div>
+								</div>
+							
+						
+							
+								<div class="panel panel-default">
+									<div class="panel-heading" id="heading4-43">
+										<a class="collapsed" role="button" data-toggle="collapse" href="#collapse4-43" aria-expanded="true" aria-controls="collapse4-43">
+											<div class="panel-title h6 h-underline">
+												<div>
+                                                    <strong class="text-primary">SIM-Zentrum</strong>
+                                                </div>
+											</div>
+										</a>
+									</div>
+									<div id="collapse4-43" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4-43" aria-expanded="true">
+										<div class="panel-body">
+											<ul class="map-list list-separated">
+												
+													
+												
+													
+														<li class="">
+															<a id="link-uid-514" class="icon icon-hover icon-arrow-68" href="https://sim.ooeg.at/" target="_blank" data-group="514">Medizinisches Simulations- und Trainingszentrum OÖ GmbH</a>
+														</li>
+													
+												
+											</ul>
+										</div>
+									</div>
+								</div>
+							
+						
+							
+								<div class="panel panel-default">
+									<div class="panel-heading" id="heading5-43">
+										<a class="collapsed" role="button" data-toggle="collapse" href="#collapse5-43" aria-expanded="true" aria-controls="collapse5-43">
+											<div class="panel-title h6 h-underline">
+												<div>
+                                                    <strong class="text-primary">REHA-ZENTREN</strong>
+                                                </div>
+											</div>
+										</a>
+									</div>
+									<div id="collapse5-43" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5-43" aria-expanded="true">
+										<div class="panel-body">
+											<ul class="map-list list-separated">
+												
+													
+												
+													
+														<li class="">
+															<a id="link-uid-13" class="icon icon-hover icon-arrow-68" href="https://www.rehaklinikenns.at/" target="_blank" data-group="13">Rehaklinik Enns</a>
+														</li>
+													
+												
+													
+														<li class="">
+															<a id="link-uid-14" class="icon icon-hover icon-arrow-68" href="https://www.ntgb.at/" target="_blank" data-group="14">Neurologisches Therapiezentrum Gmundnerberg</a>
+														</li>
+													
+												
+													
+														<li class="">
+															<a id="link-uid-313" class="icon icon-hover icon-arrow-68" href="https://kokon.rehab" target="_blank" data-group="313">Kinder-Reha Rohrbach-Berg </a>
+														</li>
+													
+												
+											</ul>
+										</div>
+									</div>
+								</div>
+							
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+			
+	</div>
+</section>
+
+
+
+
+
+
+
+
+
+            </div>
+          </div>
+          <div class="navbar navbar-default navbar-static-top">
+            <div class="navbar-header">
+              <a href="/" class="navbar-brand margin-right-middle"><img src="/fileadmin/media/allg/ooeg.svg" width="290" height="164"  class="hidden-lg"  alt="Oberösterreichische Gesundheitsholding GmbH - zur Startseite" ><img src="/fileadmin/media/allg/ooeg-mit-subline.svg" width="290" height="164"  class="visible-lg"  alt="Oberösterreichische Gesundheitsholding GmbH - zur Startseite" ></a>
+              <div class="d-flex justify-content-end">
+                
+                 <div class="socialmenu hotline">
+                  <div class="sidemenu">
+                    <div class="sidemenu-item dropdown">
+                      <button class="social-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="icon icon-call-1 social-icon hotline-icon padding-left-small padding-right-small" aria-hidden="true">1450</div>
+                        <div class="social-label">Gesundheitsberatung</div>
+                      </button>
+                      <div class="dropdown-menu hotline-dropdown-menu">
+                        <div class="hotline-content">
+                          <strong>Für all Ihre Gesundheitsfragen - rund um die Uhr kostenlos:</strong>
+                          Ob bei Schmerzen, Fragen zu Medikamenten, Unsicherheit, ob ein Krankenhausbesuch notwendig ist, oder wenn Sie Ihren Arzt/Ihre Ärztin nicht erreichen:
+                          <strong>Wählen Sie zuerst 1450!</strong>
+                          <a href="tel:1450" class="btn btn-primary btn-sm margin-top-small">1450 Die Gesundheitsberatung rund um die Uhr</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <a href="#navbar-collapse" class="navbar-toggle collapsed" data-toggle="collapse" aria-expanded="false"
+                   aria-label="Navigation ein-/ausblenden">
+                  <span class="icon-bar" tabindex="-1" aria-hidden="true"></span>
+                  <span class="icon-bar" tabindex="-1" aria-hidden="true"></span>
+                  <span class="icon-bar" tabindex="-1" aria-hidden="true"></span>
+                </a>
+              </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+              <nav class="meta" aria-label="Meta">
+                <ul class="nav navbar-nav">
+                  
+                  <li><a href="/">OOEG</a></li><li><a href="/patientenorientierung">Patientenorientierung</a></li><li><a href="/service/presse/pressesprecherinnen">Presse</a></li><li><a href="/service/kontakt">Kontakt</a></li>
+                </ul>
+
+                <form class="navbar-form search-form dropdown" role="search"
+                      action="/service/suche"
+                      method="get">
+                  
+                    <div class="form-group search-group"
+                         data-toggle="dropdown"
+                         data-trigger="search">
+                      <label class="sr-only" for="search">Suche</label>
+                      <input type="search"
+                             name="tx_solr[q]"
+                             class="form-control input-sm"
+                             id="search"
+                             placeholder="SUCHE...">
+                      <span class="input-group-btn">
+                                          <button class="btn btn-sm btn-default" type="submit">
+                                             <span class="icon icon-magnifier" aria-hidden="true"></span>
+                                             <span class="sr-only">Suche absenden</span>
+                                          </button>
+                                       </span>
+                    </div>
+                    
+                      <a class="btn btn-sm collapsed hidden-nojs" href="#navbar-above" data-toggle="collapse">
+                        <span class="icon icon-location icon-inline"></span> Standorteübersicht <span
+                              class="icon icon-arrow icon-inline"></span>
+                      </a>
+                    
+                    
+
+                  
+
+                  <div class="dropdown-menu search-suggest" data-search="/service/suche?type=461592202"></div>
+                </form>
+
+              </nav>
+              <nav id="mainmenu" aria-label="Haupt">
+                <ul class="nav navbar-nav navbar-nav-justified">
+                  <li class="dropdown dropdown-mega"><a href="/standorte" data-title="Standorte" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="icon icon-location" aria-hidden="true"></span>Standorte</a><div class="dropdown-menu"><div class="container columns columns-2-sm columns-3-lg"><div class="h4 hidden-xs">Standorte</div><ul class="nav"><li><a href="https://www.kepleruniklinikum.at/" target="_blank" rel="noreferrer">Kepler Universitätsklinikum</a></li><li><a href="/sk">Salzkammergut Klinikum</a></li><li><a href="/pek">Pyhrn-Eisenwurzen Klinikum</a></li><li><a href="/fr">Klinikum Freistadt</a></li><li><a href="/ro">Klinikum Rohrbach</a></li><li><a href="/sd">Klinikum Schärding</a></li></ul></div></div></li><li><a href="/ooe-gesundheitsholding" data-title="OÖ Gesundheitsholding"><span class="icon icon-gespag" aria-hidden="true"></span>OÖ Gesundheitsholding</a></li><li><a href="/zuweiser" data-title="Zuweiser"><span class="icon icon-physician" aria-hidden="true"></span>Zuweiser</a></li><li><a href="/bildung" data-title="Bildung"><span class="icon icon-education" aria-hidden="true"></span>Bildung</a></li><li><a href="/karriere" data-title="Jobs / Karriere"><span class="icon icon-career" aria-hidden="true"></span>Jobs / Karriere</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="content" class="b-sticky-footer__content">
+      <div class="container-fluid sections-even">
+        
+          <section id="section-header">
+            
+              
+                  <!--Slider-->
+                  <div id="carousel" class="carousel slide" data-ride="stoppable-carousel">
+                    <ol class="carousel-indicators">
+                      
+                        <li data-target="#carousel" data-slide-to="0"
+                            class="active">
+                          <span class="sr-only">Mach das Training für den Aufnahmetest zum Medizinstudium</span>
+                          <span class="sr-only">MedAT-H Vorbereitungs&shy;kurse</span>
+                        </li>
+                      
+                        <li data-target="#carousel" data-slide-to="1"
+                            class="">
+                          <span class="sr-only">Lesen Sie jetzt unser Gesundheitsmagazin Visite</span>
+                          <span class="sr-only">Thema: Gesund und gut versorgt im Alter</span>
+                        </li>
+                      
+                        <li data-target="#carousel" data-slide-to="2"
+                            class="">
+                          <span class="sr-only">Mitarbeiter/in, Expert/in, Mensch</span>
+                          <span class="sr-only">Inspirierende Persönlich&shy;keiten aus der OÖG</span>
+                        </li>
+                      
+                        <li data-target="#carousel" data-slide-to="3"
+                            class="">
+                          <span class="sr-only">Wir sind für Sie da!</span>
+                          <span class="sr-only">Willkommen in der OÖ Gesundheits&shy;holding</span>
+                        </li>
+                      
+                        <li data-target="#carousel" data-slide-to="4"
+                            class="">
+                          <span class="sr-only">Schulen für Gesundheits- und Krankenpflege</span>
+                          <span class="sr-only">Jetzt über Pflege&shy;ausbildungen informieren!</span>
+                        </li>
+                      
+                        <li data-target="#carousel" data-slide-to="5"
+                            class="">
+                          <span class="sr-only">Geburt in der Oberösterreichischen Gesundheitsholding</span>
+                          <span class="sr-only">Willkommen im Leben</span>
+                        </li>
+                      
+                    </ol>
+                    <div class="carousel-buttons">
+                      <a href="#" class="btn btn-default" data-play>
+                        <span class="glyphicon glyphicon-play"></span>
+                        <span class="sr-only">Play</span>
+                      </a>
+                      <a href="#" class="btn btn-default" data-pause>
+                        <span class="glyphicon glyphicon-pause"></span>
+                        <span class="sr-only">Pause</span>
+                      </a>
+                    </div>
+                    <a class="left carousel-control" href="#carousel" data-slide="prev" aria-label="Vorherige Folie" role="button">
+                      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel" data-slide="next" aria-label="Nächste Folie" role="button">
+                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    </a>
+                    <div class="carousel-inner">
+                      
+                        <div class="item active">
+                          <img class="full-width" src="/fileadmin/_processed_/0/0/csm_Medizin_Studieren_Slider_537ddde585.jpg" width="1600" height="640" alt="Slider mit der Aufschrift &quot;Du willst  Medizin studieren?&quot;" title="Mach das Training für den Aufnahmetest zum Medizinstudium" />
+
+                          <div class="carousel-caption bg-primary-image vertical-center">
+                            <div class="text-uppercase">
+                              Mach das Training für den Aufnahmetest zum Medizinstudium
+                              
+                                <div class="h1">
+                                  <strong>MedAT-H Vorbereitungs&shy;kurse</strong>
+                                </div>
+                              
+                              
+                                <a href="/bildung/akademie/medat-h-vorbereitungskurse" class="btn btn-white-outline">
+                                  Mehr erfahren
+                                </a>
+                              
+                            </div>
+                          </div>
+
+                        </div>
+                      
+                        <div class="item ">
+                          <img class="full-width" src="/fileadmin/media/ooeg/visite/Slider_Visite.jpg" width="1600" height="640" alt="Ärztin mit hält Gerhirnmodell und Patientenmagazin in der Hand" title="Lesen Sie jetzt unser Gesundheitsmagazin Visite" />
+
+                          <div class="carousel-caption bg-primary-image vertical-center">
+                            <div class="text-uppercase">
+                              Lesen Sie jetzt unser Gesundheitsmagazin Visite
+                              
+                                <div class="h1">
+                                  <strong>Thema: Gesund und gut versorgt im Alter</strong>
+                                </div>
+                              
+                              
+                                <a href="/visite" class="btn btn-white-outline">
+                                  Mehr erfahren
+                                </a>
+                              
+                            </div>
+                          </div>
+
+                        </div>
+                      
+                        <div class="item ">
+                          <img class="full-width" src="/fileadmin/media/ooeg/Imagebilder_Slider/MitarbeiterIn.ExpertIn.Mensch_SLIDER.jpg" width="1600" height="640" alt="Florian Kirchmayr bei der Arbeit in der Haustechnik und in vollständiger Tauchausrüstung auf einer Treppe im Wasser neben einem Betonsteg." title="Mitarbeiter/in, Expert/in, Mensch" />
+
+                          <div class="carousel-caption bg-primary-image vertical-center">
+                            <div class="text-uppercase">
+                              Mitarbeiter/in, Expert/in, Mensch
+                              
+                                <div class="h1">
+                                  <strong>Inspirierende Persönlich&shy;keiten aus der OÖG</strong>
+                                </div>
+                              
+                              
+                                <a href="/mitarbeiterin-expertin-mensch" class="btn btn-white-outline">
+                                  Mehr erfahren
+                                </a>
+                              
+                            </div>
+                          </div>
+
+                        </div>
+                      
+                        <div class="item ">
+                          <img class="full-width" src="/fileadmin/media/ooeg/Imagebilder_Slider/Dialyse_Patientin.jpg" width="1600" height="640" alt="Dialyse Patientin und Pflegefachkraft schauen sich lächelnd an" title="Wir sind für Sie da!" />
+
+                          <div class="carousel-caption bg-primary-image vertical-center">
+                            <div class="text-uppercase">
+                              Wir sind für Sie da!
+                              
+                                <div class="h1">
+                                  <strong>Willkommen in der OÖ Gesundheits&shy;holding</strong>
+                                </div>
+                              
+                              
+                            </div>
+                          </div>
+
+                        </div>
+                      
+                        <div class="item ">
+                          <img class="full-width" src="/fileadmin/media/Schulen/Imagebilder_Slider/Slider-SCHULE.jpg" width="1600" height="640" alt="Pflegerinnen und Pfleger, Krankenhauspersonal" title="Schulen für Gesundheits- und Krankenpflege" />
+
+                          <div class="carousel-caption bg-primary-image vertical-center">
+                            <div class="text-uppercase">
+                              Schulen für Gesundheits- und Krankenpflege
+                              
+                                <div class="h1">
+                                  <strong>Jetzt über Pflege&shy;ausbildungen informieren!</strong>
+                                </div>
+                              
+                              
+                                <a href="/bildung/ausbildung-pflegeberufe" class="btn btn-white-outline">
+                                  Mehr erfahren
+                                </a>
+                              
+                            </div>
+                          </div>
+
+                        </div>
+                      
+                        <div class="item ">
+                          <img class="full-width" src="/fileadmin/_processed_/a/f/csm_Kinder_7181180ef9.jpg" width="1600" height="640" alt="Kinderarzt untersucht Baby" title="Geburt in der Oberösterreichischen Gesundheitsholding" />
+
+                          <div class="carousel-caption bg-primary-image vertical-center">
+                            <div class="text-uppercase">
+                              Geburt in der Oberösterreichischen Gesundheitsholding
+                              
+                                <div class="h1">
+                                  <strong>Willkommen im Leben</strong>
+                                </div>
+                              
+                              
+                            </div>
+                          </div>
+
+                        </div>
+                      
+                    </div>
+                  </div>
+                
+            
+          </section>
+        
+        
+        <div id="content-inner">
+          
+
+	<!--TYPO3SEARCH_begin--><section>
+  <a id="c32"></a>
+	<div class="container">
+		
+				
+	<div class="row row-modern-vertical-stretch padding-top-large padding-bottom-middle">
+		<div class="col-md-3 btn-bottom-container margin-bottom-middle">
+			
+    
+        
+                
+                        
+                                <h1 class="h3 margin-bottom-small">
+                                    <strong class="text-primary">Oberösterreichische Gesundheitsholding</strong>
+                                </h1>
+                            
+                    
+            
+    
+
+	
+		<div class="h4 margin-top-0">
+			Wohnortnahe medizinische Versorgung
+    </div>
+	
+	
+
+		</div>
+
+		<div class="col-md-9 map">
+			<div class="row">
+				<div class="col-sm-8 margin-bottom-middle">
+					
+	<div class="map-image" aria-label="Karte der Standorte">
+		
+			<img src="/fileadmin/media/allg/OOE_Karte_transparent.png" class="full-width" width="0" height="0" alt="Landkarte OÖ">
+		
+
+		
+			
+				
+			
+				
+
+					
+							<a class="marker marker-primary" href="/ooe-gesundheitsholding" style="left: 68%; top: 37%;" data-group="259" title="Unternehmensleitung" target="_top" aria-labelledby="link-uid-259"></a>
+						
+				
+			
+		
+			
+				
+			
+				
+
+					
+							<a class="marker marker-red" href="https://www.kepleruniklinikum.at/" style="left: 63%; top: 38%;" data-group="328" title="Kepler Universitätsklinikum" target="_blank" aria-labelledby="link-uid-328"></a>
+						
+				
+			
+				
+
+					
+							<a class="marker marker-primary" href="/sk" style="left: 39%; top: 57%;" data-group="10" title="Salzkammergut  Klinikum" target="_top" aria-labelledby="link-uid-10"></a>
+						
+				
+			
+				
+
+					
+							<a class="marker marker-primary" href="/sk" style="left: 46%; top: 64%;" data-group="10" title="Salzkammergut Klinikum" target="_top" aria-labelledby="link-uid-10"></a>
+						
+				
+			
+				
+
+					
+							<a class="marker marker-primary" href="/sk" style="left: 39%; top: 77%;" data-group="10" title="Salzkammergut Klinikum" target="_top" aria-labelledby="link-uid-10"></a>
+						
+				
+			
+				
+			
+				
+
+					
+							<a class="marker marker-primary" href="/pek/sr" style="left: 76%; top: 54%;" data-group="408" title="Pyhrn-Eisenwurzen Klinikum Steyr" target="_top" aria-labelledby="link-uid-408"></a>
+						
+				
+			
+				
+
+					
+							<a class="marker marker-primary" href="/pek/ki" style="left: 64%; top: 64%;" data-group="408" title="Pyhrn-Eisenwurzen Klinikum Kirchdorf" target="_top" aria-labelledby="link-uid-408"></a>
+						
+				
+			
+				
+
+					
+							<a class="marker marker-primary" href="/fr" style="left: 78%; top: 23%;" data-group="1" title="Klinikum Freistadt" target="_top" aria-labelledby="link-uid-1"></a>
+						
+				
+			
+				
+
+					
+							<a class="marker marker-primary" href="/ro" style="left: 55%; top: 20%;" data-group="7" title="Klinikum Rohrbach" target="_top" aria-labelledby="link-uid-7"></a>
+						
+				
+			
+				
+
+					
+							<a class="marker marker-primary" href="/sd" style="left: 31%; top: 29%;" data-group="8" title="Klinikum Schärding" target="_top" aria-labelledby="link-uid-8"></a>
+						
+				
+			
+		
+			
+				
+			
+				
+
+					
+							<a class="marker marker-green" href="https://www.lpbz-ooeg.at/christkindl" style="left: 74%; top: 58%;" data-group="314" title="Christkindl" target="_blank" aria-labelledby="link-uid-314"></a>
+						
+				
+			
+				
+
+					
+							<a class="marker marker-green" href="https://www.lpbz-ooeg.at/schloss-cumberland" style="left: 51%; top: 64%;" data-group="315" title="Schloss Cumberland" target="_blank" aria-labelledby="link-uid-315"></a>
+						
+				
+			
+				
+
+					
+							<a class="marker marker-green" href="https://www.lpbz-ooeg.at/schloss-gschwendt" style="left: 61%; top: 51%;" data-group="316" title="Schloss Gschwendt" target="_blank" aria-labelledby="link-uid-316"></a>
+						
+				
+			
+				
+
+					
+							<a class="marker marker-green" href="https://www.lpbz-ooeg.at/schloss-haus" style="left: 78%; top: 34%;" data-group="317" title="Schloss Haus" target="_blank" aria-labelledby="link-uid-317"></a>
+						
+				
+			
+		
+			
+				
+			
+				
+
+					
+							<a class="marker marker-primary" href="https://lkv.ooeg.at/" style="left: 65%; top: 34%;" data-group="474" title="LKV Krankenhaus Errichtungs- und Vermietungs-GmbH" target="_blank" aria-labelledby="link-uid-474"></a>
+						
+				
+			
+		
+			
+				
+			
+				
+
+					
+							<a class="marker marker-primary" href="https://sim.ooeg.at/" style="left: 66%; top: 41%;" data-group="514" title="Medizinisches Simulations- und Trainingszentrum OÖ GmbH" target="_blank" aria-labelledby="link-uid-514"></a>
+						
+				
+			
+		
+			
+				
+			
+				
+
+					
+							<a class="marker marker-default" href="https://www.rehaklinikenns.at/" style="left: 77%; top: 43%;" data-group="13" title="Rehaklinik Enns" target="_blank" aria-labelledby="link-uid-13"></a>
+						
+				
+			
+				
+
+					
+							<a class="marker marker-default" href="https://www.ntgb.at/" style="left: 42%; top: 65%;" data-group="14" title="Neurologisches Therapiezentrum Gmundnerberg" target="_blank" aria-labelledby="link-uid-14"></a>
+						
+				
+			
+				
+
+					
+							<a class="marker marker-default" href="https://kokon.rehab" style="left: 51%; top: 19%;" data-group="313" title="Kinder-Reha Rohrbach-Berg " target="_blank" aria-labelledby="link-uid-313"></a>
+						
+				
+			
+		
+	</div>
+
+				</div>
+				<div class="col-sm-4 margin-bottom-middle">
+					<div class="panel-group panel-group-locations">
+
+						
+							
+								<div class="panel panel-default">
+									<div class="panel-heading" id="heading0-32">
+										<a class="" role="button" data-toggle="collapse" href="#collapse0-32" aria-expanded="true" aria-controls="collapse0-32">
+											<div class="panel-title h6 h-underline">
+												<div>
+                                                    <strong class="text-primary">GESUNDHEITSHOLDING</strong>
+                                                </div>
+											</div>
+										</a>
+									</div>
+									<div id="collapse0-32" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading0-32" aria-expanded="true">
+										<div class="panel-body">
+											<ul class="map-list list-separated">
+												
+													
+												
+													
+														<li class="">
+															<a id="link-uid-259" class="icon icon-hover icon-arrow-68" href="/ooe-gesundheitsholding" target="_top" data-group="259">Unternehmensleitung</a>
+														</li>
+													
+												
+											</ul>
+										</div>
+									</div>
+								</div>
+							
+						
+							
+								<div class="panel panel-default">
+									<div class="panel-heading" id="heading1-32">
+										<a class="" role="button" data-toggle="collapse" href="#collapse1-32" aria-expanded="true" aria-controls="collapse1-32">
+											<div class="panel-title h6 h-underline">
+												<div>
+                                                    <strong class="text-primary">KLINIKEN</strong>
+                                                </div>
+											</div>
+										</a>
+									</div>
+									<div id="collapse1-32" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1-32" aria-expanded="true">
+										<div class="panel-body">
+											<ul class="map-list list-separated">
+												
+													
+												
+													
+														<li class="">
+															<a id="link-uid-328" class="icon icon-hover icon-arrow-68" href="https://www.kepleruniklinikum.at/" target="_blank" data-group="328">Kepler Universitätsklinikum</a>
+														</li>
+													
+												
+													
+														<li class="">
+															<a id="link-uid-10" class="icon icon-hover icon-arrow-68" href="/sk" target="_top" data-group="10">Salzkammergut  Klinikum</a>
+														</li>
+													
+												
+													
+												
+													
+												
+													
+														<li class="">
+															<a id="link-uid-408" class="icon icon-hover icon-arrow-68" href="/pek" target="_top" data-group="408">Pyhrn-Eisenwurzen Klinikum</a>
+														</li>
+													
+												
+													
+												
+													
+												
+													
+														<li class="">
+															<a id="link-uid-1" class="icon icon-hover icon-arrow-68" href="/fr" target="_top" data-group="1">Klinikum Freistadt</a>
+														</li>
+													
+												
+													
+														<li class="">
+															<a id="link-uid-7" class="icon icon-hover icon-arrow-68" href="/ro" target="_top" data-group="7">Klinikum Rohrbach</a>
+														</li>
+													
+												
+													
+														<li class="">
+															<a id="link-uid-8" class="icon icon-hover icon-arrow-68" href="/sd" target="_top" data-group="8">Klinikum Schärding</a>
+														</li>
+													
+												
+											</ul>
+										</div>
+									</div>
+								</div>
+							
+						
+							
+								<div class="panel panel-default">
+									<div class="panel-heading" id="heading2-32">
+										<a class="collapsed" role="button" data-toggle="collapse" href="#collapse2-32" aria-expanded="false" aria-controls="collapse2-32">
+											<div class="panel-title h6 h-underline">
+												<div>
+                                                    <strong class="text-primary">LANDESPFLEGE- UND BETREUUNGSZENTREN</strong>
+                                                </div>
+											</div>
+										</a>
+									</div>
+									<div id="collapse2-32" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2-32" aria-expanded="false">
+										<div class="panel-body">
+											<ul class="map-list list-separated">
+												
+													
+												
+													
+														<li class="">
+															<a id="link-uid-314" class="icon icon-hover icon-arrow-68" href="https://www.lpbz-ooeg.at/christkindl" target="_blank" data-group="314">Christkindl</a>
+														</li>
+													
+												
+													
+														<li class="">
+															<a id="link-uid-315" class="icon icon-hover icon-arrow-68" href="https://www.lpbz-ooeg.at/schloss-cumberland" target="_blank" data-group="315">Schloss Cumberland</a>
+														</li>
+													
+												
+													
+														<li class="">
+															<a id="link-uid-316" class="icon icon-hover icon-arrow-68" href="https://www.lpbz-ooeg.at/schloss-gschwendt" target="_blank" data-group="316">Schloss Gschwendt</a>
+														</li>
+													
+												
+													
+														<li class="">
+															<a id="link-uid-317" class="icon icon-hover icon-arrow-68" href="https://www.lpbz-ooeg.at/schloss-haus" target="_blank" data-group="317">Schloss Haus</a>
+														</li>
+													
+												
+											</ul>
+										</div>
+									</div>
+								</div>
+							
+						
+							
+								<div class="panel panel-default">
+									<div class="panel-heading" id="heading3-32">
+										<a class="collapsed" role="button" data-toggle="collapse" href="#collapse3-32" aria-expanded="true" aria-controls="collapse3-32">
+											<div class="panel-title h6 h-underline">
+												<div>
+                                                    <strong class="text-primary">LKV</strong>
+                                                </div>
+											</div>
+										</a>
+									</div>
+									<div id="collapse3-32" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3-32" aria-expanded="true">
+										<div class="panel-body">
+											<ul class="map-list list-separated">
+												
+													
+												
+													
+														<li class="">
+															<a id="link-uid-474" class="icon icon-hover icon-arrow-68" href="https://lkv.ooeg.at/" target="_blank" data-group="474">LKV Krankenhaus Errichtungs- und Vermietungs-GmbH</a>
+														</li>
+													
+												
+											</ul>
+										</div>
+									</div>
+								</div>
+							
+						
+							
+								<div class="panel panel-default">
+									<div class="panel-heading" id="heading4-32">
+										<a class="collapsed" role="button" data-toggle="collapse" href="#collapse4-32" aria-expanded="true" aria-controls="collapse4-32">
+											<div class="panel-title h6 h-underline">
+												<div>
+                                                    <strong class="text-primary">SIM-Zentrum</strong>
+                                                </div>
+											</div>
+										</a>
+									</div>
+									<div id="collapse4-32" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4-32" aria-expanded="true">
+										<div class="panel-body">
+											<ul class="map-list list-separated">
+												
+													
+												
+													
+														<li class="">
+															<a id="link-uid-514" class="icon icon-hover icon-arrow-68" href="https://sim.ooeg.at/" target="_blank" data-group="514">Medizinisches Simulations- und Trainingszentrum OÖ GmbH</a>
+														</li>
+													
+												
+											</ul>
+										</div>
+									</div>
+								</div>
+							
+						
+							
+								<div class="panel panel-default">
+									<div class="panel-heading" id="heading5-32">
+										<a class="collapsed" role="button" data-toggle="collapse" href="#collapse5-32" aria-expanded="true" aria-controls="collapse5-32">
+											<div class="panel-title h6 h-underline">
+												<div>
+                                                    <strong class="text-primary">REHA-ZENTREN</strong>
+                                                </div>
+											</div>
+										</a>
+									</div>
+									<div id="collapse5-32" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5-32" aria-expanded="true">
+										<div class="panel-body">
+											<ul class="map-list list-separated">
+												
+													
+												
+													
+														<li class="">
+															<a id="link-uid-13" class="icon icon-hover icon-arrow-68" href="https://www.rehaklinikenns.at/" target="_blank" data-group="13">Rehaklinik Enns</a>
+														</li>
+													
+												
+													
+														<li class="">
+															<a id="link-uid-14" class="icon icon-hover icon-arrow-68" href="https://www.ntgb.at/" target="_blank" data-group="14">Neurologisches Therapiezentrum Gmundnerberg</a>
+														</li>
+													
+												
+													
+														<li class="">
+															<a id="link-uid-313" class="icon icon-hover icon-arrow-68" href="https://kokon.rehab" target="_blank" data-group="313">Kinder-Reha Rohrbach-Berg </a>
+														</li>
+													
+												
+											</ul>
+										</div>
+									</div>
+								</div>
+							
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+			
+	</div>
+</section>
+
+
+
+
+
+
+
+
+
+    
+
+            <div id="c33" class="frame frame-default frame-type-news_newsliststicky frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+                
+
+    
+    
+
+
+
+  <!--TYPO3SEARCH_end-->
+  
+      
+          
+  <section>
+    <div class="ellipse-gray">
+      <div class="container padding-top-large padding-bottom-large">
+        
+          <h2 class="h4 text-center">Gesundheitsholding aktuell</h2>
+        
+
+        <div class="row row-modern-vertical-stretch margin-bottom-middle">
+          
+            <div class="col-sm-6 col-md-3 box-wrapper box-wrapper-white margin-bottom-middle">
+              <div class="box">
+                
+  
+      
+        <img class="full-width" src="/fileadmin/_processed_/a/0/csm_Babyfoto_f0095f11c1.jpg" width="400" height="267" alt="Baby mit blauer Haube" />
+      
+    
+
+  <a class="content-wrapper" href="/newsuebersicht/detail/news/mehr-als-7500-baby-kamen-im-vorjahr-in-den-ooeg-kliniken-zur-welt">
+    
+      <span class="text-gray">Gesundheitsholding</span>
+      <br>
+    
+
+    
+      <span class="text-gray text-small">08.01.2026</span>
+      <br>
+    
+
+    
+        <h3 class="card-title" id="nUID-4496">Mehr als 7.500 Baby kamen im Vorjahr in den OÖG Kliniken zur Welt</h3>
+      
+  </a>
+  <div class="tools-wrapper clearfix">
+    <section class="pull-left text-uppercase link-style">
+      Weiterlesen
+    </section>
+  </div>
+
+              </div>
+            </div>
+          
+            <div class="col-sm-6 col-md-3 box-wrapper box-wrapper-white margin-bottom-middle">
+              <div class="box">
+                
+  
+      
+        <img class="full-width" src="/fileadmin/_processed_/d/7/csm_JPG_20260101_OTM0005_1_3102200825.jpg" width="400" height="267" alt="Landeshauptmann Thomas Stelzer mit den Eltern Jana und Leon und dem Team der Geburtenstation des Salzkammergut Klinikums Bad Ischl mit Oberarzt Dr. Jürgen Bleier, Doris Gschwandtner (Leitung Geburtenstation SK Bad Ischl) sowie den Hebammen Anne-Marie Neßmann und Emma Augustin (von links). " />
+      
+    
+
+  <a class="content-wrapper" href="/newsuebersicht/detail/news/wir-freuen-uns-ueber-das-neujahrsbaby-malia-ella">
+    
+      <span class="text-gray">Salzkammergut Klinikum</span>
+      <br>
+    
+
+    
+      <span class="text-gray text-small">01.01.2026</span>
+      <br>
+    
+
+    
+        <h3 class="card-title" id="nUID-4480">Wir freuen uns über das Neujahrsbaby Malia Ella!</h3>
+      
+  </a>
+  <div class="tools-wrapper clearfix">
+    <section class="pull-left text-uppercase link-style">
+      Weiterlesen
+    </section>
+  </div>
+
+              </div>
+            </div>
+          
+            <div class="col-sm-6 col-md-3 box-wrapper box-wrapper-white margin-bottom-middle">
+              <div class="box">
+                
+  
+      
+        <img class="full-width" src="/fileadmin/_processed_/c/0/csm_Notaufnahme_4114942303.jpg" width="400" height="267" alt="Blick in die Notaufnahme" />
+      
+    
+
+  <a class="content-wrapper" href="/newsuebersicht/detail/news/notaufnahmen-leben-retten-nicht-erkaeltungen-behandeln-1450-gibt-sicherheit-waehrend-der-feiertage">
+    
+      <span class="text-gray">Gesundheitsholding</span>
+      <br>
+    
+
+    
+      <span class="text-gray text-small">22.12.2025</span>
+      <br>
+    
+
+    
+        <h3 class="card-title" id="nUID-4473">Notaufnahmen – Leben retten, nicht Erkältungen behandeln:  „1450“ gibt Sicherheit während der Feiertage</h3>
+      
+  </a>
+  <div class="tools-wrapper clearfix">
+    <section class="pull-left text-uppercase link-style">
+      Weiterlesen
+    </section>
+  </div>
+
+              </div>
+            </div>
+          
+            <div class="col-sm-6 col-md-3 box-wrapper box-wrapper-white margin-bottom-middle">
+              <div class="box">
+                
+  
+      
+        <img class="full-width" src="/fileadmin/_processed_/3/4/csm_Positive_PatientInnenrueckmeldungen_3_News_Webseite_ff544aa404.jpg" width="400" height="267" alt="Bild einer Patientin" />
+      
+    
+
+  <a class="content-wrapper" href="/newsuebersicht/detail/news/worte-die-verbinden">
+    
+      <span class="text-gray">Gesundheitsholding</span>
+      <br>
+    
+
+    
+      <span class="text-gray text-small">19.12.2025</span>
+      <br>
+    
+
+    
+        <h3 class="card-title" id="nUID-4465">Worte der Anerkennung, die verbinden!</h3>
+      
+  </a>
+  <div class="tools-wrapper clearfix">
+    <section class="pull-left text-uppercase link-style">
+      Weiterlesen
+    </section>
+  </div>
+
+              </div>
+            </div>
+          
+        </div>
+
+        
+          <div class="text-center">
+            <a class="btn btn-primary-outline" href="/newsuebersicht">Zur Newsübersicht</a>
+          </div>
+        
+      </div>
+    </div>
+  </section>
+
+        
+    
+  <!--TYPO3SEARCH_begin-->
+
+
+
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+<section>
+  <a id="c34"></a>
+	<div class="container padding-top-large padding-bottom-middle">
+		
+			<h2 class="h4 text-center">Service &amp; Infos</h2>
+		
+		<div class="row row-vertical-center">
+			
+				<div class="col-sm-4 margin-bottom-middle">
+					<a href="/karriere" class="btn btn-primary btn-lg btn-block text-left">
+						<div class="row row-vertical-center row-table">
+							<div class="col-auto">
+								<span class="icon icon-id-4"></span>
+							</div>
+							<div class="col-auto">
+								Karriere-<br />
+bereich
+							</div>
+						</div>
+					</a>
+				</div>
+			
+				<div class="col-sm-4 margin-bottom-middle">
+					<a href="/bildung" class="btn btn-primary btn-lg btn-block text-left">
+						<div class="row row-vertical-center row-table">
+							<div class="col-auto">
+								<span class="icon icon-bookmark-4"></span>
+							</div>
+							<div class="col-auto">
+								Ausbildungs-<br />
+angebot
+							</div>
+						</div>
+					</a>
+				</div>
+			
+				<div class="col-sm-4 margin-bottom-middle">
+					<a href="/ueberblick-wartezeiten-operationstermine" class="btn btn-primary btn-lg btn-block text-left">
+						<div class="row row-vertical-center row-table">
+							<div class="col-auto">
+								<span class="icon icon-pulse-graph-3"></span>
+							</div>
+							<div class="col-auto">
+								Wartezeiten OP-Termine
+							</div>
+						</div>
+					</a>
+				</div>
+			
+				<div class="col-sm-4 margin-bottom-middle">
+					<a href="/elga" class="btn btn-primary btn-lg btn-block text-left">
+						<div class="row row-vertical-center row-table">
+							<div class="col-auto">
+								<span class="icon icon-book-3"></span>
+							</div>
+							<div class="col-auto">
+								ELGA Info
+							</div>
+						</div>
+					</a>
+				</div>
+			
+				<div class="col-sm-4 margin-bottom-middle">
+					<a href="/gesundheits-quiz" target="_blank" class="btn btn-primary btn-lg btn-block text-left">
+						<div class="row row-vertical-center row-table">
+							<div class="col-auto">
+								<span class="icon icon-information"></span>
+							</div>
+							<div class="col-auto">
+								Gesundheits-Quiz
+							</div>
+						</div>
+					</a>
+				</div>
+			
+				<div class="col-sm-4 margin-bottom-middle">
+					<a href="/patientenorientierung" class="btn btn-primary btn-lg btn-block text-left">
+						<div class="row row-vertical-center row-table">
+							<div class="col-auto">
+								<span class="icon icon-account-group-circle"></span>
+							</div>
+							<div class="col-auto">
+								Wo bin ich richtig?
+							</div>
+						</div>
+					</a>
+				</div>
+			
+		</div>
+	</div>
+</section>
+<section>
+  <a id="c35"></a>
+	<div class="row row-no-gutter">
+		<div class="col-md-4">
+			
+	<div class="padding-top-large padding-right-large padding-bottom-large padding-left-large text-center">
+		<h4>
+			<strong class="text-primary">OÖG TV</strong>
+			
+				<br>
+				Neuigkeiten in Bild und Ton aus unseren Kliniken
+			
+		</h4>
+
+		
+			
+					<a href="https://www.ooeg.tv" target="_blank" rel="noreferrer" class="btn btn-primary-outline margin-bottom-small">
+						Beiträge
+					</a>
+				
+		
+		
+	</div>
+
+			
+				
+	
+			<img class="full-width" src="/fileadmin/media/ooeg/Fotos_allgemein/ooeg-tv.png" width="624" height="312" alt="&quot;&quot;" />
+		
+
+			
+		</div>
+		<div class="col-md-4">
+			
+	<div class="padding-top-large padding-right-large padding-bottom-large padding-left-large text-center">
+		<h4>
+			<strong class="text-primary">Persönlichkeiten</strong>
+			
+				<br>
+				Mitarbeiter/in, Expert/in, Mensch
+			
+		</h4>
+
+		
+			
+					<a href="https://www.ooeg.at/mitarbeiterin-expertin-mensch" class="btn btn-primary-outline margin-bottom-small">
+						Blog
+					</a>
+				
+		
+		
+	</div>
+
+			
+				<blockquote class="padding-right-large padding-left-large margin-bottom-0">
+					<p class="text-center">Auf unserem neuen Blog „MitarbeiterIn, ExpertIn, Mensch“ stellen wir MitarbeiterInnen mit ihrer Fachexpertise, ihren Botschaften an die Bevölkerung und Einblicken in ihr Privatleben vor.</p>
+				</blockquote>
+			
+		</div>
+		<div class="col-md-4">
+			
+	<div class="padding-top-large padding-right-large padding-bottom-large padding-left-large text-center">
+		<h4>
+			<strong class="text-primary">Visite</strong>
+			
+				<br>
+				Das Magazin für Ihre Gesundheit
+			
+		</h4>
+
+		
+			
+					<a href="/visite" class="btn btn-primary-outline margin-bottom-small">
+						zu den Magazinen
+					</a>
+				
+		
+		
+	</div>
+
+			
+				
+	
+			<img class="full-width" src="/fileadmin/media/ooeg/visite/visite_ooeg.jpg" width="800" height="400" alt="&quot;&quot;" />
+		
+
+			
+		</div>
+	</div>
+</section>
+
+
+
+
+<!--TYPO3SEARCH_end-->
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="b-sticky-footer__content">
+      <div class="container-fluid">
+        <div class="row row-vertical-center padding-top-large padding-bottom-middle icon-block">
+          <div class="col-md-4 text-center-xs text-center-sm margin-bottom-middle hidden-print ">
+            <nav class="socialmenu" aria-label="Social Media">
+              <ul class="sidemenu">
+                			<li class="sidemenu-item">
+			  <a class="social-link" href="https://www.facebook.com/Gesundheitsholding/" target="_blank" rel="noopener noreferrer">
+				<div class="social-icon"><img src="/frontend/assets/img/social/facebook.png" alt=""></div>
+				<div class="social-label">Facebook</div>
+			  </a>
+			</li>
+                					<li class="sidemenu-item">
+					  <a class="social-link" href="https://www.instagram.com/ooe.gesundheitsholding/" target="_blank" rel="noopener noreferrer">
+						<div class="social-icon"><img src="/frontend/assets/img/social/instagram.png" alt=""></div>
+						<div class="social-label">Instagram</div>
+					  </a>
+					</li>
+                					<li class="sidemenu-item">
+					  <a class="social-link" href="https://www.youtube.com/channel/UCWIFQ_PKSFpPQF7-xpLBZVw" target="_blank" rel="noopener noreferrer">
+						<div class="social-icon"><img src="/frontend/assets/img/social/youtube.png" alt=""></div>
+						<div class="social-label">Youtube</div>
+					  </a>
+					</li>
+                					<li class="sidemenu-item">
+					  <a class="social-link" href="https://www.tiktok.com/@ooe.gesundheitsholding" target="_blank" rel="noopener noreferrer">
+						<div class="social-icon"><img src="/frontend/assets/img/social/tiktok.png" alt=""></div>
+						<div class="social-label">TikTok</div>
+					  </a>
+					</li>
+                			<li class="sidemenu-item">
+			  <a class="social-link" href="https://www.linkedin.com/company/ooeg/" target="_blank" rel="noopener noreferrer">
+				<div class="social-icon"><img src="/frontend/assets/img/social/linkedin.png" alt=""></div>
+				<div class="social-label">Linkedin</div>
+			  </a>
+			</li>
+                
+                			<li class="sidemenu-item">
+			  <a class="social-link" href="https://www.kununu.com/at/oberoesterreichische-gesundheitsholding" target="_blank" rel="noopener noreferrer">
+				<div class="social-icon"><img src="/frontend/assets/img/social/kununu.png" alt=""></div>
+				<div class="social-label">Kununu</div>
+			  </a>
+			</li>
+              </ul>
+              			<a class="social-link" href="https://www.ooeg.tv/" target="_blank" rel="noopener noreferrer">
+				<div class="social-icon"><img src="/frontend/assets/img/social/ooeg-tv.png" alt=""></div>
+				<div class="social-label">OÖG TV</div>
+		  	</a>
+              
+            </nav>
+          </div>
+          <div class="col-md-4 margin-bottom-middle hidden-print">
+            <div class="row row-vertical-center">
+              
+                  <div class="col-sm-6 small-separator-sm">
+                    <a href="https://www.ooeg.at/">
+                      <img class="img-responsive center-block"
+                           src="/frontend/assets/img/ooeg.svg"
+                           alt="Logo Oberösterreichische Gesundheitsholding GmbH – zur Startseite">
+                    </a>
+                  </div>
+                  <div class="col-sm-6">
+                    <a href="https://www.oberoesterreich.at/" target="_blank">
+                      <img class="img-responsive center-block"
+                           src="/frontend/assets/img/logo_oberoesterreich.png"
+                           alt="Logo Land Oberösterreich – externer Link">
+                    </a>
+                  </div>
+                
+            </div>
+          </div>
+          <div
+                  class="col-md-4 text-large text-center-xs text-center-sm text-right-md text-right-lg margin-bottom-middle">
+            
+                <strong class="text-primary margin-right-md-large">
+                  Gemeinsam für Generationen.
+                </strong>
+              
+          </div>
+        </div>
+        <div class="row row-vertical-center text-small bg-primary-gradient padding-top-small">
+          <div class="col-sm-6 margin-bottom-small"> ©2026
+            Oberösterreichische Gesundheitsholding GmbH
+          </div>
+          <div class="col-sm-6 text-right-sm text-right-md text-right-lg margin-bottom-small hidden-print">
+            <nav aria-label="Footer">
+              <ul class="list-inline margin-bottom-0">
+                <li><a href="/service/impressum/barrierefreiheitserklaerung">Barrierefreiheit</a></li><li><a href="/service/impressum/datenschutz">Datenschutz</a></li><li><a href="/service/impressum/medientransparenz">Medientransparenz</a></li><li><a href="/service/impressum">Impressum</a></li><li><a href="/service/kontakt">Kontakt</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+</div>
+<script src="https://webcache-eu.datareporter.eu/c/e36111d0-69e4-45c8-b2f2-cb32825762ca/429TaJYnRPwQ/ky8/banner.js"></script>
+
+
+<script>
+/*<![CDATA[*/
+/*TS_inlineFooter*/
+window.cookieconsent.initialise(dr_cookiebanner_options);
+
+/*]]>*/
+</script>
+
+<!--
+Tracking Code: Standard (Asynchronous) "Gespag - Pflegeausbildungen"
+Insert the code below on: https://www.gespag.at/bildung/ausbildung-pflegeberufe.html
+-->
+
+<!-- Adform Tracking Code BEGIN -->
+<script type="text/javascript">
+    window._adftrack = Array.isArray(window._adftrack) ? window._adftrack : (window._adftrack ? [window._adftrack] : []);
+    window._adftrack.push({
+        pm: 1484491,
+        divider: encodeURIComponent('|'),
+        pagename: encodeURIComponent('Gespag - Pflegeausbildungen')
+    });
+    (function () { var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://track.adform.net/serving/scripts/trackpoint/async/'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); })();
+
+</script>
+<noscript>
+    <p style="margin:0;padding:0;border:0;">
+        <img src="https://track.adform.net/Serving/TrackPoint/?pm=1484491&ADFPageName=Gespag%20-%20Pflegeausbildungen&ADFdivider=|" width="1" height="1" alt="" />
+    </p>
+</noscript>
+<!-- Adform Tracking Code END -->
+<script>loadjs(['/frontend/js/runtime.js', '/frontend/js/script.js'], 'script', { async: false });</script>
+
+</body>
+</html>

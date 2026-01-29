@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LPKGRS3QRM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-LPKGRS3QRM');
+    </script>
+
+
+    <title>Home Page - invest4excellence.eu</title>
+
+    
+
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+
+    <link rel="stylesheet" href="/Site/css/plugins.css">
+    <link rel="stylesheet" href="/Site/css/style.css?v=1.2.8">
+
+    <link rel="stylesheet" href="/Site/css/accessibility.css?v=1.2.8">
+    <link rel="stylesheet" href="/Site/css/Custom.css?v=1.2.8">
+    <link rel="stylesheet" href="/Site/css/jquery.cookiebar.css?v=1.2.8" />
+    <link rel="stylesheet" href="/Site/lightbox/css/lightbox.min.css?v=1.2.8" />
+    <script src="/Site/js/jquery3.6.0.min.js"></script>
+
+
+</head>
+
+<body class="">
+
+    <div class="content-wrapper">
+        
+
+<style type="text/css">
+    
+    .logoheaderr{
+        width:200px;
+    }
+    .bradious5{
+        border-radius:5px;
+    }
+</style>
+
+<header class="wrapper bg-gray">
+    <nav class="navbar navbar-expand-lg fancy navbar-light navbar-bg-light position-absolute">
+        <div class="container">
+            <div class="navbar-collapse-wrapper bradious5 bg-white d-flex flex-row flex-nowrap w-100 justify-content-between align-items-center">
+                <div class="navbar-brand w-100">
+                    <a href="/">
+                        <img src="/images/invest4excellence_logo1.png" alt="invest4excellence.eu" class="logoheaderr" />
+                    </a>
+                </div>
+                <div class="navbar-collapse offcanvas-nav">
+                    <div class="offcanvas-header d-lg-none d-xl-none">
+                        <a href="/">
+                        <img src="/images/invest4excellence_logo1.png"  alt="invest4excellence.eu" /></a>
+                        <button type="button" class="btn-close btn-close-white offcanvas-close offcanvas-nav-close" aria-label="Close"></button>
+                    </div>
+                    <ul class="navbar-nav">
+
+                                <li class="nav-item">
+                                    <a id="menu_1" class="nav-link cmenu_1" href="/">Home</a>
+                                </li>
+                                    <li class="nav-item dropdown">
+                                        <a id="menu_2" class="nav-link dropdown-toggle cmenu_2" href="#!">About Us</a>
+                                        <ul class="dropdown-menu">
+                                                <li class="nav-item"><a class="dropdown-item" href="/Home/Texts?link=3-who-we-are">Who we are</a></li>
+                                                <li class="nav-item"><a class="dropdown-item" href="/Home/Texts?link=4-objectives">Objectives</a></li>
+                                                <li class="nav-item"><a class="dropdown-item" href="/Home/Texts?link=5-ambition">Ambition</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a id="menu_3" class="nav-link dropdown-toggle cmenu_3" href="#!">Methodology &#x2013; Impacts</a>
+                                        <ul class="dropdown-menu">
+                                                <li class="nav-item"><a class="dropdown-item" href="/Home/Texts?link=6-methodology">Methodology</a></li>
+                                                <li class="nav-item"><a class="dropdown-item" href="/Home/Texts?link=7-impacts">Impacts</a></li>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item has-submenu" href="#" id="sm-results-toggler" aria-haspopup="true" aria-controls="sm-results" aria-expanded="false">Results<span class="sub-arrow"></span></a>
+                                                    <ul class="dropdown-menu sm-nowrap hide-animation" id="sm-results" role="group" aria-hidden="true" aria-labelledby="sm-results-toggler" aria-expanded="false" style="width: auto; min-width: 10rem; display: none; max-width: 25rem; top: auto; left: 0px; margin-left: 225.328px; margin-top: -33.5px;">
+                                                        <li class="nav-item"><a class="dropdown-item" href="https://cordis.europa.eu/project/id/101035815/results" target="_blank">Deliverables</a></li>
+                                                        <li class="nav-item"><a class="dropdown-item" href="https://virtualcampus.invest-alliance.eu/Site/Home/OnlineRepo?orderby=dateAsc&page=1" target="_blank">Publications</a></li>
+                                                        <li class="nav-item"><a class="dropdown-item" href="/Home/RDItool">Green competence self-assessment tool</a></li>
+                                                    </ul>
+                                                </li>
+                                        </ul>
+                                    </li>
+                                     <li class="nav-item">
+                                        <a id="menu_4" class="nav-link cmenu_4" href="/Home/Texts?link=8-work-packages">Work Packages</a>
+                                    </li>
+                                <li class="nav-item">
+                                    <a id="menu_5" class="nav-link cmenu_5" href="/Home/News">News</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="menu_6" class="nav-link cmenu_6" href="/Home/Partners">Partners</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="menu_7" class="nav-link cmenu_7" href="/Home/Contact">Contact</a>
+                                </li>
+
+                    </ul>
+                    <!-- /.navbar-nav -->
+                </div>
+                <!-- /.navbar-collapse -->
+                <div class="navbar-other now100 d-flex ms-auto">
+                    <ul class="navbar-nav flex-row align-items-center ms-auto" data-sm-skip="true">
+                         <li class="nav-item d-lg-none">
+                            <div class="navbar-hamburger"><button class="hamburger animate plain" data-toggle="offcanvas-nav"><span></span></button></div>
+                        </li>
+                    </ul>
+                    <!-- /.navbar-nav -->
+                </div>
+                <!-- /.navbar-other -->
+            </div>
+            <!-- /.navbar-collapse-wrapper -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- /.navbar -->
+</header>
+ 
+
+
+
+
+        <div id="content" class="mainsitecontent">
+            
+<div class="hero-slider-wrapper bg-dark">
+    <div class="hero-slider owl-carousel dots-over" data-nav="true" data-dots="true" data-autoplay="true">
+            <div class="owl-slide d-flex align-items-center bg-overlay bg-overlay-400" style="background-image: url('/docs/image/banners/98ac2976-6b19-4012-882e-54bec50a45d2.jpg');">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1 col-lg-7 offset-lg-0 text-center text-lg-start">
+                            <h2 class="display-1 fs-56 mb-4 text-white animated-caption" data-anim="animate__slideInDown" data-anim-delay="500">Sustainable development</h2>
+                            <p class="lead fs-23 lh-sm mb-7 text-white animated-caption" data-anim="animate__slideInRight" data-anim-delay="1000">Water, energy, food and environment nexus, Quality of life and Entrepreneurship</p>
+
+                        </div>
+                        <!--/column -->
+                    </div>
+                    <!--/.row -->
+                </div>
+                <!--/.container -->
+            </div>
+            <div class="owl-slide d-flex align-items-center bg-overlay bg-overlay-400" style="background-image: url('/docs/image/banners/fa21c1c2-9d79-4f09-9a12-f2e2c343d334.jpg');">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1 col-lg-7 offset-lg-0 text-center text-lg-start">
+                            <h2 class="display-1 fs-56 mb-4 text-white animated-caption" data-anim="animate__slideInDown" data-anim-delay="500">Invest4Excellence</h2>
+                            <p class="lead fs-23 lh-sm mb-7 text-white animated-caption" data-anim="animate__slideInRight" data-anim-delay="1000">Invest for Excellence in Regional Sustainability</p>
+
+                        </div>
+                        <!--/column -->
+                    </div>
+                    <!--/.row -->
+                </div>
+                <!--/.container -->
+            </div>
+
+    </div>
+    <!--/.hero-slider -->
+</div>
+
+
+
+
+
+<div class="row align-items-center mb-14 mt-10">
+    <div class="col-md-8 col-lg-6 mb-10 mb-md-0 position-relative light-gallery-wrapper text-right">
+        <div class="shape rounded bg-soft-primary rellax d-md-block" data-rellax-speed="0" style="bottom: -1.8rem; right: -1.5rem; width: 85%; height: 90%; "></div>
+        <figure class="rounded ">
+           <img src="/docs/image/texts/cb343294-8b7b-4a57-9683-ca8b5c20a0fe.jpg" alt="" class="max_width90">
+        </figure>
+    </div>
+    <!--/column -->
+    <div class="col-lg-5 col-xl-4 offset-lg-1 p-5 p-sm-0">
+        <h3 class="display-4 mb-3">Invest4Excellence</h3>
+        <div class="lead fs-lg mb-6 texts_inner_infos"><p>INVEST4EXCELLENCE aims at developing an integrated and long-term joint strategy on research and innovation in line with the education strategies from the INVEST EU University Alliance. The thematic focus of the INVEST Alliance is in Sustainable development as one of the most important global challenges. INVEST4EXCELLENCE will create the background for the development and implementation of research and innovation ideas through model development for institutional transformation at research and innovation dimension</p>
+</div>
+    </div>
+    <!--/column -->
+</div>
+
+<section class="wrapper image-wrapper bg-image bg-overlay bg-overlay-400 bg-content text-white" data-image-src="/docs/image/texts/6128d96b-5c14-4d7b-8d13-71851aaf9911.jpg">
+    <div class="container pt-18 pb-16" style="z-index: 5; position:relative">
+        <div class="row gx-0 gy-12 align-items-center">
+            <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-6 content text-center text-lg-start" data-cues="slideInDown" data-group="page-title" data-delay="600">
+                <h1 class="display-2 mb-5 text-white">Collective excellent research and innovation</h1>
+                <div class="lead fs-lg lh-sm mb-7 pe-xl-10 texts_inner_infos"><p>Partners join their effort to develop common research and innovation agenda, reinforce the human capital in research and innovation and engage the civil society, bringing the proposals for innovative solutions to contribute to the sustainable development of regions.</p>
+</div>
+
+            </div>
+            <!--/column -->
+            <div class="col-lg-5 offset-lg-1">
+                <div class="basic-slider owl-carousel dots-over shadow-lg" data-nav="true" data-margin="5">
+                        <div class="item">
+                            <img src="/docs/image/texts/09d7adb7-e06a-4b74-8391-5cb25667ea86.png"  class="rounded" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="/docs/image/texts/07198ee6-7a0b-406d-94ff-570d2f133ea4.jpg"  class="rounded" alt="" />
+                        </div>
+                        <div class="item">
+                            <img src="/docs/image/texts/65ac4c07-28a7-4795-a31b-dccb1b23f1ab.jpg"  class="rounded" alt="" />
+                        </div>
+                </div>
+                <!-- /.basic-slider -->
+            </div>
+            <!-- /column -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /section -->
+<div class="card bg-soft-primary rounded-4 mb-12 mb-md-12">
+    <div class="card-body p-md-10 py-xxl-16 position-relative">
+        <div class="position-absolute d-none d-lg-block" style="bottom:0; left:10%; width: 28%; z-index:2">
+            <figure>
+            <img src="/docs/image/texts/1035de0f-8bab-4b9c-9c29-bae472472a99.jpg"alt="">
+            </figure>
+        </div>
+        <div class="row gx-md-0 gx-xl-12 text-center">
+            <div class="col-lg-7 offset-lg-5 col-xl-6">
+
+                <h5 class="mb-1">Our alliance</h5>
+                <blockquote class="border-0 fs-lg mb-0">
+                    <p><p>INVEST alliance consists of five partner universities from five European countries located in all four European sub-regions: (1) Slovak University of Agriculture and (2) University of Agribusiness and Rural Development in Central and Eastern Europe, (3) Van Hall Larenstein University of Applied Sciences in Western Europe, (4) Karelia University of Applied Sciences in Northern Europe and (5) University of Thessaly in Southern Europe. Thanks to such broad geographic dispersion, partner universities and their regions experienced different historical development and can contribute to project objectives with a variety of approaches and solutions, which would not be possible to identify without cooperation.</p>
+</p>
+                    <div class="blockquote-details justify-content-center text-center">
+                        <div class="info p-0"> 
+                        </div>
+                    </div>
+                </blockquote>
+            </div>
+            <!-- /column -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!--/.card-body -->
+</div>
+
+
+
+<div class="row align-items-center mb-14 mt-10">
+    <!--/column -->
+    <div class="col-lg-12 p-5 p-sm-0">
+        <h3 class="display-4 mb-3"></h3>
+        <div class="lead fs-lg mb-6 texts_inner_infos"><div class="container">
+<div class="text-center"><h3 class="display-4 mb-3">EDUC8EU</h3>
+<div>Recommend tailored learning pathways to meet student's educational goals and needs</div>
+</div>
+
+<div><iframe frameborder="0" height="500" src="https://www.youtube.com/embed/SwI_bsDslQI" title="YouTube video player" width="100%"></iframe></div>
+</div>
+</div>
+    </div>
+    <!--/column -->
+</div>
+
+    <section class="wrapper bg-light">
+        <div class="container py-6">
+            <div class="row">
+                <div class="col-lg-9 col-xl-9 col-xxl-9">
+                    <h2 class="fs-16 text-uppercase text-line text-primary mb-3">Latest News</h2>
+                    <h3 class="display-4 mb-9">Stay tuned for our latest news and events!</h3>
+                </div>
+                <!-- /column -->
+            </div>
+            <!-- /.row -->
+            <div class="carousel owl-carousel blog grid-view mb-10" data-margin="30" data-dots="true" data-autoplay="false" data-autoplay-timeout="5000" data-responsive='{"0":{"items": "1"}, "768":{"items": "2"}, "992":{"items": "2"}, "1200":{"items": "3"}}'>
+                    <div class="item">
+                        <article>
+                            <figure class="overlay overlay1 hover-scale rounded mb-6" style="border: solid 8px #f1f5fd;">
+                                <a href="/Home/NewsInfo?link=69-new-study-highlights-sustainable-competence-d">
+                                    <img src="/docs/image/news/eaf3cbc4-79a7-4618-99ab-7844b6148f55.png" alt="" />
+                                </a>
+                                <figcaption>
+                                    <h5 class="from-top mb-0">Read More</h5>
+                                </figcaption>
+                            </figure>
+                            <div class="post-header">
+                                <h2 class="post-title h3 mb-3"><a class="link-dark" href="/Home/NewsInfo?link=69-new-study-highlights-sustainable-competence-d">New Study Highlights Sustainable Competence Development in Higher Education</a></h2>
+                            </div>
+                            <!-- /.post-header -->
+                            <div class="post-footer">
+                                <ul class="post-meta">
+                                    <li class="post-date"><i class="uil uil-calendar-alt"></i><span>19/12/2024</span></li>
+                                    <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i></a></li>
+                                </ul>
+                                <!-- /.post-meta -->
+                            </div>
+                            <!-- /.post-footer -->
+                        </article>
+                        <!-- /article -->
+                    </div>
+                    <div class="item">
+                        <article>
+                            <figure class="overlay overlay1 hover-scale rounded mb-6" style="border: solid 8px #f1f5fd;">
+                                <a href="/Home/NewsInfo?link=68-explore-the-world-of-living-labs-with-the-spe">
+                                    <img src="/docs/image/news/f4f8d58f-db9e-4230-8bfd-340aebe93d20.png" alt="" />
+                                </a>
+                                <figcaption>
+                                    <h5 class="from-top mb-0">Read More</h5>
+                                </figcaption>
+                            </figure>
+                            <div class="post-header">
+                                <h2 class="post-title h3 mb-3"><a class="link-dark" href="/Home/NewsInfo?link=68-explore-the-world-of-living-labs-with-the-spe">Explore the World of Living Labs with the Special Issue of Europe Today!</a></h2>
+                            </div>
+                            <!-- /.post-header -->
+                            <div class="post-footer">
+                                <ul class="post-meta">
+                                    <li class="post-date"><i class="uil uil-calendar-alt"></i><span>29/11/2024</span></li>
+                                    <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i></a></li>
+                                </ul>
+                                <!-- /.post-meta -->
+                            </div>
+                            <!-- /.post-footer -->
+                        </article>
+                        <!-- /article -->
+                    </div>
+                    <div class="item">
+                        <article>
+                            <figure class="overlay overlay1 hover-scale rounded mb-6" style="border: solid 8px #f1f5fd;">
+                                <a href="/Home/NewsInfo?link=67-newsletter-announcement-celebrating-the-succe">
+                                    <img src="/docs/image/news/18927864-6781-4aee-8d51-156597ddcee1.jpg" alt="" />
+                                </a>
+                                <figcaption>
+                                    <h5 class="from-top mb-0">Read More</h5>
+                                </figcaption>
+                            </figure>
+                            <div class="post-header">
+                                <h2 class="post-title h3 mb-3"><a class="link-dark" href="/Home/NewsInfo?link=67-newsletter-announcement-celebrating-the-succe">Newsletter Announcement: Celebrating the Success of the INVEST4EXCELLENCE Project</a></h2>
+                            </div>
+                            <!-- /.post-header -->
+                            <div class="post-footer">
+                                <ul class="post-meta">
+                                    <li class="post-date"><i class="uil uil-calendar-alt"></i><span>08/10/2024</span></li>
+                                    <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i></a></li>
+                                </ul>
+                                <!-- /.post-meta -->
+                            </div>
+                            <!-- /.post-footer -->
+                        </article>
+                        <!-- /article -->
+                    </div>
+                    <div class="item">
+                        <article>
+                            <figure class="overlay overlay1 hover-scale rounded mb-6" style="border: solid 8px #f1f5fd;">
+                                <a href="/Home/NewsInfo?link=66-conclusion-of-the-science4regions-webinar">
+                                    <img src="/docs/image/news/fe0301e5-de8a-4f55-ab06-c3bb2b0eb344.png" alt="" />
+                                </a>
+                                <figcaption>
+                                    <h5 class="from-top mb-0">Read More</h5>
+                                </figcaption>
+                            </figure>
+                            <div class="post-header">
+                                <h2 class="post-title h3 mb-3"><a class="link-dark" href="/Home/NewsInfo?link=66-conclusion-of-the-science4regions-webinar">Conclusion of the Science4Regions Webinar</a></h2>
+                            </div>
+                            <!-- /.post-header -->
+                            <div class="post-footer">
+                                <ul class="post-meta">
+                                    <li class="post-date"><i class="uil uil-calendar-alt"></i><span>25/09/2024</span></li>
+                                    <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i></a></li>
+                                </ul>
+                                <!-- /.post-meta -->
+                            </div>
+                            <!-- /.post-footer -->
+                        </article>
+                        <!-- /article -->
+                    </div>
+                    <div class="item">
+                        <article>
+                            <figure class="overlay overlay1 hover-scale rounded mb-6" style="border: solid 8px #f1f5fd;">
+                                <a href="/Home/NewsInfo?link=65-upcoming-webinar-shaping-the-future-of-region">
+                                    <img src="/docs/image/news/71672156-7d44-415c-8abd-dda752049256.jpg" alt="" />
+                                </a>
+                                <figcaption>
+                                    <h5 class="from-top mb-0">Read More</h5>
+                                </figcaption>
+                            </figure>
+                            <div class="post-header">
+                                <h2 class="post-title h3 mb-3"><a class="link-dark" href="/Home/NewsInfo?link=65-upcoming-webinar-shaping-the-future-of-region">Upcoming Webinar: Shaping the Future of Regional Sustainability</a></h2>
+                            </div>
+                            <!-- /.post-header -->
+                            <div class="post-footer">
+                                <ul class="post-meta">
+                                    <li class="post-date"><i class="uil uil-calendar-alt"></i><span>22/09/2024</span></li>
+                                    <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i></a></li>
+                                </ul>
+                                <!-- /.post-meta -->
+                            </div>
+                            <!-- /.post-footer -->
+                        </article>
+                        <!-- /article -->
+                    </div>
+                    <div class="item">
+                        <article>
+                            <figure class="overlay overlay1 hover-scale rounded mb-6" style="border: solid 8px #f1f5fd;">
+                                <a href="/Home/NewsInfo?link=64-invest4excellence-final-steering-committee-me">
+                                    <img src="/docs/image/news/2ee130cd-c9c8-4792-bd8b-40357da06401.jpg" alt="" />
+                                </a>
+                                <figcaption>
+                                    <h5 class="from-top mb-0">Read More</h5>
+                                </figcaption>
+                            </figure>
+                            <div class="post-header">
+                                <h2 class="post-title h3 mb-3"><a class="link-dark" href="/Home/NewsInfo?link=64-invest4excellence-final-steering-committee-me">INVEST4EXCELLENCE Final Steering Committee Meeting</a></h2>
+                            </div>
+                            <!-- /.post-header -->
+                            <div class="post-footer">
+                                <ul class="post-meta">
+                                    <li class="post-date"><i class="uil uil-calendar-alt"></i><span>06/09/2024</span></li>
+                                    <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i></a></li>
+                                </ul>
+                                <!-- /.post-meta -->
+                            </div>
+                            <!-- /.post-footer -->
+                        </article>
+                        <!-- /article -->
+                    </div>
+            </div>
+            <!-- /.owl-carousel -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+
+        </div>
+
+    </div>
+    
+
+<footer class="bg-soft-primary">
+
+    <div class="text-center">
+        <a style="display:block; margin:5px auto; margin-top:20px;" href="https://www.mdpi.com/journal/sustainability/special_issues/53LNN4L1D2" target="_blank">
+            <img src="/images/si_banner207822_66daf6b40758b.png" style="width:90%; max-width:700px;" />
+        </a>
+    </div>
+
+    <div class="container pb-12 pt-14 text-center">
+        <div class="row mt-n10 mt-lg-0">
+            <div class="col-xl-10 mx-auto">
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <div class="widget">
+                            <img class="mb-1" src="/images/invest4excellence_logo1.png" style="max-width:200px;" alt="">
+                        </div>
+                        <!-- /.widget -->
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-4">
+                        <div class="widget">
+                            <a href="https://www.invest-alliance.eu" target="_blank">
+                                <img class="mb-1" src="/images/logo_invest_main_v2.png" style="max-width:200px;" alt="">
+                            </a>
+                        </div>
+                        <!-- /.widget -->
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-4">
+                        <div class="widget">
+                            <img class="mb-1" src="/images/eu_logo_2.jpg" style="max-width:340px;" alt="">
+
+
+                        </div>
+                        <!-- /.widget -->
+                    </div>
+                    <!--/column -->
+                </div>
+                <!--/.row -->
+
+                <div class="text-center" style="margin:5px auto">
+                        <a href="/" class="footerquicklinktexts"><i class="uil uil-angle-double-right"></i> Home</a>
+                        <a href="/Home/Category?textcat=about-us_2021_12_14" class="footerquicklinktexts"><i class="uil uil-angle-double-right"></i> About Us</a>
+                        <a href="/Home/Category?textcat=methodology-impacts_2021_12_14" class="footerquicklinktexts"><i class="uil uil-angle-double-right"></i> Methodology &#x2013; Impacts</a>
+                        <a href="/Home/Category?textcat=work-packages_2021_12_14" class="footerquicklinktexts"><i class="uil uil-angle-double-right"></i> Work Packages</a>
+                        <a href="/Home/News" class="footerquicklinktexts"><i class="uil uil-angle-double-right"></i> News</a>
+                        <a href="/Home/Partners" class="footerquicklinktexts"><i class="uil uil-angle-double-right"></i> Partners</a>
+                        <a href="/Home/Contact" class="footerquicklinktexts"><i class="uil uil-angle-double-right"></i> Contact</a>
+                </div>
+
+                <p>© 2021 <a href="https://www.invest4excellence.eu" target="_blank">invest4excellence.eu</a> - All rights reserved.</p>
+                
+                <p style="font-size: 12px; line-height: 15px;">The content of this website represents the views of the author only and is his/her sole responsibility. The European Commission and the Agency do not accept any responsibility for use that may be made of the information it contains.</p>
+                <nav class="nav social justify-content-center">
+                    <a href="https://twitter.com/invest_european" target="_blank"><i class="uil uil-twitter"></i></a>
+                    <a href="https://www.facebook.com/Invest-European-University-Alliance-106062451450532" target="_blank"><i class="uil uil-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/investeuropeanuniversity" target="_blank"><i class="uil uil-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/invest-university-european-alliance-416a23214/" target="_blank"><i class="uil uil-linkedin"></i></a>
+                </nav>
+                <!-- /.social -->
+            </div>
+            <!-- /column -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</footer>
+
+<button style="" type="button" data-bs-toggle="modal" data-bs-target="#accesibilityModal" id="btn_toggle_accesibility" class="btn_toggle_accessibility_div"><span class="uil uil-wheelchair"></span></button>
+
+<div class="modal fade" id="accesibilityModal" tabindex="-1" role="dialog" aria-labelledby="accessibilityModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="border-radius:0px;">
+            <div class="modal-header">
+                <h6 class="modal-title" id="accessibilityModalLabel">Control Panel</h6>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="main_accessibility_container" class="accessibitily-info__container">
+
+                    <div role="group" class="div-accessib-switch-cont">
+                        <div id="is_normal_contrast_label"><span class="fa fa-adjust fw" aria-hidden="true"></span> Contrast</div>
+                        <button id="is_normal_contrast" type="button" role="switch" aria-checked="false" aria-labelledby="is_normal_contrast_label">
+                            <span class="fa fa-check fw switch-on" aria-label="on"></span>
+                            <span class="fa fa-times fw switch-off" aria-label="off"></span>
+                        </button>
+                    </div>
+
+                    <div role="group" class="div-accessib-switch-cont" style="display:none">
+                        <div id="is_normal_color_label"><span class="fa fa-tint fw" aria-hidden="true"></span> Gray scale</div>
+                        <button id="is_normal_color_toggle" type="button" role="switch" aria-checked="false" aria-labelledby="is_normal_color_label">
+                            <span class="fa fa-check fw switch-on" aria-label="on"></span>
+                            <span class="fa fa-times fw switch-off" aria-label="off"></span>
+                        </button>
+                    </div>
+
+                    <div role="group" class="div-accessib-switch-cont">
+                        <div id="is_normal_fontsize_label"><span class="fa fa-text-height fw" aria-hidden="true"></span> Font size</div>
+                        <button id="is_normal_fontsize" type="button" role="switch" aria-checked="false" aria-labelledby="is_normal_fontsize_label">
+                            <span class="fa fa-check fw switch-on" aria-label="on"></span>
+                            <span class="fa fa-times fw switch-off" aria-label="off"></span>
+                        </button>
+                    </div>
+
+                    <div role="group" class="div-accessib-switch-cont">
+                        <div id="is_normal_fontfamily_label"><span class="fa fa-font" aria-hidden="true"></span> Dyslexic</div>
+                        <button id="is_normal_fontfamily" type="button" role="switch" aria-checked="false" aria-labelledby="is_normal_fontfamily_label">
+                            <span class="fa fa-check fw switch-on" aria-label="on"></span>
+                            <span class="fa fa-times fw switch-off" aria-label="off"></span>
+                        </button>
+                    </div>
+
+                    <div role="group" class="div-accessib-switch-cont">
+                        <button class="reset-accessibility" type="button" id="reset-accessiblity">Reset</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+    <script src="/Site/js/bootstrap.bundle.min.js"></script>
+
+    <script src="/Site/js/plugins.js?v=1.2.8"></script>
+    <script src="/Site/js/theme.js?v=1.2.8"></script>
+    <script src="/Site/js/accessibility.js?v=1.2.8"></script>
+
+    <script src="/Site/js/custom.js?v=1.2.8"></script>
+
+    <script src="/Site/js/jquery.cookiebar.js"></script>
+    <script src="/Site/lightbox/js/lightbox.min.js"></script>
+
+    
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            setactivemenu('menu_1');
+        });
+    </script>
+
+
+    <script type="text/javascript">
+        $(function () {
+            $.cookieBar({
+                message: "We are using cookies to give you the best experience. Consent is considered implicit if you continue your navigation on our site without configuring your browser cookies.",
+                acceptText: "Accept"
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+

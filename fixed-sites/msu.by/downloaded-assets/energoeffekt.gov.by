@@ -1,0 +1,1839 @@
+<!DOCTYPE HTML>
+<html lang="ru-ru" dir="ltr"  data-config='{"twitter":0,"plusone":0,"facebook":0,"style":"energo_light"}'>
+
+
+<head>
+<script type="text/javascript">  (function(){ function blockCookies(disableCookies, disableLocal, disableSession){ if(disableCookies == 1){ if(!document.__defineGetter__){ Object.defineProperty(document, 'cookie',{ get: function(){ return ''; }, set: function(){ return true;} }); }else{ var oldSetter = document.__lookupSetter__('cookie'); if(oldSetter) { Object.defineProperty(document, 'cookie', { get: function(){ return ''; }, set: function(v){ if(v.match(/reDimCookieHint\=/) || v.match(/e408e7fad76976d7e0608a09cb467b32\=/)) { oldSetter.call(document, v); } return true; } }); } } var cookies = document.cookie.split(';'); for (var i = 0; i < cookies.length; i++) { var cookie = cookies[i]; var pos = cookie.indexOf('='); var name = ''; if(pos > -1){ name = cookie.substr(0, pos); }else{ name = cookie; } if(name.match(/reDimCookieHint/)) { document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT'; } } } if(disableLocal == 1){ window.localStorage.clear(); window.localStorage.__proto__ = Object.create(window.Storage.prototype); window.localStorage.__proto__.setItem = function(){ return undefined; }; } if(disableSession == 1){ window.sessionStorage.clear(); window.sessionStorage.__proto__ = Object.create(window.Storage.prototype); window.sessionStorage.__proto__.setItem = function(){ return undefined; }; } } blockCookies(1,1,1); }()); </script>
+
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<base href="https://energoeffect.gov.by/" />
+	<meta name="keywords" content="Департамент, департамент, Департамент по энергоэффективности, департамент по энергоэффективности," />
+	<meta name="description" content="Сайт департамента по энергоэффективности Государственного комитета по стандартизации Республики Беларусь." />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>Департамент по энергоэффективности - Главная</title>
+	<link href="/?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+	<link href="/?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+	<link href="https://energoeffect.gov.by/" rel="alternate" hreflang="ru-RU" />
+	<link href="https://energoeffect.gov.by/be/" rel="alternate" hreflang="be-BY" />
+	<link href="https://energoeffect.gov.by/en/" rel="alternate" hreflang="en-GB" />
+	<link href="https://energoeffect.gov.by/component/search/?Itemid=315&amp;format=opensearch" rel="search" title="Искать Департамент по энергоэффективности" type="application/opensearchdescription+xml" />
+	<link href="/templates/yoo_avion/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="https://energoeffect.gov.by/media/plg_social2s/css/behavior/s2sdefault.css" rel="stylesheet" type="text/css" />
+	<link href="https://energoeffect.gov.by/media/plg_social2s/css/styles/default.css" rel="stylesheet" type="text/css" />
+	<link href="https://energoeffect.gov.by/media/plg_social2s/css/s2sfont.min.css" rel="stylesheet" type="text/css" />
+	<link href="/plugins/system/cookiehint/css/blue.css?8c6e5df17fb77e416059b14663116d9a" rel="stylesheet" type="text/css" />
+	<link href="/templates/yoo_avion/widgetkit/widgets/tabs-avion/styles/tabs.css" rel="stylesheet" type="text/css" id="tabs-avion-css" />
+	<style type="text/css">
+#redim-cookiehint-bottom {position: fixed; z-index: 99999; left: 0px; right: 0px; bottom: 0px; top: auto !important;}
+	</style>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"79f414fbf4e5fcc82535b71f4925dacd","system.paths":{"root":"","base":""}}</script>
+	<script src="/media/template/gzip.php?jquery.min-07cdabbc.js" type="text/javascript"></script>
+	<script src="/media/template/gzip.php?jquery-noconflict-76407f96.js" type="text/javascript"></script>
+	<script src="/media/template/gzip.php?jquery-migrate.min-945a3f3b.js" type="text/javascript"></script>
+	<script src="/media/template/gzip.php?core-0ebeb2e8.js" type="text/javascript"></script>
+	<script src="/media/template/gzip.php?jquery.touchSwipe.min-a7a83e5d.js" type="text/javascript"></script>
+	<script src="/media/template/gzip.php?bootstrap.min-e3d0bb47.js" type="text/javascript"></script>
+	<script src="https://cdn.gtranslate.net/widgets/latest/flags.js" data-gt-orig-url="/" data-gt-orig-domain="energoeffect.gov.by" data-gt-widget-id="150" defer="defer" type="text/javascript"></script>
+	<script src="/media/widgetkit/uikit2-e09eafa6.js" type="text/javascript"></script>
+	<script src="/media/widgetkit/wk-scripts-f94ceb20.js" type="text/javascript"></script>
+	<script type="text/javascript">
+var s2s_mobile = '';
+                (function(d){
+                  var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');
+                  p.type = 'text/javascript';
+                  p.async = false;
+                  p.defer = true;
+                  p.src = 'https://energoeffect.gov.by/media/plg_social2s/js/social2s.min.js';
+                  f.parentNode.insertBefore(p, f);
+                }(document));
+            var insert = '0';var insert_position = '0';var insert_element = '';var s2s_checkCookie = '0';var s2s_lang_1tag = 'ru_RU';var s2s_lang_2tag = 'ru';var s2s_lang_direction = 'lang_directon_right';var s2s_load_scripts_onload = '0';var s2s_context = 'com_content.featured';var s2s_debug = '0';var s2s_version = '4.3.53';var s2s_art_mobile_min = '978';var s2s_k2_remove_social = '0';var s2s_sha = '';var s2s_cta_active = '0';var s2s_cta_default = 'twitter';var twitter_b_count_hide = '1';var twitter_b_count = '0';var facebook_count_hide = '1';var facebook_like_count = '0';var facebook_share_count = '0';var facebook_total_count = '0';var pinterest_count_hide = '1';var pinterest_count = '0';var linkedin_count_hide = '1';var linkedin_count = '0';var gplus_b_count_hide = '1';var gplus_b_count = '0';var tumblr_count = '0';var tumblr_count_hide = '0';var vk_b_count_hide = '1';var vk_b_count = '0';var php_full_link = 'https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260123_news';var php_title = '%D0%9E%20%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B8%20%D0%BF%D1%80%D1%8F%D0%BC%D0%BE%D0%B9%20%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D0%BD%D0%BE%D0%B9%20%D0%BB%D0%B8%D0%BD%D0%B8%D0%B8%20%D1%81%20%D0%BD%D0%B0%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC%20%D0%B2%20%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D0%B9%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8';var s2s_mobile = '';var insert = '0';var insert_position = '0';var insert_element = '';var s2s_checkCookie = '0';var s2s_lang_1tag = 'ru_RU';var s2s_lang_2tag = 'ru';var s2s_lang_direction = 'lang_directon_right';var s2s_load_scripts_onload = '0';var s2s_context = 'com_content.featured';var s2s_debug = '0';var s2s_version = '4.3.53';var s2s_art_mobile_min = '978';var s2s_k2_remove_social = '0';var s2s_sha = '';var s2s_cta_active = '0';var s2s_cta_default = 'twitter';var twitter_b_count_hide = '1';var twitter_b_count = '0';var facebook_count_hide = '1';var facebook_like_count = '0';var facebook_share_count = '0';var facebook_total_count = '0';var pinterest_count_hide = '1';var pinterest_count = '0';var linkedin_count_hide = '1';var linkedin_count = '0';var gplus_b_count_hide = '1';var gplus_b_count = '0';var tumblr_count = '0';var tumblr_count_hide = '0';var vk_b_count_hide = '1';var vk_b_count = '0';var php_full_link = 'https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260122_news';var php_title = '%D0%90%D0%B4%D1%80%D0%B5%D1%81%D0%B0%20%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%BE%D1%81%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F.%20%D0%A1%D0%98%D0%97%D0%9E%20%E2%84%96%206%20%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%94%D0%98%D0%9D%20%D0%9C%D0%92%D0%94%20%D0%BF%D0%BE%20%D0%91%D1%80%D0%B5%D1%81%D1%82%D1%81%D0%BA%D0%BE%D0%B9%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8';var s2s_mobile = '';var insert = '0';var insert_position = '0';var insert_element = '';var s2s_checkCookie = '0';var s2s_lang_1tag = 'ru_RU';var s2s_lang_2tag = 'ru';var s2s_lang_direction = 'lang_directon_right';var s2s_load_scripts_onload = '0';var s2s_context = 'com_content.featured';var s2s_debug = '0';var s2s_version = '4.3.53';var s2s_art_mobile_min = '978';var s2s_k2_remove_social = '0';var s2s_sha = '';var s2s_cta_active = '0';var s2s_cta_default = 'twitter';var twitter_b_count_hide = '1';var twitter_b_count = '0';var facebook_count_hide = '1';var facebook_like_count = '0';var facebook_share_count = '0';var facebook_total_count = '0';var pinterest_count_hide = '1';var pinterest_count = '0';var linkedin_count_hide = '1';var linkedin_count = '0';var gplus_b_count_hide = '1';var gplus_b_count = '0';var tumblr_count = '0';var tumblr_count_hide = '0';var vk_b_count_hide = '1';var vk_b_count = '0';var php_full_link = 'https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260121_news';var php_title = '%D0%9F%D0%BE%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE-%D0%B8%D0%B3%D1%80%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB%20%C2%AB%D0%9F%D0%B0%D0%BB%D1%96%D0%B2%D0%B0%C2%BB%3A%20%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D0%B2%D0%B0%D0%B5%D0%BC%20%D0%BC%D0%B8%D1%80%20%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%BE%D1%81%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F';var s2s_mobile = '';var insert = '0';var insert_position = '0';var insert_element = '';var s2s_checkCookie = '0';var s2s_lang_1tag = 'ru_RU';var s2s_lang_2tag = 'ru';var s2s_lang_direction = 'lang_directon_right';var s2s_load_scripts_onload = '0';var s2s_context = 'com_content.featured';var s2s_debug = '0';var s2s_version = '4.3.53';var s2s_art_mobile_min = '978';var s2s_k2_remove_social = '0';var s2s_sha = '';var s2s_cta_active = '0';var s2s_cta_default = 'twitter';var twitter_b_count_hide = '1';var twitter_b_count = '0';var facebook_count_hide = '1';var facebook_like_count = '0';var facebook_share_count = '0';var facebook_total_count = '0';var pinterest_count_hide = '1';var pinterest_count = '0';var linkedin_count_hide = '1';var linkedin_count = '0';var gplus_b_count_hide = '1';var gplus_b_count = '0';var tumblr_count = '0';var tumblr_count_hide = '0';var vk_b_count_hide = '1';var vk_b_count = '0';var php_full_link = 'https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260119_news';var php_title = '%D0%92%20%D0%91%D1%80%D0%B5%D1%81%D1%82%D1%81%D0%BA%D0%BE%D0%B9%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8%20%D1%83%D0%B2%D0%B5%D0%BB%D0%B8%D1%87%D0%B0%D1%82%20%D0%BE%D0%B1%D1%8A%D0%B5%D0%BC%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%BF%D0%B5%D0%BB%D0%BB%D0%B5%D1%82';var s2s_mobile = '';var insert = '0';var insert_position = '0';var insert_element = '';var s2s_checkCookie = '0';var s2s_lang_1tag = 'ru_RU';var s2s_lang_2tag = 'ru';var s2s_lang_direction = 'lang_directon_right';var s2s_load_scripts_onload = '0';var s2s_context = 'com_content.featured';var s2s_debug = '0';var s2s_version = '4.3.53';var s2s_art_mobile_min = '978';var s2s_k2_remove_social = '0';var s2s_sha = '';var s2s_cta_active = '0';var s2s_cta_default = 'twitter';var twitter_b_count_hide = '1';var twitter_b_count = '0';var facebook_count_hide = '1';var facebook_like_count = '0';var facebook_share_count = '0';var facebook_total_count = '0';var pinterest_count_hide = '1';var pinterest_count = '0';var linkedin_count_hide = '1';var linkedin_count = '0';var gplus_b_count_hide = '1';var gplus_b_count = '0';var tumblr_count = '0';var tumblr_count_hide = '0';var vk_b_count_hide = '1';var vk_b_count = '0';var php_full_link = 'https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260116_news';var php_title = '%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE-%D0%BD%D0%B0%D0%B4%D0%B7%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%20%D0%B4%D0%B5%D1%8F%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B2%20%D0%91%D1%80%D0%B5%D1%81%D1%82%D1%81%D0%BA%D0%BE%D0%B9%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8%3A%20%D0%B8%D1%82%D0%BE%D0%B3%D0%B8%202025%20%D0%B3%D0%BE%D0%B4%D0%B0%20';var s2s_mobile = '';var insert = '0';var insert_position = '0';var insert_element = '';var s2s_checkCookie = '0';var s2s_lang_1tag = 'ru_RU';var s2s_lang_2tag = 'ru';var s2s_lang_direction = 'lang_directon_right';var s2s_load_scripts_onload = '0';var s2s_context = 'com_content.featured';var s2s_debug = '0';var s2s_version = '4.3.53';var s2s_art_mobile_min = '978';var s2s_k2_remove_social = '0';var s2s_sha = '';var s2s_cta_active = '0';var s2s_cta_default = 'twitter';var twitter_b_count_hide = '1';var twitter_b_count = '0';var facebook_count_hide = '1';var facebook_like_count = '0';var facebook_share_count = '0';var facebook_total_count = '0';var pinterest_count_hide = '1';var pinterest_count = '0';var linkedin_count_hide = '1';var linkedin_count = '0';var gplus_b_count_hide = '1';var gplus_b_count = '0';var tumblr_count = '0';var tumblr_count_hide = '0';var vk_b_count_hide = '1';var vk_b_count = '0';var php_full_link = 'https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260115_news';var php_title = '%D0%A0%D0%B5%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F%20%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%BE%D0%B8%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%20%E2%80%93%20%D0%B8%D0%BD%D0%B2%D0%B5%D1%81%D1%82%D0%B8%D1%86%D0%B8%D0%B8%20%D0%B2%20%D0%BD%D0%B0%D0%B4%D0%B5%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%8C%2C%20%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D1%84%D0%BE%D1%80%D1%82';var s2s_mobile = '';var insert = '0';var insert_position = '0';var insert_element = '';var s2s_checkCookie = '0';var s2s_lang_1tag = 'ru_RU';var s2s_lang_2tag = 'ru';var s2s_lang_direction = 'lang_directon_right';var s2s_load_scripts_onload = '0';var s2s_context = 'com_content.featured';var s2s_debug = '0';var s2s_version = '4.3.53';var s2s_art_mobile_min = '978';var s2s_k2_remove_social = '0';var s2s_sha = '';var s2s_cta_active = '0';var s2s_cta_default = 'twitter';var twitter_b_count_hide = '1';var twitter_b_count = '0';var facebook_count_hide = '1';var facebook_like_count = '0';var facebook_share_count = '0';var facebook_total_count = '0';var pinterest_count_hide = '1';var pinterest_count = '0';var linkedin_count_hide = '1';var linkedin_count = '0';var gplus_b_count_hide = '1';var gplus_b_count = '0';var tumblr_count = '0';var tumblr_count_hide = '0';var vk_b_count_hide = '1';var vk_b_count = '0';var php_full_link = 'https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260114_news';var php_title = '%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%B4%D0%BE%D0%BC%D0%B0%20%D0%BF%D0%BE%D1%82%D1%80%D0%B5%D0%B1%D0%BB%D1%8F%D1%8E%D1%82%20%D0%B2%202-3%20%D1%80%D0%B0%D0%B7%D0%B0%20%D0%BC%D0%B5%D0%BD%D1%8C%D1%88%D0%B5%20%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B8%D0%B8%2C%20%D1%87%D0%B5%D0%BC%20%D0%BF%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%2010-20%20%D0%BB%D0%B5%D1%82%20%D0%BD%D0%B0%D0%B7%D0%B0%D0%B4';var s2s_mobile = '';var insert = '0';var insert_position = '0';var insert_element = '';var s2s_checkCookie = '0';var s2s_lang_1tag = 'ru_RU';var s2s_lang_2tag = 'ru';var s2s_lang_direction = 'lang_directon_right';var s2s_load_scripts_onload = '0';var s2s_context = 'com_content.featured';var s2s_debug = '0';var s2s_version = '4.3.53';var s2s_art_mobile_min = '978';var s2s_k2_remove_social = '0';var s2s_sha = '';var s2s_cta_active = '0';var s2s_cta_default = 'twitter';var twitter_b_count_hide = '1';var twitter_b_count = '0';var facebook_count_hide = '1';var facebook_like_count = '0';var facebook_share_count = '0';var facebook_total_count = '0';var pinterest_count_hide = '1';var pinterest_count = '0';var linkedin_count_hide = '1';var linkedin_count = '0';var gplus_b_count_hide = '1';var gplus_b_count = '0';var tumblr_count = '0';var tumblr_count_hide = '0';var vk_b_count_hide = '1';var vk_b_count = '0';var php_full_link = 'https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260113_news';var php_title = '%D0%AD%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D0%BA%D0%B0%20%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B0%3A%20%D0%B2%D0%BE%D0%B7%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D1%8F%D0%B5%D0%BC%D0%B0%D1%8F%20%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B8%D1%8F%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D0%B1%D1%89%D0%B5%D0%B3%D0%BE%20%D0%BF%D1%80%D0%BE%D1%86%D0%B2%D0%B5%D1%82%D0%B0%D0%BD%D0%B8%D1%8F';var s2s_mobile = '';var insert = '0';var insert_position = '0';var insert_element = '';var s2s_checkCookie = '0';var s2s_lang_1tag = 'ru_RU';var s2s_lang_2tag = 'ru';var s2s_lang_direction = 'lang_directon_right';var s2s_load_scripts_onload = '0';var s2s_context = 'com_content.featured';var s2s_debug = '0';var s2s_version = '4.3.53';var s2s_art_mobile_min = '978';var s2s_k2_remove_social = '0';var s2s_sha = '';var s2s_cta_active = '0';var s2s_cta_default = 'twitter';var twitter_b_count_hide = '1';var twitter_b_count = '0';var facebook_count_hide = '1';var facebook_like_count = '0';var facebook_share_count = '0';var facebook_total_count = '0';var pinterest_count_hide = '1';var pinterest_count = '0';var linkedin_count_hide = '1';var linkedin_count = '0';var gplus_b_count_hide = '1';var gplus_b_count = '0';var tumblr_count = '0';var tumblr_count_hide = '0';var vk_b_count_hide = '1';var vk_b_count = '0';var php_full_link = 'https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260109_2_news';var php_title = '%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C%20%D0%BF%D0%BB%D0%B0%D0%BD%D0%B8%D1%80%D1%83%D0%B5%D1%82%20%D1%81%D0%BD%D0%B8%D0%B7%D0%B8%D1%82%D1%8C%20%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%BE%D0%B5%D0%BC%D0%BA%D0%BE%D1%81%D1%82%D1%8C%20%D0%92%D0%92%D0%9F%20%D0%BD%D0%B0%204%25%20%D0%BA%202030%20%D0%B3%D0%BE%D0%B4%D1%83';var s2s_mobile = '';var insert = '0';var insert_position = '0';var insert_element = '';var s2s_checkCookie = '0';var s2s_lang_1tag = 'ru_RU';var s2s_lang_2tag = 'ru';var s2s_lang_direction = 'lang_directon_right';var s2s_load_scripts_onload = '0';var s2s_context = 'com_content.featured';var s2s_debug = '0';var s2s_version = '4.3.53';var s2s_art_mobile_min = '978';var s2s_k2_remove_social = '0';var s2s_sha = '';var s2s_cta_active = '0';var s2s_cta_default = 'twitter';var twitter_b_count_hide = '1';var twitter_b_count = '0';var facebook_count_hide = '1';var facebook_like_count = '0';var facebook_share_count = '0';var facebook_total_count = '0';var pinterest_count_hide = '1';var pinterest_count = '0';var linkedin_count_hide = '1';var linkedin_count = '0';var gplus_b_count_hide = '1';var gplus_b_count = '0';var tumblr_count = '0';var tumblr_count_hide = '0';var vk_b_count_hide = '1';var vk_b_count = '0';var php_full_link = 'https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260109_news';var php_title = '%D0%9E%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0%D0%BD%D1%8B%20%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B8%20%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C%20%C2%AB%D0%9E%D0%B1%20%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%BE%D1%81%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%BD%D0%B8%D0%B8%C2%BB';window.gtranslateSettings = window.gtranslateSettings || {};window.gtranslateSettings['150'] = {"default_language":"ru","languages":["en","ru","be"],"url_structure":"none","wrapper_selector":"#gt-wrapper-150","globe_size":60,"flag_size":24,"flag_style":"2d","custom_domains":null,"float_switcher_open_direction":"top","switcher_open_direction":"top","native_language_names":1,"add_new_line":1,"select_language_label":"Select Language","detect_browser_language":0,"custom_css":"","alt_flags":[],"switcher_horizontal_position":"inline","switcher_vertical_position":"inline","horizontal_position":"inline","vertical_position":"inline"};(function() {  if (typeof gtag !== 'undefined') {       gtag('consent', 'denied', {         'ad_storage': 'denied',         'ad_user_data': 'denied',         'ad_personalization': 'denied',         'functionality_storage': 'denied',         'personalization_storage': 'denied',         'security_storage': 'denied',         'analytics_storage': 'denied'       });     } })();GOOGLE_MAPS_API_KEY = "AIzaSyCpNh5lqesaaDOxseCkB5VSD5sUr5wZ-Ew";
+	</script>
+	<link href="https://energoeffect.gov.by/" rel="alternate" hreflang="x-default" />
+
+<link rel="apple-touch-icon-precomposed" href="/templates/yoo_avion/apple_touch_icon.png">
+<link rel="stylesheet" href="/media/template/gzip.php?bootstrap-bc4c36a5.css">
+<link rel="stylesheet" href="/media/template/gzip.php?theme-b23fb224.css">
+<script src="/media/template/gzip.php?theme-f9163d37.js"></script>
+</head>
+
+<body class="tm-sidebar-a-left tm-sidebars-1 tm-isblog  tm-article-blog">
+
+    
+                <div class="tm-toolbar tm-toolbar-alt uk-clearfix uk-hidden-small">
+
+    <div class="uk-container uk-container-center">
+
+                <div class="uk-float-left"><div class="uk-panel" ><div class="gtranslate_wrapper" id="gt-wrapper-150"></div></div>
+<div class="uk-panel" ><ul class="uk-subnav uk-subnav-line">
+<li><a href="/sitemap">Карта сайта</a></li></ul></div></div>
+        
+                <div class="uk-float-right"><div class="uk-panel" >
+	<p><a href="#" class="bvi-open" title="Версия сайта для слабовидящих"><em class="bvi-icon bvi-eye bvi-2x">&nbsp;</em> Версия сайта для слабовидящих</a></p></div>
+<div class="uk-panel" >
+	<ul class="uk-subnav">
+<li><a href="https://t.me/energoeffectgovby" class="uk-icon-button uk-icon-small uk-icon-send"></a></li>
+</ul></div></div>
+        
+    </div>
+
+</div>
+
+<div class="uk-container uk-container-center">
+
+    <div class="tm-header">
+
+                <a class="tm-logo uk-visible-large" href="https://energoeffect.gov.by">
+	<div data-particles="{&quot;color&quot;:&quot;auto&quot;, &quot;opacity&quot;: 0.35}"><img src="/images/logo/logolong.png" alt="logo" width="1100" height="80" /></div></a>
+        
+                <nav class="tm-navbar uk-navbar"  data-uk-sticky>
+
+                        <ul class="uk-navbar-nav uk-visible-large">
+<li class="uk-active"><a href="/" class="uk-navbar-nav-subtitle"><i class="uk-icon-home"></i> <img src="/images/blank.png" alt="Главная"/><div> </div></a></li><li class="uk-parent" data-uk-dropdown="{'preventflip':'y'}" aria-haspopup="true" aria-expanded="false"><a href="/about" class="uk-navbar-nav-subtitle">О департаменте<div> </div></a><div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1"><div class="uk-grid uk-dropdown-grid"><div class="uk-width-1-1"><ul class="uk-nav uk-nav-navbar"><li><a href="/about/regulations">Положение о департаменте</a></li><li><a href="/about/2012-09-18-12-42-02">Историческая справка</a></li><li><a href="/about/authority">Руководство</a></li><li><a href="/about/structure">Структура</a></li><li><a href="/about/vacancy">Вакансии</a></li><li><a href="/about/2020_security">Охрана труда</a></li><li><a href="/about/anticorruption">Противодействие коррупции </a></li><li><a href="/about/20210223_news2">Положение о Почетной грамоте Департамента </a></li><li><a href="/about/personal-data">Обработка персональных данных</a></li><li><a href="/about/lady">Объединенная организация Госстандарта ОО «Белорусский союз женщин»</a></li></ul></div></div></div></li><li class="uk-parent" data-uk-dropdown="{'preventflip':'y'}" aria-haspopup="true" aria-expanded="false"><a href="/news" class="uk-navbar-nav-subtitle">Новости<div> </div></a><div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1"><div class="uk-grid uk-dropdown-grid"><div class="uk-width-1-1"><ul class="uk-nav uk-nav-navbar"><li><a href="/news/news_2025">Новости 2025</a></li><li><a href="/news/news-2024">Новости 2024</a></li><li><a href="https://gosstandart.gov.by/государственная-политика/" target="_blank" rel="noopener noreferrer">Государственная политика</a></li><li><a href="/news/quality_year">Год качества</a></li></ul></div></div></div></li><li class="uk-parent" data-uk-dropdown="{'preventflip':'y'}" aria-haspopup="true" aria-expanded="false"><a href="/programs" class="uk-navbar-nav-subtitle">Программы<div> </div></a><div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1"><div class="uk-grid uk-dropdown-grid"><div class="uk-width-1-1"><ul class="uk-nav uk-nav-navbar"><li><a href="/programs/basicdocuments">Основные программные документы</a></li><li class="uk-parent"><a href="/programs/forming">Формирование перечней и планов мероприятий</a><ul class="uk-nav-sub"><li><a href="/programs/forming/progr_norm">Нормативная документация</a></li><li><a href="/programs/forming/spravka">Справочные материалы</a></li></ul></li><li><a href="/programs/forms">Формы</a></li><li class="uk-parent"><a href="/programs/финансовое-обеспечение-программ-энергочбережения">Финансовое обеспечение программ энергосбережения</a><ul class="uk-nav-sub"><li><a href="/programs/финансовое-обеспечение-программ-энергочбережения/финансирование-программ-энергосбережения">Финансирование программ энергосбережения</a></li><li><a href="/programs/финансовое-обеспечение-программ-энергочбережения/господдержка">Господдержка</a></li></ul></li><li class="uk-parent"><a href="/programs/20210302_program">Государственная программа ”Энергосбережение“ на 2021 – 2025 годы</a><ul class="uk-nav-sub"><li><a href="/programs/20210302_program/20210304_realisation_2021">О реализации Государственной программы «Энергосбережение» в 2021 году</a></li></ul></li></ul></div></div></div></li><li class="uk-parent" data-uk-dropdown="{'preventflip':'y'}" aria-haspopup="true" aria-expanded="false"><a href="/laws" class="uk-navbar-nav-subtitle">Акты<div>ЗАКОНОДАТЕЛЬСТВА</div></a><div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1"><div class="uk-grid uk-dropdown-grid"><div class="uk-width-1-1"><ul class="uk-nav uk-nav-navbar"><li><a href="/laws/act">Законы</a></li><li><a href="/laws/direction">Директивы</a></li><li><a href="/laws/resolution">НПА правительства</a></li><li><a href="/laws/other">Другие документы</a></li><li><a href="/laws/standards">Технические НПА</a></li><li><a href="/laws/nparogu">НПА РОГУ</a></li><li><a href="/laws/20210714_ukaz">Указы</a></li></ul></div></div></div></li><li class="uk-parent" data-uk-dropdown="{'preventflip':'y'}" aria-haspopup="true" aria-expanded="false"><a href="/supervision" class="uk-navbar-nav-subtitle">Надзорная<div>ДЕЯТЕЛЬНОСТЬ</div></a><div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1"><div class="uk-grid uk-dropdown-grid"><div class="uk-width-1-1"><ul class="uk-nav uk-nav-navbar"><li><a href="/supervision/design">Нормирование</a></li><li><a href="/supervision/inspection">Энергетическое обследование</a></li><li><a href="/supervision/energy">Энергетический надзор</a></li><li class="uk-parent"><a href="/supervision/framework">Эффективность проектных решений</a><ul class="uk-nav-sub"><li><a href="/supervision/framework/information">Стоимость 1 т.у.т.</a></li></ul></li><li><a href="/supervision/operatinggroup">Республиканская оперативная группа</a></li></ul></div></div></div></li><li class="uk-parent" data-uk-dropdown="{'preventflip':'y'}" aria-haspopup="true" aria-expanded="false"><a href="/statistics" class="uk-navbar-nav-subtitle">Статистика<div> </div></a><div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1"><div class="uk-grid uk-dropdown-grid"><div class="uk-width-1-1"><ul class="uk-nav uk-nav-navbar"><li><a href="/statistics/statistics_4ensb">Государственное статистическое наблюдение по форме 4-энергосбережение (Госстандарт)</a></li><li><a href="/statistics/statinform">Официальная статинформация на основе данных формы 4-энергосбережение (Госстандарт)</a></li><li><a href="/statistics/local">Местные ТЭР и возобновляемые источники энергии</a></li><li><a href="/statistics/2014-03-12-13-33-46">Светлые нефтепродукты</a></li><li><a href="/statistics/quotas">Ведомственная отчетность по форме "Сведения о нормах расхода и (или) предельных уровнях потребления топливно-энергетических ресурсов"</a></li><li><a href="/statistics/ereport">Электронная отчетность</a></li></ul></div></div></div></li><li class="uk-parent" data-uk-dropdown="{'preventflip':'y'}" aria-haspopup="true" aria-expanded="false"><a href="/propaganda" class="uk-navbar-nav-subtitle">Популярно<div>ОБ ЭНЕРГОСБЕРЕЖЕНИИ</div></a><div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-2"><div class="uk-grid uk-dropdown-grid"><div class="uk-width-1-2"><ul class="uk-nav uk-nav-navbar"><li><a href="/propaganda/publishing">Журнал "Энергоэффективность"</a></li><li class="uk-parent"><a href="/propaganda/2011-08-31-12-14-15-sp-30597">Энергосбережение и дети</a><ul class="uk-nav-sub"><li><a href="/propaganda/2011-08-31-12-14-15-sp-30597/energy">Республиканский конкурс</a></li><li><a href="/propaganda/2011-08-31-12-14-15-sp-30597/teacher">Педагогический опыт</a></li><li><a href="/propaganda/2011-08-31-12-14-15-sp-30597/all-games">Играем вместе</a></li></ul></li><li><a href="/propaganda/helpfull">Полезные советы</a></li><li><a href="/propaganda/photogallery">Фотогалерея</a></li></ul></div><div class="uk-width-1-2"><ul class="uk-nav uk-nav-navbar"><li><a href="https://www.youtube.com/channel/UCNnRgj7ycWccZZCeU4j_FlA" target="_blank" rel="noopener noreferrer">Видеоархив</a></li><li><a href="/propaganda/event">Мероприятия</a></li><li><a href="/propaganda/education">Обучаемся энергосбережению</a></li><li><a href="/propaganda/socialad">Социальная реклама</a></li></ul></div></div></div></li><li class="uk-parent" data-uk-dropdown="{'preventflip':'y'}" aria-haspopup="true" aria-expanded="false"><a href="/onewindow" class="uk-navbar-nav-subtitle">Одно<div>ОКНО</div></a><div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1"><div class="uk-grid uk-dropdown-grid"><div class="uk-width-1-1"><ul class="uk-nav uk-nav-navbar"><li><a href="/onewindow/feedback">Электронные обращения</a></li><li><a href="/onewindow/hotline">Горячая линия</a></li><li><a href="/onewindow/procedures">Административные процедуры</a></li><li><a href="/onewindow/directlines">Прямые телефонные линии</a></li><li><a href="/onewindow/20190410_question">Вопрос- ответ</a></li><li><a href="/onewindow/schedule">Прием граждан</a></li><li><a href="/onewindow/20250420_anketa">АНКЕТА о качестве осуществления административных процедур по заявлениям граждан</a></li></ul></div></div></div></li><li class="uk-parent" data-uk-dropdown="{'preventflip':'y'}" aria-haspopup="true" aria-expanded="false"><a href="/contact" class="uk-navbar-nav-subtitle">Контакты<div> </div></a><div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1"><div class="uk-grid uk-dropdown-grid"><div class="uk-width-1-1"><ul class="uk-nav uk-nav-navbar"><li><a href="/contact/department">Департамент по энергоэффективности</a></li><li class="uk-parent"><a href="#">Территориальные органы и подчиненные организации</a>
+<ul class="uk-nav-sub"><li><a href="/contact/region/brest">Брестское областное управление</a></li><li><a href="/contact/region/vitebsk">Витебское областное управление</a></li><li><a href="/contact/region/gomel">Гомельское областное управление</a></li><li><a href="/contact/region/grodno">Гродненское областное управление</a></li><li><a href="/contact/region/minskcity">Минское городское управление</a></li><li><a href="/contact/region/minsk">Минское областное управление</a></li><li><a href="/contact/region/mogilev">Могилевское областное управление</a></li><li><a href="/contact/region/belinvest">РУП «Белинвестэнергосбережение»</a></li><li><a href="/contact/region/kvantas">УП «Квант-АС»</a></li></ul></li></ul></div></div></div></li><li class="uk-parent" data-uk-dropdown="{'preventflip':'y'}" aria-haspopup="true" aria-expanded="false"><a href="/media-relations">Взаимодействие со СМИ</a><div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1"><div class="uk-grid uk-dropdown-grid"><div class="uk-width-1-1"><ul class="uk-nav uk-nav-navbar"><li><a href="/media-relations/contacts_media">Контакты для СМИ</a></li><li><a href="/media-relations/publications">Интервью, видео, публикации в СМИ</a></li></ul></div></div></div></li></ul>            
+                        <div class="uk-navbar-flip">
+                            <div class="uk-navbar-content uk-visible-large">
+<form id="search-94-697aad9cabdcb" class="uk-search" action="/" method="post" data-uk-search="{'source': '/component/search/?tmpl=raw&amp;type=json&amp;ordering=&amp;searchphrase=all', 'param': 'searchword', 'msgResultsHeader': 'Результаты поиска', 'msgMoreResults': 'Показать все результаты', 'msgNoResults': 'Ничего не найдено!', flipDropdown: 1}">
+	<input class="uk-search-field" type="text" name="searchword" placeholder="поиск...">
+	<input type="hidden" name="task"   value="search">
+	<input type="hidden" name="option" value="com_search">
+	<input type="hidden" name="Itemid" value="315">
+</form>
+</div>
+                                    </div>
+            
+                        <a href="#offcanvas" class="uk-navbar-toggle uk-navbar-flip uk-padding-remove uk-hidden-large" data-uk-offcanvas></a>
+            
+                        <a class="tm-logo-small uk-float-left uk-hidden-large" href="https://energoeffect.gov.by">
+	<p><img src="/images/logo/logosmall.png" alt="logosmall" width="64" height="64" /></p></a>
+            
+        </nav>
+        
+    </div>
+
+</div>        
+    
+    <div class="uk-container uk-container-center">
+
+        
+            
+        
+        
+        
+        
+        
+                <div id="tm-middle" class="tm-middle uk-grid" data-uk-grid-match data-uk-grid-margin>
+
+                        <div class="tm-main uk-width-medium-4-5 uk-push-1-5">
+
+                                <section id="tm-main-top" class="tm-main-top uk-grid uk-grid-match uk-grid-divider" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin><div class="uk-width-1-1">
+	<div class="uk-panel uk-panel-box alert-main" >
+	<div class="uk-alert uk-alert-warning">
+<p class="uk-badge uk-badge-warning uk-text-large">АКТУАЛЬНО</p>
+<p><a href="/programs/20210302_program/2026_realization/2026_realization" target="_self">О реализации Государственной программы&nbsp;&laquo;Устойчивая энергетика и энергоэффективность&raquo; в 2026 году</a></p>
+<p><strong>Вниманию респондентов!</strong> С 15 июля 2025 года доступна возможность предоставлять отчетность по форме ведомственной отчетности &laquo;Сведения о нормах расхода и (или) предельных уровнях потребления топливно-энергетических ресурсов&raquo; <strong>в режиме online. </strong>Для этого надо перейти по <a href="https://erespondentn.energoeffect.gov.by/" target="_blank">следующей ссылке</a><strong>.</strong></p>
+<p>Каждый респондент, перейдя по этой ссылке, должен будет создать себе аккаунт и в нем сформировать отчет. Необходимые инструкции и ответы на возникающие вопросы находятся на закладке FAQ программного обеспечения. Для отправки отчета в принимающий центр (аудитору) используется электронная цифровая подпись.</p>
+<p><a href="/statistics/statistics_4ensb/20250206_4ensb" target="_self" style="background-color: #faedd3; color: #175b4c; text-decoration-line: underline; outline: 0px;">Вниманию респондентов! С 1 февраля 2025 года внесены изменения в постановление Национального статистического комитета Республики Беларусь от 12 августа 2022 г. № 69 "Отчет о выполнении мероприятий по экономии топливно-энергетических ресурсов и увеличению использования местных топливно-энергетических ресурсов".</a></p>
+<p>Указ Президента Республики Беларусь <a href="/downloads/laws/ukaz/20241230_ukaz475.pdf" target="_parent">от 30.12.2024 № 475 &laquo;О возмещении расходов на приобретение котельного оборудования, работающего на древесных топливных гранулах (пеллетах)&raquo;</a></p>
+<p><a href="/downloads/laws/resolution/20250623_psm_346.pdf" target="_self">Постановление Совета Министров Республики Беларусь от 23.06.2025 № 346 &laquo;О реализации Указа Президента Республики Беларусь от 30 декабря 2024 г. № 475&raquo;</a></p>
+<p>Вниманию респондентов! <a href="/downloads/supervision/statistic/20241122_gosstandart_125.docx" target="_self">Постановление Госстандарта от 22.11.2024 № 125 "О форме ведомственной отчетности на 2025 год"</a></p>
+<p><a href="/supervision/framework/20240506_tepem" target="_parent" style="background-color: #faedd3;">Постановление Госстандарта от 22.11.2024 № 125 "О форме ведомственной отчетности на 2025 год"Автоматизация расчетов технико-экономических показателей верификации фактических объемов экономии топливно-энергетических ресурсов от реализации энергосберегающих мероприятий</a></p>
+<p><a href="/downloads/laws/resolution/20250717_psm%20716-377.pdf" target="_parent" class="wf_file" style="background-color: #faedd3;"><span class="wf_file_text">Постановление Совета Министров Республики Беларусь от 23.10.2023 №716 "О комплексе мер по увеличению использования древесных топливных гранул (пеллет)"</span></a></p>
+<p><a href="/downloads/laws/other/2023_other/20230530_fond_20230522.doc" target="_parent" style="background-color: #faedd3;">Актуализировано Положение об Оборотном фонде по биоэнергетике</a></p>
+<p><a href="/news/news_2022/20221123_news2" target="_self" style="background-color: #faedd3;">Об изменении порядка подачи электронных обращений граждан и юридических лиц</a></p>
+<p><a href="/programs/20210302_program/2025_realization/2025_realization" target="_self" style="background-color: #faedd3;">О реализации Государственной программы &laquo;Энергосбережение&raquo; в 2025 году</a></p>
+</div></div></div></section>
+                
+                                <main id="tm-content" class="tm-content">
+
+                                        <ul class="uk-breadcrumb"><li class="uk-active"><span>Главная</span></li></ul>                    
+                    <div id="system-message-container">
+</div>
+<div class="uk-grid tm-leading-article"><div class="uk-width-1-1"><article class="uk-article tm-article" data-permalink="http://energoeffect.gov.by/news/news-2026/20260123_news">
+
+
+	
+	<div class="tm-article-content uk-position-relative  tm-article-date-true">
+		
+		  
+		    <div class="tm-article-date uk-text-center">  
+		    <span class="tm-article-date-day">23</span><span class="tm-article-date-month">янв</span><span class="tm-article-date-year">2026</span>  
+		    </div>  
+				
+
+
+		<h1 class="uk-article-title">
+					<a href="/news/news-2026/20260123_news" title="О проведении прямой телефонной линии с населением в Минской области">О проведении прямой телефонной линии с населением в Минской области</a>
+			</h1>
+	
+	
+
+		<p class="uk-article-meta">
+
+		
+	</p>
+	
+
+	
+		<div>
+		<p style="text-align: justify;"><img src="/downloads/news/2026_news/01/20250123_akulov.jpg" width="180" height="158" alt="20250123 akulov" style="margin-right: 5px; float: left;" />24 января 2026 года с 9 до 12 часов начальник Минского областного управления по надзору за рациональным использованием топливно-энергетических ресурсов Департамента по энергоэффективности Александр Петрович Акулов проводит прямую телефонную линию с населением.</p>
+<p style="text-align: justify;">Вопросы,   касающиеся   сферы   деятельности   Минского   областного   управления   по   надзору   за   рациональным   использованием   топливно-энергетических&hellip;</p><p class='readmore'><a class='btn' href='/news/news-2026/20260123_news'>Подробнее...</a></p>	</div>
+	
+	
+	
+		<p><a href="/news/news-2026/20260123_news?tmpl=component&amp;print=1&amp;layout=default" title="Распечатать материал < О проведении прямой телефонной линии с населением в Минской области >" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">			<span class="icon-print" aria-hidden="true"></span>
+		Печать	</a></p>
+	
+
+
+	</div>
+
+
+
+<div class="s2s_supra_contenedor lang_directon_right s2sdefault  align_center  s2s_balloon_bottom " ><input name="social2s_url" type="hidden" class="social2s_url" value="https://energoeffect.gov.by/news/news-2026/20260123_news" /><div class="s2s_contenedor  s2s_no_text  s2s-btn-group"><div class="s2s_facebook s2s_btn s2s-btn-default " >
+			<a class="s2s_icon"><i class="s2sfo fo-facebook-square"></i>   </a>
+				<div class="globo s2s_globo_closed s2s_facebook_iframe">
+					<div class="s2s_flecha"></div><div class="fb-share-button"
+						data-layout="button_count" 
+						data-href="https://energoeffect.gov.by/news/news-2026/20260123_news" 
+						data-size="small" 
+					>
+						<a target="_blank" href="https://energoeffect.gov.by/news/news-2026/20260123_news" class="fb-xfbml-parse-ignore">Share</a>
+					</div></div>
+			</div><div class="s2s_linkedin s2s_btn s2s-btn-default " ><a class="s2s_icon"><i class="s2sfo fo-linkedin-square"></i>   </a><div class="globo s2s_globo_closed s2s_linkedin_iframe">
+						<div class="s2s_flecha"></div>
+						
+						<script type="IN/Share"  data-url="https://energoeffect.gov.by/news/news-2026/20260123_news"></script><a 
+			target="_blank" 
+			href="https://www.linkedin.com/shareArticle?url=https://energoeffect.gov.by/news/news-2026/20260123_news" 
+			class="btn s2s_linkedin_fallback s2s_hide">
+			<i class="s2sfo fo-linkedin"></i>Share</a></div></div><div class="s2s_wapp s2s_btn s2s-btn-default  " >
+			
+			<a class="s2s_icon"><i class="s2sfo fo-whatsapp-square"></i>  </a>
+				<div class="globo s2s_globo_closed s2s_wapp_iframe">
+					<div class="s2s_flecha"></div>
+				
+
+				<a class="s2s_a_btn wapp_link" 
+					href="whatsapp://send?text=https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260123_news" 
+					data-text="О проведении прямой телефонной линии с населением в Минской области" 
+					data-action="share/whatsapp/share"
+					data-href="https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260123_news"
+				>
+					<i class="s2sfo fo-whatsapp" aria-hidden="true"></i>
+					<span class="s2s_text_int">share with Whatsapp</span>
+				</a>
+
+				</div>
+			</div><div class="s2s_tgram s2s_btn s2s-btn-default  " >
+			
+			<a class="s2s_icon"><i class="s2sfo fo-tgram-square"></i>  </a>
+				<div class="globo s2s_globo_closed s2s_tgram_iframe">
+					<div class="s2s_flecha"></div>
+				
+
+				<a class="s2s_a_btn tgram_link" rel="noreferrer"
+					href="https://telegram.me/share/url?url=https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260123_news&text=О проведении прямой телефонной линии с населением в Минской области" target="_blank"
+				><i class="s2sfo fo-telegram" aria-hidden="true"></i><span class="s2s_text_int">share with Telegram<span></a>
+
+				</div>
+			</div><div class="s2s_tumblr s2s_btn s2s-btn-default " lang="ru"><a class="s2s_icon"><i class="s2sfo fo-tumblr-square"></i>   </a>
+				<div class="globo s2s_globo_closed s2s_tumblr_iframe">
+					<div class="s2s_flecha"></div>
+					<a class="tumblr-share-button" aria-label="tumblr"
+					data-locale="ru_RU" 
+					data-href="https://energoeffect.gov.by/news/news-2026/20260123_news" 
+					data-color="blue" 
+					data-notes="right"
+					href="https://embed.tumblr.com/share"></a></div></div><div class="s2s_vk s2s_btn s2s-btn-default " lang="ru"><a class="s2s_icon"><i class="s2sfo fo-vk-square"></i>   </a><script type="text/javascript" src="https://vkontakte.ru/js/api/share.js?9" charset="windows-1251" asyn="async"></script><div class="globo s2s_globo_closed s2s_vk_iframe" id="s2s_vk_iframe">
+					<div class="s2s_flecha"></div><script type="text/javascript"><!--
+						document.write(VK.Share.button({ 
+							url: "https://energoeffect.gov.by/news/news-2026/20260123_news",
+							title: "О проведении прямой телефонной линии с населением в Минской области"
+							}));
+						--></script></div>
+			</div>
+		</div></div>
+</article>
+<article class="uk-article tm-article" data-permalink="http://energoeffect.gov.by/news/news-2026/20260122_news">
+
+
+	
+	<div class="tm-article-content uk-position-relative  tm-article-date-true">
+		
+		  
+		    <div class="tm-article-date uk-text-center">  
+		    <span class="tm-article-date-day">22</span><span class="tm-article-date-month">янв</span><span class="tm-article-date-year">2026</span>  
+		    </div>  
+				
+
+
+		<h1 class="uk-article-title">
+					<a href="/news/news-2026/20260122_news" title="Адреса энергосбережения. СИЗО № 6 управления ДИН МВД по Брестской области">Адреса энергосбережения. СИЗО № 6 управления ДИН МВД по Брестской области</a>
+			</h1>
+	
+	
+
+		<p class="uk-article-meta">
+
+		
+	</p>
+	
+
+	
+		<div>
+		<p style="text-align: justify;"><img src="/downloads/news/2026_news/01/20250122_new1.jpg" width="180" height="112" alt="20250122 new1" style="margin-right: 5px; float: left;" />Учреждением   СИЗО   №   6   управления   ДИН   МВД   по   Брестской   области   в   2025   году   внедрено   энергосберегающее   мероприятие   по   замене   гладильного   каландра   на   энергоэффективный.   Мероприятие   реализовано   с   софинансированием   из   средств   республиканского   бюджета,   направленных   на   реализацию   Государственной   программы   &laquo;Энергосбережение&raquo;   на   2021   &ndash;   2025   годы,   сообщают   в   Брестском   областном   управлении&hellip;</p><p class='readmore'><a class='btn' href='/news/news-2026/20260122_news'>Подробнее...</a></p>	</div>
+	
+	
+	
+		<p><a href="/news/news-2026/20260122_news?tmpl=component&amp;print=1&amp;layout=default" title="Распечатать материал < Адреса энергосбережения. СИЗО № 6 управления ДИН МВД по Брестской области >" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">			<span class="icon-print" aria-hidden="true"></span>
+		Печать	</a></p>
+	
+
+
+	</div>
+
+
+
+<div class="s2s_supra_contenedor lang_directon_right s2sdefault  align_center  s2s_balloon_bottom " ><input name="social2s_url" type="hidden" class="social2s_url" value="https://energoeffect.gov.by/news/news-2026/20260122_news" /><div class="s2s_contenedor  s2s_no_text  s2s-btn-group"><div class="s2s_facebook s2s_btn s2s-btn-default " >
+			<a class="s2s_icon"><i class="s2sfo fo-facebook-square"></i>   </a>
+				<div class="globo s2s_globo_closed s2s_facebook_iframe">
+					<div class="s2s_flecha"></div><div class="fb-share-button"
+						data-layout="button_count" 
+						data-href="https://energoeffect.gov.by/news/news-2026/20260122_news" 
+						data-size="small" 
+					>
+						<a target="_blank" href="https://energoeffect.gov.by/news/news-2026/20260122_news" class="fb-xfbml-parse-ignore">Share</a>
+					</div></div>
+			</div><div class="s2s_linkedin s2s_btn s2s-btn-default " ><a class="s2s_icon"><i class="s2sfo fo-linkedin-square"></i>   </a><div class="globo s2s_globo_closed s2s_linkedin_iframe">
+						<div class="s2s_flecha"></div>
+						
+						<script type="IN/Share"  data-url="https://energoeffect.gov.by/news/news-2026/20260122_news"></script><a 
+			target="_blank" 
+			href="https://www.linkedin.com/shareArticle?url=https://energoeffect.gov.by/news/news-2026/20260122_news" 
+			class="btn s2s_linkedin_fallback s2s_hide">
+			<i class="s2sfo fo-linkedin"></i>Share</a></div></div><div class="s2s_wapp s2s_btn s2s-btn-default  " >
+			
+			<a class="s2s_icon"><i class="s2sfo fo-whatsapp-square"></i>  </a>
+				<div class="globo s2s_globo_closed s2s_wapp_iframe">
+					<div class="s2s_flecha"></div>
+				
+
+				<a class="s2s_a_btn wapp_link" 
+					href="whatsapp://send?text=https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260122_news" 
+					data-text="Адреса энергосбережения. СИЗО № 6 управления ДИН МВД по Брестской области" 
+					data-action="share/whatsapp/share"
+					data-href="https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260122_news"
+				>
+					<i class="s2sfo fo-whatsapp" aria-hidden="true"></i>
+					<span class="s2s_text_int">share with Whatsapp</span>
+				</a>
+
+				</div>
+			</div><div class="s2s_tgram s2s_btn s2s-btn-default  " >
+			
+			<a class="s2s_icon"><i class="s2sfo fo-tgram-square"></i>  </a>
+				<div class="globo s2s_globo_closed s2s_tgram_iframe">
+					<div class="s2s_flecha"></div>
+				
+
+				<a class="s2s_a_btn tgram_link" rel="noreferrer"
+					href="https://telegram.me/share/url?url=https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260122_news&text=Адреса энергосбережения. СИЗО № 6 управления ДИН МВД по Брестской области" target="_blank"
+				><i class="s2sfo fo-telegram" aria-hidden="true"></i><span class="s2s_text_int">share with Telegram<span></a>
+
+				</div>
+			</div><div class="s2s_tumblr s2s_btn s2s-btn-default " lang="ru"><a class="s2s_icon"><i class="s2sfo fo-tumblr-square"></i>   </a>
+				<div class="globo s2s_globo_closed s2s_tumblr_iframe">
+					<div class="s2s_flecha"></div>
+					<a class="tumblr-share-button" aria-label="tumblr"
+					data-locale="ru_RU" 
+					data-href="https://energoeffect.gov.by/news/news-2026/20260122_news" 
+					data-color="blue" 
+					data-notes="right"
+					href="https://embed.tumblr.com/share"></a></div></div><div class="s2s_vk s2s_btn s2s-btn-default " lang="ru"><a class="s2s_icon"><i class="s2sfo fo-vk-square"></i>   </a><script type="text/javascript" src="https://vkontakte.ru/js/api/share.js?9" charset="windows-1251" asyn="async"></script><div class="globo s2s_globo_closed s2s_vk_iframe" id="s2s_vk_iframe">
+					<div class="s2s_flecha"></div><script type="text/javascript"><!--
+						document.write(VK.Share.button({ 
+							url: "https://energoeffect.gov.by/news/news-2026/20260122_news",
+							title: "Адреса энергосбережения. СИЗО № 6 управления ДИН МВД по Брестской области"
+							}));
+						--></script></div>
+			</div>
+		</div></div>
+</article>
+</div></div><div class="uk-grid" data-uk-grid-match data-uk-grid-margin><div class="uk-width-medium-1-2"><article class="uk-article tm-article" data-permalink="http://energoeffect.gov.by/news/news-2026/20260121_news">
+
+
+	
+	<div class="tm-article-content uk-position-relative  tm-article-date-true">
+		
+		  
+		    <div class="tm-article-date uk-text-center">  
+		    <span class="tm-article-date-day">21</span><span class="tm-article-date-month">янв</span><span class="tm-article-date-year">2026</span>  
+		    </div>  
+				
+
+
+		<h1 class="uk-article-title">
+					<a href="/news/news-2026/20260121_news" title="Познавательно-игровой журнал «Паліва»: открываем мир энергосбережения">Познавательно-игровой журнал «Паліва»: открываем мир энергосбережения</a>
+			</h1>
+	
+	
+
+		<p class="uk-article-meta">
+
+		
+	</p>
+	
+
+	
+		<div>
+		<p style="text-align: justify;"><img src="/downloads/news/2026_news/01/20250121_new1.jpg" width="180" height="199" alt="20250121 new1" style="margin-right: 5px; float: left;" />В целях популяризации культуры энергосбережения и формирования у подрастающего поколения ответственного отношения к использованию энергоресурсов Департаментом по энергоэффективности и РУП &laquo;Белинвестэнергосбережение&raquo; в 2025 году основан и издается <span class="wf_file_text">новый познавательно-игровой журнал &laquo;Паліва&raquo;</span>.</p>
+<p style="text-align: justify;">Журнал   создан   для   того,   чтобы   в   доступной   и   увлекательной   форме   рассказать   детям   и&hellip;</p><p class='readmore'><a class='btn' href='/news/news-2026/20260121_news'>Подробнее...</a></p>	</div>
+	
+	
+	
+		<p><a href="/news/news-2026/20260121_news?tmpl=component&amp;print=1&amp;layout=default" title="Распечатать материал < Познавательно-игровой журнал «Паліва»: открываем мир энергосбережения >" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">			<span class="icon-print" aria-hidden="true"></span>
+		Печать	</a></p>
+	
+
+
+	</div>
+
+
+
+<div class="s2s_supra_contenedor lang_directon_right s2sdefault  align_center  s2s_balloon_bottom " ><input name="social2s_url" type="hidden" class="social2s_url" value="https://energoeffect.gov.by/news/news-2026/20260121_news" /><div class="s2s_contenedor  s2s_no_text  s2s-btn-group"><div class="s2s_facebook s2s_btn s2s-btn-default " >
+			<a class="s2s_icon"><i class="s2sfo fo-facebook-square"></i>   </a>
+				<div class="globo s2s_globo_closed s2s_facebook_iframe">
+					<div class="s2s_flecha"></div><div class="fb-share-button"
+						data-layout="button_count" 
+						data-href="https://energoeffect.gov.by/news/news-2026/20260121_news" 
+						data-size="small" 
+					>
+						<a target="_blank" href="https://energoeffect.gov.by/news/news-2026/20260121_news" class="fb-xfbml-parse-ignore">Share</a>
+					</div></div>
+			</div><div class="s2s_linkedin s2s_btn s2s-btn-default " ><a class="s2s_icon"><i class="s2sfo fo-linkedin-square"></i>   </a><div class="globo s2s_globo_closed s2s_linkedin_iframe">
+						<div class="s2s_flecha"></div>
+						
+						<script type="IN/Share"  data-url="https://energoeffect.gov.by/news/news-2026/20260121_news"></script><a 
+			target="_blank" 
+			href="https://www.linkedin.com/shareArticle?url=https://energoeffect.gov.by/news/news-2026/20260121_news" 
+			class="btn s2s_linkedin_fallback s2s_hide">
+			<i class="s2sfo fo-linkedin"></i>Share</a></div></div><div class="s2s_wapp s2s_btn s2s-btn-default  " >
+			
+			<a class="s2s_icon"><i class="s2sfo fo-whatsapp-square"></i>  </a>
+				<div class="globo s2s_globo_closed s2s_wapp_iframe">
+					<div class="s2s_flecha"></div>
+				
+
+				<a class="s2s_a_btn wapp_link" 
+					href="whatsapp://send?text=https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260121_news" 
+					data-text="Познавательно-игровой журнал «Паліва»: открываем мир энергосбережения" 
+					data-action="share/whatsapp/share"
+					data-href="https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260121_news"
+				>
+					<i class="s2sfo fo-whatsapp" aria-hidden="true"></i>
+					<span class="s2s_text_int">share with Whatsapp</span>
+				</a>
+
+				</div>
+			</div><div class="s2s_tgram s2s_btn s2s-btn-default  " >
+			
+			<a class="s2s_icon"><i class="s2sfo fo-tgram-square"></i>  </a>
+				<div class="globo s2s_globo_closed s2s_tgram_iframe">
+					<div class="s2s_flecha"></div>
+				
+
+				<a class="s2s_a_btn tgram_link" rel="noreferrer"
+					href="https://telegram.me/share/url?url=https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260121_news&text=Познавательно-игровой журнал «Паліва»: открываем мир энергосбережения" target="_blank"
+				><i class="s2sfo fo-telegram" aria-hidden="true"></i><span class="s2s_text_int">share with Telegram<span></a>
+
+				</div>
+			</div><div class="s2s_tumblr s2s_btn s2s-btn-default " lang="ru"><a class="s2s_icon"><i class="s2sfo fo-tumblr-square"></i>   </a>
+				<div class="globo s2s_globo_closed s2s_tumblr_iframe">
+					<div class="s2s_flecha"></div>
+					<a class="tumblr-share-button" aria-label="tumblr"
+					data-locale="ru_RU" 
+					data-href="https://energoeffect.gov.by/news/news-2026/20260121_news" 
+					data-color="blue" 
+					data-notes="right"
+					href="https://embed.tumblr.com/share"></a></div></div><div class="s2s_vk s2s_btn s2s-btn-default " lang="ru"><a class="s2s_icon"><i class="s2sfo fo-vk-square"></i>   </a><script type="text/javascript" src="https://vkontakte.ru/js/api/share.js?9" charset="windows-1251" asyn="async"></script><div class="globo s2s_globo_closed s2s_vk_iframe" id="s2s_vk_iframe">
+					<div class="s2s_flecha"></div><script type="text/javascript"><!--
+						document.write(VK.Share.button({ 
+							url: "https://energoeffect.gov.by/news/news-2026/20260121_news",
+							title: "Познавательно-игровой журнал «Паліва»: открываем мир энергосбережения"
+							}));
+						--></script></div>
+			</div>
+		</div></div>
+</article>
+<article class="uk-article tm-article" data-permalink="http://energoeffect.gov.by/news/news-2026/20260116_news">
+
+
+	
+	<div class="tm-article-content uk-position-relative  tm-article-date-true">
+		
+		  
+		    <div class="tm-article-date uk-text-center">  
+		    <span class="tm-article-date-day">16</span><span class="tm-article-date-month">янв</span><span class="tm-article-date-year">2026</span>  
+		    </div>  
+				
+
+
+		<h1 class="uk-article-title">
+					<a href="/news/news-2026/20260116_news" title="Контрольно-надзорная деятельность в Брестской области: итоги 2025 года ">Контрольно-надзорная деятельность в Брестской области: итоги 2025 года </a>
+			</h1>
+	
+	
+
+		<p class="uk-article-meta">
+
+		
+	</p>
+	
+
+	
+		<div>
+		<p style="text-align: justify;"><img src="/downloads/news/2026_news/01/20250116_new1.jpg" alt="20250116 new1" width="180" height="102" style="margin-right: 5px; float: left;" />Брестским областным управлением по надзору за рациональным использованием топливно-энергетических ресурсов продолжена работа по осуществлению контрольно-надзорной деятельности по соблюдению субъектами хозяйствования требований нормативных правовых актов, регламентирующих рациональное использование энергоресурсов, сообщают в управлении.</p>
+<p style="text-align: justify;">В   2025   году   управлением   проведено   8   проверок   и   146&hellip;</p><p class='readmore'><a class='btn' href='/news/news-2026/20260116_news'>Подробнее...</a></p>	</div>
+	
+	
+	
+		<p><a href="/news/news-2026/20260116_news?tmpl=component&amp;print=1&amp;layout=default" title="Распечатать материал < Контрольно-надзорная деятельность в Брестской области: итоги 2025 года  >" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">			<span class="icon-print" aria-hidden="true"></span>
+		Печать	</a></p>
+	
+
+
+	</div>
+
+
+
+<div class="s2s_supra_contenedor lang_directon_right s2sdefault  align_center  s2s_balloon_bottom " ><input name="social2s_url" type="hidden" class="social2s_url" value="https://energoeffect.gov.by/news/news-2026/20260116_news" /><div class="s2s_contenedor  s2s_no_text  s2s-btn-group"><div class="s2s_facebook s2s_btn s2s-btn-default " >
+			<a class="s2s_icon"><i class="s2sfo fo-facebook-square"></i>   </a>
+				<div class="globo s2s_globo_closed s2s_facebook_iframe">
+					<div class="s2s_flecha"></div><div class="fb-share-button"
+						data-layout="button_count" 
+						data-href="https://energoeffect.gov.by/news/news-2026/20260116_news" 
+						data-size="small" 
+					>
+						<a target="_blank" href="https://energoeffect.gov.by/news/news-2026/20260116_news" class="fb-xfbml-parse-ignore">Share</a>
+					</div></div>
+			</div><div class="s2s_linkedin s2s_btn s2s-btn-default " ><a class="s2s_icon"><i class="s2sfo fo-linkedin-square"></i>   </a><div class="globo s2s_globo_closed s2s_linkedin_iframe">
+						<div class="s2s_flecha"></div>
+						
+						<script type="IN/Share"  data-url="https://energoeffect.gov.by/news/news-2026/20260116_news"></script><a 
+			target="_blank" 
+			href="https://www.linkedin.com/shareArticle?url=https://energoeffect.gov.by/news/news-2026/20260116_news" 
+			class="btn s2s_linkedin_fallback s2s_hide">
+			<i class="s2sfo fo-linkedin"></i>Share</a></div></div><div class="s2s_wapp s2s_btn s2s-btn-default  " >
+			
+			<a class="s2s_icon"><i class="s2sfo fo-whatsapp-square"></i>  </a>
+				<div class="globo s2s_globo_closed s2s_wapp_iframe">
+					<div class="s2s_flecha"></div>
+				
+
+				<a class="s2s_a_btn wapp_link" 
+					href="whatsapp://send?text=https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260116_news" 
+					data-text="Контрольно-надзорная деятельность в Брестской области: итоги 2025 года " 
+					data-action="share/whatsapp/share"
+					data-href="https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260116_news"
+				>
+					<i class="s2sfo fo-whatsapp" aria-hidden="true"></i>
+					<span class="s2s_text_int">share with Whatsapp</span>
+				</a>
+
+				</div>
+			</div><div class="s2s_tgram s2s_btn s2s-btn-default  " >
+			
+			<a class="s2s_icon"><i class="s2sfo fo-tgram-square"></i>  </a>
+				<div class="globo s2s_globo_closed s2s_tgram_iframe">
+					<div class="s2s_flecha"></div>
+				
+
+				<a class="s2s_a_btn tgram_link" rel="noreferrer"
+					href="https://telegram.me/share/url?url=https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260116_news&text=Контрольно-надзорная деятельность в Брестской области: итоги 2025 года " target="_blank"
+				><i class="s2sfo fo-telegram" aria-hidden="true"></i><span class="s2s_text_int">share with Telegram<span></a>
+
+				</div>
+			</div><div class="s2s_tumblr s2s_btn s2s-btn-default " lang="ru"><a class="s2s_icon"><i class="s2sfo fo-tumblr-square"></i>   </a>
+				<div class="globo s2s_globo_closed s2s_tumblr_iframe">
+					<div class="s2s_flecha"></div>
+					<a class="tumblr-share-button" aria-label="tumblr"
+					data-locale="ru_RU" 
+					data-href="https://energoeffect.gov.by/news/news-2026/20260116_news" 
+					data-color="blue" 
+					data-notes="right"
+					href="https://embed.tumblr.com/share"></a></div></div><div class="s2s_vk s2s_btn s2s-btn-default " lang="ru"><a class="s2s_icon"><i class="s2sfo fo-vk-square"></i>   </a><script type="text/javascript" src="https://vkontakte.ru/js/api/share.js?9" charset="windows-1251" asyn="async"></script><div class="globo s2s_globo_closed s2s_vk_iframe" id="s2s_vk_iframe">
+					<div class="s2s_flecha"></div><script type="text/javascript"><!--
+						document.write(VK.Share.button({ 
+							url: "https://energoeffect.gov.by/news/news-2026/20260116_news",
+							title: "Контрольно-надзорная деятельность в Брестской области: итоги 2025 года "
+							}));
+						--></script></div>
+			</div>
+		</div></div>
+</article>
+</div><div class="uk-width-medium-1-2"><article class="uk-article tm-article" data-permalink="http://energoeffect.gov.by/news/news-2026/20260119_news">
+
+
+	
+	<div class="tm-article-content uk-position-relative  tm-article-date-true">
+		
+		  
+		    <div class="tm-article-date uk-text-center">  
+		    <span class="tm-article-date-day">19</span><span class="tm-article-date-month">янв</span><span class="tm-article-date-year">2026</span>  
+		    </div>  
+				
+
+
+		<h1 class="uk-article-title">
+					<a href="/news/news-2026/20260119_news" title="В Брестской области увеличат объем использования пеллет">В Брестской области увеличат объем использования пеллет</a>
+			</h1>
+	
+	
+
+		<p class="uk-article-meta">
+
+		
+	</p>
+	
+
+	
+		<div>
+		<p style="text-align: justify;"><img src="/downloads/news/2026_news/01/20250119_new1.jpg" width="180" height="110" alt="20250119 new1" style="margin-right: 5px; float: left;" />В рамках Государственной программы &laquo;Устойчивая энергетика и энергоэффективность&raquo; на 2026&ndash;2030 годы в Брестской области запланированы мероприятия по строительству и модернизации котельных, которые будут использовать в качестве топлива пеллеты, сообщают в Брестском областном управлении по надзору за рациональным использованием топливно-энергетических ресурсов.</p>
+<p style="text-align: justify;">В   2026   году&hellip;</p><p class='readmore'><a class='btn' href='/news/news-2026/20260119_news'>Подробнее...</a></p>	</div>
+	
+	
+	
+		<p><a href="/news/news-2026/20260119_news?tmpl=component&amp;print=1&amp;layout=default" title="Распечатать материал < В Брестской области увеличат объем использования пеллет >" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">			<span class="icon-print" aria-hidden="true"></span>
+		Печать	</a></p>
+	
+
+
+	</div>
+
+
+
+<div class="s2s_supra_contenedor lang_directon_right s2sdefault  align_center  s2s_balloon_bottom " ><input name="social2s_url" type="hidden" class="social2s_url" value="https://energoeffect.gov.by/news/news-2026/20260119_news" /><div class="s2s_contenedor  s2s_no_text  s2s-btn-group"><div class="s2s_facebook s2s_btn s2s-btn-default " >
+			<a class="s2s_icon"><i class="s2sfo fo-facebook-square"></i>   </a>
+				<div class="globo s2s_globo_closed s2s_facebook_iframe">
+					<div class="s2s_flecha"></div><div class="fb-share-button"
+						data-layout="button_count" 
+						data-href="https://energoeffect.gov.by/news/news-2026/20260119_news" 
+						data-size="small" 
+					>
+						<a target="_blank" href="https://energoeffect.gov.by/news/news-2026/20260119_news" class="fb-xfbml-parse-ignore">Share</a>
+					</div></div>
+			</div><div class="s2s_linkedin s2s_btn s2s-btn-default " ><a class="s2s_icon"><i class="s2sfo fo-linkedin-square"></i>   </a><div class="globo s2s_globo_closed s2s_linkedin_iframe">
+						<div class="s2s_flecha"></div>
+						
+						<script type="IN/Share"  data-url="https://energoeffect.gov.by/news/news-2026/20260119_news"></script><a 
+			target="_blank" 
+			href="https://www.linkedin.com/shareArticle?url=https://energoeffect.gov.by/news/news-2026/20260119_news" 
+			class="btn s2s_linkedin_fallback s2s_hide">
+			<i class="s2sfo fo-linkedin"></i>Share</a></div></div><div class="s2s_wapp s2s_btn s2s-btn-default  " >
+			
+			<a class="s2s_icon"><i class="s2sfo fo-whatsapp-square"></i>  </a>
+				<div class="globo s2s_globo_closed s2s_wapp_iframe">
+					<div class="s2s_flecha"></div>
+				
+
+				<a class="s2s_a_btn wapp_link" 
+					href="whatsapp://send?text=https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260119_news" 
+					data-text="В Брестской области увеличат объем использования пеллет" 
+					data-action="share/whatsapp/share"
+					data-href="https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260119_news"
+				>
+					<i class="s2sfo fo-whatsapp" aria-hidden="true"></i>
+					<span class="s2s_text_int">share with Whatsapp</span>
+				</a>
+
+				</div>
+			</div><div class="s2s_tgram s2s_btn s2s-btn-default  " >
+			
+			<a class="s2s_icon"><i class="s2sfo fo-tgram-square"></i>  </a>
+				<div class="globo s2s_globo_closed s2s_tgram_iframe">
+					<div class="s2s_flecha"></div>
+				
+
+				<a class="s2s_a_btn tgram_link" rel="noreferrer"
+					href="https://telegram.me/share/url?url=https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260119_news&text=В Брестской области увеличат объем использования пеллет" target="_blank"
+				><i class="s2sfo fo-telegram" aria-hidden="true"></i><span class="s2s_text_int">share with Telegram<span></a>
+
+				</div>
+			</div><div class="s2s_tumblr s2s_btn s2s-btn-default " lang="ru"><a class="s2s_icon"><i class="s2sfo fo-tumblr-square"></i>   </a>
+				<div class="globo s2s_globo_closed s2s_tumblr_iframe">
+					<div class="s2s_flecha"></div>
+					<a class="tumblr-share-button" aria-label="tumblr"
+					data-locale="ru_RU" 
+					data-href="https://energoeffect.gov.by/news/news-2026/20260119_news" 
+					data-color="blue" 
+					data-notes="right"
+					href="https://embed.tumblr.com/share"></a></div></div><div class="s2s_vk s2s_btn s2s-btn-default " lang="ru"><a class="s2s_icon"><i class="s2sfo fo-vk-square"></i>   </a><script type="text/javascript" src="https://vkontakte.ru/js/api/share.js?9" charset="windows-1251" asyn="async"></script><div class="globo s2s_globo_closed s2s_vk_iframe" id="s2s_vk_iframe">
+					<div class="s2s_flecha"></div><script type="text/javascript"><!--
+						document.write(VK.Share.button({ 
+							url: "https://energoeffect.gov.by/news/news-2026/20260119_news",
+							title: "В Брестской области увеличат объем использования пеллет"
+							}));
+						--></script></div>
+			</div>
+		</div></div>
+</article>
+<article class="uk-article tm-article" data-permalink="http://energoeffect.gov.by/news/news-2026/20260115_news">
+
+
+	
+	<div class="tm-article-content uk-position-relative  tm-article-date-true">
+		
+		  
+		    <div class="tm-article-date uk-text-center">  
+		    <span class="tm-article-date-day">15</span><span class="tm-article-date-month">янв</span><span class="tm-article-date-year">2026</span>  
+		    </div>  
+				
+
+
+		<h1 class="uk-article-title">
+					<a href="/news/news-2026/20260115_news" title="Реконструкция энергоисточников – инвестиции в надежность, безопасность и комфорт">Реконструкция энергоисточников – инвестиции в надежность, безопасность и комфорт</a>
+			</h1>
+	
+	
+
+		<p class="uk-article-meta">
+
+		
+	</p>
+	
+
+	
+		<div>
+		<p style="text-align: justify;">Ежегодно в Беларуси используют порядка 3,2 млн т у.т. из собственных энергоресурсов, что эквивалентно замещению около 3 млрд куб.м природного газа. Основным инструментом вовлечения в энергобаланс местных видов топливно-энергетических ресурсов остается строительство, реконструкция и модернизация энергоисточников.</p>
+<p style="text-align: justify;"><img src="/downloads/news/2026_news/01/20250115_new1.jpg" width="180" height="119" alt="20250115 new1" style="margin-right: 5px; float: left;" />Одними   из   последних   введенных   в   эксплуатацию   энергоисточников   стали   котельные   в&hellip;</p><p class='readmore'><a class='btn' href='/news/news-2026/20260115_news'>Подробнее...</a></p>	</div>
+	
+	
+	
+		<p><a href="/news/news-2026/20260115_news?tmpl=component&amp;print=1&amp;layout=default" title="Распечатать материал < Реконструкция энергоисточников – инвестиции в надежность, безопасность и комфорт >" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">			<span class="icon-print" aria-hidden="true"></span>
+		Печать	</a></p>
+	
+
+
+	</div>
+
+
+
+<div class="s2s_supra_contenedor lang_directon_right s2sdefault  align_center  s2s_balloon_bottom " ><input name="social2s_url" type="hidden" class="social2s_url" value="https://energoeffect.gov.by/news/news-2026/20260115_news" /><div class="s2s_contenedor  s2s_no_text  s2s-btn-group"><div class="s2s_facebook s2s_btn s2s-btn-default " >
+			<a class="s2s_icon"><i class="s2sfo fo-facebook-square"></i>   </a>
+				<div class="globo s2s_globo_closed s2s_facebook_iframe">
+					<div class="s2s_flecha"></div><div class="fb-share-button"
+						data-layout="button_count" 
+						data-href="https://energoeffect.gov.by/news/news-2026/20260115_news" 
+						data-size="small" 
+					>
+						<a target="_blank" href="https://energoeffect.gov.by/news/news-2026/20260115_news" class="fb-xfbml-parse-ignore">Share</a>
+					</div></div>
+			</div><div class="s2s_linkedin s2s_btn s2s-btn-default " ><a class="s2s_icon"><i class="s2sfo fo-linkedin-square"></i>   </a><div class="globo s2s_globo_closed s2s_linkedin_iframe">
+						<div class="s2s_flecha"></div>
+						
+						<script type="IN/Share"  data-url="https://energoeffect.gov.by/news/news-2026/20260115_news"></script><a 
+			target="_blank" 
+			href="https://www.linkedin.com/shareArticle?url=https://energoeffect.gov.by/news/news-2026/20260115_news" 
+			class="btn s2s_linkedin_fallback s2s_hide">
+			<i class="s2sfo fo-linkedin"></i>Share</a></div></div><div class="s2s_wapp s2s_btn s2s-btn-default  " >
+			
+			<a class="s2s_icon"><i class="s2sfo fo-whatsapp-square"></i>  </a>
+				<div class="globo s2s_globo_closed s2s_wapp_iframe">
+					<div class="s2s_flecha"></div>
+				
+
+				<a class="s2s_a_btn wapp_link" 
+					href="whatsapp://send?text=https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260115_news" 
+					data-text="Реконструкция энергоисточников – инвестиции в надежность, безопасность и комфорт" 
+					data-action="share/whatsapp/share"
+					data-href="https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260115_news"
+				>
+					<i class="s2sfo fo-whatsapp" aria-hidden="true"></i>
+					<span class="s2s_text_int">share with Whatsapp</span>
+				</a>
+
+				</div>
+			</div><div class="s2s_tgram s2s_btn s2s-btn-default  " >
+			
+			<a class="s2s_icon"><i class="s2sfo fo-tgram-square"></i>  </a>
+				<div class="globo s2s_globo_closed s2s_tgram_iframe">
+					<div class="s2s_flecha"></div>
+				
+
+				<a class="s2s_a_btn tgram_link" rel="noreferrer"
+					href="https://telegram.me/share/url?url=https%3A%2F%2Fenergoeffect.gov.by%2Fnews%2Fnews-2026%2F20260115_news&text=Реконструкция энергоисточников – инвестиции в надежность, безопасность и комфорт" target="_blank"
+				><i class="s2sfo fo-telegram" aria-hidden="true"></i><span class="s2s_text_int">share with Telegram<span></a>
+
+				</div>
+			</div><div class="s2s_tumblr s2s_btn s2s-btn-default " lang="ru"><a class="s2s_icon"><i class="s2sfo fo-tumblr-square"></i>   </a>
+				<div class="globo s2s_globo_closed s2s_tumblr_iframe">
+					<div class="s2s_flecha"></div>
+					<a class="tumblr-share-button" aria-label="tumblr"
+					data-locale="ru_RU" 
+					data-href="https://energoeffect.gov.by/news/news-2026/20260115_news" 
+					data-color="blue" 
+					data-notes="right"
+					href="https://embed.tumblr.com/share"></a></div></div><div class="s2s_vk s2s_btn s2s-btn-default " lang="ru"><a class="s2s_icon"><i class="s2sfo fo-vk-square"></i>   </a><script type="text/javascript" src="https://vkontakte.ru/js/api/share.js?9" charset="windows-1251" asyn="async"></script><div class="globo s2s_globo_closed s2s_vk_iframe" id="s2s_vk_iframe">
+					<div class="s2s_flecha"></div><script type="text/javascript"><!--
+						document.write(VK.Share.button({ 
+							url: "https://energoeffect.gov.by/news/news-2026/20260115_news",
+							title: "Реконструкция энергоисточников – инвестиции в надежность, безопасность и комфорт"
+							}));
+						--></script></div>
+			</div>
+		</div></div>
+</article>
+</div></div>
+<h3>Еще статьи...</h3>
+<ul class="uk-list">
+		<li><a href="/news/news-2026/20260114_news">Новые дома потребляют в 2-3 раза меньше энергии, чем построенные 10-20 лет назад</a></li>
+		<li><a href="/news/news-2026/20260113_news">Энергетика человечества: возобновляемая энергия для общего процветания</a></li>
+		<li><a href="/news/news-2026/20260109_2_news">Беларусь планирует снизить энергоемкость ВВП на 4% к 2030 году</a></li>
+		<li><a href="/news/news-2026/20260109_news">Опубликованы изменения в Закон Республики Беларусь «Об энергосбережении»</a></li>
+	</ul>
+
+<ul class="uk-pagination">
+<li class="uk-active"><span>1</span></li>
+<li><a class="" href="/?start=6" title="">2</a></li>
+<li><a class="" href="/?start=12" title="">3</a></li>
+<li><a class="" href="/?start=18" title="">4</a></li>
+<li><a class="next" href="/?start=6" title="Вперед"><i class="uk-icon-angle-right"></i></a></li>
+<li><a class="last" href="/?start=3912" title="В конец"><i class="uk-icon-angle-double-right"></i></a></li>
+</ul>
+                </main>
+                
+                
+            </div>
+            
+                                                            <aside class="tm-sidebar-a uk-width-medium-1-5 uk-pull-4-5"><div class="uk-panel uk-panel-box" >
+
+<div id="wk-grid5aa" class="uk-grid-width-1-1 uk-grid-width-large-1-1 left-banners" data-uk-grid="{gutter: ' 20'}"  data-uk-scrollspy="{cls:'uk-animation-slide-left uk-invisible', target:'> div > .uk-panel', delay:300}">
+
+    
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <div class="uk-panel-teaser">
+
+        <figure class="uk-overlay uk-overlay-hover uk-border-rounded">
+
+            <img src="/images/banners/2025_telegram.jpg" class="uk-overlay-scale" alt="Мы в Telegram" width="180" height="108">
+            
+            
+                            <div class="uk-overlay-panel uk-overlay-icon uk-overlay-fade"></div>
+            
+                                                <a class="uk-position-cover" href="https://t.me/energoeffectgovby" target="_blank"></a>
+                            
+        </figure>
+
+    </div>
+
+    
+                <h3 class="uk-h3 uk-margin-bottom-remove">Мы в Telegram</h3>
+        
+        
+    
+</div>
+    </div>
+
+    
+</div>
+
+
+<script>
+(function($){
+
+    // get the images of the gallery and replace it by a canvas of the same size to fix the problem with overlapping images on load.
+    $('img[width][height]:not(.uk-overlay-panel)', $('#wk-grid5aa')).each(function() {
+
+        var $img = $(this);
+
+        if (this.width == 'auto' || this.height == 'auto' || !$img.is(':visible')) {
+            return;
+        }
+
+        var $canvas = $('<canvas class="uk-responsive-width"></canvas>').attr({width:$img.attr('width'), height:$img.attr('height')}),
+            img = new Image,
+            release = function() {
+                $canvas.remove();
+                $img.css('display', '');
+                release = function(){};
+            };
+
+        $img.css('display', 'none').after($canvas);
+
+        $(img).on('load', function(){ release(); });
+        setTimeout(function(){ release(); }, 1000);
+
+        img.src = this.src;
+
+    });
+
+})(jQuery);
+</script>
+</div>
+<div class="uk-panel uk-panel-box" >
+
+<div id="wk-grida02" class="uk-grid-width-1-1 uk-grid-width-large-1-1 left-banners" data-uk-grid="{gutter: ' 20'}"  data-uk-scrollspy="{cls:'uk-animation-slide-left uk-invisible', target:'> div > .uk-panel', delay:300}">
+
+    
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <div class="uk-panel-teaser">
+
+        <figure class="uk-overlay uk-overlay-hover uk-border-rounded">
+
+            <img src="/images/banners/2024_ww2_80_years.jpg" class="uk-overlay-scale" alt="80 лет Победы" width="180" height="136">
+            
+            
+                            <div class="uk-overlay-panel uk-overlay-icon uk-overlay-fade"></div>
+            
+                                                <a class="uk-position-cover" href="/news/news_2025/20250417_80_years" target="_blank"></a>
+                            
+        </figure>
+
+    </div>
+
+    
+                <h3 class="uk-h3 uk-margin-bottom-remove">80 лет Победы</h3>
+        
+        
+    
+</div>
+    </div>
+
+    
+</div>
+
+
+<script>
+(function($){
+
+    // get the images of the gallery and replace it by a canvas of the same size to fix the problem with overlapping images on load.
+    $('img[width][height]:not(.uk-overlay-panel)', $('#wk-grida02')).each(function() {
+
+        var $img = $(this);
+
+        if (this.width == 'auto' || this.height == 'auto' || !$img.is(':visible')) {
+            return;
+        }
+
+        var $canvas = $('<canvas class="uk-responsive-width"></canvas>').attr({width:$img.attr('width'), height:$img.attr('height')}),
+            img = new Image,
+            release = function() {
+                $canvas.remove();
+                $img.css('display', '');
+                release = function(){};
+            };
+
+        $img.css('display', 'none').after($canvas);
+
+        $(img).on('load', function(){ release(); });
+        setTimeout(function(){ release(); }, 1000);
+
+        img.src = this.src;
+
+    });
+
+})(jQuery);
+</script>
+</div>
+<div class="uk-panel uk-panel-box" >
+
+<div id="wk-gridddd" class="uk-grid-width-1-1 uk-grid-width-large-1-1 left-banners" data-uk-grid="{gutter: ' 20'}"  data-uk-scrollspy="{cls:'uk-animation-slide-left uk-invisible', target:'> div > .uk-panel', delay:300}">
+
+    
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <div class="uk-panel-teaser">
+
+        <figure class="uk-overlay uk-overlay-hover ">
+
+            <img src="/images/stories/marathon_logo.jpg" class="uk-overlay-scale" alt="Энергомарафон">
+            
+            
+                            <div class="uk-overlay-panel uk-overlay-icon uk-overlay-fade"></div>
+            
+                                                <a class="uk-position-cover" href="https://energoeffect.gov.by/portal/login/index.php" target="_blank"></a>
+                            
+        </figure>
+
+    </div>
+
+    
+                <h3 class="uk-h3 uk-margin-bottom-remove">Энергомарафон</h3>
+        
+        
+    
+</div>
+    </div>
+
+    
+</div>
+
+
+<script>
+(function($){
+
+    // get the images of the gallery and replace it by a canvas of the same size to fix the problem with overlapping images on load.
+    $('img[width][height]:not(.uk-overlay-panel)', $('#wk-gridddd')).each(function() {
+
+        var $img = $(this);
+
+        if (this.width == 'auto' || this.height == 'auto' || !$img.is(':visible')) {
+            return;
+        }
+
+        var $canvas = $('<canvas class="uk-responsive-width"></canvas>').attr({width:$img.attr('width'), height:$img.attr('height')}),
+            img = new Image,
+            release = function() {
+                $canvas.remove();
+                $img.css('display', '');
+                release = function(){};
+            };
+
+        $img.css('display', 'none').after($canvas);
+
+        $(img).on('load', function(){ release(); });
+        setTimeout(function(){ release(); }, 1000);
+
+        img.src = this.src;
+
+    });
+
+})(jQuery);
+</script>
+</div>
+<div class="uk-panel uk-panel-box" >
+
+<div id="wk-grid097" class="uk-grid-width-1-1 uk-grid-width-large-1-1 left-banners" data-uk-grid="{gutter: ' 20'}"  data-uk-scrollspy="{cls:'uk-animation-slide-left uk-invisible', target:'> div > .uk-panel', delay:300}">
+
+    
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <div class="uk-panel-teaser">
+
+        <figure class="uk-overlay uk-overlay-hover ">
+
+            <img src="/images/banners/house02.jpg" class="uk-overlay-scale" alt="Тепловая модернизация жилых домов" width="180" height="90">
+            
+            
+                            <div class="uk-overlay-panel uk-overlay-icon uk-overlay-fade"></div>
+            
+                                                <a class="uk-position-cover" href="https://teplovdomeby.tilda.ws/" target="_blank"></a>
+                            
+        </figure>
+
+    </div>
+
+    
+                <h3 class="uk-h3 uk-margin-bottom-remove">Тепловая модернизация жилых домов</h3>
+        
+        
+    
+</div>
+    </div>
+
+    
+</div>
+
+
+<script>
+(function($){
+
+    // get the images of the gallery and replace it by a canvas of the same size to fix the problem with overlapping images on load.
+    $('img[width][height]:not(.uk-overlay-panel)', $('#wk-grid097')).each(function() {
+
+        var $img = $(this);
+
+        if (this.width == 'auto' || this.height == 'auto' || !$img.is(':visible')) {
+            return;
+        }
+
+        var $canvas = $('<canvas class="uk-responsive-width"></canvas>').attr({width:$img.attr('width'), height:$img.attr('height')}),
+            img = new Image,
+            release = function() {
+                $canvas.remove();
+                $img.css('display', '');
+                release = function(){};
+            };
+
+        $img.css('display', 'none').after($canvas);
+
+        $(img).on('load', function(){ release(); });
+        setTimeout(function(){ release(); }, 1000);
+
+        img.src = this.src;
+
+    });
+
+})(jQuery);
+</script>
+</div>
+<div class="uk-panel uk-panel-box left-banners" >
+
+<div id="wk-grid3dc" class="uk-grid-width-1-1 uk-grid-width-large-1-1 left-banners" data-uk-grid="{gutter: ' 20'}"  data-uk-scrollspy="{cls:'uk-animation-slide-left uk-invisible', target:'> div > .uk-panel', delay:300}">
+
+    
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <div class="uk-panel-teaser">
+
+        <figure class="uk-overlay uk-overlay-hover uk-border-rounded">
+
+            <img src="/images/banners/20250430_new1.jpg" class="uk-overlay-scale" alt="Журнал "Энергоэффективность"" width="180" height="236">
+            
+            
+                            <div class="uk-overlay-panel uk-overlay-icon uk-overlay-fade"></div>
+            
+                                                <a class="uk-position-cover" href="https://energoeffect.gov.by/propaganda/publishing" target="_blank"></a>
+                            
+        </figure>
+
+    </div>
+
+    
+                <h3 class="uk-h3 uk-margin-bottom-remove">Журнал "Энергоэффективность"</h3>
+        
+        
+    
+</div>
+    </div>
+
+    
+</div>
+
+
+<script>
+(function($){
+
+    // get the images of the gallery and replace it by a canvas of the same size to fix the problem with overlapping images on load.
+    $('img[width][height]:not(.uk-overlay-panel)', $('#wk-grid3dc')).each(function() {
+
+        var $img = $(this);
+
+        if (this.width == 'auto' || this.height == 'auto' || !$img.is(':visible')) {
+            return;
+        }
+
+        var $canvas = $('<canvas class="uk-responsive-width"></canvas>').attr({width:$img.attr('width'), height:$img.attr('height')}),
+            img = new Image,
+            release = function() {
+                $canvas.remove();
+                $img.css('display', '');
+                release = function(){};
+            };
+
+        $img.css('display', 'none').after($canvas);
+
+        $(img).on('load', function(){ release(); });
+        setTimeout(function(){ release(); }, 1000);
+
+        img.src = this.src;
+
+    });
+
+})(jQuery);
+</script>
+</div>
+<div class="uk-panel uk-panel-box" >
+
+<div id="wk-grid8c1" class="uk-grid-width-1-1 uk-grid-width-large-1-1 left-banners" data-uk-grid="{gutter: ' 20'}"  data-uk-scrollspy="{cls:'uk-animation-slide-left uk-invisible', target:'> div > .uk-panel', delay:300}">
+
+    
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <div class="uk-panel-teaser">
+
+        <figure class="uk-overlay uk-overlay-hover uk-border-rounded">
+
+            <img src="/images/banners/2025_lider.jpg" class="uk-overlay-scale" alt="Каталог победителей" width="180" height="180">
+            
+            
+                            <div class="uk-overlay-panel uk-overlay-icon uk-overlay-fade"></div>
+            
+                                                <a class="uk-position-cover" href="http://energoeffekt.gov.by/downloads/publishing/publishing_2026/katalog_lider2025.pdf" target="_blank"></a>
+                            
+        </figure>
+
+    </div>
+
+    
+                <h3 class="uk-h3 uk-margin-bottom-remove">Каталог победителей</h3>
+        
+        
+    
+</div>
+    </div>
+
+    
+</div>
+
+
+<script>
+(function($){
+
+    // get the images of the gallery and replace it by a canvas of the same size to fix the problem with overlapping images on load.
+    $('img[width][height]:not(.uk-overlay-panel)', $('#wk-grid8c1')).each(function() {
+
+        var $img = $(this);
+
+        if (this.width == 'auto' || this.height == 'auto' || !$img.is(':visible')) {
+            return;
+        }
+
+        var $canvas = $('<canvas class="uk-responsive-width"></canvas>').attr({width:$img.attr('width'), height:$img.attr('height')}),
+            img = new Image,
+            release = function() {
+                $canvas.remove();
+                $img.css('display', '');
+                release = function(){};
+            };
+
+        $img.css('display', 'none').after($canvas);
+
+        $(img).on('load', function(){ release(); });
+        setTimeout(function(){ release(); }, 1000);
+
+        img.src = this.src;
+
+    });
+
+})(jQuery);
+</script>
+</div>
+<div class="uk-panel uk-panel-box" >
+
+<div id="wk-griddb4" class="uk-grid-width-1-1 uk-grid-width-large-1-1 left-banners" data-uk-grid="{gutter: ' 20'}"  data-uk-scrollspy="{cls:'uk-animation-slide-left uk-invisible', target:'> div > .uk-panel', delay:300}">
+
+    
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <div class="uk-panel-teaser">
+
+        <figure class="uk-overlay uk-overlay-hover uk-border-rounded">
+
+            <img src="/images/banners/2025_ЕАЭС.jpg" class="uk-overlay-scale" alt="2025 год Председательство Республики Беларусь" width="180" height="107">
+            
+            
+                            <div class="uk-overlay-panel uk-overlay-icon uk-overlay-fade"></div>
+            
+                                                <a class="uk-position-cover" href="https://gosstandart.gov.by/2025-belarus-in-eaes" target="_blank"></a>
+                            
+        </figure>
+
+    </div>
+
+    
+                <h3 class="uk-h3 uk-margin-bottom-remove">2025 год Председательство Республики Беларусь</h3>
+        
+        
+    
+</div>
+    </div>
+
+    
+</div>
+
+
+<script>
+(function($){
+
+    // get the images of the gallery and replace it by a canvas of the same size to fix the problem with overlapping images on load.
+    $('img[width][height]:not(.uk-overlay-panel)', $('#wk-griddb4')).each(function() {
+
+        var $img = $(this);
+
+        if (this.width == 'auto' || this.height == 'auto' || !$img.is(':visible')) {
+            return;
+        }
+
+        var $canvas = $('<canvas class="uk-responsive-width"></canvas>').attr({width:$img.attr('width'), height:$img.attr('height')}),
+            img = new Image,
+            release = function() {
+                $canvas.remove();
+                $img.css('display', '');
+                release = function(){};
+            };
+
+        $img.css('display', 'none').after($canvas);
+
+        $(img).on('load', function(){ release(); });
+        setTimeout(function(){ release(); }, 1000);
+
+        img.src = this.src;
+
+    });
+
+})(jQuery);
+</script>
+</div></aside>
+                        
+        </div>
+        
+                <section id="tm-bottom-a" class="tm-bottom-a uk-grid uk-grid-match" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin>
+            
+<div class="uk-width-1-1"><div class="uk-panel uk-text-center" >
+<div class="tm-slideset-avion tm-grid-divider" data-uk-slideset="{animation: 'slide-horizontal',delay: 0,default: 1,small: 2,large: 4}">
+
+    
+    <div class="uk-slidenav-position">
+
+        <ul class="uk-slideset uk-grid uk-flex-center uk-grid-match uk-grid-width-1-1 uk-grid-width-small-1-2 uk-grid-width-large-1-4 uk-grid-collapse" data-uk-grid-match="{target:'.uk-panel'}">
+        
+            <li>
+
+                <div class="uk-panel uk-panel-box uk-panel-box-hover uk-overlay-hover uk-text-center">
+
+                                        <a class="uk-position-cover uk-position-z-index" href="/onewindow" target="_blank"></a>
+                    
+                    
+                                        <div class="uk-text-center uk-panel-teaser"><div class="uk-overlay uk-border-circle"><img src="/images/stories/banners/onewindow.jpg" class="uk-border-circle uk-overlay-scale" alt="Одно окно"></div></div>
+                    
+                                        <h3 class="uk-h3 uk-margin-top-remove">
+
+                                                    <a class="uk-link-reset" href="/onewindow" target="_blank">Одно окно</a>
+                        
+                        
+                    </h3>
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
+
+            </li>
+
+        
+            <li>
+
+                <div class="uk-panel uk-panel-box uk-panel-box-hover uk-overlay-hover uk-text-center">
+
+                                        <a class="uk-position-cover uk-position-z-index" href="/propaganda/publishing" target="_blank"></a>
+                    
+                    
+                                        <div class="uk-text-center uk-panel-teaser"><div class="uk-overlay uk-border-circle"><img src="/images/stories/banners/magazine-big.jpg" class="uk-border-circle uk-overlay-scale" alt="Журнал "Энергоэффективность""></div></div>
+                    
+                                        <h3 class="uk-h3 uk-margin-top-remove">
+
+                                                    <a class="uk-link-reset" href="/propaganda/publishing" target="_blank">Журнал "Энергоэффективность"</a>
+                        
+                        
+                    </h3>
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
+
+            </li>
+
+        
+            <li>
+
+                <div class="uk-panel uk-panel-box uk-panel-box-hover uk-overlay-hover uk-text-center">
+
+                                        <a class="uk-position-cover uk-position-z-index" href="http://energoeffekt.gov.by/effbuild/index.html" target="_blank"></a>
+                    
+                    
+                                        <div class="uk-text-center uk-panel-teaser"><div class="uk-overlay uk-border-circle"><img src="/images/stories/banners/effbuild-big.jpg" class="uk-border-circle uk-overlay-scale" alt="Энергоэффективность зданий"></div></div>
+                    
+                                        <h3 class="uk-h3 uk-margin-top-remove">
+
+                                                    <a class="uk-link-reset" href="http://energoeffekt.gov.by/effbuild/index.html" target="_blank">Энергоэффективность зданий</a>
+                        
+                        
+                    </h3>
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
+
+            </li>
+
+        
+            <li>
+
+                <div class="uk-panel uk-panel-box uk-panel-box-hover uk-overlay-hover uk-text-center">
+
+                                        <a class="uk-position-cover uk-position-z-index" href="https://xn----7sbgfh2alwzdhpc0c.xn--90ais/" target="_blank"></a>
+                    
+                    
+                                        <div class="uk-text-center uk-panel-teaser"><div class="uk-overlay uk-border-circle"><img src="/images/stories/banners/rating_portal.jpg" class="uk-border-circle uk-overlay-scale" alt="Портал рейтинга организаций"></div></div>
+                    
+                                        <h3 class="uk-h3 uk-margin-top-remove">
+
+                                                    <a class="uk-link-reset" href="https://xn----7sbgfh2alwzdhpc0c.xn--90ais/" target="_blank">Портал рейтинга организаций</a>
+                        
+                        
+                    </h3>
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
+
+            </li>
+
+                </ul>
+
+                <a href="#" class="uk-slidenav  uk-slidenav-previous uk-hidden-touch" data-uk-slideset-item="previous"></a>
+        <a href="#" class="uk-slidenav  uk-slidenav-next uk-hidden-touch" data-uk-slideset-item="next"></a>
+        
+    </div>
+
+    
+    
+    
+</div>
+</div></div>
+        </section>
+        
+        
+        
+                <section id="tm-bottom-d" class="tm-bottom-d uk-grid uk-grid-match" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin>
+            
+<div class="uk-width-1-1"><div class="uk-panel uk-panel-box" >
+
+<div id="wk-grid7a9" class="uk-grid-width-1-1 uk-grid-width-large-1-6 uk-grid uk-grid-match uk-grid-small " data-uk-grid-match="{target:'> div > .uk-panel', row:true}" data-uk-grid-margin  data-uk-scrollspy="{cls:'uk-animation-scale-down uk-invisible', target:'> div > .uk-panel', delay:300}">
+
+    
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <div class="uk-panel-teaser">
+
+        <figure class="uk-overlay uk-overlay-hover uk-border-rounded">
+
+            <img src="/images/stories/banners/pravoby.jpg" class="uk-overlay-scale" alt="Pravoby" width="180" height="64">
+            
+            
+                            <div class="uk-overlay-panel uk-overlay-icon uk-overlay-fade"></div>
+            
+                                                <a class="uk-position-cover" href="http://www.pravo.by" target="_blank"></a>
+                            
+        </figure>
+
+    </div>
+
+    
+        
+        
+    
+</div>
+    </div>
+
+        
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <div class="uk-panel-teaser">
+
+        <figure class="uk-overlay uk-overlay-hover uk-border-rounded">
+
+            <img src="/images/stories/banners/gosstandart.jpg" class="uk-overlay-scale" alt="Gosstandart" width="180" height="64">
+            
+            
+                            <div class="uk-overlay-panel uk-overlay-icon uk-overlay-fade"></div>
+            
+                                                <a class="uk-position-cover" href="http://gosstandart.gov.by" target="_blank"></a>
+                            
+        </figure>
+
+    </div>
+
+    
+        
+        
+    
+</div>
+    </div>
+
+        
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <div class="uk-panel-teaser">
+
+        <figure class="uk-overlay uk-overlay-hover uk-border-rounded">
+
+            <img src="/images/stories/banners/presidentgovby.jpg" class="uk-overlay-scale" alt="Presidentgovby" width="180" height="58">
+            
+            
+                            <div class="uk-overlay-panel uk-overlay-icon uk-overlay-fade"></div>
+            
+                                                <a class="uk-position-cover" href="http://www.president.gov.by" target="_blank"></a>
+                            
+        </figure>
+
+    </div>
+
+    
+        
+        
+    
+</div>
+    </div>
+
+        
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <div class="uk-panel-teaser">
+
+        <figure class="uk-overlay uk-overlay-hover uk-border-rounded">
+
+            <img src="/images/stories/banners/government.jpg" class="uk-overlay-scale" alt="Government" width="180" height="64">
+            
+            
+                            <div class="uk-overlay-panel uk-overlay-icon uk-overlay-fade"></div>
+            
+                                                <a class="uk-position-cover" href="http://www.government.by" target="_blank"></a>
+                            
+        </figure>
+
+    </div>
+
+    
+        
+        
+    
+</div>
+    </div>
+
+        
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <div class="uk-panel-teaser">
+
+        <figure class="uk-overlay uk-overlay-hover uk-border-rounded">
+
+            <img src="/images/stories/banners/appeals.jpg" class="uk-overlay-scale" alt="Obrascheniaya" width="180" height="64">
+            
+            
+                            <div class="uk-overlay-panel uk-overlay-icon uk-overlay-fade"></div>
+            
+                                                <a class="uk-position-cover" href="https://обращения.бел/" target="_blank"></a>
+                            
+        </figure>
+
+    </div>
+
+    
+        
+        
+    
+</div>
+    </div>
+
+        
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <div class="uk-panel-teaser">
+
+        <figure class="uk-overlay uk-overlay-hover uk-border-rounded">
+
+            <img src="/images/stories/banners/elektrotrans.jpg" class="uk-overlay-scale" alt="elektrotransport" width="180" height="70">
+            
+            
+                            <div class="uk-overlay-panel uk-overlay-icon uk-overlay-fade"></div>
+            
+                                                <a class="uk-position-cover" href="http://www.belta.by/search/findTags/1277" target="_blank"></a>
+                            
+        </figure>
+
+    </div>
+
+    
+        
+        
+    
+</div>
+    </div>
+
+        
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <div class="uk-panel-teaser">
+
+        <figure class="uk-overlay uk-overlay-hover uk-border-rounded">
+
+            <img src="/images/stories/banners/tara_202006.jpg" class="uk-overlay-scale" alt="tara_202006" width="180" height="60">
+            
+            
+                            <div class="uk-overlay-panel uk-overlay-icon uk-overlay-fade"></div>
+            
+                                                <a class="uk-position-cover" href="https://gosstandart.gov.by/packing" target="_blank"></a>
+                            
+        </figure>
+
+    </div>
+
+    
+        
+        
+    
+</div>
+    </div>
+
+        
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <div class="uk-panel-teaser">
+
+        <figure class="uk-overlay uk-overlay-hover uk-border-rounded">
+
+            <img src="/images/stories/banners/tnpaby.jpg" class="uk-overlay-scale" alt="Tnpaby" width="180" height="64">
+            
+            
+                            <div class="uk-overlay-panel uk-overlay-icon uk-overlay-fade"></div>
+            
+                                                <a class="uk-position-cover" href="http://www.tnpa.by" target="_blank"></a>
+                            
+        </figure>
+
+    </div>
+
+    
+        
+        
+    
+</div>
+    </div>
+
+        
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <div class="uk-panel-teaser">
+
+        <figure class="uk-overlay uk-overlay-hover uk-border-rounded">
+
+            <img src="/images/stories/banners/target_task.jpg" class="uk-overlay-scale" alt="Belarus" width="180" height="60">
+            
+            
+                            <div class="uk-overlay-panel uk-overlay-icon uk-overlay-fade"></div>
+            
+                                                <a class="uk-position-cover" href="https://gosstandart.gov.by/the-goal-of-sustainable-development" target="_blank"></a>
+                            
+        </figure>
+
+    </div>
+
+    
+        
+        
+    
+</div>
+    </div>
+
+        
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <div class="uk-panel-teaser">
+
+        <figure class="uk-overlay uk-overlay-hover uk-border-rounded">
+
+            <img src="/images/stories/banners/202407_nzpi.jpg" class="uk-overlay-scale" alt="НЗПИ" width="180" height="68">
+            
+            
+                            <div class="uk-overlay-panel uk-overlay-icon uk-overlay-fade"></div>
+            
+                                                <a class="uk-position-cover" href="https://center.gov.by/" target="_blank"></a>
+                            
+        </figure>
+
+    </div>
+
+    
+        
+        
+    
+</div>
+    </div>
+
+        
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <div class="uk-panel-teaser">
+
+        <figure class="uk-overlay uk-overlay-hover uk-border-rounded">
+
+            <img src="/images/stories/banners/debureaucrat.jpg" class="uk-overlay-scale" alt="Debureaucrat" width="180" height="64">
+            
+            
+                            <div class="uk-overlay-panel uk-overlay-icon uk-overlay-fade"></div>
+            
+                                                <a class="uk-position-cover" href="http://center.gov.by/debyurokratizatsiya-administrativny-h-p/" target="_blank"></a>
+                            
+        </figure>
+
+    </div>
+
+    
+        
+        
+    
+</div>
+    </div>
+
+        
+    <div>
+    
+<div class="uk-panel uk-invisible">
+
+    <div class="uk-panel-teaser">
+
+        <figure class="uk-overlay uk-overlay-hover uk-border-rounded">
+
+            <img src="/images/stories/banners/effschool.jpg" class="uk-overlay-scale" alt="Effschool" width="180" height="64">
+            
+            
+                            <div class="uk-overlay-panel uk-overlay-icon uk-overlay-fade"></div>
+            
+                                                <a class="uk-position-cover" href="http://energoeffekt.gov.by/energybel/" target="_blank"></a>
+                            
+        </figure>
+
+    </div>
+
+    
+        
+        
+    
+</div>
+    </div>
+
+    
+</div>
+
+
+<script>
+(function($){
+
+    // get the images of the gallery and replace it by a canvas of the same size to fix the problem with overlapping images on load.
+    $('img[width][height]:not(.uk-overlay-panel)', $('#wk-grid7a9')).each(function() {
+
+        var $img = $(this);
+
+        if (this.width == 'auto' || this.height == 'auto' || !$img.is(':visible')) {
+            return;
+        }
+
+        var $canvas = $('<canvas class="uk-responsive-width"></canvas>').attr({width:$img.attr('width'), height:$img.attr('height')}),
+            img = new Image,
+            release = function() {
+                $canvas.remove();
+                $img.css('display', '');
+                release = function(){};
+            };
+
+        $img.css('display', 'none').after($canvas);
+
+        $(img).on('load', function(){ release(); });
+        setTimeout(function(){ release(); }, 1000);
+
+        img.src = this.src;
+
+    });
+
+})(jQuery);
+</script>
+</div></div>
+        </section>
+        
+                <footer id="tm-footer" class="tm-footer tm-footer-margin-top">
+            <div class="uk-panel uk-panel-space uk-text-center">
+                                <a class="tm-totop-scroller uk-link-reset" data-uk-smooth-scroll href="#"></a>
+                
+                <div class="uk-panel" >
+	<p><strong>адрес:</strong> 220030, г.Минск, площадь Свободы 17; <strong>телефон</strong>: 338 50 51; <strong>факс</strong>: 231 55 63; <strong>e-mail</strong>: <span id="cloakfc4928e25cb2c16a4529f05b015f2dbe">Адрес электронной почты защищен от спам-ботов. Для просмотра адреса в вашем браузере должен быть включен Javascript.</span><script type='text/javascript'>
+				document.getElementById('cloakfc4928e25cb2c16a4529f05b015f2dbe').innerHTML = '';
+				var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+				var path = 'hr' + 'ef' + '=';
+				var addyfc4928e25cb2c16a4529f05b015f2dbe = '&#101;n&#101;rg&#111;&#101;ff&#101;ct' + '&#64;';
+				addyfc4928e25cb2c16a4529f05b015f2dbe = addyfc4928e25cb2c16a4529f05b015f2dbe + 'g&#111;sst&#97;nd&#97;rt' + '&#46;' + 'g&#111;v' + '&#46;' + 'by';
+				document.getElementById('cloakfc4928e25cb2c16a4529f05b015f2dbe').innerHTML += addyfc4928e25cb2c16a4529f05b015f2dbe;
+		</script></p></div>
+            </div>
+        </footer>
+        
+    </div>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J0RZD4ZFCW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-J0RZD4ZFCW');
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-26928369-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<link rel="stylesheet" href="/bvi/css/bvi.min.css" type="text/css">
+<link rel="stylesheet" href="/bvi/css/bvi-font.min.css" type="text/css">
+<script src="/bvi/js/responsivevoice.min.js"></script>
+<script src="/bvi/js/js.cookie.js"></script>
+<script src="/bvi/js/bvi-init.js"></script>
+<script src="/bvi/js/bvi.min.js"></script>
+        <div id="offcanvas" class="uk-offcanvas">
+        <div class="uk-offcanvas-bar uk-offcanvas-bar-flip"><ul class="uk-nav uk-nav-offcanvas">
+<li class="uk-active"><a href="/"><i class="uk-icon-home"></i> <img src="/images/blank.png" alt="Главная"/><div> </div></a></li><li class="uk-parent"><a href="/about">О департаменте<div> </div></a><ul class="uk-nav-sub"><li><a href="/about/regulations">Положение о департаменте</a></li><li><a href="/about/2012-09-18-12-42-02">Историческая справка</a></li><li><a href="/about/authority">Руководство</a></li><li><a href="/about/structure">Структура</a></li><li><a href="/about/vacancy">Вакансии</a></li><li><a href="/about/2020_security">Охрана труда</a></li><li><a href="/about/anticorruption">Противодействие коррупции </a></li><li><a href="/about/20210223_news2">Положение о Почетной грамоте Департамента </a></li><li><a href="/about/personal-data">Обработка персональных данных</a></li><li><a href="/about/lady">Объединенная организация Госстандарта ОО «Белорусский союз женщин»</a></li></ul></li><li class="uk-parent"><a href="/news">Новости<div> </div></a><ul class="uk-nav-sub"><li><a href="/news/news_2025">Новости 2025</a></li><li><a href="/news/news-2024">Новости 2024</a></li><li><a href="https://gosstandart.gov.by/государственная-политика/" target="_blank" rel="noopener noreferrer">Государственная политика</a></li><li><a href="/news/quality_year">Год качества</a></li></ul></li><li class="uk-parent"><a href="/programs">Программы<div> </div></a><ul class="uk-nav-sub"><li><a href="/programs/basicdocuments">Основные программные документы</a></li><li class="uk-parent"><a href="/programs/forming">Формирование перечней и планов мероприятий</a><ul><li><a href="/programs/forming/progr_norm">Нормативная документация</a></li><li><a href="/programs/forming/spravka">Справочные материалы</a></li></ul></li><li><a href="/programs/forms">Формы</a></li><li class="uk-parent"><a href="/programs/финансовое-обеспечение-программ-энергочбережения">Финансовое обеспечение программ энергосбережения</a><ul><li><a href="/programs/финансовое-обеспечение-программ-энергочбережения/финансирование-программ-энергосбережения">Финансирование программ энергосбережения</a></li><li><a href="/programs/финансовое-обеспечение-программ-энергочбережения/господдержка">Господдержка</a></li></ul></li><li class="uk-parent"><a href="/programs/20210302_program">Государственная программа ”Энергосбережение“ на 2021 – 2025 годы</a><ul><li><a href="/programs/20210302_program/20210304_realisation_2021">О реализации Государственной программы «Энергосбережение» в 2021 году</a></li></ul></li></ul></li><li class="uk-parent"><a href="/laws">Акты<div>ЗАКОНОДАТЕЛЬСТВА</div></a><ul class="uk-nav-sub"><li><a href="/laws/act">Законы</a></li><li><a href="/laws/direction">Директивы</a></li><li><a href="/laws/resolution">НПА правительства</a></li><li><a href="/laws/other">Другие документы</a></li><li><a href="/laws/standards">Технические НПА</a></li><li><a href="/laws/nparogu">НПА РОГУ</a></li><li><a href="/laws/20210714_ukaz">Указы</a></li></ul></li><li class="uk-parent"><a href="/supervision">Надзорная<div>ДЕЯТЕЛЬНОСТЬ</div></a><ul class="uk-nav-sub"><li><a href="/supervision/design">Нормирование</a></li><li><a href="/supervision/inspection">Энергетическое обследование</a></li><li><a href="/supervision/energy">Энергетический надзор</a></li><li class="uk-parent"><a href="/supervision/framework">Эффективность проектных решений</a><ul><li><a href="/supervision/framework/information">Стоимость 1 т.у.т.</a></li></ul></li><li><a href="/supervision/operatinggroup">Республиканская оперативная группа</a></li></ul></li><li class="uk-parent"><a href="/statistics">Статистика<div> </div></a><ul class="uk-nav-sub"><li><a href="/statistics/statistics_4ensb">Государственное статистическое наблюдение по форме 4-энергосбережение (Госстандарт)</a></li><li><a href="/statistics/statinform">Официальная статинформация на основе данных формы 4-энергосбережение (Госстандарт)</a></li><li><a href="/statistics/local">Местные ТЭР и возобновляемые источники энергии</a></li><li><a href="/statistics/2014-03-12-13-33-46">Светлые нефтепродукты</a></li><li><a href="/statistics/quotas">Ведомственная отчетность по форме "Сведения о нормах расхода и (или) предельных уровнях потребления топливно-энергетических ресурсов"</a></li><li><a href="/statistics/ereport">Электронная отчетность</a></li></ul></li><li class="uk-parent"><a href="/propaganda">Популярно<div>ОБ ЭНЕРГОСБЕРЕЖЕНИИ</div></a><ul class="uk-nav-sub"><li><a href="/propaganda/publishing">Журнал "Энергоэффективность"</a></li><li class="uk-parent"><a href="/propaganda/2011-08-31-12-14-15-sp-30597">Энергосбережение и дети</a><ul><li><a href="/propaganda/2011-08-31-12-14-15-sp-30597/energy">Республиканский конкурс</a></li><li><a href="/propaganda/2011-08-31-12-14-15-sp-30597/teacher">Педагогический опыт</a></li><li><a href="/propaganda/2011-08-31-12-14-15-sp-30597/all-games">Играем вместе</a></li></ul></li><li><a href="/propaganda/helpfull">Полезные советы</a></li><li><a href="/propaganda/photogallery">Фотогалерея</a></li><li><a href="https://www.youtube.com/channel/UCNnRgj7ycWccZZCeU4j_FlA" target="_blank" rel="noopener noreferrer">Видеоархив</a></li><li><a href="/propaganda/event">Мероприятия</a></li><li><a href="/propaganda/education">Обучаемся энергосбережению</a></li><li><a href="/propaganda/socialad">Социальная реклама</a></li></ul></li><li class="uk-parent"><a href="/onewindow">Одно<div>ОКНО</div></a><ul class="uk-nav-sub"><li><a href="/onewindow/feedback">Электронные обращения</a></li><li><a href="/onewindow/hotline">Горячая линия</a></li><li><a href="/onewindow/procedures">Административные процедуры</a></li><li><a href="/onewindow/directlines">Прямые телефонные линии</a></li><li><a href="/onewindow/20190410_question">Вопрос- ответ</a></li><li><a href="/onewindow/schedule">Прием граждан</a></li><li><a href="/onewindow/20250420_anketa">АНКЕТА о качестве осуществления административных процедур по заявлениям граждан</a></li></ul></li><li class="uk-parent"><a href="/contact">Контакты<div> </div></a><ul class="uk-nav-sub"><li><a href="/contact/department">Департамент по энергоэффективности</a></li><li class="uk-parent"><a href="#">Территориальные органы и подчиненные организации</a>
+<ul><li><a href="/contact/region/brest">Брестское областное управление</a></li><li><a href="/contact/region/vitebsk">Витебское областное управление</a></li><li><a href="/contact/region/gomel">Гомельское областное управление</a></li><li><a href="/contact/region/grodno">Гродненское областное управление</a></li><li><a href="/contact/region/minskcity">Минское городское управление</a></li><li><a href="/contact/region/minsk">Минское областное управление</a></li><li><a href="/contact/region/mogilev">Могилевское областное управление</a></li><li><a href="/contact/region/belinvest">РУП «Белинвестэнергосбережение»</a></li><li><a href="/contact/region/kvantas">УП «Квант-АС»</a></li></ul></li></ul></li><li class="uk-parent"><a href="/media-relations">Взаимодействие со СМИ</a><ul class="uk-nav-sub"><li><a href="/media-relations/contacts_media">Контакты для СМИ</a></li><li><a href="/media-relations/publications">Интервью, видео, публикации в СМИ</a></li></ul></li></ul></div>
+    </div>
+    
+
+<script type="text/javascript">   function cookiehintsubmitnoc(obj) {     if (confirm("A refusal will affect the functions of the website. Do you really want to decline?")) {       document.cookie = 'reDimCookieHint=-1; expires=0; path=/';       cookiehintfadeOut(document.getElementById('redim-cookiehint-bottom'));       return true;     } else {       return false;     }   } </script> <div id="redim-cookiehint-bottom">   <div id="redim-cookiehint">     <div class="cookiehead">       <span class="headline">Для обеспечения удобства пользователей сайта используются cookies</span>     </div>     <div class="cookiecontent">   <p>Мы используем файлы cookie на нашем сайте. Некоторые из них необходимы для работы сайта, а другие помогают нам улучшить этот сайт и удобство использования (tracking cookie). Вы можете сами решить, хотите ли вы разрешить использование файлов cookie или нет. Обратите внимание: если вы отклоните их, возможно вы не сможете использовать все функции сайта.</p>    </div>     <div class="cookiebuttons">       <a id="cookiehintsubmit" onclick="return cookiehintsubmit(this);" href="https://energoeffect.gov.by/?rCH=2"         class="btn">Принять все</a>           <a id="cookiehintsubmitno" onclick="return cookiehintsubmitnoc(this);" href="https://energoeffect.gov.by/?rCH=-2"           class="btn">Отклонить все</a>          <div class="text-center" id="cookiehintinfo">                     </div>      </div>     <div class="clr"></div>   </div> </div>  <script type="text/javascript">        document.addEventListener("DOMContentLoaded", function(event) {         if (!navigator.cookieEnabled){           document.getElementById('redim-cookiehint-bottom').remove();         }       });        function cookiehintfadeOut(el) {         el.style.opacity = 1;         (function fade() {           if ((el.style.opacity -= .1) < 0) {             el.style.display = "none";           } else {             requestAnimationFrame(fade);           }         })();       }         function cookiehintsubmit(obj) {         document.cookie = 'reDimCookieHint=1; expires=Fri, 29 Jan 2027 23:59:59 GMT;57; path=/';         cookiehintfadeOut(document.getElementById('redim-cookiehint-bottom'));         return true;       }        function cookiehintsubmitno(obj) {         document.cookie = 'reDimCookieHint=-1; expires=0; path=/';         cookiehintfadeOut(document.getElementById('redim-cookiehint-bottom'));         return true;       }  </script>  
+</body>
+</html>

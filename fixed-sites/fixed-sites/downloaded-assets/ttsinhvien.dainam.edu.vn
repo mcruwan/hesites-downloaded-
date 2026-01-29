@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Công ty Cổ phần Giải pháp Giáo dục Nam Việt." />
+    <meta name="robots" content="noindex, nofollow">
+    <link href="/Templates/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/Templates/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Templates/js/vendor/nivo-slider/nivo-slider.css" type="text/css" />
+    <link rel="stylesheet" href="/Templates/js/vendor/datepicker/css/datepicker.css" type="text/css" />
+    <link rel="stylesheet" href="/Templates/js/vendor/nivo-slider/themes/default/default.css" type="text/css" />
+    <link href="/Templates/css/main.css" rel="stylesheet" />
+    <link href="/Templates/css/Master.css" rel="stylesheet" />
+    <link href="../Content/css/bootstrap-treenav.css" rel="stylesheet" />
+    <title>Cổng thông tin</title>
+    <link rel="icon" type="image/x-icon" href="/FileManager/Upload/images/logo.png" />
+    <link href="/Content/toastr.css" rel="stylesheet" />
+    <script src="/Scripts/toastr.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <script src="/Scripts/jquery-2.1.1.min.js"></script>
+    
+</head>
+
+<body onpagehide="endSession();">
+    
+
+
+
+
+
+
+
+<section style="background: #12466D url(/FileManager/Upload/images/bg_header.png);" >
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" style="padding:0;margin:0">
+                <a title="Trường Đại Học ">
+                    <img src="/FileManager/Upload/images/logoTruongDHThuDo.png" alt="logo" class="img-responsive">
+                </a>
+            </div>
+             
+        </div>
+    </div>
+</section>
+    <header style="background-color: #f37423; ">
+        <div class="container">
+            <div class="row top-menu">
+                <nav class="navbar navbar-blue" role="navigation" style="margin-bottom: 0px; background-color: #f37423;">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            
+                            
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<style>
+    .styMenu {
+        float: left;
+        padding-top: 4px;
+        padding-left: 7px;
+        height: 38px;
+    }
+
+    .styMenuCon {
+        padding-left: 30px;
+    }
+</style>
+<ul class="nav navbar-nav">
+    <li class="dropdown">
+        <a href="/TrangChu/Home" style="margin-left:-50px">
+            <div style="float:left;">
+                <img class="clImage" src="/FileManager/img/home-4-24.png" />
+            </div>
+            <div class="styMenu">TRANG CHỦ</div>
+        </a>
+    </li>
+    <li class="dropdown">
+        <a href="" class="dropdown-toggle" data-toggle="dropdown">
+            <div style="float:left;">
+                <img src="/FileManager/img/literature-24.png" />
+            </div>
+            <div class="styMenu">CHƯƠNG TRÌNH ĐÀO TẠO</div>
+        </a>
+        <ul class="dropdown-menu" role="menu" style="background-color: #f37423;">
+            <li>
+                <a href="/ChuongTrinhDaoTao/ToanTruong">
+                    <div style="float:left;">
+                        <img class="" src="/FileManager/img/rsz_toantruong.png" />
+                    </div>
+                    <div class="styMenuCon">Toàn trường</div>
+                </a>
+            </li>
+            <li>
+                <a href="/">
+                    <div style="float:left;">
+                        <img class="" src="/FileManager/img/rsz_chuyennganhchinh.png" />
+                    </div>
+                    <div class="styMenuCon">Chuyên ngành chính</div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div style="float:left;">
+                        <img class="" src="/FileManager/img/rsz_chuyennganh2.png" />
+                    </div>
+                    <div class="styMenuCon">Chuyên ngành thứ 2</div>
+                </a>
+            </li>
+        </ul>
+    </li>
+    <li class="dropdown">
+        <a href="" class="dropdown-toggle" data-toggle="dropdown">
+            <div style="float:left;">
+                <img src="/FileManager/img/checklist.png" />
+            </div>
+            <div class="styMenu">ĐĂNG KÍ</div>
+        </a>
+        <ul class="dropdown-menu" role="menu" style="background-color: #f37423;">
+            <li>
+                <a href="/DangNhap/Login">
+                    <div style="float:left;">
+                        <img class="" src="/FileManager/img/rsz_hocchuyennganh.png" />
+                    </div>
+                    <div class="styMenuCon">Học chuyên ngành chính</div>
+                </a>
+            </li>
+            <li>
+                <a href="/DangNhap/Login">
+                    <div style="float:left;">
+                        <img class="" src="/FileManager/img/rsz_hocchuyennganh.png" />
+                    </div>
+                    <div class="styMenuCon">Học Chuyên ngành 2</div>
+                </a>
+            </li>
+            <li>
+                <a href="/DangNhap/Login">
+                    <div style="float:left;">
+                        <img class="" src="/FileManager/img/rsz_hoctuchon.png" />
+                    </div>
+                    <div class="styMenuCon">Đăng ký học sớm</div>
+                </a>
+            </li>
+            <li>
+                <a href="/DangNhap/Login">
+                    <div style="float:left;">
+                        <img class="" src="/FileManager/img/rsz_hoctuchon.png" />
+                    </div>
+                    <div class="styMenuCon">Đăng ký môn tự chọn</div>
+                </a>
+            </li>
+        </ul>
+    </li>
+    <li class="dropdown">
+        <a href="" class="dropdown-toggle" data-toggle="dropdown">
+            <div style="float:left;">
+                <img src="/FileManager/img/rsz_profile.png" />
+            </div>
+            <div class="styMenu">SINH VIÊN</div>
+        </a>
+        <ul class="dropdown-menu" role="menu" style="background-color: #f37423;">
+            <li>
+                <a href="/DangNhap/Login">
+                    <div style="float:left;">
+                        <img class="" src="/FileManager/img/rsz_profile.png" />
+                    </div>
+                    <div class="styMenuCon">Thông tin cá nhân</div>
+                </a>
+            </li>
+            <li>
+                <a href="/DangNhap/Login">
+                    <div style="float:left;">
+                        <img class="" src="/FileManager/img/rsz_toantruong.png" />
+                    </div>
+                    <div class="styMenuCon">Điểm danh cho lớp</div>
+                </a>
+            </li>
+            <li>
+                <a href="/DangNhap/Login">
+                    <div style="float:left;">
+                        <img class="" src="/FileManager/img/rsz_notepad.png" />
+                    </div>
+                    <div class="styMenuCon">Tra cứu điểm tổng hợp</div>
+                </a>
+            </li>
+            <li>
+                <a href="/DangNhap/Login">
+                    <div style="float:left;">
+                        <img class="" src="/FileManager/img/rsz_calendar.png" />
+                    </div>
+                    <div class="styMenuCon">Tra cứu lịch học</div>
+                </a>
+            </li>
+            <li>
+                <a href="/DangNhap/Login">
+                    <div style="float:left;">
+                        <img class="" src="/FileManager/img/rsz_calendar.png" />
+                    </div>
+                    <div class="styMenuCon">Tra cứu lịch thi</div>
+                </a>
+            </li>
+            <li>
+                <a href="/DangNhap/Login">
+                    <div style="float:left;">
+                        <img class="" src="/FileManager/img/rsz_hocbong.png" />
+                    </div>
+                    <div class="styMenuCon">Học bổng-Khen thưởng-Kỷ luật</div>
+                </a>
+            </li>
+            <li>
+                <a href="/DangNhap/Login">
+                    <div style="float:left;">
+                        <img class="" src="/FileManager/img/rsz_cuusinhvien.png" />
+                    </div>
+                    <div class="styMenuCon">Thông tin sinh viên tốt nghiệp</div>
+                </a>
+            </li>
+        </ul>
+    </li>
+
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+            <div style="float:left;">
+                <img src="/FileManager/img/checklist.png" />
+            </div>
+            <div class="styMenu">ĐÁNH GIÁ</div>
+        </a>
+        <ul class="dropdown-menu" role="menu" style="background-color: #f37423;">
+            <li>
+                <a href="/DichVu/CuuSinhVienSauTN">
+                    <div style="float:left;">
+                        <img class="" src="/FileManager/img/rsz_danhgia.png" />
+                    </div>
+                    <div class="styMenuCon">Khảo sát cựu sinh viên</div>
+                </a>
+            </li>
+            <li>
+                <a href="/DanhGiaNgoaiTruong/Index">
+                    <div style="float:left;">
+                        <img class="" src="/FileManager/img/rsz_danhgia.png" />
+                    </div>
+                    <div class="styMenuCon">Khảo sát đánh giá</div>
+                </a>
+            </li>
+
+        </ul>
+    </li>
+    <li class="dropdown">
+        <a href="" class="dropdown-toggle" data-toggle="dropdown">
+            <div style="float:left;">
+                <img src="/FileManager/img/rsz_money.png" />
+            </div>
+            <div class="styMenu">THÔNG TIN TÀI CHÍNH</div>
+        </a>
+        <ul class="dropdown-menu" role="menu" style="background-color: #f37423;">
+            <li>
+                <a href="/DangNhap/Login">
+                    <div style="float:left;">
+                        <img class="" src="/FileManager/img/rsz_lichsu.png" />
+                    </div>
+                    <div class="styMenuCon">Xem thông tin học phí</div>
+                </a>
+            </li>
+            <li>
+                <a href="/DangNhap/Login">
+                    <div style="float:left;">
+                        <img class="" src="/FileManager/img/rsz_tructuyen.png" />
+                    </div>
+                    <div class="styMenuCon">Học phí trực tuyến</div>
+                </a>
+            </li>
+            <li>
+                <a href="/DangNhap/Login">
+                    <div style="float:left;">
+                        <img class="" src="/FileManager/img/rsz_lichsu.png" />
+                    </div>
+                    <div class="styMenuCon">Kết quả phiếu chi</div>
+                </a>
+            </li>
+            <li>
+                <a href="/DangNhap/Login">
+                    <div style="float:left;">
+                        <img class="" src="/FileManager/img/rsz_tructiep.png" />
+                    </div>
+                    <div class="styMenuCon">Khoản học phí khác</div>
+                </a>
+            </li>
+        </ul>
+    </li>
+
+    <li class="dropdown">
+        <a href="" class="dropdown-toggle" data-toggle="dropdown">
+            <div style="float:left;">
+                <img src="/FileManager/img/rsz_news.png" />
+            </div>
+            <div class="styMenu">THÔNG TIN </div>
+        </a>
+        <ul class="dropdown-menu" role="menu" style="background-color: #f37423;">
+            <li>
+                <a href="/ThongTin/ThongBao?CatID=5">
+                    <div style="float:left;">
+                        <img class="" src="/FileManager/img/rsz_news.png" />
+                    </div>
+                    <div class="styMenuCon">Tin mới nhất</div>
+                </a>
+            </li>
+            <li>
+                <a href="/ThongTin/ThongBao?CatID=2">
+                    <div style="float:left;">
+                        <img class="" src="/FileManager/img/rsz_megaphone.png" />
+                    </div>
+                    <div class="styMenuCon">Thông báo</div>
+                </a>
+            </li>
+            <li>
+                <a href="/ThongTin/ThongBao?CatID=1">
+                    <div style="float:left;">
+                        <img class="" src="/FileManager/img/rsz_vanban.png" />
+                    </div>
+                    <div class="styMenuCon">Văn bản biểu mẫu</div>
+                </a>
+            </li>
+
+        </ul>
+    </li>
+
+</ul>
+<div>
+    <ul id="ulMenu1" class="nav navbar-nav navbar-right" style="background-color: #f37423;">
+        <li class="dropdown">
+            
+            <a href="/DangNhap/Login" class="dropdown" data-toggle="dropdown">
+                <div style="float:left;">
+                    <img src="/FileManager/img/rsz_login.png" />
+                </div>
+                <div class="styMenu">ĐĂNG NHẬP</div>
+            </a>
+        </li>
+    </ul>
+</div>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div style="min-height:340px">
+            
+
+
+<script type="text/javascript">
+    function ShowCoVanHocTap() {
+        $('#myModal').modal('show');
+        $('#divMain').load('/Common/ShowCoVanHocTap');
+    }
+</script>
+
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Thông tin cán bộ cố vấn học tập</h4>
+            </div>
+            <div class="modal-body" id="divMain"></div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <marquee style="font-size:13px">Chào mừng quý vị đến với Cổng thông tin của trường </marquee>
+</div>
+<div class="row">
+    <div class="col-md-4 alpha">
+        <div style="border: 1px solid #dcdcdc; border-top: 5px solid #ffd800; min-height: 650px; background: #ffffff">
+            <div class="box-header">
+                <span><i class="fa fa-suitcase fa-1x" aria-hidden="true"></i>&nbsp;Tin tức mới nhất</span>
+            </div>
+            <div class="news" id="TinMoiNhat">
+
+            </div>
+            <div class="view-all">
+                <a href="/ThongTin/ThongBao?CatID=5">Xem tất cả</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 middle">
+        <div style="border: 1px solid #dcdcdc; border-top: 5px solid #009966; min-height: 650px; background: #ffffff">
+            <div class="box-header">
+                <span><i class="fa fa-bell fa-2" aria-hidden="true"></i>&nbsp;Thông báo</span>
+            </div>
+            <div class="news events" id="ThongBaoMoiNhat">
+    <div class="media" style="height:82px">
+        <div class="pull-left">
+            <a class="" href="/Common/ChiTietTin/123">
+                    <img width="64" height="64" style="border:none" src="/FileManager/img/WebsiteTemplateIcon.png">
+            </a>
+        </div>
+
+        <div class="media-body">
+
+            <h4 class="media-heading" style="min-height:60px;">
+                <a href="/Common/ChiTietTin/123">
+                    Th&#244;ng b&#225;o V/v: Nghỉ lễ Quốc Kh&#225;nh 02/09/2025 
+                </a>
+            </h4>
+<span class="" style="float:right"><i class="fa fa-clock-o"></i> 18/ 08/ 2025</span>        </div>
+    </div>
+    <div class="media" style="height:82px">
+        <div class="pull-left">
+            <a class="" href="/Common/ChiTietTin/122">
+                    <img width="64" height="64" style="border:none" src="/FileManager/img/WebsiteTemplateIcon.png">
+            </a>
+        </div>
+
+        <div class="media-body">
+
+            <h4 class="media-heading" style="min-height:60px;">
+                <a href="/Common/ChiTietTin/122">
+                    Th&#244;ng b&#225;o V/v: Sinh vi&#234;n kh&#243;a 14,15,16, 17,18 nộp hoc ph&#237; học kỳ I năm học 2025-2026 
+                </a>
+            </h4>
+<span class="" style="float:right"><i class="fa fa-clock-o"></i> 11/ 08/ 2025</span>        </div>
+    </div>
+    <div class="media" style="height:82px">
+        <div class="pull-left">
+            <a class="" href="/Common/ChiTietTin/121">
+                    <img width="64" height="64" style="border:none" src="/FileManager/img/WebsiteTemplateIcon.png">
+            </a>
+        </div>
+
+        <div class="media-body">
+
+            <h4 class="media-heading" style="min-height:60px;">
+                <a href="/Common/ChiTietTin/121">
+                    Cảnh b&#225;o thủ đoạn tội phạm lợi dụng kh&#244;ng gian mạng để dụ dỗ, l&#244;i k&#233;o học sinh, sinh vi&#234;n 
+                </a>
+            </h4>
+<span class="" style="float:right"><i class="fa fa-clock-o"></i> 09/ 08/ 2025</span>        </div>
+    </div>
+    <div class="media" style="height:82px">
+        <div class="pull-left">
+            <a class="" href="/Common/ChiTietTin/120">
+                    <img width="64" height="64" style="border:none" src="/FileManager/img/WebsiteTemplateIcon.png">
+            </a>
+        </div>
+
+        <div class="media-body">
+
+            <h4 class="media-heading" style="min-height:60px;">
+                <a href="/Common/ChiTietTin/120">
+                    C&#225;c bước hướng dẫn mua v&#233; xe lượt v&#224; sử dụng coupon. C&#225;c bạn sinh vi&#234;n triển khai thanh to&#225;n v&#224; sử dụng nh&#233;. 
+                </a>
+            </h4>
+<span class="" style="float:right"><i class="fa fa-clock-o"></i> 02/ 08/ 2025</span>        </div>
+    </div>
+    <div class="media" style="height:82px">
+        <div class="pull-left">
+            <a class="" href="/Common/ChiTietTin/118">
+                    <img width="64" height="64" style="border:none" src="/FileManager/img/WebsiteTemplateIcon.png">
+            </a>
+        </div>
+
+        <div class="media-body">
+
+            <h4 class="media-heading" style="min-height:60px;">
+                <a href="/Common/ChiTietTin/118">
+                    Th&#244;ng b&#225;o V/v: Ban h&#224;nh thời kh&#243;a biểu tr&#236;nh độ đại học, h&#236;nh thức đ&#224;o tạo ch&#237;nh quy học kỳ I năm học 2025-2026 
+                </a>
+            </h4>
+<span class="" style="float:right"><i class="fa fa-clock-o"></i> 16/ 07/ 2025</span>        </div>
+    </div>
+
+            </div>
+            <div class="view-all">
+                <a href="/ThongTin/ThongBao?CatID=2">Xem tất cả</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 omega">
+        <div style="border: 1px solid #dcdcdc; border-top: 5px solid #663300; min-height: 650px; background: #ffffff">
+            <div class="sidebar">
+                <div class="box-header">
+                    <span><a>&nbsp;Văn bản , biểu mẫu</a></span>
+                </div>
+                <div class="news" id="SuKienSapDienRa">
+    <div class="media">
+        <div class="media-body">
+
+            <h4 class="media-heading">
+                <a href="/Common/ChiTietTin/113">
+                    Quy định c&#244;ng t&#225;c sinh vi&#234;n Đại học Đại Nam đối với chương tr&#236;nh đ&#224;o tạo đại học hệ ch&#237;nh quy 
+                </a>
+            </h4>
+<span class="" style="float:right"><i class="fa fa-clock-o"></i> 13/ 03/ 2025</span>        </div>
+    </div>
+    <div class="media">
+        <div class="media-body">
+
+            <h4 class="media-heading">
+                <a href="/Common/ChiTietTin/112">
+                    Quyết định ban h&#224;nh Quy chế đ&#224;o tạo tr&#236;nh độ đại học theo hệ thống t&#237;n chỉ của Trường Đại học Đại Nam 
+                </a>
+            </h4>
+<span class="" style="float:right"><i class="fa fa-clock-o"></i> 25/ 11/ 2025</span>        </div>
+    </div>
+    <div class="media">
+        <div class="media-body">
+
+            <h4 class="media-heading">
+                <a href="/Common/ChiTietTin/110">
+                    Quyết định ban h&#224;nh quy định c&#244;ng nhận kết quả học tập v&#224; chuyển đổi t&#237;n chỉ 
+                </a>
+            </h4>
+<span class="" style="float:right"><i class="fa fa-clock-o"></i> 13/ 03/ 2025</span>        </div>
+    </div>
+    <div class="media">
+        <div class="media-body">
+
+            <h4 class="media-heading">
+                <a href="/Common/ChiTietTin/109">
+                    1097/QĐ-ĐN Ban h&#224;nh quy định thi, kiểm tra v&#224; đ&#225;nh gi&#225; kết quả học tập của sinh vi&#234;n 
+                </a>
+            </h4>
+<span class="" style="float:right"><i class="fa fa-clock-o"></i> 13/ 03/ 2025</span>        </div>
+    </div>
+    <div class="media">
+        <div class="media-body">
+
+            <h4 class="media-heading">
+                <a href="/Common/ChiTietTin/83">
+                    Hướng dẫn sử dụng cổng th&#244;ng tin sinh vi&#234;n 
+                </a>
+            </h4>
+<span class="" style="float:right"><i class="fa fa-clock-o"></i> 30/ 08/ 2024</span>        </div>
+    </div>
+
+
+                </div>
+                <div class="view-all">
+                    <a href="/ThongTin/ThongBao?CatID=1">Xem tất cả</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+</div>
+
+
+
+
+        </div>
+
+    </div>
+
+
+<style>
+    .image {
+        width: 15px;
+        height: 15px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+</style>
+<section style="background-color: #ea7617">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12 fullwidth">
+                <div class="row fullwidth">
+                    <div class="col-md-6 " style="margin-top:20px; margin-left: 100px;">
+                        <img src="/FileManager/Images/Logo_footer.png" />
+                    </div>
+
+                    <div class="col-md-3 " style="margin-top:20px; margin-left: -400px; width: 500px;">
+                        <div style=" ">
+                            <h3 style="text-transform: uppercase; font-weight: 700; color: white;">Trường Đại học Đại Nam</h3>
+                        </div>
+                        <div style=" ">
+                            <ul>
+                                <li style="font-weight: 500; color: white;"><h5>Địa chỉ: Số 1 Phố Xốm - Phú Lãm - Hà Đông - Hà Nội</h5></li>
+                                <li style="font-weight: 500; color: white;"><h5>Điện thoại: (024) 35577799</h5></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 " style="margin-top:20px">
+                        <div class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.1384918193708!2d105.75476091540156!3d20.946952795940856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313452eaa9c461c3%3A0x2a3e1c421f299adc!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyDEkOG6oWkgTmFt!5e0!3m2!1svi!2sus!4v1577956036532!5m2!1svi!2sus" width="150" height="100" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+</section>
+
+
+
+    <script src="/Scripts/toastr.min.js"></script>
+    <script src="/Scripts/jquery-2.1.1.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <script src="/Templates/js/vendor/datepicker/js/bootstrap-datepicker.js"></script>
+    <script src="/Templates/js/vendor/holder.js"></script>
+    <script src="/Templates/js/vendor/nivo-slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    
+    <script src="/Templates/js/main.js"></script>
+    <link href="/Templates/datepicker/bootstrap-datepicker.min.css" rel="stylesheet" />
+    <script src="/Templates/datepicker/bootstrap-datepicker.min.js"></script>
+    <script src="/Templates/datepicker/bootstrap-datepicker.vi.min.js"></script>
+    <link href="/Templates/datepicker/datepicker.css" rel="stylesheet" />
+    
+    
+    
+    <script>
+        $(document).ready(function () {
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('.back-to-top').fadeIn();
+                } else {
+                    $('.back-to-top').fadeOut();
+                }
+            });
+
+            $('.back-to-top').click(function () {
+                $('html, body').animate({ scrollTop: 0 }, 500);
+                return false;
+            });
+
+        });
+
+        function ShowToastMessage(value, label, type) {
+            toastr[type](value, label)
+            toastr.options = {
+                "closeButton": false,
+                "debug": false,
+                "newestOnTop": false,
+                "progressBar": false,
+                "positionClass": "toast-top-right",
+                "preventDuplicates": false,
+                "onclick": null,
+                "showDuration": "300",
+                "hideDuration": "1000",
+                "timeOut": "1000",
+                "extendedTimeOut": "1000",
+                "showEasing": "swing",
+                "hideEasing": "linear",
+                "showMethod": "fadeIn",
+                "hideMethod": "fadeOut"
+            }
+        }
+    </script>
+    <script src="../Scripts/TreeView/bootstrap-treenav.js"></script>
+
+</body>
+</html>

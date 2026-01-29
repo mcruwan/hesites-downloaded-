@@ -1,0 +1,1383 @@
+
+<!DOCTYPE html>
+<html lang="ru" dir="ltr" class="h-100">
+  <head>
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-withdraw-tab {background: #133b91} div#sliding-popup.eu-cookie-withdraw-wrapper { background: transparent; } #sliding-popup h1, #sliding-popup h2, #sliding-popup h3, #sliding-popup p, #sliding-popup label, #sliding-popup div, .eu-cookie-compliance-more-button, .eu-cookie-compliance-secondary-button, .eu-cookie-withdraw-tab { color: #ffffff;} .eu-cookie-withdraw-tab { border-color: #ffffff;}</style>
+<link rel="icon" href="/sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" hreflang="ru" href="https://www.mpt.gov.by/ru/biometricheskie-dokumenty" />
+<link rel="alternate" hreflang="be" href="https://www.mpt.gov.by/be/biometricheskie-dokumenty" />
+<link rel="canonical" href="https://www.mpt.gov.by/ru/biometricheskie-dokumenty" />
+<link rel="shortlink" href="https://www.mpt.gov.by/ru/node/6703" />
+
+    <title>Биометрические документы | Министерство связи и информатизации Республики Беларусь</title>
+    <link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/ajax-progress.module.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/align.module.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/autocomplete-loading.module.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/fieldgroup.module.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/container-inline.module.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/clearfix.module.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/details.module.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/hidden.module.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/item-list.module.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/js.module.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/nowrap.module.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/position-container.module.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/progress.module.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/reset-appearance.module.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/resize.module.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/sticky-header.module.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/system-status-counter.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/system-status-report-counters.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/system-status-report-general-info.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/tabledrag.module.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/tablesort.module.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/tree-child.module.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/modules/contrib/responsive_menus/styles/responsive_menus_simple/css/responsive_menus_simple.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/views/views.module.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/modules/contrib/eu_cookie_compliance/css/eu_cookie_compliance.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/modules/contrib/addtocopy/css/addtocopy.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/modules/contrib/calendar/css/calendar.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/modules/contrib/calendar/css/calendar_multiday.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/modules/contrib/visually_impaired_module/css/visually_impaired_module.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/modules/contrib/ckeditor_accordion/css/accordion.frontend.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/libraries/owlcarousel2/dist/assets/owl.carousel.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/libraries/owlcarousel2/dist/assets/owl.theme.default.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/modules/contrib/owlcarousel/lib/owl-carousel/owl.transitions.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/modules/contrib/printable/css/entity-links.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" />
+<link rel="stylesheet" media="all" href="/modules/contrib/tb_megamenu/css/tb_megamenu.bootstrap.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/modules/contrib/tb_megamenu/css/tb_megamenu.base.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/modules/contrib/tb_megamenu/css/tb_megamenu.default.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/modules/contrib/tb_megamenu/css/tb_megamenu.compatibility.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/core/assets/vendor/normalize-css/normalize.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/core/normalize-fixes.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/action-links.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/breadcrumb.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/container-inline.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/details.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/exposed-filters.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/field.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/form.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/icons.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/inline-form.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/item-list.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/links.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/menu.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/more-link.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/pager.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/tabledrag.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/tableselect.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/tablesort.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/textarea.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/ui-dialog.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/messages.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/node.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/creative_innovative/css/style.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/creative_innovative/css/flexslider.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/creative_innovative/css/fontawesome-all.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+<link rel="stylesheet" media="all" href="/themes/contrib/creative_innovative/lib/animate/animate.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/creative_innovative/lib/animate/animate.min.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/creative_innovative/lib/owlcarousel/assets/owl.carousel.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/creative_innovative/lib/owlcarousel/assets/owl.carousel.min.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/creative_innovative/lib/owlcarousel/assets/owl.theme.default.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/creative_innovative/lib/owlcarousel/assets/owl.theme.default.min.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/creative_innovative/lib/owlcarousel/assets/owl.theme.green.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/creative_innovative/lib/owlcarousel/assets/owl.theme.green.min.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="/themes/contrib/creative_innovative/lib/style.css?t5yn6a" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" />
+<link rel="stylesheet" media="all" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&amp;family=Rubik:wght@400;500;600;700&amp;display=swap" />
+
+    <script src="https://use.fontawesome.com/releases/v6.4.0/js/all.js" defer crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/releases/v6.4.0/js/v4-shims.js" defer crossorigin="anonymous"></script>
+
+  </head>
+  <body class="path-node page-node-type-page    bg-light d-flex flex-column h-100">
+        <div class="visually-hidden-focusable skip-link p-3 container">
+      <a href="#main-content" class="p-2">
+        Перейти к основному содержанию
+      </a>
+    </div>
+    
+      <div class="dialog-off-canvas-main-canvas d-flex flex-column h-100" data-off-canvas-main-canvas>
+    
+
+<header id="header">
+  <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner"></div>
+  </div>
+  <!-- Spinner End -->
+  <!-- Topbar Start -->
+      <div class="container-fluid px-5 top-h">
+      <div class="row gx-0">
+              <div class="col-xl-6 col-12 text-center text-xl-start mb-2 mb-lg-0 top-h-f">
+          <div class="d-inline-flex align-items-center" style="height: 45px;">
+            <small class="me-3"><i class="fa fa-map-marker-alt me-2"></i>220050, г.Минск, пр-т Независимости, 10</small>            <small class="me-3"><i class="fa fa-phone-alt me-2"></i>+375 (17) 287 87 06</small>            <small class=""><i class="fa fa-envelope-open me-2"></i>+375 (17) 327 21 57</small>          </div>
+        </div>
+                    <div class="col-xl-6 col-12 text-center text-lg-end d-inline-flex align-items-center justify-content-end top-h-l" style="gap: 20px">
+            <div class="region region-top-header">
+    <div class="visually-impaired-module-special block block-visually-impaired-module block-visually-impaired-block" data-drupal-selector="visually-impaired-module-special" id="block-visuallyimpairedblock">
+  
+    
+      <form data-block="top_header" action="/ru/biometricheskie-dokumenty-respubliki-belarus" method="post" id="visually-impaired-module-special" accept-charset="UTF-8">
+  
+    <input itemprop="copy" data-drupal-selector="edit-visually-impaired-block" class="vi-special-block-image button js-form-submit form-submit btn btn-primary" type="submit" id="edit-visually-impaired-block" name="op" value="Visually impaired site version" />
+
+
+  <input autocomplete="off" data-drupal-selector="form-k1guxcv5sojjrcrrba1f9zhis-t1sdwbpw3q-obbtvu" type="hidden" name="form_build_id" value="form-K1GuXCV5SOjJrCRrbA1f9ZHis-t1sDWBpW3q-ObbtVU" />
+
+
+  <input data-drupal-selector="edit-visually-impaired-module-special" type="hidden" name="form_id" value="visually_impaired_module_special" />
+
+
+</form>
+
+  </div>
+<div class="language-switcher-language-url block block-language block-language-blocklanguage-interface" id="block-pereklyuchatelyazyka" role="navigation">
+  
+    
+      <ul data-block="top_header"><li hreflang="ru" data-drupal-link-system-path="node/6703" class="is-active"><a href="/ru/biometricheskie-dokumenty" class="language-link is-active" hreflang="ru" data-drupal-link-system-path="node/6703">RU</a></li><li hreflang="be" data-drupal-link-system-path="node/6703"><a href="/be/biometricheskie-dokumenty" class="language-link" hreflang="be" data-drupal-link-system-path="node/6703">BE</a></li><li hreflang="en" data-drupal-link-system-path="node/6703"><a href="/en/node/6703" class="language-link" hreflang="en" data-drupal-link-system-path="node/6703">EN</a></li></ul>
+  </div>
+<div class="search-block-form block block-search container-inline" data-drupal-selector="search-block-form" id="block-creative-innovative-search-form" role="search">
+  
+    
+      <form data-block="top_header" action="/ru/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-search form-type-search js-form-item-keys form-item-keys form-no-label">
+      <label for="edit-keys" class="visually-hidden">Поиск</label>
+        
+  <input title="Введите ключевые слова для поиска." data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search form-control" />
+
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions">
+    <input data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Поиск" class="button js-form-submit form-submit btn btn-primary" />
+
+</div>
+
+</form>
+
+  </div>
+
+  </div>
+          <div class="d-inline-flex align-items-center mpt-social-icons" style="height: 45px; gap 10px" >
+            <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://twitter.com/minsvyazby"><svg width="14" height="14" fill="currentColor" viewBox="0 0 1200 1227" style="margin-top: -4px;"><path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z"/></svg></a>                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.instagram.com/minsvyaz_by/"><i class="fab fa-instagram fw-normal"></i></a>            <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href="https://www.youtube.com/channel/UCarEUOTO_J4v-HYAEoQZSQw?view_as=subscriber"><i class="fab fa-youtube fw-normal"></i></a>            <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href="https://t.me/minsvaz"><i class="fab fa-telegram fw-normal"></i></a>            <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href="http://vk.com/msiirb"><i class="fab fa-vk fw-normal"></i></a>            <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href="/rss.xml"><i class="fas fa-rss"></i></a>          </div>
+        </div>
+           
+      </div>
+    </div>
+  
+  <div class="container-fluid position-relative p-0 mid-h">
+          <nav class="navbar navbar-expand-xl navbar-dark text-light  px-5 py-3 py-lg-0">
+        <div class="d-flex w-100">
+          <h1 class="m-0">  <div class="region region-header">
+    <div id="block-brendingsayta" class="block block-system block-system-branding-block">
+  
+    
+  <div class="navbar-brand d-flex align-items-center">
+
+    <a href="/ru" title="Главная" rel="home" class="site-logo d-block">
+    <img src="/sites/default/files/20240614_1_1.png" alt="Главная" />
+  </a>
+  
+  <div>
+        <a href="/ru" title="Главная" rel="home" class="site-title">
+      Министерство связи и информатизации Республики Беларусь
+    </a>
+    
+      </div>
+</div>
+</div>
+
+  </div>
+</h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="fa fa-bars"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <div class="region region-nav-main">
+    <div id="block-osnovnayanavigaciya" class="block block-tb-megamenu block-tb-megamenu-menu-blockmain">
+  
+    
+      <div  class="tb-megamenu tb-megamenu-main" role="navigation" aria-label="Main menu">
+      <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar tb-megamenu-button" type="button">
+      <i class="fa fa-reorder"></i>
+    </button>
+    <div class="nav-collapse  always-show">
+    <ul  class="tb-megamenu-nav nav level-0 items-4" role="list" >
+                  <li  class="tb-megamenu-item level-1 mega fst-lvl-menu" data-id="standard.front_page" data-level="1" data-type="menu_item" data-class="fst-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="1" >
+          <a href="/ru" >
+                Главная
+                </a>
+    
+  </li>
+
+                      
+        <li  class="tb-megamenu-item level-1 mega fst-lvl-menu sec-lvl-menu dropdown" data-id="menu_link_content:f3e0e420-142c-4456-8542-81111942d0a9" data-level="1" data-type="menu_item" data-class="fst-lvl-menu sec-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="1" >
+          <span class="dropdown-toggle tb-megamenu-no-link" aria-expanded="false" tabindex="0">
+                Разделы
+              <span class="caret"></span>
+                </span>
+    <div  class="tb-megamenu-submenu sub-lvl-menu dropdown-menu mega-dropdown-menu nav-child" data-class="sub-lvl-menu" data-width="1200" style="width: 1200px;" role="list">
+  <div class="mega-dropdown-inner">
+          <div  class="tb-megamenu-row row-fluid">
+      <div  class="tb-megamenu-column span4 mega-col-nav" data-class="" data-width="4" data-hidewcol="" id="tb-megamenu-column-1">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+               <ul  class="tb-megamenu-subnav mega-nav level-1 items-1" role="list">
+                      
+        <li  class="tb-megamenu-item level-2 mega snd-lvl-menu mega-group" data-id="menu_link_content:c7d664e4-0fb5-406b-9ba5-e0b38e71ea21" data-level="2" data-type="menu_item" data-class="snd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="2" >
+          <span class="mega-group-title tb-megamenu-no-link" aria-expanded="false" tabindex="0">
+                О Министерстве
+              <span class="caret"></span>
+                </span>
+    <div  class="tb-megamenu-submenu mega-group-ct nav-child" data-class="" data-width="" role="list">
+  <div class="mega-dropdown-inner">
+          <div  class="tb-megamenu-row row-fluid">
+      <div  class="tb-megamenu-column span12 mega-col-nav" data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-2">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+               <ul  class="tb-megamenu-subnav mega-nav level-2 items-17" role="list">
+                  <li  class="tb-megamenu-item level-3 mega trd-lvl-menu" data-id="menu_link_content:21166de5-3a58-469c-a8f0-4c10bd086b80" data-level="3" data-type="menu_item" data-class="trd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="http://www.pravo.by/document/?guid=3871&amp;p0=C20400302" >
+                Положение о Министерстве
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega trd-lvl-menu" data-id="menu_link_content:7e10ea21-0096-4b97-89a9-af93df6b1870" data-level="3" data-type="menu_item" data-class="trd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/funkcii-i-glavnye-zadachi" >
+                Функции и задачи
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega trd-lvl-menu" data-id="menu_link_content:5808bad8-090e-4785-b152-b87c08d7010e" data-level="3" data-type="menu_item" data-class="trd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/istoriya" >
+                История
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega trd-lvl-menu" data-id="menu_link_content:c8cecec5-ab43-4d1d-bb0b-5b6e97175e9b" data-level="3" data-type="menu_item" data-class="trd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/management" >
+                Руководство
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega trd-lvl-menu" data-id="menu_link_content:ea7408a9-1d66-48b9-878c-2266b9144a9c" data-level="3" data-type="menu_item" data-class="trd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/struktura-upravleniya" >
+                Структура управления
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega trd-lvl-menu" data-id="menu_link_content:2e2824be-6095-4385-a8a4-6b23cf1f189a" data-level="3" data-type="menu_item" data-class="trd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/organizations" >
+                Организации системы Минсвязи
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega trd-lvl-menu" data-id="menu_link_content:ba4f89d7-2cd0-45d4-b6be-c59520c16d7d" data-level="3" data-type="menu_item" data-class="trd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/kollegiya" >
+                Коллегия
+                </a>
+    
+  </li>
+
+                      
+        <li  class="tb-megamenu-item level-3 mega trd-lvl-menu dropdown-submenu" data-id="menu_link_content:b915c994-c055-4872-8eff-06ded8bf1cff" data-level="3" data-type="menu_item" data-class="trd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <span class="dropdown-toggle tb-megamenu-no-link" aria-expanded="false" tabindex="0">
+                Государственная программа
+              <span class="caret"></span>
+                </span>
+    <div  class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" data-class="" data-width="350" style="width: 350px;" role="list">
+  <div class="mega-dropdown-inner">
+          <div  class="tb-megamenu-row row-fluid">
+      <div  class="tb-megamenu-column span12 mega-col-nav" data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-3">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+               <ul  class="tb-megamenu-subnav mega-nav level-3 items-1" role="list">
+                  <li  class="tb-megamenu-item level-4 mega" data-id="menu_link_content:3eca49d1-29f8-4022-94fe-9f41932ea189" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="4" >
+          <a href="/ru/gosudarstvennye-programmy" >
+                Государственная программа «Цифровая Беларусь» на 2026–2030 годы
+                </a>
+    
+  </li>
+
+  </ul>
+
+      </div>
+</div>
+
+  </div>
+
+      </div>
+</div>
+
+  </li>
+
+                      
+        <li  class="tb-megamenu-item level-3 mega dropdown-submenu" data-id="menu_link_content:194d61fd-1e6d-4563-a966-f55ee2097786" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <span class="dropdown-toggle tb-megamenu-no-link" aria-expanded="false" tabindex="0">
+                Государственные статистические наблюдения
+              <span class="caret"></span>
+                </span>
+    <div  class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" data-class="" data-width="350" style="width: 350px;" role="list">
+  <div class="mega-dropdown-inner">
+          <div  class="tb-megamenu-row row-fluid">
+      <div  class="tb-megamenu-column span12 mega-col-nav" data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-4">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+               <ul  class="tb-megamenu-subnav mega-nav level-3 items-2" role="list">
+                  <li  class="tb-megamenu-item level-4 mega snd-lvl-menu" data-id="menu_link_content:c64e3397-3231-499d-ab13-10ebfdcc3b2a" data-level="4" data-type="menu_item" data-class="snd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="4" >
+          <a href="/ru/oficialnaya-statisticheskaya" >
+                Официальная статистическая информация по нецентрализованным формам (за отчетный период)
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-4 mega snd-lvl-menu" data-id="menu_link_content:30d8229e-4632-4f57-bfe3-65bc1b89d55b" data-level="4" data-type="menu_item" data-class="snd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="4" >
+          <a href="/ru/formy-otchetnosti" >
+                Формы статистических наблюдений и указания по их заполнению
+                </a>
+    
+  </li>
+
+  </ul>
+
+      </div>
+</div>
+
+  </div>
+
+      </div>
+</div>
+
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega trd-lvl-menu" data-id="menu_link_content:da0716ac-9786-4384-ae0e-c22f0bcf5d2d" data-level="3" data-type="menu_item" data-class="trd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/gosudarstvennaya-sluzhba" >
+                Государственная служба
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega trd-lvl-menu" data-id="menu_link_content:acb0c148-e1e1-48ec-be17-28e62058c3ec" data-level="3" data-type="menu_item" data-class="trd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/obshchestvennyy-sovet" >
+                Общественно-консультативный совет
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega trd-lvl-menu" data-id="menu_link_content:2727a851-f69e-4cea-860d-d400645b3db0" data-level="3" data-type="menu_item" data-class="trd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/perechen-npa-reguliruyushchih-deyatelnost" >
+                Перечень НПА, регулирующих деятельность
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega trd-lvl-menu" data-id="menu_link_content:425d2a08-cad4-4860-a832-2b74fd760a45" data-level="3" data-type="menu_item" data-class="trd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/obshchestvennoe-obsuzhdenie-proektov-npa" >
+                Общественное обсуждение проектов НПА
+                </a>
+    
+  </li>
+
+      
+                  <li  class="tb-megamenu-item level-3 mega" data-id="menu_link_content:2942eb56-dbe9-4cd3-9450-b8ec1ea74a0b" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="https://www.mpt.gov.by/ru/geraldicheskie-simvoly-ministerstva" >
+                Геральдические символы Министерства
+                </a>
+    
+  </li>
+
+  </ul>
+
+      </div>
+</div>
+
+  </div>
+
+      </div>
+</div>
+
+  </li>
+
+  </ul>
+
+      </div>
+</div>
+
+      <div  class="tb-megamenu-column span4 mega-col-nav" data-class="" data-width="4" data-hidewcol="" id="tb-megamenu-column-5">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+               <ul  class="tb-megamenu-subnav mega-nav level-1 items-1" role="list">
+                      
+        <li  class="tb-megamenu-item level-2 mega snd-lvl-menu mega-group" data-id="menu_link_content:753e701c-e33a-4478-beb6-a7518bea20ea" data-level="2" data-type="menu_item" data-class="snd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="2" >
+          <span class="mega-group-title tb-megamenu-no-link" aria-expanded="false" tabindex="0">
+                Деятельность
+              <span class="caret"></span>
+                </span>
+    <div  class="tb-megamenu-submenu mega-group-ct nav-child" data-class="" data-width="" role="list">
+  <div class="mega-dropdown-inner">
+          <div  class="tb-megamenu-row row-fluid">
+      <div  class="tb-megamenu-column span12 mega-col-nav trd-lvl-menu dop-lvl-menu" data-class="trd-lvl-menu dop-lvl-menu" data-width="12" data-hidewcol="0" id="tb-megamenu-column-6">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+               <ul  class="tb-megamenu-subnav mega-nav level-2 items-16" role="list">
+                  <li  class="tb-megamenu-item level-3 mega" data-id="menu_link_content:e14a6f1b-9565-47e3-972b-1bcea62be57c" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="https://www.mpt.gov.by/ru/pokazateli" >
+                Показатели развития отрасли
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega trd-lvl-menu" data-id="menu_link_content:7a704a47-060e-4783-ba81-a8db096dc35b" data-level="3" data-type="menu_item" data-class="trd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/telekommunikaciya" >
+                Телекоммуникация
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega trd-lvl-menu" data-id="menu_link_content:d0508848-1e5e-4e09-bdc7-91b20ec06cdf" data-level="3" data-type="menu_item" data-class="trd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/pochtovaya-deyatelnost" >
+                Почтовая деятельность
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega trd-lvl-menu" data-id="menu_link_content:eca818e8-5cbf-45c1-9542-b17aabc199ae" data-level="3" data-type="menu_item" data-class="trd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/cifrovoe-razvitie" >
+                Цифровое развитие
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega trd-lvl-menu" data-id="menu_link_content:5b5b3875-b435-422f-80a9-57b9ec83fe81" data-level="3" data-type="menu_item" data-class="trd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/licenzirovanie" >
+                Лицензирование
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega trd-lvl-menu" data-id="menu_link_content:1dd1e318-9c82-4b28-899a-16fb15dd7e00" data-level="3" data-type="menu_item" data-class="trd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/mezhdunarodnoe-sotrudnichestvo" >
+                Международное сотрудничество
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega trd-lvl-menu" data-id="menu_link_content:d76dd76a-447a-497a-a9c3-88e8f8ef0ce9" data-level="3" data-type="menu_item" data-class="trd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/gosudarstvennaya-komissiya-po-radiochastotam-pri-sovete-bezopasnosti-respubliki-belarus" >
+                Государственная комиссия по радиочастотам
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega trd-lvl-menu" data-id="menu_link_content:110aceb1-7fdf-4c47-b4d2-02ed7657d160" data-level="3" data-type="menu_item" data-class="trd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/investicionnyy-fond" >
+                Инвестиционный фонд
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega trd-lvl-menu" data-id="menu_link_content:ea17a7b5-08b8-41c5-b2b7-8552c3aac20e" data-level="3" data-type="menu_item" data-class="trd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/zakupki" >
+                Закупки
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega trd-lvl-menu" data-id="menu_link_content:e7c1400b-6822-4515-9702-3dab18871200" data-level="3" data-type="menu_item" data-class="trd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/o-rasporyazhenii-gosimushchestvom" >
+                О распоряжении госимуществом
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega trd-lvl-menu" data-id="menu_link_content:318b9964-6999-4ef7-9cb8-319b62655ffd" data-level="3" data-type="menu_item" data-class="trd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/tekhnicheskoe-normirovanie-i-standartizaciya" >
+                Техническое нормирование и стандартизация
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega trd-lvl-menu" data-id="menu_link_content:5ee0db0b-a71b-4c6d-b9ef-783bd06fb487" data-level="3" data-type="menu_item" data-class="trd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/okhrana-truda-i-pozh-bezopasnost" >
+                Охрана труда и пожарная безопасность
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega trd-lvl-menu" data-id="menu_link_content:dee5905e-5703-4803-bb22-b9a4ac1b2a39" data-level="3" data-type="menu_item" data-class="trd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/kontrolnaya-deyatelnost" >
+                Контрольная деятельность
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega trd-lvl-menu" data-id="menu_link_content:d3baccad-3696-42d0-95dc-b1129be2e5cb" data-level="3" data-type="menu_item" data-class="trd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/kiberbezopasnost" >
+                Кибербезопасность
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega" data-id="menu_link_content:bc2494da-63cb-44cc-a85d-48fe37369915" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/antikorrupcionnaya-deyatelnost" >
+                Антикоррупционная деятельность
+                </a>
+    
+  </li>
+
+  </ul>
+
+      </div>
+</div>
+
+  </div>
+
+      </div>
+</div>
+
+  </li>
+
+  </ul>
+
+      </div>
+</div>
+
+      <div  class="tb-megamenu-column span4 mega-col-nav" data-class="" data-width="4" data-hidewcol="" id="tb-megamenu-column-7">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+               <ul  class="tb-megamenu-subnav mega-nav level-1 items-3" role="list">
+                      
+        <li  class="tb-megamenu-item level-2 mega snd-lvl-menu mega-group" data-id="menu_link_content:9cdcb501-40b2-4339-a862-ae0601504d00" data-level="2" data-type="menu_item" data-class="snd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="2" >
+          <span class="mega-group-title tb-megamenu-no-link" aria-expanded="false" tabindex="0">
+                Вниманию инвесторов
+              <span class="caret"></span>
+                </span>
+    <div  class="tb-megamenu-submenu mega-group-ct nav-child" data-class="" data-width="" role="list">
+  <div class="mega-dropdown-inner">
+          <div  class="tb-megamenu-row row-fluid">
+      <div  class="tb-megamenu-column span12 mega-col-nav" data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-8">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+               <ul  class="tb-megamenu-subnav mega-nav level-2 items-2" role="list">
+                  <li  class="tb-megamenu-item level-3 mega trd-lvl-menu" data-id="menu_link_content:38a1bc20-4069-4980-89ff-b372acfa198c" data-level="3" data-type="menu_item" data-class="trd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="http://www.belarp.by/" >
+                Белорусский фонд финансовой поддержки предпринимателей
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega trd-lvl-menu" data-id="menu_link_content:72674b8d-6c5f-4cba-8aa0-4e78c3da81fb" data-level="3" data-type="menu_item" data-class="trd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/informaciya-dlya-investorov" >
+                Информация для инвесторов
+                </a>
+    
+  </li>
+
+  </ul>
+
+      </div>
+</div>
+
+  </div>
+
+      </div>
+</div>
+
+  </li>
+
+                      
+        <li  class="tb-megamenu-item level-2 mega dropdown-submenu" data-id="menu_link_content:e062f066-e013-4e04-92a3-13c24519ebc0" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="2" >
+          <span class="dropdown-toggle tb-megamenu-no-link" aria-expanded="false" tabindex="0">
+                Председательство Беларуси в ЕАЭС
+              <span class="caret"></span>
+                </span>
+    <div  class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" data-class="" data-width="" role="list">
+  <div class="mega-dropdown-inner">
+          <div  class="tb-megamenu-row row-fluid">
+      <div  class="tb-megamenu-column span12 mega-col-nav" data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-9">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+               <ul  class="tb-megamenu-subnav mega-nav level-2 items-10" role="list">
+                  <li  class="tb-megamenu-item level-3 mega" data-id="menu_link_content:1c9f46af-885b-412b-a3d3-b158aa423168" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="https://economy.gov.by/ru/2025-eaes-predsedatelstvo-ru/" >
+                2025-ый — Год председательства Беларуси в ЕАЭС
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega" data-id="menu_link_content:6138b4df-fa50-4667-90c2-a34d9dbb5a77" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/obschaya-informaciya-o-predsedatelstve-respubliki-belarus-v-organakh-evraziyskogo-ekonomicheskogo" >
+                Общая информация о председательстве Республики Беларусь в органах Евразийского экономического союза в 2025 году
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega" data-id="menu_link_content:b3b02e73-f2c1-43a2-bfaa-b7bcfa14ac61" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/razrabotana-emblema-predsedatelstva-respubliki-belarus-v-organakh-eaes" >
+                Разработана эмблема председательства Республики Беларусь в органах ЕАЭС
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega" data-id="menu_link_content:90a8c5bb-e37a-4f14-a1a1-9e42160863a5" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="https://mpt.gov.by/ru/yarkie-stranicy-pochtovoy-letopisi-po-tematike-evraziyskogo-ekonomicheskogo-soyuza" >
+                Яркие страницы почтовой летописи по тематике ЕАЭС
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega" data-id="menu_link_content:4bb42874-ce56-4885-b6a6-5231c7141ddb" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="https://www.mpt.gov.by/ru/sovmestnye-vypuski-so-stranami-uchastnicam-evraziyskogo-ekonomicheskogo-soyuza" >
+                Совместные выпуски со странами – участницам ЕАЭС
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-3 mega" data-id="menu_link_content:c360e5ec-2d3b-446a-a816-a6d76f27e087" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="3" >
+          <a href="/ru/minsvyazi-vypuskaet-v-obraschenie-pochtovuyu-marku-predsedatelstvo-respubliki-belarus-v-organakh" >
+                Почтовая марка «Председательство Республики Беларусь в органах ЕАЭС в 2025 году»
+                </a>
+    
+  </li>
+
+  </ul>
+
+      </div>
+</div>
+
+  </div>
+
+      </div>
+</div>
+
+  </li>
+
+  </ul>
+
+      </div>
+</div>
+
+  </div>
+
+      </div>
+</div>
+
+  </li>
+
+                      
+        <li  class="tb-megamenu-item level-1 mega fst-lvl-menu dropdown" data-id="menu_link_content:a3204417-53d8-45f1-be23-d6b01699d55d" data-level="1" data-type="menu_item" data-class="fst-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="1" >
+          <span class="dropdown-toggle tb-megamenu-no-link" aria-expanded="false" tabindex="0">
+                Приемная
+              <span class="caret"></span>
+                </span>
+    <div  class="tb-megamenu-submenu dop-lvl-menu dropdown-menu mega-dropdown-menu nav-child" data-class="dop-lvl-menu" data-width="300" style="width: 300px;" role="list">
+  <div class="mega-dropdown-inner">
+          <div  class="tb-megamenu-row row-fluid">
+      <div  class="tb-megamenu-column span12 mega-col-nav" data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-10">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+               <ul  class="tb-megamenu-subnav mega-nav level-1 items-6" role="list">
+                  <li  class="tb-megamenu-item level-2 mega snd-lvl-menu" data-id="menu_link_content:5c279c28-7be6-48e6-ab45-d219e55edd77" data-level="2" data-type="menu_item" data-class="snd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="2" >
+          <a href="/ru/faq" >
+                Часто задаваемые вопросы
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-2 mega snd-lvl-menu" data-id="menu_link_content:ad6018d1-e682-4362-a289-17ae112fd079" data-level="2" data-type="menu_item" data-class="snd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="2" >
+          <a href="/ru/kontaktnaya-informaciya" >
+                Контакты
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-2 mega snd-lvl-menu" data-id="menu_link_content:358362bd-de65-4a01-af2b-a1c9e53bfac6" data-level="2" data-type="menu_item" data-class="snd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="2" >
+          <a href="/ru/grafik-priema" >
+                График приема
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-2 mega snd-lvl-menu" data-id="menu_link_content:ad32ee44-8c02-4468-a21a-4c50c0ab3551" data-level="2" data-type="menu_item" data-class="snd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="2" >
+          <a href="/ru/grafik-provedeniya-subbotnikh-pryamykh-telefonnykh-liniy-v-ministerstve-svyazi-i-infrmatizacii" >
+                «Прямая телефонная линия»
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-2 mega snd-lvl-menu" data-id="menu_link_content:4dee01f4-2415-4bc7-a0a9-65609a70d27c" data-level="2" data-type="menu_item" data-class="snd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="2" >
+          <a href="/ru/elektronnye-obrashcheniya" >
+                Электронные обращения
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-2 mega snd-lvl-menu" data-id="menu_link_content:ad2f04de-6d93-424a-a161-61f6361d184b" data-level="2" data-type="menu_item" data-class="snd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="2" >
+          <a href="/ru/odno-okno" >
+                 Одно окно
+                </a>
+    
+  </li>
+
+  </ul>
+
+      </div>
+</div>
+
+  </div>
+
+      </div>
+</div>
+
+  </li>
+
+                      
+        <li  class="tb-megamenu-item level-1 mega fst-lvl-menu dropdown" data-id="menu_link_content:d7e3c1e2-adb5-4b1b-9909-bf6143868d00" data-level="1" data-type="menu_item" data-class="fst-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="1" >
+          <span class="dropdown-toggle tb-megamenu-no-link" aria-expanded="false" tabindex="0">
+                Пресс-центр
+              <span class="caret"></span>
+                </span>
+    <div  class="tb-megamenu-submenu sub-lvl-menu dropdown-menu mega-dropdown-menu nav-child" data-class="sub-lvl-menu" data-width="300" style="width: 300px;" role="list">
+  <div class="mega-dropdown-inner">
+          <div  class="tb-megamenu-row row-fluid">
+      <div  class="tb-megamenu-column span12 mega-col-nav" data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-10">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+               <ul  class="tb-megamenu-subnav mega-nav level-1 items-6" role="list">
+                  <li  class="tb-megamenu-item level-2 mega snd-lvl-menu" data-id="menu_link_content:c9404f2a-dc61-496d-8ffb-7fdf24b88f71" data-level="2" data-type="menu_item" data-class="snd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="2" >
+          <a href="/ru/smi-o-nas" >
+                СМИ о нас
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-2 mega snd-lvl-menu" data-id="menu_link_content:51ecf266-2168-4b23-b628-66c8429b34ea" data-level="2" data-type="menu_item" data-class="snd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="2" >
+          <a href="https://www.youtube.com/channel/UCarEUOTO_J4v-HYAEoQZSQw" >
+                Видео
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-2 mega snd-lvl-menu" data-id="menu_link_content:5d11244e-541f-465c-a76c-bb65bb38c30d" data-level="2" data-type="menu_item" data-class="snd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="2" >
+          <a href="/ru/news" >
+                Новости
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-2 mega snd-lvl-menu" data-id="menu_link_content:55cf8d4b-8992-48d5-b50c-37b06175c18a" data-level="2" data-type="menu_item" data-class="snd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="2" >
+          <a href="/ru/kontakty-dlya-smi" >
+                Взаимодействие со СМИ
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-2 mega" data-id="menu_link_content:4b614024-a069-4755-a818-0565902c846d" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="2" >
+          <a href="/ru/foto-dlya-smi" >
+                Фото для СМИ
+                </a>
+    
+  </li>
+
+                  <li  class="tb-megamenu-item level-2 mega snd-lvl-menu" data-id="menu_link_content:495a9be9-fdf8-4ade-bf9e-fa124293783d" data-level="2" data-type="menu_item" data-class="snd-lvl-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" data-label="" aria-level="2" >
+          <a href="/ru/otraslevye-smi" >
+                Отраслевые СМИ
+                </a>
+    
+  </li>
+
+  </ul>
+
+      </div>
+</div>
+
+  </div>
+
+      </div>
+</div>
+
+  </li>
+
+  </ul>
+
+      </div>
+  </div>
+
+  </div>
+
+  </div>
+
+          </div>
+        </div>
+      </nav>
+             <div class="">
+                </div>
+  </div>
+ 
+</header>
+
+
+<main role="main" >
+  <a id="main-content" tabindex="-1"></a>
+  <div class="container">
+    
+    
+    
+    <div class="container-fluid m-0 p-0">
+                <div class="region region-breadcrumb">
+    <div id="block-creative-innovative-breadcrumbs" class="block block-system block-system-breadcrumb-block">
+  
+    
+        <nav aria-label="breadcrumb">
+    <h2 id="system-breadcrumb" class="visually-hidden">Строка навигации</h2>
+    <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+                  <a href="/ru">Главная</a>
+              </li>
+          <li class="breadcrumb-item">
+                  Биометрические документы
+              </li>
+        </ol>
+  </nav>
+
+  </div>
+
+  </div>
+
+            <div class="row g-0">
+                <div class="order-1 order-lg-2 col-12">
+            <div class="region region-content">
+    <div data-drupal-messages-fallback class="hidden"></div>
+<div id="block-creative-innovative-page-title" class="block block-core block-page-title-block">
+  
+    
+      
+<h1><span class="field field--name-title field--type-string field--label-hidden">Биометрические документы</span>
+</h1>
+
+
+  </div>
+<div id="block-creative-innovative-content" class="block block-system block-system-main-block">
+  
+    
+      
+<article data-history-node-id="6703" role="article" class="node node--type-page node--view-mode-full">
+
+  
+    
+
+  
+  <div class="node__content">
+    
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><strong>2.Биометрические документы</strong></p>
+<p><a href="https://pravo.by/document/?guid=3871&p0=C22100297">31 мая 2021 г. Правительством принято постановление № 297 «О формах бланков биометрических документов и их описании»</a></p>
+<p><strong>Возможные образцы идентификационной карты гражданина (</strong><strong>ID</strong><strong>-карта).</strong></p>
+<p align="center"><img src="/sites/default/files/img-bisrs/biodocs1.png" alt="1" style="height: 212px; width:340px"><strong> </strong></p>
+<p align="center"><img src="/sites/default/files/img-bisrs/biodocs2.png" alt="1"  style="height: 212px; width:340px"><strong> </strong></p>
+<p>ID-карта будет содержать:</p>
+<p>фотоизображение (цифровой фотопортрет) владельца;</p>
+<p>фамилию, собственное имя, отчество (если таковое имеется) владельца;</p>
+<p>число, месяц, год рождения владельца;</p>
+<p>пол владельца;</p>
+<p>место рождения владельца;</p>
+<p>гражданство (подданство) владельца (при наличии);</p>
+<p>идентификационный номер;</p>
+<p>вид документа;</p>
+<p>номер документа;</p>
+<p>код Республики Беларусь;</p>
+<p>число, месяц, год выдачи документа;</p>
+<p>код органа, выдавшего документ;</p>
+<p>число, месяц, год окончания срока действия документа;</p>
+<p>машиносчитываемую зону;</p>
+<p>изображение подписи владельца, достигшего четырнадцатилетнего возраста, либо иностранца, приобретшего дееспособность в полном объеме в соответствии с законодательством Республики Беларусь (за исключением случаев, когда отобрать образец подписи физически невозможно);</p>
+<p>двухмерный штрих-код (QR-код), содержащий закодированную информацию о владельце документа (фамилию, собственное имя, отчество (если таковое имеется), число, месяц, год рождения), информацию о документе (номер, число, месяц, год выдачи, число, месяц, год окончания срока действия) и идентификационный номер;</p>
+<p>интегральную микросхему, содержащую электронное средство биометрической идентификации с персональными данными владельца биометрического документа в соответствии с требованиями международной организации по гражданской авиации (ICAO) и криптографический токен аутентификации.</p>
+<p> Интегральная микросхема (чип) ID-карты будет содержать:</p>
+<p>1. Криптографический токен аутентификации (КТА) – программное обеспечение с информацией о владельце (в соответствии с белорусскими стандартами) и для выработки электронно-цифровой подписи.</p>
+<p>КТА содержит следующие группы данных:</p>
+<p>a. DG1 идентификационный номер</p>
+<p>b. DG2- код страны, тип документа, номер ID-карты, дата выпуска, срок действия, код органа выдавшего документ, гражданство, место рождения.</p>
+<p>c. DG3- ФИО</p>
+<p>d. DG4- дата рождения</p>
+<p>e. DG5-пол</p>
+<p>2. Программное обеспечение (ПО) ICAO – ПО с информацией о владельце в международном формате.</p>
+<p></p>
+<p><strong>Возможные образцы биометрического паспорта</strong></p>
+<p><img src="/sites/default/files/img-bisrs/biodocs3.png" alt="1" width="555" height="323"><strong> </strong></p>
+<p><img src="/sites/default/files/img-bisrs/biodocs4.png" alt="1" width="555" height="323"><strong> </strong></p>
+<p>Биометрический паспорт гражданина Республики Беларусь (далее – биометрический паспорт) – документ, подтверждающий гражданство и удостоверяющий личность владельца в целях выезда из Республики Беларусь и въезда в Республику Беларусь, а также пребывания и проживания за пределами Республики Беларусь;</p>
+<p></p>
+<p>фотоизображение владельца;</p>
+<p>фамилию и собственное имя владельца;</p>
+<p>число, месяц, год рождения владельца;</p>
+<p>пол владельца;</p>
+<p>место рождения владельца;</p>
+<p>гражданство владельца (при наличии);</p>
+<p>идентификационный номер;</p>
+<p>номер документа;</p>
+<p>вид документа;</p>
+<p>код Республики Беларусь;</p>
+<p>число, месяц, год выдачи документа;</p>
+<p>код органа, выдавшего документ;</p>
+<p>число, месяц, год окончания срока действия документа;</p>
+<p>машиносчитываемую зону;</p>
+<p> В биометрический паспорт встроена интегральная микросхема (чип), содержащая электронное средство биометрической идентификации с персональными данными владельца биометрического документа в соответствии с требованиями международной организации по гражданской авиации (ICAO). </p>
+<p><a href="https://pravo.by/novosti/novosti-pravo-by/2021/june/64181/">Примеры иных образцов биометрических документов.</a></p></div>
+      <div class="node_view"><ul class="pre_links"><li><a href="/ru/node/6703/printable/pdf" target="_blank">PDF</a></li></ul></div>
+  </div>
+
+</article>
+
+  </div>
+
+  </div>
+
+        </div>
+              </div>
+    </div>
+  </div>
+      <div class="order-3 ">
+      <div class="region region-middle-content">
+    <div class="views-element-container block block-views block-views-blockleft-side-pics-block-1" id="block-views-block-left-side-pics-block-1">
+  
+    
+      <div data-block="middle_content"><div class="banner-list view view-left-side-pics view-id-left_side_pics view-display-id-block_1 js-view-dom-id-0cb7d007eaa88f995d84739e4410bb4a08f75afc27b9bbd730e8ceb546999ef1">
+  
+    
+      
+      <div class="view-content">
+          <div class="banner-row"><div class="views-field views-field-field-left-side-pic"><div class="field-content"><a href="/ru/o-merakh-po-realizacii-ukaza-prezidenta-respubliki-belarus-ot-7-aprelya-2022-g-no-136-0">  <img loading="lazy" src="/sites/default/files/styles/left_side_pic/public/20240722_4.jpg?itok=BerGJoiQ" width="298" height="100" alt="" class="img-fluid image-style-left-side-pic" />
+
+
+</a></div></div></div>
+    <div class="banner-row"><div class="views-field views-field-field-left-side-pic"><div class="field-content"><a href="/ru/gosudarstvennye-programmy">  <img loading="lazy" src="/sites/default/files/styles/left_side_pic/public/state-program-digital-belarus-2026-2030.png?itok=ZzNi-h25" width="298" height="100" alt="" class="img-fluid image-style-left-side-pic" />
+
+
+</a></div></div></div>
+    <div class="banner-row"><div class="views-field views-field-field-left-side-pic"><div class="field-content"><a href="/ru/sovet-po-proektam-v-sfere-cifrovogo-razvitiya-pri-ministerstve-svyazi-i-informatizacii-0">  <img loading="lazy" src="/sites/default/files/styles/left_side_pic/public/styles/left_side_pic/public/sovet_v_sfere_tsifrovogo.jpg?itok=2hzaX0IX" width="298" height="100" alt="" class="img-fluid image-style-left-side-pic" />
+
+
+</a></div></div></div>
+    <div class="banner-row"><div class="views-field views-field-field-left-side-pic"><div class="field-content"><a href="/ru/fond-universalnogo-obsluzhivaniya">  <img loading="lazy" src="/sites/default/files/styles/left_side_pic/public/styles/left_side_pic/public/fond-univ.png?itok=tmfcQG_j" width="298" height="100" alt="" class="img-fluid image-style-left-side-pic" />
+
+
+</a></div></div></div>
+    <div class="banner-row"><div class="views-field views-field-field-left-side-pic"><div class="field-content"><a href="/ru/smart-cities-belarus">  <img loading="lazy" src="/sites/default/files/styles/left_side_pic/public/styles/left_side_pic/public/20230606-goroda-bel.jpg?itok=9ZWkuJZP" width="290" height="108" alt="" class="img-fluid image-style-left-side-pic" />
+
+
+</a></div></div></div>
+    <div class="banner-row"><div class="views-field views-field-field-left-side-pic"><div class="field-content"><a href="https://www.mpt.gov.by/ru/reytingi-ikt-0">  <img loading="lazy" src="/sites/default/files/styles/left_side_pic/public/styles/left_side_pic/public/reitings-ikt.png?itok=WZmje2_d" width="298" height="100" alt="" class="img-fluid image-style-left-side-pic" />
+
+
+</a></div></div></div>
+    <div class="banner-row"><div class="views-field views-field-field-left-side-pic"><div class="field-content"><a href="/ru/belorusskaya-integrirovannaya-servisno-raschetnaya-sistema-1">  <img loading="lazy" src="/sites/default/files/styles/left_side_pic/public/styles/left_side_pic/public/biometrik-dok.jpg?itok=sLF0fgMp" width="299" height="100" alt="" class="img-fluid image-style-left-side-pic" />
+
+
+</a></div></div></div>
+    <div class="banner-row"><div class="views-field views-field-field-left-side-pic"><div class="field-content"><a href="/ru/nw">  <img loading="lazy" src="/sites/default/files/styles/left_side_pic/public/styles/left_side_pic/public/map-ohv.jpg?itok=Jg1JZ_Ib" width="298" height="100" alt="" class="img-fluid image-style-left-side-pic" />
+
+
+</a></div></div></div>
+    <div class="banner-row"><div class="views-field views-field-field-left-side-pic"><div class="field-content"><a href="/ru/sektoralnyy-sovet-kvalifikaciy-v-sfere-ikt-i-svyazi">  <img loading="lazy" src="/sites/default/files/styles/left_side_pic/public/styles/left_side_pic/public/sektoral-sov.png?itok=yZOXMgnX" width="298" height="100" alt="" class="img-fluid image-style-left-side-pic" />
+
+
+</a></div></div></div>
+    <div class="banner-row"><div class="views-field views-field-field-left-side-pic"><div class="field-content"><a href="/ru/kiberbezopasnost">  <img loading="lazy" src="/sites/default/files/styles/left_side_pic/public/styles/left_side_pic/public/kiberbezop.png?itok=auyz25W1" width="298" height="100" alt="" class="img-fluid image-style-left-side-pic" />
+
+
+</a></div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+<div class="views-element-container news_footer_block block block-views block-views-blocknews-block-2" id="block-views-block-news-block-2">
+  
+    
+      <div data-block="middle_content"><div class="footer-news-list view view-news view-id-news view-display-id-block_2 js-view-dom-id-fc0c7b4b6a3f5767127c3f990fec0c2a0d935bf342c225f427e9d9b2c150df16">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-view-grid horizontal cols-6 clearfix">
+            <div class="views-row clearfix row-1">
+                  <div class="footer-news views-col col-1" style="width: 16.666666666667%;"><div class="views-field views-field-field-news-img"><div class="field-content"><a href="/ru/2026-is-the-Year-of-the-Belarusian-Woman">  <img loading="lazy" src="/sites/default/files/styles/medium/public/2026-god-bel-zhenschiny.jpg?itok=RtFC5RT9" width="300" height="200" alt="" class="img-fluid image-style-medium" />
+
+
+</a></div></div></div>
+                  <div class="footer-news views-col col-2" style="width: 16.666666666667%;"><div class="views-field views-field-field-news-img"><div class="field-content"><a href="/ru/2024-god-kachestva">  <img loading="lazy" src="/sites/default/files/styles/medium/public/20250211-pyat-let-kachestva.jpg?itok=8aoZXe_C" width="300" height="200" alt="" class="img-fluid image-style-medium" />
+
+
+</a></div></div></div>
+                  <div class="footer-news views-col col-3" style="width: 16.666666666667%;"><div class="views-field views-field-field-news-img"><div class="field-content"><a href="/ru/portal-reytingovoy-ocenki">  <img loading="lazy" src="/sites/default/files/styles/medium/public/banner_pro_3_variant_zhirnyy_shrift.png?itok=A27w313-" width="300" height="200" alt="" class="img-fluid image-style-medium" />
+
+
+</a></div></div></div>
+                  <div class="footer-news views-col col-4" style="width: 16.666666666667%;"><div class="views-field views-field-field-news-img"><div class="field-content"><a href="/ru/celi-ustoychivogo-razvitiya">  <img loading="lazy" src="/sites/default/files/styles/medium/public/20211115-1.jpg?itok=pacYpln0" width="300" height="200" alt="" class="img-fluid image-style-medium" />
+
+
+</a></div></div></div>
+                  <div class="footer-news views-col col-5" style="width: 16.666666666667%;"><div class="views-field views-field-field-news-img"><div class="field-content"><a href="/ru/pered-pamyatyu-vremya-bessilno">  <img loading="lazy" src="/sites/default/files/styles/medium/public/20220329_7.jpg?itok=jcVXvtuv" width="300" height="200" alt="" class="img-fluid image-style-medium" />
+
+
+</a></div></div></div>
+                  <div class="footer-news views-col col-6" style="width: 16.666666666667%;"><div class="views-field views-field-field-news-img"><div class="field-content"><a href="/ru/trade-union">  <img loading="lazy" src="/sites/default/files/styles/medium/public/%D0%91%D0%B5%D0%B7%20%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-3.png?itok=UzQ8ERJH" width="300" height="200" alt="" class="img-fluid image-style-medium" />
+
+
+</a></div></div></div>
+              </div>
+          <div class="views-row clearfix row-2">
+                  <div class="footer-news views-col col-1" style="width: 16.666666666667%;"><div class="views-field views-field-field-news-img"><div class="field-content"><a href="https://center.gov.by/">  <img loading="lazy" src="/sites/default/files/styles/medium/public/%D0%91%D0%B5%D0%B7-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1%20%2828%29_1.jpg?itok=d6y5Bqkg" width="300" height="200" alt="" class="img-fluid image-style-medium" />
+
+
+</a></div></div></div>
+              </div>
+      </div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+
+  </div>
+
+    </div>
+  
+  
+  </main>
+
+<footer class="mt-auto  p-0   footer-dark text-light bg-dark">
+      <div class="footer-banners">
+    
+      <div class="container">
+                  <div class="">
+            <div class="region region-footer-content">
+    <div class="views-element-container block block-views block-views-blockpartnery-block-1" id="block-views-block-partnery-block-1">
+  
+    
+      <div data-block="footer_content"><div class="footer-banners-list view view-partnery view-id-partnery view-display-id-block_1 js-view-dom-id-fcc4384ab47b45d0b09753cbef53ce348c92a52706e303950d5882fd64804a2e">
+  
+    
+      
+      <div class="view-content">
+          <div class="footer-banners-row"><div class="views-field views-field-field-partner-logotip"><div class="field-content"><a href="https://www.itu.int">  <img loading="lazy" src="/sites/default/files/styles/clone_video_embed_wysiwyg/public/styles/partner_logo/public/itu-logo.png?itok=7f7uHjT5" width="130" height="60" alt="" class="img-fluid image-style-clone-video-embed-wysiwyg" />
+
+
+</a></div></div></div>
+    <div class="footer-banners-row"><div class="views-field views-field-field-partner-logotip"><div class="field-content"><a href="https://www.upu.int">  <img loading="lazy" src="/sites/default/files/styles/clone_video_embed_wysiwyg/public/styles/partner_logo/public/upu-logo.png?itok=qTMZADwG" width="130" height="60" alt="" class="img-fluid image-style-clone-video-embed-wysiwyg" />
+
+
+</a></div></div></div>
+    <div class="footer-banners-row"><div class="views-field views-field-field-partner-logotip"><div class="field-content"><a href="https://www.rcc.org.ru/">  <img loading="lazy" src="/sites/default/files/styles/clone_video_embed_wysiwyg/public/styles/partner_logo/public/rss-logo.png?itok=P34D_stH" width="130" height="60" alt="" class="img-fluid image-style-clone-video-embed-wysiwyg" />
+
+
+</a></div></div></div>
+    <div class="footer-banners-row"><div class="views-field views-field-field-partner-logotip"><div class="field-content"><a href="https://www.eutelsat.com">  <img loading="lazy" src="/sites/default/files/styles/clone_video_embed_wysiwyg/public/2023-11/eutelsat-logo.png?itok=amJWEfT6" width="130" height="29" alt="" class="img-fluid image-style-clone-video-embed-wysiwyg" />
+
+
+</a></div></div></div>
+    <div class="footer-banners-row"><div class="views-field views-field-field-partner-logotip"><div class="field-content"><a href="https://industrialpark.by/">  <img loading="lazy" src="/sites/default/files/styles/clone_video_embed_wysiwyg/public/styles/partner_logo/public/velikiy-kitayskiy-kamen_0.jpg?itok=ZWMF_kZj" width="130" height="60" alt="" class="img-fluid image-style-clone-video-embed-wysiwyg" />
+
+
+</a></div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+
+  </div>
+
+          </div>
+              </div>
+    </div>
+            <div class="">
+          <div class="region region-footer-banner">
+    <div class="views-element-container container block block-views block-views-blockslayder-goverment-link-slider-goverment-block-1" id="block-views-block-slayder-goverment-link-slider-goverment-block-1">
+  
+    
+      <div data-block="footer_banner"><div class="government-links-flexslider view view-slayder-goverment-link view-id-slayder_goverment_link view-display-id-slider_goverment_block_1 js-view-dom-id-316c1f86d5a3ebf81d1c9eeca000eef8922570c84ba0e5a3076d4366f53a200e">
+  
+    
+      
+      <div class="view-content">
+      <div data-settings="{&quot;grouping&quot;:{},&quot;row_class&quot;:&quot;&quot;,&quot;default_row_class&quot;:true,&quot;uses_fields&quot;:false,&quot;items&quot;:5,&quot;margin&quot;:10,&quot;nav&quot;:true,&quot;autoplay&quot;:true,&quot;autoplayHoverPause&quot;:true,&quot;loop&quot;:true,&quot;dots&quot;:false,&quot;dimensionMobile&quot;:&quot;0&quot;,&quot;itemsMobile&quot;:&quot;2&quot;,&quot;dimensionDesktop&quot;:&quot;800&quot;,&quot;itemsDesktop&quot;:&quot;5&quot;,&quot;responsive&quot;:{&quot;0&quot;:{&quot;items&quot;:2},&quot;800&quot;:{&quot;items&quot;:5}}}" class="owl-slider-wrapper owl-carousel owl-theme">
+  
+      <div><div class="views-field views-field-title"><span class="field-content"><a href="https://forumpravo.by/">Правовой форум Беларуси</a></span></div></div>
+      <div><div class="views-field views-field-title"><span class="field-content"><a href="http://www.eurasiancommission.org/">Евразийская экономическая комиссия</a></span></div></div>
+      <div><div class="views-field views-field-title"><span class="field-content"><a href="http://www.belstat.gov.by/">Национальный статистический комитет Республики Беларусь</a></span></div></div>
+      <div><div class="views-field views-field-title"><span class="field-content"><a href="https://president.gov.by/ru/gosorgany">Государственные органы и организации Беларуси</a></span></div></div>
+      <div><div class="views-field views-field-title"><span class="field-content"><a href="http://www.belarus.by/ru/">belarus.by</a></span></div></div>
+      <div><div class="views-field views-field-title"><span class="field-content"><a href="http://www.mir.pravo.by/">Детский правовой сайт</a></span></div></div>
+      <div><div class="views-field views-field-title"><span class="field-content"><a href="http://www.export.by/">Интернет-портал Export.by</a></span></div></div>
+      <div><div class="views-field views-field-title"><span class="field-content"><a href="http://www.brsm.by/">Белорусский республиканский союз молодежи</a></span></div></div>
+      <div><div class="views-field views-field-title"><span class="field-content"><a href="http://www.portal.gov.by/">Единый портал государственных электронных услуг</a></span></div></div>
+      <div><div class="views-field views-field-title"><span class="field-content"><a href="http://www.belta.by/">Белорусское телеграфное агентство</a></span></div></div>
+      <div><div class="views-field views-field-title"><span class="field-content"><a href="https://pravo.by/">Национальный правовой портал Республики Беларусь</a></span></div></div>
+      <div><div class="views-field views-field-title"><span class="field-content"><a href="http://www.house.gov.by/">Палата представителей Национального собрания Республики Беларусь</a></span></div></div>
+      <div><div class="views-field views-field-title"><span class="field-content"><a href="http://www.sovrep.gov.by/ru/">Совет Республики Национального собрания Республики Беларусь</a></span></div></div>
+      <div><div class="views-field views-field-title"><span class="field-content"><a href="http://www.government.by/ru/">Совет Министров Республики Беларусь</a></span></div></div>
+      <div><div class="views-field views-field-title"><span class="field-content"><a href="https://president.gov.by/ru/gosorgany">Интернет-портал Президента Республики Беларусь</a></span></div></div>
+  
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+
+  </div>
+
+        </div>
+        <div class="container">
+      <div class="footer-cont row">
+        <div class="col-lg-3 col-12 col-md-6">
+            <div class="region region-footer-first">
+    <nav role="navigation" aria-labelledby="block-oministerstve-menu" id="block-oministerstve" class="block block-menu navigation menu--o-ministerstve">
+      
+  <h5 id="block-oministerstve-menu">О Министерстве</h5>
+  
+
+        
+              <ul data-block="footer_first" class="nav navbar-nav">
+                    <li class="nav-item">
+        <a href="http://www.pravo.by/document/?guid=3871&amp;p0=C20400302" class="nav-link">Положение о Министерстве</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/funkcii-i-glavnye-zadachi" class="nav-link" data-drupal-link-system-path="node/42">Функции и задачи</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/istoriya" class="nav-link" data-drupal-link-system-path="node/43">История</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/management" class="nav-link" data-drupal-link-system-path="management">Руководство</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/struktura-upravleniya" class="nav-link" data-drupal-link-system-path="node/46">Структура управления</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/organizations" class="nav-link" data-drupal-link-system-path="organizations">Организации системы Минсвязи</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/kollegiya" class="nav-link" data-drupal-link-system-path="taxonomy/term/3">Коллегия</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/gosudarstvennaya-sluzhba" class="nav-link" data-drupal-link-system-path="node/941">Государственная служба</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/obshchestvennyy-sovet" class="nav-link" data-drupal-link-system-path="node/291">Общественно-консультативный совет</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/perechen-npa-reguliruyushchih-deyatelnost" class="nav-link" data-drupal-link-system-path="taxonomy/term/49">Перечень НПА, регулирующих деятельность</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/obshchestvennoe-obsuzhdenie-proektov-npa" class="nav-link" data-drupal-link-system-path="node/269">Общественное обсуждение проектов НПА</a>
+              </li>
+                <li class="nav-item">
+        <a href="https://www.mpt.gov.by/ru/polozhenie-o-politike-v-otnoshenii-obrabotki-kuki" class="nav-link">Положение о политике в отношении обработки куки</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+        </div>
+        <div class="col-lg-3 col-12 col-md-6">
+            <div class="region region-footer-second">
+    <nav role="navigation" aria-labelledby="block-deyatelnost-menu" id="block-deyatelnost" class="block block-menu navigation menu--deyatelnost">
+      
+  <h5 id="block-deyatelnost-menu">Деятельность</h5>
+  
+
+        
+              <ul data-block="footer_second" class="nav navbar-nav">
+                    <li class="nav-item">
+        <a href="/ru/pokazateli-razvitiya-otrasli" class="nav-link" data-drupal-link-system-path="node/9407">Показатели развития отрасли</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/telekommunikaciya" class="nav-link" data-drupal-link-system-path="node/37">Телекоммуникация</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/pochtovaya-deyatelnost" class="nav-link" data-drupal-link-system-path="node/36">Почтовая деятельность</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/licenzirovanie" class="nav-link" data-drupal-link-system-path="taxonomy/term/32">Лицензирование</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/mezhdunarodnoe-sotrudnichestvo" class="nav-link" data-drupal-link-system-path="taxonomy/term/45">Международное сотрудничество</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/gosudarstvennaya-komissiya-po-radiochastotam-pri-sovete-bezopasnosti-respubliki-belarus" class="nav-link" data-drupal-link-system-path="node/155">Государственная комиссия по радиочастотам</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/obshchestvennoe-obsuzhdenie-proektov-npa" class="nav-link" data-drupal-link-system-path="node/269">Общественное обсуждение проектов НПА</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/investicionnyy-fond" class="nav-link" data-drupal-link-system-path="node/266">Инвестиционный фонд</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/zakupki" class="nav-link" data-drupal-link-system-path="node/257">Закупки</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/o-rasporyazhenii-gosimushchestvom" class="nav-link" data-drupal-link-system-path="node/438">О распоряжении госимуществом</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/tekhnicheskoe-normirovanie-i-standartizaciya" class="nav-link" data-drupal-link-system-path="node/258">Техническое нормирование и стандартизация</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/okhrana-truda-i-pozh-bezopasnost" class="nav-link" data-drupal-link-system-path="node/9278">Охрана труда и пожарная безопасность</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/kontrolnaya-deyatelnost" class="nav-link" data-drupal-link-system-path="taxonomy/term/46">Контрольная деятельность</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/kiberbezopasnost" class="nav-link" data-drupal-link-system-path="node/6879">Кибербезопасность</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/antikorrupcionnaya-deyatelnost" class="nav-link" data-drupal-link-system-path="taxonomy/term/47">Антикоррупционная деятельность</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+        </div>
+        <div class="col-lg-3 col-12 col-md-6">
+            <div class="region region-footer-third">
+    <nav role="navigation" aria-labelledby="block-presscentr-menu" id="block-presscentr" class="block block-menu navigation menu--press-centr">
+      
+  <h5 id="block-presscentr-menu">Пресс-центр</h5>
+  
+
+        
+              <ul data-block="footer_third" class="nav navbar-nav">
+                    <li class="nav-item">
+        <a href="/ru/kontakty-dlya-smi" class="nav-link" data-drupal-link-system-path="node/3522">Взаимодействие со СМИ</a>
+              </li>
+                <li class="nav-item">
+        <a href="https://www.youtube.com/channel/UCarEUOTO_J4v-HYAEoQZSQw" class="nav-link">Видео</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/news" class="nav-link" data-drupal-link-system-path="news">Новости</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/otraslevye-smi" class="nav-link" data-drupal-link-system-path="node/3524">Отраслевые СМИ</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/smi-o-nas" class="nav-link" data-drupal-link-system-path="smi-o-nas">СМИ о нас</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/foto-dlya-smi" class="nav-link" data-drupal-link-system-path="node/3523">Фото для СМИ</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+        </div>
+        <div class="col-lg-3 col-12 col-md-6">
+            <div class="region region-footer-fourth">
+    <nav role="navigation" aria-labelledby="block-priemnaya-menu" id="block-priemnaya" class="block block-menu navigation menu--priemnaya">
+      
+  <h5 id="block-priemnaya-menu">Приемная</h5>
+  
+
+        
+              <ul data-block="footer_fourth" class="nav navbar-nav">
+                    <li class="nav-item">
+        <a href="/ru/grafik-provedeniya-subbotnikh-pryamykh-telefonnykh-liniy-v-ministerstve-svyazi-i-infrmatizacii" class="nav-link" data-drupal-link-system-path="node/6">«Прямая телефонная линия»</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/grafik-priema" class="nav-link" data-drupal-link-system-path="node/4">График приема</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/kontaktnaya-informaciya" class="nav-link" data-drupal-link-system-path="node/3">Контакты</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/odno-okno" class="nav-link" data-drupal-link-system-path="node/8">Одно окно</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/faq" class="nav-link" data-drupal-link-system-path="node/8568">Часто задаваемые вопросы</a>
+              </li>
+                <li class="nav-item">
+        <a href="/ru/elektronnye-obrashcheniya" class="nav-link" data-drupal-link-system-path="node/10">Электронные обращения</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid text-white footer-last">
+      <div class="container text-center">
+        <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
+          © 2026 Министерство связи и информатизации Республики Беларусь
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top   footer-right arrow-up-right"><i class="bi bi-arrow-up"></i></a>
+  </footer>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"ru\/","currentPath":"node\/6703","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"ru"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"addtocopy":{"addtocopy":{"selector":"body","minlen":"10","htmlcopytxt":"\u003Cbr\u003E\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0441 \u0441\u0430\u0439\u0442\u0430: \u003Ca href=\u0022[link]\u0022\u003E[link]\u003C\/a\u003E\u003Cbr\u003E","addcopyfirst":"000"}},"responsive_menus":[{"toggler_text":"\u2630 Menu","selectors":["#main-menu"],"media_size":768,"media_unit":"px","absolute":1,"disable_mouse_events":0,"remove_attributes":1,"responsive_menus_style":"responsive_menus_simple"}],"eu_cookie_compliance":{"cookie_policy_version":"1.0.0","popup_enabled":true,"popup_agreed_enabled":false,"popup_hide_agreed":false,"popup_clicking_confirmation":false,"popup_scrolling_confirmation":false,"popup_html_info":"\u003Cdiv aria-labelledby=\u0022popup-text\u0022  class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--opt-in\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n        \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022 role=\u0022document\u0022\u003E\n      \u003Ch2\u003E\u0414\u043b\u044f \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u044f \u0443\u0434\u043e\u0431\u0441\u0442\u0432\u0430 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u0439 \u0441\u0430\u0439\u0442\u0430 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u044e\u0442\u0441\u044f cookies\u003C\/h2\u003E\n\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003E\u041f\u043e\u0434\u0440\u043e\u0431\u043d\u0435\u0435\u003C\/button\u003E\n          \u003C\/div\u003E\n\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n            \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-secondary-button button button--small\u0022\u003E\u041f\u0440\u0438\u043d\u044f\u0442\u044c\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022decline-button eu-cookie-compliance-default-button button button--small button--primary\u0022\u003E\u041e\u0442\u043a\u043b\u043e\u043d\u0438\u0442\u044c\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cdiv aria-labelledby=\u0022popup-text\u0022  class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--opt-in\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n        \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022 role=\u0022document\u0022\u003E\n      \n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003E\u041f\u043e\u0434\u0440\u043e\u0431\u043d\u0435\u0435\u003C\/button\u003E\n          \u003C\/div\u003E\n\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n            \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-secondary-button button button--small\u0022\u003E\u041f\u0440\u0438\u043d\u044f\u0442\u044c\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022decline-button eu-cookie-compliance-default-button button button--small button--primary\u0022\u003E\u041e\u0442\u043a\u043b\u043e\u043d\u0438\u0442\u044c\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","mobile_breakpoint":768,"popup_html_agreed":false,"popup_use_bare_css":false,"popup_height":"auto","popup_width":"100%","popup_delay":1000,"popup_link":"https:\/\/www.mpt.gov.by\/ru\/polozhenie-o-politike-v-otnoshenii-obrabotki-kuki","popup_link_new_window":true,"popup_position":false,"fixed_top_position":true,"popup_language":"ru","store_consent":false,"better_support_for_screen_readers":false,"cookie_name":"","reload_page":false,"domain":"","domain_all_sites":false,"popup_eu_only":false,"popup_eu_only_js":false,"cookie_lifetime":100,"cookie_session":0,"set_cookie_session_zero_on_disagree":1,"disagree_do_not_show_popup":false,"method":"opt_in","automatic_cookies_removal":true,"allowed_cookies":"","withdraw_markup":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003EPrivacy settings\u003C\/button\u003E\n\u003Cdiv aria-labelledby=\u0022popup-text\u0022 class=\u0022eu-cookie-withdraw-banner\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022 role=\u0022document\u0022\u003E\n      \u003Ch2\u003E\u041c\u044b \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u043c \u0444\u0430\u0439\u043b\u044b cookie \u043d\u0430 \u044d\u0442\u043e\u043c \u0441\u0430\u0439\u0442\u0435, \u0447\u0442\u043e\u0431\u044b \u0443\u043b\u0443\u0447\u0448\u0438\u0442\u044c \u0432\u0430\u0448 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0439 \u043e\u043f\u044b\u0442\u003C\/h2\u003E\n\u003Cp\u003E\u0412\u044b \u0434\u0430\u043b\u0438 \u0441\u0432\u043e\u0435 \u0441\u043e\u0433\u043b\u0430\u0441\u0438\u0435 \u043d\u0430 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0443 \u0444\u0430\u0439\u043b\u043e\u0432 cookie.\u003C\/p\u003E\n\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button  button button--small button--primary\u0022\u003EWithdraw consent\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","withdraw_enabled":false,"reload_options":0,"reload_routes_list":"","withdraw_button_on_info_popup":false,"cookie_categories":[],"cookie_categories_details":[],"enable_save_preferences_button":true,"cookie_value_disagreed":"0","cookie_value_agreed_show_thank_you":"1","cookie_value_agreed":"2","containing_element":"body","settings_tab_enabled":false,"olivero_primary_button_classes":" button button--small button--primary","olivero_secondary_button_classes":" button button--small","close_button_action":"close_banner","open_by_default":true,"modules_allow_popup":true,"hide_the_banner":false,"geoip_match":true},"ckeditorAccordion":{"accordionStyle":{"collapseAll":1,"keepRowsOpen":0,"animateAccordionOpenAndClose":1,"openTabsWithHash":0}},"TBMegaMenu":{"TBElementsCounter":{"column":10},"theme":"creative_innovative"},"ajaxTrustedUrl":{"\/ru\/search\/node":true,"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true},"user":{"uid":0,"permissionsHash":"24a2abd589bbf409c9e7bb840129e15e44ab237b234c1baf6f646e396679aa7b"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.6.3"></script>
+<script src="/core/misc/polyfills/element.matches.js?v=9.5.10"></script>
+<script src="/core/misc/polyfills/object.assign.js?v=9.5.10"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/assets/vendor/jquery-once/jquery.once.min.js?v=2.2.3"></script>
+<script src="/sites/default/files/languages/ru_Qg9I8E6wzjXWwdBRv4IrO43cvmwC2zZzaTRjkaglz84.js?t5yn6a"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=9.5.10"></script>
+<script src="/core/misc/drupal.js?v=9.5.10"></script>
+<script src="/core/misc/drupal.init.js?v=9.5.10"></script>
+<script src="/modules/contrib/addtocopy/js/addtocopy.js?t5yn6a"></script>
+<script src="/modules/contrib/addtocopy/js/addtocopy_lib.js?t5yn6a"></script>
+<script src="/core/misc/jquery.once.bc.js?v=9.5.10"></script>
+<script src="/modules/contrib/responsive_menus/styles/responsive_menus_simple/js/responsive_menus_simple.js?v=9.5.10"></script>
+<script src="/themes/contrib/bootstrap5/dist/bootstrap/5.3.2/dist/js/bootstrap.bundle.js?v=5.3.2"></script>
+<script src="/themes/contrib/creative_innovative/js/custom.js?t5yn6a"></script>
+<script src="/themes/contrib/creative_innovative/lib/counterup/counterup.min.js?t5yn6a"></script>
+<script src="/themes/contrib/creative_innovative/lib/easing/easing.js?t5yn6a"></script>
+<script src="/themes/contrib/creative_innovative/lib/easing/easing.min.js?t5yn6a"></script>
+<script src="/themes/contrib/creative_innovative/lib/owlcarousel/owl.carousel.js?t5yn6a"></script>
+<script src="/themes/contrib/creative_innovative/lib/owlcarousel/owl.carousel.min.js?t5yn6a"></script>
+<script src="/themes/contrib/creative_innovative/lib/waypoints/waypoints.min.js?t5yn6a"></script>
+<script src="/themes/contrib/creative_innovative/lib/wow/wow.js?t5yn6a"></script>
+<script src="/themes/contrib/creative_innovative/lib/wow/wow.min.js?t5yn6a"></script>
+<script src="/themes/contrib/creative_innovative/lib/main.js?t5yn6a"></script>
+<script src="/core/assets/vendor/js-cookie/js.cookie.min.js?v=3.0.1"></script>
+<script src="/core/misc/jquery.cookie.shim.js?v=9.5.10"></script>
+<script src="/modules/contrib/eu_cookie_compliance/js/eu_cookie_compliance.min.js?v=9.5.10" defer></script>
+<script src="/modules/contrib/ckeditor_accordion/js/accordion.frontend.min.js?t5yn6a"></script>
+<script src="/libraries/owlcarousel2/dist/owl.carousel.js?v=9.5.10"></script>
+<script src="/modules/contrib/owlcarousel/js/owlcarousel.js?v=9.5.10"></script>
+<script src="/modules/contrib/tb_megamenu/js/tb-megamenu-frontend.js?v=1.x"></script>
+
+  </body>
+</html>
